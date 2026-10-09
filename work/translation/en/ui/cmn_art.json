@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "about": "Battle-screen lettering in /PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK member 0 (GTF at 0xa400). tools/cmn_art.py renders each label whose \"en\" is filled; null leaves the Japanese art untouched. Geometry and style are fixed in the tool; only the wording lives here. Already-English textures (t1 ribbon, t4 HP/EN gauge, t14 CRITICAL, t23 Center/Wide/ALL/MAXIMUM/Main/Assist/BREAK word atlas) are not listed.",
+  "labels": {
+    "maximum_break": {
+      "texture": 16,
+      "rect": [
+        0,
+        0,
+        1472,
+        176
+      ],
+      "jp": "マキシマムブレイク",
+      "en": "MAXIMUM BREAK",
+      "jigoku_en": "MAXIMUM BREAK",
+      "evidence": "eboot.json: マキシマムブレイクを使用 = Use Maximum Break; the game's own ribbon t1 and word atlas t23 read MAXIMUM BREAK.",
+      "note": "Drawn as nine animated cells MA|XI|M|U|M|B|R|EA|K; other wording needs a new cell plan in the tool."
+    },
+    "combo_attack": {
+      "texture": 10,
+      "rect": [
+        0,
+        0,
+        192,
+        48
+      ],
+      "jp": "合体攻撃",
+      "en": "Combo Attack",
+      "jigoku_en": "Combo Attack",
+      "evidence": "eboot.json 合体攻撃 = Combo Attack (reuse:jigoku)."
+    },
+    "counter": {
+      "texture": 11,
+      "rect": [
+        0,
+        0,
+        272,
+        64
+      ],
+      "jp": "カウンター",
+      "en": "Counter",
+      "jigoku_en": "Counter",
+      "evidence": "rpw_names.json skill カウンター = Counter; eboot.json 「カウンター」発生時 = When Counter triggers."
+    },
+    "attack_again": {
+      "texture": 11,
+      "rect": [
+        0,
+        64,
+        272,
+        64
+      ],
+      "jp": "再攻撃",
+      "en": "Re-Attack",
+      "jigoku_en": "Attack Again",
+      "evidence": "eboot.json ・再攻撃時使用可能 = - Attack Again OK; Jigoku's banner.",
+      "note": "Re-Attack, matching the skill name in rpw_names.json (orchestrator 2026-10-02)."
+    },
+    "support_attack": {
+      "texture": 11,
+      "rect": [
+        0,
+        128,
+        272,
+        64
+      ],
+      "jp": "援護攻撃",
+      "en": "Support Attack",
+      "jigoku_en": "Support Attack",
+      "evidence": "eboot.json （援護攻撃ＯＮ／ＯＦＦ） = (Toggle Support Attack); ・援護攻撃時使用可能 = - Support Attack OK."
+    },
+    "support_defense": {
+      "texture": 11,
+      "rect": [
+        0,
+        192,
+        272,
+        64
+      ],
+      "jp": "援護防御",
+      "en": "Support Defense",
+      "jigoku_en": "Support Defend",
+      "evidence": "eboot.json （援護防御ＯＮ／ＯＦＦ） = (Toggle Support Defense); the voice/script corpus uses \"support defense\" throughout. Jigoku's banner said Support Defend, which this project does not use.",
+      "note": "Rendered fresh (not Jigoku's pixels); one letter longer, condensed a little more."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Preserve JSON bytes: batch manifests record exact draft/snapshot hashes.
+* text=auto
+*.json -text whitespace=cr-at-eol
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf

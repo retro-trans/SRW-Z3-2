@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "slice": "dlg_2088_11",
+  "rows": {
+    "622:t_10:25": {
+      "sha": "2c723e7c63",
+      "en": "$n\n「.........」"
+    },
+    "622:t_10:26": {
+      "sha": "b093ce5bbf",
+      "en": "$$スズネ$$\n「Gadlight called those girls the hope of the $$ジェミナイド$$.」"
+    },
+    "622:t_10:27": {
+      "sha": "230a017a3d",
+      "en": "$$スズネ$$\n「They carry someone's feelings with them, so I think they'll surely live strong lives...」"
+    },
+    "622:t_10:28": {
+      "sha": "c107b01ea1",
+      "en": "$n\n「...I want to believe that too.」"
+    },
+    "622:t_10:29": {
+      "sha": "d0f3f251b3",
+      "en": "$$スズネ$$\n「Yeah...」"
+    },
+    "622:t_10:30": {
+      "sha": "aac8ba70a7",
+      "en": "$n\n「...So, AG... What are you sneaking around peeping at?」"
+    },
+    "622:t_10:31": {
+      "sha": "ff2116b20f",
+      "en": "$$ＡＧ$$\n「Peeping? How insulting! The problem is people canoodling in front of someone's shop!」"
+    },
+    "622:t_10:32": {
+      "sha": "4c226df89d",
+      "en": "$$スズネ$$\n「Oh, stop it, AG... Canoodling, really...」"
+    },
+    "622:t_10:33": {
+      "sha": "54d582e017",
+      "en": "$n\n「M-Miss $$スズネ$$!?」"
+    },
+    "622:t_10:34": {
+      "sha": "257e2dc758",
+      "en": "$$ＡＧ$$\n「Well then, now that the mood is right! Let's give it our all again today!」"
+    },
+    "622:t_10:35": {
+      "sha": "14c2f77820",
+      "en": "$$スズネ$$\n「Business is business!」"
+    },
+    "622:t_10:36": {
+      "sha": "c2562014a2",
+      "en": "$$ＡＧ$$\n「Same great spirit as ever, Miss $$スズネ$$.」"
+    },
+    "622:t_10:37": {
+      "sha": "cbee38bb35",
+      "en": "$$スズネ$$\n「It's been a while, so I wasn't too sure I could pull it off.」"
+    },
+    "622:t_10:38": {
+      "sha": "b3805d7019",
+      "en": "$$ＡＧ$$\n「Not at all. I'd love for you to give $n a lesson, in fact.」"
+    },
+    "622:t_10:39": {
+      "sha": "3e67684f3a",
+      "en": "$$ＡＧ$$\n「After all, on the whole $c, $n is the only one who hasn't done this yet.」"
+    },
+    "622:t_10:40": {
+      "sha": "0db609097e",
+      "en": "$n\n「The $$ソーラリアン$$ crew did it too!?」"
+    },
+    "622:t_10:41": {
+      "sha": "de9127abf9",
+      "en": "$$ＡＧ$$\n「Yes.」"
+    },
+    "622:t_10:42": {
+      "sha": "c5073c2efe",
+      "en": "$n\n「Even Dr. $$トライア$$, $$ツィーネ$$, and $$マルグリット$$!?」"
+    },
+    "622:t_10:43": {
+      "sha": "631e020668",
+      "en": "$$ＡＧ$$\n「Of course.」"
+    },
+    "622:t_10:44": {
+      "sha": "8f8214b3aa",
+      "en": "$n\n(I kind of wanted to see that...)"
+    },
+    "622:t_10:45": {
+      "sha": "4983355d25",
+      "en": "$$スズネ$$\n「Having impure thoughts right in front of me? You've got nerve, $n.」"
+    },
+    "622:t_10:46": {
+      "sha": "7c40f39608",
+      "en": "$n\n「S-Sorry, Miss $$スズネ$$...!」"
+    },
+    "622:t_10:47": {
+      "sha": "3c67ce93c8",
+      "en": "$$ＡＧ$$\n「Well, well... you two really are best together.」"
+    },
+    "622:t_10:48": {
+      "sha": "a7b0164372",
+      "en": "$$ＡＧ$$\n(For the battles ahead, too...)"
+    },
+    "623:t_000:0": {
+      "sha": "a92c4541a8",
+      "en": "$$ツインテール級$$\n「!」"
+    },
+    "623:t_001:0": {
+      "sha": "4f4fb26524",
+      "en": "$$ツインテール級$$\n「!!」"
+    },
+    "623:t_002:0": {
+      "sha": "ffceee1a98",
+      "en": "$$ＥＬＳ#robot$$\n「.........」"
+    }
+  },
+  "names": {},
+  "report": {
+    "rows_in_slice": 27,
+    "rows_examined": 27,
+    "left_untranslated": [],
+    "kept_omissions": [],
+    "uncertain": [
+      "622:t_10:32-35: speaker/pid mismatch in the data; read as Suzune answering AG's 'canoodling' jab, then joining AG's shop routine (Suzune says 商売、商売)",
+      "622:t_10:39: 'on the whole $c' for 何しろ$cで - $c is the player-named squad",
+      "623:t_002:0: ELS speaker token chosen #robot (pid_ELS_01 unit), not #keyword",
+      "622:t_10:29: reused Tengoku 'Okay...' changed to 'Yeah...' to answer the prior line"
+    ]
+  }
+}

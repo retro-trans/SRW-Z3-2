@@ -1,0 +1,1585 @@
+{
+  "schema": 1,
+  "group": "g181",
+  "blocks": [
+    181
+  ],
+  "speaker": {
+    "token": "トロワ・バートン",
+    "jigoku_pilot": "Trowa Barton",
+    "jigoku_unit": "UNKNOWN (no weapon call-out; Gundam Wing content)",
+    "fraction": 0.337,
+    "basis": "settled 2026-10-02 from fresh-translation review: Calls Heero, Duo, Quatre, Wufei, Hilde, Zechs and Noin by name; mentions Catherine (his sister-figure in the circus); calm, terse tone; 'My final performance' (circus). Matches Jigoku's Trowa.",
+    "proposed_by_v_g181_00": {
+      "token": "$$トロワ・バートン$$",
+      "basis": "Calls Heero, Duo, Quatre, Wufei, Hilde, Zechs and Noin by name; mentions Catherine (his sister-figure in the circus); calm, terse tone; 'My final performance' (circus). Matches Jigoku's Trowa."
+    },
+    "proposed_by_v_g181_01": {
+      "token": "$$トロワ・バートン$$",
+      "basis": "Addresses Heero, Duo, Quatre, Wufei, Hilde, Zechs, Noin by name; mentions Dekim and being nameless; matches Jigoku's Trowa lines"
+    },
+    "jigoku_token": "トロワ・バートン"
+  },
+  "lines": {
+    "181:0": {
+      "repository_source_sha256": "185ee2a802c37ab452bc9d223eb5170b53a97f04c1a14c0df819ce1a8203c77b",
+      "en": "「I'll take it.」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "181:15": {
+      "repository_source_sha256": "06d03d07859c52b85d85ee20613ba10c99c79168513cc69214a1b7cdb4d2151b",
+      "en": "「In my way? I won't hold back.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack"
+      ]
+    },
+    "181:50": {
+      "repository_source_sha256": "075ed91048b992f2626e6605820879ff8e5904347010cae94a8d9a77c9e01617",
+      "en": "「Target acquired... I'll destroy it.」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "181:73": {
+      "repository_source_sha256": "e81ead961a55ac9f5d10a788e3829dfa474866791601ee9ed18dbdb1a98f91c7",
+      "en": "「Not bad... but your finish was weak.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:106": {
+      "repository_source_sha256": "b371452e3b3955cba5d1f60ab740d376bcdcd1da6c63ca93dd36b3759d054c30",
+      "en": "「Ngh!\\nYou do have some power.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:153": {
+      "repository_source_sha256": "1eb3039bab6897b85fcbb3be1282af5c504728a918c1ac290108d34fe506c59b",
+      "en": "「Ngh!\\nOperational. Continue mission.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "181:198": {
+      "repository_source_sha256": "98c34fbf16bd03394e136fea0ce16367d564adb82af56944c11f480c03c51e0a",
+      "en": "「I see... That attack was precise.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "181:225": {
+      "repository_source_sha256": "9068985943fd783a093cedc2ebdaf98eb6f7f5054f643598f5290d23ec7f54b6",
+      "en": "「You should've gauged\\nour strength.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "181:274": {
+      "repository_source_sha256": "4312e3f25f26c1f0a97c3d5bf8918aca7d29c9850d57393a9a88d28c831145d4",
+      "en": "「Is that all...?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "181:291": {
+      "repository_source_sha256": "c5e004525b502bce64d903b879e882257fee1a6e916a1058d37a8def524d734b",
+      "en": "「A useless attack on every level.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:330": {
+      "repository_source_sha256": "97d58f42552a8acdcc86735407842b4d688539a279a0e2db27380201d8b8d0c2",
+      "en": "「Too simple... I've read the pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:365": {
+      "repository_source_sha256": "a77d083e5c1712689832fc544841182cb38c4b50ed3d51c0d20746ffa0889018",
+      "en": "「You're too far away from here.」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "181:400": {
+      "repository_source_sha256": "ccc1f1cd4699c37715d0c864a60ac48a2e152cc8c2eb9f51fe327e148161409e",
+      "en": "「Too slow.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ],
+      "alternatives": [
+        "You're slow."
+      ],
+      "review": "conflict"
+    },
+    "181:411": {
+      "repository_source_sha256": "da3dab00bbd94c4aec974fb34b765db95db46eb3ebe9f26c83628b882fb58a76",
+      "en": "「Careless moves will get you killed.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:444": {
+      "repository_source_sha256": "d09e57ddffceacd23f773cd52fef2be0759b74503bd55b2a5c249d23635abe3e",
+      "en": "「Target, locked.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "181:469": {
+      "repository_source_sha256": "0706c9800cbe16de3dd4438ff48304721acacba702e454a8992e431e236a5962",
+      "en": "「A failure...?」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "181:482": {
+      "repository_source_sha256": "74dd9ae1c9786ccdc9991c42076d6ab2057d1bc14b4587e0a7e0cf5082492012",
+      "en": "「Is this the end...?」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Is this as far as I go?"
+      ],
+      "review": "conflict"
+    },
+    "181:499": {
+      "repository_source_sha256": "a54768f156bfa8da96c873b41aa47d7a46bf540d4f074cf73650b755c49cd8b0",
+      "en": "「Shall we begin?」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:514": {
+      "repository_source_sha256": "0b98faace2a7fdb3db4958fcfdf35a403429dab82a9d80e8b5427e949c22af4a",
+      "en": "「Move aside, would you?」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "181:541": {
+      "repository_source_sha256": "be9a842b1ef98fb849e98fab005be9cd5932b92d36ffacb39bd1da111048606a",
+      "en": "「I'll fight anything in my way.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:574": {
+      "repository_source_sha256": "4132dafcbfcad66c606a47011fc4d775a39545283901462492a55e8dfcf5e46e",
+      "en": "「You noticed me too late.」",
+      "source": "jigoku",
+      "slots": [
+        "attack"
+      ]
+    },
+    "181:607": {
+      "repository_source_sha256": "37bd83b3ac8d34f2ba55dec3995781a3a2e7eab82f45fbe8d36b1f043f539600",
+      "en": "「I won't hold back.」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)",
+        "weapon slot 2",
+        "weapon slot 3"
+      ]
+    },
+    "181:624": {
+      "repository_source_sha256": "c9780a0e6e4ff3180c42ec358b50154d5b795f6aa6c4aabeef54f012f015bcfd",
+      "en": "「Commencing attack.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:643": {
+      "repository_source_sha256": "f6746d10dddb8e31a1dd6b5dc92dcc7a045152bc842406eb03cd48579c5208fc",
+      "en": "「Tactically, you chose right.\\nBut...」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:692": {
+      "repository_source_sha256": "84b3f40a0a9177e6f3ba4e95e974acdf00210fd08576d783f25161365e8ef354",
+      "en": "「I'll erase everything.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "181:713": {
+      "repository_source_sha256": "754ac27bbe2174437bb9b8fc82f3a1f3ef357a596a4390abe7f51124679031db",
+      "en": "「I'll annihilate the enemy.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "181:730": {
+      "repository_source_sha256": "3df360acfd8806b40b1ab0480c79e58591dc142b254aeaed09fe41ae37f80c5e",
+      "en": "「Just the Mobile Suit?\\nI'll manage.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:787": {
+      "repository_source_sha256": "96c026acadf4053419100a61d6988973d8cc7b1a40bf14e06349a1e2ae1c805f",
+      "en": "「I seem deeply tied to Gundams.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:822": {
+      "repository_source_sha256": "4c5c4aafae30f0ae4a35fb5059f38828f4b9e75b1b60d48f6a728a5ce1951120",
+      "en": "「I'll fight anyone in my way.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:861": {
+      "repository_source_sha256": "b398b03b825393e18a4691268bcef1a8e5878480d011a3aa103b8658d08df604",
+      "en": "「Final target, locked.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "181:888": {
+      "repository_source_sha256": "aa54cf7ae8b21a8e01e1ddd13ee549651e4511da08a46c2321eeddc9e22b2028",
+      "en": "「My final performance...」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "181:909": {
+      "repository_source_sha256": "c7c1d1ad802f687e5bdf2f38f17c248c70644024d171585b72d7a88362ae3584",
+      "en": "「Switching to support.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "181:932": {
+      "repository_source_sha256": "5930f69a0be4f3821a517b8f3a92baf2f502ffcd5c381183b1baa14763725761",
+      "en": "「I'll cover you.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "181:945": {
+      "repository_source_sha256": "3583b7a419153dcb885378e710fb19457d28718e85a22c2e1c542f3aea883b11",
+      "en": "「Continuing the attack.」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack",
+        "support attack"
+      ]
+    },
+    "181:964": {
+      "repository_source_sha256": "353b5e40c4dbee15d045c3dc4533be939f70b00034876bae4e14332dbf591644",
+      "en": "「$$ヒイロ$$, I'll cover you.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "181:985": {
+      "repository_source_sha256": "18dd23ec3923bbe93fc733c610fc9fac155994b3a7029feb69c02c95fc603a39",
+      "en": "「$$デュオ$$, I'll attack from here too.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "181:1018": {
+      "repository_source_sha256": "f0d268a1544608f04f104dcbf53407f98aa42640075330358c92d1368911dbda",
+      "en": "「$$カトル$$, leave the rest to me.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "181:1045": {
+      "repository_source_sha256": "1ea9795aa2dbe98b3263ee6b049fd1f744c5c7f60a3cf83d2bcdb8e861d9ec22",
+      "en": "「$$五飛$$, I'll cover you.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "181:1064": {
+      "repository_source_sha256": "5166af22fa296038437ff81b71153eb8f78de411e5428fe6f158eb0b7f636ac1",
+      "en": "「Leave this to me.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "181:1081": {
+      "repository_source_sha256": "6876cfe73d048b06e639aa119f73b513adcb86cd51c4cf34ca11ca013d789a2a",
+      "en": "「I'll manage somehow.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "181:1102": {
+      "repository_source_sha256": "1c57d7c999c84db6fd971985368e9f9f767ffa83c2176c6dbeefc54655d07e05",
+      "en": "「Let me at least handle this.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "181:1135": {
+      "repository_source_sha256": "45d278de6ad13806c83f7a5f1b32289e113f084901d8255965fda3be9326cc5a",
+      "en": "「Fall back, $$ヒイロ$$.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "181:1156": {
+      "repository_source_sha256": "743d8af8799497695deffbc2dc071fbae0bea7ffb4db963f18911bfd6bfef68b",
+      "en": "「That was careless, $$デュオ$$.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "181:1183": {
+      "repository_source_sha256": "b6f2bb8718f0938ad535a38f033ea4142ea59f241174025c7a19f3511020419e",
+      "en": "「$$カトル$$, don't overdo it.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "181:1208": {
+      "repository_source_sha256": "4036ab71c938b7f38ef1825e1cf46039ec3e97b3a7144c5ee56cef089e9d0276",
+      "en": "「That was pointless.」",
+      "source": "jigoku",
+      "slots": [
+        "no damage"
+      ]
+    },
+    "181:1225": {
+      "repository_source_sha256": "ae4c63819dda8f5faf84968d4d540fdce92cd11466f656f65d0268d4e53a86a9",
+      "en": "「No usable weapons...?」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "181:1252": {
+      "repository_source_sha256": "d5ae612fe02d6b355e757e849aabebec2e0dd931643382ec75cb723896f587c0",
+      "en": "「Fall back, $$五飛$$.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ],
+      "alternatives": [
+        "Stand down, Wufei."
+      ],
+      "review": "conflict"
+    },
+    "181:1269": {
+      "repository_source_sha256": "85933c16945a9d1c82a3476d4fc492c917d5bbced2a5fd3033e15721abb2b090",
+      "en": "「Is that all?」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:1286": {
+      "repository_source_sha256": "38f7dfd0ce9154294e393705e3b7fea060ebb7b1ca93101f3d3114dcb1dca37f",
+      "en": "「Just as predicted.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:1303": {
+      "repository_source_sha256": "eaee3db1ea541bd0d9a68e8e86f1e05e46d77fd739cfad5daa02f63c81c5016f",
+      "en": "「I see.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Now I understand."
+      ],
+      "review": "conflict"
+    },
+    "181:1318": {
+      "repository_source_sha256": "9e0752d950e06a27d9b8c5135eb95abcb998a1076ba454eec1817dac9a921b1e",
+      "en": "「Evasion complete. Moving on.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:1347": {
+      "repository_source_sha256": "1016912f0407bbc36c5f3853e88c579838cc50766b7125681ec390cc431774d5",
+      "en": "「Your assessment was lacking.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:1370": {
+      "repository_source_sha256": "55a5b3086cf1eabc2e759cea1b92e8773c043f102837128dfd5ab724b81a1a7a",
+      "en": "「Your tactics are wrong.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "181:1393": {
+      "repository_source_sha256": "5fcf9fe841c7297a97878f3f6b667b2d1b586563a5a11f0623ee4ca026179b1f",
+      "en": "「Nothing to worry about.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "181:1418": {
+      "repository_source_sha256": "173df6eb55e6f6ae60454e8f8f56f7803d8b5f49925d15d1c301aa96fc094adc",
+      "en": "「Seems you chose the wrong tactics.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "181:1443": {
+      "repository_source_sha256": "eaacec7c82ce1974875060416a337a5324cc27aab47e4746c3044952516b3a1d",
+      "en": "「That was futile against this unit.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "181:1484": {
+      "repository_source_sha256": "a6052f862542a75075d4d2ca39851a7fbe6977e9401c7c1c98057efe916c4db5",
+      "en": "「Was my assessment too lax?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "181:1513": {
+      "repository_source_sha256": "647532b8767f19011a9572e40eb6c623880e9e43e75d1245a654105ba6d223b6",
+      "en": "「The mission is still unaffected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "181:1548": {
+      "repository_source_sha256": "28f2c860e881eafa8d6271db58a5e638cf1f0c22494903b5b778d693a956d08a",
+      "en": "「Leg damage... Still operational.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "181:1583": {
+      "repository_source_sha256": "dde2bd070203fe2a446192d00c648075b930d1693a4b10f4c9561950653e8c90",
+      "en": "「I'll hold on to hope till the end.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:1612": {
+      "repository_source_sha256": "a9af05121b42f48b9140c301e6503045148d14ce1cd9c05912fcf3364d150572",
+      "en": "「Direct hit. I can't take much more.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:1643": {
+      "repository_source_sha256": "23d3d3af2f1bff7518b42e501fca2897c4a8dc5494206cb0e39f426ef7d39886",
+      "en": "「Kill me if you wish.\\nI may resist.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:1710": {
+      "repository_source_sha256": "5fbd10a4d99d59c2cb153a23e6b32b31f11866752acc59a97bf22aff2e49f22e",
+      "en": "「This will be a difficult battle...」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:1733": {
+      "repository_source_sha256": "989c578ef09bffa5a79e81dd017f2417cd97825f9b7d80ed1489b0ed5d855812",
+      "en": "「They're just like we were. $$デキム$$'s smooth talk has them dancing over why they exist.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:1822": {
+      "repository_source_sha256": "12e0e2b54862a53a872508884f03ea4754cf6246b12b77366c7a29fcfb43aee4",
+      "en": "「Now I'm back\\nto being nameless...」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:1857": {
+      "repository_source_sha256": "ea4f0268785f5eeaf5ec0ee8c6c847fc46cfdc116f29e7578a1a0724639a5432",
+      "en": "「There!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2",
+        "weapon slot 3"
+      ],
+      "alternatives": [
+        "There you are."
+      ],
+      "review": "conflict"
+    },
+    "181:1868": {
+      "repository_source_sha256": "893d49710c9fe6bd89dacef5dc36edec99acd1159f876c42a0c09e7c064837e5",
+      "en": "「Got you.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2",
+        "weapon slot 3"
+      ]
+    },
+    "181:1881": {
+      "repository_source_sha256": "626a41ff5ef3306807613aea55f7c2022963a7f75afa11841b6a8b7ab9eb7e28",
+      "en": "「I'll destroy you.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2",
+        "weapon slot 9"
+      ],
+      "alternatives": [
+        "Destroying target!",
+        "Destroying target."
+      ],
+      "review": "conflict"
+    },
+    "181:1894": {
+      "repository_source_sha256": "37bd83b3ac8d34f2ba55dec3995781a3a2e7eab82f45fbe8d36b1f043f539600",
+      "en": "「I won't hold back.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3"
+      ]
+    },
+    "181:1911": {
+      "repository_source_sha256": "4a11770fd642040e76afb8b0c5d42b99f1429349d6ea1c340e446f14e829585c",
+      "en": "「$$トロワ$$ here. Mission understood.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "181:1938": {
+      "repository_source_sha256": "16ee4c77ec4b354975b5b59c0aca53fc465b5f6b5ac9cd02de5d209e4042ea17",
+      "en": "「Enemy unit destruction confirmed.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "181:1959": {
+      "repository_source_sha256": "2cd41cdf74b5a523a28fdb4d0c2345421bd95870ec75a41b790ccd3a59da5946",
+      "en": "「Target destroyed.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "181:1980": {
+      "repository_source_sha256": "37b4759c0ab305cec8f3c2dd5b547735df29704f247599fb133b33e0095be254",
+      "en": "「I'll destroy every last enemy!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3"
+      ]
+    },
+    "181:2005": {
+      "repository_source_sha256": "a5167f987b0042b299a3c521c5fd6575cd6befb39ca654aaeff3f77302ac2824",
+      "en": "「Damage check... No mission impact.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "181:2044": {
+      "repository_source_sha256": "e866794ff000915ab18586944b6755d76691c887904b75979aec435119d392fa",
+      "en": "「I can withstand this much.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:2075": {
+      "repository_source_sha256": "3bf5aa69071fae27fda772b94d3a1b6b757605c30d0160af0c6355f28c3e624e",
+      "en": "「$$トロワ$$ here. Leaving combat briefly.」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "181:2114": {
+      "repository_source_sha256": "455f5211b60d88a4b3daad3dcef92cc79a764f7cfdce7583bf4806e271523ee9",
+      "en": "「So this is it. I'm withdrawing.」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "181:2141": {
+      "repository_source_sha256": "55361ec04bca05383d276900a26e0055b83f0ec58d28db4f1ab43844af5342dc",
+      "en": "「The odds are against us...」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:2168": {
+      "repository_source_sha256": "b494f3902efb80a3e03b100daa2652e184b23566b1cea867e2bbf9108816d5b3",
+      "en": "「Understood. Moving to support you.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "181:2201": {
+      "repository_source_sha256": "ca90290d65dc44d7a116cc841cc9708a907bea3994eea4cde61de803e7de8e8a",
+      "en": "「Understood. I'll cover you.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "181:2234": {
+      "repository_source_sha256": "59454c080881aeed5376a4bd4c249e51ff5e35d3c2c63e86405428824fd43510",
+      "en": "「About time.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2249": {
+      "repository_source_sha256": "62d91484a0c6e142f68548abd16163b76e0739326018f9f25d2844e5d765c9b8",
+      "en": "「I'm going in.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "181:2262": {
+      "repository_source_sha256": "ffde10dbc6be3c4802115c27cedff264eb23cd2b9411a459939d626d21ba589f",
+      "en": "「An opening?」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2277": {
+      "repository_source_sha256": "7faa81d7cde4d1dab972891b0cb7a40c4376634fcce1251276b15b5cf2c6c80d",
+      "en": "「Almost time...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2296": {
+      "repository_source_sha256": "ff2af24dc6685fe3ba69d2db9944414806371b67c4e84d6499530fb087277ab6",
+      "en": "「I've been seen. I can't let you go.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2327": {
+      "repository_source_sha256": "f5e0fd5c13854f7c589afe784227f2dd9db75a2b93e3ce7e01a46ee65cf67c87",
+      "en": "「Sorry, destroying is my mission. I'm going.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2366": {
+      "repository_source_sha256": "47cb45dd8dbdfd23f06b55bdc296069dcf44f27e8aeab532d411f2e0a2987740",
+      "en": "「As long as there's resolve, I fight.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2397": {
+      "repository_source_sha256": "eb1b1d36a7ae0436b1e2673bc1e04864ddb1786b2d76bb77a7b978285fbc14e0",
+      "en": "「I'm going to act on my emotions.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2430": {
+      "repository_source_sha256": "2d3edecbdf20869f45d752bd338d407fb09f17e204ae763d0df26a222017618a",
+      "en": "「How about this?」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2447": {
+      "repository_source_sha256": "fae165baf43d775d14937a7b64195b869218e62e5b06560d048b5586b4d2da0c",
+      "en": "「I'll finish it for sure.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2466": {
+      "repository_source_sha256": "20c48c719bf2e06c4e5af7c9b3a11629b355df4126117cae672a4405cd1e837a",
+      "en": "「Looks like I'd better hurry.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2493": {
+      "repository_source_sha256": "84df0be79871287a2674699bbf6725bdc8d6bc2de5b3048f291301e9aa5ceed0",
+      "en": "「You should've known this would happen.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2530": {
+      "repository_source_sha256": "39b47bd70b71d7a9f530cbcdd04e3ac4f4ef463bfbef61a9281983e6ce425cc1",
+      "en": "「I strike when necessary. That's all.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2569": {
+      "repository_source_sha256": "4b268feff5edb20a9663de0e914d6ba6da6cc77fae5df285909ec9d41be1f42a",
+      "en": "「I'll land a direct hit.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "181:2584": {
+      "repository_source_sha256": "23c0ddb315942dc659b98ca051d71fdc397fe874b10b3ac9b3d2e6f63edb3b6f",
+      "en": "「Locked on.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2597": {
+      "repository_source_sha256": "1466d71c426ab0cc8354b510d3842390778bdbcf768e3b1126a55e8a67bc7b25",
+      "en": "「Your movements are easy to read.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2624": {
+      "repository_source_sha256": "d65203fbfbeb53c9546b7f4474321efd4d7896153a0e3a759697b1658cddbf2a",
+      "en": "「I won't miss.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2645": {
+      "repository_source_sha256": "647716f2370ab966379dab241c7827e0a721aa1821a41789432a697c2d828736",
+      "en": "「My body remembers this range.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2670": {
+      "repository_source_sha256": "ceeb5f50fcbf5137040bfebac11cc27d1949961092b9583c9e7bfceed90af658",
+      "en": "「A good range.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2687": {
+      "repository_source_sha256": "315770ee1a03428871f7bae3c42ee05c2f2465c468a0d340251ca626804cc578",
+      "en": "「At this range, this is the one.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2712": {
+      "repository_source_sha256": "48bdc94b8db8475318f47bbcbd1fe4662dd6d6e17b46c1af3ec59dc5e787a6b3",
+      "en": "「Close combat.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:2725": {
+      "repository_source_sha256": "dccb7daa543a5deeed947966c65827a5d1e79b1af3023e18e1e89c8879fd7d4b",
+      "en": "「Strike all at once.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2740": {
+      "repository_source_sha256": "91d52d334c590207b802e4a4b3e86cbe7dcf389842056351b1c3f8a3d2c3d3d1",
+      "en": "「An opening to exploit, it seems.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2769": {
+      "repository_source_sha256": "0b9fcaeef7ea807591165882b204a5340a1b320a28b6e4c4ab1d8e98e4d120a8",
+      "en": "「Questions can wait.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2788": {
+      "repository_source_sha256": "81aa628b6afb8c94516bb1e3be192575434d2a12a4f7ac67838e752079d2b151",
+      "en": "「You're an enemy. I won't hold back.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2819": {
+      "repository_source_sha256": "36263fb0100a9283f2d848ebdffaad2328c6a70fa6a44ef78fbb9b1bb6f1a6c0",
+      "en": "「I'll thin them out, even a little.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2842": {
+      "repository_source_sha256": "69b689bb95e8b9cb05795aef89d0426d6fb1283f596976230e9810660b454314",
+      "en": "「So this is humanity's natural enemy.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2869": {
+      "repository_source_sha256": "1aed034d21f4978144e352616056dfcb887a889992c7fde3e9ca91f1e20aa0fc",
+      "en": "「True, they differ from past foes...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2904": {
+      "repository_source_sha256": "943cee138e8c516b0626818897067121848d3eb626ea75b077cb2f92495a74d4",
+      "en": "「Target: $$宇宙怪獣$$. Destroy it.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2933": {
+      "repository_source_sha256": "73d8b81a8c78424b4c2aaa5aab32d61bc20af7a6cc8e2f5a44dc8fba9a95f179",
+      "en": "「If you mean it, I won't stop you, but...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:2976": {
+      "repository_source_sha256": "4666592f1d11e16de7973435df0bd7d843906a60e092f44102f166f082590b34",
+      "en": "「I'll hold the damage to a minimum.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3005": {
+      "repository_source_sha256": "c1c139228e197af52074b3a230468fabbd4f67f4b720f212e0186d4295b18d7d",
+      "en": "「Stop the unit and they can be saved.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3042": {
+      "repository_source_sha256": "bd76b2cabb70f274a4388f30c190f66998d0c99ae6e3c51f5462532a96cba4f6",
+      "en": "「A unit is only as good as its pilot.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3081": {
+      "repository_source_sha256": "0979e53d76787397b98a98d0ba1dfe71607ca555c096a18189c582fc89586341",
+      "en": "「Let me see the new Gundam's power.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3122": {
+      "repository_source_sha256": "a6a630699ba2b03d11c4ffab6ba7073feee2385fb610927880bc88eedad2a09b",
+      "en": "「A Gundam. Don't get careless.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3159": {
+      "repository_source_sha256": "a9400c2fd9d1c09bda5d819eeb1abec5365ded2298e46bf378f04dec826f1452",
+      "en": "「Keep waging war, and I'll face you.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3200": {
+      "repository_source_sha256": "56b3879a571a89a33c826ad42d862777695a8c344903134d04b55200c8452bdf",
+      "en": "「What you're doing is a repeat\\nof a sad history.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3253": {
+      "repository_source_sha256": "07ca9f299a2777b5758219077c5d90f74eb673dacd98f42b384cf88a3f47499b",
+      "en": "「Your heart seems to be empty.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3284": {
+      "repository_source_sha256": "144969cd6876d9025053638cfcb885fc61ac1bf76353e978f6a08a71763e7324",
+      "en": "「I'll take down the $$赤い彗星$$.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3307": {
+      "repository_source_sha256": "65106494d5576a46825fae1bdd3d760ef65af4e93545ef16cd81a3c38e73319a",
+      "en": "「How sad, a woman who can't cry.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3344": {
+      "repository_source_sha256": "54751b0f48ee70ec91ec803ff63ab016f8efc40f933811eb75042086493f4157",
+      "en": "「I won't hand the world to someone trapped in the past.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3383": {
+      "repository_source_sha256": "4cdd9f1301efd119a794bec0b9c49dcfb5885cfa4cc1d42c8c9a3fd0ef68478e",
+      "en": "「Looks like I can't lower my guard.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3416": {
+      "repository_source_sha256": "6f6bc8add91d415ea0547f74dad56dfb96f441dda306983f8790c340a87c5460",
+      "en": "「We should drop the commander first.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3455": {
+      "repository_source_sha256": "b84a4f61e64dfaf965f5c838a2afb822ed66ab77ea34186524c7dec2ea30d58a",
+      "en": "「Target: battleship. Destroy it.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3488": {
+      "repository_source_sha256": "7e110cb9f1dc262643a56f9d514fb92a39071aa45716d6ac1b5e2919c4c6370b",
+      "en": "「Just hold out until dialogue's done?」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3529": {
+      "repository_source_sha256": "5a42bea4cc4a2f0e2e384a18fa80ba79808325d826dd7afbbb5b6ae032b71a8e",
+      "en": "「If we hold the line,\\n$$刹那$$ will do the rest.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3578": {
+      "repository_source_sha256": "58bd75daa1a36d3bc2f04e0156f7982bc54f052a06d5c7bdbccabe67e9ae9511",
+      "en": "「How pitiful, a life lived\\nonly for fighting...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3629": {
+      "repository_source_sha256": "788db61cb227330a50fad05dcfa52f0f2f93242d8f6dcc62e12fcc1d6047e98c",
+      "en": "「Autonomy resembles emotion, yet differs.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3672": {
+      "repository_source_sha256": "825c8dea65f1b4f860774e707d43dba12223b6330084dd95bcc513f1b6412195",
+      "en": "「I've seen enough of people's tears.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3711": {
+      "repository_source_sha256": "be6779f88d79c5f6624f418a51b3270b102ec5edbec3b0b245b55a71cc289b20",
+      "en": "「Selfish people can't lead the world.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3750": {
+      "repository_source_sha256": "bd0d4ff097a503e2a83d50f0526013acf39d0ab05ec7aab6901c14ff00cffaa4",
+      "en": "「I'll annihilate the invaders.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3771": {
+      "repository_source_sha256": "21cce1eee29b94c81993e296b822beb316f01459bd63f157c698b8375c480168",
+      "en": "「I'm taking Earth back.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3798": {
+      "repository_source_sha256": "08859e04b26289cfed09a9488bf94a3d1ad4054b874a2be6d3d3ce61ac9da9e4",
+      "en": "「Attack target: $$サイデリアル$$.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3825": {
+      "repository_source_sha256": "0b048dfd2ec0a126e0d6416ec16c196847ebd45977811d368e95993a015acc34",
+      "en": "「Mastered it? That's trouble.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3862": {
+      "repository_source_sha256": "6a6bd8cd7a9176e4d9d368fedca99be005d890116abd6e963395e731992eb3ff",
+      "en": "「Even a Reactor can't be absolute.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3905": {
+      "repository_source_sha256": "59fa28313014162f65876e7a19a60bf659b8a6ecaf6410102faf04619a0c10c4",
+      "en": "「Not like any Reactor I know.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3938": {
+      "repository_source_sha256": "229fb4905ea8879163340b149fe444c33c9db49f783cde97459257e4933aa4a1",
+      "en": "「So it's unlike any opponent so far.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:3977": {
+      "repository_source_sha256": "cc8942bb1205f356f1dba0e2084aae443b0e426ea6ce9932c4377886fd35f40c",
+      "en": "「Emissary of God? Laughable.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4006": {
+      "repository_source_sha256": "90fd0ce87bdbdfc3269aa58d3951226e4891e93b6b281a4e047c584738e055db",
+      "en": "「True, it's beyond human knowledge.\\nBut...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4055": {
+      "repository_source_sha256": "b8fe02634bf12d38813b9e1814873ae769368181ec984543fa67e4cb0732043d",
+      "en": "「You turned enemy. I show no mercy.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4088": {
+      "repository_source_sha256": "a2cc2957e1c4fd5a768d3db50646811833985b7890b108cf8039df43fd9b0c18",
+      "en": "「Shame. Some people believed in you.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4131": {
+      "repository_source_sha256": "57162c17b66749beddcf73f84a8ceca608056e5594d25c67cbd7ffb32d908020",
+      "en": "「Do you have the power\\nto look down on humanity?」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4180": {
+      "repository_source_sha256": "1c0417554cad0b3ed1f46dcaa668d3ec094db74da62f8c1bf8d105a9d4580a50",
+      "en": "「The name of God's apostle ill suits\\nsomeone steeped in greed.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4229": {
+      "repository_source_sha256": "bdfe91427a00175440bc889a0bf3f87d725ce2bec2e8a6990d48baeb4ffd825f",
+      "en": "「Sorry, I won't play along.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4268": {
+      "repository_source_sha256": "75aae948358fd2f2608fbd2923996f72f0d7501d3a0e061f1d93922e9f69a181",
+      "en": "「$$アサキム・ドーウィン$$... I'll end this.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4305": {
+      "repository_source_sha256": "faedf527f2600f37faaa47d53133badd49ea23c384895d66926276af14a70fbb",
+      "en": "「My final... performance.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4330": {
+      "repository_source_sha256": "354712c35bf59de4bbffbf9faaf386c386689fec40e9e505536846aa3629e9a0",
+      "en": "「$$アドヴェント#pilot$$. You're a pitiful clown.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4367": {
+      "repository_source_sha256": "7acfdd1c77dd8e230bc30ad4bf27083cc092534c122bfcf4f252bc717554a5f0",
+      "en": "「The world and I will\\ndefy our fate of death.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4418": {
+      "repository_source_sha256": "1c897eedd820454f9f7f1287c69e02282832cd5533d49e11a459f087484c7939",
+      "en": "「Target acquired. Preparing attack.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:4441": {
+      "repository_source_sha256": "86d00fd2a6971aef42510487b7bf348121c9f1c14efd8f409dd7a9c9f4ab095e",
+      "en": "「You're out of luck.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "181:4460": {
+      "repository_source_sha256": "fc51b73302e90441f2f65b23a620974948cbf8aa20f7e06a642596feea8fda94",
+      "en": "「Better results than expected.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:4481": {
+      "repository_source_sha256": "129c630a46c40888221a58abe8f21acc2c9237c5bfe223d2579d9c2e056130f3",
+      "en": "「Target lock-on...」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "181:4510": {
+      "repository_source_sha256": "df1e5bdd1d4f0eafead27d46ab6f12bf1e632e2c8ddb4a85d213c7aedeae8417",
+      "en": "「Firing...!」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:4527": {
+      "repository_source_sha256": "df5f84527cbc6a9df1f76dcb35d2b1c73f81b084153a8bcee794ade2233cc8a3",
+      "en": "「A fine weapon.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:4544": {
+      "repository_source_sha256": "896e387a6002b2830fb3e80c0770704fd76d41338db657b60d1ff98ee007b99d",
+      "en": "「Commencing counterattack.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4563": {
+      "repository_source_sha256": "6c75c18185e47c39b21d3ed936f291261118c2668815e5a0717504aa4ebeaead",
+      "en": "「You hit me, so I hit back.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4590": {
+      "repository_source_sha256": "7258041404ec5947f4918091144e79c1bfd71e8ed9ffb0baca40c7e679bdbacd",
+      "en": "「I'll return the favor.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4615": {
+      "repository_source_sha256": "46df8af704e65856f09c2aaab8bdb60d47f7499e9f1304ab1033b3262065bed5",
+      "en": "「I won't let you withdraw.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "181:4634": {
+      "repository_source_sha256": "29bc4ec87dcd7f60578637db297ed925aca1ff6f7697351be98d82f15447251a",
+      "en": "「So it's my turn.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4663": {
+      "repository_source_sha256": "f937c028e0c592367edfee6bb2b6e31add15a06df8c24af1466f6fa1003dea22",
+      "en": "「I can catch up easily.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4684": {
+      "repository_source_sha256": "f7c468c49c9b6f2c72e5364b313c12069875bc2939399976634f0843f54821b4",
+      "en": "「This is more certain.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4703": {
+      "repository_source_sha256": "55e178c0760310c52e09efadad05cf0721d203bffedf18e20a8cd47a849aaee5",
+      "en": "「Leave the rest to me.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4730": {
+      "repository_source_sha256": "b898cf4dc2b3dd61610cedf26c357fcb0326920a60be87de07f60e7222cf90a6",
+      "en": "「Impressive, $$ヒイロ$$. You're thorough.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4773": {
+      "repository_source_sha256": "2d4b5fbac648507647ebfe29b49b6fa4d59353763695df1dfbcb7614ebaca9cb",
+      "en": "「A shrewd attack, $$デュオ$$.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4804": {
+      "repository_source_sha256": "80543fefad55f4404c591b9c23256deab3667f789c7db13c6dc51cc72b2d9fe6",
+      "en": "「$$カトル$$, you go on ahead.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4831": {
+      "repository_source_sha256": "e9fbed51eeab698b47a38bed9302f67b91610520824d19499e934add023cf9cd",
+      "en": "「Leave the rest to me, $$五飛$$.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4852": {
+      "repository_source_sha256": "04a41858dfb1d584701d800854372ee8133768ff05de649c5eba121d6a00a76b",
+      "en": "「That's plenty, $$ヒルデ$$.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4871": {
+      "repository_source_sha256": "eb0f93535aa7856c711e7aff6047dede347a45081be85ae06e7d3794b6cb8440",
+      "en": "「Impressive, $$ゼクス$$.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4894": {
+      "repository_source_sha256": "652ee2f269f1170f5f8932ea558ce9c9391c52de274ba06e62e0b2e55454883f",
+      "en": "「$$ノイン$$, I'll cover you.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:4915": {
+      "repository_source_sha256": "23ae6eb77985f310e4db6d067bf48a9079ceb6a4e05ab00942f6ae2a572b4324",
+      "en": "「Don't push yourself.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:4932": {
+      "repository_source_sha256": "1220598672160831e78d3bc30b64e6e4853b8d747848d4a53551549c62c88192",
+      "en": "「Dying for nothing changes nothing.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:4971": {
+      "repository_source_sha256": "825ef241b687853947058d3ed4ff89dd223f1ffa7e05affc31d4395134e4b0b9",
+      "en": "「$$ヒイロ$$, take care of your body.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5006": {
+      "repository_source_sha256": "baf8c5d3865bd0e536af1f7fa0c620f703a110142d104b9485049b21725cbe2e",
+      "en": "「Don't let your guard down, $$デュオ$$.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5029": {
+      "repository_source_sha256": "306b117a53561eeb9a2c3f444194f493e1cec38999254b6e2f43ef2f817df6c4",
+      "en": "「That's not like you, $$カトル$$.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5066": {
+      "repository_source_sha256": "9e54ef3a7b09a1669807a9f595c393eaef03cfafc6e754f6cfce846734e4330b",
+      "en": "「Don't throw your life away, $$五飛$$.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5095": {
+      "repository_source_sha256": "db99efbad8f789579d995457b1a09293a2e6fb6430b270549034f6410bc71357",
+      "en": "「Don't do anything reckless, $$ヒルデ$$.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5120": {
+      "repository_source_sha256": "81fe39da018bc93db95493df13c89a6b6f1fbd32de5feb0a11e63fcaa1ec821c",
+      "en": "「You owe me one, $$ゼクス$$.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5149": {
+      "repository_source_sha256": "72da7220e5b2b6f02a4b3f6c4f06030e48a86f99580e96e70cd8654dd5c406b7",
+      "en": "「A mistake like this is rare, $$ノイン$$.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5182": {
+      "repository_source_sha256": "b82201b642f8095c4b0da16c57c0c0684c24645cf70dbc10a4698998254674ee",
+      "en": "「Then I'll leave the front to you.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5205": {
+      "repository_source_sha256": "907666fecb827d2abec99ac965017c0cbcf0b14ec4213acac0746267a7648b2c",
+      "en": "「Pick them off one by one, then.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5230": {
+      "repository_source_sha256": "3a55f284d08e1502cd3fee2a84fcdf8542cdd9ba9a36fc42b866f1b03fe3ff1d",
+      "en": "「So that one is my enemy.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5249": {
+      "repository_source_sha256": "232a32bc8a13bff7eee77198f7c519470210273e6a553c77b2d6bcc2a6f55e01",
+      "en": "「So each of us plays our own part.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5288": {
+      "repository_source_sha256": "c4b44eb7162039f67a44810800dd10d48ae4d412646b6875d372960dfad545ff",
+      "en": "「I'll pin that one down.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5311": {
+      "repository_source_sha256": "34df155d3943b802dd4e573bc6d28ce2e73f6909737feadd92677575bb245c30",
+      "en": "「I'll draw the enemy's attention.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5338": {
+      "repository_source_sha256": "a10a25cfe3ea1e48cd3f53fd5ea1222aefca9334f4bf299abab5b0bd43d43ae5",
+      "en": "「I'll take the lead.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5353": {
+      "repository_source_sha256": "0e91dcb23cb0ae83fa7e9d5a34a3b1e2caa52bf437d2d90eb82ea4597484adee",
+      "en": "「I'll open a breakthrough.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5374": {
+      "repository_source_sha256": "3d46c0465146ed023450d220b01cce2d106c4ab7179ee0d7f2f10bd219a8cf0a",
+      "en": "「Can't counter. Must act fast.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5409": {
+      "repository_source_sha256": "ee0d6b35ad98466bb30c168bc0642e37447dbcba82710861eb7be65b5a211857",
+      "en": "「Certainly an effective tactic.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5434": {
+      "repository_source_sha256": "3307b9d11a12c3c50f48b24d861e927fc0a42f41fbab7202080d3d589e71228a",
+      "en": "「They've fully read our strength.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5475": {
+      "repository_source_sha256": "84524cd11ac87e0ebb22025ff46058bfbed4e53898ca516f27ea0d53ac96466a",
+      "en": "「You're keeping a good distance.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5506": {
+      "repository_source_sha256": "1176ba053c9e364296cc29d8528675381c95c4da7108659c44973bed70a2d290",
+      "en": "「I have no intention of stopping.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5535": {
+      "repository_source_sha256": "9859a0d92876e40cbc2b2a4b4c1425a684e07cc86e338e91b2964ed715baf268",
+      "en": "「I see. So that's all you've got.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5560": {
+      "repository_source_sha256": "df1020ea6f5bd736e7e9b07c977d6712b5902c28a8eed837457f508ffc148c5e",
+      "en": "「I can dodge that easily.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5581": {
+      "repository_source_sha256": "b4eb4916789390c33a288e0a74fb1c6c25f6112d82f72a3285698651ae44cd34",
+      "en": "「That attack was pointless.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5606": {
+      "repository_source_sha256": "b851deb2c8e0399ff56f1dc22b3552ad408b60c951ea60919d25eba56dfdbb8f",
+      "en": "「You should've sized up our strength.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5641": {
+      "repository_source_sha256": "5a491b382b7d7e8bd3820eacf176f0994ada24d091e6bc13f2192d8f725c7deb",
+      "en": "「Your read and aim are both sloppy.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5666": {
+      "repository_source_sha256": "3c1012f98ca799729ccb82b7c1d0746845d282310126c1b61af0e180997df381",
+      "en": "「No damage on my side.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5695": {
+      "repository_source_sha256": "92612a5dd62501515e95bb9ab1034e4cc686cff1df82a1ce70909fb25d47f472",
+      "en": "「The equipment kicked in just right.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5732": {
+      "repository_source_sha256": "5ef30eae6137381ea12886b37fc6aa3f08322759fa2ab98d7ed1b45e7ab05bcb",
+      "en": "「Is this all?」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5749": {
+      "repository_source_sha256": "19103666ab648626f66aa49fb0f04f539408b56a4c895b5b25fd2182ccde1c60",
+      "en": "「Looks like I got hit.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5770": {
+      "repository_source_sha256": "0d0f015ddcdef2d83feb669ec7d14e97d031a6f93c3b322ae70083068f9959ef",
+      "en": "「It doesn't hinder me at all.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5795": {
+      "repository_source_sha256": "240fca516bd739ae7c290e76824b75b113b2e28e15178d0e66cde6ad59bf3fd5",
+      "en": "「That damage isn't worth minding.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5830": {
+      "repository_source_sha256": "a5f35b3ab7cfadb72b1adf54a9e681a4fb5754ec4bca596e20bb2312ad0a6136",
+      "en": "「Your emotions are getting ahead of you.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5865": {
+      "repository_source_sha256": "ff0f272714cd8521138002b639220cfc669ff290dd56d4dce08cb3e77c494f6f",
+      "en": "「I can't let my guard down...」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5894": {
+      "repository_source_sha256": "6c619a21b659e9d99e0e3728c61e44292c6c0f9b6002594c3720d8ab6d61c70f",
+      "en": "「Not time to panic yet.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:5921": {
+      "repository_source_sha256": "fd91116b8d13a04c0e902c048c8249f6c22d1d043c948197e53068f74cc60cbb",
+      "en": "「I expected this much.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5948": {
+      "repository_source_sha256": "ac5a695fc8dffc7f9088b2dfca112a7ac38fe1eebb1f58080abf43df3d440e95",
+      "en": "「I've sized up your strength.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5975": {
+      "repository_source_sha256": "a88c9b0433d960de100cb87cfd044682be039757bcd6d1110f14271a55db4a23",
+      "en": "「This is unexpected.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:5994": {
+      "repository_source_sha256": "fcac33e4b24e9a56af29e2f98e850aa4c72e290c754d8fabb88afca19ce97ab7",
+      "en": "「Have I fallen into their trap?」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:6021": {
+      "repository_source_sha256": "c07902d357c734b3efec2c948b253e3fb2c47852637b2be190820609c15828a6",
+      "en": "「Better to finish this quickly.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:6058": {
+      "repository_source_sha256": "3b43dfa1bbe49a498eefddf1c82434160d4d70c893227af04e5918cb35ee5ed7",
+      "en": "「You're strong...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6079": {
+      "repository_source_sha256": "689598136835ee2d0712146ac2a33cd7c05a6719444a9e9b18b28f8204eff220",
+      "en": "「Situation's bad... as usual...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6114": {
+      "repository_source_sha256": "f1ac0239bfaf9e3682ab991edbd39fef1df5ba674438a266177ad5846f740d63",
+      "en": "「Beat the enemy before my unit blows.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6151": {
+      "repository_source_sha256": "14b0a6ba7b924edd2249966acc8c49757512fa57fd8387e2eeb972923ee5b875",
+      "en": "「Never losing hope until the end...!」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6182": {
+      "repository_source_sha256": "4d4379a9604ffbf9a74fced2f3b88e681018646d73fca4be77c63d4f94ec588a",
+      "en": "「I... can't die yet...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "181:6209": {
+      "repository_source_sha256": "1c67977d5e98ae5d389008936b410d2bf3394eda23d9b28174fa7f49de6069cb",
+      "en": "「If I die, $$キャスリン$$ will cry.\\nThat's not what I want.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6266": {
+      "repository_source_sha256": "1ffe27ecb79dc0259a3219573bba64f433679afa90987a0daa2855ba1639607e",
+      "en": "「Damage rate... past the limit...」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6297": {
+      "repository_source_sha256": "d112538c7d31697bcb7abc893ddd857529c9188b53eed07af56cde9f6230511c",
+      "en": "「Sorry. This is as far as I go.」",
+      "source": "new",
+      "slice": "v_g181_00"
+    },
+    "181:6326": {
+      "repository_source_sha256": "9b7e7e4794dd5edacd30257814299e69b15b13756c0dcd449b3273e050a1e19d",
+      "en": "「Moderation, or you'll end up like these two.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    },
+    "181:6385": {
+      "repository_source_sha256": "3e6edc7fa1609f9b12508dab0c1f90354826272515fbe22558ae53ebc43698c1",
+      "en": "「Until we meet again.」",
+      "source": "new",
+      "slice": "v_g181_01"
+    }
+  }
+}

@@ -1,0 +1,2199 @@
+{
+  "scope": "stages 19-28 on route A: Macross Quarter 19-20, joined MQ/Hive 21-22, common 23-25, continent 26-28, and 2220/2221 choice scenes",
+  "rows": 4609,
+  "slices": 63,
+  "rows_differing_from_prior": 3660,
+  "baseline_files_verified": 63,
+  "validation": {
+    "result": "PASS",
+    "errors": 0,
+    "length_warnings": 0,
+    "unknown_tokens": 0,
+    "untranslated_rows": 0
+  },
+  "coordinator_row_edits": 29,
+  "glossary_additions": [
+    {
+      "jp": "ゲペなんとか",
+      "token": "ゲペなんとか",
+      "kind": "pilot",
+      "en": "Gepe-whatever",
+      "status": "proposed",
+      "source": "Three exact corpus occurrences: 231:t_017:2, 231:t_018:4, 231:t_021:2. Basara and Ozma deliberately truncate Gepelnitch's name; the immediately following dialogue corrects it. https://macross.fandom.com/wiki/Gepelnitchi confirms character identity and alternative spelling Gepelnitch. Preserve the joke rather than silently expanding to the full name; this English nickname is a project proposal. Insults remain outside the token. No numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ジークンドー",
+      "token": "ジークンドー",
+      "kind": "keyword",
+      "en": "Jeet Kune Do",
+      "status": "official",
+      "source": "26 source records across the full corpus, six in this batch, first 353:t_1:34. https://brucelee.com/jeet-kune-do and https://brucelee.com/bruce-lee confirm the martial art's English spelling. Hibiki attributes learning it to his father in the game's own dialogue. No numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "システマ",
+      "token": "システマ",
+      "kind": "keyword",
+      "en": "Systema",
+      "status": "official",
+      "source": "Four full-corpus occurrences: 353:t_1:36, 365:t_5:54, 341:t_2:98, 348:t_000:8; two in this batch. https://www.russianmartialart.com/whatis.php confirms the martial art's English spelling. The source identifies it as Crowe's martial art. No numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "グレイス",
+      "token": "グレイス#feldt",
+      "kind": "pilot",
+      "en": "Grace",
+      "status": "official",
+      "source": "282:t_10:22 pairs Grace with Seiei in Mileina's list of couples: Feldt Grace, not Macross Grace O'Connor. Whole-corpus scan found 70 records containing this spelling, with one in this batch; surname collision reviewed separately from the Macross character. Existing full-name token フェルト・グレイス and https://gundam.fandom.com/wiki/Feldt_Grace confirm spelling and identity. Surname alias only; no new numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ダークスマイル",
+      "token": "ダークスマイル",
+      "kind": "keyword",
+      "en": "Dark Smile",
+      "status": "proposed",
+      "source": "One full-corpus occurrence, 354:t_103:3. Hibiki explicitly names this smile in response to Rand, and Mel criticizes the name in the following row. Transparent rendering of the source loanwords; web research found no independent attestation of this exact nickname. https://srw.wiki.cre.jp/wiki/ヒビキ・カミシロ corroborates Rand teaching Hibiki to smile, but not this English label. Project proposal, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＧＮ粒子",
+      "token": "ＧＮ粒子",
+      "kind": "keyword",
+      "en": "GN Particles",
+      "status": "official",
+      "source": "18 full-corpus records, three in this batch: 236:t_1:23, 283:t_015:5, 353:t_2:116. https://gundam.fandom.com/wiki/GN_Particles identifies the term and its connection to human innovation and communications. English naming is wiki-sourced; no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ダブルエントリーシステム",
+      "token": "ダブルエントリーシステム",
+      "kind": "keyword",
+      "en": "Double Entry System",
+      "status": "proposed",
+      "source": "One full-corpus occurrence, 359:t_1:57. Kaworu names EVA-13's two-pilot system. https://evangelion.fandom.com/wiki/Evangelion describes its double entry-plug system. Preserve the source's shorter label without adding Plug; English capitalization is a project convention, not a claim of licensed localization.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "エクリプス",
+      "token": "エクリプス",
+      "kind": "keyword",
+      "en": "Eclipse",
+      "status": "proposed",
+      "source": "14 corpus substring hits including Operation Eclipse, with one bare short-name use at 365:t_1:105 immediately after the full operation name. https://srw.wiki.cre.jp/wiki/オペレーション・エクリプス explicitly gives English Eclipse and the solar-eclipse naming rationale. Keep the short form as spoken; full compound retains existing オペレーション・エクリプス token.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ザンボット・ムーン・アタック",
+      "token": "ザンボット・ムーン・アタック",
+      "kind": "weapon",
+      "en": "Zambot Moon Attack",
+      "status": "official",
+      "source": "One exact full-form occurrence, 371:t_10:48. https://akurasu.net/wiki/Super_Robot_Wars/Z/Unit_Database pairs this Japanese spelling with Zambot Moon Attack; https://srw.wiki.cre.jp/wiki/ザンボット3 identifies the full and abbreviated forms. Wiki-sourced spelling, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ムーン・アタック",
+      "token": "ムーン・アタック",
+      "kind": "weapon",
+      "en": "Moon Attack",
+      "status": "official",
+      "source": "Two corpus substring occurrences, one full compound at 371:t_10:48 and one short form at 372:t_013:0. https://srw.wiki.cre.jp/wiki/ザンボット3 explicitly records the short attack label; https://akurasu.net/wiki/Super_Robot_Wars/Compact_2.3/Player_Units uses Moon Attack. Short alias only, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "東京湾",
+      "token": "東京湾",
+      "kind": "keyword",
+      "en": "Tokyo Bay",
+      "status": "official",
+      "source": "Two full-corpus occurrences, 294:t_10:35 and 347:t_10:39; the former is in this batch. https://www.gotokyo.org/en/see-and-do/nature/waterfront/tokyo-bay-beaches.html and its Japanese equivalent confirm the standard place name. The fictional floating-city story remains as stated by AG; this entry verifies only the place spelling.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "コロニー同盟軍",
+      "token": "コロニー同盟軍",
+      "kind": "keyword",
+      "en": "Colony Alliance Forces",
+      "status": "proposed",
+      "source": "One full-corpus occurrence, 359:t_2:18: Zinnerman promises Char to defend these forces while Char joins the player squad. Literal organizational rendering. Research of https://srw.wiki.cre.jp/wiki/ネオ・ジオン and https://srw.wiki.cre.jp/wiki/UCW found related colony alliances, but no verified English name for this exact Tengoku wording; do not substitute the earlier game's Aprilius Alliance. Project proposal, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "オーガスⅡ",
+      "token": "オーガスⅡ",
+      "kind": "robot",
+      "en": "Orguss II",
+      "status": "official",
+      "source": "One exact source occurrence, 366:t_018:0, explicitly Olson's machine. https://srw.wiki.cre.jp/wiki/オーガスII confirms identity and Tengoku appearance; https://akurasu.net/wiki/Super_Robot_Wars/Z/Unit_Database pairs Orguss II with Olson D. Verne. Distinct from the Orguss 02 OVA. Source uses single Unicode Roman numeral; preserve it in token. Wiki-sourced name, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "パワードシスターズ",
+      "token": "パワードシスターズ",
+      "kind": "keyword",
+      "en": "Powered Sisters",
+      "status": "proposed",
+      "source": "One source occurrence, 359:t_10:10: AG coins a pop-group name for Marida, Quess and Four. Preserve the source's Powered/Sisters loanword joke; do not substitute a different franchise group. Targeted web research found no independent attestation of the exact name or licensed English. Project proposal based on the game source.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "神グレートカンパニー",
+      "token": "神グレートカンパニー",
+      "kind": "keyword",
+      "en": "Jin Great Company",
+      "status": "proposed",
+      "source": "Two source occurrences, 371:t_1:26 and 758:t_1:591; Kappei names a business after his Jin surname, echoing Takeo General Company. Existing surname 神 = Jin and Kappei Jin profile establish the reading. https://mousousouko.blog10.fc2.com/blog-entry-1252.html independently describes the stage's proposed company joke. English is a transparent project rendering, not an official localized company name.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "イナカッペイ",
+      "token": "イナカッペイ",
+      "kind": "pilot",
+      "en": "Hick Kappei",
+      "status": "proposed",
+      "source": "One source occurrence, 371:t_1:28: Watta teases Kappei with a countryside/hick plus Kappei pun, and Kappei objects in the next row. Preserve the pointed nickname rather than expanding to his ordinary name. Searches found no verified localized equivalent. Any allusion to the real performer Ina Kappei remains unconfirmed and is not inserted. Project adaptation, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "太陽の翼",
+      "token": "太陽の翼",
+      "kind": "keyword",
+      "en": "Solar Wing",
+      "status": "official",
+      "source": "Nine full-corpus occurrences, two in this batch at 360:t_017:6 and 360:t_018:2. https://aquarion.fandom.com/wiki/Solar_Wing explicitly pairs the Japanese term with Solar Wing and describes both the Apollonius epithet and Aquarion reference. Preserve source ambiguity instead of replacing with a person's name. Wiki-sourced spelling, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "終末のシ者",
+      "token": "終末のシ者",
+      "kind": "keyword",
+      "en": "Emissary of the End",
+      "status": "proposed",
+      "source": "Two full-corpus occurrences, 360:t_015:6 and 360:t_018:9, Mikage's title for Kaworu. Preserve the source's end/emissary wordplay and the project's settled emissary rendering. https://srw.wiki.cre.jp/wiki/渚カヲル supplies Kaworu/Aquarion context but does not verify this exact English title; no licensed equivalent found. Project title proposal, no numeric binding.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "チュウ",
+      "token": "チュウ",
+      "kind": "pilot",
+      "en": "Chuu",
+      "status": "proposed",
+      "source": "One corpus occurrence, in チュウちゃん at 371:t_1:84. Umee greets Uchuta and Keiko, who answer in the following rows; retain the abbreviated pet name rather than expanding Uchuta. Existing Uchuta profile establishes the name; no independently attested English nickname was found. Romanization proposal; generic honorific omitted consistently with style. No numeric binding.",
+      "targets": [],
+      "researched_token": true
+    }
+  ],
+  "glossary_corrections": [
+    {
+      "token": "ブスペア",
+      "before": {
+        "jp": "ブスペア",
+        "kind": "keyword",
+        "en": "Busupea",
+        "status": "proposed",
+        "source": "https://ja.wikipedia.org/wiki/無敵超人ザンボット3 : ブスペア = 「ブス二人」, Kappei's fan club (Aki and Michi); no English source",
+        "targets": [],
+        "token": "ブスペア"
+      },
+      "after": {
+        "jp": "ブスペア",
+        "kind": "keyword",
+        "en": "Ugly Duo",
+        "status": "proposed",
+        "source": "Two source occurrences, 371:t_10:23 and 371:t_10:24, Kappei's insulting nickname for Aki and Michi, with AG objecting to its cruelty. Official series page https://www.sunrise-world.net/titles/pickup_018.php explicitly calls the pair ブスペア in their character entry. English is a project adaptation retaining the insult, not a verified licensed English nickname. No numeric binding.",
+        "targets": [],
+        "token": "ブスペア"
+      }
+    }
+  ],
+  "agent_reports": {
+    "dlg_2033_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "230:t_1:10-11: One sentence continues across rows; the object continues in row 11.",
+        "230:t_1:37: Sheryl deliberately trails off after Otherwise.",
+        "230:t_1:8,27,32,33;231:t_003:0;231:t_005:0: Name-only calls/thoughts.",
+        "230:t_2:3,7,9;230:t_10:6: Intentional silence.",
+        "230:t_1:21;230:t_1:31: Conventional response/interjection.",
+        "230:t_1:28: YF-29 reference before the complete following observation.",
+        "230:t_10:7,10: Conventional kidding phrase and toast.",
+        "230:t_1:8: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "230:t_1:32: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "230:t_1:33: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "230:t_2:3: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "230:t_2:7: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "230:t_2:9: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "230:t_10:6: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_005:0: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "230:t_1:10-11: Ledo compares the unusual Earth deployment with Sidereal's normal galactic-center base; joined predicate rendered in the first row.",
+        "231:t_004:3: Galactic Center Army is a descriptive command designation."
+      ],
+      "neighbor_row_ids": [
+        "225:t_102:1",
+        "225:t_102:2",
+        "225:t_102:3",
+        "225:t_103:0",
+        "225:t_103:1",
+        "225:t_103:2",
+        "225:t_103:3",
+        "225:t_999:0",
+        "231:t_005:5",
+        "231:t_005:6",
+        "231:t_005:7",
+        "231:t_005:8",
+        "231:t_005:9",
+        "231:t_005:10",
+        "231:t_005:11",
+        "231:t_005:12"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2033_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "231:t_005:10,12,20;231:t_007:1;231:t_013:0;231:t_015:1;231:t_017:2,14: Address/name-only calls.",
+        "231:t_005:19;231:t_007:0;231:t_017:7: Intentional silence.",
+        "231:t_012:2;231:t_013:3;231:t_015:2;231:t_016:1;231:t_017:0: Deliberately unfinished reactions.",
+        "231:t_013:4;231:t_015:0;231:t_017:17: Nonverbal exclamations.",
+        "231:t_006:0: Deliberate noun-only identification of the black Angeloi.",
+        "231:t_010:6;231:t_012:3: Angered shouted interjections.",
+        "231:t_016:0: Naval gunfire exclamation before the following complete question.",
+        "231:t_005:12: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_005:19: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_005:20: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_007:0: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_007:1: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_013:0: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_015:1: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_017:2: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_017:7: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_017:14: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_017:17: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "231:t_017:2: ゲペなんとか rendered as Gepe-whatever, a comic mangling rather than a separate proper name.",
+        "231:t_006:2: Interrupted thought deliberately retained; no unexplained pronoun gender."
+      ],
+      "neighbor_row_ids": [
+        "231:t_004:4",
+        "231:t_004:5",
+        "231:t_004:6",
+        "231:t_005:0",
+        "231:t_005:1",
+        "231:t_005:2",
+        "231:t_005:3",
+        "231:t_005:4",
+        "231:t_017:20",
+        "231:t_017:21",
+        "231:t_017:22",
+        "231:t_017:23",
+        "231:t_017:24",
+        "231:t_017:25",
+        "231:t_017:26",
+        "231:t_018:0"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2033_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "231:t_017:24;231:t_018:2;231:t_019:1;231:t_021:1;231:t_022:1: Conventional response/interjection.",
+        "231:t_017:25;231:t_029:2: Intentional silence.",
+        "231:t_017:26;231:t_018:0: Name-only calls.",
+        "231:t_018:1;231:t_023:2;231:t_024:7: Sivil's explicitly broken speech retained.",
+        "231:t_018:10;231:t_021:8;231:t_024:10;231:t_025:1,4;231:t_026:3: Nonverbal cries.",
+        "231:t_025:2;231:t_026:0;231:t_027:0;231:t_029:0,1: Deliberately unfinished statements.",
+        "231:t_021:0,1,4,8: Song-title/Spiritia shouts and nonverbal reactions.",
+        "231:t_022:3: Promise-beauty is an explicit wordplay exclamation.",
+        "231:t_017:25: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_017:26: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_018:0: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_024:10: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "231:t_029:2: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "231:t_021:5-6: It refers to rising Spiritia, confirmed by Gavil next row; the vague anticipation remains.",
+        "231:t_027:0: Angel is broken into syllables, not replaced with an Angeloi proper name."
+      ],
+      "neighbor_row_ids": [
+        "231:t_017:12",
+        "231:t_017:13",
+        "231:t_017:14",
+        "231:t_017:15",
+        "231:t_017:16",
+        "231:t_017:17",
+        "231:t_017:18",
+        "231:t_017:19",
+        "231:t_100:1",
+        "231:t_101:0",
+        "231:t_101:1",
+        "231:t_101:2",
+        "231:t_101:3",
+        "231:t_102:0",
+        "231:t_102:1",
+        "231:t_102:2"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2033_03": {
+      "rows_in_slice": 11,
+      "rows_examined": 11,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "231:t_102:1;231:t_999:0: Nonverbal cry/interjection.",
+        "231:t_100:1: Deliberate final fragment elaborates the wish already stated."
+      ],
+      "uncertain": [],
+      "neighbor_row_ids": [
+        "231:t_028:7",
+        "231:t_028:8",
+        "231:t_028:9",
+        "231:t_029:0",
+        "231:t_029:1",
+        "231:t_029:2",
+        "231:t_029:3",
+        "231:t_100:0",
+        "236:t_1:3",
+        "236:t_1:4",
+        "236:t_1:5",
+        "236:t_1:6",
+        "236:t_1:7",
+        "236:t_1:8",
+        "236:t_1:9",
+        "236:t_1:10"
+      ],
+      "rows_examined_including_context": 27
+    },
+    "dlg_2034_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "236:t_1:4,14,16,17,29,46: Name-only calls/reactions.",
+        "236:t_1:5,6,44,48;237:t_000:9,10,25: Intentional silence.",
+        "236:t_1:28: Nonverbal cry.",
+        "236:t_1:22,26,35,38;237:t_000:12: Deliberately unfinished sentence/thought.",
+        "236:t_1:5: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "236:t_1:6: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "236:t_1:14: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "236:t_1:16: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "236:t_1:29: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "236:t_1:44: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "236:t_1:48: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_000:9: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_000:10: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_000:25: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "236:t_1:19-20: Characters have arrived without ships or machines in a shared mental space; physical observation preserved without claiming actual disembarkation.",
+        "236:t_1:31,37: Gundam plural refers to the pilots' collective machines.",
+        "237:t_000:38: Jeffrey asks Ledo for permission; direction preserved."
+      ],
+      "neighbor_row_ids": [
+        "231:t_101:2",
+        "231:t_101:3",
+        "231:t_102:0",
+        "231:t_102:1",
+        "231:t_102:2",
+        "231:t_102:3",
+        "231:t_102:4",
+        "231:t_999:0",
+        "237:t_000:40",
+        "237:t_000:41",
+        "237:t_000:42",
+        "237:t_000:43",
+        "237:t_000:44",
+        "237:t_000:45",
+        "237:t_000:46",
+        "237:t_000:47"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2034_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "237:t_000:43,44,50: Deliberate noun-phrase reactions to preceding information.",
+        "237:t_000:53,67;237:t_003:11;237:t_004:2;237:t_006:2: Conventional responses/interjections.",
+        "237:t_003:2;237:t_004:0;237:t_009:13: Intentional silence.",
+        "237:t_003:8;237:t_004:5,8;237:t_008:0: Name/object-only calls.",
+        "237:t_003:6;237:t_004:7;237:t_006:1;237:t_009:2,4,8: Deliberate unfinished statements/reactions.",
+        "237:t_003:2: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_003:8: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_004:0: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_004:8: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_006:2: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_009:13: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "237:t_004:4,6;237:t_009:3,7,9-10: Suzune abruptly switches to cold, authoritative register, preserved instead of softening.",
+        "237:t_009:9-10: English singular-they keeps the generic child neutral.",
+        "237:t_000:40: Intelligence identifier normalized to ASCII X12030702."
+      ],
+      "neighbor_row_ids": [
+        "237:t_000:32",
+        "237:t_000:33",
+        "237:t_000:34",
+        "237:t_000:35",
+        "237:t_000:36",
+        "237:t_000:37",
+        "237:t_000:38",
+        "237:t_000:39",
+        "237:t_009:14",
+        "237:t_009:15",
+        "237:t_009:16",
+        "237:t_009:17",
+        "237:t_010:0",
+        "237:t_010:1",
+        "237:t_010:2",
+        "237:t_010:3"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2034_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "237:t_009:14: Intentional silence.",
+        "237:t_009:15;237:t_015:2;237:t_016:2: Conventional response/nonverbal reactions.",
+        "237:t_009:17;237:t_010:1;237:t_011:1;237:t_015:0,3;237:t_018:1: Name/voice-only calls.",
+        "237:t_010:2-3;237:t_011:2-3: Nominal recollection flows into identification across rows.",
+        "237:t_010:14;237:t_011:14: Deliberate vocative denunciation.",
+        "237:t_012:0;237:t_014:3,10;237:t_015:4;237:t_016:6: Deliberately unfinished statements.",
+        "237:t_014:4,6: Conventional apology phrases.",
+        "237:t_014:9: Angered shouted interjections.",
+        "237:t_009:14: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_009:17: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_010:1: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_011:1: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_015:3: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_016:2: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_018:1: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "237:t_016:5: Mysterious speaker addresses Setsuko as Hamaliel the Star; similarity of existence retained without adding identity claims.",
+        "237:t_010 and t_011: Two branch versions retained independently with their different opening commands."
+      ],
+      "neighbor_row_ids": [
+        "237:t_009:6",
+        "237:t_009:7",
+        "237:t_009:8",
+        "237:t_009:9",
+        "237:t_009:10",
+        "237:t_009:11",
+        "237:t_009:12",
+        "237:t_009:13",
+        "237:t_020:4",
+        "237:t_100:0",
+        "237:t_100:1",
+        "237:t_101:0",
+        "237:t_101:1",
+        "237:t_101:2",
+        "237:t_102:0",
+        "237:t_102:1"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2034_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "237:t_020:4: Conventional acknowledgment.",
+        "237:t_101:1: Rank-only address.",
+        "237:t_102:0;237:t_104:1;237:t_105:0;237:t_108:1;237:t_126:1: Deliberately unfinished thoughts.",
+        "237:t_111:0: Name-only thought.",
+        "237:t_113:0-1;237:t_127:2: Explicit requests retain imperative direction, speaker asking remembered people for help.",
+        "237:t_114:0;237:t_122:0: Deliberate nominal identification/vocative.",
+        "237:t_124:0: Marida's submissive formula deliberately fragmentary.",
+        "237:t_130:0: Conventional apology repeated to each named person.",
+        "237:t_111:0: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "237:t_128:1-2: Young ladies refers to Kihel and Sochie; neutral descriptive plural avoids inventing names absent from source.",
+        "237:t_111:1: Brera accepts personal despair but then resolves to protect Ranka; both distinct meanings retained."
+      ],
+      "neighbor_row_ids": [
+        "237:t_018:1",
+        "237:t_018:2",
+        "237:t_019:0",
+        "237:t_019:1",
+        "237:t_020:0",
+        "237:t_020:1",
+        "237:t_020:2",
+        "237:t_020:3",
+        "237:t_131:0",
+        "237:t_131:1",
+        "237:t_132:0",
+        "237:t_132:1",
+        "237:t_133:0",
+        "237:t_133:1",
+        "237:t_133:2",
+        "237:t_133:3"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2034_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "237:t_132:0;237:t_133:2: Name/family-only thoughts.",
+        "237:t_139:0;237:t_999:0;242:t_1:24: Nonverbal cries/interjections.",
+        "237:t_139:3: Intentional silence.",
+        "237:t_137:2;237:t_139:1;242:t_1:6,20;242:t_1:53: Deliberately unfinished statements.",
+        "242:t_1:9,14,17: Echoed identification in conversational context; predicate restored in 9 and 17.",
+        "237:t_138:1: Possessive noun ellipsis refers back to Sphere in prior row, English has subject and verb.",
+        "237:t_133:2: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "237:t_139:3: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "237:t_136:1-2: Patrick addresses his absent Colonel and requests courage; request direction preserved.",
+        "242:t_1:30: Gai's reverent wording for Getter Rays is sarcastic, confirmed by Banagher and Koji's following replies.",
+        "237:t_133:1: Hallelujah addresses Allelujah, whose male profile supports his sins in generic comparison."
+      ],
+      "neighbor_row_ids": [
+        "237:t_128:1",
+        "237:t_128:2",
+        "237:t_129:0",
+        "237:t_129:1",
+        "237:t_130:0",
+        "237:t_130:1",
+        "237:t_130:2",
+        "237:t_130:3",
+        "242:t_1:57",
+        "242:t_1:58",
+        "242:t_1:59",
+        "242:t_1:60",
+        "242:t_1:61",
+        "242:t_1:62",
+        "242:t_1:63",
+        "242:t_1:64"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2034_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "242:t_1:57,70,78,93;242:t_10:44: Conventional responses/interjections.",
+        "242:t_1:63,82;242:t_10:20,27: Name-only calls/echoed question.",
+        "242:t_1:79;242:t_10:3,7,35: Intentional silence.",
+        "242:t_1:83,85;242:t_10:26: Deliberately unfinished statement.",
+        "242:t_1:63: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "242:t_1:79: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "242:t_10:3: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "242:t_10:7: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "242:t_10:20: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained.",
+        "242:t_10:35: Intentional name-only address, silence, or nonverbal reaction; no grammatical pro-drop retained."
+      ],
+      "uncertain": [
+        "242:t_1:59,61-62: Angel refers to Hibiki's childhood pursuer, kept as Angel without an invented identity token.",
+        "242:t_1:73: Female-role taunt references Alto's onnagata acting; not rewritten as a sexuality/gender insult.",
+        "242:t_10:38: Suzune is patronizing rather than admiring; endearing carries the condescension."
+      ],
+      "neighbor_row_ids": [
+        "242:t_1:46",
+        "242:t_1:50",
+        "242:t_1:51",
+        "242:t_1:52",
+        "242:t_1:53",
+        "242:t_1:54",
+        "242:t_1:55",
+        "242:t_1:56",
+        "243:t_000:0",
+        "243:t_000:1",
+        "243:t_000:2",
+        "243:t_000:3",
+        "243:t_000:4",
+        "243:t_000:5",
+        "243:t_000:6",
+        "243:t_001:0"
+      ],
+      "rows_examined_including_context": 96
+    },
+    "dlg_2034_06": {
+      "rows_in_slice": 13,
+      "rows_examined": 13,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "243:t_000:3: Conventional surprised response.",
+        "243:t_000:6;243:t_001:0: Deliberate unfinished recognition/name-only exclamation."
+      ],
+      "uncertain": [
+        "243:t_001:4-5: Captains suspect outside orchestration; phrased as suspicion, not a confirmed fact."
+      ],
+      "neighbor_row_ids": [
+        "242:t_10:39",
+        "242:t_10:40",
+        "242:t_10:41",
+        "242:t_10:42",
+        "242:t_10:43",
+        "242:t_10:44",
+        "242:t_10:45",
+        "242:t_10:46",
+        "282:t_1:3",
+        "282:t_1:4",
+        "282:t_1:5",
+        "282:t_1:6",
+        "282:t_1:7",
+        "282:t_1:8",
+        "282:t_1:9",
+        "282:t_1:10"
+      ],
+      "rows_examined_including_context": 29
+    },
+    "dlg_2039_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "282:t_1:13: Sumeragi trails off mid-thought about relying on Celestial Being.",
+        "282:t_1:17,19,24,37,58,60,69,80: Surprise, interrupted argument, trailing-off setup, stammer and name-address fragments preserved.",
+        "282:t_1:56,65,66: Deliberate silent ellipses preserved."
+      ],
+      "uncertain": [
+        "282:t_1:36: Setsuna asks Banagher for help; request direction retained.",
+        "282:t_1:45-46: Lockon's loved one left ungendered as source; adjacent scene confirms romantic meaning."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2039_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "282:t_1:96,141;282:t_2:8: Silent ellipses.",
+        "282:t_1:99,109,122,126,132,142-143,145: Exclamation/address and deliberately trailing-off or interrupted phrases preserved.",
+        "282:t_1:111,116: Trailing conjunction preserved; subjects restored."
+      ],
+      "uncertain": [
+        "282:t_1:89: Educational warning/judo penalty joke rendered in full; Suzune intentionally trails off.",
+        "282:t_1:131: His comrades were killed by Hideauze; hesitations kept without omitting hundreds.",
+        "282:t_2:11: Official ELS acronym expansion used."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2039_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "282:t_2:26,27,32,37,40,49,61,70,75: Reaction, interrupted statement or address fragments.",
+        "282:t_2:60,73: Silent ellipses.",
+        "282:t_10:15: Deliberate thinking interjection."
+      ],
+      "uncertain": [
+        "282:t_2:31: Linda groups ELS with Baal for observation despite Tieria's unconfirmed classification; source wording retained.",
+        "282:t_2:39: Sheryl teases Alto's feminine looks and aggression, not an unknown woman.",
+        "282:t_10:18: AG requests Mileina's help, not offers his own."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2039_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "282:t_10:22,24,28,32,38-39: Example list, exclamation, stammer, greeting and call-and-response fragments.",
+        "283:t_002:3;283:t_009:1: Silent ellipses.",
+        "283:t_007:1;283:t_009:0;283:t_010:5;283:t_012:10: Guess list, nonverbal creature reactions and name-address fragment."
+      ],
+      "uncertain": [
+        "282:t_10:22: Grace is Felt's surname in Mileina's pair list, not Macross Grace; token searched before use.",
+        "282:t_10:30: AG's interrogation threat retains its nastiness.",
+        "283:t_003:2: Her is Lockon's girlfriend, established explicitly in preceding AG scene."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2039_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "283:t_013:9,11,13,17,19;283:t_014:10;283:t_015:2,8,9,12;283:t_017:3;283:t_107:0: Intentional fragments, continued thought and trailing-off lines.",
+        "283:t_014:6: Silent ellipsis.",
+        "283:t_016:2: Blue Haro's repeated nickname fragments retained.",
+        "283:t_017:0-1: Scream and address retained."
+      ],
+      "uncertain": [
+        "283:t_014:4: Ian requests Setsuna's success; direction rendered as we are counting on you.",
+        "283:t_014:9-10: Kamille/Amuro thought sequence remains divided, Amuro's fragment completes preceding thought.",
+        "283:t_015:5-6: Qan[T] weapon incompleteness distinguished from its true completion as dialogue machine."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2039_05": {
+      "rows_in_slice": 10,
+      "rows_examined": 10,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "283:t_999:0: Single surprise interjection."
+      ],
+      "uncertain": [
+        "283:t_111:2: Ledo deliberately sets aside returning to the Alliance to protect his present companions."
+      ],
+      "context_rows_examined": 26
+    },
+    "dlg_2040_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "288:t_1:6,11,19;288:t_2:48: Deliberately trailing-off sentence.",
+        "288:t_1:12-13: Laughter.",
+        "288:t_2:33,57,62,65: Term echo and silent ellipses.",
+        "288:t_2:67: By-clause intentionally continues preceding row."
+      ],
+      "uncertain": [
+        "288:t_1:8: Unnamed creature kept it, no gender inferred.",
+        "288:t_2:6: Former knights considered suicide; severity retained.",
+        "288:t_2:44: Rand's after-sales-service idiom retained in his repairman voice.",
+        "288:t_2:56-67: Speaker options select Shikuu pilot; unknown speaker remains ??? until named.",
+        "288:t_2:66-67: Son/wife relationship source establishes Sozo's male pronoun and fragment links across rows."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2040_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "288:t_2:70: Self-identification fragment.",
+        "289:t_000:3;294:t_1:8,12,17,31,37: Deliberate unfinished statement, exposition label, term echo, shocked response and address.",
+        "294:t_1:10,19,20: Silent ellipses."
+      ],
+      "uncertain": [
+        "288:t_2:73: Bond rendering chosen for en, yin/yang retained as contrast.",
+        "294:t_1:29: Al II initially rendered token Al plus II, then Crossbow correction.",
+        "294:t_1:31: Sousuke addresses Nami in thought, survival imperative is properly directed to her."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2040_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "294:t_1:62,103-105,109;294:t_10:10,21: Trailing reactions, interrupted I and name/term-address fragments.",
+        "294:t_1:113: Silent ellipsis thought.",
+        "294:t_10:12: Lead-in noun phrase joins its own complete second clause."
+      ],
+      "uncertain": [
+        "294:t_1:81-82: Setsuko/Rand deliberately encourage Crowe's debt to sustain will, apology addressed to Crowe.",
+        "294:t_1:111-112: Suzune's sinister observation keeps appraisal without inventing object of designed.",
+        "294:t_10:19,27-28: Greeting requests point to AG; AG's passive reply keeps joke."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2040_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "294:t_10:29,36,42;295:t_000:6,9,21,26;295:t_001:12,18,19;295:t_002:1: Deliberate trailing-off, shout, laughter, address and silent fragments."
+      ],
+      "uncertain": [
+        "295:t_000:19-20: Captain/Colonel rank correction preserved.",
+        "295:t_000:32-34: Noriko teases Alto and Koji; both restore explicit subjects in their denial.",
+        "295:t_001:11-14: Shikoku denies incidental nature, heroes still pick up her side-task wording.",
+        "295:t_001:21 vs295:t_002:0: She is Shikoku beginning attack; he is Shikuu incoming, established by neighbors."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2040_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "295:t_003:0,4;295:t_009:0,3: Silent ellipses.",
+        "295:t_004:0,4,6;295:t_006:6;295:t_007:0;295:t_008:0-2;295:t_009:1,5,8-9,11,15;295:t_010:1;295:t_012:0,11;295:t_013:1: Reaction symbols, stammer, deliberate interrupted clauses, address and discourse lead-in."
+      ],
+      "uncertain": [
+        "295:t_003:5: Gunleon/gan-mushi joke adapted as Gan-gnoring; English neologism carries intentional pun.",
+        "295:t_006:3: Recipient of the Sphere remains unspecified; singular them avoids inferring gender from an unresolved referent.",
+        "295:t_008:7: Shikuu followed Asakim to Mars; he refers to Asakim, unexpected find to Advent.",
+        "295:t_009:13: Shikuu spots attack opening, I see it.",
+        "295:t_013:0: Banjo requests Hibiki's support to help him recover from shock; direction intact."
+      ],
+      "context_rows_examined": 96
+    },
+    "dlg_2040_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "295:t_016:4: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_016:6: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "295:t_016:7: Bare address or name recognition preserved as a conventional reaction.",
+        "295:t_016:9: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_016:11: Nominal second phrase repeats the explicit subject of the preceding sentence; deliberate Stigma epithet.",
+        "295:t_017:3: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_018:3: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_019:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_020:0: Source silence preserved; no spoken proposition.",
+        "295:t_020:2: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "295:t_022:1: Bare address or name recognition preserved as a conventional reaction.",
+        "295:t_022:6: Unfinished challenge about supposed death, answered by Advent next row.",
+        "295:t_022:8: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_022:14: Source silence preserved; no spoken proposition.",
+        "295:t_022:16: Source silence preserved; no spoken proposition.",
+        "295:t_022:18: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_022:19: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_022:20: Bare address or name recognition preserved as a conventional reaction.",
+        "295:t_023:2: Bare address or name recognition preserved as a conventional reaction.",
+        "295:t_023:6: Tieria leaves the recollection open for Advent to explain next row.",
+        "295:t_024:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_024:2: Cayenne trails off at the conditional; Schrade cuts off the criticism next row.",
+        "295:t_024:4: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "295:t_024:5: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_024:6: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_024:7: Source silence preserved; no spoken proposition.",
+        "295:t_024:9: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_025:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_025:1: Bare address or name recognition preserved as a conventional reaction.",
+        "295:t_026:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition."
+      ],
+      "uncertain": [
+        "295:t_016:11: Parent confirmed Stigma plus parenthetic phonetic gloss is one term; rendered once with existing token.",
+        "295:t_023:6: Preserved unfinished recollection for Advent's explanation in next row."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2040_06": {
+      "rows_in_slice": 68,
+      "rows_examined": 68,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "295:t_026:2: Bare address or name recognition preserved as a conventional reaction.",
+        "295:t_026:7: Banjo mentally lists Advent, Asakim, and Chrono before questioning their aims next row.",
+        "295:t_027:0: Source silence preserved; no spoken proposition.",
+        "295:t_027:4: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_027:5: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "295:t_027:7: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_029:0: Source silence preserved; no spoken proposition.",
+        "295:t_029:4: Echo question about sister retained as reaction fragment.",
+        "295:t_029:5: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "295:t_100:1: Source silence preserved; no spoken proposition.",
+        "295:t_100:4: Source silence preserved; no spoken proposition.",
+        "295:t_101:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_101:2: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_103:0: Shikuu breaks off his recognition of Advent; identity not completed.",
+        "295:t_103:2: Source silence preserved; no spoken proposition.",
+        "295:t_104:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_104:2: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_105:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_106:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_108:0: Asakim names the four Spheres inside him, followed by his thought in the next row.",
+        "295:t_108:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_109:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_109:2: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "295:t_999:0: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted."
+      ],
+      "uncertain": [
+        "295:t_102:0: Recipient of you is not identified in this battle exchange; neutral them preserves uncertainty without gender inference.",
+        "295:t_105:1: Banjo's I refuse gains its object from his next line rejecting ego-bound Meganoids and revenge."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "353:t_1:5: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:11: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "353:t_1:20: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:21: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:25: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:27: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:28: Source nonverbal reaction preserved.",
+        "353:t_1:31: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:42: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "353:t_1:44: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:45: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:52: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "353:t_1:58: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:62: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:85: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition."
+      ],
+      "uncertain": [
+        "353:t_1:75: The Colonel is Jeffrey; he retains Colonel per dialogue style.",
+        "353:t_1:37: Father disparages Systema as HRL health exercises; retained the insult and whole-person martial-art comparison."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "353:t_1:92: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:93: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:104: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "353:t_1:105: Conditional interrupted by Lockon completing the thought next row.",
+        "353:t_1:107: Kira names Veda and its superlative status as a deliberate nominal recognition.",
+        "353:t_1:111: Source silence preserved; no spoken proposition.",
+        "353:t_1:112: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:116: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:117: Shin identifies Chrono with its descriptive epithet as a nominal reaction.",
+        "353:t_1:119: Banjo contrasts two Chrono factions in a nominal list, before the third-faction statement.",
+        "353:t_1:121: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:124: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:132: Bare address or name recognition preserved as a conventional reaction.",
+        "353:t_1:145: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "353:t_1:154: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_1:155: Continues the object of Sumeragi learning in the previous row; same sentence boundary preserved."
+      ],
+      "uncertain": [
+        "353:t_1:119: Monitor versus watch over preserves the Conservatives/Reformists distinction.",
+        "353:t_1:123: Female reference retained because the source explicitly says she; Banjo admits no direct spoken exchange.",
+        "353:t_1:150: Dorothy is Big O, replying to Nono and Mome about robot head parts; speaker variant corrected to Big O.",
+        "Straus references remain neutral until identified; no gender inferred from the code name."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "353:t_2:15: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:19: Source silence preserved; no spoken proposition.",
+        "353:t_2:20: Bare address or name recognition preserved as a conventional reaction.",
+        "353:t_2:21: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:23: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:24: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:25: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:26: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:32: Source silence preserved; no spoken proposition.",
+        "353:t_2:33: Source silence preserved; no spoken proposition.",
+        "353:t_2:34: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:38: Shinji echoes rejection as a stunned reaction.",
+        "353:t_2:47: Shinji begins defending Kaworu and is interrupted by Asuka.",
+        "353:t_2:50: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:51: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:52: Source silence preserved; no spoken proposition.",
+        "353:t_2:56: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:57: Source silence preserved; no spoken proposition.",
+        "353:t_2:58: Shinji finishes the Rei comparison, then breaks off at But I.",
+        "353:t_2:60: Bare address or name recognition preserved as a conventional reaction.",
+        "353:t_2:64: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:66: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:68: Source silence preserved; no spoken proposition.",
+        "353:t_2:69: Source silence preserved; no spoken proposition.",
+        "353:t_2:76: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:77: Source silence preserved; no spoken proposition.",
+        "353:t_2:79: Shinji starts I and cannot finish his decision.",
+        "353:t_2:84: Shinji leaves the conditional fear unfinished before Asuka reacts.",
+        "353:t_2:85: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:90: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:91: Kaworu pauses at Then, inviting Mari to state agreement.",
+        "353:t_2:95: Source silence preserved; no spoken proposition."
+      ],
+      "uncertain": [
+        "353:t_2:92: Mari's five-person list is Kaworu, Mari, Asuka, Shinji, and Rei; scene gives all referents."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "353:t_2:96: Source silence preserved; no spoken proposition.",
+        "353:t_2:99: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:104: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:105: Source silence preserved; no spoken proposition.",
+        "353:t_2:106: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:108: Source silence preserved; no spoken proposition.",
+        "353:t_2:109: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:114: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:115: Tieria mentally names Aeolia as Celestial Being founder before drawing the connection next row.",
+        "353:t_2:116: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_2:117: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_10:11: AG ends with but, and supplies the contrast in the following row.",
+        "353:t_10:13: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_10:15: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_10:21: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "353:t_10:22: Source nonverbal reaction preserved.",
+        "353:t_10:24: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "353:t_10:26: AG trails off in criticism of Kaworu's credibility.",
+        "353:t_10:30: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_000:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_001:0: Peiris identifies the mothership in a nominal recognition.",
+        "354:t_001:8: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_001:10: Alto imagines Hibiki learning Heat Smile, before Michel supplies the consequence.",
+        "354:t_001:14: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_001:20: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_001:24: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:1: Setsuko recognizes Straus by Sphere title in a nominal exclamation.",
+        "354:t_002:2: Source silence preserved; no spoken proposition.",
+        "354:t_002:3: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:6: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition."
+      ],
+      "uncertain": [
+        "353:t_2:106: Knockoff Teacher's Pet targets Rei. The smart aleck label is left unattributed; both Mari and Kaworu banter in this scene, and the source does not explicitly name the third target.",
+        "353:t_10:9 and 16: Noh concealment/flower aphorism retained with its meaning; repetition kept.",
+        "353:t_2:116: GN Particles token researched and appended by parent; full awakening purpose retained."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "354:t_002:9: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:11: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:15: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:20: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:21: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_002:22: Source silence preserved; no spoken proposition.",
+        "354:t_003:3: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_003:8: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_003:9: Source silence preserved; no spoken proposition.",
+        "354:t_004:0: Source silence preserved; no spoken proposition.",
+        "354:t_004:6: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_004:8: Setsuko trails off in Even with Hibiki present; Crowe interrupts.",
+        "354:t_004:9: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_004:10: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_004:11: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_004:13: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_004:14: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_004:16: Source nonverbal reaction preserved.",
+        "354:t_005:2: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_005:7: Hibiki recognizes a red Earth as a broken nominal phrase.",
+        "354:t_006:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_006:2: Source nonverbal reaction preserved.",
+        "354:t_007:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_007:2: Source silence preserved; no spoken proposition.",
+        "354:t_007:3: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_008:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_008:2: Source silence preserved; no spoken proposition.",
+        "354:t_009:2: Amuro trails off at but; Sumeragi addresses the identity issue next row.",
+        "354:t_009:4: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:7: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:8: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:10: Asuka trails off at transfer among familiar faces; Mari evaluates that next row.",
+        "354:t_009:12: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:14: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_009:15: Bare address or name recognition preserved as a conventional reaction."
+      ],
+      "uncertain": [
+        "354:t_004:5: Showdown between men is Simon's own stated belief, preserved even though Straus's identity is concealed.",
+        "354:t_005:4: Restored subject and verb to the comparison with the Insaraum rescue."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "354:t_009:17: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:18: Koji leaves identification of pink EVA unfinished; Mari answers.",
+        "354:t_009:20: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_009:23: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:24: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_009:25: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:26: Source silence preserved; no spoken proposition.",
+        "354:t_009:29: Source silence preserved; no spoken proposition.",
+        "354:t_009:32: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_009:33: Kaworu uses a nominal first observation before an explicit full second sentence.",
+        "354:t_009:35: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_010:0: Source silence preserved; no spoken proposition.",
+        "354:t_010:1: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_010:2: Source silence preserved; no spoken proposition.",
+        "354:t_011:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_012:0: Source silence preserved; no spoken proposition.",
+        "354:t_013:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_013:4: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_013:5: Source silence preserved; no spoken proposition.",
+        "354:t_014:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_014:3: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_014:4: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_014:5: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_014:7: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_014:8: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_014:10: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_016:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_018:5: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_018:9: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "354:t_018:14: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_019:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_019:1: Source silence preserved; no spoken proposition.",
+        "354:t_020:2: Source silence preserved; no spoken proposition.",
+        "354:t_021:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_023:0: Kaworu mentally labels people struggling against fate as a deliberate nominal observation.",
+        "354:t_023:1: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_100:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_101:0: Tieria lists deepest Veda data and Aeolia's intentions before declaring his wish in the next slice."
+      ],
+      "uncertain": [
+        "354:t_013:2: Neutral their for Straus; Covetous Golden Ox and Wounded Lion are distinct compatible Spheres."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2047_06": {
+      "rows_in_slice": 37,
+      "rows_examined": 37,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "354:t_102:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_103:5: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_103:7: Dabaran trails off defending himself at I am.",
+        "354:t_104:0: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_104:2: Source silence preserved; no spoken proposition.",
+        "354:t_105:0: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_105:1: Source silence preserved; no spoken proposition.",
+        "354:t_105:2: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_105:3: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_105:5: Bare address or name recognition preserved as a conventional reaction.",
+        "354:t_105:7: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_105:8: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_105:9: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_106:0: Asuka starts with a disgruntled epithet for Shinji.",
+        "354:t_106:4: Asuka cannot finish explaining her gaze and Mari moves on.",
+        "354:t_106:8: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "354:t_999:0: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted."
+      ],
+      "uncertain": [
+        "354:t_103:3: Dark Smile was coined by Hibiki; parent added proposed glossary token."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2048_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "359:t_1:7: Rei gives only her name; deliberate terse self-introduction.",
+        "359:t_1:13: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:14: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:30: Conventional interjection, greeting, acknowledgment, apology, thanks, or short response; no narrative proposition omitted.",
+        "359:t_1:38: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:40: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:41: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:43: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:45: Source silence preserved; no spoken proposition.",
+        "359:t_1:50: Shinji begins an answer and stops; Kaworu covers for him.",
+        "359:t_1:55: Source silence preserved; no spoken proposition.",
+        "359:t_1:63: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:67: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:69: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:72: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:73: Source silence preserved; no spoken proposition.",
+        "359:t_1:77: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:79: Conventional farewell conditional if you will excuse me retained.",
+        "359:t_1:80: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition.",
+        "359:t_1:81: Source trailing delivery or suspension retained; full subject and predicate supplied wherever the source states a proposition."
+      ],
+      "uncertain": [
+        "359:t_1:13-14: Fourteen-year concealment preserved; Shinji himself cannot absorb the elapsed time.",
+        "359:t_1:61-64: Koji's thought precedes Hibiki's quiet-speech question; source speaker headers followed despite pid offsets.",
+        "359:t_1:57: Double Entry System uses existing glossary token."
+      ],
+      "neighbor_context_rows": 16,
+      "source_context": "Read the complete emitted slice and eight adjacent rows on each side. Adjacent assigned slices were read in full. Assignment total: 745 assigned rows, 745 examined; 160 neighbor appearances read (overlap included).",
+      "change_log": [
+        "Fresh source translation; subject/verb and request direction checked; speaker header variants resolved; names tokenized; measured validation run."
+      ]
+    },
+    "dlg_2048_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "359:t_1:86: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "359:t_1:89: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Y-yeah...」",
+        "359:t_1:93: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$シンジ$$...」",
+        "359:t_1:95: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: (The boy who appeared to listen to my piano back then... Was that... him...?)",
+        "359:t_1:99: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「C-could it be... you look like a girl, but your actual age is...!」",
+        "359:t_1:101: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "359:t_1:105: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「We went our separate ways after we got back to our own world, so...」",
+        "359:t_1:107: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「But $$アスカ$$, couldn't you ask $$シンジ$$ what happened...」",
+        "359:t_1:109: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "359:t_1:119: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$アスカ$$...」",
+        "359:t_1:122: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「You... Why do you always take things in that direction?」",
+        "359:t_1:123: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Because it's so exciting! A rival appears, then comes the first defeat... followed by a comeback through hard work and guts!」",
+        "359:t_1:125: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "359:t_1:127: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「N-nothing...!」",
+        "359:t_1:131: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$チコ$$...!」",
+        "359:t_1:132: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "359:t_1:137: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "359:t_1:140: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: (What do these people fight for...? Because they're ordered to? Or...)",
+        "359:t_2:6: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Master...」",
+        "359:t_2:19: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...$$ジンネマン$$.」",
+        "359:t_2:23: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Captain...」"
+      ],
+      "uncertain": [
+        "359:t_1:95: Retained noun-phrase recollection before the complete question; the boy is Kaworu, confirmed by the adjacent thought and profile.",
+        "359:t_1:115-118: Mari imagines the explanation Asuka would give; used first person in the quoted explanation and restored both subjects in their thoughts.",
+        "359:t_1:128-129: Two groups of EVAs appeared to be fighting at transfer; the three months are measured since Shinji and company transferred away.",
+        "359:t_1:134-136: Rei in Noriko's address uses the established Rei token; clone speaker remains the source speaker token, while the full name in the clone's question uses Rei Ayanami.",
+        "359:t_2:24: Zinnerman asks Banagher to care for Marida; request direction restored explicitly."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2048_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "359:t_2:25: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes.」",
+        "359:t_2:29: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What...?!」",
+        "359:t_2:51: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Then...」",
+        "359:t_2:78: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「The past...?」",
+        "359:t_2:83: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "359:t_2:85: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「The whereabouts of $$オルソン・Ｄ・ヴェルヌ$$.」",
+        "359:t_10:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes, Master.」",
+        "359:t_10:11: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What?!」",
+        "359:t_10:19: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Heh...」"
+      ],
+      "uncertain": [
+        "359:t_2:63: Preserved the distinction between Conservatives monitoring evolution and Reformists watching over it.",
+        "359:t_2:68: Successive King title; secretary relationship retained. Singular pronoun refers to the King she served, not an invented personal identity.",
+        "359:t_2:84-85: Kept separate rows: the first introduces new information, the second supplies its content.",
+        "359:t_10:10: Powered Sisters is AG's invented trio nickname for Marida, Quess, and Four; parent researched and added a proposed token.",
+        "359:t_10:16: Kept 50 Z worth of Z-Chips and addition to unit stock explicitly."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2048_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "359:t_10:24: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes.」",
+        "359:t_10:30: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "359:t_10:31: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Shu...」",
+        "359:t_10:37: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Her love for $$アマタ$$, and her guilt... Caught between those conflicting feelings, she might end up like $n...」",
+        "359:t_10:39: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes...」",
+        "359:t_10:47: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「I'm well aware. Now, to celebrate that future...」",
+        "359:t_10:48: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Business, business! ...Right?」",
+        "359:t_10:49: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Bravo! You know me so well!」",
+        "359:t_10:52: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh... ah... um... this is...」",
+        "360:t_002:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「That purple machine...! Is it Captain $$アンジェロ$$?!」",
+        "360:t_002:8: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「With this $$ローゼン・ズール$$ the Colonel gave me, even a $$ガンダム$$...!」",
+        "360:t_002:12: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "360:t_002:17: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$シンジ$$...」",
+        "360:t_002:18: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Y-yes.」",
+        "360:t_002:20: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "360:t_002:22: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「The light in people's hearts...」",
+        "360:t_002:26: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「I...」",
+        "360:t_002:31: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: (Hope... There's... nothing left for me anymore...)",
+        "360:t_003:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Reinforcements?!」",
+        "360:t_005:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「That's...!」",
+        "360:t_006:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「The $$ガランシェール$$! Is that Captain $$ジンネマン$$?!」",
+        "360:t_006:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Master!」"
+      ],
+      "uncertain": [
+        "359:t_10:37-43: Quiet-type joke is explained as the balance between hope and despair, without replacing it with the closet-pervert joke.",
+        "360:t_002:14-15: Asuka is contemplating destruction of Shinji's EVA; the him in the following row is Shinji.",
+        "360:t_002:22: Retained the deliberate echo of the light in human hearts; not an omitted English subject.",
+        "360:t_006:6: Zinnerman tells Gilboa's fighters to leave local defense to Garencieres, as the following replies confirm."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2048_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "360:t_006:7: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「But, Captain...!」",
+        "360:t_006:9: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood! Stay safe!」",
+        "360:t_006:10: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ギルボア$$...」",
+        "360:t_007:8: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood, Colonel! ...All of you, are you ready?!」",
+        "360:t_009:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「You stubborn bastards...! You're still holding out?!」",
+        "360:t_011:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「The $$アルテア$$ army...! No, it's $$ミカゲ$$'s forces!」",
+        "360:t_011:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「That bastard...! Is he nearby?!」",
+        "360:t_012:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ギュネイ$$!」",
+        "360:t_013:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「No...! I'm sure he's after...!」",
+        "360:t_013:5: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$シェリル$$ and $$ランカ$$...!」",
+        "360:t_013:6: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...!」",
+        "360:t_015:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ミカゲ$$!」",
+        "360:t_015:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What?!」",
+        "360:t_015:5: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "360:t_015:7: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...!」",
+        "360:t_015:9: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「That hateful one he's talking about... I'm sure he means Supreme Commander $$不動$$...」",
+        "360:t_015:10: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What?!」",
+        "360:t_015:11: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What the Supreme Commander guards is...」",
+        "360:t_017:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「!」",
+        "360:t_017:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Ha ha ha ha ha! Ha ha ha ha ha ha ha!」",
+        "360:t_017:2: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「That shiny gold thing...!」",
+        "360:t_017:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「No...!」",
+        "360:t_018:5: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ミカゲ$$!!」",
+        "360:t_018:8: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」"
+      ],
+      "uncertain": [
+        "360:t_013:4-5: Amata starts identifying the target, Alto supplies Sheryl and Ranka in the next row; English retains that row boundary.",
+        "360:t_014:0-3: Asuka intends to shoot Shinji's EVA; Mari questions possible regret.",
+        "360:t_015:6,018:9: Emissary of the End title is directed at Kaworu; parent added a proposed source-based token. No extra Angel identity is supplied.",
+        "360:t_015:9 and018:7: Mikono identifies the guarded wall's protector as Supreme Commander Fudou; later pronoun therefore refers to him.",
+        "360:t_017:6,018:2: Solar Wing uses the researched new token. 018:7 uses Angel for the exact source term, distinct from Shadow Angel."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2048_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "360:t_018:14: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「!」",
+        "360:t_019:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Ugh...!」",
+        "360:t_019:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$シンジ$$!!」",
+        "360:t_019:5: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "360:t_019:7: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「You...」",
+        "360:t_019:10: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ミカゲ$$!」",
+        "360:t_020:6: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$カヲル$$...」",
+        "360:t_020:8: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$アスカ$$...」",
+        "360:t_020:10: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Y-yeah...!」",
+        "360:t_021:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood.」",
+        "360:t_021:5: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Master...」",
+        "360:t_023:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ギュネイ$$!」",
+        "360:t_024:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$ギュネイ$$!」",
+        "360:t_024:3: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...Damn it!」",
+        "360:t_025:8: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...Yeah.」",
+        "360:t_025:9: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Damn it... damn it!! What... am I doing?!」",
+        "360:t_026:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Wha...」",
+        "360:t_026:6: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Damn it... damn it!! What... am I doing?!」"
+      ],
+      "uncertain": [
+        "360:t_020:11: Rendered Shinji's regained internal conviction as finding something to believe in; battle purpose is established by preceding protection exchange.",
+        "360:t_024:2: Kamille tells Gyunei to stop targeting him before asking to be left alone; direction preserved.",
+        "360:t_025:5-6: Bright is reacting to his son Hathaway; Amuro tells Bright to leave him be.",
+        "360:t_027:4-5: Preserved Char's lesson in powerlessness and Gyunei's counter-threat to remove the old man."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2048_06": {
+      "rows_in_slice": 31,
+      "rows_examined": 31,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "360:t_028:2: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood. Let's show them the $$ガランシェール$$ team's grit!」",
+        "360:t_101:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「If that's what you want...」",
+        "360:t_104:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: ($$マリー$$, $$フィー$$... I...)",
+        "360:t_104:1: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: (...I haven't forgotten you... But right now...)",
+        "360:t_104:2: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Captain?」",
+        "360:t_106:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: (He...)",
+        "360:t_106:2: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「As if! ...But, well... for now, I'll wait and see...」",
+        "360:t_107:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Master...」",
+        "360:t_999:0: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Ah!」"
+      ],
+      "uncertain": [
+        "360:t_104:0-1: Zinnerman addresses Marie and Fee in thought, then trails off; English does not invent his unspoken conclusion.",
+        "360:t_106:1: Restored Do you want in Mari's question."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 47,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2049_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "365:t_1:24: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_1:29: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_1:32: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$宗介$$...」",
+        "365:t_1:39: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「In theory. ...But in practice, it's impossible.」",
+        "365:t_1:53: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$桂$$...」",
+        "365:t_1:71: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Congratulations, Captain $$クルーゾー$$, Ensign $$マオ$$.」",
+        "365:t_1:75: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Oh... congratulations.」",
+        "365:t_1:77: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Sorry. When I think of $$アルト$$ and $$レド$$ being ensigns...」",
+        "365:t_1:80: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes, sir!」"
+      ],
+      "uncertain": [
+        "365:t_1:10,17,24,26,28: Chamber speaker and running references use pilot AI token; source headers and Ledo conversation settle the variant.",
+        "365:t_1:36-44: Preserved theoretical repair versus current practical impossibility and the risk of destroying every parallel world.",
+        "365:t_1:59-60: Danaan draws away defense; Quarter force descends; Quarter then distracts defenders while infiltration team rescues Olson.",
+        "365:t_1:69-80: Promotions follow the scene: Clouseau Captain, Mao Ensign, Kurz Master Sergeant; no stale previous ranks imposed."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2049_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "365:t_1:91: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Sorry, Major $$コンロイ$$.」",
+        "365:t_1:96: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood.」",
+        "365:t_1:100: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Mission acknowledged.」",
+        "365:t_1:108: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood...!」",
+        "365:t_1:109: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_1:114: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes.」",
+        "365:t_1:117: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_1:120: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "365:t_1:123: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_1:130: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Miss $$スズネ$$...」",
+        "365:t_1:134: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$n...」",
+        "365:t_1:141: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yeah.」",
+        "365:t_1:144: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: (But I'm sure... $n can... even without me...)",
+        "365:t_2:10: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes...」",
+        "365:t_2:12: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Compatible $$スフィア$$s...」",
+        "365:t_2:15: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes.」",
+        "365:t_2:17: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「!」",
+        "365:t_2:22: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Understood!」"
+      ],
+      "uncertain": [
+        "365:t_1:101: Preserved the $l code rather than substituting $n.",
+        "365:t_1:106: Kept the source's fixed-star gloss for Sidereal.",
+        "365:t_1:115: Kurz asks Hibiki to care for Suzune, not the reverse.",
+        "365:t_1:119-144: Suzune fears her lack of anxiety; her reassurance and private premonition differ intentionally. Final thought remains unfinished.",
+        "365:t_2:8-16: Setsuko claims she volunteered to defeat Barbiel, while Hibiki senses a lie; no later motive is inserted prematurely."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2049_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "365:t_2:24: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes...!」",
+        "365:t_3:7: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$バルビエル$$!」",
+        "365:t_3:20: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_3:21: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What you're fighting for... Where your hatred comes from...」",
+        "365:t_3:24: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$セツコ$$...」",
+        "365:t_3:26: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_3:29: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「So I want to understand your heart... And the sadness inside you...」",
+        "365:t_3:30: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...$$セツコ・オハラ$$... $$悲しみの乙女$$...」",
+        "365:t_3:32: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$バルビエル$$...!」",
+        "365:t_3:37: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "365:t_3:44: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Tch!」",
+        "365:t_3:46: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「You piece of shit!!」",
+        "365:t_3:49: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「That's not it! Miss $$スズネ$$ is...!」",
+        "365:t_3:50: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「What...?!」",
+        "365:t_3:51: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Ah... aah...」",
+        "365:t_3:55: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Well, no matter. I've achieved my goal.」",
+        "365:t_4:3: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Ha ha ha ha ha ha ha!!」",
+        "365:t_4:4: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Miss $$スズネ$$!」",
+        "365:t_4:10: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Then...」",
+        "365:t_4:11: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「!」",
+        "365:t_5:11: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Sure, she's acted a little strange from stress before, but for her to turn that violent...」",
+        "365:t_5:12: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Then...」",
+        "365:t_5:17: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Damn it...!」",
+        "365:t_5:18: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...I'm sorry... If I'd... shot $$バルビエル$$ back then...」"
+      ],
+      "uncertain": [
+        "365:t_3:21: Continuation of Setsuko's previous-row wish to understand Barbiel; retained subordinate complements at the row boundary.",
+        "365:t_3:27-30: Setsuko distinguishes overpowering sadness from hatred; next incomplete sadness phrase retained.",
+        "365:t_3:33: Killing Reactors is forbidden, but Barbiel makes an exception for Setsuko; no softened threat.",
+        "365:t_3:46: Crude insult remains piece of shit.",
+        "365:t_4:5-7: Suzune orders Hibiki out of Genion, claiming this serves him and the world; subject and direction preserved.",
+        "365:t_5:5: Restored I think so to the source's probably response."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2049_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "365:t_5:27: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「...!」",
+        "365:t_5:34: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「He's a strong man. I'm sure...」",
+        "365:t_5:36: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_5:37: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「He's been struggling with losing people he loved all this time... And now... if this happens again...」",
+        "365:t_5:38: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_5:39: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「.........」",
+        "365:t_5:41: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「You...」",
+        "365:t_5:45: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$n...」",
+        "365:t_5:46: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「You're doing everything you can to save $$千鳥$$, too... So I have to...」",
+        "365:t_5:47: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「All right. ...$$スザク$$, I need your help, too.」",
+        "365:t_5:56: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes.」",
+        "365:t_5:62: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Yes...」",
+        "365:t_5:88: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「$$桂$$...」",
+        "365:t_5:94: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Huh...?」",
+        "365:t_5:96: Retained source fragment, echo, interrupted clause, response formula, or nonverbal utterance: 「Lost technology... That's what they call it...」"
+      ],
+      "uncertain": [
+        "365:t_5:28-29: Barbiel's anticipated weapon is psychological use of Suzune against Hibiki; claim remains speculation by the cast.",
+        "365:t_5:34,37,46: Preserved deliberately unfinished reassurances and resolve, with all known subjects restored.",
+        "365:t_5:54: Crowe's martial art uses newly settled Systema token.",
+        "365:t_5:79-86: Kept layered multiverse, combined-power insufficiency, dimensional convergence point, and 12,000 versus 120 million years.",
+        "365:t_5:90-93: Hypothetical unchanged world: Kei marries Tina, Olson is merely Athena's father's friend, Kei never meets Mimsy, war persists.",
+        "365:t_5:100: Kei asks Olson for continued support; restored I am counting on you."
+      ],
+      "neighbor_rows_examined": 16,
+      "rows_examined_including_neighbors": 96,
+      "context": "Fresh translation from Japanese; every assigned row and eight source neighbors on each side read. Prior English not consulted. Source speaker headers override offset pid. Profiles and glossary JSON consulted.",
+      "validation": "Source row IDs, hashes, controls, keyword links, order, and layout checked with batch 3 checker. No source prose copied to helpers."
+    },
+    "dlg_2049_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "365:t_10:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "365:t_10:4: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "365:t_10:5: The purpose clause trails off after Hibiki says he will make up for his mistake.",
+        "365:t_10:9: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "365:t_10:10: AG introduces his numbered maxim with a nominal heading, then gives the complete imperative.",
+        "365:t_10:13: Business, business is the repeated shop chant, a nominal fragment.",
+        "366:t_002:1: No matter is the source's conventional dismissive response before the complete declaration.",
+        "366:t_006:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_006:6: Thank goodness is the source's conventional relieved interjection before the complete tentative inference.",
+        "366:t_006:13: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_010:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_010:10: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_010:12: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_010:13: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_011:1: Hibiki breaks off the report about Suzune as she changes.",
+        "366:t_012:6: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject."
+      ],
+      "uncertain": [
+        "366:t_006:6-7: Suzune is the referent; Hibiki tentatively infers Setsuko canceled the Sphere Act, not an established fact.",
+        "366:t_012:2-5: Source header remains Suzune for Ambriel's personality; body pronouns follow researched Suzune/Ambriel profile."
+      ]
+    },
+    "dlg_2049_05": {
+      "rows_in_slice": 61,
+      "rows_examined": 61,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "366:t_013:2: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_014:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_014:2: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_014:3: Banagher cannot reach Hibiki from here; the sentence breaks off.",
+        "366:t_015:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_016:0: Girtar laments his lost chance in an interrupted noun phrase.",
+        "366:t_017:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_018:1: Kei leaves the counterfactual consequence about Suzune unsaid.",
+        "366:t_018:2: Hibiki leaves his regretful if-only clause unfinished.",
+        "366:t_018:3: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_018:5: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_019:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_019:5: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_019:6: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_019:8: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_019:9: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_020:3: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_020:4: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_020:5: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "366:t_021:0: Garrod starts to recognize Carris but breaks off.",
+        "366:t_100:1: Girtar leaves Barbiel's threatened consequence unsaid.",
+        "366:t_103:0: Hibiki leaves his regretful if-only clause unfinished.",
+        "366:t_999:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject."
+      ],
+      "uncertain": [
+        "366:t_012:7: Take us out is Suzune/Ambriel ordering Barbiel to depart, settled by their disappearance.",
+        "366:t_019:0: Olson asks Kei to be the attacker; I am counting on you preserves request direction.",
+        "366:t_021:5: Carris offers support, unlike the request in Olson's line."
+      ]
+    },
+    "dlg_2220_00": {
+      "rows_in_slice": 74,
+      "rows_examined": 74,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "792:t_1:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "792:t_1:15: English continues the sentence begun in row 14 at the matching row boundary.",
+        "792:t_1:19: Bright pauses after the staging-base rationale before the assignment in row 20.",
+        "792:t_1:26: Jeffrey pauses before the two player-choice blocks.",
+        "792:t_10:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "792:t_10:9: Hibiki pauses after naming his opponents; row 10 gives his record.",
+        "792:t_10:15: AG breaks off his shop chant when Hibiki refuses.",
+        "796:t_1:3: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "796:t_10:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "796:t_10:9: Same sentence boundary as the route alternative: row 10 gives the record.",
+        "796:t_10:15: AG breaks off his shop chant when Hibiki refuses."
+      ],
+      "uncertain": [
+        "792:t_1:27: Preserved both alternative quote blocks in one row.",
+        "792:t_1:20-24: Retained every robot, team, and individual in the two deployment alternatives."
+      ]
+    },
+    "dlg_2050_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "371:t_1:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "371:t_1:5: Girtar appends a searching noun phrase about useful weakness data.",
+        "371:t_1:51: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:74: Atsui repeats Me as an incredulous echo of Kappei's proposed judge.",
+        "371:t_1:82: Caption remains a location/menu label with original line layout and leading spaces.",
+        "371:t_1:83: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject."
+      ],
+      "uncertain": [
+        "371:t_1:26,28: Jin Great Company/Hick Kappei are proposed contextual adaptations researched and added by parent.",
+        "371:t_1:16 vs 45-48: Beal is the ship in row 16 and the planet in technology discussion; selected separate robot/keyword tokens.",
+        "371:t_1:50: Background remains unknown at first; neutral this person precedes row 52's explicit male identification.",
+        "371:t_1:84: Chuu nickname retained with newly proposed token; Keiko uses existing name token without generic honorific."
+      ]
+    },
+    "dlg_2050_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "371:t_1:90: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:127: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:133: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:136: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:144: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:151: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:154: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:156: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:163: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:164: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:165: Hibiki mentally recites the Jeet Kune Do maxim as a gerund phrase.",
+        "371:t_1:168: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject."
+      ],
+      "uncertain": [
+        "371:t_1:98: Our vice president identifies Hibiki, not Sousuke, as the person Schrade is worried about.",
+        "371:t_1:106: Master Sweeper/Master Sergeant adapts the cleaning/sergeant homophone joke.",
+        "371:t_1:165: Maxim retains no way as way/no limitation as limitation; it is a deliberate quoted motto fragment.",
+        "371:t_1:121: Shinji thinks Hibiki has recovered; later Hibiki thoughts 160-162 reveal he is still trying."
+      ]
+    },
+    "dlg_2050_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "371:t_1:181: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:187: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_1:191: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_2:7: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_2:10: Hanae trails off while recognizing Aki and Michi.",
+        "371:t_2:15: Girtar begins an explanation but cannot answer Titi.",
+        "371:t_2:17: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_2:30: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_3:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "371:t_3:9: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_3:10: Kappei's startled What is a standalone reaction to Aoi's silence."
+      ],
+      "uncertain": [
+        "371:t_2:12-13: Gaizok/Sidereal causal accusation remains Girtar's claim, contradicted by the following replies.",
+        "371:t_3:21: Preserved mansion, pool, car, beautiful women, and butler in Kappei's dream.",
+        "371:t_3:26-27: Aoi/Banjo's thoughts recognize Kappei's supportive family and growth."
+      ]
+    },
+    "dlg_2050_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "371:t_3:34: Hibiki's surprised Huh is a standalone reaction.",
+        "371:t_3:36: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_3:43: Kappei starts the meal greeting; Titi takes over in the next row.",
+        "371:t_3:44: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_3:49: Aoi breaks off her suspicion; Kurara makes it explicit in row 50.",
+        "371:t_3:51: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:3: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:19: Caption remains a location/menu label with original line layout and leading spaces.",
+        "371:t_10:20: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:28: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:34: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:38: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:41: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "371:t_10:45: Uchuta starts the chant; Keiko completes it in the next row.",
+        "371:t_10:46: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_000:0: Umee cannot finish pronouncing Sidereal; Hanae supplies the name next."
+      ],
+      "uncertain": [
+        "371:t_3:38: Daitarn-ing adapts the daring/Daitarn pun; wording is intentionally playful and merits reviewer judgment.",
+        "371:t_10:23-24: Ugly Duo preserves the insulting nickname for Aki/Michi; parent corrected same glossary token from Busupea.",
+        "371:t_10:37: Dog gender is unknown in profile; used it rather than infer gender.",
+        "371:t_10:25-36: Kappei weaponizes AG's teasing-means-liking claim against AG; no romantic inference added."
+      ]
+    },
+    "dlg_2050_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "372:t_004:2: Kappei's boast is cut off by Girtar.",
+        "372:t_005:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_006:7: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_006:8: Uchuta's Not again expresses recurrence without repeating the harassment.",
+        "372:t_006:9: Keiko trails off in denying Girtar's accusations.",
+        "372:t_006:14: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_007:4: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_007:5: Girtar leaves his attack plan's consequence unfinished.",
+        "372:t_008:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_008:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_008:3: Girtar's conditional about removing the team is interrupted by Kozuki.",
+        "372:t_009:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_009:3: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_009:8: Watta repeats Kappei's name and cannot finish his emotional declaration.",
+        "372:t_009:9: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_009:13: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_010:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_010:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject."
+      ],
+      "uncertain": [
+        "372:t_006:13-16: Girtar exploits memories of the Jin Family's persecution, not a present public rejection.",
+        "372:t_009:7: Never loses is Watta's emotional praise; kept absolute force.",
+        "372:t_009:12: Preserved believing in the people who believe in us."
+      ]
+    },
+    "dlg_2050_05": {
+      "rows_in_slice": 55,
+      "rows_examined": 55,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "372:t_010:7: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_010:11: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_011:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_014:3: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_015:4: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_016:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_017:1: Hibiki recites the martial-art maxim as a gerund phrase before the complete declaration.",
+        "372:t_019:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_019:1: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_019:2: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "372:t_101:1: Kappei appends Our planet and everyone who lives on it as the delayed object of protect, matching the source emphasis.",
+        "372:t_999:0: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject."
+      ],
+      "uncertain": [
+        "372:t_018:1-3: Bamboo stalk/livestock preserves the semantic malapropism, although English lacks the original chiku homophone.",
+        "372:t_101:0: Computer Doll remains the single linked keyword; Gaizok is a separate token."
+      ]
+    },
+    "dlg_2051_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "377:t_1:3: Caption remains a location/menu label with original line layout and leading spaces.",
+        "377:t_1:4: Girtar begins an objection and trails off.",
+        "377:t_1:8: Girtar cannot finish his terrified objection.",
+        "377:t_1:9: By any means necessary is Sardias' emphatic supplement to his complete order.",
+        "377:t_1:12: Girtar stammers I twice without a predicate.",
+        "377:t_1:14: Girtar's intruder alarm remains an exclamatory noun phrase.",
+        "377:t_1:19: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:24: Caption remains a location/menu label with original line layout and leading spaces.",
+        "377:t_1:25: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:27: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:37: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:41: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:47: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:58: Eida echoes sense of duty as a question.",
+        "377:t_1:62: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:64: Retained the source's standalone call, interjection, echoed term, response, silence, or chant; not an omitted narrative subject.",
+        "377:t_1:66: Aoi echoes Takeru's colder, darker shadow image.",
+        "377:t_1:75: Nakahara breaks off her protest about the whole jar."
+      ],
+      "uncertain": [
+        "377:t_1:5: boss is the superior, plain lowercase, not the Mazinger character.",
+        "377:t_1:57-60: Distinguished ordinary malice from dutiful execution of an evil act; did not label the executor intrinsically evil.",
+        "377:t_1:65: Shadow renders darkness metaphor; colder/darker comparative force retained.",
+        "377:t_1:77: Wallflower adapts the flower-in-the-shadows idiom; Titi insists on standing out."
+      ]
+    },
+    "dlg_2051_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "377:t_1:92,96: name-only admonitions.",
+        "377:t_1:100,112: silence.",
+        "377:t_1:101: name-only question.",
+        "377:t_1:102,106: deliberate trailing clauses.",
+        "377:t_1:103,105: reaction interjections.",
+        "377:t_1:123: interrupted response.",
+        "377:t_1:137: trailing account of incident.",
+        "377:t_1:141,142: address and robot reaction.",
+        "377:t_2:5: grunt.",
+        "377:t_2:9,14: shocked interrupted recognition.",
+        "377:t_1:111: conventional gratitude phrase within complete response.",
+        "377:t_1:128: the follow-up question To who completes the prior question; this is an intentional conversational fragment.",
+        "377:t_1:135;377:t_3:3: location captions retain nominal layout."
+      ],
+      "uncertain": [
+        "377:t_1:142: Black Ox pilot variant chosen from speaking robot scene, despite previous-row pid.",
+        "377:t_1:117: Hibiki senses a shared loss with Titi; question retained as internal realization."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2051_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "377:t_3:10: hesitant interjection.",
+        "377:t_3:11: name-only address.",
+        "377:t_3:13,35,39,44: trailing or interrupted clauses.",
+        "377:t_3:42: surprised reaction.",
+        "377:t_3:59: fragment completes previous question about mastering venom.",
+        "377:t_10:18,20,23,27,33,36: nonverbal robot speech.",
+        "377:t_10:30: shocked reaction.",
+        "377:t_10:35: lead-in left unfinished for next row.",
+        "377:t_3:15,57;377:t_10:10: conventional gratitude/reaction formulas.",
+        "377:t_3:33;377:t_10:16: location captions retain nominal layout."
+      ],
+      "uncertain": [
+        "377:t_3:40,48,56: boss is the superior, not the character Boss.",
+        "377:t_3:51: judo idiom conveyed as cumulative blunders sealing fate.",
+        "377:t_3:50,57: title retained because Gilter explicitly escalates his deference.",
+        "377:t_10:28-29: AG quotes Ox, preserving separate-row quotation and full-strength insult."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2051_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "378:t_000:1;378:t_002:4;378:t_003:5;378:t_005:0;378:t_006:7;378:t_011:1: robot reactions.",
+        "378:t_002:3;378:t_009:0: startled interjections.",
+        "378:t_006:8;378:t_008:2;378:t_010:2;378:t_012:2: names called out.",
+        "378:t_001:4;378:t_010:7;378:t_012:1: acknowledgments.",
+        "377:t_10:38: conventional praise formula.",
+        "378:t_010:5: conventional gratitude."
+      ],
+      "uncertain": [
+        "378:t_003:16: Rand extends the heat/hot-blooded pun.",
+        "378:t_006:1: avatar follows the settled Xul rendering."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2051_04": {
+      "rows_in_slice": 73,
+      "rows_examined": 73,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "378:t_014:9;378:t_016:4,13;378:t_017:0: name-only addresses.",
+        "378:t_014:16: insult as nominal address.",
+        "378:t_015:2;378:t_999:0: startled reactions.",
+        "378:t_016:2: trailing observation.",
+        "378:t_016:3,16: silence.",
+        "378:t_018:1,2: name calls and robot reaction.",
+        "378:t_102:0: noun fragment forming reflective topic.",
+        "378:t_014:14: conventional acknowledgment."
+      ],
+      "uncertain": [
+        "378:t_014:1: robot army distinguished from Xul army by ensuing deployment.",
+        "378:t_016:11: gods/devils battle preserved as distinct from fate-deciding battle."
+      ],
+      "context_rows_examined": 89,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "383:t_1:10: trailing speculation.",
+        "383:t_1:40,44,67: interjection/laughter.",
+        "383:t_1:45,75: name-only addresses.",
+        "383:t_1:55,58: trailing clauses.",
+        "383:t_1:59: deliberately unfinished exasperation.",
+        "383:t_1:74: conversational I see formula with explicit subject and verb.",
+        "383:t_1:80: silence.",
+        "383:t_1:85: gratitude formula.",
+        "383:t_1:3,21: location captions retain nominal layout.",
+        "383:t_1:42: because-clause completes the preceding statement about being different."
+      ],
+      "uncertain": [
+        "383:t_1:63: former girlfriend referent follows explicit girlfriend discussion; gender comes from relationship, not name.",
+        "383:t_1:39: Titi groups the original protagonists; mocking descriptors retained."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "383:t_1:104,109: silence.",
+        "383:t_1:106,114: startled reactions.",
+        "383:t_1:116: name-only thought.",
+        "383:t_2:10: name called out.",
+        "383:t_2:12: interrupted question.",
+        "383:t_2:18,24: reflective repeated fragments.",
+        "383:t_3:19,25: name addresses.",
+        "383:t_3:21: confused interjection.",
+        "383:t_1:87;383:t_3:12: conventional gratitude formulas.",
+        "383:t_3:3: location caption retains nominal layout."
+      ],
+      "uncertain": [
+        "383:t_2:13,26: his/him refers to Hibiki, whose mind Takeru entered.",
+        "383:t_2:4: hell description converted to full English clause with Hibiki as settled subject.",
+        "383:t_3:20,22: Titi challenges Suzune romantically; loss without a fight keeps tournament metaphor."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "383:t_3:51: negative answer formula.",
+        "383:t_3:53,55,57: silence.",
+        "383:t_10:4: name-only address.",
+        "384:t_000:3: acknowledgment.",
+        "384:t_000:12: noun description followed by explicit personal response.",
+        "384:t_000:18: trailing sentence continued next row.",
+        "383:t_3:45;383:t_10:20: location captions retain nominal layout.",
+        "383:t_10:3: conventional praise formula.",
+        "384:t_000:1: introductory To all units is a military address; the following sentence is complete."
+      ],
+      "uncertain": [
+        "383:t_3:47,49,51: Shiku pilot variant from direct speaking role, not preceding-row pid.",
+        "384:t_000:9-10: mutual request for support restored in both directions.",
+        "384:t_000:12-14: Nono heat excitement and Sazanka moe enthusiasm distinguished."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "384:t_002:7;384:t_011:18,23,31: shocked interjections.",
+        "384:t_003:0: rage yell.",
+        "384:t_006:7;384:t_007:0;384:t_010:1;384:t_011:27,35,36: name-only addresses/thoughts.",
+        "384:t_007:4;384:t_011:8: acknowledgments.",
+        "384:t_011:4,10,25: interrupted/trailing clauses.",
+        "384:t_011:28: silence.",
+        "384:t_011:37: option labels follow explicit imperative to choose.",
+        "384:t_004:0: Destruction is a standalone battle shout; the following demand is complete.",
+        "384:t_011:21: if-clause question intentionally trails as a challenge."
+      ],
+      "uncertain": [
+        "384:t_006:3: disable without shooting down preserved as separate order.",
+        "384:t_011:10-11: incompatibility belongs to Setsuko sphere, contrasting Rand/Strauss compatibility."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "384:t_011:38: repeats opposing emotions as fragmented shock.",
+        "384:t_011:39,43: anguished vocalizations.",
+        "384:t_011:41: interrupted realization.",
+        "384:t_012:0,13;384:t_020:9: silence.",
+        "384:t_012:1,12;384:t_015:0;384:t_016:2;384:t_019:1;384:t_020:13;384:t_022:1,2: name calls.",
+        "384:t_012:6;384:t_019:2;384:t_020:0,4;384:t_021:0;384:t_022:0: reaction interjections.",
+        "384:t_012:17,19;384:t_013:0;384:t_020:6;384:t_022:5: deliberate fragments or interrupted expressions.",
+        "384:t_015:7;384:t_016:1,3: trailing or interrupted clauses.",
+        "384:t_016:5: attack name shout.",
+        "384:t_020:17: battle yell.",
+        "384:t_017:0: conventional gratitude formula.",
+        "384:t_012:7: Positive and negative introduces the following complete explanation as a reflective noun topic.",
+        "384:t_012:2: A failure precedes a full clause as a verdict fragment."
+      ],
+      "uncertain": [
+        "384:t_012:7: zero is Hibiki mental state, not the character Zero.",
+        "384:t_016:5: unpunctuated source form maps to existing Quantum Burst token.",
+        "384:t_020:7-8: Hibiki challenges the hostage bluff, preserving both trump-card and absence-at-scene arguments."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "384:t_022:8-9: laughter.",
+        "384:t_022:10,15;384:t_023:6;384:t_024:0;384:t_026:7;384:t_027:2;384:t_028:1: name-only addresses.",
+        "384:t_022:14,16,18,20;384:t_023:16;384:t_028:5: reactions/acknowledgment/cry.",
+        "384:t_023:1,2,3: trailing or interrupted observation.",
+        "384:t_025:8: repeated concept as question.",
+        "384:t_028:4;384:t_029:5: interrupted clauses.",
+        "384:t_029:10: dependent clause completes previous row promise."
+      ],
+      "uncertain": [
+        "384:t_023:8-9: animal ownership and husbandry metaphors preserved, showing intentional psychological abuse.",
+        "384:t_027:0: boasts of Antares deputy role despite earlier fear of demotion; original contradiction retained.",
+        "384:t_028:0: sad person reflects Setsuko sorrow rather than added insult."
+      ],
+      "context_rows_examined": 96,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    },
+    "dlg_2052_06": {
+      "rows_in_slice": 16,
+      "rows_examined": 16,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "384:t_104:0: paired noun fragments as internal topic.",
+        "384:t_105:1: name-only address.",
+        "384:t_105:2,3: deliberately interrupted clauses.",
+        "384:t_999:0: startled interjection."
+      ],
+      "uncertain": [
+        "384:t_105:0: possessive coercion remains explicit and unsoftened.",
+        "384:t_104:1: them refers to darkness and light, not two people."
+      ],
+      "context_rows_examined": 32,
+      "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+      "unresolved_pro_drop": [],
+      "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
+    }
+  },
+  "limitations": [
+    "Coordinator sampled source meaning, not a second complete independent meaning proofread.",
+    "No in-game check, promotion, build or deployment."
+  ]
+}

@@ -1,0 +1,2315 @@
+{
+  "schema": 1,
+  "group": "g313",
+  "blocks": [
+    313,
+    314
+  ],
+  "speaker": {
+    "token": null,
+    "jigoku_pilot": null,
+    "jigoku_unit": null,
+    "fraction": 1.0,
+    "basis": "jigoku section match (unreviewed)"
+  },
+  "lines": {
+    "313:0": {
+      "repository_source_sha256": "976c0ac696dfbcb6bdaf82cd308be9abdf43ff1ea70ec8dbe35b95718e3643c7",
+      "en": "「Now!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:9": {
+      "repository_source_sha256": "ea4f0268785f5eeaf5ec0ee8c6c847fc46cfdc116f29e7578a1a0724639a5432",
+      "en": "「There!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "There you are."
+      ],
+      "review": "same-speaker"
+    },
+    "313:20": {
+      "repository_source_sha256": "36e444f85c0742ef884ecfe1e380f40a3b1b8e22154375c26cd35d214cacb066",
+      "en": "「Disappear!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Begone!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:31": {
+      "repository_source_sha256": "201be2a8d4a4dfe5fed5c3b5547fd20d2a8f2c4118275a155a7dcc77c674d0cc",
+      "en": "「Fall!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:42": {
+      "repository_source_sha256": "da91d2fe536f4175314a942e3ef02825f736e8cd7ac202e97d38dbf1d8084438",
+      "en": "「Attacking!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Attacking.",
+        "Initiating attack."
+      ],
+      "review": "same-speaker"
+    },
+    "313:55": {
+      "repository_source_sha256": "626a41ff5ef3306807613aea55f7c2022963a7f75afa11841b6a8b7ab9eb7e28",
+      "en": "「Destroying target!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll destroy you.",
+        "Destroying target."
+      ],
+      "review": "same-speaker"
+    },
+    "313:68": {
+      "repository_source_sha256": "0320d41a1b0f18aea377ee14ab5bb335aad499dae8f469f4b074562fe316a116",
+      "en": "「Target will be shot down!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Shooting target down."
+      ],
+      "review": "same-speaker"
+    },
+    "313:81": {
+      "repository_source_sha256": "602cd4cfc5ee9eafaa190d517a5d3a7a9c4931edd1d25b90452d28c10081ef24",
+      "en": "「Knocking you out of the sky!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll knock you out of the sky!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:96": {
+      "repository_source_sha256": "f40aa524733155ccf2e50d9481348f4c61f7c1848e72d9e74939d5a547e51c3c",
+      "en": "「Commence attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Commence attack."
+      ],
+      "review": "same-speaker"
+    },
+    "313:109": {
+      "repository_source_sha256": "d7fa190ff3bd8ba2c093c246635978ab1272f49cd27ec99352d75e1c49574a33",
+      "en": "「Target acquired!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Target acquired."
+      ],
+      "review": "same-speaker"
+    },
+    "313:122": {
+      "repository_source_sha256": "0e2081d0abe8ed4147b2a4c6c897cbc700b7ada58a7ee6b889fccd46b222a108",
+      "en": "「Enemy unit sighted!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Enemy unit detected."
+      ],
+      "review": "same-speaker"
+    },
+    "313:135": {
+      "repository_source_sha256": "9c64e20466391d3e60a2debbc875b7de47b5f1e2496a815bbfabd7d92a332d4b",
+      "en": "「Annihilate the enemy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Eliminate all enemies."
+      ],
+      "review": "same-speaker"
+    },
+    "313:148": {
+      "repository_source_sha256": "cae32f1cd8d17ec61d09bd8f75df839246a0117f05512509c7a53b1013dbab13",
+      "en": "「Proceeding according to plan.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Just as planned."
+      ],
+      "review": "same-speaker"
+    },
+    "313:163": {
+      "repository_source_sha256": "18d6d7306424cc63481713dfa28fa531c724112905e65d7e3bcd9de9451fad3c",
+      "en": "「The operation will be executed.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Carrying out the operation."
+      ],
+      "review": "same-speaker"
+    },
+    "313:182": {
+      "repository_source_sha256": "97f36219af183b8d35c58c5cf6d8a2dd275e389a362e3e389537eeedffa121a4",
+      "en": "「For the Space Demon King!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:203": {
+      "repository_source_sha256": "48ce18fdf9a6b5ab8b7da04f90596a7be261fda61b3126e16553cfac5bf626f9",
+      "en": "「By the Space Demon King's command!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "As the Space Demon King commands!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:228": {
+      "repository_source_sha256": "1aad97222cc56639f75a322b4e6df5a8a8a6d157100c3a15a99cd2a8bec37b90",
+      "en": "「Commencing another attack.」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ],
+      "alternatives": [
+        "Launching another attack."
+      ],
+      "review": "same-speaker"
+    },
+    "313:249": {
+      "repository_source_sha256": "656a8b31d682adfa6f613748f482ab2c543bdc954366483038bbe8c9c83c8b4a",
+      "en": "「Opening detected! Opening detected!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ],
+      "alternatives": [
+        "Attack chance! Attack chance!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:280": {
+      "repository_source_sha256": "0c5c9b51b6e81c5707b67c8ccd70a7c62d176be55e2d9fff06096345fb0cf436",
+      "en": "「Target: Tetsujin No. 28.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:307": {
+      "repository_source_sha256": "375412165b47817b43132f2ca1859bd2cd1aef0bca4f86f7b3c17cf41b21588f",
+      "en": "「$$鉄人$$ is our enemy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Tetsujin No. 28 is our enemy."
+      ],
+      "review": "same-speaker"
+    },
+    "313:328": {
+      "repository_source_sha256": "42a614ba8dcd6f8ba9d9f2a4e084992262e4b7502c17617246f0fa0483671487",
+      "en": "「Destroy Black Ox!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:359": {
+      "repository_source_sha256": "5cab22ba5a79d4f3d156e95d41701c32df6c8cc06bae2cdcadb5f124cca885dd",
+      "en": "「$$マーズ$$ must not be allowed to live!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Mars cannot be allowed to survive!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:388": {
+      "repository_source_sha256": "4bfdb6fc779e4c8b324ec89212d1878650f13f932942709ba2f38f13e7bcc128",
+      "en": "「Earth's super robots are dangerous!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Earth's Super Robots are dangerous!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:423": {
+      "repository_source_sha256": "bd5163cb7cc42c266e89e5ef2d5b2be88f6cff52b5562cd2c268ab77eef938f0",
+      "en": "「Destroy every Super Robot!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:458": {
+      "repository_source_sha256": "6a0aebc98e43d60da57ba2e1017073cbda36c736fa4ab9edbfa0c2ab50b84b6c",
+      "en": "「Attack target: Mobile Suit.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:485": {
+      "repository_source_sha256": "211ae62b006bc10007e52f978aaef099861875eeba0ac879d1664778eb1569b4",
+      "en": "「Attack target: Gundam.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:508": {
+      "repository_source_sha256": "c08a92ae3b4e3a44af7bb5ad8d624f55a2cf7a4d87422d0db0c534290fc5b662",
+      "en": "「Attack target: Variable Fighter.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:533": {
+      "repository_source_sha256": "43d00f003746f09aa3ee4da46f08878f3c207ffb069a7f5bb44c0e4604b1bb8a",
+      "en": "「Attack target: AT.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:552": {
+      "repository_source_sha256": "80021f0ccfcb4d97e61dc28f09187c72bd5392af6d8b5884350dad6bc3570bfe",
+      "en": "「Attack target: AS.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:571": {
+      "repository_source_sha256": "9862b287df5116789ff257f51af7a8bc64089038b15732ac7442b1cfd14718e1",
+      "en": "「Attack target: KMF.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:592": {
+      "repository_source_sha256": "17a675a36db1699583c68cc9bc36f6453d5c9244e72fe804e338740cabd93d2a",
+      "en": "「Attack target: android.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:615": {
+      "repository_source_sha256": "4d3a4e2212116a9bcc63a8e48b0429b76fd4637bd0a956f48aa153922ac0a442",
+      "en": "「Attack target: enemy battleship.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "313:636": {
+      "repository_source_sha256": "b89297a64dab07e592f40abe762083975fa04e00c17a3ac23785745ff61e3569",
+      "en": "「Commence counterattack!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "313:649": {
+      "repository_source_sha256": "99bdcd8c1de3f2c9e235b7f1400f218a1867c0135657795789038de9479196b0",
+      "en": "「You won't escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "313:668": {
+      "repository_source_sha256": "7d4b4daa51533943e3e4004e991ebc2c3ccfdf158d975efa0930ee7f617e216c",
+      "en": "「Initiating countermeasures.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "313:687": {
+      "repository_source_sha256": "80181612e7ed9072a402b445cfb7c8f8a13e355c05bf4faf56e3fe817c1cda6e",
+      "en": "「Switching to counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ],
+      "alternatives": [
+        "Commencing counterattack."
+      ],
+      "review": "same-speaker"
+    },
+    "313:706": {
+      "repository_source_sha256": "c3d5ebd8844c00215b7155e6a9f7ecafc33d794d3eda16981fda38881ec3221f",
+      "en": "「Counterattacking immediately.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "313:727": {
+      "repository_source_sha256": "6b058ffc14cb9fb5f90a3324ba8d87e724d2a0a603807c1edb035a1a176672c0",
+      "en": "「I'll down you before you escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll shoot you down before you flee!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:748": {
+      "repository_source_sha256": "716b53ea749db4c96ae0fb4b22af95f15c0d5f690282cc10bc1e2384304233f7",
+      "en": "「Preventing the enemy's escape.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "313:773": {
+      "repository_source_sha256": "5ba45d332095a5145a6aff178ff5319fe6fc45cf114189cdd1fe67bc5737d490",
+      "en": "「Enemy unit remains within range.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "313:800": {
+      "repository_source_sha256": "75bcec634b4f8b8715f086d3acaf9225f78fa9fb5e0cf7f6a76c40c33ebccf14",
+      "en": "「Moving in to provide support.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "313:815": {
+      "repository_source_sha256": "c3f2d6a2f70454b8bde32f00941f82ac1c8059f7ee2108943ca165ebeadc9308",
+      "en": "「Initiating a coordinated attack.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ],
+      "alternatives": [
+        "Attacking in coordination."
+      ],
+      "review": "same-speaker"
+    },
+    "313:834": {
+      "repository_source_sha256": "3be34f162454b65c92f2d4e8766acc475f4d9f1cd2ba02f88fda36280e549c30",
+      "en": "「Moving this unit to the front.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "313:853": {
+      "repository_source_sha256": "8cff824ccb95f34845f926fc9a0b5ddb5d0fce7157ac4552e8cdbab44a5ddd9f",
+      "en": "「This unit will block the attack.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ],
+      "alternatives": [
+        "We'll block the attack."
+      ],
+      "review": "same-speaker"
+    },
+    "313:876": {
+      "repository_source_sha256": "76d6c22034b91e16f2f3c4812d9b1bc5e4c4a723531ca86b88f9d8e7a6db993b",
+      "en": "「Target acknowledged.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "313:891": {
+      "repository_source_sha256": "64daa29e81d1c955474ba2cbca850b52479c060e11282f13da15eb56b02e7fe6",
+      "en": "「Target confirmed.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "313:912": {
+      "repository_source_sha256": "be24933c4858e08f83b0bc08ecce4e3575397334d684988aad971e759342593e",
+      "en": "「Destroy the enemies one by one.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ],
+      "alternatives": [
+        "Destroy enemies one by one."
+      ],
+      "review": "same-speaker"
+    },
+    "313:935": {
+      "repository_source_sha256": "5369d55b21ec9c4cbccdfa9b919fb570dcb19b27e5cbbd6d5be4b3fc801c4b6f",
+      "en": "「We'll hold the line as well.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ],
+      "alternatives": [
+        "We're holding the line as well."
+      ],
+      "review": "same-speaker"
+    },
+    "313:962": {
+      "repository_source_sha256": "524096a78e4efacfa8c6f0ab69c958abd7263bcd4b276cad78cd8ee33951e338",
+      "en": "「Concentrating our attack.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "Concentrating fire."
+      ],
+      "review": "same-speaker"
+    },
+    "313:983": {
+      "repository_source_sha256": "089431e87a7d154bbbce1908bd4fec2c7c8bf9fe66f29a45f2550a258b32d6d1",
+      "en": "「We'll hold the enemy here.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "We'll hold them off."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1008": {
+      "repository_source_sha256": "09663c825151c8b680cecd71b1516844bb2a6546a48a89a6844006cf3213b37c",
+      "en": "「We'll make the first move.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "We'll attack first."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1033": {
+      "repository_source_sha256": "6f803b16892a66ff877bd9d57588e1e077ecfb93028604df2dd1afb464ca1c8f",
+      "en": "「Providing attack support.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "Assisting the attack."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1056": {
+      "repository_source_sha256": "b6f268e505007c21c0abe79a0f0a11a3681d66f04c27b59a6e0b25e8de6e189d",
+      "en": "「Unable to counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "313:1069": {
+      "repository_source_sha256": "ca421df1ce6158fda6aa975b7390ea2e14597d9c28e6b0f4a6c768532108e5f2",
+      "en": "「Requesting a change of plans.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ],
+      "alternatives": [
+        "Requesting a change of plan."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1088": {
+      "repository_source_sha256": "6170618211c38a9f0bae39fc8a7116c5e06de2c6d6837686a147faa91d346b38",
+      "en": "「Enemy unit lost.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ],
+      "alternatives": [
+        "Lost track of enemy unit."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1105": {
+      "repository_source_sha256": "9dd714fc8e1d4089046fb723f9ddd403fb928525f4a4b6ee739e26d043066aa9",
+      "en": "「Energy reserves nearly depleted.」",
+      "source": "jigoku",
+      "slots": [
+        "out of EN/ammo"
+      ]
+    },
+    "313:1132": {
+      "repository_source_sha256": "a52265f09a11304683cbaf4d3a856039813be3a8451b2940d6eaa7dc2e3017bb",
+      "en": "「Attack target is outside our range.」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "313:1167": {
+      "repository_source_sha256": "9ed278af03f2240dee6e13f5aa3a78ab236777d8d8539e3a2594dcf990de2505",
+      "en": "「Our weapons cannot counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ],
+      "alternatives": [
+        "Our weapons can't counter that unit."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1202": {
+      "repository_source_sha256": "ea50edb4ecae83f8f1e621ebe8705bb633699df137aea3381286cee535cb2213",
+      "en": "「Evasion successful.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "313:1215": {
+      "repository_source_sha256": "15396fa0334199134cd8457db56d4d6f4ed1304e261d75262b6adc3aacf6c531",
+      "en": "「Enemy attack unsuccessful.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Enemy unit's attack failed."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1236": {
+      "repository_source_sha256": "0d8c34353ad148baa2b95a61c8880c30bfe477121320373bb6da99308b8849ac",
+      "en": "「This unit sustained no damage.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "We sustained zero damage."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1259": {
+      "repository_source_sha256": "8513e2f380ace687be1fc0043d46194b1f2bca3353a450b531434f9b1e3e346f",
+      "en": "「No flaws in the evasion pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "313:1286": {
+      "repository_source_sha256": "293fa27d9f4b2fd87b0dd8bc474337cd2608cfbb5e3c34295aed11dafc007fbe",
+      "en": "「Attack pattern already analyzed.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "313:1313": {
+      "repository_source_sha256": "78080592ae2af7b76b0ad9e778b1d91bb00365f294c3ff377a2d7be26e88eef6",
+      "en": "「Proceeding to the next action.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Proceeding to next action."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1332": {
+      "repository_source_sha256": "1e4421f8511d786d161e5fd4b4ded513556a525470e205e1f8265e3be8f31fba",
+      "en": "「Tetsujin No. 28: attack predicted.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Tetsujin No. 28's attack predicted."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1367": {
+      "repository_source_sha256": "2ef18d03a58bb85d858468225c1771403ec786ca8b5c043ca420ee287fff91c6",
+      "en": "「Black Ox removed from threat list.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Remove Black Ox from threat list."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1406": {
+      "repository_source_sha256": "4cdaf764b039d910a640e5f5f8fa3c133277f99cad015346eedeff5c6b81e302",
+      "en": "「Downgrading $$マーズ$$'s data.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "313:1435": {
+      "repository_source_sha256": "2eb565618edbf6d46325330575da4fe71683e03bedc2de583df40138b53a9b4e",
+      "en": "「Earth robot data analysis complete.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "313:1470": {
+      "repository_source_sha256": "e2d43e857d1592967b77764434946a1f77ce87fbc4157aada806b677446ecf3e",
+      "en": "「Barrier activated.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "313:1485": {
+      "repository_source_sha256": "51bb67f7e60f7ef0791fd142d148505c788893f6d7dd68a148a90a074be94575",
+      "en": "「Attack nullification successful.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ],
+      "alternatives": [
+        "Attack successfully nullified."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1508": {
+      "repository_source_sha256": "3bc51fa704f073e88113aa466dfb1cea109d95e55554064d612c3ed436cc760c",
+      "en": "「Damage is minimal.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Minor damage."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1521": {
+      "repository_source_sha256": "a843ed05f8423b7524ffe8d197596a94766bdd478758310f93bef414b95297a9",
+      "en": "「Part of the armor is damaged.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Some armor damaged."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1542": {
+      "repository_source_sha256": "1c78186e9fbc830485a9bfa55134ae258a3ece0d97d0b02d75c29625e55319c8",
+      "en": "「Light damage. Combat can continue.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "313:1575": {
+      "repository_source_sha256": "7755e22308db0d46742ac312d290b5608b816fe0e73a2e4757a213c03c69af95",
+      "en": "「Combat capabilities unaffected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "No impact on combat operations."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1598": {
+      "repository_source_sha256": "e8fe0d5be09c6a1cd4be8b840f3112893518ecd053b2a7e650e0afb45248f457",
+      "en": "「Enemy intimidation ineffective.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "313:1621": {
+      "repository_source_sha256": "b6b9d92c1e45307dca6ae5aa119e7c99b390475f82b7002f2f1cad0c93c167fb",
+      "en": "「Operations remain unaffected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "No interference with operations."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1644": {
+      "repository_source_sha256": "6f3c0b0798f2cd8c61b099284f0b07c6a5f87019291c0014247dedb06a3776b6",
+      "en": "「Cease your futile resistance.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Stop this futile resistance!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:1667": {
+      "repository_source_sha256": "8cbdee590d485e9ddf2c6c28f2e4e2b123edad2501b94466d5ce3027f44e0cb1",
+      "en": "「That attack won't work.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "That attack has no effect."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1690": {
+      "repository_source_sha256": "5fc2b40004f7097f854888b70835f2357b204e2b497a9dbe12671d99ba4e2c2b",
+      "en": "「It seems you're all show.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "313:1715": {
+      "repository_source_sha256": "07bc61d459a624e833d9176ce7e2b963fed0870607569bfe873412a95cb3ef5e",
+      "en": "「Damage sustained.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Damage detected."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1728": {
+      "repository_source_sha256": "ae39f15cf0e49aeb7155a1ea839d064c80428021036f19329054ef46f642db7c",
+      "en": "「Direct hit sustained.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "313:1745": {
+      "repository_source_sha256": "ee79969af8de0c64ba44192c7bc914b38da1103ac4657e3065a61143a1176dd5",
+      "en": "「Moderate damage. Combat possible.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Moderate damage. Can keep fighting."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1778": {
+      "repository_source_sha256": "5e68638442db7c1d09122906feb62027d768203f55ec0cd2754334bd65a8ebad",
+      "en": "「Armor breached. Internal damage.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Armor damaged. Internal damage too."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1803": {
+      "repository_source_sha256": "88d16928f17ec87fad4592716e49facef38862e185aac83ac8566fefff52f8e8",
+      "en": "「Enemy attack cannot be analyzed.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "313:1824": {
+      "repository_source_sha256": "b7bd55060fb370b59abff975f43267793ca781c74b1de0a0051bfff7a418122d",
+      "en": "「Operational capability affected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Operational performance affected."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1847": {
+      "repository_source_sha256": "86f694a82828f5a72dfaee2ce8cb1147f9ed2b5b069b564e09500ba20399cc17",
+      "en": "「Reevaluating evasion pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Reassessing evasion pattern."
+      ],
+      "review": "same-speaker"
+    },
+    "313:1876": {
+      "repository_source_sha256": "6d6db35c7af09799e2d13a4facb80c33a144037affe9f6220e5938ec48873f0f",
+      "en": "「Reanalyzing enemy attack pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "313:1907": {
+      "repository_source_sha256": "13a81fa5ed37be01fe02727a34975d0c37c7a9be46a2ee1ad221fe27fba94a76",
+      "en": "「Requesting tactical pattern review.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "313:1942": {
+      "repository_source_sha256": "b45c5305db6869269b978e4f31c1991b519f281babcb177ffbb2c77da09b00cb",
+      "en": "「Tetsujin No. 28 is formidable!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Tetsujin No. 28 is fearsome...!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:1971": {
+      "repository_source_sha256": "7903336fa31b346dd25702114aeb87bdc4ffcb444436c4348d01c71697bf66cb",
+      "en": "「Warning! Black Ox is dangerous!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "313:2010": {
+      "repository_source_sha256": "60d49945c1a56a99eb0a31e66f320305f25c9620522b06d0bd70bedd782efb7b",
+      "en": "「$$マーズ$$'s psychic power is unknown!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Mars's psychic power can't be read!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2043": {
+      "repository_source_sha256": "3c2ce2d2398f73495918eaf780906fb0b60540231d034a490274ff1e4240576c",
+      "en": "「Can't analyze Earth robots' power!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Earth robot attack power unreadable!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2084": {
+      "repository_source_sha256": "67898d8d85ef4adef3d20a4a56c85d34be6c5fd6356e0ae9c9b9253fba92cb0d",
+      "en": "「Critical damage! Critical damage!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "313:2119": {
+      "repository_source_sha256": "a36909154ee948965572b2a19398c295d3f67193ebb026a0e08e1b920f4a4636",
+      "en": "「Reactor hit! Reactor hit!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Direct core hit! Direct core hit!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2154": {
+      "repository_source_sha256": "64c9def2ed2ce061974994e7d2eb30ff9087f54cc25f60f0f96d5a918d2c030a",
+      "en": "「Severe damage! Requesting new plan!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Severe damage! Request plan change!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2189": {
+      "repository_source_sha256": "00707717975a0a229d5d68e1bf6fb86e7efbede501b2514b2ceacf893c1eb922",
+      "en": "「Requesting new plan! Order retreat!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Request plan change! Order retreat!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2224": {
+      "repository_source_sha256": "19d1f898319c6100a4f7d619b7accb05b0eb1f8df936209fd7f32afaf6a8cfe8",
+      "en": "「Widespread damage! At this rate...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Systems damaged! At this rate...!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2257": {
+      "repository_source_sha256": "607ab443dc88bb1a20281f6c85eaf1a450baa9a1d54b42649549cec64a341f47",
+      "en": "「Output down! Operations impaired!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Output falling! Operations impaired!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2294": {
+      "repository_source_sha256": "666455644ff6de7721713ada6d0f81a5daf3da4156d4dd3b0b0167bf9bd5b207",
+      "en": "「Damage at critical levels!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Damage has reached critical levels!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2323": {
+      "repository_source_sha256": "d1cee81b25abaf693fe7f5902b058cd1c2f0fed20df19364d89c07b36fb0e8b2",
+      "en": "「We'll be shot down in no time!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "We'll be shot down before long!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2354": {
+      "repository_source_sha256": "f01f787a83d2b1ff0b154044e2f17411c039e18df7daea5baf72812f95972222",
+      "en": "「Replan!\\nSelf-destruct if required!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Review tactics!\\nMaybe self-destruct!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2405": {
+      "repository_source_sha256": "3df474472d4680ec4a96b9d994d246758c28983aeb051d702630d00a42e83952",
+      "en": "「Combat disabled! Combat disabled!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "313:2436": {
+      "repository_source_sha256": "a6ce4141b8a0f377f7d162c66d6e04fb527c45d719d81b7e758ef8ff5c5803e4",
+      "en": "「Retreat...! Retreat...! Aaaagh!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Retreat! Retreat! Aaaagh!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2473": {
+      "repository_source_sha256": "e0940a09c903ee989e0124846f46a66bcd823a4d2e3486d9d40e15d4b1d79ebc",
+      "en": "「Operations impossible! Retreat now!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Can't operate! Retreat at once!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2510": {
+      "repository_source_sha256": "5cdc432869ccbc2a962c101d45a0837519b30e3f733056a557e4c6c08efbb0fd",
+      "en": "「No control! This unit will explode!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "313:2551": {
+      "repository_source_sha256": "d9263789fcbce2434dc553c29f9b2cfa7de2d7ef11d7066afdaeacf26a6ca045",
+      "en": "「Damage over limit! Control lost!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Damage over limit! Controls lost!"
+      ],
+      "review": "same-speaker"
+    },
+    "313:2594": {
+      "repository_source_sha256": "cffc6a5a17506f47d940306f527cde527c068b7a922afe712758a8b2ac54647b",
+      "en": "「Reactor runaway! Abandoning unit!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Power core runaway! Abandon unit!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:0": {
+      "repository_source_sha256": "976c0ac696dfbcb6bdaf82cd308be9abdf43ff1ea70ec8dbe35b95718e3643c7",
+      "en": "「Now!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:9": {
+      "repository_source_sha256": "ea4f0268785f5eeaf5ec0ee8c6c847fc46cfdc116f29e7578a1a0724639a5432",
+      "en": "「There!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "There you are."
+      ],
+      "review": "same-speaker"
+    },
+    "314:20": {
+      "repository_source_sha256": "36e444f85c0742ef884ecfe1e380f40a3b1b8e22154375c26cd35d214cacb066",
+      "en": "「Disappear!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Begone!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:31": {
+      "repository_source_sha256": "201be2a8d4a4dfe5fed5c3b5547fd20d2a8f2c4118275a155a7dcc77c674d0cc",
+      "en": "「Fall!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:42": {
+      "repository_source_sha256": "da91d2fe536f4175314a942e3ef02825f736e8cd7ac202e97d38dbf1d8084438",
+      "en": "「Attacking!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Attacking.",
+        "Initiating attack."
+      ],
+      "review": "same-speaker"
+    },
+    "314:55": {
+      "repository_source_sha256": "626a41ff5ef3306807613aea55f7c2022963a7f75afa11841b6a8b7ab9eb7e28",
+      "en": "「Destroying target!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll destroy you.",
+        "Destroying target."
+      ],
+      "review": "same-speaker"
+    },
+    "314:68": {
+      "repository_source_sha256": "0320d41a1b0f18aea377ee14ab5bb335aad499dae8f469f4b074562fe316a116",
+      "en": "「Target will be shot down!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Shooting target down."
+      ],
+      "review": "same-speaker"
+    },
+    "314:81": {
+      "repository_source_sha256": "602cd4cfc5ee9eafaa190d517a5d3a7a9c4931edd1d25b90452d28c10081ef24",
+      "en": "「Knocking you out of the sky!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll knock you out of the sky!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:96": {
+      "repository_source_sha256": "f40aa524733155ccf2e50d9481348f4c61f7c1848e72d9e74939d5a547e51c3c",
+      "en": "「Commence attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Commence attack."
+      ],
+      "review": "same-speaker"
+    },
+    "314:109": {
+      "repository_source_sha256": "d7fa190ff3bd8ba2c093c246635978ab1272f49cd27ec99352d75e1c49574a33",
+      "en": "「Target acquired!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Target acquired."
+      ],
+      "review": "same-speaker"
+    },
+    "314:122": {
+      "repository_source_sha256": "0e2081d0abe8ed4147b2a4c6c897cbc700b7ada58a7ee6b889fccd46b222a108",
+      "en": "「Enemy unit sighted!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Enemy unit detected."
+      ],
+      "review": "same-speaker"
+    },
+    "314:135": {
+      "repository_source_sha256": "9c64e20466391d3e60a2debbc875b7de47b5f1e2496a815bbfabd7d92a332d4b",
+      "en": "「Annihilate the enemy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Eliminate all enemies."
+      ],
+      "review": "same-speaker"
+    },
+    "314:148": {
+      "repository_source_sha256": "cae32f1cd8d17ec61d09bd8f75df839246a0117f05512509c7a53b1013dbab13",
+      "en": "「Proceeding according to plan.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Just as planned."
+      ],
+      "review": "same-speaker"
+    },
+    "314:163": {
+      "repository_source_sha256": "18d6d7306424cc63481713dfa28fa531c724112905e65d7e3bcd9de9451fad3c",
+      "en": "「The operation will be executed.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Carrying out the operation."
+      ],
+      "review": "same-speaker"
+    },
+    "314:182": {
+      "repository_source_sha256": "97f36219af183b8d35c58c5cf6d8a2dd275e389a362e3e389537eeedffa121a4",
+      "en": "「For the Space Demon King!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:203": {
+      "repository_source_sha256": "48ce18fdf9a6b5ab8b7da04f90596a7be261fda61b3126e16553cfac5bf626f9",
+      "en": "「By the Space Demon King's command!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "As the Space Demon King commands!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:228": {
+      "repository_source_sha256": "1aad97222cc56639f75a322b4e6df5a8a8a6d157100c3a15a99cd2a8bec37b90",
+      "en": "「Commencing another attack.」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ],
+      "alternatives": [
+        "Launching another attack."
+      ],
+      "review": "same-speaker"
+    },
+    "314:249": {
+      "repository_source_sha256": "656a8b31d682adfa6f613748f482ab2c543bdc954366483038bbe8c9c83c8b4a",
+      "en": "「Opening detected! Opening detected!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ],
+      "alternatives": [
+        "Attack chance! Attack chance!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:280": {
+      "repository_source_sha256": "0c5c9b51b6e81c5707b67c8ccd70a7c62d176be55e2d9fff06096345fb0cf436",
+      "en": "「Target: Tetsujin No. 28.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:307": {
+      "repository_source_sha256": "375412165b47817b43132f2ca1859bd2cd1aef0bca4f86f7b3c17cf41b21588f",
+      "en": "「$$鉄人$$ is our enemy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Tetsujin No. 28 is our enemy."
+      ],
+      "review": "same-speaker"
+    },
+    "314:328": {
+      "repository_source_sha256": "42a614ba8dcd6f8ba9d9f2a4e084992262e4b7502c17617246f0fa0483671487",
+      "en": "「Destroy Black Ox!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:359": {
+      "repository_source_sha256": "5cab22ba5a79d4f3d156e95d41701c32df6c8cc06bae2cdcadb5f124cca885dd",
+      "en": "「$$マーズ$$ must not be allowed to live!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Mars cannot be allowed to survive!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:388": {
+      "repository_source_sha256": "4bfdb6fc779e4c8b324ec89212d1878650f13f932942709ba2f38f13e7bcc128",
+      "en": "「Earth's super robots are dangerous!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Earth's Super Robots are dangerous!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:423": {
+      "repository_source_sha256": "bd5163cb7cc42c266e89e5ef2d5b2be88f6cff52b5562cd2c268ab77eef938f0",
+      "en": "「Destroy every Super Robot!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:458": {
+      "repository_source_sha256": "6a0aebc98e43d60da57ba2e1017073cbda36c736fa4ab9edbfa0c2ab50b84b6c",
+      "en": "「Attack target: Mobile Suit.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:485": {
+      "repository_source_sha256": "211ae62b006bc10007e52f978aaef099861875eeba0ac879d1664778eb1569b4",
+      "en": "「Attack target: Gundam.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:508": {
+      "repository_source_sha256": "c08a92ae3b4e3a44af7bb5ad8d624f55a2cf7a4d87422d0db0c534290fc5b662",
+      "en": "「Attack target: Variable Fighter.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:533": {
+      "repository_source_sha256": "43d00f003746f09aa3ee4da46f08878f3c207ffb069a7f5bb44c0e4604b1bb8a",
+      "en": "「Attack target: AT.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:552": {
+      "repository_source_sha256": "80021f0ccfcb4d97e61dc28f09187c72bd5392af6d8b5884350dad6bc3570bfe",
+      "en": "「Attack target: AS.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:571": {
+      "repository_source_sha256": "9862b287df5116789ff257f51af7a8bc64089038b15732ac7442b1cfd14718e1",
+      "en": "「Attack target: KMF.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:592": {
+      "repository_source_sha256": "17a675a36db1699583c68cc9bc36f6453d5c9244e72fe804e338740cabd93d2a",
+      "en": "「Attack target: android.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:615": {
+      "repository_source_sha256": "4d3a4e2212116a9bcc63a8e48b0429b76fd4637bd0a956f48aa153922ac0a442",
+      "en": "「Attack target: enemy battleship.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "314:636": {
+      "repository_source_sha256": "b89297a64dab07e592f40abe762083975fa04e00c17a3ac23785745ff61e3569",
+      "en": "「Commence counterattack!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "314:649": {
+      "repository_source_sha256": "99bdcd8c1de3f2c9e235b7f1400f218a1867c0135657795789038de9479196b0",
+      "en": "「You won't escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "314:668": {
+      "repository_source_sha256": "7d4b4daa51533943e3e4004e991ebc2c3ccfdf158d975efa0930ee7f617e216c",
+      "en": "「Initiating countermeasures.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "314:687": {
+      "repository_source_sha256": "80181612e7ed9072a402b445cfb7c8f8a13e355c05bf4faf56e3fe817c1cda6e",
+      "en": "「Switching to counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ],
+      "alternatives": [
+        "Commencing counterattack."
+      ],
+      "review": "same-speaker"
+    },
+    "314:706": {
+      "repository_source_sha256": "c3d5ebd8844c00215b7155e6a9f7ecafc33d794d3eda16981fda38881ec3221f",
+      "en": "「Counterattacking immediately.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "314:727": {
+      "repository_source_sha256": "6b058ffc14cb9fb5f90a3324ba8d87e724d2a0a603807c1edb035a1a176672c0",
+      "en": "「I'll down you before you escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll shoot you down before you flee!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:748": {
+      "repository_source_sha256": "716b53ea749db4c96ae0fb4b22af95f15c0d5f690282cc10bc1e2384304233f7",
+      "en": "「Preventing the enemy's escape.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "314:773": {
+      "repository_source_sha256": "5ba45d332095a5145a6aff178ff5319fe6fc45cf114189cdd1fe67bc5737d490",
+      "en": "「Enemy unit remains within range.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "314:800": {
+      "repository_source_sha256": "75bcec634b4f8b8715f086d3acaf9225f78fa9fb5e0cf7f6a76c40c33ebccf14",
+      "en": "「Moving in to provide support.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "314:815": {
+      "repository_source_sha256": "c3f2d6a2f70454b8bde32f00941f82ac1c8059f7ee2108943ca165ebeadc9308",
+      "en": "「Initiating a coordinated attack.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ],
+      "alternatives": [
+        "Attacking in coordination."
+      ],
+      "review": "same-speaker"
+    },
+    "314:834": {
+      "repository_source_sha256": "3be34f162454b65c92f2d4e8766acc475f4d9f1cd2ba02f88fda36280e549c30",
+      "en": "「Moving this unit to the front.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "314:853": {
+      "repository_source_sha256": "8cff824ccb95f34845f926fc9a0b5ddb5d0fce7157ac4552e8cdbab44a5ddd9f",
+      "en": "「This unit will block the attack.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ],
+      "alternatives": [
+        "We'll block the attack."
+      ],
+      "review": "same-speaker"
+    },
+    "314:876": {
+      "repository_source_sha256": "76d6c22034b91e16f2f3c4812d9b1bc5e4c4a723531ca86b88f9d8e7a6db993b",
+      "en": "「Target acknowledged.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "314:891": {
+      "repository_source_sha256": "64daa29e81d1c955474ba2cbca850b52479c060e11282f13da15eb56b02e7fe6",
+      "en": "「Target confirmed.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "314:912": {
+      "repository_source_sha256": "be24933c4858e08f83b0bc08ecce4e3575397334d684988aad971e759342593e",
+      "en": "「Destroy the enemies one by one.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ],
+      "alternatives": [
+        "Destroy enemies one by one."
+      ],
+      "review": "same-speaker"
+    },
+    "314:935": {
+      "repository_source_sha256": "5369d55b21ec9c4cbccdfa9b919fb570dcb19b27e5cbbd6d5be4b3fc801c4b6f",
+      "en": "「We'll hold the line as well.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ],
+      "alternatives": [
+        "We're holding the line as well."
+      ],
+      "review": "same-speaker"
+    },
+    "314:962": {
+      "repository_source_sha256": "524096a78e4efacfa8c6f0ab69c958abd7263bcd4b276cad78cd8ee33951e338",
+      "en": "「Concentrating our attack.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "Concentrating fire."
+      ],
+      "review": "same-speaker"
+    },
+    "314:983": {
+      "repository_source_sha256": "089431e87a7d154bbbce1908bd4fec2c7c8bf9fe66f29a45f2550a258b32d6d1",
+      "en": "「We'll hold the enemy here.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "We'll hold them off."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1008": {
+      "repository_source_sha256": "09663c825151c8b680cecd71b1516844bb2a6546a48a89a6844006cf3213b37c",
+      "en": "「We'll make the first move.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "We'll attack first."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1033": {
+      "repository_source_sha256": "6f803b16892a66ff877bd9d57588e1e077ecfb93028604df2dd1afb464ca1c8f",
+      "en": "「Providing attack support.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "Assisting the attack."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1056": {
+      "repository_source_sha256": "b6f268e505007c21c0abe79a0f0a11a3681d66f04c27b59a6e0b25e8de6e189d",
+      "en": "「Unable to counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "314:1069": {
+      "repository_source_sha256": "ca421df1ce6158fda6aa975b7390ea2e14597d9c28e6b0f4a6c768532108e5f2",
+      "en": "「Requesting a change of plans.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ],
+      "alternatives": [
+        "Requesting a change of plan."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1088": {
+      "repository_source_sha256": "6170618211c38a9f0bae39fc8a7116c5e06de2c6d6837686a147faa91d346b38",
+      "en": "「Enemy unit lost.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ],
+      "alternatives": [
+        "Lost track of enemy unit."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1105": {
+      "repository_source_sha256": "9dd714fc8e1d4089046fb723f9ddd403fb928525f4a4b6ee739e26d043066aa9",
+      "en": "「Energy reserves nearly depleted.」",
+      "source": "jigoku",
+      "slots": [
+        "out of EN/ammo"
+      ]
+    },
+    "314:1132": {
+      "repository_source_sha256": "a52265f09a11304683cbaf4d3a856039813be3a8451b2940d6eaa7dc2e3017bb",
+      "en": "「Attack target is outside our range.」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "314:1167": {
+      "repository_source_sha256": "9ed278af03f2240dee6e13f5aa3a78ab236777d8d8539e3a2594dcf990de2505",
+      "en": "「Our weapons cannot counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ],
+      "alternatives": [
+        "Our weapons can't counter that unit."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1202": {
+      "repository_source_sha256": "ea50edb4ecae83f8f1e621ebe8705bb633699df137aea3381286cee535cb2213",
+      "en": "「Evasion successful.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "314:1215": {
+      "repository_source_sha256": "15396fa0334199134cd8457db56d4d6f4ed1304e261d75262b6adc3aacf6c531",
+      "en": "「Enemy attack unsuccessful.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Enemy unit's attack failed."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1236": {
+      "repository_source_sha256": "0d8c34353ad148baa2b95a61c8880c30bfe477121320373bb6da99308b8849ac",
+      "en": "「This unit sustained no damage.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "We sustained zero damage."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1259": {
+      "repository_source_sha256": "8513e2f380ace687be1fc0043d46194b1f2bca3353a450b531434f9b1e3e346f",
+      "en": "「No flaws in the evasion pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "314:1286": {
+      "repository_source_sha256": "293fa27d9f4b2fd87b0dd8bc474337cd2608cfbb5e3c34295aed11dafc007fbe",
+      "en": "「Attack pattern already analyzed.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "314:1313": {
+      "repository_source_sha256": "78080592ae2af7b76b0ad9e778b1d91bb00365f294c3ff377a2d7be26e88eef6",
+      "en": "「Proceeding to the next action.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Proceeding to next action."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1332": {
+      "repository_source_sha256": "1e4421f8511d786d161e5fd4b4ded513556a525470e205e1f8265e3be8f31fba",
+      "en": "「Tetsujin No. 28: attack predicted.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Tetsujin No. 28's attack predicted."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1367": {
+      "repository_source_sha256": "2ef18d03a58bb85d858468225c1771403ec786ca8b5c043ca420ee287fff91c6",
+      "en": "「Black Ox removed from threat list.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Remove Black Ox from threat list."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1406": {
+      "repository_source_sha256": "4cdaf764b039d910a640e5f5f8fa3c133277f99cad015346eedeff5c6b81e302",
+      "en": "「Downgrading $$マーズ$$'s data.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "314:1435": {
+      "repository_source_sha256": "2eb565618edbf6d46325330575da4fe71683e03bedc2de583df40138b53a9b4e",
+      "en": "「Earth robot data analysis complete.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "314:1470": {
+      "repository_source_sha256": "e2d43e857d1592967b77764434946a1f77ce87fbc4157aada806b677446ecf3e",
+      "en": "「Barrier activated.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "314:1485": {
+      "repository_source_sha256": "51bb67f7e60f7ef0791fd142d148505c788893f6d7dd68a148a90a074be94575",
+      "en": "「Attack nullification successful.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ],
+      "alternatives": [
+        "Attack successfully nullified."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1508": {
+      "repository_source_sha256": "3bc51fa704f073e88113aa466dfb1cea109d95e55554064d612c3ed436cc760c",
+      "en": "「Damage is minimal.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Minor damage."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1521": {
+      "repository_source_sha256": "a843ed05f8423b7524ffe8d197596a94766bdd478758310f93bef414b95297a9",
+      "en": "「Part of the armor is damaged.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Some armor damaged."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1542": {
+      "repository_source_sha256": "1c78186e9fbc830485a9bfa55134ae258a3ece0d97d0b02d75c29625e55319c8",
+      "en": "「Light damage. Combat can continue.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "314:1575": {
+      "repository_source_sha256": "7755e22308db0d46742ac312d290b5608b816fe0e73a2e4757a213c03c69af95",
+      "en": "「Combat capabilities unaffected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "No impact on combat operations."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1598": {
+      "repository_source_sha256": "e8fe0d5be09c6a1cd4be8b840f3112893518ecd053b2a7e650e0afb45248f457",
+      "en": "「Enemy intimidation ineffective.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "314:1621": {
+      "repository_source_sha256": "b6b9d92c1e45307dca6ae5aa119e7c99b390475f82b7002f2f1cad0c93c167fb",
+      "en": "「Operations remain unaffected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "No interference with operations."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1644": {
+      "repository_source_sha256": "6f3c0b0798f2cd8c61b099284f0b07c6a5f87019291c0014247dedb06a3776b6",
+      "en": "「Cease your futile resistance.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Stop this futile resistance!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:1667": {
+      "repository_source_sha256": "8cbdee590d485e9ddf2c6c28f2e4e2b123edad2501b94466d5ce3027f44e0cb1",
+      "en": "「That attack won't work.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "That attack has no effect."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1690": {
+      "repository_source_sha256": "5fc2b40004f7097f854888b70835f2357b204e2b497a9dbe12671d99ba4e2c2b",
+      "en": "「It seems you're all show.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "314:1715": {
+      "repository_source_sha256": "07bc61d459a624e833d9176ce7e2b963fed0870607569bfe873412a95cb3ef5e",
+      "en": "「Damage sustained.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Damage detected."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1728": {
+      "repository_source_sha256": "ae39f15cf0e49aeb7155a1ea839d064c80428021036f19329054ef46f642db7c",
+      "en": "「Direct hit sustained.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "314:1745": {
+      "repository_source_sha256": "ee79969af8de0c64ba44192c7bc914b38da1103ac4657e3065a61143a1176dd5",
+      "en": "「Moderate damage. Combat possible.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Moderate damage. Can keep fighting."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1778": {
+      "repository_source_sha256": "5e68638442db7c1d09122906feb62027d768203f55ec0cd2754334bd65a8ebad",
+      "en": "「Armor breached. Internal damage.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Armor damaged. Internal damage too."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1803": {
+      "repository_source_sha256": "88d16928f17ec87fad4592716e49facef38862e185aac83ac8566fefff52f8e8",
+      "en": "「Enemy attack cannot be analyzed.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "314:1824": {
+      "repository_source_sha256": "b7bd55060fb370b59abff975f43267793ca781c74b1de0a0051bfff7a418122d",
+      "en": "「Operational capability affected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Operational performance affected."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1847": {
+      "repository_source_sha256": "86f694a82828f5a72dfaee2ce8cb1147f9ed2b5b069b564e09500ba20399cc17",
+      "en": "「Reevaluating evasion pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Reassessing evasion pattern."
+      ],
+      "review": "same-speaker"
+    },
+    "314:1876": {
+      "repository_source_sha256": "6d6db35c7af09799e2d13a4facb80c33a144037affe9f6220e5938ec48873f0f",
+      "en": "「Reanalyzing enemy attack pattern.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "314:1907": {
+      "repository_source_sha256": "13a81fa5ed37be01fe02727a34975d0c37c7a9be46a2ee1ad221fe27fba94a76",
+      "en": "「Requesting tactical pattern review.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "314:1942": {
+      "repository_source_sha256": "b45c5305db6869269b978e4f31c1991b519f281babcb177ffbb2c77da09b00cb",
+      "en": "「Tetsujin No. 28 is formidable!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Tetsujin No. 28 is fearsome...!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:1971": {
+      "repository_source_sha256": "7903336fa31b346dd25702114aeb87bdc4ffcb444436c4348d01c71697bf66cb",
+      "en": "「Warning! Black Ox is dangerous!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "314:2010": {
+      "repository_source_sha256": "60d49945c1a56a99eb0a31e66f320305f25c9620522b06d0bd70bedd782efb7b",
+      "en": "「$$マーズ$$'s psychic power is unknown!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Mars's psychic power can't be read!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2043": {
+      "repository_source_sha256": "3c2ce2d2398f73495918eaf780906fb0b60540231d034a490274ff1e4240576c",
+      "en": "「Can't analyze Earth robots' power!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Earth robot attack power unreadable!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2084": {
+      "repository_source_sha256": "67898d8d85ef4adef3d20a4a56c85d34be6c5fd6356e0ae9c9b9253fba92cb0d",
+      "en": "「Critical damage! Critical damage!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "314:2119": {
+      "repository_source_sha256": "a36909154ee948965572b2a19398c295d3f67193ebb026a0e08e1b920f4a4636",
+      "en": "「Reactor hit! Reactor hit!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Direct core hit! Direct core hit!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2154": {
+      "repository_source_sha256": "64c9def2ed2ce061974994e7d2eb30ff9087f54cc25f60f0f96d5a918d2c030a",
+      "en": "「Severe damage! Requesting new plan!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Severe damage! Request plan change!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2189": {
+      "repository_source_sha256": "00707717975a0a229d5d68e1bf6fb86e7efbede501b2514b2ceacf893c1eb922",
+      "en": "「Requesting new plan! Order retreat!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Request plan change! Order retreat!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2224": {
+      "repository_source_sha256": "19d1f898319c6100a4f7d619b7accb05b0eb1f8df936209fd7f32afaf6a8cfe8",
+      "en": "「Widespread damage! At this rate...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Systems damaged! At this rate...!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2257": {
+      "repository_source_sha256": "607ab443dc88bb1a20281f6c85eaf1a450baa9a1d54b42649549cec64a341f47",
+      "en": "「Output down! Operations impaired!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Output falling! Operations impaired!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2294": {
+      "repository_source_sha256": "666455644ff6de7721713ada6d0f81a5daf3da4156d4dd3b0b0167bf9bd5b207",
+      "en": "「Damage at critical levels!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Damage has reached critical levels!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2323": {
+      "repository_source_sha256": "d1cee81b25abaf693fe7f5902b058cd1c2f0fed20df19364d89c07b36fb0e8b2",
+      "en": "「We'll be shot down in no time!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "We'll be shot down before long!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2354": {
+      "repository_source_sha256": "f01f787a83d2b1ff0b154044e2f17411c039e18df7daea5baf72812f95972222",
+      "en": "「Replan!\\nSelf-destruct if required!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Review tactics!\\nMaybe self-destruct!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2405": {
+      "repository_source_sha256": "3df474472d4680ec4a96b9d994d246758c28983aeb051d702630d00a42e83952",
+      "en": "「Combat disabled! Combat disabled!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "314:2436": {
+      "repository_source_sha256": "a6ce4141b8a0f377f7d162c66d6e04fb527c45d719d81b7e758ef8ff5c5803e4",
+      "en": "「Retreat...! Retreat...! Aaaagh!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Retreat! Retreat! Aaaagh!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2473": {
+      "repository_source_sha256": "e0940a09c903ee989e0124846f46a66bcd823a4d2e3486d9d40e15d4b1d79ebc",
+      "en": "「Operations impossible! Retreat now!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Can't operate! Retreat at once!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2510": {
+      "repository_source_sha256": "5cdc432869ccbc2a962c101d45a0837519b30e3f733056a557e4c6c08efbb0fd",
+      "en": "「No control! This unit will explode!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "314:2551": {
+      "repository_source_sha256": "d9263789fcbce2434dc553c29f9b2cfa7de2d7ef11d7066afdaeacf26a6ca045",
+      "en": "「Damage over limit! Control lost!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Damage over limit! Controls lost!"
+      ],
+      "review": "same-speaker"
+    },
+    "314:2594": {
+      "repository_source_sha256": "cffc6a5a17506f47d940306f527cde527c068b7a922afe712758a8b2ac54647b",
+      "en": "「Reactor runaway! Abandoning unit!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Power core runaway! Abandon unit!"
+      ],
+      "review": "same-speaker"
+    }
+  }
+}

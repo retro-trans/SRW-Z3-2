@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_200",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 209,
+      "field": "DSCR",
+      "english_sha256": "980843810b286bc0",
+      "new": "A Mechanical God of $$ミケーネ$$.\nIt is called 'Hero' for its valor.\nAfter the passage of many years, its body was split into the $$機械獣$$s $$ガラダＫ７$$ and $$ダブラスＭ２$$.\n$$甲児$$, $$つばさ$$, and $$あしゅら男爵$$ encountered it when they were sent into ancient $$ミケーネ$$, the world of $$ケドラ$$'s memories. It fought $$マジンガーＺ$$ and was defeated by the Rust Hurricane.\nUnlike ordinary $$機械獣$$s, it has a will of its own and is even able to speak.",
+      "reason": "pronoun: the researched gender of Garadabra is 'unknown' (a machine god with its own will, library_characters pilot 298), so no he/his/him; 'it' replaces the male pronouns"
+    },
+    {
+      "kind": "robot",
+      "id": 210,
+      "field": "DSCR",
+      "english_sha256": "bb91f6f3ae89c16e",
+      "new": "One of the misshapen gods of Mycenae.\nThis god conspired with the other gods to attack and punish the traitor Zeus.",
+      "reason": "pronoun: this unnamed Mycenaean god has no researched gender and the Japanese (ミケーネの異形の神々の１柱) does not say male, so 'He' is unsupported"
+    },
+    {
+      "kind": "robot",
+      "id": 211,
+      "field": "DSCR",
+      "english_sha256": "bb91f6f3ae89c16e",
+      "new": "One of the misshapen gods of Mycenae.\nThis god conspired with the other gods to attack and punish the traitor Zeus.",
+      "reason": "pronoun: this unnamed Mycenaean god has no researched gender and the Japanese (ミケーネの異形の神々の１柱) does not say male, so 'He' is unsupported"
+    },
+    {
+      "kind": "robot",
+      "id": 212,
+      "field": "DSCR",
+      "english_sha256": "bb91f6f3ae89c16e",
+      "new": "One of the misshapen gods of Mycenae.\nThis god conspired with the other gods to attack and punish the traitor Zeus.",
+      "reason": "pronoun: this unnamed Mycenaean god has no researched gender and the Japanese (ミケーネの異形の神々の１柱) does not say male, so 'He' is unsupported"
+    },
+    {
+      "kind": "robot",
+      "id": 213,
+      "field": "DSCR",
+      "english_sha256": "65feb9d59aa26fd7",
+      "new": "An anti-$$ヘテロダイン$$ combat weapon belonging to the Public Relations Section 2 of the Planning and Development Department, owned by $$２１世紀警備保障$$. Its official designation is 'Type-B Upright Special Vehicle.'\nHumanity, first exposed to the threat of the Heterodynes in the year 2018, developed it in preparation for their reappearance, but for the following 12 years no $$ヘテロダイン$$ appeared, and it ended up merely consuming upkeep costs. Later, when the $$国連$$ Security Forces decided on privatization, $$２１世紀警備保障$$ was born as a security company with the military as its major shareholder. $$ダイ・ガード$$ came under its ownership, a state that continues to this day.\nEven after becoming a semi-public, semi-private organization, the problem of operating costs could not be ignored, and it was treated mainly as a promotional mascot. However, when the second $$ヘテロダイン$$ in 12 years appeared in Sagami Bay, the coincidence of it being on display on-site and having its pilots on hand became the catalyst for it to return to its original role, and it continued to be deployed from then on.\nInitially, due to operational and maintenance issues, it stood by in a disassembled state, requiring a cage to be set up on-site to assemble it every time it sortied. However, it was improved into a three-block configuration -- Unit 1 comprising the head and both arms, Unit 2 the upper body, and Unit 3 the lower body -- and by fitting each block with an optional self-propelled system, its operability was successfully improved. Furthermore, the armor, which had been reduced to little more than paper for weight reduction during its time as a mascot, was restored to its original titanium-based multilayer armor.\nIts armaments include the cutting 'Drill Arm,' the capture-type 'Net Arm,' and the 'Knot Buster,' which pinpoint-destroys an $$オリジナル$$'s Fractal Knot. Although categorized as a weapon, being the property of a private company, it is equipped only with equipment specialized purely for use against Heterodynes.\nLater, its combat strength was enhanced by equipping improved versions of its weapons, the 'Knot Punisher' and 'Double Driller' (both named by Akagi), and an OS that changed hardware priority was developed to improve its mobility. Furthermore, to make combination easier, various power-ups were carried out over time: Unit 1 was fitted with flight capability and became the 'Guard Fighter,' Unit 2 gained hovering capability and became the 'Guard Striker,' and Unit 3 had its parts modified into the 'Guard Vehicle' (these names, too, were coined by Akagi). Even so, its basic concept as an anti-$$ヘテロダイン$$ combat weapon never changed.",
+      "reason": "mistranslation: the Japanese ケイジ is the assembly 'cage' (Dai-Guard hangar/assembly frame), not a crane"
+    },
+    {
+      "kind": "robot",
+      "id": 222,
+      "field": "DSCR",
+      "english_sha256": "a0ba7085c00affdb",
+      "new": "A cutting-edge third-generation AS.\nIt is operated by $$ミスリル$$, and this unit is piloted by Sergeant $$クルツ・ウェーバー$$.\nThis model is said to still be under development by the US military, and has not yet been deployed to any organization or nation other than $$ミスリル$$. As $$ミスリル$$'s main weapon, machines of the E series are operated by $$ＳＲＴ$$ personnel.\nCompared to existing machines it boasts extremely high performance, and its high mobility and stealth in particular overwhelm other AS. Its $$ＥＣＳ$$ not only neutralizes electronic weapons such as sensors and radar, but also renders it invisible to the naked eye. This performance was also put to use when it operated through the city streets on a mission to guard $$かなめ$$.\n$$クルツ$$'s unit is most distinguished by its 57mm smoothbore gun. It is normally folded and mounted on the back, but is deployed for use, and the unit snipes from positions such as a prone firing posture, using the bipod beneath the barrel.",
+      "reason": "omission and pro-drop: 伏射姿勢など means 'positions such as prone' (the 'such as' was dropped), and the subject of 狙撃を行なう is the unit the entry is about, not an impersonal passive"
+    },
+    {
+      "kind": "robot",
+      "id": 222,
+      "field": "DSC2",
+      "english_sha256": "2da4b143dc3db2bf",
+      "new": "A cutting-edge third-generation AS.\nIt is operated by $$ミスリル$$, and this unit is piloted by Sergeant $$クルツ・ウェーバー$$.\nThis model is said to still be under development by the US military, and has not yet been deployed to any organization or nation other than $$ミスリル$$. As $$ミスリル$$'s main weapon, machines of the E series are operated by $$ＳＲＴ$$ personnel.\nCompared to existing machines it boasts extremely high performance, and its high mobility and stealth in particular overwhelm other AS. Its $$ＥＣＳ$$ not only neutralizes electronic weapons such as sensors and radar, but also renders it invisible to the naked eye. This performance was also put to use when it operated through the city streets on a mission to guard $$かなめ$$.\n$$クルツ$$'s unit is most distinguished by its 57mm smoothbore gun. It is normally folded and mounted on the back, but is deployed for use, and the unit snipes from positions such as a prone firing posture, using the bipod beneath the barrel.\nConventional weapons were ineffective against enemy units equipped with the Lambda Driver, and the $$アーバレスト$$ had to be relied upon entirely, but it was later fitted with the '$$妖精の目$$,' which detects the activation of a Lambda Driver. Through coordinated tactics using it, it became able to somehow hold its own even against Lambda Driver-equipped units.",
+      "reason": "omission and pro-drop: 伏射姿勢など means 'positions such as prone' (the 'such as' was dropped), and the subject of 狙撃を行なう is the unit the entry is about, not an impersonal passive"
+    },
+    {
+      "kind": "robot",
+      "id": 235,
+      "field": "DSCR",
+      "english_sha256": "8ce021f51c747b10",
+      "new": "A Mechanical Angel that $$アポロニアス#pilot$$ built 12,000 years ago to fight the $$堕天翅$$. It is sometimes called the Mythical-type Aquarion.\nBy combining three Vector Machines, it can take three different forms. Depending on the order of composition, the completed form and its abilities change greatly. This is the strongest form of Aquarion, completed with Vector Sol forming the upper body, Vector Mars the lower body, and Vector Luna the back.\nIt is characterized by a red-based color scheme and a head modeled on the sun, and power stones that amplify bio-energy and higher-dimensional quantum power are located on both shoulders and both shins.\nWhile it has armor resistant to physical attacks and enormous output, its pilot is also required to have tremendous $$エレメント$$ ability, so it has become a form used almost exclusively by $$アポロ$$. Deploying the Solar Wings on its back allows it to display even greater power.\nIts main armament is its 'fists' themselves, and their destructive power is so great that it can smash a $$ケルビム兵$$ in a single blow even without using any particular technique. Its finishing moves, such as the 'Infinite Punch,' a life-risking punch that reaches all the way to the moon, and the 'Light-Shadow Unity Fist,' unleashed in unison by $$アポロ$$ and $$シルヴィア$$ after they realized each other's true feelings, are again mostly fist-based.\nIncidentally, only when $$リーナ$$ pilots it as the main pilot does it become the 'Silver Aquarion,' which shines silver.\nAt first, $$アポロ$$, who carries the past life of $$アポロニアス#pilot$$, was thought to be the 'Wings of the Sun,' the savior. But it was revealed by $$頭翅#pilot$$ that the Aquarion that $$アポロニアス#pilot$$ built using his own wings was the true 'Wings of the Sun.'",
+      "reason": "pronoun: Apollonius is male (token gender); 自分の翅 is reflexive, so repeating the name was a defect of the old rule"
+    },
+    {
+      "kind": "robot",
+      "id": 235,
+      "field": "DSC2",
+      "english_sha256": "8ce021f51c747b10",
+      "new": "A Mechanical Angel that $$アポロニアス#pilot$$ built 12,000 years ago to fight the $$堕天翅$$. It is sometimes called the Mythical-type Aquarion.\nBy combining three Vector Machines, it can take three different forms. Depending on the order of composition, the completed form and its abilities change greatly. This is the strongest form of Aquarion, completed with Vector Sol forming the upper body, Vector Mars the lower body, and Vector Luna the back.\nIt is characterized by a red-based color scheme and a head modeled on the sun, and power stones that amplify bio-energy and higher-dimensional quantum power are located on both shoulders and both shins.\nWhile it has armor resistant to physical attacks and enormous output, its pilot is also required to have tremendous $$エレメント$$ ability, so it has become a form used almost exclusively by $$アポロ$$. Deploying the Solar Wings on its back allows it to display even greater power.\nIts main armament is its 'fists' themselves, and their destructive power is so great that it can smash a $$ケルビム兵$$ in a single blow even without using any particular technique. Its finishing moves, such as the 'Infinite Punch,' a life-risking punch that reaches all the way to the moon, and the 'Light-Shadow Unity Fist,' unleashed in unison by $$アポロ$$ and $$シルヴィア$$ after they realized each other's true feelings, are again mostly fist-based.\nIncidentally, only when $$リーナ$$ pilots it as the main pilot does it become the 'Silver Aquarion,' which shines silver.\nAt first, $$アポロ$$, who carries the past life of $$アポロニアス#pilot$$, was thought to be the 'Wings of the Sun,' the savior. But it was revealed by $$頭翅#pilot$$ that the Aquarion that $$アポロニアス#pilot$$ built using his own wings was the true 'Wings of the Sun.'",
+      "reason": "pronoun: Apollonius is male (token gender); 自分の翅 is reflexive, so repeating the name was a defect of the old rule"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "robot 213 DSCR 'the Knot Punisher and Double Driller (both named by Akagi)': the Japanese puts (赤木が命名) right after ダブルドリラー only, so it may cover just that weapon; the existing 'both' reads it as covering both. Kept because the Japanese does not settle it (the Guard Fighter/Striker/Vehicle note that follows explicitly says 'these names, too'). Akagi as namer is stated in English.",
+      "robot 232 DSCR/DSC2 'it was activated by Takuma, who crushed the JGSDF's ...': the Japanese leaves the subject of 一蹴し (the machine piloted by Takuma) unstated and the English attaches it to Takuma via 'who'. Kept: the machine with Takuma aboard makes either reading true.",
+      "robot 232 DSCR/DSC2 'it faced off against the Arbalest piloted by Sousuke, which destroyed the cooling unit': the Japanese is passive (冷却装置を破壊され) with the Arbalest as the implied agent; English makes it the agent. Correct for the scene, kept."
+    ],
+    "name_issues": [
+      "robot 200 DSCR: 'Toros D7' (トロスＤ７), 'Breast Fire' (ブレストファイヤー) and 'Super Robot corps' (スーパーロボット軍団) are literal English; none is in the entry's token list.",
+      "robots 200, 201, 202, 203, 204, 206, 212 and others: 'Mechanical Beast' is literal English although a token $$機械獣$$ exists (used in robot 209).",
+      "robot 205 DSCR: literal English for ウーラアＰ９ 'Uraa P9', バマラスＹ１ 'Bamarasu Y1', アブドラＵ６ 'Abudora U6', ドグラＳ１ 'Dogura S1', マグラＦ２ 'Magura F2' (only $$ゴウキューンＵ５$$ and $$バジンＢ６$$ are tokens); 'Jikkoku Pass' (十国峠) also literal.",
+      "robot 204 DSCR: 'Pilder' (パイルダー) is literal; the glossary has only 'Hover Pilder'.",
+      "robot 206 DSCR: 'Mycenae's legacy' is literal; $$ミケーネ$$ exists.",
+      "robots 210, 211, 212 DSCR: 'Mycenae' and 'Zeus' are literal English; tokens $$ミケーネ$$ and $$ゼウス神#pilot$$ exist.",
+      "robot 213 DSCR: 'Heterodynes' (plural, twice) and 'Akagi' are literal ($$ヘテロダイン$$ and the glossary pilot 赤木 = Akagi exist). Also literal: Fractal Knot, Knot Buster, Knot Punisher, Double Driller, Drill Arm, Net Arm, Guard Fighter, Guard Striker, Guard Vehicle.",
+      "robot 214 DSCR: 'Fractal Knot', 'Knot Punisher', 'Aokigahara' literal.",
+      "robot 216 DSCR: 'Moby Dick' (モビーディック), 'Wise Company' (ワイズ・カンパニー), 'Heavy Metal' (ヘヴィメタル) literal, no glossary entry.",
+      "robot 220 DSCR: 'Black Mamba' literal.",
+      "robot 225 DSCR: 'West Pacific fleet' is literal for ミスリル西太平洋戦隊 although the glossary token $$西太平洋戦隊$$ = Western Pacific Fleet exists (used in robot 223). 'Toy Box' literal.",
+      "robot 232 DSCR/DSC2: 'JGSDF' is literal for 陸上自衛隊.",
+      "robot 233 DSC2: 'Isaian Bone Bow' (アイザイアン・ボーン・ボウ) is literal with no glossary entry; the romanization 'Isaian' is doubtful.",
+      "robots 237, 238, 239: Vector machine names are literal in prose. The entries write 'Vector Siron' but the glossary token ベクターシロン is 'Vector Silon'; 'Vector X' for ベクターイクス has no glossary entry.",
+      "robot 238 DSCR: 'Neo-DEAVA' and 'Element users / Element ability' are literal although $$ネオディーヴァ$$ = Neo DEAVA and $$エレメント$$ = Element tokens exist (robots 237 and 239 use them); the spelling 'Neo-DEAVA' also differs from the glossary."
+    ],
+    "uncertain": [
+      "robot 209: Garadabra has researched gender 'unknown', so the translator's he/his/him became it/its. If the project prefers another neutral form for a sentient machine god, revisit.",
+      "robots 210, 211, 212 (Mycenaean God): no researched gender; 'He' became 'This god'. Nothing in the entry settles it.",
+      "ranks, not changed: robot 221 曹長 is 'Sergeant Major' for Melissa Mao; in English Full Metal Panic material Mao is 'Master Sergeant', so 'Sergeant Major' is probably wrong. 軍曹 = 'Sergeant' (robots 217, 222) and 大佐 = 'Colonel' (robot 225) look fine.",
+      "robot 213 DSCR: 乙式 rendered 'Type-B' (乙 = second/B); kept.",
+      "robot 237 DSCR: 強攻型アクエリオン rendered 'Assault-type Aquarion'; 'Aggressive-type' is equally possible; not wrong, kept.",
+      "robot 238 DSCR: 'Aquaria M-Type and F-Type' for アクエリアＭ型とＦ型 and 候補生 as 'cadets' (could be 'candidates'); kept.",
+      "robot 214 DSCR: 安保軍 rendered 'Security Forces' (short for 国連安全保障軍 in robot 213); consistent, kept.",
+      "robots 207 and 208: Zeus and Hades are male per the glossary; existing 'he' is correct, no change."
+    ]
+  }
+}

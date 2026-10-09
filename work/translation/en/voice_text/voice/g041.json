@@ -1,0 +1,643 @@
+{
+  "schema": 1,
+  "group": "g041",
+  "blocks": [
+    41
+  ],
+  "speaker": {
+    "token": "アヤナミレイ",
+    "jigoku_pilot": "Rei Ayanami (綾波レイ)",
+    "jigoku_unit": "Evangelion Unit-00 (エヴァンゲリオン零号機)",
+    "fraction": 0.04,
+    "basis": "settled 2026-10-02 from fresh-translation review: Rei (Tentative Name) piloting Mark.09; calls Shinji Ikari-kun, asks what Ayanami Rei would do, A.T. Field, Mark.09 named",
+    "proposed_by_v_g041_00": {
+      "token": "$$アヤナミレイ$$",
+      "basis": "Rei (Tentative Name) piloting Mark.09; calls Shinji Ikari-kun, asks what Ayanami Rei would do, A.T. Field, Mark.09 named"
+    },
+    "jigoku_token": "綾波レイ"
+  },
+  "lines": {
+    "41:0": {
+      "repository_source_sha256": "214e407b95167e4148ae91685c9e1df81a1d33562ee95a090f017de964fcd189",
+      "en": "「So this is an order...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:17": {
+      "repository_source_sha256": "0905c3263356e8501ad2ffd7b313d5dcef69d5e4b0fefd0205133f0a307301b8",
+      "en": "「Who are you?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:34": {
+      "repository_source_sha256": "009eac33a4199dee5cb737f6e1cfd9201c5d889f7a851d87c318cf58c418ed4c",
+      "en": "「I only carry out orders.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:57": {
+      "repository_source_sha256": "2b407a29feeae8bdfc50aa6e61038fe91c35cc3b7e50672b3d98e74bdd81744e",
+      "en": "「Mission understood.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:70": {
+      "repository_source_sha256": "0ed2bb5f44bb8ab14bab261d8fdd33eabe14b2608fcb4abc06ac0f266ea72df5",
+      "en": "「Why do you fight?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:89": {
+      "repository_source_sha256": "c5fba456b2647e1885615d703eeedf4de5a11f726fa62c2881671a39fee2a260",
+      "en": "「What am I...?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:106": {
+      "repository_source_sha256": "ac0bccfecb86d5f300008bc6615b548a069a17e6b902b281ed46a00fba9b633e",
+      "en": "「Enemy confirmed.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:119": {
+      "repository_source_sha256": "e050d657e49d5369a0e5be9fcfaaa55af743f7da191eb92026d664712c409b12",
+      "en": "「Mark.09, commencing action.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:156": {
+      "repository_source_sha256": "f40aa524733155ccf2e50d9481348f4c61f7c1848e72d9e74939d5a547e51c3c",
+      "en": "「Commence attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ],
+      "alternatives": [
+        "Commence attack."
+      ],
+      "review": "conflict"
+    },
+    "41:169": {
+      "repository_source_sha256": "d7fa190ff3bd8ba2c093c246635978ab1272f49cd27ec99352d75e1c49574a33",
+      "en": "「Target acquired.」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ],
+      "alternatives": [
+        "Target acquired!"
+      ],
+      "review": "conflict"
+    },
+    "41:182": {
+      "repository_source_sha256": "aa7c2cde23d3ed4738bdbc116e96b18b13e33116007b3c774d8987bae1b24f5e",
+      "en": "「I can do it.」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "41:193": {
+      "repository_source_sha256": "26cb63ec272c00239d1c898530ae57b9d031cc838dd90150ba02df5486459b56",
+      "en": "「Now's the chance.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:204": {
+      "repository_source_sha256": "adfec9593697343d81164048de9a6192b99675a84ffdcbdb676a085addcc9484",
+      "en": "「I'll erase you.」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "41:213": {
+      "repository_source_sha256": "183f8ac04b1eada4b36b770231872e62dc8ddf94aba633b68e610a688c0a536f",
+      "en": "「By the surest means.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:228": {
+      "repository_source_sha256": "1230a79bb12b946de7d9378985990ebc55a4470bc2db61e04a4fb5b040ce1788",
+      "en": "「You're in my way.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "You're in the way."
+      ],
+      "review": "conflict"
+    },
+    "41:239": {
+      "repository_source_sha256": "e945b9d1bd7ed05ee2f0a297055ef8be074ca2c1397312096d3e97a246c465de",
+      "en": "「Move.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "41:250": {
+      "repository_source_sha256": "5a9f38b2fe1f9175204707b937b2b8bc018b9cb1d4e0faa2aad29dc036334349",
+      "en": "「Close combat.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:263": {
+      "repository_source_sha256": "2ceeffd3c3c5882bdfeee09df4cde55aba34fd303bdc2c603cb10f96b1696550",
+      "en": "「This one.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:274": {
+      "repository_source_sha256": "5917337395b4f43f8c0cf071970cc20961f17bbfbf47a5f5dd0ab8795a9bf95a",
+      "en": "「I'll land a hit.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:285": {
+      "repository_source_sha256": "e188a95f59f27b147ab855eb22858b32e49371bc9bb3338a950c8af3e7ff729b",
+      "en": "「This will do it.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "41:296": {
+      "repository_source_sha256": "7ba6e82397d061f389da6815a36c4c1ec87b7c8a8c71536e1cdd03d584421682",
+      "en": "「I caught you.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:309": {
+      "repository_source_sha256": "7fadcf93be05fdffb1068475f6fa14ec6b03d4374048125fcc97e4f03b958421",
+      "en": "「The finishing blow.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "Finishing blow."
+      ],
+      "review": "conflict"
+    },
+    "41:320": {
+      "repository_source_sha256": "f134b487e12d58e1a28f529c94675e54d94bab93031333bc6002853bef90f7c5",
+      "en": "「I'll use this.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:335": {
+      "repository_source_sha256": "9d45afc5c53dc5d6b34c09924c4d2a62df612acca4e5b1763e09e1e6dfddbd74",
+      "en": "「I'll keep going.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:350": {
+      "repository_source_sha256": "1f3f42626054f8f08dc7005c6ceb8b0dcd8c60fa11a55cff033a7e21f0ff8033",
+      "en": "「Not yet.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:359": {
+      "repository_source_sha256": "43b461dd3b68bb1b77b36f5b99f24c94efb25f1410fbdbf6aaf349b5a00e50d0",
+      "en": "「It isn't over.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:376": {
+      "repository_source_sha256": "b16df3374fd25c96299adbd445f9aa1424ae2bd2a4ed30d36cffbf7e4da71cbf",
+      "en": "「I can still go on.」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "41:391": {
+      "repository_source_sha256": "e2f85ccde6b8af84b2193193e84e9df2cb48a0c37bd8762f771216c246eaba4b",
+      "en": "「Attacking again.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:406": {
+      "repository_source_sha256": "79575c84df8f4f266fe3946e0fdabdce613a69e1e9b9e94b90efc5341746f4c8",
+      "en": "「What are you?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:425": {
+      "repository_source_sha256": "c8b7fd2ca591401a2d2e769edbff532ded91c0fea248db5a0708e1ad38970e4e",
+      "en": "「What are you people?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:448": {
+      "repository_source_sha256": "cdc6e92bbd54579d9e46d333f7ba55d0fe6ec37a799792099538122f1df573ff",
+      "en": "「You are the enemy...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:469": {
+      "repository_source_sha256": "65d36bf470800aef19fea43be03cb6cb83cf3c8829500fdbe782659139ede10f",
+      "en": "「I won't let you have your way.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "41:498": {
+      "repository_source_sha256": "07d2f075c7eb10d01d8672c34897af33c696be96cfaf34868296ba19dec203d1",
+      "en": "「I will fight too...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:513": {
+      "repository_source_sha256": "363d7cce16b9bcf7f0282e10f5bea5691d6077f0b8575c396d17bcb50bff608b",
+      "en": "「You won't escape.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ],
+      "alternatives": [
+        "You won't get away.",
+        "I won't let you escape."
+      ],
+      "review": "conflict"
+    },
+    "41:528": {
+      "repository_source_sha256": "4fd433ee0fe44c1fc436f15ebff3a1035db35258c0b838769b70ed7c8215d27a",
+      "en": "「Switching to counterattack.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:543": {
+      "repository_source_sha256": "e5e86ba786f7e0e7baafa05a9ec5a7597cf408a06693b7551e7cdb1b76773602",
+      "en": "「Now it's my turn.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:558": {
+      "repository_source_sha256": "3539b110eab7f1a6e4711b2bd761697a2a501ba3dbb26b6b27f6b6f92cb3f7a1",
+      "en": "「I'll counterattack.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "41:571": {
+      "repository_source_sha256": "6717680b2e995acbe89553d2cdf34e444afb883c8f37c8c7a425fb60d5d6bd33",
+      "en": "「I won't let you go anywhere.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:594": {
+      "repository_source_sha256": "46df8af704e65856f09c2aaab8bdb60d47f7499e9f1304ab1033b3262065bed5",
+      "en": "「I won't let you withdraw.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "41:613": {
+      "repository_source_sha256": "1b4963dee9e82b2043e36df036ae6f0b1139dd3309d81c4fc9d483bb7d61ef4e",
+      "en": "「I'll support you.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:628": {
+      "repository_source_sha256": "45d71d1af7cb1c971672b57d841b2df8d60e8923462c6bbaa2bd97793ca84721",
+      "en": "「Attacking next.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:645": {
+      "repository_source_sha256": "99e3045b01fe52c409675c7f1c24fafc69f70b8240ac6c2c631bedfef0e06268",
+      "en": "「I'll support $$碇$$.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:670": {
+      "repository_source_sha256": "961cba8d1fe5135985991502fe769ff032df790fd9d532e8044272ca1aa8eaca",
+      "en": "「This is my role.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:689": {
+      "repository_source_sha256": "bef71fab2aa6aaa77fbb7b78a3fa7e7294eb5d01d2f0a7af87c075e6bcd780f4",
+      "en": "「I'll do it instead.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:706": {
+      "repository_source_sha256": "95cdbd8002430b0ee3e7ee02b7636aa8432f7a81745c8519c3b4ae77836b3541",
+      "en": "「Step back, $$碇$$.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:729": {
+      "repository_source_sha256": "9f1ceda881a8e55be777f4320c4b27e8ba2b7f9ffdf311d8e0138be145e24b19",
+      "en": "「I'll take that enemy.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:746": {
+      "repository_source_sha256": "268637cba90d5c4cb9954c117965fa60a226a0104bf481e24f64cc655876abb3",
+      "en": "「If it is an order, I will.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:767": {
+      "repository_source_sha256": "5c5073689c71091551864370057e5e8aeda3c1df17be437987c506c1cc4c05b4",
+      "en": "「I'll do it.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:780": {
+      "repository_source_sha256": "0c99552cd47b5d056dcac1ed677790438b1ecfe6d7f46592f5074d069795b0ef",
+      "en": "「I'll go on ahead.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "41:797": {
+      "repository_source_sha256": "f3db1693fb76d151f963305c1d484088f49d7e202f23e5148ecfb8a94eb6ccfc",
+      "en": "「I'll draw their attention.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:818": {
+      "repository_source_sha256": "7dcd3806ee380b9d32c4fe168aeba977528112032960bcf2527c773ba9f1d5a8",
+      "en": "「I understand.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:835": {
+      "repository_source_sha256": "d47f316b88f3d7260fe6139e0b159c3f1453a0e1d0fd50148afc4d62ef4a767b",
+      "en": "「Understood.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "Understood."
+      ],
+      "review": "conflict"
+    },
+    "41:844": {
+      "repository_source_sha256": "7f507953c521eb5cde3ca3bcb6e80cd6958fedcf21ed2814d1ba44b0b30b0138",
+      "en": "「I'm ready.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:857": {
+      "repository_source_sha256": "6320ae85c9d498b12ce1ff1920a7d3f485047c10b6101dda7282f6a4755da791",
+      "en": "「Standing by.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:872": {
+      "repository_source_sha256": "003b8051e703d3aa9ebc4da7d3b684890ef0df9d4fbf6f1a6dcb1095f7d078d6",
+      "en": "「Unable to attack.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:885": {
+      "repository_source_sha256": "23fbe894c07ae46b6dbaff61c6c1d10d86777001ec306ca7c6af603777fbdfae",
+      "en": "「No, I can't do anything...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:910": {
+      "repository_source_sha256": "2d3a60eb180219b88c8280cb379085dd7a908ebb0dbd96ee1ef56fd5cfc0541d",
+      "en": "「Where are you?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:929": {
+      "repository_source_sha256": "7fc5f8bf612d44d9859442e0db00b42a187db4ffa72a56b98b61c785de19d433",
+      "en": "「I can't move...?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:946": {
+      "repository_source_sha256": "7642619eb623c89aac7a08e3aa538b401b28b19546adfdc1fa945b6db76ac241",
+      "en": "「It's useless.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:961": {
+      "repository_source_sha256": "4a8afd90dd7d84d4ef5bcf25234a0aafd5281a60e2818453579cc9c5ba7aaf9c",
+      "en": "「No damage.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "41:974": {
+      "repository_source_sha256": "1dc559cc21d796878e29e815701e43ab832c19044947f6cece65233aca4a0261",
+      "en": "「No problem.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:987": {
+      "repository_source_sha256": "1273ae30e79087b838f0c97c5d18747371e2515815ee70a4767b17333187fb3a",
+      "en": "「Continuing the operation.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1006": {
+      "repository_source_sha256": "3a2cd9bfd496db78cada5f055a60efdd47c7c733bd3aadf4f0d915998910212c",
+      "en": "「All parts of the unit are normal.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1029": {
+      "repository_source_sha256": "6cf80424fdf0208a058648dde75263fa87d6557e632ce7e173b11cb73829e228",
+      "en": "「I can't afford to be hit.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1056": {
+      "repository_source_sha256": "d95a9bfeee7815593c5bd5956b62868d178269532ee31479ba3c979f23ef7a0b",
+      "en": "「No...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1067": {
+      "repository_source_sha256": "c78285c62e8f40e2821281262e8d68ae05ea1f5a314dd277d382a9b0107e3363",
+      "en": "「That won't work on me.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1086": {
+      "repository_source_sha256": "824bd282a532acc8d2b22de23a5ccd5bb53bbc6b5e44ed1862214c95f2820f10",
+      "en": "「A.T. Field...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1111": {
+      "repository_source_sha256": "9cecf6e684b575dc12b6ee86ad5390a7909e326c7cc030a53963d15b7b9262a7",
+      "en": "「A.T. Field, deploying.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1140": {
+      "repository_source_sha256": "ea6f64f7fe0fff15ff45ed54e4d5cd8c9fed4bd8c8530ff1020d62e4cf6be6ac",
+      "en": "「Damage is minor.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "41:1155": {
+      "repository_source_sha256": "b6b9d92c1e45307dca6ae5aa119e7c99b390475f82b7002f2f1cad0c93c167fb",
+      "en": "「Operations remain unaffected.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "No interference with operations."
+      ],
+      "review": "conflict"
+    },
+    "41:1178": {
+      "repository_source_sha256": "212838f6a29617aab3e58ac02ad102b3672965eef87f5de74dd2933d65ae0640",
+      "en": "「Damage: light.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1197": {
+      "repository_source_sha256": "c901463198fe369fffe3b26048f8250d503ea34b0b45bb25e47cc51cbba6abec",
+      "en": "「I'm fine with this much.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1216": {
+      "repository_source_sha256": "52cdfa7d498735431dfe25a8529401998c46cc676ed1eab0ed6c5d16a8292de3",
+      "en": "「If it's not a direct hit...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1235": {
+      "repository_source_sha256": "e2135e0978ff1357c0e53f61fe267dd4cfa1f4b1f00259898e774d65f8858732",
+      "en": "「Just a scratch on the armor.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1260": {
+      "repository_source_sha256": "1a08231c52774b7c7b621d8d9027a9e62999cf0134a88c29b03929e4e5c94a04",
+      "en": "「Ungh...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Ugh...!"
+      ],
+      "review": "conflict"
+    },
+    "41:1273": {
+      "repository_source_sha256": "a8313dc0be75a911882049f0a8c0eac730ce12bc2959bf078c8459b5ce4c52b0",
+      "en": "「I can't avoid it...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1292": {
+      "repository_source_sha256": "ee4dd06b8e8aeadfe314ee4d67c70579f278bf72d26bb5d114f52d4c629e35d4",
+      "en": "「Serious damage to the left arm.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1317": {
+      "repository_source_sha256": "b16df3374fd25c96299adbd445f9aa1424ae2bd2a4ed30d36cffbf7e4da71cbf",
+      "en": "「I can still go on.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "41:1332": {
+      "repository_source_sha256": "979a8d3a03670467080a658ceb7ff4e3f03127d9431ee29bdb55a53ebb5819a0",
+      "en": "「Output dropping.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1345": {
+      "repository_source_sha256": "6ee90abf14195bf0cb83c715065d072d99ef86acacc753b9038cb5f9631a7682",
+      "en": "「Mark.09 will be fine.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1376": {
+      "repository_source_sha256": "03034290f04fa2b7e590e074fa849580223e88598b86654591c78a21bf14588c",
+      "en": "「The order takes priority.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1397": {
+      "repository_source_sha256": "4cdf5084c95f419bb275ddfc25a4c45357afb880346bdeb8aba42109974d1848",
+      "en": "「Problems in several unit sections.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1420": {
+      "repository_source_sha256": "2863c955b16be7eb589099edb7ac676b5c6bc1103c6eb27673229b350bd3e1a9",
+      "en": "「I'm not beaten yet.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1441": {
+      "repository_source_sha256": "014043df6d96e063a6e16e2fc622be5be28cb65f57f1860df7e2f6a7eb4fbb91",
+      "en": "「I can still fight.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "41:1456": {
+      "repository_source_sha256": "484d792738fb383fa3727ab620420a8f9ee86f05ba4c59645541941b86741f50",
+      "en": "「Is my limit near...?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1475": {
+      "repository_source_sha256": "220c018f477b71ff300735f5b8cd219ab7688d8b3261c3998f9257d5779bce81",
+      "en": "「In a moment like this...\\nWhat would $$綾波レイ$$ do?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1524": {
+      "repository_source_sha256": "e83d1e540954ecc10e5fd7d5ffadfb427403d2beec91eda391292b5230066c0a",
+      "en": "「I... no longer...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1541": {
+      "repository_source_sha256": "05afd9ad11e074e17490cfb2696acca29937403b19413de0212b049c339ce019",
+      "en": "「Mark.09 is...」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1564": {
+      "repository_source_sha256": "6016c6d44e5a29381b4f9d8424f3948bc9f750815f7a3f69e432441a3635d6a1",
+      "en": "「If it is an order, I will.」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1587": {
+      "repository_source_sha256": "9ffdb08a73a77ffd1200943f29f088233cc1661e2521be5ea420a68ed5d33451",
+      "en": "「Now, what would $$綾波レイ$$ do?」",
+      "source": "new",
+      "slice": "v_g041_00"
+    },
+    "41:1632": {
+      "repository_source_sha256": "136a2b991d83540bbb3debebf2769cc5ca529ddab507f8e32699600028e9dd0c",
+      "en": "「I............」",
+      "source": "new",
+      "slice": "v_g041_00"
+    }
+  }
+}

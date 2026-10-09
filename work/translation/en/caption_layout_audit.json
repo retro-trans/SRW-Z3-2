@@ -1,0 +1,942 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "changes": [
+    {
+      "batch": 1,
+      "file": "dlg_2005_00.json",
+      "id": "33:t_1:33",
+      "before": "　\n　　\n　　　　　　　　　　～Inside $$ＮＥＲＶ$$～",
+      "after": "　\n　　\n　　　　　　　　　　～$$ＮＥＲＶ$$　Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2011_00.json",
+      "id": "81:t_1:3",
+      "before": "　\n　\n　　　　　　～ $$トゥアハー・デ・ダナン$$ Hangar ～",
+      "after": "　\n　\n　　　　　　～$$トゥアハー・デ・ダナン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2011_01.json",
+      "id": "81:t_2:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2012_00.json",
+      "id": "87:t_1:74",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2013_01.json",
+      "id": "93:t_2:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2026_00.json",
+      "id": "177:t_1:34",
+      "before": "　\n　\n　　　～ $$マクロス・クォーター$$ Briefing Room ～",
+      "after": "　\n　\n　　　～$$マクロス・クォーター$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2026_00.json",
+      "id": "177:t_1:66",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2028_01.json",
+      "id": "194:t_1:110",
+      "before": "　\n　\n　　　　　　～$$ネオ・アルカトラズ$$ Concert Venue～",
+      "after": "　\n　\n　　　　　　～$$ネオ・アルカトラズ$$　Concert Venue～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2028_02.json",
+      "id": "194:t_1:226",
+      "before": "　\n　\n　　　　　　～$$ネオ・アルカトラズ$$ Concert Venue～",
+      "after": "　\n　\n　　　　　　～$$ネオ・アルカトラズ$$　Concert Venue～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2028_03.json",
+      "id": "194:t_1:262",
+      "before": "　\n　\n　　　　　　　～$$ターミナル・ベース$$ Hangar～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2028_03.json",
+      "id": "194:t_2:3",
+      "before": "　\n　　\n　　　　　　　～$$ネオ・アルカトラズ$$ Detention Facility～",
+      "after": "　\n　　\n　　　　　　　～$$ネオ・アルカトラズ$$　Detention Facility～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2028_03.json",
+      "id": "194:t_3:3",
+      "before": "　\n　　\n　　　　　　～$$サイデリアル$$ $$ターミナル・ベース$$～",
+      "after": "　\n　　\n　　　　　　～$$サイデリアル$$　$$ターミナル・ベース$$～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2029_00.json",
+      "id": "200:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$ Imperial Palace～",
+      "after": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$　Imperial Palace～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2029_00.json",
+      "id": "200:t_1:67",
+      "before": "　\n　\n　　　～$$マクロス・クォーター$$ Briefing Room～",
+      "after": "　\n　\n　　　～$$マクロス・クォーター$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2029_01.json",
+      "id": "200:t_1:137",
+      "before": "　\n　\n　　　　　　　　～$$ラー・カイラム$$ Hangar～",
+      "after": "　\n　\n　　　　　　　　～$$ラー・カイラム$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2029_01.json",
+      "id": "200:t_2:3",
+      "before": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2030_04.json",
+      "id": "206:t_3:3",
+      "before": "　\n　　\n　　　　　　　～$$陣代高校$$　Old Building　Empty Classroom～",
+      "after": "　\n　\n　　　　　　　～$$陣代高校$$　Old Building　Empty Classroom～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2031_00.json",
+      "id": "212:t_1:3",
+      "before": "　\n　\n　　　　　　　～Inside the $$ジェニオン$$ Cockpit～",
+      "after": "　\n　\n　　　　　　　～$$ジェニオン$$　Cockpit Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2031_01.json",
+      "id": "218:t_1:3",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2032_00.json",
+      "id": "224:t_1:29",
+      "before": "　\n　\n　　　　　　　　　～$$バトル７$$ Bridge～",
+      "after": "　\n　\n　　　　　　　　　～$$バトル７$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2032_01.json",
+      "id": "224:t_1:108",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2032_02.json",
+      "id": "224:t_1:182",
+      "before": "　\n　\n　　　　　　　　　～$$バトル７$$ Bridge～",
+      "after": "　\n　\n　　　　　　　　　～$$バトル７$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2210_00.json",
+      "id": "777:t_1:3",
+      "before": "　\n　\n　　　　　　～$$マクロス・クォーター$$ Bridge～",
+      "after": "　\n　\n　　　　　　～$$マクロス・クォーター$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2210_00.json",
+      "id": "777:t_1:69",
+      "before": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$ Imperial Palace～",
+      "after": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$　Imperial Palace～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2033_00.json",
+      "id": "230:t_1:3",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2034_04.json",
+      "id": "242:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2034_04.json",
+      "id": "242:t_1:50",
+      "before": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$ Infirmary～",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Infirmary～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2039_00.json",
+      "id": "282:t_1:3",
+      "before": "　\n　　\n　　　　　　～Jupiter Sector - $$ソレスタルビーイング$$ Base～",
+      "after": "　\n　　\n　　　　　　～Jupiter Sector　$$ソレスタルビーイング$$ Base～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2039_01.json",
+      "id": "282:t_2:3",
+      "before": "　\n　　\n　　　　　～$$ラー・カイラム$$ Briefing Room～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2040_00.json",
+      "id": "288:t_1:3",
+      "before": "　\n　\n　～$$トップレス$$ $$タイタン$$ Base - $$サーペンタイン姉妹$$' Room～",
+      "after": "　\n　\n　～$$トップレス$$　$$タイタン$$ Base　$$サーペンタイン姉妹$$' Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2040_00.json",
+      "id": "288:t_2:3",
+      "before": "　\n　\n　　　　　　　～Mars - Terraforming Base～",
+      "after": "　\n　\n　　　　　　　～Mars　Terraforming Base～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2040_00.json",
+      "id": "288:t_2:55",
+      "before": "　\n　　\n　　　　　　　　　～Ruins of the $$メガノイド$$ Base～",
+      "after": "　\n　　\n　　　　　　　　　～$$メガノイド$$ Base　Ruins～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2040_01.json",
+      "id": "294:t_1:3",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2040_02.json",
+      "id": "294:t_1:102",
+      "before": "　\n　　\n　　　　　　　　～$$ジェニオン$$ Cockpit～",
+      "after": "　\n　　\n　　　　　　　　～$$ジェニオン$$　Cockpit～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2047_00.json",
+      "id": "353:t_1:3",
+      "before": "　\n　\n　　　　　　　　～$$ラー・カイラム$$ Hangar～",
+      "after": "　\n　\n　　　　　　　　～$$ラー・カイラム$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2047_00.json",
+      "id": "353:t_1:50",
+      "before": "　\n　　\n　　　　　～$$ラー・カイラム$$ Briefing Room～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2047_01.json",
+      "id": "353:t_2:3",
+      "before": "　\n　　\n　　　　　　　～$$プトレマイオス２改$$ Bridge～",
+      "after": "　\n　　\n　　　　　　　～$$プトレマイオス２改$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2047_02.json",
+      "id": "353:t_2:30",
+      "before": "　\n　　\n　　　　～$$プトレマイオス２改$$ Briefing Room～",
+      "after": "　\n　　\n　　　　～$$プトレマイオス２改$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2047_03.json",
+      "id": "353:t_2:113",
+      "before": "　\n　\n　　　　　　　～Quantum Computing System $$ヴェーダ$$～",
+      "after": "　\n　\n　　　　　　　～Quantum Computing System　$$ヴェーダ$$～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2048_00.json",
+      "id": "359:t_1:3",
+      "before": "　\n　　\n　　　　　～$$ラー・カイラム$$ Briefing Room～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2048_01.json",
+      "id": "359:t_2:3",
+      "before": "　\n　\n　　　　　　　　～$$ガランシェール$$ Hangar～",
+      "after": "　\n　\n　　　　　　　　～$$ガランシェール$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2048_02.json",
+      "id": "359:t_2:33",
+      "before": "　\n　　\n　　　　～$$プトレマイオス２改$$ Briefing Room～",
+      "after": "　\n　　\n　　　　～$$プトレマイオス２改$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2049_00.json",
+      "id": "365:t_1:3",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2049_00.json",
+      "id": "365:t_1:66",
+      "before": "　\n　\n　　　～$$マクロス・クォーター$$ Briefing Room～",
+      "after": "　\n　\n　　　～$$マクロス・クォーター$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2049_01.json",
+      "id": "365:t_2:3",
+      "before": "　\n　\n　　　　　　　～$$ターミナル・ベース$$ Hangar～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2049_02.json",
+      "id": "365:t_5:3",
+      "before": "　\n　\n　　　　　　　～$$ターミナル・ベース$$ Hangar～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2049_03.json",
+      "id": "365:t_5:71",
+      "before": "　\n　　\n　　　　　　　～$$ターミナル・ベース$$ Research Facility～",
+      "after": "　\n　　\n　　　　　　　～$$ターミナル・ベース$$　Research Facility～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2050_00.json",
+      "id": "371:t_1:82",
+      "before": "　\n　\n　　　　　　　　　~ Fuji - Refugee Camp ~",
+      "after": "　\n　\n　　　　　　　　　～Fuji　Refugee Camp～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2050_02.json",
+      "id": "371:t_3:3",
+      "before": "　\n　　\n　　　　　　　　~ $$ドラゴンズハイヴ$$ - Hangar ~",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2051_00.json",
+      "id": "377:t_1:24",
+      "before": "　\n　　\n　　　　　　　　~ $$ドラゴンズハイヴ$$ - Salon ~",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Salon～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2220_00.json",
+      "id": "792:t_1:3",
+      "before": "　\n　\n　　　　　　　　~ $$ラー・カイラム$$ - Captain's Quarters ~",
+      "after": "　\n　\n　　　　　　　　～$$ラー・カイラム$$　Captain's Quarters～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2053_00.json",
+      "id": "389:t_1:3",
+      "before": "　\n　\n　　　　　　　　～$$ラー・カイラム$$ Hangar～",
+      "after": "　\n　\n　　　　　　　　～$$ラー・カイラム$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2053_00.json",
+      "id": "389:t_1:30",
+      "before": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2053_01.json",
+      "id": "389:t_2:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2058_00.json",
+      "id": "425:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Salon～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Salon～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2058_02.json",
+      "id": "425:t_2:35",
+      "before": "　\n　\n　　　　　　　～Inside the $$ターミナル・ベース$$ Facility～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2058_03.json",
+      "id": "425:t_2:71",
+      "before": "　\n　\n　　　　　　　～$$ターミナル・ベース$$ Grounds～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Grounds～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2059_00.json",
+      "id": "431:t_1:3",
+      "before": "　\n　\n　　　　　　　～$$ターミナル・ベース$$ Interior～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2059_01.json",
+      "id": "431:t_1:119",
+      "before": "　\n　\n　　　　　　　～$$ターミナル・ベース$$ Hangar～",
+      "after": "　\n　\n　　　　　　　～$$ターミナル・ベース$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2059_02.json",
+      "id": "431:t_2:64",
+      "before": "　\n　\n　　　　　　　～$$プトレマイオス２改$$ Infirmary～",
+      "after": "　\n　\n　　　　　　　～$$プトレマイオス２改$$　Infirmary～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2060_00.json",
+      "id": "437:t_1:3",
+      "before": "　\n　\n　　　　　　　～ $$プトレマイオス２改$$ Infirmary ～",
+      "after": "　\n　\n　　　　　　　～$$プトレマイオス２改$$　Infirmary～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2060_00.json",
+      "id": "437:t_1:49",
+      "before": "　\n　\n　　　　　　～ $$トゥアハー・デ・ダナン$$ Captain's Quarters ～",
+      "after": "　\n　\n　　　　　　～$$トゥアハー・デ・ダナン$$　Captain's Quarters～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2060_02.json",
+      "id": "437:t_3:3",
+      "before": "　\n　\n　　　　　　～ $$トゥアハー・デ・ダナン$$ Hangar ～",
+      "after": "　\n　\n　　　　　　～$$トゥアハー・デ・ダナン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2062_00.json",
+      "id": "449:t_1:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2062_00.json",
+      "id": "449:t_1:29",
+      "before": "　\n　　\n　　　　　　　　　～ $$翠の地球$$'s Moon Dock ～",
+      "after": "　\n　　\n　　　　　　　　　～$$翠の地球$$'s Moon　Dock～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2062_01.json",
+      "id": "449:t_2:3",
+      "before": "　\n　\n　　　　　　　　　～ $$翠の地球$$'s Moon Far Side ～",
+      "after": "　\n　\n　　　　　　　　　～$$翠の地球$$'s Moon　Far Side～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2062_01.json",
+      "id": "449:t_3:3",
+      "before": "　\n　\n　～ $$トップレス$$ $$タイタン$$ Base $$サーペンタイン姉妹$$' Room ～",
+      "after": "　\n　\n　～$$トップレス$$　$$タイタン$$ Base　$$サーペンタイン姉妹$$' Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2062_01.json",
+      "id": "449:t_3:17",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2063_00.json",
+      "id": "455:t_1:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2063_01.json",
+      "id": "455:t_3:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2064_00.json",
+      "id": "461:t_1:3",
+      "before": "　\n　\n　　　　　　　　　　　～Tokyo, Japan～",
+      "after": "　\n　\n　　　　　　　　　　　～Japan　Tokyo～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2065_01.json",
+      "id": "467:t_4:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2066_00.json",
+      "id": "473:t_1:3",
+      "before": "　\n　\n　　　　　　　～$$地球連邦軍$$ Far East Branch Salon～",
+      "after": "　\n　\n　　　　　　　～$$地球連邦軍$$　Far East Branch Salon～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2066_00.json",
+      "id": "473:t_1:72",
+      "before": "　\n　　\n　　　　　　　　～Inside $$真ゲッタードラゴン$$～",
+      "after": "　\n　　\n　　　　　　　　～$$真ゲッタードラゴン$$　Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2066_01.json",
+      "id": "473:t_2:40",
+      "before": "　\n　　\n　　　　　　　　～Inside $$真ゲッタードラゴン$$～",
+      "after": "　\n　　\n　　　　　　　　～$$真ゲッタードラゴン$$　Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2066_01.json",
+      "id": "473:t_3:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Salon～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Salon～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2067_00.json",
+      "id": "479:t_1:46",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2067_01.json",
+      "id": "479:t_1:104",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Command Room ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Command Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2068_04.json",
+      "id": "491:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Command Room ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Command Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_00.json",
+      "id": "556:t_1:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_00.json",
+      "id": "556:t_1:69",
+      "before": "　\n　　\n　　　　　～ $$ラー・カイラム$$ Briefing Room ～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_05.json",
+      "id": "556:t_5:67",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_06.json",
+      "id": "556:t_6:69",
+      "before": "　\n　\n　　　　　　～$$マクロス・クォーター$$ Bridge～",
+      "after": "　\n　\n　　　　　　～$$マクロス・クォーター$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_00.json",
+      "id": "562:t_1:3",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_00.json",
+      "id": "562:t_1:35",
+      "before": "　\n　　\n　　　　　　～$$マクロス・クォーター$$ Residential Area～",
+      "after": "　\n　　\n　　　　　　～$$マクロス・クォーター$$　Residential Area～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2081_00.json",
+      "id": "568:t_3:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2081_01.json",
+      "id": "568:t_3:70",
+      "before": "　\n　\n　　　　　　　　～ $$ネオ・ジオン$$ Leader's Private Quarters ～",
+      "after": "　\n　\n　　　　　　　　～$$ネオ・ジオン$$ Leader's　Private Quarters～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_00.json",
+      "id": "592:t_1:3",
+      "before": "　\n　\n　　　　　　　　　～ $$クロノ$$ Ship Bridge ～",
+      "after": "　\n　\n　　　　　　　　　～$$クロノ$$ Ship　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_00.json",
+      "id": "592:t_1:31",
+      "before": "　\n　　\n　　　～ Deep-Space Mothership $$ソレスタルビーイング号$$ Bridge ～",
+      "after": "　\n　　\n　　　～Deep-Space Mothership $$ソレスタルビーイング号$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_01.json",
+      "id": "592:t_1:111",
+      "before": "　\n　　\n　　　　　　　　～ $$ネェル・アーガマ$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_01.json",
+      "id": "592:t_3:3",
+      "before": "　\n　　\n　　　　　～ $$ソレスタルビーイング号$$ - $$ヴェーダ$$ Core ～",
+      "after": "　\n　　\n　　　　　～$$ソレスタルビーイング号$$　$$ヴェーダ$$ Core～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2085_00.json",
+      "id": "598:t_1:75",
+      "before": "　\n　\n　　　　　　　～ $$ネェル・アーガマ$$ Bridge ～",
+      "after": "　\n　\n　　　　　　　～$$ネェル・アーガマ$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_00.json",
+      "id": "604:t_1:53",
+      "before": "　\n　\n　　　~ $$シャイアン基地$$ Underground, $$コロニーレーザー$$ Control Room ~",
+      "after": "　\n　\n　　　～$$シャイアン基地$$ Underground　$$コロニーレーザー$$ Control Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_02.json",
+      "id": "604:t_7:3",
+      "before": "　\n　\n　　　~ $$シャイアン基地$$ Underground, $$コロニーレーザー$$ Control Room ~",
+      "after": "　\n　\n　　　～$$シャイアン基地$$ Underground　$$コロニーレーザー$$ Control Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_02.json",
+      "id": "604:t_7:42",
+      "before": "　\n　　\n　　　　　　　　~ $$ラース・バビロン$$, Imperial Palace ~",
+      "after": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$　Imperial Palace～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_02.json",
+      "id": "604:t_7:53",
+      "before": "　\n　　\n　　　　　　　　~ $$ネェル・アーガマ$$, Hangar ~",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_03.json",
+      "id": "604:t_7:106",
+      "before": "　\n　　\n　　　　　　　　~ $$ジェニオン$$, Cockpit ~",
+      "after": "　\n　　\n　　　　　　　　～$$ジェニオン$$　Cockpit～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_00.json",
+      "id": "610:t_1:3",
+      "before": "　\n　\n　　　　　　~ $$トゥアハー・デ・ダナン$$, Hangar ~",
+      "after": "　\n　\n　　　　　　～$$トゥアハー・デ・ダナン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_00.json",
+      "id": "610:t_1:55",
+      "before": "　\n　\n　　　　　　　~ $$セントラル・ベース$$, Command Room ~",
+      "after": "　\n　\n　　　　　　　～$$セントラル・ベース$$　Command Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_01.json",
+      "id": "610:t_2:3",
+      "before": "　\n　　\n　　　　　　　　　~ $$ソーラリアン$$, Hangar ~",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_02.json",
+      "id": "610:t_2:88",
+      "before": "　\n　\n　　　　　　　~ $$ソーラリアン$$, $$Ｚクリスタル$$ ~",
+      "after": "　\n　\n　　　　　　　～$$ソーラリアン$$　$$Ｚクリスタル$$～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2088_00.json",
+      "id": "616:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～ $$ラース・バビロン$$ - Imperial Palace ～",
+      "after": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$　Imperial Palace～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2088_00.json",
+      "id": "616:t_1:42",
+      "before": "　\n　\n　　　　　～ $$ソーラリアン$$ - Briefing Room ～",
+      "after": "　\n　\n　　　　　～$$ソーラリアン$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_00.json",
+      "id": "628:t_1:3",
+      "before": "　\n　　\n　　　　～$$ラース・バビロン$$ Imperial Palace - $$霊子吸収システム$$～",
+      "after": "　\n　　\n　　　　～$$ラース・バビロン$$ Imperial Palace　$$霊子吸収システム$$～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_01.json",
+      "id": "628:t_1:90",
+      "before": "　\n　　\n　　　　　　　～$$ラース・バビロン$$ Imperial Palace - Forecourt～",
+      "after": "　\n　　\n　　　　　　　～$$ラース・バビロン$$ Imperial Palace　Forecourt～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_01.json",
+      "id": "628:t_1:154",
+      "before": "　\n　\n　　　　　　～$$地球連邦軍$$ - $$ブレインズ$$ Research Facility～",
+      "after": "　\n　\n　　　　　　～$$地球連邦軍$$　$$ブレインズ$$ Research Facility～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_02.json",
+      "id": "628:t_3:3",
+      "before": "　\n　\n　　　　　～$$フロンティア船団$$ - Chief Aide's Office～",
+      "after": "　\n　\n　　　　　～$$フロンティア船団$$　Chief Aide's Office～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_02.json",
+      "id": "628:t_3:27",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ - Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2090_00.json",
+      "id": "634:t_1:19",
+      "before": "　\n　\n　　　　　　　～$$プトレマイオス２改$$ - Infirmary～",
+      "after": "　\n　\n　　　　　　　～$$プトレマイオス２改$$　Infirmary～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2090_01.json",
+      "id": "634:t_1:98",
+      "before": "　\n　\n　　　　　　　～$$プトレマイオス２改$$ - Hangar～",
+      "after": "　\n　\n　　　　　　　～$$プトレマイオス２改$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2090_02.json",
+      "id": "634:t_4:3",
+      "before": "　\n　　\n　　　　　　　　～$$ＥＬＳ#keyword$$ Battle - Final Defensive Line～",
+      "after": "　\n　　\n　　　　　　　　～$$ＥＬＳ#keyword$$ Battle　Final Defensive Line～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2091_00.json",
+      "id": "640:t_1:3",
+      "before": "　\n　\n　　　　　　　　～$$新世界大陸$$ Representative's Office～",
+      "after": "　\n　\n　　　　　　　　～$$新世界大陸$$ Representative's　Office～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2092_00.json",
+      "id": "646:t_2:3",
+      "before": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2098_00.json",
+      "id": "682:t_1:3",
+      "before": "　\n　　\n　　　　　～$$ラー・カイラム$$ Briefing Room～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2099_00.json",
+      "id": "688:t_3:3",
+      "before": "　\n　　\n　　　　　　　　　~$$ソーラリアン$$ Hangar~",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2100_00.json",
+      "id": "694:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Salon～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Salon～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 7,
+      "file": "dlg_2105_00.json",
+      "id": "736:t_1:28",
+      "before": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    }
+  ]
+}

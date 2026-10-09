@@ -1,0 +1,1543 @@
+{
+  "schema": 1,
+  "archive": "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK",
+  "about": "Text-bearing textures of EFFPS3.CPK (489 members). status translate = rendered by tools/eff_art.py; keep = no translation needed; pending = translatable but not built yet (reason in source). member_sha256 = decoded-member guard. English is one ASCII line per label.",
+  "evidence": "Every texture of all 489 members was decoded (tools/gtf.py) and reviewed on contact sheets; the Japanese was read off the pixels (no OCR) and checked against eboot/glossary/story text. Location captions: 92 members, 81 distinct images (duplicates share one entry).",
+  "entries": [
+    {
+      "id": "caption:109",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        109
+      ],
+      "texture": 0,
+      "jp": "日本　東京",
+      "en": "Japan, Tokyo",
+      "source": "story banner (work/translation/en/dialogue) ～日本　東京～ \"Japan, Tokyo\"",
+      "member_sha256": {
+        "109": "9a6b27cf3adddd1333907b1b89399835010c756b6c9bd50dac3c9d43c71c1ba2"
+      }
+    },
+    {
+      "id": "caption:110",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        110
+      ],
+      "texture": 0,
+      "jp": "日本　第２新東京市",
+      "en": "Japan, Neo Tokyo-2",
+      "source": "eboot.json date_location 日本=Japan; glossary (work/glossary/library_terms.json) 第２新東京市=Neo Tokyo-2",
+      "member_sha256": {
+        "110": "3ccb2d06d5d51b64fc318f8cdb81539eb8d861534aa30df47e7be7287a5f529d"
+      }
+    },
+    {
+      "id": "caption:111",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        111
+      ],
+      "texture": 0,
+      "jp": "日本　第３新東京市",
+      "en": "Japan, Tokyo-3",
+      "source": "glossary (work/glossary/library_terms.json) 第３新東京市=Tokyo-3",
+      "member_sha256": {
+        "111": "577832dd0226df58c1f7989a3694d5217ef5f345cbb119e31c470cb074ef6312"
+      }
+    },
+    {
+      "id": "caption:112",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        112
+      ],
+      "texture": 0,
+      "jp": "日本　第３新東京市跡地",
+      "en": "Japan, Site of Tokyo-3",
+      "source": "story banner (work/translation/en/dialogue) ～第３新東京市跡地～ \"Site of Tokyo-3\"",
+      "member_sha256": {
+        "112": "d75fc3f1ffa9fa3041ba942d65770bf0eef7c61a067971d6c2e941c4bc0c132f"
+      }
+    },
+    {
+      "id": "caption:113",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        113
+      ],
+      "texture": 0,
+      "jp": "日本　第２新東京市　陣代高校",
+      "en": "Japan, Neo Tokyo-2, Jindai High School",
+      "source": "glossary (work/glossary/library_terms.json) 第２新東京市, 陣代高校",
+      "member_sha256": {
+        "113": "de84d5727a07d729bea2fc300b176494da483356a76a7255c73ff54684251ae3"
+      }
+    },
+    {
+      "id": "caption:114",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        114
+      ],
+      "texture": 0,
+      "jp": "日本　伊豆　連邦軍極東支部",
+      "en": "Japan, Izu, Federation Far East Branch",
+      "source": "Jigoku translation/map_locations.json \"Federation Forces Far East Branch\" shortened; eboot.json date_location 連邦軍=Federation",
+      "member_sha256": {
+        "114": "d13cf71d390dceb753af62b1fc983b1273aa696dc6bb84fa6ebecd17e03f4de5"
+      }
+    },
+    {
+      "id": "caption:115",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        115
+      ],
+      "texture": 0,
+      "jp": "日本　相模湾",
+      "en": "Japan, Sagami Bay",
+      "source": "glossary (work/glossary/library_terms.json) 相模湾",
+      "member_sha256": {
+        "115": "557beb256467750c46923b0c3d3d4a06a24efbe37cf1fde948865598b324dcfd"
+      }
+    },
+    {
+      "id": "caption:116",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        116
+      ],
+      "texture": 0,
+      "jp": "新日本　トウキョウ",
+      "en": "New Japan, Tokyo",
+      "source": "glossary (work/glossary/library_terms.json) 新日本; story banner (work/translation/en/dialogue) トウキョウ市街地=\"Downtown Tokyo\"",
+      "member_sha256": {
+        "116": "3558b525e94a31e9f4ea656ad44968898af9a2ffa2a6f3d347db1b4788b9c790"
+      }
+    },
+    {
+      "id": "caption:117",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        117
+      ],
+      "texture": 0,
+      "jp": "新日本　厳島",
+      "en": "New Japan, Itsukushima",
+      "source": "glossary (work/glossary/library_terms.json) 新日本, 厳島",
+      "member_sha256": {
+        "117": "f295c5cdc1b7bc682dbabb184974930c8318b38c2120a47e22e9e21e528c4ea6"
+      }
+    },
+    {
+      "id": "caption:121",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        121
+      ],
+      "texture": 0,
+      "jp": "アラスカ　アンカレジ",
+      "en": "Alaska, Anchorage",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "121": "9cee6d0f7f438256c8bcdcfbc765c55305892a18712b3a358f8ce594c945a4ee"
+      }
+    },
+    {
+      "id": "caption:122",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        122,
+        123
+      ],
+      "texture": 0,
+      "jp": "クメン王国",
+      "en": "Kingdom of Kummen",
+      "source": "story banner (work/translation/en/dialogue) ～クメン王国　アッセンブルＥＸ－１０～",
+      "member_sha256": {
+        "122": "373b7e19b43c467dda12e63186eb28afa41d55e98c3d16ba35a7abb5597fe19c",
+        "123": "2176ab77caad0a2fb54e74e546f1183f5c906033f445b4d1bfb5dc05b981d7c9"
+      }
+    },
+    {
+      "id": "caption:124",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        124
+      ],
+      "texture": 0,
+      "jp": "クメン王国　グルフェー",
+      "en": "Kingdom of Kummen, Gluphae",
+      "source": "story banner (work/translation/en/dialogue) + glossary (work/glossary/library_terms.json) グルフェー",
+      "member_sha256": {
+        "124": "0e2f4b2cc20b3f07242bc081de15ef905367ce5c39262243be7d147c02f22be0"
+      }
+    },
+    {
+      "id": "caption:125",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        125
+      ],
+      "texture": 0,
+      "jp": "クメン王国　ナムサク",
+      "en": "Kingdom of Kummen, Namsac",
+      "source": "story banner (work/translation/en/dialogue) + glossary (work/glossary/library_terms.json) ナムサク",
+      "member_sha256": {
+        "125": "e47da7cd51e2115ca11f41e393a5bf5bd5ff424d1b4a48d75495acb781023bb5"
+      }
+    },
+    {
+      "id": "caption:126",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        126
+      ],
+      "texture": 0,
+      "jp": "スコート・ラボ",
+      "en": "Scott Lab",
+      "source": "glossary (work/glossary/library_terms.json) / eboot.json スコート・ラボ",
+      "member_sha256": {
+        "126": "6e239f5cf4f412d569d7c72696bbf3b33377a0234e64391b9935de5d368316e4"
+      }
+    },
+    {
+      "id": "caption:127",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        127
+      ],
+      "texture": 0,
+      "jp": "ニケーロ",
+      "en": "Nikero",
+      "source": "glossary (work/glossary/library_terms.json) ニケーロ (proposed)",
+      "member_sha256": {
+        "127": "c616f3eb6fdb396a2e43b7d583db69497d64b15e15d0661ac5ac55baa6a9afb7"
+      }
+    },
+    {
+      "id": "caption:128",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        128
+      ],
+      "texture": 0,
+      "jp": "メリダ島",
+      "en": "Merida Island",
+      "source": "glossary (work/glossary/library_terms.json) / eboot.json メリダ島",
+      "member_sha256": {
+        "128": "3128adc72cefe48cb2e74f4ae48b038324d13d31e5f5b4234dcb3071df01b00b"
+      }
+    },
+    {
+      "id": "caption:129",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        129
+      ],
+      "texture": 0,
+      "jp": "メリダ島　ミスリル西太平洋戦隊基地",
+      "en": "Merida Island, Mithril W. Pacific Fleet Base",
+      "source": "glossary (work/glossary/library_terms.json) メリダ島, ミスリル, 西太平洋戦隊=Western Pacific Fleet (abbreviated W. to fit)",
+      "member_sha256": {
+        "129": "19d7856df2aec9d4e1e0e4b1a3007d7b0c9b698736404cf81f12a6f4eee24bf6"
+      }
+    },
+    {
+      "id": "caption:130",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        130
+      ],
+      "texture": 0,
+      "jp": "聖地アレギウム",
+      "en": "Holy Land of Allegium",
+      "source": "Jigoku translation/map_locations.json + glossary (work/glossary/library_terms.json) アレギウム",
+      "member_sha256": {
+        "130": "c0d9785b2efdf0fb07865bed71f70707017e3096d62c3eb8538ea0e51edeab1f"
+      }
+    },
+    {
+      "id": "caption:131",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        131
+      ],
+      "texture": 0,
+      "jp": "オーブ連合首長国　オノゴロ島",
+      "en": "Orb Union, Onogoro Island",
+      "source": "story banner (work/translation/en/dialogue) オーブ連合首長国=\"Orb Union\"; Onogoro = Gundam SEED official",
+      "member_sha256": {
+        "131": "34d7de9791680b260a9f7bd23c10b75297357847f69ba06149a0f40eba63e408"
+      }
+    },
+    {
+      "id": "caption:132",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        132
+      ],
+      "texture": 0,
+      "jp": "ピーターソン基地",
+      "en": "Peterson Base",
+      "source": "glossary (work/glossary/library_terms.json) / story banner (work/translation/en/dialogue)",
+      "member_sha256": {
+        "132": "c1a3fc5a6c9b77902695ce6fa80d9c89a688394be22bd881daf366e14e56287e"
+      }
+    },
+    {
+      "id": "caption:133",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        133
+      ],
+      "texture": 0,
+      "jp": "シャイアン基地",
+      "en": "Cheyenne Base",
+      "source": "glossary (work/glossary/library_terms.json) シャイアン基地",
+      "member_sha256": {
+        "133": "8473751d0740a05a14af33a3eb7ea81c2cfbd96b3c249d51ed60b99bff805984"
+      }
+    },
+    {
+      "id": "caption:134",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        134
+      ],
+      "texture": 0,
+      "jp": "オーガスタ",
+      "en": "Augusta",
+      "source": "story banner (work/translation/en/dialogue) ～オーガスタ　ニュータイプ研究所～ \"Augusta Laboratory\"",
+      "member_sha256": {
+        "134": "8ab8d89b4b627cd8a69d04300eab85b565c6c6e0992066cdb6a9d540f9543789"
+      }
+    },
+    {
+      "id": "caption:135",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        135
+      ],
+      "texture": 0,
+      "jp": "コロラド",
+      "en": "Colorado",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "135": "3804a7c8514b3c5b21314509a5dd69a5dfcc2b3a2fffef59b10b7454b342a0de"
+      }
+    },
+    {
+      "id": "caption:136",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        136
+      ],
+      "texture": 0,
+      "jp": "ロサンゼルス",
+      "en": "Los Angeles",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "136": "c53845e1834331d30ab5c8a64ac9cdfe2e4e2930a2bedac08ac73cfa883e8204"
+      }
+    },
+    {
+      "id": "caption:137",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        137
+      ],
+      "texture": 0,
+      "jp": "ニューヨーク　地球連邦政府議事堂",
+      "en": "New York, Earth Federation Assembly",
+      "source": "Jigoku translation/map_locations.json (member 122)",
+      "member_sha256": {
+        "137": "d78069f20883a3581ed336601ae49a6a54644d7180188bf894948e6a267f1fd8"
+      }
+    },
+    {
+      "id": "caption:138",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        138
+      ],
+      "texture": 0,
+      "jp": "ネオ・アルカトラズ",
+      "en": "Neo Alcatraz",
+      "source": "glossary (work/glossary/library_terms.json) ネオ・アルカトラズ",
+      "member_sha256": {
+        "138": "0a0011cb1f4f310a2a2b7cc00e5fef39fdbbe8d8a4dff749e3cf558c48d83592"
+      }
+    },
+    {
+      "id": "caption:139",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        139
+      ],
+      "texture": 0,
+      "jp": "帝都ラース・バビロン",
+      "en": "Imperial Capital Wrath Babylon",
+      "source": "story banner (work/translation/en/dialogue) ～帝都ラース・バビロン内～; glossary (work/glossary/library_terms.json) ラース・バビロン",
+      "member_sha256": {
+        "139": "33ad9e9620ec329ba41d10b1b4c2f0578007de673c4c246d1b587385a44f5269"
+      }
+    },
+    {
+      "id": "caption:140",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        140
+      ],
+      "texture": 0,
+      "jp": "中華連邦　開河",
+      "en": "Chinese Federation, Kaihe",
+      "source": "glossary (work/glossary/library_terms.json) 中華連邦; 開河 is in no glossary or corpus: romanised from Mandarin (kaihe) - VERIFY",
+      "member_sha256": {
+        "140": "03ecd5529345cfc7db3005e402f656178dfc60b35709b44725f4fd25651eff4b"
+      }
+    },
+    {
+      "id": "caption:141",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        141,
+        142,
+        143,
+        144
+      ],
+      "texture": 0,
+      "jp": "北米大陸",
+      "en": "North America",
+      "source": "eboot.json date_location 北米=North America",
+      "member_sha256": {
+        "141": "c29104c8d90e165f973a12610f853f14939662ff9999c7492c22fe8699f6fef7",
+        "142": "8ce34391b1b13aaafb11153a3660f9e7dcda4d770bc9990b4d8a822348c832a6",
+        "143": "4681be3aae453b66ee8e36a3d89841c2ed646b9989457c2efee608cb63451f42",
+        "144": "a348a70d66cfbb2c6ff36557db0b8524ed455acfb3d16a9d33116f499e0adbcf"
+      }
+    },
+    {
+      "id": "caption:145",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        145
+      ],
+      "texture": 0,
+      "jp": "北米大陸　セントラル・ベース",
+      "en": "North America, Central Base",
+      "source": "eboot.json date_location + glossary (work/glossary/library_terms.json) セントラル・ベース",
+      "member_sha256": {
+        "145": "3f055c50992d8932dab36f7de82cf68c6c522c20ca8125088979f9045ee31448"
+      }
+    },
+    {
+      "id": "caption:146",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        146,
+        147
+      ],
+      "texture": 0,
+      "jp": "ユーラシア大陸　北部",
+      "en": "Northern Eurasia",
+      "source": "new (standard English; not in glossary/corpus); story uses \"Eurasian continent\"",
+      "member_sha256": {
+        "146": "b5174951d4f02cb508a2d3cffde704fb65f15efdee8db6972762a6e7672bec1e",
+        "147": "86daa9a5b9766723563bed3e4f4c5fa5085adf8ea2ead25a7eb33d4e603fa577"
+      }
+    },
+    {
+      "id": "caption:148",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        148
+      ],
+      "texture": 0,
+      "jp": "ユーラシア大陸　セントラル・ベース",
+      "en": "Eurasia, Central Base",
+      "source": "glossary (work/glossary/library_terms.json) セントラル・ベース",
+      "member_sha256": {
+        "148": "47c9b2b65d31e34287dde8098c68793b5a21a0e79fc02d1d3a6bd24e3b609d28"
+      }
+    },
+    {
+      "id": "caption:149",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        149
+      ],
+      "texture": 0,
+      "jp": "新世界大陸　カミナシティ",
+      "en": "New World Continent, Kamina City",
+      "source": "eboot.json date_location 新世界大陸 + glossary (work/glossary/library_terms.json) カミナシティ",
+      "member_sha256": {
+        "149": "dfa22b51231aa1c441728ab395d47e6bb244d1438a229765251856a127259883"
+      }
+    },
+    {
+      "id": "caption:150",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        150
+      ],
+      "texture": 0,
+      "jp": "日本内海",
+      "en": "Japan's Inland Sea",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "150": "c6e9b61bfd7bfd80377109aa612b27cb9949ac8c2fc5e501c2311d1906e2c740"
+      }
+    },
+    {
+      "id": "caption:151",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        151
+      ],
+      "texture": 0,
+      "jp": "太平洋",
+      "en": "Pacific Ocean",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "151": "874fb4289aea5952af6a59f0ea0274a5cdb6bc1648be37f2bb36e306302b20a5"
+      }
+    },
+    {
+      "id": "caption:152",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        152
+      ],
+      "texture": 0,
+      "jp": "太平洋",
+      "en": "Pacific Ocean",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "152": "7d637009f4ec56cca36a10dd2275db1ab642410dc1dc13132fe404ebde63fbdd"
+      }
+    },
+    {
+      "id": "caption:180",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        180
+      ],
+      "texture": 0,
+      "jp": "太平洋",
+      "en": "Pacific Ocean",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "180": "bcc497b0f58b02e55f4a823f7dabfc5425d3f654d5ba8cd7a2c81571c77951c8"
+      }
+    },
+    {
+      "id": "caption:153",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        153,
+        154
+      ],
+      "texture": 0,
+      "jp": "北極海",
+      "en": "Arctic Ocean",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "153": "b00f119d4c95310624f7380a30b1f73c735e57c7314cc6017caecb1c6a172128",
+        "154": "93cfb2084bcac6a0ba62bd5baae08607e785572b8e753ddd8fb7523edf27b6c1"
+      }
+    },
+    {
+      "id": "caption:166",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        166,
+        167
+      ],
+      "texture": 0,
+      "jp": "アメリア大陸",
+      "en": "Amerria Continent",
+      "source": "story banner (work/translation/en/dialogue) \"the Amerria Continent\" + glossary (work/glossary/library_terms.json) アメリア",
+      "member_sha256": {
+        "166": "9477086f19ba06d48135f04d16f5f70fc71a43712096ad871352fbd0463fb287",
+        "167": "769feb737e171f310d388a1e43ca7f59507c986d6b2a8869d76707bd79dd8276"
+      }
+    },
+    {
+      "id": "caption:168",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        168
+      ],
+      "texture": 0,
+      "jp": "アメリア大陸　セントラル・ベース",
+      "en": "Amerria Continent, Central Base",
+      "source": "story banner (work/translation/en/dialogue) + glossary (work/glossary/library_terms.json)",
+      "member_sha256": {
+        "168": "8a7e011cfe41e2412f9c7cfaf915d354bae655adc73613a2f5bbaee82044ef5c"
+      }
+    },
+    {
+      "id": "caption:169",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        169
+      ],
+      "texture": 0,
+      "jp": "アメリア大陸　ビシニティ",
+      "en": "Amerria Continent, Vicinity",
+      "source": "story banner (work/translation/en/dialogue) + glossary (work/glossary/library_terms.json) ビシニティ",
+      "member_sha256": {
+        "169": "d879c70469a04f51e841a3135a6b792a2af393300f2388fdb28d64feeea6c144"
+      }
+    },
+    {
+      "id": "caption:170",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        170,
+        171
+      ],
+      "texture": 0,
+      "jp": "中央大陸",
+      "en": "Central Continent",
+      "source": "story banner (work/translation/en/dialogue) \"the Central Continent\"",
+      "member_sha256": {
+        "170": "9887771ff03e9fbd28935b01dc036ce2dc1f14f3c25a101eb4bd53add59f704c",
+        "171": "cbb2b3de38c511146e52a3950d1dad98ec5c984f83edcbca8c55918d112ad2c3"
+      }
+    },
+    {
+      "id": "caption:172",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        172
+      ],
+      "texture": 0,
+      "jp": "中央大陸南部",
+      "en": "Southern Central Continent",
+      "source": "story banner (work/translation/en/dialogue) \"Central Continent\"",
+      "member_sha256": {
+        "172": "507d3cceae2ffa7a574d56d17a628e36edf95e799c793514581b345966feccf1"
+      }
+    },
+    {
+      "id": "caption:173",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        173
+      ],
+      "texture": 0,
+      "jp": "中央大陸南部　セントラル・ベース",
+      "en": "S. Central Continent, Central Base",
+      "source": "story banner (work/translation/en/dialogue) + glossary (work/glossary/library_terms.json) (Southern abbreviated to fit)",
+      "member_sha256": {
+        "173": "ed5f5616677f87eca99a90622fa628100ac35b35b32ea49d7243feab4d93eed6"
+      }
+    },
+    {
+      "id": "caption:174",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        174
+      ],
+      "texture": 0,
+      "jp": "南アメリア大陸",
+      "en": "South Amerria Continent",
+      "source": "story banner (work/translation/en/dialogue) + glossary (work/glossary/library_terms.json) アメリア",
+      "member_sha256": {
+        "174": "6d8d86c8a5185ca4c731f6621fb3468e5b32c90cfc3f73c114a4945aba8f6ba2"
+      }
+    },
+    {
+      "id": "caption:175",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        175
+      ],
+      "texture": 0,
+      "jp": "残されの海　ガルガンティア船団",
+      "en": "Left-Behind Sea, Gargantia Fleet",
+      "source": "glossary (work/glossary/library_terms.json) / eboot.json 残されの海, ガルガンティア船団",
+      "member_sha256": {
+        "175": "35768ff3ea417f8ce7fa1b71de0411fb80a0c0363f3fac0a027cb8efdf48c8eb"
+      }
+    },
+    {
+      "id": "caption:176",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        176,
+        177
+      ],
+      "texture": 0,
+      "jp": "残されの海",
+      "en": "Left-Behind Sea",
+      "source": "glossary (work/glossary/library_terms.json) / eboot.json",
+      "member_sha256": {
+        "176": "0850551c5404d93d71c05adb8d0139493a617b71a50c70dda9147c9627092adc",
+        "177": "7d0fa21c0dd49175fe3071f66292838fbd25cf97b9306bb423299cec7567219c"
+      }
+    },
+    {
+      "id": "caption:178",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        178
+      ],
+      "texture": 0,
+      "jp": "霧の海",
+      "en": "Sea of Mist",
+      "source": "glossary (work/glossary/library_terms.json) 霧の海",
+      "member_sha256": {
+        "178": "b6cf4b2742da906ece606e7a09216c3d4fe2d5008a4f567aebfa31303139771d"
+      }
+    },
+    {
+      "id": "caption:179",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        179
+      ],
+      "texture": 0,
+      "jp": "霧の海　クーゲル船団",
+      "en": "Sea of Mist, Kugel Fleet",
+      "source": "glossary (work/glossary/library_terms.json) 霧の海; story banner (work/translation/en/dialogue) ～クーゲル船団～ \"Kugel Fleet\"",
+      "member_sha256": {
+        "179": "c23298e616fce0de3b7f8fdd49bbf5b92f917a32fa492fea84832192a3ed7f3d"
+      }
+    },
+    {
+      "id": "caption:181",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        181
+      ],
+      "texture": 0,
+      "jp": "日本　駿河湾",
+      "en": "Japan, Suruga Bay",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "181": "cd6df668014271e32f50b49c3b25569b6b008ba9993324dd4385099ab396e323"
+      }
+    },
+    {
+      "id": "caption:182",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        182
+      ],
+      "texture": 0,
+      "jp": "日本海",
+      "en": "Sea of Japan",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "182": "d70504df9b8e2f52b32429be504d6567c478caa56d1c39d040f31bc6fb7bd496"
+      }
+    },
+    {
+      "id": "caption:189",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        189
+      ],
+      "texture": 0,
+      "jp": "Ｌ１宙域　パラオ",
+      "en": "L1 Sector, Palau",
+      "source": "Jigoku translation/map_locations.json \"L1 Sector\" + glossary (work/glossary/library_terms.json) パラオ",
+      "member_sha256": {
+        "189": "9388b4c6caf18f9100139d153e8fc8f8b5035b0b5d865ef6bfbf5506f42192b9"
+      }
+    },
+    {
+      "id": "caption:190",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        190
+      ],
+      "texture": 0,
+      "jp": "フロンティア船団",
+      "en": "Frontier Fleet",
+      "source": "glossary (work/glossary/library_terms.json) フロンティア船団 \"Frontier fleet\", title-cased for the caption",
+      "member_sha256": {
+        "190": "2556eec9810554614ca17b51b8c5ecbfd919ab19c3a5d8f14d0ecc52fd671987"
+      }
+    },
+    {
+      "id": "caption:191",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        191
+      ],
+      "texture": 0,
+      "jp": "蒼の地球近海",
+      "en": "Near Blue Earth",
+      "source": "glossary (work/glossary/library_terms.json) 蒼の地球; Jigoku translation/map_locations.json 地球近海=\"Near Earth\"",
+      "member_sha256": {
+        "191": "9b5435fad3bbc61dcda3de53d84b0ca51606265c9d26142013687fd93c0cf92d"
+      }
+    },
+    {
+      "id": "caption:192",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        192
+      ],
+      "texture": 0,
+      "jp": "暗礁宙域",
+      "en": "Shoal Zone",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "192": "524530ce4b6bb9828c64d1844bade70dd59a162af9e34a9203a8dfee0aaea26f"
+      }
+    },
+    {
+      "id": "caption:193",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        193
+      ],
+      "texture": 0,
+      "jp": "Ｌ１宙域",
+      "en": "L1 Sector",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "193": "de9b9a063aadb5d182d054568b3fb51da317fef444ffb7a092dddb502860c8bd"
+      }
+    },
+    {
+      "id": "caption:194",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        194
+      ],
+      "texture": 0,
+      "jp": "Ｌ５宙域",
+      "en": "L5 Sector",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "194": "e2debcdc1d61c111f851def5b880854ffd04c33c4e8a52ac07ca0ae86bfbdc9b"
+      }
+    },
+    {
+      "id": "caption:195",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        195
+      ],
+      "texture": 0,
+      "jp": "Ｌ５宙域　プラント付近",
+      "en": "L5 Sector, Near PLANT",
+      "source": "Jigoku translation/map_locations.json + glossary (work/glossary/library_terms.json) プラント",
+      "member_sha256": {
+        "195": "b18fb5f4d41c01bd683f6a3fd9dc49f4f4b02f787cefc103ac121402e5ea5385"
+      }
+    },
+    {
+      "id": "caption:196",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        196
+      ],
+      "texture": 0,
+      "jp": "Ｌ５宙域　プラント　アプリリウス",
+      "en": "L5 Sector, PLANT, Aprilius",
+      "source": "Jigoku translation/map_locations.json + glossary (work/glossary/library_terms.json) プラント, アプリリウス市",
+      "member_sha256": {
+        "196": "707348863c0ff848fdd7064ac9bedb203c4b3d43842f9860b7807a7b9854ea4d"
+      }
+    },
+    {
+      "id": "caption:197",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        197
+      ],
+      "texture": 0,
+      "jp": "Ｌ１宙域　インダストリアル７",
+      "en": "L1 Sector, Industrial 7",
+      "source": "Jigoku translation/map_locations.json + glossary (work/glossary/library_terms.json)",
+      "member_sha256": {
+        "197": "dbf4d405f3b74e0cb34f4e9a6bc1bcf0cf92f380e92bb34ec7303590008713db"
+      }
+    },
+    {
+      "id": "caption:198",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        198
+      ],
+      "texture": 0,
+      "jp": "Ｌ５宙域　サイド１　ロンデニオン",
+      "en": "L5 Sector, Side 1, Londenion",
+      "source": "Jigoku translation/map_locations.json + story banner (work/translation/en/dialogue) ～サイド１　ロンデニオン内～",
+      "member_sha256": {
+        "198": "521ad3ad24f1945b42f249be063b20ee2fda1376aca8c0c7f0b5ce96b5e64541"
+      }
+    },
+    {
+      "id": "caption:199",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        199
+      ],
+      "texture": 0,
+      "jp": "Ｌ５宙域　サイド１付近",
+      "en": "L5 Sector, Near Side 1",
+      "source": "Jigoku translation/map_locations.json",
+      "member_sha256": {
+        "199": "17062d748c2136d19a6076f381b59049dacfc3eed7738c8346462a99fe0ef5e5"
+      }
+    },
+    {
+      "id": "caption:200",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        200
+      ],
+      "texture": 0,
+      "jp": "外宇宙航行母艦ソレスタルビーイング",
+      "en": "Outer-Space Mothership Celestial Being",
+      "source": "story banner (work/translation/en/dialogue) ～外宇宙航行母艦ソレスタルビーイング　ブリッジ～",
+      "member_sha256": {
+        "200": "e04690c095a264b703e39f72e8468108779ad9e874fb39a834f4f7dd8a7226bf"
+      }
+    },
+    {
+      "id": "caption:201",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        201
+      ],
+      "texture": 0,
+      "jp": "両地球圏　外縁部",
+      "en": "Outer Edge of Both Earth Spheres",
+      "source": "glossary (work/glossary/library_terms.json) 地球圏=Earth Sphere",
+      "member_sha256": {
+        "201": "47062ec5dbe8d8a8aba1290552bbd9dfcb849bfb643b03576f0196952ab96f44"
+      }
+    },
+    {
+      "id": "caption:207",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        207
+      ],
+      "texture": 0,
+      "jp": "月の裏側　メガネビュラ",
+      "en": "Far Side of the Moon, Meganebula",
+      "source": "story banner (work/translation/en/dialogue) 月　裏側=\"Moon: Far Side\" + glossary (work/glossary/library_terms.json) メガネビュラ",
+      "member_sha256": {
+        "207": "15e3ecacf6a630de23c62581fb078aefe0cf0250fd5605157845fbf443db0dd8"
+      }
+    },
+    {
+      "id": "caption:208",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        208
+      ],
+      "texture": 0,
+      "jp": "翠の地球近海",
+      "en": "Near Green Earth",
+      "source": "glossary (work/glossary/library_terms.json) 翠の地球; Jigoku translation/map_locations.json 地球近海=\"Near Earth\"",
+      "member_sha256": {
+        "208": "04d7b8e80acdf1264057433ea15595ebb7d79faf0241a567d95398dd78030ec1"
+      }
+    },
+    {
+      "id": "caption:209",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        209
+      ],
+      "texture": 0,
+      "jp": "月　ゲンガナム　白の宮殿",
+      "en": "Moon, Genganam, White Palace",
+      "source": "glossary (work/glossary/library_terms.json) ゲンガナム, 白の宮殿",
+      "member_sha256": {
+        "209": "fb57f984b94ef0816507fb0580f56bccb6d5106f836b5a0da70992add2f61e86"
+      }
+    },
+    {
+      "id": "caption:210",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        210
+      ],
+      "texture": 0,
+      "jp": "月",
+      "en": "Moon",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "210": "512839b720d8efb3a7892eb941a24abe78d19670db53e63413fcfa689b775582"
+      }
+    },
+    {
+      "id": "caption:213",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        213
+      ],
+      "texture": 0,
+      "jp": "地球圏　外縁部",
+      "en": "Outer Earth Sphere",
+      "source": "glossary (work/glossary/library_terms.json) 地球圏",
+      "member_sha256": {
+        "213": "c32dbd4794950421fc4be08e4edfd986f756161bc3e03a94df3cb11751148199"
+      }
+    },
+    {
+      "id": "caption:214",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        214
+      ],
+      "texture": 0,
+      "jp": "火星",
+      "en": "Mars",
+      "source": "story banner (work/translation/en/dialogue)",
+      "member_sha256": {
+        "214": "22a28d1d1b4f65bc2839c7017557af887032f7fc150cfcf4bbe448a6bd0aea44"
+      }
+    },
+    {
+      "id": "caption:215",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        215
+      ],
+      "texture": 0,
+      "jp": "火星　インサラウム居住区",
+      "en": "Mars, Insaraum Settlement",
+      "source": "glossary (work/glossary/library_terms.json) インサラウム; story banner (work/translation/en/dialogue) 居住区=\"settlement\"",
+      "member_sha256": {
+        "215": "e4109c6742e33e6b2aa7a186fe2b61853016ec422a2b8f5f225820d5fb214ba5"
+      }
+    },
+    {
+      "id": "caption:216",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        216
+      ],
+      "texture": 0,
+      "jp": "火星圏　外縁部",
+      "en": "Outer Mars Sphere",
+      "source": "new (standard English; not in glossary/corpus) (parallel to Outer Earth Sphere)",
+      "member_sha256": {
+        "216": "0ee5bde4ba3dc1cf1084c8f7bf883b4384121428cd38e01a85a13fe260fcb5fe"
+      }
+    },
+    {
+      "id": "caption:217",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        217
+      ],
+      "texture": 0,
+      "jp": "木星付近",
+      "en": "Near Jupiter",
+      "source": "new (standard English; not in glossary/corpus)",
+      "member_sha256": {
+        "217": "933723e2aa00a330ae8a2b263f88725b5f022483c2b39522d4b26a02127418dc"
+      }
+    },
+    {
+      "id": "caption:218",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        218
+      ],
+      "texture": 0,
+      "jp": "土星　タイタン",
+      "en": "Saturn, Titan",
+      "source": "glossary (work/glossary/library_terms.json) タイタン",
+      "member_sha256": {
+        "218": "0a965b3b70f4238337cc48b06d4920661cb7b089e44d327af059c0bb9ecb8127"
+      }
+    },
+    {
+      "id": "caption:221",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        221,
+        222,
+        223
+      ],
+      "texture": 0,
+      "jp": "銀河系　中心部",
+      "en": "Milky Way, Galactic Core",
+      "source": "story banner (work/translation/en/dialogue) 銀河中心部=\"galactic core\"",
+      "member_sha256": {
+        "221": "179dd96d7e1cefce18bbf1783f7f155e970f84ed67fb0373ecf795d909ca2df6",
+        "222": "c8fe90a8f842f44582271f5f62dbf76b4b29caf66ae908c2d5ec1ac127e9faa8",
+        "223": "4853e37a6972fb7f17bfc38aadfbdc87753b3ae0521bf62c268f58df6952f2fb"
+      }
+    },
+    {
+      "id": "caption:224",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        224
+      ],
+      "texture": 0,
+      "jp": "惑星ネオ・ラクス",
+      "en": "Planet Neo Lux",
+      "source": "glossary (work/glossary/library_terms.json) ネオ・ラクス, 惑星ラクス=\"Planet Lux\"",
+      "member_sha256": {
+        "224": "ab3be81b289212fa7389296c26fb2d90d4f2b06705c71bf4c1e0627fa23ab309"
+      }
+    },
+    {
+      "id": "caption:225",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        225
+      ],
+      "texture": 0,
+      "jp": "惑星ネオ・ラクス大気圏外",
+      "en": "Orbit of Planet Neo Lux",
+      "source": "glossary (work/glossary/library_terms.json) ネオ・ラクス; 大気圏外 (outside the atmosphere) rendered as orbit",
+      "member_sha256": {
+        "225": "d3983663edea6beea7f3035dead59efc95cb4455a45ecb27b12644b9132c47e3"
+      }
+    },
+    {
+      "id": "caption:226",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        226
+      ],
+      "texture": 0,
+      "jp": "バジュラ母星",
+      "en": "Vajra Homeworld",
+      "source": "glossary (work/glossary/library_terms.json) バジュラ; story banner (work/translation/en/dialogue) 母星=\"homeworld\"",
+      "member_sha256": {
+        "226": "199a7898da1a6c65a7c2ead1f247319772b857688b3fb010654eb7008679bfe8"
+      }
+    },
+    {
+      "id": "caption:227",
+      "family": "location_captions",
+      "status": "translate",
+      "members": [
+        227
+      ],
+      "texture": 0,
+      "jp": "銀河中心点付近",
+      "en": "Near the Galactic Center",
+      "source": "story banner (work/translation/en/dialogue) \"galactic center\"",
+      "member_sha256": {
+        "227": "9eb69bf01abd3d2cdb2ea6b480ec31ae73f6a89a2d007882ee863d2895226466"
+      }
+    },
+    {
+      "id": "caption:120",
+      "family": "location_captions",
+      "status": "keep",
+      "members": [
+        120,
+        165
+      ],
+      "texture": 0,
+      "jp": "？？？",
+      "en": "???",
+      "source": "no letters; the fullwidth question marks read the same in English",
+      "member_sha256": {
+        "120": "eeae3171a26cab1d2ebab5dc71d16e0c372adabe84b90f40d8061d9ffddd182f",
+        "165": "1b15be43c26782cf5a0643b566d183a2ce6d723248907a08706ca7c0375843f1"
+      }
+    },
+    {
+      "id": "heading:105",
+      "family": "episode_headings",
+      "status": "translate",
+      "members": [
+        105
+      ],
+      "texture": 2,
+      "jp": "第　話",
+      "en": "Episode",
+      "source": "eboot.json 第=\"Episode \", 話=\" \" (the UI writes \"Episode N\")",
+      "member_sha256": {
+        "105": "4c98787171a1c3471750a6e59bcfe68d61ada69cafafe74b0506cba4fb546140"
+      },
+      "note": "one-digit episodes; 第 cell widened to a 320-px \"Episode\" cell, digit quad shifted, 話 quads hidden"
+    },
+    {
+      "id": "heading:106",
+      "family": "episode_headings",
+      "status": "translate",
+      "members": [
+        106
+      ],
+      "texture": 2,
+      "jp": "第　話",
+      "en": "Episode",
+      "source": "eboot.json 第=\"Episode \"",
+      "member_sha256": {
+        "106": "2825d433c4042bdd47f04495bf7615162733bc219efc87d05fefc72eaefa700f"
+      },
+      "note": "two-digit episodes; same art as 105"
+    },
+    {
+      "id": "heading:107",
+      "family": "episode_headings",
+      "status": "translate",
+      "members": [
+        107
+      ],
+      "texture": 2,
+      "jp": [
+        "最終話",
+        "果てなき世界"
+      ],
+      "en": [
+        "Final Episode",
+        "World Without End"
+      ],
+      "source": "eboot.json 最終話=\"Final Episode\", 果てなき世界=\"World Without End\" (stage title; the one title with no TPACK card)",
+      "member_sha256": {
+        "107": "75c27e1a0992e050e91b6a2ccbfdd322eef133a1e3f1649c8d98bf3a87f176bb"
+      },
+      "note": "final-episode card: heading + baked title (crisp rows 200..328, glow 328..456)"
+    },
+    {
+      "id": "heading:104",
+      "family": "episode_headings",
+      "status": "keep",
+      "members": [
+        104
+      ],
+      "texture": 2,
+      "jp": "Prologue",
+      "en": "Prologue",
+      "source": "already English in the original art",
+      "member_sha256": {
+        "104": "06d44ae8c671e2b47730913a42c1facc78e84bb0ec9ec76715e9002c4b995000"
+      }
+    },
+    {
+      "id": "heading:108",
+      "family": "episode_headings",
+      "status": "keep",
+      "members": [
+        108
+      ],
+      "texture": 2,
+      "jp": "Bonus scenario",
+      "en": "Bonus scenario",
+      "source": "already English (letters composed from one atlas)",
+      "member_sha256": {
+        "108": "b657685e76df697c298c3c85d1fe637f8a4a7efa8367ad5d1205883bf5225547"
+      }
+    },
+    {
+      "id": "heading:fallback",
+      "family": "episode_headings",
+      "status": "keep",
+      "members": [
+        104,
+        105,
+        106,
+        108
+      ],
+      "texture": 3,
+      "jp": "(title-card slot)",
+      "en": "(runtime)",
+      "source": "1536x256 texture 3 is fully transparent (alpha 0 everywhere): the game draws the TPACK title card into this slot. Unlike Jigoku 87-91 there is no baked fallback title to translate.",
+      "member_sha256": {
+        "104": "06d44ae8c671e2b47730913a42c1facc78e84bb0ec9ec76715e9002c4b995000",
+        "105": "4c98787171a1c3471750a6e59bcfe68d61ada69cafafe74b0506cba4fb546140",
+        "106": "2825d433c4042bdd47f04495bf7615162733bc219efc87d05fefc72eaefa700f",
+        "108": "b657685e76df697c298c3c85d1fe637f8a4a7efa8367ad5d1205883bf5225547"
+      }
+    },
+    {
+      "id": "berserk:276",
+      "family": "berserk",
+      "status": "translate",
+      "members": [
+        276
+      ],
+      "texture": 0,
+      "jp": "暴走",
+      "en": "BERSERK",
+      "source": "eboot.json 暴走=\"Berserk\"; pixels reused from Jigoku 0.6.24 EFFPS3 member 307 (raw-identical source)",
+      "member_sha256": {
+        "276": "1885d0c317b381057a4bbe46e572ef251d18324b3138eef8b612da4c8204bdea"
+      }
+    },
+    {
+      "id": "library:232",
+      "family": "library_labels",
+      "status": "translate",
+      "members": [
+        232
+      ],
+      "textures": [
+        11,
+        13,
+        23
+      ],
+      "jp": [
+        "ロボット大図鑑",
+        "キャラクター事典",
+        "用語事典",
+        "サウンドセレクト",
+        "シナリオチャート"
+      ],
+      "en": [
+        "Robot Library",
+        "Character Library",
+        "Glossary",
+        "Sound Select",
+        "Scenario Chart"
+      ],
+      "source": "eboot.json ロボット大図鑑=\"Robot Library\", キャラクター事典=\"Character Library\", 用語事典=\"Glossary\"; Sound Select / Scenario Chart = Jigoku title_library_buttons (eboot.json also has \"Tengoku-hen Chart\")",
+      "member_sha256": {
+        "232": "8df0398167ff540f499bc81c809163831806ecbd58989f0e2cdf8ff690e57a1a"
+      },
+      "note": "title screen Library submenu, three states (11 highlighted cyan, 13 dark, 23 white glow)"
+    },
+    {
+      "id": "title:229",
+      "family": "other",
+      "status": "pending",
+      "members": [
+        229
+      ],
+      "textures": [
+        1,
+        2,
+        12
+      ],
+      "jp": [
+        "第3次スーパーロボット大戦",
+        "天獄篇"
+      ],
+      "en": null,
+      "source": "title logo wordmark + 天獄篇 subtitle: new logo art needs the user's approval (coordinator, 2026-10-02)",
+      "member_sha256": {
+        "229": "5f6d8d307e6b8e7e4704c048d07be030c9f49a17d79120a9c78e6de1c91d9277"
+      }
+    },
+    {
+      "id": "menu:233",
+      "family": "other",
+      "status": "pending",
+      "members": [
+        233
+      ],
+      "textures": [
+        0,
+        1
+      ],
+      "jp": [
+        "作品名",
+        "サウンドセレクト"
+      ],
+      "en": [
+        "Series",
+        "Sound Select"
+      ],
+      "source": "Sound Select screen: header plate baked into a 1280x720 background + small 作品名 column label; needs background inpainting",
+      "member_sha256": {
+        "233": "51761bb0304242bd3c8e25fbbff3869673b1ebf43f8415a610da9f6b047c1803"
+      }
+    },
+    {
+      "id": "menu:234",
+      "family": "other",
+      "status": "pending",
+      "members": [
+        234,
+        235,
+        236
+      ],
+      "textures": [
+        1
+      ],
+      "jp": "シナリオチャート",
+      "en": "Scenario Chart",
+      "source": "Scenario Chart header plate baked into 1280x720 backgrounds (orange/purple variants); needs background inpainting",
+      "member_sha256": {
+        "234": "efe6330b88458cecac8c4123178c5d94666b692c9735e6ec56e3af884f7bfa8f",
+        "235": "e83e5eeddf4d66667b895338f70103eb871baa06c501360b7900cf229d0b24f7",
+        "236": "c98e889f34cf8f7ab708b18a2b8c95a62a56a552afb9f7da3a6fa1bc0575a096"
+      }
+    },
+    {
+      "id": "menu:234bg",
+      "family": "other",
+      "status": "keep",
+      "members": [
+        234,
+        236
+      ],
+      "textures": [
+        2
+      ],
+      "jp": [
+        "天獄篇",
+        "時獄篇"
+      ],
+      "en": null,
+      "source": "large blurred logo lettering in the Scenario Chart backgrounds (decorative series logo)",
+      "member_sha256": {
+        "234": "efe6330b88458cecac8c4123178c5d94666b692c9735e6ec56e3af884f7bfa8f",
+        "236": "c98e889f34cf8f7ab708b18a2b8c95a62a56a552afb9f7da3a6fa1bc0575a096"
+      }
+    },
+    {
+      "id": "hud:239",
+      "family": "other",
+      "status": "pending",
+      "members": [
+        239
+      ],
+      "textures": [
+        1
+      ],
+      "jp": "新地球皇国　支配率",
+      "en": "New Earth Empire Control",
+      "source": "eboot.json 新地球皇国=\"New Earth Empire\"; 512x128 swizzled HUD atlas shared with digits; its sprite records must be traced before repainting",
+      "member_sha256": {
+        "239": "e1d10a0523179d14ed6319d3e65c8a7182c1382c84298840402fd5753459f419"
+      }
+    },
+    {
+      "id": "logo:281",
+      "family": "other",
+      "status": "keep",
+      "members": [
+        281
+      ],
+      "textures": [
+        6
+      ],
+      "jp": "第3次スーパーロボット大戦Z 時獄篇",
+      "en": null,
+      "source": "game logo inside a cut-in (logo art; same approval rule as the title)",
+      "member_sha256": {
+        "281": "ccd44d4ada78224b30fef2828e95eb5080fcd251f2c24f483230f71b3cdd4564"
+      }
+    },
+    {
+      "id": "logo:480",
+      "family": "other",
+      "status": "keep",
+      "members": [
+        480
+      ],
+      "textures": [
+        5,
+        6,
+        7
+      ],
+      "jp": "天元突破グレンラガン",
+      "en": null,
+      "source": "series logo (Gurren Lagann) in its finisher",
+      "member_sha256": {
+        "480": "3c788c934f65d479066ac88b99db9128248f5607afe074794201331aee666ffc"
+      }
+    },
+    {
+      "id": "decor:378",
+      "family": "other",
+      "status": "keep",
+      "members": [
+        378
+      ],
+      "textures": [
+        4
+      ],
+      "jp": "達納炸薬 / 再来一次",
+      "en": null,
+      "source": "decorative Chinese lettering from the Macross 7 source art (FINAL DYNAMITE / ONCE AGAIN already English)",
+      "member_sha256": {
+        "378": "abceae5349d8f09da4ed64a65b70d068702ccd57f21d3c8ae53cee77e65eb67e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_120",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 129,
+      "field": "DSCR",
+      "english_sha256": "f20fd9ee1f5ec87a",
+      "new": "A cone-shaped Space Monster. Its interior houses a large number of soldiers.\nIt normally clings densely, like thorns, to the surface of a Cruiser-class, but upon spotting an enemy, it detaches from the Cruiser-class and charges forward at high acceleration. The instant it pierces its target, it releases the soldiers within to overwhelm it; this is its method of attack.\nMulti-stage boosters are fitted to its rear, increasing the force of its charge.",
+      "reason": "omission/mistranslation: the Japanese says it is packed tightly (bisshiri) onto the Cruiser-class body like thorns (plural); 'like a thorn' dropped the density and number"
+    },
+    {
+      "kind": "robot",
+      "id": 130,
+      "field": "DSCR",
+      "english_sha256": "c7b3c09090b2f819",
+      "new": "The individuals that form the core of the Space Monsters.\nStarting with individuals of this size, they are capable of independent warp.\nThey can move at near-light speed, and are equipped with light spheres and giant fireball cannons capable of sinking even a space battleship in a single blow, making them a threat even alone. In addition to this, they attack while releasing large numbers of soldiers.\nAmong individuals of this size, the type known as the high-speed type is somewhat smaller than other individuals of the same class and inferior in firepower, but boasts high mobility. A large-capacity cooling organ that trails in the ether current is attached to its rear.",
+      "reason": "mistranslation/omission: 'kono saizu no kotai kara' = starting from individuals of this size (lower bound lost); 'kyodai na kakyuu-hou' = giant fireball cannons ('cannon' dropped)"
+    },
+    {
+      "kind": "robot",
+      "id": 137,
+      "field": "DSCR",
+      "english_sha256": "851e6f64dbbefa83",
+      "new": "The ultimate Buster Machine created by human civilization, into which $$ノノ$$ transformed after regaining her memories.\nShe lived in the form of $$ノノ$$, but transforms into $$バスターマシン７号$$ following the incident on Titan.\nShe is the entity that rules the $$バスター軍団$$, which had been called Space Monsters, and the Space Force calls her the 'Goddess of the Solar System' and the 'Queen of the Space Monsters.'\nEven after regaining her memories and becoming a Buster Machine, the innocent and cheerful personality that $$ノノ$$ had is unchanged, and she continues to adore $$ラルク$$.",
+      "reason": "mistranslation: the Japanese says she lived in Nono's form (ノノの姿で生活していた); 'in that form' pointed back to the Buster Machine form of sentence 1, reversing the sense. Pronouns: Nono is female (glossary pilot 218; the text itself says goddess/queen), the old rule avoided pronouns, so 'her memories' and she/her are restored"
+    },
+    {
+      "kind": "robot",
+      "id": 137,
+      "field": "DSC2",
+      "english_sha256": "1d7e5f1a2a07d87e",
+      "new": "The ultimate Buster Machine created by human civilization, into which $$ノノ$$ transformed after regaining her memories.\nShe lived in the form of $$ノノ$$, but transforms into $$バスターマシン７号$$ following the incident on Titan.\nShe is the entity that rules the $$バスター軍団$$, which had been called Space Monsters, and the Space Force calls her the 'Goddess of the Solar System' and the 'Queen of the Space Monsters.'\nEven after regaining her memories and becoming a Buster Machine, the innocent and cheerful personality that $$ノノ$$ had is unchanged, and she continues to adore $$ラルク$$.\nIn addition, by being stored in the head of the aggregate of Buster Machines, she can also become '$$ダイバスター$$.'\nTo save humanity from the greatest crisis in the universe, the collapse of the black hole that occurred in the final battle, she departed to the other side of the singularity.",
+      "reason": "mistranslation: the Japanese says she lived in Nono's form (ノノの姿で生活していた); 'in that form' pointed back to the Buster Machine form of sentence 1, reversing the sense. Pronouns: Nono is female (glossary pilot 218; the text itself says goddess/queen), the old rule avoided pronouns, so 'her memories' and she/her are restored (same fix in DSC2; shared sentences kept consistent)"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "robot 126 DSCR/DSC2 'under orders to receive Laplace's Box': the entry does not say who gave the order; kept impersonal",
+      "robot 141 DSCR/DSC2 'so there was no effective countermeasure and it was left alone': who left the swarm alone is not stated; kept passive",
+      "robot 127 DSCR/DSC2 'sent far away through time': agent not stated in the Japanese; kept passive",
+      "robot 147-150 'Equipping this pack ...': the equipper is generic; kept impersonal",
+      "robot 155-158 'Ruuca fights by ...': name repeated rather than a pronoun because the preceding clause is about the machine and 'he' would be ambiguous"
+    ],
+    "name_issues": [
+      "robot 120/124/126 literal 'Sleeves' (袖付き) is plain English, not a token",
+      "robot 121 literal 'Ga-Zowmine' for ガ・ゾウム (wiki spelling is probably Ga-Zowmn)",
+      "robot 122 literal 'Blue Team' (青の部隊) and 'African Liberation Front'",
+      "robot 125 literal 'Gaplant' for ガブスレイ (official English is Gabthley); 'Byarlant' and 'Gryps War' (グリプス戦役) literal",
+      "robot 126 literal 'Industrial 7', 'Laplace's Box', 'Ribacona Cargo', 'Squale Cannon' for スキウレ砲 (spelling unverified)",
+      "robot 127 literal 'Kouichirou Ohta', 'Carnedes Plan' (カルネアデス計画), 'Buster Machine No. 3', 'Planet Raoh' (雷王星), 'Buster Corrider' / 'Double Buster Corrider'; robot 136 'Sasumata Corrider'",
+      "robot 128/129/130 body text says 'Landing Craft' while the entry's own name is 'Landing Boat Space Monster'; 'Cruiser-class' is literal in 129-131; 'Babolar' literal",
+      "robot 132-134 attack names literal: 'Hannya-like back', 'Buster Megatech PK', 'Burning Wall', 'Evil Geyser', 'Buster Haken'",
+      "robot 137 'the incident on Titan' is literal; 141/142 use the token タイタン事件 for the same event",
+      "robot 145/146 literal 'Zola', 'Galaxy Whale', 'Galaxy Patrol'",
+      "robot 147-150 literal 'L.A.I.', 'Shinsei Industry', 'New United Nations Spacy' (新統合軍), 'Fold Waves'",
+      "robot 155-158 literal 'Ruuca' for ルカ; glossary pilot 243 (Luca Angeloni, male) suggests 'Luca'; 'Ghost QF-4000' literal"
+    ],
+    "uncertain": [
+      "robot 137: the entry is about the machine, but the Japanese treats it as Nono herself (memories regained, adores Lal'C, goddess, queen). I used she/her after sentence 1 (DSC2 'she can also become Diebuster' and 'she departed' follow the same choice). If the project prefers 'it' for the unit, only the 'that form' error and 'her memories' need keeping.",
+      "robot 137 sentence 2: the Japanese uses present tense (henshin suru) after a past clause; kept the translator's 'transforms'.",
+      "robot 130/131: 亜光速 rendered 'near-light speed' in 130 and 'sub-light-speed' in 131; both acceptable, left.",
+      "robot 152/154 'Combined with the Sniper Pack and the gunner kit': the Japanese is a linkage between the Sniper Pack and the gunner kit; left as an acceptable reading.",
+      "robot 133 DSC2: 'burned out like pure white ash, its role complete' compresses a repeated 役目を終え; drops nothing, left.",
+      "robot 138 DSC2: 'Noriko ... clad in a combat suit' avoids a pronoun but is grammatical; left.",
+      "No military ranks in this batch (only the role word 隊長 'squad leader' for Ozma in 159, left)."
+    ]
+  }
+}

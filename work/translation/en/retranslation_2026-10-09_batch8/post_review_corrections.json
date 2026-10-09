@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 8,
+      "file": "dlg_2020_04.json",
+      "id": "136:t_102:0",
+      "before": "$$デュオ$$\n「Too bad, small fry! Looks like you were no match for $$ゼロ$$!」",
+      "after": "$$デュオ$$\n「That's too bad, small fry! It looks like you were no match for $$ゼロ$$!」",
+      "reason": "Agent10_1 source+8neighbors review confirms Duo mocks Gilter after Lelouch outwits him; parent restores both settled assessment subjects/predicates under BASE_RULES. Zero remains Lelouch."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2024_08.json",
+      "id": "166:t_111:0",
+      "before": "$$フロンタル$$\n「$$キラ・ヤマト$$... Is this really where a Super $$コーディネイター$$ like you belongs?」",
+      "after": "$$フロンタル$$\n「$$キラ・ヤマト$$... Is this really where an $$スーパーコーディネイター$$ like you belongs?」",
+      "reason": "Whole-corpus scan found three exact source occurrences. Replace composed old Super Coordinator with newly researched Ultimate Coordinator token; adjust article. Kira identity verified from source and neighbors."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2025_01.json",
+      "id": "171:t_1:152",
+      "before": "$$ザフト兵$$\n「Your power as a Super $$コーディネイター$$ is precisely what we need to fight the $$ナチュラル$$s.」",
+      "after": "$$ザフト兵$$\n「Your power as an $$スーパーコーディネイター$$ is precisely what we need to fight the $$ナチュラル$$s.」",
+      "reason": "Whole-corpus scan found three exact source occurrences. Replace composed old Super Coordinator with newly researched Ultimate Coordinator token; adjust article. Kira identity verified from source and neighbors."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2016_02.json",
+      "id": "111:t_3:75",
+      "before": "$$マーサ$$\n「Proto-$$プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "after": "$$マーサ$$\n「$$プロト・プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2021_01.json",
+      "id": "141:t_2:72",
+      "before": "$$マーサ$$\n「Proto-$$プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "after": "$$マーサ$$\n「$$プロト・プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2023_01.json",
+      "id": "153:t_2:30",
+      "before": "$$マーサ$$\n「Lieutenant $$マリーダ$$... Proto-$$プルトゥエルブ$$ is working under us of her own free will.」",
+      "after": "$$マーサ$$\n「Lieutenant $$マリーダ$$... $$プロト・プルトゥエルブ$$ is working under us of her own free will.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2023_02.json",
+      "id": "154:t_004:9",
+      "before": "$$プルトゥエルブ$$\n「$$マリーダ$$...? I am Proto-$$プルトゥエルブ$$.」",
+      "after": "$$プルトゥエルブ$$\n「$$マリーダ$$...? I am $$プロト・プルトゥエルブ$$.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2024_01.json",
+      "id": "165:t_1:117",
+      "before": "$$シャア$$\n「Their number 12... Proto-$$プルトゥエルブ$$ is $$マリーダ・クルス$$.」",
+      "after": "$$シャア$$\n「Their number 12... $$プロト・プルトゥエルブ$$ is $$マリーダ・クルス$$.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    }
+  ]
+}

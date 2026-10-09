@@ -1,0 +1,257 @@
+{
+ "schema": 1,
+ "rows": {
+  "修理装置を所持していると、このアイコンが点灯します。\\n所持ユニットは、ＨＰを回復する「修理」コマンドを\\n使用できます。\\n": {
+   "en": "This icon lights up when the unit has a Repair Module.\nThe unit can use the Repair command, which\nrestores HP.\n"
+  },
+  "補給装置を所持していると、このアイコンが点灯します。\\n所持ユニットは、隣接したユニットのＥＮと弾数を\\n全回復させる「補給」コマンドを使用できます。\\n": {
+   "en": "This icon lights up when the unit has a Resupply Module.\nThe unit can use the Resupply command to fully\nrestore an adjacent unit's EN and ammo.\n"
+  },
+  "単分離を所持していると、このアイコンが点灯します。\\n所持ユニットは撃墜されるか、「単分離」コマンドで別形態に変化します。\\nなお、単分離後は前の形態に戻ることはできません。\\n": {
+   "en": "This icon lights up when the unit has Separate.\nThe unit changes form when shot down or via the Separate command.\nOnce separated, it cannot return to its previous form.\n"
+  },
+  "強化パーツ装備数のスロットです。パーツを装備すると点灯します。": {
+   "en": "Part slots. A slot lights up when a Part is equipped."
+  },
+  "相手ユニットのパイロットのＳＰを１０減少させます。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "Reduces the enemy pilot's SP by 10.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "１ターンの間、相手ユニットの機体の運動性を\\n３０ダウンさせます。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "Lowers the enemy unit's Mobility by 30\nfor 1 turn.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "相手ユニットのパイロットの気力を５減少させます。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "Reduces the enemy pilot's Morale by 5.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "１ターンの間、相手ユニットの機体の装甲値を\\n２００ダウンさせます。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "Lowers the enemy unit's Armor by 200\nfor 1 turn.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "１ターンの間、相手ユニットのパイロットの\\n格闘・射撃・命中・回避・防御・技量の値を半分にします。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "For 1 turn, halves the enemy pilot's\nMelee, Ranged, Hit, Evade, Defense and Skill.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "相手ユニットの機体のＥＮを３０減少させます。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "Reduces the enemy unit's EN by 30.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "１ターンの間、相手ユニットの機体の照準値を\\n３０ダウンさせます。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "Lowers the enemy unit's Accuracy by 30\nfor 1 turn.\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "１ターンの間、相手ユニットのパイロットの戦闘行動\\n（攻撃、マキシマムブレイク、反撃、援護攻撃）を不能にします。\\nバリア等でダメージを０にされた場合は無効です。": {
+   "en": "For 1 turn, the enemy pilot cannot take combat actions\n(Attack, Maximum Break, Counter, Support Attack).\nNo effect if a barrier, etc. reduces the damage to 0."
+  },
+  "ダメージを受けた機体に搭乗しているメインパイロットの気力を１０低下させます。\\n戦闘終了後、この効果を受けたパイロットの気力が８０以下の場合、\\n機体のＨＰに関係なく撃墜として扱われます。\\n": {
+   "en": "Lowers the Morale of the main pilot of the damaged unit by 10.\nAfter battle, if the affected pilot's Morale is 80 or below,\nthe unit is treated as shot down regardless of its HP.\n"
+  },
+  "相手ユニットの持つバリアの効果を無視します。": {
+   "en": "Ignores the enemy unit's barrier effects."
+  },
+  "サイズ差補正による与えるダメージの減少を無視します。": {
+   "en": "Ignores size-difference reduction to damage dealt."
+  },
+  "前詰めできるチームがありません。": {
+   "en": "There are no teams to move up."
+  },
+  "チームを前詰めします。": {
+   "en": "Move teams up to fill empty slots."
+  },
+  "チームの前詰めを行います。": {
+   "en": "Move teams up to fill empty slots."
+  },
+  "レクチャープレートを表示します。": {
+   "en": "Open Lecture Plates."
+  },
+  "データを引き継ぎ、新たにゲームを始めます。": {
+   "en": "Carry over your data and start a new game."
+  },
+  "搭乗できるパイロットがいません。": {
+   "en": "There are no pilots who can board."
+  },
+  "ＵＣＷの戦乱を影からコントロールしていた秘密組織『カイメラ』。\\nそのメンバーが身につけていた隊員証は、人間の欲望を増幅させる効果が\\nあったとか、なかったとか……。": {
+   "en": "$$カイメラ$$: the secret organization that steered the $$ＵＣＷ$$'s wars\nfrom the shadows. The ID badges its members wore were said to amplify\nhuman desire... or maybe not."
+  },
+  "破界事変の戦いを駆け抜けた戦士達の闘志を封じたと言われる幻の逸品。\\n破界の王によって次元獣にされた人達の怒りと嘆きを鎮めるために\\n作られたお守りとの説もある。": {
+   "en": "A fabled item said to hold the fighting spirit of the warriors\nof the $$破界事変$$. Some say it is a charm to soothe the rage\nand grief of people the $$破界の王$$ made $$次元獣$$s."
+  },
+  "再世戦争の末期、人々の世界の再生への願いを封じたと言われる幻の逸品。\\n自らの身命を賭して、民のために戦った皇子と彼を支えた人々の想いが\\n形を成したとの説もある。": {
+   "en": "A fabled item said to hold people's wishes for the world's rebirth\nlate in the $$再世戦争$$. Some say it is the feelings of a prince\nwho risked his life for his people, and of his supporters, given form."
+  },
+  "失われし聖王国インサラウムに代々伝わっていた秘宝の一つ。\\nキング・インサラウム一世の民への「愛」が形を成したと言われており、\\n持つ者に一度だけ大いなる力を与える。": {
+   "en": "One of the treasured heirlooms of the lost Holy Kingdom of $$インサラウム$$.\nSaid to be King $$インサラウム$$ I's \"love\" for his people given form,\nit grants its holder great power, but only once."
+  },
+  "聖インサラウム王国の次元化学の結晶の一つ。\\n使用者の意志や生命力をキーとして次元力を引き出し、搭乗する機体の武装を\\nパワーアップさせる。": {
+   "en": "One fruit of the Holy Kingdom of $$インサラウム$$'s dimensional science.\nKeyed to the user's will and life force, it draws $$次元力$$\nto power up the weapons of the unit they pilot."
+  },
+  "量子演算による統合戦術情報伝達ＡＩシステム。\\n周辺の友軍機は、本システムを装備した機体にリンクする事で、\\n的確な戦術指揮を受ける事が出来る。": {
+   "en": "Quantum-computing AI system for integrated tactical data relay.\nAllied units nearby that link to the unit equipped with it\nreceive precise tactical command."
+  },
+  "次元力の応用による万能修理・補給システム。\\n欠損パーツの補修や給弾などに対し、無から有を生み出す事により\\nあらゆるタイプのマシンへの対応を可能としている。": {
+   "en": "An all-purpose repair/resupply system applying $$次元力$$.\nIt makes something from nothing to fix lost parts, reload ammo, etc.,\nso it can handle every type of machine."
+  },
+  "防御行動に特化した自動操縦システム。\\nそのＡＩには、とある星系の非常に臆病な小動物の動きがデータ化されており、\\n人間の反射速度以上で最適な防御行動が選択される。": {
+   "en": "An autopilot system specialized in defensive actions.\nIts AI models a very timid small animal from a certain star system,\nand picks the best defense faster than human reflexes."
+  },
+  "移動距離に応じて資金が得られる報酬システム。\\n某星系での万歩計の歩数に応じて特典が得られるキャンペーンに\\n相乗りしたものであり、そのキャンペーンが終了すれば、効果を失ってしまう。": {
+   "en": "A reward system that pays out funds based on distance moved.\nIt piggybacks on a campaign in some star system that rewards pedometer\nstep counts, and stops working once that campaign ends."
+  },
+  "自分の受けた痛みを相手に味わわせる報復用システム。\\n某星系で多数の機動兵器に搭載されていたが、使い所が難しく、\\n加減を間違えて自滅する者が多数出たために廃止となった曰く付きの一品。": {
+   "en": "A retaliation system that makes the enemy feel the pain you took.\nFitted to many mobile weapons in some star system, it was hard to use,\nand was scrapped after many overdid it and self-destructed. Infamous."
+  },
+  "螺旋理論を全ての武装に無理矢理適用させるシステム。\\n螺旋理論の効用については現在も検証中であり、一部の研究者は、\\n威力の増大は搭乗者の男のロマンへの傾倒による心理的な効果と主張している。": {
+   "en": "A system that forcibly applies Spiral Theory to every weapon.\nIts effects are still under study, and some researchers claim\nthe boost is psychological, born of the pilot's love of manly romance."
+  },
+  "次元結晶による次元力抽出システム。\\n莫大なエネルギー量を得る事が出来るが、常に暴走の危機が付きまとうため、\\n搭乗者への精神的な負担は半端ではない。": {
+   "en": "A $$次元力$$ extraction system using dimensional crystals.\nIt yields vast energy, but the constant risk of it running wild\nputs an extreme mental strain on the pilot."
+  },
+  "極小エリアに次元震を発生させるシステム。\\n周辺の空間を歪ませ、様々な防御機構として利用できるが、\\n人によっては使用時に乗り物酔いに似た症状が出る事がある。": {
+   "en": "A system that creates a dimensional quake in a tiny area.\nIt warps the surrounding space for use in various defenses, but\nsome people get symptoms like motion sickness when using it."
+  },
+  "亜空間への突入・離脱を応用した移動補助システム。\\n並行世界間の移動ほどのエネルギーは必要としない、言わば疑似転移だが、\\nもしかしたら戻ってこられないかも知れないというスリルも味わえる。": {
+   "en": "A movement aid system based on entering and leaving subspace.\nA pseudo-warp that needs less energy than parallel-world travel,\nit also offers the thrill that you might never make it back."
+  },
+  "敵を倒した時に感じる高揚感を増幅させるシステム。\\n脳内の快楽物質の分泌を促進させるため、非常に気持ちよくなる。\\nそのため使用には、自分を律する強い気持ちが必要とされる。": {
+   "en": "A system that amplifies the elation felt when defeating an enemy.\nIt spurs the brain to release pleasure chemicals, so it feels great.\nUsing it therefore takes strong self-discipline."
+  },
+  "パートナーとの絆を強く感じる事が出来るシステム。\\n元々は倦怠期の夫婦の関係改善のために開発されたものだが、\\nありとあらゆる二人の関係に適用できると注目され、実用化の運びとなった。": {
+   "en": "A system that lets you strongly feel your bond with your partner.\nOriginally made to mend relations of married couples in a rut, it\nwas put into use when found to work for any pair of people at all."
+  },
+  "人間の生命力そのものから次元力を引き出すシステム。\\nただし、そのためには極限まで気力を高める必要があるため、\\n使用者にも相応の力が必要とされる。": {
+   "en": "A system that draws $$次元力$$ from human life force itself.\nHowever, it requires raising Morale to the very limit,\nso the user must have matching strength too."
+  },
+  "インサラウムの開発したＺＯＮＥを機体に搭載できるサイズに小型化したもの。\\nあらゆる場所に存在する次元力を引き出し、友軍全ての機体に効果を及ぼすが、\\n暴走の危険性があるので１度の出撃では１回しか使用できない。": {
+   "en": "The $$ＺＯＮＥ$$ developed by $$インサラウム$$, shrunk to fit on a mech.\nIt taps the $$次元力$$ found everywhere to affect all allies,\nbut it risks running wild, so it can be used only once per sortie."
+  },
+  "次元将ガイオウの身体データから作られた戦闘力強化システム。\\nパイロットの成長具合に応じて機体が強化されるが、使用限界を超えると\\n機体と強制的に融合させられ、恐ろしい結末を迎える事となる。": {
+   "en": "A combat booster built from $$次元将$$ $$ガイオウ$$'s body data.\nThe mech strengthens as the pilot grows, but past its usage limit,\nthe pilot is forcibly fused with the mech and meets a terrible end."
+  },
+  "次元結晶による次元力抽出システム。\\nエネルギーではなく弾薬の補充に使用されるが、使用法を誤ると\\n弾倉内で弾薬同士が衝突し、誘爆を起こすという危険性をはらんでいる。": {
+   "en": "A $$次元力$$ extraction system using dimensional crystals.\nIt replenishes ammo rather than energy, but if misused, rounds can\ncollide inside the magazine and set off a chain explosion."
+  },
+  "武器の発射エネルギーを超空間を通過させる事で射程を伸ばすシステム。\\n使用した武器の火線が途切れ、いきなり対象の手前に現れるため、\\nベテランパイロットほど、とまどいが強く、改善が望まれている。": {
+   "en": "A system that extends range by sending weapon fire via hyperspace.\nThe fire cuts out, then suddenly reappears just short of the target,\nwhich most confuses veteran pilots; improvements are hoped for."
+  },
+  "ＡＤＷにおいて戦乱の火付け役とされた、ある特殊部隊の隊員証。\\nＩＤカードとしての機能だけでなく、隊長である女性のファンクラブ会員証を\\n兼ねており、戦果に応じて様々な特典を受け取る事が出来た。": {
+   "en": "The ID of a special unit said to have sparked the wars of the $$ＡＤＷ$$.\nBesides serving as ID, it doubled as a fan club card for the unit's\nfemale captain, granting various perks based on combat results."
+  },
+  "人間のペルソナを解放するシステム。\\n仮面をかぶる事によって世間体や恥、照れから解放されて、普段は出せない自分を\\n出せるようになるが、真面目な人は外した後は反動で落ち込みやすくなる。": {
+   "en": "A system that releases a person's persona.\nBehind the mask, free of appearances, shame and shyness, you can show\nyour hidden self, but serious people often crash from the backlash."
+  },
+  "次元商人が使う古今東西のディメンションジョークを集めたもの。\\n広い範囲の人間を一気に和ませる事が出来るが、所詮は一発ギャグであり、\\n複数回の使用は逆に相手を怒らせるだけである。": {
+   "en": "A set of timeless Dimension Jokes used by dimensional merchants.\nIt can relax a whole crowd at once, but it's only a one-shot gag,\nso using it more than once will just make people angry."
+  },
+  "パイロットの強化養成を行ないます。": {
+   "en": "Train and improve the pilot."
+  },
+  "分岐シナリオへ行きます。": {
+   "en": "Proceed to the route split."
+  },
+  "※※未設定１": {
+   "en": "**Not Set 1"
+  },
+  "※※未設定２": {
+   "en": "**Not Set 2"
+  },
+  "※※未設定３": {
+   "en": "**Not Set 3"
+  },
+  "全属性のダメージを３０００軽減。\\n気力１３０以上で発動。\\n発動時、ＥＮを２０消費。": {
+   "en": "Reduces all-attribute damage by 3000.\nActivates at Morale 130+.\nCosts 20 EN to activate."
+  },
+  "全属性のダメージを１０００軽減。\\n気力１１０以上で発動。\\n発動時、ＥＮを１０消費。": {
+   "en": "Reduces all-attribute damage by 1000.\nActivates at Morale 110+.\nCosts 10 EN to activate."
+  },
+  "シモンとダヤッカの気力が１３０以上で、\\nグレンラガンの個別コマンドに「合体」が追加され、「合体」コマンドを選択すると\\nグレンラガンと超銀河ダイグレンが「超銀河グレンラガン」に合体します。": {
+   "en": "At Morale 130+ for $$シモン$$ and $$ダヤッカ$$, Combine is added to\n$$グレンラガン$$'s unit commands. Selecting it combines $$グレンラガン$$ and\n$$超銀河ダイグレン$$ into $$超銀河グレンラガン$$."
+  },
+  "相手武器の特殊効果「能力半減」「戦闘不能」「気力低下」\\n「ＳＰ低下」「ＥＮ▼」「運動性▼」「照準値▼」\\n「装甲値▼」「侵食」を無効化します。": {
+   "en": "Nullifies enemy weapon effects Stats Halved, Disabled,\nMorale Down, SP Down, EN Down, Mobility Down, Accuracy Down,\nArmor Down and Erosion."
+  },
+  "気力１３０以上、ニュータイプＬ５以上で発動し、\\nデストロイモードに変形可能になります。\\nデストロイモードの持続時間は５ターンです。": {
+   "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.\nDestroy Mode lasts 5 turns."
+  },
+  "気力１３０以上、ニュータイプＬ５以上で発動し、\\nデストロイモードに変形可能になります。\\n持続時間に制限はありません。": {
+   "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.\nThere is no limit on its duration."
+  },
+  "気力１００以上で発動し、\\n気力の上昇により機体の「照準値」「運動性」「装甲値」が上昇し、\\n最終与ダメージに補正が入ります。": {
+   "en": "Activates at Morale 100+;\nas Morale rises, the mech's Accuracy, Mobility and Armor rise,\nand a bonus applies to final damage dealt."
+  },
+  "全属性のダメージを１／１０にする。": {
+   "en": "Reduces all-attribute damage to 1/10."
+  },
+  "気力１３０以上になると搭乗者全員のエレメント能力が\\nヘッド（＝メインパイロット）に適用されます。": {
+   "en": "At Morale 130+, all boarded pilots' Element abilities\napply to the Head (main pilot)."
+  },
+  "気力１４０以上で「ジェミニオン・レイ」に変形可能になります。\\nジェミニオン・レイの持続時間に制限はありません。": {
+   "en": "At Morale 140+, can transform into $$ジェミニオン・レイ$$.\n$$ジェミニオン・レイ$$'s duration has no limit."
+  },
+  "気力１２０以上で「ジェニオン・ガイ」に変形可能になります。\\nジェニオン・ガイの持続時間に制限はありません。": {
+   "en": "At Morale 120+, can transform into $$ジェニオン・ガイ$$.\n$$ジェニオン・ガイ$$'s duration has no limit."
+  },
+  "ＺクリスタルのＧＲＡＤＥに応じた個別コマンド「Ｄコマンド」が使用できます。\\n「Ｄコマンド」は１ターンに１回のみ使用可能で、\\n各コマンドは１マップにつき１回のみの使用です。": {
+   "en": "Enables the unit command D-Command, based on the $$Ｚクリスタル$$'s GRADE.\nD-Commands can be used only once per turn,\nand each command only once per map."
+  },
+  "サテライトキャノン（通常兵器／マップ兵器）が使用可能になります。\\n出撃時のチャージ数は１で、サテライトキャノンを使うとチャージは０になります。\\n月のあるマップでは１ターン後、ないマップでは２ターン後に再チャージされます。": {
+   "en": "Enables the $$サテライトキャノン$$ (normal weapon / MAP weapon).\nIt has 1 charge at sortie; firing it drops the charge to 0.\nRecharge takes 1 turn on maps with a moon, 2 turns on maps without."
+  },
+  "サテライトキャノン（通常兵器／マップ兵器）が使用可能になります。\\n出撃時のチャージ数は１で、サテライトキャノンを使うとチャージは０になり\\n１ターン後に再チャージされます。": {
+   "en": "Enables the $$サテライトキャノン$$ (normal weapon / MAP weapon).\nIt has 1 charge at sortie; firing it drops the charge to 0,\nand it recharges after 1 turn."
+  },
+  "気力１３０以上で個別コマンド「月光蝶」が使用可能になります。\\n使用すると行動終了となり、自機から１０マス以内にいる敵ユニットの\\nＥＮが３００ダウンし、自機のＥＮが全回復します。": {
+   "en": "At Morale 130+, the unit command $$月光蝶$$ is enabled.\nUsing it ends the unit's action; enemy units within 10 tiles\nlose 300 EN, and the unit's own EN is fully restored."
+  },
+  "気力１３０以上で全ての武器がバリア貫通になり、\\nクリティカル率＋３０％、与ダメージが１．１倍になります。": {
+   "en": "At Morale 130+, all weapons gain Barrier Pierce,\ncritical rate +30%, and damage dealt x1.1."
+  },
+  "気力１５０以上で「いがみ合う双子」のスフィアが発動し、\\n全ての味方パイロットの技量がマップ終了まで\\n＋１０されます。": {
+   "en": "At Morale 150+, the Sphere of the $$いがみ合う双子$$\nactivates: all allied pilots get Skill +10\nuntil the end of the map."
+  },
+  "気力１５０以上で「傷だらけの獅子」のスフィアが発動し、\\n全ての味方パイロットの防御がマップ終了まで\\n＋１０されます。": {
+   "en": "At Morale 150+, the Sphere of the $$傷だらけの獅子$$\nactivates: all allied pilots get Defense +10\nuntil the end of the map."
+  },
+  "気力１５０以上で「悲しみの乙女」のスフィアが発動し、\\n全ての味方パイロットの回避がマップ終了まで\\n＋１０されます。": {
+   "en": "At Morale 150+, the Sphere of the $$悲しみの乙女$$\nactivates: all allied pilots get Evade +10\nuntil the end of the map."
+  },
+  "気力１５０以上で「揺れる天秤」のスフィアが発動し、\\n全ての味方パイロットの命中がマップ終了まで\\n＋１０されます。": {
+   "en": "At Morale 150+, the Sphere of the $$揺れる天秤$$\nactivates: all allied pilots get Hit +10\nuntil the end of the map."
+  },
+  "気力１４０以上で「欲深な金牛」のスフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\nＥＮが－４０されます。": {
+   "en": "At Morale 140+, the Sphere of the $$欲深な金牛$$\nactivates: at phase start, enemy units within 10 tiles\nlose 40 EN."
+  },
+  "気力１４０以上で「怨嗟の魔蠍」のスフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\n装甲値▼の効果を受けます。": {
+   "en": "At Morale 140+, the Sphere of the $$怨嗟の魔蠍$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Armor Down."
+  },
+  "気力１４０以上で「立ち上がる射手」のスフィアが発動し、\\n自機から１０マス以内にいる敵チームは\\n与ダメージが０．９倍になります。": {
+   "en": "At Morale 140+, the Sphere of the $$立ち上がる射手$$\nactivates: enemy teams within 10 tiles\ndeal x0.9 damage."
+  },
+  "気力１４０以上で「偽りの黒羊」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\n照準値▼の効果を受けます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$偽りの黒羊$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Accuracy Down."
+  },
+  "気力１４０以上で「欲深な金牛」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\nＥＮが－４０されます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$欲深な金牛$$\nactivates: at phase start, enemy units within 10 tiles\nlose 40 EN."
+  },
+  "気力１４０以上で「いがみ合う双子」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\n気力が－３されます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$いがみ合う双子$$\nactivates: at phase start, enemy units within 10 tiles\nlose 3 Morale."
+  },
+  "気力１４０以上で「沈黙の巨蟹」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\nＳＰが回復しません。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$沈黙の巨蟹$$\nactivates: at phase start, enemy units within 10 tiles\ndo not recover SP."
+  },
+  "気力１４０以上で「傷だらけの獅子」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\n現在のＨＰの１０％のダメージを受けます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$傷だらけの獅子$$\nactivates: at phase start, enemy units within 10 tiles\ntake damage equal to 10% of their current HP."
+  },
+  "気力１４０以上で「悲しみの乙女」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\nＳＰが－５されます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$悲しみの乙女$$\nactivates: at phase start, enemy units within 10 tiles\nlose 5 SP."
+  },
+  "気力１４０以上で「揺れる天秤」の擬似スフィアが発動し、\\n自機から１０マス以内にいる敵チームは\\n移動力が－３されます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$揺れる天秤$$\nactivates: enemy teams within 10 tiles\nget Move -3."
+  }
+ },
+ "report": {
+  "uncertain": [
+   "Part slots / 前詰め: 前詰め rendered 'move teams up (to fill empty slots)'; no prior English found for this command.",
+   "Pilot stats in the Stats Halved help: 格闘/射撃/命中/回避/防御/技量 = Melee, Ranged, Hit, Evade, Defense, Skill; mech 照準値 = Accuracy (matches the 'Accuracy Down' effect label), so pilot 命中 = Hit to avoid a clash.",
+   "Flavor text of D-Trader parts: several English lines run 63-68 characters (tokens expanded) against Japanese lines of 33-38 characters; may need trimming if the help box clips.",
+   "聖インサラウム王国の次元化学 (化学 'chemistry', likely a typo for 科学) rendered 'dimensional science'.",
+   "Crest of Rebirth text: 皇子 rendered 'a prince' (Lelouch is implied but not named).",
+   "※※未設定１-３ are placeholder strings; rendered '**Not Set 1-3'.",
+   "Sphere/pseudo-Sphere lines: 擬似スフィア = 'pseudo-Sphere' (as in rpw_names notes); Sphere names use glossary tokens, so the reused Jigoku line for 沈黙の巨蟹 ('Silent Crab') now differs from the token English 'Taciturn Crab'."
+  ],
+  "names": {}
+ }
+}

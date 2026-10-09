@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "rows": {
+  "気力１４０以上で「怨嗟の魔蠍」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\n装甲値▼の効果を受けます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$怨嗟の魔蠍$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Armor Down."
+  },
+  "気力１４０以上で「立ち上がる射手」の擬似スフィアが発動し、\\n自機から１０マス以内にいる敵チームは\\n与ダメージが０．９倍になります。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$立ち上がる射手$$\nactivates: enemy teams within 10 tiles\ndeal x0.9 damage."
+  },
+  "気力１４０以上で「知りたがる山羊」の擬似スフィアが発動し、\\n自機から１０マス以内にいる敵チームは\\n所持しているバリアが発動しません。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$知りたがる山羊$$\nactivates: enemy teams within 10 tiles\ncannot activate their barriers."
+  },
+  "気力１４０以上で「尽きぬ水瓶」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵チームは\\nＥＮが回復しません。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$尽きぬ水瓶$$\nactivates: at phase start, enemy teams within 10 tiles\ndo not recover EN."
+  },
+  "気力１４０以上で「夢見る双魚」の擬似スフィアが発動し、\\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\\n運動性▼の効果を受けます。": {
+   "en": "At Morale 140+, the pseudo-Sphere of the $$夢見る双魚$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Mobility Down."
+  },
+  "気力１３０以上、ニュータイプＬ５以上で発動し、\\nデストロイモードに変形可能になります。": {
+   "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode."
+  },
+  "スフィア搭載機が持つ特殊な能力です。\\n気力１５０以上で発動し、効果はスフィアごとに異なります。": {
+   "en": "A special ability of Sphere-equipped mechs.\nActivates at Morale 150+; effects vary by Sphere."
+  }
+ },
+ "report": {
+  "uncertain": [
+   "Glossary token 尽きぬ水瓶 expands to 'Inexhaustible Water Gourd' (misspelling of 'Inexhaustible' in the glossary itself); used the token as is.",
+   "擬似スフィア = 'pseudo-Sphere'."
+  ],
+  "names": {}
+ }
+}

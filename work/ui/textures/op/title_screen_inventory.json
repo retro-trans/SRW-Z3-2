@@ -1,0 +1,926 @@
+{
+  "schema": 1,
+  "archive": "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK",
+  "source": "LUACPK member 1 ScAnime_Z3TITLE_* constants + 1",
+  "runtime_verified": false,
+  "members": {
+    "229": {
+      "role": "title (logo, Z, backgrounds)",
+      "stored_sha256": "5f6d8d307e6b8e7e4704c048d07be030c9f49a17d79120a9c78e6de1c91d9277",
+      "gtf": "0x7c7d0",
+      "textures": [
+        {
+          "texture": 0,
+          "size": [
+            1280,
+            720
+          ],
+          "format": "0xa5",
+          "offset": "0x7cbd0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                1280,
+                720
+              ],
+              "records": 37
+            }
+          ]
+        },
+        {
+          "texture": 1,
+          "size": [
+            864,
+            304
+          ],
+          "format": "0xa5",
+          "offset": "0x400bd0",
+          "text": "Japanese",
+          "content": "main wordmark 第3次スーパーロボット大戦 (864x304)",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                861,
+                300
+              ],
+              "records": 428
+            }
+          ]
+        },
+        {
+          "texture": 2,
+          "size": [
+            536,
+            192
+          ],
+          "format": "0xa5",
+          "offset": "0x5013d0",
+          "text": "Japanese",
+          "content": "subtitle 天獄篇, one sprite (536x192)",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                536,
+                187
+              ],
+              "records": 832
+            }
+          ]
+        },
+        {
+          "texture": 4,
+          "size": [
+            424,
+            280
+          ],
+          "format": "0xa5",
+          "offset": "0x565cd0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                424,
+                278
+              ],
+              "records": 1206
+            }
+          ]
+        },
+        {
+          "texture": 5,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0x5d9bd0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                242
+              ],
+              "records": 828
+            }
+          ]
+        },
+        {
+          "texture": 6,
+          "size": [
+            1280,
+            720
+          ],
+          "format": "0xa5",
+          "offset": "0x62b1d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                1280,
+                720
+              ],
+              "records": 450
+            }
+          ]
+        },
+        {
+          "texture": 9,
+          "size": [
+            472,
+            56
+          ],
+          "format": "0xa5",
+          "offset": "0x9af3d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": []
+        },
+        {
+          "texture": 10,
+          "size": [
+            1280,
+            720
+          ],
+          "format": "0xa5",
+          "offset": "0x9c90d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": []
+        },
+        {
+          "texture": 12,
+          "size": [
+            648,
+            192
+          ],
+          "format": "0xa5",
+          "offset": "0xd4d1d0",
+          "text": "Japanese",
+          "content": "subtitle 天獄篇 cut into three per-character cells (648x192)",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                208,
+                192
+              ],
+              "records": 410
+            },
+            {
+              "rect": [
+                216,
+                0,
+                216,
+                192
+              ],
+              "records": 410
+            },
+            {
+              "rect": [
+                440,
+                0,
+                208,
+                192
+              ],
+              "records": 410
+            }
+          ]
+        },
+        {
+          "texture": 14,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xdc6ad0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                241
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 15,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xe180d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                241
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 16,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xe696d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                241
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 17,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xebacd0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                241
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 18,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xf0c2d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                241
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 19,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xf5d8d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                335,
+                241
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 20,
+          "size": [
+            336,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0xfaeed0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                334,
+                239
+              ],
+              "records": 6
+            }
+          ]
+        },
+        {
+          "texture": 21,
+          "size": [
+            568,
+            56
+          ],
+          "format": "0xa5",
+          "offset": "0x10004d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": []
+        },
+        {
+          "texture": 24,
+          "size": [
+            600,
+            672
+          ],
+          "format": "0xa5",
+          "offset": "0x101f7d0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                592,
+                544
+              ],
+              "records": 60
+            }
+          ]
+        }
+      ]
+    },
+    "230": {
+      "role": "PRESS ANY BUTTON",
+      "stored_sha256": "72ed6ef82eab812fdab707fc3e532f1ef7c19dcf77ae0bcd5eac1d415f823906",
+      "gtf": "0x9340",
+      "textures": [
+        {
+          "texture": 3,
+          "size": [
+            568,
+            168
+          ],
+          "format": "0xa5",
+          "offset": "0x9740",
+          "text": "English",
+          "content": "\"press any button\" (568x168)",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                555,
+                164
+              ],
+              "records": 329
+            }
+          ]
+        }
+      ]
+    },
+    "231": {
+      "role": "gears",
+      "stored_sha256": "cfcac4a1e6501fc59fcd96690a1e87fd4ade7e4287a39202bdfa3bb3c6067f01",
+      "gtf": "0x80270",
+      "textures": [
+        {
+          "texture": 25,
+          "size": [
+            384,
+            384
+          ],
+          "format": "0xa5",
+          "offset": "0x81f70",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                381,
+                379
+              ],
+              "records": 2322
+            }
+          ]
+        },
+        {
+          "texture": 26,
+          "size": [
+            248,
+            248
+          ],
+          "format": "0xa5",
+          "offset": "0x111f70",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                243,
+                242
+              ],
+              "records": 2322
+            }
+          ]
+        },
+        {
+          "texture": 27,
+          "size": [
+            232,
+            232
+          ],
+          "format": "0xa5",
+          "offset": "0x14e070",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                232,
+                232
+              ],
+              "records": 2322
+            }
+          ]
+        }
+      ]
+    },
+    "232": {
+      "role": "title menu + Library submenu",
+      "stored_sha256": "8df0398167ff540f499bc81c809163831806ecbd58989f0e2cdf8ff690e57a1a",
+      "gtf": "0x71c70",
+      "textures": [
+        {
+          "texture": 7,
+          "size": [
+            464,
+            368
+          ],
+          "format": "0xa5",
+          "offset": "0x726f0",
+          "text": "English",
+          "content": "Start / Load / Continue / Library / Download / PlayStation Store",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                144,
+                56
+              ],
+              "records": 60
+            },
+            {
+              "rect": [
+                0,
+                64,
+                144,
+                48
+              ],
+              "records": 59
+            },
+            {
+              "rect": [
+                0,
+                120,
+                232,
+                56
+              ],
+              "records": 59
+            },
+            {
+              "rect": [
+                0,
+                184,
+                200,
+                48
+              ],
+              "records": 74
+            },
+            {
+              "rect": [
+                0,
+                240,
+                256,
+                56
+              ],
+              "records": 59
+            },
+            {
+              "rect": [
+                0,
+                296,
+                456,
+                64
+              ],
+              "records": 59
+            }
+          ]
+        },
+        {
+          "texture": 8,
+          "size": [
+            464,
+            368
+          ],
+          "format": "0xa5",
+          "offset": "0x1192f0",
+          "text": "English",
+          "content": "same menu, highlighted state",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                144,
+                56
+              ],
+              "records": 389
+            },
+            {
+              "rect": [
+                0,
+                64,
+                144,
+                48
+              ],
+              "records": 390
+            },
+            {
+              "rect": [
+                0,
+                120,
+                232,
+                56
+              ],
+              "records": 390
+            },
+            {
+              "rect": [
+                0,
+                184,
+                200,
+                48
+              ],
+              "records": 376
+            },
+            {
+              "rect": [
+                0,
+                240,
+                256,
+                56
+              ],
+              "records": 390
+            },
+            {
+              "rect": [
+                0,
+                304,
+                456,
+                48
+              ],
+              "records": 390
+            },
+            {
+              "rect": [
+                161,
+                0,
+                29,
+                31
+              ],
+              "records": 450
+            }
+          ]
+        },
+        {
+          "texture": 9,
+          "size": [
+            472,
+            56
+          ],
+          "format": "0xa5",
+          "offset": "0x1bfef0",
+          "text": null,
+          "content": null,
+          "sprite_rects": []
+        },
+        {
+          "texture": 11,
+          "size": [
+            352,
+            304
+          ],
+          "format": "0xa5",
+          "offset": "0x1d9cf0",
+          "text": "Japanese",
+          "content": "Library submenu: ロボット大図鑑 / キャラクター事典 / 用語事典 / サウンドセレクト / シナリオチャート",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                312,
+                64
+              ],
+              "records": 321
+            },
+            {
+              "rect": [
+                0,
+                64,
+                351,
+                56
+              ],
+              "records": 322
+            },
+            {
+              "rect": [
+                0,
+                120,
+                192,
+                64
+              ],
+              "records": 322
+            },
+            {
+              "rect": [
+                0,
+                184,
+                344,
+                56
+              ],
+              "records": 322
+            },
+            {
+              "rect": [
+                0,
+                248,
+                344,
+                48
+              ],
+              "records": 323
+            }
+          ]
+        },
+        {
+          "texture": 13,
+          "size": [
+            352,
+            304
+          ],
+          "format": "0xa5",
+          "offset": "0x2425f0",
+          "text": "Japanese",
+          "content": "Library submenu, second state",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                7,
+                311,
+                48
+              ],
+              "records": 60
+            },
+            {
+              "rect": [
+                0,
+                63,
+                350,
+                55
+              ],
+              "records": 59
+            },
+            {
+              "rect": [
+                0,
+                118,
+                191,
+                65
+              ],
+              "records": 59
+            },
+            {
+              "rect": [
+                0,
+                183,
+                343,
+                56
+              ],
+              "records": 59
+            },
+            {
+              "rect": [
+                0,
+                247,
+                343,
+                48
+              ],
+              "records": 59
+            }
+          ]
+        },
+        {
+          "texture": 21,
+          "size": [
+            568,
+            56
+          ],
+          "format": "0xa5",
+          "offset": "0x2ab4f0",
+          "text": null,
+          "content": null,
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                568,
+                50
+              ],
+              "records": 981
+            }
+          ]
+        },
+        {
+          "texture": 22,
+          "size": [
+            464,
+            368
+          ],
+          "format": "0xa5",
+          "offset": "0x2ca5f0",
+          "text": "English",
+          "content": "same menu, third state",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                0,
+                143,
+                55
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                62,
+                135,
+                49
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                127,
+                232,
+                48
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                175,
+                199,
+                64
+              ],
+              "records": 30
+            },
+            {
+              "rect": [
+                0,
+                239,
+                255,
+                56
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                303,
+                454,
+                48
+              ],
+              "records": 20
+            }
+          ]
+        },
+        {
+          "texture": 23,
+          "size": [
+            352,
+            304
+          ],
+          "format": "0xa5",
+          "offset": "0x3711f0",
+          "text": "Japanese",
+          "content": "Library submenu, third state",
+          "sprite_rects": [
+            {
+              "rect": [
+                0,
+                7,
+                311,
+                48
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                63,
+                350,
+                56
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                119,
+                183,
+                64
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                183,
+                343,
+                56
+              ],
+              "records": 20
+            },
+            {
+              "rect": [
+                0,
+                247,
+                343,
+                48
+              ],
+              "records": 20
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

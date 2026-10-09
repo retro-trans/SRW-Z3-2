@@ -1,0 +1,718 @@
+{
+  "schema": 1,
+  "group": "g192",
+  "blocks": [
+    192
+  ],
+  "speaker": {
+    "token": "ネオ・リアクター",
+    "jigoku_pilot": "F.S. (Fog Sweeper) with Commander Tanaka",
+    "jigoku_unit": "Dragon's Hive (ドラゴンズハイヴ)",
+    "fraction": 0.011,
+    "basis": "settled 2026-10-02 from fresh-translation review: Says it is a Neo Reactor who controls the Spheres, names the Reactors of the twelve Spheres, serves a 'master' (Advent); Jigoku's Dragon's Hive / Fog Sweeper is wrong",
+    "proposed_by_v_g192_00": {
+      "token": "$$ネオ・リアクター$$",
+      "basis": "Says it is a Neo Reactor who controls the Spheres, names the Reactors of the twelve Spheres, serves a 'master' (Advent); Jigoku's Dragon's Hive / Fog Sweeper is wrong"
+    },
+    "proposed_by_v_g192_01": {
+      "token": "$$ネオ・リアクター$$",
+      "basis": "Same set as v_g192_00: Neo Reactor controlling the Spheres, serves a 'master' (Advent), chants Salus; Jigoku's Dragon's Hive / Fog Sweeper is wrong"
+    },
+    "jigoku_token": "田中司令"
+  },
+  "lines": {
+    "192:0": {
+      "repository_source_sha256": "86d416aa41783657a704945a379447a9841c1463e0b29a3cc0a3e5c5191b3b7a",
+      "en": "「I am a $$ネオ・リアクター$$.\\nA being that controls the $$スフィア$$s.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:53": {
+      "repository_source_sha256": "1190a0500b9b9737636f2188f44858d03f194f796b36599c59e22ac0b422eb19",
+      "en": "「I am the $$スフィア$$s' rightful owner.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:86": {
+      "repository_source_sha256": "997dcde362322b4ee9a35403529174b118111e2901072a17dcafde34c3d7be06",
+      "en": "「I act on my master's command.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:111": {
+      "repository_source_sha256": "d3c30aef0cf81111fb49a679777e3d0567309d108100c47733aac5ed0106551a",
+      "en": "「I only eliminate mission obstacles.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:140": {
+      "repository_source_sha256": "0a9e9aec2fd6130759ea47c6e92b8c64e8ff0df01eef0f1a75d802b3707fe7d2",
+      "en": "「I am the $$偽りの黒羊$$ Reactor.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:171": {
+      "repository_source_sha256": "d7e7f0e813e8f968bf39f34df0566ec73ac9911d8affd226da9a9d1ad5c65a50",
+      "en": "「I am the $$いがみ合う双子$$ Reactor.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:206": {
+      "repository_source_sha256": "f67d846516f6972742d279f7f31e067b5ae525e05f16f514df161013a796106d",
+      "en": "「I am the $$傷だらけの獅子$$ Reactor.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:241": {
+      "repository_source_sha256": "64a0de0d88cfa061873e16d2808d3b02ea549e73c233f837bd32c897d791d2f0",
+      "en": "「I am the $$揺れる天秤$$ Reactor.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:272": {
+      "repository_source_sha256": "8530ba725f054f9430b7f5d483becd8dc3e3af83006e8e51ec748b365b41ac95",
+      "en": "「I am the $$立ち上がる射手$$ Reactor.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:307": {
+      "repository_source_sha256": "e0bc012a6283f4e6b2524c6ba2c45592db71e67a9f69536b4a8e724bbac3b7bc",
+      "en": "「I am the $$尽きぬ水瓶$$ Reactor.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:338": {
+      "repository_source_sha256": "e52a2497fa369f37cef18f2b9543250344eb2beb0964bb9bfea1c269bdd13d2c",
+      "en": "「Purifying.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:351": {
+      "repository_source_sha256": "154e5d8b5f94ed2c5cfcec906d239a7d795827b8a0d771349b0dc0b23e1201b5",
+      "en": "「Annihilating.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:364": {
+      "repository_source_sha256": "ee48ebc5c9bed4727ebbb744f18fb28c56f5bbe4c2a6475f54bc060b8e6337d2",
+      "en": "「Destroying.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:377": {
+      "repository_source_sha256": "950e73949b665f5b4885d3ea84ada39171126c0312fb58d9bb773148ac2dc2d4",
+      "en": "「Eliminating.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:390": {
+      "repository_source_sha256": "d3aec8e10487cb87d30a20025187d0f7c686fea947c0defd271d5cfa73d029fd",
+      "en": "「Intercepting.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:403": {
+      "repository_source_sha256": "da91d2fe536f4175314a942e3ef02825f736e8cd7ac202e97d38dbf1d8084438",
+      "en": "「Attacking.」",
+      "source": "jigoku",
+      "slots": [
+        "attack"
+      ],
+      "alternatives": [
+        "Attacking!",
+        "Initiating attack."
+      ],
+      "review": "conflict"
+    },
+    "192:416": {
+      "repository_source_sha256": "acab3838d0764dc330f1dab246285c2eab3ad5df584f8e1163501381025417a5",
+      "en": "「Erasing.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:429": {
+      "repository_source_sha256": "4f906a7806678931bcae9c899e71cb3ec489cc011c4e93707a50103fe1716a82",
+      "en": "「Exterminating.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:442": {
+      "repository_source_sha256": "2b0913add44f428a84eaa5b372568360e129ecb13a7f8fcf7f06f09308df7c0b",
+      "en": "「Culling.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:455": {
+      "repository_source_sha256": "a6ef0be55a0d710542b4e807698d263ec8daa67099cf0aa9355639528d7fab3e",
+      "en": "「Removing.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:468": {
+      "repository_source_sha256": "4322e7959753e3a8ee6bc87ea1cfdc7377fc5218defcca8001514e090fce215d",
+      "en": "「Weeding out.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:481": {
+      "repository_source_sha256": "2b68860dbf5dd26fcb54c331186a09e1aa53555f02c36ed3006767fbf02b9348",
+      "en": "「Negating.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:494": {
+      "repository_source_sha256": "9588dc191edb474bafa61216afb40471e96d661b11d4c8a04411814929c40bae",
+      "en": "「Continued attack deemed possible.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:517": {
+      "repository_source_sha256": "607f3140be86bb25cc140213951812f460bd10507bff955f4a3a08851907da2c",
+      "en": "「I cull the beast's blood.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:538": {
+      "repository_source_sha256": "9f1df795b9e40fe373e7aef4e0742fffc06505a5ab7a31bc72ddd78756da21cf",
+      "en": "「I negate the mingling of waters.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:563": {
+      "repository_source_sha256": "33d863d7d9603b128340d2ce546fa26d7de572e5afd82bb396b6c37e9ffce647",
+      "en": "「I purify the wind's destination.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:588": {
+      "repository_source_sha256": "fb4b4df826ee64d5976168c2e4aab70fe0678e7d1a284b48ba5f40e0e7e7d212",
+      "en": "「I erase the civilization of fire.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:611": {
+      "repository_source_sha256": "165e9c87ad3d06f4c02317bf7b28ad8da47b6433f6cf8536d7b4013c24112dfd",
+      "en": "「I eliminate the $$ゲッター線$$.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:636": {
+      "repository_source_sha256": "39878a7289e399e7d44bae5cf31c67adfb9405528fca2aa05da04747c4c0dc90",
+      "en": "「I negate the power of feelings.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:659": {
+      "repository_source_sha256": "8a3206a39ae4af70e152675853b800428b80561559a7ea3cc81bfd2dd13106d0",
+      "en": "「I annihilate the power of life.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:682": {
+      "repository_source_sha256": "7bd2c6ba0e34a397e8436ed9f053c53e785040406453f635338446f3e6b5b756",
+      "en": "「I erase the $$特異点$$.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:703": {
+      "repository_source_sha256": "b8bb00523a5e1a7a707aa9664772e52a54b506c9a8cacfa53f666d6600aae3c8",
+      "en": "「I cull the $$異能生存体$$.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:728": {
+      "repository_source_sha256": "e1ea6134ab33f3e805994dcfe845641e0b744163b2cc8402393ceb5859e35e86",
+      "en": "「...In any case, I will destroy it.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:751": {
+      "repository_source_sha256": "2e5326964ffccd48de11f628e1b4c240511702dbfc5653b239170ed338aeaca2",
+      "en": "「Offer the $$スフィア$$s up to my master.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:776": {
+      "repository_source_sha256": "0d3b616fb1cdc2a455813b7591516e626736758b186f7515543149ba04b84ce6",
+      "en": "「You are not that $$スフィア$$'s owner.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:815": {
+      "repository_source_sha256": "3fd2651d3c79d51c5e33ad250cf394e19f57a177b4ddd414bd1f5f23019806e3",
+      "en": "「$$傷だらけの獅子$$...\\nThat $$スフィア$$ is mine.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:866": {
+      "repository_source_sha256": "3eb101c5eb99f9bc73415a806b392d1404ecacb1896aeeefccc1d584a250c78a",
+      "en": "「$$揺れる天秤$$... The $$スフィア$$ is mine.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:909": {
+      "repository_source_sha256": "3398cce27e86fe16851c2cab9404711726edb63c1b3f1e7c4b27150a99e959e7",
+      "en": "「$$いがみ合う双子$$...\\nThat $$スフィア$$ is mine.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:960": {
+      "repository_source_sha256": "af2be48f78c43f66e5272f11b0d3987ddfeec213409050f03f45ebe12185ddc0",
+      "en": "「Be reborn.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:977": {
+      "repository_source_sha256": "1e38057143d764ab07ccac1e8bfeb7c14478699a2a428bb3d3731bb191ea5d04",
+      "en": "「Vanish from this world.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:996": {
+      "repository_source_sha256": "eae3c8740bdb9e7bd8accfa0a3e3b546656a1a9cba74cf68ce678530125b375e",
+      "en": "「Return to the void.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1013": {
+      "repository_source_sha256": "52d432c3d48a67754104e88400689cd1cf652e6da363546e230a2cab2c29a18a",
+      "en": "「Return to the cycle of rebirth.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1030": {
+      "repository_source_sha256": "acce4baf40d702a83ca83d8e43bf5fdff52c59dddb991f816e4a935049a04b42",
+      "en": "「One who has received God's grace...」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1055": {
+      "repository_source_sha256": "02a1484f16bc03d8d714832b13e568a2654909e7c069d039c69f26aaf5940197",
+      "en": "「That is what I am.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1074": {
+      "repository_source_sha256": "2234c266a5b5bea2983e00943c54f32459b6a60767fac8ce2fd8c5e0450a88ab",
+      "en": "「Atone for your worldly sins, fool.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1101": {
+      "repository_source_sha256": "6fd1b45be325d2178223419015f55441d9c2a9cf9ea0f20bb37ca408f61c8b92",
+      "en": "「I will assist you in that.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1122": {
+      "repository_source_sha256": "2819905b2157009f1398d821caa77e95f01eae4cd0293ffc2ac6a1d729bfcd09",
+      "en": "「Time to atone for your sins.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1143": {
+      "repository_source_sha256": "e0af982a4ebb09002551ff4ae01fb074a229df5d2ca1269280eaae48a47485e6",
+      "en": "「Chant it! Salus!」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1166": {
+      "repository_source_sha256": "d0b890d82e26aad6af8eeabc3fe5d9c71565f5b8d4ab2ceedac31a261c2861bc",
+      "en": "「Switching to counterattack.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1185": {
+      "repository_source_sha256": "c63782fd90839ab31c300b8dc3ed927ef015c6add6e0154b079b8ae57b60ad73",
+      "en": "「I start with the enemy who attacked.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1216": {
+      "repository_source_sha256": "34496c60f922f19d3c3734fff2af008218121aa85fb6e361cb359078f9e32335",
+      "en": "「As my master commands.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1235": {
+      "repository_source_sha256": "6f08455fb820c7df5f32b374f1905819e08f126bf6c286486b4f152de9146186",
+      "en": "「Thanks for revealing your position.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1276": {
+      "repository_source_sha256": "5930f69a0be4f3821a517b8f3a92baf2f502ffcd5c381183b1baa14763725761",
+      "en": "「I'll cover you.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack",
+        "support defense (cover)"
+      ]
+    },
+    "192:1289": {
+      "repository_source_sha256": "e296d2dc0be97ecee7b622e0be922bf087d14c0d5b2c4408b9ad76caae4acf75",
+      "en": "「All for my master and this world.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1322": {
+      "repository_source_sha256": "afe30f3328b4fb6b6c8915a235b87a1a9040872674d2fbf2263a67f052eb135d",
+      "en": "「Carrying out the mission.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1341": {
+      "repository_source_sha256": "5d89887819961bed1eca4d1c0161cd325488e6da9e24f4ab76009884a4d363fd",
+      "en": "「That is my mission.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1362": {
+      "repository_source_sha256": "61e4c842155408c47880153ac9ff5bdfad8a1fec1d2be66d3cc15f3d0b3b35ac",
+      "en": "「Can't counter. Checking situation.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1387": {
+      "repository_source_sha256": "f04d2cca0ad2b9288c99b33b8e07e65cd4b3fa037dec6495bfed0ec755e2b92b",
+      "en": "「Can't counter from this position.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1422": {
+      "repository_source_sha256": "ea50edb4ecae83f8f1e621ebe8705bb633699df137aea3381286cee535cb2213",
+      "en": "「Evasion successful.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "192:1435": {
+      "repository_source_sha256": "f2e882852221e9ba1fa265ffbc7d262e08c8e5f4dea3c221d8537aad03f3e07d",
+      "en": "「That was an attack?」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1454": {
+      "repository_source_sha256": "321d7d2665d232c2a5e0fa3d53a85914e6405d9966af8d0fdc02b9f0cdd56337",
+      "en": "「The result is as projected.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1473": {
+      "repository_source_sha256": "49c45d38960bd26a62fde3cee1e90dea6fef2b27fffaa1357efdff12cf0fbe87",
+      "en": "「All was decided by my master.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1498": {
+      "repository_source_sha256": "51bb67f7e60f7ef0791fd142d148505c788893f6d7dd68a148a90a074be94575",
+      "en": "「Attack nullification successful.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ],
+      "alternatives": [
+        "Attack successfully nullified."
+      ],
+      "review": "conflict"
+    },
+    "192:1521": {
+      "repository_source_sha256": "0a6cb35949131c5f7520940f2fa7e66236bf970949015a93771f97d3f58558e1",
+      "en": "「A pointless act.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "192:1540": {
+      "repository_source_sha256": "3bc51fa704f073e88113aa466dfb1cea109d95e55554064d612c3ed436cc760c",
+      "en": "「Damage is minimal.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Minor damage."
+      ],
+      "review": "conflict"
+    },
+    "192:1553": {
+      "repository_source_sha256": "593f99215daa56a64d92587033a05f8bcf4e21cb35410a929ba68bc788b3cca2",
+      "en": "「No hindrance to the mission.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1572": {
+      "repository_source_sha256": "4ceffa599529bff72f2b587f1c9fe8bc63101373736040b4f419d452c2d8ae18",
+      "en": "「No threat detected.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1595": {
+      "repository_source_sha256": "886d6450b4683d6d271e57338b8b2ab1f12f9b7b5c13bcf83b781e097e875821",
+      "en": "「Danger level is extremely low.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1620": {
+      "repository_source_sha256": "3d97d75075014d6106b6cdc76bf5eea8580997097a8dfef8367a9c37a63f2655",
+      "en": "「Increased danger level confirmed.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1643": {
+      "repository_source_sha256": "9635a14a8553a7b6a7d4668d0cdcbf5ee0023ed956b8fe95ed07cb9c2ca4fc84",
+      "en": "「Damage warrants caution.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1668": {
+      "repository_source_sha256": "5cd061ca19b7b22e9b1e58555b872b36fc1382895f76b1f6f9b5086779f2dd42",
+      "en": "「Why resist? Why struggle?」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1701": {
+      "repository_source_sha256": "a0a3981d5e942ee3da1d41889d8ead6ed7f88ada5faae977dd25f87a783de8b9",
+      "en": "「An incomprehensible power.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:1720": {
+      "repository_source_sha256": "5a74218b8425777f3a68a414f73d49e279cae1f650fc19a2333af2e803ef52e4",
+      "en": "「Zero damage. Mission can continue.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1757": {
+      "repository_source_sha256": "e3280d2b837f050be55c21fc5e6242c361f4d19297cc6fe51991857ba0720fe7",
+      "en": "「A dead dog's left ear. Behind the hollow bullet.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1796": {
+      "repository_source_sha256": "bfeeda25a2ad6e844f8d1f608b7e754e62d828c6b52bb16d1faf39ee35b54a09",
+      "en": "「A towering giant's brain. Deep in the galaxy's abyss.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1839": {
+      "repository_source_sha256": "7dcd670ef4f9b2b56ac15b53a16a3e72d300bb05082da98b468e5b09910a75a0",
+      "en": "「Keh heh...\\nAruhatori Baunirusamusesu Samuseso」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1892": {
+      "repository_source_sha256": "80cdba822580c9df498f4ae1161bc079bdb441859010e6c94aee952273ac025d",
+      "en": "「Hope and despair... Beyond them.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1925": {
+      "repository_source_sha256": "1a0752f215eaa29f1b726ede76b37dbc68429b581f30316a579ca8c369e1464b",
+      "en": "「Resignation and rage... Beyond them.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1958": {
+      "repository_source_sha256": "b7d6e75917078bd15e4f1c1be708b15f2b996b355f850b17257855c375df86f3",
+      "en": "「To live, or to die...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:1989": {
+      "repository_source_sha256": "4eb9b4561e4e6776a3775bb4eb0593d5beaeb14a75cec1fd5c9c881cbddc8e22",
+      "en": "「Yin and yang... Good and evil... Man and woman...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2018": {
+      "repository_source_sha256": "fb1824d184193707bb72bd85c0a46c1eb22523e14e7421512c4a0217d7ffccb4",
+      "en": "「I will not lose to pain.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2041": {
+      "repository_source_sha256": "75af8be2bac6ae52b454cbe1cc25f0c6613f9c9e923389cdc827a12ada3089e4",
+      "en": "「This pain cannot break my heart.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2074": {
+      "repository_source_sha256": "fbbcad1713e27dfade38211c881c0f89873c43421f72d4efefda2d330f56e843",
+      "en": "「I will endure pain and suffering.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2105": {
+      "repository_source_sha256": "742d795c3d28dadf3173257ed35c67ca8216d10ffb1bce12bda17d861d2a1f73",
+      "en": "「I will overcome this crisis too.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2136": {
+      "repository_source_sha256": "ccf2cb66248880e04e2cb557861c2448f340d5b5485bbe0cf37465353e8f5431",
+      "en": "「My will does not break.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2159": {
+      "repository_source_sha256": "24ed635916cb8ada3cda048a564f1794acf2bf75d30eab70970b0f831b04fa39",
+      "en": "「The scales' fulcrum does not sway.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2184": {
+      "repository_source_sha256": "e1ea90d36c964e573e1be619234117f32793d2d2296c69c3d187a5cfbb194d40",
+      "en": "「I think only of completing my mission.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2221": {
+      "repository_source_sha256": "9c9911f2e37f115dcef7cb359755996cead29d6e6dc451b06a3b1ca1de543d8a",
+      "en": "「My will pierces everything.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2246": {
+      "repository_source_sha256": "27de3acdcbe0599bac89d6d17ae94c639e14e35eb458468a1269d867fa27045b",
+      "en": "「I will rebel.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2263": {
+      "repository_source_sha256": "ca69661b15c9a89ac7f8f25764d8949ba8d7fb44fa4d5d900d19dc00b51fdbf7",
+      "en": "「I will not obey.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2280": {
+      "repository_source_sha256": "62bcc2713e3790e631c58024f72f59070273ff5a3bb5e98757b95bbc1951e5bb",
+      "en": "「I will keep resisting.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2301": {
+      "repository_source_sha256": "57df0c0b9ff30a9f68a211a7b8dba325db7aa6e4ad83b02752e5cd84372036e0",
+      "en": "「I will overcome adversity.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2326": {
+      "repository_source_sha256": "132de456ca96d3d278b54b20310ee0df3ad9f3731ec64c716f1084f9290f7e66",
+      "en": "「My love is infinite.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2345": {
+      "repository_source_sha256": "04d1358d1d6016b0b53bff668895334abde999f42a2af5db57cd4a7a66e65c45",
+      "en": "「My love is inexhaustible.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2364": {
+      "repository_source_sha256": "f66d879036d579694f5be0696d147c00a84ea5c28e149eda5453f1e920b3f15e",
+      "en": "「Love's power will save the world.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2387": {
+      "repository_source_sha256": "8ab8a347cb7e6b4d8ffefbe18f85106d9b92f0adae653d26cd083a01ed4a9c9a",
+      "en": "「I want to teach you love's wonder.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2426": {
+      "repository_source_sha256": "4ffa05d4f1c3aca022d6b695c4b8ce97cb6bf0b7f8b3400242fe4e35c1af7a09",
+      "en": "「This is the heat of beast blood...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2455": {
+      "repository_source_sha256": "f4bae9376c4fd4e3438c9a62ae6529952f6ebaf1bb8d184f255edd537fd4b631",
+      "en": "「This is the kindness of mingled waters...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2490": {
+      "repository_source_sha256": "30c9ab069c3c695a90aa3368973a830aae5c19ef7012a7f9f3d1ddd323d0ce15",
+      "en": "「This is the courage that sets the wind's course...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2525": {
+      "repository_source_sha256": "65761f9742171564b39aa393ba60fbfc4f6590bf4ec1e75cb379b103370e568e",
+      "en": "「This is the possibility the civilization of fire leads to...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2558": {
+      "repository_source_sha256": "4ee5696f2b5f984c1f1919084953754e4c6021cd7979cc2fce612f74e779740a",
+      "en": "「This is the true power of the $$傷だらけの獅子$$...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2593": {
+      "repository_source_sha256": "43b06f0e298349826a0a1781d0f8a289a369effb4466bcbe54ce488280607b2a",
+      "en": "「This is the true power of the $$揺れる天秤$$...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2624": {
+      "repository_source_sha256": "47a176303b352b39366de418baef2f2be56a2ff4a2908e4d1c2afd534e62247c",
+      "en": "「This is the true power of the $$いがみ合う双子$$...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2659": {
+      "repository_source_sha256": "22ded7bb1c84714ec4cafefda19abfe943973847f35d2a869d639c9ea5810de9",
+      "en": "「Situation incomprehensible. Requesting my master's judgment.」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2694": {
+      "repository_source_sha256": "671f56275e0ecf52131ea68f93079aabd38e23f52bb4282076895d3b5619295d",
+      "en": "「Earthling power... beyond estimates.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:2723": {
+      "repository_source_sha256": "ea68f965d1210a2c3b87e05c6a8f9e8f16b31413cac1f19a62f37439065502d6",
+      "en": "「Severe damage. Tactics need review.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:2764": {
+      "repository_source_sha256": "71325a9dae1317ed3254b44f371973e00e23ece2895a30493409152430e3ae04",
+      "en": "「I obey my master. Mission engaged.」",
+      "source": "new",
+      "slice": "v_g192_01"
+    },
+    "192:2801": {
+      "repository_source_sha256": "fd55dd9ea8043d5c76be775d720e598e0f9aa11aa3d0ec217bc6aa50d9cfe6a8",
+      "en": "「Salus!」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2816": {
+      "repository_source_sha256": "f34d6a40426c1ed779ad6ede86d12bf4ae3d18de9d578c6129a02985fd6de055",
+      "en": "「Mission failed...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2839": {
+      "repository_source_sha256": "eac036a295b58be4de908b0f6185ada8d1e187d6208456e5d166f8a3699421c6",
+      "en": "「My lord... What was I... for...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    },
+    "192:2868": {
+      "repository_source_sha256": "f104f16132b1ec5657379462dcef73da6d27b55db2a5d527efb5440b80b0f4b3",
+      "en": "「I am a $$ネオ・リアクター$$...\\nI am the $$スフィア$$s' rightful...」",
+      "source": "new",
+      "slice": "v_g192_00"
+    }
+  }
+}

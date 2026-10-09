@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "slice": "dlg_2039_05",
+  "rows": {
+    "283:t_108:0": {
+      "sha": "255fd4027b",
+      "en": "$$タケル$$\n「This Unknown... Is it acting with a will of its own, not out of destructive impulse...?」"
+    },
+    "283:t_108:1": {
+      "sha": "d208fd2f5e",
+      "en": "$$タケル$$\n「I can't pick up its thoughts...! If I take in this overwhelming amount of information, my brain will burst...!」"
+    },
+    "283:t_109:0": {
+      "sha": "9aa9d0ba79",
+      "en": "$$チコ$$\n「M-my head hurts...! What is this...!?」"
+    },
+    "283:t_109:1": {
+      "sha": "04c59b2d97",
+      "en": "$$チコ$$\n「Is this... these things' doing!? What on earth is this!?」"
+    },
+    "283:t_110:0": {
+      "sha": "7e0bb118f5",
+      "en": "$$刹那$$\n(An overwhelming torrent of consciousness... My own consciousness is being swallowed up...!)"
+    },
+    "283:t_110:1": {
+      "sha": "c3af8f262a",
+      "en": "$$刹那$$\n(What is this...!? What are these things... what on earth are they...!?)"
+    },
+    "283:t_111:0": {
+      "sha": "a807a64853",
+      "en": "$$レド$$\n「$$バアル$$... I can't let these things do as they please with the universe... with humankind...!」"
+    },
+    "283:t_111:1": {
+      "sha": "89eebdc7d5",
+      "en": "$$チェインバー#pilot$$\n「Eliminating species hostile to humanity is a top-priority strategy for the $$人類銀河同盟$$ as well.」"
+    },
+    "283:t_111:2": {
+      "sha": "febbf5c516",
+      "en": "$$レド$$\n(I won't think about the Alliance now... What I have to do is protect the people who matter to me...!)"
+    },
+    "283:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
+  },
+  "names": {},
+  "report": {
+    "rows_in_slice": 10,
+    "rows_examined": 10,
+    "left_untranslated": [],
+    "kept_omissions": [],
+    "uncertain": [
+      "Thought rows (283:t_110:0/1, t_111:2) written as (...) with no bracket quotes, matching the Japanese.",
+      "283:t_111:1: 人類銀河同盟 rendered with its token; Ledo's 同盟 in the next row = 'the Alliance'.",
+      "283:t_109:1: こいつ等 rendered 'these things' (the Unknowns).",
+      "283:t_111:0: バアル left as bare token (no 《》 link); Ledo identifies the Unknowns as Baal, consistent with earlier slices."
+    ]
+  }
+}

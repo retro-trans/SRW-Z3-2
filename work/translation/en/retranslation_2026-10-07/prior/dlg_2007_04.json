@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "slice": "dlg_2007_04",
+  "rows": {
+    "46:t_102:4": {"sha": "4f8706afcf",
+      "en": "$$ジェフリー$$\n「We'll bring the hammer down on the outlaws terrorizing this sea! Alright, men, weigh anchor!」"},
+    "46:t_102:5": {"sha": "848a6a1085",
+      "en": "$$ボビー$$\n「OK, Boss!」"},
+    "46:t_103:0": {"sha": "dd88c053b4",
+      "en": "$$ガロード$$\n「Are you ready, $$パーラ$$!」"},
+    "46:t_103:1": {"sha": "fae56bc323",
+      "en": "$$パーラ$$\n「Anytime! Let's wrap this up fast and get back to our dear $$ティファ$$!」"},
+    "46:t_103:2": {"sha": "85757d9e6b",
+      "en": "$$ガロード$$\n「Yeah! I'm doing this for $$ティファ$$, too!」"},
+    "46:t_103:3": {"sha": "4858873329",
+      "en": "$$パーラ$$\n「...Geez, could you at least act a little embarrassed...」"},
+    "46:t_999:0": {"sha": "c55adac948",
+      "en": "$n\n「Ah!」"}
+  },
+  "names": {},
+  "report": {"rows_in_slice": 7, "rows_examined": 7, "left_untranslated": [],
+             "kept_omissions": [],
+             "uncertain": ["46:t_102:5 Bobby's ボス: rendered plain 'Boss' (Jeffrey is addressed) instead of Jigoku's $$ボス$$ token, which is the Mazinger character's name; output reads the same.", "46:t_102:4 イカリ read as 'anchor'; 'weigh anchor' chosen."]}
+}

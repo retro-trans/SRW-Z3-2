@@ -1,0 +1,1559 @@
+{
+  "schema": 1,
+  "group": "g067",
+  "blocks": [
+    67
+  ],
+  "speaker": {
+    "token": "オットー・ミタス",
+    "jigoku_pilot": null,
+    "jigoku_unit": "Nahel Argama",
+    "fraction": 0.978,
+    "basis": "settled 2026-10-02 from fresh-translation review: Nahel Argama bridge set; new rows are the captain's attack lines (Federation officer, resistance, possibility). Jigoku: unit only, same ship",
+    "proposed_by_v_mix_01": {
+      "token": "$$オットー・ミタス$$",
+      "basis": "Nahel Argama bridge set; new rows are the captain's attack lines (Federation officer, resistance, possibility). Jigoku: unit only, same ship"
+    },
+    "jigoku_token": null
+  },
+  "lines": {
+    "67:0": {
+      "repository_source_sha256": "22b6c92404928fc14401ca69bb5960e9ec7b5dc9b299a46377ce59cba8f3116f",
+      "en": "「The enemy attack missed us!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "The enemy's attack missed!"
+      ],
+      "review": "same-speaker"
+    },
+    "67:29": {
+      "repository_source_sha256": "6d807eab27e60f5a7a0bbf68fbf1563717703b2a513a355e6990342a8b595a32",
+      "en": "「Catapult hit! Damage is minor!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:66": {
+      "repository_source_sha256": "f03d4f7552474e81e15fb3506b05126f2abef4c141288143279a77d74824f242",
+      "en": "「Mobile suit deck hit! Fire!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Mobile suit deck hit! Fire aboard!"
+      ],
+      "review": "same-speaker"
+    },
+    "67:109": {
+      "repository_source_sha256": "65afcacbc01bb17e66d45412ddeb4f8d48ba483e0b37666c4c105f0e69a9574f",
+      "en": "「All hands, prepare to attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:138": {
+      "repository_source_sha256": "a169d471f321e5bd92fe87e58047a5650fd00873b6fb3b38cbe1f4ac6e2c5734",
+      "en": "「Enemy closing at high speed!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:175": {
+      "repository_source_sha256": "3a6a893f37d83d0611045a8f6ddc4ca0a0d0832629de91d4c6f80e2b5d9fc8bc",
+      "en": "「Lead unit closing\\nat triple speed!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:224": {
+      "repository_source_sha256": "4fa933d2817730f4c162146caacbae1786d2774e45bc7acf84f9237447587859",
+      "en": "「Captain! That approaching unit...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:255": {
+      "repository_source_sha256": "b1d8a5d1005984165d3f5cf1a9f03aea96c4e08bdcf275d58ca7076d0efe3e1d",
+      "en": "「Y-yes! Understood!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:286": {
+      "repository_source_sha256": "681ba22483ebdbeced4fd9466b4963143e6dadede89c64ca96d1a725024ae0ee",
+      "en": "「Understood! Notifying all hands!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:321": {
+      "repository_source_sha256": "3d17ac4246d8332707b846b30be64669b1674347664514c2dddde1c0151afbb9",
+      "en": "「Save done. Quit the game, Captain?」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:374": {
+      "repository_source_sha256": "91d79a0ad0eb12d021687a2c7add42f6bbef41f0834243d7a7a61044123e35d5",
+      "en": "「Yes, Captain!」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:391": {
+      "repository_source_sha256": "e0d83f8e12d0a29120ef401482e9311395fb871977e501fb1ca096a03318752b",
+      "en": "「Engine section hit! Fire!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:422": {
+      "repository_source_sha256": "5023b6db6eca6b16a5c2d0ab648e685892b56afdbc5ba6bd9f7ef50d0ad624c9",
+      "en": "「All right, now's our chance!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:447": {
+      "repository_source_sha256": "e5f13cc22d4835711c2a988b0b5e4b7c6dec9ed8e25a9e7b91f7af4f7630e5cb",
+      "en": "「All batteries, aim carefully!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:476": {
+      "repository_source_sha256": "a4f6d10cdf0b23eb0b11c632700aae73260434d720d3b2267240500c856b3b33",
+      "en": "「Concentrate your fire!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:499": {
+      "repository_source_sha256": "b00392f32c0cb7bacf6c92ca1e9932092d315b2a382debedd1d6ee3bdb48f4dd",
+      "en": "「We'll blast a path through!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:526": {
+      "repository_source_sha256": "29e2af292b12f3f85ac02706c8b4dc3702baa3fe54a552e50ca0c1f7f060d732",
+      "en": "「Everyone, give it all you've got!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:555": {
+      "repository_source_sha256": "ad7f1a1122534fc3dd7093bd9657ae53b36714eee8d1f8a47d6b1de849787e7b",
+      "en": "「Don't waste shots! Finish them off!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:598": {
+      "repository_source_sha256": "06946d031b7a975cb7e85ee30dd0641dd17b6f85b04535b626a06899d1ab814c",
+      "en": "「Put up a barrage! Make it thick!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:629": {
+      "repository_source_sha256": "3f57df26f95883c124f69f8c7a6c1570f6498153c745e28ded34ccd659cb5302",
+      "en": "「Clear allies from our line of fire!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:662": {
+      "repository_source_sha256": "e05ba7e339af751f7df16082fd2624a9f5ca44ea4b4250f0f3db17610881f07a",
+      "en": "「I'm counting on you! This is it!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:693": {
+      "repository_source_sha256": "e4117f41298dee536d9a2ffed8fabbb1a386e0a94afb259fc1be8b5d9b84768f",
+      "en": "「Stay calm! Deal with it first!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:730": {
+      "repository_source_sha256": "c5f349eb10a352fa8d4357193446142992e58e0c4d5b35e96dfb093323ef27a6",
+      "en": "「Don't let them escape! Attack again!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "67:769": {
+      "repository_source_sha256": "491dd363313c47430a408a45bf36249e17bfc9754c5a1e95bc499e6b24f3f968",
+      "en": "「This ship will open fire again!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "67:800": {
+      "repository_source_sha256": "47e8b4ac7c48c2860a03ae0acfa37b88571f70ac1ec371d93cda4b999244aae3",
+      "en": "「$$ニュータイプ$$, enhanced human - no matter!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:843": {
+      "repository_source_sha256": "c55781e0f9d6a919d804d8de00b8be0df0713bdb5845fb407b392202651ee9a8",
+      "en": "「Drop $$ハマーン$$,\\nand turn the tide!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:892": {
+      "repository_source_sha256": "1095e6fe6917e73ccceb2fc8fdf90057556545b209483186e4bd3be2807fb3be",
+      "en": "「Don't let $$ネオ・ジオン$$ invade!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:925": {
+      "repository_source_sha256": "03715f6bf24f8da70981d82aa48c6c9faeed2c5425e020ad3418069061ed8b31",
+      "en": "「Don't let $$ネオ・ジオン$$ have their way!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:962": {
+      "repository_source_sha256": "5f00fc3b4e716fe98bc6c0e2b24685ca743203f6d83d3af47e4d2ab37365e89b",
+      "en": "「It's our duty to take them down!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:995": {
+      "repository_source_sha256": "525058b612b19151b1b1fe0263427ae57f9465eaed8efc9ce180b79f3967620f",
+      "en": "「$$一年戦争$$ is over.\\nMake them see!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1044": {
+      "repository_source_sha256": "dfa2f9ade032e6f5862f83491571cece9e59a1fbee8ed14fc9da0150f26856ee",
+      "en": "「Concentrate all fire on $$フロンタル$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1081": {
+      "repository_source_sha256": "66f830899e6f60f2346bdcebbf26eeac8b110dc54a35e507f3b9ed0086f4f183",
+      "en": "「Turn the $$赤い彗星$$ into stardust!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1116": {
+      "repository_source_sha256": "00ccd5052a206bc95c212e65010fd17ac4a7bedccb91302d21f3f44732279cc4",
+      "en": "「Our target is the $$ガランシェール$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1145": {
+      "repository_source_sha256": "2f01bd0a31b9775f01e5f9d4986e8bdd25957a421279fc3f6f7bd850fb80da25",
+      "en": "「We'll crush the $$袖付き$$ here!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1172": {
+      "repository_source_sha256": "bbcf3a85f47e4104af4bd0019ff8656b84b658b23786cf16ec832e44c5182ec3",
+      "en": "「Target the $$レウルーラ$$ first!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1203": {
+      "repository_source_sha256": "cb251f2a7127fba2e72f6e70509ca1e838c8ae811404c0d15f6b7d54730f81d7",
+      "en": "「The enemy ship is our target!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1226": {
+      "repository_source_sha256": "eeef31f5abe69ee3648a0cdbb169d1386e44adca37133411c869c7a24c46bb9e",
+      "en": "「Crush the enemy chain of command!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1253": {
+      "repository_source_sha256": "4cb56eed3910fb7f8a5dc8d42831dde97d8cfd31f1695b945ef44fc833fe9c4a",
+      "en": "「Don't let that mobile armor through!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1284": {
+      "repository_source_sha256": "fa677ae2f7ea7dc62b5f21955958d1be6ce46e044449a73dd75074673b18634b",
+      "en": "「Small craft closing\\nmeans trouble!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1337": {
+      "repository_source_sha256": "3c46643cd61bc970c097ec04f2416d358d2b3901dbec8f8ad22bda6b51ed153c",
+      "en": "「Don't flinch, even against aliens!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1366": {
+      "repository_source_sha256": "ae721775eda5066992710882cddb166c3b162e97cc0ad96682623936d9388edd",
+      "en": "「Show those monsters no mercy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1399": {
+      "repository_source_sha256": "6f3c592fb9f90687701aef349c9724569958e9631a1a2ad5d8f56aca09054413",
+      "en": "「If they pass us, Earth's finished!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1440": {
+      "repository_source_sha256": "01d92b7ad2f1c6e9e0f242b20f6139982fb143ad833bb9c5b691b3c295fe735f",
+      "en": "「Protecting humanity is our duty too!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1473": {
+      "repository_source_sha256": "7745a4c05567eb3aed6b5aa94382c917800e52e399edddc5fa7c495dd60edc9f",
+      "en": "「We must protect Earth's future!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1516": {
+      "repository_source_sha256": "c8a6edb308a3e14272d1f36c9f95a95b2e22d03fd2830dcbe9a8160d1e9bedd9",
+      "en": "「Why must we fight this battle?」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1555": {
+      "repository_source_sha256": "01c1cfefc3535a4f1f7d8aa0d64f799286af1052a540a3058eb29f9216e9a2e1",
+      "en": "「All batteries,\\navoid their cockpits!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1606": {
+      "repository_source_sha256": "1a4c119ede25ca9e3d54da70aa2e5c678b78bcd7b9742bd16859b9fed943333e",
+      "en": "「I won't entertain that logic!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1649": {
+      "repository_source_sha256": "956ff4794a7000d25f12d8187dc772821a879e103fc1f93205f1e3320a31cacc",
+      "en": "「All hands, rally! Our final battle!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1692": {
+      "repository_source_sha256": "734eddbd673322db57ad1be74609518f74c66c52fef1c269727417e4097cf327",
+      "en": "「I fight you as a Federation soldier!」",
+      "source": "new",
+      "slice": "v_mix_01"
+    },
+    "67:1735": {
+      "repository_source_sha256": "5669c676e33e571de6256023273c872ebcd060fd5b3ca73a2115a5716d3c4994",
+      "en": "「We've really settled into\\nbeing the resistance...!」",
+      "source": "new",
+      "slice": "v_mix_01"
+    },
+    "67:1790": {
+      "repository_source_sha256": "c87bfb9fd03651a887d257ab28ac4f432fc8e7b69c2d7b7e4dc253b9601a4a02",
+      "en": "「We surely have the right to carve\\nout our own fate with our own hands!」",
+      "source": "new",
+      "slice": "v_mix_01"
+    },
+    "67:1855": {
+      "repository_source_sha256": "7657db3214e116efa56c6716d9e217e9c7a74fd0a5b661d25e79234aab7120f8",
+      "en": "「You will be defeated by\\nthe possibility humanity holds!」",
+      "source": "new",
+      "slice": "v_mix_01"
+    },
+    "67:1914": {
+      "repository_source_sha256": "35d36b5ce9bb032b707ad74947614cc0434537f223e45b346f3e85254d84566d",
+      "en": "「The $$赤い彗星$$ is coming! Then...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1949": {
+      "repository_source_sha256": "a850c48dd84177f19f8b13a5bf0786025eba57080f4d790edf6483d96cca0c91",
+      "en": "「I know! Alert every battery!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:1990": {
+      "repository_source_sha256": "7ab93e482e8c3b7587178fb0ccc49baeb8f516eeacb3eed15b0978d36866ece2",
+      "en": "「All batteries, fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "67:2013": {
+      "repository_source_sha256": "eda86c65be5e5d17fa246082b0cf5ff2efd63740756a8f9683d8712451873f7c",
+      "en": "「Anti-Air Machine Gun, sweep fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "67:2038": {
+      "repository_source_sha256": "9274f7ca53c9302cb896255f56572898f1eddf646e49cbc30c401c2e612aa453",
+      "en": "「Hurry the anti-air defenses!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "Hurry with anti-air defense!"
+      ],
+      "review": "same-speaker"
+    },
+    "67:2059": {
+      "repository_source_sha256": "7ff319d9901ecccdee6dc84571cb8ccd7225a52c20bfbe8a86ee7c408b74c982",
+      "en": "「Intercept enemies nearing this ship!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "67:2092": {
+      "repository_source_sha256": "bde2782ed7d2c9ba79b810fb155df77a006c3e0a59102f58b315e3f03f66fbb3",
+      "en": "「Mega Particle Cannon, fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "67:2119": {
+      "repository_source_sha256": "f51d66bbe79c161734907be7b64d8b69824cab144336ff07c9d55580ff5558b4",
+      "en": "「Fire the Mega Particle Cannon!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "67:2142": {
+      "repository_source_sha256": "27d4c4d7ee01bfabe5fb9dfae0a0e14c32f56ce29d4ebd560db45c6c0981f0dd",
+      "en": "「Main Mega Particle Cannon, fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "67:2173": {
+      "repository_source_sha256": "5b78046f9917376c960c715c2355db738ff140b39071148887cc1c4e80d88bf5",
+      "en": "「Main guns, fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "Main gun, fire!",
+        "Main cannon, fire!"
+      ],
+      "review": "same-speaker"
+    },
+    "67:2190": {
+      "repository_source_sha256": "d04e2215c7b1f7426ae9b41499c1dfc43e325ada1c1193975c098a761dd3710c",
+      "en": "「Return fire immediately!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "67:2211": {
+      "repository_source_sha256": "95060c132ef6d4e85b613501438df959b48f88564c07d5b297020d1b7a4cc375",
+      "en": "「Counterattack! Hurry!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "67:2232": {
+      "repository_source_sha256": "33cd1086975a670fb32b6acb4362e9fd712f24aedc75bece7341d53f3d2f6380",
+      "en": "「Batteries, don't let them escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "67:2257": {
+      "repository_source_sha256": "0758947d18f2568190af1be07fe9c4491d0074797ba3944f74e3bb530d7d4b7c",
+      "en": "「We can't end this without payback!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "67:2290": {
+      "repository_source_sha256": "9d28f8c08ee48a4bf0ac2f53a0709fe56b57acd878f24f28499029936fc05e81",
+      "en": "「Pursue!\\nMaximum battle speed!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "67:2339": {
+      "repository_source_sha256": "bfc8a9b41ff6e950bed0ea2c4a9bc403197738533a881a01d7bcffc58068437e",
+      "en": "「This is our chance to finish them!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "67:2370": {
+      "repository_source_sha256": "97efacbdccd811c096eb8e02621742ff6060802b75ee3aee8fba180d2ef91568",
+      "en": "「Follow our allies with a barrage!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2395": {
+      "repository_source_sha256": "0885d994858a099b11746e8fef18b9e48b2d174b307db6bd893eb98f429e9709",
+      "en": "「This ship will join the attack!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2420": {
+      "repository_source_sha256": "673bf8182da8ab02b52a0b1e75345754b26942b6a2dd61656bd8dd93a5d0477d",
+      "en": "「We'll follow the Captain!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2445": {
+      "repository_source_sha256": "14f9d6dee881d0568b45ee920da8af95532b87ecbf108e57c4755bdda2f9ff73",
+      "en": "「Don't waste the Lieutenant's effort!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2476": {
+      "repository_source_sha256": "8bf3c9ec074d45defe2a26fa48eb485a497589e12a42a4d4c2e6a0c4439b53a2",
+      "en": "「Cover the Ensign!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2503": {
+      "repository_source_sha256": "3b3097ebbd9d3c8720e3e24294ed733b7b761286832855f383d413c43915362f",
+      "en": "「We'll support $$バナージ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2530": {
+      "repository_source_sha256": "20779dce7ab56d6d707c4f91043e6dfaf80ed1214ab3263017f1e86e17bfcc8f",
+      "en": "「That's the spirit, Ensign $$リディ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2559": {
+      "repository_source_sha256": "6c0aa16f03d1a590c2d54a762fc7068c6fea99afdade9d4870b95d80e48499d3",
+      "en": "「Coordinate with the $$ラー・カイラム$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2592": {
+      "repository_source_sha256": "12a8aa58ae7dd80baaa537038dd8e5fcc50afe59a27d29e5eb5ba9a39291d5b0",
+      "en": "「So this is the $$赤い彗星$$'s skill!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2627": {
+      "repository_source_sha256": "23fc6730e280e142922c6b65e2f9e631048f4442b1aae4d4f3921be89c9ddb19",
+      "en": "「$$カミーユ$$ opened a gap for us!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2666": {
+      "repository_source_sha256": "895e7ff8f74264e8229e24fd40308c07f40ea159732843be27b7c3673ac65633",
+      "en": "「The Gundam's as reliable as ever!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "67:2703": {
+      "repository_source_sha256": "b25ca385ce77ba7b191bbd55b71dbf31b2f704d0bffbaeb4f56beb1cc126ba2a",
+      "en": "「This ship will be your shield!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2724": {
+      "repository_source_sha256": "5ca41914c0bb9d3d4edcc8e448830e5b4df6fd0d651f61ac3a96b4a3d1ce9d9c",
+      "en": "「Move the $$ネェル・アーガマ$$ forward!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2759": {
+      "repository_source_sha256": "315e15f5c8414d44c3627312eec7ab3ebc08726665350b866acdea4b8c094c79",
+      "en": "「We won't let the Captain die!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2784": {
+      "repository_source_sha256": "fd72b9060ecebddbf3d040f9dc17ca69bea3095844f5c03a94d81503bd167a83",
+      "en": "「Lieutenant, fall back behind us!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2809": {
+      "repository_source_sha256": "958ff4b184a13f8269a965983b9b77f3d4699650752a9e7fbcb0fe0e909bb8ba",
+      "en": "「We'll support the Ensign!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2844": {
+      "repository_source_sha256": "1eab8371a53ecfcf9c433df63b3374a56696f5c1913b83120f556918ed67529e",
+      "en": "「Order $$バナージ$$ to fall back!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2871": {
+      "repository_source_sha256": "472c0a4006774ea3152be47b6edce122301ed9d715ffa9c02b37d95a0a1d3d28",
+      "en": "「Tell Ensign $$リディ$$ to calm down!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2906": {
+      "repository_source_sha256": "b190d7fbd9c7d67be68101693c6c906c4f6bc89fe5c2fb2681aae294258b0af9",
+      "en": "「Don't lose $$ロンド・ベル$$'s flagship!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2943": {
+      "repository_source_sha256": "3ca578f7d4a7762e42810e9964d9071b1598ab63f56bd29b9a894c36f5cd2e7e",
+      "en": "「The $$赤い彗星$$ must not fall yet!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:2980": {
+      "repository_source_sha256": "86aa07f4df4655a5ccf8e12c9f6425346d081db74e558a469085b9cf74ec4d7c",
+      "en": "「This time, we'll protect $$カミーユ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:3017": {
+      "repository_source_sha256": "f1c53f4aeb00671328242d6337eb3baa4935a40d643f30688406d59ec3400f55",
+      "en": "「The Gundam is everyone's hope!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "67:3050": {
+      "repository_source_sha256": "ee8ac1236e84c9fd08554c337104394f02cd1a04faa02831d5e0adf00df22a9e",
+      "en": "「Must we give up the counterattack?」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "67:3081": {
+      "repository_source_sha256": "e1d7d62631a3a475e0ce4b7c4562f9640e991752fa8b76ae0964acff611e5cb3",
+      "en": "「They completely outplayed us!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "67:3112": {
+      "repository_source_sha256": "0cd47f08b3370db281dcb50ae6855c662b92301834b8ddde80616c2c77345ca5",
+      "en": "「Can't resupply\\nright away, either!」",
+      "source": "jigoku",
+      "slots": [
+        "out of EN/ammo"
+      ]
+    },
+    "67:3165": {
+      "repository_source_sha256": "0481dfc67c32d4b1be20e3d98c924cb162006a33b2a9aa4db67fefcc378f9d62",
+      "en": "「An attack from beyond our range?!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "67:3192": {
+      "repository_source_sha256": "85319e365fc4acc9cfe8fe680e4f60a2bf9990fbce0a2321a9ac37b15e68c867",
+      "en": "「Attacking us from that position?!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ],
+      "alternatives": [
+        "They can attack from there...?!",
+        "Attacking from that position...?!"
+      ],
+      "review": "same-speaker"
+    },
+    "67:3229": {
+      "repository_source_sha256": "5ff793a5b7660fa3a56a5a10b53c7e441f700aafafa839a5fb61eb217c2252d5",
+      "en": "「All right! That's good movement!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3256": {
+      "repository_source_sha256": "901c267419b6ae2aeb280583d4fddceb84c337cd7ec2f56525408a9ed3b95d25",
+      "en": "「Maintain our current speed!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3289": {
+      "repository_source_sha256": "e4904f8cc7639d6a556954cac1cae0129548c92677abecf62342d23b0366c22a",
+      "en": "「Evasive action! Keep it quick!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3324": {
+      "repository_source_sha256": "31fc7d71b9cac5c16c2c69564dbe43d92ed71fb5f3407b621e6b19e3f7e2ad84",
+      "en": "「Hold starboard! Turn to 2 o'clock!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3357": {
+      "repository_source_sha256": "f5978adc88387faedd12af39ba70506e6db1423cff505df5e60339f7ec748a48",
+      "en": "「Avoid needless damage!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3384": {
+      "repository_source_sha256": "3bf5e46ff365e088dbaa98f6afef4bee096be5a6b0a16bbaf4a24846550f7093",
+      "en": "「They must be panicking over there.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3419": {
+      "repository_source_sha256": "319624b41465c9f51ee4b66390df2e1be0097e1c40e448be64905451d4958d30",
+      "en": "「Good! Momentum is on our side!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:3454": {
+      "repository_source_sha256": "73af886da81889642c7bca42919a9a4e0c3dd9e45e27c0fa2970aca10a5de0cd",
+      "en": "「Even $$フロンタル$$ won't have their way!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "67:3493": {
+      "repository_source_sha256": "f2669924f1cf004a845ea0aeb9fc932e2a8fe4cc15cb5e9ef0131e6379e19622",
+      "en": "「Whatever the $$袖付き$$ may try!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "67:3520": {
+      "repository_source_sha256": "bda6586675c1c692d9d2e09735f3623af7f5afb237a174c5633ec1689b80ae41",
+      "en": "「$$ネオ・ジオン$$ won't get the better of us!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "67:3555": {
+      "repository_source_sha256": "c3f1b4c82de7af3e17bef6850dcc6cf5efec08363fe14c2de4f96449ed8869e0",
+      "en": "「We know $$ネオ・ジオン$$'s tactics!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "67:3598": {
+      "repository_source_sha256": "70d97d161b8d8205fa9747ebd9c1b65132e1723ffc5bdd4b78b6eecde2fd9006",
+      "en": "「They'll resist to the bitter end?!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "67:3635": {
+      "repository_source_sha256": "7c7bb8d9bc1da68c4d2d79271c9e00038a96bf33c0d8f86f899dfab63ba84df5",
+      "en": "「Block it with the field!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "67:3664": {
+      "repository_source_sha256": "bd86d02eb781448bf8d20bdcb457066a189b8b18a999a26e760701788f40ab2a",
+      "en": "「What a futile thing to do!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "67:3691": {
+      "repository_source_sha256": "184c109f861a52584d034ce6f831bcdff8a1fdebe92635f3a35ed4f04b92a783",
+      "en": "「This is nothing to us!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3720": {
+      "repository_source_sha256": "d5f6ac82f8a86d326575281adcdfc4d61a41d53f9c486f0242486f93b7d59ed2",
+      "en": "「All batteries, thicken the barrage!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3749": {
+      "repository_source_sha256": "e5ee9fb4af36f8b2780b1af095f242c04c371a1a3153683201886d04824daa38",
+      "en": "「Seal damaged areas with bulkheads!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3780": {
+      "repository_source_sha256": "30fcedd46667112688f461bc069b33dd4d57fa7fdd681b21d229def95af0c16b",
+      "en": "「Anti-air! Keep the enemy away!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3817": {
+      "repository_source_sha256": "5f091d36be8c687950a64e6240e3e7bb0e55aa5f0498a997ac52c1f1bfd663ac",
+      "en": "「Evasive action, faster!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3846": {
+      "repository_source_sha256": "c7415acbe27477078856e0b64d4fe1d21d6fd733e33dd3e963dd4680295f538b",
+      "en": "「We're lucky it wasn't a direct hit!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3883": {
+      "repository_source_sha256": "2e8ba545a7d9d76af3b70ed714cf22135bef426e13fc7dd2ace96de514c6cab6",
+      "en": "「Ignore minor damage!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:3910": {
+      "repository_source_sha256": "af1bcf83eb879e480b7bc4efc2aa43469ca91076dd9314ce6f1409f3d8ea674d",
+      "en": "「Anti-air! What are you doing?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:3943": {
+      "repository_source_sha256": "8820220bb25527acd9d61e06b609598b7207ad74d0268a49ea6d2f9637463b7e",
+      "en": "「Our barrage is too thin! Thicken it!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:3982": {
+      "repository_source_sha256": "cc1ba3bea7913758f93aeb174716ca7f9eed7e16dce8b20a0c5204f674430472",
+      "en": "「Damn! Intercept system, auto-fire!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:4017": {
+      "repository_source_sha256": "3fbbe552df739d9c7504b8a0809b59acd3390cbf4e2671cd6794b0b6b5641d5e",
+      "en": "「They're putting up quite a fight!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:4050": {
+      "repository_source_sha256": "e5ae5b23517bb55783433f92b72580cce0a2dbca4240bb29ccfa88e42c70e259",
+      "en": "「Batteries! Keep them at a distance!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:4093": {
+      "repository_source_sha256": "a2d61f19c0f709c451b3ed4737f1318fafc919196a1e3854bbde8e76deb36343",
+      "en": "「The $$ネェル・アーガマ$$ won't fall yet!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:4132": {
+      "repository_source_sha256": "8f0ecd07128c656f7ff0fa0a91a301b7d1f9895bf9b4c19097283ce5aec50766",
+      "en": "「Send fire crews to the damage zone!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:4167": {
+      "repository_source_sha256": "b160b683530e66b10209ebbf9ae26fe62f52d611762fe3878d7eddd202d84648",
+      "en": "「Report critical damage first!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:4206": {
+      "repository_source_sha256": "75ce429ce5377d2cc591e9478631c9063a50244570d8fbab90fc388c2fc08901",
+      "en": "「$$フロンタル$$! How dare you run wild!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "67:4249": {
+      "repository_source_sha256": "98995c7f1d2d1c2230c383f6eec7220efc908cf1eb025761cca324e0b0583d84",
+      "en": "「Damn $$袖付き$$! They've done it now!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "67:4280": {
+      "repository_source_sha256": "c7cb1764c6f14962bdd48d760bbc7bf2f473bd32d3f71b047177b4c25b904353",
+      "en": "「$$ネオ・ジオン$$! You still mean to resist?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "67:4321": {
+      "repository_source_sha256": "8e20ea37258263fb2ce18209b5cf7e121dbe5fe964f0492edcff2a17a982f6de",
+      "en": "「This is $$ネオ・ジオン$$'s hidden strength?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "67:4356": {
+      "repository_source_sha256": "0aa565b74647b2cfef53b5dfe57c46941403e72b4d79d017357f6a3857efefa6",
+      "en": "「Their resolve is overwhelming us?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "67:4391": {
+      "repository_source_sha256": "99fd9c93c00d84a8ed585e6036fe07de6dfe80b7be96020bf8db117131872e4a",
+      "en": "「How can they toy with us like this?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4428": {
+      "repository_source_sha256": "4dae9a68e4cb5d18fb4030a40b0e96117d0f951719b45e487b6f4fbf116979bd",
+      "en": "「Damn! Send damage control crews!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4467": {
+      "repository_source_sha256": "46f5f1a2ca8f2af922d035f35efe6d1372b0ebe2a1dc13bd615e2b389ba8d7ef",
+      "en": "「They're desperate, but so are we!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4506": {
+      "repository_source_sha256": "25af545d10238e64c8768802ecc6524f0e176199616a28abfd436a8e2726b74e",
+      "en": "「We won't last long! But not yet!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4547": {
+      "repository_source_sha256": "5e95073306720b0d0d0341f6e36c71c9788fce27bb461c88f707e436362c87a0",
+      "en": "「Don't fall yet! Endure to the end!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4586": {
+      "repository_source_sha256": "f6719e1ac46370bda489455c1ffcc68ee6d3e5efaaed67f8148574c6f76d8198",
+      "en": "「Don't fall, $$ネェル・アーガマ$$...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4623": {
+      "repository_source_sha256": "bbede925d17e10d28b1ca84d4b0f263ac8783fa7ae1b37d9fb0e02798239ecb8",
+      "en": "「Send fire crews and keep us going!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4658": {
+      "repository_source_sha256": "bd7498452a44007890827e482220e58eafa50a1801c3259b967e0dea6411a607",
+      "en": "「All hands! Give your all to the end!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:4699": {
+      "repository_source_sha256": "f2a9570893547d14bb32a61e81214d2ae1e27b57e6da9147b89971e02e61a72c",
+      "en": "「No good! All hands, abandon ship!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "67:4734": {
+      "repository_source_sha256": "5ada9ef46094721328d307a2fb8323bd5b946091b23eddca5fb5465fa0acc5fa",
+      "en": "「Is this the end?! What a disgrace!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "67:4767": {
+      "repository_source_sha256": "c1bb98aa080fd5940e3dc7d300ef0818c36f9ac8ecb453a9518d9011f221de5f",
+      "en": "「The $$ネェル・アーガマ$$ is going down?!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "67:4802": {
+      "repository_source_sha256": "19e21e29f698e93206e56092b46d4e6c0fa9a5de6c86f021476e62cdca23cae3",
+      "en": "「All hands! Battle stations ready?!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:4839": {
+      "repository_source_sha256": "a940ef35dfff738a8dda68a1fa323ab140cd8245501366beea64cdc063b2be54",
+      "en": "「Hurry! Signal all batteries!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:4862": {
+      "repository_source_sha256": "900acb63cd51b4f3cd06f6926e8c4bb5c0707352f9eef7b113a89ab9c291c5f6",
+      "en": "「All right! Commence the attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:4893": {
+      "repository_source_sha256": "136f394bb36588b13f30c641561e554f2d22917cb3333fec18654c584e7dd020",
+      "en": "「A Gundam! Take it down at any cost!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:4932": {
+      "repository_source_sha256": "bc12722da19f70a952f714e76e2f2b12e9d468118b596f978eea935d9c028026",
+      "en": "「Luck is part of skill!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:4955": {
+      "repository_source_sha256": "cadec65e923abc721eb2563dfc7be05f774a3fa6c821ddcf2a547a3c8eb7cb25",
+      "en": "「The system activated!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "67:4982": {
+      "repository_source_sha256": "240294ffb5682000c599477ac830ac43365e8d017de0aa2a6166467c28a5ce50",
+      "en": "「XO! Assess the damage!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:5005": {
+      "repository_source_sha256": "d7ac07723f762f975cbca0cdf273c04d82bef22924032b9037dfa9a0373d5172",
+      "en": "「It's in your hands, XO.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:5024": {
+      "repository_source_sha256": "4c636a88c66b1088235b34c1ccdb43ce3c6ef330383ccdb493a4f7ea0a18ebc9",
+      "en": "「All hands! Push them back!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:5053": {
+      "repository_source_sha256": "f47e66aa8d6431aee3ad34abcc6b1ee69ed61ad1c4ff6138896fbbbaf7f25aa1",
+      "en": "「Too soon to lose heart, XO!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:5086": {
+      "repository_source_sha256": "40749eb8442b809eaa518b592a08a3a56e0edfdde1fec800f31cac2f55a92c18",
+      "en": "「Will you stay with me to the end?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:5123": {
+      "repository_source_sha256": "5c32a5f5c336891f003eda1098ef91a328e28e07c403ec0c3fa74d1bf29e4607",
+      "en": "「Not yet!\\nHold the line to the limit!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:5172": {
+      "repository_source_sha256": "307b043a3ef291f2b41f81008bf7667d75971fa344b29600a8a8904707bed79c",
+      "en": "「Player's call. Prepare for anything.」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:5249": {
+      "repository_source_sha256": "7f70fcb505d9b408c949bf295903c4c0f6a9259927a4f006b836d431fabb7251",
+      "en": "「War goes on. This is only a respite.」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:5300": {
+      "repository_source_sha256": "6aca5dd20f2a21463189df13f4e6d1f1600d12065479d8da60b91e45d4fbcdfa",
+      "en": "「Get some rest. I'm counting on you.」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:5345": {
+      "repository_source_sha256": "a8b52a369d2a3621e7737bbc92ca5a04abdfc71800496d914583adca32fc2571",
+      "en": "「Will that do, XO?」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:5370": {
+      "repository_source_sha256": "b4ef363528b9f4a1a5149eb20b029deb1273a230905fe46239f3f09f5df43ab0",
+      "en": "「Of course, Captain.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5393": {
+      "repository_source_sha256": "ffa0595fd4fd743f0b44715753d0a81c7991e2bd1e73dca04b1978be9d3087f8",
+      "en": "「Understood! Commencing attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5430": {
+      "repository_source_sha256": "4075568000e8db98df77247091c4e2b38015627a84df27c17ffeb64f96e3ef30",
+      "en": "「Minovsky particles, combat density!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Minovsky particles, combat spread!"
+      ],
+      "review": "same-speaker"
+    },
+    "67:5467": {
+      "repository_source_sha256": "ffcd5f17a631bac098c40b9212b4f21364a92cf95aaa264f67ca17c5cf737b67",
+      "en": "「Understood! All hands, rally!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5494": {
+      "repository_source_sha256": "a8325312afba52bbaef8ce316ca950317503b0f2f4644dc08482d53f2252f220",
+      "en": "「It seems we got lucky.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Looks like we got lucky."
+      ],
+      "review": "same-speaker"
+    },
+    "67:5521": {
+      "repository_source_sha256": "d1b912cca8475b8960af810fe0b1064e55a134b0ac35d98fb0ca58596a4e247d",
+      "en": "「That should keep us safe for now.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "67:5548": {
+      "repository_source_sha256": "54747f8a4884c05cd7e3615e8d751546d72d74b2607c72f224cc93a99f15f5ec",
+      "en": "「The armor's only scratched!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:5585": {
+      "repository_source_sha256": "528310944955d8228575c4a565b9abd8cf84bd56d0e1c2f5514135696249c5a0",
+      "en": "「We'll handle the damage assessment.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:5614": {
+      "repository_source_sha256": "a6bc70ce9b5089502701dd75e9da3e984226bb8c18abb1854a00bba88483dded",
+      "en": "「Understood! Everyone, fight harder!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:5647": {
+      "repository_source_sha256": "1544e2fa231a115d30dcbf978e0cac329bca0aba6536231bbdcf6000c0e954b5",
+      "en": "「Captain! At this rate...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:5678": {
+      "repository_source_sha256": "b291c88a6bf59fa2648aa8489b84702f0d9a7e2f2a2590157cf0fb5e71d45151",
+      "en": "「Of course!\\nMy life is yours!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:5727": {
+      "repository_source_sha256": "d7a07a6e804e62ea568a7f65f330613d0fa49345716c35802dfa87fac1b7185c",
+      "en": "「Captain, prepare to evacuate!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:5754": {
+      "repository_source_sha256": "295129e0b8fc21b5824f5b40bed5ecfe322b9c34a3793579157e523005db4e4f",
+      "en": "「Excellent work, Captain.」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "67:5775": {
+      "repository_source_sha256": "9e8a623cdc6af48e893e43c7cb6a52125795d894950e274f62f734e22dbe9737",
+      "en": "「Mobile suit team, cover this ship!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5816": {
+      "repository_source_sha256": "17f7290b392b1f8e8ba013296dda577a6649db090bda040d3ec0a4151f3c703c",
+      "en": "「All batteries, prepare to attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5839": {
+      "repository_source_sha256": "d806b333c5be766cf12243d9f99b3b422a0bec3cad180a5d92ac0df41caea43a",
+      "en": "「Captain, we're ready to attack.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5872": {
+      "repository_source_sha256": "695bec8b96cbd657f8d06caabf005ba1051cb76577670cc139d0a1c381d3967f",
+      "en": "「Your orders, Captain.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5891": {
+      "repository_source_sha256": "86f55e67d0a7b4a5f88555ac3734d839c0c54901424bbc8ed94b015bc2014c9a",
+      "en": "「Your decision, Captain.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "67:5910": {
+      "repository_source_sha256": "35c1996b96acacfc3fa8b6f5933a8853a01236c6c9cabe7e85edd014f466ff48",
+      "en": "「It missed us...」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "So it missed me..."
+      ],
+      "review": "same-speaker"
+    },
+    "67:5931": {
+      "repository_source_sha256": "230e0fe1b004e763e295f1d552d7027d78dfe1cdc1b03611927420b11ce3ef42",
+      "en": "「It seems luck is on our side.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "67:5962": {
+      "repository_source_sha256": "d89e3958042185128d72913b96ed0f20b12a62cb7556b75f9de39049eb61789c",
+      "en": "「It won't hinder our operation.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "67:5995": {
+      "repository_source_sha256": "41809c74987bb88da4fdcd5d308c1873b88ad92f238e2c8884376c51c94d4ae3",
+      "en": "「Damn! At this rate...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:6026": {
+      "repository_source_sha256": "2433fbc3b7fee0cc0e49f20d8ee42a5f411e7b36f58ea29663e1fba0d300fe32",
+      "en": "「They're targeting this ship?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "67:6055": {
+      "repository_source_sha256": "9eaec35af9d06b5ec044eb61225d091cbae461ee47dd83155d737b5b372f7612",
+      "en": "「Mistime retreat,\\nand all is lost!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "67:6110": {
+      "repository_source_sha256": "df2ac3e7772ffff77fc8270e96c6ed9498b8f43001d1ecd1e17fbc483daf62e5",
+      "en": "「More damage,\\nand we can't withdraw!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    }
+  }
+}

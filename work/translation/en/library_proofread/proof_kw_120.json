@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "batch": "proof_kw_120",
+  "fixes": [
+    {
+      "kind": "keyword",
+      "id": 130,
+      "field": "DSCR",
+      "english_sha256": "acce1bbb90352833",
+      "new": "His full name is $$ジ・エーデル・ベルナル$$.\nThe mastermind behind the $$ＵＣＷ$$'s $$多元戦争$$.\nHe created $$エーデル・ベルナル$$, the ringleader of $$カイメラ$$ and a brigadier general of the Earth Federation Forces, and controlled world affairs in order to play in a free world of his own desire.\nHe succeeded in a limited control of the Power of Origin ($$オリジン・ロー$$ / $$次元力$$), and using that power, behaves however his desires lead him. His guiding principle is summed up in a single phrase: 'As long as it's interesting!', and he enjoys the existence of the multitude of worlds born from the $$時空震動弾$$ more than anyone else.\nThrough his application of the Power of Origin, he has integrated the abilities of his multiple selves existing across parallel worlds, and surpasses ordinary people in every respect.\nHe is also freed from concepts such as ethics and morality, and since he is driven by desires that others find hard to understand, it is difficult to read his intentions or actions.\nIt is said that he unraveled the Power of Origin by coming into contact with the $$黒の英知$$ through $$エルガン・ローディック$$, the same person as him in a parallel world.\nHis true form is a beautiful young man, but until the final battle he played the role of the ugly old scientist $$ジエー・ベイベル$$.\nAlso, the name '$$ジ・エーデル・ベルナル$$' is merely one of convenience, and his real name is something else.",
+      "reason": "mistranslation: エルガン・ローディックにより黒の英知に触れた = HE (the Edel) came into contact with the Black Wisdom through/by way of Elgan (not 'Elgan touched the Black Wisdom'); rules: double quotes changed to single quotes for the phrase and the name (2 places). All tokens kept."
+    },
+    {
+      "kind": "keyword",
+      "id": 134,
+      "field": "DSCR",
+      "english_sha256": "ba404f0fe01c5769",
+      "new": "A skilled pilot raised on the Moon and called a 'genius of space combat'. She challenged $$カズミ$$, who had only just gone up into space, to a duel, and after the duel was over she treated $$カズミ$$ warmly; her emotions swing so violently that one might suspect a split personality.\nHer strictness in battle is thorough, and there were times she gave up on $$ノリコ$$ when $$ノリコ$$ was about to be crushed by fear.\nShe was paired with $$ノリコ$$ as a pilot of the $$ガンバスター$$ after $$カズミ$$ married $$コーチ$$, but in the final battle she handed the $$ガンバスター$$ over to $$カズミ$$. She herself fought the space monsters in the $$シズラー$$ and survived safely.",
+      "reason": "wrong referent: in 'After Kazumi married Coach, she was paired with Noriko' the pronoun 'she' reads as Kazumi (the only woman named in the clause) but the Japanese subject is the entry's own person (Jung, who is not named); reordered so the entry subject opens the sentence and 'she' stays with her. No token changed."
+    },
+    {
+      "kind": "keyword",
+      "id": 137,
+      "field": "DSCR",
+      "english_sha256": "db48c5fef6e62e42",
+      "new": "Full name: $$シュラン・オペル$$.\nA soldier of the New Earth Federation Forces of the $$ＵＣＷ$$.\nCaptain of the 2nd Squad of $$カイメラ$$, which is under $$エーデル$$'s direct command, with the rank of captain.\nHe shows his true worth in rear-area duties such as maintaining public order and information warfare.\nHe takes pleasure in watching situations fall into confusion because of his own schemes, and has a flamboyantly wicked side that openly admits it.\nCalm and composed, and never breaking a cool attitude at any time, he gives others a cold impression, but that is a pose to hide inner anxiety.\nHe wished to live by emotion, and for that reason both loathed and was strongly drawn to the impulsive $$レーベン$$.\nDefeated in the decisive battle with $$ＺＥＵＴＨ$$ set at the central station of the $$ＵＮ$$, he met his final moments shouting the name of $$レーベン$$.",
+      "reason": "pronouns/pro-drop: Schran is researched male, so the old-rule name repetition ($$シュラン$$ x3, subjectless 'Shows/Takes pleasure') is replaced by he/his (subject settled by the entry; 本人 = he); also 'met the final moments' -> 'met his final moments'. The $$シュラン$$ token is dropped only because it became a pronoun; all other tokens kept."
+    }
+  ],
+  "report": {
+    "entries_in_batch": 23,
+    "entries_examined": 23,
+    "kept_omissions": [
+      "keyword 142 DSCR 'their existence': the entry gives no gender for the colonies' leader and the brief has no researched gender, so they/their kept.",
+      "keyword 135 DSCR/DSC2 'force them to act' / 'the target': generic target, the Japanese names no specific person, kept impersonal.",
+      "keyword 126 DSCR/DSC2 'carrying their child' (その子を宿す): kept as 'their child'; the child of Gadlight and Annalotta is settled, nothing dropped."
+    ],
+    "name_issues": [
+      "keyword 125 DSCR: 'Paradigm Corporation' is literal English (パラダイム社), no token.",
+      "keyword 130 DSCR: 'Earth Federation Forces' (地球連邦軍) and 'Power of Origin' (源理の力) are literal English.",
+      "keyword 136 and 137 DSCR: 'New Earth Federation Forces' is literal, while keyword 129 uses the token $$新地球連邦軍$$.",
+      "keyword 138 DSCR: 'King of Destruction' is literal (twice) although token $$破界の王$$ exists (used in kw 124); 'spacequake' in the first line is plain although $$時空震動|lc$$ exists (kw 120).",
+      "keyword 129 DSCR: token $$レーベル・ゲネラール$$ = Leben General while keyword 136 uses $$レーベン・ゲネラール$$; the Japanese of kw 129 seems to have a typo (レーベル vs レーベン), not editable by me.",
+      "keyword 128 DSCR 'Kishuku' and keyword 141 'Anno Domini World' / 'The 2nd Super Robot Wars Z' are literal (a reading and a series title; acceptable)."
+    ],
+    "uncertain": [
+      "keyword 130 DSCR: Elgan sentence. Japanese エルガン・ローディックにより黒の英知に触れた uses により (by/through), not が, so I read the Edel as the one who touched the Black Wisdom via Elgan; the old English made Elgan the toucher. If the game means Elgan touched it, revert this fix.",
+      "keyword 134 DSCR: Jung is not named in the entry and has no token (WORD ユング = ?); I reordered instead of naming her, keeping she/her (female per brief).",
+      "keyword 137 DSCR: 露悪的な部分を持つ kept as 'a flamboyantly wicked side that openly admits it' (translator wording, acceptable); only pronouns and 'his final moments' changed.",
+      "keyword 124 DSCR: 科学技術庁長官 is 'Director of the Bureau of Science and Technology' (Jigoku wording); 庁 would more literally be Agency. Left as merely different.",
+      "keyword 132 DSCR: 木星の衛星タイタン rendered as Jupiter's moon as written; kept.",
+      "keyword 139 DSCR/DSC2: スミスとの思い出の品 is 'a keepsake of Smith'; literally a memento of memories with Smith. Left as merely different.",
+      "keyword 120 DSCR: 彼女の生命 read as Esther (the one Marilyn tried to kill); English 'her life' kept.",
+      "keyword 128 DSCR: 一族郎党を滅ぼされ、そのまま...組み込まれた rendered 'destroyed the whole clan, and incorporated them ... as they were'; kept."
+    ]
+  }
+}

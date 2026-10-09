@@ -1,0 +1,413 @@
+{
+ "schema": 1,
+ "group": "orguss",
+ "names": [
+  {
+   "jp": "アテナ・ヘンダーソン",
+   "kind": "pilot",
+   "en": "Athena Henderson",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Athena Henderson' (default unit Nikick Athena); https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : {{Ruby|Athena Henderson|アテナ・ヘンダーソン}}; https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters : 'Henderson, Athena'",
+   "note": "pt_062 proposal 'Athena Henderson' confirmed"
+  },
+  {
+   "jp": "アテナ",
+   "kind": "pilot",
+   "en": "Athena",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : {{Ruby|Athena|アテナ}}; Jigoku shipped English (E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51)) : 'Athena'",
+   "note": "Not the Zeta Gundam Pallas Athena (パラス・アテネ, different kana)"
+  },
+  {
+   "jp": "オルソン",
+   "kind": "pilot",
+   "en": "Olson",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : {{Ruby|Olson|オルソン}} (Athena recruitment notes); https://akurasu.net/wiki/Super_Robot_Wars/Z/Unit_Database : 'Olson D. Verne'; https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters : 'Verne, Olson'; jigoku_glossary.json pilot 50 CHNN 'Olson' / CHFN 'Olson D. Verne' (official)",
+   "note": "Wikipedia and akurasu Z Pilot_Database/Timeline write 'Orson' (Orson Welles tribute), but akurasu Secrets/Unit_Database, MAL and the Jigoku glossary all use 'Olson'; keep Olson (glossary CHFN is official 'Olson D. Verne'). The glossary also holds an unrelated Gundam 00 movie オルソン (library entry 130) whose English is also 'Olson'; no clash in English, but bind by library entry (target), not by kana."
+  },
+  {
+   "jp": "桂",
+   "kind": "pilot",
+   "en": "Kei",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : {{Ruby|Kei|桂}}; https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Kei Katsuragi'; jigoku_glossary.json pilot 49 CHFN 桂木桂 = Kei Katsuragi (official)",
+   "note": "Kanji 桂 (Orguss). The ambiguity with Getter Robo Armageddon's 渓 Kei is only in English; the kanji differ, so no retoken needed"
+  },
+  {
+   "jp": "シャイア・トーブ",
+   "kind": "pilot",
+   "en": "Shaya Thoov",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Shaya Thoov' (default unit Glomar); https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters : 'Thoov, Shaya'; https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : Shaya Thoov (voiced in the English dub by Dorothy Elias-Fahn); https://www.animenewsnetwork.com/encyclopedia/anime.php?id=708 : cast 'Shaya'",
+   "note": "Akurasu Z Pilot_Database is the wiki for pilot names, so 'Shaya Thoov'. Differs from Jigoku's shipped 'Shaia Toube' (kw_066) and the Z Timeline's 'Shaia'; see report.uncertain"
+  },
+  {
+   "jp": "シャイア",
+   "kind": "pilot",
+   "en": "Shaya",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Shaya Thoov'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=708 : cast 'Shaya'; https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+   "note": "Given name of シャイア・トーブ; follows the full name. Jigoku shipped 'Shaia'"
+  },
+  {
+   "jp": "ミムジィ・ラース",
+   "kind": "pilot",
+   "en": "Mimsy Laaz",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Mimsy Laaz'; https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters : 'Laaz, Mimsy'",
+   "note": "Wikipedia writes 'Mimsy Larz'; Jigoku shipped 'Mimsy Lars' (kw_066). Akurasu + MAL agree on Laaz. 'Mimsy' is from Jabberwocky per ja.wikipedia"
+  },
+  {
+   "jp": "ミムジィ",
+   "kind": "pilot",
+   "en": "Mimsy",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Mimsy Laaz'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=708 : cast 'Mimsy'; https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss; https://ja.wikipedia.org/wiki/超時空世紀オーガス : names Mimsy/Mome/Jabby taken from Jabberwocky",
+   "note": "Given name of ミムジィ・ラース"
+  },
+  {
+   "jp": "ジャビー",
+   "kind": "pilot",
+   "en": "Jabby",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : Jabby (voiced by Steven Blum in the English dub); https://www.animenewsnetwork.com/encyclopedia/anime.php?id=708 : cast 'Jabby'; https://ja.wikipedia.org/wiki/超時空世紀オーガス : name taken from Jabberwocky; Jigoku shipped 'Jabby' (library rt_000 uses 'he')",
+   "note": "Same English for CHFN and CHNN (library pilot 71 has both fields ジャビー). Not in the akurasu wikis. Male: see characters record for pilot 71"
+  },
+  {
+   "jp": "スレイ",
+   "kind": "pilot",
+   "en": "Slay",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=708 : cast 'Bill Kestin as Slay' (US Renditions dub); https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : 'Slay'",
+   "note": "Not in the akurasu wikis. Dub-credit spelling; fan guides also write Sray/Sley (see report.uncertain)",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 69: 婚約者であるスレイ (fiance of Mimsy), 命を落とす; ja.wikipedia: 'ファクトリーの貴重な男手'; en.wikipedia 'Mimsy's fiance'",
+    "position": "Emaan Factory (Glomar) crew member and secondary operator of the Glomar; Mimsy's betrothed; killed in a Manisha pursuit-unit attack while sortieing for Mimsy",
+    "personality": "meek and gentle (Emaan dislike fighting), resentful of Kei over Mimsy, brave in the end",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+     "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+     "library pilot 69 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ティナ",
+   "kind": "pilot",
+   "en": "Tina",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : 'Tina Henderson' (Kei's girlfriend, Athena's mother); https://www.animenewsnetwork.com/encyclopedia/anime.php?id=708 : cast 'Tina Henderson'; https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+   "note": "Orguss's Tina Henderson (ティナ・ヘンダーソン). pt_062 guessed she was short for クリスティナ・シエラ (Gundam 00); that is wrong, unrelated character",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 68: 桂とティナの娘 (Athena's mother), 母; en.wikipedia 'Kei's girlfriend', 'her'",
+    "position": "Kei's girlfriend before the spacetime accident, daughter of Chiram general Michael Henderson, mother of Athena; killed (in the Mu attack per library pilot 66 and 68) before Kei reappeared",
+    "personality": "devoted to Kei; ja.wikipedia: in flashbacks she never spoke ill of Kei",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+     "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+     "library pilots 66 and 68 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "マニーシャ",
+   "kind": "pilot",
+   "en": "Manisha",
+   "status": "proposed",
+   "source": "https://anduin.eldar.org/~brad/anime/orguss/orguss_episode_18.html : 'Manisha' (fan viewer's guide); https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : 'Maneesha Thoov'; https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters : 'Thoov, Maniisha'; https://srw.wiki.cre.jp/wiki/シャイア・トーブ (Thoov head, Shaya's twin)",
+   "note": "No akurasu or licensed-English page names her; English spelling varies (Manisha / Maneesha / Maniisha). Chose plain 'Manisha' (no macron romanization, real given name). Family name follows トーブ = Thoov",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 70: 実の妹マニーシャ (Shaia's own younger sister), 双子の妹; ja.wikipedia: 'エマーン人の女性。トーブ家の当主で、シャイアの双子の妹'",
+    "position": "head of the Thoov family, leads the Thoov security force, Emaan national-level leader; Shaya's twin sister; orders Kei seized, later reconciles and helps",
+    "personality": "formidable and dutiful (女傑), torn between family duty and her sister; strong sense of responsibility",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+     "https://srw.wiki.cre.jp/wiki/シャイア・トーブ",
+     "library pilots 69 and 70 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ランチ",
+   "kind": "pilot",
+   "en": "Lunch",
+   "status": "proposed",
+   "source": "library pilot 70 DSCR: かつて妹のために身を引いた恋人ランチ; https://srw.wiki.cre.jp/wiki/シャイア・トーブ : Shaia had a man she loved before becoming Factory chief whom her twin also loved, and she stepped aside",
+   "note": "No English source names him at all (not in ja.wikipedia cast, akurasu, MAL, Wikipedia). 'Lunch' is the literal reading of ランチ; 'Launch' or 'Ranch' are conceivable. Left pending (see report)",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 70: 恋人ランチ; srw.wiki.cre.jp Shaia page: the man she and her twin both loved (両思いの男性, 双子の妹マニーシャもその男性を愛しており) - inferred that ランチ is that man",
+    "position": "Shaya's lover in one of the possibilities shown after the Great Singularity; earlier the man whose love she gave up for her sister",
+    "personality": "unknown",
+    "nickname": "",
+    "sources": [
+     "https://srw.wiki.cre.jp/wiki/シャイア・トーブ",
+     "library pilot 70 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "マイケル",
+   "kind": "pilot",
+   "token": "マイケル#orguss",
+   "en": "Michael",
+   "status": "proposed",
+   "source": "library pilot 66 DSCR: チラム軍のマイケル・ヘンダーソン将軍; Jigoku shipped English (E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51)) : 'General $$マイケル$$ Henderson of the Chiram forces'",
+   "note": "Not in the brief but used as $$マイケル$$ in pilot 68 DSCR. Michael Henderson, Athena's grandfather. The glossary already has マイケル = Michael (Gundam 00 movie, Michael Chan); the English is the same, but bind this use to the Orguss person",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 68: 祖父マイケル (grandfather); pilot 66: 将軍, 愛娘ティナ",
+    "position": "general of the Chiram army; took Olson under protection; father of Tina, grandfather of Athena; killed in a Mu attack",
+    "personality": "unknown",
+    "nickname": "",
+    "sources": [
+     "library pilots 66 and 68 DSCR",
+     "E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51)"
+    ]
+   }
+  },
+  {
+   "jp": "エマーン",
+   "kind": "keyword",
+   "en": "Emaan",
+   "status": "official",
+   "source": "http://www.discotekmedia.com/super_dimension_century_orguss.htm : 'the mercantile Emaan'; https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : {{Ruby|Emaan|エマーン}}; https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Emaan Battleship'; Jigoku shipped 'Emaan' (E:/Projects/SRW Z3/translation/library/kw_066.json entry 79 (Jigoku shipped English))",
+   "note": "Trading nation/people (parallel-world Earthlings with tentacle-like antennae); adjective and people use the same form"
+  },
+  {
+   "jp": "チラム",
+   "kind": "keyword",
+   "en": "Chiram",
+   "status": "official",
+   "source": "http://www.discotekmedia.com/super_dimension_century_orguss.htm : 'the militaristic Chiram'; https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Chiram Battle Carrier'; https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : 'Chiram-made Bike'; Jigoku shipped 'Chiram'",
+   "note": "Human Earth faction (ja.wikipedia romanizes it TERRAM; Wikipedia has Chilam/Chiram variants). Chiram matches akurasu and Discotek"
+  },
+  {
+   "jp": "グローマ",
+   "kind": "robot",
+   "en": "Glomar",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : default unit 'Glomar' for Shaya/Mimsy/Mome; https://akurasu.net/wiki/Super_Robot_Wars/Z/Timeline : 'Glomar'; https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : 'Glomar'",
+   "note": "The trading ship (and by extension its crew) of the Factory. Akurasu Z Mech_List has 'Gloma' and Jigoku shipped 'Groma' (kw_066, pt_040); English-language sources (Wikipedia, dub, fan guides) say Glomar. Kind set to robot (ship); the brief had it as keyword"
+  },
+  {
+   "jp": "モズク族",
+   "kind": "keyword",
+   "en": "Mozuku tribe",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/超時空世紀オーガス : モズク族, mountain bandits that attack the Glomar (episode 10 'Barbarians'); https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss episode list: ep. 10 'Barbarians'",
+   "note": "No English name found; English sources only say 'barbarians'. Literal name, kept as a tribe name (モズク = mozuku seaweed)"
+  },
+  {
+   "jp": "トーブ家",
+   "kind": "keyword",
+   "en": "Thoov family",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Shaya Thoov'; https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : 'the Thoov family that runs the Emaan country'",
+   "note": "Follows Shaya Thoov"
+  },
+  {
+   "jp": "ラース家",
+   "kind": "keyword",
+   "en": "Laaz family",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Mimsy Laaz'; https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters : 'Laaz, Mimsy'",
+   "note": "Follows Mimsy Laaz"
+  },
+  {
+   "jp": "特異点",
+   "kind": "keyword",
+   "en": "Singularity",
+   "status": "official",
+   "source": "http://www.discotekmedia.com/super_dimension_century_orguss.htm : 'the singularity'; https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets : scenario 16 'Singularity Point' (特異点); https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : Singularity; Jigoku shipped 'Singularity' (E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51))",
+   "note": "Both a person (Kei, Olson: 'the Singularity') and a concept. Discotek writes it lower case, Jigoku and Wikipedia capitalize; the library prose already uses $$特異点|lc$$ where lower case is wanted. Not the old US Renditions 'Differentiated Idioblast'"
+  },
+  {
+   "jp": "大特異点",
+   "kind": "keyword",
+   "en": "Great Singularity",
+   "status": "proposed",
+   "source": "E:/Projects/SRW Z3/translation/library/kw_085.json entry 91 (Jigoku shipped English) : 'Great Singularity'; E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51) : 'Great Singularity, once a Spacequake bomb'; fan guide 'Daitokuiten' https://anduin.eldar.org/~brad/anime/orguss/orguss_episode_18.html",
+   "note": "No licensed English. Jigoku shipped English used 'Great Singularity'; consistent with 大時空震動 = Great Spacequake in the glossary"
+  },
+  {
+   "jp": "混乱時空世紀",
+   "kind": "keyword",
+   "en": "Chaotic Era",
+   "status": "proposed",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51) : 'chaotic era' (entry 50, 混乱時空世紀 as the calendar era); https://ja.wikipedia.org/wiki/超時空世紀オーガス : 混乱時空世紀 is the calendar counted from the spacetime bomb going off",
+   "note": "Calendar name, so capitalized ('Year 2 of the Chaotic Era'). Jigoku shipped it in lower case ('chaotic era')"
+  },
+  {
+   "jp": "混乱時空",
+   "kind": "keyword",
+   "en": "chaotic spacetime",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/超時空世紀オーガス : 混乱時空 = the confused world made by the 時空震動弾 (the chaotic spacetime); jigoku_glossary.json: Spacequake / Spacetime Repair (one-word 'spacetime')",
+   "note": "Used in 'repairing the 混乱時空' (world/state), so 'chaotic spacetime' rather than the era. Jigoku shipped 'chaotic era' for the same bare word in pilot 50 and 'spacetime chaos' for the reversed 時空混乱; either would also read well, but the state/era split is cleaner. Kept 'spacetime' (one word) to match the glossary"
+  },
+  {
+   "jp": "ムウ",
+   "kind": "keyword",
+   "token": "ムウ#orguss",
+   "en": "Mu",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss : 'She is from the Mu race, a civilization known for its advanced machinery'; https://akurasu.net/wiki/Super_Dimension_Century_Orguss : episode 24 'Mu'; https://ja.wikipedia.org/wiki/超時空世紀オーガス : ムー, also written ムウ; Jigoku shipped 'the Mu' (E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51))",
+   "note": "Orguss ムウ = the machine nation Mu (ムー) that built Mome and Taii and attacks the Chiram/Glomar. NOT Mu La Flaga (SEED) and not a person. Retoken required"
+  },
+  {
+   "jp": "相克界",
+   "kind": "keyword",
+   "en": "Realm of Conflict",
+   "status": "proposed",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51) : 'a world sealed within the Realm of Conflict'; https://ja.wikipedia.org/wiki/超時空世紀オーガス : 相克界 = the dimensional-distortion layer 150 m above ground",
+   "note": "Extra: not in the brief, but appears in pilot 65 and 66 DSCR (相克界に閉ざされた世界). Jigoku shipped 'Realm of Conflict'; fan guide calls it 'dimensional barrier'"
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 65,
+   "gender": "male",
+   "gender_evidence": "DSCR: 青年。１９歳 (young man); en.wikipedia protagonist 'he'; ja.wikipedia 主人公",
+   "nickname": "",
+   "position": "Orguss pilot; Freedom Space Corps fighter pilot (second lieutenant) thrown 20 years forward; a Singularity travelling with the Emaan Factory caravan aboard the Glomar",
+   "personality": "hot-blooded and straightforward on the surface, but easygoing at heart and an incorrigible womanizer; natural genius pilot; later takes responsibility for the chaos he caused",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database",
+    "library pilot 65 DSCR (直情型で熱血漢, 根が軽い性格で無類の女好き)",
+    "E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51)"
+   ]
+  },
+  {
+   "pilot_id": 66,
+   "gender": "male",
+   "gender_evidence": "DSCR: 青年。２５歳; ja.wikipedia: Kei's academy friend and wingman; en.wikipedia 'Kei's best friend ... he'",
+   "nickname": "",
+   "position": "the other Singularity; Chiram special-duty major general (特務少将) who was Athena's guardian and instructor, then leaves the army to fight beside Kei",
+   "personality": "serious, dutiful and caring (a steady foil to Kei), harsh on himself and others out of patriotism until he comes round; deep loyalty to Kei",
+   "sources": [
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "library pilot 66 DSCR",
+    "E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51)"
+   ]
+  },
+  {
+   "pilot_id": 67,
+   "gender": "female",
+   "gender_evidence": "DSCR: 外見は人間の少女と変わらず (looks like a human girl); ja.wikipedia: 人間の少女そのもののデザイン; en.wikipedia 'little girl', 'her'. An android, but built and presented as a girl",
+   "nickname": "",
+   "position": "humanoid (android) built in Mu for nursing and repair; bought by Kei and became a member of the Glomar crew; ends by sacrificing her energy to save Mimsy",
+   "personality": "devoted, gentle and capable (housework, repairs, nursing); human-equivalent emotions, in love with Kei who is her benefactor",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "library pilot 67 DSCR",
+    "E:/Projects/SRW Z3/translation/library/pt_040.json (Jigoku shipped English, entries 49/50/51)"
+   ]
+  },
+  {
+   "pilot_id": 68,
+   "gender": "female",
+   "gender_evidence": "DSCR: 桂とティナの娘 (daughter), 彼女, 第一級の女戦士; ja.wikipedia: チラム陣営の女性エースパイロット",
+   "nickname": "",
+   "position": "Chiram army ace pilot (enlisted as a child soldier at 11, second lieutenant per ja.wikipedia); Kei and Tina's daughter and Olson's ward; later fights on Kei's side",
+   "personality": "strong-willed and stubborn; resents the father she never knew, then reconciles; resolves to fight so no one else suffers as she did; devoted to Olson",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database",
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "library pilot 68 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 69,
+   "gender": "female",
+   "gender_evidence": "DSCR: エマーン人の少女。１７歳; ja.wikipedia: ブラウンのストレートヘアを持つエマーン人の少女",
+   "nickname": "",
+   "position": "member of the Factory (vice-captain and tactician of the Glomar per en.wikipedia); heir of the Laaz family; Slay's fiancee, then Kei's partner",
+   "personality": "lively and proactive (ja.wikipedia: 活発で積極的); honest about her feelings, sharp with business sense, torn between duty and love; recovers from Slay's death",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database",
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "library pilot 69 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 70,
+   "gender": "female",
+   "gender_evidence": "DSCR: エマーン人の女性 (woman), 彼女, 妹マニーシャ; ja.wikipedia 赤毛のエマーン人女性; https://srw.wiki.cre.jp/wiki/シャイア・トーブ 性別 女",
+   "nickname": "",
+   "position": "chief of the Factory (captain of the Glomar); eldest daughter of the Thoov family; twin sister of Manisha; protects Kei against Chiram and her own sister, then allies with Chiram to repair spacetime",
+   "personality": "scholarly and thoughtful but sheltered and goes at her own pace (DSCR); ja.wikipedia adds indecisive and optimistic yet trusted by everyone",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database",
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "https://srw.wiki.cre.jp/wiki/シャイア・トーブ",
+    "library pilot 70 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 71,
+   "gender": "male",
+   "gender_evidence": "DSCR is deliberately neutral (no pronoun), but en.wikipedia writes 'allows him to sense Kei', voiced by male actors (銀河万丈, Steven Blum), and Jigoku shipped English (rt_000) says 'the world he originally came from'",
+   "nickname": "",
+   "position": "Glomar crew member; dinosaur/dragon-like Earthling from a parallel universe searching for a lost lover; fire-breathing draw for customers, senses spacetime transfers with his tail; named the Orguss",
+   "personality": "calm, gentle and level-headed (ja.wikipedia: 穏やかで冷静), useful and loyal; recollections show a wandering eye; despairs at his ruined homeland but Kei talks him back",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss",
+    "https://ja.wikipedia.org/wiki/超時空世紀オーガス",
+    "library pilot 71 DSCR",
+    "E:/Projects/SRW Z3/translation/library/rt_000.json entry 32 (Jigoku shipped English)"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 23,
+  "names_settled": 22,
+  "extra_names_added": [
+   "ムウ#orguss (retoken)",
+   "マイケル#orguss",
+   "相克界"
+  ],
+  "left_pending": [
+   "ランチ: no source anywhere names Shaya's lover in English (not in akurasu, MAL, Wikipedia, ja.wikipedia cast, fan guides). Recorded as proposed 'Lunch' (literal reading) so the build has something, but it is unsettled; 'Launch' or 'Ranch' are conceivable."
+  ],
+  "challenges": [
+   "Jigoku shipped English (user's earlier release) used 'Shaia Toube', 'Mimsy Lars' and 'Groma' (kw_066, pt_040). These are not glossary entries, so no official/confirmed name is being overruled, but the Tengoku names follow akurasu Z Pilot_Database and the licensed English instead: 'Shaya Thoov', 'Mimsy Laaz', 'Glomar' (https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database ; MAL https://myanimelist.net/anime/2089/Choujikuu_Seiki_Orguss/characters ; Wikipedia). If the orchestrator prefers continuity with the Jigoku release, switch these three (and 'Thoov/Laaz family') together.",
+   "jigoku_glossary.json entry 'Spacequake Bomb' (時空震動弾, proposed) differs from the licensed 'Space/Time Oscillation Bomb' (Wikipedia, ANN); not challenged because the game's 時空震動 is officially 'Spacequake' and the bomb should follow it."
+  ],
+  "retoken": [
+   "pt_062 entry 68 (Athena DSCR): '$$ムウ$$' -> '$$ムウ#orguss$$' (Orguss Mu, the machine nation, not Mu La Flaga)",
+   "Any Tengoku prose for library entries 66 (Olson), 67 (Mome) or other Orguss text that writes '$$ムウ$$' must use '$$ムウ#orguss$$' as well",
+   "pt_062 entry 68: '$$マイケル$$' -> '$$マイケル#orguss$$' (optional: English is 'Michael' either way, but it should not bind to the Gundam 00 movie Michael Chan)",
+   "オルソン: the glossary also has the Gundam 00 movie オルソン (entry 130) with English 'Olson'; bind by library entry/target, no retoken needed since the English is identical"
+  ],
+  "uncertain": [
+   "Shaya vs Shaia and Toube/Thoov: akurasu Z Pilot_Database, MAL, Wikipedia and the dub say Shaya Thoov; the akurasu Z Timeline page says 'Shaia', Jigoku shipped 'Shaia Toube', ja romanization is Shaia Tobe. Went with akurasu Pilot_Database (highest precedence for pilot names).",
+   "Mimsy Laaz vs Larz vs Lars: akurasu + MAL say Laaz, Wikipedia Larz, Jigoku Lars. Went with akurasu.",
+   "Glomar: akurasu Z Mech_List has 'Gloma', Pilot_Database/Timeline have 'Glomar' (also 'Glommar' once), Jigoku 'Groma'. Chose Glomar (majority incl. English sources). Kind set to robot (ship), the brief listed it as keyword.",
+   "Olson vs Orson: Wikipedia and akurasu Z Pilot_Database/Timeline say Orson; akurasu Secrets/Unit_Database, MAL and the Jigoku glossary say Olson. Kept Olson (the glossary CHFN 'Olson D. Verne' is official).",
+   "Manisha: spelling has no authoritative source (fan guide 'Manisha', Wikipedia 'Maneesha', MAL 'Maniisha'). Marked proposed.",
+   "Slay: dub credit (ANN/Wikipedia) spelling; fan guides also write Sray/Sley and Discotek's own subtitles could differ (could not read the subtitles). Marked official on the dub credit alone.",
+   "Chiram: chosen per akurasu and Discotek ('Chiram'); ja.wikipedia's official romanization is TERRAM, Wikipedia also shows Chilam/Chilum.",
+   "混乱時空 / 混乱時空世紀: no official English. Went with 'chaotic spacetime' (world/state) and 'Chaotic Era' (calendar, capitalized). Jigoku shipped 'chaotic era' for the bare 混乱時空 and 'spacetime chaos' for 時空混乱; if the orchestrator wants Jigoku continuity, use 'chaotic era' for both. 'Spacetime' is one word to match the glossary's Spacequake/Spacetime Repair, whereas akurasu Z writes 'Space-Time Crash'.",
+   "特異点: Discotek writes 'the singularity' in lower case; Jigoku and Wikipedia capitalize it when it names the person. Set 'Singularity'; the library's |lc marker gives lower case where needed.",
+   "Jabby's gender: the game DSCR avoids pronouns; profile says male from Wikipedia ('him') and Jigoku shipped ('he'). The pt_062 translation used 'they'; translator should decide.",
+   "Mome gender: android, but built and presented as a girl; recorded as female rather than 'not applicable'.",
+   "Tina: pt_062 guessed she was short for クリスティナ・シエラ (Gundam 00); she is Tina Henderson of Orguss. Note the game says Tina died in the Mu attack while Wikipedia says she died ill; the game text governs.",
+   "Pilot 65-67 full DSCR text was read from work/tengoku/prepared/library_inventory.json (records 208-210); the brief's copy was truncated."
+  ]
+ }
+}

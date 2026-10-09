@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_000",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 4,
+      "field": "DSCR",
+      "english_sha256": "e2e431ee6826a365",
+      "new": "A space transport ship operated by the Takeo General Company.\nAs with the old $$シャトル$$, every employee except $$ワッ太$$ boards it, dividing up duties from piloting to weapons control.\nThe old $$シャトル$$ was moderately damaged in battle with Jackal, an executive of the Robot Empire, but was rebuilt with funding from the Director-General of the Space Defense Agency, gaining upgrades across the board in firepower, cruising speed, and more.\nIts role remains unchanged: it combines with Trider's cruising form, Cosmic, to become the Fortress, and its main uses are transporting supplies and personnel. But thanks to reinforcements better suited for combat, it has become an even more reliable support machine for Trider.\nFor the managing director, too, the results of the refit -- improved work efficiency without denting the company's own pocket -- seem to have been thoroughly satisfying.\nThough its exterior changed dramatically, the interior remains much as it was before. The dining salon is still in place, and the homely atmosphere of the workplace, with employees gathering around the table together, has not changed either.",
+      "reason": "mistranslation: 中破 means moderately damaged (between 小破 and 大破), not heavily damaged"
+    },
+    {
+      "kind": "robot",
+      "id": 12,
+      "field": "DSCR",
+      "english_sha256": "34e07e9c85d52a8e",
+      "new": "A robot that appeared in Episode 50, 'Prince $$グーラ$$ Dies!'\nThe seventh $$スペースロボ$$, piloted by $$グーラ$$ after he resolved on a final battle with $$正太郎$$, with the appearance of a Western knight.\n$$グーラ$$'s specialty, the sword attack, is powerful, and it also uses tricks such as hurling boulders with an electromagnetic net released from its fingertips. It fought a fierce battle against $$鉄人$$ on the surface of the Moon.\nIn the end, its sword was seized by $$鉄人$$ and it was cut in two by its own weapon.",
+      "reason": "omitted subject: the Japanese 用いる has the robot (Space Robo No. 7) as subject but the English was a subjectless passive and the entry settles who; also 'its fingertips' (指先)"
+    },
+    {
+      "kind": "robot",
+      "id": 14,
+      "field": "DSCR",
+      "english_sha256": "2ccb6421c7909473",
+      "new": "A giant saucer used by the Space Demon King's forces.\nIt can carry numerous small saucers as well as Space Robos inside it.\nIt has been commanded not only by the Majin generals who serve the Space Demon King, but also, on occasion, by Branch, who was lent it by the Demon King and boarded it to lead an attack.",
+      "reason": "mistranslation: 魔人将軍 is a class (the Majin generals under the Space Demon King), not one person 'General Majin'; and 'to direct an attack' was wrongly attached to the lending: Branch boarded it and took command of an attack (乗り込み、攻撃の指揮を執った); dropped the added 'himself'"
+    },
+    {
+      "kind": "robot",
+      "id": 16,
+      "field": "DSCR",
+      "english_sha256": "019c0b3f8b5ff40e",
+      "new": "A super robot that could be called Earth's guardian deity.\nWhen $$タケル$$'s $$ガイヤー$$ falls into danger, the $$ゴッドマーズ$$ emblem appears on the screen inside the cockpit. Taking this as the signal that combination is possible, $$タケル$$ begins the sequence with a cry of '$$ゴッドマーズ$$!' Five robots fly in from different locations around the world -- the Sphinx, which houses $$ガイヤー$$, from Egypt; Uranus, which becomes the right arm, from the Arctic; Titan, which becomes the left arm, from the Indian Ocean; Shin, which becomes the right leg, from Angkor Wat; and Ra, which becomes the left leg, from Easter Island -- and combine with $$ガイヤー$$ in the Six God Combination to form $$ゴッドマーズ$$, a body of super-alloy Positronium powered by anti-proton energy.\nIts weapons are not especially numerous: God Fire, fired from the 'G' mark on its abdomen, and Mars Flash, a great sword given physical form from the same 'M' mark. However, since their power scales with $$タケル$$'s psychic abilities, they are more than sufficient in combat. The flip side is that they are also at the mercy of $$タケル$$'s mental state, and there were times when prolonged fighting and exhaustion sapped their power and led to a hard-fought battle.\nEven after combining, each of the component robots can separate again, and scenes of them attacking with their own individual weapons, fired from their chests, or in hand-to-hand combat have also been seen.\nIts finishing move is 'Final $$ゴッドマーズ$$,' which cleaves the enemy in two by combining Mars Flash with God Fire.\nIn the final battle against the revived $$ズール$$, it received the prayers of many people and shone gold, unleashing supernatural power.",
+      "reason": "omission: 胸から放たれる固有武器 - the individual weapons are fired from the chest; the English dropped 'from the chest'"
+    },
+    {
+      "kind": "robot",
+      "id": 19,
+      "field": "DSCR",
+      "english_sha256": "74d47a9cb6146f64",
+      "new": "A combat mecha that appeared in Episode 57, 'Are You the $$バラの騎士$$...?!'\nPiloted by the $$ゲシュタルト$$ members $$スナッパー$$ and $$ナッカー$$, it emerged from among the asteroids approaching Earth and attacked the $$クラッシャー隊$$.\nIt jammed the summoning of the five god robots with a brainwave-blocking beam fired from its head, cornering $$ガイヤー$$ as it was left unable to combine into $$ゴッドマーズ$$.\nHowever, it was struck in the head by the sudden attack of the $$バラの騎士$$, cutting off the brainwave-blocking beam. Once it allowed the combination into $$ゴッドマーズ$$, it was destroyed in an instant.",
+      "reason": "wrong referent: 'attacked the Crusher Team, piloted by the Gestalt members' reads as the Crusher Team being piloted; the Japanese says the Gestalt members Snapper and Nakker piloted the mecha (ゲシュタルトのスナッパーとナッカーの操縦で)"
+    },
+    {
+      "kind": "robot",
+      "id": 27,
+      "field": "DSCR",
+      "english_sha256": "cfd47705b81c87ca",
+      "new": "An AT assembled in Gomor, the capital of the planet Quent.\nThe 'DT' in its name stands for 'Desert-Trip.'\nIt carries unique, high-performance equipment, including a Quent-element metal detection sensor with extremely high enemy-detection ability, a pile bunker mounted on its left arm, and a dedicated assault rifle.\nLike other Berserga units, it has been customized to suit the battlefield it is deployed to, and this particular unit has been fitted with a sand-tripper unit for desert warfare.\nThis machine is a restoration of an old unit that had been sitting in a storage center -- 'a wreck, but a quality one,' in the words of $$ゴウト$$, who handled the refit.\nIt is originally a machine used only by mercenaries from Quent, but with $$シャッコ$$ injured, $$フィアナ$$ boarded it instead and pursued $$キリコ$$, who had become Wiseman's successor.",
+      "reason": "mistranslation: 索敵能力 is enemy-detection (searching) ability, not 'target-tracking'"
+    },
+    {
+      "kind": "robot",
+      "id": 32,
+      "field": "DSCR",
+      "english_sha256": "062cf75583d81f52",
+      "new": "A ground battleship developed by the Balarant Army.\nA type that emphasizes its function as a mothership over gun firepower, it functions largely as a mobile base.\nIn the early days of the Hundred Years War it achieved results on the ground that could be called invincible, but it eventually faded from use due to its high construction costs and the changes in tactics brought about by the rise of ATs.\nNiiba, burning with obsession to bring down $$キリコ$$, wired the control system directly into their own brain just as with the $$エクルビス$$, operating the massive vessel as an extension of their own body.",
+      "reason": "pronoun: 'his' for Niiba, whose gender is settled neither by the Japanese (自らの脳 / 自分の肉体) nor by the glossary (no character entry); replaced with neutral 'their'"
+    },
+    {
+      "kind": "robot",
+      "id": 37,
+      "field": "DSCR",
+      "english_sha256": "a0f0bce3174bb23f",
+      "new": "The machine completed when Kei's beloved Bronco II, badly damaged, was repaired and, in the process, reinforced and modified using Emaan technology.\nThe legs of the Bronco II were kept as they were, but at Kei's request -- having taken a liking to the handling when he piloted the Molabar -- that machine's arm units were fitted on. Furthermore, in addition to the sympathetic system, three inertial control systems, two anti-gravity levitation units, and a nuclear reactor with output approaching 500,000 horsepower were installed, and despite being a hasty patchwork job, the result surpassed the performance of conventional Drifados. Thanks to this high performance, a mass-production model was later developed as well.\nAnother major feature is its Variable Geometry ability, allowing it to take four different forms to suit the situation: its humanoid form, the Orguroid, along with Flyer, Gerwalk, and Tank forms.\nWhen it was completed, the members of the $$ファクトリー$$ discussed what to call the new Bronco II, with everyone throwing out their own suggestions, from 'Valhalla' to 'Gammon.' In the end, $$ファクトリー$$ member Jabby settled on '$$オーガス$$,' taken from the name of a war god from the world he originally came from.\nIncidentally, 'Nebulado,' one of the names put forward, was the show's working title back in its planning stages.",
+      "reason": "wrong referent + mistranslation: その腕部 are the arms of the Molabar (the machine Kei liked to pilot), not the Bronco II whose legs were kept, so 'its arm units' misleads; and フライヤー is 'Flyer', not 'Fighter'"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "robot 1 DSCR 'an attack from within Zambo Ace': ザンボエースの内部からの攻撃 is ambiguous (from inside Zambo Ace, or Zambo Ace attacking from inside Bandock); robot 0 does not settle it, so it stays literal as the translator kept it"
+    ],
+    "name_issues": [
+      "robot 0 DSCR: 'Zambot Grapple', 'Zambot Buster', 'Buster Missiles', 'Zambot Moon Attack', 'Zambot Combination In!' are literal English",
+      "robot 3 DSCR: Navaron is 'he/his' in the English. Kept because the Japanese uses 彼 (settles male), although the brief lists Navaron as gender unknown; literal 'Trider Cosmic/Beagle/Eagle/Hawk/Marine/Mobile', 'Vulcan Missiles', 'Bird Beam' etc.",
+      "robot 4 DSCR: literal 'Takeo General Company', 'Jackal', 'Robot Empire', 'Space Defense Agency', 'Trider', 'Cosmic', 'Fortress'",
+      "robot 5 DSCR: literal 'V-Con', 'Vision Controller', 'Rainbow Waves'; robot 6/7 DSCR: literal 'Branch', 'Robot Mafia', 'V-Con'",
+      "robots 10, 13, 14, 15: literal 'Space Demon King' / 'Demon King' / 'Space Robo(s)' / 'Branch' / 'General Majin' (now 'Majin generals') / 'Dark Sun' (no tokens listed in the brief)",
+      "robot 16 DSCR: literal 'God Fire', 'Mars Flash', 'Sphinx', 'Uranus', 'Titan', 'Shin', 'Ra', 'Six God Combination', 'Final $$ゴッドマーズ$$' (partly token)",
+      "robot 19 DSCR: uses tokens; robots 20 and 21 DSCR: literal 'Gaiar' (the token $$ガイヤー$$ = Gaia is used in robots 16, 17, 19), literal 'Gestalt' (token $$ゲシュタルト$$ exists), 'Crusher Team' (token $$クラッシャー隊$$ exists), 'Bode', 'Devil Ring', 'Uranus'",
+      "robot 25 DSCR and robot 32 DSCR: literal 'Niiba' (glossary official English is 'Niva'); robot 25 literal 'Red Shoulders'",
+      "robot 27 DSCR: literal 'Quent', 'Gomor', 'Wiseman', 'Sand-tripper'; robot 28: 'Melkia', 'Gilgamesh Stellar Federation', 'Marshydog'; robot 30: 'Balarant', 'Frogger'; robot 31: 'A-Kova', 'Danger Melon', 'Strikedog'",
+      "robot 34 DSCR: literal 'Allegium' (robots 26 and 35 use token $$アレギウム$$)",
+      "robot 37 DSCR: literal 'Kei', 'Bronco II', 'Emaan', 'Molabar', 'Drifados' (ドリファンド, probably Drifand), 'Orguroid', 'Jabby', 'Nebulado', 'Valhalla', 'Gammon'; robot 38: 'Anaheim Electronics', 'Zeta Project' (Z計画), 'Movable Frame', 'Bio-Sensor', 'Hyper Mega Launcher', 'Mega Bazooka Launcher'; robot 24: 'Round Mover', 'Parachute Pack'"
+    ],
+    "uncertain": [
+      "robot 0 DSCR 'fell toward the atmosphere' for 大気圏へ落下していった: 'fell into the atmosphere' is the more natural reading; left as merely different (the translator flagged it too)",
+      "robot 1 DSCR 'an attack from within Zambo Ace': whose interior is unclear (see kept_omissions)",
+      "robot 6 DSCR 'only one hundred-thousandth of it was complete' for 10万分の1のところでコピーが中断: I kept that reading; it could also mean one hundred-thousandth remained",
+      "robot 15 DSCR 'talked out of it by Gura's pleading': 説得 is persuasion, 'pleading' is a slight shift kept from Jigoku; left",
+      "robot 19 DSCR title 'Are You the Rose Knight...?!' for 『バラの騎士君は…？！』: could also be 'Rose Knight, Who Are You...?!'; left",
+      "robot 22 DSCR: the entry is about Xul (male) in his giant form; the English uses 'it' throughout while robot 15 uses 'he' for the Space Demon King. Left as 'it' because the entry names the giant form, but 'he' would also be defensible",
+      "robot 32 DSCR: Niiba has no character-glossary entry, so I treated gender as unknown and used 'their'; Niiba is a man in the series, so if the orchestrator adds Niiba as male, 'his' can be restored",
+      "robot 14 DSCR: 貸し与えられた has no stated object; 'lent it' (the saucer) kept from Jigoku; 魔人将軍 read as the plural class 'Majin generals' from the Gura entry context (配下の魔人将軍を使い)",
+      "robot 23 DSCR: 'VOTOMS means the lowest of bastards' kept as Jigoku wrote it (the pun is on 'Bottoms')",
+      "robot 37 DSCR: 'hasty patchwork job' for 急ごしらえ adds a slight 'patchwork' nuance; left",
+      "robot 37 DSCR: I read 'その腕部' as the Molabar's arms (the nearest antecedent machine in the sentence); the English 'that machine's arm units' now says so",
+      "robot 7 is the only entry whose DSC2 differs from DSCR; its extra final sentence was checked and matches the Japanese"
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "schema": 1,
+  "group": "g155",
+  "blocks": [
+    155
+  ],
+  "speaker": {
+    "token": "ゼウス",
+    "jigoku_pilot": "Zeus",
+    "jigoku_unit": "Zeus (self-piloted; true form Z Mazinger)",
+    "fraction": 1.0,
+    "basis": "jigoku section match (unreviewed)"
+  },
+  "lines": {
+    "155:0": {
+      "repository_source_sha256": "a84f2b9655247d374e13b2d210327e7d284c5e5ba5340df2fdcc740e49cfe5b3",
+      "en": "「I shall deliver divine judgment!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "155:23": {
+      "repository_source_sha256": "c8d582380e177a686c8a3cf17f19edc21900edbe6e6b0a62701edb2e48a0a328",
+      "en": "「I, $$ゼウス$$, show my foes no mercy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "155:62": {
+      "repository_source_sha256": "28c09e883a815a78794c3b3397c1470e92df48485a7e29a76bca879976ccefde",
+      "en": "「That wicked heart ends here!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "155:95": {
+      "repository_source_sha256": "f289c719e9725b238e72a68557e9711f1517d9dc44c2dd1e8065a56cac41e70d",
+      "en": "「I will not forgive your tyranny!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "155:124": {
+      "repository_source_sha256": "d4da5265ae4d27f2598129c1376c773290e970a75e755e815d271a181d86ffcd",
+      "en": "「This! This!\\nA god who left $$ミケーネ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "155:181": {
+      "repository_source_sha256": "7e82828db53da2679978af16cacb483850a7aa7beecff7ab99e5ff66765e5d45",
+      "en": "「Let us settle this, $$ハーデス$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "155:212": {
+      "repository_source_sha256": "1af3093fe661a7a1593f96c479c0ad4211f785f37c188c39fd90350e50fcf1f2",
+      "en": "「Face my blade of wrath!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "155:245": {
+      "repository_source_sha256": "8cf4b1f5ffea9f9af57b4d3ab728f847bc97892373a5201aa15cc1d2ef24135b",
+      "en": "「Uoooooh!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "Raaaaagh!",
+        "Raaagh!",
+        "Rraaagh!",
+        "Raaaaah!"
+      ],
+      "review": "same-speaker"
+    },
+    "155:262": {
+      "repository_source_sha256": "1d50fb9b167b58272ef5a70c43e572132ed02afd0e53c34f2c13607c238236b0",
+      "en": "「My wrath shall pierce you!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "155:289": {
+      "repository_source_sha256": "ad664796de1e3038e7848e8865def378793b8bb7af7278c25384f8668dab5315",
+      "en": "「ROCKEEEET!\\nPUUUUUNCH!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)"
+      ]
+    },
+    "155:340": {
+      "repository_source_sha256": "ff330665749ad05e541f63f751d2091c533ae8126260650464703b4548dcab70",
+      "en": "「Receive your just deserts!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "155:359": {
+      "repository_source_sha256": "680fbd28a6fec704c5e692c66d4631e7a1c8d7dd0bb8c9878d80baa427bffdc3",
+      "en": "「Consider this repayment!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "155:372": {
+      "repository_source_sha256": "42baec107bd06b0c41b667fd9f82beacf3e1d7f92de3a331e6b3949372275b8e",
+      "en": "「Face divine wrath!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "155:395": {
+      "repository_source_sha256": "dce2ddb7c8f2db4d6dedb02ec3b1724e4446f799f44c05d05c35afafb509923c",
+      "en": "「Then I shall join you!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack",
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "155:414": {
+      "repository_source_sha256": "bc152cf84c439924ab99f07a5290618a1afe15a4d225cc906ccdc204f5d973a8",
+      "en": "「Allow me to lend a hand!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack",
+        "team attack: split targets (?)"
+      ]
+    },
+    "155:435": {
+      "repository_source_sha256": "0932d81aba4d1fac88230924ed4dad08462cdb28adaadf4eddf479377de0e640",
+      "en": "「Wielder of divine power, join me!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "155:474": {
+      "repository_source_sha256": "0fd15d7e3473a25334b75da592160cbd5cd751e3b25243154a66703464b789c7",
+      "en": "「Bearer of endless futures, I follow!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "155:515": {
+      "repository_source_sha256": "ff78990017be283ff3ef8a481ada09229643d004081ab9f02268f5ecf65dee4f",
+      "en": "「I will not allow it!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "155:534": {
+      "repository_source_sha256": "62210ebe49509c90352b45d215dc9b0a3c8f89cd8ebb711a21286b1b1e08c958",
+      "en": "「I, $$ゼウス$$, shall take that blow!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "155:569": {
+      "repository_source_sha256": "9e35fa073741c278120a1b3e1df458a38035cae19211e329263aed75992dab52",
+      "en": "「Stand back, my fellow warrior!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "155:598": {
+      "repository_source_sha256": "d45a3561d427c0a09b7730e5024b7bfe5b2eba5393d6f769deb52251667e98cc",
+      "en": "「Ngh... How careless of me!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "155:617": {
+      "repository_source_sha256": "cf0d5b6e4d535f5b146374355c4a47261d5ebf590a80d8954de78794d262ac02",
+      "en": "「It seems I have no choice!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "155:638": {
+      "repository_source_sha256": "44c6543f64ceb48a00ba795e9f1321a2c41228389e3a94a0e4ebaf347738bd16",
+      "en": "「You shall not have your way!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "155:669": {
+      "repository_source_sha256": "cfd3beecb3e7cea0680d4e6290adcf48ecc8514a182a542f006098141cf807b2",
+      "en": "「You fool!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "155:684": {
+      "repository_source_sha256": "74047a28d47bcca95f4931c5083231c6c2579b024df36df4ccff8c8a47ebe7d7",
+      "en": "「You cannot hit me!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "155:699": {
+      "repository_source_sha256": "e9de1e94fe3450cd4292e5512d502b12dbf8127adc24e49a6b780576785ec2bc",
+      "en": "「You cannot stop me!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "follow-up attack"
+      ]
+    },
+    "155:728": {
+      "repository_source_sha256": "13624e467d290e94b61e84f9394bb793acacaea58268fb99de02e7f9d67bbcfc",
+      "en": "「What, $$ハーデス$$?\\nNeed tricks to fight?」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "155:783": {
+      "repository_source_sha256": "4be92fa64668dc9ca113da8e9616104cb113e20ce4070e8d5caa34f6d0214a92",
+      "en": "「Arrogant god!\\nKnow your smallness!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "155:836": {
+      "repository_source_sha256": "33e93f89fc082f36722bd680fcadf8425c42c784847f173e49b937e7189e6732",
+      "en": "「It is futile!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ],
+      "alternatives": [
+        "It's useless!",
+        "It's no use!",
+        "Useless!",
+        "That won't work!",
+        "That was pointless!",
+        "Pointless!"
+      ],
+      "review": "same-speaker"
+    },
+    "155:849": {
+      "repository_source_sha256": "1e1d18ff4366ec8c21f23bd582e2f9762f516927af8899b708e3d7758df3d254",
+      "en": "「That has no effect!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "155:862": {
+      "repository_source_sha256": "bdf47e872d5da759a83f0a9fcccfa218a50b5ada0509ad19bc5e7919d992db2e",
+      "en": "「You touched my body...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "155:887": {
+      "repository_source_sha256": "9272b47bfcc74803bab341cb0b7340af6819b9f045d9ea1472c8fd3a435698d7",
+      "en": "「You still desire battle?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "155:916": {
+      "repository_source_sha256": "99b50ecbb9955e5412b015ac167327c9ab8480c7b03adff3022ac31e7bbebc1a",
+      "en": "「To defeat $$ゼウス$$, fight all out!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "155:959": {
+      "repository_source_sha256": "db6d41e5e1c19efe41bfa86092ce2cd3645efe57442d451b3dfaa0f94d85bd0f",
+      "en": "「Your blows fail\\non my golden body!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "155:1008": {
+      "repository_source_sha256": "1892c1c6467bff7e378d05613142b6cc7e2d506259834497869b232b7565b7f8",
+      "en": "「A foe worthy of me!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Worthy foe!",
+        "A worthy opponent!",
+        "You're a worthy opponent!"
+      ],
+      "review": "same-speaker"
+    },
+    "155:1035": {
+      "repository_source_sha256": "ae46eb036b0e8080829658e86203d90a2051fbcaef3c8dd4439d15c918197ac9",
+      "en": "「I, $$ゼウス$$,\\ndo not fear being wounded!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "155:1084": {
+      "repository_source_sha256": "8e1cd42b388896ce06ae6fec68f7cd9f33f4f578a6ee70614f9ab52be82bd06f",
+      "en": "「Ngh, what is this?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "155:1105": {
+      "repository_source_sha256": "2c9e8d48447482f9d5181911d04836c845fcc92be79b09cacae43469c9f9e933",
+      "en": "「Ggh, how can this be?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "155:1126": {
+      "repository_source_sha256": "36cc556f75e6abc55ee120b738d48b55e455a2109d2161d12e33ebc0ea9e462f",
+      "en": "「Curse you, $$ハーデス$$! How dare you!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "155:1159": {
+      "repository_source_sha256": "365175def20c9e91d2b642fe608d73c105f234ebb5358144f74774fdfc61e3b0",
+      "en": "「You differ from other Machine Gods!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "155:1196": {
+      "repository_source_sha256": "713a06fdba687cc5c1f6af165ec03439ec097593290987b14ff51faa2d91a38f",
+      "en": "「To think you made me flinch...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "155:1225": {
+      "repository_source_sha256": "1e51079a07cb285e4d95edae4e0f3d119723657ed5039c631ac547f59c6cdda1",
+      "en": "「Can't lose!\\nLives hinge on this!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "155:1282": {
+      "repository_source_sha256": "cd77da7b6c64f0e29233ea04d25320d9abfd051768e4cbd77b57dd642f58ef3b",
+      "en": "「If my body shatters, I won't yield!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "155:1317": {
+      "repository_source_sha256": "b4ec68e03e7cb23cfa080b5846a983880530f66b6692e997aa8c40879c3193c8",
+      "en": "「Light, grant me final strength!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "155:1360": {
+      "repository_source_sha256": "38f431f9b31bb1d9bf99bd41e718b3ac6da0d9893bd298dc8d3e1593837f9301",
+      "en": "「N-no... I die unfulfilled...!!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "155:1379": {
+      "repository_source_sha256": "7d1310548c7fe608ee09083c0dcbfe21bbd4073ac4205175fab9e37a2c472225",
+      "en": "「Nwoooooh!!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "155:1398": {
+      "repository_source_sha256": "96a9c83895d293113aaa2ed0d017daf7b5b836b6ca7c4c8e6dcc0c53cd2687d1",
+      "en": "「Me? All-wise, almighty guardian...」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)"
+      ]
+    },
+    "155:1447": {
+      "repository_source_sha256": "c7e15ce06df25195f8d687e6b44a2c769bf70ba87ea32169b4004691d94be09f",
+      "en": "「I am $$ゼウス$$. In truth, Z $$マジンガー$$!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)"
+      ]
+    }
+  }
+}

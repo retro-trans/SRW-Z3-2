@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "rows": {
+  "フィジカルリアクター": {
+   "en": "Physical Reactor"
+  },
+  "グラビティ・ウェイバー": {
+   "en": "Gravity Weiver"
+  },
+  "精神付与": {
+   "en": "Spirit Grant"
+  },
+  "最大気力アップ": {
+   "en": "Max Morale Up"
+  },
+  "ノリコの奇跡": {
+   "en": "Noriko's Miracle"
+  },
+  "いがみ合う双子（味方）": {
+   "en": "$$いがみ合う双子$$ (Ally)"
+  },
+  "傷だらけの獅子（味方）": {
+   "en": "$$傷だらけの獅子$$ (Ally)"
+  },
+  "哀しみの乙女（味方）": {
+   "en": "$$悲しみの乙女$$ (Ally)"
+  },
+  "揺れる天秤（味方）": {
+   "en": "$$揺れる天秤$$ (Ally)"
+  },
+  "偽りの黒羊（擬似）": {
+   "en": "$$偽りの黒羊$$ (Pseudo)"
+  },
+  "欲深な金牛（擬似）": {
+   "en": "$$欲深な金牛$$ (Pseudo)"
+  },
+  "いがみ合う双子（擬似）": {
+   "en": "$$いがみ合う双子$$ (Pseudo)"
+  },
+  "沈黙の巨蟹（擬似）": {
+   "en": "$$沈黙の巨蟹$$ (Pseudo)"
+  },
+  "傷だらけの獅子（擬似）": {
+   "en": "$$傷だらけの獅子$$ (Pseudo)"
+  },
+  "哀しみの乙女（擬似）": {
+   "en": "$$悲しみの乙女$$ (Pseudo)"
+  },
+  "揺れる天秤（擬似）": {
+   "en": "$$揺れる天秤$$ (Pseudo)"
+  },
+  "怨嗟の魔蠍（擬似）": {
+   "en": "$$怨嗟の魔蠍$$ (Pseudo)"
+  },
+  "立ち上がる射手（擬似）": {
+   "en": "$$立ち上がる射手$$ (Pseudo)"
+  },
+  "知りたがる山羊（擬似）": {
+   "en": "$$知りたがる山羊$$ (Pseudo)"
+  },
+  "尽きぬ水瓶（擬似）": {
+   "en": "$$尽きぬ水瓶$$ (Pseudo)"
+  },
+  "夢見る双魚（擬似）": {
+   "en": "$$夢見る双魚$$ (Pseudo)"
+  },
+  "妖精の目（マオ）": {
+   "en": "$$妖精の目$$ ($$マオ$$)"
+  },
+  "妖精の目（クルツ）": {
+   "en": "$$妖精の目$$ ($$クルツ$$)"
+  },
+  "妖精の目（クルーゾ）": {
+   "en": "$$妖精の目$$ ($$クルーゾー$$)"
+  },
+  "ニュータイプ（Ｘ）": {
+   "en": "Newtype (X)"
+  },
+  "リフテクニック": {
+   "en": "Lifting Technique"
+  },
+  "オーバーセンス": {
+   "en": "Over Sense"
+  },
+  "移動後攻撃可能": {
+   "en": "Post-Move Attack"
+  },
+  "※未設定１": {
+   "en": "*Unset 1"
+  },
+  "※未設定２": {
+   "en": "*Unset 2"
+  },
+  "※未設定３": {
+   "en": "*Unset 3"
+  },
+  "サテライトシステム": {
+   "en": "Satellite System"
+  },
+  "悲しみの乙女（擬似）": {
+   "en": "$$悲しみの乙女$$ (Pseudo)"
+  },
+  "暴走エヴァ初号機": {
+   "en": "Berserk EVA Unit-01"
+  }
+ },
+ "report": {
+  "uncertain": [
+   "最大気力アップ = 'Max Morale Up' per docs/UI_EBOOT.md (気力 = Morale), but neighbouring reused strings in eboot.json use Jigoku's 'Focus' (気力上昇 = 'Focus Up', 気力低下 = 'Focus Down'; rpw skills 'Foc+'). One of the two needs harmonising.",
+   "リフテクニック = 'Lifting Technique': read as Eureka Seven's lifting (リフ); leftover Jigoku-era skill label, no project precedent.",
+   "オーバーセンス = 'Over Sense': plain transliteration; series of origin not confirmed.",
+   "精神付与 = 'Spirit Grant' (status-effect list next to SP Regen / Stats Up); exact mechanic not confirmed.",
+   "（擬似） = '(Pseudo)', （味方） = '(Ally)'. Long rows, e.g. '$$尽きぬ水瓶$$ (Pseudo)' expands to 34 chars; may overflow an ability slot.",
+   "哀しみの乙女 (variant kanji) uses the $$悲しみの乙女$$ token ('Sorrowful Maiden').",
+   "Glossary 尽きぬ水瓶 reads 'Inexhaustible Water Gourd' (misspelling of 'Inexhaustible'); the token here will carry the glossary's spelling.",
+   "グラビティ・ウェイバー = 'Gravity Weiver' to match the library/dialogue; 'Gravity Waver' is also possible.",
+   "※未設定１-３ = '*Unset 1-3' (placeholder slots)."
+  ],
+  "names": {}
+ }
+}

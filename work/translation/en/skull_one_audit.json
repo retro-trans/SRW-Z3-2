@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 1,
+      "file": "dlg_2010_05.json",
+      "id": "76:t_003:16",
+      "before": "$$オズマ$$\n「$$スカル$$ 1 to all units! Our target is the enemy ship carrying $$ギルター$$!」",
+      "after": "$$オズマ$$\n「$$スカル１$$ to all units! Our target is the enemy ship carrying $$ギルター$$!」",
+      "reason": "Whole-corpus exact-source callsign scan: Ozma speaking or Cathy addressing Ozma; replace composed Skull callsign with researched full Skull 1 token. Preserve identity."
+    },
+    {
+      "batch": 2,
+      "file": "dlg_2012_03.json",
+      "id": "88:t_001:26",
+      "before": "$$オズマ$$\n「$$スカル$$ 1 to all units! First, we'll crush their command! Target the enemy ship and $$ギルター$$!」",
+      "after": "$$オズマ$$\n「$$スカル１$$ to all units! First, we'll crush their command! Target the enemy ship and $$ギルター$$!」",
+      "reason": "Whole-corpus exact-source callsign scan: Ozma speaking or Cathy addressing Ozma; replace composed Skull callsign with researched full Skull 1 token. Preserve identity."
+    },
+    {
+      "batch": 3,
+      "file": "dlg_2033_02.json",
+      "id": "231:t_017:23",
+      "before": "$$キャシー$$\n「Quiet, $$スカル$$ One!」",
+      "after": "$$キャシー$$\n「Quiet, $$スカル１$$!」",
+      "reason": "Whole-corpus exact-source callsign scan: Ozma speaking or Cathy addressing Ozma; replace composed Skull callsign with researched full Skull 1 token. Preserve identity."
+    }
+  ]
+}

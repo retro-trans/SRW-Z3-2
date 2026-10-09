@@ -1,0 +1,531 @@
+{
+ "schema": 1,
+ "group": "gurren_lagann",
+ "names": [
+  {
+   "jp": "アダイ村",
+   "kind": "keyword",
+   "en": "Adai Village",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Adai_Village : 'Adai Village' (Rossiu/Gimmy/Darry/Magin's village); https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'the underground village of Adai'; Jigoku library English 'Adai Village'"
+  },
+  {
+   "jp": "アークグレン",
+   "kind": "robot",
+   "en": "Arc-Gurren",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Arc-Gurren : 'Arc-Gurren' (アークグレン), named by Rossiu Adai; Jigoku library English 'Arc-Gurren'"
+  },
+  {
+   "jp": "アークグレンラガン",
+   "kind": "robot",
+   "en": "Arc-Gurren Lagann",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Arc-Gurren_Lagann : 'Arc-Gurren Lagann' (combination of Arc-Gurren and Gurren Lagann)"
+  },
+  {
+   "jp": "カミナシティ",
+   "kind": "keyword",
+   "en": "Kamina City",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Kamina_City : 'Kamina City', capital built on the ruins of Teppelin; https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Kamina City'; Jigoku glossary 'Kamina City' (was proposed)"
+  },
+  {
+   "jp": "グラパール",
+   "kind": "robot",
+   "en": "Grapearl",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Grapearl : 'Grapearl' (グラパール), mass-produced successor of the Gunmen; Jigoku library English 'Grapearl'",
+   "note": "Plural in prose: Grapearls"
+  },
+  {
+   "jp": "グレン",
+   "kind": "robot",
+   "en": "Gurren",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Gurren : 'Gurren' (グレン), Kamina's Gunmen; glossary グレンラガン = Gurren Lagann; Jigoku library English 'Gurren'",
+   "note": "The Gunmen alone, not the combined グレンラガン"
+  },
+  {
+   "jp": "グレン団",
+   "kind": "keyword",
+   "en": "Team Gurren",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Team_Dai-Gurren : 'changed from its original name of Team Gurren'; https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Team Gurren'",
+   "note": "Kamina's original band. Jigoku library English mixes 'Team Gurren' and 'Dai-Gurren Brigade'; Team Gurren chosen to pair with Team Dai-Gurren"
+  },
+  {
+   "jp": "コレハナ島",
+   "kind": "keyword",
+   "en": "Korehana Island",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物 : Japanese spelling 'コレハナ島' (island where Yoko teaches as 'ヨマコ'); Jigoku library English 'Korehana Island'",
+   "note": "English Wikipedia writes 'Koreha Island' (https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters), which does not match the Japanese コレハナ; no licensed-release source found, so proposed"
+  },
+  {
+   "jp": "ジーハ村",
+   "kind": "keyword",
+   "en": "Giha Village",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Giha_Village : 'Giha' is the spelling in Aniplex's releases (also 'Jeeha'/'Jiha'); https://en.wikipedia.org/wiki/Gurren_Lagann : 'Giha village'",
+   "note": "Jigoku library English inconsistent ('Jiha' in Simon entry, 'Giha' in Kamina entry); Giha kept"
+  },
+  {
+   "jp": "スペースグラパール",
+   "kind": "robot",
+   "en": "Space Grapearl",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Gimmy and Darry default unit 'Space Grapearl'; https://gurrenlagann.fandom.com/wiki/Gurren_Lagann_The_Movie:_The_Lights_in_the_Sky_are_Stars : 'Space Grapearls'",
+   "note": "akurasu Mech List lists a different movie unit 'Space Gunmarl' (スペースガンマール)"
+  },
+  {
+   "jp": "ダイガンザン",
+   "kind": "robot",
+   "en": "Dai-Gunzan",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Dai-Gunzan : 'Dai-Gunzan' (ダイガンザン), Thymilph's fortress, later renamed Dai-Gurren; Jigoku library English 'Dai-Gunzan'"
+  },
+  {
+   "jp": "ダイグレン",
+   "kind": "robot",
+   "en": "Dai-Gurren",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Dai-Gurren : 'Dai-Gurren' (ダイグレン); glossary 超銀河ダイグレン = Space Galaxy Dai-Gurren; Jigoku library English 'Dai-Gurren'"
+  },
+  {
+   "jp": "ダヤッカイザー",
+   "kind": "robot",
+   "en": "Dayakkaiser",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Dayakkaiser : 'Dayakkaiser' (ダヤッカイザー); Jigoku library English 'Dayakkaiser'"
+  },
+  {
+   "jp": "チミルフ",
+   "kind": "pilot",
+   "en": "Thymilph",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Thymilph : 'Thymilph' (チミルフ, Chimirufu), first of the Four Supreme Generals; https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Thymilph the Crasher'; https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物 : 'チミルフ（Thymilph）'",
+   "note": "The brief's proposed 'Chimyulf' is not attested in any source found (Wikipedia, fandom wiki, MAL, ja.wikipedia all write Thymilph). Jigoku library English is inconsistent ('Chimiruf' in Viral entry, 'Chimyulf' in Kamina entry), so the established English wins. Epithet 'the Crasher' / 'Raging Wave' (怒涛のチミルフ)",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Fandom wiki and Wikipedia use 'he'; ja.wikipedia: gorilla-type Beastman general voiced by Kiyoyuki Yanada",
+    "position": "first of the Spiral King's four generals; commander of the Human Eradication Army's Eastern Theater (Viral's superior), flagship Dai-Gunzan",
+    "personality": "skilled tactician and proud warrior with a warrior's code of honour, cautious and shrewd (game DSCR: values courtesy)",
+    "nickname": "Thymilph the Crasher / Raging Wave (怒涛のチミルフ)",
+    "sources": [
+     "https://gurrenlagann.fandom.com/wiki/Thymilph",
+     "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+     "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+     "pilot 374 DSCR (mention)"
+    ]
+   }
+  },
+  {
+   "jp": "テッペリン",
+   "kind": "keyword",
+   "en": "Teppelin",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Teppelin : 'Teppelin' (テッペリン), Beastmen capital and Lordgenome's fortress; https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Teppelin'; glossary ニア・テッペリン = Nia Teppelin"
+  },
+  {
+   "jp": "バチカ",
+   "kind": "keyword",
+   "en": "Bachika",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Bachika : disambiguation for Kittan/Kinon/Kiyal/Kiyoh Bachika; glossary キノン・バチカ = Kinon Bachika",
+   "note": "Family name of the Black Siblings (Kiyoh's maiden name)"
+  },
+  {
+   "jp": "マギン",
+   "kind": "pilot",
+   "en": "Magin",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Magin : 'Magin', chief of Adai Village ('Father Magin' in https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters); https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物 : マギン, アダイ村の村長, called 司祭様",
+   "note": "Game DSCR calls him 司祭 (priest); prose may say 'Priest Magin', the name stays Magin",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Fandom wiki: Category Male, 'he'; ja.wikipedia: voiced by Joji Nakata; game DSCR 'the strict Priest Magin'",
+    "position": "chief and priest of Adai Village; raised Rossiu",
+    "personality": "strict, cold on the outside, plays it safe; invented the Gunmen religion to keep the village calm",
+    "nickname": "Father / Priest (司祭様)",
+    "sources": [
+     "https://gurrenlagann.fandom.com/wiki/Magin",
+     "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+     "pilot 385 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ラガン",
+   "kind": "robot",
+   "en": "Lagann",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Lagann and https://gurrenlagann.fandom.com/wiki/Gurren_Lagann_(mecha) : 'Lagann'; glossary グレンラガン = Gurren Lagann; Jigoku library English 'Lagann'"
+  },
+  {
+   "jp": "リットナー村",
+   "kind": "keyword",
+   "en": "Littner Village",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Littner_Village : 'Littner Village' next to Giha Village; Jigoku library English 'Littner Village'; glossary family name Littner"
+  },
+  {
+   "jp": "ロージェノム・ヘッド",
+   "kind": "pilot",
+   "en": "Lordgenome Head",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Gurren_Lagann_The_Movie:_The_Lights_in_the_Sky_are_Stars : 'the Lordgenome Head' (biocomputer); https://gurrenlagann.fandom.com/wiki/Arc-Gurren : 'Lordgenome's head as its biocomputer'; glossary 'Lordgenome Head' (was proposed)",
+   "note": "Bio-computer grown by Rossiu from a cell of Lordgenome; same person as ロージェノム for gender and profile",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Same person as Lordgenome (fandom 'he'); game DSCR 螺旋王ロージェノム, has his knowledge and memories",
+    "position": "bio-computer of the Arc-Gurren; later a surviving Spiral warrior fighting with Team Dai-Gurren",
+    "personality": "claims not to be the Spiral King himself but keeps his full knowledge and memories; grave, dutiful",
+    "nickname": "",
+    "sources": [
+     "https://gurrenlagann.fandom.com/wiki/Lordgenome",
+     "pilot 381 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "四天王",
+   "kind": "keyword",
+   "en": "Four Heavenly Kings",
+   "status": "proposed",
+   "source": "Jigoku library English (pt_341, Viral/Kamina entries): 'Heavenly Kings' (with the 'フォウ' token standing for Four); https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物 : 螺旋四天王",
+   "note": "Precedence: Jigoku library English (4) over franchise English (5). Franchise wikis say 'Four Supreme Generals' (https://gurrenlagann.fandom.com/wiki/Four_Supreme_Generals, https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters); no licensed-release page found to settle it, so proposed. Prose must replace the 'フォウ' + 'Heavenly Kings' split with this token"
+  },
+  {
+   "jp": "大グレン団",
+   "kind": "keyword",
+   "en": "Team Dai-Gurren",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Team_Dai-Gurren : 'Team Dai-Gurren', also called Dai-Gurren Brigade; https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Team Dai-Gurren'",
+   "note": "Jigoku library English mixes 'Dai-Gurren Brigade' and 'Team Dai-Gurren'; Team Dai-Gurren is the established form"
+  },
+  {
+   "jp": "天元突破グラパール",
+   "kind": "robot",
+   "en": "Tengen Toppa Grapearl",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Tengen_Toppa_Grapearl : 'Tengen Toppa Grapearl' (Gimmy and Darry, movie); glossary 天元突破グレンラガン = Tengen Toppa Gurren Lagann"
+  },
+  {
+   "jp": "螺旋力",
+   "kind": "keyword",
+   "en": "Spiral Power",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Simon skill 'Spiral Power'; https://gurrenlagann.fandom.com/wiki/Spiral_Power : 'Spiral Power' (螺旋力)",
+   "note": "Capitalised in every source"
+  },
+  {
+   "jp": "螺旋王",
+   "kind": "pilot",
+   "en": "Spiral King",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Lordgenome : 'once addressed as the Spiral King'; https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Spiral King'; glossary ロージェノム = Lordgenome",
+   "note": "Title of Lordgenome (ロージェノム); same person, own token because the prose uses the title alone",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Title of Lordgenome; fandom wiki 'he'; father of Nia Teppelin (game DSCR 父ロージェノム)",
+    "position": "ruler of the Beastmen and of Earth; leader of the Human Eradication Army; formerly a Spiral warrior",
+    "personality": "cruel, ruthless tyrant on the surface; in truth a man who kept humanity hidden from the Anti-Spiral",
+    "nickname": "Spiral King",
+    "sources": [
+     "https://gurrenlagann.fandom.com/wiki/Lordgenome",
+     "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters"
+    ]
+   }
+  },
+  {
+   "jp": "超天元突破グレンラガン",
+   "kind": "robot",
+   "en": "Super Tengen Toppa Gurren Lagann",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Super_Tengen_Toppa_Gurren_Lagann : 'Super Tengen Toppa Gurren Lagann' (超天元突破グレンラガン), movie final form; glossary 天元突破グレンラガン = Tengen Toppa Gurren Lagann",
+   "note": "If the orchestrator keeps 'Space Galaxy' for 超銀河 (see challenges), 超 is rendered 'Space' there and 'Super' here"
+  },
+  {
+   "jp": "隔絶宇宙",
+   "kind": "keyword",
+   "en": "isolated space",
+   "status": "proposed",
+   "source": "Jigoku library English (kw_070 entry 122): 'Isolated Space'; https://gurrenlagann.fandom.com/wiki/Antispiral's_Universe : 'an isolated universe' created by Antispiral",
+   "note": "No franchise page names it as a term; Jigoku wording kept (Jigoku precedence), lower case because it is descriptive. 'isolated universe' is the fandom wiki's wording"
+  },
+  {
+   "jp": "黒の兄弟",
+   "kind": "keyword",
+   "en": "Black Siblings",
+   "status": "official",
+   "source": "https://gurrenlagann.fandom.com/wiki/Black_Siblings : 'The Black Siblings' (Kittan, Kiyoh, Kinon, Kiyal Bachika); Jigoku library English 'Black Siblings'"
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 373,
+   "gender": "male",
+   "gender_evidence": "DSCR: 青年 (young man), 'looks up to Kamina as an older brother'; https://gurrenlagann.fandom.com/wiki/Simon: 'he', main protagonist; ja.wikipedia: 少年/青年",
+   "nickname": "Simon the Digger (穴掘りシモン)",
+   "position": "leader of Team Dai-Gurren, pilot of Lagann/Gurren Lagann; first Supreme Commander of the new government (Kamina City)",
+   "personality": "timid and bottled-up as a boy, digging his only talent; grows into a charismatic, determined leader who never gives up",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Simon",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 373 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 374,
+   "gender": "male",
+   "gender_evidence": "Fandom and Wikipedia: 'he', male Beastman; game DSCR: rival of Simon, ex-subordinate of Thymilph; game DSCR: 宿敵 of Simon, ex-subordinate of Thymilph",
+   "nickname": "",
+   "position": "Beastman; former commander of the Far East Division of the Anti-Human Suppression Force (Human Eradication Army); imprisoned guerrilla leader; Gurren Lagann co-pilot with Simon; immortal body given by Lordgenome",
+   "personality": "fierce and combative but courteous and loyal, respects his superiors and rivals; open-minded about humans after meeting Kamina",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Viral",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "library pilot 374 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 375,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女性へと成長 (grew into a woman); https://gurrenlagann.fandom.com/wiki/Yoko_Littner: 'girl', 'she'; Wikipedia: 'young woman'",
+   "nickname": "alias 'Yomako' (ヨマコ) as a teacher on Korehana Island; Kamina/Simon call her Yoko",
+   "position": "sniper from Littner Village; member of Team Dai-Gurren; later a teacher (schoolmaster) under the alias Yomako",
+   "personality": "realistic and level-headed but honest, cheerful and straightforward; the mood-maker of the team who grew calmer and more nurturing; strong-willed",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Yoko_Littner",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 375 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 376,
+   "gender": "female",
+   "gender_evidence": "DSCR: 第一王女 (first princess) of Lordgenome; 可憐さ; https://gurrenlagann.fandom.com/wiki/Nia_Teppelin: 'she', daughter of Lordgenome",
+   "nickname": "",
+   "position": "first princess of the Spiral King Lordgenome; member of Team Dai-Gurren; Simon's wife; the Anti-Spiral's messenger in the last arc",
+   "personality": "extremely pure and go-her-own-way, naive about the world; gentle, strong-willed, becomes the team's idol; cooking is legendary for being terrible (Rossiu's trauma)",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Nia_Teppelin",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "library pilot 376 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 377,
+   "gender": "male",
+   "gender_evidence": "DSCR: 双子の男の子 (twin boy); https://gurrenlagann.fandom.com/wiki/Gimmy_Adai: 'boy', Darry's older twin brother",
+   "nickname": "",
+   "position": "boy from Adai Village; Team Dai-Gurren member; after the war a Grapearl pilot leading a squad; Gurren Lagann pilot in the epilogue",
+   "personality": "brimming with energy, bold to the point of reckless (good side: decisive, bad side: rash); outgoing; matures during the war with the Anti-Spiral",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Gimmy_Adai",
+    "library pilot 377 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 378,
+   "gender": "female",
+   "gender_evidence": "DSCR: 双子の女の子 (twin girl); https://gurrenlagann.fandom.com/wiki/Darry_Adai: 'girl', Gimmy's younger twin sister",
+   "nickname": "",
+   "position": "girl from Adai Village; Team Dai-Gurren member; Grapearl unit member and top marksman; Gurren Lagann pilot in the epilogue",
+   "personality": "quiet and reserved as a child, grew into a level-headed, dependable young woman; the brake on reckless Gimmy; admires Yoko",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Darry_Adai",
+    "library pilot 378 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 379,
+   "gender": "male",
+   "gender_evidence": "DSCR: 俺の嫁 (his own line), and pilot 388 DSCR 夫であるダヤッカ (Kiyoh's husband); https://gurrenlagann.fandom.com/wiki/Dayakka_Littner: 'he'",
+   "nickname": "",
+   "position": "chief of Littner Village; Team Dai-Gurren member; captain (acting captain) of the Dai-Gurren; Minister/head of the Food Department of the new government; husband of Kiyoh",
+   "personality": "mild-mannered but brave in battle; a leader with combat experience who steadies everyone as an emotional pillar; devoted family man",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Dayakka_Littner",
+    "library pilot 379 DSCR",
+    "library pilot 388 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 380,
+   "gender": "male",
+   "gender_evidence": "Fandom wiki 'he'; ja.wikipedia: 彼の家系 (his family), オネエ言葉 (effeminate speech), voiced by Masaya Onosaka; game DSCR 女性っぽい部分が目立つ describes mannerisms only",
+   "nickname": "Ron (nickname)",
+   "position": "mechanic of Littner Village; Team Dai-Gurren mechanic; head of the Science Department of the new government",
+   "personality": "brilliant, curious, research-loving; flamboyant with feminine speech and heavy make-up; calm and objective except when his repairs are destroyed",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Leeron_Littner",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 380 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 381,
+   "gender": "male",
+   "gender_evidence": "Same person as Lordgenome: fandom 'he'; game DSCR 螺旋王ロージェノム, has the memories of his lifetime",
+   "nickname": "",
+   "position": "bio-computer form of Lordgenome, created by Rossiu; ally of Team Dai-Gurren, regains his old form in the final battle",
+   "personality": "says he is not the Spiral King himself but has the same knowledge and memories; grave and dutiful, a surviving Spiral warrior",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Lordgenome",
+    "library pilot 381 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 382,
+   "gender": "male",
+   "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Attenborough: 'he'; Category Male; ja.wikipedia: 男 (たらこ唇と縞模様のシャツが特徴的な男)",
+   "nickname": "",
+   "position": "gunner of the Dai-Gurren control team; member of the new government's Science Department",
+   "personality": "hasty, restless, trigger-happy; mashes the fire button; unchanged by the years",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Attenborough",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 382 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 383,
+   "gender": "male",
+   "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Gabal_Docker: Category Male; game DSCR: 忍耐の男 (a man of endurance)",
+   "nickname": "",
+   "position": "helmsman of the Dai-Gurren, later of the Arc-Gurren and Super Galaxy Dai-Gurren; member of the new government's Science Department",
+   "personality": "patient and enduring, pushes through any hardship to the end",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Gabal_Docker",
+    "library pilot 383 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 384,
+   "gender": "male",
+   "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Tetsukan_Littner: Category Male, 'he'; ja.wikipedia entry テツカン・リットナー",
+   "nickname": "",
+   "position": "lookout of the Dai-Gurren; desk worker in the new government's Science Department; operator after the departure",
+   "personality": "overworked and sleepless, dark circles under the eyes; grown stout from desk work; steadfast supporter",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Tetsukan_Littner",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 384 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 385,
+   "gender": "male",
+   "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Rossiu_Adai: 'boy', 'he' (90 male pronouns); Wikipedia: 'boy from the underground village of Adai'; ja.wikipedia 彼",
+   "nickname": "Forehead Boy (TV series nickname)",
+   "position": "Supreme Commander's aide (総司令補佐官) of the new government, effectively running it; Gurren pilot after Kamina; Team Dai-Gurren member",
+   "personality": "intelligent, earnest, serious and calm; a rare voice of common sense; grows into a pragmatic leader ready to take any measure to save humanity",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Rossiu_Adai",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 385 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 386,
+   "gender": "female",
+   "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Cybela_Coutaud: 'a young woman', Category Female; the game English name Cybela Kuto",
+   "nickname": "",
+   "position": "operator of the new government's Defense Operations Room; operator aboard the Arc-Gurren and Super Galaxy Dai-Gurren",
+   "personality": "capable and precise operator; belongs to the generation younger than the Team Dai-Gurren originals",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Cybela_Coutaud",
+    "library pilot 386 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 387,
+   "gender": "female",
+   "gender_evidence": "DSCR: 三女 (third daughter); https://gurrenlagann.fandom.com/wiki/Kiyal_Bachika: 'she', Category Female",
+   "nickname": "",
+   "position": "third daughter and youngest of the Black Siblings; gunner on the Dai-Gurren's third bridge; pilot of Kiyalunga",
+   "personality": "mischievous, cheerful, with a fang as her charm point; fights as hard as any man",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Kiyal_Bachika",
+    "library pilot 387 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 388,
+   "gender": "female",
+   "gender_evidence": "DSCR: 長女 (eldest daughter); husband Dayakka; https://gurrenlagann.fandom.com/wiki/Kiyoh_Bachika: 'she'",
+   "nickname": "",
+   "position": "eldest daughter of the Black Siblings; gunner on the Dai-Gurren's third bridge; Dayakkaiser pilot; Dayakka's wife (Kiyoh Littner), mother of Anne",
+   "personality": "cheerful and warm, more of a mother than an eldest sister; skilled in hand-to-hand combat",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Kiyoh_Bachika",
+    "library pilot 388 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 389,
+   "gender": "female",
+   "gender_evidence": "DSCR: 次女 (second daughter); https://gurrenlagann.fandom.com/wiki/Kinon_Bachika: Category Female, 'sister of Kittan'",
+   "nickname": "",
+   "position": "second daughter of the Black Siblings; secretary of Rossiu, the Supreme Commander's aide; radar operator aboard the Dai-Gurren",
+   "personality": "easy-going, shy and earnest as a girl; after the war cold and businesslike, devoted to supporting Rossiu; calm and smart",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Kinon_Bachika",
+    "library pilot 389 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 390,
+   "gender": "male",
+   "gender_evidence": "Fandom 'young man', 'he'; Wikipedia 'young man'; game DSCR: kisses Yoko before the battle with Thymilph (口付け)",
+   "nickname": "Kamina the Mighty (self-styled); Simon's 'Bro' (アニキ)",
+   "position": "founder and first leader of Team Gurren/Team Dai-Gurren; pilot of Gurren; deceased in the TV series",
+   "personality": "hotheaded, fearless, bold to the point of recklessness and charismatic; boosts everyone with guts and momentum; kicks reason aside to do the impossible",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Kamina",
+    "https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 390 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 391,
+   "gender": "male",
+   "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Boota: Category Male, 'he' used throughout; game DSCR describes a pig-mole, Simon's pet and best friend",
+   "nickname": "",
+   "position": "Simon's pet pig-mole and best friend; Team Dai-Gurren mascot",
+   "personality": "small but active and clever; rides Simon's shoulder; sometimes dives into Yoko's cleavage; its tail regrows and is edible",
+   "sources": [
+    "https://gurrenlagann.fandom.com/wiki/Boota",
+    "https://ja.wikipedia.org/wiki/天元突破グレンラガンの登場人物",
+    "library pilot 391 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 28,
+  "names_settled": 28,
+  "left_pending": [],
+  "challenges": [
+   "超銀河ダイグレン / 超銀河グレンラガン: glossary 'Space Galaxy Dai-Gurren' / 'Space Galaxy Gurren Lagann' (akurasu Z3.2 Mech List) versus established English 'Super Galaxy Dai-Gurren' / 'Super Galaxy Gurren Lagann' (https://gurrenlagann.fandom.com/wiki/Super_Galaxy_Gurren_Lagann, https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters : 'Super Galaxy Dai-Gurren'; the fandom wiki gives 超銀河 = 'Super Galaxy' and Aniplex's releases use the same). The akurasu wiki wins by precedence, but 超 is 'Super' in the anime, and 超天元突破グレンラガン is written 'Super Tengen Toppa' in this file. The orchestrator decides."
+  ],
+  "retoken": [],
+  "uncertain": [
+   "チミルフ: brief and Jigoku proposed 'Chimyulf'; no source found for it, every source found writes 'Thymilph'. Set to Thymilph; prose 'Chimiruf'/'Chimyulf' in Jigoku text must not be reused.",
+   "四天王: 'Four Heavenly Kings' follows Jigoku library English (precedence 4); Wikipedia and the fandom wiki write 'Four Supreme Generals' (precedence 5). Marked proposed. The prose token must absorb the Jigoku 'フォウ' + 'Heavenly Kings' split.",
+   "コレハナ島: the Japanese is コレハナ (ja.wikipedia); English Wikipedia writes 'Koreha Island'. Kept 'Korehana Island' (Jigoku and the Japanese spelling), proposed.",
+   "隔絶宇宙: no franchise term found; Jigoku 'Isolated Space' kept, written lower case; the fandom wiki says 'isolated universe'.",
+   "グレン団 / 大グレン団: 'Team Gurren' / 'Team Dai-Gurren' (Jigoku library mixes in 'Dai-Gurren Brigade'). Both spellings appear in licensed releases; Team Dai-Gurren chosen for consistency with 超銀河ダイグレン 'Dai-Gurren'.",
+   "ロージェノム・ヘッド and 螺旋王 are kept as separate pilot records for the same man as ロージェノム; profiles all say male.",
+   "Nicknames: 'Ron' for Leeron (Wikipedia), 'Forehead Boy' for Rossiu (fandom wiki), 'Kamina the Mighty' (fandom wiki) come from the TV series, not the game text.",
+   "Boota is recorded as male on the strength of the fandom wiki category; the game text does not say.",
+   "Leeron is recorded as male: the game DSCR only says his mannerisms are feminine (女性っぽい); ja.wikipedia (彼, オネエ言葉) and the fandom wiki (he) settle it."
+  ]
+ }
+}

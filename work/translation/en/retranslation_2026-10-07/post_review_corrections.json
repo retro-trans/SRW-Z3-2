@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "changes": [
+    {
+      "batch": 1,
+      "file": "dlg_2005_00.json",
+      "id": "33:t_1:33",
+      "before": "　\n　　\n　　　　　　　　　　～Inside $$ＮＥＲＶ$$～",
+      "after": "　\n　　\n　　　　　　　　　　～$$ＮＥＲＶ$$　Interior～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2005_00.json",
+      "id": "33:t_1:29",
+      "before": "$$ミサト$$\n「...Understood.」",
+      "after": "$$ミサト$$\n「...I understand.」",
+      "reason": "Agent9_4 source+8neighbors review: Misato acknowledges Gendo's order, no genuine cut; restore subject and verb."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2004_04.json",
+      "id": "28:t_006:2",
+      "before": "$$ワッ太$$\n「We're fighting in Tokyo this time, so you can't get away with telling us to protect Japan!」",
+      "after": "$$ワッ太$$\n「We're fighting in $$東京$$ this time, so you can't get away with telling us to protect Japan!」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2005_00.json",
+      "id": "33:t_1:12",
+      "before": "$$ゲンドウ$$\n「I will not authorize deploying the EVAs to $c. I have already informed Director $$大塚$$ at the Far East Branch.」",
+      "after": "$$ゲンドウ$$\n「I will not authorize deploying the EVAs to $c. I have already informed Director $$大塚$$ at the $$極東支部$$.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2005_01.json",
+      "id": "33:t_1:106",
+      "before": "$$シゲル$$\n「It has breached the Far East Branch's defensive line and will soon reach $$第３新東京市$$.」",
+      "after": "$$シゲル$$\n「It has breached the $$極東支部$$'s defensive line and will soon reach $$第３新東京市$$.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2005_02.json",
+      "id": "34:t_012:0",
+      "before": "$$マリ$$\n「Not yet! Not until I break through its entire A.T. Field!」",
+      "after": "$$マリ$$\n「Not yet! Not until I break through its entire $$Ａ．Ｔ．フィールド$$!」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2005_02.json",
+      "id": "34:t_016:4",
+      "before": "$$レイ#pt394$$\n「A.T. Field... at full power! Until... $$碇$$ comes... I'll do it...! So...!」",
+      "after": "$$レイ#pt394$$\n「$$Ａ．Ｔ．フィールド$$... at full power! Until... $$碇$$ comes... I'll do it...! So...!」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2005_02.json",
+      "id": "34:t_018:2",
+      "before": "$$レイ#pt394$$\n「If we... break the A.T. Field... the enemy's... attacks... will hit the Angel...! Then...!」",
+      "after": "$$レイ#pt394$$\n「If we... break the $$Ａ．Ｔ．フィールド$$... the enemy's... attacks... will hit the Angel...! Then...!」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2009_01.json",
+      "id": "63:t_1:109",
+      "before": "$$チェインバー#pilot$$\n「I am $$チェインバー#pilot$$, this unit's Pilot Support Enlightenment Interface System.」",
+      "after": "$$チェインバー#pilot$$\n「I am $$チェインバー#pilot$$, this unit's $$パイロット支援啓発インターフェイス$$ System.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2009_05.json",
+      "id": "64:t_000:6",
+      "before": "$$アル$$\n「Not at all. His approach as a Pilot Support Enlightenment Interface System gave me a great deal to learn from.」",
+      "after": "$$アル$$\n「Not at all. His approach as a $$パイロット支援啓発インターフェイス$$ System gave me a great deal to learn from.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2010_00.json",
+      "id": "69:t_1:22",
+      "before": "$$宗介$$\n「A Pilot Support Enlightenment Interface seems to make a considerate partner.」",
+      "after": "$$宗介$$\n「A $$パイロット支援啓発インターフェイス$$ seems to make a considerate partner.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2010_04.json",
+      "id": "75:t_1:60",
+      "before": "$$チェインバー#pilot$$\n「Acknowledged. As your Pilot Support Enlightenment Interface, this unit respects your decision.」",
+      "after": "$$チェインバー#pilot$$\n「Acknowledged. As your $$パイロット支援啓発インターフェイス$$, this unit respects your decision.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 1,
+      "file": "dlg_2010_05.json",
+      "id": "76:t_003:16",
+      "before": "$$オズマ$$\n「$$スカル$$ 1 to all units! Our target is the enemy ship carrying $$ギルター$$!」",
+      "after": "$$オズマ$$\n「$$スカル１$$ to all units! Our target is the enemy ship carrying $$ギルター$$!」",
+      "reason": "Whole-corpus exact-source callsign scan: Ozma speaking or Cathy addressing Ozma; replace composed Skull callsign with researched full Skull 1 token. Preserve identity."
+    }
+  ]
+}

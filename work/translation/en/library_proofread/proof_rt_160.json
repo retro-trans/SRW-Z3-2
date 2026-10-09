@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_160",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 165,
+      "field": "DSCR",
+      "english_sha256": "99209e9bcc7441ea",
+      "new": "An all-purpose space combat carrier that serves as the flagship of $$Ｓ．Ｍ．Ｓ$$.\nIt is the largest combat vessel the private company $$Ｓ．Ｍ．Ｓ$$ has been permitted to possess, and its captain is Colonel $$ジェフリー・ワイルダー$$.\nTrue to the name 'Quarter,' its size is roughly one-quarter that of a Macross-class ship, and it has higher mobility than that class. As its 'all-purpose' name suggests, it is capable of Fold navigation, independent descent to a planet's surface, flight within the atmosphere, and travel both on and under water.\nIt carries numerous weapons, including a Gunship (rapid-fire Buster Cannon), eight Quarter Cannons, anti-ship missiles, and anti-air missile launchers.\nIt is also capable of transforming into the Assault Type configuration, the greatest characteristic of the Macross-class.",
+      "reason": "rules: the first sentence lost its final period (the Japanese sentence ends at 旗艦である万能型宇宙戦闘空母。)"
+    },
+    {
+      "kind": "robot",
+      "id": 178,
+      "field": "DSCR",
+      "english_sha256": "2888f23ca652b551",
+      "new": "A type of Vajra, also known as the Hound Vajra.\nA rare species with fewer individuals compared to other Vajra. It performs a commander-like role and carries out reconnaissance in force. Despite being a large individual, its wings give it extremely high flight ability within the atmosphere.\nIt fights using a bio heavy beam cannon, biological micro-missiles with tracking capability, and the enormous scythes on its forearms.",
+      "reason": "mistranslation: 強行偵察 is 'reconnaissance in force', not 'forced reconnaissance' (robot 179 already uses this term for the identical sentence)"
+    },
+    {
+      "kind": "robot",
+      "id": 190,
+      "field": "DSCR",
+      "english_sha256": "1219aa2c02d9d1a1",
+      "new": "The final form of Shin Dragon.\n$$號$$ had died once, but sensing Kei's crisis, he was revived, evolved Shin Dragon into its final form, and ascended into space.\nIt possesses a Getter Beam powerful enough to destroy even Jupiter's moon Ganymede in a single blast, and can also transform into Shin Liger and Shin Poseidon. However, this transformation is not achieved by separation and combination, but pivots around the cylindrical section at its center.\nCombining its strength with Shin Getter, it succeeded in defeating the colossal Cowen and Stinger, but immediately afterward a rift in spacetime appeared, one large enough to swallow even Pluto.\nTo stop it, Shin Dragon activated its ultimate weapon, Shin Shine Spark, sending $$竜馬$$ and the others into the space between time.",
+      "reason": "omitted subject: the whole entry has Shin Dragon as the agent, and 最終兵器・真シャインスパークを発動させて...送った is its own act, so the passive 'was activated' hid the actor; the machine is named because a bare 'it' would be ambiguous with the spacetime rift"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "robot 190 DSCR 'sending $$竜馬$$ and the others': 竜馬達 does not say who is included; Gou is not named among them, left as 'and the others'",
+      "robot 197 DSCR 'it appeared as if in answer to Tsubasa calling out its name': the appearing subject (God Scrander, as the preceding sentence sets up) is written as 'it' by the translator; kept"
+    ],
+    "name_issues": [
+      "robot 163 DSCR: 'Queadluun-Rau' is literal English for クァドラン・ロー (no token in this brief), and 'the Rau' / 'the Rea' are literal; also 'Pixie Squadron' (ピクシー小隊) is literal",
+      "robot 164 DSCR: 'Koenig Monster'-series wording, 'Second Vajra Encounter' (第2次バジュラ遭遇戦), 'Destroid', 'Gerwalk' are literal",
+      "robot 165/166 DSCR: 'Macross Quarter', 'Macross-class', 'Fortress Ship Type', 'Assault Type', 'Quarter Cannon', 'Buster Cannon', 'Pinpoint Barrier', 'Macross Attack' are literal English (no tokens in these briefs; robot 185 uses $$マクロス・クォーター$$ for the same ship)",
+      "robot 167-170 DSCR: 'Vajra', 'L.A.I.', 'Macross Frontier fleet', 'Fold Quartz', 'Fold Wave System', 'Fold Wave' are literal English (no tokens in these briefs)",
+      "robot 171 DSCR: 'YF-24 Evolution' is literal; 'VF-27gamma' follows the Japanese VF-27γ while the glossary unit name is YF-27 (translator's note)",
+      "robot 173 DSCR: 'Galaxy fleet' and 'Ghost series' are literal (token ギャラクシー船団 exists elsewhere)",
+      "robot 174, 176, 178, 180, 182, 184 (rt_reuse entries with no tokens listed): 'Vajra' / 'Hound Vajra' are literal, whereas the twins 175/177/179/181/183/185 use $$バジュラ$$ (180 is tokenized in its own brief); tokenization only, wording identical",
+      "robot 187-189 DSCR: Getter weapon names and 'Shin Getter' configuration names, 'Invaders' (187) are literal",
+      "robot 190 DSCR: 'Shin Dragon', 'Shin Liger', 'Shin Poseidon', 'Shin Shine Spark', 'Shin Getter', 'Kei' (渓), 'Cowen and Stinger' (tokens コーウェン / スティンガー exist in robot 196), 'Ganymede' are literal",
+      "robot 191 DSCR: 'Getter 1', 'Shin Dragon', 'Shin Getter' are literal",
+      "robot 192-194 DSCR: 'Invader' is literal (token $$インベーダー#robot$$ is used in 195/196); 'Getter Team' literal in 193/194",
+      "robot 197 DSCR: 'Photon Power', 'Super Alloy Z', 'Pilder On!', 'Arm of Zeus' (ゼウスの腕), 'Big Bang Punch', 'Rocket Punch', 'Hundred-Shot Rocket Punch' are literal",
+      "robot 198 DSCR: 'Aphrodai A', 'Photon Power Beam', 'Super Alloy Z', 'Science Fortress Institute' are literal; 'V2 Schneider' follows the token $$ブロッケン$$ (Japanese unit name is ブロッケンV2シュナイダー, token covers only the first part)",
+      "robot 199 DSCR: 'Photon Power Lab' (光子力研究所) is literal"
+    ],
+    "uncertain": [
+      "rank: robot 165 DSCR 'Colonel' for 大佐 (Jeffrey Wilder is a ship captain; a naval table might give 'Captain'); left for the library rank table",
+      "robots 174-185: 兵隊 is 'trooper-type' (Jigoku wording) while the official unit names in RBN fields use 'Soldier' (Mobile Soldier Vajra, Heavy Soldier Vajra); not a mistranslation, left; consider 'soldier-type' library-wide",
+      "robot 182/183 DSCR: 旗艦に相当する ('equivalent to a flagship') is written 'serves as the flagship'; same meaning in context, left",
+      "robot 186 DSC2: 幹部のユニット read as singular 'the unit of the Galaxy fleet executive'; the Japanese does not mark number, left",
+      "robot 163 DSCR: 'place a greater emphasis on pilot survivability' - 'greater' is implied by the contrast with the Rau, left",
+      "robot 190 DSCR: 'the space between time' for 時の狭間 (literally the gap between times), left",
+      "robot 190 DSCR: I named 'Shin Dragon' as the actor of the final Shin Shine Spark rather than the pilot Gou, because the Japanese does not name a person and the entry is about the machine",
+      "robot 197 DSCR: 'his grandfather' - his = Kouji (pilot named in the previous sentence), matches 祖父; fine"
+    ]
+  }
+}

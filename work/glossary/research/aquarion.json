@@ -1,0 +1,981 @@
+{
+ "schema": 1,
+ "group": "aquarion",
+ "names": [
+  {
+   "jp": "アイアンシー",
+   "kind": "keyword",
+   "en": "Ianthe",
+   "status": "proposed",
+   "source": "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Altair is a heavily industrialized planet powered by Ianthe, a machine developed by Izumo's mother'; https://ja.wikipedia.org/wiki/アクエリオンEVOL : 'アイアンシー: イズモの母、オリザ・カムロギが提唱したエネルギー生産システム' (same thing)",
+   "note": "Single English source (Wikipedia, unreferenced); Jigoku 'Iron-C' has no source and is a guess at the katakana. Not in akurasu."
+  },
+  {
+   "jp": "アクエリオン",
+   "kind": "robot",
+   "en": "Aquarion",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Solar Aquarion' unit list / series title 'Genesis of Aquarion'; https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'the Aquarion'; glossary Solar Aquarion / Aquarion EVOL",
+   "note": "Bare unit name, also used for the series' machine in general."
+  },
+  {
+   "jp": "アクエリオンゲパーダ",
+   "kind": "robot",
+   "en": "Aquarion Gepada",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aquarion_EVOL : unit list 'Aquarion Gepada' (next to 'Aquarion Gepart'/'Aquarion Sparda', which the Z3.2 mech list corrects to Gepard/Spada); https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Aquarion Gepada' (アクエリオンゲパーダ), formed when Shrade's spirit merges with Cayenne's Vector",
+   "note": "Not the same unit as アクエリオンゲパルト (Aquarion Gepard). Gepada is a blend of Gepard and Spada. Jigoku 'Geparda' is wrong."
+  },
+  {
+   "jp": "アクエリオンマーズ",
+   "kind": "robot",
+   "en": "Aquarion Mars",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : unit list 'Aquarion Mars'; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Aquarion Mars (アクエリオンマーズ)'",
+   "note": "Form with Vector Mars as the head; Sirius's favourite form (robot 236 text). Not Cherubim Mars, which is the Shadow Angel version."
+  },
+  {
+   "jp": "アクエリオンＬＯＶＥ",
+   "kind": "robot",
+   "en": "Aquarion LOVE",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Combination_Attacks : 'Aquarion LOVE / アクエリオンLOVE (Solar Aquarion + Aquarion EVOL)'; https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Aquarion Love (アクエリオンLOVE)'",
+   "note": "Capitalised LOVE as in the game's combination attack. Unrelated to the OVA 'Genesis of Aquarion LOVE'."
+  },
+  {
+   "jp": "アトランディア",
+   "kind": "keyword",
+   "en": "Atlandia",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_episodes : episode 25 'Final Battle! Atlandia' (決戦!!アトランディア); https://akurasu.net/wiki/Genesis_of_Aquarion : same episode title; https://aquarion.fandom.com/wiki/Atlandia : 'Atlandia is the home of the Shadow Angels'",
+   "note": "Wikipedia's plot prose also writes 'Atlantia' (or 'Atlantis' in the character list); the licensed episode title, akurasu and the franchise wiki all use Atlandia."
+  },
+  {
+   "jp": "アトランディア大戦",
+   "kind": "keyword",
+   "en": "Great Atlandia War",
+   "status": "proposed",
+   "source": "No English source names this war. Built from Atlandia (https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_episodes) + 大戦 'great war'; the pilot 442 translation already wrote 'Great $$アトランディア$$ War'",
+   "note": "Coined; the war 12,000 years ago in which Apollonius betrayed the Shadow Angels. If a shorter form is wanted, 'Atlandia War' also works."
+  },
+  {
+   "jp": "アポロ",
+   "kind": "pilot",
+   "en": "Apollo",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Apollo===' (Genesis of Aquarion); https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Apollo (アポロ)'",
+   "note": "The Genesis protagonist. Also the past life of Amata/Kagura in EVOL (same person). Glossary アポロン = Apollon is a different token (the film hero 'Apollon' of Skies of Aquaria, glossary official, akurasu Aquarion EVOL page). Jigoku 'Apollon' for アポロ was wrong; the wiki wins.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Library DSCR pilot 438: 少年 (boy), 推定年齢１３歳; Wikipedia: 'he/him'",
+    "position": "Element pilot of DEAVA and the main pilot of Solar Aquarion (Vector Sol); the Genesis of Aquarion protagonist",
+    "personality": "Wild, straightforward, selfish-looking but loyal; feral instincts and senses; brash and animal-like with a kind heart",
+    "nickname": "believed to be the reincarnation of the 'Solar Wing' Apollonius; a street orphan named 'Apollo' by his friend Baron",
+    "sources": [
+     "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "https://aquarion.fandom.com/wiki/Apollo",
+     "library pilot 438 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "アポロニアス#keyword",
+   "kind": "keyword",
+   "token": "アポロニアス#keyword",
+   "en": "Apollonius",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Apollonius' under Other; https://aquarion.fandom.com/wiki/Apollonius : 'Apollonius was a Shadow Angel before he fell in love with Celiane'",
+   "note": "Same English as アポロニアス#pilot; keyword 109 is his own library entry."
+  },
+  {
+   "jp": "アポロニアス#pilot",
+   "kind": "pilot",
+   "token": "アポロニアス#pilot",
+   "en": "Apollonius",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Apollonius'; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Apollonius (アポロニアス)'; https://aquarion.fandom.com/wiki/Apollonius",
+   "note": "Same English as アポロニアス#keyword."
+  },
+  {
+   "jp": "アリシア",
+   "kind": "pilot",
+   "en": "Alicia",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aquarion_EVOL : 'Alicia' (Other); glossary official Alicia; https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Alicia is Amata's mother and a famous actress in Vega who played Sylvie's part in Skies of Aquaria'",
+   "note": "Keep this token for Amata's mother Alicia (EVOL). The アリシア of the old kingdom and the rose (Genesis) is a different word; see アリシア#alisia.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 456/464: 母アリシア (mother); library keyword 111: lead actress; Wikipedia: 'she'",
+    "position": "Famous actress on Vega (played Sylphie in the film 'Skies of Aquaria', and sang its theme); Amata's mother; wife of Izumo Kamurogi",
+    "personality": "Loving; left Vega to help Izumo and left Amata behind to keep him safe",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+     "https://akurasu.net/wiki/Aquarion_EVOL",
+     "library pilots 456 and 464 DSCR, keyword 111 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "アリシア#alisia",
+   "kind": "keyword",
+   "token": "アリシア#alisia",
+   "en": "Alisia",
+   "status": "proposed",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Sirius de Alisia' / 'Silvia de Alisia' (family/kingdom Alisia, シリウス・ド・アリシア); https://akurasu.net/wiki/Genesis_of_Aquarion : same; https://aquarion.fandom.com/wiki/Sirius_de_Alisia : 'the Alician family'",
+   "note": "The old Alisia Kingdom of Sirius and Silvia (旧アリシア王国). akurasu spells the family 'Alisia'; the kingdom name itself is not given in English, so this is derived. The rose 'named アリシア' in pilot 439 is most likely named for the kingdom (uncertain)."
+  },
+  {
+   "jp": "エレメント",
+   "kind": "keyword",
+   "en": "Element",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'called Elements (エレメント)'; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_episodes : episode 3 'Element School'; https://akurasu.net/wiki/Genesis_of_Aquarion : same",
+   "note": "Singular; the prose already writes '$$エレメント$$s' and 'Element ability'."
+  },
+  {
+   "jp": "エレメントスクール",
+   "kind": "keyword",
+   "en": "Element School",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_episodes : episode 3 'Element School' (エレメントスクール); https://akurasu.net/wiki/Genesis_of_Aquarion : same episode title"
+  },
+  {
+   "jp": "オリザ・カムロギ",
+   "kind": "pilot",
+   "en": "Oriza Kamurogi",
+   "status": "proposed",
+   "source": "Family name from the glossary Izumo Kamurogi (https://akurasu.net/wiki/Aquarion_EVOL / work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki); given name is a transliteration; https://ja.wikipedia.org/wiki/アクエリオンEVOL : 'イズモの母、オリザ・カムロギ'",
+   "note": "No English source for the given name. Jigoku 'Kamuroki' is wrong (wiki: Kamurogi).",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 464: 母であるオリザ・カムロギ (his mother); Japanese Wikipedia: イズモの母",
+    "position": "Izumo Kamurogi's mother; proposed/developed the Ianthe (アイアンシー) energy system of Altair",
+    "personality": "unknown (only mentioned in text)",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+     "library pilot 464 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ケルビム・リュンヌ",
+   "kind": "robot",
+   "en": "Cherubim Lune",
+   "status": "proposed",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Cherubim Lune (ケルビム・リュンヌ): a special cherubim infused with the moon's ability...'",
+   "note": "Single source (Wikipedia). Sibling names differ across akurasu pages, see report.challenges."
+  },
+  {
+   "jp": "シリウス",
+   "kind": "pilot",
+   "en": "Sirius",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Sirius de Alisia===' (short form Sirius); https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Sirius de Alisia'",
+   "note": "Keep the plain token for the Aquarion pilot. The star Sirius written as plain text elsewhere (pt_214 Unicorn entry) has the same English, so no retoken is needed.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 439: 王子 (prince), 兄 (older brother of Silvia), 彼 (he); Wikipedia: 'he/him'",
+    "position": "Prince of the old Alisia Kingdom; first-squad Element; pilot of Aquarion Mars/Vector Mars; older brother of Silvia; age 16",
+    "personality": "Aesthetic, poetic, perfectionist; rejects the ugly and barbaric; jealous of Apollo; sword fighter",
+    "nickname": "",
+    "sources": [
+     "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "https://aquarion.fandom.com/wiki/Sirius_de_Alisia",
+     "library pilot 439 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "シリウス・ド・アリシア",
+   "kind": "pilot",
+   "en": "Sirius de Alisia",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Sirius de Alisia==='; https://akurasu.net/wiki/Genesis_of_Aquarion : 'Sirius de Alisia'; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters"
+  },
+  {
+   "jp": "シルフィ",
+   "kind": "pilot",
+   "en": "Silvie",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aquarion_EVOL : Other list 'Alicia / Apollon / Silvie' (the three names of the film 'Skies of Aquaria': Alicia, Apollon, Sylphie); https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Sylvie's part'",
+   "note": "Corrects glossary 'Sylphy' (proposed). Do not confuse with Silvia de Alisia; Silvie is the film heroine (loosely based on Silvia).",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Japanese Wikipedia: 映画『アクエリアの舞う空』のヒロイン; DSCR keyword 111: played by lead actress Alicia",
+    "position": "Heroine of the film 'Skies of Aquaria', played by Alicia",
+    "personality": "A fictional character; she and Apollon are lovers in the film",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Aquarion_EVOL",
+     "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+     "library keyword 111 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "シルヴィア",
+   "kind": "pilot",
+   "en": "Silvia",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Silvia de Alisia===' (short form Silvia); https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Silvia de Alisia (シルヴィア・ド・アリシア)'",
+   "note": "Jigoku 'Sylvia' is wrong; the wiki wins.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 440: 王女 (princess), 妹 (younger sister of Sirius); Wikipedia: 'she/her'",
+    "position": "Princess of the old Alisia Kingdom; first-squad Element; Vector Luna pilot; younger sister of Sirius; age 14",
+    "personality": "Short-tempered and proud; adores her brother; caring; gradually falls for Apollo",
+    "nickname": "",
+    "sources": [
+     "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "https://aquarion.fandom.com/wiki/Silvia_de_Alisia",
+     "library pilot 440 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "シルヴィア・ド・アリシア",
+   "kind": "pilot",
+   "en": "Silvia de Alisia",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Silvia de Alisia==='; https://akurasu.net/wiki/Genesis_of_Aquarion; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters"
+  },
+  {
+   "jp": "セリアン",
+   "kind": "pilot",
+   "en": "Celiane",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Celiane' under Other; https://aquarion.fandom.com/wiki/Celiane : 'Celiane is a human who was the lover of Apollonius'; Wikipedia also writes Seliane/Celiane",
+   "note": "Jigoku 'Celiane' is right; pt_396 'Celian' and kw_070 'Celian' are wrong.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 444: 女戦士 (woman warrior); Wikipedia OVA: 'a woman called Celiane'",
+    "position": "Human warrior princess 12,000 years ago; lover of Apollonius; her past life is carried by Silvia (light memories) and Sirius (dark memories)",
+    "personality": "Brave, proud, short-tempered",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Genesis_of_Aquarion",
+     "https://aquarion.fandom.com/wiki/Celiane",
+     "https://en.wikipedia.org/wiki/Genesis_of_Aquarion_(OVA)",
+     "library pilot 444 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "タマ",
+   "kind": "pilot",
+   "en": "Tama",
+   "status": "proposed",
+   "source": "Jigoku library English 'Tama' (pilot 376 reference); Japanese タマ is a common cat name. No English source names the doll (Wikipedia/fandom call it 'her toy frog-like cat doll').",
+   "note": "Yunoha's stuffed toy, 'a cat (?)'. Kept as a transliteration.",
+   "profile": {
+    "gender": "not applicable",
+    "gender_evidence": "A stuffed toy (ぬいぐるみ); DSCR pilot 453",
+    "position": "Yunoha's stuffed toy",
+    "personality": "none (a doll)",
+    "nickname": "",
+    "sources": [
+     "library pilot 453 DSCR",
+     "https://aquarion.fandom.com/wiki/Yunoha_Thrul"
+    ]
+   }
+  },
+  {
+   "jp": "ディーバ",
+   "kind": "keyword",
+   "en": "DEAVA",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'DEAVA (ディーバ, Division of EArth Vitalization Advancement)'; https://akurasu.net/wiki/Genesis_of_Aquarion : faction 'DEAVA'",
+   "note": "The Latin letters are how the game itself spells it in entry 110."
+  },
+  {
+   "jp": "ナナオン",
+   "kind": "pilot",
+   "en": "Nanaon",
+   "status": "official",
+   "source": "https://aquarion.fandom.com/wiki/Nanaon : 'Nanaon was a minor character. She is a female Element User at Neo-DEAVA and former lover of Donar Dantes'",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 461: 恋人 (girlfriend) of Donar, 女性エレメント in Japanese Wikipedia; fandom: 'female Element User'",
+    "position": "Element pilot at Neo-DEAVA nine years ago; Donar Dantes's girlfriend, lost in the Aquarion accident",
+    "personality": "In love with Donar, ready to face anything for him",
+    "nickname": "",
+    "sources": [
+     "https://aquarion.fandom.com/wiki/Nanaon",
+     "library pilot 461 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ネオディーヴァ",
+   "kind": "keyword",
+   "en": "Neo DEAVA",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aquarion_EVOL : faction 'Neo DEAVA' and 'Neo DEAVA Academy Principal'; official English releases write 'Neo-DEAVA' (https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters)",
+   "note": "Only difference is the hyphen: akurasu (higher precedence) has no hyphen, the Jigoku library and Wikipedia have 'Neo-DEAVA'. Pick one and use it everywhere; I follow akurasu."
+  },
+  {
+   "jp": "バロン",
+   "kind": "pilot",
+   "en": "Baron",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Baron'; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Baron (バロン)'; https://aquarion.fandom.com/wiki/Baron",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia: 'Apollo's best friend ... he'; DSCR: 親友バロン",
+    "position": "Apollo's best friend; leader of the street orphans; killed by Toma's bomb",
+    "personality": "Kind and caring; protective of the orphans",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "https://aquarion.fandom.com/wiki/Baron"
+    ]
+   }
+  },
+  {
+   "jp": "ベクターシロン",
+   "kind": "robot",
+   "en": "Vector Silon",
+   "status": "proposed",
+   "source": "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Vector Y (Silon)' (ベクター シロン), head of Aquarion Spada",
+   "note": "Single source (Wikipedia). Jigoku 'Siron' is a transliteration guess."
+  },
+  {
+   "jp": "ベクターゼド",
+   "kind": "robot",
+   "en": "Vector Zed",
+   "status": "proposed",
+   "source": "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Vector Z (Zed)' (ベクター ゼド), head of Aquarion EVOL",
+   "note": "Single source (Wikipedia); same as Jigoku 'Vector Zed'."
+  },
+  {
+   "jp": "ベクターマシン",
+   "kind": "robot",
+   "en": "Vector Machine",
+   "status": "official",
+   "source": "https://aquarion.fandom.com/wiki/Gen_Fudou : 'responsible for unearthing the Vector Machines'; https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'Vectors (ベクター)'",
+   "note": "The franchise wiki uses 'Vector Machine(s)'; the short form 'Vector' is what the anime subtitles use."
+  },
+  {
+   "jp": "ベクタールナ",
+   "kind": "robot",
+   "en": "Vector Luna",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'the green Vector Luna (ベクタールナ)'; https://aquarion.fandom.com/wiki/Toma : 'Vector Luna'"
+  },
+  {
+   "jp": "リーナ",
+   "kind": "pilot",
+   "en": "Rena",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Rena Rune' under DEAVA; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Rena Rune (リーナ・ルーン)'",
+   "note": "First name only. Jigoku-style 'Reena' is wrong.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Wikipedia: 'A pale young girl, Rena ... she'; library robot 235 text",
+    "position": "DEAVA Element; Vector Luna pilot; the girl who reads the 'Book of Holy Genesis'",
+    "personality": "Stoic, mysterious, blind, vampire-like",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "https://akurasu.net/wiki/Genesis_of_Aquarion",
+     "library robot 235 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ヴェーガ",
+   "kind": "keyword",
+   "en": "Vega",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Aquarion_Evol : 'The protagonists live on a planet called Vega, while most of the antagonists originate from its sister planet, Altair'; https://ja.wikipedia.org/wiki/アクエリオンEVOL : 地球（ヴェーガ）",
+   "note": "Earth's name in EVOL; the game glosses 'ヴェーガ (＝地球)'."
+  },
+  {
+   "jp": "不動ＧＥＮ#keyword",
+   "kind": "keyword",
+   "token": "不動ＧＥＮ#keyword",
+   "en": "Gen Fudou",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Gen Fudou' under DEAVA; https://aquarion.fandom.com/wiki/Gen_Fudou",
+   "note": "Wikipedia writes 'Gen Fudo'; akurasu and the franchise wiki write 'Gen Fudou', matching glossary 'Zen Fudou'."
+  },
+  {
+   "jp": "不動ＧＥＮ#pilot",
+   "kind": "pilot",
+   "token": "不動ＧＥＮ#pilot",
+   "en": "Gen Fudou",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Gen Fudou'; https://aquarion.fandom.com/wiki/Gen_Fudou; glossary 不動ＺＥＮ = Zen Fudou",
+   "note": "Short form 不動 is already the glossary 'Fudou'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia: 'Gen Fudo ... he'; fandom: 'Male Characters'",
+    "position": "Supreme commander of DEAVA (Aquarion operations unit) and instructor at the Element School; led the expedition that excavated the Vector Machines; the same person as EVOL's Zen Fudou",
+    "personality": "Enigmatic, wise, a magician; hints that lead others through hardship",
+    "nickname": "'Magician of Divine Speed' (神速の魔術師)",
+    "sources": [
+     "https://akurasu.net/wiki/Genesis_of_Aquarion",
+     "https://aquarion.fandom.com/wiki/Gen_Fudou",
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "library pilot 441 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "創聖合体",
+   "kind": "keyword",
+   "en": "Genesis Unification",
+   "status": "proposed",
+   "source": "創聖 = Genesis as in 創聖のアクエリオン 'Genesis of Aquarion' (https://en.wikipedia.org/wiki/Genesis_of_Aquarion); 合体 is 'Unification' in the licensed release (https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'During Unification, the Elements merge...')",
+   "note": "Coined from the two official parts. Jigoku 'Divine Union' has no source. Wikipedia's Aquarion EVOL list calls 創聖無限拳 the 'Genesis Mugen Attack', which supports 'Genesis'."
+  },
+  {
+   "jp": "堕天翅",
+   "kind": "keyword",
+   "en": "Shadow Angel",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : faction 'Shadow Angels'; https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'Shadow Angels (堕天翅, Datenshi)'; https://aquarion.fandom.com/wiki/Shadow_Angel",
+   "note": "Replaces glossary 'Fallen Wing' (proposed, Jigoku). Singular; plural is written outside the token (as with $$エレメント$$s). Some prose uses the bare token as a plural noun ('fought the $$堕天翅$$'); there add the s."
+  },
+  {
+   "jp": "天翅",
+   "kind": "keyword",
+   "en": "Angel",
+   "status": "official",
+   "source": "https://aquarion.fandom.com/wiki/Shadow_Angel : 'The Shadow Angels ... also known simply as Angels'; https://en.wikipedia.org/wiki/Genesis_of_Aquarion_(OVA) : 'the Angels'; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 翅 = Angel in Music Angel Otoha, Elder Angel Johannes etc.",
+   "note": "What the Shadow Angels call themselves (see pilot 442 DSCR: 「堕天翅」 is the humans' slur). Jigoku 'winged ones' and pt_396 'Celestial Wing' have no source. Plural is written outside the token."
+  },
+  {
+   "jp": "守護天翅",
+   "kind": "keyword",
+   "en": "Guardian Angel",
+   "status": "proposed",
+   "source": "Pattern of the licensed dub credits https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Music Angel Otoha', 'Warrior Angel Moroha', 'Holy Angel Toma' (X-翅 = X Angel)",
+   "note": "No English source uses this rank; derived by the same pattern (守護 = guardian). Probably 'Guardian Angel' reads naturally for Apollonius ('the strongest Guardian Angel')."
+  },
+  {
+   "jp": "新国連",
+   "kind": "keyword",
+   "en": "New United Nations",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'New United Nations'; https://aquarion.fandom.com/wiki/Shadow_Angel : 'captured by the New United Nations'",
+   "note": "Abbreviated 'New U.N.' is fine in tight space."
+  },
+  {
+   "jp": "機械天使アクエリオン",
+   "kind": "robot",
+   "en": "Mechanical Angel Aquarion",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Genesis_of_Aquarion_(OVA) : 'the Mechanical Angel Aquarion'; https://aquarion.fandom.com/wiki/Apollonius : 'Apollonius would forge the Mechanical Angel Aquarion'; https://aquarion.fandom.com/wiki/Atlandia",
+   "note": "The EVOL article calls the same title 'Machine Angel' once; Genesis sources use Mechanical Angel."
+  },
+  {
+   "jp": "生命の樹",
+   "kind": "keyword",
+   "en": "Tree of Life",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Genesis_of_Aquarion : 'the legendary Tree of Life (生命の樹, Seimei no Ki)'; https://aquarion.fandom.com/wiki/Atlandia"
+  },
+  {
+   "jp": "神話型アクエリオン",
+   "kind": "robot",
+   "en": "Legendary Aquarion",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Legendary Aquarion (神話型アクエリオン, Shinwagata Akuerion) is the original Solar Aquarion buried into the earth's crust'; https://aquarion.fandom.com/wiki/Toma and https://aquarion.fandom.com/wiki/Apollo : 'Apollo entered the Legendary Aquarion along with Toma and Sirius'",
+   "note": "Two sources (Wikipedia, franchise wiki). Jigoku 'Mythical Aquarion' is a direct translation of 神話 that the English pages do not use."
+  },
+  {
+   "jp": "聖天使学園",
+   "kind": "keyword",
+   "en": "Holy Angel Academy",
+   "status": "proposed",
+   "source": "No official English name found: English releases just call the school 'Neo-DEAVA Academy' (https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters episode list); Japanese Wikipedia 聖天使学園 (https://ja.wikipedia.org/wiki/アクエリオンEVOL)",
+   "note": "Kept as the existing translation (glossary proposed, literal). The game names the school and the organisation separately, so 'Neo-DEAVA Academy' would merge two names."
+  },
+  {
+   "jp": "聖天翅",
+   "kind": "keyword",
+   "en": "Holy Angel",
+   "status": "proposed",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Holy Angel Toma (聖天翅・頭翅（トーマ）)'; the franchise wiki says 'Exalted Angel Toma' (https://aquarion.fandom.com/wiki/Shadow_Angel)",
+   "note": "Rank of Toma. Wikipedia (dub credit) 'Holy Angel' vs fandom 'Exalted Angel'; I take the one that matches the kanji. Beware it sits next to 'Holy Angel Academy'."
+  },
+  {
+   "jp": "頭翅#keyword",
+   "kind": "keyword",
+   "token": "頭翅#keyword",
+   "en": "Toma",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : '聖天翅・頭翅（トーマ）' = Toma; https://akurasu.net/wiki/Genesis_of_Aquarion : 'Toma' under Shadow Angels; https://aquarion.fandom.com/wiki/Toma",
+   "note": "Replaces glossary 'Head Wing' (proposed). 頭翅 is read Toma (the wing grows at the temple). See also the note on Toma's gender under 頭翅#pilot."
+  },
+  {
+   "jp": "頭翅#pilot",
+   "kind": "pilot",
+   "token": "頭翅#pilot",
+   "en": "Toma",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : '聖天翅・頭翅（トーマ）'; https://akurasu.net/wiki/Genesis_of_Aquarion : 'Toma'; https://aquarion.fandom.com/wiki/Toma : 'main antagonist ... his wings originate from his scalp'",
+   "note": "MALE per Wikipedia and the franchise wiki (voice actor Toshiyuki Morikawa; 'his onetime partner', 'his beloved Apollonius'). The Japanese text is gender-neutral (許婚) and the Jigoku/Tengoku English drafts wrote 'she': that must be fixed to 'he' in keyword 71 / pilot 442.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia character list: 'Toma ... his ... Apollonius' onetime partner', franchise wiki: 'Male Characters'; the Japanese DSCR uses no pronoun",
+    "position": "Holy Angel (聖天翅) of the Shadow Angel tribe; front-line commander of the Shadow Angels; betrothed/partner of Apollonius 12,000 years ago; main antagonist of Genesis of Aquarion",
+    "personality": "Vengeful yet still in love with Apollonius; schemer who tempts Sirius and torments the Elements",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "https://aquarion.fandom.com/wiki/Toma",
+     "https://akurasu.net/wiki/Genesis_of_Aquarion",
+     "library pilot 442 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "麗花",
+   "kind": "pilot",
+   "en": "Reika",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Genesis_of_Aquarion : 'Reika Kou' under DEAVA; https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters : 'Hong Lihua/Reika (紅 麗花, Kō Reika)'",
+   "note": "Short form is 'Reika'. akurasu family name is 'Kou'.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Wikipedia: 'A sensitive girl ... Lihua'; fandom Female Characters; DSCR pilot 440: 麗花に対して敵対心 (Silvia's rival for Sirius)",
+    "position": "DEAVA Element; Vector Luna pilot; Sirius's love interest",
+    "personality": "Sensitive; believes she brings misfortune to others",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Genesis_of_Aquarion",
+     "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+     "library pilots 439, 440 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ＥＶＯＬ",
+   "kind": "robot",
+   "en": "EVOL",
+   "status": "official",
+   "source": "glossary robot アクエリオンＥＶＯＬ = Aquarion EVOL (work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki); https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Aquarion Evol ... EVOL'",
+   "note": "Short form used in dialogue and library text (Sazanka's team corrodes EVOL's legs)."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 438,
+   "gender": "male",
+   "gender_evidence": "DSCR 438: 少年 (boy), 推定年齢１３歳; Wikipedia: Apollo 'he/him'",
+   "nickname": "Believed to be the reincarnation of the 'Solar Wing' Apollonius (「太陽の翼」アポロニアスの生まれ変わり); really Pollon's reincarnation per EVOL",
+   "position": "Element and main pilot of Solar Aquarion at the Element School (DEAVA); street orphan; protagonist of Genesis of Aquarion; age about 13",
+   "personality": "Straightforward to a fault, wild and selfish-looking but deeply loyal to friends; feral instincts, extreme eyesight and smell; grows into a team player",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+    "https://aquarion.fandom.com/wiki/Apollo",
+    "library pilot 438 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 439,
+   "gender": "male",
+   "gender_evidence": "DSCR 439: 王子 (prince), シルヴィアの兄 (Silvia's older brother); Wikipedia: Sirius de Alisia 'he/him'",
+   "nickname": "",
+   "position": "Prince of the old Alisia Kingdom; first-squad Element at the Element School; Vector Mars pilot; older brother of Silvia; age 16",
+   "personality": "Aesthetic, poetic, perfectionist; loves beauty and rejects the ugly and barbaric; jealous of Apollo; a swordsman; falls to the Shadow Angels but returns",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+    "https://aquarion.fandom.com/wiki/Sirius_de_Alisia",
+    "library pilot 439 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 440,
+   "gender": "female",
+   "gender_evidence": "DSCR 440: 王女 (princess), 兄シリウス (older brother Sirius); Wikipedia: 'she/her'",
+   "nickname": "",
+   "position": "Princess of the old Alisia Kingdom; first-squad Element at the Element School; Vector Luna pilot; younger sister of Sirius; age 14; carries Celiane's past life (light memories)",
+   "personality": "Proud and short-tempered; possessive and adoring of her brother; caring underneath; hostile to Reika; gradually falls for Apollo",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+    "https://aquarion.fandom.com/wiki/Silvia_de_Alisia",
+    "library pilot 440 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 441,
+   "gender": "male",
+   "gender_evidence": "Wikipedia: Gen Fudo 'he/him'; franchise wiki category Male Characters. DSCR 441 has no pronoun.",
+   "nickname": "'Magician of Divine Speed' (「神速の魔術師」)",
+   "position": "Commander of the Aquarion operations unit of DEAVA (Earth Regeneration Organization) and instructor at the Element School; former member of the Aquarion excavation expedition",
+   "personality": "Enigmatic, wise, a magician with superhuman skills; his hints always lead the Elements through hardship; age unknown",
+   "sources": [
+    "https://akurasu.net/wiki/Genesis_of_Aquarion",
+    "https://aquarion.fandom.com/wiki/Gen_Fudou",
+    "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+    "library pilot 441 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 442,
+   "gender": "male",
+   "gender_evidence": "Wikipedia: Toma 'his ... Apollonius' onetime partner'; franchise wiki Male Characters; voiced by Toshiyuki Morikawa. DSCR 442 has no pronoun (許婚 is neutral); earlier English drafts wrote 'she'",
+   "nickname": "頭翅 (Toma); the tribe's own name for itself is 天翅, 堕天翅 is the humans' slur",
+   "position": "Holy Angel (聖天翅) of the Shadow Angel tribe and front-line commander of the Angels; betrothed to Apollonius 12,000 years ago; main antagonist of Genesis of Aquarion",
+   "personality": "Cunning and vengeful yet still in love with Apollonius; torments the Elements, tempts Sirius, and finally joins the Genesis Unification",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Genesis_of_Aquarion_characters",
+    "https://aquarion.fandom.com/wiki/Toma",
+    "https://akurasu.net/wiki/Genesis_of_Aquarion",
+    "library pilot 442 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 443,
+   "gender": "male",
+   "gender_evidence": "Wikipedia/fandom: Apollonius male ('Male Characters'); DSCR 443: 彼 (his decision)",
+   "nickname": "'Solar Wing' (太陽の翼); 'Angel of Massacre' (fandom); called 'The Betrayer' by the Shadow Angels",
+   "position": "Strongest Guardian Angel of the Angel tribe 12,000 years ago; sided with humans, built the Mechanical Angel Aquarion and sank Atlandia",
+   "personality": "Once a slaughterer of humans, turned to love and coexistence after meeting Celiane; resolute and self-sacrificing",
+   "sources": [
+    "https://akurasu.net/wiki/Genesis_of_Aquarion",
+    "https://aquarion.fandom.com/wiki/Apollonius",
+    "https://aquarion.fandom.com/wiki/Atlandia",
+    "library pilot 443 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 444,
+   "gender": "female",
+   "gender_evidence": "DSCR 444: 女戦士 (woman warrior); fandom: Female Characters; Wikipedia OVA: 'a woman called Celiane'",
+   "nickname": "",
+   "position": "Brave human woman warrior 12,000 years ago; lover of Apollonius; her past life lives on in Silvia (light memories) and Sirius (dark memories)",
+   "personality": "Brave, proud and short-tempered; fell in love with her enemy",
+   "sources": [
+    "https://akurasu.net/wiki/Genesis_of_Aquarion",
+    "https://aquarion.fandom.com/wiki/Celiane",
+    "https://en.wikipedia.org/wiki/Genesis_of_Aquarion_(OVA)",
+    "library pilot 444 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 445,
+   "gender": "male",
+   "gender_evidence": "DSCR 445: 少年 (boy); Wikipedia: Amata Sora 'he'",
+   "nickname": "",
+   "position": "Neo DEAVA Element cadet, enrolled at Holy Angel Academy; main pilot of Aquarion EVOL; reincarnation (half soul) of Apollo; Alicia and Izumo's son",
+   "personality": "A bit timid and easily flustered, but finds the strength to fight when it matters; hates his 'Gravity Interference' ability at first; loves Mikono for who she is now",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Amata_Sora",
+    "library pilot 445 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 446,
+   "gender": "female",
+   "gender_evidence": "DSCR 446: 少女 (girl), 少女らしい側面; Wikipedia: Zessica Wong 'A female student ... she'",
+   "nickname": "",
+   "position": "Neo DEAVA Element cadet; number one fighter among the girls; Aquarion EVOL/Gepard pilot; her Element ability is 'Impact Power' (later 'Twisting Power')",
+   "personality": "Lively, bold even toward boys, likes revealing clothes; teases Amata and Mikono; strong in melee, afraid of ghosts; falls for Amata",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Zessica_Wong",
+    "library pilot 446 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 447,
+   "gender": "male",
+   "gender_evidence": "DSCR 447: 男 (man), ミコノの実兄 (Mikono's real older brother); Wikipedia: Cayenne 'Elder brother of Mikono'",
+   "nickname": "'Eternal Number Two' (「永遠のナンバー２」)",
+   "position": "Neo DEAVA Element cadet and leader of the cadets; former marine from a military family of Element users; main pilot of Aquarion Gepard; Mikono's older brother",
+   "personality": "Wild, strict with himself and others, dependable and popular with girls; overprotective of Mikono; short-tempered; secretly close to Shrade",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Cayenne_Suzushiro",
+    "library pilot 447 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 448,
+   "gender": "female",
+   "gender_evidence": "DSCR 448: 彼女 (she), 兄カイエン (older brother Cayenne); Wikipedia: 'the main heroine ... she'",
+   "nickname": "",
+   "position": "Neo DEAVA Element cadet; reincarnation of Silvia; Element ability 'Power to Connect'; Cayenne's younger sister",
+   "personality": "Usually cheerful and gentle but lacks self-confidence from being compared with her brother; hard-working though clumsy; shy",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Mikono_Suzushiro",
+    "library pilot 448 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 449,
+   "gender": "male",
+   "gender_evidence": "Japanese Wikipedia: 女の子と合体したいという…女好き, voiced by a male actor; DSCR 449: 運命の女性と合体する事を目的に; the parenthetical 彼女（彼？） in the DSCR refers to MIX, not Andy",
+   "nickname": "'Hole-digging brothers' (「穴堀兄弟」, a duo he forms with Amata)",
+   "position": "Neo DEAVA Element cadet; pilot of Aquarion Gepard; Element ability 'Hole Digging'; the mood maker",
+   "personality": "Cheerful, optimistic, eager to impress girls; obsessive about digging under the 'Berlin Wall' that separates the boys' and girls' campuses; falls in love with MIX",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "library pilot 449 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 450,
+   "gender": "male",
+   "gender_evidence": "DSCR 450: 美少年 (beautiful boy); Wikipedia: Shrade Elan 'His elemental power ...'",
+   "nickname": "",
+   "position": "Neo DEAVA Element cadet; genius pianist and the strongest Element among the cadets; Aquarion Spada pilot; scouted by Crea",
+   "personality": "Frail; treats battles as music and aims to complete the ultimate melody even at the cost of his life; calls Cayenne his best friend; calm, mildly sadistic (Wikipedia)",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Shrade_Elan",
+    "library pilot 450 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 451,
+   "gender": "male",
+   "gender_evidence": "Wikipedia: Malloy Direzza 'A dark-skinned male'; Japanese Wikipedia: イケメン男子. DSCR 451 has no pronoun",
+   "nickname": "",
+   "position": "Neo DEAVA Element cadet; Element ability 'Power of Fragility'; pilot of Aquarion Gepard",
+   "personality": "Serious and rational despite his ethnic look; the mediator and voice of reason among the cadets; well trusted by classmates; born in the south and says he is heat-resistant",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Malloy_Direzza",
+    "library pilot 451 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 452,
+   "gender": "female",
+   "gender_evidence": "DSCR 452: 少女 (girl); the body later turns male through the Curse of Eve (as MIXY) and reverts after the war",
+   "nickname": "Andy calls her figure 'Big Bang' (「ビッグバン」); as the Altair soldier: MIXY",
+   "position": "Neo DEAVA Element cadet; Element ability 'Spatial Augmentation'; Aquarion Spada pilot; class-president type",
+   "personality": "Honor student, caring, perfectionist and fussy about cleanliness; strict with everyone; hates men and holes after her father ran off; softens toward Andy",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "library pilot 452 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 453,
+   "gender": "female",
+   "gender_evidence": "Japanese Wikipedia: 極度の恥ずかしがり屋な小柄な美少女 (very shy petite beautiful girl); Wikipedia: 'Her elemental power'; fandom: female Element user. DSCR 453 has no gender word.",
+   "nickname": "'The vanished Element' (「消えたエレメント」), a ghost story at the school",
+   "position": "Neo DEAVA Element cadet; Element ability 'Optical Fluoroscopy' (invisibility); Aquarion Spada pilot",
+   "personality": "Extremely shy and bad with strangers, always carrying her stuffed toy Tama; becomes gentle and strong after Jin's death",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "https://aquarion.fandom.com/wiki/Yunoha_Thrul",
+    "library pilot 453 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 454,
+   "gender": "female",
+   "gender_evidence": "DSCR 454: 少女 (girl); Wikipedia: 'An energetic girl ... she'",
+   "nickname": "Catchphrase 'Kusacchau~!' (「腐っちゃう～っ！」); a fujoshi ('rotten girl')",
+   "position": "Neo DEAVA Element cadet; Element ability 'Corrosion Power'; Aquarion Spada pilot",
+   "personality": "Cheerful, loves fantasising about beautiful boys uniting, nosebleeds over Shrade and Cayenne; secretly photographs and sells pictures",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Sazanka_Bianca",
+    "library pilot 454 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 455,
+   "gender": "female",
+   "gender_evidence": "DSCR 455: 美少女 (beautiful girl), 少女にしか見えない, 少女らしい一面; Wikipedia: 'she'",
+   "nickname": "",
+   "position": "Commander of Neo DEAVA and chairwoman of Holy Angel Academy (理事長); Element ability 'Teleport'; boarded Aquarion Gepada in the last battle; scouted Shrade",
+   "personality": "Looks like a child but has an IQ over 300 and an adult manner of speaking; ageless; loves donuts; mysterious; always with Fudou",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Crea_Dolosera",
+    "library pilot 455 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 456,
+   "gender": "male",
+   "gender_evidence": "DSCR 456: その正体はもう一人のアマタ (the other Amata, who is a 少年); calls Mikono 「俺だけのクソ女」; Wikipedia: 'the man whom Cayenne saw beside Mikono'",
+   "nickname": "",
+   "position": "Altair pilot of the Mithra Gnis, serving Izumo; the other half of Amata (split by Mikage); half soul of Apollo; Element ability 'Power of Reversal'",
+   "personality": "Belligerent and wild, keen sense of smell, obsessed with Mikono and speaks in reverse because of his ability; comes to accept Amata in the end",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "library pilot 456 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 457,
+   "gender": "male",
+   "gender_evidence": "DSCR 457: 少年 (boy); Japanese Wikipedia: アルテア界に生まれた最後の少年; Wikipedia: 'he'",
+   "nickname": "'The last child of Altair' (「アルテアの最後の子」); infiltrated the academy as the transfer student 'Akbarjin Batbayar' (Wikipedia)",
+   "position": "Altair pilot of the Radius Gnis and Izumo's second in command; infiltrates the academy on Izumo's orders to look for Aquarion and the Rare Igura; then joins the Elements",
+   "personality": "Brainy, an electronic-warfare strategist who plans everything through simulations; proud but weak against the unexpected; loves a virtual doll, then comes to like Yunoha",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "library pilot 457 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 458,
+   "gender": "unknown",
+   "gender_evidence": "Japanese Wikipedia: 性別は不明 (sex unknown); DSCR 458 calls it 謎の生物 (mysterious creature) and Mikono says 'a cat'",
+   "nickname": "",
+   "position": "Mikono's mysterious pet creature, usually a ribbon-like thing in her hair; Mikono says it is a cat",
+   "personality": "Jealous of people close to Mikono (threatens or bites Amata and Yunoha); reacts to Mikono's emotions; greedy for food (ja wiki)",
+   "sources": [
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "library pilot 458 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 459,
+   "gender": "male",
+   "gender_evidence": "Wikipedia: Zen Fudo 'he'; franchise wiki category Male Characters. DSCR 459 has no pronoun",
+   "nickname": "",
+   "position": "Supreme commander of Neo DEAVA; returned disguised as the janitor before the school became coed; the same Gen Fudou as 12,000 years ago (Apollonius's soul); sealed Mikage in himself",
+   "personality": "Always seems to see through everything; gives Zen-like cryptic advice (often using donuts as metaphors) that hides a deep intention",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Zen_Fudo",
+    "library pilot 459 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 460,
+   "gender": "male",
+   "gender_evidence": "Japanese Wikipedia: 司令 / 学園長, 恰幅のいい軍人風の外見 (stout military-looking man), voiced by Tetsu Inada. DSCR 460 has no pronoun.",
+   "nickname": "",
+   "position": "Commander of Neo DEAVA and principal (学園長) of Holy Angel Academy; after Fudou and Crea return he yields the commander's chair to Crea and serves her",
+   "personality": "Military bearing; one of the few who knew that 'Aquaria' was really named 'Aquarion'",
+   "sources": [
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "https://akurasu.net/wiki/Aquarion_EVOL",
+    "library pilot 460 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 461,
+   "gender": "male",
+   "gender_evidence": "DSCR 461: 男子生徒の教育, 恋人のナナオン (girlfriend Nanaon); Wikipedia: Donar Dantes 'He uses a pair of prosthetic arms'",
+   "nickname": "",
+   "position": "Deputy commander of Neo DEAVA and teacher at Holy Angel Academy, in charge of the boys' training; former Aquarion pilot who lost both arms and Nanaon nine years ago",
+   "personality": "Combative, ruthless towards enemies, very spartan and military; wears attachable prosthetic forearms; grows fond of Suomi",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Donar_Dantes",
+    "library pilot 461 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 462,
+   "gender": "female",
+   "gender_evidence": "DSCR 462: 女子側の教師 (teacher on the girls' side), 男性を軽視; told to become the new Eve with Donar; Japanese Wikipedia: 司令補佐兼女子教官; Wikipedia: 'she'",
+   "nickname": "",
+   "position": "Deputy commander of Neo DEAVA and teacher at Holy Angel Academy, formerly the girls' teacher before the wall fell",
+   "personality": "Extremely strait-laced and serious, dislikes mixed-sex unions and looks down on men a bit; clashes with Donar but comes to care for him; joined later so knew little of Aquarion's truth",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://aquarion.fandom.com/wiki/Suomi_Konepi",
+    "library pilot 462 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 463,
+   "gender": "male",
+   "gender_evidence": "Wikipedia: Mykage 'he'; franchise wiki category Male Characters, 'Kagura's foster father'; voiced by Yuichi Nakamura. DSCR 463 has no pronoun for Mikage (彼を育て上げた refers to Kagura)",
+   "nickname": "'Shadow of Love' (fandom); the dark part of Toma",
+   "position": "High priest of Altair; the dark side of Toma, who could not accept that Apollo was not Apollonius's reincarnation; main antagonist of Aquarion EVOL; foster father of Kagura",
+   "personality": "Capricious, mysterious and sadistic; toys with Izumo and everyone; obsessed with Apollonius's love and bent on destroying and remaking the worlds",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "https://aquarion.fandom.com/wiki/Mikage_Towano",
+    "library pilot 463 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 464,
+   "gender": "male",
+   "gender_evidence": "DSCR 464: アマタの実の父親 (Amata's real father), 息子であるアマタ; Wikipedia: Izumo Kamurogi 'he'",
+   "nickname": "",
+   "position": "Supreme commander of Altair; pilot of the Ahura Gnis; Amata's father; Oriza Kamurogi's son",
+   "personality": "Calm and somber, patriotic hero who carries Altair's future; cold and calculating but warm with Alicia; reconciles with Amata as he dies",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters",
+    "https://ja.wikipedia.org/wiki/アクエリオンEVOL",
+    "https://aquarion.fandom.com/wiki/Izumo_Kamurogi",
+    "library pilot 464 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 49,
+  "names_settled": 48,
+  "left_pending": [
+   "サザンカ・ビアンカ: glossary official 'Sazanke Bianca' is challenged (see challenges); not written to names, orchestrator decides"
+  ],
+  "challenges": [
+   "サザンカ・ビアンカ: 'Sazanke Bianca' should be 'Sazanka Bianca'. The glossary's own short name サザンカ = 'Sazanka' (akurasu), the akurasu Z3.2 Pilot Database section heading reads '===Sazanka Bianca===' (only its infobox says 'Sazanke'), the Z3 pilot database heading is also 'Sazanka Bianca', Wikipedia (https://en.wikipedia.org/wiki/List_of_Aquarion_Evol_characters : 'Sazanka Bianca') and the franchise wiki (https://aquarion.fandom.com/wiki/Sazanka_Bianca) agree. 'Sazanke' appears only in one infobox typo.",
+   "ケルビム・ヴェルルゼバ (not in my brief): akurasu Z3.2 mech list writes 'Cherudim Vellzeva' (Cherudim is a Gundam 00 unit), while the same page's ケルビム兵 is 'Cherubim Soldier' and akurasu Genesis of Aquarion writes 'Cherubim Verlzeva', the Z3.2 complete chart 'Cherubim Vellzeba', Wikipedia 'Cherubim Verizeva'/'Verazeva'. Suggest 'Cherubim Verizeva' family: pick one spelling with Cherubim, not Cherudim.",
+   "堕天翅: glossary 'Fallen Wing' (proposed, from Jigoku) vs official 'Shadow Angel(s)' (akurasu Genesis page faction, Wikipedia, franchise wiki). Written to names as 'Shadow Angel'.",
+   "頭翅: glossary 'Head Wing' (proposed) vs official 'Toma' (Wikipedia: 聖天翅・頭翅（トーマ）; akurasu Genesis 'Toma'). Written to names.",
+   "シルフィ: glossary 'Sylphy' (proposed) vs akurasu 'Silvie' (EVOL page, Other). Written to names as 'Silvie'."
+  ],
+  "retoken": [
+   "pt_396 pilot 439 DSCR: '$$アリシア$$ Kingdom' (Prince of the old ... Kingdom) -> '$$アリシア#alisia$$'",
+   "pt_396 pilot 439 DSCR: 'a rose he had named $$アリシア$$' -> '$$アリシア#alisia$$' (uncertain: rose is presumably named for the kingdom; if the rose is meant to be a person, keep $$アリシア$$)",
+   "pt_396 pilot 440 DSCR: 'Princess of the old $$アリシア$$ Kingdom' -> '$$アリシア#alisia$$'",
+   "Do NOT retoken keyword 111 DSCR ($$アリシア$$ the actress), pilot 456 / 464 (Amata's mother): those stay $$アリシア$$ = Alicia.",
+   "Also check the Jigoku-derived drafts for keyword 111, pilot 445 and others: Tengoku Japanese writes アポロ (Genesis Apollo) where Jigoku Japanese/English wrote アポロン; use $$アポロ$$ = Apollo there, and keep $$アポロン$$ = Apollon only for the film hero in keyword 111."
+  ],
+  "uncertain": [
+   "Toma (頭翅) is MALE per Wikipedia and the franchise wiki, but the existing Tengoku/Jigoku English drafts (keyword 71, pilot 442) say 'she'. The Japanese never gives a pronoun (許婚). Reviewers must change to 'he' unless the user overrides.",
+   "Ianthe (アイアンシー), Vector Silon, Vector Zed, Cherubim Lune: single English source (Wikipedia list, which is marked unreferenced) or the franchise wiki; marked proposed where only Wikipedia. Jigoku 'Iron-C' / 'Siron' had no source at all.",
+   "アリシア#alisia: the kingdom's English name is derived from the family name 'de Alisia' (akurasu); the rose 'named アリシア' is a guess that it is named after the kingdom.",
+   "シルフィ = Silvie: the akurasu Aquarion EVOL page lists 'Alicia, Apollon, Silvie' as 'Other'; I read Silvie as the film heroine シルフィ. Wikipedia writes 'Sylvie'.",
+   "Neo DEAVA vs Neo-DEAVA: akurasu (higher precedence) has no hyphen; official releases and Wikipedia write 'Neo-DEAVA'; the Jigoku library used 'Neo-DEAVA'. I follow akurasu; either is fine but choose one for all rows.",
+   "聖天使学園 'Holy Angel Academy' has no official English (releases call it 'Neo-DEAVA Academy'); kept the existing wording, status proposed. 聖天翅 = 'Holy Angel' (Wikipedia dub credit) sits beside it; the franchise wiki says 'Exalted Angel' instead.",
+   "堕天翅 / 天翅 / 守護天翅 / 聖天翅 written singular, plural s outside the token. The prose sometimes uses the bare token as a plural noun ('fought the $$堕天翅$$'), so a translator must add the s there.",
+   "アトランディア大戦 'Great Atlandia War', 創聖合体 'Genesis Unification', 守護天翅 'Guardian Angel' are coined from official parts (no English source names them).",
+   "タマ = 'Tama' kept from Jigoku; no English source names Yunoha's doll. Gender of pilot 458 Shushu is unknown per Japanese Wikipedia (性別は不明).",
+   "Pilot 460 (学園長) gender male is inferred from Japanese Wikipedia's description (stout military-looking man, male voice actor); no text states it.",
+   "アポロニアス: the game's 'Solar Wing' epithet 「太陽の翼」 is the official English 'Solar Wing' (Wikipedia, franchise wiki); not in the brief, but the translators should use it.",
+   "シリウス: the same word is used for the star Sirius elsewhere (pt_214 writes plain 'Sirius'); same English so no retoken is needed."
+  ],
+  "profiles_written": 27
+ }
+}

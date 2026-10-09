@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "purpose": "Re-point prose tokens after names were split (name research 2026-09-30). Applied by `python -m tools.library_text retoken`.",
+  "rules": [
+    {"from": "キッカ", "to": "キッカ#gestalt", "kind": "pilot", "ids": [46], "why": "super_3: Gestalt member"},
+    {"from": "キッカ", "to": "キッカ#zeta", "kind": "pilot", "ids": [81], "why": "super_3: Kikka Kobayashi"},
+    {"from": "ドロシー", "to": "ドロシー#pt319", "series_contains": "ビッグオー", "why": "super_3: R. Dorothy Wayneright (Big O), bound to pilot 319"},
+    {"from": "ドロシー", "to": "ドロシー#pt101", "series_contains": "ガンダムＷ", "why": "Dorothy Catalonia (Gundam Wing), bound to pilot 101"},
+    {"from": "ムウ", "to": "ムウ#orguss", "kind": "pilot", "ids": [66, 67, 68], "why": "orguss/gundam_3: the machine nation Mu, not Mu La Flaga"},
+    {"from": "マイケル", "to": "マイケル#orguss", "kind": "pilot", "ids": [68], "why": "orguss: not Michael Chan"},
+    {"from": "ＵＮ", "to": "国連", "jp_contains": "国連", "jp_lacks": "ＵＮ", "why": "gundam_2: the United Nations, not Tengoku's Universal Network"},
+    {"from": "地球連邦", "to": "地球連邦#00", "kind": "pilot", "ids": [150, 156, 166, 172, 173, 174, 175], "why": "gundam_2: Earth Sphere Federation (Gundam 00)"},
+    {"from": "地球連邦", "to": "地球連邦#awgx", "kind": "pilot", "ids": [121], "why": "gundam_1: United Nations Earth (Gundam X)"},
+    {"from": "地球連邦軍", "to": "地球連邦軍#00", "kind": "pilot", "ids": [164, 165, 166, 167, 168, 176], "why": "gundam_2"},
+    {"from": "地球連邦軍", "to": "地球連邦軍#00", "kind": "robot", "ids": [83, 84, 85, 89], "why": "gundam_2"},
+    {"from": "新地球連邦軍", "to": "新地球連邦軍#awgx", "kind": "pilot", "ids": [121], "why": "gundam_1: New UNE Forces"},
+    {"from": "黒い太陽", "to": "黒い太陽#sol", "kind": "robot", "ids": [329, 330], "why": "original_1c: Sol's sacred treasure"},
+    {"from": "黒い太陽", "to": "黒い太陽#aquarion", "kind": "pilot", "ids": [451, 463], "why": "original_1c: the Aquarion phenomenon"},
+    {"from": "早乙女", "to": "早乙女#macross", "series_contains": "マクロス", "why": "super_1: Alto Saotome's family, not Professor Saotome"},
+    {"from": "アリシア", "to": "アリシア#alisia", "kind": "pilot", "ids": [439, 440], "why": "aquarion: the old kingdom of Alisia (not the actress Alicia)"},
+    {"from": "水星", "to": "水星#fmp", "kind": "pilot", "ids": [356], "why": "fmp: the art teacher Mizuhoshi"},
+    {"from": "千葉", "to": "千葉#macross", "kind": "keyword", "ids": [74], "why": "geass: Dr. Chiba of Macross 7"},
+    {"from": "モニカ", "to": "モニカ#votoms", "kind": "pilot", "ids": [62], "why": "votoms: not Macross F's Monica"},
+    {"text_from": "$$ＥＶＡ仮設５号機|lc$$", "text_to": "$$ＥＶＡ仮設５号機$$", "kind": "pilot", "ids": [397], "why": "evangelion: |lc would give 'eVA'"},
+    {"text_from": "the $$第１０の使徒$$", "text_to": "$$第１０の使徒$$", "kind": "robot", "ids": [258], "why": "evangelion: the English now includes 'the'"},
+    {"text_from": "The $$第１０の使徒$$", "text_to": "$$第１０の使徒$$", "kind": "robot", "ids": [258], "why": "evangelion: sentence-initial; builder capitalizes"}
+  ]
+}

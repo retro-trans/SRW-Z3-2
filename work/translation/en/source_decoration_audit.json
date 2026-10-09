@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 4,
+      "file": "dlg_2065_02.json",
+      "id": "467:t_10:19",
+      "before": "$$お菊$$\n「I'll give you a little extra service~!」",
+      "after": "$$お菊$$\n「I'll give you a little extra service~!б」",
+      "reason": "Preserve exact source decorative glyph U+0431 under BASE_RULES; visual meaning unverified, no heart substitution."
+    }
+  ],
+  "other_source_ids": [
+    "502:t_10:29",
+    "508:t_10:21",
+    "508:t_10:44",
+    "853:t_13:14"
+  ],
+  "note": "Three batch10 rows handled by owners; batch12 reminder for last row. Glyph appearance unverified."
+}

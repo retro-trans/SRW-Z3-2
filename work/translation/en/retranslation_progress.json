@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "objective": "Freshly retranslate the entire player-facing dialogue plan through the ending, alternate routes and bonus dialogue",
+  "source_rows": 63553,
+  "completed_source_rows": 63553,
+  "remaining_source_rows": 0,
+  "source_partition_exact": true,
+  "batches": [
+    {
+      "batch": 1,
+      "scope": "first ten in play order, including two prologues and Green route choice",
+      "run": "work\\translation\\en\\retranslation_2026-10-07",
+      "expected_rows": 3888,
+      "drafted_rows": 3888,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 2,
+      "scope": "stages 9-18 on route A: Green Earth 9-11, common 12-16, Macross Quarter 17-18, and 2210/2211 choice scenes",
+      "run": "work\\translation\\en\\retranslation_2026-10-07_batch2",
+      "expected_rows": 5802,
+      "drafted_rows": 5802,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 3,
+      "scope": "stages 19-28 on route A: Macross Quarter 19-20, joined MQ/Hive 21-22, common 23-25, continent 26-28, and 2220/2221 choice scenes",
+      "run": "work\\translation\\en\\retranslation_2026-10-07_batch3",
+      "expected_rows": 4609,
+      "drafted_rows": 4609,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 4,
+      "scope": "stages 29-38 on route A: continent 29, common 30-35, Japan Defense 36-38, and 2230/2231 choice scenes",
+      "run": "work\\translation\\en\\retranslation_2026-10-07_batch4",
+      "expected_rows": 5643,
+      "drafted_rows": 5643,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 5,
+      "scope": "stages 39-48 on route A: Japan Defense 39-40, common 41-42, Shinji 43, common 44-48, and 2240/2241 choice scenes",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch5",
+      "expected_rows": 7096,
+      "drafted_rows": 7096,
+      "state": "draft_complete_fit_review_required",
+      "recorded_validation": "FIT_REVIEW_REQUIRED",
+      "current_strict_validation": false,
+      "errors": []
+    },
+    {
+      "batch": 6,
+      "scope": "stages 49-58 on route A: common 49-51, Getter 52-54, common 55-56, hope 57, common 58, and 2250/2251 choice scenes",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch6",
+      "expected_rows": 6828,
+      "drafted_rows": 6828,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 7,
+      "scope": "stages 59 through the final stage and all ending scenes (2103-2106d)",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch7",
+      "expected_rows": 5515,
+      "drafted_rows": 5515,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 8,
+      "scope": "alternate routes: Blue Earth stages 4-11, Dragons Hive stages 17-20, and associated choices",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch8",
+      "expected_rows": 7116,
+      "drafted_rows": 7116,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 9,
+      "scope": "alternate routes: Sousuke rescue stages 17-22, Left-Behind Sea stages 26-29, and remaining choice D-Traders",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch9",
+      "expected_rows": 5583,
+      "drafted_rows": 5583,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 10,
+      "scope": "alternate routes: Neo Zeon stages 36-40 and Amalgam stages 36-40",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch10",
+      "expected_rows": 6085,
+      "drafted_rows": 6085,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 11,
+      "scope": "alternate routes: Crowe and Char stage 43, Macross Quarter stages 52-54, despair stage 57",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch11",
+      "expected_rows": 3019,
+      "drafted_rows": 3019,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    },
+    {
+      "batch": 12,
+      "scope": "remaining dialogue: ace pilot talks, guidance scenario, and next-episode previews",
+      "run": "work\\translation\\en\\retranslation_2026-10-09_batch12",
+      "expected_rows": 2369,
+      "drafted_rows": 2369,
+      "state": "draft_complete_validated",
+      "recorded_validation": "PASS",
+      "current_strict_validation": true,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "all_fresh_coverage_complete": true,
+  "current_checks_run": true,
+  "known_build_issue": "Batch5 604:t_6:4 retains eleven full Sphere names and requires four lines; layout review before build.",
+  "limitations": [
+    "Coverage and hashes do not replace human source meaning review.",
+    "A recorded PASS is historical until --validate reruns checks against the current glossary.",
+    "No promotion/build/deployment is implied."
+  ]
+}

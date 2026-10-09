@@ -1,0 +1,806 @@
+{
+ "schema": 1,
+ "group": "super_3",
+ "names": [
+  {
+   "jp": "ガイヤー",
+   "kind": "robot",
+   "en": "Gaia",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Six_God_Combination_Godmars : 'Mecha Introduced: Gaia' (episode 1) and unit list 'Gaia'; https://en.wikipedia.org/wiki/God_Mars : 'a giant robot named Gaia'; https://akurasu.net/wiki/Master_Characters_List : デスガイヤー = Death Gaia; https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Gaia'",
+   "note": "Jigoku library English 'Gaiar' loses to akurasu (precedence 3 over 4). Japanese Wikipedia notes the manga spells it ガイアー and the anime ガイヤー: same machine, core of Godmars. Prose writes 'Takeru's Gaia'."
+  },
+  {
+   "jp": "ギシン星",
+   "kind": "keyword",
+   "en": "Gishin",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Six_God_Combination_Godmars : mecha 'Gishin Star Fighter' (ep 6) and 'Gishin Combat Ship' (ep 23); https://en.wikipedia.org/wiki/God_Mars : 'The small planet Gishin, led by Emperor Zul'",
+   "note": "The token includes 星 (planet) but the library prose always writes 'the planet $$ギシン星$$', so the token must render 'Gishin' only ('Planet Gishin' would give 'the planet Planet Gishin'). Where the prose omits the noun ('stormed into $$ギシン星$$') 'Gishin' alone still reads correctly."
+  },
+  {
+   "jp": "クラッシャー隊",
+   "kind": "keyword",
+   "en": "Crusher Team",
+   "status": "proposed",
+   "source": "Jigoku library English 'Crusher Team' (quoted in rt_000); spelling 'Crusher' matches akurasu 'Cosmo Crusher' (work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki)",
+   "note": "No akurasu entry for the unit. English Wikipedia (https://en.wikipedia.org/wiki/God_Mars) and the /m/ wiki use 'Crasher Squad'; 'Team' kept because it is Jigoku's shipped English. Alternative: 'Crusher Squad'."
+  },
+  {
+   "jp": "ゲシュタルト",
+   "kind": "pilot",
+   "en": "Gestalt",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Master_Characters_List : 'ゲシュタルト = Gestalt' (Six God Combination God Mars, first appearance Z2.2, also Z3.2); https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ : ゲシュタルト = the six humanoids composing Zul",
+   "note": "Collective name of six beings (メタール, ボーデ, スナッパー, ナッカー, キッカ, ニード). No leading 'the'.",
+   "profile": {
+    "gender": "not applicable",
+    "gender_evidence": "Collective of six humanoids; Japanese Wikipedia: 'メタリックな全身タイツに身を包んだ男女' (men and women mixed): Metal, Bode, Kicker, Needle voiced by men, Snapper and Nakker by women.",
+    "position": "The six composite life forms that make up Emperor Xul's body; commanders of the Burning Star esper robots in the final arc.",
+    "personality": "Masked, expressionless and mysterious; loyal instruments of Xul who reappear after seeming to die (library pilot 46 DSCR).",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars",
+     "library pilot 46 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "メタール",
+   "kind": "pilot",
+   "en": "Metal",
+   "status": "proposed",
+   "source": "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Gestalt 1 Metal ... forms Emperor Zule's head' (fan-maintained franchise wiki, no official English found)",
+   "note": "Alternative romanization 'Metaal' (pt_000). Head of Xul's composite body (Japanese Wikipedia). The library DSCR treats him as the Gestalt's named representative.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Voice actor Mitsuo Senda (male) per https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ; /m/ wiki uses 'his'.",
+    "position": "Gestalt No. 1; forms the head of Emperor Xul's composite body.",
+    "personality": "Inscrutable masked being; uses telepathy, force fields and homing mines.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars"
+    ]
+   }
+  },
+  {
+   "jp": "ボーデ",
+   "kind": "pilot",
+   "en": "Bode",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ : ボーデ forms Zul's torso (voice Taro Ishida); the only English source, https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars, writes 'Gestalt 2 Odin'",
+   "note": "'Odin' does not match ボーデ (that would be オーディン), so plain romanization 'Bode' is kept. Low confidence; flagged in report.uncertain.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Voice actor Taro Ishida (male) per https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ.",
+    "position": "Gestalt No. 2; forms the torso of Emperor Xul's composite body.",
+    "personality": "Inscrutable masked being; changes surrounding temperature, telekinetic beam, disables ESP.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars"
+    ]
+   }
+  },
+  {
+   "jp": "スナッパー",
+   "kind": "pilot",
+   "en": "Snapper",
+   "status": "proposed",
+   "source": "Jigoku library English 'Snapper' (quoted in rt_000); https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Gestalt 3 Snapper'; https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ : スナッパー forms the right arm",
+   "note": "Exact English word and two sources agree. Kept 'proposed' because no official English release source was reachable.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Voice actress Kazue Komiya (female) per https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ; /m/ wiki: 'twin sister of Knuckle'.",
+    "position": "Gestalt No. 3; forms Emperor Xul's right arm.",
+    "personality": "Masked and mysterious; can conjure tornadoes and teleport. Works as a pair with Nakker.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars"
+    ]
+   }
+  },
+  {
+   "jp": "ナッカー",
+   "kind": "pilot",
+   "en": "Nakker",
+   "status": "proposed",
+   "source": "Jigoku library English 'Nakker' (quoted in rt_000; precedence 4)",
+   "note": "Jigoku's romanization is kept by precedence. Alternatives: 'Knocker' (English word matching the katakana, pt_000) and 'Knuckle' (https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Gestalt 4 Knuckle'). The orchestrator may prefer Knocker; flagged in report.uncertain.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Voice actress Naoko Kouda (female) per https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ; /m/ wiki: 'twin sister of Snapper'.",
+    "position": "Gestalt No. 4; forms Emperor Xul's left arm.",
+    "personality": "Masked and mysterious; twin-like partner of Snapper.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars"
+    ]
+   }
+  },
+  {
+   "jp": "ニード",
+   "kind": "pilot",
+   "en": "Needle",
+   "status": "proposed",
+   "source": "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Gestalt 6 Needle ... twin of Kicker'; https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ : ニード forms the right leg (voice Yusaku Yara)",
+   "note": "ニード is literally 'Need' (pt_000) but the only English source names the leg pair Kicker and Needle. Low confidence.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Voice actor Yusaku Yara (male) per https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ; /m/ wiki 'He is the twin of Kicker'.",
+    "position": "Gestalt No. 6; forms a leg of Emperor Xul's composite body (right leg per Japanese Wikipedia, left per /m/ wiki).",
+    "personality": "Masked and mysterious; can turn into a flying ball and fire hot ESP beams.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars"
+    ]
+   }
+  },
+  {
+   "jp": "キッカ",
+   "kind": "pilot",
+   "token": "キッカ#gestalt",
+   "en": "Kicker",
+   "status": "proposed",
+   "source": "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Gestalt 5 Kicker ... twin of Needle'; https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ : キッカ forms the left leg (voice Masashi Hirose)",
+   "note": "Not Kikka Kobayashi of Zeta Gundam. Alternative romanization 'Kikka' (pt_000). The split lets Zeta's Kikka stay 'Kikka'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Voice actor Masashi Hirose (male) per https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ; /m/ wiki 'He is the twin of Needle'.",
+    "position": "Gestalt No. 5; forms a leg of Emperor Xul's composite body.",
+    "personality": "Masked and mysterious; can turn into a flying ball and fire hot ESP beams.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars"
+    ]
+   }
+  },
+  {
+   "jp": "キッカ",
+   "kind": "pilot",
+   "token": "キッカ#zeta",
+   "en": "Kikka",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Master_Characters_List : 'キッカ・コバヤシ = Kikka Kobayashi'; https://akurasu.net/wiki/Hayato_Kobayashi : relations 'Kikka Kobayashi (Adopted Daughter)'",
+   "note": "Adopted daughter of Hayato Kobayashi (Zeta Gundam), listed next to Katz and Letz in the same DSCR. Not the Godmars Gestalt member.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "akurasu Hayato Kobayashi infobox: 'Kikka Kobayashi (Adopted Daughter)'.",
+    "position": "Orphan adopted by Hayato Kobayashi and Fraw Bow.",
+    "personality": "Child character; no detail in the sources reached.",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Hayato_Kobayashi",
+     "https://akurasu.net/wiki/Master_Characters_List"
+    ]
+   }
+  },
+  {
+   "jp": "ズール",
+   "kind": "pilot",
+   "en": "Xul",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Emperor Xul = 皇帝ズール' (Six God Combination Godmars); https://akurasu.net/wiki/Master_Characters_List : 'ズール皇帝 = Emperor Xul'",
+   "note": "The akurasu Z3.2 spelling wins over the akurasu Godmars series page and English Wikipedia ('Zuul' / 'Zul' / 'Zuhl'). Pilot 45 CHFN and CHNN are both ズール. The glossary keyword ズール currently reads 'Zul' (official, no akurasu source): it must become 'Xul', see report.challenges."
+  },
+  {
+   "jp": "皇帝ズール",
+   "kind": "robot",
+   "en": "Emperor Xul",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Emperor Xul = 皇帝ズール'; https://akurasu.net/wiki/Master_Characters_List : 'Emperor Xul'",
+   "note": "Used as its own token in pilot 46 DSCR ('composite life form that makes up $$皇帝ズール$$'); the giant form is robot 22. Not in the glossary yet."
+  },
+  {
+   "jp": "バラの騎士",
+   "kind": "pilot",
+   "en": "Rose Knight",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Six_God_Combination_Godmars : episode titles 'Rose Knight, Where Are You?' (57) and 'The Fate of the Rose Knight' (62); https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars : 'Rose Knight'; https://akurasu.net/wiki/Master_Characters_List : 'マーグ / バラの騎士 = Marg'",
+   "note": "バラ = rose flower. Jigoku had both 'Knight of the Rose' and 'Rose Knight'; wiki wins. The knight is Roze carrying the spirit of the dead Marg (Japanese Wikipedia). robot 19 DSCR: 'Episode 57, Are You the $$バラの騎士$$...?!' reads 'Are You the Rose Knight...?!'",
+   "profile": {
+    "gender": "unknown",
+    "gender_evidence": "Alias of a possession: Roze (female body) carrying the spirit of the dead Marg (male). ja Wikipedia: '正体は死亡したマーグの精神に憑依されたロゼ'; library pilot 50 DSCR: 'ロゼの身体を借りてバラの騎士となり'. Avoid he/she in text.",
+    "position": "Mysterious knight who comes to help Takeru whenever he is in danger during the Earth arc.",
+    "personality": "Protective and self-sacrificing towards Takeru.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+     "https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_God_Mars",
+     "library pilot 50 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "マーグ",
+   "kind": "pilot",
+   "en": "Marg",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Master_Characters_List : 'マーグ / バラの騎士 = Marg'; https://akurasu.net/wiki/Six_God_Combination_Godmars (episode titles 'Showdown! Mars and Marg!', 'Marg, The Sad Warrior'); https://en.wikipedia.org/wiki/God_Mars : 'Marg'",
+   "note": "Existing glossary 'Marg' (pilot, proposed) is now backed by akurasu; keyword マーグ is already 'Marg' (official)."
+  },
+  {
+   "jp": "ヘテロダイン・コンパーゲス",
+   "kind": "robot",
+   "en": "Heterodyne compages",
+   "status": "proposed",
+   "source": "Glossary proposal 'Heterodyne Compages' (jigoku_glossary:robot:168:RBN2); 'compages' is Latin/English for 'structure, framework' and the unit is akurasu 'Framework' (フレイムワーク, work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki)",
+   "note": "No English source gives the scientific name. It is used as a binomial in the description ('Its scientific name is ...'), so the genus is capitalized and the epithet lower case. 'Heterodyne' itself is glossary official."
+  },
+  {
+   "jp": "墨田",
+   "kind": "pilot",
+   "en": "Sumita",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード : '墨田 洋介（すみた ようすけ）'; https://akurasu.net/wiki/Terrestrial_Defense_Corporation_Dai-Guard : character list 'Youhei Sumita'",
+   "note": "CHANGE from the Jigoku glossary 'Sumida'. The reading is すみた (Japanese Wikipedia) and akurasu's series page writes 'Sumita'. Counter-evidence: akurasu Master Characters List, English Wikipedia and MyAnimeList write 'Sumida' (default reading of the kanji). Proposed, not official, because the English wikis disagree with each other."
+  },
+  {
+   "jp": "墨田洋介",
+   "kind": "pilot",
+   "en": "Yousuke Sumita",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード : '墨田 洋介（すみた ようすけ）'; https://akurasu.net/wiki/Terrestrial_Defense_Corporation_Dai-Guard : 'Youhei Sumita'",
+   "note": "洋介 = Yousuke (akurasu 'Youhei' and Master List 'Younei' both look like typos of it; English Wikipedia and MyAnimeList: 'Younei/Yousuke Sumida'). Surname: see 墨田."
+  },
+  {
+   "jp": "赤木",
+   "kind": "pilot",
+   "en": "Akagi",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Shunsuke Akagi' (Terrestrial Defense Corp. Dai-Guard); https://en.wikipedia.org/wiki/Dai-Guard : 'Akagi Shunsuke'",
+   "note": "Surname of Shunsuke Akagi (赤木駿介). 赤城 (Full Metal Panic) and 赤木リツコ (Evangelion, full name only) are different keys, so the shared English 'Akagi' needs no retoken (the fmp researcher reached the same conclusion)."
+  },
+  {
+   "jp": "ドロシー",
+   "kind": "pilot",
+   "token": "ドロシー#bigo",
+   "en": "Dorothy",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'R. Dorothy Waynewright' (The Big O); https://ja.wikipedia.org/wiki/THE_ビッグオー : 'R・ドロシー・ウェインライト（R. Dorothy Wayneright）'",
+   "note": "Big O android. The other ドロシー in the library is Dorothy Catalonia (Gundam Wing EW, pilot 101): both render 'Dorothy', so the spelling is safe either way; a token is only needed if profiles are looked up by token. Big O prose uses (pilots 318, 322 and others) should switch to ドロシー#bigo; Wing entries keep plain ドロシー.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Girl-type android built to look like Timothy Wayneright's daughter; library pilot 319 DSCR uses 彼女; ja Wikipedia: 少女型アンドロイド, 女性らしい一面.",
+    "position": "Housemaid at Roger Smith's mansion; sub-pilot / interface of Big O.",
+    "personality": "Deadpan, blunt and unfriendly at first, but fond of cats and slowly warms to Roger.",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/THE_ビッグオー",
+     "library pilot 319 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "プレイリードッグ",
+   "kind": "robot",
+   "en": "Prairie Dog",
+   "status": "official",
+   "source": "Jigoku library English 'Prairie Dog' (rt_171, entry 169); the katakana is the plain English word",
+   "note": "Big O's dedicated transporter in the description; no wiki page found for the transporter itself."
+  },
+  {
+   "jp": "ＴＨＥビッグオー　ｓｅｃｏｎｄ　ｓｅａｓｏｎ",
+   "kind": "series",
+   "en": "The Big O Second Season",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_series.wiki : 'THE ビッグオー 2nd SEASON' linked as 'THE Big O Second Season'; glossary series 'The Big O' (official)",
+   "note": "Capitalization normalized to match the glossary's 'The Big O'. The home-video title is 'The Big O II', but akurasu's series list (higher precedence) uses 'Second Season'."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 39,
+   "gender": "male",
+   "gender_evidence": "DSCR 50 calls Marg his 'twin older brother' and Takeru the younger brother (弟); DSCR 39 '実の兄マーグ'; ja Wikipedia: protagonist, voiced by Yu Mizushima.",
+   "nickname": "Mars (マーズ), his real Gishin name; the DSCR says 本名はマーズ",
+   "position": "Psychic raised on Earth; Crusher Team member (gunner of Cosmo Crusher) and pilot of Gaia / Godmars. 17.",
+   "personality": "Straightforward and kind-hearted at heart, with a strong sense of duty that sometimes makes him charge ahead alone; Super A-class psychic (telepathy, hair-needle psychokinesis, precognition, acceleration).",
+   "sources": [
+    "library pilot 39 DSCR",
+    "library pilot 50 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Takeru Myojin'"
+   ]
+  },
+  {
+   "pilot_id": 40,
+   "gender": "male",
+   "gender_evidence": "DSCR gives no pronoun; English Wikipedia cast table 'Kenji Asuka' voiced by Hiroya Ishimaru (male); ja Wikipedia describes him as the male team leader.",
+   "nickname": "",
+   "position": "Captain of Crusher Team under Chief Otsuka; later commander of space station Ceres. 24 (Japanese Wikipedia says 23).",
+   "personality": "Always calm and never rattled; strongly responsible; trusted by the chief and his team.",
+   "sources": [
+    "library pilot 40 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+    "https://en.wikipedia.org/wiki/God_Mars"
+   ]
+  },
+  {
+   "pilot_id": 41,
+   "gender": "male",
+   "gender_evidence": "DSCR: 'the kind (男) at heart, loyal to his comrades'; voiced by Hirotaka Suzuoki (ja Wikipedia).",
+   "nickname": "",
+   "position": "Crusher Team member; gunner of Cosmo Crusher. 17.",
+   "personality": "Sarcastic and blunt so often misunderstood, but a kind friend at heart; catchphrase 'Cut the crap!' (しゃらくせえ); rivalled Takeru, then reconciled.",
+   "sources": [
+    "library pilot 41 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 42,
+   "gender": "male",
+   "gender_evidence": "Crusher Team: DSCR 43 calls Mika its only woman (紅一点), so Akira is not female; DSCR 42 '美人に弱く'; ja Wikipedia: 女性に弱く, voiced by Yoku Shioya (male).",
+   "nickname": "",
+   "position": "Crusher Team member; pilot (ja Wikipedia: navigator) of Cosmo Crusher. 16.",
+   "personality": "Easygoing and good-natured, plump yet agile with delicate nerves; knowledgeable about mecha; a soft touch for beautiful women.",
+   "sources": [
+    "library pilot 42 DSCR",
+    "library pilot 43 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 43,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女と呼べる年齢 and 'the only woman of Crusher Team' (紅一点); ja Wikipedia: 紅一点.",
+   "nickname": "",
+   "position": "Crusher Team member in charge of communications and information analysis. 15.",
+   "personality": "Caring and attentive; looked after the isolated Takeru and often backed him up.",
+   "sources": [
+    "library pilot 43 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 44,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女戦士 (woman warrior), has a younger sister Rui; ja Wikipedia 17, voiced by Rumiko Ukai.",
+   "nickname": "Alias Rose Knight (バラの騎士) while carrying Marg's spirit; used the disguise 'Akane' in episode 17 (ja Wikipedia)",
+   "position": "Gishin psychic enforcer under Waal, sub-officer to Marg; later joined Crusher Team and stood against Xul.",
+   "personality": "Loyal to Xul at first and cold, then softened by Marg, Shizuka and her sister; brave, ends up in love with Takeru.",
+   "sources": [
+    "library pilot 44 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Roze'"
+   ]
+  },
+  {
+   "pilot_id": 45,
+   "gender": "male",
+   "gender_evidence": "Speaks as ワシ (old male speech) in the DSCR quote; ja Wikipedia voiced by Goro Naya; English wikis 'he'.",
+   "nickname": "",
+   "position": "Emperor who rules the planet Gishin; villain of the Gishin arc, revived as the true final enemy.",
+   "personality": "Cold-blooded tyrant who rules through terror, treats everyone as tools, never forgives betrayal or failure.",
+   "sources": [
+    "library pilot 45 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+    "https://en.wikipedia.org/wiki/God_Mars",
+    "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Emperor Xul'"
+   ]
+  },
+  {
+   "pilot_id": 46,
+   "gender": "not applicable",
+   "gender_evidence": "Collective of six humanoids (men and women mixed per ja Wikipedia); see the profile in names.",
+   "nickname": "",
+   "position": "Six composite life forms that form Emperor Xul's body; the name Metal is given for the group leader.",
+   "personality": "Masked, expressionless, mysterious; keep reappearing after apparent destruction.",
+   "sources": [
+    "library pilot 46 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 47,
+   "gender": "male",
+   "gender_evidence": "Japanese Wikipedia: タケルに憧れる少年 (a boy who admires Takeru), voiced by a woman (Eiko Yamada); DSCR 43 treats Mika as the only woman.",
+   "nickname": "",
+   "position": "Youngest member of Crusher Team; first canteen worker at Battle Camp, later crews Cosmo Crusher in Takeru's place. 10.",
+   "personality": "Extremely cheerful and positive; blurts things out, but his warmth makes him the team's mascot; shows faint psychic potential.",
+   "sources": [
+    "library pilot 47 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 48,
+   "gender": "male",
+   "gender_evidence": "Male chief (Kosei Tomita voices him); no pronoun in DSCR; English Wikipedia 'Chief Shigeru Otsuka'.",
+   "nickname": "Chief (長官)",
+   "position": "Chief of the Earth Defense Force; organized Crusher Team. 42.",
+   "personality": "Mild-mannered but commands with dignity in battle; old friend of Dr. Myojin.",
+   "sources": [
+    "library pilot 48 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ",
+    "https://en.wikipedia.org/wiki/God_Mars"
+   ]
+  },
+  {
+   "pilot_id": 49,
+   "gender": "female",
+   "gender_evidence": "DSCR: Takeru's adoptive mother (養母) whose husband died in the Gishin attack.",
+   "nickname": "",
+   "position": "Takeru's adoptive mother; lives at Battle Camp and acts as a mother to Crusher Team. 42.",
+   "personality": "Gentle to everyone without distinction, youthfully beautiful; her mother's love supports Takeru.",
+   "sources": [
+    "library pilot 49 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 50,
+   "gender": "male",
+   "gender_evidence": "DSCR: Takeru's twin elder brother, calls Takeru his younger brother (弟); ja Wikipedia voiced by Yuji Mitsuya, 17.",
+   "nickname": "Rose Knight (バラの騎士), when his spirit possesses Roze",
+   "position": "Takeru's twin elder brother; Gishin psychic forced to fight Takeru; killed, later appears as a spirit. 17.",
+   "personality": "Gentle and brave, driven by revenge against Xul; sacrificed himself to protect Takeru.",
+   "sources": [
+    "library pilot 50 DSCR",
+    "https://ja.wikipedia.org/wiki/六神合体ゴッドマーズ"
+   ]
+  },
+  {
+   "pilot_id": 299,
+   "gender": "male",
+   "gender_evidence": "DSCR 303: Ooyama regards Akagi as a special man (男性); DSCR 299 with Kaminura as 従姉弟 (Kaminura is his older female cousin); ja Wikipedia voiced by Kentaro Ito.",
+   "nickname": "'Akaten' (アカテン, 'failing mark') from his old instructor Iizuka; 'Shun-chan' (駿ちゃん) from Kaminura (ja Wikipedia)",
+   "position": "Main pilot of Dai-Guard; staff of Public Relations Division 2, Planning and Development Dept., 21st Century Security. 25.",
+   "personality": "Bright, cheerful and emotional; strong sense of justice, hotheaded and prone to recklessness; a giant-robot fan.",
+   "sources": [
+    "library pilot 299 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Shunsuke Akagi'"
+   ]
+  },
+  {
+   "pilot_id": 300,
+   "gender": "female",
+   "gender_evidence": "DSCR: OL, has a mother and step-father, 'tomboyish' (男勝り) which presupposes a woman; ja Wikipedia voiced by Akiko Hiramatsu.",
+   "nickname": "",
+   "position": "Navigator of Dai-Guard; PR Division 2 staff and senior to Akagi and Aoyama. 20.",
+   "personality": "Strong-willed and tomboyish; once consumed by hatred of the Heterodyne after her father's death, later steadier.",
+   "sources": [
+    "library pilot 300 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 301,
+   "gender": "male",
+   "gender_evidence": "DSCR: attracts women, 'Nakahara has feelings for him'; ja Wikipedia voiced by Shinichiro Miki, 二枚目.",
+   "nickname": "",
+   "position": "Engineer of Dai-Guard; PR Division 2. 25.",
+   "personality": "Cool and individualistic, disliked being a pilot, but ends up hot-hearted and loyal to his friends; devoted to his sick mother.",
+   "sources": [
+    "library pilot 301 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 302,
+   "gender": "male",
+   "gender_evidence": "DSCR gives no pronoun; ja Wikipedia voiced by Masaharu Sato as Akagi's instructor; treat as male from the voice and source, low confidence.",
+   "nickname": "",
+   "position": "Main pilot of Kokubogar; Akagi's practical instructor at the defense university.",
+   "personality": "Calm, sharp-eyed and dependable; obeys orders but puts lives first; teases Akagi as 'Akaten'.",
+   "sources": [
+    "library pilot 302 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード"
+   ]
+  },
+  {
+   "pilot_id": 303,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女子課員 (female staff member), eldest woman of the division.",
+   "nickname": "",
+   "position": "PR Division 2 staff. 28.",
+   "personality": "Dependable big-sister type; secretly regards Akagi as special.",
+   "sources": [
+    "library pilot 303 DSCR",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 304,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女子課員.",
+   "nickname": "",
+   "position": "PR Division 2 staff; information analyst. 20.",
+   "personality": "Calm and hard to read; sometimes drops out-of-character gags.",
+   "sources": [
+    "library pilot 304 DSCR",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 305,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女子課員.",
+   "nickname": "",
+   "position": "PR Division 2 staff. 20.",
+   "personality": "Gossip-loving and talkative but sharp and reliable when it counts; her tips come from 'Ayumi of the secretarial section'.",
+   "sources": [
+    "library pilot 305 DSCR",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 306,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女子課員.",
+   "nickname": "",
+   "position": "PR Division 2 accountant. 25.",
+   "personality": "Childlike and gullible but quick-witted; shy about romance and has feelings for Aoyama.",
+   "sources": [
+    "library pilot 306 DSCR",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 307,
+   "gender": "male",
+   "gender_evidence": "DSCR gives no pronoun; ja Wikipedia voiced by Masashi Hirose; English Wikipedia lists him among the male staff; Chief Oosugi.",
+   "nickname": "",
+   "position": "Manager (課長) of PR Division 2; former UN Volunteer Forces officer under Ookouchi (DSCR: lieutenant; ja Wikipedia: sergeant). 48.",
+   "personality": "Looks like a dull middle-aged man but very sharp; stomach-aching middle manager who quietly supports Akagi's team.",
+   "sources": [
+    "library pilot 307 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード"
+   ]
+  },
+  {
+   "pilot_id": 308,
+   "gender": "male",
+   "gender_evidence": "DSCR: dotes on his beloved daughter Mai (愛娘); ja Wikipedia 'lives with his wife and child'; voiced by Katsuyuki Konishi.",
+   "nickname": "",
+   "position": "Deputy manager (課長補佐) of PR Division 2. 30.",
+   "personality": "Hard-working generalist; devoted family man.",
+   "sources": [
+    "library pilot 308 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード"
+   ]
+  },
+  {
+   "pilot_id": 309,
+   "gender": "male",
+   "gender_evidence": "English Wikipedia: one of a 'trio of salary men'; ja Wikipedia: voiced by Hisashi Izumi (male).",
+   "nickname": "",
+   "position": "PR Division 2 office clerk; leader of the trio. 27.",
+   "personality": "Reliable behind-the-scenes supporter.",
+   "sources": [
+    "library pilot 309 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 310,
+   "gender": "male",
+   "gender_evidence": "English Wikipedia: one of a trio of salarymen; ja Wikipedia voiced by Makoto Higo.",
+   "nickname": "",
+   "position": "PR Division 2 event planner and production. 27.",
+   "personality": "Easygoing, a bit timid; likes robot models.",
+   "sources": [
+    "library pilot 310 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 311,
+   "gender": "male",
+   "gender_evidence": "DSCR: has a crush on Tanigawa (谷川に気がある), one of the trio of male salarymen (ja Wikipedia).",
+   "nickname": "",
+   "position": "PR Division 2 liaison for domestic and overseas contacts. 27.",
+   "personality": "Mixes English into his Japanese; smitten with Tanigawa but hopeless.",
+   "sources": [
+    "library pilot 311 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード"
+   ]
+  },
+  {
+   "pilot_id": 312,
+   "gender": "female",
+   "gender_evidence": "DSCR: technical chief aged 17; English Wikipedia 'she'; ja Wikipedia voiced by Mayumi Shintani.",
+   "nickname": "'Professor' (博士): she insists on being called that (ja Wikipedia)",
+   "position": "Chief of the Technology Dept. of 21st Century Security; Heterodyne expert who designs Dai-Guard's new weapons. 17.",
+   "personality": "Genius but childlike; lacks common sense and is insensitive to people's feelings.",
+   "sources": [
+    "library pilot 312 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 313,
+   "gender": "male",
+   "gender_evidence": "DSCR: fell in love at first sight with Domeki (百目鬼); voiced by Hiro Yuuki; English Wikipedia 'his crew'.",
+   "nickname": "'Sumii' (スミィ), what Domeki calls him (ja Wikipedia)",
+   "position": "Chief of Dai-Guard's maintenance crew.",
+   "personality": "Rough-mouthed but skilled; gets along with Akagi; besotted with Domeki.",
+   "sources": [
+    "library pilot 313 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 314,
+   "gender": "male",
+   "gender_evidence": "English Wikipedia 'He' for President Ookouchi; ja Wikipedia voiced by Takaya Hashi; DSCR: 強面.",
+   "nickname": "",
+   "position": "President of 21st Century Security; ex-UN Volunteer Forces officer who lost his right eye. 57.",
+   "personality": "Taciturn and stern-faced, but upright and caring; carries guilt over ordering the OE weapon.",
+   "sources": [
+    "library pilot 314 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 315,
+   "gender": "female",
+   "gender_evidence": "DSCR: 有能な女性 (a capable woman).",
+   "nickname": "",
+   "position": "Secretary to the president; Akagi's cousin (his older female cousin).",
+   "personality": "Capable and sharp behind a stiff facade.",
+   "sources": [
+    "library pilot 315 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード"
+   ]
+  },
+  {
+   "pilot_id": 316,
+   "gender": "male",
+   "gender_evidence": "English Wikipedia 'He' for Shirota; ja Wikipedia voiced by Kenichi Ono.",
+   "nickname": "",
+   "position": "Tactical advisor dispatched by the UN Security Forces (ANPO) to PR Division 2.",
+   "personality": "Rigid, efficiency-first; softens through Akagi's example.",
+   "sources": [
+    "library pilot 316 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード",
+    "https://en.wikipedia.org/wiki/Dai-Guard"
+   ]
+  },
+  {
+   "pilot_id": 317,
+   "gender": "male",
+   "gender_evidence": "ja Wikipedia voiced by Tsutomu Kashiwakura; 童顔 'boyish'; English Wikipedia 'He' (Toru Saeki).",
+   "nickname": "",
+   "position": "Assistant tactical advisor from the ANPO Military.",
+   "personality": "Bright but rigid; reveres Shirota, later comes to trust Akagi's team.",
+   "sources": [
+    "library pilot 317 DSCR",
+    "https://ja.wikipedia.org/wiki/地球防衛企業ダイ・ガード"
+   ]
+  },
+  {
+   "pilot_id": 318,
+   "gender": "male",
+   "gender_evidence": "ja Wikipedia: 25, unmarried man, 紳士, voiced by Mitsuru Miyamoto; DSCR: gentleman and feminist who lets only women into his house.",
+   "nickname": "",
+   "position": "Paradigm City's top Negotiator; pilot of Big O. 25.",
+   "personality": "Humorous, witty gentleman, stubborn, quick to lose his temper at rule-breakers.",
+   "sources": [
+    "library pilot 318 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  },
+  {
+   "pilot_id": 319,
+   "gender": "female",
+   "gender_evidence": "Girl-type android modelled on Timothy Wayneright's daughter; library DSCR uses 彼女 for her; ja Wikipedia: 少女型アンドロイド.",
+   "nickname": "",
+   "position": "Android maid at Roger's mansion; interface of Big O.",
+   "personality": "Deadpan and blunt, gradually warmer; fond of cats and piano.",
+   "sources": [
+    "library pilot 319 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  },
+  {
+   "pilot_id": 320,
+   "gender": "male",
+   "gender_evidence": "ja Wikipedia: Norman Burg, 54, butler at Roger's mansion (ロジャー邸執事), male voice actor voiced by Motomu Kiyokawa (ja Wikipedia: 清川元夢); DSCR gives no pronoun.",
+   "nickname": "",
+   "position": "Roger's butler; maintains Big O.",
+   "personality": "Unflappable and capable of everything.",
+   "sources": [
+    "library pilot 320 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  },
+  {
+   "pilot_id": 321,
+   "gender": "female",
+   "gender_evidence": "DSCR: 正体不明の女性; ja Wikipedia: mysterious beauty (謎の美女), voiced by Emi Shinohara.",
+   "nickname": "Angel: self-styled from the wing-like scar on her back; Union codename No. 340 (340号); aliases include Casey Jenkins and Patricia Lovejoy",
+   "position": "Agent tied to Paradigm Inc. and the Union; her true identity is a Memory itself.",
+   "personality": "Confident, bold and driven to obtain Memories.",
+   "sources": [
+    "library pilot 321 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  },
+  {
+   "pilot_id": 322,
+   "gender": "male",
+   "gender_evidence": "ja Wikipedia: 22-year-old criminal, 190 cm, called チンピラ; ja Wikipedia voiced by Yoshito Otsuka.",
+   "nickname": "",
+   "position": "Criminal of Paradigm City; enlisted by Paradigm Inc.; owns Beck Victory Deluxe.",
+   "personality": "Vulgar, short-tempered and vain, but a genius with interfaces.",
+   "sources": [
+    "library pilot 322 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  },
+  {
+   "pilot_id": 323,
+   "gender": "male",
+   "gender_evidence": "DSCR: 色白の男; ja Wikipedia: Dove speaks オネエ口調 (a camp tone).",
+   "nickname": "",
+   "position": "Beck's henchman.",
+   "personality": "Pale, camp mannerisms.",
+   "sources": [
+    "library pilot 323 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  },
+  {
+   "pilot_id": 324,
+   "gender": "male",
+   "gender_evidence": "DSCR: 小太りの男.",
+   "nickname": "",
+   "position": "Beck's henchman; broke Beck out with Dove.",
+   "personality": "Plump, dim henchman type.",
+   "sources": [
+    "library pilot 324 DSCR",
+    "https://ja.wikipedia.org/wiki/THE_ビッグオー"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 20,
+  "names_settled": 20,
+  "records_written": 22,
+  "records_official": 12,
+  "records_proposed": 10,
+  "left_pending": [],
+  "challenges": [
+   "Glossary keyword ズール 'Zul' (status official, zukan 61, no akurasu source) vs pilot ズール settled 'Xul': akurasu Z3.2 mech list and Master Characters List both write 'Emperor Xul'. English Wikipedia says Zuul/Zul and the akurasu Godmars series page 'Zuul/Zuhl', so the wiki itself is inconsistent, but the Z3.2 pages win. Change the keyword to 'Xul' so keyword and pilot agree.",
+   "R. Dorothy Waynewright (Ｒ．ドロシー・ウェインライト, pilot 319, official): the licensed/franchise spelling is 'R. Dorothy Wayneright' (ja Wikipedia 'R. Dorothy Wayneright', akurasu Big O unit page 'Wayneright'). Only the akurasu Z3.2 pilot database has 'Waynewright', which is the reason it stayed official; decide whether Z3.2 DB spelling should win.",
+   "Jigoku glossary 墨田 / 墨田洋介 'Sumida' (proposed) changed to 'Sumita' / 'Yousuke Sumita' (reading すみた per ja Wikipedia and akurasu's Dai-Guard series page); English Wikipedia and MyAnimeList still write Sumida.",
+   "ガイヤー: Jigoku library English 'Gaiar' replaced by 'Gaia' (akurasu Godmars page, English Wikipedia)."
+  ],
+  "retoken": [
+   "pilot 46 DSCR: $$キッカ$$ -> $$キッカ#gestalt$$ (Gestalt member 'Kicker')",
+   "pilot 81 DSCR: $$キッカ$$ -> $$キッカ#zeta$$ (Kikka Kobayashi, Zeta Gundam). Either split is enough; the other could stay plain, but both are recorded here so the plain token is never ambiguous.",
+   "Big O series entries using $$ドロシー$$ (pilot 318 DSCR and pilot 322 DSCR quoted in the brief, plus the remaining Big O uses, 9 in total per the brief) -> $$ドロシー#bigo$$. Optional for spelling (both Dorothys render 'Dorothy'); needed only for per-token profile lookup. Wing (pilot 101) keeps plain $$ドロシー$$.",
+   "$$皇帝ズール$$ (pilot 46 DSCR) needs its own glossary record 'Emperor Xul' (added in names, kind robot)."
+  ],
+  "uncertain": [
+   "Gestalt members are all 'proposed': no official English source was reachable. Only the fan-maintained /m/ wiki (mmecha.fandom.com) lists English names: Metal, Odin, Snapper, Knuckle, Kicker, Needle. Chosen: Metal, Bode, Snapper, Nakker (Jigoku), Needle, Kicker. Weakest calls: ボーデ (Bode vs the wiki's Odin), ナッカー (Nakker by precedence vs Knocker/Knuckle), ニード (Needle vs literal Need), and キッカ (Kicker vs literal Kikka).",
+   "クラッシャー隊: 'Crusher Team' is Jigoku's English only; English Wikipedia and the /m/ wiki say 'Crasher Squad'. Stays 'proposed'.",
+   "ギシン星 is rendered 'Gishin' without 'planet': the prose supplies 'the planet' before the token in most uses; if any entry uses the token bare as a place name it reads correctly too.",
+   "バラの騎士 is Roze possessed by Marg's spirit; profile gender is 'unknown' on purpose (avoid he/she). It is a shared identity of pilots 44 and 50.",
+   "ヘテロダイン・コンパーゲス 'Heterodyne compages' is unsourced beyond the Latin meaning 'framework' (the unit is Framework); capitalization as a binomial is a style call.",
+   "プレイリードッグ: name is the plain English word from Jigoku's entry; I found no wiki page for the transporter, so the Big O role is unverified.",
+   "Genders inferred from voice cast / source work only (no pronoun in the DSCR): Kenji (40), Otsuka (48), Iizuka (302), Oosugi (307), Norman (320), T-Bone (324 has 小太りの男 which is explicit). Iizuka is the weakest.",
+   "Namida (47) is a boy voiced by a woman (ja Wikipedia 少年); DSCR 43 calling Mika the only woman agrees. Easy to mis-gender.",
+   "Cross-brief check: read the other briefs' lists; no other group lists my Godmars, Dai-Guard or Big O names. Shared Japanese keys: キッカ (gundam_4/5 use it only in prose of pilot 81), ドロシー (gundam_5 has ドロシー・カタロニア), 赤木 vs 赤城 (fmp): all resolved above. No disagreement found; gundam_5 must keep Wing's Dorothy plain 'Dorothy'.",
+   "Discrepancies inside library text kept as is: Oosugi DSCR says lieutenant of the UN Volunteer Forces, ja Wikipedia says sergeant; Ookouchi DSCR 307 calls him colonel, ja Wikipedia says major; Kenji's age 24 vs ja Wikipedia 23.",
+   "Existing glossary 'Ceres' (space station ケレス, pilot 40 DSCR) and 'Waal' / 'Sagool' / 'Rewi' spellings on akurasu Master list were not in my brief and not checked further."
+  ]
+ }
+}

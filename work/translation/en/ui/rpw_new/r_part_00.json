@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "rows": {
+  "part:超次元ターゲットロック": {
+   "en": "Hyperdimensional Target Lock"
+  },
+  "part:極小次元震システム": {
+   "en": "Micro D-Quake"
+  },
+  "part:ＤＥＣマガジン": {
+   "en": "DEC Magazine"
+  },
+  "part:ＳＯＬアーマー": {
+   "en": "SOL Armor"
+  },
+  "part:ＳＯＬクォーツ": {
+   "en": "SOL Quartz"
+  },
+  "part:リヴァイヴ・セル": {
+   "en": "Revive Cell"
+  },
+  "part:ＰＭＣモーター": {
+   "en": "PMC Motor"
+  },
+  "part:時獄の紋章": {
+   "en": "Time Prison Crest"
+  },
+  "part:連獄の紋章": {
+   "en": "Purgatory Crest"
+  },
+  "part:天獄の紋章": {
+   "en": "Heaven Crest"
+  },
+  "part:マイクロＺＯＮＥ": {
+   "en": "Micro ZONE"
+  },
+  "part:わかめパン": {
+   "en": "Wakame Bread"
+  },
+  "part:アンドロメダ焼き": {
+   "en": "Andromeda-yaki"
+  },
+  "part:ＤＭＪ集": {
+   "en": "DMJ Collection"
+  },
+  "part:おコンさんのお面": {
+   "en": "Fox Mask"
+  },
+  "part:プラーナコンバーター": {
+   "en": "Prana Conv"
+  },
+  "part:ＦＢ隊員証": {
+   "en": "Firebug Member ID"
+  }
+ },
+ "report": {
+  "uncertain": [
+   "天獄の紋章 has max_chars 12, so 'Heavenly Prison Crest' cannot fit; used 'Heaven Crest'. Siblings: 時獄の紋章 'Time Prison Crest' (glossary Time Prison), 連獄の紋章 'Purgatory Crest' (連獄 not in glossary; Rengoku-hen is a pun on 煉獄 purgatory; Akurasu uses 'Crest of Jigoku/Rengoku'). The three are not fully parallel because of the 12-char cap.",
+   "極小次元震システム: current 'Micro Dimension Quake System' (Jigoku) is 28 chars vs max 14 here -> 'Micro D-Quake'.",
+   "プラーナコンバーター: current 'Prana Converter' (Jigoku) is 15 vs max 10 -> 'Prana Conv'.",
+   "おコンさんのお面: 'Fox Mask' (Akurasu; dialogue 2044_00 says 'that fox mask'). Dialogue 2099_08 renders おコンさん as 'Mr. Con' (a flagged guess) and 2044_01 335:t_1:102 as a 'hello, hello' routine; the part name does not try to match those.",
+   "ＤＭＪ集: meaning of DMJ unknown; kept 'DMJ Collection' (Akurasu)."
+  ],
+  "notes": "Akurasu Z3.R Parts page used for SOL Armor/Quartz, DEC Magazine, PMC Motor, Micro ZONE, DMJ Collection; Revive Cell from glossary; Wakame Bread matches dialogue ('wakame bread'); Andromeda-yaki follows Jigoku's Trident-yaki; ＦＢ = Firebug (glossary ファイヤバグ, Akurasu 'Firebug Membership Card'); Hyperdimensional per 超次元 = hyperdimensional."
+ }
+}

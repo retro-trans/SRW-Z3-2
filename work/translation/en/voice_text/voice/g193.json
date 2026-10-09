@@ -1,0 +1,866 @@
+{
+  "schema": 1,
+  "group": "g193",
+  "blocks": [
+    193
+  ],
+  "speaker": {
+    "token": null,
+    "jigoku_pilot": "Altair grunt pilots (Neo-DEM)",
+    "jigoku_unit": null,
+    "fraction": 0.017,
+    "basis": "settled 2026-10-02 from fresh-translation review: Generic Nextant knights of the Martial Church (Shield of Order): God/Martial, Nextant, aux brain talk; hunt Chirico (named) and sneer at Teitania; Jigoku Altair grunts/Neo-DEM is wrong",
+    "proposed_by_v_g193_00": {
+      "token": null,
+      "basis": "Generic Nextant knights of the Martial Church (Shield of Order): God/Martial, Nextant, aux brain talk; hunt Chirico (named) and sneer at Teitania; Jigoku Altair grunts/Neo-DEM is wrong"
+    },
+    "proposed_by_v_g193_01": {
+      "token": null,
+      "basis": "Generic Nextant knights of the Martial Church (Shield of Order): God, Nextant, aux brain, Chirico/Teitania named; Jigoku's Altair/Neo-DEM grunts is wrong (same speaker as v_g193_00)"
+    },
+    "jigoku_token": null
+  },
+  "lines": {
+    "193:0": {
+      "repository_source_sha256": "039b37996bc5ed39af4b42a3142bf004bc53c10621fc25101bca4f7fd76aee60",
+      "en": "「I am $$マーティアル$$'s Shield of Order.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:31": {
+      "repository_source_sha256": "8d3f1190a8de58df278f8582faf0a53b5366e482fd8aa82da12e07b6b5201034",
+      "en": "「I only eliminate threats.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:64": {
+      "repository_source_sha256": "5c126d653cdddec27413a5bfe932b3a99b4f0585913e0c5f657f1a11c01149c3",
+      "en": "「Through $$マーティアル$$, I shall reach God.」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "193:101": {
+      "repository_source_sha256": "b60d67afec3e7a3779391b5f9cb095f6fd924e6cf9031e322edbdf11a4b85791",
+      "en": "「If need be, there's the aux brain.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:130": {
+      "repository_source_sha256": "f2201141214f44812993e8516ad7c241d2d5bc9d85db5efac0d00839b62d3017",
+      "en": "「We embody the will of God.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:159": {
+      "repository_source_sha256": "a5f6e08685c2a2dc5f8fd4d64d511c533e5a6beaaef4a2283f3d616dc88b77cb",
+      "en": "「I serve God, all-knowing, almighty.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:184": {
+      "repository_source_sha256": "c7a6937248505215a17fc82c98a25e45b8a8dc561e8a7979d095c592c9950f0e",
+      "en": "「Prepare yourself...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:201": {
+      "repository_source_sha256": "29960ed398a1ee3e627a69adbe94c096556c2faa26d7d89aa56bf3fdaba7755d",
+      "en": "「I see you...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "193:220": {
+      "repository_source_sha256": "088267d997e41576383122a0b68fbafe88c3bfdbdf941f9acb82b61c19b471ce",
+      "en": "「Resistance is futile!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:241": {
+      "repository_source_sha256": "cf4eda27672a2f951cfeaba3af528b0327ee41736641439a721ac93be0dd018d",
+      "en": "「I'll crush you for certain...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:260": {
+      "repository_source_sha256": "eb739f8b392785e460af28b1d09d634671c55f06ba6e5fa689d88da248f262ca",
+      "en": "「Carrying out the mission...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:283": {
+      "repository_source_sha256": "87ea824888c6109553eac40756d47ede7dcf847f0ffbf1c576d4d243c7bf3b61",
+      "en": "「Launching a breakthrough...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:306": {
+      "repository_source_sha256": "8f5f3d54eb4a905c8fab2e6b3783538238f81bc4103fe7779ccc74440c9e6a69",
+      "en": "「Your life is mine!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:335": {
+      "repository_source_sha256": "c0e734e9152297508fa3764711a482d7aa091fb7804243d18f3cf10ab8ecc860",
+      "en": "「I'll show the power of a $$ネクスタント$$!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:364": {
+      "repository_source_sha256": "b6496516e7c2db249b61bee30b576dc49e32b83e27ee7846371b87068c6d57a7",
+      "en": "「Arms unite!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ],
+      "alternatives": [
+        "True harmony lies in martial skill!",
+        "The martial way is true harmony!"
+      ],
+      "review": "conflict"
+    },
+    "193:391": {
+      "repository_source_sha256": "f7616f27c4caaf7e7363269395e686885784ed89e5e1917666839db9aadce89e",
+      "en": "「Through battle, I seek God's path!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:422": {
+      "repository_source_sha256": "ea0db7f5ba07f1c34b43c2be672068f291471be6d97e6b217b2366c0dfbf325c",
+      "en": "「Battle, battle, more battle!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:451": {
+      "repository_source_sha256": "5113c303a5bff20a3616be830f57843f3247aa8c112ddc1e30145e8f6ee6097c",
+      "en": "「Strife and harmony rule all things!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:486": {
+      "repository_source_sha256": "f2cba5cf6719a4bd01aa4a925ba88120d5027e266c4addcf38e74c7b44727d96",
+      "en": "「This will be a direct hit!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "This will hit dead on!",
+        "I'll score a direct hit!",
+        "I'll hit you dead-on!",
+        "Direct hit!"
+      ],
+      "review": "conflict"
+    },
+    "193:503": {
+      "repository_source_sha256": "2dd65a126ed66f07ddf8684992d6379489447c73068e534d2b572fdbbd701ad3",
+      "en": "「There's no way I'll miss...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:526": {
+      "repository_source_sha256": "8c7a5a09798844f10abcd2294a08c10105c4547de5af9277adc33209f02595e6",
+      "en": "「Running is useless!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "Running won't save you!",
+        "Running won't do you any good!"
+      ],
+      "review": "conflict"
+    },
+    "193:547": {
+      "repository_source_sha256": "1e51482c99452c41b95d495e8dc073e20bfdb7a2e9d791fa1b7b34ac7afa57da",
+      "en": "「Give it up!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:562": {
+      "repository_source_sha256": "7ef4c41950ac7e6e90de027ed7b73b4d91fa81c05b26a606cb3debc441a3c32a",
+      "en": "「Is there any opening to exploit!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:587": {
+      "repository_source_sha256": "ed9ea0eefb94bb0cd010a8ff79eb495933371d05df9210dbd516cdfe1f28df13",
+      "en": "「Going melee!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:604": {
+      "repository_source_sha256": "77954d3c48920287657d2d87eee252b68745d111e1ee43c68f3c95dec0a37e74",
+      "en": "「If it's close combat...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:625": {
+      "repository_source_sha256": "2954db35259c090855f2b568c4b8533caf56af1427b2ffa19ef13f1f36a31a75",
+      "en": "「Piercing the cockpit!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:650": {
+      "repository_source_sha256": "e34607f4a659967edaf14b18299cb8f01311f9aa0ff6f37ebfe9eea45c1aaaf4",
+      "en": "「Here I go!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "193:663": {
+      "repository_source_sha256": "1a43f255ae1e222dc5c9e2f133ddfee656434f0a96e08067053ed8db920ea5fa",
+      "en": "「Eat this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "Take this!"
+      ],
+      "review": "conflict"
+    },
+    "193:676": {
+      "repository_source_sha256": "508f09fa3f75eb35b5061532db6741e75a4d1e9bd237837638d2975ea7d34d9a",
+      "en": "「I've got you!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "You're mine!",
+        "Got you!",
+        "I've got you now!",
+        "Mine!"
+      ],
+      "review": "conflict"
+    },
+    "193:693": {
+      "repository_source_sha256": "9920878d99732cacc7c59765c608631fbe99d12eb48900c4f16f8986b0b4c7ed",
+      "en": "「Out of my way!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "You're in my way!"
+      ],
+      "review": "conflict"
+    },
+    "193:706": {
+      "repository_source_sha256": "afd89b676427c2ec88d65b90ddb32ef7f41e32d379fffe5b9df1cdd91d81c0c7",
+      "en": "「Take this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "Receive this!"
+      ],
+      "review": "conflict"
+    },
+    "193:719": {
+      "repository_source_sha256": "9c3ff2c425730762c9eb9d2e8c29a0d4eb84ba8015e43c0a860ac91a9e413d52",
+      "en": "「I won't let you escape!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:732": {
+      "repository_source_sha256": "569f8fd6dfaeed525df7022426c633ca0e9a2c002b5b9c8f6b3b4331b459fa53",
+      "en": "「I won't miss this chance!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:755": {
+      "repository_source_sha256": "c0051a2b168c12ab995a82b213b47e795b5650e90d30a9de95dcb5e2d8724fbe",
+      "en": "「I'll strike once more!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:778": {
+      "repository_source_sha256": "20c05df8b327a95981248e6c21ec0be22e6a0f01ed163fa2fd22ca0b00f9c918",
+      "en": "「Untouchable One, $$キリコ・キュービィー$$!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:819": {
+      "repository_source_sha256": "a1c5b4d9aa3289fd584bff0a0f4f3504c434498a94325a0f67d13f0279c8cc66",
+      "en": "「No matter how uncanny you are...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:854": {
+      "repository_source_sha256": "0525df7c6a763b2c279f0489dd292dac424d0fce3298ac8be2fd96ce37092365",
+      "en": "「Your existence cannot be permitted!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:885": {
+      "repository_source_sha256": "7018e9377de6215e4d898d57733249b6cbfbaa77f359a3174ea441db981301fa",
+      "en": "「Die this time, $$キリコ・キュービィー$$!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:926": {
+      "repository_source_sha256": "d929e6bba64a2594def033ab0057afbfdd4cb997400a46d88efc07f05e60fc2f",
+      "en": "「Don't think a Quent merc can win!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:967": {
+      "repository_source_sha256": "83d220f7e8c781bb0949bb9bdd4b9651c279f389b8ecec4066f208c85d34e4fb",
+      "en": "「You disgrace the $$ネクスタント$$!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:996": {
+      "repository_source_sha256": "484ae9e0368cc2e8923bfea953110985c8be595e1b46accde3cf22aee0b9a339",
+      "en": "「No chance without your aux brain!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1035": {
+      "repository_source_sha256": "5fdd76d231d1a1f09eba18964b566302613002239e291b670a175476a62970a6",
+      "en": "「We are the perfected $$ネクスタント$$s!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1072": {
+      "repository_source_sha256": "c98e6eacb746faf64a82afe1423fae2ea9312f0bfe260a455bd8e2731a6f7d85",
+      "en": "「A size gap\\nis hardly a problem!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:1123": {
+      "repository_source_sha256": "12bc50406a9edfcd488b8e8d5bfa477f985fecc7310ebcd30f1bdd780b8361f0",
+      "en": "「With that bulk, you can't\\nkeep up with me!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:1178": {
+      "repository_source_sha256": "4421647f563e3870c41a58c00e5b2ee2294d83eb43c0fa242a079c56caf393c7",
+      "en": "「I'll tear through that flimsy armor!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1215": {
+      "repository_source_sha256": "852ce43f6e38a7a5f8bbec5fd3aad94d4702bad0f7ac12eba3305f80c68e747f",
+      "en": "「So you evolve through war too...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1256": {
+      "repository_source_sha256": "7b90a0333dc9ff025b54a532bdde460a41a6a580f86c207ea64f0e43d4e11556",
+      "en": "「A Gundam...! A fine opponent!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1293": {
+      "repository_source_sha256": "7faab7a2d91426dcbc0dfb0e8fd7f2dd03ba272cdb59ee18f90959f91ed0ca7c",
+      "en": "「This one has uncanny power too...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1326": {
+      "repository_source_sha256": "02d67b4e155875c933c18ef7099cf3b1207793e9d793d6ae232f2eb2fd415b3c",
+      "en": "「We're the same kind, so I\\ncan't afford to lose...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1375": {
+      "repository_source_sha256": "21db0d427266e1d04386f07b13b121c370bbfb192c0b61c0f6081457bcc3a232",
+      "en": "「This person...wields God's power!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1404": {
+      "repository_source_sha256": "08f79dc09ff558b802673acadcdddcd1a7b40a6a984939e09de1e3750e841a52",
+      "en": "「I'll take out the commander first!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1427": {
+      "repository_source_sha256": "71bf592f3d640e4fc551e6ddab103c9b7c3896135cd1a17e4ea61935ce8e1464",
+      "en": "「Aiming for the battleship's bridge!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1454": {
+      "repository_source_sha256": "3ba86190319513f5953ea88d02b5f547754b330413f3951109d2fc18a9180888",
+      "en": "「Counterattacking at once...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1479": {
+      "repository_source_sha256": "a5f7c8980b0e12aaf5b2d285e5e77af3413e85f071e695ba933e38f50a2f7bef",
+      "en": "「You can't escape my eyes!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1512": {
+      "repository_source_sha256": "dc112c7b5d87fc6e877912024d19b2fff41e3d3fc10d25b9b2433169b5e9b8df",
+      "en": "「It was foolish to let me counter...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1541": {
+      "repository_source_sha256": "90bf855101d058082fda5b15b12f430df396f0a5b8f2a8c23871974bfb8cfd37",
+      "en": "「Know that I lured you in!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "193:1574": {
+      "repository_source_sha256": "0055f440e8a8bf4a46495531b9b9d05c9f88f68953fa29f52d88a62afbed2c4b",
+      "en": "「I'll deal retribution to God's foes!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1609": {
+      "repository_source_sha256": "7dd11d79178a89dc415611ad007e1c8080241ce7ed02eb08619065e1c53a4143",
+      "en": "「This was fated from the start...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1650": {
+      "repository_source_sha256": "f57667d37118be1a9ef87b81371f3ec1d76c9e1ffce0c4e17b991170a245363a",
+      "en": "「I won't let you escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "193:1677": {
+      "repository_source_sha256": "a0c02baaa0f4061e77245e4fa11e98ca72af848f6b36626e68e594c6c5b7c7dc",
+      "en": "「Run, then...! If you can!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1718": {
+      "repository_source_sha256": "26b54fc6de4d1709e364a936d5fc65ae7475351e019a53306b9f4ff2899c7aac",
+      "en": "「Teamwork will surely finish you!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1743": {
+      "repository_source_sha256": "68b7fdcc4946c41f2d79c5b0c0b2c846245bbe71aa1a420300983ea3e468b592",
+      "en": "「You should've kept your guard up!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1776": {
+      "repository_source_sha256": "730058b6e069063ea20559b5dc0c03b8c04ad4fdf1872070a663ca1da921479b",
+      "en": "「I'll handle this!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "193:1799": {
+      "repository_source_sha256": "494901d34a5216ae2e13b4a46b301dca181c7a826c0690fcc56e018484d36f45",
+      "en": "「Fall back and regroup!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:1832": {
+      "repository_source_sha256": "eeaf263791079399d5ef92b149fe918df7a1f0347cea7d9a21e15b505b2b099d",
+      "en": "「Target confirmed...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1861": {
+      "repository_source_sha256": "db8e31dc79163e73f430ae4a4d3ce9b452aab70b670d977d069fe88cd17d221f",
+      "en": "「Attacking as instructed...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1888": {
+      "repository_source_sha256": "bebbcd38597a2c6acbd400ec559bcf63ab5b32d3a359beef5ac5d2c8c43ef40d",
+      "en": "「I won't be beaten one-on-one!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1919": {
+      "repository_source_sha256": "b4caf84d0c938ec63f7418d58aba1bdb68118386d6b9d984e022e420c368d6c6",
+      "en": "「I'll handle this one!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1942": {
+      "repository_source_sha256": "0fefa20313c8a21bfade3bf3bfd6c163ab4cdf112d8fe7cfee13828c52853523",
+      "en": "「I'll go first...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1963": {
+      "repository_source_sha256": "4782766d45a58ef472e668cf8d4dbedbb92835c429339afc07f96b08145d3294",
+      "en": "「Pinning them down is easy!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:1990": {
+      "repository_source_sha256": "2d940536be3d1b903fa3063ba88ce8c316734c333b87ff5ad0b36ee54593add1",
+      "en": "「I'll take point! Follow me!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2017": {
+      "repository_source_sha256": "628a08d5f8e1f7d11d680717b88cd0451258668228b1dace80cbb61815a76576",
+      "en": "「Together, the hammer of God...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2040": {
+      "repository_source_sha256": "ca01072d2a820a47ac72eb787b1ad8ccbbae8f7223696fb25d8989e71073f14d",
+      "en": "「I can't do a thing...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2067": {
+      "repository_source_sha256": "6e9d652829f11db36322da3bf4acb1b38e0aef600a63c8dcb00ef0e7244a848f",
+      "en": "「Nngh...! What humiliation!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2100": {
+      "repository_source_sha256": "e90de04368f61485fcf70f2fd0be77c756eb9f2bc67b83d9cbe532d312737163",
+      "en": "「What a cheap trick...!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "193:2123": {
+      "repository_source_sha256": "6aca1065540eb44e8d8dc494b322973605c217c6e73423c2d5fe156f70731033",
+      "en": "「You've sealed my counterattack...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2154": {
+      "repository_source_sha256": "ccc1f1cd4699c37715d0c864a60ac48a2e152cc8c2eb9f51fe327e148161409e",
+      "en": "「Too slow.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "You're slow."
+      ],
+      "review": "conflict"
+    },
+    "193:2165": {
+      "repository_source_sha256": "869667078409b6f24ea3207f1195de8466c3d767439745caf59ba54461236fa3",
+      "en": "「Where are you aiming?」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2188": {
+      "repository_source_sha256": "60f16c538d2ff7116ea1f0d29617eeed33f0e57601c2bb3ec514db8a8a6b9572",
+      "en": "「This is the power of a $$ネクスタント$$.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "193:2217": {
+      "repository_source_sha256": "6528f978b3e6e1d207813f46562ba8ca8c2f22c2b2a819e0e582ea973278160d",
+      "en": "「Struggling is pointless.」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2248": {
+      "repository_source_sha256": "35419533a12bb9614ff0dda1015357dc826ac7f8e76bd906f9772b1cef857301",
+      "en": "「I don't even need the aux brain.」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2277": {
+      "repository_source_sha256": "a893d1ee3e902f36494ef965d28c7861d77bdcc117eb59c2cefa20676d607721",
+      "en": "「A little thought reveals your aim.」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2316": {
+      "repository_source_sha256": "d30645250b5be29f6140b021c94827737d975bea3178acde8fe028e7658594cb",
+      "en": "「We have God's divine protection!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2347": {
+      "repository_source_sha256": "5b47460f30a7e84cc9cf672f6bcc37bb9142c1dc614cc6b90db69660d0c46597",
+      "en": "「Shield of Order is no mere title!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2382": {
+      "repository_source_sha256": "d1113b5a0c24312571b04c314c5ec9d0227fed461d3e0c4bcc8cec97c269339c",
+      "en": "「What's wrong, Untouchable One!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2411": {
+      "repository_source_sha256": "b6dcd50a8d99eee3b54f52937901372cab1362e52dfcc4ed3cb2055819c16af6",
+      "en": "「That's your limit, $$キリコ$$!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2448": {
+      "repository_source_sha256": "c882fd16b6026a7c3732ba8fa257640b8ae21e378949124d6ed38a365e160374",
+      "en": "「How pathetic, $$テイタニア$$!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2477": {
+      "repository_source_sha256": "6a2ac827916b6e8625191a9feb461dc49807e79ad0a9aa08d41c2599fc064e1d",
+      "en": "「Futile struggling...!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2500": {
+      "repository_source_sha256": "cc2edbecdb4c444a37ce14e2bc2a5e0ff25ab3f9e6e2e84454794b9916fd6626",
+      "en": "「Such things don't work on me!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2529": {
+      "repository_source_sha256": "056dfdf06f420ab2cd636aa95a0a740153bfbc4f591a91ab7f41742d3a89727e",
+      "en": "「An attack not worth dodging.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2556": {
+      "repository_source_sha256": "1f022e537ddd7f7a815e762e32bfdf63a746ab6fabb5383582c781e66da33fdf",
+      "en": "「Your aim, at least, is accurate.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2585": {
+      "repository_source_sha256": "1b21ee930eac7654601ad51fab06f27be3928716b90d13f6506c7bc74c98d1ab",
+      "en": "「Just grazed the armor.」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2610": {
+      "repository_source_sha256": "6fbf3d2787082bca02ac4d874239f61bcb93ae76e724e4affebfd999a08a676b",
+      "en": "「A blunder on my part...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2631": {
+      "repository_source_sha256": "789a7dc6bda4351428c1dd4ffdf1adaa8b096cef64e4f3119314a56a33128dd1",
+      "en": "「Confusing me with erratic moves!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2670": {
+      "repository_source_sha256": "fc14b8e2222efcc5047cbd6889d05c71dd374bf23140e0124ca67087fe336297",
+      "en": "「Not bad! But no next time!」",
+      "source": "new",
+      "slice": "v_g193_01"
+    },
+    "193:2701": {
+      "repository_source_sha256": "1854d7e3f84e00defe8c73eb5378bc48ea0f648b01ea7052c6f2d4325a22fbe4",
+      "en": "「Is this also a trial from God...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2726": {
+      "repository_source_sha256": "8221f7ad293aa08df96b360588906912cc3ec13e7d8cc47e9132091c5a91eec4",
+      "en": "「Is my devotion being tested...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2759": {
+      "repository_source_sha256": "91f1d072ac48e1289ac9e67f71649667fe1700b6d045bf85ab4b1f0b0841edfe",
+      "en": "「Keeping up with my moves...!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2798": {
+      "repository_source_sha256": "ea6c34dff784767eb7d2d73eabf5207dd27a458ad2610734a13f816d06753b0f",
+      "en": "「Damn you...! Playing games with me!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2841": {
+      "repository_source_sha256": "35a37dcb042f84c63fb9fe1d6d31c0e844416d90db2e0836c624e8a93c18ff84",
+      "en": "「Beyond a $$ネクスタント$$'s reaction speed!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2884": {
+      "repository_source_sha256": "b345d5192bb7187efede4be94559b4cf6837281639b6ac5c0faa596334b7c3a1",
+      "en": "「As Shield of Order, I can't lose!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2925": {
+      "repository_source_sha256": "d753dd4d5e355d8d37e30a82162cfd491b9de0de70d9253c3911e4e7f0327176",
+      "en": "「$$ネクスタント$$s are not allowed to lose...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:2966": {
+      "repository_source_sha256": "fb9306a9c83b0525b4dc086418a35886b5db65e12f93c4cc141f13052787dc63",
+      "en": "「Why...!?\\nWhy is this happening!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3017": {
+      "repository_source_sha256": "cc664623bba910fde7d27ecc3f909b7869e9ebfc034008d2101158935da26af6",
+      "en": "「This is the Untouchable One...\\n$$キリコ・キュービィー$$'s power...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3074": {
+      "repository_source_sha256": "bd57d752eee4686b6aa3165d139d8ecc47fe8b3cd33748b81b36fc028fc09929",
+      "en": "「He truly is no ordinary human...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3113": {
+      "repository_source_sha256": "e5e8767279034c11a2dbda6aa8ebc767ddfd99b7fec053e17314e892dbf4a0a8",
+      "en": "「Will you defy us to the end,\\n$$キリコ$$!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3166": {
+      "repository_source_sha256": "018a9ffbb7f0d1249d04ca0fd45f050c621db606711a104e64bc1bc58677fda3",
+      "en": "「He's this good with no aux brain!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3207": {
+      "repository_source_sha256": "a9baef3dc2850a630101fb9c5eb9931958560d017df6ded43f42568052f9619a",
+      "en": "「He's supposed to be imperfect! Why!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3248": {
+      "repository_source_sha256": "8e803d4eae2cf1c28682889fd6d3be2bbd0158be3a370e187ce5ff22de957d6e",
+      "en": "「Persistent, you damned Quent!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3279": {
+      "repository_source_sha256": "1b70a2e5304cfda74d2356c070524f121a2a38fcd222d1386e585cfae2834f6d",
+      "en": "「The rumors of your power are true,\\nGundam...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3334": {
+      "repository_source_sha256": "85c32ad186b54ebc2b2eb5ba1a05233b14c9cefe51a1671d3ef475312156135d",
+      "en": "「Is he stepping into the\\nforbidden realm...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3383": {
+      "repository_source_sha256": "39b79d90584e7ee031bad39ee589ad4c8499a3783354319ed576894ac75c2bcf",
+      "en": "「Damn you! Godless wretch!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3416": {
+      "repository_source_sha256": "ae2cca88c69f2f7b73fd38c46f36a8eb84dbe762ce5229f4928066f2a3071d34",
+      "en": "「Impossible! Is this reality!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3451": {
+      "repository_source_sha256": "ccf855fd1a0071ec5e85f21f474ee30e281b38acecb5dfc0f3163b1f1cfa33e1",
+      "en": "「This power...! What is it!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3488": {
+      "repository_source_sha256": "e009fa0baaa8674cd8145d640b6d52108336f5dee919c9ad2560b6797fdbe1b6",
+      "en": "「If he lives, he'll bring\\ncalamity to $$マーティアル$$...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3539": {
+      "repository_source_sha256": "94f0a13008d95769f5cbed8b3d0040730a178c6420efb86c4e1d2ccced7d277e",
+      "en": "「Will you defy God to the end...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3572": {
+      "repository_source_sha256": "455b2a3f774acdc81b2978cc1eb6974ac626ac83136790886e50d2cdb2440424",
+      "en": "「He surpasses even the aux brain!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3603": {
+      "repository_source_sha256": "2c52982a4f8e1a8b98cc1ac14c2966a5cccf170ddb38e85005b4024036c9bf80",
+      "en": "「Even a $$ネクスタント$$'s power\\nisn't enough to win!?」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3654": {
+      "repository_source_sha256": "9e05a4c8fcfa4c71f13f4c15c468948f0e2fb1b4ca8886da2cb7d4b88d9b9a2b",
+      "en": "「My faith loses...!?\\nImpossible!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3707": {
+      "repository_source_sha256": "e09f9d12e12a5cfe6e61b241bfa4549fe2453ae25837805fb0e13f0f79b23b23",
+      "en": "「This is the end?! Nwooooh...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3746": {
+      "repository_source_sha256": "aaa500052972ed1a766cc6d32cc265d0cc11ced0577f071bd3c7a51d327894d0",
+      "en": "「How humiliating...! What a disgrace!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3789": {
+      "repository_source_sha256": "d632c06eb4a2c7870c6bd8fc397fbd88d694709fe7b409a929ce9aa86e65eb90",
+      "en": "「For God's apostle to fall,\\nit can't be...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3840": {
+      "repository_source_sha256": "f78bb55724ad686fe273d8787e7060a0f86353df7d348a453560aa6827794f2f",
+      "en": "「W-whooooah!!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3867": {
+      "repository_source_sha256": "a5250c7af444e80623216ffbcec6bd922255246b3cf44e06da11fa3f9108797e",
+      "en": "「The Shield of Order, defeated...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3896": {
+      "repository_source_sha256": "0cb7005ca83fcbe6d885e51aaaffa1f18984b9d2131b900fa4e2bed1a0655bf4",
+      "en": "「The $$ネクスタント$$...Shield of Order...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3931": {
+      "repository_source_sha256": "e7fc64ca04fb84ffeff2815dd69315ce510e2a2b97b7afd90b82e69af2900313",
+      "en": "「We should never have touched him...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:3970": {
+      "repository_source_sha256": "db3cc932584bf10009fee22b5078f722da5a33e5cb4581dcbdfbb2b10e49e00b",
+      "en": "「No one should ever have\\ntouched him...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    },
+    "193:4019": {
+      "repository_source_sha256": "d23a494867a0f2ccfcbcd7269a4c2c2315e0584a9a34a7dd7e2a12df60620762",
+      "en": "「Defeated by an imperfect $$ネクスタント$$...!」",
+      "source": "new",
+      "slice": "v_g193_00"
+    }
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "schema": 1,
+  "group": "Neo Zeon and Amalgam routes",
+  "names": [
+    {
+      "jp": "サイド１",
+      "token": "サイド１",
+      "en": "Side 1",
+      "kind": "location",
+      "status": "proposed",
+      "source": "496:t_2:51/81 and neighbors reviewed: Bright's target, held by Chrono-affiliated Federation forces. https://gundam.fandom.com/wiki/Space_Colony_(U.C.) and https://gundam.fandom.com/wiki/Escape_from_Side_1 confirm Side 1; do not add alternate name Zahn absent in source."
+    },
+    {
+      "jp": "アプリリウス",
+      "token": "アプリリウス",
+      "en": "Aprilius",
+      "kind": "location",
+      "status": "proposed",
+      "source": "515:t_002:2 and515:t_006:0 with neighbors read: PLANT capital infiltration. https://gundam.fandom.com/wiki/Aprilius_One corroborates name; source short form omits One, preserve that scope."
+    },
+    {
+      "jp": "ヤマト",
+      "token": "ヤマト#kira",
+      "en": "Yamato",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "515:t_006:0 and neighbors read: Mileina uses Kira Yamato's surname while he remains in Aprilius with Shinn. Established full Kira Yamato glossary and https://gundam.fandom.com/wiki/Kira_Yamato; do not expand surname.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Kira_Yamato",
+        "position": "ZAFT-aligned allied mobile suit pilot; Strike Freedom pilot",
+        "personality": "Compassionate, reluctant to kill, determined to protect others",
+        "nickname": "Kira Yamato; surname-only form",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Kira_Yamato"
+        ]
+      }
+    },
+    {
+      "jp": "アスカ",
+      "token": "アスカ#shinn",
+      "en": "Asuka",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "515:t_006:0 and neighbors read: Mileina's surname for Shinn Asuka, not EVA Asuka. Established full Shinn Asuka glossary and https://gundam.fandom.com/wiki/Shinn_Asuka.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Shinn_Asuka",
+        "position": "ZAFT mobile suit pilot; Destiny pilot",
+        "personality": "Passionate, impulsive, protective, scarred by war",
+        "nickname": "Shinn Asuka; surname-only form",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Shinn_Asuka"
+        ]
+      }
+    },
+    {
+      "jp": "ＧＮビッグキャノン",
+      "token": "ＧＮビッグキャノン",
+      "en": "GN Big Cannon",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "497:t_113:0 and neighbors read: Tieria notices increased output. https://gundam.fandom.com/wiki/CB-002_Raphael_Gundam lists GN Big Cannon remote armament. Wiki-supported spelling; licensed localization not independently verified."
+    },
+    {
+      "jp": "レジェンド",
+      "token": "レジェンド",
+      "en": "Legend",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "515:t_103:0 and neighbors read: Rey's mobile suit. https://en.gundam-official.com/seed/destiny/mecha/8/ names Legend Gundam and identifies Rey. Short form preserves exact source; no Gundam expansion."
+    },
+    {
+      "jp": "ザフトレッド",
+      "token": "ザフトレッド",
+      "en": "ZAFT Red",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "515:t_034:2 and neighbors read: Lunamaria's elite status. https://gundam.fandom.com/wiki/Lunamaria_Hawke confirms red uniform for elite pilots; https://gundam.fandom.com/wiki/ZAFT uses ZAFT Red Pilot. Proposed capitalized rank/class label."
+    },
+    {
+      "jp": "ゼロ",
+      "token": "ゼロ#wing_zero",
+      "en": "Zero",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "503:t_012:12 and neighbors read: Zechs refers to the future foreseen by Heero's Wing Zero/ZERO System, not Lelouch. https://gundam.fandom.com/wiki/XXXG-00W0_Wing_Gundam_Zero explicitly lists just Zero alias; https://gundam.fandom.com/wiki/ZERO_System corroborates prediction system. Preserve short form."
+    },
+    {
+      "jp": "ゴビ砂漠",
+      "token": "ゴビ砂漠",
+      "en": "Gobi Desert",
+      "kind": "location",
+      "status": "proposed",
+      "source": "503:t_022:3 and neighbors read: Heero's self-destruction location in game history. Established geographical English https://ignca.gov.in/Asi_data/17537.pdf (The Gobi Desert). No independent external verification of game event needed or claimed."
+    },
+    {
+      "jp": "バスターライフル",
+      "token": "バスターライフル",
+      "en": "Buster Rifle",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "503:t_024:0 and neighbors read: Garrod warns repeated shots will destroy damaged Wing Zero. https://gundam.fandom.com/wiki/XXXG-01W_Wing_Gundam and Bandai official https://tamashiiweb.com/images/item/item_0000014364_YjEpfkAa_300.pdf establish English Buster Rifle. Preserve source short wording; do not add Twin."
+    },
+    {
+      "jp": "スーパーコーディネイター",
+      "token": "スーパーコーディネイター",
+      "en": "Ultimate Coordinator",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "514:t_3:56 and neighbors read: Rey addresses Kira's engineered identity. https://gundam.fandom.com/wiki/Ultimate_Coordinator and https://gundam.fandom.com/wiki/Kira_Yamato use Ultimate Coordinator; Japanese label is Super Coordinator. Wiki-preferred English per repository rule, not independently claimed licensed."
+    },
+    {
+      "jp": "トライン",
+      "token": "トライン",
+      "en": "Trine",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "514:t_3:94 and neighbors read: Arthur reports his named unit leaving headquarters. https://gundam.fandom.com/wiki/Arthur_Trine confirms surname.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Arthur_Trine",
+        "position": "Minerva executive officer; ZAFT unit leader in this scene",
+        "personality": "Friendly and dependable, easily flustered",
+        "nickname": "Arthur Trine; surname-only form",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Arthur_Trine"
+        ]
+      }
+    },
+    {
+      "jp": "コロニー共栄圏",
+      "token": "コロニー共栄圏",
+      "en": "Colony Co-Prosperity Sphere",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "520:t_2:154 and neighbors read: Frontal's economic coalition excluding Earth. https://gundam.fandom.com/wiki/Full_Frontal and https://gundam.fandom.com/wiki/The_Side_Co-Prosperity_Sphere corroborate Co-Prosperity Sphere concept. Game explicitly uses Colony rather than anime Side; retain this adapted label. Proposed game rendering, not independently licensed."
+    },
+    {
+      "jp": "アクシオン財団",
+      "token": "アクシオン財団",
+      "en": "Axion Foundation",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "526:t_4:25 and neighbors read: Gratia manufacturer. https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story corroborates Axion Foundation, distinct from person Axion. Whole corpus exact term appears once."
+    },
+    {
+      "jp": "ブラックベレー",
+      "token": "ブラックベレー",
+      "en": "Black Berets",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "526:t_1:118 and neighbors read: Hibiki's father's former unit. https://srw.wiki.cre.jp/wiki/ヒビキ・カミシロ and https://srw.wiki.cre.jp/wiki/ブリタニア・ユニオン confirm unit membership. Black Berets is proposed English transliteration with collective plural, no licensed English verified. Whole corpus exact term appears once."
+    },
+    {
+      "jp": "ファルケ",
+      "token": "ファルケ",
+      "en": "Falke",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "527:t_001:7 and neighbors read: Ben Clouseau's AS. https://fullmetalpanic.fandom.com/wiki/M9D_Falke and existing full M9D Falke glossary confirm short form."
+    },
+    {
+      "jp": "ニケーロ島",
+      "token": "ニケーロ島",
+      "en": "Nikero Island",
+      "kind": "location",
+      "status": "proposed",
+      "source": "527:t_000:0 and neighbors read: Amalgam island base. Existing short ニケーロ=Nikero remains proposed. Japanese location corroborated by https://www.animatetimes.com/news/details.php?id=1531894824 and game source; no reliable English spelling verification. Niquero found in unverified subtitle mirror only, insufficient to replace existing spelling. Preserve provisional consistency; spelling remains uncertain."
+    },
+    {
+      "jp": "マリィ",
+      "token": "マリィ",
+      "en": "Marie",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "520:t_2:341/348 source and neighbors: Zinnerman's deceased daughter alongside Fee, not Marie Parfacy. https://gundam.fandom.com/wiki/Suberoa_Zinnerman and https://gundam.fandom.com/wiki/Two_Worlds,_Two_Tomorrows corroborate.",
+      "profile": {
+        "gender": "female",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Suberoa_Zinnerman identifies daughter",
+        "position": "Zinnerman's deceased civilian daughter",
+        "personality": "Insufficient characterization to establish; do not infer",
+        "nickname": "Marie Zinnerman; given name",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Suberoa_Zinnerman"
+        ]
+      }
+    },
+    {
+      "jp": "スカル１",
+      "token": "スカル１",
+      "en": "Skull 1",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "533:t_010:1 and neighbors: Cathy addresses Ozma after his enthusiastic Fire Bomber response. https://w.atwiki.jp/aniwotawiki/pages/1012.html gives call sign Skull1; https://macross.anime.net/wiki/Ozma_Lee corroborates leader identity.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://macross.anime.net/wiki/Ozma_Lee",
+        "position": "S.M.S. Skull Team leader; Major",
+        "personality": "Boisterous, protective of Ranka, serious about his crew's safety",
+        "nickname": "Ozma Lee; Skull 1",
+        "sources": [
+          "https://macross.anime.net/wiki/Ozma_Lee",
+          "https://w.atwiki.jp/aniwotawiki/pages/1012.html"
+        ]
+      }
+    },
+    {
+      "jp": "アルビオン",
+      "token": "アルビオン",
+      "en": "Albion",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "527:t_106:1 and neighbors: Suzaku thinks about Lloyd/Cecile's upgrade. Existing Lancelot Albion glossary and https://codegeass.fandom.com/wiki/Lancelot_Albion confirm short machine name; not Gundam ship."
+    },
+    {
+      "jp": "デモリッションガン",
+      "token": "デモリッションガン",
+      "en": "Demolition Gun",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "527:t_039:1 and neighbors: Al explains barrel extension. https://fullmetalpanic.fandom.com/wiki/Make_My_Day names Demolition Gun; wiki-supported spelling."
+    },
+    {
+      "jp": "ガン・ハウザーモード",
+      "token": "ガン・ハウザーモード",
+      "en": "Gun-Howitzer Mode",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "527:t_039:3 and neighbors: Al finishes weapon mode transition. https://fullmetalpanic.fandom.com/wiki/Make_My_Day uses Gun-Howitzer Mode; retain hyphen."
+    },
+    {
+      "jp": "シベリア",
+      "token": "シベリア",
+      "en": "Siberia",
+      "kind": "location",
+      "status": "proposed",
+      "source": "532:t_1:55; geographic region, single exact occurrence in corpus. Standard English https://en.wikipedia.org/wiki/Siberia ; spelling verified, game geography claims not externally inferred."
+    },
+    {
+      "jp": "プロト・プルトゥエルブ",
+      "token": "プロト・プルトゥエルブ",
+      "en": "Proto-Ple Twelve",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "521:t_111:0 and neighbors: Frontal addresses Marida's prototype identity. Existing Ple Twelve glossary plus https://wikiwiki.jp/srwztengoku/赤い彗星の未来 corroborates exact game appellation. Proto- extension proposed; licensed game English not verified.",
+      "profile": {
+        "gender": "female",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Marida_Cruz",
+        "position": "Cyber-Newtype pilot, prototype clone; Marida Cruz",
+        "personality": "Reserved, devoted to Zinnerman, compassionate despite trauma",
+        "nickname": "Marida Cruz; Ple Twelve; prototype designation",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Marida_Cruz"
+        ]
+      }
+    },
+    {
+      "jp": "ミスタ・Ｋ",
+      "token": "ミスタ・Ｋ",
+      "en": "Mister K",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "526:t_1:8/9/54 and neighbors read: Kalinin's Amalgam codename. https://srw.wiki.cre.jp/wiki/コールサイン confirms Gates-to-Kalinin succession; current context Kalinin. English Mister K proposed literal label.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Andrei Kalinin profile; https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン",
+        "position": "Amalgam executive, former Mithril officer",
+        "personality": "Reserved, experienced and methodical military commander",
+        "nickname": "Andrei Kalinin; Mister K, Potassium",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン"
+        ]
+      }
+    },
+    {
+      "jp": "ミスタ・Ｋ（カリウム）",
+      "token": "ミスタ・Ｋ（カリウム）",
+      "en": "Mister K (Potassium)",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "526:t_1:8 source includes elemental explanation. https://srw.wiki.cre.jp/wiki/コールサイン confirms exact K/Kalium label; standard English element potassium. Preserve symbol K.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Andrei Kalinin profile; https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン",
+        "position": "Amalgam executive, former Mithril officer",
+        "personality": "Reserved, experienced and methodical military commander",
+        "nickname": "Andrei Kalinin; Mister K, Potassium",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン"
+        ]
+      }
+    },
+    {
+      "jp": "オムニ・スフィア転移反応",
+      "token": "オムニ・スフィア転移反応",
+      "en": "Transfer and Response Omni-Sphere",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "544:t_2:62 and neighbors read: Tessa expands TAROS acronym. https://fullmetalpanic.fandom.com/wiki/TAROS and https://srw.wiki.cre.jp/wiki/ラムダ・ドライバ confirm expansion and English order. Do not reverse acronym."
+    },
+    {
+      "jp": "ミスタ・Ａｇ",
+      "token": "ミスタ・Ａｇ",
+      "en": "Mister Ag",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "526:t_2:58 and neighbors: Kalinin addresses Leonard. https://srw.wiki.cre.jp/wiki/コールサイン identifies Leonard with silver/Ag codename. Preserve symbol case. English Mister Ag proposed.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Leonard Testarossa profile; https://srw.wiki.cre.jp/wiki/レナード・テスタロッサ",
+        "position": "Amalgam executive; Whispered",
+        "personality": "Calculating, patronizing, convinced he can remake the world",
+        "nickname": "Leonard Testarossa; Mister Ag (Silver)",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/コールサイン"
+        ]
+      }
+    },
+    {
+      "jp": "タイムハザード",
+      "token": "タイムハザード",
+      "en": "Time Hazard",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "544:t_2:235 and neighbors read: Tessa labels altered world a temporal disaster. Direct katakana rendering; https://en.wikipedia.org/wiki/List_of_Full_Metal_Panic!_light_novels (indexed mirrors) corroborates Time Hazard as volume10chapter4 title. Exact game localization unverified."
+    },
+    {
+      "jp": "ウインチェスターＭ７０",
+      "token": "ウインチェスターＭ７０",
+      "en": "Winchester M70",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "545:t_027:21 and neighbors read: Kurz names personal rifle. https://www.winchesterguns.com/products/rifles/model-70/overview.html confirms Winchester Model 70 product name. Preserve source M70 abbreviation; no claim about real-world fictional shot performance."
+    },
+    {
+      "jp": "ＸＬ－２",
+      "en": "XL-2",
+      "kind": "equipment",
+      "source": "550:t_1:208 + neighbors read; two booster units combined. Official Bandai https://blog.livedoor.jp/tamashii_robot/29547510201919 identifies XL-2 emergency deployment booster.",
+      "token": "ＸＬ－２",
+      "status": "proposed"
+    },
+    {
+      "jp": "緊急展開ブースターＸＬ－３",
+      "en": "XL-3 Emergency Deployment Booster",
+      "kind": "equipment",
+      "source": "550:t_1:213 + neighbors: Laevatein Merida landing equipment. Official Bandai https://www.bandaispirits.co.jp/products/search/detail.php?grp_id=5312&prd_id=14456 confirms Japanese name; descriptive English translation proposed.",
+      "token": "緊急展開ブースターＸＬ－３",
+      "status": "proposed"
+    },
+    {
+      "jp": "ＸＬ－３",
+      "en": "XL-3",
+      "kind": "equipment",
+      "source": "550:t_1:231/238 same booster. Official Bandai https://www.bandaispirits.co.jp/products/search/detail.php?grp_id=5312&prd_id=14456 confirms designation.",
+      "token": "ＸＬ－３",
+      "status": "proposed"
+    },
+    {
+      "jp": "フリーダム王子",
+      "en": "Prince Freedom",
+      "kind": "pilot",
+      "source": "509:t_001:19 plus neighbors identifies Duo teasing Kira, not machine Freedom. Single corpus occurrence. https://blog.livedoor.jp/shibachi1/archives/51437289.html independently reports nickname in SRW Z; English literal proposed, not official. https://gundam.fandom.com/wiki/Kira_Yamato confirms person.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Kira_Yamato",
+        "position": "Allied mobile suit pilot; Strike Freedom pilot",
+        "personality": "Compassionate, reluctant to kill, determined to protect others",
+        "nickname": "Kira Yamato; Prince Freedom (Duo teasing him)",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Kira_Yamato"
+        ]
+      },
+      "token": "フリーダム王子",
+      "status": "proposed"
+    }
+  ]
+}

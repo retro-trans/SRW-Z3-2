@@ -1,0 +1,403 @@
+{
+  "source": "E:\\Projects\\SRW Z3\\releases\\0.6.24\\AIDDATAPACK.CPK",
+  "original": "E:\\Projects\\SRW Z3\\work\\orig\\AIDDATAPACK.CPK",
+  "member": 1,
+  "original_member_sha256": "a75633dc75a1c13fc4fa35830bb69bd671a43577858f9762f088c6253ef84358",
+  "shipped_member_sha256": "e07b9532b389c30c19414639307068df8f16099562508ac4e42c3f85acba965d",
+  "tengoku_member_sha256": "db7ef062281e0f8f5ce7b72eb7d56db8ae2948ad673d8d4b9d61931c9c64a6a6",
+  "about": "Jigoku 0.6.24 pixels of each cell, stacked at asset_y (left aligned). Tengoku source pixels equal Jigoku original in every cell.",
+  "cells": {
+    "t2.all": {
+      "texture": 2,
+      "rect": [
+        0,
+        0,
+        80,
+        40
+      ],
+      "asset_y": 0,
+      "en": "ALL",
+      "module": "attack_heading.py",
+      "source_sha256": "314f24d84d87b43fa7f261b5e57a1200698664d73f75bde7ff5b89c077237e6f",
+      "shipped_sha256": "38c08cfcd280e162f20c527ac385bca9c084f531e39ded1c38b96b668393c1c4"
+    },
+    "t2.attack_heading": {
+      "texture": 2,
+      "rect": [
+        80,
+        0,
+        160,
+        40
+      ],
+      "asset_y": 40,
+      "en": "Attack",
+      "module": "attack_heading.py",
+      "source_sha256": "3cc8912fbd4fefc980e66e7c4fc1bceb5937d751cdf1162e2b28f4275cf9e310",
+      "shipped_sha256": "0daa372dd06c04d52801ab627dd735010a1c2cb9a898aceb0d4a478cbbf2a637"
+    },
+    "t0.shield_def": {
+      "texture": 0,
+      "rect": [
+        0,
+        24,
+        128,
+        48
+      ],
+      "asset_y": 80,
+      "en": "Shield Def.",
+      "module": "trader_art.py",
+      "source_sha256": "fa131c0ae30d88c792d388af93202a41d981de33bb6f31a5abad27eed4be025f",
+      "shipped_sha256": "d058d01bf35f86602d1144f407881a1ac4f62299ff02979a58ce8e158e81b76b"
+    },
+    "t0.parry": {
+      "texture": 0,
+      "rect": [
+        0,
+        48,
+        88,
+        72
+      ],
+      "asset_y": 104,
+      "en": "Parry",
+      "module": "trader_art.py",
+      "source_sha256": "80d7b20961486a8827b27fdd17e4c65fd68054a6e0ea8e812038f6459c85d4b6",
+      "shipped_sha256": "365cc51ee07e85b9db28cd42b23e201621dde3bac60d65606ed9fcf5c333a379"
+    },
+    "t0.double_image": {
+      "texture": 0,
+      "rect": [
+        88,
+        48,
+        136,
+        72
+      ],
+      "asset_y": 128,
+      "en": "Dbl Img",
+      "module": "trader_art.py",
+      "source_sha256": "1f55f745bd517d3876ff4521f3a41089d96f7da89a530dcf0a878fc38f3b7ecb",
+      "shipped_sha256": "a4d7df43f1cf7915858ca41fca3ad26c92b136ac477e9c163187399317701cc0"
+    },
+    "t0.barrier": {
+      "texture": 0,
+      "rect": [
+        0,
+        72,
+        64,
+        96
+      ],
+      "asset_y": 152,
+      "en": "Barrier",
+      "module": "trader_art.py",
+      "source_sha256": "1e77c2dd508b23e2b2aaf1e31a967b38339968234f7e0bcd99f5c9e74d4543f4",
+      "shipped_sha256": "231a87b9a6aed7828ae35ba40fec0ff3d7bc9e6c92739a3cead57e5d3658e987"
+    },
+    "t0.intermission": {
+      "texture": 0,
+      "rect": [
+        0,
+        192,
+        296,
+        232
+      ],
+      "asset_y": 176,
+      "en": "Intermission",
+      "module": "trader_art.py",
+      "source_sha256": "e2070113810969e0968557dd1cd05eb11f066c5b35d69a3d93ba8082e05cfc75",
+      "shipped_sha256": "7bac4d7b005930b78f7aee9720db7875074e3dac3c28ec5f7d31b8f6e0843499"
+    },
+    "t2.center": {
+      "texture": 2,
+      "rect": [
+        160,
+        0,
+        296,
+        40
+      ],
+      "asset_y": 216,
+      "en": "Center",
+      "module": "trader_art.py",
+      "source_sha256": "8b367c82a3a9f68393bd3773f6857622c56e48782b490b4bfcf96dd21cd0f7f8",
+      "shipped_sha256": "f27634dc54fe025dcd1eb099a88ba051343181326ae56817dd9cd4284357131d"
+    },
+    "t2.wide": {
+      "texture": 2,
+      "rect": [
+        296,
+        0,
+        392,
+        40
+      ],
+      "asset_y": 256,
+      "en": "Wide",
+      "module": "trader_art.py",
+      "source_sha256": "a203c7c28fead2c5a8aa13b059f8099b3e5d6d37705950c56de7430ef718efec",
+      "shipped_sha256": "a532a656c5b7b4fb361cde046aea761179cda926e9a1056471c4e69ca7f61efd"
+    },
+    "t2.map": {
+      "texture": 2,
+      "rect": [
+        392,
+        0,
+        512,
+        40
+      ],
+      "asset_y": 296,
+      "en": "Map",
+      "module": "trader_art.py",
+      "source_sha256": "20ea66ffeed9ace1c19aabbd8c0e9721e904c9ed19d70097f6a20b70a2650a03",
+      "shipped_sha256": "6cf21ee27a6c163766c01bc5b182c9727a08b943df4c3aa2b4af37335f4d9963"
+    },
+    "t2.support": {
+      "texture": 2,
+      "rect": [
+        0,
+        88,
+        72,
+        128
+      ],
+      "asset_y": 336,
+      "en": "Support",
+      "module": "trader_art.py",
+      "source_sha256": "cd2b1f0d101148629efada521a056882024c63fd6b47d2a40292f340c9104647",
+      "shipped_sha256": "0a6caca23a6a7ceb6ea1ce1a5a24ed6801609567539116e9c7c2fbf12fc62f64"
+    },
+    "t2.attack": {
+      "texture": 2,
+      "rect": [
+        72,
+        88,
+        144,
+        128
+      ],
+      "asset_y": 376,
+      "en": "Attack",
+      "module": "trader_art.py",
+      "source_sha256": "c98786304b53d186cdb9e318edb645a8b48bd646bbdbb07a629a99b3f8c977e5",
+      "shipped_sha256": "f570ca54e62a2c802efc2bb088ba6a5e18cf7d60e9554adc26b1ff1e0117ccb8"
+    },
+    "t2.defend": {
+      "texture": 2,
+      "rect": [
+        144,
+        88,
+        216,
+        128
+      ],
+      "asset_y": 416,
+      "en": "Defend",
+      "module": "trader_art.py",
+      "source_sha256": "2a91554978e211cd3800e05f84f6c9ea12b1dfa3cfdebc985085493b7fb7ae8f",
+      "shipped_sha256": "25442385eb40dff4387c2424426a81c640ed978d5f7aed031cb227d257a8808b"
+    },
+    "t2.re": {
+      "texture": 2,
+      "rect": [
+        216,
+        88,
+        256,
+        128
+      ],
+      "asset_y": 456,
+      "en": "Re-",
+      "module": "trader_art.py",
+      "source_sha256": "69ac7a01613558904eb39f916fe55535d019267152c94ff54e79e15c8a2e5659",
+      "shipped_sha256": "0254358f4d0420a1dd72fb92a3127b59bbbfc04cc8afab10dd28b399865d5de9"
+    },
+    "t2.weapon": {
+      "texture": 2,
+      "rect": [
+        256,
+        88,
+        336,
+        128
+      ],
+      "asset_y": 496,
+      "en": "Wpn",
+      "module": "trader_art.py",
+      "source_sha256": "16164182cc6892c88fdd90686514f1ed4aa1b47cb07104ab7ea5067da3b01371",
+      "shipped_sha256": "3283a00e1154ceff26fec607c636a5c48de729d51c00d3d4827a4aa474b5cca8"
+    },
+    "t2.song": {
+      "texture": 2,
+      "rect": [
+        336,
+        88,
+        384,
+        128
+      ],
+      "asset_y": 536,
+      "en": "Song",
+      "module": "trader_art.py",
+      "source_sha256": "d7808349745a7fc08231479099b90848921f7004dc827149675e71420752fa42",
+      "shipped_sha256": "2a20164ff92d0549263ad1afb0d7889027538f4c2bca8e607cc41a2e24495730"
+    },
+    "t2.counter": {
+      "texture": 2,
+      "rect": [
+        320,
+        40,
+        512,
+        88
+      ],
+      "asset_y": 576,
+      "en": "Counter",
+      "module": "trader_art.py",
+      "source_sha256": "f9bf99a0dd225dc70a5e440829e38b14343493df5319d6044bccddf43d195c64",
+      "shipped_sha256": "e5470c2102f765dea3a2e08855e5ad31579c4bc9141446a4178520acffe0741f"
+    },
+    "t2.maximum": {
+      "texture": 2,
+      "rect": [
+        0,
+        40,
+        176,
+        88
+      ],
+      "asset_y": 624,
+      "en": "Maximum",
+      "module": "trader_art.py",
+      "source_sha256": "c718b4304b27861bbf05ce61fe99d60535fd1f296b27619a90e02800d6de7f04",
+      "shipped_sha256": "270dd1fe5e03234bc488a177b2d32f849874e7a69f00d27d8aee64d0e844b68a"
+    },
+    "t2.break": {
+      "texture": 2,
+      "rect": [
+        176,
+        40,
+        320,
+        88
+      ],
+      "asset_y": 672,
+      "en": "Break",
+      "module": "trader_art.py",
+      "source_sha256": "8c25866ee4edfdd517723116ea5574be9d1c0a0a6364e15c841a53fae3eee7ec",
+      "shipped_sha256": "f0c559b102ef1ff441cbb89086e6b1dfb25f292a643b51c81b31540004553d62"
+    },
+    "t2.mobi": {
+      "texture": 2,
+      "rect": [
+        56,
+        192,
+        112,
+        224
+      ],
+      "asset_y": 720,
+      "en": "Mobi",
+      "module": "trader_art.py",
+      "source_sha256": "204eef609ed8cbb8e55bcdc5e776733d6284ee16b33498889df34f85f4dcd34a",
+      "shipped_sha256": "d5f61d46a8606e77b6b41f842875ae597820c97754e81c9c75a29141b56a7aef"
+    },
+    "t2.lity": {
+      "texture": 2,
+      "rect": [
+        56,
+        320,
+        88,
+        352
+      ],
+      "asset_y": 752,
+      "en": "lity",
+      "module": "trader_art.py",
+      "source_sha256": "a1c9ee4ad3efc039c20f3ce9bc60fa50d521ad97899bc5bdc4ac66b2cbefff9a",
+      "shipped_sha256": "fa2863f6d04b533da86db5899a820183b49d65dee0059538f5408762347b898a"
+    },
+    "t2.armor": {
+      "texture": 2,
+      "rect": [
+        56,
+        256,
+        112,
+        288
+      ],
+      "asset_y": 784,
+      "en": "Armor",
+      "module": "trader_art.py",
+      "source_sha256": "03bf5e8ce2fdf8992f3fd10a554989d9bf885822008a2fb454c6bfaccd8de362",
+      "shipped_sha256": "9470f05e00e068ea159fb64234b5a9391a6bb8c05a5dbe18323291ca94b294cf"
+    },
+    "t2.accuracy": {
+      "texture": 2,
+      "rect": [
+        56,
+        224,
+        112,
+        256
+      ],
+      "asset_y": 816,
+      "en": "Sight",
+      "module": "trader_art.py",
+      "source_sha256": "2aac6d0e77f8428654b2475547b10dbdf95fcd35524b1ca4709e390cc3faec5c",
+      "shipped_sha256": "e6c99cdc7bcdf5fbf0b4d8d461dfdc15b148fb2bf18c36a51bff27ca7f943110"
+    },
+    "t2.value": {
+      "texture": 2,
+      "rect": [
+        56,
+        352,
+        88,
+        384
+      ],
+      "asset_y": 848,
+      "en": "",
+      "module": "trader_art.py",
+      "source_sha256": "c52f14b1b6ed853afc7988b6cd6e13c747e336678d6d2b0e61e5edd46ba36cae",
+      "shipped_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+    },
+    "t2.scenario_select": {
+      "texture": 2,
+      "rect": [
+        272,
+        432,
+        512,
+        472
+      ],
+      "asset_y": 880,
+      "en": "Scenario Select",
+      "module": "startup_menu_layout.py",
+      "source_sha256": "6a53f472f2827e730f755bd60891426995df36b51bb2fc4ff64f0b46b6d4ce6b",
+      "shipped_sha256": "5ae106f84803d9b7807a5977fde2e8071e870c1e2ce6682ce12cd1fe8922f04f"
+    },
+    "t2.main": {
+      "texture": 2,
+      "rect": [
+        136,
+        472,
+        208,
+        512
+      ],
+      "asset_y": 920,
+      "en": "Main",
+      "module": "startup_menu_layout.py",
+      "source_sha256": "8ea32af521b56d09826257a59307b945b4691f953283a3b9d6c7a63b07e30042",
+      "shipped_sha256": "5e0584c0cfc27dc874ffebff9541519bc06e6d00f02ab4e98604b1349a6bbf48"
+    },
+    "t2.tutorial": {
+      "texture": 2,
+      "rect": [
+        208,
+        472,
+        376,
+        512
+      ],
+      "asset_y": 960,
+      "en": "Tutorial",
+      "module": "startup_menu_layout.py",
+      "source_sha256": "99c6fdf957c65d143f2f140a21d298219b1412f092ece8d324dd72e6facf5d85",
+      "shipped_sha256": "92d5502a4b6f44e2ff5766dfdf9f5e5e689af46e09b902e2df619fccc35ed53b"
+    },
+    "t2.scenario": {
+      "texture": 2,
+      "rect": [
+        376,
+        472,
+        512,
+        512
+      ],
+      "asset_y": 1000,
+      "en": "Scenario",
+      "module": "startup_menu_layout.py",
+      "source_sha256": "1c7f146fb304f788592aded42340f0fef574afbeaf333291d0f07afc3b888e48",
+      "shipped_sha256": "d1e753bd33cdf1a5bac59979646b14df6ec787fd8c7d2ff91e7959f048bf7868"
+    }
+  }
+}

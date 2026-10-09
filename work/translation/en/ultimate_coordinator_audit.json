@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 8,
+      "file": "dlg_2024_08.json",
+      "id": "166:t_111:0",
+      "before": "$$フロンタル$$\n「$$キラ・ヤマト$$... Is this really where a Super $$コーディネイター$$ like you belongs?」",
+      "after": "$$フロンタル$$\n「$$キラ・ヤマト$$... Is this really where an $$スーパーコーディネイター$$ like you belongs?」",
+      "reason": "Whole-corpus scan found three exact source occurrences. Replace composed old Super Coordinator with newly researched Ultimate Coordinator token; adjust article. Kira identity verified from source and neighbors."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2025_01.json",
+      "id": "171:t_1:152",
+      "before": "$$ザフト兵$$\n「Your power as a Super $$コーディネイター$$ is precisely what we need to fight the $$ナチュラル$$s.」",
+      "after": "$$ザフト兵$$\n「Your power as an $$スーパーコーディネイター$$ is precisely what we need to fight the $$ナチュラル$$s.」",
+      "reason": "Whole-corpus scan found three exact source occurrences. Replace composed old Super Coordinator with newly researched Ultimate Coordinator token; adjust article. Kira identity verified from source and neighbors."
+    }
+  ]
+}

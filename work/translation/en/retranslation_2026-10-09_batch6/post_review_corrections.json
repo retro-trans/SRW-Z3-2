@@ -1,0 +1,291 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "changes": [
+    {
+      "file": "dlg_2090_01.json",
+      "id": "634:t_1:146",
+      "before": "$$グラハム$$\n「Lieutenant $$パトリック$$...」",
+      "after": "$$グラハム$$\n「Lieutenant $$パトリック#colasour$$...」",
+      "reason": "Neighboring Colasour dialogue / Kati husband context identifies Patrick Colasour, not Zala. English display spelling unchanged."
+    },
+    {
+      "file": "dlg_2091_04.json",
+      "id": "641:t_001:40",
+      "before": "$$カティ$$\n「You'll be looking after my $$パトリック$$, after all. But he should make a good lucky charm for the voyage.」",
+      "after": "$$カティ$$\n「You'll be looking after my $$パトリック#colasour$$, after all. But he should make a good lucky charm for the voyage.」",
+      "reason": "Neighboring Colasour dialogue / Kati husband context identifies Patrick Colasour, not Zala. English display spelling unchanged."
+    },
+    {
+      "file": "dlg_2091_00.json",
+      "id": "640:t_1:59",
+      "before": "$$ロラン$$\n「Queen $$ディアナ$$, Princess $$ミネバ$$, Vice Foreign Minister $$ドーリアン$$ and the others did a lot to bridge Earth and space, too.」",
+      "after": "$$ロラン$$\n「Queen $$ディアナ$$, Princess $$ミネバ$$, Vice Foreign Minister $$ドーリアン#relena$$ and the others did a lot to bridge Earth and space, too.」",
+      "reason": "Current Vice Foreign Minister with Mineva and Heero context is Relena Darlian, not her deceased adoptive father. Visible English unchanged."
+    },
+    {
+      "file": "dlg_2091_00.json",
+      "id": "640:t_1:63",
+      "before": "$$刹那$$\n「Are you sure, too, $$ヒイロ$$? It seems you haven't seen Vice Foreign Minister $$ドーリアン$$.」",
+      "after": "$$刹那$$\n「Are you sure, too, $$ヒイロ$$? It seems you haven't seen Vice Foreign Minister $$ドーリアン#relena$$.」",
+      "reason": "Current Vice Foreign Minister with Mineva and Heero context is Relena Darlian, not her deceased adoptive father. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_00.json",
+      "id": "652:t_1:33",
+      "before": "$$朔哉$$\n「Even so, you're pushing us too hard... Since we got here, it's been one $$宇宙怪獣$$ or $$インベーダー#pilot$$ attack after another. We haven't had a moment to rest.」",
+      "after": "$$朔哉$$\n「Even so, you're pushing us too hard... Since we got here, it's been one $$宇宙怪獣$$ or $$インベーダー#robot$$ attack after another. We haven't had a moment to rest.」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_01.json",
+      "id": "652:t_1:101",
+      "before": "$$ジョニー$$\n「The galactic center, where the $$宇宙怪獣$$ nest, and the dimensional rift we saw when we were transferred before, which seems to be the $$インベーダー#pilot$$'s base...」",
+      "after": "$$ジョニー$$\n「The galactic center, where the $$宇宙怪獣$$ nest, and the dimensional rift we saw when we were transferred before, which seems to be the $$インベーダー#robot$$'s base...」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_01.json",
+      "id": "652:t_1:117",
+      "before": "$$マリ$$\n「Is it the $$インベーダー#pilot$$ this time? Or $$ミケーネ$$? The army of darkness?」",
+      "after": "$$マリ$$\n「Is it the $$インベーダー#robot$$ this time? Or $$ミケーネ$$? The army of darkness?」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_01.json",
+      "id": "653:t_003:0",
+      "before": "$$竜馬$$\n「So you've come, $$インベーダー#pilot$$!」",
+      "after": "$$竜馬$$\n「So you've come, $$インベーダー#robot$$!」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_01.json",
+      "id": "653:t_003:6",
+      "before": "$$ノノ$$\n「The $$インベーダー#pilot$$... aren't really $$バアル$$, are they?」",
+      "after": "$$ノノ$$\n「The $$インベーダー#robot$$... aren't really $$バアル$$, are they?」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_01.json",
+      "id": "653:t_003:7",
+      "before": "$$バスターマシン７号$$\n「The $$インベーダー#pilot$$... aren't really $$バアル$$, are they?」",
+      "after": "$$バスターマシン７号$$\n「The $$インベーダー#robot$$... aren't really $$バアル$$, are they?」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_01.json",
+      "id": "653:t_003:8",
+      "before": "$$ダイバスター$$\n「The $$インベーダー#pilot$$... aren't really $$バアル$$, are they?」",
+      "after": "$$ダイバスター$$\n「The $$インベーダー#robot$$... aren't really $$バアル$$, are they?」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_02.json",
+      "id": "653:t_003:14",
+      "before": "$$弁慶$$\n「If $$バアル$$ are enemies we can't communicate with, then the $$インベーダー#pilot$$ don't fit that description...!」",
+      "after": "$$弁慶$$\n「If $$バアル$$ are enemies we can't communicate with, then the $$インベーダー#robot$$ don't fit that description...!」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_02.json",
+      "id": "653:t_003:18",
+      "before": "$$隼人$$\n「The $$インベーダー#pilot$$ seek evolution through $$ゲッター線$$... In that...」",
+      "after": "$$隼人$$\n「The $$インベーダー#robot$$ seek evolution through $$ゲッター線$$... In that...」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_02.json",
+      "id": "653:t_005:0",
+      "before": "$$凱$$\n「All right! $$ミケーネ$$ and the $$インベーダー#pilot$$ are all wiped out!」",
+      "after": "$$凱$$\n「All right! $$ミケーネ$$ and the $$インベーダー#robot$$ are all wiped out!」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_02.json",
+      "id": "653:t_005:1",
+      "before": "$$ノリコ$$\n「But to think the $$インベーダー#pilot$$ might not be $$バアル$$...」",
+      "after": "$$ノリコ$$\n「But to think the $$インベーダー#robot$$ might not be $$バアル$$...」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_02.json",
+      "id": "653:t_005:8",
+      "before": "$$隼人$$\n「The $$御使い$$s are probably also responsible for the $$インベーダー#pilot$$ coming to be called $$バアル$$.」",
+      "after": "$$隼人$$\n「The $$御使い$$s are probably also responsible for the $$インベーダー#robot$$ coming to be called $$バアル$$.」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2094_02.json",
+      "id": "659:t_006:1",
+      "before": "$$万丈$$\n「It seems they intend to buy time using their $$インベーダー#pilot$$ minions.」",
+      "after": "$$万丈$$\n「It seems they intend to buy time using their $$インベーダー#robot$$ minions.」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2102_00.json",
+      "id": "718:t_2:43",
+      "before": "$$竜馬$$\n「Is that why you decided the $$インベーダー#pilot$$s were $$バアル$$?」",
+      "after": "$$竜馬$$\n「Is that why you decided the $$インベーダー#robot$$s were $$バアル$$?」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_00.json",
+      "id": "628:t_1:3",
+      "before": "　\n　　\n　　　　～$$ラース・バビロン$$ Imperial Palace - $$霊子吸収システム$$～",
+      "after": "　\n　　\n　　　　～$$ラース・バビロン$$ Imperial Palace　$$霊子吸収システム$$～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_01.json",
+      "id": "628:t_1:90",
+      "before": "　\n　　\n　　　　　　　～$$ラース・バビロン$$ Imperial Palace - Forecourt～",
+      "after": "　\n　　\n　　　　　　　～$$ラース・バビロン$$ Imperial Palace　Forecourt～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_01.json",
+      "id": "628:t_1:154",
+      "before": "　\n　\n　　　　　　～$$地球連邦軍$$ - $$ブレインズ$$ Research Facility～",
+      "after": "　\n　\n　　　　　　～$$地球連邦軍$$　$$ブレインズ$$ Research Facility～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_02.json",
+      "id": "628:t_3:3",
+      "before": "　\n　\n　　　　　～$$フロンティア船団$$ - Chief Aide's Office～",
+      "after": "　\n　\n　　　　　～$$フロンティア船団$$　Chief Aide's Office～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_02.json",
+      "id": "628:t_3:27",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ - Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2090_00.json",
+      "id": "634:t_1:19",
+      "before": "　\n　\n　　　　　　　～$$プトレマイオス２改$$ - Infirmary～",
+      "after": "　\n　\n　　　　　　　～$$プトレマイオス２改$$　Infirmary～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2090_01.json",
+      "id": "634:t_1:98",
+      "before": "　\n　\n　　　　　　　～$$プトレマイオス２改$$ - Hangar～",
+      "after": "　\n　\n　　　　　　　～$$プトレマイオス２改$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2090_02.json",
+      "id": "634:t_4:3",
+      "before": "　\n　　\n　　　　　　　　～$$ＥＬＳ#keyword$$ Battle - Final Defensive Line～",
+      "after": "　\n　　\n　　　　　　　　～$$ＥＬＳ#keyword$$ Battle　Final Defensive Line～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2091_00.json",
+      "id": "640:t_1:3",
+      "before": "　\n　\n　　　　　　　　～$$新世界大陸$$ Representative's Office～",
+      "after": "　\n　\n　　　　　　　　～$$新世界大陸$$ Representative's　Office～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2092_00.json",
+      "id": "646:t_2:3",
+      "before": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2098_00.json",
+      "id": "682:t_1:3",
+      "before": "　\n　　\n　　　　　～$$ラー・カイラム$$ Briefing Room～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2099_00.json",
+      "id": "688:t_3:3",
+      "before": "　\n　　\n　　　　　　　　　~$$ソーラリアン$$ Hangar~",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2100_00.json",
+      "id": "694:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$ Salon～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Salon～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2089_00.json",
+      "id": "628:t_1:51",
+      "before": "$$ヒイロ$$\n「Understood. $$ゼロ$$ will keep fighting to protect the world you want as well.」",
+      "after": "$$ヒイロ$$\n「I understand. $$ゼロ$$ will keep fighting to protect the world you want as well.」",
+      "reason": "Agent10_1 source+8neighbors review: Heero acknowledges Nunnally; restore settled subject and verb. Zero is Lelouch."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_00.json",
+      "id": "652:t_1:48",
+      "before": "$$ニコラ$$\n「Just what I'd expect of the Rose Queen... You see the Princess clearly, without being misled by needless preconceptions.」",
+      "after": "$$ニコラ$$\n「You live up to your name, $$バラの女王$$... You see the Princess clearly, without being misled by needless preconceptions.」",
+      "reason": "Whole-corpus exact Japanese review; apply batch11 researched Queen of Roses / Fold Wave terminology, retaining plural suffix. Original source and prior snapshots preserved. Agent11_3 independently read source plus eight neighbors and proposed this full-subject-and-verb praise; parent reviewed."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2093_00.json",
+      "id": "652:t_1:18",
+      "before": "$$カミーユ$$\n「$$ランカ$$ and the others tried to communicate with the $$バジュラ$$ through the Fold Waves in their songs...」",
+      "after": "$$カミーユ$$\n「$$ランカ$$ and the others tried to communicate with the $$バジュラ$$ through the $$フォールドウェーブ$$s in their songs...」",
+      "reason": "Whole-corpus exact Japanese review; apply batch11 researched Queen of Roses / Fold Wave terminology, retaining plural suffix. Original source and prior snapshots preserved."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2094_00.json",
+      "id": "658:t_2:8",
+      "before": "$$クラン$$\n「Using $$バジュラ$$ controlled by combining $$インプラント$$ technology with Fold Waves, and an army of mass-produced $$ストライカー#robot$$s...」",
+      "after": "$$クラン$$\n「Using $$バジュラ$$ controlled by combining $$インプラント$$ technology with $$フォールドウェーブ$$s, and an army of mass-produced $$ストライカー#robot$$s...」",
+      "reason": "Whole-corpus exact Japanese review; apply batch11 researched Queen of Roses / Fold Wave terminology, retaining plural suffix. Original source and prior snapshots preserved."
+    },
+    {
+      "batch": 6,
+      "file": "dlg_2100_03.json",
+      "id": "701:t_014:3",
+      "before": "$$アドヴェント#pilot$$\n「$$アウストラリス$$... $$アドナキエル$$ the General...」",
+      "after": "$$アドヴェント#pilot$$\n「$$アウストラリス$$... $$アドナキエル・ザ・ジェネラル$$...」",
+      "reason": "Both exact corpus occurrences reviewed with source and neighbors. Normalize full researched Adnachiel the General baptismal name; no English meaning change."
+    }
+  ],
+  "source_review": "Full fresh and active corpus scan; contexts reviewed for all three corrected fresh rows. Active/prior files unchanged."
+}

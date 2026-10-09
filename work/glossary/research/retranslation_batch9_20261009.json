@@ -1,0 +1,366 @@
+{
+  "schema": 1,
+  "group": "Sousuke rescue and Left-Behind Sea",
+  "names": [
+    {
+      "jp": "チーム・クロスボウ",
+      "token": "チーム・クロスボウ",
+      "en": "Team Crossbow",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "311:t_1:19;329:t_1:3/13 and neighbors read: Nami's AS arena team. https://fullmetal-panic.jp/character/ confirms team ownership; https://www.goodsmile.info/en/product/7263/MODEROID%2BSavage%2BCrossbow.html confirms Crossbow spelling. Compositional team name, licensed full form unverified."
+    },
+    {
+      "jp": "Ｒｋ－９１",
+      "token": "Ｒｋ－９１",
+      "en": "Rk-91",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "311:t_1:57;329:t_1:13 and neighbors read. Early Savage model, distinct from Rk-92. https://fullmetalpanic.fandom.com/wiki/Rk-91_Savage ; https://srw.wiki.cre.jp/wiki/サベージ_(クロスボウ)"
+    },
+    {
+      "jp": "Ｒｋ－９２",
+      "token": "Ｒｋ－９２",
+      "en": "Rk-92",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "311:t_1:59 and neighbors read. Model-only form derived from existing full Rk-92 Savage glossary entry."
+    },
+    {
+      "jp": "プリベンター・ウインド",
+      "token": "プリベンター・ウインド",
+      "en": "Preventer Wind",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:29 and neighbors read: Zechs's codename. https://srw.wiki.cre.jp/wiki/ゼクス・マーキス and https://gundam.fandom.com/wiki/Preventer confirm alias.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス",
+        "position": "Preventer agent; former OZ ace",
+        "personality": "resolute, proud, troubled by warfare",
+        "nickname": "Zechs Merquise / Milliardo Peacecraft",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス"
+        ]
+      }
+    },
+    {
+      "jp": "ウインド",
+      "token": "ウインド",
+      "en": "Wind",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:32 and neighbors read: Zechs short codename; same evidence as Preventer Wind.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス",
+        "position": "Preventer agent; former OZ ace",
+        "personality": "resolute, proud, troubled by warfare",
+        "nickname": "Zechs Merquise / Milliardo Peacecraft",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス"
+        ]
+      }
+    },
+    {
+      "jp": "プリベンター・サンド",
+      "token": "プリベンター・サンド",
+      "en": "Preventer Sand",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:31 and neighbors read: Lemon, NOT Quatre. https://srw.wiki.cre.jp/wiki/ミシェル・レモン explicitly identifies this Tengoku codename. English reconstructs Japanese; no licensed English verified.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ミシェル・レモン",
+        "position": "Preventer operative investigating Amalgam; originally DGSE agent",
+        "personality": "intelligent, sociable and skilled at information work",
+        "nickname": "Michel Lemon; surname is an alias",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ミシェル・レモン"
+        ]
+      }
+    },
+    {
+      "jp": "ファイヤー",
+      "token": "ファイヤー",
+      "en": "Fire",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:32 and neighbors read: Noin's codename. https://srw.wiki.cre.jp/wiki/ルクレツィア・ノイン and https://gundam.fandom.com/wiki/Preventer confirm alias.",
+      "profile": {
+        "gender": "female",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ルクレツィア・ノイン",
+        "position": "Preventer agent; former OZ instructor",
+        "personality": "loyal, capable, protective",
+        "nickname": "Lucrezia Noin",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ルクレツィア・ノイン"
+        ]
+      }
+    },
+    {
+      "jp": "ＡＲＸー７",
+      "token": "ＡＲＸー７",
+      "en": "ARX-7",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "329:t_3:48 and neighbors read. Model-only Arbalest reference; English derived from existing full ARX-7 Arbalest glossary. Preserve unusual source long-vowel mark in token."
+    },
+    {
+      "jp": "シャドウ",
+      "token": "シャドウ",
+      "en": "Shadow",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "329:t_10:5 and neighbors read. Short model name; derived from existing Zy-98 Shadow glossary."
+    },
+    {
+      "jp": "アンドレイ・カリーニン",
+      "token": "アンドレイ・カリーニン",
+      "en": "Andrei Kalinin",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:118 and neighbors read: patronymic absent. Existing glossary and https://en.wikipedia.org/wiki/List_of_Full_Metal_Panic!_characters use Andrei; https://fullmetal-panic.jp/character/ uses Andrey variant. Retain established wiki-supported Andrei, no expansion.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://fullmetal-panic.jp/character/",
+        "position": "Major; former Mithril operations commander, now with Leonard",
+        "personality": "disciplined, loyal to his mission and coldly decisive",
+        "nickname": "Kalinin",
+        "sources": [
+          "https://fullmetal-panic.jp/character/"
+        ]
+      }
+    },
+    {
+      "jp": "アル二世",
+      "token": "アル二世",
+      "en": "Al II",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "330:t_015:0 and neighbors read: Sousuke's nickname for the Savage Crossbow, not the AI itself. https://jcrcomicarts.wordpress.com/2018/02/28/full-metal-panic-fight-who-dares-win-mechs/ corroborates nickname. Licensed form unverified."
+    },
+    {
+      "jp": "触れ得ざる者",
+      "token": "触れ得ざる者",
+      "en": "Untouchable",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "311:t_1:7 and neighbors read: Chirico epithet. https://srw.wiki.cre.jp/wiki/キリコ・キュービィー confirms exact Japanese epithet. Literal English proposed; licensed rendering unverified. Article outside token.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/キリコ・キュービィー",
+        "position": "Former Red Shoulder soldier and AT pilot",
+        "personality": "reserved, independent, rejects control by others",
+        "nickname": "Chirico Cuvie",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/キリコ・キュービィー"
+        ]
+      }
+    },
+    {
+      "jp": "マッスルパッケージ",
+      "token": "マッスルパッケージ",
+      "en": "Muscle Package",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "311:t_1:62 and neighbors read: artificial muscle component. https://fullmetalpanic.fandom.com/wiki/Arm_Slave corroborates English technical label; lowercase modifier for running prose."
+    },
+    {
+      "jp": "デ・ダナン",
+      "token": "デ・ダナン",
+      "en": "de Danaan",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "317:t_1:46 source request and neighbors reviewed by translator. Partial vessel name derived from established Tuatha de Danaan glossary; do not expand source."
+    },
+    {
+      "jp": "秩序の盾",
+      "token": "秩序の盾",
+      "en": "Shield of the Order",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "317:t_1:133 and neighbors read: Martial defenders. https://akurasu.net/wiki/Armored_Trooper_VOTOMS_(PS2)/AT_Data supplies this wording; https://srw.wiki.cre.jp/wiki/オーデルバックラー confirms guardian rank. Wiki spelling; licensed form unverified."
+    },
+    {
+      "jp": "ショット・キャノン",
+      "token": "ショット・キャノン",
+      "en": "Shot Cannon",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "318:t_000:10 and neighbors read. Weapon type, not extra Boxer model designation. https://en.wikipedia.org/wiki/Full_Metal_Panic! lists English Shot Cannon in game weapon names. Lowercase modifier in speech."
+    },
+    {
+      "jp": "オーガ",
+      "token": "オーガ",
+      "en": "Ogre",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "318:t_001:0 and 318:t_003:3 with neighbors read: short name of rival AS arena team. Existing Ogre Family glossary and https://www.siliconera.com/full-metal-panic-fight-dares-wins-shows-off-impressive-mechs-equippable-weaponry/ corroborate Ogre team name; do not expand source."
+    },
+    {
+      "jp": "Ｍ９",
+      "token": "Ｍ９",
+      "en": "M9",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "330:t_102:0 and neighbors read. Model-only form from existing official M9 Gernsback glossary; do not expand to full machine name."
+    },
+    {
+      "jp": "異能者",
+      "token": "異能者",
+      "en": "Overman",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "342:t_111:0 and neighbors read. Shako recalls the shadow of the superior being he pursued; do not collapse into Abnormal Survivor (異能生存体). Official https://www.votoms.net/keywords/ identifies ancient Quent beings becoming Wiseman; https://timeldred.com/inoueinterview/ and licensed Votoms RPG English https://anyflip.com/xxnsk/dtqp/basic/101-150 use Overman. Distinct from King Gainer machine class. Identity/singular inference retained in translator report."
+    },
+    {
+      "jp": "異能者",
+      "token": "異能者#plural",
+      "en": "Overmen",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "Plural of VOTOMS Overman; 306:t_000:6 and753:t_202:3 refer to the ancient Quent superhumans expelled. Official https://www.votoms.net/keywords/ confirms group identity; https://timeldred.com/inoueinterview/ uses overmen. English irregular plural requires separate token."
+    },
+    {
+      "jp": "ＺＯＮＥブレイカー",
+      "token": "ＺＯＮＥブレイカー",
+      "en": "ZONE Breaker",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "348:t_000:5 and neighbors read. Exact device developed to disable ZONE; https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story5 and https://srw.wiki.cre.jp/wiki/ZONE corroborate name and function; licensed localization unverified."
+    },
+    {
+      "jp": "ブリュッセル",
+      "token": "ブリュッセル",
+      "en": "Brussels",
+      "kind": "location",
+      "status": "proposed",
+      "source": "348:t_001:9 and neighbors read: Mariemaia remnant recalls Endless Waltz battle. https://gundam.fandom.com/wiki/After_Colony_locations confirms city and battle; https://gundam.fandom.com/wiki/Relena_Darlian corroborates Belgium. Spelling established; do not carry erroneous Germany location from separate wiki battle page."
+    },
+    {
+      "jp": "地球外変異性金属体",
+      "token": "地球外変異性金属体",
+      "en": "Extraterrestrial Living-metal Shape-shifter",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "347:t_2:77 and neighbors read: full expansion of ELS acronym. https://gundam.fandom.com/wiki/Extraterrestrial_Living-metal_Shape-shifter and https://gundam.fandom.com/wiki/Earth_Sphere_Federation corroborate singular expansion and hyphenation. Full form must not be replaced by ELS here; licensed spelling not independently verified."
+    },
+    {
+      "jp": "自発進化推進派",
+      "token": "自発進化推進派",
+      "en": "Voluntary Evolution Advocates",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "401:t_1:51 and neighbors read: formal descriptive name of Evolvers. https://srw.wiki.cre.jp/wiki/翠星のガルガンティア confirms exact Japanese identity. Proposed literal English; established licensed full English not verified."
+    },
+    {
+      "jp": "アンタレス１",
+      "token": "アンタレス１",
+      "en": "Antares 1",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "408:t_007:0 and neighbors read: Brera's call sign under Galaxy control. https://macross.anime.net/wiki/Brera_Sterne confirms Antares unit and identity; numeral follows exact game source.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Brera profile and Macross Compendium identifies Ranka's older brother.",
+        "position": "Galaxy Fleet cyborg pilot; Antares unit",
+        "personality": "Reserved, mission-focused, protective of Ranka",
+        "nickname": "Brera Sterne",
+        "sources": [
+          "https://macross.anime.net/wiki/Brera_Sterne"
+        ]
+      }
+    },
+    {
+      "jp": "スカル４",
+      "token": "スカル４",
+      "en": "Skull 4",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "408:t_101:1 and neighbors read: Brera targets Alto. https://macross.anime.net/wiki/Alto_Saotome explicitly gives Code name Skull 4. Licensed localization not independently verified.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://macross.anime.net/wiki/Alto_Saotome",
+        "position": "S.M.S. Skull Team pilot",
+        "personality": "Defiant, standoffish, yearns for open skies",
+        "nickname": "Alto Saotome; Princess",
+        "sources": [
+          "https://macross.anime.net/wiki/Alto_Saotome"
+        ]
+      }
+    },
+    {
+      "jp": "アームレイカー",
+      "token": "アームレイカー",
+      "en": "Arm Raker",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "419:t_1:178 and neighbors read: Amuro's preferred cockpit control play. https://gundam.wiki.cre.jp/wiki/アームレイカー explicitly supplies Arm raker; https://gundam.fandom.com/wiki/Gundam_Wiki:Technology corroborates. Lowercase token modifier and plural outside for running dialogue; licensed spelling not independently verified."
+    },
+    {
+      "jp": "翠星蟲システム",
+      "token": "翠星蟲システム",
+      "en": "Lightbug System",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "413:t_2:30 and neighbors read: named nanomachine dispersal system. https://srw.wiki.cre.jp/wiki/ガルガンティア船団 confirms exact Japanese. Compose established Lightbugs term in singular attributive form, as existing Lightbug Project; licensed English unverified."
+    },
+    {
+      "jp": "船団五賢人",
+      "token": "船団五賢人",
+      "en": "Five Sages of the Fleet",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "413:t_2:22 and neighbors read: Oldham's council guards the fleet's lost weapon. https://www.production-ig.co.jp/works/gargantia/story/04.html confirms five sages; https://suisei-no-gargantia.fandom.com/wiki/Gargantia confirms Sages guarding system. Proposed full compositional English."
+    },
+    {
+      "jp": "ギャラクシー",
+      "token": "ギャラクシー",
+      "en": "Galaxy",
+      "kind": "location",
+      "status": "proposed",
+      "source": "413:t_3:19 and neighbors read: short fleet name contrasted with Frontier. Derived from established full Galaxy fleet glossary, https://macross.fandom.com/wiki/Grace_O'Connor; do not expand source or confuse ordinary galaxy."
+    },
+    {
+      "jp": "フォールドジャミング",
+      "token": "フォールドジャミング",
+      "en": "Fold Jamming",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "413:t_3:13 and neighbors read: Vajra consciousness disruption paired with implant shells. https://www.macross2.net/m3/macrosspedia/macrosspedia-index.html describes Fold Wave Jamming and Implant Shells. Short form matches exact source without extra Wave."
+    },
+    {
+      "jp": "ブレイブ・バイブレーション",
+      "token": "ブレイブ・バイブレーション",
+      "en": "Brave Vibration",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "811:t_10:5 and815:t_10:5 with neighbors read: AG jokes that his named function switches ON for counteroffensive. Literal romanization from source; no reliable external game-specific English found, not identified as the unrelated song."
+    },
+    {
+      "jp": "波乗りロブスター",
+      "token": "波乗りロブスター",
+      "en": "Surfing Lobster",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "414:t_101:1 and neighbors read: Lukkage's upgraded personal craft. https://it.wikipedia.org/wiki/Suisei_no_Gargantia and episode11 transcript https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e11&tv-show=gargantia-on-the-verdurous-planet-2013 corroborate name; licensed wording not independently verified."
+    },
+    {
+      "jp": "マキシマイズ",
+      "token": "マキシマイズ",
+      "en": "Maximize",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "414:t_021:7 and414:t_026:3: Chamber's boost command, separate from neural fusion. Japanese term corroborated https://kenchi555.hatenablog.com/entry/20150412/1428747589 . Direct English reconstruction; licensed English unverified."
+    },
+    {
+      "jp": "ニューロプラスパワード",
+      "token": "ニューロプラスパワード",
+      "en": "Neuroplus Powered",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "414:t_021:7 and neighbors read: neural machine fusion, life-threatening without support. https://suisei-no-gargantia.fandom.com/wiki/Machine_Caliber confirms Neuroplus spelling/function; https://isekai.fandom.com/wiki/Gargantia gives neuroplus-powered. Full capitalization provisional; licensed English unverified."
+    }
+  ]
+}

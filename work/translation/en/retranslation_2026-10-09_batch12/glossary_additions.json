@@ -1,0 +1,57 @@
+{
+  "research": "work\\glossary\\research\\retranslation_batch12_20261009.json",
+  "before_sha256": "a05c2f7fbc88a55a4f0582b9d6accd091124a653f916408e214b6d3a79f11cb8",
+  "after_sha256": "bf3acbb137d28b9d44afcbc6afdb4036570b8187a40a549fd29eb03ae0d27c76",
+  "tokens": [
+    "ロボビタンＢ",
+    "ドラグーン",
+    "シモン#uav",
+    "ヨハネ",
+    "ペテロ",
+    "ベクター",
+    "マーズ#aquarion",
+    "ルナ#aquarion",
+    "欲求７７７",
+    "空間補填",
+    "単分子カッター",
+    "ＴＤＤ－１",
+    "愛知県",
+    "ビューナス",
+    "うますぎＷＡＶＥ",
+    "モリソバ"
+  ],
+  "reviewed_updates": [
+    {
+      "token": "アンネ",
+      "before": {
+        "jp": "アンネ",
+        "kind": "pilot",
+        "en": "Anne",
+        "status": "official",
+        "source": "jigoku_glossary_unbound",
+        "targets": [],
+        "token": "アンネ"
+      },
+      "after": {
+        "jp": "アンネ",
+        "kind": "pilot",
+        "en": "Anne",
+        "status": "official",
+        "source": "jigoku_glossary_unbound",
+        "targets": [],
+        "token": "アンネ",
+        "profile": {
+          "gender": "female",
+          "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Anne_Littner explicitly identifies her as daughter and female.",
+          "position": "Young daughter of Dayakka and Kiyoh",
+          "personality": "Not sufficiently characterized in the source reviewed; no personality inference.",
+          "nickname": "Anne Littner",
+          "sources": [
+            "https://gurrenlagann.fandom.com/wiki/Anne_Littner"
+          ]
+        }
+      },
+      "reason": "Source853:t_128:6-8 reviewed; researched missing gender/profile metadata, name and targets unchanged."
+    }
+  ]
+}

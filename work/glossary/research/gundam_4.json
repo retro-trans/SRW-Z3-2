@@ -1,0 +1,1005 @@
+{
+ "schema": 1,
+ "group": "gundam_4",
+ "names": [
+  {
+   "jp": "アナハイム",
+   "kind": "keyword",
+   "en": "Anaheim",
+   "status": "official",
+   "source": "https://mechabay.com/anaheim-electronics : 'Anaheim Electronics' (company), 'Anaheim' as short form; https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/05.html 'Anaheim Electronics'",
+   "note": "Short form of Anaheim Electronics; pilot DSCR 208 says relatives of Anaheim's chairman"
+  },
+  {
+   "jp": "アナハイム・エレクトロニクス工業専門学校",
+   "kind": "keyword",
+   "en": "Anaheim Electronics Industrial College",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html : 'Anaheim Electronics Industrial College' (Banagher, Takuya, Micott entries)",
+   "note": "Official site is inconsistent: 04.html (Cardeas) says 'Anaheim Electronics Technical School'; Wikipedia says 'Anaheim Industry Technical School'; Jigoku shipped 'technical college'. Chose the wording the official site uses three times; see report.uncertain"
+  },
+  {
+   "jp": "アーロン・テルジェフ",
+   "kind": "pilot",
+   "en": "Aaron Terzieff",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/05.html : 'AARON TERZIEFF'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'Aaron Terzieff'",
+   "note": "Anaheim Electronics engineer, RX-0 armor materials division",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Official Unicorn site lists 'Male 32'",
+    "position": "Anaheim Electronics engineer (armor materials division of the RX-0 development project); refit the Full Armor Unicorn with Takuya's idea",
+    "personality": "engineer; no personality given in the sources",
+    "nickname": "",
+    "sources": [
+     "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/05.html",
+     "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters"
+    ]
+   }
+  },
+  {
+   "jp": "インダストリアル７",
+   "kind": "keyword",
+   "en": "Industrial 7",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html : 'space colony Industrial 7'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+   "note": "Full-width 7 in the Japanese; write a normal digit in English"
+  },
+  {
+   "jp": "エコーズ",
+   "kind": "keyword",
+   "en": "ECOAS",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html : 'ECOAS 920 special forces team'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Jegan (ECOAS Type)' = ジェガン (エコーズ仕様)",
+   "note": "Official English spelling is ECOAS (the brief's 'Echoes' is a reading of the katakana; Jigoku wrote 'Ecoes' once). Game text 'エコーズ９２０部隊' becomes 'ECOAS 920 unit'"
+  },
+  {
+   "jp": "オーガスタ研究所",
+   "kind": "keyword",
+   "en": "Augusta Laboratory",
+   "status": "official",
+   "source": "https://mechabay.com/martha-vist-carbine : 'Augusta Newtype Laboratory in North America'; https://mechabay.com/rx-0-unicorn-gundam-02-banshee : 'Augusta Research Lab' / 'Augusta Lab'",
+   "note": "English wiki wording varies (Augusta Newtype Laboratory / Research Lab / Lab); 'Augusta Laboratory' matches Jigoku shipped text and the Japanese 研究所. No official-site page found"
+  },
+  {
+   "jp": "カイ",
+   "kind": "pilot",
+   "en": "Kai",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Master_Characters_List : カイ・シデン = Kai Shiden; https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+   "note": "Short form of Kai Shiden (pilot 214)"
+  },
+  {
+   "jp": "カイ・シデン",
+   "kind": "pilot",
+   "en": "Kai Shiden",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Master_Characters_List : 'Kai Shiden'; https://akurasu.net/wiki/Mobile_Suit_Gundam (Kai Shiden)",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "akurasu Mobile Suit Gundam page character list and the original series; DSCR has no pronoun",
+    "position": "freelance journalist; ex-White Base MS pilot; asked by Bright to negotiate with Zinnerman",
+    "personality": "anti-Zeon but trusted by Bright; journalist",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Master_Characters_List",
+     "https://akurasu.net/wiki/Mobile_Suit_Gundam",
+     "library pilot 214 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "カーバイン家",
+   "kind": "keyword",
+   "en": "Carbine family",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn / glossary: Martha Vist Carbine (confirmed); https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'the Carbine family, which founded Anaheim Electronics'"
+  },
+  {
+   "jp": "ガルダ",
+   "kind": "robot",
+   "en": "Garuda",
+   "status": "official",
+   "source": "https://mechabay.com/laplace-incident and alberto-vist : 'the Garuda'; https://gundam.fandom.com/wiki/Tri-Stars_Team (search snippet): 'transported to the Garuda'",
+   "note": "The brief proposed 'Galuda'; the standard romanization is 'Garuda' (Garuda-class transport)"
+  },
+  {
+   "jp": "クシャトリヤ・ベッセルング",
+   "kind": "robot",
+   "en": "Kshatriya Besserung",
+   "status": "official",
+   "source": "https://mechabay.com/nz-666-kshatriya-besserung : 'NZ-666 Kshatriya Besserung'; https://mechabay.com/nz-666-kshatriya-repaired",
+   "note": "The brief proposed 'Bessellung'; the German word Besserung is the official English spelling"
+  },
+  {
+   "jp": "クシャトリヤ・リペアード",
+   "kind": "robot",
+   "en": "Kshatriya Repaired",
+   "status": "official",
+   "source": "https://mechabay.com/nz-666-kshatriya-repaired : 'NZ-666 Kshatriya Repaired'"
+  },
+  {
+   "jp": "グリプス２",
+   "kind": "robot",
+   "en": "Gryps 2",
+   "status": "official",
+   "source": "https://mechabay.com/laplaces-box : 'Gryps 2 colony laser'; https://mechabay.com/industrial-7",
+   "note": "Colony laser Gryps 2; full-width 2 becomes a normal digit"
+  },
+  {
+   "jp": "グローブ",
+   "kind": "keyword",
+   "en": "Globe",
+   "status": "official",
+   "source": "https://mechabay.com/suberoa-zinnerman : 'Globe City' (Side 3, Zinnerman's home city, massacre by Federation occupation forces)",
+   "note": "City name; Jigoku shipped 'the city of Globe'. Only found on an English fan wiki, no official-site confirmation; see report.uncertain"
+  },
+  {
+   "jp": "サイアム",
+   "kind": "pilot",
+   "en": "Syam",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html : 'SYAM VIST'; https://akurasu.net/wiki/Master_Characters_List : 'Syam Vist'",
+   "note": "Short form of Syam Vist (pilot 211). kw_045 proposed 'Cyam'; the official spelling is Syam"
+  },
+  {
+   "jp": "サイアム・ビスト",
+   "kind": "pilot",
+   "en": "Syam Vist",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html : 'SYAM VIST' (founder of the Vist Foundation); https://akurasu.net/wiki/Master_Characters_List : 'Syam Vist' (Game: SRW Z3.2)",
+   "note": "Correction of kw_045 'Cyam Vist'",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Official site 'Male'; DSCR 211: カーディアス・ビストの祖父 (Cardeas's grandfather)",
+    "position": "founder and patriarch of the Vist Foundation; keeper of Laplace's Box; alive since UC 0001",
+    "personality": "not described in DSCR; mysterious elder who knows the box's location",
+    "nickname": "",
+    "sources": [
+     "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html",
+     "https://akurasu.net/wiki/Master_Characters_List",
+     "library pilot 211 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "サイコシャード",
+   "kind": "keyword",
+   "en": "Psycho-Shard",
+   "status": "official",
+   "source": "https://mechabay.com/nz-999-neo-zeong : 'Psycho-Shard Generator'",
+   "note": "Neo Zeong equipment (crystal psycho-field emitters); capitalized like Psycho-Frame"
+  },
+  {
+   "jp": "サイコジャマー",
+   "kind": "keyword",
+   "en": "Psycho Jammer",
+   "status": "official",
+   "source": "https://mechabay.com/yams-132-rozen-zulu : 'psycho jammer' devices stored in the back containers",
+   "note": "Rozen Zulu equipment; sources found write it unhyphenated (unlike Psycho-Shard); model-kit spelling not checked"
+  },
+  {
+   "jp": "シャイアン基地",
+   "kind": "keyword",
+   "en": "Cheyenne Base",
+   "status": "official",
+   "source": "https://mechabay.com/laplaces-box : 'Gryps 2 control centre in Cheyenne'; https://mechabay.com/rgm-96x-jesta : 'Cheyenne Base'"
+  },
+  {
+   "jp": "シルヴァ・バレト",
+   "kind": "robot",
+   "en": "Silver Bullet",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Silver Bullet (NPC)' in Unit Appearances; https://akurasu.net/wiki/Mobile_Suit_Gundam_Narrative : 'Silver Bullet Suppressor'",
+   "note": "Akurasu spelling matches the brief's proposal"
+  },
+  {
+   "jp": "ジェガン（エコーズ仕様機）",
+   "kind": "robot",
+   "en": "Jegan (ECOAS Type)",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Jegan (ECOAS Type)' = ジェガン (エコーズ仕様); https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+   "note": "The game entry has an extra 機 suffix; same unit"
+  },
+  {
+   "jp": "ジオン",
+   "kind": "keyword",
+   "en": "Zeon",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn (Neo Zeon & Zeon Remnants); https://akurasu.net/wiki/Mobile_Suit_Gundam",
+   "note": "Used both as 'the name of Zeon' and 'the Zeon military'; English 'Zeon' works for both. ジオン公国 and ネオ・ジオン belong to gundam_5"
+  },
+  {
+   "jp": "ゼネラル・レビル",
+   "kind": "robot",
+   "en": "General Revil",
+   "status": "official",
+   "source": "https://mechabay.com/general-revil : 'General Revil' (Federation flagship named after the general); https://akurasu.net/wiki/Mobile_Suit_Gundam : 'General Revil'",
+   "note": "Ship named after the person"
+  },
+  {
+   "jp": "ダリル",
+   "kind": "pilot",
+   "en": "Daryl",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Daryl McGuinness'; https://akurasu.net/wiki/Master_Characters_List : 'Daryl Mcguinness'",
+   "note": "Brief proposed 'Darryl'; akurasu, Wikipedia and the Gundam Wiki all use 'Daryl'"
+  },
+  {
+   "jp": "ダリル・マッギネス",
+   "kind": "pilot",
+   "en": "Daryl McGuinness",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Daryl McGuinness'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'Daryl McGuinness'; https://akurasu.net/wiki/Master_Characters_List : 'Daryl Mcguinness'",
+   "note": "Capital G as on the Unicorn page and Wikipedia (Master list writes 'Mcguinness')",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia list: 'kind man'; DSCR 212 has no pronoun but describes a man (ラテン系で浅黒い顔に縮れた髪、赤いバンダナ)",
+    "position": "Tri-Stars pilot of Londo Bell, lieutenant (中尉); flies a Jesta",
+    "personality": "easygoing and breezy but sharp, never complacent",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+     "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+     "https://akurasu.net/wiki/Master_Characters_List",
+     "library pilot 212 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "トライスター",
+   "kind": "keyword",
+   "en": "Tri-Stars",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'Tri-Stars'; https://gundam.fandom.com/wiki/Tri-Stars_Team : 'Tri-Stars Team'; https://mechabay.com/rgm-96x-jesta : 'Tri-Stars'",
+   "note": "Plural is the official form (the Black Tri-Stars are the Zeon original). Read as a team name, so 'the Tri-Stars'"
+  },
+  {
+   "jp": "トリントン基地",
+   "kind": "keyword",
+   "en": "Torrington Base",
+   "status": "official",
+   "source": "https://mechabay.com/torrington-base : 'Torrington Base' (Australia, UC 0096)"
+  },
+  {
+   "jp": "ナイジェル",
+   "kind": "pilot",
+   "en": "Nigel",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Nigel Garrett==='; https://akurasu.net/wiki/Master_Characters_List",
+   "note": "Short form of Nigel Garrett (pilot 191)"
+  },
+  {
+   "jp": "ナイジェル・ギャレット",
+   "kind": "pilot",
+   "en": "Nigel Garrett",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Nigel Garrett'; https://akurasu.net/wiki/Master_Characters_List : 'Nigel Garrett' (Game: SRW Z3.2)",
+   "note": "The akurasu Unicorn page writes 'Nigel Garret' with one t; the Z3.2 pilot database and Master list use two, and the Z3.2 pilot database wins",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia list describes him with male pronouns ('his superiors'); DSCR 191 has no pronoun",
+    "position": "Tri-Stars leader, Londo Bell combat platoon, captain (大尉); default pilot of the Jesta in Z3.2",
+    "personality": "skilled and confident, speaks his mind even to superior officers; SRW personality 'Strong'",
+    "nickname": "",
+    "sources": [
+     "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+     "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+     "https://akurasu.net/wiki/Master_Characters_List",
+     "library pilot 191 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ハンマ・ハンマ",
+   "kind": "robot",
+   "en": "Hamma Hamma",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_ZZ : 'Hamma Hamma'",
+   "note": "Akurasu (higher precedence) writes 'Hamma Hamma' without a hyphen; the Gundam Wiki/mechabay write 'Hamma-Hamma'. The brief proposed the hyphen"
+  },
+  {
+   "jp": "バンシィ",
+   "kind": "robot",
+   "en": "Banshee",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Banshee (Unicorn Mode)' = バンシィ (ユニコーンモード); https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Unicorn Gundam 02 Banshee'",
+   "note": "Library entries 98 and 99 (Unicorn/Destroy Mode) share this name"
+  },
+  {
+   "jp": "バンシィ・ノルン",
+   "kind": "robot",
+   "en": "Banshee Norn",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Banshee Norn (Unicorn Mode)'; https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Unicorn Gundam 02 Banshee Norn'",
+   "note": "Library entries 100 and 101 share this name"
+  },
+  {
+   "jp": "ビスト財団",
+   "kind": "keyword",
+   "en": "Vist Foundation",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : Vist Foundation; https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html : 'THE VIST FOUNDATION'"
+  },
+  {
+   "jp": "フルアーマー・ユニコーンガンダム",
+   "kind": "robot",
+   "en": "Full Armor Unicorn Gundam",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Full Armor Unicorn Gundam (Unicorn Mode)'; https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn"
+  },
+  {
+   "jp": "プル",
+   "kind": "pilot",
+   "en": "Ple",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Master_Characters_List : エルピー・プル = 'Elpeo Ple', プルツー = 'Ple Two'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'Elpeo Ple'",
+   "note": "Here it is the clone series ('the Ple series'), from the original Elpeo Ple"
+  },
+  {
+   "jp": "プルトゥエルブ",
+   "kind": "pilot",
+   "en": "Ple Twelve",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : Marida is 'codenamed \"Ple 12\"'; https://mechabay.com/marida-cruz : 'Ple Twelve'",
+   "note": "Akurasu's Unicorn page writes 'Puru 12' (Marida Cruz/Puru 12), but the akurasu Master list uses 'Ple' for プル and 'Ple Two' for プルツー, so 'Ple Twelve' keeps the family consistent. rt_086 proposed 'Pull Twelve', not used by any source"
+  },
+  {
+   "jp": "プル・トゥエルブ",
+   "kind": "pilot",
+   "en": "Ple Twelve",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'Ple 12'; https://mechabay.com/marida-cruz : 'Ple Twelve'",
+   "note": "Middle-dot variant of プルトゥエルブ; same person, same English"
+  },
+  {
+   "jp": "ホワイトベース",
+   "kind": "robot",
+   "en": "White Base",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/White_Base : 'White Base'; https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+   "note": "Also appears as 'the White Base team' in keyword 62; only the ship's name here"
+  },
+  {
+   "jp": "マーセナス家",
+   "kind": "keyword",
+   "en": "Marcenas family",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html and 06.html : 'Marcenas family'; glossary Riddhe/Ronan Marcenas (official)"
+  },
+  {
+   "jp": "メガラニカ",
+   "kind": "keyword",
+   "en": "Magallanica",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/05.html : 'Magallanica' ('escaped from Magallanica'); https://mechabay.com/laplaces-box : 'Magallanica colony builder'",
+   "note": "The brief proposed 'Megalanica'; the official site spells it 'Magallanica'. It is the colony under construction ('the Snail') at Industrial 7"
+  },
+  {
+   "jp": "ユニコーン",
+   "kind": "robot",
+   "en": "Unicorn",
+   "status": "official",
+   "source": "glossary ユニコーンガンダム = Unicorn Gundam (official); https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+   "note": "Short form of the Unicorn Gundam"
+  },
+  {
+   "jp": "ラプラス",
+   "kind": "keyword",
+   "en": "Laplace",
+   "status": "official",
+   "source": "https://mechabay.com/laplace-incident : Laplace (colony/station destroyed in UC 0001); https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/06.html : 'Laplace Incident'",
+   "note": "The destroyed colony 'Laplace' whose wreckage is fought over"
+  },
+  {
+   "jp": "ラプラスの箱",
+   "kind": "keyword",
+   "en": "Laplace's Box",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html : 'Laplace's Box'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters : 'Laplace's Box'",
+   "note": "Official capitalization: Laplace's Box (proper name)"
+  },
+  {
+   "jp": "ラプラス事件",
+   "kind": "keyword",
+   "en": "Laplace Incident",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/06.html : 'the Laplace Incident'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+   "note": "Terror attack of UC 0001 in this entry"
+  },
+  {
+   "jp": "リカルド・マーセナス",
+   "kind": "pilot",
+   "en": "Ricardo Marcenas",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/06.html : 'RICARDO MARCENAS'; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+   "note": "Mentioned as ancestor; the Earth Federation's first prime minister, killed in the Laplace Incident",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Official site 'Male 62'; DSCR 210: 子孫 of him is Ronan",
+    "position": "first prime minister of the Earth Federation; ancestor of Ronan and Riddhe",
+    "personality": "not described in the sources beyond his role",
+    "nickname": "",
+    "sources": [
+     "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/06.html",
+     "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters"
+    ]
+   }
+  },
+  {
+   "jp": "ロンド・ベル",
+   "kind": "keyword",
+   "en": "Londo Bell",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki ('Londo Bell task force'); https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+   "note": "Shared name across Unicorn and Char's Counterattack; kept one spelling"
+  },
+  {
+   "jp": "ワッツ",
+   "kind": "pilot",
+   "en": "Watts",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Watts Stepney'; https://akurasu.net/wiki/Master_Characters_List",
+   "note": "Short form of Watts Stepney (pilot 213)"
+  },
+  {
+   "jp": "ワッツ・ステップニー",
+   "kind": "pilot",
+   "en": "Watts Stepney",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn : 'Watts Stepney'; https://akurasu.net/wiki/Master_Characters_List : 'Watts Stepney' (Game: SRW Z3.2); https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia list: 'Straightforward and honest, Stepney is also the Tri-Stars' hot-blooded pilot' (male cast); DSCR 213 has no pronoun",
+    "position": "Tri-Stars pilot of Londo Bell, lieutenant (中尉); Jesta pilot",
+    "personality": "straightforward, unpretentious, the most hot-blooded of the Tri-Stars",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+     "https://akurasu.net/wiki/Master_Characters_List",
+     "library pilot 213 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "移民問題評議会",
+   "kind": "keyword",
+   "en": "Settlement Issues Council",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/06.html : 'chairman of the Settlement Issues Council, which is jokingly referred to as the shadow cabinet'",
+   "note": "Official site wording; Jigoku shipped 'Council on Emigration Issues' differs, see report.uncertain (precedence conflict)"
+  },
+  {
+   "jp": "第一次ネオ・ジオン抗争",
+   "kind": "keyword",
+   "en": "First Neo Zeon War",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html : 'since the first Neo Zeon War'; https://mechabay.com/first-neo-zeon-war",
+   "note": "Zeta/ZZ era war (UC 0088-0089); Jigoku shipped 'First Neo Zeon War'"
+  },
+  {
+   "jp": "第２次ネオ・ジオン抗争",
+   "kind": "keyword",
+   "en": "Second Neo Zeon War",
+   "status": "official",
+   "source": "https://mechabay.com/second-neo-zeon-war : 'Second Neo Zeon War' (Char's Counterattack); Jigoku shipped 'Second Neo Zeon War'",
+   "note": "Full-width 2 becomes 'Second'; the Char's Counterattack war"
+  },
+  {
+   "jp": "袖付き",
+   "kind": "keyword",
+   "en": "Sleeves",
+   "status": "official",
+   "source": "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html : 'the Sleeves'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Dra-C (Sleeves)'",
+   "note": "Use 'the Sleeves' in prose; the name itself has no article"
+  },
+  {
+   "jp": "ＦＡ・ユニコーンガンダム",
+   "kind": "robot",
+   "en": "FA Unicorn Gundam",
+   "status": "proposed",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Full Armor Unicorn Gundam' = フルアーマー・ユニコーンガンダム",
+   "note": "FA abbreviates Full Armor; the library uses it as a short robot name (robots 96, 97). No source writes 'FA Unicorn Gundam' itself, so proposed"
+  },
+  {
+   "jp": "Ｌａ＋（ラプラス）システム",
+   "kind": "keyword",
+   "en": "La+ System",
+   "status": "official",
+   "source": "https://mechabay.com/vist-foundation : 'La+ Program' and 'La+ System designed to locate the box'; https://mechabay.com/rx-0-unicorn-gundam-02-banshee : 'La+ operating system'",
+   "note": "Game says システム; official English alternates Program/System. The bracketed reading (ラプラス) is dropped: no brackets in en. Keep 'La+ System' to match the game's word"
+  },
+  {
+   "jp": "ＵＣ計画",
+   "kind": "keyword",
+   "en": "UC Project",
+   "status": "official",
+   "source": "https://mechabay.com/vist-foundation : 'the UC Project'; https://mechabay.com/rgm-96x-jesta : 'UC Project'",
+   "note": "rt_086 proposed 'UC Plan'; 'UC Project' is the English wiki wording and matches Jigoku shipped"
+  },
+  {
+   "jp": "ラプラス・プログラム",
+   "kind": "keyword",
+   "en": "La+ Program",
+   "status": "official",
+   "source": "https://mechabay.com/vist-foundation : 'Cardeas installed the La+ Program'",
+   "note": "Extra record (not in the brief): pilot 206 DSCR writes ラプラス・プログラム for the same thing the keyword entry calls the La+ System; if the build wants one term, 'La+ Program' is the official English"
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 181,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 16'; akurasu Banagher Links: gender Male. DSCR has no pronoun (父親の顔を知らずに育った, 16歳)",
+   "nickname": "",
+   "position": "pilot of the Unicorn Gundam; student at Anaheim Electronics Industrial College on Industrial 7; civilian",
+   "personality": "pure-hearted and kind; not bound by any faction's ideology; calls Audrey 'Audrey' even after she is revealed as Mineva; gentle, strong-willed",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html",
+    "https://akurasu.net/wiki/Banagher_Links",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 181 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 182,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 23'; DSCR: 嫡男 (eldest son), 好青年",
+   "nickname": "",
+   "position": "Londo Bell pilot, ensign (少尉); ReZEL, then Delta Plus; heir of the Marcenas political family",
+   "personality": "good-natured young man who chafes at his family's constraints and wants to succeed on his own; carries a small biplane model pendant as a charm; drawn to Audrey",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 182 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 183,
+   "gender": "male",
+   "gender_evidence": "Same character as pilot 182 (Riddhe Marcenas); Official site: 'Male 23'; DSCR: 嫡男",
+   "nickname": "",
+   "position": "Londo Bell pilot, ensign (少尉); Delta Plus, later Banshee Norn",
+   "personality": "same as pilot 182; after learning of the Marcenas secret he despairs and turns hostile toward Banagher (DSC2)",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 183 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 184,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 45'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "captain of the Nahel Argama, rank colonel (大佐; official site says Captain); Londo Bell",
+   "personality": "indecisive and seen as unreliable by the crew, caught between the brass and the crew, but a capable man who backs Daguza's team; enjoys serving his prized tea in the captain's quarters",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 184 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 185,
+   "gender": "female",
+   "gender_evidence": "DSCR: 無口で冷静沈着な女性; Official site: 'Female 40'",
+   "nickname": "",
+   "position": "executive officer of the Nahel Argama, lieutenant colonel (中佐; official site says Commander)",
+   "personality": "taciturn, calm, and composed; decisive; a faithful officer who follows orders without showing emotion; the crew trusts her more than the captain",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 185 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 186,
+   "gender": "female",
+   "gender_evidence": "DSCR: 利発で快活な女性; Official site: 'Female 22'",
+   "nickname": "",
+   "position": "communications operator of the Nahel Argama, ensign (少尉), 22",
+   "personality": "small and baby-faced but bright, cheerful and quick-witted; has feelings for Riddhe and was upset when he was declared lost",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 186 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 187,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 35'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "deputy commander of ECOAS 920, major (少佐; official site says Lieutenant Commander); acting commander after Daguza's death",
+   "personality": "dependable right-hand man to Daguza; steady",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 187 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 188,
+   "gender": "male",
+   "gender_evidence": "Bright Noa in the Gundam franchise is male; akurasu Bright Noa page; DSCR has no pronoun",
+   "nickname": "",
+   "position": "commander of Londo Bell (outer unit of the Federation Space Forces), colonel (大佐); captain of the Ra Cailum; ex-White Base captain",
+   "personality": "upright and honest; keeps political meddling out; experienced, and trusted by his subordinates despite being sidelined by the Federation brass",
+   "sources": [
+    "https://akurasu.net/wiki/Bright_Noa",
+    "https://mechabay.com/bright-noa",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 188 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 189,
+   "gender": "male",
+   "gender_evidence": "Wikipedia list: Meran is Bright's XO, 'he maintains his loyalty to the captain'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "executive officer of the Ra Cailum, lieutenant colonel (中佐); Londo Bell",
+   "personality": "calm and composed; has supported Captain Bright since the Second Neo Zeon War",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "library pilot 189 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 190,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male, age Unknown'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "military doctor (ship's physician) of the Nahel Argama; served on the Argama in the Gryps War",
+   "personality": "veteran doctor; humane and professional: treated Marida as a patient even while understanding Mihiro's wish to restrain her",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/02.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 190 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 191,
+   "gender": "male",
+   "gender_evidence": "Wikipedia list describes him with male pronouns; DSCR has no pronoun",
+   "nickname": "",
+   "position": "Tri-Stars leader, Londo Bell combat platoon, captain (大尉); Jesta pilot",
+   "personality": "confident in his high skill and says what needs saying even to superior officers; the Tri-Stars were originally UC Project test pilot candidates",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "library pilot 191 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 192,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male, age Unknown'; DSCR: 素顔はシャア・アズナブル本人によく似ており",
+   "nickname": "the second coming of Char (シャアの再来)",
+   "position": "leader of the Sleeves; commander of the Neo Zeon remnants; pilot of the Sinanju and the Neo Zeong",
+   "personality": "masked, enigmatic and highly charismatic; a sharp strategist and gifted pilot; cold and calculating to the point of seeming inhuman",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 192 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 193,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 19'; DSCR has no pronoun (19歳)",
+   "nickname": "",
+   "position": "captain (大尉) of Full Frontal's guard in the Sleeves; pilots a purple Geara Zulu and later the Rozen Zulu",
+   "personality": "proud and confident, cold and condescending to others; fanatically devoted to Frontal and furious at anyone who insults him",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://mechabay.com/angelo-sauper",
+    "library pilot 193 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 194,
+   "gender": "female",
+   "gender_evidence": "Official site: 'Female 18'; Wikipedia list: 'A female pilot'; DSCR has no pronoun (18歳)",
+   "nickname": "Ple Twelve (プルトゥエルブ); calls Zinnerman 'Master'",
+   "position": "Sleeves pilot, lieutenant (中尉), 18; Kshatriya pilot; enhanced human (Ple clone)",
+   "personality": "highly skilled, physically exceptional; usually shows no emotion but has shown kindness (taught Banagher about space emigrants, warned him about Destroy Mode); loyal to Zinnerman",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://mechabay.com/marida-cruz",
+    "library pilot 194 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 195,
+   "gender": "female",
+   "gender_evidence": "Same person as pilot 194 (Marida): DSCR 195 says マリーダの本来の名 (Marida's original name); official site Marida is 'Female'",
+   "nickname": "Ple Twelve; this entry is her name as the Banshee pilot",
+   "position": "Ple Twelve after re-adjustment at the Augusta Laboratory; Banshee (Unicorn Gundam Unit 2) pilot; enemy of Banagher",
+   "personality": "programmed to treat Gundams as the enemy; hostile toward Banagher until he persuades her",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://mechabay.com/marida-cruz",
+    "library pilot 195 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 196,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 52'; DSCR: 妻と娘を殺されており",
+   "nickname": "Captain (キャプテン) to his subordinates; 'Master' to Marida",
+   "position": "captain of the disguised freighter Garencieres and leader of its unit (Sleeves/Neo Zeon); veteran of the One Year War",
+   "personality": "veteran, battle-hardened, broad-minded and much loved by his crew; deep hatred of the Federation after the massacre at Globe; feels like a father to Marida",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://mechabay.com/suberoa-zinnerman",
+    "library pilot 196 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 197,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 27'; DSCR: 粗野な雰囲気のある男性",
+   "nickname": "",
+   "position": "second in command / helmsman of the Garencieres crew (Sleeves), 27",
+   "personality": "rough in manner but a big-brother type trusted by the crew; hates the Federation after losing his parents at Globe; hard on Banagher after Gilboa's death",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://mechabay.com/flaste-schole",
+    "library pilot 197 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 198,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 30'; DSCR: 30歳, 妻と三人の子供 (wife and three children)",
+   "nickname": "",
+   "position": "helmsman of the Garencieres and Geara Zulu pilot (Sleeves), 30",
+   "personality": "friendly and caring; a family man; his poor household showed Banagher the reality of Zeon and space emigrants",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://mechabay.com/gilboa-sant",
+    "library pilot 198 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 199,
+   "gender": "unknown",
+   "gender_evidence": "DSCR has no pronoun; the sources found list Alec only as a Garencieres crew member without stating gender",
+   "nickname": "",
+   "position": "Sleeves crew member of the Garencieres; later helmsman after Gilboa's death",
+   "personality": "not described",
+   "sources": [
+    "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "library pilot 199 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 200,
+   "gender": "unknown",
+   "gender_evidence": "DSCR has no pronoun; the sources found list Besson only as a Garencieres crew member without stating gender",
+   "nickname": "",
+   "position": "Sleeves crew member of the Garencieres",
+   "personality": "not described",
+   "sources": [
+    "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "library pilot 200 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 201,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 43'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "captain (大佐; official site says Captain) of the Sleeves flagship Rewloola",
+   "personality": "dutiful officer who sees the job through despite being uncomfortable with Angelo throwing around the guard's authority",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/03.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 201 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 202,
+   "gender": "female",
+   "gender_evidence": "Official site: 'Female 16'; DSCR: ザビ家の末裔 (Zabi descendant); Audrey/Mineva is female in the series",
+   "nickname": "Audrey Burne (alias)",
+   "position": "last heir of the Zabi family (Principality of Zeon); travelled to Industrial 7 as a stowaway to stop the box being handed over",
+   "personality": "noble and brave; unflinching even when held hostage; thoughtful; cares about Banagher",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://mechabay.com/mineva-lao-zabi",
+    "library pilot 202 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 203,
+   "gender": "not applicable",
+   "gender_evidence": "Mascot robot (DSCR: マスコット・ロボ)",
+   "nickname": "",
+   "position": "Banagher's mascot robot, a replica of the Haro Amuro made in the One Year War",
+   "personality": "not applicable",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html",
+    "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+    "library pilot 203 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 204,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 16'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "student at Anaheim Electronics Industrial College, 16; Banagher's classmate; later aboard the Nahel Argama helping the mechanics",
+   "personality": "a bit of a flake and a hardcore mobile suit maniac; extremely knowledgeable; optimistic",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html",
+    "https://mechabay.com/takuya-irei",
+    "library pilot 204 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 205,
+   "gender": "female",
+   "gender_evidence": "Official site: 'Female 16'; DSCR: 密かに彼に好意を寄せている (secretly fond of him, i.e. Banagher)",
+   "nickname": "",
+   "position": "student at Anaheim Electronics Industrial College, 16; friend of Banagher; joined the Nahel Argama",
+   "personality": "kind and thoughtful; secretly loves Banagher; held a grudge against Mineva over war damage but was moved by her resolve",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/01.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 205 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 206,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 60'; DSCR: バナージとアルベルトの父親 (father of Banagher and Alberto)",
+   "nickname": "",
+   "position": "second head of the Vist Foundation, 60; conductor of the UC Project",
+   "personality": "strong-willed and driven to do what must be done, but measures others by himself and can lack consideration",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 206 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 207,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 33'; DSCR: 異母兄 (half-brother of Banagher), 父はカーディアス",
+   "nickname": "",
+   "position": "executive of Anaheim Electronics, 33; son of Cardeas; Martha's nephew",
+   "personality": "timid and petty; has a complex about the father who ignored him; pushed around by Martha as her pawn",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/05.html",
+    "https://mechabay.com/alberto-vist",
+    "library pilot 207 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 208,
+   "gender": "female",
+   "gender_evidence": "Official site: 'Female 55'; DSCR: カーディアスの妹 (Cardeas's younger sister), 強い女性",
+   "nickname": "'Empress of the Moon' (mechabay only)",
+   "position": "acting head of the Vist Foundation after Cardeas's death; wife of the Carbine chairman of Anaheim Electronics",
+   "personality": "formidable and ruthless; shrewder than her husband; schemes to protect the box and the Foundation's prosperity",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/05.html",
+    "https://mechabay.com/martha-vist-carbine",
+    "library pilot 208 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 209,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male, age Unknown'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "Cardeas's secretary and bodyguard; ex-Federation soldier; after his death serves Syam Vist",
+   "personality": "burly and loyal; trusted by Cardeas; watches events unfold",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 209 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 210,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male 52'; DSCR: リディ・マーセナスの父 (Riddhe's father)",
+   "nickname": "",
+   "position": "Earth Federation Central Assembly member, 52; chairman of the Settlement Issues Council (the shadow cabinet)",
+   "personality": "a man of power and political clout; one of the few who knows the secret of Laplace's Box",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/06.html",
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "library pilot 210 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 211,
+   "gender": "male",
+   "gender_evidence": "Official site: 'Male'; DSCR: カーディアス・ビストの祖父 (Cardeas's grandfather)",
+   "nickname": "",
+   "position": "patriarch/founder of the Vist Foundation (宗主); has lived since before the Universal Century",
+   "personality": "mysterious; knows the location of Laplace's Box",
+   "sources": [
+    "https://web.archive.org/web/20110315080223/http://www.gundam-unicorn.net/en/character/04.html",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "library pilot 211 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 212,
+   "gender": "male",
+   "gender_evidence": "Wikipedia list: 'kind man'; DSCR describes a man (ラテン系で浅黒い顔に縮れた髪)",
+   "nickname": "",
+   "position": "Tri-Stars pilot, Londo Bell combat platoon, lieutenant (中尉); Jesta",
+   "personality": "easygoing but sharp; dark-skinned Latin look, curly hair, red bandana",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://akurasu.net/wiki/Mobile_Suit_Gundam_Unicorn",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "library pilot 212 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 213,
+   "gender": "male",
+   "gender_evidence": "Wikipedia list: 'Straightforward and honest, Stepney is also the Tri-Stars' hot-blooded pilot'; DSCR has no pronoun",
+   "nickname": "",
+   "position": "Tri-Stars pilot, Londo Bell combat platoon, lieutenant (中尉); Jesta",
+   "personality": "straightforward, unpretentious; acts on impulse; the most hot-blooded of the Tri-Stars",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_Unicorn_characters",
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "library pilot 213 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 214,
+   "gender": "male",
+   "gender_evidence": "Kai Shiden of the original Mobile Suit Gundam is male (akurasu Mobile Suit Gundam: Kai Shiden, White Base pilot); DSCR has no pronoun",
+   "nickname": "",
+   "position": "freelance journalist, ex-White Base MS pilot; asked by Bright to negotiate with Zinnerman",
+   "personality": "anti-Zeon, but respected by Bright as a trustworthy man",
+   "sources": [
+    "https://akurasu.net/wiki/Master_Characters_List",
+    "https://akurasu.net/wiki/Mobile_Suit_Gundam",
+    "library pilot 214 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 55,
+  "names_settled": 55,
+  "left_pending": [],
+  "challenges": [],
+  "retoken": [],
+  "uncertain": [
+   "Sources beyond akurasu and the official Unicorn English site are English fan wikis (mechabay.com, which mirrors Gundam Wiki content) because gundam.fandom.com returned 403/402 to my tools. Terms sourced only there: Augusta Laboratory, Globe, Cheyenne Base, Torrington Base, Garuda, Gryps 2, Kshatriya Besserung/Repaired, Psycho-Shard, Psycho Jammer, General Revil, La+ System, UC Project.",
+   "Conflicts with brief proposals (corrected): Cyam Vist -> Syam Vist (official site + akurasu Master list); Darryl McGuinness -> Daryl McGuinness; Galuda -> Garuda; Megalanica -> Magallanica (official site spelling); Bessellung -> Besserung; Echoes -> ECOAS; UC Plan -> UC Project; Pull Twelve -> Ple Twelve; Tri-Star -> Tri-Stars; Hamma-Hamma -> Hamma Hamma (akurasu ZZ page).",
+   "PRECEDENCE CONFLICT: NAME_RESEARCH.md ranks Jigoku shipped library English (4) above official English (5). I chose the official English where the two differ and the official source is verifiable: 移民問題評議会 'Settlement Issues Council' (Jigoku: 'Council on Emigration Issues'), アナハイム...専門学校 'Anaheim Electronics Industrial College' (Jigoku: 'Technical College'), エコーズ 'ECOAS' (Jigoku: 'Echoes'/'Ecoes'), メガラニカ 'Magallanica'. If the orchestrator prefers Jigoku consistency, these four are the ones to flip.",
+   "Anaheim Electronics school: the official site itself uses 'Industrial College' (page 01: Banagher, Takuya, Micott) and 'Technical School' (Cardeas page 04); Wikipedia uses 'Anaheim Industry Technical School'. No single official form.",
+   "Ple Twelve vs Puru 12: akurasu's Unicorn page writes 'Puru 12' for Marida, but its Master Characters List uses 'Ple' (Elpeo Ple, Ple Two). I followed the Ple family. Jigoku shipped also says 'Ple Twelve'. If akurasu 'Puru' wins, Ple and Ple Two must change too (gundam_5/other briefs may hold Ple Two).",
+   "Nigel Garrett: akurasu Unicorn page says 'Garret' (one t); Z3.2 pilot database and Master list say 'Garrett'; Z3.2 database used.",
+   "Daryl McGuinness: Master list writes 'Mcguinness', the Unicorn page and Wikipedia 'McGuinness'; used 'McGuinness'.",
+   "Rank translations: the Japanese 大尉/中尉/大佐/中佐/少佐/少尉 (captain/first lieutenant/colonel/lieutenant colonel/major/ensign in Jigoku wording) differ from the official site's Navy-style ranks (Lieutenant, Commander, Captain). Profiles follow the Japanese DSCR wording; the official rank is given in brackets in the position field.",
+   "Alec (pilot 199) and Besson (pilot 200): gender left unknown, no source found states it and the DSCR has no pronoun.",
+   "Hamma Hamma: brief said Hamma-Hamma; akurasu ZZ page has 'Hamma Hamma'; mechabay/Gundam Wiki use a hyphen.",
+   "Psycho Jammer is unhyphenated (mechabay) while Psycho-Shard is hyphenated (mechabay, Neo Zeong page); the official spelling of either was not checked against a kit box or the official site.",
+   "ジオン is short for many things (name of Zeon, Zeon military, Zeon remnant forces); 'Zeon' works for all uses I saw, but ジオン公国 (Principality of Zeon) and ネオ・ジオン (Neo Zeon) are gundam_5's names; my First/Second Neo Zeon War spellings assume Neo Zeon = 'Neo Zeon'.",
+   "Full-width digits in ラプラス...グリプス２ / インダストリアル７ / 第２次 are written as normal digits/words in English.",
+   "White Base: as ship 'White Base'; pilot 214 and keyword 62 also mention 'the White Base team' (ホワイトベース隊/team) which is a separate phrasing, not settled here.",
+   "Shared names with other groups: ネオ・ジオン, グリプス戦役 (Gryps War vs akurasu 'Gryps Conflict'), ジオン公国, ザビ家 belong to gundam_5; I did not decide them. mechabay's Gryps Conflict page says the English naming changed several times (Conflict/War); gundam_5 should settle with akurasu srw_glossary.",
+   "Full-width brief entry 'Ｌａ＋（ラプラス）システム' has a bracketed reading in Japanese; the en drops it. An extra record for ラプラス・プログラム ('La+ Program') was added."
+  ]
+ }
+}

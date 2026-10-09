@@ -1,0 +1,733 @@
+{
+  "schema": 1,
+  "group": "g221",
+  "blocks": [
+    221
+  ],
+  "speaker": {
+    "token": "ヒルデ・シュバイカー",
+    "jigoku_pilot": "Hilde Schubaker",
+    "jigoku_unit": null,
+    "fraction": 0.986,
+    "basis": "settled 2026-10-02 from fresh-translation review: Only row is a cut-in in her set (anta-tachi, tomboyish); consistent with Hilde's Gundam Wing scene; agrees with Jigoku",
+    "proposed_by_v_mix_04": {
+      "token": "$$ヒルデ・シュバイカー$$",
+      "basis": "Only row is a cut-in in her set (anta-tachi, tomboyish); consistent with Hilde's Gundam Wing scene; agrees with Jigoku"
+    },
+    "jigoku_token": "ヒルデ・シュバイカー"
+  },
+  "lines": {
+    "221:0": {
+      "repository_source_sha256": "576bcca9540ae5d6a8ad1ff5a04a8835b7f29a4004e7f8fbadf8f14dfd1e5015",
+      "en": "「Go down!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)",
+        "weapon slot 1",
+        "weapon slot 2",
+        "weapon slot 3",
+        "weapon slot 4",
+        "weapon slot 9"
+      ],
+      "alternatives": [
+        "Fall!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:13": {
+      "repository_source_sha256": "7b4704289682bff3275558c0d82eefdb6ad6c93aec13f2213025adf1cff8758a",
+      "en": "「For peace for everyone!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: defending (?)",
+        "weapon slot 0",
+        "weapon slot 1"
+      ]
+    },
+    "221:42": {
+      "repository_source_sha256": "7dfadd09ed46e9947dfa6573a04e13ff8815fa2a2b986e1697a7221273dcada4",
+      "en": "「Don't underestimate me!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)",
+        "special opponent: defending (?)",
+        "weapon slot 0",
+        "weapon slot 1"
+      ]
+    },
+    "221:63": {
+      "repository_source_sha256": "c01a10570e1708a3f2b7aae80cec953312be4e454b95076296621d347b12e686",
+      "en": "「I won't let you beat me!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)",
+        "special opponent: defending (?)",
+        "weapon slot 0",
+        "weapon slot 1"
+      ]
+    },
+    "221:84": {
+      "repository_source_sha256": "4c132bd1111758b4eb44800fab6caee2f5c4280507fa7b9aca7e5a7ef541e5b0",
+      "en": "「There!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)",
+        "weapon slot 0",
+        "weapon slot 1",
+        "weapon slot 2",
+        "weapon slot 3",
+        "weapon slot 4",
+        "weapon slot 9"
+      ],
+      "alternatives": [
+        "There you are!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:99": {
+      "repository_source_sha256": "358cd9a770374237cc6ce29dffd4a5ee24a125b2710b366f58cfb234189a8d88",
+      "en": "「Hit! Hit!!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)",
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "Hit! Come on, hit!!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:126": {
+      "repository_source_sha256": "b1c028e8e39977070752bba9abc534f150d637ba039d5b47d995f85ff4604d5e",
+      "en": "「Now! Go!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)",
+        "weapon slot 0",
+        "weapon slot 1",
+        "weapon slot 3"
+      ]
+    },
+    "221:147": {
+      "repository_source_sha256": "51522be1760422f5708f9acf9df5237a80190ca70f2e1ea7940db32e35f85ffc",
+      "en": "「I'll make this hit!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "weapon slot 0",
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "I'll make this shot count!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:166": {
+      "repository_source_sha256": "90dad3c145a3e27d89b4263f9b1cfbc844660f9360336bb024aa87002ff5f437",
+      "en": "「I'll win peace with my own hands!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2",
+        "weapon slot 3",
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "221:197": {
+      "repository_source_sha256": "bfdbc92bb26d94c8fca040427c316ea2cc0df9cb259aa08f1b6aa5f7fe709800",
+      "en": "「We don't need peace handed to us!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2",
+        "weapon slot 3",
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "221:230": {
+      "repository_source_sha256": "b6e485c8a8c0fd1bdf890e054135879e2fd867e206efcd88c84498096559662d",
+      "en": "「I'll beat you,\\nand end this battle!」",
+      "source": "jigoku",
+      "slots": [
+        "special opponent: defending (?)",
+        "weapon slot 0",
+        "weapon slot 1"
+      ]
+    },
+    "221:277": {
+      "repository_source_sha256": "a6c94aa948b94208a54ccacf809106a41287f2e738f7ac36bec638733e0a53c6",
+      "en": "「I'm just getting started!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ],
+      "alternatives": [
+        "This is only the beginning!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:300": {
+      "repository_source_sha256": "ab52171fa84c6d45537eec112ae48013370cf44d7e2395fe43398e36dc145543",
+      "en": "「I'll catch up to you!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "221:325": {
+      "repository_source_sha256": "760246d11e4ebedea0f4f331fd255b83b2267ac3158dfb524c1583eb2f9a1e16",
+      "en": "「I can do it now!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:346": {
+      "repository_source_sha256": "55b96972ad28b3b5d8dfd904708c711560ef5e246d44c00dd924664ff77ede87",
+      "en": "「I'm here too, you know!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:369": {
+      "repository_source_sha256": "19ff29a38dd8e76563bf72b8f3d5599305e042244a38a4b73aeb3b17949d187b",
+      "en": "「I won't let this chance slip!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:402": {
+      "repository_source_sha256": "e643a8629dc80ca5e9e5a96adafe76cc4f571d1cac168a7e2ff353e0e2d7dc47",
+      "en": "「$$デュオ$$, go on ahead!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:427": {
+      "repository_source_sha256": "5ac14ea32e775e52ef23eb72019c3b8e7e41d05709964c29860d8629abb78f6f",
+      "en": "「So I'm on cleanup duty, $$デュオ$$.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:466": {
+      "repository_source_sha256": "a270a4a610430ce078ef2a98f1372be99655b40880861457023185d6c19474a7",
+      "en": "「Honestly... You're so impatient!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:501": {
+      "repository_source_sha256": "e0ecbe4a88b56383d7d9797bb41cb6756b03627b3753b4fc607addbccd8f817c",
+      "en": "「$$ヒイロ$$, I'm fighting too!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:526": {
+      "repository_source_sha256": "2d651fa8af583ff611e6fc59e9bd6eb43af35839e32dc8f15b7027ffbf74fdc0",
+      "en": "「I've got this, $$カトル$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:563": {
+      "repository_source_sha256": "ffeaefee2b75c745e675a4c68bb34d035f268be96f107fac9038bf0b8a529ec7",
+      "en": "「I'll back you up, $$トロワ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:588": {
+      "repository_source_sha256": "69c278972fdcacd34626814fd0f5226107c1b637855ccf4c82ac5a3928d3b806",
+      "en": "「I can do this too, $$五飛$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:619": {
+      "repository_source_sha256": "a4fa9ba5344ede5ed4d5f06c3fafb0c94215135e1f3d92682765b204f37b5700",
+      "en": "「$$ノイン$$, I'll follow your lead!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:650": {
+      "repository_source_sha256": "9135fd4b5274fc12af3f55b59b186dc430e9fb10c738f358d08e6dff721f5dc5",
+      "en": "「$$ゼクス$$! I'll back you up!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "221:681": {
+      "repository_source_sha256": "797979bd7f07506c97b5eb0fb5a00ee8aa28709d9df499a1fc85a736ece24007",
+      "en": "「I'll protect everyone!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ],
+      "alternatives": [
+        "I'll protect you!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:700": {
+      "repository_source_sha256": "fdbbd48ad7cb7aa25b168fb8295037f0ae4daa04102770dd227238258cc6c30b",
+      "en": "「I know this is reckless!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:721": {
+      "repository_source_sha256": "d59fbafd166a29f6ce24d5269580d86dc64420ca47695997a7e9f2a32e3e1952",
+      "en": "「Retreat while you can!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ],
+      "alternatives": [
+        "Fall back while you can!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:742": {
+      "repository_source_sha256": "98402e8f67e9707d2f7a50cdbcf0d42e914ef0c9d8ecd819c8ccda54d0ce4124",
+      "en": "「$$デュオ$$, don't look away!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:777": {
+      "repository_source_sha256": "d860173a23dfe875671db6a9bb1ee837b6520fa698d5bca9c2f14ecdcb4cd703",
+      "en": "「I won't let you hurt $$デュオ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:802": {
+      "repository_source_sha256": "7ecc67ee2359745ebffee3797d056ccd4ec4b978dc067efd5195c3621ddb07a8",
+      "en": "「I'll cover you, $$ヒイロ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:829": {
+      "repository_source_sha256": "ca1dbe73c3c7cdff1a231292a22e421f05148161ad2de3cffce35f47805f669d",
+      "en": "「$$カトル$$, leave this to me!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:856": {
+      "repository_source_sha256": "cf78e52ee545eb6f117b8f44928d250dcb537d30786a0fab7ab3efcc7f7d0ad3",
+      "en": "「Fall back now, $$トロワ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:887": {
+      "repository_source_sha256": "ed754934cb59e61c342b38b5ed22b34a3310b900b5eb7360ff6a915754dd6df4",
+      "en": "「Don't rush in too far, $$五飛$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:914": {
+      "repository_source_sha256": "242f691b7be1294127cdf4842f89523466ce13f5a6be8181bf0985cae1022243",
+      "en": "「$$ノイン$$, please fall back!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:947": {
+      "repository_source_sha256": "8e52e60e791fd17263c24233efc76d6e1b4c67cc29792ad99f06d0dd5fc5306f",
+      "en": "「I'll cover you, $$ゼクス$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "221:982": {
+      "repository_source_sha256": "1e293640a8367c0c7f3b81eab1edcb70ba8f00c8251d7b49843c424bb31fd5b7",
+      "en": "「We'll do this in one go!!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "221:1005": {
+      "repository_source_sha256": "3a63a1c6a8f9af9f6b864b343a8f603e550911ca110bffdd9d50d2d67a7e3111",
+      "en": "「Understood! Commencing attack!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "221:1036": {
+      "repository_source_sha256": "41d5c36dbc48e5dc44bf57841e044e9543ceb034072a695f6a13965b71cd44bc",
+      "en": "「I can't counterattack like this!」",
+      "source": "jigoku",
+      "slots": [
+        "cannot attack (?)",
+        "out of EN/ammo"
+      ]
+    },
+    "221:1065": {
+      "repository_source_sha256": "23c056cdf33d148b2155088b05b0038d5be0be8bffdefb9c4e0997921dab8e30",
+      "en": "「Where'd they go?!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "221:1094": {
+      "repository_source_sha256": "a7477d34d7ffff51f5ee5118fcddab0133b3cfda2714acd8a441cdd9571aaabe",
+      "en": "「They slipped into my blind spot?!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "221:1123": {
+      "repository_source_sha256": "f00b9cc97ea6efe0d3c50ea6007c3c48426458b2df72601105bad8280ea04965",
+      "en": "「All right, I dodged it!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1144": {
+      "repository_source_sha256": "628d9fb3039cbb3058b97cf816451b35620092693be46e8969b7d38c2330b50c",
+      "en": "「You won't hit me!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "Like that'd ever hit me!",
+        "Like that could hit me!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:1163": {
+      "repository_source_sha256": "2e6eb630c10b532d61c950b32da86f15bd8e069008c369c93999378d65584623",
+      "en": "「I can see that coming!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "I can see right through you!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:1184": {
+      "repository_source_sha256": "6b67f9ffacdf4d57b1ddb71fcf70639fd1923e14b7354b0b0625d62747e7fd2f",
+      "en": "「Where are you aiming?」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1205": {
+      "repository_source_sha256": "cddd0ab9b61e1d38491e117001cd38f3e6abe65dc4e64b35ffcff27e96066603",
+      "en": "「Whew... My training wasn't wasted.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "weapon slot 4",
+        "weapon slot 9"
+      ]
+    },
+    "221:1246": {
+      "repository_source_sha256": "4712c1135abf095c726b07dfac4a7dde222bc5e579872a74be3f8e69a0af21e0",
+      "en": "「Th-That was a bit close, huh?」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1281": {
+      "repository_source_sha256": "38fc24dd3e7ef6e6202a5940ebb536c057a0baca1f87d7f6d866666577c5e7cc",
+      "en": "「I can't let $$デュオ$$ worry about me.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1324": {
+      "repository_source_sha256": "0f54e35895638b2f864af36da29fb917a7157e661c1414f3f9818ad0f2b00f72",
+      "en": "「I did it! Evasion successful!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1349": {
+      "repository_source_sha256": "b727ce1cbd65a7ff3b32423b4add5821b2e5b77e0a1d050b4c547895844d19ea",
+      "en": "「Don't think I'll be an easy mark!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1380": {
+      "repository_source_sha256": "4099b325b6237617d92fdb472f32c0c09f8debe708230ced081e02d0a426e54a",
+      "en": "「Easier than $$デュオ$$ and the others.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "221:1409": {
+      "repository_source_sha256": "905ebb4d448a5d6b38da78e77660d8354c96f759cd93211aa5bc9f935b85c53f",
+      "en": "「An attack like that won't stop me!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ],
+      "alternatives": [
+        "That pathetic attack?!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:1432": {
+      "repository_source_sha256": "a73836f1f1ccd87f1c7ee17b69e7f8c3ef5d9ff19616ca8d4ca333ccdd47e87d",
+      "en": "「We've got a barrier on our side!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "221:1465": {
+      "repository_source_sha256": "c0219e690835d8392b97512a057b62cf9dbcf3fac24d01674caab8806d8725b1",
+      "en": "「That attack was pointless!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "221:1484": {
+      "repository_source_sha256": "d7b65a8438a2492b8f5580641ea0d785ca5822ef1c0cf031139c13736bff2106",
+      "en": "「I-It hit! But I can still fight!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "221:1523": {
+      "repository_source_sha256": "9c39268aa31f524e62be5f6b2eb1965a83cf4ee51bfb8f2ee384ae3ce41d365d",
+      "en": "「This damage won't make me flinch!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "221:1562": {
+      "repository_source_sha256": "098299ab347b71722772586547094224c7c7c65ec9e9caa20057a6a77cbc5263",
+      "en": "「S-Somehow, I made it...」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "221:1593": {
+      "repository_source_sha256": "97ddcd4308724e6506f083b6e2e2c1820de8e85008a1882637695a7f80d0d6a9",
+      "en": "「Aah!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "Kyaaah!",
+        "Aagh!",
+        "Aaah!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:1608": {
+      "repository_source_sha256": "48af0d3b3457bce265d74ceff228e1e1445ba45cda7e0ed83bec4f65ee16330d",
+      "en": "「I'm okay! I can still fight!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "221:1635": {
+      "repository_source_sha256": "03f49ec4424ec7bc4b9dc09fd1c340b3a274d2f924b2031537325411e958bef2",
+      "en": "「I won't lose! It's only a scratch!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "221:1676": {
+      "repository_source_sha256": "e5250f045976e2364b641d940690beefa9962b77a83fa302a8a60b326f74ac37",
+      "en": "「Aaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Kyaaaah!",
+        "Eeeeeek!",
+        "Kyaaaaah!",
+        "Aaah!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:1693": {
+      "repository_source_sha256": "85a2d90d7ab38d0c9c7b493e6000052918f339f803371fb642af119f80ccae7e",
+      "en": "「Aah! Check the damage!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "221:1730": {
+      "repository_source_sha256": "f8febcfd46c6ace7c9315a6079130c7a4d11c892447489ea563141652cd9ed24",
+      "en": "「Th-They're reading my every move?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "221:1769": {
+      "repository_source_sha256": "5cdff433c72a8127697ecbb7790bd44ff0a120e619298a3e6929a79ade89207b",
+      "en": "「It still moves! I won't give up!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "221:1810": {
+      "repository_source_sha256": "174a236ceb8f878f3dd7573d2c408863c9085192ac57cfdfc80db83e06080762",
+      "en": "「Do it! Losing heart means losing!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "221:1849": {
+      "repository_source_sha256": "4330e93377eb4328596aee5526aded9a05b1378885dd89f25fe7923735c3ed7d",
+      "en": "「I'm not afraid...!\\nI'm ready too!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "221:1906": {
+      "repository_source_sha256": "16ff101f00ff98e7c82146fa40731817178caca12b4a13435cae86d758839d81",
+      "en": "「Aaaaaaaah!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Kyaaaaaah!!",
+        "Kyaaaaaaaah!!",
+        "Aaaaaaaaah!!",
+        "Aaaaah!!"
+      ],
+      "review": "same-speaker"
+    },
+    "221:1931": {
+      "repository_source_sha256": "cc26f851c54e2cc09ad093c5a81ffac5aa6842a3af88bf095d4881853e518d29",
+      "en": "「N-No...!\\nIt can't take any more!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "221:1980": {
+      "repository_source_sha256": "e76900d8e33e5ace4db00578d3ec05b9d99c147dcd47ca4d595e1c9632dbd61a",
+      "en": "「Please, move!\\nJust a little longer!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "221:2031": {
+      "repository_source_sha256": "3fb35ab35b6d827f977e1b261f5e580e7613407a2a628c6eec938df5ceb176f7",
+      "en": "「M-Maybe I can't fight after all?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "221:2072": {
+      "repository_source_sha256": "b957037d27a4d2ff120262fa18823d4fa65a1d7b0eff3429496f6fd54e249ee0",
+      "en": "「N-No...!\\nMy circuits are shorting!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "221:2123": {
+      "repository_source_sha256": "df8a74f3ef40d43415fca4fa5e2a6b1eeebddfd60bd231b2541172044ff69a27",
+      "en": "「One more hit and I won't last...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "221:2164": {
+      "repository_source_sha256": "c28b92a60448310b87a5083340fe97b711757ddbe3bbfe061b11a0b6b2c7fb50",
+      "en": "「I-I'm ejecting!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "221:2185": {
+      "repository_source_sha256": "f2d3efd271de6d5f92e18f71241e7ac46ed6213f3027836ad8208f3b271a675c",
+      "en": "「Aah! I-I can't go on...!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "221:2218": {
+      "repository_source_sha256": "36f96a19b0ab748785215f3d7254420d0fb00abd43d3fbaf391b93db304304ab",
+      "en": "「You're too kind... all of you...」",
+      "source": "new",
+      "slice": "v_mix_04"
+    }
+  }
+}

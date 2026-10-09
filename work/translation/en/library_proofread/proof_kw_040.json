@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "batch": "proof_kw_040",
+  "fixes": [
+    {
+      "kind": "keyword",
+      "id": 43,
+      "field": "DSCR",
+      "english_sha256": "1e7cad06a7243934",
+      "new": "The Alps-class land battleship with $$ジャミル$$ serving as captain.\nAlthough formally a 'land battleship', it can also travel over water by hovering, so its range of action is wide.\nIt can carry up to six mobile suits, and its main complement was the $$ガンダムＸ$$, the $$ガンダムエアマスター$$ and the $$ガンダムレオパルド$$.\nIt was also the living space of pilots such as $$ガロード$$ and the others, and when $$ロアビィ$$ came to be exclusively employed by $$フリーデン$$, he had set up a relaxation room at his own expense to make the journey comfortable.\nAlthough it was heavily damaged in the battle when $$ガロード$$ was sent off into space, the space battleship that $$ジャミル$$ and the others later obtained was given the name '$$フリーデン$$' once again.",
+      "reason": "omitted subject / pronoun: the Japanese says Roybea (male) set up the room himself at his own expense (自腹で設けていた); the passive dropped the agent and the name was repeated instead of 'he' (the second ロアビィ token is therefore replaced by 'he'/'his')"
+    },
+    {
+      "kind": "keyword",
+      "id": 55,
+      "field": "DSCR",
+      "english_sha256": "13adba6be587d34f",
+      "new": "In the $$ＡＤＷ$$, a representative of the Peacekeeping Council of the former $$国連$$, and currently Supreme Commander of the Earth Federation Forces.\nWhen he was representative of the Peacekeeping Council, he formed a special international rescue team that acted beyond the bounds of organization and position for the peace and happiness of all humanity.\nHe possesses a strong will that does not hesitate at immediate sacrifice, but voices of suspicion are also being raised over his forceful methods and his unreadable true intentions.\nAlso, though its truth is unconfirmed, records remain suggesting he has lived for over 200 years, and there are many mysteries surrounding him.\nHis true identity was one of the $$ジ・エーデル・ベルナル$$, those who touched $$クロノエイチ$$.\nIn order to entrust humanity's future to those who would follow, he gave up his life in the closing stages of the $$再世戦争$$.",
+      "reason": "mistranslation: the Japanese is ＡＤＷの元国連の平和維持理事会の代表; 元 modifies 国連 (the former UN), not the representative, and ＡＤＷ is the era, not an authority he served 'under'"
+    },
+    {
+      "kind": "keyword",
+      "id": 63,
+      "field": "DSCR",
+      "english_sha256": "de8d1f10cd9b30a7",
+      "new": "Chairman of the $$プラント$$ Supreme Council.\nUnlike his predecessor $$パトリック・ザラ$$, he is a moderate who sought a road to coexistence and peace with $$ナチュラル$$s. During the $$ユニウスセブン$$ drop and the fighting with the $$地球連合$$ that followed, he consistently made calm, accurate judgments and showed excellent leadership.\nHe is also an authority on genetic research, and it is thought that it was through that work that he came to know $$ラウ・ル・クルーゼ$$ and $$レイ・ザ・バレル$$. There are also signs that he had anticipated from the start that $$シン$$ would manifest the SEED.\nHe set up $$ミーア・キャンベル$$ as a stand-in for $$ラクス・クライン$$ in an attempt to raise the fighting spirit of all of the $$プラント$$. But it came to light that behind the scenes he had plotted the assassination of $$ラクス$$ herself, and this earned him the distrust of $$キラ$$ and the others.\nHis ultimate aim was to build a managed society controlling humanity at the genetic level, which he called the '$$デスティニープラン$$'. After annihilating $$ロゴス$$, he declared the introduction and implementation of the plan to the world, only to be stopped by $$キラ$$ and the others, who refused a world where evolution would halt.\nAt the last he was shot by $$レイ#pt136$$, whom he had trusted like a son. He closed his life in the arms of $$タリア$$, who had once been his lover and toward whom he had continued to hold feelings even after they parted.",
+      "reason": "omitted subject: 別れてもなお想いを寄せ続けていた is Durandal's feelings for Talia; 'for whom feelings had never faded' left the holder of the feelings unstated"
+    },
+    {
+      "kind": "keyword",
+      "id": 71,
+      "field": "DSCR",
+      "english_sha256": "05ff37d146995eff",
+      "new": "A $$聖天翅$$ of the $$堕天翅$$ tribe, and a frontline commander who leads the $$天翅$$s.\nAlthough he has wings on the back of his head, in every other respect he has the appearance closest to a human among the $$堕天翅$$.\nTwelve thousand years ago, he was betrothed to $$アポロニアス#pilot$$, the strongest of the $$守護天翅$$s. But at the end of the $$アトランディア大戦$$, $$アポロニアス#pilot$$ betrayed the $$堕天翅$$ tribe, and they crossed blades as enemies. Even so, that love had still not faded, and he approached $$アポロ$$, apparently the reincarnation of $$アポロニアス#pilot$$, again and again.\nIn the course of the fighting he killed $$アポロ$$'s close friend $$バロン$$, and tormented $$アポロ$$ and the others by every means, such as cunningly tempting $$シリウス$$ into switching sides. But when the $$生命の樹$$ withered and the world faced the crisis of its end, he even teleported to $$ベクタールナ$$ to try to stop it. Even then he remained out of step with $$アポロ$$ and $$シリウス$$, but through the memories of $$セリアン$$ that $$シルヴィア$$ showed, he learned that $$アポロニアス#pilot$$ of long ago had not betrayed them but had wished for coexistence between the $$天翅$$s and humans. Once his resolve to carry on $$アポロニアス#pilot$$'s will was firm, the three of them succeeded in $$創聖合体$$ and held the shattering world together.",
+      "reason": "wrong pronoun: the Head Wing (Toma) is male per the glossary research (work/glossary/research/aquarion.json 頭翅#pilot: MALE; the Japanese is gender-neutral); all she/her changed to he/his; 'his reincarnation' and 'his will' (Apollonius's) now name Apollonius by token to avoid a wrong referent after the pronoun change"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "keyword 44 DSC2 'it was learned that they are generated from the force that tries to vanish': the Japanese (判明した) names no discoverer and the entry does not say who; kept impersonal",
+      "keyword 70 DSC2 subject of 環境が激変した地球から旅立った人類を祖先に持ち...: omitted in the Japanese; the existing English supplies 'Its' (the alliance, the entry subject); kept as the natural reading"
+    ],
+    "name_issues": [
+      "keyword 52 DSCR: 'Aeolia Schoenberg', 'Ribbons Almark' (and 'Ribbons's') and 'Celestial Being' (twice) are literal English; keyword 54 writes ソレスタルビーイング as a token and the founder as イオリア = Aeolia",
+      "keyword 53 DSCR: 'Holy Britannian Empire' is literal (神聖ブリタニア帝国 is a token in kw 59); 'Earth Federation' literal",
+      "keyword 55 DSCR: 'Earth Federation Forces' literal; token クロノエイチ = 'Black Wisdom' looks wrong for 「クロノエイチ」 (Chrono H), which is a different term from 黒の英知 (used as a token in kw 73)",
+      "keyword 56 DSCR: 'Dimension-Armed MONster', 'Damon', 'Axion Foundation', 'Axion Jr.' (after the カルロス token), 'Revive Cells', 'ADiCR', 'A-DiC Institute' and 'Holy Kingdom of' (聖インサラウム王国) are literal English",
+      "keyword 62 DSCR: 'Earth Federation', 'Spacenoids', 'Earthnoids' literal",
+      "keyword 69 DSCR: 'Earth Federation Forces' literal",
+      "keyword 74 DSCR: 'Unified Forces' (統合軍) literal",
+      "keyword 75 DSC2: 'Reformists' Action Unit' is literal around the クロノ token (クロノ改革派行動部隊)",
+      "keyword 43 DSCR: 'Alps-class' literal (translator flagged possible 'Alpes-class')",
+      "keyword 71 DSCR: the entry's own name 頭翅 never appears in the English; the glossary research (aquarion.json) proposes 頭翅#keyword = Toma, male"
+    ],
+    "uncertain": [
+      "keyword 71: changed all she/her to he/his. The brief gives no gender for 頭翅 (WORD = ?) and the Japanese is gender-neutral (許婚), but work/glossary/research/aquarion.json (頭翅#pilot: 'MALE per Wikipedia and the franchise wiki ... must be fixed to he in keyword 71') settles it as male (Toma). The change follows that research, not the brief.",
+      "keyword 55: the brief gives no gender for エルガン (WORD = ?), but work/glossary/original_1a.json (エルガン・ローディック, gender male) settles it, so the existing 'he' was kept. First line rewritten: I read ＡＤＷの元国連の平和維持理事会の代表 as 'representative of the Peacekeeping Council of the former UN in the ADW' (元 attaches to 国連); the next sentence (代表だった際) shows the post is in the past. If the orchestrator prefers a plain 'Former representative of the UN Peacekeeping Council', only the attachment of 元 differs.",
+      "keyword 63: the brief gives no gender for the entry name; 'he' kept as in keyword 68 (ギルバート・デュランダル [male]). In the last sentence the Japanese does not say whose feelings, but 想いを寄せ続けていた belongs to Durandal, the subject, so 'he' was written.",
+      "keyword 63 DSCR: 地球連合軍 is rendered 'the Earth Alliance' (軍 not written); left as merely different.",
+      "keyword 43 DSCR: 'pilots such as Garrod and the others' is loose for パイロットであるガロード達 (Garrod and the other pilots) but the meaning survives; left.",
+      "keyword 57 DSCR: 'a great many multiverses' for 様々な多元世界 is loose but not wrong; left.",
+      "keyword 58: Barbiel is male per the sheet, but the Japanese repeats the name and so does the English; not turned into 'he' because the source repeats too. A judgment call.",
+      "keyword 59: Lelouch's name is repeated in the plan sentence as in the Japanese; not turned into 'himself'. A judgment call.",
+      "keyword 70 DSC2: read the subject as the alliance; if the Japanese meant the Evolvers, the sentence would change meaning."
+    ]
+  }
+}

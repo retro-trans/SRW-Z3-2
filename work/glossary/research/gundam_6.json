@@ -1,0 +1,775 @@
+{
+ "schema": 1,
+ "group": "gundam_6",
+ "names": [
+  {
+   "jp": "ロラン",
+   "kind": "pilot",
+   "en": "Loran",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Loran Cehack'; work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Loran Cehack'",
+   "note": "Short form of ロラン・セアック (Loran Cehack). Also the person Guin calls ローラ (Laura)."
+  },
+  {
+   "jp": "ロラン・セアック",
+   "kind": "pilot",
+   "en": "Loran Cehack",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Loran Cehack'; work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Loran Cehack' (Tengoku pilot database); https://gundam.fandom.com/wiki/Loran_Cehack",
+   "note": "Pilot 122. Matches the Tengoku akurasu pilot database exactly."
+  },
+  {
+   "jp": "ディアナ",
+   "kind": "pilot",
+   "en": "Dianna",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Dianna Soreil' (also https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database); https://akurasu.net/wiki/Turn_A_Gundam : 'The Advent of Dianna'",
+   "note": "Short form of ディアナ・ソレル. Do not use \"Diana\": every akurasu page spells it Dianna."
+  },
+  {
+   "jp": "ディアナ・ソレル",
+   "kind": "pilot",
+   "en": "Dianna Soreil",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Dianna Soreil'; https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database : 'Dianna Soreil'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Dianna Soreil'",
+   "note": "Pilot 123. Gundam Fandom titles the page 'Dianna Soriel', but akurasu (source 2/3) and Wikipedia both use Soreil; akurasu wins."
+  },
+  {
+   "jp": "キエル",
+   "kind": "pilot",
+   "en": "Kihel",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Turn_A_Gundam : episode 18 'Kihel and Dianna'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Kihel Heim'",
+   "note": "Short form of キエル・ハイム."
+  },
+  {
+   "jp": "キエル・ハイム",
+   "kind": "pilot",
+   "en": "Kihel Heim",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Turn_A_Gundam : 'Kihel and Dianna'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Kihel Heim'; https://gundam.fandom.com/wiki/Kihel_Heim",
+   "note": "Pilot 124. Not in the akurasu pilot databases (she is not a playable pilot there); spelling from the akurasu episode title plus Wikipedia/Gundam Fandom."
+  },
+  {
+   "jp": "ソシエ",
+   "kind": "pilot",
+   "en": "Sochie",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Sochie Heim'; https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database : 'Sochie Heim'",
+   "note": "Short form of ソシエ・ハイム."
+  },
+  {
+   "jp": "ソシエ・ハイム",
+   "kind": "pilot",
+   "en": "Sochie Heim",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Sochie Heim'; https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database : 'Sochie Heim'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+   "note": "Pilot 125."
+  },
+  {
+   "jp": "メシェー",
+   "kind": "pilot",
+   "en": "Miashei",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Miashei Kune'; https://gundam.fandom.com/wiki/Miashei_Kune (lists メシェー・クン)",
+   "note": "Short form of メシェー・クン. The brief's proposal 'Meshe' is a plain romanization; akurasu Z uses Miashei. Gundam Fandom/Wikipedia agree (Miashei Kune)."
+  },
+  {
+   "jp": "メシェー・クン",
+   "kind": "pilot",
+   "en": "Miashei Kune",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Miashei Kune'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Miashei Kune'; https://gundam.fandom.com/wiki/Miashei_Kune (lists メシェー・クン)",
+   "note": "Pilot 126. Proposal was \"Meshe Kun\"; corrected to the wiki spelling. Only the Z pilot database has the match; Tengoku does not list her."
+  },
+  {
+   "jp": "ハリー",
+   "kind": "pilot",
+   "en": "Harry",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Harry Ord'; https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database",
+   "note": "Short form of ハリー・オード."
+  },
+  {
+   "jp": "ハリー・オード",
+   "kind": "pilot",
+   "en": "Harry Ord",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Harry Ord'; https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+   "note": "Pilot 127."
+  },
+  {
+   "jp": "ポゥ",
+   "kind": "pilot",
+   "en": "Poe",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Poe Aijee'; https://akurasu.net/wiki/Turn_A_Gundam : 'Pursuit! Crybaby Poe'",
+   "note": "Short form of ポゥ・エイジ."
+  },
+  {
+   "jp": "ポゥ・エイジ",
+   "kind": "pilot",
+   "en": "Poe Aijee",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Poe Aijee'; https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Pilot_Database; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+   "note": "Pilot 128."
+  },
+  {
+   "jp": "グエン",
+   "kind": "pilot",
+   "en": "Guin",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Turn_A_Gundam : episode 45 'Guin's Betrayal'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Guin Sard Rhineford'",
+   "note": "Short form of グエン・サード・ラインフォード."
+  },
+  {
+   "jp": "グエン・サード・ラインフォード",
+   "kind": "pilot",
+   "en": "Guin Sard Rhineford",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Guin Sard Rhineford'; https://gundam.fandom.com/wiki/Guin_Sard_Rhineford; akurasu Turn A page uses 'Guin'",
+   "note": "Pilot 129. Rhineford (not 'Lineford'): Wikipedia and Gundam Fandom's page title agree; some Gundam Fandom pages still say Lineford."
+  },
+  {
+   "jp": "メリーベル",
+   "kind": "pilot",
+   "en": "Merrybell",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Merrybell Gadget'; https://gundam.fandom.com/wiki/Merrybell_Gadget",
+   "note": "Short form of メリーベル・ガジット. Merribell / Merrybell varies; Wikipedia and Gundam Fandom both use Merrybell."
+  },
+  {
+   "jp": "メリーベル・ガジット",
+   "kind": "pilot",
+   "en": "Merrybell Gadget",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Merrybell Gadget'; https://gundam.fandom.com/wiki/Merrybell_Gadget (メリーベル・ガジット)",
+   "note": "Pilot 130. Proposal was 'Merribell Gadjet'; the wiki spelling is Merrybell Gadget. Not in akurasu."
+  },
+  {
+   "jp": "リリ",
+   "kind": "pilot",
+   "en": "Lily",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Lily Borjarno'; https://gundam.fandom.com/wiki/Lily_Borjarno",
+   "note": "Short form of リリ・ボルジャーノ."
+  },
+  {
+   "jp": "リリ・ボルジャーノ",
+   "kind": "pilot",
+   "en": "Lily Borjarno",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Lily Borjarno'; https://gundam.fandom.com/wiki/Lily_Borjarno; akurasu Z mech list 'Borjarnon' (the Zaku named after the Duke)",
+   "note": "Pilot 131. Proposal was 'Lily Boljarno'; both wikis use Borjarno."
+  },
+  {
+   "jp": "コレン",
+   "kind": "pilot",
+   "en": "Corin",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Corin Nander'; https://akurasu.net/wiki/Turn_A_Gundam : episode 9 'Corin Called it \"Gundam\"'",
+   "note": "Short form of コレン・ナンダー."
+  },
+  {
+   "jp": "コレン・ナンダー",
+   "kind": "pilot",
+   "en": "Corin Nander",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Corin Nander'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+   "note": "Pilot 132. Proposal was 'Corren Nander'; akurasu Z spells it Corin."
+  },
+  {
+   "jp": "ギム・ギンガナム",
+   "kind": "pilot",
+   "en": "Gym Ghingnham",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Gym Ghingnham'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Gym Ghingnham'",
+   "note": "Proposals said 'Gym Ginganam'; akurasu Z pilot database says Gym Ghingnham (episode 38 title 'Battle God Ghingnham' on the akurasu Turn A page). Gundam Fandom titles its page 'Gym Ghingham' but says 'alternatively spelt Gym Ghingnham'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia/Gundam Fandom: male; DSCR of pilot 122/127 refer to his fight; voiced by Takehito Koyasu",
+    "position": "Commander-in-Chief of the Moon's Orbital Fleet, head of House Ghingnham; pilots the Turn X",
+    "personality": "forceful, swaggering warmonger; carries a katana; believes humanity only shines in war",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Gym_Ghingham",
+     "library keyword 107 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ギンガナム",
+   "kind": "pilot",
+   "en": "Ghingnham",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Gym Ghingnham'; https://akurasu.net/wiki/Turn_A_Gundam : 'Battle God Ghingnham', 'Ghingnham's Invasion'",
+   "note": "Surname form of ギム・ギンガナム, used alone in prose. Same person as the record above. Note ゲンガナム (the Moon capital) is a different word."
+  },
+  {
+   "jp": "ゲンガナム",
+   "kind": "keyword",
+   "en": "Genganam",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_episodes : 'Genganam' (used repeatedly for the Moon's capital city); https://gundam.fandom.com/wiki/Correct_Century_Locations : 'Genganam'",
+   "note": "Lunar capital city, built by Gym Ghingnham's ancestors; not the character name. Keeps the 'Ge-' spelling used by both wikis, distinct from Ghingnham."
+  },
+  {
+   "jp": "アグリッパ",
+   "kind": "pilot",
+   "en": "Agrippa",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Agrippa Maintainer'; https://gundam.fandom.com/wiki/Agrippa_Maintainer (アグリッパ・メンテナー)",
+   "note": "Surname-less form of アグリッパ・メンテナー (Agrippa Maintainer).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Gundam Fandom infobox: Male; Wikipedia: \"He plans...\"; hereditary governor voiced by Hiroya Ishimaru",
+    "position": "Chancellor of Queen Dianna and hereditary governor of the Winter Palace (House of Maintainer); the story's true final enemy in the game",
+    "personality": "scheming, power-hungry; plots a coup while Dianna is on Earth; wants to keep the Moon free of conflict by shipping warlike citizens to Earth",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Agrippa_Maintainer",
+     "library pilot 123 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "キース",
+   "kind": "pilot",
+   "en": "Keith",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Keith Laijie'; https://gundam.fandom.com/wiki/Keith_Laijie",
+   "note": "Keith Laijie, Moonrace youth. Wikipedia episode list also spells Lajie; Laijie is the Gundam Fandom title.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Gundam Fandom infobox: Male; Wikipedia: \"His fiancee, Verlaine\"; DSCR of pilot 122 calls him a companion of Loran (\"キースやフラン\")",
+    "position": "Moonrace scout who descended to Earth with Loran two years earlier; works as a baker's apprentice",
+    "personality": "level-headed, believes commercial interdependence leads to peace",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Keith_Laijie"
+    ]
+   }
+  },
+  {
+   "jp": "フラン",
+   "kind": "pilot",
+   "en": "Fran",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Fran Doll'; https://gundam.fandom.com/wiki/Fran_Doll",
+   "note": "Fran Doll, Moonrace scout girl.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Wikipedia: \"a teenager ... Fran ... she strikes up a romantic relationship with Joseph Yaht\"; Gundam Fandom: Female",
+    "position": "Moonrace scout sent to Earth two years early; a printer's worker who becomes a war photographer",
+    "personality": "persistent, determined to document the war despite censorship",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Fran_Doll"
+    ]
+   }
+  },
+  {
+   "jp": "シド",
+   "kind": "pilot",
+   "en": "Sid",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Sid Munzer'; https://gundam.fandom.com/wiki/Sid_Munzer",
+   "note": "Sid Munzer, archaeologist. No other Sid in the other Gundam briefs or the Jigoku glossary.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Gundam Fandom infobox: Male; Wikipedia: \"He works on the excavation\"; voiced by Akio Nojima",
+    "position": "elderly archaeologist who leads the mobile suit excavations at the Mountain Cycle",
+    "personality": "dedicated researcher of the \"dark history\"",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Sid_Munzer"
+    ]
+   }
+  },
+  {
+   "jp": "スエッソン",
+   "kind": "pilot",
+   "en": "Sweatson",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Mahiroo (Sweatson)'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Sweatson Stero'",
+   "note": "Proposal was 'Suesson'; akurasu Z mech list gives 'Sweatson' (full name Sweatson Stero, Gundam Fandom/Wikipedia).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia/Gundam Fandom: Male; Sweatson Stero, voiced by Tora Uganda",
+    "position": "Captain of the Ghingnham Fleet's Mahiroo Squad",
+    "personality": "proud, reckless; breaks orders in pursuit of the Turn A; noble family that abuses its rank",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Sweatson_Stero",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List"
+    ]
+   }
+  },
+  {
+   "jp": "ギャバン",
+   "kind": "pilot",
+   "en": "Gavane",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Gavane Gooney'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Gavane Gooney'",
+   "note": "Proposal was 'Gavane' with surname Gunnie; akurasu Z pilot database is 'Gavane Gooney' (Gundam Fandom: Goonny).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia/Gundam Fandom: Male; DSCR of pilot 125: he proposed to Sochie",
+    "position": "Captain of the Luzianna Militia's Suicide Squad",
+    "personality": "liked by his men, proud of his squadron, protective; strong",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database",
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Gavane_Goonny"
+    ]
+   }
+  },
+  {
+   "jp": "フィル",
+   "kind": "pilot",
+   "en": "Phil",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Phil Ackman'; https://gundam.fandom.com/wiki/Phil_Ackman",
+   "note": "Phil Ackman, Dianna Counter captain, later major.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Wikipedia: \"He is a repatriation convoy commander ... He intends to set himself up as king\"; Gundam Fandom: Male; voiced by Tsuyoshi Koyama",
+    "position": "Captain (later major) of the Dianna Counter; rebels and forms the Sunbelt Republic",
+    "personality": "military hardliner, ambitious",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Phil_Ackman"
+    ]
+   }
+  },
+  {
+   "jp": "ローラ",
+   "kind": "pilot",
+   "en": "Laura",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Turn_A_Gundam : episode 8 'Laura's Cow', episode 24 'Laura's Distant Howl'; https://gundam.fandom.com/wiki/Loran_Cehack : 'Laura Rolla'",
+   "note": "Loran's female alias (Guin's pet name for him). Same person as ロラン, not a separate character; proposal 'Lola' is wrong.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Alias of Loran (pilot 122): DSCR says Guin made Loran cross-dress and call him ローラ",
+    "position": "alias of Loran Cehack",
+    "personality": "n/a (alias)",
+    "nickname": "Laura",
+    "sources": [
+     "https://akurasu.net/wiki/Turn_A_Gundam",
+     "https://gundam.fandom.com/wiki/Loran_Cehack",
+     "library pilot 129 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ハイム",
+   "kind": "keyword",
+   "en": "Heim",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'Sochie Heim'; https://akurasu.net/wiki/Turn_A_Gundam : 'Kihel Heim' family",
+   "note": "Family name of Kihel and Sochie; also the family/mining house. Kept a keyword."
+  },
+  {
+   "jp": "ボルジャーノ",
+   "kind": "keyword",
+   "en": "Borjarno",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Lord Borjarno', 'Lily Borjarno'; https://gundam.fandom.com/wiki/Lily_Borjarno; akurasu Z mech list 'Borjarnon'",
+   "note": "House/duke and territory name; proposals said Borjarno/Boljarno. Duke Borjarno (male, father of Lily) rules Luzianna.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Gundam Fandom Lily Borjarno infobox: family \"Lord Borjarno - Father\"; DSCR of pilot 131: 公 (duke) and father of 13 daughters",
+    "position": "Duke, lord of Luzianna",
+    "personality": "not detailed in sources",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+     "https://gundam.fandom.com/wiki/Lily_Borjarno",
+     "library pilot 131 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "イングレッサ",
+   "kind": "keyword",
+   "en": "Inglessa",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Nations_and_Factions : 'Inglessa'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Inglessa Militia'",
+   "note": "Proposals said 'Ingressa'; both wikis use Inglessa. Territory name in prose (the text writes the word 'territory' outside the token)."
+  },
+  {
+   "jp": "イングレッサ・ミリシャ",
+   "kind": "keyword",
+   "en": "Inglessa Militia",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Nations_and_Factions : 'Inglessa Militia'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : heading 'Inglessa Militia'",
+   "note": "Militia of Inglessa. The bare ミリシャ is a separate glossary token."
+  },
+  {
+   "jp": "ミリシャ",
+   "kind": "keyword",
+   "en": "Militia",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Nations_and_Factions : 'Militia'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Inglessa Militia', 'Luzianna Militia'",
+   "note": "Generic word for the territorial militias; prose uses it alone in pilot 122 and 128."
+  },
+  {
+   "jp": "ルジャーナ",
+   "kind": "keyword",
+   "en": "Luzianna",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Luzianna Militia'; https://gundam.fandom.com/wiki/Correct_Century_Nations_and_Factions : 'Luzianna'",
+   "note": "Proposal was 'Rujana'. Wikipedia's episode list writes 'Lousana' (fan spelling); the two character/faction pages use Luzianna, chosen here."
+  },
+  {
+   "jp": "ビシニティ",
+   "kind": "keyword",
+   "en": "Vicinity",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Locations : 'Vicinity Town' (once 'Visinity'); https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_episodes : 'Vicinity'",
+   "note": "Town in Inglessa, home of the Heim family, near the Mountain Cycle. Confirms the proposals."
+  },
+  {
+   "jp": "マウンテンサイクル",
+   "kind": "keyword",
+   "en": "Mountain Cycle",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Locations : 'Mountain Cycle'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_episodes : 'Mountain Cycle'",
+   "note": "Burial sites of Black History machines. Capitalized as a place name; plural handled in prose."
+  },
+  {
+   "jp": "ロスト・マウンテン",
+   "kind": "keyword",
+   "en": "Lost Mountain",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Locations : 'Lost Mountain'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_episodes : 'Lost Mountain'",
+   "note": "Forbidden mountain range holding nuclear warheads."
+  },
+  {
+   "jp": "ガリア",
+   "kind": "keyword",
+   "en": "Gaulia",
+   "status": "proposed",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Nations_and_Factions : 'Gaulia, Efrico, and Ezia' (Gaulia = corruption of Gaul, roughly Europe)",
+   "note": "Wiki spelling Gaulia; the game's ガリア could also be rendered Gallia/Gaul. Only the Gundam Fandom source; no akurasu or licensed-subtitle confirmation."
+  },
+  {
+   "jp": "冬の宮殿",
+   "kind": "keyword",
+   "en": "Winter Palace",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Correct_Century_Locations : 'Winter Palace' (cryogenic facility); https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_episodes : 'Winter Palace'",
+   "note": "Moon cryogenic facility where Agrippa's House of Maintainer presides."
+  },
+  {
+   "jp": "白の宮殿",
+   "kind": "keyword",
+   "en": "White Palace",
+   "status": "proposed",
+   "source": "Literal 白 = white; Gundam Fandom calls the building 'Royal Palace' (https://gundam.fandom.com/wiki/Correct_Century_Locations) but has no wiki name matching 白の宮殿",
+   "note": "Prose glosses it 'the royal palace' next to the token, so 'White Palace' reads correctly. No source names it White Palace: proposed."
+  },
+  {
+   "jp": "ムーンレィス",
+   "kind": "keyword",
+   "en": "Moonrace",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Moonrace'; https://gundam.fandom.com/wiki/Moonrace",
+   "note": "The people of the Moon; the game spelling レィス comes from the anime's own English-derived \"Moonrace\"."
+  },
+  {
+   "jp": "ディアナ・カウンター",
+   "kind": "keyword",
+   "en": "Dianna Counter",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Dianna_Counter (ディアナ・カウンター); https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'Dianna Counter'",
+   "note": "Moonrace armed volunteer force; spelled Dianna to match akurasu."
+  },
+  {
+   "jp": "黒歴史",
+   "kind": "keyword",
+   "en": "Black History",
+   "status": "proposed",
+   "source": "https://akurasu.net/wiki/Turn_A_Gundam : BGM 'Black History'; same page episode 43 'Shocking Dark History'; https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters uses both",
+   "note": "Both spellings are attested in akurasu (BGM vs episode title). Chosen: Black History (song title, literal 黒 = black, and what the earlier proposals used). Capitalized as a proper term. 'Dark History' is the alternative; see report.uncertain."
+  },
+  {
+   "jp": "月光蝶",
+   "kind": "keyword",
+   "en": "Moonlight Butterfly",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Unit_Database : attack 'Moonlight Butterfly' (月光蝶); https://akurasu.net/wiki/Turn_A_Gundam : episode 49 'Moonlight Butterfly'",
+   "note": "Nanomachine system of the Turn A and Turn X; attack name."
+  },
+  {
+   "jp": "ターンタイプ",
+   "kind": "keyword",
+   "en": "Turn-type",
+   "status": "proposed",
+   "source": "https://gundam.fandom.com/wiki/Concept-X_6-1-2_Turn_X : 'the Turn-types' (Turn A and Turn X collectively)",
+   "note": "Text: 'strike down the $$ターンタイプ$$ Gundam'. 'Turn-type' reads 'Turn-type Gundam'. Term from Gundam Fandom prose, not an official spelling."
+  },
+  {
+   "jp": "ターンＸ",
+   "kind": "robot",
+   "en": "Turn X",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Turn X' (ターンX); https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+   "note": "Full-width Ｘ in the Japanese token; English is plain \"Turn X\"."
+  },
+  {
+   "jp": "カプル",
+   "kind": "robot",
+   "en": "Kapool",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Kapool' (カプル), 'Corin's Kapool'; https://gundam.fandom.com/wiki/AMX-109_Kapool",
+   "note": "Proposal was 'Capule', which is the ZZ Gundam unit AMX-109 Capule; this Turn A unit is Kapool."
+  },
+  {
+   "jp": "ウォドム",
+   "kind": "robot",
+   "en": "Wodom",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Wodom' (ウォドム); Gundam Fandom title 'JMA-0530 (Model U) Wodom'",
+   "note": "Proposal Wodom confirmed."
+  },
+  {
+   "jp": "ウァッド",
+   "kind": "robot",
+   "en": "WaD",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'WaD' (ウァッド)",
+   "note": "Proposal was 'Wad'; akurasu writes WaD (the mobile rib WaD). Wikipedia calls it WaDom in prose."
+  },
+  {
+   "jp": "スモー",
+   "kind": "robot",
+   "en": "SUMO",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'SUMO (Gold Type)' (スモー); https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database : 'SUMO (Silver Type)'",
+   "note": "Capitalized SUMO in akurasu and Gundam Fandom (MRC-F20 SUMO); proposal was 'Sumo'."
+  },
+  {
+   "jp": "マヒロー",
+   "kind": "robot",
+   "en": "Mahiroo",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Mahiroo' (マヒロー)",
+   "note": "Proposal confirmed."
+  },
+  {
+   "jp": "バンデット",
+   "kind": "robot",
+   "en": "Bandit",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List : 'Bandit' (バンデット)",
+   "note": "Proposal confirmed (G-M1F Bandit)."
+  },
+  {
+   "jp": "ホワイトドール",
+   "kind": "robot",
+   "en": "White Doll",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters : 'White Doll' (the statue, and nickname of the Turn A); https://gundam.fandom.com/wiki/Correct_Century_Locations : 'White Doll'",
+   "note": "Both the statue at the Mountain Cycle and the ∀ Gundam's nickname (robot 71 DSCR). Kind robot chosen. The library text also mentions the 'White Mustache' nickname separately (not a token)."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 122,
+   "gender": "male",
+   "gender_evidence": "DSCR: 少年 (boy), 男らしい一面; Wikipedia/Gundam Fandom: male",
+   "nickname": "ローラ / Laura (Guin's nickname, also his female alias 'Laura Rolla')",
+   "position": "pilot of the ∀ Gundam; Moonrace scout who became a Heim servant and a core member of the Inglessa Militia",
+   "personality": "gentle, averse to conflict, pacifist, loyal to Dianna; yet a brilliant mobile suit pilot and brave in person",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Personality: Strong; Main Pilot)",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Loran_Cehack",
+    "library pilot 122 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 123,
+   "gender": "female",
+   "gender_evidence": "DSCR: 女王 (queen); Wikipedia/Gundam Fandom: female",
+   "nickname": "none; alias 'Millennium Queen of the Moon' (Gundam Fandom); uses the name Kihel while swapped",
+   "position": "Queen of the Moon, head of House Soreil; Moonrace ruler; captain of a ship in Z",
+   "personality": "intelligent, commanding, somewhat naive; weary of an unchanging life and drawn to Earth's simple life",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Main Pilot, battleship captain)",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Dianna_Soriel",
+    "library pilot 123 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 124,
+   "gender": "female",
+   "gender_evidence": "DSCR: 長女 (eldest daughter), 少女; Wikipedia/Gundam Fandom: female",
+   "nickname": "none; is called Dianna while she impersonates the queen",
+   "position": "eldest daughter of the Heim family; Guin's assistant; the queen's double who stands in as Dianna",
+   "personality": "modern-minded and independent, earnest, brave; grows into a queenly role; in love with Harry",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Kihel_Heim",
+    "library pilot 124 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 125,
+   "gender": "female",
+   "gender_evidence": "DSCR: 次女 (second daughter); Wikipedia/Gundam Fandom: female",
+   "nickname": "none",
+   "position": "second daughter of the Heim family; Kapool pilot in the Inglessa Militia",
+   "personality": "competitive, spirited, tomboyish; hot-headed and hard to be honest; grows up through loss",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Super Strong)",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Sochie_Heim",
+    "library pilot 125 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 126,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女 (girl); Wikipedia/Gundam Fandom: female",
+   "nickname": "none",
+   "position": "airplane pilot in the Inglessa Militia's airplane corps; Sochie's best friend and Kapool co-pilot",
+   "personality": "bright, sensible, a voice of reason next to Sochie",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Miashei Kune; Super Strong)",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Miashei_Kune",
+    "library pilot 126 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 127,
+   "gender": "male",
+   "gender_evidence": "Wikipedia/Gundam Fandom: male; DSCR: Kihel falls for him and kisses him, and his own remark about 'women other than Dianna'",
+   "nickname": "none (known for his red sunglasses)",
+   "position": "captain of Dianna's Royal Guard (Dianna Shineitai); lieutenant, later captain",
+   "personality": "calm, rational and dutiful; so serious he is inflexible; absolutely loyal to Dianna",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Strong)",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Harry_Ord",
+    "library pilot 127 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 128,
+   "gender": "female",
+   "gender_evidence": "DSCR: 彼女 (she); Wikipedia/Gundam Fandom: female",
+   "nickname": "Crybaby Poe (episode 31 title 'Pursuit! Crybaby Poe')",
+   "position": "second lieutenant of the Dianna Counter; Wodom pilot under Phil; later a Mountain Cycle digger with Sid",
+   "personality": "tearful, reckless, emotional; loyal to the queen at heart",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Strong)",
+    "https://akurasu.net/wiki/Turn_A_Gundam",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Poe_Aijee",
+    "library pilot 128 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 129,
+   "gender": "male",
+   "gender_evidence": "Wikipedia/Gundam Fandom: male; DSCR: お坊ちゃん (young master), forced Loran to cross-dress",
+   "nickname": "Young Lord (Gundam Fandom alias)",
+   "position": "grandson of the lord of Inglessa, central figure of the Inglessa Militia; heir",
+   "personality": "shrewd and ambitious, good negotiator, resilient; obsessed with Loran",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Guin_Sard_Rhineford",
+    "library pilot 129 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 130,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女 (girl); Wikipedia/Gundam Fandom: female",
+   "nickname": "none (called Ginganam's puppet)",
+   "position": "Ghingnham Fleet pilot of the Bandit; Ghingnham's protege",
+   "personality": "eccentric, clown-like, agile; inciting, likes to tease strong people; impulsive",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Merrybell_Gadget",
+    "library pilot 130 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 131,
+   "gender": "female",
+   "gender_evidence": "DSCR: 末娘 (youngest daughter); Wikipedia/Gundam Fandom: female",
+   "nickname": "none",
+   "position": "thirteenth and youngest daughter of Duke Borjarno of Luzianna; Luzianna Militia figure",
+   "personality": "selfish and sheltered on the surface, but an insightful, unflappable judge of people",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Lily_Borjarno",
+    "library pilot 131 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 132,
+   "gender": "male",
+   "gender_evidence": "Wikipedia/Gundam Fandom: male (voiced by Yasuhiko Kawazu); the Japanese DSCR has no pronoun",
+   "nickname": "none",
+   "position": "former sergeant of the Dianna Counter; Kapool pilot",
+   "personality": "delusional and childlike off the battlefield, obsessed with destroying the Gundam; free-spirited but loyal to Dianna",
+   "sources": [
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database (Super Strong)",
+    "https://en.wikipedia.org/wiki/List_of_Turn_A_Gundam_characters",
+    "https://gundam.fandom.com/wiki/Corin_Nander",
+    "library pilot 132 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 58,
+  "names_settled": 58,
+  "left_pending": [],
+  "challenges": [],
+  "changes_from_proposals": [
+   "Ginganam -> Ghingnham (akurasu Z pilot DB)",
+   "Capule -> Kapool",
+   "Ingressa -> Inglessa",
+   "Rujana -> Luzianna",
+   "Boljarno -> Borjarno",
+   "Corren -> Corin",
+   "Meshe (Kun) -> Miashei (Kune)",
+   "Suesson -> Sweatson",
+   "Merribell Gadjet -> Merrybell Gadget",
+   "Dianna Soriel -> Dianna Soreil",
+   "Lola -> Laura",
+   "Wad -> WaD",
+   "Sumo -> SUMO",
+   "Gavane Gunnie -> Gavane Gooney"
+  ],
+  "retoken": [
+   "None required. ローラ is Loran's alias and stays one token (pilot 129 DSCR); ホワイトドール is one token for both the statue (keyword 48, robot 71) and the unit nickname, same English either way."
+  ],
+  "uncertain": [
+   "黒歴史: 'Black History' vs 'Dark History'. akurasu Turn A page has BGM 'Black History' but the episode 43 title 'Shocking Dark History'; Wikipedia and Gundam Fandom lean toward Dark History. Kept Black History (proposed).",
+   "ルジャーナ: Luzianna (Wikipedia characters page, Gundam Fandom) vs Lousana (Wikipedia episode list). Kept Luzianna.",
+   "Wiki-sourced full names for characters not in akurasu (Kihel Heim, Merrybell Gadget, Lily Borjarno, Guin Sard Rhineford, Agrippa Maintainer, Sid Munzer, Phil Ackman, Keith Laijie, Fran Doll, Sweatson Stero): only Wikipedia and Gundam Fandom (fan wikis), no licensed-subtitle check possible.",
+   "白の宮殿 = White Palace is a literal rendering; Gundam Fandom calls the building Royal Palace, which the prose already glosses.",
+   "ガリア = Gaulia is only in Gundam Fandom (the game may intend Gaul/Gallia).",
+   "Gender of Corin (pilot 132): DSCR has no pronoun, settled by the source work only.",
+   "The text refers to ローラ (Guin's nickname for Loran) as a person: it is the same person as ロラン, not a separate character.",
+   "Short forms (キース, フラン, シド, リリ, フィル) could collide with other franchises' characters (e.g. Sid/Keith/Fran); none found in the Jigoku glossary, and the current library only uses them for Turn A Gundam.",
+   "akurasu Tengoku pilot database only lists Loran Cehack; every other Turn A Gundam spelling comes from the Z-era akurasu pages, which the Tengoku pages do not contradict."
+  ]
+ }
+}

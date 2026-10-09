@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 4,
+      "file": "dlg_2063_04.json",
+      "id": "456:t_003:27",
+      "before": "$$ゼシカ$$\n「OK, $$カイエン$$! So there won't be any $$エレメント$$ changes!」",
+      "after": "$$ゼシカ$$\n「OK, $$カイエン$$! So there won't be any $$エレメントチェンジ$$s!」",
+      "reason": "Whole corpus Element Change review; agent11_3 read source plus eight neighbors for both transfer commands, restoring command verbs and approval predicate. Full researched term replaces composed tokens."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2063_04.json",
+      "id": "456:t_016:12",
+      "before": "$$クレア$$\n「$$エレメント$$ change! $$ジン・ムソウ$$ into $$ゲパルト$$!」",
+      "after": "$$クレア$$\n「$$エレメントチェンジ$$! $$ジン・ムソウ$$, transfer to $$ゲパルト$$!」",
+      "reason": "Whole corpus Element Change review; agent11_3 read source plus eight neighbors for both transfer commands, restoring command verbs and approval predicate. Full researched term replaces composed tokens."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2063_05.json",
+      "id": "456:t_018:6",
+      "before": "$$クレア$$\n「Very well. ...$$エレメント$$ change! $$カグラ・デムリ$$ into $$ゲパルト$$!」",
+      "after": "$$クレア$$\n「I approve. ...$$エレメントチェンジ$$! $$カグラ・デムリ$$, transfer to $$ゲパルト$$!」",
+      "reason": "Whole corpus Element Change review; agent11_3 read source plus eight neighbors for both transfer commands, restoring command verbs and approval predicate. Full researched term replaces composed tokens."
+    }
+  ]
+}

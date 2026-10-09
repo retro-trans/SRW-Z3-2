@@ -1,0 +1,2731 @@
+{
+  "schema": 1,
+  "group": "g294",
+  "blocks": [
+    294
+  ],
+  "speaker": {
+    "token": "レド",
+    "jigoku_pilot": "Klan Klang",
+    "jigoku_unit": "Queadluun-Rhea (quadran)",
+    "fraction": 0.005,
+    "basis": "settled 2026-10-02 from fresh-translation review: Mixed bank like g292: Ledo (俺も戦う, フローター, 船団には指一本触れさせない, Hideauze/Alliance) plus Chamber machine reports (当機, レド少尉 in 3rd person, マシンキャリバー・Ｋ６８２１); not Klan Klang",
+    "proposed_by_v_g294_00": {
+      "token": "$$レド$$",
+      "basis": "Mixed bank like g292: Ledo (俺も戦う, フローター, 船団には指一本触れさせない, Hideauze/Alliance) plus Chamber machine reports (当機, レド少尉 in 3rd person, マシンキャリバー・Ｋ６８２１); not Klan Klang"
+    },
+    "proposed_by_v_g294_01": {
+      "token": "$$レド$$",
+      "basis": "Addresses Chamber (many lines), Hideauze/Alliance/fleet, Genion/Lukkage/Sousuke support calls; set also holds Chamber machine-voice lines (当機, 貴官, Al); same as g292; Jigoku Klan Klang is wrong"
+    },
+    "proposed_by_v_g294_02": {
+      "token": "$$レド$$",
+      "basis": "Same bank as g292: pilot lines address チェインバー, fight ヒディアーズ/Alliance, mention エイミー; Chamber machine-voice lines (当機, 貴官, 推奨) mixed in; Jigoku's Klan Klang is wrong"
+    },
+    "proposed_by_v_g294_03": {
+      "token": "$$レド$$",
+      "basis": "Ledo: orders Chamber by name (30x), covers Sousuke/Alto/Ozma/Garrod; Chamber's own machine-voice lines (this unit, recommend) share the bank. Not Klan Klang (differs from Jigoku)."
+    },
+    "proposed_by_v_g294_04": {
+      "token": "$$レド$$",
+      "basis": "Mixed bank like g292: Ledo (calls チェインバー, ガルガンティア, ピニオン, 銛) plus Chamber machine voice (当機, 貴官, レド少尉 in 3rd person); same as other g294 briefs; Jigoku Klan Klang is wrong"
+    },
+    "proposed_by_v_g294_05": {
+      "token": "$$レド$$",
+      "basis": "Mixed bank: Ledo (addresses チェインバー, 'I did it, Chamber', body-strain grunts) plus Chamber machine voice (接続完了, 神経接続, 生命維持); Chamber lines go to Ledo's token as the set's main speaker; same as other g294 briefs; Jigoku's Klan Klang is wrong"
+    },
+    "jigoku_token": "クラン・クラン"
+  },
+  "lines": {
+    "294:43": {
+      "repository_source_sha256": "dc71b9b4996b1cb84d4c8d99fa336a8aad89dc248b7c280bc0b15e90ed45fec2",
+      "en": "「This is $$マシンキャリバー$$ K6821.\\nCarrying out the mission.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:102": {
+      "repository_source_sha256": "a1bc21b7a613be8c53e9a93793dcc00340ba138c8a21d9c0599688546637eaad",
+      "en": "「Enemy confirmed. Commencing combat.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:137": {
+      "repository_source_sha256": "d09bb00acc12c44e9458695ad82b94699ace47db4d742aa2157aab814a9c2311",
+      "en": "「First strike possible. Attacking.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:180": {
+      "repository_source_sha256": "99770c1c8fe844df38d04584eb427425060dd7c417f9937ed462d229a8e57ea4",
+      "en": "「Securing maximum results.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:207": {
+      "repository_source_sha256": "52e155f718a3bd14dd9b3d20e9ad289ef598c70186d5bdc6de8867bd9c1eace0",
+      "en": "「Eliminating the obstacle.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:226": {
+      "repository_source_sha256": "1b1a81512fbff1cf615394762f6a7d672da413bc838c9c5b52fdea5f59e55446",
+      "en": "「Targeting of you is complete.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:255": {
+      "repository_source_sha256": "692741f881cb66ef554c97ee2fdc2fced5d1ce7dcb3a516f152d3832ad951935",
+      "en": "「Retreat is impossible.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:278": {
+      "repository_source_sha256": "84b947fcd183648d909c8626d862660d9c8b4d4ec68e299d4a61cc50dd32a976",
+      "en": "「Damage will be dealt without fail.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:305": {
+      "repository_source_sha256": "12f0e23c3441d51c3febfe682dc6ba7998b07f2ef96660bee1ed350f975b79ec",
+      "en": "「Enemy in range. Beginning attack.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:342": {
+      "repository_source_sha256": "7ece7aba4e63bb05421543c5c43c824bae7fe43b42107e9b50102ab18764a4b5",
+      "en": "「This unit's weapons can attack here.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:381": {
+      "repository_source_sha256": "a26a828089707f6ac2bb2c2ceb690208c393f0d28534a9c29142cb7a1ca5da2c",
+      "en": "「Aim locked. Commencing attack.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:410": {
+      "repository_source_sha256": "37d9f03bc372b48c591ff2c16cb4d6a6fabc87deeb871f7223e92b27ce05d976",
+      "en": "「Melee judged effective. Executing.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:445": {
+      "repository_source_sha256": "58fb2641803c4cbb66d7111c4a8e09a35ce526ab375256264c578cf90aaf658d",
+      "en": "「Melee weapons clear the obstacle.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:476": {
+      "repository_source_sha256": "ff9516872fe44fe3d61ab389a887bdc26197cd8cbd45b0e113f037d978beb2e2",
+      "en": "「Beginning another attack.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:501": {
+      "repository_source_sha256": "08c76ca520413d4b4059ff0c691f78607cc77707379e17821df13ad597a65f01",
+      "en": "「Melee presumed optimal in this case.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:538": {
+      "repository_source_sha256": "ffa428b6f98aa87441eaeec1839c9b17546719f29c582e7908b22c835a34d679",
+      "en": "「Charging, then attacking in melee.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:571": {
+      "repository_source_sha256": "75e9689c534c5fe734f1d6881a9091ca658005910db4b5279efc71aacd3d75b2",
+      "en": "「Using the external weapons.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:594": {
+      "repository_source_sha256": "3a561edd2541083d8b7271c8a7190b318bdf8d4105b7d16ad22e182b8ca1a87b",
+      "en": "「Firing.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:603": {
+      "repository_source_sha256": "b89297a64dab07e592f40abe762083975fa04e00c17a3ac23785745ff61e3569",
+      "en": "「Commence counterattack!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "294:616": {
+      "repository_source_sha256": "ef6d37e196d7463a32d3f2e5d49522fa7b411333f17fdfe4d644e540cccc7604",
+      "en": "「I will suppress your resistance.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:639": {
+      "repository_source_sha256": "bc714199f74e421c92c312e4a6f25a1e88f207995cbbfa85ba6c4721af136db8",
+      "en": "「I'll down it before it leaves range.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:680": {
+      "repository_source_sha256": "63afcd33f84977496639229b6c010eeac039e40f9c829897fef4422b3ba78dd1",
+      "en": "「Shifting to counterattack posture.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:699": {
+      "repository_source_sha256": "a579b480b0dac87cb501195a26e1dfc5ebbac3d7b788c0723bf05e1ab29182d2",
+      "en": "「I'll support you.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:718": {
+      "repository_source_sha256": "721b4f83b81a4c797208586b9d0b48dad4850e455e54b4f9e41a816ae82138e3",
+      "en": "「$$アル$$, delegate the rest to this unit.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:759": {
+      "repository_source_sha256": "486b6097e8c6c3679e9e48e9bd6a58c65e043c5ff3fbe418a23bef5876f0fdb3",
+      "en": "「Recommend immediate withdrawal.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:782": {
+      "repository_source_sha256": "a6066111e0a6c5e3d86a02b59747c7eda766ed6fdc629b7e3e69a87a95d8a2bd",
+      "en": "「Destruction of $$アル$$ is unacceptable.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:811": {
+      "repository_source_sha256": "0257cdd35fd66316d8ffbc4c4a81e4aa8ab3cfc26df10140870f77283e0dfb97",
+      "en": "「This conveys this unit's gratitude.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:852": {
+      "repository_source_sha256": "c9a886d9e0710751093d3c2bf11580c62b0d41483461954b4f6b2684a895b225",
+      "en": "「Attack target fixed. Destroying it.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:879": {
+      "repository_source_sha256": "dcf09f18680f2008e85c05858f620bf56118cdd03844a6231aa46dfe5588590d",
+      "en": "「This unit will go first.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:898": {
+      "repository_source_sha256": "1d334901fb8297aea1066a7f52a290b11115aa689739887d3bdb71db2f5b3c49",
+      "en": "「Cannot handle this. Request orders.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:929": {
+      "repository_source_sha256": "717fefa43095d50fa0f7b9ebae41584219794b579b1e842d092ba9e904561db1",
+      "en": "「Tactical disadvantage confirmed.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:956": {
+      "repository_source_sha256": "07974256dfa167eb6eab29ba52997d5d8916c4c81f5d75eb45f39d0068bae9a0",
+      "en": "「Evasive maneuver complete.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:975": {
+      "repository_source_sha256": "d5ba97a9d2c574e0d1c700be1c2a29496843cfc409a827c535a21a50562f1812",
+      "en": "「No damage. Continuing the mission.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:1004": {
+      "repository_source_sha256": "96fa61d9339b14ae66b04e8b058ece351731c0510d7577a52ff8e0f343184b29",
+      "en": "「Mobility evasion judged effective.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:1047": {
+      "repository_source_sha256": "7a4f892bbddd08ab8f24dba15639d1462a26e650ff13693bcb935c9f3879eee1",
+      "en": "「Enemy aim: threat level judged low.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:1080": {
+      "repository_source_sha256": "ebe894a6ecebd7e6e39722214ce3d6c81a5f2c50a8d896300819e63245727a57",
+      "en": "「Anti-shock defense.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:1099": {
+      "repository_source_sha256": "f32b7430b4b8f16df74b0b050d5a668b98eb3bf1b8fa79970961d8f73d16f6a7",
+      "en": "「Gravity Weiver, deploying.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:1132": {
+      "repository_source_sha256": "fd36c3f929781a2fda32ebf0a3f9bb347b9b1fa9e250d571f5344eda62e5fe96",
+      "en": "「Enemy attack threat is low.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1157": {
+      "repository_source_sha256": "f63d8290f9981a78ec755471fa55694a8033dcdd4df6add4630253d514ff0aba",
+      "en": "「Minor damage. Continuing combat.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1186": {
+      "repository_source_sha256": "e5017c2a9ded32267f3bdd37180d84d8dc9a002742edc6dd26e4046a20d9834e",
+      "en": "「Your combat skills cannot\\ndestroy this unit.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1235": {
+      "repository_source_sha256": "4890d819310eaa76155d0fe0064d7ccd202e1be0abf0c8832ee9e2beb6dd1e81",
+      "en": "「Threat rated low. Minor attack.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1262": {
+      "repository_source_sha256": "90955947fb0103a0fb24646e01f0354c69deef3d24b65fcec95bc7c1d600b1e5",
+      "en": "「Hit. Optimizing auto-maneuvers.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1303": {
+      "repository_source_sha256": "b1e6ff55199a66a38d520418b83ef3ea29c7e5f4fd178ee5f7082fc7d21babc7",
+      "en": "「Damage past safe range. Alert up.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1346": {
+      "repository_source_sha256": "48af056992604a7a06ff61171debecfe71afaf11eb8690fb00ff3d2f7a4ee79e",
+      "en": "「Damage exceeds expectations.\\nTactical review required.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1401": {
+      "repository_source_sha256": "993a77242476350954ea9a239845ba71bb556a388dc47f794dfaa6985e52795d",
+      "en": "「Situation danger level increasing.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1422": {
+      "repository_source_sha256": "fdb6144ee45672b5909a2ddebc2ae2ab50480c8fb0ffb6f54de1dfb1bc06f7cf",
+      "en": "「This situation needs pilot judgment.\\nRequesting instructions.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1475": {
+      "repository_source_sha256": "bb59aae26348ced757227d5a768a4b5e0affd42d3be7a7e4eabd37c7a7e7435c",
+      "en": "「Tactical disadvantage confirmed.\\nSending SOS, continuing the mission.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1536": {
+      "repository_source_sha256": "f6f5eba3ee272d7e5d97f9c17e2724cb6ed275d6cc96f86debac63614134e3c5",
+      "en": "「Emergency situation.\\nCombat too risky. Recommend retreat.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1591": {
+      "repository_source_sha256": "45523d9034326ecdfc303d32c9b34d7d8a024dd0d17eb34e28305d62b43c5c91",
+      "en": "「Warning.\\nCombat will soon be impossible.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1642": {
+      "repository_source_sha256": "83055e911e513fedfbca037424d2d2c41c697889c2af28206cb49647b64ea5b6",
+      "en": "「Combat continuation is impossible.\\nI'll withdraw before full shutdown.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1695": {
+      "repository_source_sha256": "a1d945640be69b807aa88efadc7ef028933946e960da4aad7e78430a40072626",
+      "en": "「Understood. Emergency escape on.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:1730": {
+      "repository_source_sha256": "d47f316b88f3d7260fe6139e0b159c3f1453a0e1d0fd50148afc4d62ef4a767b",
+      "en": "「Understood.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "Understood."
+      ],
+      "review": "conflict"
+    },
+    "294:1739": {
+      "repository_source_sha256": "dd210193274e1e729a90a4aa923995a7245c6e3f2e79a80c8b293a354a721ae3",
+      "en": "「In this unit's range. Can attack.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:1766": {
+      "repository_source_sha256": "0e51eecb71b5e5723175a41ccca955db6fe615c84437461a3f22dc25e9590063",
+      "en": "「I expect Ensign $$レド$$ to get results.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:1807": {
+      "repository_source_sha256": "a213460a171b70829ae6a0a5d9c04aa2e7b982002b426988030b86afd03b4c22",
+      "en": "「Target friend-or-foe ID complete.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:1832": {
+      "repository_source_sha256": "d52177ad24c4b70041cc7e1ac3518b9bffa9c95ab4be1eb5456806e3bcce39e4",
+      "en": "「I support your tactics.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:1857": {
+      "repository_source_sha256": "0127446fecb2ebc5788dbc6b1ba9d4cbb727614e717987fb388274ff80592c8d",
+      "en": "「Enemy unit lock complete.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:1878": {
+      "repository_source_sha256": "088d246a18bca272583566d8a0fc3e93647518f599ced2a9109e6cf341181bb3",
+      "en": "「Enemy has entered this unit's range.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:1909": {
+      "repository_source_sha256": "67e94533dea3954b24b752e9b3f97fff61e161fe601f0677d80a8b26b24fc2f7",
+      "en": "「Proposal: hit-and-run at this range.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:1952": {
+      "repository_source_sha256": "48de680aa3666b7a5441a541616144f3b3072a1db8b982e1cdc3985784dd25ed",
+      "en": "「Target confirmed still operational.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:1973": {
+      "repository_source_sha256": "f97ab53f92f701047d14110943246334c09e3b05494c06cbf5f5cd7f2a5da305",
+      "en": "「Consecutive attack possible.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:1998": {
+      "repository_source_sha256": "cf73d426290618d317e0fd0a438f8810cddd781756c8fef04fba4a6ec08cbcda",
+      "en": "「The $$人類銀河同盟$$\\nrecognizes $$サイデリアル$$ as hostile.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2057": {
+      "repository_source_sha256": "a198d0c1f39533a3a79824dbbe6e4148c616cb4a3c7594958302bbc578b3414c",
+      "en": "「Understood. Deflector Beam, firing.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:2094": {
+      "repository_source_sha256": "ce9d7a3a4efa9462664dfa846a9bee58455f72248daa988454735a65b999925f",
+      "en": "「Deflector Beam, standing by.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:2131": {
+      "repository_source_sha256": "0f9ac478f81133cee5382614f6d91a30a602104134f0761d673b30be8db8ee86",
+      "en": "「Enemy unit within this unit's range.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:2154": {
+      "repository_source_sha256": "0282095c6c3555d26a2a1ed8413a145ec5d73423abd5dc0e381ba9af351ca8ba",
+      "en": "「Support request from friendly unit.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:2177": {
+      "repository_source_sha256": "45a00f551d57cad99ac45f3383345a328dd37bc1e50c2166af741b94127e23fc",
+      "en": "「Enemy data updated.\\nOptimizing the evasion program.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:2232": {
+      "repository_source_sha256": "ea50edb4ecae83f8f1e621ebe8705bb633699df137aea3381286cee535cb2213",
+      "en": "「Evasion successful.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "294:2245": {
+      "repository_source_sha256": "36f2fc7916dea320e62443cd58cddb0e9bbda7f352ca50b68ad6f1f913a3ca7b",
+      "en": "「Strategic advantage hard to secure.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:2272": {
+      "repository_source_sha256": "ed6e9ee94b0b1018e0266f29a6253b436e192527bc19e92c922ec6c80f837905",
+      "en": "「Understood. Locking onto target.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2305": {
+      "repository_source_sha256": "22ad9d595eeebec6a7469a39a9c11689c2d45f249b847145e8832eab51874b22",
+      "en": "「Understood. No issue with this unit.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2338": {
+      "repository_source_sha256": "86f0a85250ca7a2a408bb88c6da0794a1acdb14413f5e0a2d704de47a9a1fd18",
+      "en": "「Affirmative. However, this unit is\\nestimated superior in mobility.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2401": {
+      "repository_source_sha256": "4f96aeddc67ae6e4b00b11914aa85cbb49ac2d3842aaf92d2630f16960a5113f",
+      "en": "「I respect your judgment, and\\nthis unit will carry it out.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2450": {
+      "repository_source_sha256": "b66d0866351b4085d5be9b1315a3b3617d766ae0ea54bb7c5013a8097d239487",
+      "en": "「Affirmative. Unit: super strong.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2481": {
+      "repository_source_sha256": "21c19e273a438fc475b6cd04c69a34da62d9f18ac1b5a7e86cefdfcf9fa3acd9",
+      "en": "「Seawater lowers aiming accuracy.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:2514": {
+      "repository_source_sha256": "cede0f09e18586a201d1fcea0913c427677b830e68be85381aeb7e78ac0ca6f4",
+      "en": "「Distance to enemy: 2000.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:2539": {
+      "repository_source_sha256": "b47760a080e54b832ea4e83a4709bf5f373e8d449bf7b67b54ebff12e6d41ef2",
+      "en": "「Beam use underwater is inefficient.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:2582": {
+      "repository_source_sha256": "9e05f4af2f8b6b0c81f631f810a2d212d092043602692e16d6c41e5b007aa059",
+      "en": "「$$ヒディアーズ#keyword$$ approach confirmed.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2611": {
+      "repository_source_sha256": "d87241d5e4a948fc162f79ba97228b21b3b3b33f4aace545e023fea81c190dac",
+      "en": "「Understood. I respect your judgment.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2642": {
+      "repository_source_sha256": "71c97d1c47ff9fccc85a5950291f16b7d1452fa692a581345e842cdeefbba5e4",
+      "en": "「Target confirmed. Commencing attack.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2673": {
+      "repository_source_sha256": "51dfc4b9563e1bb8e0511163d0464ac6e4f08ccc38098f39dff6f137f8fc3c47",
+      "en": "「Understood. Minimizing human harm.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2716": {
+      "repository_source_sha256": "71aaa7164e856e51d485b1737b7e7d685043d384d732acc9c925902f1f6194d9",
+      "en": "「Target closing. Ensign $$レド$$, orders?」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2759": {
+      "repository_source_sha256": "c2a42e98f4a5722611235786e11993d2c85687609b3f1074e5c7f66df3dc3cff",
+      "en": "「Understood. Executing the mission.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2784": {
+      "repository_source_sha256": "a72597579bf74c6cf8255b455487b2f11a770179fa198153fc3aca78f15e6d6e",
+      "en": "「The Alliance deems it an enemy too.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2827": {
+      "repository_source_sha256": "4e0002b1660175101b992d5ab3b114985241057ced86b8a86575932d9696d610",
+      "en": "「Warning.\\nMobility likely tops manned units'.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2876": {
+      "repository_source_sha256": "298c4f9fa757c0064918e6406790dfdfe874725bab66021131596f115be3451b",
+      "en": "「The $$サイデリアル$$ are one of\\nhumanity's greatest threats.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2933": {
+      "repository_source_sha256": "162bc496db58d5f74d1cb4271dbf564f73b97cd98f8a9bd7d501246fd4b42166",
+      "en": "「Capabilities unknown. Danger: max.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:2968": {
+      "repository_source_sha256": "3d879d0f467b241cf25eead601f3fe50a1d0ba160305e77c20ceaf47649cd85c",
+      "en": "「$$スフィア$$ strength is unconfirmed.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3003": {
+      "repository_source_sha256": "71b35972aaa7c9542fb5f1790809c1b2c8f4c8f6d5538df88a67629fe78dba8a",
+      "en": "「$$スフィア・リアクター$$ of the\\n$$怨嗟の魔蠍$$ confirmed ahead.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3056": {
+      "repository_source_sha256": "d2415b7ddefa370de96eae39c700ec56ce9ce0a12f468471d153b959ba3a8ab4",
+      "en": "「Presumed to intimidate the opponent.\\nHowever, meaningless to this unit.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3125": {
+      "repository_source_sha256": "8e9b08588686ac45875b39d48337a0a932122d6b5c747e4d05767313590c27c6",
+      "en": "「Most efficient in both strategic\\nand tactical terms.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3178": {
+      "repository_source_sha256": "4f41d6a997516c436b961cac29046288bf9727d84db2651859bc5e699b91d00c",
+      "en": "「Enemy commander appears to fight\\nto satisfy their own desires.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3231": {
+      "repository_source_sha256": "a90ce7a30c9dc550faf43d35c127eb276a4389acecccb7128df23e2a3f3f07dc",
+      "en": "「Unknown energy sensed from enemy.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3268": {
+      "repository_source_sha256": "1f3139426a900a081d3a8285cb1b44f640783f0047dfcf00ccdd710d8e1ae9bb",
+      "en": "「Emperor's exclusive unit confirmed.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3299": {
+      "repository_source_sha256": "7227cb27549970e5ea5684ac0ee0390416b7ee71e5caaf9976f0c80d8af2909c",
+      "en": "「Multiple $$スフィア$$ sensed.\\nDanger judged maximum.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3348": {
+      "repository_source_sha256": "d8f3415d6ec9cc3416e642ca8f0a7ae29a351d395eebbbd8696f0e5f5ce3a648",
+      "en": "「Enemy pilot's goal is to end\\ntheir eternal life.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:3405": {
+      "repository_source_sha256": "bd234fd8fd1ec89d6424792c192a3545510868c53a97911102b8e9a380ad5455",
+      "en": "「Target identification is complete.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:3434": {
+      "repository_source_sha256": "8576ceb0787301e2f5faa0e89dd9a0dd64ae41689fba19346e41f2d4cca44346",
+      "en": "「Understood. Using the Halberd.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:3465": {
+      "repository_source_sha256": "b73e2e9d6feb057ed53914ec31623624d0f7dd628bca85c054cfa41fa29610df",
+      "en": "「Beams are inefficient at this range.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:3502": {
+      "repository_source_sha256": "de8ac2a7c0f8037af629fe17a1949d8dd029bdddeedcad0b2b2092bf71bb9d80",
+      "en": "「This thrusting weapon is\\nthis unit's only melee weapon.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:3553": {
+      "repository_source_sha256": "2579d741e3cd46c5b19a757a5bc21b405b45090054f6ced230ef3c595dcdbbb2",
+      "en": "「Understood. Computing lock solution.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:3592": {
+      "repository_source_sha256": "687f56d5e5285838dc76350164a22a679f6b64981cef57136c0ce7a42fa029e8",
+      "en": "「Understood. Moving to counterattack.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:3617": {
+      "repository_source_sha256": "633e78c5f04124f41aaec88ba3f3881e9851973a4e094a7440a78d32aeac2a6e",
+      "en": "「Enemy unit already set to disengage.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:3648": {
+      "repository_source_sha256": "20914fe64f1b2834d6843aeb561fdd091b81b8500a1d0f1a65abb9f280c5925e",
+      "en": "「Understood. Blocking attack on ally.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3683": {
+      "repository_source_sha256": "13537485f020f00dc8704c89b19d77d5d1a7803126f87ffdf38feb27bcd5ed50",
+      "en": "「Target is outside this unit's range.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3706": {
+      "repository_source_sha256": "d66a148f0bb9b2f87891ffe4e358e6e86e7484551b2a953dbad04be209f9ae21",
+      "en": "「Unit output low. Recommend a\\ntemporary retreat to resupply.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3755": {
+      "repository_source_sha256": "a9d5ebcd43184b258556575aaededb401019da7b2cec5b109311344ac042648d",
+      "en": "「No problem.\\nEnemy attacks are fully predicted.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3804": {
+      "repository_source_sha256": "1feca903c945458015c56374a4e80ec436059998089b30ca0153d95d0e873c2d",
+      "en": "「No logic found in enemy attacks.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3841": {
+      "repository_source_sha256": "64d8e55f5e9221e26a8d18b7473d751f9f69008549be708abe0af3f06c0b2f10",
+      "en": "「No damage. Evasion continuing.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3872": {
+      "repository_source_sha256": "5d642b920579d05c55496bfa4dfee2f9126bd4ddf663e8ebf38795bccd7461f7",
+      "en": "「Warning. This attack may be a feint.\\nStay alert.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3923": {
+      "repository_source_sha256": "e361b5dfc3b7f4717edd8c483f19961e0d2eb9c07da30825598da10448283b3e",
+      "en": "「This unit is ahead. However,\\nrecommend a decisive attack soon.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:3990": {
+      "repository_source_sha256": "cc39d2428e9869cac9800f4a5fb3f62e94ad32d7bb35991bf26653f6f02a444b",
+      "en": "「Currently analyzing data.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:4015": {
+      "repository_source_sha256": "a1396033ec900828ebebd4741ae1932f5cda8d363712936fb7349e47def06568",
+      "en": "「Possible. Request swift destruction.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:4058": {
+      "repository_source_sha256": "8983f957701353a6c6c9f064539006a3d27ea1e52ed3bf46e0f305b7e9213bfb",
+      "en": "「Understood. Collecting data first.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:4089": {
+      "repository_source_sha256": "ebe894a6ecebd7e6e39722214ce3d6c81a5f2c50a8d896300819e63245727a57",
+      "en": "「Anti-shock defense.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:4108": {
+      "repository_source_sha256": "c04cd02bd1e4b90a4f988895176f2e2764330e27824f47add4454d6a0f336d24",
+      "en": "「No damage to this unit.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:4127": {
+      "repository_source_sha256": "10c817e98275cf67971b275d9fb388258cb990cce0706ba9d0b7fd83a7b5f640",
+      "en": "「Extremely minor. Combat unaffected.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4162": {
+      "repository_source_sha256": "a4a230022d996da9d7b28ef82399e1a0db8f0e633f15b9f593785ed78b7ce6ad",
+      "en": "「Hit. Only grazed this unit's armor.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4205": {
+      "repository_source_sha256": "5beb2c50859f2626e272917e0f32b1b82a7016fcdfa70609e40715459f3358cf",
+      "en": "「Hit. Output down 5%.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4228": {
+      "repository_source_sha256": "86bb155350d35688db176b20fac9f7fa84eedb4ab970403e802cc844678fa17c",
+      "en": "「Enemy threat updated. Be on guard.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4271": {
+      "repository_source_sha256": "abdc1822b0b3f67509493cd1ea462fa46454adeed4649f8236470745e2926d0b",
+      "en": "「Advisory.\\nFurther damage poses a serious risk.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4322": {
+      "repository_source_sha256": "11c6ddf6814bb7344ef303a02a4464a723a759b053405ac719739a7799ec55a6",
+      "en": "「Warning.\\nMore hits will hinder the mission.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4373": {
+      "repository_source_sha256": "3bcf46d258805d732547b76ea658ae0a252738c76b5553736a18d498e811020f",
+      "en": "「Damage critical. Retreat advised.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4404": {
+      "repository_source_sha256": "c49f0c19ead5a27b8c25eec97d5de70aa61ca465ff6a67e7f481d1424f29c1e9",
+      "en": "「Output dropping. Retreat advised.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4441": {
+      "repository_source_sha256": "a4ea11b27a6532d7b5030a6802b3da9413d5e5cb506dce3d8ce235bfbf1f27c3",
+      "en": "「Engaged $$宇宙怪獣$$: threat up.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4476": {
+      "repository_source_sha256": "c6b1f18089b3468d9e7570208a4d0763dcb2e6e322118dcfb6ff1b2cfe4646bb",
+      "en": "「Enemy unit seizes on our damage\\nand is preparing another attack.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4525": {
+      "repository_source_sha256": "3a0ff263cfdb90ee9da0c58db27c201f4e4612606b5248e83b9f33d6510a9266",
+      "en": "「I leave the judgment to you.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4550": {
+      "repository_source_sha256": "e9052aba069cb8733e5beacc846dc446be9ae9ab46caa6027ae22bea09474e3f",
+      "en": "「Heavy damage.\\nOverwhelming odds against this unit.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4599": {
+      "repository_source_sha256": "ea1157ad572fc61111e9fc0cdd13b674883a805feb3e6dcba4e0b8e41964fbf5",
+      "en": "「Alert. Generator hit. Mobility down.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4638": {
+      "repository_source_sha256": "150f09dbad876cc456167f343760664989c8f31fabc78d8104cdecc9b4ccee99",
+      "en": "「Drive damaged. Unable to fight on.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:4669": {
+      "repository_source_sha256": "024d13a73d84740e84f91364d6c46c9e84bf36db20894e65ad71343128ed3cb6",
+      "en": "「Understood. Closing in to attack.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4712": {
+      "repository_source_sha256": "2ef34924b433a77970ed69191dc524a9be3bfb4a20128a6b18ee7955240e9df2",
+      "en": "「No problem. Ready for use.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4747": {
+      "repository_source_sha256": "9f65a57c282fae1093ef77d42b9b595d091b477a30b70f3417b732fa1f6c4572",
+      "en": "「Target lock is complete.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4784": {
+      "repository_source_sha256": "ba186cd0d51dd4d89b902ec2152d9edd4efea30b8c0cd7e55c4ec3064bef63a8",
+      "en": "「Understood.\\nAll systems to Ensign $$レド$$'s CNS.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4835": {
+      "repository_source_sha256": "df28f5fc3a7122ac103930192fbe415073dc3183a32f465095a3204c74af2ce4",
+      "en": "「Over limit. Life support at risk.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4878": {
+      "repository_source_sha256": "fd9ab3a7b2083399ed2244c16633bd9ddfc7d435480581dadce37e3c05fec222",
+      "en": "「Nerve link ended. Safety secured.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4913": {
+      "repository_source_sha256": "0d3d7b2add1ce545373e667b070a5c5a4b1070baaec94c229cc061c3348bf2a6",
+      "en": "「Understood. Linking drive systems\\nto Ensign $$レド$$'s CNS.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:4972": {
+      "repository_source_sha256": "6f008bb028aee6f7eba105d961dc6cf8560d212509d5d5cbb7bfff2edf0c2a18",
+      "en": "「Connection complete.」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:4985": {
+      "repository_source_sha256": "9a3267a2f8bfa26a6c2be3f3940f49d8f02c0e9e2fd2b2409f7872cfe4fe40e7",
+      "en": "「Target destruction confirmed.」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:5006": {
+      "repository_source_sha256": "6bc9c04353cd353f1d081183f1839632237bab1043ed5a1ea7a8cc1310bca110",
+      "en": "「Understood. Neural connection start.」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:5031": {
+      "repository_source_sha256": "f20454a8ffaf3eeb6f7a88bd95503fb622e95427922b289ff7e224d89d70e387",
+      "en": "「Life support malfunction.\\nSwiftly annihilate the enemy unit.」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:5080": {
+      "repository_source_sha256": "ddbbeb6ebfcb6659eec1f28e0095b3558d410a2fb93c062955267475775aa662",
+      "en": "「Neural connection terminated.」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:5099": {
+      "repository_source_sha256": "ea56a40f207d1568642f4078458208f206ab17b02626f062f478b832f9438e3b",
+      "en": "「I'll settle this in one go!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5122": {
+      "repository_source_sha256": "51f3e740e9a397495763de938836e0027e3ff9efbf9de0d207e827791aa61762",
+      "en": "「Sweeping the targets clear!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5143": {
+      "repository_source_sha256": "86678021eb67aba4d633b539f499ab195974fb5c9e396ae7ad3050d1b81e1a73",
+      "en": "「Enemy unit confirmed!\\nCommencing combat!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5192": {
+      "repository_source_sha256": "244f549ff86a042eb928996f68f8b194e1f79f02bce38bbeebefc298fd399686",
+      "en": "「Eliminating the hostile force!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5217": {
+      "repository_source_sha256": "fe5179d689e6800eee24c7121e02fc925c1513f3fb07be2b5ddaf1641a17037f",
+      "en": "「I'll fight too...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5234": {
+      "repository_source_sha256": "8a26ff0e1669568f96324475d397487706b5063cb4f8c2ec14433e9883b897a7",
+      "en": "「This is my fight...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "294:5259": {
+      "repository_source_sha256": "bb59c663a355b6b47b8806063f645ebc5abbf5db5d0d5523956206a202bc5e5b",
+      "en": "「Floater activated...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5282": {
+      "repository_source_sha256": "f666f8858a145355464840e9a8c7d08b4fe5c2102fed5c51b15defe955374028",
+      "en": "「Enemy confirmed. Mission start!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5315": {
+      "repository_source_sha256": "4cdbd98bfddc9e91bcd7c4021297f69dbb71b8ba2e5db1b1d2479f73e84ac17c",
+      "en": "「I'll do what I can.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5346": {
+      "repository_source_sha256": "3567bb1184df71c74e9995ecc2491e6d6456bcd30cf571bb5813a4001f1d4ae7",
+      "en": "「I'm part of this team too...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5377": {
+      "repository_source_sha256": "6e430a303471b1e81e303a6f12b48153985a08e8995482a793ee2fbc71c5fbd8",
+      "en": "「I'll protect the $$ガルガンティア船団$$!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5416": {
+      "repository_source_sha256": "babee8f7f965af4698eafc116af3e64c409d53fb6479b1829561f04a2f7e2012",
+      "en": "「I won't let you touch the fleet!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:5451": {
+      "repository_source_sha256": "7ea352eddfd5fbb4b695db6d749c13369d1ec7daebcc3e28f7d289ee5905e584",
+      "en": "「Now!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "294:5462": {
+      "repository_source_sha256": "3e1ad2bff2e28c3af3eadf42832a59ea72558e4e7e2ae963d4ef423671531a8a",
+      "en": "「Don't think you can get away!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5487": {
+      "repository_source_sha256": "c18b3c5c2058d7474a0ed8da1b0740beabd9ffdb0f5a853088e291784790edff",
+      "en": "「I'll finish you for sure!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "294:5508": {
+      "repository_source_sha256": "198858307d26908fd829e8f78672612a0b9fc640258cd2388935b9f6c15a30ba",
+      "en": "「Even if you resist...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5527": {
+      "repository_source_sha256": "458ea2bc169233ba214c19459a703c2e36cede13593fa45395a9ff50131f20f4",
+      "en": "「I'll take you down!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5542": {
+      "repository_source_sha256": "bc6b5e5cb0a2ea2a4a493d844aff74a8c03ca4398bef648879d19a29a99cd6f5",
+      "en": "「I'll eliminate you!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5557": {
+      "repository_source_sha256": "594e0f81f829747e67d58f838d62920f7b4e02e0fc973d067d233e9242685cc0",
+      "en": "「Brace yourself.」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5570": {
+      "repository_source_sha256": "9816f366a708d344a2bfa9d76c678e47f80bb317d9264bdd91448b53bc942279",
+      "en": "「I'll stop you here!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5589": {
+      "repository_source_sha256": "fcc700ec58a50fd826d9fa3fafb797f513c9b89fa5a152954f22bff8732ad397",
+      "en": "「I'm going in!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ],
+      "alternatives": [
+        "Time to make our move!",
+        "Making my move!"
+      ],
+      "review": "conflict"
+    },
+    "294:5604": {
+      "repository_source_sha256": "b0f3f3bf791f1a12fea10015a10b402d282987765e5a084e247266ec6ab1b704",
+      "en": "「If I strike at their opening...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5627": {
+      "repository_source_sha256": "6c59aa91c02ae60570b105436430238b37be3bf9eaf3eb82a05a0db54dfdb057",
+      "en": "「I'll fulfill my role!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5646": {
+      "repository_source_sha256": "db7fbe2df94647cbb83107744675198260d42c584d7b7a7358c2a694ad7dc6a8",
+      "en": "「Since you've shown yourself...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5669": {
+      "repository_source_sha256": "c17bb007507f73b126a07cb13dbb22d982d177f084a2ecf09ad35f3120169cdc",
+      "en": "「I don't intend to waste time!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5700": {
+      "repository_source_sha256": "39c8c4b85f7282fe8472dc71a971da60cea88b63ee3e19e2020890c9508a5ff9",
+      "en": "「If only to survive...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5727": {
+      "repository_source_sha256": "8295c5ae877728870a75b3f1320156414f9e4ebf6d5212aad16196a4c5d090c4",
+      "en": "「I have to do this!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "294:5752": {
+      "repository_source_sha256": "f4ee136b4f999da318f830432b1a5380ba962f9169aa9dfdc3164c6a96aa5239",
+      "en": "「The timing's right...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "294:5779": {
+      "repository_source_sha256": "6d9cead6829ccd633d9faf2e6918471c0201da20e330ea65d9662e79ad58879c",
+      "en": "「You think you're out of reach...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5814": {
+      "repository_source_sha256": "84fdaac299cb57a8b29ce6c8488bda51d46f6bb42c9c46cc6d1b5c4db18f8295",
+      "en": "「You're in range!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1",
+        "weapon slot 2"
+      ]
+    },
+    "294:5829": {
+      "repository_source_sha256": "ab28f4899eebedfa54519d9ebf1086dca754c2a116fe632d9bbb01494b4bba7a",
+      "en": "「Aim! Line it up!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5852": {
+      "repository_source_sha256": "7ccc53c989128a64886a97aafb67635c01b0417e19914f500c1cbdba8cdd41a1",
+      "en": "「This will hit dead-on!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1",
+        "weapon slot 2"
+      ]
+    },
+    "294:5871": {
+      "repository_source_sha256": "1a0522db04b6393f6a50116aa40b30648f0983383ceee7a3254ab3e4fda47ee8",
+      "en": "「Closing in to finish it at once...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5902": {
+      "repository_source_sha256": "cc3ac9d8f944c61163c41e1cd28fc34eeb33f4985f5603e5101d9808e9674f3b",
+      "en": "「Our mobility is superior...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5941": {
+      "repository_source_sha256": "b80230f85b4b1c1fb932b38fc2bd1300c03d6ac7b21e144a1dba10d0e2356177",
+      "en": "「Launching a hit-and-run attack!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5966": {
+      "repository_source_sha256": "9325374b68bebcbaff463429058305a0880f2d4760e0e88aa04abdab473954a7",
+      "en": "「This'll work!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3"
+      ],
+      "alternatives": [
+        "This'll do!",
+        "Now this'll work!",
+        "This could work!",
+        "This will work!",
+        "This'll do it!"
+      ],
+      "review": "conflict"
+    },
+    "294:5981": {
+      "repository_source_sha256": "195e2708d13fdbc8586d609aa10cdd2fe0b6e2d79730d9ed9e16b8d21a90376a",
+      "en": "「Now!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:5994": {
+      "repository_source_sha256": "8075fdc84f2abde87a7448f6a211d45f2d39b56e6a3cdb71360e008de530d116",
+      "en": "「Won't fall? Then again and again...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:6025": {
+      "repository_source_sha256": "b3ab9445b16f2540a31faebc84bbf81f43b00073cd05d4c8ef874da0bcd12448",
+      "en": "「If the enemy's still standing,\\nI'll just attack once more...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:6074": {
+      "repository_source_sha256": "d3a6172aeab7494214dbac3d21c981205570add9568d3b6ed943e9f46cdba27d",
+      "en": "「Humanity's foe $$ヒディアーズ#keyword$$! Annihilate!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6113": {
+      "repository_source_sha256": "a40ba81de3b3ceddf46a1dc54556ae0530a5c6258fe703876b66659bfe391c47",
+      "en": "「I'll annihilate you for humanity!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6148": {
+      "repository_source_sha256": "a0a69b29e23a086255b5eaa989373e8d559b6cb3a231e9f988712076cabf7c6b",
+      "en": "「That custom $$ユンボロ$$ again!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6183": {
+      "repository_source_sha256": "d6282b43e0ad6847ff21dc5a694f400bb8c5e534b441bcde0c9a52e10d7bf067",
+      "en": "「You never learn, coming back again.」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6212": {
+      "repository_source_sha256": "41e0e9b25bef946b0592c7342f1017ae03eacc7e4086144531ab18c1d43e51c8",
+      "en": "「I said not a finger on the fleet!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6255": {
+      "repository_source_sha256": "ac59954e56ca28d3ff787f7b93f13181847b69bcefeb86cdf2b798d9e738e92a",
+      "en": "「To think humans fight humans...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6290": {
+      "repository_source_sha256": "35497f8fa6c3bd590e7c9a3f525a52eda06723c0bad23cf1914ff5149fd5171f",
+      "en": "「Soldiers who just obey orders...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6321": {
+      "repository_source_sha256": "293e17b16c3f7b1ffdefe59bd1aab0b46adb825a5f753d8a9529d66529878011",
+      "en": "「This is humans vs humans... war...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6360": {
+      "repository_source_sha256": "5edef7e58c18767609b26e521403a0485cca9f638906e2456ede2e7f5eb23819",
+      "en": "「The enemy has a Gundam too...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6393": {
+      "repository_source_sha256": "b187b3b2fdca351a72d946cb633bc0f445901b1cb0f7bb6ccf2585c435705d3f",
+      "en": "「A Gundam...! Stay on guard!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6436": {
+      "repository_source_sha256": "77ae71a98c88ddc2248a91f1b4d1250710ed518b32127758e6290d4cc996fd4f",
+      "en": "「I saw that unit in Alliance data...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6479": {
+      "repository_source_sha256": "8509068541a7be1d6f7d3b4de764cd09c9fc030b714577a043c72ea4255cf6f7",
+      "en": "「To think I'd end up fighting that\\nalien life form...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6538": {
+      "repository_source_sha256": "0b10dc1fdd502e9adb4fb87717685110c9abf063f6bc78bce9f24aa88b3f9eac",
+      "en": "「Annihilation comes before data now!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6581": {
+      "repository_source_sha256": "b0239bdd13f46efb879fc8d0d4880d620c00b1aad6a5b96ecfc660aca4a21b7c",
+      "en": "「No data? I'll collect it in battle!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6624": {
+      "repository_source_sha256": "5378a505833e0cb41be2251c3488517a63608c4b0cc0bf06da60ec35560f8688",
+      "en": "「To think such creatures exist...」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6667": {
+      "repository_source_sha256": "628f63e255eeb7d0e26a8cb4bd03e1483197841bb968f85d65028b920984d2ba",
+      "en": "「These things and the $$ヒディアーズ#keyword$$\\nare much the same!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6718": {
+      "repository_source_sha256": "a79928ce5ed5970df67ae18cd5c69dfb77ef95fb64a144f66a6fcafd979b6e56",
+      "en": "「A fight for survival? No retreat!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6759": {
+      "repository_source_sha256": "d2cfa2713169862fdce871305b9fba0f1b9e0d24b10c7cb4205a61b79fe0d121",
+      "en": "「Humanity won't wait to be destroyed!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6794": {
+      "repository_source_sha256": "036236e692e11d2d381a4d032065871726f4007d7ccca036147be5f503ff144b",
+      "en": "「Space monsters even in a backwater!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6833": {
+      "repository_source_sha256": "cb964c4c71e25d814563e136489ce95b69448caf5061b7afaf384d71bd05ea08",
+      "en": "「An unknown space monster!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6856": {
+      "repository_source_sha256": "d6346b8c8410088459c60a2b4effe9a08b1b464615e1846598998b192a7fd0c9",
+      "en": "「A space monster...! We must fight!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6897": {
+      "repository_source_sha256": "ea839cc16f740e6393c4490563572c735614cf829bd27662bb510398cd8f08f0",
+      "en": "「A mutant space monster!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6922": {
+      "repository_source_sha256": "81cc6fae9818860148b22691791ac354c50cf75673b6960403149f57f760f265",
+      "en": "「This size! Biggest space monster?!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:6963": {
+      "repository_source_sha256": "9b45f3ec57d3651047260ef2bed93d4112dfb6f3cbf483ea8712a7a233025e35",
+      "en": "「Size doesn't decide the winner...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7006": {
+      "repository_source_sha256": "74904fafbaaa364aac7da67354ff5e0a1d25d95fe68a6fcea4362e441f716255",
+      "en": "「If I outmaneuver it,\\nit's not an unbeatable foe!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7057": {
+      "repository_source_sha256": "2db6125ac4881582cbab9d6cf6e8c858711b654337ab7ed264aaf4ac31c47c27",
+      "en": "「Watch out for its heavy armor!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7086": {
+      "repository_source_sha256": "fdf6ba05dc7813d064af4e3e095e84c5db2c89d0e5216e6d5240a9abaf7b29f9",
+      "en": "「I'll overpower armor with firepower!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7117": {
+      "repository_source_sha256": "bd30ef9a84b17f39fd8ec013137926c9bd5ef47ad77836b8a8bde32e231caa96",
+      "en": "「Speed is even...! Then...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7152": {
+      "repository_source_sha256": "8a6dd52b77c80a254010caa7690d3a8a68e98ef11c4c00f2af18cce51748ecf2",
+      "en": "「Behind on speed, but in agility...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7191": {
+      "repository_source_sha256": "83455e10a27942eff6200377c176440f5a43677148299522b3d8c358595c0a92",
+      "en": "「Its frame is about the same size\\nas a $$マシンキャリバー$$...?!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7246": {
+      "repository_source_sha256": "5956a6e7b65087b1a36bdcd8f80899bb9631fd5f2136e171a0a409b08aab8df4",
+      "en": "「People who fight for a living...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7281": {
+      "repository_source_sha256": "71384589af8662cb05e21ba6827bed44864d31cfd4f75445205a39a5117489a4",
+      "en": "「I won't lose to a force\\nwith no discipline...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7334": {
+      "repository_source_sha256": "db08140e5a94bfdfc157bbc5cdb0b447030f2a365753c93b1a3cac429adb915e",
+      "en": "「A unit made with unknown tech...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7377": {
+      "repository_source_sha256": "fa4440d0ce4038949b8a353112f963a2061cfd5a2907b511195c8d9354791a69",
+      "en": "「Don't assume common sense applies!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7420": {
+      "repository_source_sha256": "64516c269a8597ce847d87c560d7b83df4d9fa867078bb76da81685c07e174ca",
+      "en": "「No life signs...!\\nThen I won't hold back!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7471": {
+      "repository_source_sha256": "821dda225690f8eabb268239d5235b6c936efdbce45a8bf6211232c089ca0e47",
+      "en": "「An AI will be slow on snap calls!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7514": {
+      "repository_source_sha256": "5231bd398d1764b868baa78e8ba2e286634e8efe8ab82755682b15102fb8594c",
+      "en": "「I can't lose to a machine...!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7551": {
+      "repository_source_sha256": "fea4deb79d2079f01b8eb67b0f330e9e1628e013f4a45745a213b70c091d5438",
+      "en": "「Lock down its movement!\\nDon't aim for the cockpit!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7604": {
+      "repository_source_sha256": "d5218f57ee00915f7d7056de78309876b3660f5f9f6ce129eb2205eaa196431c",
+      "en": "「We fight without human casualties!」",
+      "source": "new",
+      "slice": "v_g294_00"
+    },
+    "294:7641": {
+      "repository_source_sha256": "e98b671a25cba8dcf87eb9efd84993e89e083d00e4d83f57f26995110162e2d4",
+      "en": "「Enemy commander spotted! Attacking!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7676": {
+      "repository_source_sha256": "3438052876e3b19d483882ddd3759d2eaea8a581aed9441253e56b000a7a9bdf",
+      "en": "「That's the heart of their command!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7709": {
+      "repository_source_sha256": "07d22c06cf9a47682673a9b48d19d3f31833e03d6f610d790c5c667dbd24e9aa",
+      "en": "「Drop the mothership, tide's ours!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7750": {
+      "repository_source_sha256": "681f84e26e1d74ccd9db24f731ca83312b110201655c41b1f6ff9fcf75782b64",
+      "en": "「I'll drive you off Earth!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7781": {
+      "repository_source_sha256": "c2a5dc7c24f8cee45f56f185f822ed5365a577d1989f5af007c188284f192bbd",
+      "en": "「Invaders get what they deserve...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7816": {
+      "repository_source_sha256": "f95fc4527808f6ed5061c999d4ad9dd589df5522810fd26c128188622de6d3f2",
+      "en": "「$$サイデリアル$$...! What is your goal?!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7851": {
+      "repository_source_sha256": "ddb02345afd22c6920e362055110ff297a6be9130f1f6996dc3947a77fee57a6",
+      "en": "「A $$スフィア・リアクター$$ has arrived...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7888": {
+      "repository_source_sha256": "cc03f3a283521e66fb13123f744af99eb7f6db745a30989e81e8be2d88be2671",
+      "en": "「Even if the enemy has a $$スフィア$$...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7927": {
+      "repository_source_sha256": "89af99d2dc0362444a4df50355005e09b751ab2edd5137edb36ab0d560aec65b",
+      "en": "「A being that spews hatred around...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:7966": {
+      "repository_source_sha256": "6216d970fe7af0a8ccdb9313058a559853203c9582b2e9f36005df2cbea2b8a5",
+      "en": "「Its bloodlust... slip and I'm lost!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8001": {
+      "repository_source_sha256": "140044fa5951be07bc4d628124fed600caf8a4dfdee0af463ca441f53b5b5f1b",
+      "en": "「Take out the enemy's top commander,\\nand the battle is decided!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8050": {
+      "repository_source_sha256": "5b9607a01cf3469cfd3450c6f3aa51c9c7ba51b00e43e9d7fdab943488769ee3",
+      "en": "「Their emperor has come out front...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8093": {
+      "repository_source_sha256": "e1cc7d617f317b2bd157b7c35cd64a06b9e155e7f6c6c3796f5609561ee5765a",
+      "en": "「I won't let you take my comrades\\nfor your selfish aims...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8144": {
+      "repository_source_sha256": "abc228df71f576a04cb7fead67a3e12a91b1c159345c5de99bae1c97c1420467",
+      "en": "「Deflector Beam, firing!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8177": {
+      "repository_source_sha256": "d7f5860b1b0de6da231f74bbd88bc1291a93429097cdd489a33450311d0c96eb",
+      "en": "「Focus the attack on a single unit!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8206": {
+      "repository_source_sha256": "6adda4b5fd912d29177de65a404a7a35f3ad295831d6418b099a67b93c9d2542",
+      "en": "「Annihilating with Deflector Beam!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8243": {
+      "repository_source_sha256": "6e920414fc0bb6be161d50d148016d282ed8c1cbb61c6e084ef7e5c748a164ee",
+      "en": "「Setting multiple attack targets!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8270": {
+      "repository_source_sha256": "09e2c81c56e8926a987992b9c099336377555206edb79f2c7412215a140f912a",
+      "en": "「Using our maximum firepower!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8299": {
+      "repository_source_sha256": "8c5cbe4aae319b6af2f9dd19d889adac87384fa10860ea0d9fcd67eca27a9d76",
+      "en": "「Maximum output...! Emitting!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8324": {
+      "repository_source_sha256": "dc18635bf4257de7092c2c3ea14b832a1da2ac8c6dd173d39037662ba67e8cd1",
+      "en": "「For close combat, this will do...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8353": {
+      "repository_source_sha256": "5974a1b1980974deb17c791149cb70b021dd439c9035a7ebbbf77c52086557a2",
+      "en": "「I'll borrow it, $$ピニオン$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8386": {
+      "repository_source_sha256": "7013dd805a95f84e55b7c41fbb174f166559de3fbc7eac6675624f0315cb848c",
+      "en": "「I learned how to use a harpoon\\nfrom everyone on $$ガルガンティア$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:8443": {
+      "repository_source_sha256": "eeba95a15061b23d5f8e6610eb2fa0519c611beae119d3110bbf30e8cafe60d7",
+      "en": "「Counterattack, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8472": {
+      "repository_source_sha256": "6f7ff9e052d8e65151c8ab9ab110998fd47eafdb2a7cdcf2e15aa12d780fa366",
+      "en": "「Countering in their post-attack gap!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8505": {
+      "repository_source_sha256": "5f1098e3c60bc52696cd97690bd80864bbd39d07631ecf041eec87f8d5c0bd00",
+      "en": "「Corner them before they get away!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8534": {
+      "repository_source_sha256": "33c30128f7da793ce2e735024acb84f73cd3fe774456aee1b92d2eca99ba6238",
+      "en": "「If you come at me, I'll intercept!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8567": {
+      "repository_source_sha256": "0b568d9387524936304354755d5653917efa9681f342accf042a38ed7ea16489",
+      "en": "「Counterattack is the best defense!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8602": {
+      "repository_source_sha256": "d591ea13d830d5fef5e761ea2b47c70f2832d2af2b68ba291dca9f44937317bb",
+      "en": "「I'll show you we're still alive!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8641": {
+      "repository_source_sha256": "9b0e07b0014a1bf0caea67d29d7a1b8311902ee5bf79f094b8bf58cc050956ec",
+      "en": "「I'll support you!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8660": {
+      "repository_source_sha256": "3128ad87fba9286bdf1c3bca3911fa9544e44fd751d07e8a9388746273fad336",
+      "en": "「Finishing it in sync with allies!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8691": {
+      "repository_source_sha256": "098f3ef0d311772accc20d0babd101505ec2f21233beb56bd92b8ff8e9ba6e6e",
+      "en": "「$$宗介$$, leave the rest to me!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8714": {
+      "repository_source_sha256": "85ad5bc3a35b7e0d94c1b85491c4e91d7df8aff53c671953c140730abdfe9fcb",
+      "en": "「Matching $$アルト$$'s movements!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8743": {
+      "repository_source_sha256": "73b23ccb7f84e1c14f1fbdb7659bf63179f3d0c2e4f8eb78467489341ba6b53f",
+      "en": "「Major $$オズマ$$ made us an opening!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8778": {
+      "repository_source_sha256": "d02d841460428f965dd92948b3a280b0e1e3744a1954ab51ec58a191879b993b",
+      "en": "「Following $$ガロード$$'s lead!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8801": {
+      "repository_source_sha256": "d1f3145837f83305ac7973d1f55386b7d26ca1022c07427f9ee751503cab57d7",
+      "en": "「Moving in to back up $$ジェニオン$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8834": {
+      "repository_source_sha256": "1f5943e487656af3ff28f46da36146003b47520c23caa03a2817a80ed1536525",
+      "en": "「Let me take over, $$ラケージ$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:8861": {
+      "repository_source_sha256": "134fad23ca45292ae622d8dd7dcb4c814c16c47ae2d219dbc8b4dbe8ac073ca0",
+      "en": "「Fall back! I'll be your shield!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:8894": {
+      "repository_source_sha256": "80e1de93bd6cc012253c5f5e134003a097b75ff00af3455113c38052268aa4b9",
+      "en": "「Don't give up! I'm coming!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:8919": {
+      "repository_source_sha256": "41a8d1945b8334824c6546b0425d643ad80d612a25c00173838a32bd878f97b8",
+      "en": "「Get in front of $$宗介$$, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:8954": {
+      "repository_source_sha256": "c38696dc81d3acc353c8b7e1b3dc09c49af0cf4409abe5c7733bb58adcb1d1f6",
+      "en": "「Fall back, $$アルト$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:8981": {
+      "repository_source_sha256": "68bdbc97552ccf2e84fe8c9242f344957c0a3970f05b40cb01c25e21275511c1",
+      "en": "「Major $$オズマ$$, fall back while you can!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9016": {
+      "repository_source_sha256": "e2348d92d3e7e31884d37e3a311325aa81cd4e5b36d66a32c3107bb7544a90b6",
+      "en": "「You're too far out front, $$ガロード$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9045": {
+      "repository_source_sha256": "f735caf8604f94c5f18e9db0acfdbca2d6aa851d274166354bbb87d1a00e0155",
+      "en": "「Pull $$ジェニオン$$ back!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9078": {
+      "repository_source_sha256": "7d47b4641d101161b1e67f9ccb61f0a88f72fe4a043b796ec8fe3b9fd82466b7",
+      "en": "「Get shot down and you shame pirates!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9115": {
+      "repository_source_sha256": "d20202a8569ca8bca7734549d77fa11ae2060196cf409d41488429a43c808a55",
+      "en": "「I'll make it a one-on-one fight!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9144": {
+      "repository_source_sha256": "aff1ef700e474d08637dbb684b80111fea836ff844074468e2014782308dca83",
+      "en": "「Understood! One target at a time!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9165": {
+      "repository_source_sha256": "cb5fbbc62a77f93f83866f453f53fa30a93844a6eccf0d056ee5701c000f91a0",
+      "en": "「I'm leaving that enemy to you!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9190": {
+      "repository_source_sha256": "3a4b3fd9cf5a2c1c9a617a2a095734aa454c84d127c119e9dde5333c48e71b57",
+      "en": "「I'll surely do my assigned mission!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9227": {
+      "repository_source_sha256": "ba344ade7c5906a96c250cc68b4838e221ad8ce243a1dbd2a1bc0cede3b3fc9f",
+      "en": "「I'll go first!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:9246": {
+      "repository_source_sha256": "4ece88b8015a3d417c87f8bbcad53c95dfb15ce4a99c01c5e73e902da7624261",
+      "en": "「We'll do all we can too!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:9279": {
+      "repository_source_sha256": "dd8b8f13fa801c4c513964158f34a85cd93c571a97ec778e5bff3a9ff78823cf",
+      "en": "「Going in together with our allies!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9304": {
+      "repository_source_sha256": "a99bbc9eda8333e52d1c42133e934ec1781c83cd2fdb60a775edcc0a9a96eacd",
+      "en": "「I won't settle for being a decoy!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9337": {
+      "repository_source_sha256": "4a140f1f74ad2be0568e29468cb97119b0418fa47462e58e7d457316f8b965fa",
+      "en": "「Ngh...! I misjudged the situation!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9372": {
+      "repository_source_sha256": "d8a9de44a3f6d96db40f6aaea96faac37932c57b84141d1c18d270fe04a4253a",
+      "en": "「I meant to corner them,\\nbut I was the one cornered...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9423": {
+      "repository_source_sha256": "91e7b3eb4c7dc4e2a6e27330f7604cc1fee50062a3260979093afbcd8b741727",
+      "en": "「The enemy outplayed me...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9452": {
+      "repository_source_sha256": "14cb35161f0917069a0f40e0ca40e4a24d5309ad6ca89bd7453eceb147ffa932",
+      "en": "「Attacking from that position...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9489": {
+      "repository_source_sha256": "612108763ff4de1d48e0a5556888ee0dcbf4d3576d35caa8c4ca0040ad764983",
+      "en": "「Unit wear exceeds my estimate...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9522": {
+      "repository_source_sha256": "92d4092d4fb64ab284c53d8a3cbf280880155b7ff7b0deea1179ddd8e3600e6e",
+      "en": "「Too slow!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "294:9533": {
+      "repository_source_sha256": "0481c6b969c77e0b1ba0bf40038d10d58798a7032310e79b203bbf65639ba7a9",
+      "en": "「That attack is way off target!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9556": {
+      "repository_source_sha256": "d494163f38b2cd08de0ddacfb568d9e2212f887c05198b41d8b38a49432c37f2",
+      "en": "「I knew that was coming...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9583": {
+      "repository_source_sha256": "68d69236eb61efda42d249e8d0b1281e601fc789652644e30e9140906e593fd0",
+      "en": "「That was close...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9600": {
+      "repository_source_sha256": "ad39ca9eaf8ff2aa89c64c488d6a4220a66de02d2e10e3f348de8cd424305d99",
+      "en": "「A late call would've been bad...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9639": {
+      "repository_source_sha256": "3e5eadd29116c1ebcf78ef2883af35c568d53769d5394bc47164c4aaa570e944",
+      "en": "「Not for such a dull pattern...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9674": {
+      "repository_source_sha256": "2eb8233f7e82ae411a121b6abee137fef9a2c6a1f10206454d2e19642c524224",
+      "en": "「The danger isn't that high...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9707": {
+      "repository_source_sha256": "ebfaa6defbe6261232f0bf20fa84ae5c60e4e71ce59f7d12db4efefc7e1d42c0",
+      "en": "「Evading with minimal movement!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9742": {
+      "repository_source_sha256": "2b099aed391d40eb2a59cbf7ea5b69ed0478f8f399a957477f8e961e18ddcb7d",
+      "en": "「Well done, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9773": {
+      "repository_source_sha256": "f3bdadc0233b8451dcf3428c1253bb89677e9511f797fb300faf94f23a3999b6",
+      "en": "「Hold this speed,\\n$$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9822": {
+      "repository_source_sha256": "a223e981ebfffd8bf4e2713cdf27cce3e4352fd68a13262eb31ec86ab7c07a6a",
+      "en": "「Is that all, $$ヒディアーズ#keyword$$?!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9853": {
+      "repository_source_sha256": "a0b57703712df34b406f6c3604bb325d2ff1a71a72664d49029643f8e685f2bf",
+      "en": "「One of the less dangerous\\n$$ヒディアーズ#keyword$$, then...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:9904": {
+      "repository_source_sha256": "9fc240499b64df2d507edaea3574a1a32abc3668ea9f566e98b7a14706d6f518",
+      "en": "「No brute-force $$ユンボロ$$ beats me...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9947": {
+      "repository_source_sha256": "8283412c4131138bafba023cd31560b60e50bd4076ce2e3181faba02b2bbf007",
+      "en": "「A direct hit would finish me,\\nbut...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:9996": {
+      "repository_source_sha256": "87c61b12139d3d13f849368e3ef4e18294df9cdb52338a1710bdb5aa492f01b8",
+      "en": "「With our mobility,\\nI won't take a direct hit!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10045": {
+      "repository_source_sha256": "77e35850251c1e44729a81553125e6228094ae2cc5be6a404146680e23dadaaa",
+      "en": "「Even if it's a space monster...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10076": {
+      "repository_source_sha256": "dbfdeadb02bb37745d3227031404de74b0f5e6a578ff5d5e74eb78fbb8c57c34",
+      "en": "「Gravity Weiver, deploy!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10111": {
+      "repository_source_sha256": "4ed1351a044ae155141f050f7ac90a8cea7c71a51c3ffe9d73195a40b4689491",
+      "en": "「The Gravity Weiver can be used\\nlike this, too...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10172": {
+      "repository_source_sha256": "c0c05c6817e371600ffcbb8f2d181a02c7250494b4a538fdf35a5f43a0b72985",
+      "en": "「It's not enough to threaten me...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10203": {
+      "repository_source_sha256": "7b858177ea004219435c58e6298991e41a8f391582f98d6f618dff25cd39c290",
+      "en": "「I feel no real impact...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10238": {
+      "repository_source_sha256": "f6d8422dbf9ff21856c62f4c04ee705e1dc986ae47e5ba8656947e17abffc0c5",
+      "en": "「If it doesn't hinder combat...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10271": {
+      "repository_source_sha256": "974011bda847a015149d23d8bf937f157b4a21dee91b0d373dad36a73d489d19",
+      "en": "「Ignore minor hits!\\nJust avoid direct hits!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10330": {
+      "repository_source_sha256": "508ed36b825e4908eca0a76ff8279deba002bc6404590f0d70a164f4396a896d",
+      "en": "「Was I too caught up in attacking...?」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10363": {
+      "repository_source_sha256": "a900ca0b6caf4a6ef5a7652c7a73a68700e47d11b2c72185dd5cfebbd9f44ec8",
+      "en": "「Ngh...! My judgment was late!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10394": {
+      "repository_source_sha256": "8c99a8251a121c82166c3a0faaa054d90e995c00c9b9654d6007a049e30aa173",
+      "en": "「They read our evasion pattern...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10435": {
+      "repository_source_sha256": "9da65b2b706c13f69921e90f4b5d3322deae045a5969d11a28d4a2ffb6df86d7",
+      "en": "「$$チェインバー#pilot$$!\\nRework the evasion patterns!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:10488": {
+      "repository_source_sha256": "9bc5704cd76e78359903578986b09e01f75d251487cb7b1e1765b7c757d95ab3",
+      "en": "「Ngh! Not yet!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10509": {
+      "repository_source_sha256": "175c5804729fb270e7346e96e308e259cb8c76da7e7a84f8d5f9f22e8f549a22",
+      "en": "「That unit... it's strong!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10532": {
+      "repository_source_sha256": "a152011a5ee49eaa00392c94ab5039c4341a8cad20bb5d298e199535fca9fe94",
+      "en": "「Accurate attack...! But!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10561": {
+      "repository_source_sha256": "646fd6c4c414e0399dbd022741441450031b65600957ae42c47928ae841066e4",
+      "en": "「To think it can attack like this...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10594": {
+      "repository_source_sha256": "dfb5fa960c331b50a942fa3449b93d1efb0956a2edeec0b2190ae4198d15b982",
+      "en": "「I need to regroup somewhere...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10635": {
+      "repository_source_sha256": "5d347280e011308ff508f21a6e07ceceb46124c36a7c5fe5efaf6b4e57bdb559",
+      "en": "「I can't be cornered like this!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10678": {
+      "repository_source_sha256": "14929189b078cae2aa6dc031b4f3574c8ea3d387ccbe6848756802048cff6e5a",
+      "en": "「$$チェインバー#pilot$$! Give me more speed!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10719": {
+      "repository_source_sha256": "dfe0e5e0a40b25cf6808821802488af113f2a7c8b895298d06132c2ba3921950",
+      "en": "「We're avoiding further hits,\\n$$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10768": {
+      "repository_source_sha256": "63627f4bb65d13542f50d8260a168ea6fe350b0010d9a5cabff263ba1e8bcfe3",
+      "en": "「$$ヒディアーズ#keyword$$! Alliance... mankind's foe!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10807": {
+      "repository_source_sha256": "3e7dd370f2dbff51776d78c2b051022d74a3b58f00cece2bb8bb33bd8a50b0bc",
+      "en": "「So annihilation's the only way...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10850": {
+      "repository_source_sha256": "fed7b9e31cafe09772f4eaf744204cc5036a3d4e91bb8796a1f1aa634ea069f0",
+      "en": "「With these things,\\nit's a fight till one side falls...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10909": {
+      "repository_source_sha256": "a34fd7d7d132a5a8da932efd180c64330a300e32279b758a8d9851c2866d18a5",
+      "en": "「No wonder they call her\\nthe Outlaw Empress...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:10960": {
+      "repository_source_sha256": "68b0a2ae791d0f5066a4d50a1e4932fa9a9c292dc4d385be5efb07eced3ca6e9",
+      "en": "「One direct hit and I won't last...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11001": {
+      "repository_source_sha256": "2e2a9534f2f2e8862324acb52a71cfa7855bdad0f3886e0460f107797a5398f1",
+      "en": "「Their head-on power is a threat...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11042": {
+      "repository_source_sha256": "8099ead4ecf7f37e3d66b061870ba78051ac719c42354db78c5fdbf9caf5f0e7",
+      "en": "「It outpaces my mobility...?!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11077": {
+      "repository_source_sha256": "0c75a19e7facdf3ec515b4e8463c5997eb56437352011968566f129451b3cc3e",
+      "en": "「Mobility equal to mine or better...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11114": {
+      "repository_source_sha256": "8914af6403441940e5a7ff5e3647766963f0220b69af4a252d9962d364f60623",
+      "en": "「$$宇宙怪獣$$ threaten humanity...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11153": {
+      "repository_source_sha256": "86a0e2f06dc4d8fc02e5e567f9068be34ee388696658149f905f9e10f7332058",
+      "en": "「Humanity's threats\\naren't only the $$ヒディアーズ#keyword$$...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11202": {
+      "repository_source_sha256": "5dbaeaf77d188ae7529c9aba4ec421063644652d8384fa378e84680b907f5be9",
+      "en": "「Guh! What's going on?!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11237": {
+      "repository_source_sha256": "d7c84f18fe497b3179aae3baf313eb597eab39919efb4a32297b8ca16e46b013",
+      "en": "「At this rate...\\nI'm just waiting to be shot down...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11288": {
+      "repository_source_sha256": "2e98e828f9a755742c632aca4cc363189ccd95ce14e0a66e7412091f47bbb0cd",
+      "en": "「Every move I make\\nis being crushed...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11341": {
+      "repository_source_sha256": "5a285f67006800976e0fef3ddfdf36d80ab9d82779f2301f6e8aaf0e4e66d693",
+      "en": "「It holds the initiative entirely...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11380": {
+      "repository_source_sha256": "1e2505bcc603efeb256ca56c8fe9bb3f8ec15a5a10a3cfd5909b77d57b33773f",
+      "en": "「I can take one or two more, tops...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11419": {
+      "repository_source_sha256": "23bda8816c3d93540cde4a42ed13a957c04c42bffab8a0a80682898a116c6878",
+      "en": "「$$エイミー$$... everyone...! I...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11454": {
+      "repository_source_sha256": "c5f6ef0d4704d9c0b8718d2fceaf03c1fbf315a9575a3aec79a5815c4a878cdd",
+      "en": "「I'll fight...! To the last instant!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11489": {
+      "repository_source_sha256": "b644c389235779af1d5c45124a0aa114b6676cd19c192ec3e0a05a0d0d4d1395",
+      "en": "「I can't die yet...!\\nI can't afford to die!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11544": {
+      "repository_source_sha256": "91281ab4baa77838bc894212546298a2dddebdc9ce760c9f941e1e9edfd3ec23",
+      "en": "「Uwaaaaaaaaah!!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Aaaaaagh!!"
+      ],
+      "review": "conflict"
+    },
+    "294:11569": {
+      "repository_source_sha256": "d1d615ba9abd0c9092841f9f94ad383db87645c265398eebe4579d705441f71e",
+      "en": "「Is this it...?! I'm withdrawing!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "294:11600": {
+      "repository_source_sha256": "84352c61765fb8726925fd5b399a267edcc905451861534cc0c41d4d0df20e73",
+      "en": "「$$エイミー$$... I'm sorry.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:11623": {
+      "repository_source_sha256": "ae5481fe121876657778281b8c08840509ed5ef3e4df46b666df7b67c1a11f50",
+      "en": "「Target: enemy unit ahead, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11666": {
+      "repository_source_sha256": "890b93153eeadad6af01eb55ae015a896d8c8b80c6127b933abf724edc993ec2",
+      "en": "「$$チェインバー#pilot$$, how far is the enemy unit?」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11699": {
+      "repository_source_sha256": "a9b0b5e0abf05d3322f0c466250b599f58481c201c5012f5bad3086763edcdeb",
+      "en": "「That's what I intended all along!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11726": {
+      "repository_source_sha256": "497eba0c7b1e51ee26df58fa5932d6bd5754899d44d81c8b9b66494d0a58e167",
+      "en": "「Good. Commencing combat.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11757": {
+      "repository_source_sha256": "6d3ad9eed923cf06132590784d0e0e75804a91db808d53ae9b468299f139a2e6",
+      "en": "「$$チェインバー#pilot$$, shifting to combat stance!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11798": {
+      "repository_source_sha256": "3d6849c676740514adb6da0c3dc08c39216eb4261d7b1e88be24efec5ca932da",
+      "en": "「This opponent doesn't look easy.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11827": {
+      "repository_source_sha256": "c64c65cacca71de7b8184d8d114424bc04895488cc51334707c2a803f83374fe",
+      "en": "「We'll fulfill our duty!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11852": {
+      "repository_source_sha256": "c93645a5aee444be0b4540b8b41c43d2490ac1f34763355b8c49200f9fb21c15",
+      "en": "「Looks tough, but\\n$$チェインバー#pilot$$ and I can do it!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:11903": {
+      "repository_source_sha256": "5941ad48125b5ad13cc610110259e46bf730ada27ad83ec0e9959fee682266e4",
+      "en": "「$$チェインバー#pilot$$, it's a firefight!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:11932": {
+      "repository_source_sha256": "e0d4c5bb9e4c52cb6ef55d082a22851ba09ddf0c86441e1f3b47a3ea00ee2d28",
+      "en": "「Begin the attack!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "Commence attack!"
+      ],
+      "review": "conflict"
+    },
+    "294:11947": {
+      "repository_source_sha256": "7e8d5cab577f0fc03133987fe812be1399cdd8a4352b969d4c9c8c54e27c79c0",
+      "en": "「I'll land this one, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:11976": {
+      "repository_source_sha256": "93e50f5f4610f3a5cb03fbb20d3cb96e4937c65dedbabe7de6b33bd4ea300c7e",
+      "en": "「I won't hear your excuses!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:12003": {
+      "repository_source_sha256": "5dcc1bc4fdb7ea54fb806af2ab50e47b0635368edc3a5774550086c9e81dfdd2",
+      "en": "「Close the distance, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:12036": {
+      "repository_source_sha256": "5f5ff77c8ce31c1e3dd23df8788a58b4a4da2e064e951c2066f63ce645c019b4",
+      "en": "「Going for close combat!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:12061": {
+      "repository_source_sha256": "43e7f94d40dbc301426c902d9bb5eb6b3d8b7974f6d23c30f5d6214f46734214",
+      "en": "「Good...! Charging in!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:12086": {
+      "repository_source_sha256": "97e7c0d296626a84c4a686e6bc182b41692b3564c9a93c1d5e07ad1d7c9854ef",
+      "en": "「In that case...!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:12103": {
+      "repository_source_sha256": "65034d0941376a45e6004a798d04f789bcbad79d59825202c0cbeff93291b4e1",
+      "en": "「This time I'll finish it!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12126": {
+      "repository_source_sha256": "b83769a5d06390e768b6799b238e8bbf2b6347fca57c9f6f5f449fdadd24c99c",
+      "en": "「Let's go! Can't pass up this chance!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12169": {
+      "repository_source_sha256": "39938696f684c95ca992893a159c94875bee5a2dac5348c318838144d1a03ea8",
+      "en": "「Going in, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12200": {
+      "repository_source_sha256": "2af32fc4203d1d07d71d48f1ee2b10d90142133538591e6f35fa1b613ec86fea",
+      "en": "「Alliance soldier or not,\\n$$ヒディアーズ#keyword$$ can't be left alone!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12259": {
+      "repository_source_sha256": "8481c888b40ad7579ac4a2785c1eaeed6c1b1d8f8a36fd7260cf2b587b1e4dd6",
+      "en": "「$$ヒディアーズ#keyword$$ even outside the\\nAlliance's zone of operations...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12314": {
+      "repository_source_sha256": "c83e5a587e59ac6f6b4ea4eb207c5c7eb4613144f2a21aa6071279266fce7c33",
+      "en": "「Don't let them near the fleet!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12343": {
+      "repository_source_sha256": "c856e33d1f288064396fa27ab514506b904fc4bcaf692f4b6625d188b5f7625b",
+      "en": "「Humanity's enemy? Then I annihilate.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12376": {
+      "repository_source_sha256": "f0fd62f71c2aa5d4eb54c10969e58848fadd444d8126881042d2c08f6bddc152",
+      "en": "「A space monster. Annihilating it!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12409": {
+      "repository_source_sha256": "3a6a4afaad06bceb66998fae03b2644a122c8914bee6e053bfe77e1e3e78f6b1",
+      "en": "「The Alliance is irrelevant.\\nThey're enemies. Annihilating them!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12458": {
+      "repository_source_sha256": "5744cc909e4fb766baff1e750c320910fd1f7949034cabc0f722628903be13c7",
+      "en": "「The enemy unit seems AI-controlled.」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12485": {
+      "repository_source_sha256": "dd348b5c3848a094f2bfd29f4654a227c9de0d47b07ab2e3f1eb7f1c4fbdd0ee",
+      "en": "「Now I'm fighting for this planet...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12528": {
+      "repository_source_sha256": "1a53c1795eaa84429e32b511ab5eac1aa3cb0512a0ac131e541011290c77f44f",
+      "en": "「I'll flatten every last invader...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12559": {
+      "repository_source_sha256": "a3e581a2720ea971749b3e5512df1739b64abac2499cad34cd0ef17f716d85c9",
+      "en": "「Senior Empire officer! Going in!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12596": {
+      "repository_source_sha256": "8c1ab4b1c689fd85fc469a6b1773b233369829c589e590036bc7a2b1102fba87",
+      "en": "「But I can't not do this!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12633": {
+      "repository_source_sha256": "83ec65ab99210b2db70a43f9f1fccb4dc4c6749e2f92c036eb886f9082c90caa",
+      "en": "「Eliminating that one first!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12660": {
+      "repository_source_sha256": "6f1ee34c041b39b61f618c2f4774c288290830ca872cb6d4d9493738572d25db",
+      "en": "「What an eerie machine...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12687": {
+      "repository_source_sha256": "f2b0499b2b98d8ea1a9cd72b2d81fbc8df73be63fe6dcfc07a251b3b24234aef",
+      "en": "「Enemy's brute-forcing straight in!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12716": {
+      "repository_source_sha256": "b763ee1d2c6d3dcb01bba2c13d1a4b6ac6cca37a32a360c8806bf76fe32357a4",
+      "en": "「In a way, that's the most human...!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12751": {
+      "repository_source_sha256": "8381942d4af82d2c17526cdb639e7b885c2a31c001c007e7bb2478216febb60f",
+      "en": "「This one...! Somehow different\\nfrom other $$スフィア・リアクター$$s!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12810": {
+      "repository_source_sha256": "4253a72b02fe3679af033ad0991f263ec492d63cca8ef072c26723544d9ca9f7",
+      "en": "「Beat that one and the Empire's done!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12843": {
+      "repository_source_sha256": "15687526fdec3588a51e79580331a94bdb6b1892181dec364734ac6f32bb1941",
+      "en": "「Is that one really controlling\\nthat much power...?!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12900": {
+      "repository_source_sha256": "41cbe72713e26b5e78d47fa8fbe4c2164f0f14bdc159df22351ecedc76d046b3",
+      "en": "「Is death the peace they seek...?!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:12943": {
+      "repository_source_sha256": "c925c9903b1b5e6c18269a91e00f04ff51583b47e27b52cbb091b4867dfc315f",
+      "en": "「Focus Deflector Beam on one unit!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:12986": {
+      "repository_source_sha256": "9c590728e457483827f84cfaf2ec7f922873585a3588feb6419c752be87a1305",
+      "en": "「Limiting targets to the enemy ahead!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:13013": {
+      "repository_source_sha256": "35022e6656b9f21cb40e0897899d798c8fd411ac5230bd8645b8df4463d743a1",
+      "en": "「Attacking the enemy squad\\nwith the Deflector Beam!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:13062": {
+      "repository_source_sha256": "3e33efbeca47449466a0d465efa0cef298aa088afcc31bfb1978a0476464e74c",
+      "en": "「Don't hit the friendly units!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:13089": {
+      "repository_source_sha256": "93af895d67c2908b62d255a93b1eaf8f936d53b86eb790ac451999e5fd891a76",
+      "en": "「Charging in, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:13120": {
+      "repository_source_sha256": "3bd5dcbc3d35a76586489855fb7810ba4b85e734026b2cd4712a78e01814b125",
+      "en": "「We've got a handheld weapon too!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:13153": {
+      "repository_source_sha256": "e819937c581b75376d2ce369200d131dd5ebdb086443141c814fa7bf0b3d932c",
+      "en": "「We have the gear, so I'll use it!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:13186": {
+      "repository_source_sha256": "6ceba8eb90641fb9440b3f1e42b1f7f78908e329f4fdc3d7337eccc6a399787c",
+      "en": "「We hold them here, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:13225": {
+      "repository_source_sha256": "8f6c085983cc95c05e32c972fe20a92c35cb659e5c05c4ffaa5d438757c84cb8",
+      "en": "「Returning the favor, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:13258": {
+      "repository_source_sha256": "b8f2c90d8b285b199b4d07158507dc43034a7a8dfe7c4b344479d5a44cc46cbb",
+      "en": "「Don't let them escape! After them!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:13287": {
+      "repository_source_sha256": "36caa70735082937d5cdaba4b422fa0bbf4cdf7a80847aeec114b578468a55f5",
+      "en": "「Don't let it get away! Strike now!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:13326": {
+      "repository_source_sha256": "a23f6ab9df6d7369e7d0b6a642b4d4433ee73696d9c44047747a1702e03e1544",
+      "en": "「You don't have to tell me! Let's go!」",
+      "source": "new",
+      "slice": "v_g294_01"
+    },
+    "294:13361": {
+      "repository_source_sha256": "80ebf48533e9274c54f808a4a92d81933b5c8000b0ac93826aca315adb0761de",
+      "en": "「Get in front of our ally, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13398": {
+      "repository_source_sha256": "07ea365cb79a379e1c95c5f90b1a49d6d120a45586b0114970a314b138b11417",
+      "en": "「$$チェインバー#pilot$$! Re-scan for enemies!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13435": {
+      "repository_source_sha256": "4d523789af08d75c6554ebee884900347a1e6189ad07a2cfd517053f4e4427b2",
+      "en": "「I'll fall back at an opening...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13460": {
+      "repository_source_sha256": "db7ec5bdc8e5e19b92ed268f3875589ac39b71961472eb2666afdfebdd7395d9",
+      "en": "「Good dodge, $$チェインバー#pilot$$.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13491": {
+      "repository_source_sha256": "a11a7a04fcb416308d33205e2cc27857ba65c9c358e52e5252eb3e46f9a18a35",
+      "en": "「Stay alert. The next one's coming.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13520": {
+      "repository_source_sha256": "c5bea13a294c92631ad7acd8be4134aff143fe329b7af954115c171f36a50693",
+      "en": "「Dodging alone won't win this...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13555": {
+      "repository_source_sha256": "345872dfd38b26e13fc0b6db5408aa90aee07c5e2d9b85c1e22a26bc86c8ed69",
+      "en": "「So in short, it missed the mark.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13586": {
+      "repository_source_sha256": "1d87db84cdd8584057c7b81263e753e0878e912e4824a678b95558ea52a84548",
+      "en": "「Watch for their attacks and counter!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13625": {
+      "repository_source_sha256": "fdf60700267717a61725b1d78781eca2e25e9d2b4c14d8a866c00b49774ea011",
+      "en": "「Damn $$ヒディアーズ#keyword$$...! It's pointless!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13662": {
+      "repository_source_sha256": "98b512a7756a64e6823d1feb4ffcae03f12008bf22f305d129bc618be28bb99d",
+      "en": "「I know the terror of the $$ヒディアーズ#keyword$$!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13705": {
+      "repository_source_sha256": "6892a87f74d08fac4b6de40fa94e23177e8dba7ec93f8e4b1459cb6169dd7285",
+      "en": "「Are they different from the\\nspace monsters we know...?」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13754": {
+      "repository_source_sha256": "2cd314b668cb0c8e852458214a5ceada1833697e46873a6ebc972399b2b3127b",
+      "en": "「Space monster, was that a feint?」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13789": {
+      "repository_source_sha256": "a9eac82e9a682dddc7a86367feda7b778ae5528299427f0deccf7b18a9c5e82e",
+      "en": "「Collect enemy data while you can.」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13832": {
+      "repository_source_sha256": "1e824b18850d17873dee00cf5a39d131a94855eaa954253dd6be82323dc082e9",
+      "en": "「A pointless move...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13853": {
+      "repository_source_sha256": "8ce151f4739be43fc18ced116895270093f0d2a606129625ff6fc8a3ffc259d6",
+      "en": "「I'm moving to counterattack!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13880": {
+      "repository_source_sha256": "d5cfd38f2ee6402bfd46e5c239dd31b9176070fa4dd49a1068d3e14e64c9771e",
+      "en": "「$$チェインバー#pilot$$, report the damage status!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13919": {
+      "repository_source_sha256": "af1a861c9698040f89533bcd6f54e38cd4ab58d131b250f98a6855793dc598e4",
+      "en": "「But I can't keep taking hits...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13962": {
+      "repository_source_sha256": "3ce1fced90acd45bdbb455c39898a54db7d11829a23b49038a26a6534fbee6f0",
+      "en": "「If it won't hinder combat, fine...!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:13995": {
+      "repository_source_sha256": "31e6c98a7e8e70d23047d222bcd48c2cb98c19228ccfb8c9d4f75df119395fbc",
+      "en": "「Ignore it! Report once over 10%!」",
+      "source": "new",
+      "slice": "v_g294_03"
+    },
+    "294:14036": {
+      "repository_source_sha256": "c4458b6c61c163f35a8e8be4db66f5f6ab1348d591c492759df5516c1da4d38d",
+      "en": "「An enemy to watch out for...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14061": {
+      "repository_source_sha256": "475de7937722382868798ab9ba0995c20e1f4863a9152e2f39ce168fc7a79254",
+      "en": "「But I can't fall back!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14088": {
+      "repository_source_sha256": "16453c2af2f65dfebdc630bca4a2ce1583ca3fe259067f55cf4111d480b747cc",
+      "en": "「I'll end it before it turns fatal!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14131": {
+      "repository_source_sha256": "a46ab91dbb6d887ebf1b97506a5d172b76c9331b1446f2155fb6907ab047c794",
+      "en": "「If you know that, then evade!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14168": {
+      "repository_source_sha256": "564cdebb5e97d50f141bda4bc3f2443cb2c3b12e0efbcb7eb82f21344c890ac1",
+      "en": "「If I turn my back,\\nI only give the $$ヒディアーズ#keyword$$ an opening!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14225": {
+      "repository_source_sha256": "c313f024f032920f8547e74439ce1b8bfc7956a0f6454aeef0cd85faa4c16ca3",
+      "en": "「I can't leave the $$ヒディアーズ#keyword$$ be!\\nI'll fight to the end!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14280": {
+      "repository_source_sha256": "e4468a5a8d14fbc276fc9e073fb1031e4c5137a813f60c4884b06a74ecb9b7dd",
+      "en": "「As I thought,\\nthis is no easy enemy to beat...!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14331": {
+      "repository_source_sha256": "80bb05e40ccfc0b5ced2c99619af3a1a57a43da953ca43993d9271f70bfaea0a",
+      "en": "「I won't let that thing run wild!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14372": {
+      "repository_source_sha256": "3bc985254141b1b57986fa7d5330b7cb911e6df4612346c548663edaafbd21d7",
+      "en": "「Not good...! Should I retreat...?!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14415": {
+      "repository_source_sha256": "f2ed8909aaa35586d22f6ec138efb5565b4df539f9169bc0ca48e40a2754c6a0",
+      "en": "「We'll turn that around!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14442": {
+      "repository_source_sha256": "719287ecc358e35c8e706daa462c129578663b8aa0c726e0a501a0cdcf01672d",
+      "en": "「I'll break the deadlock before then.」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14473": {
+      "repository_source_sha256": "f3ed5c1697533b8f386e347dcb246376e10555e650d803c4584df8b6b8b7d5a1",
+      "en": "「I'll figure something out...!\\nWe can do it too!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14526": {
+      "repository_source_sha256": "c09d4f1907b11b19b38466e40549c211a17755f1d1126f5b555bd2d1da276b9c",
+      "en": "「Hold on, $$チェインバー#pilot$$! We're not done!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14569": {
+      "repository_source_sha256": "7b5713e89a12589c35499624dff8e2e2925ac9c4024d827316c62e1fee971650",
+      "en": "「At the limit...! Retreat, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14608": {
+      "repository_source_sha256": "ad68a397cbe51cf74efafb8bcced716088f9058ed5ff6d7ef4af27bcc57deb12",
+      "en": "「Hold on till we're clear! Fall back!」",
+      "source": "new",
+      "slice": "v_g294_02"
+    },
+    "294:14649": {
+      "repository_source_sha256": "fe0a3facd1fcb932355c110b3426f37522338a343d2298b91f5ade1c108922b9",
+      "en": "「We'll bring it to our range,\\n$$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:14698": {
+      "repository_source_sha256": "4364c04f3483ff48c44b53f43bb7691271b0537bd709a609f4d9f6df641e1ea1",
+      "en": "「Now! Fire!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:14719": {
+      "repository_source_sha256": "c21287e19719dc1b5772392e107ecfbb9e98b7f06f7bc6262e52a1e057f512c0",
+      "en": "「$$チェインバー#pilot$$, external weapons OK...?!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:14760": {
+      "repository_source_sha256": "854f19112c619bb6f3badb83eb1a110ffb58b4939b06051cc6d4b144df0c44e9",
+      "en": "「Here we go! I'll finish it for sure!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:14795": {
+      "repository_source_sha256": "f68bb726ddb0d65900d99a3eb54986395c4a81c769123791623f8149e55b3b3e",
+      "en": "「Good...! Closing to effective range!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:14834": {
+      "repository_source_sha256": "fb1d440645d1b16f691af6fc0b2cb1b14d9bfc1b49045a7075a225cb11d0af5b",
+      "en": "「Fire, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_04"
+    },
+    "294:14859": {
+      "repository_source_sha256": "8f8506501e1c5f4c1165f2d8b65c3bd140ada980cb78aa79e5a2adacad6ba950",
+      "en": "「$$チェインバー#pilot$$!\\nBegin Neuro-Plus Powered!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:14912": {
+      "repository_source_sha256": "8f02d822d4de0028a3829a402b8106ae806c13b07e657261a22c37db2d3477b6",
+      "en": "「Guaaaaaah!!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:14933": {
+      "repository_source_sha256": "13b55a4a63e6c803616676fe6207b29d2e1016bba88bd84f8b67dd306ceffb81",
+      "en": "「Bring it on!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:14946": {
+      "repository_source_sha256": "e6d3bb9eac230e10a2faee9a10906724045d2c58d6e2c7531b22e711958698dd",
+      "en": "「This ends it!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "294:14975": {
+      "repository_source_sha256": "776815765b3a8ec3bfbf9019fae38f2a489e7a9d8f83d556bfed7f5a877ebe34",
+      "en": "「I did it...! I did it, $$チェインバー#pilot$$!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15016": {
+      "repository_source_sha256": "8f8506501e1c5f4c1165f2d8b65c3bd140ada980cb78aa79e5a2adacad6ba950",
+      "en": "「$$チェインバー#pilot$$!\\nBegin Neuro-Plus Powered!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15069": {
+      "repository_source_sha256": "0e6b584712f0e48ee4621477b825f8724b0ba5d8247bc82f0d177e12459d7799",
+      "en": "「Guuuh...!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15086": {
+      "repository_source_sha256": "6ef8248c891c4e676d7338ed2cb013b1a5ade911eb53472e2ff630bb792c8df5",
+      "en": "「Somehow, while my body lasts...!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15123": {
+      "repository_source_sha256": "720d871f30b7d583ef4d2a8053dc49dca2a50f01c657a719349d6003f34ef9ec",
+      "en": "「Haaaaaaaah!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ],
+      "alternatives": [
+        "Haaaaaah!!"
+      ],
+      "review": "conflict"
+    },
+    "294:15146": {
+      "repository_source_sha256": "189b3695197507a86402af2d83953e0a777fcbfdee88bfd1a92ec9a1929911a5",
+      "en": "「Looks like I survived somehow...」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15179": {
+      "repository_source_sha256": "fc7e8ab086e8f293a658aacb94d1e64cbf300d4ce44efe120210a08bda07d4e0",
+      "en": "「$$チェインバー#pilot$$! Maximize!\\nBegin Neuro-Plus Powered!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15248": {
+      "repository_source_sha256": "c147935f892867d60484f43b23319add00cc8fec4fca49f6e41b98f20e1256d2",
+      "en": "「Here goes...!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15263": {
+      "repository_source_sha256": "f005d8d92363286043d33a23cc4dcd997cc7de0c0cf8c2af331946285b3aa583",
+      "en": "「You don't have to tell me...!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15286": {
+      "repository_source_sha256": "481e026465b7a12d458f2abd016c3514d851a2b754921914e479da5c8c489a02",
+      "en": "「Uoooooooh!!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    },
+    "294:15309": {
+      "repository_source_sha256": "8f646244b62403cbede79c6b59e076350ee2371e3a8784e3e8c3af955f1dc324",
+      "en": "「I can't die yet...!」",
+      "source": "new",
+      "slice": "v_g294_05"
+    }
+  }
+}

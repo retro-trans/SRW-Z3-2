@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "group": "g363",
+  "blocks": [
+    363
+  ],
+  "speaker": {
+    "token": "流竜馬",
+    "jigoku_pilot": "Ryouma Nagare",
+    "jigoku_unit": "Shin Getter 1",
+    "fraction": 0.889,
+    "basis": "settled 2026-10-02 from fresh-translation review: Short Shin Getter 1 scream/evade set (rough 'slowpoke' barks), Ryouma. Same as Jigoku.",
+    "proposed_by_v_mix_08": {
+      "token": "$$流竜馬$$",
+      "basis": "Short Shin Getter 1 scream/evade set (rough 'slowpoke' barks), Ryouma. Same as Jigoku."
+    },
+    "jigoku_token": "流竜馬"
+  },
+  "lines": {
+    "363:0": {
+      "repository_source_sha256": "c28c880421ba36259600230d6ddbb64a6ea5083e516b1acb2062087cb8e890ce",
+      "en": "「...」",
+      "source": "jigoku",
+      "slots": [
+        "special (?)"
+      ]
+    },
+    "363:11": {
+      "repository_source_sha256": "58a546c92db1f84038e26f75a990443e6b698c52b19ec38ebcf2ff15efbca383",
+      "en": "「Raaaaaaaagh!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ],
+      "alternatives": [
+        "Raaaaaaagh!",
+        "Raaaaaaaaagh!"
+      ],
+      "review": "same-speaker"
+    },
+    "363:36": {
+      "repository_source_sha256": "86477b9f4c987fa5b0098cb102186dbc2a1d2950014d598033a3df11c5f7f7b2",
+      "en": "「Uoooooryaaaaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "363:65": {
+      "repository_source_sha256": "276e77b59dcad09bb4255b626872dd83cb0555a460faa139f0bb07f90d165a17",
+      "en": "「Oooooooooooogh!」",
+      "source": "new",
+      "slice": "v_mix_08"
+    },
+    "363:96": {
+      "repository_source_sha256": "4216f103d506d7426651c42f4c2171f8f4fbc9c3a5b5cb814c2649065040b849",
+      "en": "「Gwoooooooh!!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)",
+        "hit: heavy damage",
+        "hit: light damage",
+        "hit: moderate damage"
+      ]
+    },
+    "363:121": {
+      "repository_source_sha256": "f0d43448d47f2cfecd7ab5ea582fa99234b5e4699af31ce85d2c29c080ffd0ff",
+      "en": "「Too slow!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "363:134": {
+      "repository_source_sha256": "bc2ad24ac76c76bddb5b7c878d55589dc90ca283b05a9462a8b629afa9b47b1c",
+      "en": "「Like that'll hit me, slowpoke!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "363:165": {
+      "repository_source_sha256": "0317eed7f6393ff8ca72e57701e60e45984c0ca6ff784c1f10f0082e813846aa",
+      "en": "「That won't work!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "363:182": {
+      "repository_source_sha256": "5ae62232d76947c0c9b3e6d5589ef291bda7e342c6488e4feee4c5a968f44c1a",
+      "en": "「N-No way!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)",
+        "cannot attack (?)"
+      ]
+    },
+    "363:199": {
+      "repository_source_sha256": "0981bc19b5527b9a2f860721e1a79249fb1cae18434f5827d412b353839275d1",
+      "en": "「Don't get carried awaaaay!」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "363:232": {
+      "repository_source_sha256": "1216cb9c268adec0190128a346d531e799042a0ecbdc0202d483604825cc12d1",
+      "en": "「Daaaaaaaamn!!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    }
+  }
+}

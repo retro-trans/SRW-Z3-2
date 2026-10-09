@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "rows": {
+  "削除しています。": {
+   "en": "Deleting..."
+  },
+  "情報を更新しています。": {
+   "en": "Updating information..."
+  },
+  "『第３次スーパーロボット大戦Ｚ　時獄篇』の情報を取得しています。": {
+   "en": "Retrieving \"3rd Super Robot Wars Z Jigoku-hen\" data..."
+  },
+  "『第３次スーパーロボット大戦Ｚ　連獄篇』の情報を取得しています。": {
+   "en": "Retrieving \"3rd Super Robot Wars Z Rengoku-hen\" data..."
+  },
+  ".よろしいですか？": {
+   "en": "Are you sure?"
+  },
+  "まだこのスキルを修得することはできません。": {
+   "en": "This skill cannot be learned yet."
+  },
+  "このスロットに修得することはできません。": {
+   "en": "It cannot be learned in this slot."
+  },
+  "のせかえるパイロットがいません。": {
+   "en": "There are no pilots available to transfer."
+  }
+ },
+ "report": {
+  "uncertain": [
+   "Key .よろしいですか？ starts with a stray \".\" (unreferenced string); answered \"Are you sure?\" as the catalog does for the plain string.",
+   "のせかえる = \"transfer\" (pilot swap); the catalog has 乗せ換えます = \"Move a different pilot into a unit\"."
+  ],
+  "names": {}
+ }
+}

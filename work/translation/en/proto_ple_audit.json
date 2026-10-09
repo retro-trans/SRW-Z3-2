@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 8,
+      "file": "dlg_2016_02.json",
+      "id": "111:t_3:75",
+      "before": "$$マーサ$$\n「Proto-$$プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "after": "$$マーサ$$\n「$$プロト・プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2021_01.json",
+      "id": "141:t_2:72",
+      "before": "$$マーサ$$\n「Proto-$$プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "after": "$$マーサ$$\n「$$プロト・プルトゥエルブ$$... That's your name, isn't it? Answer me.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2023_01.json",
+      "id": "153:t_2:30",
+      "before": "$$マーサ$$\n「Lieutenant $$マリーダ$$... Proto-$$プルトゥエルブ$$ is working under us of her own free will.」",
+      "after": "$$マーサ$$\n「Lieutenant $$マリーダ$$... $$プロト・プルトゥエルブ$$ is working under us of her own free will.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2023_02.json",
+      "id": "154:t_004:9",
+      "before": "$$プルトゥエルブ$$\n「$$マリーダ$$...? I am Proto-$$プルトゥエルブ$$.」",
+      "after": "$$プルトゥエルブ$$\n「$$マリーダ$$...? I am $$プロト・プルトゥエルブ$$.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2024_01.json",
+      "id": "165:t_1:117",
+      "before": "$$シャア$$\n「Their number 12... Proto-$$プルトゥエルブ$$ is $$マリーダ・クルス$$.」",
+      "after": "$$シャア$$\n「Their number 12... $$プロト・プルトゥエルブ$$ is $$マリーダ・クルス$$.」",
+      "reason": "Exact-source whole-corpus compound scan: replace composed Proto-Ple Twelve with new full alias token. Same English expansion and Marida identity retained."
+    }
+  ]
+}

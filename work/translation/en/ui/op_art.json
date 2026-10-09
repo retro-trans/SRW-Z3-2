@@ -1,0 +1,767 @@
+{
+  "schema": 1,
+  "about": "Series-name strips of the opening demo, BTLC/OP.CPK (31 linear ARGB 1280x64 textures; GTF at 0x60 of each member). English = rpw_names.json strings.series, rendered by tools/op_art.py. Edit English in rpw_names / the glossary, then rerun `op_art catalog --apply`.",
+  "evidence": "jp: visual identification of each strip (tools/op_art.IDENTIFIED; contact sheet work/ui/textures/op/op_captions_original.png). Cross-check: each of the 31 names rendered in a Mincho face (Latin half-width, letter-spaced) and correlated with the strip ink; the identified name ranks first among the 31 for every strip (match_score vs runner_up_score), so the texture order is not permuted. rank_among_all_series is the rank among all 45 table names (coarse: names differing by one glyph, e.g. Evangelion Q vs Jo, score close).",
+  "archive": "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK",
+  "members": {
+    "0": {
+      "sha256": "d6104784515d6c9a024eb49c9a75b5631cd1778ef5ab80f1578e8bec36d6b737",
+      "strips": 10
+    },
+    "1": {
+      "sha256": "7bd56d102c791112aa0c34201425a20b76c8edf1a747a7838f60fce5adc73c65",
+      "strips": 10
+    },
+    "2": {
+      "sha256": "328e8bd92b71272e23a499e5d012782dc19a4d725682968d5b597360c8491964",
+      "strips": 11
+    }
+  },
+  "style": {},
+  "captions": {
+    "m0_t0": {
+      "member": 0,
+      "texture": 0,
+      "jp": "機動戦士ガンダムＵＣ",
+      "en": "Mobile Suit Gundam Unicorn",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.353,
+      "runner_up_score": 0.207,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        439,
+        14,
+        400,
+        39
+      ],
+      "alpha_box": [
+        434,
+        10,
+        409,
+        48
+      ],
+      "texture_offset": "0x1e0",
+      "texture_sha256": "d8910e67301c58555dcc39de44319ead2ffa65178f8bd8565dec8c7bac59bf16"
+    },
+    "m0_t1": {
+      "member": 0,
+      "texture": 1,
+      "jp": "真（チェンジ！！）ゲッターロボ　世界最後の日",
+      "en": "Getter Robo Armageddon",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.313,
+      "runner_up_score": 0.097,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        213,
+        14,
+        850,
+        39
+      ],
+      "alpha_box": [
+        208,
+        9,
+        860,
+        49
+      ],
+      "texture_offset": "0x501e0",
+      "texture_sha256": "bc51a776fd635c0f3c89c4d47fe077640c95cad932d94a5f8363335caab455a3"
+    },
+    "m0_t2": {
+      "member": 0,
+      "texture": 2,
+      "jp": "超時空世紀オーガス",
+      "en": "Super Dimension Century Orguss",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.416,
+      "runner_up_score": 0.206,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        453,
+        14,
+        372,
+        38
+      ],
+      "alpha_box": [
+        448,
+        9,
+        382,
+        48
+      ],
+      "texture_offset": "0xa01e0",
+      "texture_sha256": "0748f04508f6d76134e083963fb436f89dc1ab7ce61adb9cd9ee983b15a9e085"
+    },
+    "m0_t3": {
+      "member": 0,
+      "texture": 3,
+      "jp": "ヱヴァンゲリヲン新劇場版：Ｑ",
+      "en": "Evangelion 3.0: You Can (Not) Redo",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.295,
+      "runner_up_score": 0.106,
+      "rank_among_all_series": 3,
+      "fill_box": [
+        357,
+        15,
+        561,
+        38
+      ],
+      "alpha_box": [
+        352,
+        10,
+        571,
+        48
+      ],
+      "texture_offset": "0xf01e0",
+      "texture_sha256": "32843a8c333e468ad2e5a826fdc5652ff64d43f524508048a6357adaa46d6173"
+    },
+    "m0_t4": {
+      "member": 0,
+      "texture": 4,
+      "jp": "無敵超人ザンボット３",
+      "en": "Invincible Superman Zambot 3",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.337,
+      "runner_up_score": 0.324,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        439,
+        14,
+        399,
+        38
+      ],
+      "alpha_box": [
+        434,
+        9,
+        409,
+        48
+      ],
+      "texture_offset": "0x1401e0",
+      "texture_sha256": "5221d55d060def38ec5b4f6ab9afa52f45c248decad57eb75fcce9ffdd129055"
+    },
+    "m0_t5": {
+      "member": 0,
+      "texture": 5,
+      "jp": "機動戦士Ｚガンダム",
+      "en": "Mobile Suit Zeta Gundam",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.428,
+      "runner_up_score": 0.241,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        458,
+        14,
+        366,
+        39
+      ],
+      "alpha_box": [
+        453,
+        10,
+        375,
+        48
+      ],
+      "texture_offset": "0x1901e0",
+      "texture_sha256": "5519313dedc308cf7dcb582041cf9fcac85e1173e1ce7e1531711da9eba7eb8e"
+    },
+    "m0_t6": {
+      "member": 0,
+      "texture": 6,
+      "jp": "天元突破グレンラガン",
+      "en": "Tengen Toppa Gurren Lagann",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.306,
+      "runner_up_score": 0.155,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        433,
+        14,
+        419,
+        39
+      ],
+      "alpha_box": [
+        428,
+        9,
+        429,
+        49
+      ],
+      "texture_offset": "0x1e01e0",
+      "texture_sha256": "f2bddad13dd34b04a59fd6ada9b9e412352b2c2add6bbd4de2500c79002468f3"
+    },
+    "m0_t7": {
+      "member": 0,
+      "texture": 7,
+      "jp": "フルメタル・パニック！",
+      "en": "Full Metal Panic!",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.533,
+      "runner_up_score": 0.11,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        424,
+        15,
+        430,
+        36
+      ],
+      "alpha_box": [
+        419,
+        10,
+        440,
+        46
+      ],
+      "texture_offset": "0x2301e0",
+      "texture_sha256": "ea1e774419022553a8e8ba481390cee7e81cee11c37d6ad06f92f2503989551f"
+    },
+    "m0_t8": {
+      "member": 0,
+      "texture": 8,
+      "jp": "太陽の使者　鉄人２８号",
+      "en": "Messenger of the Sun: Tetsujin-28 Go",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.21,
+      "runner_up_score": 0.134,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        429,
+        15,
+        419,
+        37
+      ],
+      "alpha_box": [
+        424,
+        10,
+        428,
+        47
+      ],
+      "texture_offset": "0x2801e0",
+      "texture_sha256": "830b8805bf1ed51b794d255ef574cb25df19d7f2b4699fa89b905668117b5a75"
+    },
+    "m0_t9": {
+      "member": 0,
+      "texture": 9,
+      "jp": "劇場版マクロスＦ～サヨナラノツバサ～",
+      "en": "Macross Frontier The Movie: The Wings of Goodbye",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.614,
+      "runner_up_score": 0.173,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        275,
+        15,
+        737,
+        38
+      ],
+      "alpha_box": [
+        270,
+        10,
+        746,
+        48
+      ],
+      "texture_offset": "0x2d01e0",
+      "texture_sha256": "31dcafbe57ab4152125b8899b20bf58e201904d231b43d6b434addc8aeb80efe"
+    },
+    "m1_t0": {
+      "member": 1,
+      "texture": 0,
+      "jp": "翠星のガルガンティア",
+      "en": "Gargantia on the Verdurous Planet",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.305,
+      "runner_up_score": 0.28,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        438,
+        16,
+        406,
+        36
+      ],
+      "alpha_box": [
+        433,
+        11,
+        416,
+        46
+      ],
+      "texture_offset": "0x1e0",
+      "texture_sha256": "ff5f1b0c0fe30038e1ba287479cf1c2aba7ac6a046910ad285350196aa2a7cc2"
+    },
+    "m1_t1": {
+      "member": 1,
+      "texture": 1,
+      "jp": "トップをねらえ！",
+      "en": "Aim for the Top! Gunbuster",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.52,
+      "runner_up_score": 0.144,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        494,
+        14,
+        291,
+        38
+      ],
+      "alpha_box": [
+        489,
+        9,
+        301,
+        48
+      ],
+      "texture_offset": "0x501e0",
+      "texture_sha256": "ad7a23bf72c7f161114ba45c2f592aefa850bde91d9b618dc6c2def7c883e46d"
+    },
+    "m1_t2": {
+      "member": 1,
+      "texture": 2,
+      "jp": "機動戦士ガンダムＳＥＥＤ　ＤＥＳＴＩＮＹ",
+      "en": "Mobile Suit Gundam SEED Destiny",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.353,
+      "runner_up_score": 0.173,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        285,
+        14,
+        709,
+        39
+      ],
+      "alpha_box": [
+        280,
+        10,
+        719,
+        48
+      ],
+      "texture_offset": "0xa01e0",
+      "texture_sha256": "190f3918b6f1c8720de8d11f9509c7255946e17ee5920cd9d0c2d601c114005c"
+    },
+    "m1_t3": {
+      "member": 1,
+      "texture": 3,
+      "jp": "アクエリオンＥＶＯＬ",
+      "en": "Aquarion EVOL",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.261,
+      "runner_up_score": 0.152,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        466,
+        15,
+        346,
+        37
+      ],
+      "alpha_box": [
+        461,
+        10,
+        356,
+        47
+      ],
+      "texture_offset": "0xf01e0",
+      "texture_sha256": "4003a2feff82600692dd275b2366e4bbd61e23e72c679ba33f8d677fb380f92b"
+    },
+    "m1_t4": {
+      "member": 1,
+      "texture": 4,
+      "jp": "地球防衛企業ダイ・ガード",
+      "en": "Terrestrial Defense Corporation Dai-Guard",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.458,
+      "runner_up_score": 0.188,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        392,
+        14,
+        496,
+        38
+      ],
+      "alpha_box": [
+        388,
+        9,
+        505,
+        48
+      ],
+      "texture_offset": "0x1401e0",
+      "texture_sha256": "00f981fa1569867a71f80558c91794baf773b2bbae2bde7c91a7a9929eb253ed"
+    },
+    "m1_t5": {
+      "member": 1,
+      "texture": 5,
+      "jp": "無敵鋼人ダイターン３",
+      "en": "Invincible Steel Man Daitarn 3",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.49,
+      "runner_up_score": 0.462,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        439,
+        14,
+        399,
+        38
+      ],
+      "alpha_box": [
+        434,
+        9,
+        409,
+        48
+      ],
+      "texture_offset": "0x1901e0",
+      "texture_sha256": "e2b3df62fae0e87d51ace79b76d9a7ecc06646035df94a258bd738af5fe86389"
+    },
+    "m1_t6": {
+      "member": 1,
+      "texture": 6,
+      "jp": "∀ガンダム",
+      "en": "Turn A Gundam",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.568,
+      "runner_up_score": 0.175,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        542,
+        15,
+        196,
+        36
+      ],
+      "alpha_box": [
+        537,
+        10,
+        206,
+        46
+      ],
+      "texture_offset": "0x1e01e0",
+      "texture_sha256": "be25a50c237c88bc403ced925b51e205a26016033279bdf4f4e9ef9870f88123"
+    },
+    "m1_t7": {
+      "member": 1,
+      "texture": 7,
+      "jp": "ＴＨＥビッグオー",
+      "en": "The Big O",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.318,
+      "runner_up_score": 0.117,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        490,
+        15,
+        299,
+        36
+      ],
+      "alpha_box": [
+        485,
+        10,
+        308,
+        46
+      ],
+      "texture_offset": "0x2301e0",
+      "texture_sha256": "63adc908599fba9d9bee40412ae6112606efc41a02cfaa172ed08db8d7442f3a"
+    },
+    "m1_t8": {
+      "member": 1,
+      "texture": 8,
+      "jp": "無敵ロボ　トライダーＧ７",
+      "en": "Invincible Robot Trider G7",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.303,
+      "runner_up_score": 0.149,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        412,
+        14,
+        456,
+        38
+      ],
+      "alpha_box": [
+        407,
+        9,
+        466,
+        48
+      ],
+      "texture_offset": "0x2801e0",
+      "texture_sha256": "49940988a9747367b8b8a70f1915cf20c12a6c5135e0c8f556016f4581f7654e"
+    },
+    "m1_t9": {
+      "member": 1,
+      "texture": 9,
+      "jp": "劇場版　機動戦士ガンダム００　－Ａ　ｗａｋｅｎｉｎｇ　ｏｆ　ｔｈｅ　Ｔｒａｉｌｂｌａｚｅｒ－",
+      "en": "Mobile Suit Gundam 00 The Movie: A Wakening of The Trailblazer",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.265,
+      "runner_up_score": 0.162,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        30,
+        12,
+        1220,
+        40
+      ],
+      "alpha_box": [
+        25,
+        8,
+        1230,
+        49
+      ],
+      "texture_offset": "0x2d01e0",
+      "texture_sha256": "1c5015c9945ab8faa0c9257190ddf9e018a22e446eeb545a9873a67a28179391"
+    },
+    "m2_t0": {
+      "member": 2,
+      "texture": 0,
+      "jp": "創聖のアクエリオン",
+      "en": "Genesis of Aquarion",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.468,
+      "runner_up_score": 0.17,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        455,
+        14,
+        373,
+        38
+      ],
+      "alpha_box": [
+        450,
+        9,
+        383,
+        48
+      ],
+      "texture_offset": "0x260",
+      "texture_sha256": "3c469e5dbed3b3b04c33da86920a413bd333e0a6d57043d173ae2e24be87cc75"
+    },
+    "m2_t1": {
+      "member": 2,
+      "texture": 1,
+      "jp": "機動戦士ガンダム　逆襲のシャア",
+      "en": "Mobile Suit Gundam: Char's Counterattack",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.222,
+      "runner_up_score": 0.126,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        343,
+        14,
+        596,
+        39
+      ],
+      "alpha_box": [
+        338,
+        10,
+        606,
+        48
+      ],
+      "texture_offset": "0x50260",
+      "texture_sha256": "310632020263c1d69032583034fa6f476a8c2fcf53740a827c84fb07504c12d0"
+    },
+    "m2_t2": {
+      "member": 2,
+      "texture": 2,
+      "jp": "六神合体ゴッドマーズ",
+      "en": "Six God Combination Godmars",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.344,
+      "runner_up_score": 0.155,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        437,
+        13,
+        405,
+        39
+      ],
+      "alpha_box": [
+        432,
+        8,
+        415,
+        49
+      ],
+      "texture_offset": "0xa0260",
+      "texture_sha256": "84828ebd2b8b5f54b63f8bebf1c62ace4059724f6d6e553a74dc9ab6b497dcc1"
+    },
+    "m2_t3": {
+      "member": 2,
+      "texture": 3,
+      "jp": "新機動戦記ガンダムＷ　Ｅｎｄｌｅｓｓ　Ｗａｌｔｚ",
+      "en": "Mobile Suit Gundam Wing: Endless Waltz",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.193,
+      "runner_up_score": 0.176,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        264,
+        14,
+        752,
+        39
+      ],
+      "alpha_box": [
+        259,
+        10,
+        762,
+        48
+      ],
+      "texture_offset": "0xf0260",
+      "texture_sha256": "3f15031a3f40da80b38e1b4aed0be85b997764a298cd42c7c2caf1a913160f8d"
+    },
+    "m2_t4": {
+      "member": 2,
+      "texture": 4,
+      "jp": "コードギアス　反逆のルルーシュ　Ｒ２",
+      "en": "Code Geass: Lelouch of the Rebellion R2",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.273,
+      "runner_up_score": 0.076,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        306,
+        15,
+        670,
+        37
+      ],
+      "alpha_box": [
+        301,
+        10,
+        680,
+        47
+      ],
+      "texture_offset": "0x140260",
+      "texture_sha256": "a6ecd08cdd6e5d5c16ef0013be1b95fee626782fb19e5dec0e1acab4fb0a7e5b"
+    },
+    "m2_t5": {
+      "member": 2,
+      "texture": 5,
+      "jp": "獣装機攻ダンクーガノヴァ",
+      "en": "Beast Machine Attack Dancouga Nova",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.315,
+      "runner_up_score": 0.166,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        377,
+        15,
+        528,
+        38
+      ],
+      "alpha_box": [
+        372,
+        10,
+        538,
+        48
+      ],
+      "texture_offset": "0x190260",
+      "texture_sha256": "86fe305f02728c2f768fca4f3c68083ceb5b6d70258200bddb11ef6fb49d0d86"
+    },
+    "m2_t6": {
+      "member": 2,
+      "texture": 6,
+      "jp": "マクロス７",
+      "en": "Macross 7",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.814,
+      "runner_up_score": 0.155,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        543,
+        17,
+        192,
+        34
+      ],
+      "alpha_box": [
+        538,
+        12,
+        202,
+        44
+      ],
+      "texture_offset": "0x1e0260",
+      "texture_sha256": "328bb43d340c8f8d62ec21ea6385eb393ae55ba3fdf0e01576efbc144a17563e"
+    },
+    "m2_t7": {
+      "member": 2,
+      "texture": 7,
+      "jp": "装甲騎兵ボトムズ　孤影再び",
+      "en": "Armored Trooper VOTOMS: Alone Again",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.249,
+      "runner_up_score": 0.118,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        384,
+        14,
+        512,
+        39
+      ],
+      "alpha_box": [
+        379,
+        9,
+        522,
+        49
+      ],
+      "texture_offset": "0x230260",
+      "texture_sha256": "11e51386b1d99dee4df0c13ab57d004773dfa6b0aa881a3e8b437e06d60a0d09"
+    },
+    "m2_t8": {
+      "member": 2,
+      "texture": 8,
+      "jp": "機動新世紀ガンダムＸ",
+      "en": "After War Gundam X",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.427,
+      "runner_up_score": 0.208,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        437,
+        14,
+        405,
+        39
+      ],
+      "alpha_box": [
+        432,
+        10,
+        415,
+        48
+      ],
+      "texture_offset": "0x280260",
+      "texture_sha256": "befd73e6b31d0a6a613ec112d9bc31813cbebc9756104a20b923305576253184"
+    },
+    "m2_t9": {
+      "member": 2,
+      "texture": 9,
+      "jp": "真マジンガー　衝撃！Ｚ編",
+      "en": "Mazinger Edition Z: The Impact!",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.441,
+      "runner_up_score": 0.132,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        404,
+        14,
+        470,
+        39
+      ],
+      "alpha_box": [
+        399,
+        9,
+        480,
+        49
+      ],
+      "texture_offset": "0x2d0260",
+      "texture_sha256": "e24315c1af9b12554828655afaf1c2c794f44625ebe6115835a748435d843368"
+    },
+    "m2_t10": {
+      "member": 2,
+      "texture": 10,
+      "jp": "トップをねらえ２！",
+      "en": "Aim for the Top! 2: Diebuster",
+      "en_source": "rpw_names.json strings.series (glossary)",
+      "match_score": 0.303,
+      "runner_up_score": 0.146,
+      "rank_among_all_series": 1,
+      "fill_box": [
+        478,
+        14,
+        320,
+        38
+      ],
+      "alpha_box": [
+        473,
+        9,
+        330,
+        48
+      ],
+      "texture_offset": "0x320260",
+      "texture_sha256": "2de62e84a440cfaee6605b7083776c7ac97f138c5b2a35af49f2b2748084ecba"
+    }
+  }
+}

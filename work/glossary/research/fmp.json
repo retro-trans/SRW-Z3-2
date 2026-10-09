@@ -1,0 +1,959 @@
+{
+ "schema": 1,
+ "group": "fmp",
+ "names": [
+  {
+   "jp": "あの中佐",
+   "kind": "keyword",
+   "en": "That Lieutenant Colonel",
+   "status": "proposed",
+   "source": "work/tengoku/library_briefs/kw_113.md keyword 117 DSCR (the entry says it refers to retired US Army lieutenant colonel John George Courtney, old friend of Admiral Borda, big fan of Tessa)",
+   "note": "No outside source: a label used in the game, no wiki entry. Literal: あの = that, 中佐 = lieutenant colonel (Jigoku shipped English renders 中佐 as lieutenant colonel). Keep in sync with ジョン・ジョージ・コートニー."
+  },
+  {
+   "jp": "お台場",
+   "kind": "keyword",
+   "en": "Odaiba",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/kw_066.json entry 66 (\"Headquartered in Odaiba, Tokyo\"); standard English spelling of the Tokyo district"
+  },
+  {
+   "jp": "お台場の事件",
+   "kind": "keyword",
+   "en": "Odaiba Incident",
+   "status": "proposed",
+   "source": "work/tengoku/library_briefs/kw_023.md keyword 29 DSCR; the incident is the Behemoth battle in Tokyo Bay (FMP anime ep 11 \"Behemoth Awakening\", https://fullmetalpanic.fandom.com/wiki/Plan-1051_Behemoth)",
+   "note": "No wiki names the incident; literal お台場 + 事件. Uses お台場 = Odaiba."
+  },
+  {
+   "jp": "アマルガム",
+   "kind": "keyword",
+   "en": "Amalgam",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Full_Metal_Panic!_The_Second_Raid (faction \"Amalgam\"); https://fullmetalpanic.fandom.com/wiki/Amalgam; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (Amalgam)",
+   "note": "Keyword 21 DSCR also explains the metallurgical meaning (alloy of mercury); keep \"Amalgam\" for both."
+  },
+  {
+   "jp": "アーバレスト",
+   "kind": "robot",
+   "en": "Arbalest",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : \"ARX-7 Arbalest || ARX-7 アーバレスト\"; https://fullmetalpanic.fandom.com/wiki/ARX-7_Arbalest",
+   "note": "Short form of ＡＲＸ－７　アーバレスト (glossary: ARX-7 Arbalest)."
+  },
+  {
+   "jp": "ウィスパリング",
+   "kind": "keyword",
+   "en": "Whispering",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Whispered : \"a 'Whispering' who Whispered future knowledge to the Whispered ... these Whisperings\"",
+   "note": "The game glosses it as ささやく者 (the one who whispers). Noun use in a sentence: the \"Whispering\". Related glossary term ウィスパード = Whispered (official). The wiki TAROS page also says \"the Whisperer\" once; \"Whispering\" is the wiki term."
+  },
+  {
+   "jp": "ウルズ",
+   "kind": "keyword",
+   "en": "Urzu",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Special_Response_Team (\"designated Urzu\"), https://fullmetalpanic.fandom.com/wiki/Melissa_Mao (\"Urzu 2\"), https://fullmetalpanic.fandom.com/wiki/Sousuke_Sagara (\"Urzu 7\"); Jigoku shipped English: pt_240.json entries 250-259 \"callsign Urzu 7 / Urzu 2 / Urzu 6 / Urzu 1\". Jigoku glossary status proposed -> confirmed by these.",
+   "note": "Used as \"callsign $$ウルズ$$ 7\" so the number stays outside the token."
+  },
+  {
+   "jp": "エドワード・ブルーザー・サックス",
+   "kind": "pilot",
+   "en": "Edward Bruiser Sachs",
+   "status": "proposed",
+   "source": "work/tengoku/library_briefs/pt_341.md pilot 359 CHFN (only source); no English source found (fullmetalpanic.fandom.com search for Sachs/Sax returns nothing; web searches found nothing)",
+   "note": "PROPOSED, unverified: romanization of the katakana only (ブルーザー = Bruiser). The surname could also be Sax/Sacks; western order like other Mithril members. Gender male by 彼の死 in pilot 359 DSC2."
+  },
+  {
+   "jp": "エリゴール",
+   "kind": "robot",
+   "en": "Eligor",
+   "status": "proposed",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Plan-1065_Erigor (\"also called Eligor or Erigol\"); https://fullmetalpanic.fandom.com/wiki/Amalgam lists \"Plan-1065 Eligor\"",
+   "note": "Fowler's Amalgam AS (Plan-1065). The wiki titles the page \"Erigor\" but lists \"Eligor\" as the alternative and in the Amalgam page; Amalgam AS are named after demons (Alastor, Belial, Behemoth, Leviathan), so Eligor (demon Eligos/Eligor) is the intended reading. Not attested in a licensed release I could reach, so proposed."
+  },
+  {
+   "jp": "オムニ・スフィア",
+   "kind": "keyword",
+   "en": "Omni-Sphere",
+   "status": "official",
+   "source": "work/tengoku/library_briefs/kw_113.md keyword 122 DSCR (the game spells out \"Transfer And Response Omni-Sphere\"); https://fullmetalpanic.fandom.com/wiki/TAROS (\"Transfer and Response Omni-Sphere\")",
+   "note": "Hyphenated as in the game's own expansion of TAROS. The wiki also writes \"Omni Sphere\" (Yamsk-11 page)."
+  },
+  {
+   "jp": "カスパー",
+   "kind": "pilot",
+   "en": "Casper",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Wilhelm Casper\"); https://fullmetalpanic.fandom.com/wiki/Wilhelm_Casper",
+   "note": "The translators proposed Kasper. Official English (licensed dub credits) and the franchise wiki write Casper. Short form of ヴィルヘルム・カスパー. Prose also uses \"$$カスパー$$'s Unit\" (wiki: \"Casper's Unit\")."
+  },
+  {
+   "jp": "クダン・ミラ",
+   "kind": "pilot",
+   "en": "Mira Kudan",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Mira Kudan\"); https://fullmetalpanic.fandom.com/wiki/Mira_Kudan (久壇 未良, aka Sarah Miller)",
+   "note": "Western order (given name first) as in the project convention. The translators proposed both Kudan Mira and Mira Kudan; official is Mira Kudan."
+  },
+  {
+   "jp": "クラマ",
+   "kind": "pilot",
+   "en": "Kurama",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Kurama\"); https://fullmetalpanic.fandom.com/wiki/Kurama"
+  },
+  {
+   "jp": "クロスボウ",
+   "kind": "keyword",
+   "en": "Crossbow",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : \"Savage (Crossbow) || サベージ (クロスボウ)\"; https://fullmetalpanic.fandom.com/wiki/Lemon (\"the team, now named Crossbow\")"
+  },
+  {
+   "jp": "コダール",
+   "kind": "robot",
+   "en": "Codarl",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Full_Metal_Panic! (\"Plan 1056 Codarl\"); work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : \"Plan-1056 Codarl i\"; Jigoku glossary プラン１０５６　コダール = Plan 1056 Codarl",
+   "note": "Short form used in prose (the Codarl line)."
+  },
+  {
+   "jp": "サックス",
+   "kind": "pilot",
+   "en": "Sachs",
+   "status": "proposed",
+   "source": "work/tengoku/library_briefs/pt_341.md pilot 359 CHNN (only source); no English source found",
+   "note": "PROPOSED, unverified; surname of Edward Bruiser Sachs (see that entry). Same person in pilot 359 and robot 220 DSC2 (creator of the XL-3 booster). The rt_171 proposal \"Sax\" is likewise unsourced. Gender male by 彼の死."
+  },
+  {
+   "jp": "サビーナ",
+   "kind": "pilot",
+   "en": "Sabina",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Sabina (Rechnio)\"); https://fullmetalpanic.fandom.com/wiki/Sabina_Rechnio; https://myanimelist.net/character/161571",
+   "note": "Short form of サビーナ・レフニオ."
+  },
+  {
+   "jp": "サビーナ・レフニオ",
+   "kind": "pilot",
+   "en": "Sabina Rechnio",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Sabina (Rechnio)\"); https://fullmetalpanic.fandom.com/wiki/Sabina_Rechnio (aka Sabina Refunio); https://myanimelist.net/character/161571 (\"Sabina Rechnio\", サビーナ・レフニオ)",
+   "note": "The translators proposed \"Sabina Refnio\" (straight romanization). Official English and both databases spell it Rechnio."
+  },
+  {
+   "jp": "サベージ",
+   "kind": "robot",
+   "en": "Savage",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : \"Rk-92 Savage\"; Jigoku glossary Ｒｋ－９２　サベージ = Rk-92 Savage; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki \"Savage (Crossbow)\"",
+   "note": "Short form used in prose."
+  },
+  {
+   "jp": "ジョン・ジョージ・コートニー",
+   "kind": "pilot",
+   "en": "John George Courtney",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"John George Courtney\"); https://fullmetalpanic.fandom.com/wiki/Lemon (camp chief Courtney)",
+   "note": "No akurasu Z3.2 entry. Retired US Army lieutenant colonel per the entry.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "weak: no pronoun in the Japanese entry (元軍人, 旧友); English dub credits list him with a male voice actor (Jeremy Schwartz per IMDb, found by web search). Treat as male but not proven.",
+    "position": "retired US Army lieutenant colonel; runs the mercenary training camp in Florida (fandom Lemon page); old friend of Admiral Borda of Mithril",
+    "personality": "brimming with Marine Corps spirit; a big fan of Tessa (keyword 117 DSCR)",
+    "nickname": "called \"that lieutenant colonel\" (あの中佐) in the keyword title",
+    "sources": [
+     "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)",
+     "https://fullmetalpanic.fandom.com/wiki/Lemon",
+     "work/tengoku/library_briefs/kw_113.md keyword 117 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ソフィア",
+   "kind": "pilot",
+   "en": "Sophia",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Sophia; work/tengoku/library_briefs/pt_341.md pilot 343",
+   "note": "The translators proposed both Sofia and Sophia; the franchise wiki page is \"Sophia\"."
+  },
+  {
+   "jp": "タケチ・セイジ",
+   "kind": "pilot",
+   "en": "Seiji Takechi",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entries 263, 264 (\"Seiji Takechi\"); https://fullmetalpanic.fandom.com/wiki/A-21 (\"former mercenary, Seiji Takechi's youth camp\")",
+   "note": "Western order like Sousuke Sagara; the entry gives 武知征爾 in parentheses. Deceased leader of the youth rehabilitation camp that became A21.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR of pilot 347: 父のように慕っていた (looked up to like a father); fandom A-21 page: \"his youth camp\"",
+    "position": "former mercenary who ran a youth rehabilitation camp on an island; founder of what became the terrorist group A21; dead before the story",
+    "personality": "strict but caring mentor who taught troubled youths survival skills and discipline (fandom A-21 page)",
+    "nickname": "",
+    "sources": [
+     "https://fullmetalpanic.fandom.com/wiki/A-21",
+     "work/tengoku/library_briefs/pt_341.md pilot 347 DSCR",
+     "E:/Projects/SRW Z3/translation/library/pt_240.json entry 264"
+    ]
+   }
+  },
+  {
+   "jp": "ナミ",
+   "kind": "pilot",
+   "en": "Nami",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Nami\"); https://fullmetalpanic.fandom.com/wiki/Nami"
+  },
+  {
+   "jp": "ナムサク",
+   "kind": "keyword",
+   "en": "Namsac",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Lemon (\"Namsac\"), https://fullmetalpanic.fandom.com/wiki/Nami; https://www.bubbleblabber.com/english-dub-season-review-full-metal-panic-invisible-victory/ (Namsac in dub episode summaries)",
+   "note": "Nam Sak is not used by the wiki."
+  },
+  {
+   "jp": "ハンカ自治州",
+   "kind": "keyword",
+   "en": "Hanka Autonomous Region",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/rt_160.json entries 176, 177, 184 (\"hijacking incident in the Hanka Autonomous Region\")",
+   "note": "Precedence follows the Jigoku shipped library, then the franchise wiki. The wiki (Kidnap, Plan-1059 Codarl-m pages) and real geography write \"Khanka\" (Lake Khanka). Reported in report.uncertain: the orchestrator may prefer Khanka."
+  },
+  {
+   "jp": "ファウラー",
+   "kind": "pilot",
+   "en": "Fowler",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Lee Fowler\"); https://fullmetalpanic.fandom.com/wiki/Lee_Fowler",
+   "note": "Short form of リー・ファウラー."
+  },
+  {
+   "jp": "フライデー",
+   "kind": "pilot",
+   "en": "Friday",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Don_Rush (English dub credit: Friday, Mao's A.I., in FMP and The Second Raid); English word",
+   "note": "The M9 AI of Mao. Only one フライデー in the fmp brief."
+  },
+  {
+   "jp": "ベリアル",
+   "kind": "robot",
+   "en": "Belial",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : \"Plan-1055 Belial || プラン1055 ベリアル\"; https://fullmetalpanic.fandom.com/wiki/Plan-1055_Belial",
+   "note": "Short form used in prose (Leonard's AS)."
+  },
+  {
+   "jp": "ミシェル・レモン",
+   "kind": "pilot",
+   "en": "Michel Lemon",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Michel Lemon\"); https://fullmetalpanic.fandom.com/wiki/Lemon (\"Michel Lemon\")",
+   "note": "French DGSE agent; not the fruit."
+  },
+  {
+   "jp": "ミラ",
+   "kind": "pilot",
+   "en": "Mira",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Mira Kudan\"); https://fullmetalpanic.fandom.com/wiki/Mira_Kudan",
+   "note": "Given name of Mira Kudan; used as the short form (pilot 335, robot 219 DSC2)."
+  },
+  {
+   "jp": "ヤムスク１１",
+   "kind": "keyword",
+   "en": "Yamsk-11",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Yamsk-11 (\"Yamsk-11 is the unofficial name of a secret town in Siberia\")",
+   "note": "Hyphen as in the wiki title; the translators proposed \"Yamsk 11\"."
+  },
+  {
+   "jp": "リー・ファウラー",
+   "kind": "pilot",
+   "en": "Lee Fowler",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Lee Fowler\"); https://fullmetalpanic.fandom.com/wiki/Lee_Fowler (リー・ファウラー)"
+  },
+  {
+   "jp": "レディ・チャペル",
+   "kind": "keyword",
+   "en": "Lady Chapel",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entries 258, 259 (\"heads for Lady Chapel\"); https://fullmetalpanic.fandom.com/wiki/Tuatha_de_Danaan (\"a sealed area of the ship called the Lady Chapel\")"
+  },
+  {
+   "jp": "レモン",
+   "kind": "pilot",
+   "en": "Lemon",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Michel Lemon\"); https://fullmetalpanic.fandom.com/wiki/Lemon",
+   "note": "Short form of ミシェル・レモン (surname). The wiki also says Lemon was his DGSE alias."
+  },
+  {
+   "jp": "レーバテイン",
+   "kind": "robot",
+   "en": "Laevatein",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : \"ARX-8 Laevatein || ARX-8 レーバテイン\"; https://fullmetalpanic.fandom.com/wiki/ARX-8_Laevatein",
+   "note": "Short form of ＡＲＸ－８　レーバテイン."
+  },
+  {
+   "jp": "ヴィルヘルム・カスパー",
+   "kind": "pilot",
+   "en": "Wilhelm Casper",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list) (\"Wilhelm Casper\"); https://fullmetalpanic.fandom.com/wiki/Wilhelm_Casper (code name Mr. Tin/Stannum)",
+   "note": "The translators proposed Wilhelm Kasper; official English is Casper."
+  },
+  {
+   "jp": "ヴェノム",
+   "kind": "keyword",
+   "en": "Venom",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/rt_160.json entries 185, 191, 192 (\"called 'Venom' by Mithril\", \"'Venom' type machine\")",
+   "note": "Mithril classification code for the Amalgam machines of the Codarl lineage, not a unit name, so kind keyword (rt_171 said robot). The token replaces the quoted word only."
+  },
+  {
+   "jp": "信太郎",
+   "kind": "pilot",
+   "en": "Shintarou",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entry 267 (\"His father, Shintarou\"); https://fullmetalpanic.fandom.com/wiki/Shinji_Kazama (image caption \"Shintaro Kazama (Father)\")",
+   "note": "Follows the glossary's Hepburn-with-ou style (Kotorou Onodera, Zenji Oonuki); the wiki writes Shintaro. Shinji Kazama's father.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 350: 父の信太郎 (father)",
+    "position": "administrative official (staff officer) at the JGSDF Narashino base; commanding officer of the Narashino AS team (fandom Is Narashino Burning?)",
+    "personality": "estranged from his son for a time; reconciles with him through the AS mock cavalry battle (DSC2 pilot 350)",
+    "nickname": "",
+    "sources": [
+     "work/tengoku/library_briefs/pt_341.md pilot 350 DSCR/DSC2",
+     "https://fullmetalpanic.fandom.com/wiki/Is_Narashino_Burning%3F",
+     "E:/Projects/SRW Z3/translation/library/pt_240.json entry 267"
+    ]
+   }
+  },
+  {
+   "jp": "地中海戦隊",
+   "kind": "keyword",
+   "en": "Mediterranean Fleet",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_280.json entry 284 (\"transfers from the Mediterranean Fleet to the Western Pacific Fleet\"); E:/Projects/SRW Z3/translation/library/rt_160.json entry 188",
+   "note": "The wiki writes \"Mediterranean Sea Fleet\" (Mithril page); Jigoku shipped uses Mediterranean Fleet. Keeping Jigoku."
+  },
+  {
+   "jp": "大導脈流",
+   "kind": "keyword",
+   "en": "Daidoumyaku",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entry 275 (\"A practitioner of the Daidoumyaku style\")",
+   "note": "The token stands for the school name only; the prose writes \"style\" after it (\"$$大導脈流$$ style\"). Hepburn ou as in the glossary."
+  },
+  {
+   "jp": "妖精の目",
+   "kind": "keyword",
+   "en": "Fairy's Eye",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Fairy%27s_Eye (\"The Fairy's Eye is an ...\", Lambda Driver detection system)",
+   "note": "The translators proposed Fairy's Eye / Fairy Eye; the wiki page is Fairy's Eye."
+  },
+  {
+   "jp": "妖精の羽",
+   "kind": "keyword",
+   "en": "Fairy's Feather",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Mira_Kudan, https://fullmetalpanic.fandom.com/wiki/ARX-8_Laevatein and https://fullmetalpanic.fandom.com/wiki/Plan-1055_Belial (all write \"Fairy's Feather\", the Lambda Driver canceller)",
+   "note": "The translators proposed Fairy Wings (rt_171: kind robot); 羽 = feather and the wiki uses Feather. It is equipment/system, so kind keyword."
+  },
+  {
+   "jp": "水星",
+   "kind": "pilot",
+   "token": "水星#fmp",
+   "en": "Mizuhoshi",
+   "status": "official",
+   "source": "https://myanimelist.net/character/5102 (\"Iori Mizuhoshi\", 水星庵, art teacher, Full Metal Panic? Fumoffu)",
+   "note": "The translators proposed \"Suisei\" (on-yomi guess). The art teacher is Iori Mizuhoshi in Fumoffu; the game prose says 美術教師の水星 (surname). Bare 水星 also means the planet Mercury, so it needs its own token (see retoken). MAL is a database rather than a licensed release, hence noted; the reading follows the series.",
+   "profile": {
+    "gender": "unknown",
+    "gender_evidence": "nothing in the entry or in MAL settles it (Eri Kagurazaka is the pilot entry; her husband is only \"the art teacher 水星\")",
+    "position": "art teacher at Jindai High School; marries Eri Kagurazaka",
+    "personality": "",
+    "nickname": "",
+    "sources": [
+     "https://myanimelist.net/character/5102",
+     "work/tengoku/library_briefs/pt_341.md pilot 356 DSC2"
+    ]
+   }
+  },
+  {
+   "jp": "神楽坂恵里",
+   "kind": "pilot",
+   "en": "Eri Kagurazaka",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Full_Metal_Panic! (\"Eri Kagurazaka\"); Jigoku glossary 神楽坂恵理 = Eri Kagurazaka; https://fullmetalpanic.fandom.com/wiki/Eri_Kagurazaka",
+   "note": "Match note: the Tengoku CHFN spells the given name 恵里, the Jigoku glossary/akurasu entry 恵理; same character (CHNN 恵理 = Eri). The glossary key needs this spelling added."
+  },
+  {
+   "jp": "練馬",
+   "kind": "keyword",
+   "en": "Nerima",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entry 260 (\"Japan Ground Self-Defense Force's Nerima base\"); https://fullmetalpanic.fandom.com/wiki/Is_Narashino_Burning%3F (\"the Nerima team\")"
+  },
+  {
+   "jp": "練馬レッドドラゴン",
+   "kind": "keyword",
+   "en": "Nerima Red Dragon",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entry 260 DSC2 (\"the captain of the Nerima Red Dragon, the AS unit\")",
+   "note": "A team/squad name, so kind keyword (pt_341 said robot)."
+  },
+  {
+   "jp": "美樹原組",
+   "kind": "keyword",
+   "en": "Mikihara-gumi",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entry 274 (\"the Mikihara-gumi, a street-stall vendors' group\"); glossary 美樹原蓮 = Ren Mikihara",
+   "note": "The wiki says \"Mikihara Gang\"; Jigoku keeps the Japanese -gumi."
+  },
+  {
+   "jp": "習志野",
+   "kind": "keyword",
+   "en": "Narashino",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_240.json entries 260, 267 (\"Narashino base\"); https://fullmetalpanic.fandom.com/wiki/Is_Narashino_Burning%3F"
+  },
+  {
+   "jp": "習志野強襲機兵中隊",
+   "kind": "keyword",
+   "en": "Narashino Assault Company",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/rt_160.json entry 186 (\"JGSDF's Narashino Assault Company\")",
+   "note": "Jigoku pt_240 260 renders 強襲機兵中隊 as \"assault mecha company\" for Nerima; keep the exact token English from rt_160."
+  },
+  {
+   "jp": "西太平洋戦隊",
+   "kind": "keyword",
+   "en": "Western Pacific Fleet",
+   "status": "official",
+   "source": "E:/Projects/SRW Z3/translation/library/pt_280.json entry 284, kw_085.json entry 98 (\"Mithril's Western Pacific fleet\"); https://fullmetalpanic.fandom.com/wiki/Gavin_Hunter (\"Western Pacific Fleet\")",
+   "note": "Jigoku also has \"West Pacific fleet\" (pt_240, rt_160) and the wiki Mithril page says \"West Pacific Fleet\". Picked Western Pacific Fleet: Jigoku pt_280/kw_085 and the wiki Hunter page use it."
+  },
+  {
+   "jp": "赤城",
+   "kind": "pilot",
+   "en": "Akagi",
+   "status": "official",
+   "source": "Jigoku glossary 赤城龍之介 = Ryunosuke Akagi (official, https://akurasu.net/wiki/Full_Metal_Panic!); https://akurasu.net/wiki/Full_Metal_Panic! (\"Ryunosuke Akagi\")",
+   "note": "The glossary ambiguity is only the English homograph: 赤木 (Dai-Guard, Shunsuke Akagi) is a different kanji key, so no retoken is needed."
+  },
+  {
+   "jp": "Ａ２１",
+   "kind": "keyword",
+   "en": "A21",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Full_Metal_Panic! (faction listed as \"A21\"); Jigoku shipped pt_240.json entries 263, 264, rt_160 entry 186 (\"A21\")",
+   "note": "The franchise wiki page is \"A-21\" (aka A21)."
+  },
+  {
+   "jp": "ＤＧＳＥ",
+   "kind": "keyword",
+   "en": "DGSE",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/Lemon (\"Générale de la sécurité extérieure, DGSE\"); French intelligence service Direction générale de la sécurité extérieure",
+   "note": "The entry expands it in English as French General Directorate for External Security."
+  },
+  {
+   "jp": "ＴＡＲＯＳ",
+   "kind": "keyword",
+   "en": "TAROS",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/TAROS (\"Transfer and Response Omni-Sphere\"); game entry keyword 122 DSCR"
+  },
+  {
+   "jp": "ＴＡＲＴＡＲＯＳ",
+   "kind": "keyword",
+   "en": "TARTAROS",
+   "status": "official",
+   "source": "https://fullmetalpanic.fandom.com/wiki/TAROS (\"The TARTAROS on the other hand, was built by Leonard and Amalgam\")",
+   "note": "Uppercase as in the game and the wiki. Tartarus is only the Greek word."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 325,
+   "gender": "male",
+   "gender_evidence": "fandom Sousuke Sagara page (seiyuu Tomokazu Seki, Kaname's boyfriend); pilot 327 DSCR: 彼以外の人間ではラムダ・ドライバが作動できなくなった (彼 = Sousuke); pilot 334 DSC2: 彼に最期に託した言葉",
+   "nickname": "former alias \"Kashim\" (カシム); callsign Urzu 7 (ウルズ７)",
+   "position": "sergeant of Mithril's SRT aboard the Tuatha de Danaan; exclusive pilot of the Arbalest; goes undercover as a transfer student in Jindai High class 2-4 to guard Kaname",
+   "personality": "earnest and serious to a fault; a professional soldier always ready for the unexpected, skilled with ASs and firearms; clumsy in school life and a troublemaker; awkward but deeply bonded with Kaname",
+   "sources": [
+    "https://fullmetalpanic.fandom.com/wiki/Sousuke_Sagara",
+    "library pilot 325 DSCR/DSC2 (work/tengoku/library_briefs/pt_270.md)",
+    "library pilot 327 DSCR",
+    "library pilot 334 DSC2"
+   ]
+  },
+  {
+   "pilot_id": 326,
+   "gender": "not applicable",
+   "gender_evidence": "a modified mascot costume / miniature AS; the pilot is Sousuke (male). Entry has no gender words for the suit itself.",
+   "nickname": "",
+   "position": "Sousuke's miniature-AS conversion of the Fumofumo Land mascot suit (\"Bonta-kun\"), armed with grenade launcher, baton and grenades",
+   "personality": "a machine, not a person; its voice changer turns everything into \"Fumoffu!\" (only Kaname can interpret); agile and lethal despite its round shape",
+   "sources": [
+    "https://fullmetalpanic.fandom.com/wiki/Bonta-kun",
+    "library pilot 326 DSCR/DSC2 (pt_270.md)"
+   ]
+  },
+  {
+   "pilot_id": 327,
+   "gender": "not applicable",
+   "gender_evidence": "AI of the Arbalest (then the Laevatein); an AI has no gender in the entry (DSCR/DSC2 use no pronoun for Al; \"he\" in the entry refers to Sousuke)",
+   "nickname": "call sign アル (Al)",
+   "position": "voice-response AI of the ARX-7 Arbalest; later designs and becomes the AI of the ARX-8 Laevatein",
+   "personality": "optimised to Sousuke as its only pilot; Sousuke first distrusted it, later calls it his \"partner\" (相棒); gradually acquires human-like emotion, humorous (\"raised a flag\")",
+   "sources": [
+    "library pilot 327 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/ARX-7_Arbalest"
+   ]
+  },
+  {
+   "pilot_id": 328,
+   "gender": "female",
+   "gender_evidence": "pilot 328 DSCR: デ・ダナン艦長のテッサとはプライベートでも仲が良く、私的な場では彼女からメリッサと呼ばれる; 雌豹のようなしなやかなスタイル; DSC2: 男女の仲 with Kurz",
+   "nickname": "callsign Urzu 2; Tessa calls her \"Melissa\" in private",
+   "position": "master sergeant (later second lieutenant) in Mithril SRT aboard the Danaan; superior of Sousuke and Kurz; ex-Marine",
+   "personality": "gutsy and trusted absolutely by Sousuke and Kurz; expert in AS piloting, combat, infiltration and communications; short hair and panther-like build; loves beer",
+   "sources": [
+    "library pilot 328 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Melissa_Mao"
+   ]
+  },
+  {
+   "pilot_id": 329,
+   "gender": "not applicable",
+   "gender_evidence": "AI aboard Mao's M9; no gender given (entry: マオの搭乗するＭ９に搭載されているＡＩ)",
+   "nickname": "",
+   "position": "AI installed in Mao's M9",
+   "personality": "not self-aware like Al: it sometimes asks for a \"reward\" for results only because Mao taught it playfully",
+   "sources": [
+    "library pilot 329 DSCR (pt_270.md)",
+    "https://en.wikipedia.org/wiki/Don_Rush (dub credit \"Friday (Mao's A.I.)\")"
+   ]
+  },
+  {
+   "pilot_id": 330,
+   "gender": "male",
+   "gender_evidence": "pilot 330 DSCR: 金髪碧眼の美青年 (handsome young man); DSC2: 男女の仲 with Mao; fandom Kurz Weber page \"He\"",
+   "nickname": "callsign Urzu 6",
+   "position": "sergeant (later master sergeant) in Mithril SRT aboard the Danaan; top sniper; Sousuke's and Mao's teammate",
+   "personality": "flippant playboy who hits on every woman, including Mao; a genius sniper who can hit a coin at 1 km; fluent Japanese (lived in Edogawa until 14); former fashion model",
+   "sources": [
+    "library pilot 330 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Kurz_Weber"
+   ]
+  },
+  {
+   "pilot_id": 331,
+   "gender": "male",
+   "gender_evidence": "fandom Belfangan Clouseau page: Male Characters; called \"Ben Clouseau\" (Lee Fowler page); Japanese entry has no gendered word",
+   "nickname": "callsign Urzu 1; \"Ben Clouseau\" (wiki)",
+   "position": "lieutenant (later captain); transferred from the Mediterranean Fleet to the Western Pacific Fleet; new SRT team leader; pilots the M9D Falke",
+   "personality": "calm and strict, hard on himself and his men (deliberately insults the dead McAllen to provoke the SRT); martial arts specialist who treats it as a way of life; secretly loves watching anime",
+   "sources": [
+    "library pilot 331 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Belfangan_Clouseau"
+   ]
+  },
+  {
+   "pilot_id": 332,
+   "gender": "female",
+   "gender_evidence": "pilot 332 DSCR: デ・ダナンの改修案を設計したのも彼女である; 兄のレナード; fandom Teletha Testarossa page: Female Characters",
+   "nickname": "Tessa (short form of Teletha); Melissa Mao calls her Tessa; Wiki alias Teletha Mantissa (Ansuz)",
+   "position": "colonel; captain of the Tuatha de Danaan and commander of Mithril's Western Pacific Fleet; a Whispered; same age as Sousuke and Kaname",
+   "personality": "gentle and easygoing but very competitive; extremely uncoordinated; proud of her duty and resolute as a commander; genius tactician; falls in love with Sousuke and declares \"war\" on Kaname yet befriends her; touches her nose with her braid when thinking",
+   "sources": [
+    "library pilot 332 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Teletha_Testarossa"
+   ]
+  },
+  {
+   "pilot_id": 333,
+   "gender": "male",
+   "gender_evidence": "pilot 333 DSCR: 宗介は彼のことを苦手にしていて (Sousuke dislikes him); posed as Tessa's father (彼女の父という立場); fandom Richard Mardukas page: Male Characters",
+   "nickname": "known as \"the Duke\" (公爵、デューク) in submarine circles (DSC2)",
+   "position": "lieutenant colonel; executive officer (second-in-command) of the Tuatha de Danaan; former captain in the Royal Navy submarine service",
+   "personality": "stern, discipline-first; glasses and cap as trademarks; sometimes objects to Tessa because he wants her to be a worthy captain; dry, pragmatic; turns his cap around when serious (DSC2)",
+   "sources": [
+    "library pilot 333 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Richard_Mardukas"
+   ]
+  },
+  {
+   "pilot_id": 334,
+   "gender": "male",
+   "gender_evidence": "pilot 334 DSCR/DSC2: バイオリニストの妻がおり (had a violinist wife); Sousuke's 親父 (\"old man\"); fandom Andrey Kalinin page: Male Characters",
+   "nickname": "\"Mr. K (Potassium)\" (ミスタ・Ｋ（カリウム）) as an Amalgam executive; Sousuke's \"old man\" (親父)",
+   "position": "major; operations officer of Mithril's Western Pacific Fleet, commands the ground troops aboard the Danaan; later Amalgam executive Mr. K",
+   "personality": "always calm, ruthless if the operation needs it, yet dutiful and warm-hearted; former special forces commander; lost his wife and unborn child to a medical error, which drives his betrayal (TARTAROS)",
+   "sources": [
+    "library pilot 334 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Andrey_Kalinin"
+   ]
+  },
+  {
+   "pilot_id": 335,
+   "gender": "male",
+   "gender_evidence": "fandom Gavin Hunter page: Male Characters and \"he\"; Japanese entry has no gendered word",
+   "nickname": "",
+   "position": "member of Mithril's Intelligence Division, Hong Kong branch; cover as a trader (Hunter Cleaning Company); later helps build the Laevatein",
+   "personality": "honest-looking salaryman type; resourceful supplier of information and materiel; keeps resisting Amalgam after Mithril's fall",
+   "sources": [
+    "library pilot 335 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Gavin_Hunter"
+   ]
+  },
+  {
+   "pilot_id": 336,
+   "gender": "female",
+   "gender_evidence": "pilot 336 DSCR: ミスリル情報部の女性部員 and なお、その正体は女性である; fandom Wraith page (Kim Yunhi, female agent posing as a middle-aged man)",
+   "nickname": "code name only (real name Kim Yunhi per wiki)",
+   "position": "Mithril Intelligence agent assigned to Operation Guardian Angel (secretly guarding Kaname); master of disguise",
+   "personality": "cool and composed, skilled in combat and medicine; a much-put-upon worker who often gets pulled into trouble; shows a playful side aiming a sniper scope at Sousuke",
+   "sources": [
+    "library pilot 336 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Wraith"
+   ]
+  },
+  {
+   "pilot_id": 337,
+   "gender": "male",
+   "gender_evidence": "pilot 337 DSCR: テッサの双子の兄 (Tessa's twin older brother); fandom Leonard Testarossa page: Male Characters",
+   "nickname": "\"Mr. Ag (Silver)\" (ミスタ・Ａｇ（シルバー）)",
+   "position": "Amalgam executive; Tessa's twin brother; a Whispered with rich knowledge of Black Technology; leader who takes over Amalgam",
+   "personality": "gentle and gentlemanly manner hiding a forceful, inscrutable will; personality warped in childhood by his mother's affair; after Kaname shoots him becomes coarse; child prodigy",
+   "sources": [
+    "library pilot 337 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Leonard_Testarossa"
+   ]
+  },
+  {
+   "pilot_id": 338,
+   "gender": "not applicable",
+   "gender_evidence": "autonomous AS developed by Leonard; no gender in the entry",
+   "nickname": "",
+   "position": "Leonard's bodyguard: the world's smallest autonomous AS, accompanies him",
+   "personality": "extremely tough and powerful assassin-machine; overpowers infantry and even Yu Lan, but cannot withstand AS weapons",
+   "sources": [
+    "library pilot 338 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Plan-1211_Alastor"
+   ]
+  },
+  {
+   "pilot_id": 339,
+   "gender": "female",
+   "gender_evidence": "pilot 339 DSCR: レナードの側近の女性 (a woman close aide of Leonard); DSC2 also 嫉妬心 toward Kaname",
+   "nickname": "wiki: calls Leonard \"Lord Leonard\"",
+   "position": "Leonard's close aide; capable soldier and electronic-warfare specialist (reprograms enemy ASs so they fight each other); later pilots an Eligor",
+   "personality": "dressed in black suits; devotion to Leonard beyond loyalty; jealous of Kaname because of Leonard's affection; contemptuous of Kaname",
+   "sources": [
+    "library pilot 339 DSCR/DSC2 (pt_270.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Sabina_Rechnio",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  },
+  {
+   "pilot_id": 340,
+   "gender": "male",
+   "gender_evidence": "fandom Kurama page: Male Characters; the Japanese entry shows no gendered word for him",
+   "nickname": "\"Mr. Kurama\" (wiki)",
+   "position": "Amalgam field operative who confronts Sousuke in Namsac (Amalgam \"action team member\")",
+   "personality": "a professional who uses ruthless means without hesitation; trying to quit smoking, carries carrot sticks in a cigarette case; shoots Nami as an example; Sousuke's greatest enemy in the arc",
+   "sources": [
+    "library pilot 340 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Kurama",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  },
+  {
+   "pilot_id": 341,
+   "gender": "male",
+   "gender_evidence": "fandom Lemon page (\"he\", young Frenchman; affection for younger women); pilot 341 DSC2 shows 彼女 only for Nami",
+   "nickname": "wiki: \"Lemon\" was also his DGSE alias",
+   "position": "reporter covering the AS arena in Namsac; secretly a DGSE agent probing the link between the arena and Amalgam; sponsors Nami's team, later supports Sousuke",
+   "personality": "loyal and kind-hearted, fond of Nami and cried at her death (DSC2); a smoker and social drinker (wiki)",
+   "sources": [
+    "library pilot 341 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Lemon",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  },
+  {
+   "pilot_id": 342,
+   "gender": "female",
+   "gender_evidence": "pilot 341 DSC2: ナミに好意を寄せており、彼女の死には涙を流した (彼女 = Nami); pilot 340 DSC2: 彼女を射殺する; fandom Nami page: Female Characters (red-haired girl)",
+   "nickname": "",
+   "position": "owner-mechanic of the weak AS arena team \"Crossbow\" in Namsac; raises money to rebuild her devastated village and school",
+   "personality": "determined and hard-working; no formal education yet extraordinary AS knowledge; Sousuke suspects she may be a Whispered; killed by Kurama in the story (spared in some SRW versions)",
+   "sources": [
+    "library pilot 342 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Nami",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  },
+  {
+   "pilot_id": 343,
+   "gender": "female",
+   "gender_evidence": "pilot 343 DSCR: 某国の秘密都市ヤムスク１１の地下施設のＴＡＲＯＳに思念を残していた少女 (a girl); fandom Sophia page: Female Characters",
+   "nickname": "",
+   "position": "a girl whose thoughts remain in the TAROS of the secret city Yamsk-11; subject of an experiment 18 years ago and the origin of the Whispered; later takes over Kaname's mind and works with Leonard",
+   "personality": "described only as a lingering consciousness; through Kaname she tries to correct the world with Leonard, but Kaname (awakened by Sousuke's abuse) rejects her",
+   "sources": [
+    "library pilot 343 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Sophia"
+   ]
+  },
+  {
+   "pilot_id": 344,
+   "gender": "male",
+   "gender_evidence": "fandom Wilhelm Casper page (mercenary, \"his grandfather\", Mr. Tin); pilot 344 DSCR: 狙撃の師匠 (sniping master) of Kurz; Japanese entry has no gendered word",
+   "nickname": "\"Mr. Tin (Mr. Stannum)\" and \"Demon Man\" (wiki)",
+   "position": "one of Leonard's subordinates; Kurz's former sniping teacher; formerly led the sniper unit \"Casper's Unit\"",
+   "personality": "a formidable sniper who describes a miracle shot as \"a ghost descending\"; dismisses Kurz as a failure who could not call the ghost; cold about collateral damage (wiki)",
+   "sources": [
+    "library pilot 344 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Wilhelm_Casper",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  },
+  {
+   "pilot_id": 345,
+   "gender": "male",
+   "gender_evidence": "fandom Lee Fowler page (\"he\", American of Asian descent, seiyuu Tomokazu Sugita); Japanese entry has no gendered word",
+   "nickname": "",
+   "position": "one of Leonard's subordinates; unofficial leader of Leonard's strike team; expert martial artist; fights Clouseau in the final battle (pilot 331 DSCR); pilots an Eligor",
+   "personality": "gentlemanly under any circumstances; efficient and regimented in combat, no pompous speeches; highly skilled swordsman/martial artist (wiki)",
+   "sources": [
+    "library pilot 345 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Lee_Fowler",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  },
+  {
+   "pilot_id": 346,
+   "gender": "male",
+   "gender_evidence": "fandom Gates page: Male Characters (\"he\"); Japanese entry has no gendered word",
+   "nickname": "",
+   "position": "Amalgam member; ace pilot of the Plan-1056 Codarl-i; defeated by Sousuke in Hong Kong",
+   "personality": "twisted personality and tastes, a pervert; volatile, cheerfully kills; nevertheless sharp battlefield analyst; obsessed with his sideburns (\"a bit short?\" was his last line)",
+   "sources": [
+    "library pilot 346 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Gates"
+   ]
+  },
+  {
+   "pilot_id": 347,
+   "gender": "female",
+   "gender_evidence": "pilot 347 DSCR: 彼女を姉と信じるタクマ (Takuma believes she is his sister); pilot 347: リーダー; fandom Seina page: Female Characters",
+   "nickname": "",
+   "position": "leader of the terrorist group A21; plots the Tokyo attack with her former comrades out of loyalty and revenge for Seiji Takechi",
+   "personality": "cold, ruthless commander (uses Takuma to pilot the Behemoth) yet shows a human side when talking to the captive Kalinin; dies watched over by Kalinin",
+   "sources": [
+    "library pilot 347 DSCR (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Seina"
+   ]
+  },
+  {
+   "pilot_id": 348,
+   "gender": "female",
+   "gender_evidence": "pilot 348 DSCR: 陣代高校に通う女子高生。１６歳 (female high-school student, 16); fandom Kaname Chidori page: Female Characters",
+   "nickname": "\"Kana-chan\" (wiki); Mithril's code name \"Angel\" (wiki)",
+   "position": "16-year-old student of Jindai High class 2-4; class representative and vice president of the student council; a Whispered; heroine",
+   "personality": "honest, caring and lively; athletic (called to help sports clubs); nicknamed the \"idol you least want as a girlfriend\" yet trusted by everyone; her connection with Sousuke changes her fate",
+   "sources": [
+    "library pilot 348 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Kaname_Chidori"
+   ]
+  },
+  {
+   "pilot_id": 349,
+   "gender": "male",
+   "gender_evidence": "pilot 349 DSCR: 平均的な男子高校生として、温泉旅行に行った際には、女湯を求めてクルツと共同戦線を張っていた; fandom Ono D page: Male Characters",
+   "nickname": "\"Ono D\" (小野Ｄ)",
+   "position": "student of Jindai High class 2-4",
+   "personality": "lively class mood-maker, an average high-school boy; likes his classmate Kyoko; blames Sousuke after Kyoko is badly hurt and regrets it for a long time (DSC2)",
+   "sources": [
+    "library pilot 349 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Ono_D"
+   ]
+  },
+  {
+   "pilot_id": 350,
+   "gender": "male",
+   "gender_evidence": "pilot 350: 軍事マニア + 父の信太郎; fandom Shinji Kazama page (seiyuu Mamiko Noto, \"his father\"); wiki \"Sousuke's best friend\"; Japanese entry has no explicit 彼/少年",
+   "nickname": "",
+   "position": "student of Jindai High class 2-4; photo club member; military otaku",
+   "personality": "AS/weapon photography enthusiast whose military knowledge impresses even Sousuke; friendly with Sousuke; misunderstood and resented his father until the mock cavalry battle (DSC2)",
+   "sources": [
+    "library pilot 350 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Shinji_Kazama"
+   ]
+  },
+  {
+   "pilot_id": 351,
+   "gender": "female",
+   "gender_evidence": "fandom Kyoko Tokiwa page: Female Characters; pilot 349 DSCR: クラスメイトの恭子に好意を抱いている (a boy likes her)",
+   "nickname": "",
+   "position": "student of Jindai High class 2-4; Kaname's classmate and best friend; softball club",
+   "personality": "caring (sets up dates, asks athletic Kaname to help the softball club); Kaname's greatest supporter who calls out her hidden feelings; badly hurt during the Amalgam attack (DSC2)",
+   "sources": [
+    "library pilot 351 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Kyoko_Tokiwa"
+   ]
+  },
+  {
+   "pilot_id": 352,
+   "gender": "female",
+   "gender_evidence": "pilot 352 DSCR: ショートカットが特徴の女生徒 (a girl student with short hair)",
+   "nickname": "",
+   "position": "student of Jindai High class 2-4; friend of Kaname and Kyoko",
+   "personality": "described only as a short-haired girl who gets along well with Kaname and Kyoko",
+   "sources": [
+    "library pilot 352 DSCR (pt_341.md)"
+   ]
+  },
+  {
+   "pilot_id": 353,
+   "gender": "male",
+   "gender_evidence": "pilot 353 DSCR: 他の生徒とは異なる白い詰襟の制服 (white stand-collar uniform, a boys' school uniform) and 宗介とは気が合い、彼を…; fandom Atsunobu Hayashimizu page: Male Characters (seiyuu Toshiyuki Morikawa)",
+   "nickname": "",
+   "position": "president of Jindai High's student council; chair of the Tama-area high school liaison council; makes Sousuke his security-affairs aide",
+   "personality": "brilliant and composed but enigmatic; hard to read; strong political skills that even faculty cannot resist; white uniform and paper fan as trademarks; gets along with Sousuke",
+   "sources": [
+    "library pilot 353 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Atsunobu_Hayashimizu"
+   ]
+  },
+  {
+   "pilot_id": 354,
+   "gender": "female",
+   "gender_evidence": "fandom Ren Mikihara page: Female Characters, married to Hayashimizu (Family); pilot 354 DSCR: the girls call her お蓮さん; Japanese entry has no explicit pronoun",
+   "nickname": "called \"Oren-san\" (お蓮さん) by Kaname and others; wiki: Miss Mikihara, Oren-San",
+   "position": "secretary of Jindai High's student council; assists the president Hayashimizu; her family runs the Mikihara-gumi",
+   "personality": "easygoing and unruffled by Sousuke's troubles; secretly fond of Hayashimizu",
+   "sources": [
+    "library pilot 354 DSCR (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Ren_Mikihara"
+   ]
+  },
+  {
+   "pilot_id": 355,
+   "gender": "male",
+   "gender_evidence": "fandom Issei Tsubaki page: Male Characters (\"He is the president of the karate club\"); pilot 355 DSCR: 女性に弱い; Japanese entry has no explicit 彼",
+   "nickname": "",
+   "position": "head of Jindai High's karate club (同好会); practitioner of the Daidoumyaku style; Sousuke's rival",
+   "personality": "full of a sense of justice (protects Kaname and others from delinquents) but weak with women; extremely short-sighted; has a crush on Kaname and keeps challenging Sousuke",
+   "sources": [
+    "library pilot 355 DSCR (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Issei_Tsubaki"
+   ]
+  },
+  {
+   "pilot_id": 356,
+   "gender": "female",
+   "gender_evidence": "pilot 356 DSC2: かなめ達のクラスメイトが卒業するころには美術教師の水星と入籍し、子供を身ごもっていた (was expecting a child); fandom Eri Kagurazaka page: Female Characters",
+   "nickname": "",
+   "position": "homeroom teacher of Jindai High class 2-4 (English teacher per wiki); later marries the art teacher Mizuhoshi",
+   "personality": "strong sense of justice, serious; always worried about the disturbances Sousuke causes; kind and understanding to students (wiki)",
+   "sources": [
+    "library pilot 356 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Eri_Kagurazaka"
+   ]
+  },
+  {
+   "pilot_id": 357,
+   "gender": "male",
+   "gender_evidence": "Jigoku library entry 281 (JIG pt_240.json: \"He has a mild-mannered personality\", \"the carp he had raised\"); the Japanese entry itself has no gender word (用務員, 老人然); low-medium confidence",
+   "nickname": "",
+   "position": "caretaker (用務員) of Jindai High School",
+   "personality": "mild-mannered but somewhat disillusioned with today's youth; when hurt and after his beloved carp is cooked he turns into a high-tension killer-like figure who chases Sousuke and Issei all night with a chainsaw",
+   "sources": [
+    "library pilot 357 DSCR (pt_341.md)",
+    "E:/Projects/SRW Z3/translation/library/pt_240.json entry 281"
+   ]
+  },
+  {
+   "pilot_id": 358,
+   "gender": "male",
+   "gender_evidence": "Jigoku library pt_240.json entry 260 (\"His rank is master sergeant\", \"He is the captain\"); the Japanese entry has no gender word; the game prose also says he hits on Kaname; low-medium confidence",
+   "nickname": "",
+   "position": "master sergeant (一等陸曹) of the assault mecha company at the JGSDF Nerima base; captain of the Nerima Red Dragon AS team",
+   "personality": "skilled AS pilot acknowledged by Sousuke; highly narcissistic, persistently hits on Kaname; leads odd formation attacks in the AS cavalry battle at Narashino but is defeated",
+   "sources": [
+    "library pilot 358 DSCR (pt_341.md)",
+    "E:/Projects/SRW Z3/translation/library/pt_240.json entry 260",
+    "https://akurasu.net/wiki/Full_Metal_Panic! (Ryunosuke Akagi)"
+   ]
+  },
+  {
+   "pilot_id": 359,
+   "gender": "male",
+   "gender_evidence": "pilot 359 DSC2: 彼の死は、アルに「悲しみ」の感情を呼び起こさせた (his death made Al feel sadness); the entry uses 彼",
+   "nickname": "",
+   "position": "lieutenant; commander of the 11th Maintenance Company of Mithril's Logistics Group; maintenance officer who tunes ASs; dies mortally wounded during the Merida Island landing in front of Sousuke (DSC2)",
+   "personality": "reliable mechanic who knows Al's body best and is deeply trusted by it",
+   "sources": [
+    "library pilot 359 DSCR/DSC2 (pt_341.md)"
+   ]
+  },
+  {
+   "pilot_id": 360,
+   "gender": "female",
+   "gender_evidence": "pilot 360 DSCR: かなめの護衛任務につく以前の宗介に保護された少女 (a girl); fandom Mira Kudan page: female, red-haired girl",
+   "nickname": "wiki alias Sarah Miller",
+   "position": "a Whispered girl protected by Sousuke before the Kaname mission; rehabilitated by Mithril and joins its R&D; helps complete the ARX-8 Laevatein designed by Al",
+   "personality": "was subjected to experiments at a facility in some country (DSCR); traumatised (chews her nails, wiki); repays Sousuke by helping build the Laevatein",
+   "sources": [
+    "library pilot 360 DSCR/DSC2 (pt_341.md)",
+    "https://fullmetalpanic.fandom.com/wiki/Mira_Kudan",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796 (Full Metal Panic! Invisible Victory English cast list)"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 55,
+  "names_settled": 50,
+  "left_pending": [
+   "エドワード・ブルーザー・サックス (proposed only): no English source found for this Mithril maintenance officer; kept as Edward Bruiser Sachs (romanization of katakana)",
+   "サックス (proposed only): short form of the above; no source; Sax/Sacks are equally possible",
+   "エリゴール (proposed): wiki titles it Erigor, lists Eligor; no licensed-release spelling found; kept Eligor",
+   "あの中佐 (proposed): in-game label for Courtney, no outside source, literal",
+   "お台場の事件 (proposed): in-game incident name, no wiki entry, literal"
+  ],
+  "challenges": [
+   "グェン = Nguyen vs グェン・ビェン・ボー = Guen Bien Bo (both official in jigoku_glossary.json, from akurasu/fandom): inconsistent. The glossary itself cites https://fullmetalpanic.fandom.com/wiki/Nguyen_Bien_Bo for the short form; the full name should be \"Nguyen Bien Bo\" (not in my brief, found while checking the cast).",
+   "アンドレイ・セルゲイヴィッチ・カリーニン \"Andrei Sergeivich Kalinin\" (akurasu, official): ANN English dub credits (https://www.animenewsnetwork.com/encyclopedia/anime.php?id=18796) and https://fullmetalpanic.fandom.com/wiki/Andrey_Kalinin write \"Andrey Kalinin\". Akurasu wins by precedence, so low priority; listed only for the record.",
+   "Jigoku glossary 神楽坂恵理 = Eri Kagurazaka: Tengoku CHFN uses the variant kanji 神楽坂恵里 (kept as a separate name record); the glossary key for the Tengoku spelling must be added, not a rename."
+  ],
+  "retoken": [
+   "pilot 356 DSC2: $$水星$$ -> $$水星#fmp$$ (the art teacher Mizuhoshi; bare 水星 is the planet Mercury and may be reused by other groups)"
+  ],
+  "uncertain": [
+   "Novel-only cast (Sabina, Fowler, Casper, Kurama, Nami, Lemon, Mira Kudan, Courtney): I found no book edition spelling. Spellings come from the licensed English dub credits on ANN (Full Metal Panic! Invisible Victory) plus the franchise wiki, and they differ from the translators' romanizations (Kasper->Casper, Refnio->Rechnio). ANN lists \"Sabina (Rechnio)\" and \"Wilhelm Casper\".",
+   "ハンカ自治州: precedence gave Jigoku's shipped \"Hanka Autonomous Region\"; the wiki and geography use \"Khanka\" (Lake Khanka). Orchestrator may prefer Khanka.",
+   "サックス / エドワード・ブルーザー・サックス: nothing found online; whole spelling unverified. Gender male comes from 彼の死 in pilot 359 DSC2.",
+   "エリゴール: Eligor chosen over the wiki title Erigor by the demon-name pattern (Alastor, Belial, Behemoth, Leviathan).",
+   "西太平洋戦隊 / 地中海戦隊: Jigoku ships both \"West Pacific fleet\" and \"Western Pacific fleet\"; the wiki Mithril page says \"West Pacific Fleet\" and \"Mediterranean Sea Fleet\". Chose Western Pacific Fleet and Mediterranean Fleet.",
+   "水星 = Mizuhoshi comes from MyAnimeList (Iori Mizuhoshi, 水星庵) only; art teacher's gender not settled by any source (marked unknown).",
+   "ジョン・ジョージ・コートニー gender male is weak evidence (English voice actor). Ono D, Oonuki, Akagi etc.: Oonuki (357) and Akagi (358) gender comes from the Jigoku English pronouns (the Japanese has none) plus series knowledge; medium confidence.",
+   "Nami (342): the game DSC2 says she is shot dead by Kurama; the fandom wiki trivia says she survives in Z3.2. The profile follows the game text.",
+   "Pilot 334 Kalinin: the game entry calls him ミスタ・Ｋ（カリウム） = \"Mr. K (Potassium)\"; ANN dub credits list \"Mister Natrium/Gold/Copper\" for other executives, consistent.",
+   "Short katakana forms ミラ, ナミ, レモン, サックス, クラマ collide with common words but a scan of the other name_research briefs found no shared Japanese key; only 水星 needed a token. 赤城 (FMP) and 赤木 (Dai-Guard) are different keys with the same English \"Akagi\".",
+   "Shared spellings checked against other briefs: none of my names appear in the other groups' lists except ナミ/ナミダ (different) and 赤城/赤木 (different kanji)."
+  ]
+ }
+}

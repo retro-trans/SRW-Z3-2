@@ -1,0 +1,558 @@
+{
+  "schema": 1,
+  "group": "g060",
+  "blocks": [
+    60
+  ],
+  "speaker": {
+    "token": "エイーダ・ロッサ",
+    "jigoku_pilot": "Eida Rossa",
+    "jigoku_unit": "R-Daigan",
+    "fraction": 1.0,
+    "basis": "jigoku section match (unreviewed)"
+  },
+  "lines": {
+    "60:0": {
+      "repository_source_sha256": "a704d356eebce38807077caa37d62276928c7f34b2e47e6d88ea3051137d4a57",
+      "en": "「Enemy acquired!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:21": {
+      "repository_source_sha256": "bfeaa34049808920de928df6baf0701c78c22c9982a1cda1a4d690069d8fd4e6",
+      "en": "「This is as far as you go!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:40": {
+      "repository_source_sha256": "5973c2e434fc1d73f1d8e3a0be0a3d4eed71677e753d172714517554e155af50",
+      "en": "「I won't hold back!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:61": {
+      "repository_source_sha256": "2b72d3b2887babc73dd1ccce95a495fc96e7ee30730762d6b01cf98a0b287550",
+      "en": "「I won't let you escape!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "You won't escape!",
+        "You won't get away!"
+      ],
+      "review": "same-speaker"
+    },
+    "60:84": {
+      "repository_source_sha256": "18199d56765a741057145aba120675bd95b04ca12e68f4b7aca27ba22a692d7a",
+      "en": "「For my... for our mission...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:117": {
+      "repository_source_sha256": "3a169f8ce954d2c6ba06f951276c99b1da3509491037df8fc199cb2bb7fbc3a2",
+      "en": "「I'll fight for the future too...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:150": {
+      "repository_source_sha256": "016d30f9c709f683bae7c66f869f22d230c7b1ad3356e7ae8d46e53026520d90",
+      "en": "「R-Daigan, let's go!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:179": {
+      "repository_source_sha256": "93b41299b89aad40ec52a9564410844c89593cd36fa4682288cc2778eab46ff4",
+      "en": "「R-Daigan's speed - one more blow!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "60:222": {
+      "repository_source_sha256": "f1cb655d0d0cbf1aa90f0c37444add1e48c97badc37be64a4671e4d4bd9c8ac0",
+      "en": "「If you let up, I'll strike again!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "60:261": {
+      "repository_source_sha256": "b33bcfd95828e12ed05d66275f077760c20191319e814f6eb4f28c6c07a1fdff",
+      "en": "「You won't have your way with Earth!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:302": {
+      "repository_source_sha256": "354cfa29ab207abaec6fdb5a052d3af5578cc145ba9faf6c54c4061a491b2184",
+      "en": "「On this Earth,\\nyou have no place!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "60:351": {
+      "repository_source_sha256": "843b79922c15d97f5d17149d992a975c9584ce18cc8ac8479a66d83e6c3c9130",
+      "en": "「$$スティンガー$$!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "60:374": {
+      "repository_source_sha256": "53624777279ffb8987261362313c17d02ed84e34a12ca58799593cba54229be6",
+      "en": "「There! $$スティンガー$$!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "60:407": {
+      "repository_source_sha256": "f049197428fb2491c9b13b284aff2eea35ac62f8aec6cef2bb53f144997ca367",
+      "en": "「One stroke, clean cut! Blade Twin!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "60:444": {
+      "repository_source_sha256": "21cd2c0f5450cfb63f1833b90d0ccea166c5c3f8edbc8a5e78a835e0bef46476",
+      "en": "「Blade! Twin!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "60:477": {
+      "repository_source_sha256": "d97829b7ada0c8c2c6654e4a87b3a3bc8c64d781a604fb6c880ad1650d104227",
+      "en": "「I won't take this lying down...!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "60:510": {
+      "repository_source_sha256": "20064e9f991719d1cd02bde91284fbe1a88f3e928cc7b1ae8946290bc1f8fc35",
+      "en": "「Every attack leaves an opening!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "60:543": {
+      "repository_source_sha256": "88a33b2a1e446855cb717aaa965f3caa88f2ef3ce00b89f90a576783a463e59c",
+      "en": "「I'll counterattack at once!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "60:566": {
+      "repository_source_sha256": "589d485be6389cbeb5c78ddf85ad045185b4455a9cf9f52326b51b6a57580132",
+      "en": "「I won't just sit here and take it!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "60:605": {
+      "repository_source_sha256": "2af79fbf632b709d92c8c401da388af7f96457b34458ecfd1bde6750573487f2",
+      "en": "「Allow me to return the favor!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "60:634": {
+      "repository_source_sha256": "34f4cf03ee6f41652001ec0ca6a320b365ae3c15859add055da52fec7eae2781",
+      "en": "「R-Daigan is still going strong!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "60:669": {
+      "repository_source_sha256": "7be4e8d72fa65181ffff8b0dac3e289e88642c49f54b442132d83247484594c5",
+      "en": "「I'll fight alongside you too!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "60:692": {
+      "repository_source_sha256": "e5c32e0becf9e4c3803399c11b454d37edb6477d0ac5c06c106f90db24f6b410",
+      "en": "「R-Daigan's up next!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "60:719": {
+      "repository_source_sha256": "82de473c6fad1bef062274074525aceff1c1ae5e26b96f7190077b4d8a889e56",
+      "en": "「Fuse R-Daigan\\nwith $$ダンクーガノヴァ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "60:774": {
+      "repository_source_sha256": "f906ea56ac2f7cc9195fef20fd27396dca40e21decf9976e1cdb00a3569551e9",
+      "en": "「Leave the rest to me, $$葵$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "60:805": {
+      "repository_source_sha256": "615cef96c041781b2a57ee13ff4400941340e1629386c2bfc9b4393a102452f4",
+      "en": "「I...\\nI want to help $$ジョニー$$...!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "60:854": {
+      "repository_source_sha256": "7df01ec7793c4de03a61c51a9844f54495a7393e6f9b99942befc71c1eb94fe5",
+      "en": "「Please don't push yourself!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "60:883": {
+      "repository_source_sha256": "65a875e2ee9c299a97192061b0a2f5a9b075a13854f1006d85d398a3d09102cf",
+      "en": "「I'll protect my friends!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "60:908": {
+      "repository_source_sha256": "764f7f629883c0a1f68f54449d7bd9be6f524f32bfaf6adad4d37225103dcc9d",
+      "en": "「$$ダンクーガノヴァ$$ is\\nour future's hope!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "60:957": {
+      "repository_source_sha256": "dbe65e2d23fd47b607ac1f4da340c359f4216826ba358fd365022d57a169c3f9",
+      "en": "「Fall back for now, $$葵$$」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "60:990": {
+      "repository_source_sha256": "e066d13a944a6be0fd296a00490706f8c651898542ee6a5ba2e37f441f81c68a",
+      "en": "「Please, R-Daigan!\\nProtect $$ジョニー$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "60:1045": {
+      "repository_source_sha256": "023fc35ed83e1936a916508d426b6474e96511acd8853745ef031b5acd592091",
+      "en": "「For now, we can only endure...!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "60:1078": {
+      "repository_source_sha256": "ea6d6d2212677919d4303def59ebad09bbdadc114a4927e9fbbe3957cb848e59",
+      "en": "「No...!\\nI can't counter like this!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "60:1127": {
+      "repository_source_sha256": "60d5773652dcfb2499db01533c3d904150c1ba4fcf0260e16969fc3ef1587fcc",
+      "en": "「Generator\\nwon't charge in time...!」",
+      "source": "jigoku",
+      "slots": [
+        "out of EN/ammo"
+      ]
+    },
+    "60:1178": {
+      "repository_source_sha256": "e4336719947b362a3062bc216e2c2e7de5986ffc57af6e754fce682b5344a735",
+      "en": "「No...!\\nNo weapons can fire back...!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "60:1231": {
+      "repository_source_sha256": "e317fbed8e6e9ee15a0e203b12dfd43f8234e5674215ce35b169fc1609d2efe1",
+      "en": "「I knew what you were aiming for...!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "60:1270": {
+      "repository_source_sha256": "eb7d025ff52da0aae2e687323c93abeaef4692febf3ce4217aadbae77856d33c",
+      "en": "「I don't plan on getting hit...!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "60:1303": {
+      "repository_source_sha256": "2db77bf8217d9b565eaeb04a72abbffc8f16f0defb36ed555747d5c7209e5d73",
+      "en": "「You're too slow!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "60:1328": {
+      "repository_source_sha256": "db2d1640c3e89f6a6fdcbda4b4c2e0c41f753e1389e0455b7e1512c7403a09c6",
+      "en": "「Our speed is in a different league!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "60:1355": {
+      "repository_source_sha256": "6676d52a6e0cfec46c4b6924a4d8b381ac9004d862e1616bdc627d43d0629d43",
+      "en": "「This is R-Daigan!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "60:1384": {
+      "repository_source_sha256": "1ae9dca96b50e012a11936e861151c60f867cc87f2430a866c6005f986ac71c8",
+      "en": "「You can't catch R-Daigan!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "60:1427": {
+      "repository_source_sha256": "bd6ba2b2663111b2f4b77c4525d10722a007cffb95607250f0fc715fe34934bb",
+      "en": "「Th-The barrier saved me...!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "60:1462": {
+      "repository_source_sha256": "a872494e68028837e7ea9460ec40675f15d5fa3f132ead2ea2d497f7e28f9fef",
+      "en": "「R-Daigan...! Thank you!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "60:1497": {
+      "repository_source_sha256": "2e264a376fb8dce6e6a003d3e4c5745028ecfa997e3549312b3cdbd538db15a3",
+      "en": "「That won't take me down...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "60:1532": {
+      "repository_source_sha256": "45fd23321f988028ef0fcdbc89f5425bc7aa13483b412c8c2dc270ae4f8596c4",
+      "en": "「That won't work on R-Daigan!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "60:1565": {
+      "repository_source_sha256": "a0d851c75624805707c9a51dc22c23c1902766c4627ba5a0b5767bdbc1abf12c",
+      "en": "「That attack won't work on me now!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "60:1600": {
+      "repository_source_sha256": "bac6955c1f1ba7015fe364fa25788d3db0041df152f830437f1b314f8f01bade",
+      "en": "「Aah...! You hit me...!?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "60:1633": {
+      "repository_source_sha256": "6a45b2f74444e6fa46594133794656a51016a8f9eeefe2f92c8a955f0d9d8aaa",
+      "en": "「I relied too much on speed...!?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "60:1674": {
+      "repository_source_sha256": "1c3b0a1bd5cfb245eb8d7f915b87918e1cf09c7806b2d3bf1fd346c8f2b00571",
+      "en": "「I'll dodge it next time for sure!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "60:1703": {
+      "repository_source_sha256": "a229f528cfa449cc42d710b20f5508b225fb9fb46828c1cd16c3cf7f182fda49",
+      "en": "「Ngh...! You're pretty good...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "60:1744": {
+      "repository_source_sha256": "d920f28b681b0693a547291c9cb8f4960de7346bb495b1760a51ebad4cde9ac1",
+      "en": "「I'll endure this wound by willpower!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "I'll endure these wounds by will!"
+      ],
+      "review": "same-speaker"
+    },
+    "60:1781": {
+      "repository_source_sha256": "821cc96d972215298d7cb42b79e5600ec7bb17ca9e2192abc926992bac6e874e",
+      "en": "「You're stronger than I expected...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "They're stronger than we expected!"
+      ],
+      "review": "same-speaker"
+    },
+    "60:1818": {
+      "repository_source_sha256": "1af11c4e24714d7ae8a766d22893eaac849727edaeabd574998c7d01aae5bad4",
+      "en": "「I'm all right...! I can still fight!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "60:1853": {
+      "repository_source_sha256": "1c5e7da2dea55543252542110a8521f4bc73c37477009fb4d06ee0ed7bec922a",
+      "en": "「Fight on, R-Daigan!\\nI'll fight on!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "60:1904": {
+      "repository_source_sha256": "b1f7831194101b342b1f31753e4e89c74dfa5c2f29d7c1c97df19e552ffc2406",
+      "en": "「I too defend Earth!\\nI won't lose!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "60:1955": {
+      "repository_source_sha256": "e5250f045976e2364b641d940690beefa9962b77a83fa302a8a60b326f74ac37",
+      "en": "「Aaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ],
+      "alternatives": [
+        "Kyaaaah!",
+        "Eeeeeek!",
+        "Kyaaaaah!",
+        "Aaah!"
+      ],
+      "review": "same-speaker"
+    },
+    "60:1972": {
+      "repository_source_sha256": "4015ad6be1638ad3afbb1e865dc54fdb3076c2fa10a0d3decfd0f9fa9d663b84",
+      "en": "「S-So strong...!\\nMy fiercest foe...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "60:2021": {
+      "repository_source_sha256": "e4225e30d8063334e6fa1f897d04360bd82a61544d724fa12b34137092b30c93",
+      "en": "「Though hurt,\\nI have cause to stand!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "60:2074": {
+      "repository_source_sha256": "ad08f5a630c85c868781400357a83e79c13f64003adf94d049900c75bcc363d6",
+      "en": "「R-Daigan...\\nMy wings remain whole!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "60:2131": {
+      "repository_source_sha256": "8f491846e8d078f6cc6517639e38d89e75eadb33355bc637c4100998da6dd7ff",
+      "en": "「I won't lose...!\\nI'm here to win!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "60:2190": {
+      "repository_source_sha256": "d4997f37693f6661d4bd14a01c22624064ced6987f5085be2eef488f582498f5",
+      "en": "「R-Daigan, please!\\nA bit more power!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "60:2247": {
+      "repository_source_sha256": "c22497655982d5fdd3d0db46a0741a600c83468732bbd16086d1f4731efde236",
+      "en": "「I'm sorry... R-Daigan...!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "60:2278": {
+      "repository_source_sha256": "b67eb1add8fdc8359e7884bc9c70ac33a4536daf2480f68f49ed90a95c8618aa",
+      "en": "「Ahh...! $$ジョニー$$...!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "60:2311": {
+      "repository_source_sha256": "63d01f824c49e6afacc64f5916044be6d65aa2f4657d90d523511e49ed4e233e",
+      "en": "「Farewell... Adieu, I suppose...」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    }
+  }
+}

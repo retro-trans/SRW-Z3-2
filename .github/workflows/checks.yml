@@ -1,0 +1,26 @@
+name: Source checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile Python sources
+        run: python -m compileall -q tools tests
+      - name: Synthetic archive tests
+        run: python -m unittest discover -s tests -p test_cpk.py -v
+      - name: Synthetic source parser tests
+        run: python -m unittest discover -s tests -p test_source_text.py -v
+      - name: Dialogue wrapping tests
+        run: python -m unittest discover -s tests -p test_dialogue_build.py -v

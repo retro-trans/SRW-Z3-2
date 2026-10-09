@@ -1,0 +1,2713 @@
+{
+  "schema": 1,
+  "group": "g321",
+  "blocks": [
+    321,
+    322
+  ],
+  "speaker": {
+    "token": "鬼宿",
+    "jigoku_pilot": "Gauron (probable)",
+    "jigoku_unit": null,
+    "fraction": 0.006,
+    "basis": "settled 2026-10-02 from fresh-translation review: Calls Shikuu and Shikoku 様 and offers to finish for them; weapons Shimeisou/Shiseiten (Kishuku); not Gauron. Generic Kishuku member, gender unknown",
+    "proposed_by_v_g321_00": {
+      "token": "$$鬼宿$$",
+      "basis": "Calls Shikuu and Shikoku 様 and offers to finish for them; weapons Shimeisou/Shiseiten (Kishuku); not Gauron. Generic Kishuku member, gender unknown"
+    },
+    "proposed_by_v_g321_01": {
+      "token": null,
+      "basis": "Kishuku squad-leader pilot of 尸冥爪 (mass-produced unit, 2058 story); calls 尸空 and 尸刻 with 様, so a subordinate; no personal name given"
+    },
+    "proposed_by_v_g321_02": {
+      "token": "$$尸空#pilot$$",
+      "basis": "Death-themed taunts, 鬼宿 duty/power, 尸冥爪/尸逝天 claw weapons; Shikuu of the Kishuku (Jigoku's Gauron is wrong)"
+    },
+    "jigoku_token": "ガウルン"
+  },
+  "lines": {
+    "321:0": {
+      "repository_source_sha256": "c28c880421ba36259600230d6ddbb64a6ea5083e516b1acb2062087cb8e890ce",
+      "en": "「...」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)",
+        "hit: heavy damage",
+        "hit: moderate damage",
+        "support attack"
+      ]
+    },
+    "321:11": {
+      "repository_source_sha256": "a54768f156bfa8da96c873b41aa47d7a46bf540d4f074cf73650b755c49cd8b0",
+      "en": "「Shall we begin?」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "321:26": {
+      "repository_source_sha256": "85b53170e2df6c8c5e47fb57fce4748e32cc526a5a005e43c75dc2838fca8339",
+      "en": "「Commencing mission.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:41": {
+      "repository_source_sha256": "0f51dfc1cf58919112b5bae581a44cf9673d1d3d5d831cff33c8e4e804a760ec",
+      "en": "「I see the flame of your life.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:64": {
+      "repository_source_sha256": "fa861ccf69211f59949a14f44b6fa7fee33b435c6e3d25e683efc5e7ddddac9b",
+      "en": "「The gate of death opens.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:83": {
+      "repository_source_sha256": "658c5215707ed197663d35f0071e138444509e90b103e6437801592f7784a0eb",
+      "en": "「You will pass on now.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:100": {
+      "repository_source_sha256": "61253b5e95f4f5d7375e4cc73c13867677ef09bdcb9b4e48f67142718a5130d6",
+      "en": "「Pass on first.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:113": {
+      "repository_source_sha256": "59f1c87035ace2c1ad684b8abc7f74cb70ff94b7fd3b45db920578dc789ed8df",
+      "en": "「This is as far as you go.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:134": {
+      "repository_source_sha256": "82e005db6394c5da598f665111abdcfcaaba2f4d74bc550f84ff3d130482b5a4",
+      "en": "「You have no future left.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:151": {
+      "repository_source_sha256": "19cd46be2845af4e87f00be578ba5e2ef0b54f38a64ec4529d4bff8430d7400d",
+      "en": "「I'll eliminate you here.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:166": {
+      "repository_source_sha256": "18ba85c3a566004126066442284c7141264b5d8cc0332a5dc1fdf0da78b4c628",
+      "en": "「I'll send you off myself.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:183": {
+      "repository_source_sha256": "3108bb4a9746016b34caedae95948c7b8d22f91f950c895ac721b85273442b96",
+      "en": "「Curse your fate.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:198": {
+      "repository_source_sha256": "e8078007db493a364697ac0ff91d995fd56d1ae77c2f42b080da16c89119e28c",
+      "en": "「Remember your parents' faces.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:221": {
+      "repository_source_sha256": "5af503139ad868a880e46cd47f214188a42a571e52325e97d3eb751f53045436",
+      "en": "「I'm just doing my job.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:244": {
+      "repository_source_sha256": "922d9392fde815e9f95228452fc8c7994a3fbc55ae41e050cc610f39c76f6400",
+      "en": "「This is our job.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:267": {
+      "repository_source_sha256": "04f1517d25344306aac83e9f863d74348721df23710f567ced7a920c16fe958f",
+      "en": "「Just another common life.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:288": {
+      "repository_source_sha256": "516070c056fdbeda87546649a08e991beb79a81b11162de72102079bb5f250ac",
+      "en": "「A flame about to go out?」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:305": {
+      "repository_source_sha256": "326862bbd99a6607abab9d5d1a9eda87761cff1f88a87a0169131f2d953c001b",
+      "en": "「Submit to providence and fate.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:326": {
+      "repository_source_sha256": "c0c7c9d5a55efdc8691eebca2cf8839de646c0836cbb24479180cbc6479672bd",
+      "en": "「You can't escape the natural order.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:351": {
+      "repository_source_sha256": "2b416106893f66342cfdafb3fb78e9479cae5407211cb30a353ef2f6d397d6ef",
+      "en": "「No one can escape death.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:382": {
+      "repository_source_sha256": "f10b69f94e758c379c56f65dc67856270f1cc66b5747b30322d191ba83b65be3",
+      "en": "「We guide you to the eternal realm.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:409": {
+      "repository_source_sha256": "78a34bdd52651fe3ac3ccf2796b4e756a0717757241f8adcc8f20447875592ae",
+      "en": "「Your destination is the underworld.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:428": {
+      "repository_source_sha256": "b7adc54aba01022f97c96e1d613e8ad9733c28966839001ccdd6db387750b14f",
+      "en": "「The gate is already open.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:447": {
+      "repository_source_sha256": "5ae2d9f07678a26de7f0c94f06ea010eedb3773fae36bf19b4eeace520324c51",
+      "en": "「Do not fear. Accept it.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:472": {
+      "repository_source_sha256": "44fb316c0e6d7e76c97a10341d1825c38621744a0c86b5f3830a8e7859a79403",
+      "en": "「It's a path everyone walks.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:491": {
+      "repository_source_sha256": "d5bca3b32bae2ddafb887fae053c918cfcc7bbc767b679cf845def49cb433756",
+      "en": "「Let go of your attachments.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:508": {
+      "repository_source_sha256": "c0936cc6a1d60ee9a6888329e6e769d5b7e45e5d530bc955f804fd95fb264f17",
+      "en": "「Abandon all hope.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:531": {
+      "repository_source_sha256": "7daab587fbe04686bd93b6224d476c07b15e50c87266f4f75d8d366de4676831",
+      "en": "「Bid farewell to this world.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:554": {
+      "repository_source_sha256": "f1628ff5ed5f90af5100715e8cc1925b57a099513675996538f5ce58e93aa5c7",
+      "en": "「Your life will take another form.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:583": {
+      "repository_source_sha256": "66888916d8bd2daed5a52ebbf22cdd01cd028155a6635059ea198c7e3ec68cea",
+      "en": "「Corpse vapor, gather.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:604": {
+      "repository_source_sha256": "e6d01a32dddbc0ae0742dfab808b7e99161dcbd670c9f693e01051877a562b1c",
+      "en": "「Souls of the dead, beckon.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:621": {
+      "repository_source_sha256": "6770380e67f2ac83ac9ee56d750790d7ca1fa117941af3db8bf700225fa5f93d",
+      "en": "「This is the duty of $$鬼宿$$.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:644": {
+      "repository_source_sha256": "6f91dccf612c3271d2d57db181696aac0cca69c97a8329bf11af336d2f9c24cf",
+      "en": "「This claw opens the gate.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:665": {
+      "repository_source_sha256": "a4ce8ece3a7e95bf201ede9199c6aa6d571a66f44379ffe3d5e2dc99747a96a2",
+      "en": "「I'll shoot you down.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:680": {
+      "repository_source_sha256": "ae3189890a61560e196432aae87c78e12009df0bc8431ceaa924a316f5d5534f",
+      "en": "「I won't miss.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:697": {
+      "repository_source_sha256": "fae165baf43d775d14937a7b64195b869218e62e5b06560d048b5586b4d2da0c",
+      "en": "「I'll finish you for certain.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:716": {
+      "repository_source_sha256": "e186419bb666ad26eaf06e2d4497d83d89737fbb30597e5ae3d41979285072f6",
+      "en": "「I aim for the flame of life.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:737": {
+      "repository_source_sha256": "d65203fbfbeb53c9546b7f4474321efd4d7896153a0e3a759697b1658cddbf2a",
+      "en": "「I don't intend to miss.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:758": {
+      "repository_source_sha256": "1bfb752796f50651bc7b91ac0053d46a8da7e710d372a942a94c9028b8a5dff7",
+      "en": "「I'm aiming for the cockpit.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:775": {
+      "repository_source_sha256": "d6e9c617904d9bafcce1d5e0c4cc4066d6db51022aff6e449f35ab573d10a3ff",
+      "en": "「This is the range.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:792": {
+      "repository_source_sha256": "c1c57e89b63833f6aa6803e19a491321209e60662f649c2f8939dd3435298bbe",
+      "en": "「Time for the flame to go out.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:813": {
+      "repository_source_sha256": "a8bc47e3dfe03af5c8ecb64617fffa7a3a6e551a976c68877140e89a692216ce",
+      "en": "「I'll take it directly.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:828": {
+      "repository_source_sha256": "d92423e4195a2f0755c933e42f58420056f7d05aa3a6d61df50eab834bb3591f",
+      "en": "「Wide open.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:843": {
+      "repository_source_sha256": "fcdbcf463822bff4b05f4504fc2f8fc7e2a13bfa6c33153f60e664e5fc99f3a3",
+      "en": "「Darkness creeps in.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:860": {
+      "repository_source_sha256": "21702d27f5b90294b1d45433f3d6b817ccd875a24631493792637cfdfcda3985",
+      "en": "「Breaking through.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:873": {
+      "repository_source_sha256": "6015bad863d71164a38e9d122237aa6cd3820f1b455a6814c95fe8eff288cc85",
+      "en": "「It isn't over yet.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:896": {
+      "repository_source_sha256": "0c9fe95b662f32f0c85de35f9ae3a440cc31424e4b71015113b4191b09ea5002",
+      "en": "「If I missed the kill, once more.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:929": {
+      "repository_source_sha256": "f5b8a806980e3738e3158b78dedcc189fd02a492cef1ceb249dae090a2b82fe9",
+      "en": "「A $$ガンダム$$, huh?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:944": {
+      "repository_source_sha256": "0768d68fe2d5161bdc25b5ffb811df6672814012662d47eca5854844b2a53ea9",
+      "en": "「I've heard about $$ガンダム$$.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:973": {
+      "repository_source_sha256": "00ee570f054aa58685034b1c526ca25712b6127aeb2224b8d66a4ff3d3be84cb",
+      "en": "「Useless, $$ガンダム$$.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:994": {
+      "repository_source_sha256": "5d39dffd0db89f382f82717e3910ae99881967d5f3324adaab2cd4c740383c13",
+      "en": "「That light is dangerous.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1013": {
+      "repository_source_sha256": "94d4712b668c2b887a0a0a84fdaa5d0856e3b52fadddbfcd2e0cbe5becfbd7f5",
+      "en": "「One who can speak with souls?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1038": {
+      "repository_source_sha256": "b34ce4d4d9995971fe68d7b47eb475be897cf72f6a7d39a6d1da7a10dcffe2e6",
+      "en": "「One who links life and death?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1065": {
+      "repository_source_sha256": "f3f3cd2593ba577e8e18fda121727229082504750e88365b37a4bb9ccd539ad4",
+      "en": "「I sense strong psychic waves.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1088": {
+      "repository_source_sha256": "b2338ffb775b40de2aff26ef69865042e562c36c3e1aee82dcd99842968e078e",
+      "en": "「I sense great power and will.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1113": {
+      "repository_source_sha256": "7f5e76223f8d40042a79011f85b05ea6226ad7c1ad4d9513347325fd70b9554c",
+      "en": "「That cry... so full of life's power.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1154": {
+      "repository_source_sha256": "49af86ce9d2d5ab9a7c9b2ddfba4e6bc5bb8f1b0a207772288d9f3b0da5bbc28",
+      "en": "「Coming at me with brute force?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1173": {
+      "repository_source_sha256": "bf192c376ba22532aceacd2a74f7f82fe834cb924ec58fc0a88be26b1a479116",
+      "en": "「Young life...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1188": {
+      "repository_source_sha256": "e755d0370a65341eecbe75caa0e8218df20eee3e71f0a84b265fa0eb13c43da6",
+      "en": "「Bid farewell to your short life.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1215": {
+      "repository_source_sha256": "0c547a3a4481c04ed85fa182cd56e1a6ed7dfcd177595c2be96ed7668f91785a",
+      "en": "「You carry the dark factor...?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1248": {
+      "repository_source_sha256": "e2417a33aed02054c3adfb61785a6ef32e5436364f499d140a1b33ad9443a368",
+      "en": "「Sleep, demon god.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1265": {
+      "repository_source_sha256": "8a7b7284e73456e301f3887eb944ba9f28f8dc2c02f332dc9b1b77145012b8fa",
+      "en": "「One who wields $$ゲッター線$$?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1290": {
+      "repository_source_sha256": "3405c474441194e086064e4f207a53cca7e2d0b28decd40ae1894098259af32d",
+      "en": "「Have you touched the forbidden?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1309": {
+      "repository_source_sha256": "eeefb9ff489ea4334d4c6a03c8ec8e9f874ad25a20f278342db1c0ad67fde29c",
+      "en": "「A wild beast?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1324": {
+      "repository_source_sha256": "51fa6fb681097c5d237ebb2782c759e4ead3e8cffacf93af42bdc46ba9003d5b",
+      "en": "「Someone out of place here.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1347": {
+      "repository_source_sha256": "f7b9719c8b7451964fa99a304a81ecfffeca1634c3c340844f382f852d8a99d5",
+      "en": "「Your mistake was taking this field.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1378": {
+      "repository_source_sha256": "d458c29c89527f9528a1d2f68b79b615d9e10f09bf931863665036d60ef0847c",
+      "en": "「I have no intention of negotiating.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1403": {
+      "repository_source_sha256": "ec06ebc3f0c05268d131f67706f8293ac1ceca286548678633e42aa33637f0c0",
+      "en": "「A Mechanical Angel.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1418": {
+      "repository_source_sha256": "ebf6354b55d3036483229849638c0c9cd9cc2fa3370d4a1d52e3896b895a6a07",
+      "en": "「An end to the civilization of fire.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1439": {
+      "repository_source_sha256": "f3b1de1acdfa6d52ab404800277d6113c9498e1b5d0776c7c8ff5bc441e9c507",
+      "en": "「No future lies beyond that drill.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1470": {
+      "repository_source_sha256": "453d4cae498d405c5196b62fac9a7e38cd92a39de8dafbf548f460f01916a789",
+      "en": "「Is that... human?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1487": {
+      "repository_source_sha256": "4a91cb1d0761bcfe39bb17650650e62cc8748828a525a3c927ab4290c8e480d6",
+      "en": "「The target's size doesn't matter.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1514": {
+      "repository_source_sha256": "f0293f8914fbe47a28b664622f9a0af591234ca0d5bec67d358254e455b502e4",
+      "en": "「Once it hits, that's the end.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1541": {
+      "repository_source_sha256": "b45d72c7bbdbca6fc61186a193690f9f7c78353eb41e20c528ebab839fc9133c",
+      "en": "「An $$異能生存体$$ is here.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1564": {
+      "repository_source_sha256": "29200c6696b4d6e989ecb7801db658fa1a778c30d6677bb55864661dbe84772d",
+      "en": "「You may not use that power.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1595": {
+      "repository_source_sha256": "ffcf683f372cf58652f0367864fdab32878457ab417c3c0d5e949c64c3fc3bfa",
+      "en": "「You will lose the sky.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1614": {
+      "repository_source_sha256": "b8e84659f67ee1d7ac2625381a75b76d770b8fe3a7d1be4086e7fb27b41c95cc",
+      "en": "「I'll simply clip your wings.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1633": {
+      "repository_source_sha256": "f9a45c943b72c4ac117e414c674886691b01f8d7c2a0804f52b4d54c51cd94e3",
+      "en": "「No room for clowns on a battlefield.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1656": {
+      "repository_source_sha256": "249c39b480f1a715314eb3ace4f78ad10b5c62c13ed4ee6edfe8e1c3d35476d7",
+      "en": "「A song...?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1667": {
+      "repository_source_sha256": "1d26f1b62be831f5edb167405ea84e98755e941213fb74d341f65507562ad78f",
+      "en": "「A scurrying bear... no, a rat?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1694": {
+      "repository_source_sha256": "5ee1705b2a4a4583947aa104373f9e6fac1a2034fecbd489251135ff17b60ad6",
+      "en": "「I'll crush the chain of command.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1713": {
+      "repository_source_sha256": "239f5a0a98ddfadec7981bc2808da309ca8c95e2495776275b612211f5fdc3ed",
+      "en": "「I'll strike their core force.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1732": {
+      "repository_source_sha256": "defab92ccc6d9bae6d0e982ee7f54352f8d0996094feac2faff0236735bfb167",
+      "en": "「I'll crush the mothership.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1747": {
+      "repository_source_sha256": "132a81dcf98502311fc7ae457cc662a5f88fe01d8e1e50f901340f1141e47695",
+      "en": "「I'll take away their home base.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1764": {
+      "repository_source_sha256": "2f5ce44fe7b69ece344c063f9dac050837d1d14da2dec84be6862095141ca08e",
+      "en": "「A $$スフィア・リアクター$$, is it?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1791": {
+      "repository_source_sha256": "386b24c33d45b416b091aeeb41469ceeb278aa5def74be42d7a9ef84c39c146c",
+      "en": "「I won't let you use that power.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1814": {
+      "repository_source_sha256": "8bd2d5936829859eabab51868597ac23dd155a43c99b8c7e9f7195ee6c8ca0b3",
+      "en": "「$$いがみ合う双子$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1835": {
+      "repository_source_sha256": "32444c786ea6cf8ee7065c97146bdd6b4a49964b552fcecd99b19e2355f0c546",
+      "en": "「$$傷だらけの獅子$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1856": {
+      "repository_source_sha256": "00f8365088863dcf78b5c74bd023f65439bb6c6b32261ca16cef6c569e1374b4",
+      "en": "「$$悲しみの乙女$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1875": {
+      "repository_source_sha256": "4447295cb818bd7cb840351e4249b43d4b333197887470668909df0dc9f19010",
+      "en": "「$$揺れる天秤$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:1892": {
+      "repository_source_sha256": "9b2bfae4795a4253b72060fe4d3f275ad78984d590a98df571b0e4f69bc92c5b",
+      "en": "「Kikoushou!」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:1903": {
+      "repository_source_sha256": "f6607500ea06ef84c94a169aacf60125cfe5a0113acf292de99065a55605d0b9",
+      "en": "「Using Kikoushou.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:1920": {
+      "repository_source_sha256": "150e643d39264679ae6367526fdfdebd6634504b134b1c1e77e80f424520cd1d",
+      "en": "「Pass on, Kikoushou!」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:1937": {
+      "repository_source_sha256": "16b0486f20321508761de9ef7336cc4e7887f9edc8c71f69a55a15ea0dbab7b9",
+      "en": "「Piercing your soul.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:1950": {
+      "repository_source_sha256": "39012a9c428b48a3472ba646b9ac1b45287bd1d5e82f8cb8cbe99a523358ab40",
+      "en": "「This is the power of $$鬼宿$$.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:1971": {
+      "repository_source_sha256": "47e1b6950ef54874aed724dbb7563c71b7cc13ff5c6d7dd79d9bd316ee9937cf",
+      "en": "「Your life vanishes with the light.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2002": {
+      "repository_source_sha256": "454e90025f5d64ccbceaa1b48003be54d8d0d7f711091206d60d05be41a0a6b6",
+      "en": "「I bind your soul.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2021": {
+      "repository_source_sha256": "2f925d27030615938a49c49555bb47ed53bf062816c1879b9f3fcf77723afda3",
+      "en": "「This claw opens the gate of death.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2048": {
+      "repository_source_sha256": "aabd918603c017bfe9de9b4ff6f47d2f56b222548ea6be3d8ba31a23d73324a6",
+      "en": "「I'll guide you to the netherworld.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2071": {
+      "repository_source_sha256": "9ecc2af5b25fbd5e3f5dd7d4ea009c9dd02e5e8c7937a520297f1b7285d4eb81",
+      "en": "「$$尸冥爪$$, true to its name.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2098": {
+      "repository_source_sha256": "b60a2a3e84e82227f154cd50fdad15e382e3dd6cbd66554d4f2281662b1e870c",
+      "en": "「Nether... dark... ghostfire...」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2115": {
+      "repository_source_sha256": "4017f4aa227cb51968746c9c129854c1add308182d2a571b70baf2091461b86a",
+      "en": "「Tear the souls apart, Funeral Claw!」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2140": {
+      "repository_source_sha256": "896e387a6002b2830fb3e80c0770704fd76d41338db657b60d1ff98ee007b99d",
+      "en": "「Beginning the counterattack.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2159": {
+      "repository_source_sha256": "8c942313c3aec1a788083f65cd3e92303044a6a71ef8f9f99e59c2064d11e413",
+      "en": "「My turn.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2172": {
+      "repository_source_sha256": "51a8925ecd8de089054325cb3afe46e06bae918eec3c597aee6709290c8671bb",
+      "en": "「Kill or be killed.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2197": {
+      "repository_source_sha256": "61fdaff5dabb1b5abea2ec14aa57974d033edfcc37411aa5dd418e491326a47e",
+      "en": "「You won't escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "321:2210": {
+      "repository_source_sha256": "e1309f5a91c6dc83f3fd83d113091bfcd92c4ba70790e2dbd4d86bab99eb7127",
+      "en": "「As you wish.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2225": {
+      "repository_source_sha256": "835fc07ddc8119d5785d9f7033e03981e11948b442f308d3d70596a2fd102fae",
+      "en": "「I repay my debts.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2240": {
+      "repository_source_sha256": "8e0725c654010b8b7e575e79a10da63392868193a093a0af5a99ea88a8d22b02",
+      "en": "「You reap what you sow.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2255": {
+      "repository_source_sha256": "4cea053824ac633094135ae875a9bd58e2358638525b67db062452f67652df68",
+      "en": "「You went in too deep.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2276": {
+      "repository_source_sha256": "b55773ae7735efc0f1a47447ebcf4c18778964c379d43730b4a0dfd69656661d",
+      "en": "「You'll pay for this.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2299": {
+      "repository_source_sha256": "cb7e69c457757e469902a0a24757078f2b524f865dd4cf7f545baaa40742da79",
+      "en": "「The price will be steep.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2318": {
+      "repository_source_sha256": "4d775be471b60698413b4730f8e33276a5ce44a90ae92791e129ea863c8460bb",
+      "en": "「If any remain...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2337": {
+      "repository_source_sha256": "e63180e9713f5062eda41f0b0e797d490c5d8641a8bf6e18cb60af276be9b91e",
+      "en": "「If you're waiting for me...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2360": {
+      "repository_source_sha256": "1e005b28611ac36d0776be0abb8c761d7ad99bfabc5f142ba09139691e4e8d0a",
+      "en": "「I'll simply finish it off.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2383": {
+      "repository_source_sha256": "7f856f23685d6c387fcd93972038326b329339a2752ad27adc0783fb82c468b3",
+      "en": "「I'll handle the cleanup.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2406": {
+      "repository_source_sha256": "427da8ac7d87cd5a27ed163bf1bbd60de74d650177ff0578ec1d8b47b490ea3a",
+      "en": "「Leave it to me, Lord $$尸空#pilot$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2429": {
+      "repository_source_sha256": "b7ef428cd50b2dfa95cee5c6c7abad19b6c0ce3624acf8bc54674d588f52a948",
+      "en": "「Lady $$尸刻$$, I'll take over.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2450": {
+      "repository_source_sha256": "964d0eb8c10b15de641b5418e23950c5e742ff321ea03b412ad6a70a65c5d563",
+      "en": "「It's too early to die.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2471": {
+      "repository_source_sha256": "bb5c7c1ae6687eafedc6288cabe213f7e4ee6d8faa3e2f6c116d1b012a938ce3",
+      "en": "「I'll take the hit.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2490": {
+      "repository_source_sha256": "aaffbe30ed054d32ea793b5e3ebb48103ee9269d49f96a5ce18d549b1ad2f3f1",
+      "en": "「Please stand back, Lord $$尸空#pilot$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2519": {
+      "repository_source_sha256": "ff392be85517b159cc1b414015a83f78f660ec44b5909196602e7284f9521d16",
+      "en": "「I will protect Lady $$尸刻$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2542": {
+      "repository_source_sha256": "133af327a291b4fa119ffbbe4e880ae9d240ed5f4df9b4ed40cf79543018b253",
+      "en": "「I'll be your opponent.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2561": {
+      "repository_source_sha256": "e99fc3f5713aad91c186aecb81fed26abaea0c3f74e95e3aaa9c08af4b273313",
+      "en": "「Let me handle this.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2578": {
+      "repository_source_sha256": "703a08370ce9cb238fce1be35efacbf407fdcbcb80f8bbabf914168a687ce741",
+      "en": "「I complete the work I take on.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2607": {
+      "repository_source_sha256": "d3678e27159196ed68bf8795c6783cf70f84be5cd7c96d7492e4fe807454cd16",
+      "en": "「I leave that one to you.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2632": {
+      "repository_source_sha256": "c172f479439e1ff8c305f8995628c0b0b886b3e0813db90a6915d450f2ca9571",
+      "en": "「I'll take this one.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2655": {
+      "repository_source_sha256": "bd65acee4b9d12bed23d022aeabd08fa6ad22a15b5b2b5bec71471400fac289f",
+      "en": "「I'll go ahead.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2668": {
+      "repository_source_sha256": "b104f5831bcf13632058005e127a649a43bb3446cf1a075f8a3ce43486cc0623",
+      "en": "「I'll keep them in check.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "321:2681": {
+      "repository_source_sha256": "4aeac290cce8ad949458501b8b67f22c8c8399e7c81a0f11e13e4a16942ecd2e",
+      "en": "「Target confirmed.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2696": {
+      "repository_source_sha256": "03b03a2edc9772b59bf2d171feff2619378ee7e69a308b78f79609b37addaa0d",
+      "en": "「I'll pin it down.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2713": {
+      "repository_source_sha256": "ff08488b0e713beef56f1f4f1c883cd255c1357d976e0c2d5d28a8638012fec9",
+      "en": "「I leave the finishing blow to you.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:2732": {
+      "repository_source_sha256": "282a45d8c0129512782683b8fa60fc66a416d3dee917c9c8745c07102383475f",
+      "en": "「Unable to counter, huh?」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2747": {
+      "repository_source_sha256": "249e193f9b526e6cc4c9f62aec24e32ac0f18258bd6bffbee1c1d4859dd6b3d5",
+      "en": "「Such things can happen.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2774": {
+      "repository_source_sha256": "252318bcd0238b186d5287fdb596b4625afbb4a92cb2d554fe5b4978488aa4c2",
+      "en": "「A blunder.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2787": {
+      "repository_source_sha256": "001e89ec7f8452657ed84d9000557b702fc4fe557ec04730f779188446b32772",
+      "en": "「My attack has been sealed.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2810": {
+      "repository_source_sha256": "579ce0eea6bd88b65b6e5668c3fa76bdac684d7ef45980795a613d2fdad42c0f",
+      "en": "「All I could do was watch.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2831": {
+      "repository_source_sha256": "c324985eb410e9461386ca309c5586e8ce58ff4ccce8a806c5b9b9e082df09cf",
+      "en": "「This is a bad position.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2846": {
+      "repository_source_sha256": "20f675fe6ba5fcf40deb22335dd5a7ab3f5e1434589a31f2cdc747ddfdc8495e",
+      "en": "「I fell into your scheme.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2867": {
+      "repository_source_sha256": "fb9b5d69a0676f0fc360e33aff0fabb34f739ba796d78bea74e7346c04c063a8",
+      "en": "「There won't be a second time.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "321:2884": {
+      "repository_source_sha256": "ccc1f1cd4699c37715d0c864a60ac48a2e152cc8c2eb9f51fe327e148161409e",
+      "en": "「Too slow.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "You're slow."
+      ],
+      "review": "conflict"
+    },
+    "321:2895": {
+      "repository_source_sha256": "661392693f6c1999c71c988ff8cd78c12f05fb3e1c7673e8cdd0c81b06084084",
+      "en": "「Did you think that would hit?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2916": {
+      "repository_source_sha256": "fd1880f410ccb6242e573d3451dddedf54b3850dd77f9c39121de0f90ac34b2f",
+      "en": "「Just as predicted.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2931": {
+      "repository_source_sha256": "bf9b9f050bc8a080957e0659877685da000e5922ee6bc1e326d31636dc730bd9",
+      "en": "「You're easy to read.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2950": {
+      "repository_source_sha256": "987a75c0d43173e8f81a693aa98c880ba6e6c0d8ec476b23fd013a08ef36165e",
+      "en": "「What are you trying to do?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2969": {
+      "repository_source_sha256": "1f94f3837c6265b0c188b49336c4b778da678a591a2f355d1a772058a88741b9",
+      "en": "「You aren't seeing clearly.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:2992": {
+      "repository_source_sha256": "6242750aaf9cd2a71abaa5b59d287df9c1f82c56dc75b4fd24a26a75979bfa00",
+      "en": "「I sense impatience and anxiety.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3015": {
+      "repository_source_sha256": "0f40d47ff684fefe73090677e698174978f24f53a519691aa7ff54ae7ae8e41a",
+      "en": "「This is reality.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "321:3032": {
+      "repository_source_sha256": "bc5bc16ce45a32ba43d4ec0ad00f09ff5e66d50e4af188f13dae041e9c72b89b",
+      "en": "「This is a $$ガンダム$$?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3055": {
+      "repository_source_sha256": "5b0099b79c5bbcfca272d3f2beb4725546ae3da353d091eb74709ddcba401795",
+      "en": "「Unworthy of the $$ガンダム$$ name.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3086": {
+      "repository_source_sha256": "61a3dac10f52a816dc22b7c0901d97af470ff80d60238837d7c9b7e48881c888",
+      "en": "「All show, no substance.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3105": {
+      "repository_source_sha256": "def893894724451d15c7024347f1aaaaf65b578367273e876d5650ca825e9d30",
+      "en": "「You don't know how to use your power」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3140": {
+      "repository_source_sha256": "bd7cf7c3e1ed58cad42ff7176ad64678fe0a3754c3b26d220b90d5c95c091fcd",
+      "en": "「Hard to believe you wield a $$スフィア$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3173": {
+      "repository_source_sha256": "c77b01a9db16bb9ead61b5d8ffb28b499d9dcb8ae7cbfee4d5a553f30bdd5903",
+      "en": "「What an immature Reactor.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3198": {
+      "repository_source_sha256": "3e593da21d28f8444f801a00a934ca4a0f02c63291c609204dde6e47ba582114",
+      "en": "「I told you, it doesn't work.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3223": {
+      "repository_source_sha256": "04fc0e24ce73070ac650ab21bea21f8394f7cb372c125593a423f4686d944a54",
+      "en": "「I'll simply nullify it.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3244": {
+      "repository_source_sha256": "f15f09375a54d7d7859763713a1e80f0f0bedad54aca41e9d3df912141a1b090",
+      "en": "「Deploying the field.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3263": {
+      "repository_source_sha256": "ea00f91d350918592e24ae9f9d247ab625c97a0ab053486fa8382e9762ee0ae1",
+      "en": "「What a boring attack.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "What a dull attack"
+      ],
+      "review": "conflict"
+    },
+    "321:3282": {
+      "repository_source_sha256": "4982d5d732483fa7814b4fb2faa6d4f5d065303d9bf0fd2531d6e9791d780d56",
+      "en": "「Evasion isn't necessary.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3299": {
+      "repository_source_sha256": "05ea9c4ba7a1984e0d9c810d397c510e369705809620df0e4ab70532d299c013",
+      "en": "「Struggling, are you?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3312": {
+      "repository_source_sha256": "4bd8019b192a6cb90726f28939c33d49ed174eec487c0f08ec4cca9166952f0b",
+      "en": "「Such futile resistance...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3331": {
+      "repository_source_sha256": "5896404a27be4f448714cb24b10a03da4c7b447ae1a4947a8eda2a47e30eafe5",
+      "en": "「Recognize your folly.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3354": {
+      "repository_source_sha256": "453340d49609b2dfa850f0b0f1546da2c5a7e42f2e226e181a40a11b69e605cc",
+      "en": "「Realize your weakness.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3375": {
+      "repository_source_sha256": "d82da3dbf6bfad0b78a870cecde1f147145ac50e1850c39462420ee6fe9af22d",
+      "en": "「Its killing power is close to zero.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3400": {
+      "repository_source_sha256": "74c4367b2a28569ee6462ea766ad65d78e4cb8286722d548206fe486adf94eb7",
+      "en": "「I'm being taken lightly.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3423": {
+      "repository_source_sha256": "c191c7d46510e0b7e4d80292316fcbad77a6154fc54b77a6be5aecbe4bb20415",
+      "en": "「It won't work on $$尸冥爪$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3444": {
+      "repository_source_sha256": "2781e4d3af3477e51fcdf9c1ab09aa48e164761fca68acd4c9d257dc3828bf38",
+      "en": "「Seems you can't pierce this armor.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3479": {
+      "repository_source_sha256": "eaee3db1ea541bd0d9a68e8e86f1e05e46d77fd739cfad5daa02f63c81c5016f",
+      "en": "「I see.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Now I understand."
+      ],
+      "review": "conflict"
+    },
+    "321:3494": {
+      "repository_source_sha256": "07e2c2475230035b74eca5534e4a23f9b4f426617e1caae0d6a12c9a0a2f8275",
+      "en": "「So that's your move.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "321:3509": {
+      "repository_source_sha256": "39866e85c563090a08fcba8c700a65f858357771788c7117e42c540661d355a9",
+      "en": "「We're evenly matched.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3526": {
+      "repository_source_sha256": "fdad915bb03b4988e564024b004b87fdde8aeb1961eb0e15b193e67c332f6c16",
+      "en": "「You just won't give up.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3543": {
+      "repository_source_sha256": "8becfb4e6646426ad7fb152591d346c589beef1d4a40c5efb04b8b4e4d2cb6c1",
+      "en": "「Those instincts aren't bad.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3562": {
+      "repository_source_sha256": "d6240214d078c7ad77b63b74fe7034241cc2d0bb331e3f691d0b6bf1ff502406",
+      "en": "「That's more like it.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3579": {
+      "repository_source_sha256": "2ac667cd585d533917fee5974e41b762709921890dc5fdbaa0bc34789f6e19b9",
+      "en": "「You resist fate?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3596": {
+      "repository_source_sha256": "2fa94b3ffd6ee20886432477522c3a5fd9641fc90c623f4c773708079677ac7d",
+      "en": "「Even so, it's still not enough.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3623": {
+      "repository_source_sha256": "790bcfb7fefe8b742c66f92481013da06eeed3f5cb247296c991822ce5807508",
+      "en": "「I won't give you another opening.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3642": {
+      "repository_source_sha256": "f462955596b7bf347b7436f9c4f5911d824da78295de81c1c88a9fd93c94bd51",
+      "en": "「Even I let my guard down.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3667": {
+      "repository_source_sha256": "fb4f0ee109f369a61eb439afe6c0943a873f969fb96941590913ad27675d2f11",
+      "en": "「I won't make that mistake twice.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3692": {
+      "repository_source_sha256": "0e6a9d37aff12a919b1016c0b1413f8cb5f94c3c712d1cf2288672ea0c5fb646",
+      "en": "「Am I losing ground, bit by bit...?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3721": {
+      "repository_source_sha256": "d183314c578497754797dd5de952b4eb649f973964a6923a918e4ae5b71952af",
+      "en": "「It's a $$ガンダム$$, as expected.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3742": {
+      "repository_source_sha256": "f08b62b7f5c5c657faa676a0a0fc9ad007f0a517056051ddd368c7c75ffcfca2",
+      "en": "「Worthy of the $$ガンダム$$ name.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3771": {
+      "repository_source_sha256": "26214251f938609c8a99774ba0b528b1bb1a5d5324b5854c9373b6cf80ad15cf",
+      "en": "「Their psychic waves are closing in.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3798": {
+      "repository_source_sha256": "415af8857391030cc72d7f3bd02dda9c540bbacd2465661e06cf2c6d3ac17f63",
+      "en": "「Their pressure is pushing me back?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3831": {
+      "repository_source_sha256": "52fcf6fb0558cb6d7f18e1e287a1b10382b3387e02f5c2326709cfc011349966",
+      "en": "「I see... So it's a Super Robot.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3864": {
+      "repository_source_sha256": "ac25c472bd103316cbd5ef1aa49cf5ee3dbedb142ed35ea8401dfb50fefb8219",
+      "en": "「I can't match that power.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3887": {
+      "repository_source_sha256": "f0b39d1f8f67ccec28e0bcee8019bc03fd46c808962917d24c09f16e0cf6c4e5",
+      "en": "「That's fast...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3900": {
+      "repository_source_sha256": "603f66f4105984e629afdbe16d53bf5107ba8aafa438c4269535f0721e81f9ae",
+      "en": "「Impossible to follow it by eye?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3925": {
+      "repository_source_sha256": "c62b911c92419852273f8936baa9030dc62fede8bc0405a433a96fd34eb66ccb",
+      "en": "「More power than it looks.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3946": {
+      "repository_source_sha256": "49b6fc81fbd2c5d39ede06e73dc755898bfce200730f7b4d24a484387949ca56",
+      "en": "「You've mastered your $$スフィア$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:3979": {
+      "repository_source_sha256": "0d86d7141083589108fd8f72e865f36093955128c2066bc6ee168cd0e65261c6",
+      "en": "「As expected of you, $$スフィア・リアクター$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4016": {
+      "repository_source_sha256": "12be976ec825b165927f52df6af226c1fb3a4945268b56d1100ae85c6f779880",
+      "en": "「Their strength is superior.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4037": {
+      "repository_source_sha256": "706ee15702dac731c2a583564a28b913619d472a382b6796281e87b5bd772270",
+      "en": "「So this is clinging to life.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4060": {
+      "repository_source_sha256": "8384260ca262a688761873157df335932e9fdc8eab6cf61a25ffe400d2e82cf1",
+      "en": "「You reject me... you reject fate?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4083": {
+      "repository_source_sha256": "77ff183ee46c4ea474c81c759d82b430dbaadb96944ab64716f6048ab3dccfdc",
+      "en": "「So this is the power of life.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4104": {
+      "repository_source_sha256": "1ede6ef38416647f2409fb513216a11b159b4dca22cbc0477f3082b2ccf4493c",
+      "en": "「My unit's output is dropping.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4133": {
+      "repository_source_sha256": "ea46e9001420907e1f28adbfb56bc68c94a284f17a52e82eccf1d053e4b5aead",
+      "en": "「The damage is severe.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4152": {
+      "repository_source_sha256": "6a57eff65db13149e6ee212a8e8934a4b8e7ce510712b1443f08cc6e8370e201",
+      "en": "「The drive system's been hit.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4175": {
+      "repository_source_sha256": "506a41f645ecbc952784db5bf6943769ed63c445d334d86308b5e56438c1f44c",
+      "en": "「My unit is at its limit.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4208": {
+      "repository_source_sha256": "c71902ddec9946ce710eb4fcd309aab0cd11b8e9d1b10c546ddda7325fd3460c",
+      "en": "「From here, it's kill or be killed.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4243": {
+      "repository_source_sha256": "0d52c02f6a8178eb37cb3a05d967aba1f2493f86ec5b055451903777532b2c22",
+      "en": "「The feel of death right beside me...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4268": {
+      "repository_source_sha256": "c22f54b531b4adf08f6c669268cab193a5433a469aaa0e0348235b1e516c8f4b",
+      "en": "「To $$鬼宿$$, death is close at hand.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4301": {
+      "repository_source_sha256": "3b8254c6f4f33850fa3a14ceeecaadf482d0b1f402c05c274a3e1de8ac640139",
+      "en": "「The difference: send or be sent?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4332": {
+      "repository_source_sha256": "86bff6330c5974a54db6df73ecd904b84add7f62b4c4ba2a6529d9e5ae9bbcb2",
+      "en": "「$$尸冥爪$$... Hold out a bit longer.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4363": {
+      "repository_source_sha256": "5c716ac2b29bac40caf5198c0dcda1c82de217a9c4f4d4f3b00de513b752a927",
+      "en": "「Will $$尸冥爪$$'s claws break...?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4390": {
+      "repository_source_sha256": "ef21897a511a88a69a021e2d829dc5e9807b530e8f41ba2c4ba345d49403125a",
+      "en": "「You can still fight, $$尸冥爪$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4415": {
+      "repository_source_sha256": "b67e1d2995ff91574d15226e7ba2de26a3fc1ee78a0ac5002c19689d391c6ab9",
+      "en": "「I never expected this much...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4436": {
+      "repository_source_sha256": "1058b23929db6a43be79f0baf4d14fd4d23106440d043f9d2c156e3c63d23362",
+      "en": "「Abandoning the unit.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4455": {
+      "repository_source_sha256": "bd7a8cc53c42d3f9334152227e4f60beb76ad214d1016c90655a58785130d63f",
+      "en": "「Never thought it'd come to this...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4482": {
+      "repository_source_sha256": "00c5db507b7b0d32d2b2c73e925c7697b60c13f78eaaa1ebff8a83bfc8542c2e",
+      "en": "「Results are everything...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4503": {
+      "repository_source_sha256": "05ceb6bf307ca2d1f60a1feaa7b0d1bffc121d629d983ef731043a9a20cea480",
+      "en": "「I accept defeat.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4526": {
+      "repository_source_sha256": "27b42e1f8d9a955a57ba9fce2f84e82292b9ad2a4c05061bb216f149dd894422",
+      "en": "「How regrettable...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4539": {
+      "repository_source_sha256": "0fdc7aeb3c2db17af17d7881b2b51a1a8d1d8173c3985dd9f785e26bfc54c8e0",
+      "en": "「Me... in this state...?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4562": {
+      "repository_source_sha256": "dd4aa711f9de82aa763e5424c6a7ea65a75737d6c2e0c1e55bb75538a13800ca",
+      "en": "「Well done, I'll say that much...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "321:4587": {
+      "repository_source_sha256": "00fc442ad320b9f8c5d0f84d0685873a4cf8b3faa785a14f6132152f290237fd",
+      "en": "「Forgive me, $$尸冥爪$$...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4606": {
+      "repository_source_sha256": "3481596ab14f94da6ebf198aa36254317f510fcebd7e3402b6bbab4d45405c7f",
+      "en": "「My $$尸冥爪$$ is...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4625": {
+      "repository_source_sha256": "8f799f6dcb858d5b93b4933bbf900d94e4643631ce3da0fd07e7b03b3d5729a4",
+      "en": "「$$鬼宿$$'s history ends soon too...?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "321:4662": {
+      "repository_source_sha256": "935fdc8aa03ee1e5db698a376d9668ecc4fa3f135c2cdf83c8bf62e23b187743",
+      "en": "「We've no place in this universe...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:0": {
+      "repository_source_sha256": "c28c880421ba36259600230d6ddbb64a6ea5083e516b1acb2062087cb8e890ce",
+      "en": "「...」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "attack variant (?)",
+        "barrier/field block",
+        "counterattack",
+        "evade",
+        "follow-up attack",
+        "hit: heavy damage",
+        "hit: light damage",
+        "hit: moderate damage",
+        "no damage",
+        "support attack",
+        "support defense (cover)",
+        "team attack: focus/hold (?)",
+        "team attack: split targets (?)"
+      ]
+    },
+    "322:11": {
+      "repository_source_sha256": "a54768f156bfa8da96c873b41aa47d7a46bf540d4f074cf73650b755c49cd8b0",
+      "en": "「Shall we begin?」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "322:26": {
+      "repository_source_sha256": "85b53170e2df6c8c5e47fb57fce4748e32cc526a5a005e43c75dc2838fca8339",
+      "en": "「Commencing mission.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:41": {
+      "repository_source_sha256": "0f51dfc1cf58919112b5bae581a44cf9673d1d3d5d831cff33c8e4e804a760ec",
+      "en": "「I see the flame of your life.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:64": {
+      "repository_source_sha256": "fa861ccf69211f59949a14f44b6fa7fee33b435c6e3d25e683efc5e7ddddac9b",
+      "en": "「The gate of death opens.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:83": {
+      "repository_source_sha256": "658c5215707ed197663d35f0071e138444509e90b103e6437801592f7784a0eb",
+      "en": "「You will pass on now.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:100": {
+      "repository_source_sha256": "61253b5e95f4f5d7375e4cc73c13867677ef09bdcb9b4e48f67142718a5130d6",
+      "en": "「Pass on first.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:113": {
+      "repository_source_sha256": "59f1c87035ace2c1ad684b8abc7f74cb70ff94b7fd3b45db920578dc789ed8df",
+      "en": "「This is as far as you go.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:134": {
+      "repository_source_sha256": "82e005db6394c5da598f665111abdcfcaaba2f4d74bc550f84ff3d130482b5a4",
+      "en": "「You have no future left.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:151": {
+      "repository_source_sha256": "19cd46be2845af4e87f00be578ba5e2ef0b54f38a64ec4529d4bff8430d7400d",
+      "en": "「I'll eliminate you here.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:166": {
+      "repository_source_sha256": "18ba85c3a566004126066442284c7141264b5d8cc0332a5dc1fdf0da78b4c628",
+      "en": "「I'll send you off myself.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:183": {
+      "repository_source_sha256": "3108bb4a9746016b34caedae95948c7b8d22f91f950c895ac721b85273442b96",
+      "en": "「Curse your fate.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:198": {
+      "repository_source_sha256": "e8078007db493a364697ac0ff91d995fd56d1ae77c2f42b080da16c89119e28c",
+      "en": "「Remember your parents' faces.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:221": {
+      "repository_source_sha256": "5af503139ad868a880e46cd47f214188a42a571e52325e97d3eb751f53045436",
+      "en": "「I'm just doing my job.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:244": {
+      "repository_source_sha256": "922d9392fde815e9f95228452fc8c7994a3fbc55ae41e050cc610f39c76f6400",
+      "en": "「This is our job.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:267": {
+      "repository_source_sha256": "04f1517d25344306aac83e9f863d74348721df23710f567ced7a920c16fe958f",
+      "en": "「Just another common life.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:288": {
+      "repository_source_sha256": "516070c056fdbeda87546649a08e991beb79a81b11162de72102079bb5f250ac",
+      "en": "「A flame about to go out?」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:305": {
+      "repository_source_sha256": "326862bbd99a6607abab9d5d1a9eda87761cff1f88a87a0169131f2d953c001b",
+      "en": "「Submit to providence and fate.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:326": {
+      "repository_source_sha256": "c0c7c9d5a55efdc8691eebca2cf8839de646c0836cbb24479180cbc6479672bd",
+      "en": "「You can't escape the natural order.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:351": {
+      "repository_source_sha256": "2b416106893f66342cfdafb3fb78e9479cae5407211cb30a353ef2f6d397d6ef",
+      "en": "「No one can escape death.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:382": {
+      "repository_source_sha256": "f10b69f94e758c379c56f65dc67856270f1cc66b5747b30322d191ba83b65be3",
+      "en": "「We guide you to the eternal realm.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:409": {
+      "repository_source_sha256": "78a34bdd52651fe3ac3ccf2796b4e756a0717757241f8adcc8f20447875592ae",
+      "en": "「Your destination is the underworld.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:428": {
+      "repository_source_sha256": "b7adc54aba01022f97c96e1d613e8ad9733c28966839001ccdd6db387750b14f",
+      "en": "「The gate is already open.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:447": {
+      "repository_source_sha256": "5ae2d9f07678a26de7f0c94f06ea010eedb3773fae36bf19b4eeace520324c51",
+      "en": "「Do not fear. Accept it.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:472": {
+      "repository_source_sha256": "44fb316c0e6d7e76c97a10341d1825c38621744a0c86b5f3830a8e7859a79403",
+      "en": "「It's a path everyone walks.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:491": {
+      "repository_source_sha256": "d5bca3b32bae2ddafb887fae053c918cfcc7bbc767b679cf845def49cb433756",
+      "en": "「Let go of your attachments.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:508": {
+      "repository_source_sha256": "c0936cc6a1d60ee9a6888329e6e769d5b7e45e5d530bc955f804fd95fb264f17",
+      "en": "「Abandon all hope.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:531": {
+      "repository_source_sha256": "7daab587fbe04686bd93b6224d476c07b15e50c87266f4f75d8d366de4676831",
+      "en": "「Bid farewell to this world.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:554": {
+      "repository_source_sha256": "f1628ff5ed5f90af5100715e8cc1925b57a099513675996538f5ce58e93aa5c7",
+      "en": "「Your life will take another form.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:583": {
+      "repository_source_sha256": "66888916d8bd2daed5a52ebbf22cdd01cd028155a6635059ea198c7e3ec68cea",
+      "en": "「Corpse vapor, gather.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:604": {
+      "repository_source_sha256": "e6d01a32dddbc0ae0742dfab808b7e99161dcbd670c9f693e01051877a562b1c",
+      "en": "「Souls of the dead, beckon.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:621": {
+      "repository_source_sha256": "6770380e67f2ac83ac9ee56d750790d7ca1fa117941af3db8bf700225fa5f93d",
+      "en": "「This is the duty of $$鬼宿$$.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:644": {
+      "repository_source_sha256": "6f91dccf612c3271d2d57db181696aac0cca69c97a8329bf11af336d2f9c24cf",
+      "en": "「This claw opens the gate.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:665": {
+      "repository_source_sha256": "a4ce8ece3a7e95bf201ede9199c6aa6d571a66f44379ffe3d5e2dc99747a96a2",
+      "en": "「I'll shoot you down.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:680": {
+      "repository_source_sha256": "ae3189890a61560e196432aae87c78e12009df0bc8431ceaa924a316f5d5534f",
+      "en": "「I won't miss.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:697": {
+      "repository_source_sha256": "fae165baf43d775d14937a7b64195b869218e62e5b06560d048b5586b4d2da0c",
+      "en": "「I'll finish you for certain.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:716": {
+      "repository_source_sha256": "e186419bb666ad26eaf06e2d4497d83d89737fbb30597e5ae3d41979285072f6",
+      "en": "「I aim for the flame of life.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:737": {
+      "repository_source_sha256": "d65203fbfbeb53c9546b7f4474321efd4d7896153a0e3a759697b1658cddbf2a",
+      "en": "「I don't intend to miss.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:758": {
+      "repository_source_sha256": "1bfb752796f50651bc7b91ac0053d46a8da7e710d372a942a94c9028b8a5dff7",
+      "en": "「I'm aiming for the cockpit.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:775": {
+      "repository_source_sha256": "d6e9c617904d9bafcce1d5e0c4cc4066d6db51022aff6e449f35ab573d10a3ff",
+      "en": "「This is the range.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:792": {
+      "repository_source_sha256": "c1c57e89b63833f6aa6803e19a491321209e60662f649c2f8939dd3435298bbe",
+      "en": "「Time for the flame to go out.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:813": {
+      "repository_source_sha256": "a8bc47e3dfe03af5c8ecb64617fffa7a3a6e551a976c68877140e89a692216ce",
+      "en": "「I'll take it directly.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:828": {
+      "repository_source_sha256": "d92423e4195a2f0755c933e42f58420056f7d05aa3a6d61df50eab834bb3591f",
+      "en": "「Wide open.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:843": {
+      "repository_source_sha256": "fcdbcf463822bff4b05f4504fc2f8fc7e2a13bfa6c33153f60e664e5fc99f3a3",
+      "en": "「Darkness creeps in.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:860": {
+      "repository_source_sha256": "21702d27f5b90294b1d45433f3d6b817ccd875a24631493792637cfdfcda3985",
+      "en": "「Breaking through.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:873": {
+      "repository_source_sha256": "6015bad863d71164a38e9d122237aa6cd3820f1b455a6814c95fe8eff288cc85",
+      "en": "「It isn't over yet.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:896": {
+      "repository_source_sha256": "0c9fe95b662f32f0c85de35f9ae3a440cc31424e4b71015113b4191b09ea5002",
+      "en": "「If I missed the kill, once more.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:929": {
+      "repository_source_sha256": "f5b8a806980e3738e3158b78dedcc189fd02a492cef1ceb249dae090a2b82fe9",
+      "en": "「A $$ガンダム$$, huh?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:944": {
+      "repository_source_sha256": "0768d68fe2d5161bdc25b5ffb811df6672814012662d47eca5854844b2a53ea9",
+      "en": "「I've heard about $$ガンダム$$.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:973": {
+      "repository_source_sha256": "00ee570f054aa58685034b1c526ca25712b6127aeb2224b8d66a4ff3d3be84cb",
+      "en": "「Useless, $$ガンダム$$.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:994": {
+      "repository_source_sha256": "5d39dffd0db89f382f82717e3910ae99881967d5f3324adaab2cd4c740383c13",
+      "en": "「That light is dangerous.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1013": {
+      "repository_source_sha256": "94d4712b668c2b887a0a0a84fdaa5d0856e3b52fadddbfcd2e0cbe5becfbd7f5",
+      "en": "「One who can speak with souls?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1038": {
+      "repository_source_sha256": "b34ce4d4d9995971fe68d7b47eb475be897cf72f6a7d39a6d1da7a10dcffe2e6",
+      "en": "「One who links life and death?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1065": {
+      "repository_source_sha256": "f3f3cd2593ba577e8e18fda121727229082504750e88365b37a4bb9ccd539ad4",
+      "en": "「I sense strong psychic waves.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1088": {
+      "repository_source_sha256": "b2338ffb775b40de2aff26ef69865042e562c36c3e1aee82dcd99842968e078e",
+      "en": "「I sense great power and will.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1113": {
+      "repository_source_sha256": "7f5e76223f8d40042a79011f85b05ea6226ad7c1ad4d9513347325fd70b9554c",
+      "en": "「That cry... so full of life's power.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1154": {
+      "repository_source_sha256": "49af86ce9d2d5ab9a7c9b2ddfba4e6bc5bb8f1b0a207772288d9f3b0da5bbc28",
+      "en": "「Coming at me with brute force?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1173": {
+      "repository_source_sha256": "bf192c376ba22532aceacd2a74f7f82fe834cb924ec58fc0a88be26b1a479116",
+      "en": "「Young life...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1188": {
+      "repository_source_sha256": "e755d0370a65341eecbe75caa0e8218df20eee3e71f0a84b265fa0eb13c43da6",
+      "en": "「Bid farewell to your short life.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1215": {
+      "repository_source_sha256": "0c547a3a4481c04ed85fa182cd56e1a6ed7dfcd177595c2be96ed7668f91785a",
+      "en": "「You carry the dark factor...?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1248": {
+      "repository_source_sha256": "e2417a33aed02054c3adfb61785a6ef32e5436364f499d140a1b33ad9443a368",
+      "en": "「Sleep, demon god.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1265": {
+      "repository_source_sha256": "8a7b7284e73456e301f3887eb944ba9f28f8dc2c02f332dc9b1b77145012b8fa",
+      "en": "「One who wields $$ゲッター線$$?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1290": {
+      "repository_source_sha256": "3405c474441194e086064e4f207a53cca7e2d0b28decd40ae1894098259af32d",
+      "en": "「Have you touched the forbidden?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1309": {
+      "repository_source_sha256": "eeefb9ff489ea4334d4c6a03c8ec8e9f874ad25a20f278342db1c0ad67fde29c",
+      "en": "「A wild beast?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1324": {
+      "repository_source_sha256": "51fa6fb681097c5d237ebb2782c759e4ead3e8cffacf93af42bdc46ba9003d5b",
+      "en": "「Someone out of place here.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1347": {
+      "repository_source_sha256": "f7b9719c8b7451964fa99a304a81ecfffeca1634c3c340844f382f852d8a99d5",
+      "en": "「Your mistake was taking this field.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1378": {
+      "repository_source_sha256": "d458c29c89527f9528a1d2f68b79b615d9e10f09bf931863665036d60ef0847c",
+      "en": "「I have no intention of negotiating.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1403": {
+      "repository_source_sha256": "ec06ebc3f0c05268d131f67706f8293ac1ceca286548678633e42aa33637f0c0",
+      "en": "「A Mechanical Angel.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1418": {
+      "repository_source_sha256": "ebf6354b55d3036483229849638c0c9cd9cc2fa3370d4a1d52e3896b895a6a07",
+      "en": "「An end to the civilization of fire.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1439": {
+      "repository_source_sha256": "f3b1de1acdfa6d52ab404800277d6113c9498e1b5d0776c7c8ff5bc441e9c507",
+      "en": "「No future lies beyond that drill.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1470": {
+      "repository_source_sha256": "453d4cae498d405c5196b62fac9a7e38cd92a39de8dafbf548f460f01916a789",
+      "en": "「Is that... human?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1487": {
+      "repository_source_sha256": "4a91cb1d0761bcfe39bb17650650e62cc8748828a525a3c927ab4290c8e480d6",
+      "en": "「The target's size doesn't matter.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1514": {
+      "repository_source_sha256": "f0293f8914fbe47a28b664622f9a0af591234ca0d5bec67d358254e455b502e4",
+      "en": "「Once it hits, that's the end.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1541": {
+      "repository_source_sha256": "b45d72c7bbdbca6fc61186a193690f9f7c78353eb41e20c528ebab839fc9133c",
+      "en": "「An $$異能生存体$$ is here.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1564": {
+      "repository_source_sha256": "29200c6696b4d6e989ecb7801db658fa1a778c30d6677bb55864661dbe84772d",
+      "en": "「You may not use that power.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1595": {
+      "repository_source_sha256": "ffcf683f372cf58652f0367864fdab32878457ab417c3c0d5e949c64c3fc3bfa",
+      "en": "「You will lose the sky.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1614": {
+      "repository_source_sha256": "b8e84659f67ee1d7ac2625381a75b76d770b8fe3a7d1be4086e7fb27b41c95cc",
+      "en": "「I'll simply clip your wings.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1633": {
+      "repository_source_sha256": "f9a45c943b72c4ac117e414c674886691b01f8d7c2a0804f52b4d54c51cd94e3",
+      "en": "「No room for clowns on a battlefield.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1656": {
+      "repository_source_sha256": "249c39b480f1a715314eb3ace4f78ad10b5c62c13ed4ee6edfe8e1c3d35476d7",
+      "en": "「A song...?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1667": {
+      "repository_source_sha256": "1d26f1b62be831f5edb167405ea84e98755e941213fb74d341f65507562ad78f",
+      "en": "「A scurrying bear... no, a rat?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1694": {
+      "repository_source_sha256": "5ee1705b2a4a4583947aa104373f9e6fac1a2034fecbd489251135ff17b60ad6",
+      "en": "「I'll crush the chain of command.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1713": {
+      "repository_source_sha256": "239f5a0a98ddfadec7981bc2808da309ca8c95e2495776275b612211f5fdc3ed",
+      "en": "「I'll strike their core force.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1732": {
+      "repository_source_sha256": "defab92ccc6d9bae6d0e982ee7f54352f8d0996094feac2faff0236735bfb167",
+      "en": "「I'll crush the mothership.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1747": {
+      "repository_source_sha256": "132a81dcf98502311fc7ae457cc662a5f88fe01d8e1e50f901340f1141e47695",
+      "en": "「I'll take away their home base.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1764": {
+      "repository_source_sha256": "2f5ce44fe7b69ece344c063f9dac050837d1d14da2dec84be6862095141ca08e",
+      "en": "「A $$スフィア・リアクター$$, is it?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1791": {
+      "repository_source_sha256": "386b24c33d45b416b091aeeb41469ceeb278aa5def74be42d7a9ef84c39c146c",
+      "en": "「I won't let you use that power.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1814": {
+      "repository_source_sha256": "8bd2d5936829859eabab51868597ac23dd155a43c99b8c7e9f7195ee6c8ca0b3",
+      "en": "「$$いがみ合う双子$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1835": {
+      "repository_source_sha256": "32444c786ea6cf8ee7065c97146bdd6b4a49964b552fcecd99b19e2355f0c546",
+      "en": "「$$傷だらけの獅子$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1856": {
+      "repository_source_sha256": "00f8365088863dcf78b5c74bd023f65439bb6c6b32261ca16cef6c569e1374b4",
+      "en": "「$$悲しみの乙女$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1875": {
+      "repository_source_sha256": "4447295cb818bd7cb840351e4249b43d4b333197887470668909df0dc9f19010",
+      "en": "「$$揺れる天秤$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:1892": {
+      "repository_source_sha256": "9b2bfae4795a4253b72060fe4d3f275ad78984d590a98df571b0e4f69bc92c5b",
+      "en": "「Kikoushou!」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:1903": {
+      "repository_source_sha256": "f6607500ea06ef84c94a169aacf60125cfe5a0113acf292de99065a55605d0b9",
+      "en": "「Using Kikoushou.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:1920": {
+      "repository_source_sha256": "150e643d39264679ae6367526fdfdebd6634504b134b1c1e77e80f424520cd1d",
+      "en": "「Pass on, Kikoushou!」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:1937": {
+      "repository_source_sha256": "16b0486f20321508761de9ef7336cc4e7887f9edc8c71f69a55a15ea0dbab7b9",
+      "en": "「Piercing your soul.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:1950": {
+      "repository_source_sha256": "39012a9c428b48a3472ba646b9ac1b45287bd1d5e82f8cb8cbe99a523358ab40",
+      "en": "「This is the power of $$鬼宿$$.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:1971": {
+      "repository_source_sha256": "47e1b6950ef54874aed724dbb7563c71b7cc13ff5c6d7dd79d9bd316ee9937cf",
+      "en": "「Your life vanishes with the light.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2002": {
+      "repository_source_sha256": "454e90025f5d64ccbceaa1b48003be54d8d0d7f711091206d60d05be41a0a6b6",
+      "en": "「I bind your soul.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2021": {
+      "repository_source_sha256": "2f925d27030615938a49c49555bb47ed53bf062816c1879b9f3fcf77723afda3",
+      "en": "「This claw opens the gate of death.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2048": {
+      "repository_source_sha256": "aabd918603c017bfe9de9b4ff6f47d2f56b222548ea6be3d8ba31a23d73324a6",
+      "en": "「I'll guide you to the netherworld.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2071": {
+      "repository_source_sha256": "9ecc2af5b25fbd5e3f5dd7d4ea009c9dd02e5e8c7937a520297f1b7285d4eb81",
+      "en": "「$$尸冥爪$$, true to its name.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2098": {
+      "repository_source_sha256": "b60a2a3e84e82227f154cd50fdad15e382e3dd6cbd66554d4f2281662b1e870c",
+      "en": "「Nether... dark... ghostfire...」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2115": {
+      "repository_source_sha256": "4017f4aa227cb51968746c9c129854c1add308182d2a571b70baf2091461b86a",
+      "en": "「Tear the souls apart, Funeral Claw!」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2140": {
+      "repository_source_sha256": "896e387a6002b2830fb3e80c0770704fd76d41338db657b60d1ff98ee007b99d",
+      "en": "「Beginning the counterattack.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2159": {
+      "repository_source_sha256": "8c942313c3aec1a788083f65cd3e92303044a6a71ef8f9f99e59c2064d11e413",
+      "en": "「My turn.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2172": {
+      "repository_source_sha256": "51a8925ecd8de089054325cb3afe46e06bae918eec3c597aee6709290c8671bb",
+      "en": "「Kill or be killed.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2197": {
+      "repository_source_sha256": "61fdaff5dabb1b5abea2ec14aa57974d033edfcc37411aa5dd418e491326a47e",
+      "en": "「You won't escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "322:2210": {
+      "repository_source_sha256": "e1309f5a91c6dc83f3fd83d113091bfcd92c4ba70790e2dbd4d86bab99eb7127",
+      "en": "「As you wish.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2225": {
+      "repository_source_sha256": "835fc07ddc8119d5785d9f7033e03981e11948b442f308d3d70596a2fd102fae",
+      "en": "「I repay my debts.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2240": {
+      "repository_source_sha256": "8e0725c654010b8b7e575e79a10da63392868193a093a0af5a99ea88a8d22b02",
+      "en": "「You reap what you sow.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2255": {
+      "repository_source_sha256": "4cea053824ac633094135ae875a9bd58e2358638525b67db062452f67652df68",
+      "en": "「You went in too deep.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2276": {
+      "repository_source_sha256": "b55773ae7735efc0f1a47447ebcf4c18778964c379d43730b4a0dfd69656661d",
+      "en": "「You'll pay for this.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2299": {
+      "repository_source_sha256": "cb7e69c457757e469902a0a24757078f2b524f865dd4cf7f545baaa40742da79",
+      "en": "「The price will be steep.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2318": {
+      "repository_source_sha256": "4d775be471b60698413b4730f8e33276a5ce44a90ae92791e129ea863c8460bb",
+      "en": "「If any remain...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2337": {
+      "repository_source_sha256": "e63180e9713f5062eda41f0b0e797d490c5d8641a8bf6e18cb60af276be9b91e",
+      "en": "「If you're waiting for me...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2360": {
+      "repository_source_sha256": "1e005b28611ac36d0776be0abb8c761d7ad99bfabc5f142ba09139691e4e8d0a",
+      "en": "「I'll simply finish it off.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2383": {
+      "repository_source_sha256": "7f856f23685d6c387fcd93972038326b329339a2752ad27adc0783fb82c468b3",
+      "en": "「I'll handle the cleanup.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2406": {
+      "repository_source_sha256": "427da8ac7d87cd5a27ed163bf1bbd60de74d650177ff0578ec1d8b47b490ea3a",
+      "en": "「Leave it to me, Lord $$尸空#pilot$$...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2429": {
+      "repository_source_sha256": "b7ef428cd50b2dfa95cee5c6c7abad19b6c0ce3624acf8bc54674d588f52a948",
+      "en": "「Lady $$尸刻$$, I'll take over.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2450": {
+      "repository_source_sha256": "964d0eb8c10b15de641b5418e23950c5e742ff321ea03b412ad6a70a65c5d563",
+      "en": "「It's too early to die.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2471": {
+      "repository_source_sha256": "bb5c7c1ae6687eafedc6288cabe213f7e4ee6d8faa3e2f6c116d1b012a938ce3",
+      "en": "「I'll take the hit.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2490": {
+      "repository_source_sha256": "aaffbe30ed054d32ea793b5e3ebb48103ee9269d49f96a5ce18d549b1ad2f3f1",
+      "en": "「Please stand back, Lord $$尸空#pilot$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2519": {
+      "repository_source_sha256": "ff392be85517b159cc1b414015a83f78f660ec44b5909196602e7284f9521d16",
+      "en": "「I will protect Lady $$尸刻$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2542": {
+      "repository_source_sha256": "133af327a291b4fa119ffbbe4e880ae9d240ed5f4df9b4ed40cf79543018b253",
+      "en": "「I'll be your opponent.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2561": {
+      "repository_source_sha256": "e99fc3f5713aad91c186aecb81fed26abaea0c3f74e95e3aaa9c08af4b273313",
+      "en": "「Let me handle this.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2578": {
+      "repository_source_sha256": "703a08370ce9cb238fce1be35efacbf407fdcbcb80f8bbabf914168a687ce741",
+      "en": "「I complete the work I take on.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2607": {
+      "repository_source_sha256": "d3678e27159196ed68bf8795c6783cf70f84be5cd7c96d7492e4fe807454cd16",
+      "en": "「I leave that one to you.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2632": {
+      "repository_source_sha256": "c172f479439e1ff8c305f8995628c0b0b886b3e0813db90a6915d450f2ca9571",
+      "en": "「I'll take this one.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2655": {
+      "repository_source_sha256": "bd65acee4b9d12bed23d022aeabd08fa6ad22a15b5b2b5bec71471400fac289f",
+      "en": "「I'll go ahead.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2668": {
+      "repository_source_sha256": "b104f5831bcf13632058005e127a649a43bb3446cf1a075f8a3ce43486cc0623",
+      "en": "「I'll keep them in check.」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "322:2681": {
+      "repository_source_sha256": "4aeac290cce8ad949458501b8b67f22c8c8399e7c81a0f11e13e4a16942ecd2e",
+      "en": "「Target confirmed.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2696": {
+      "repository_source_sha256": "03b03a2edc9772b59bf2d171feff2619378ee7e69a308b78f79609b37addaa0d",
+      "en": "「I'll pin it down.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2713": {
+      "repository_source_sha256": "ff08488b0e713beef56f1f4f1c883cd255c1357d976e0c2d5d28a8638012fec9",
+      "en": "「I leave the finishing blow to you.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:2732": {
+      "repository_source_sha256": "282a45d8c0129512782683b8fa60fc66a416d3dee917c9c8745c07102383475f",
+      "en": "「Unable to counter, huh?」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2747": {
+      "repository_source_sha256": "249e193f9b526e6cc4c9f62aec24e32ac0f18258bd6bffbee1c1d4859dd6b3d5",
+      "en": "「Such things can happen.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2774": {
+      "repository_source_sha256": "252318bcd0238b186d5287fdb596b4625afbb4a92cb2d554fe5b4978488aa4c2",
+      "en": "「A blunder.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2787": {
+      "repository_source_sha256": "001e89ec7f8452657ed84d9000557b702fc4fe557ec04730f779188446b32772",
+      "en": "「My attack has been sealed.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2810": {
+      "repository_source_sha256": "579ce0eea6bd88b65b6e5668c3fa76bdac684d7ef45980795a613d2fdad42c0f",
+      "en": "「All I could do was watch.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2831": {
+      "repository_source_sha256": "c324985eb410e9461386ca309c5586e8ce58ff4ccce8a806c5b9b9e082df09cf",
+      "en": "「This is a bad position.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2846": {
+      "repository_source_sha256": "20f675fe6ba5fcf40deb22335dd5a7ab3f5e1434589a31f2cdc747ddfdc8495e",
+      "en": "「I fell into your scheme.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2867": {
+      "repository_source_sha256": "fb9b5d69a0676f0fc360e33aff0fabb34f739ba796d78bea74e7346c04c063a8",
+      "en": "「There won't be a second time.」",
+      "source": "new",
+      "slice": "v_g321_02"
+    },
+    "322:2884": {
+      "repository_source_sha256": "ccc1f1cd4699c37715d0c864a60ac48a2e152cc8c2eb9f51fe327e148161409e",
+      "en": "「Too slow.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ],
+      "alternatives": [
+        "You're slow."
+      ],
+      "review": "conflict"
+    },
+    "322:2895": {
+      "repository_source_sha256": "661392693f6c1999c71c988ff8cd78c12f05fb3e1c7673e8cdd0c81b06084084",
+      "en": "「Did you think that would hit?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2916": {
+      "repository_source_sha256": "fd1880f410ccb6242e573d3451dddedf54b3850dd77f9c39121de0f90ac34b2f",
+      "en": "「Just as predicted.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2931": {
+      "repository_source_sha256": "bf9b9f050bc8a080957e0659877685da000e5922ee6bc1e326d31636dc730bd9",
+      "en": "「You're easy to read.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2950": {
+      "repository_source_sha256": "987a75c0d43173e8f81a693aa98c880ba6e6c0d8ec476b23fd013a08ef36165e",
+      "en": "「What are you trying to do?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2969": {
+      "repository_source_sha256": "1f94f3837c6265b0c188b49336c4b778da678a591a2f355d1a772058a88741b9",
+      "en": "「You aren't seeing clearly.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:2992": {
+      "repository_source_sha256": "6242750aaf9cd2a71abaa5b59d287df9c1f82c56dc75b4fd24a26a75979bfa00",
+      "en": "「I sense impatience and anxiety.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3015": {
+      "repository_source_sha256": "0f40d47ff684fefe73090677e698174978f24f53a519691aa7ff54ae7ae8e41a",
+      "en": "「This is reality.」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "no damage"
+      ]
+    },
+    "322:3032": {
+      "repository_source_sha256": "bc5bc16ce45a32ba43d4ec0ad00f09ff5e66d50e4af188f13dae041e9c72b89b",
+      "en": "「This is a $$ガンダム$$?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3055": {
+      "repository_source_sha256": "5b0099b79c5bbcfca272d3f2beb4725546ae3da353d091eb74709ddcba401795",
+      "en": "「Unworthy of the $$ガンダム$$ name.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3086": {
+      "repository_source_sha256": "61a3dac10f52a816dc22b7c0901d97af470ff80d60238837d7c9b7e48881c888",
+      "en": "「All show, no substance.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3105": {
+      "repository_source_sha256": "def893894724451d15c7024347f1aaaaf65b578367273e876d5650ca825e9d30",
+      "en": "「You don't know how to use your power」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3140": {
+      "repository_source_sha256": "bd7cf7c3e1ed58cad42ff7176ad64678fe0a3754c3b26d220b90d5c95c091fcd",
+      "en": "「Hard to believe you wield a $$スフィア$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3173": {
+      "repository_source_sha256": "c77b01a9db16bb9ead61b5d8ffb28b499d9dcb8ae7cbfee4d5a553f30bdd5903",
+      "en": "「What an immature Reactor.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3198": {
+      "repository_source_sha256": "3e593da21d28f8444f801a00a934ca4a0f02c63291c609204dde6e47ba582114",
+      "en": "「I told you, it doesn't work.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3223": {
+      "repository_source_sha256": "04fc0e24ce73070ac650ab21bea21f8394f7cb372c125593a423f4686d944a54",
+      "en": "「I'll simply nullify it.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3244": {
+      "repository_source_sha256": "f15f09375a54d7d7859763713a1e80f0f0bedad54aca41e9d3df912141a1b090",
+      "en": "「Deploying the field.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3263": {
+      "repository_source_sha256": "ea00f91d350918592e24ae9f9d247ab625c97a0ab053486fa8382e9762ee0ae1",
+      "en": "「What a boring attack.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ],
+      "alternatives": [
+        "What a dull attack"
+      ],
+      "review": "conflict"
+    },
+    "322:3282": {
+      "repository_source_sha256": "4982d5d732483fa7814b4fb2faa6d4f5d065303d9bf0fd2531d6e9791d780d56",
+      "en": "「Evasion isn't necessary.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3299": {
+      "repository_source_sha256": "05ea9c4ba7a1984e0d9c810d397c510e369705809620df0e4ab70532d299c013",
+      "en": "「Struggling, are you?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3312": {
+      "repository_source_sha256": "4bd8019b192a6cb90726f28939c33d49ed174eec487c0f08ec4cca9166952f0b",
+      "en": "「Such futile resistance...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3331": {
+      "repository_source_sha256": "5896404a27be4f448714cb24b10a03da4c7b447ae1a4947a8eda2a47e30eafe5",
+      "en": "「Recognize your folly.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3354": {
+      "repository_source_sha256": "453340d49609b2dfa850f0b0f1546da2c5a7e42f2e226e181a40a11b69e605cc",
+      "en": "「Realize your weakness.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3375": {
+      "repository_source_sha256": "d82da3dbf6bfad0b78a870cecde1f147145ac50e1850c39462420ee6fe9af22d",
+      "en": "「Its killing power is close to zero.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3400": {
+      "repository_source_sha256": "74c4367b2a28569ee6462ea766ad65d78e4cb8286722d548206fe486adf94eb7",
+      "en": "「I'm being taken lightly.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3423": {
+      "repository_source_sha256": "c191c7d46510e0b7e4d80292316fcbad77a6154fc54b77a6be5aecbe4bb20415",
+      "en": "「It won't work on $$尸冥爪$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3444": {
+      "repository_source_sha256": "2781e4d3af3477e51fcdf9c1ab09aa48e164761fca68acd4c9d257dc3828bf38",
+      "en": "「Seems you can't pierce this armor.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3479": {
+      "repository_source_sha256": "eaee3db1ea541bd0d9a68e8e86f1e05e46d77fd739cfad5daa02f63c81c5016f",
+      "en": "「I see.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ],
+      "alternatives": [
+        "Now I understand."
+      ],
+      "review": "conflict"
+    },
+    "322:3494": {
+      "repository_source_sha256": "07e2c2475230035b74eca5534e4a23f9b4f426617e1caae0d6a12c9a0a2f8275",
+      "en": "「So that's your move.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "322:3509": {
+      "repository_source_sha256": "39866e85c563090a08fcba8c700a65f858357771788c7117e42c540661d355a9",
+      "en": "「We're evenly matched.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3526": {
+      "repository_source_sha256": "fdad915bb03b4988e564024b004b87fdde8aeb1961eb0e15b193e67c332f6c16",
+      "en": "「You just won't give up.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3543": {
+      "repository_source_sha256": "8becfb4e6646426ad7fb152591d346c589beef1d4a40c5efb04b8b4e4d2cb6c1",
+      "en": "「Those instincts aren't bad.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3562": {
+      "repository_source_sha256": "d6240214d078c7ad77b63b74fe7034241cc2d0bb331e3f691d0b6bf1ff502406",
+      "en": "「That's more like it.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3579": {
+      "repository_source_sha256": "2ac667cd585d533917fee5974e41b762709921890dc5fdbaa0bc34789f6e19b9",
+      "en": "「You resist fate?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3596": {
+      "repository_source_sha256": "2fa94b3ffd6ee20886432477522c3a5fd9641fc90c623f4c773708079677ac7d",
+      "en": "「Even so, it's still not enough.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3623": {
+      "repository_source_sha256": "790bcfb7fefe8b742c66f92481013da06eeed3f5cb247296c991822ce5807508",
+      "en": "「I won't give you another opening.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3642": {
+      "repository_source_sha256": "f462955596b7bf347b7436f9c4f5911d824da78295de81c1c88a9fd93c94bd51",
+      "en": "「Even I let my guard down.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3667": {
+      "repository_source_sha256": "fb4f0ee109f369a61eb439afe6c0943a873f969fb96941590913ad27675d2f11",
+      "en": "「I won't make that mistake twice.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3692": {
+      "repository_source_sha256": "0e6a9d37aff12a919b1016c0b1413f8cb5f94c3c712d1cf2288672ea0c5fb646",
+      "en": "「Am I losing ground, bit by bit...?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3721": {
+      "repository_source_sha256": "d183314c578497754797dd5de952b4eb649f973964a6923a918e4ae5b71952af",
+      "en": "「It's a $$ガンダム$$, as expected.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3742": {
+      "repository_source_sha256": "f08b62b7f5c5c657faa676a0a0fc9ad007f0a517056051ddd368c7c75ffcfca2",
+      "en": "「Worthy of the $$ガンダム$$ name.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3771": {
+      "repository_source_sha256": "26214251f938609c8a99774ba0b528b1bb1a5d5324b5854c9373b6cf80ad15cf",
+      "en": "「Their psychic waves are closing in.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3798": {
+      "repository_source_sha256": "415af8857391030cc72d7f3bd02dda9c540bbacd2465661e06cf2c6d3ac17f63",
+      "en": "「Their pressure is pushing me back?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3831": {
+      "repository_source_sha256": "52fcf6fb0558cb6d7f18e1e287a1b10382b3387e02f5c2326709cfc011349966",
+      "en": "「I see... So it's a Super Robot.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3864": {
+      "repository_source_sha256": "ac25c472bd103316cbd5ef1aa49cf5ee3dbedb142ed35ea8401dfb50fefb8219",
+      "en": "「I can't match that power.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3887": {
+      "repository_source_sha256": "f0b39d1f8f67ccec28e0bcee8019bc03fd46c808962917d24c09f16e0cf6c4e5",
+      "en": "「That's fast...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3900": {
+      "repository_source_sha256": "603f66f4105984e629afdbe16d53bf5107ba8aafa438c4269535f0721e81f9ae",
+      "en": "「Impossible to follow it by eye?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3925": {
+      "repository_source_sha256": "c62b911c92419852273f8936baa9030dc62fede8bc0405a433a96fd34eb66ccb",
+      "en": "「More power than it looks.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3946": {
+      "repository_source_sha256": "49b6fc81fbd2c5d39ede06e73dc755898bfce200730f7b4d24a484387949ca56",
+      "en": "「You've mastered your $$スフィア$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:3979": {
+      "repository_source_sha256": "0d86d7141083589108fd8f72e865f36093955128c2066bc6ee168cd0e65261c6",
+      "en": "「As expected of you, $$スフィア・リアクター$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4016": {
+      "repository_source_sha256": "12be976ec825b165927f52df6af226c1fb3a4945268b56d1100ae85c6f779880",
+      "en": "「Their strength is superior.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4037": {
+      "repository_source_sha256": "706ee15702dac731c2a583564a28b913619d472a382b6796281e87b5bd772270",
+      "en": "「So this is clinging to life.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4060": {
+      "repository_source_sha256": "8384260ca262a688761873157df335932e9fdc8eab6cf61a25ffe400d2e82cf1",
+      "en": "「You reject me... you reject fate?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4083": {
+      "repository_source_sha256": "77ff183ee46c4ea474c81c759d82b430dbaadb96944ab64716f6048ab3dccfdc",
+      "en": "「So this is the power of life.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4104": {
+      "repository_source_sha256": "1ede6ef38416647f2409fb513216a11b159b4dca22cbc0477f3082b2ccf4493c",
+      "en": "「My unit's output is dropping.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4133": {
+      "repository_source_sha256": "ea46e9001420907e1f28adbfb56bc68c94a284f17a52e82eccf1d053e4b5aead",
+      "en": "「The damage is severe.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4152": {
+      "repository_source_sha256": "6a57eff65db13149e6ee212a8e8934a4b8e7ce510712b1443f08cc6e8370e201",
+      "en": "「The drive system's been hit.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4175": {
+      "repository_source_sha256": "506a41f645ecbc952784db5bf6943769ed63c445d334d86308b5e56438c1f44c",
+      "en": "「My unit is at its limit.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4208": {
+      "repository_source_sha256": "c71902ddec9946ce710eb4fcd309aab0cd11b8e9d1b10c546ddda7325fd3460c",
+      "en": "「From here, it's kill or be killed.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4243": {
+      "repository_source_sha256": "0d52c02f6a8178eb37cb3a05d967aba1f2493f86ec5b055451903777532b2c22",
+      "en": "「The feel of death right beside me...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4268": {
+      "repository_source_sha256": "c22f54b531b4adf08f6c669268cab193a5433a469aaa0e0348235b1e516c8f4b",
+      "en": "「To $$鬼宿$$, death is close at hand.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4301": {
+      "repository_source_sha256": "3b8254c6f4f33850fa3a14ceeecaadf482d0b1f402c05c274a3e1de8ac640139",
+      "en": "「The difference: send or be sent?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4332": {
+      "repository_source_sha256": "86bff6330c5974a54db6df73ecd904b84add7f62b4c4ba2a6529d9e5ae9bbcb2",
+      "en": "「$$尸冥爪$$... Hold out a bit longer.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4363": {
+      "repository_source_sha256": "5c716ac2b29bac40caf5198c0dcda1c82de217a9c4f4d4f3b00de513b752a927",
+      "en": "「Will $$尸冥爪$$'s claws break...?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4390": {
+      "repository_source_sha256": "ef21897a511a88a69a021e2d829dc5e9807b530e8f41ba2c4ba345d49403125a",
+      "en": "「You can still fight, $$尸冥爪$$.」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4415": {
+      "repository_source_sha256": "b67e1d2995ff91574d15226e7ba2de26a3fc1ee78a0ac5002c19689d391c6ab9",
+      "en": "「I never expected this much...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4436": {
+      "repository_source_sha256": "1058b23929db6a43be79f0baf4d14fd4d23106440d043f9d2c156e3c63d23362",
+      "en": "「Abandoning the unit.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4455": {
+      "repository_source_sha256": "bd7a8cc53c42d3f9334152227e4f60beb76ad214d1016c90655a58785130d63f",
+      "en": "「Never thought it'd come to this...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4482": {
+      "repository_source_sha256": "00c5db507b7b0d32d2b2c73e925c7697b60c13f78eaaa1ebff8a83bfc8542c2e",
+      "en": "「Results are everything...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4503": {
+      "repository_source_sha256": "05ceb6bf307ca2d1f60a1feaa7b0d1bffc121d629d983ef731043a9a20cea480",
+      "en": "「I accept defeat.」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4526": {
+      "repository_source_sha256": "27b42e1f8d9a955a57ba9fce2f84e82292b9ad2a4c05061bb216f149dd894422",
+      "en": "「How regrettable...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4539": {
+      "repository_source_sha256": "0fdc7aeb3c2db17af17d7881b2b51a1a8d1d8173c3985dd9f785e26bfc54c8e0",
+      "en": "「Me... in this state...?」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4562": {
+      "repository_source_sha256": "dd4aa711f9de82aa763e5424c6a7ea65a75737d6c2e0c1e55bb75538a13800ca",
+      "en": "「Well done, I'll say that much...」",
+      "source": "new",
+      "slice": "v_g321_00"
+    },
+    "322:4587": {
+      "repository_source_sha256": "00fc442ad320b9f8c5d0f84d0685873a4cf8b3faa785a14f6132152f290237fd",
+      "en": "「Forgive me, $$尸冥爪$$...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4606": {
+      "repository_source_sha256": "3481596ab14f94da6ebf198aa36254317f510fcebd7e3402b6bbab4d45405c7f",
+      "en": "「My $$尸冥爪$$ is...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4625": {
+      "repository_source_sha256": "8f799f6dcb858d5b93b4933bbf900d94e4643631ce3da0fd07e7b03b3d5729a4",
+      "en": "「$$鬼宿$$'s history ends soon too...?」",
+      "source": "new",
+      "slice": "v_g321_01"
+    },
+    "322:4662": {
+      "repository_source_sha256": "935fdc8aa03ee1e5db698a376d9668ecc4fa3f135c2cdf83c8bf62e23b187743",
+      "en": "「We've no place in this universe...」",
+      "source": "new",
+      "slice": "v_g321_01"
+    }
+  }
+}

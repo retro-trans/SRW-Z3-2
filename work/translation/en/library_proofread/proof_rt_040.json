@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_040",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 50,
+      "field": "DSCR",
+      "english_sha256": "cd91a089d616a6fc",
+      "new": "The flagship of the $$地球連邦軍$$' $$ロンド・ベル$$ task force.\nIts captain is Colonel $$ブライト・ノア$$, and like the Gundam-carrying ships before it, white forms the base of its color scheme.\nBesides its usual launch catapult, it is notable for a dedicated landing deck at the stern of the hull. It also has a highly armored combat bridge, separate from the bridge used under ordinary circumstances.\nIts basic performance is high, and sister ships are still in service more than fifty years after its development.\nBesides its main armament of four twin mega particle cannons, it carries countless missile launchers and machine guns.\nBefore the decisive battle, it was equipped with fifteen nuclear missiles handed over by $$カムラン$$.",
+      "reason": "mistranslation (tense): the Japanese 同型艦が就航している is present tense (sister ships ARE in service more than fifty years after development); the English said 'remained in service', turning a present state into a past event"
+    },
+    {
+      "kind": "robot",
+      "id": 76,
+      "field": "DSCR",
+      "english_sha256": "8c808b2a7ce7db1c",
+      "new": "Celestial Being's fifth-generation Gundam, inheriting the lineage of the Cherudim Gundam.\nPiloted by $$ロックオン・ストラトス$$.\nThe Dynames and Cherudim before it were developed as sniper-specialized machines to make use of their pilots' aptitudes, but this unit has been redesigned to enable omnidirectional fire, taking into account combat against numerous opponents.\nIts main armament is multiple GN Rifle Bits II, usable both as rifles and as pistols. These can also be used as remotely guided weapons and deployed simultaneously. Furthermore, the holsters that store these rifles can themselves be deployed as shield bits.\nIt also carries GN Micro Missiles throughout its body, improving its firepower.\nIts increasingly complex fire control is supported by $$ハロ$$ units, increased to two, allowing all of these weapons to be used at the same time.\nWith this equipment, this unit is completed as a bombardment-type mobile suit capable of responding at any range.",
+      "reason": "omission: the Japanese 2台に増設したハロ says the Haro were expanded/increased to two units; the English only said 'two Haro units' and dropped the increase"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "robot 74 DSCR 'it was operated docked with the 0 Raiser': the Japanese 運用した has no subject and the entry does not say who operated it (Setsuna is only named as pilot in the first sentence); kept the passive",
+      "robot 46 DSCR 'it challenged ... and won': subject of 挑み/勝利した is the unit (with Amuro as pilot); the English uses 'it' for the machine, which the entry topic settles; no person dropped",
+      "robot 78 DSCR 'handled separately by its two pilots': 分担して行なえる has no explicit subject; 'its two pilots' is settled by 複座型 and the pilot line"
+    ],
+    "name_issues": [
+      "robots 41, 42, 47, 48, 55, 68: 'Anaheim Electronics' is literal English (token $$アナハイム・エレクトロニクス$$ exists and is used in 46, 53, 54); robot 55 'Granada' literal (token $$グラナダ$$ used in 53/54)",
+      "Literal English names (not tokens): robot 41 'Reccoa', 'Argama'; robots 47/48/50-ish 'Londo Bell' (47, 48), 'Earth Federation Forces' (45, 47); 'Neo Zeon' (51, 52, 55, 56, 58); 'Principality of Zeon', 'Elmeth' (43, 44, 56); robot 58 'Gwazine-class', 'Second Neo Zeon War'; robot 40 'Grips' (Gryps)",
+      "robot 65 'Sank Kingdom', 'Aries'; robot 67 'Khushrenada' literal after the $$トレーズ$$ token (probably should be the full-name token), 'Tallgeese', 'Preventers', 'Dover Gun'; robot 68 'Barton Foundation', 'Gundam Heavyarms' literal (token $$バートン財団$$ exists and is used in 62); robot 69 'OZ'",
+      "robot 73 'Infinite Justice' literal (token exists, used in 72), 'Freedom', 'ZAKU Warriors', 'GOUF Ignited', 'Clyne Faction'; robot 74 'Celestial Being' and '00 Gundam' literal (tokens exist, used in 75), and '0 Raiser' literal in 74/75 while the token $$ダブルオーライザー$$ in the same fields is glossed '00 Raiser' (inconsistent); robot 76 'Cherudim Gundam', 'Dynames', 'Cherudim', 'Celestial Being' literal; robot 79 'Malute Mode' (JP マルートモード; unit is Harute, spelling of Malute/Harute should be settled)",
+      "robot 71: robot English name is '?' in the brief (∀ガンダム); token $$月光蝶$$ shown as Moonlight Butterfly (translator said pending)",
+      "robot 60 uses both $$ヒイロ・ユイ#pilot$$ and $$ヒイロ$$ in one entry (both Heero)"
+    ],
+    "uncertain": [
+      "robot 50: fixed only the tense of the 'fifty years' clause (present in Japanese); revert if in-universe past framing is preferred. 防弾性の高い戦闘用ブリッジ is 'highly armored' (literally highly bulletproof); kept as acceptable",
+      "robot 76: 'Haro units' written as token + ' units' since the token English is 'Haro'",
+      "robot 68 DSCR: 'the same type used by the Heavyarms Custom' is attached to both the Double Gatling Gun and the Beam Cannon; the Japanese 同型の could apply only to the gatling gun. Kept, ambiguous in the source",
+      "robot 61: 機体制御 rendered 'flight control unit' (the Active Cloak is machine/attitude control); kept as acceptable",
+      "robot 60: 大統領府 rendered 'presidential residence' (literally presidential office/palace); 大気圏間際 rendered 'just short of the atmosphere'; kept",
+      "robots 43/44 and 53/54 are identical pairs; no defects found in either member",
+      "robots 65 and 69: 'the bull/lion of the twelve zodiac constellations' renders おうし座/しし座 through the token (Taurus, Leo); kept as fine",
+      "No gender problems found: all entries are about machines ('it'); no he/she used for pilots in the current English"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "batch": "proof_pt_240",
+  "fixes": [
+    {
+      "kind": "pilot",
+      "id": 253,
+      "field": "DSCR",
+      "english_sha256": "32bee15f2a69bfc3",
+      "new": "A soldier belonging to the $$アンタレス$$ Squadron of the $$ギャラクシー船団$$. Rank: major.\nWith a fully cyborgized body, he calmly handles even machines that subject the pilot to G forces ordinary humans could not endure. Weapons are also built into his body, and his unarmed combat ability is high.\nWearing a black long coat and sunglasses, he guards $$シェリル$$.",
+      "reason": "pronoun/pro-drop: Brera is male per the brief (wiki infobox); the repeated token as subject came from the old no-pronoun rule and is replaced with he/his; 'the body' -> 'his body', 'unarmed combat ability' -> 'his unarmed combat ability' (same meaning)"
+    },
+    {
+      "kind": "pilot",
+      "id": 253,
+      "field": "DSC2",
+      "english_sha256": "5b9f1443c86063be",
+      "new": "A soldier belonging to the $$アンタレス$$ Squadron of the $$ギャラクシー船団$$. Rank: major.\nWith a fully cyborgized body, he calmly handles even machines that subject the pilot to G forces ordinary humans could not endure. Weapons are also built into his body, and his unarmed combat ability is high.\nWearing a black long coat and sunglasses, he guards $$シェリル$$.\nWith his consciousness controlled by the $$ギャラクシー船団幹部$$, he killed $$三島$$ and others, and on the $$バジュラ$$ homeworld rode a VF-27 Gamma and stood in $$アルト$$'s way.\nTriggered by $$アルト$$'s '$$光の舞$$', he broke free of the mind control and made a suicide charge into the CIC of $$バトル・フロンティア$$, where the $$ギャラクシー船団幹部$$ were.",
+      "reason": "pronoun/pro-drop: Brera is male per the brief (wiki infobox); the repeated token as subject came from the old no-pronoun rule and is replaced with he/his; 'the body' -> 'his body', 'unarmed combat ability' -> 'his unarmed combat ability' (same meaning)"
+    },
+    {
+      "kind": "pilot",
+      "id": 272,
+      "field": "DSCR",
+      "english_sha256": "d944e9ba7a0ffc07",
+      "new": "Chief researcher at the $$ゲッター線$$ research institute of the $$国際機密連合$$.\nHe was formerly involved in the development of Getter Robo together with $$早乙女$$ and $$敷島$$.\nAlways acting alongside $$スティンガー$$, the two call each other by name with the suffix '-kun'.\n$$コーウェン$$ was parasitized on the Moon by the parent $$インベーダー#robot$$ and worked behind the scenes to make the Earth the property of the $$インベーダー#robot$$s. In the decisive battle at Jupiter, $$コーウェン$$ and $$スティンガー$$ fused together with a giant $$インベーダー#robot$$ and stood in the way of $$真ゲッタードラゴン$$ and Shin Getter.",
+      "reason": "pro-drop: the Japanese is a full sentence whose subject (the entry's own person, Cowen, male) was dropped; subject restored"
+    },
+    {
+      "kind": "pilot",
+      "id": 273,
+      "field": "DSCR",
+      "english_sha256": "9539455e0698f025",
+      "new": "Chief researcher at the $$ゲッター線$$ research institute of the $$国際機密連合$$.\nHe was formerly involved in the development of Getter Robo together with $$早乙女$$ and $$敷島$$.\nAlways acting alongside $$コーウェン$$, the two call each other by name with the suffix '-kun'.\n$$スティンガー$$ was parasitized on the Moon by the parent $$インベーダー#robot$$ and worked behind the scenes to make the Earth the property of the $$インベーダー#robot$$s. In the decisive battle at Jupiter, $$スティンガー$$ and $$コーウェン$$ fused together with a giant $$インベーダー#robot$$ and stood in the way of $$真ゲッタードラゴン$$ and Shin Getter.",
+      "reason": "pro-drop: the Japanese is a full sentence whose subject (the entry's own person, Stinger, male) was dropped; subject restored"
+    },
+    {
+      "kind": "pilot",
+      "id": 278,
+      "field": "DSCR",
+      "english_sha256": "3632e7b6d40e8869",
+      "new": "One of $$ボス$$'s henchmen.\nDespite his vacant expression and runny nose, which give no hint of it, he is a master of drunken fist boxing with championship-level skill in Japan.\nWhen he made quick work of Iron Mask with that skill, $$甲児$$ said of him and $$ムチャ$$ together that 'they might be stronger than $$ボス$$'.",
+      "reason": "mistranslation: the Japanese says Kouji's remark about being stronger than Boss was about Nuke and Mucha together (ムチャと合わせ); the English 'he might be stronger' made it about Nuke alone"
+    },
+    {
+      "kind": "pilot",
+      "id": 279,
+      "field": "DSCR",
+      "english_sha256": "b8d827fb6da38df0",
+      "new": "One of $$ボス$$'s henchmen.\nHis small stature and obedience to $$ボス$$ make him look like nothing more than a hanger-on at first glance, but he is actually a master of finger-flicking projectiles. He once nailed Iron Mask square in the face with a firecracker pellet faster than the man could level his gun, proof that his skill is the real thing.",
+      "reason": "addition: the Japanese only says 実は指弾の名手 (master of shidan, finger-flicked projectiles); 'firecracker pellets' belongs to the next sentence and 'with pinpoint speed' is not in the Japanese"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "pilot 270 DSCR 'the truth behind the accident was that it had been a means of laying to rest herself': the Japanese does not name who arranged the crushing (only that its purpose was to bury the parasitized own self); kept as is, the reflexive 'herself' already points to Michiru",
+      "pilot 272 DSCR / pilot 273 DSCR sentence 4 (the token of the man himself is repeated as subject): the Japanese subject is dropped; kept the name instead of 'he' because the previous sentence names the other man (both male, both parasitized), so 'he' would be ambiguous"
+    ],
+    "name_issues": [
+      "pilot 240 DSCR: 'Fire Bomber' is literal English (pilot 242 DSC2 and 245/246/251 DSC2 'Lovely Bomber' literal)",
+      "pilots 241-260: 'Mihoshi Academy', 'Macross Frontier', 'Macross Quarter', 'New U.N. Spacy' are literal English",
+      "pilot 243 DSCR: 'L.A.I.' literal English",
+      "pilot 249 DSCR: 'Howard Glass' and 'Miss Macross Frontier' literal; pilot 260: 'President Howard' literal",
+      "pilots 255/261: 'Vector Promotions' literal; pilot 258: 'Nyan Nyan' literal",
+      "pilots 257 (DSCR/DSC2) and 259 (DSC2): 'Vajra Queen' (女王バジュラ) is literal, no token",
+      "pilot 262 DSCR: 'Saotome school' is literal; a token exists for the Macross Saotome family and another for the Getter Saotome, so which one applies here is unclear (Alto's kabuki school = Macross family)",
+      "pilot 263 DSCR: 'Musashi', 'Professor Saotome', 'Shin Getter', 'Shin Dragon', 'Getter-1', 'Getter Robo', 'Invaders' literal; 'Ruunar War' looks like a typo of 'Lunar War' (月世界戦争) and has the same spelling in pilots 270 and 271: please check the term against the wiki",
+      "pilots 264, 265: 'Professor Saotome', 'Shin Getter', 'Shin Dragon', 'Tower', 'Invaders' literal; pilot 265 'Genki' and 'Kei' literal although tokens for 元気 and 渓 exist",
+      "pilots 266, 268: 'Kei' literal although the 渓 token exists; 'Shin Dragon', 'Shin Getter', 'Shin Bear', 'Getter rays' and 'Professor Saotome' literal",
+      "pilot 267 DSCR: 'Shin Getter', 'Shin Dragon', 'the Tower' literal",
+      "pilots 272/273/274: 'Shin Getter', 'Jupiter', 'Io, Callisto, Europa', 'Final Getter Tomahawk' literal",
+      "pilots 275-279: 'Dr. Hell', 'Hover Pilder', 'Photon Power Institute', 'Photonic Power Laboratory', 'Donau Alpha 1', 'Kedora', 'Mazinger Corps', 'Aphrodite A', 'Three Professors', 'Atami', 'Iron Mask', 'Mechanical Beasts', 'Juzo' literal; 光子力研究所 is 'Photon Power Institute' in 275 but 'Photonic Power Laboratory' in 276 (inconsistent)",
+      "pilot 259 first line: 'Macross' written before the ギャラクシー船団 token (Macross Galaxy fleet); check that the final token English still reads well"
+    ],
+    "uncertain": [
+      "pilot 253: the translator note says Brera's gender was not stated, but the brief now gives male, so I replaced every repeated Brera subject with he/his in DSCR and DSC2",
+      "pilots 272/273: the brief marks Cowen and Stinger male; I restored the dropped subject in sentence 2 only and kept the name in sentence 4 to avoid ambiguity between the two men (a reviewer may prefer 'he')",
+      "pilot 278: I read 'ムチャと合わせ、甲児に「ボスより強いんじゃないか」と言われていた' as Kouji speaking about the pair (Nuke and Mucha), not Nuke alone; the quote has no explicit 'you two'",
+      "pilot 279: 指弾 rendered 'finger-flicking projectiles'; the exact sense (firecracker pellets flicked by finger) is only given in the next sentence",
+      "tense: pilots 264, 265, 275, 276 mix present and past as the Japanese does (e.g. 成長していった / 立ち尽くすだけであった); left unchanged",
+      "pilot 256: gender unknown, the English uses 'it' for the small animal; left as is",
+      "pilot 260: 大統領府首席補佐官 'Chief secretary to the President' kept as shipped; 'Chief of Staff' would also be defensible",
+      "ranks checked in 242-253 and 260 (少尉 second lt, 中尉 first lt, 大尉 captain, 准尉 warrant officer, 少佐 major, 大佐 colonel): all correct"
+    ]
+  }
+}

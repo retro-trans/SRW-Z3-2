@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "group": "g146",
+  "blocks": [
+    146
+  ],
+  "speaker": {
+    "token": "碇シンジ",
+    "jigoku_pilot": null,
+    "jigoku_unit": null,
+    "fraction": 0.5,
+    "basis": "settled 2026-10-02 from fresh-translation review: Only spoken line is Shinji's 'Give Ayanami back'; the roars are awakened Unit-01; Jigoku had no speaker",
+    "proposed_by_v_mix_03": {
+      "token": "$$碇シンジ$$",
+      "basis": "Only spoken line is Shinji's 'Give Ayanami back'; the roars are awakened Unit-01; Jigoku had no speaker"
+    },
+    "jigoku_token": null
+  },
+  "lines": {
+    "146:0": {
+      "repository_source_sha256": "c28c880421ba36259600230d6ddbb64a6ea5083e516b1acb2062087cb8e890ce",
+      "en": "「...」",
+      "source": "jigoku",
+      "slots": [
+        "attack variant (?)"
+      ]
+    },
+    "146:11": {
+      "repository_source_sha256": "d37f865ce4270210d728a517ee69865ee58929d3406818f842016f835196b890",
+      "en": "「Give $$綾波$$... back!」",
+      "source": "new",
+      "slice": "v_mix_03"
+    },
+    "146:32": {
+      "repository_source_sha256": "3ad6df9aad4c65a7e966dd609e985583ef389da8e13b2fae05adfcb9762d2062",
+      "en": "「Raaaaaaaaaaaaagh...!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,714 @@
+{
+ "schema": 1,
+ "group": "votoms",
+ "names": [
+  {
+   "jp": "アッセンブルＥＸ－１０",
+   "kind": "keyword",
+   "en": "Assemble EX-10",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : episode 14 'Assemble EX-10'; https://en.wikipedia.org/wiki/List_of_Armored_Trooper_VOTOMS_episodes : 'Assemble EX-10'",
+   "note": "Mercenary unit/base in Kummen. Fan site votoms.net writes 'Assembly EX-10' (not followed)."
+  },
+  {
+   "jp": "ＥＸ－１０",
+   "kind": "keyword",
+   "en": "EX-10",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : episode 14 'Assemble EX-10'; short form used in library entries 54 and 63",
+   "note": "Short form of Assemble EX-10."
+  },
+  {
+   "jp": "アレギウム",
+   "kind": "keyword",
+   "en": "Allegium",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Shining_Heresy : episode 2 'Allegium' and faction 'Allegium'; https://www.votoms.net/keywords/ : 'Holy Ground Allegium'",
+   "note": "Martial's holy site. Upgrades glossary status proposed -> official (same English). Jigoku library variants 'Aregium/Alegium' are misspellings."
+  },
+  {
+   "jp": "ウド",
+   "kind": "keyword",
+   "en": "Uoodo",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : episode 2 'Uoodo'; https://en.wikipedia.org/wiki/List_of_Armored_Trooper_VOTOMS_episodes : 'Uoodo'; https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15438 : 'Uoodo City' (Central Park Media release text); https://myanimelist.net/anime/8017 : 'return to Uoodo'",
+   "note": "Town/city of Uoodo (Battling's birthplace). Alternatives: 'Woodo' (Jigoku library English, and the Maiden Japan OVA collection titles, https://animenewsnetwork.com/encyclopedia/releases.php?id=36749), 'Udo' (fan romanization). Wiki spelling followed; see report.uncertain."
+  },
+  {
+   "jp": "サンサ",
+   "kind": "keyword",
+   "en": "Sunsa",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : episode 34 'Planet Sunsa'; https://en.wikipedia.org/wiki/List_of_Armored_Trooper_VOTOMS_episodes : 'Planet Sunsa'; https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15449 : 'planet Sunsa'",
+   "note": "Alternatives: 'Sansa' (Jigoku library English; Maiden Japan OVA titles). Wiki spelling followed; see report.uncertain."
+  },
+  {
+   "jp": "クエント",
+   "kind": "keyword",
+   "en": "Quent",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : episode 41 'Quent'; https://en.wikipedia.org/wiki/List_of_Armored_Trooper_VOTOMS_episodes : 'Quent'",
+   "note": "Upgrades glossary status proposed -> official (same English). Jigoku library used 'Kuent'."
+  },
+  {
+   "jp": "ギルガメス",
+   "kind": "keyword",
+   "en": "Gilgamesh",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'war between the Gilgamesh and Balarant forces'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS : 'Gilgamesh Confederation'",
+   "note": "Faction. Jigoku library also 'Gilgamesh'."
+  },
+  {
+   "jp": "バララント",
+   "kind": "keyword",
+   "en": "Balarant",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'Balarant Union'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS : 'Balarant Union'",
+   "note": "Faction. Glossary already has 'Balarant Army General-Purpose Fighter'."
+  },
+  {
+   "jp": "メルキア",
+   "kind": "keyword",
+   "en": "Melkia",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS : 'Melkian army'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS:_Pailsen_Files : 'Melkia'; https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'Melkian Army'",
+   "note": "Planet and its army (adjective Melkian). Jigoku library also 'Melkia'."
+  },
+  {
+   "jp": "百年戦争",
+   "kind": "keyword",
+   "en": "Hundred Years War",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15449 : 'the Hundred Years War' (Central Park Media release text); https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS ('century-old galactic war')",
+   "note": "Astragius war between Gilgamesh and Balarant. Capitalised as a proper name in the licensed release text."
+  },
+  {
+   "jp": "リド",
+   "kind": "keyword",
+   "en": "Lido",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15438 : 'the illegal raid on Asteroid Lido' (Central Park Media release text); https://myanimelist.net/character/21832 : 'Operation Lido'",
+   "note": "Asteroid base. Jigoku library wrote 'Rid' and the fan site votoms.net 'Rido'; the licensed English is Lido (one ANN description also has the typo 'Lida'). Deviates from Jigoku library English on purpose; see report.uncertain."
+  },
+  {
+   "jp": "ヂヂリウム",
+   "kind": "keyword",
+   "en": "jijirium",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15449 : 'Fyana's supply of jijirium has run out' (Central Park Media release text); https://myanimelist.net/character/21821 : 'jijirium radiation'",
+   "note": "Substance essential to a Perfect Soldier's life; lower case as in the release text. Alternatives: 'Dijirium' (Jigoku library English), 'Didirium' (votoms.net). Not verified against the current Maiden Japan subtitles; see report.uncertain."
+  },
+  {
+   "jp": "ヌルゲラント",
+   "kind": "keyword",
+   "en": "Nulgerant",
+   "status": "official",
+   "source": "https://animenewsnetwork.com/encyclopedia/releases.php?id=36749 : Maiden Japan 'Armored Trooper Votoms - OVA Collection 2' lists the episode 'Nulgerant'",
+   "note": "Planet where the new 'God's Child' is born (Phantom Arc / novel Child). Proposed 'Nurugerant' was only a katakana romanization; 'Nurgerant' appears in third-party summaries."
+  },
+  {
+   "jp": "バトリング",
+   "kind": "keyword",
+   "en": "Battling",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : episode 4 'Battling'; https://en.wikipedia.org/wiki/List_of_Armored_Trooper_VOTOMS_episodes : 'Battling'; https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15438 : 'Battling champion'",
+   "note": "AT betting matches. Upgrades glossary status proposed -> official (same English)."
+  },
+  {
+   "jp": "グルフェー",
+   "kind": "keyword",
+   "en": "Gluphae",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Alone_Again : 'a neutral planet called Gluphae' and 'Gluphae Residents'",
+   "note": "Alone Again setting. The wiki calls Gluphae a planet; the Tengoku library entry 59 calls グルフェー a trade city on the planet Melkia. English spelling follows the wiki; the planet/city wording is the library's own. Proposed 'Gulfe' was a katakana romanization."
+  },
+  {
+   "jp": "ストライクドッグ",
+   "kind": "robot",
+   "en": "Strikedog",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Unit Appearances, Secret Society: 'Strikedog'; same naming pattern as Scopedog / Burglarydog / Rabidlydog in work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki",
+   "note": "Replaces proposed 'Strike Dog'. Wiki writes AT names as one word."
+  },
+  {
+   "jp": "バーグラリードッグ　黒い稲妻旅団仕様",
+   "kind": "robot",
+   "en": "Burglarydog (Black Lightning Brigade)",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Burglarydog (Black Lighting Brigade)' (Alone Again); https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Alone_Again : 'Burglary Dog (Black Lightning Brigade)'",
+   "note": "Tengoku mech list spells 'Lighting' (typo for 稲妻 = lightning); the Alone Again page has 'Lightning'. Base name Burglarydog matches glossary. Lightning used; see report.uncertain."
+  },
+  {
+   "jp": "黒い稲妻旅団",
+   "kind": "keyword",
+   "en": "Black Lightning Brigade",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Alone_Again : unit 'Burglary Dog (Black Lightning Brigade)'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Burglarydog (Black Lighting Brigade)'",
+   "note": "Unit that fights Chirico near Gluphae. Mech list 'Lighting' treated as a typo."
+  },
+  {
+   "jp": "ファンタムクラブ",
+   "kind": "keyword",
+   "en": "Phantom Club",
+   "status": "proposed",
+   "source": "Jigoku library English (quoted in the pt_000 brief): 'Phantom Club'; the licensed release calls Fyana 'the Phantom Lady' (https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15438)",
+   "note": "No source names the bar directly. Library entry 56 says Vanilla named the bar so that Chirico would notice it, which fits 'Phantom Lady' = Fyana."
+  },
+  {
+   "jp": "神の子",
+   "kind": "keyword",
+   "en": "God's Child",
+   "status": "proposed",
+   "source": "https://timeldred.com/godchildintro/ (Votoms fan-scholar page on the Kadokawa novel: uses 'God's Child' and 'Child of God' interchangeably); https://www.cdjapan.co.jp/product/NEOBK-2822372 (novel 'Child - Kami no Ko Hen')",
+   "note": "No official English. Written in Japanese quote marks in the entries. 'Child of God' is the equal alternative. Capital C as a title."
+  },
+  {
+   "jp": "赫い霍乱",
+   "kind": "keyword",
+   "en": "Crimson Affliction",
+   "status": "proposed",
+   "source": "library keyword 119 DSCR (incident at Allegium); no English source found",
+   "note": "赫い = crimson, 霍乱 = sudden acute illness (as in the idiom 鬼の霍乱, an unexpected illness striking the strong). Alternative 'Crimson Cholera' is the dictionary sense. Searched Japanese and English, found nothing on this term."
+  },
+  {
+   "jp": "ＡＴ",
+   "kind": "keyword",
+   "en": "AT",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS : 'Armored Trooper (AT)'; https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'AT Fly'; Jigoku library 'AT'",
+   "note": "Armored Trooper. Latin letters in the game; spell out as 'Armored Trooper' only if the text needs it."
+  },
+  {
+   "jp": "イプシロン",
+   "kind": "pilot",
+   "en": "Ypsilon",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Secret Society 'Ypsilon' and episode 32 'Ypsilon'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS : cast 'Ypsilon'",
+   "note": "Secret Society Perfect Soldier who fights Chirico. Confirms the proposed spelling.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Source work: voiced by Kyonosuke Kami (https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS); library entry 63 gives no pronoun",
+    "position": "Perfect Soldier fighter of the Secret Society; Chirico's rival; created by the Schmittel twins (MAL Arron Schmittel bio)",
+    "personality": "not stated in the library text; a lethal Perfect Soldier",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS",
+     "https://myanimelist.net/character/21827",
+     "library pilot 63 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "カンジェルマン",
+   "kind": "pilot",
+   "en": "Kanjelman",
+   "status": "official",
+   "source": "https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html : 'Heloram Kanjelman'; https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15448 : 'Prince Kanjelman'; https://myanimelist.net/anime/2582/Soukou_Kihei_Votoms/characters : 'Kanjelman, Heloram'",
+   "note": "Kummen prince who split the nation (library entry 62). akurasu's Votoms page writes 'Heloram Kenjelman' (Veela faction), which looks like a typo, since older Wikipedia, the licensed release text and MAL all have Kanjelman. Deviates from the akurasu spelling; see report.uncertain.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 62: 彼が国を割った (he split the nation); licensed text 'Prince Kanjelman... his compound'",
+    "position": "prince of the Kingdom of Kummen; leader of the Veela rebel side in the Kummen civil war",
+    "personality": "traditionalist rebel; his true aim, learned by Potaria, moved Potaria to tears after his death (library pilot 62)",
+    "nickname": "",
+    "sources": [
+     "https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html",
+     "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15448",
+     "https://myanimelist.net/character/21833",
+     "library pilot 62 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "コッタ・ルスケ",
+   "kind": "pilot",
+   "en": "Kotta Ruske",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891 : cast 'Kotta Ruske' (Banjo Ginga); Jigoku library English 'Kotta Ruske'",
+   "note": "Former name of Rochina (same person, not a separate pilot). Wikipedia's Pailsen Files page spells it 'Cotta Ruske'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Alias of Rochina; ANN lists Banjo Ginga (male) as Kotta Ruske; MAL Rochina bio 'his tough, calculating demeanor'",
+    "position": "earlier identity of Jean Paul Rochina; Melkian intelligence officer under Pailsen",
+    "personality": "captivated by Pailsen's power; killed his former superior Fedok Wokkam and changed name (library pilot 58)",
+    "nickname": "",
+    "sources": [
+     "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891",
+     "https://myanimelist.net/character/21823",
+     "library pilot 58 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ゴウト・ブールーズ",
+   "kind": "pilot",
+   "en": "Bouleuse Gotho",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'Bouleuse Gotho'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS : cast 'Bouleuse Gotho'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=11857 : 'Bouleuse Gotho'; https://myanimelist.net/character/21822 : 'Bouleuse Gotho (ブールーズ・ゴウト)'",
+   "note": "Tengoku CHFN writes surname first (ゴウト・ブールーズ); the English name is the same person as glossary ブールーズ・ゴウト. Glossary 'Bolouze Gotho' has no source I could find; every source read says 'Bouleuse'. See report.challenges. CHNN ゴウト = Gotho (glossary).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Source work: MAL bio 'his shrewd business dealings', 50-year-old arms dealer; voiced by Kosei Tomita (https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS); library entries give no pronoun",
+    "position": "black-market arms dealer of Uoodo; later merchant to the mercenaries in Kummen, a fixer at Assemble EX-10; friend and mentor figure of Chirico",
+    "personality": "sharp judge of people, quick to see profit, puts money first but soft-hearted and caring",
+    "nickname": "",
+    "sources": [
+     "https://myanimelist.net/character/21822",
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc",
+     "library pilot 55 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ゴン・ヌー",
+   "kind": "pilot",
+   "en": "Gon Nuu",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Kunmen Mercenaries 'Gon Nuu'; https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html : 'Gon Nuu'",
+   "note": "ANN, MAL and Jigoku library write 'Gon Nu'; wiki spelling followed.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "MAL Gon Nu bio: 'He pioneered deployment'; voiced by Tessho Genda; library entry 54 gives no pronoun",
+    "position": "general, commander of Kummen's foreign-legion mercenaries at Assemble EX-10; Kan Yu's superior",
+    "personality": "pragmatic, money-minded, but fair to his men per MAL; fawned over by Kan Yu",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html",
+     "https://myanimelist.net/character/21831",
+     "library pilot 54 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ゾフィー",
+   "kind": "pilot",
+   "en": "Zophie",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15449 : 'the scrap-pickers' leader, Zophie' (Central Park Media release text)",
+   "note": "Woman on Sunsa who hates the Red Shoulders (TV series); the Tengoku entry (pilot 51 DSC2) gives her as blind and hiding Chirico under an assumed name.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Licensed text: 'Her hatred for the Red Shoulders'; library pilot 51 DSC2 'who had lost her sight'",
+    "position": "leader of a band of scrap-weapons dealers on Sunsa; in the Tengoku text a blind woman Chirico lodges with on Sunsa",
+    "personality": "vengeful toward the Red Shoulders in the TV series",
+    "nickname": "",
+    "sources": [
+     "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15449",
+     "library pilot 51 DSC2"
+    ]
+   }
+  },
+  {
+   "jp": "テオ８世",
+   "kind": "pilot",
+   "en": "Theo VIII",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Shining_Heresy : 'Pope Theo VIII'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=6972 : 'Pope Theo VIII'; glossary 法皇テオ８世 = Pope Theo VIII (official)",
+   "note": "Name field of pilot 64 (CHFN and CHNN are both テオ８世); the title Pope comes from the glossary term 法皇 / the entry's position field, so the name field stays 'Theo VIII'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Papal title (法王/法皇); ANN cast: Naoki Bando; DSCR pilot 64 gives no pronoun",
+    "position": "712th Pope of Martial, reigned 41 years",
+    "personality": "extremely old and frail but shrewd; feigned being unable to speak clearly and warned Montewells plainly",
+    "nickname": "declared Chirico 'the Untouchable'",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Shining_Heresy",
+     "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=6972",
+     "library pilot 64 DSCR",
+     "library keyword 119 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "フェドク・ウォッカム",
+   "kind": "pilot",
+   "en": "Fedok Wokkam",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891 : cast 'Fedok Wokkam' (Unsho Ishizuka); Jigoku library English 'Fedok Wokkam'",
+   "note": "Wikipedia's Pailsen Files page spells 'Fedok Wockam'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Source work: voiced by Unsho Ishizuka (ANN); library pilot 58 DSCR gives no pronoun",
+    "position": "Gilgamesh/Melkian Army officer, Pailsen's rival and Kotta Ruske's former superior; shot dead by him",
+    "personality": "not stated",
+    "nickname": "",
+    "sources": [
+     "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891",
+     "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS:_Pailsen_Files",
+     "library pilot 58 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ブリ・キデーラ",
+   "kind": "pilot",
+   "en": "Bully Kidera",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Kunmen Mercenaries 'Bully Kidera'; https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database : 'Bully Kidera'; https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html : 'Bully Kidera'",
+   "note": "ANN and MAL write 'Bully Kiderra'; wiki spelling followed.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "MAL bio 'His hot temper... he is frequently among the first to engage'; voiced by Daisuke Gori; library entry 63 gives no pronoun",
+    "position": "mercenary of Assemble EX-10, the unit's main-force AT pilot (Diving Beetle)",
+    "personality": "rough, hot-tempered, indifferent to small matters, picky about money; slowly came to trust Chirico",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database",
+     "https://myanimelist.net/character/21826",
+     "library pilot 63 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "キデーラ",
+   "kind": "pilot",
+   "en": "Kidera",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'Bully Kidera' (family name Kidera); https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database",
+   "note": "Family name of Bully Kidera; CHNN of pilot 63. Used in prose entry 63."
+  },
+  {
+   "jp": "ヨラン・ペールゼン",
+   "kind": "pilot",
+   "en": "Yoran Pailsen",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Secret Society 'Yoran Pailsen'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS:_Pailsen_Files : 'Yoran Pailsen'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891 : 'Col. Yoran Pailsen'",
+   "note": "Jigoku library also 'Yoran Pailsen'. Fan site writes 'Pairzen'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Source work: voiced by Chikao Otsuka (ANN); library pilot 51 gives no pronoun",
+    "position": "colonel, commander of the Red Shoulder Battalion; put Chirico under watch, then tried to have him killed",
+    "personality": "scheming; grew fearful of Chirico's abnormal power (library pilot 51)",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS:_Pailsen_Files",
+     "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891",
+     "library pilot 51 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ペールゼン",
+   "kind": "pilot",
+   "en": "Pailsen",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'Yoran Pailsen'; https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS:_Pailsen_Files : 'Pailsen Files'",
+   "note": "Surname of Yoran Pailsen, used alone in prose."
+  },
+  {
+   "jp": "ポル・ポタリア",
+   "kind": "pilot",
+   "en": "Pol Potaria",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Kunmen Mercenaries 'Pol Potaria'; https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database : 'Pol Potaria'; https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html : 'Pol Potaria'; https://myanimelist.net/character/21833 : 'Pol Potaria (ポル・ポタリア)'",
+   "note": "Replaces proposed 'Pol Potaria' (same, now sourced).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "MAL bio: 'he made the strategic decision to join government mercenary forces'; voiced by Show Hayami; library pilot 62 gives no pronoun",
+    "position": "mercenary of Assemble EX-10; former Kummen regular-army officer and royal guard; later president of Kummen (library pilot 62 DSC2)",
+    "personality": "serious-minded, the one who holds the unit together, steely calm; angry at Kanjelman for splitting the nation",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database",
+     "https://myanimelist.net/character/21833",
+     "library pilot 62 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ポタリア",
+   "kind": "pilot",
+   "en": "Potaria",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : 'Pol Potaria'; https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database : 'Pol Potaria'",
+   "note": "Family name of Pol Potaria; CHNN of pilot 62, used alone in prose."
+  },
+  {
+   "jp": "ワイズマン",
+   "kind": "pilot",
+   "token": "ワイズマン#pilot",
+   "en": "Wiseman",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Other 'Wiseman'; https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc : Other 'Wiseman'; https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html : 'Wiseman'",
+   "note": "Same English as the keyword record; kept as a separate token because pilot 61 has the person's own entry (CHFN/CHNN). All 13 prose uses already carry #pilot.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 51 and 58 refer to Wiseman with 彼 (his successor / his true master); Wikipedia mirror: voiced by Hidekatsu Shibata. He is really a collective of abnormal-survivor minds, so 'he' is only the text's pronoun",
+    "position": "the 'god'; shadow ruler who controls the wars of Astragius; heir of the Quent civilization; Martial's worshipped god",
+    "personality": "controlling and manipulative; picks Chirico as successor and tests him; survives on Nulgerant and names Chirico guardian of a new God's Child (library pilot 61 DSC2)",
+    "nickname": "'god' (神と呼ばれる存在)",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc",
+     "https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html",
+     "library pilot 61 DSCR",
+     "library keyword 108 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ワイズマン",
+   "kind": "keyword",
+   "token": "ワイズマン#keyword",
+   "en": "Wiseman",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Other 'Wiseman'; https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc : Other 'Wiseman'",
+   "note": "Own name field of keyword entry 108 (its description is the same text as pilot 61). Same English as ワイズマン#pilot."
+  },
+  {
+   "jp": "モニカ",
+   "kind": "pilot",
+   "token": "モニカ#votoms",
+   "en": "Monica",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Armored_Trooper_VOTOMS : Veela 'Monica Marcus'; https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html : 'Monica Marcus'",
+   "note": "Votoms character, not Monica Lange of Macross Frontier (glossary モニカ = Monica). Same English, so the split only protects the two entries from each other if either English changes.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Source work: voiced by Rumiko Ukai (Wikipedia mirror); library pilot 62 gives no pronoun",
+    "position": "Veela guerrilla; Potaria's childhood friend, dying when she tells him Kanjelman's aim (library pilot 62)",
+    "personality": "not stated",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+     "https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html",
+     "library pilot 62 DSCR"
+    ]
+   }
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 51,
+   "gender": "male",
+   "gender_evidence": "Library pilot 52 DSCR: 彼と接触した (she contacted him); pilot 59 DSCR: 彼の後を追った (followed him), both about Chirico; Wikipedia cast: Hozumi Goda, protagonist Sergeant Major",
+   "nickname": "'the Untouchable' (触れ得ざる者, Martial's designation); trait title 'Abnormal Survivor' (異能生存体)",
+   "position": "Sergeant Major (曹長) of the Melkian Army, Gilgamesh side; AT pilot and former Red Shoulder Battalion member; wandering fugitive/mercenary; Wiseman's chosen successor who shut him down",
+   "personality": "extremely taciturn and unfriendly, exceptional AT piloting, judgment and physical ability, versatile in everything to do with fighting; in-game personality 'Strong'; resists being controlled",
+   "sources": [
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+    "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Chirico Cuvie' (Personality Strong, ace bonus Abnormal Survivor)",
+    "library pilot 51 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 52,
+   "gender": "female",
+   "gender_evidence": "Library pilot 52 DSCR: 「フィアナ」が彼女の名前 (Fyana became her name); MAL Fyana bio 'She'; Wikipedia cast Kazuko Yanaga",
+   "nickname": "'Phantom Lady', 'Proto One' (プロトワン), 'Perfect Soldier' / 'the prototype' (素体)",
+   "position": "the first Perfect Soldier (PS) built by the Gilgamesh/Melkian army; Chirico's companion; kept as the Secret Society's prize before joining him in Kummen",
+   "personality": "created as an absolutely obedient super-soldier; after meeting Chirico first ('the first light she saw') she disobeys orders, becomes gentle and devoted to him; body depends on jijirium",
+   "sources": [
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+    "https://myanimelist.net/character/21821",
+    "https://www.animenewsnetwork.com/encyclopedia/releases.php?id=15438",
+    "library pilot 52 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 53,
+   "gender": "male",
+   "gender_evidence": "Library pilot 54 DSCR: シャッコに阻まれ、彼に「人間のクズ」と呼ばれて (he, Shako, called Kan Yu human trash); MAL Ru Shako bio; Wikipedia cast Issei Masamune",
+   "nickname": "",
+   "position": "mercenary from the planet Quent, member of Assemble EX-10; Berserga DT pilot (Tengoku default unit); later Chirico's ally in the Quent and Niva fights",
+   "personality": "calm and composed, sparing with words so that each carries weight; faithful to contracts; loses patience with Kan Yu's cruelty and hurls him down; in-game personality 'Strong'",
+   "sources": [
+    "https://myanimelist.net/character/21829",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Ru Shako' (Default Unit Berserga DT, Personality Strong)",
+    "library pilot 53 DSCR",
+    "library pilot 54 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 54,
+   "gender": "male",
+   "gender_evidence": "Library pilot 53 DSCR: 自らの保身を図る彼を... (he, Kan Yu, tried to save his own skin); MAL Kan Yu bio 'his subordinates'; Wikipedia mirror voice Masashi Hirose",
+   "nickname": "",
+   "position": "Captain (大尉), AT platoon commander of Assemble EX-10 under Gon Nuu",
+   "personality": "petty and cowardly; fawns over his superior and orders subordinates around; glory-hungry, poor judgment, cruel to civilians and his men; nurses a grudge against Chirico; ends by turning his gun on Chirico's group",
+   "sources": [
+    "https://myanimelist.net/character/21830",
+    "library pilot 54 DSCR",
+    "library pilot 53 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 55,
+   "gender": "male",
+   "gender_evidence": "Library text gives no pronoun for him. Source work: MAL Gotho bio 'his shrewd business dealings', a 50-year-old weapons dealer; Wikipedia cast Kosei Tomita",
+   "nickname": "",
+   "position": "black-market arms dealer of Uoodo; in Kummen a merchant supplying mercenaries and a fixer (顔役) at Assemble EX-10; with Vanilla and Coconna, Chirico's closest friends; still looking after them 30 years later",
+   "personality": "good eye for people and quick to turn a profit; puts money first but is soft-hearted and caring, hence likable",
+   "sources": [
+    "https://myanimelist.net/character/21822",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc",
+    "library pilot 55 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 56,
+   "gender": "male",
+   "gender_evidence": "Library pilot 56 DSC2: ココナと結婚 (married Coconna) with the bar run by 'the two'; akurasu Phantom Arc: 'make things up to his wife, Vanilla'; MAL Vanilla bio 'his extensive connections'",
+   "nickname": "",
+   "position": "black-market dealer of Uoodo; former air-force helicopter pilot; ran the bar Phantom Club in Kummen, later a mercenary liaison flying a helicopter; married Coconna; successful businessman with six children 30 years later",
+   "personality": "cheerful, always smiling and easygoing, good with customers; grumbles about helping Chirico but always does (MAL: brash, loudmouthed); bickers with Coconna until they fall for each other",
+   "sources": [
+    "https://myanimelist.net/character/21824",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc",
+    "library pilot 56 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 57,
+   "gender": "female",
+   "gender_evidence": "Library pilot 57 DSCR: 歌姫 (diva); DSC2: バニラと結婚し...子供を産む (married Vanilla and bore six children); MAL Coconna bio 'she'; Wikipedia cast Yoko Kawanami",
+   "nickname": "",
+   "position": "war orphan of Uoodo; star singer at the bar Phantom Club in Kummen; later Vanilla's wife and mother of six",
+   "personality": "tomboyish (お転婆) and outwardly strong-willed, though grief for her family shows now and then; sharp-tongued, loud; fell for Chirico at first sight",
+   "sources": [
+    "https://myanimelist.net/character/21825",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc",
+    "library pilot 57 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 58,
+   "gender": "male",
+   "gender_evidence": "Library text gives no pronoun for him. Source work: MAL Rochina bio 'his tough, calculating demeanor'; Wikipedia cast: Cap. Jean-Paul Rochina, Banjo Ginga",
+   "nickname": "former alias 'Kotta Ruske' (コッタ・ルスケ)",
+   "position": "Captain (大尉) of Melkian Army intelligence, Gilgamesh side; later Colonel (大佐) of the Balarant Army; secretly Wiseman's agent watching and guiding Chirico; finally compiles his records at Allegium",
+   "personality": "tough and calculating; captivated by power (Pailsen's, then Wiseman's); erupts in anger and despair when Chirico throws away what he himself never obtained",
+   "sources": [
+    "https://myanimelist.net/character/21823",
+    "https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7891",
+    "library pilot 58 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 59,
+   "gender": "female",
+   "gender_evidence": "Library pilot 60 DSCR: 実の娘テイタニア (his own daughter Teitania); pilot 59 DSCR 父モンテ＝ウェルズ卿; ANN and MAL: daughter of Cardinal Montewells, voiced by Yoko Matsuoka",
+   "nickname": "'Shield of Order' (秩序の盾, her 13th-rank title in Martial)",
+   "position": "13th-rank 'Shield of Order' of the pan-galactic society Martial; Nextant pilot of the Order Buckler; Cardinal Montewells' daughter; later follows Chirico",
+   "personality": "fights as an emotionless weapon while her auxiliary brain runs; once it is destroyed she leaves her father, comes to feel something special for Chirico and chases after him; in-game personality 'Super Strong'",
+   "sources": [
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Shining_Heresy",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=6972",
+    "https://myanimelist.net/character/39582/Teitania_da_Montewells",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Titania De Montewells' (Personality Super Strong)",
+    "library pilot 59 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 60,
+   "gender": "male",
+   "gender_evidence": "Library pilot 59 DSCR: 父モンテ＝ウェルズ卿 (her father, Lord Montewells); pilot 60 DSCR: 実の娘テイタニア (his own daughter Teitania); ANN cast Masato Yamanouchi",
+   "nickname": "",
+   "position": "Cardinal of Martial, later Pope (法王) after winning the succession; Teitania's father; rival of Cardinal Guno",
+   "personality": "ambitious and ruthless, will use any means; framed and killed Cardinal Guno to hide the truth, made his own daughter a Nextant; left hollow when Chirico destroys the power he trusted; killed by a ricochet",
+   "sources": [
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Shining_Heresy",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=6972",
+    "library pilot 60 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 61,
+   "gender": "male",
+   "gender_evidence": "Library pilot 51 DSCR: 彼の懐に肉薄し (closed in on his heart); pilot 58 DSCR: 彼の後継者候補 (his successor candidate). Really a collective of abnormal-survivor minds, so the pronoun is the text's, not biology",
+   "nickname": "'god' (神と呼ばれる存在)",
+   "position": "the 'god' of Martial and the Secret Society; shadow ruler controlling the wars of Astragius from the Quent ruins; heir of the Quent civilization; later on Nulgerant with a new God's Child",
+   "personality": "controlling; picks Chirico as successor and tests him through Rochina and others; treats wars as tools",
+   "sources": [
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Phantom_Arc",
+    "https://wikipedia.classicistranieri.com/en/articles/a/r/m/Armored_Trooper_Votoms_81ad.html",
+    "library pilot 61 DSCR",
+    "library keyword 108 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 62,
+   "gender": "male",
+   "gender_evidence": "Library pilot 62 DSCR gives no pronoun for him. Source work: MAL Pol Potaria bio 'he made the strategic decision'; Wikipedia mirror voice Show Hayami",
+   "nickname": "",
+   "position": "mercenary of Assemble EX-10; former Kummen regular-army officer and royal guard; kills Kanjelman in the civil war; later president of Kummen; killed by a mysterious Strikedog at the Phantom Club event",
+   "personality": "serious-minded and the natural unit leader; angry at Kanjelman for splitting the nation, then in tears at his death",
+   "sources": [
+    "https://myanimelist.net/character/21833",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database",
+    "library pilot 62 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 63,
+   "gender": "male",
+   "gender_evidence": "Library pilot 63 DSCR gives no pronoun for him. Source work: MAL Bully Kiderra bio 'His hot temper... he is frequently among the first to engage'; Wikipedia mirror voice Daisuke Gori",
+   "nickname": "",
+   "position": "mercenary of Assemble EX-10; the unit's main-force AT pilot; falls to the bottom of the Kummen Detached Palace with his unit after challenging Ypsilon",
+   "personality": "rough, hot-tempered and unfussy but picky about money; wary of Chirico at first, gradually trusts him and supports him and Fyana; shouts that his debt to Chirico is unpaid as he falls",
+   "sources": [
+    "https://myanimelist.net/character/21826",
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database",
+    "library pilot 63 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 64,
+   "gender": "male",
+   "gender_evidence": "Library pilot 64 DSCR gives no pronoun. Papal title (法王); ANN cast: Naoki Bando as Pope Theo VIII",
+   "nickname": "",
+   "position": "712th Pope of Martial, reigned 41 years; declared Chirico 'the Untouchable'",
+   "personality": "extremely old, needs an attendant and seems unable to speak clearly, but that is an act; warns Montewells in clear words",
+   "sources": [
+    "https://akurasu.net/wiki/Armored_Trooper_VOTOMS:_Shining_Heresy",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=6972",
+    "library pilot 64 DSCR",
+    "library keyword 119 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 38,
+  "names_settled": 35,
+  "left_pending": [
+   "ファンタムクラブ: en 'Phantom Club' is proposed only; no source names the bar (Jigoku library English + the licensed 'Phantom Lady' for Fyana)",
+   "神の子: en \"God's Child\" is proposed; no official English, 'Child of God' is the equal alternative (Tim Eldred's page uses both)",
+   "赫い霍乱: en 'Crimson Affliction' is proposed; no English or Japanese source for the term found; alternative 'Crimson Cholera'"
+  ],
+  "challenges": [
+   "ブールーズ・ゴウト: glossary (official) 'Bolouze Gotho' should be 'Bouleuse Gotho'. akurasu Votoms page, Wikipedia cast, ANN Alone Again cast and MAL all write 'Bouleuse Gotho'; I found no source for 'Bolouze' (the Z3 pilot database page it cites no longer has the entry). My record for ゴウト・ブールーズ already uses 'Bouleuse Gotho'; glossary ゴウト stays 'Gotho'.",
+   "エルドスピーネ (outside my brief, seen in the Tengoku mech list): glossary (official) 'Eldospine' vs Tengoku mech list 'Erdspinne' (both 'Erdspinne (Titania)' rows) and the Tengoku Complete Chart 'Erdspinne (Titania)'; the akurasu Shining Heresy and Alone Again pages use 'Eldospine'. The wiki pages the project ranks highest say Erdspinne; the orchestrator should decide.",
+   "ベルゼルガＤＴ (outside my brief): the Tengoku mech list writes 'Bersega DT' but the Tengoku pilot database and Complete Chart write 'Berserga DT' (glossary agrees). Treat 'Bersega' as a typo; no change needed."
+  ],
+  "retoken": [
+   "pt_062 entry 62 (DSCR, the モニカ uses): $$モニカ$$ -> $$モニカ#votoms$$ (optional; same English 'Monica', but the plain token currently resolves to Macross Frontier's Monica)",
+   "No retoken needed for ワイズマン: all 13 prose uses already carry #pilot and the keyword 108 name field carries #keyword (both settled as 'Wiseman')."
+  ],
+  "uncertain": [
+   "Uoodo and Sunsa (ウド, サンサ): followed akurasu/Wikipedia/Central Park Media (Uoodo, Planet Sunsa). The current licensee's OVA collection titles (Maiden Japan, ANN release 36749) and the Jigoku library use 'Woodo' and 'Sansa'. If continuity with Jigoku matters more, flip both (and Nulgerant stays).",
+   "Precedence deviations, all in favour of verified official English over Jigoku library English: Lido (Jigoku 'Rid'), jijirium (Jigoku 'Dijirium'; not checked against the Maiden Japan subtitles, which may say 'Didirium'), Quent (Jigoku 'Kuent'), Uoodo, Sunsa. Jigoku library English kept where it agrees with ANN: Kotta Ruske, Fedok Wokkam.",
+   "Kanjelman: akurasu's Votoms page writes 'Heloram Kenjelman'; older Wikipedia, the licensed release text, ANN and MAL all say 'Kanjelman', so I treated akurasu as a typo.",
+   "Gon Nuu / Bully Kidera: followed akurasu (which matches the older Wikipedia text); ANN, MAL and Jigoku library write 'Gon Nu' and 'Bully Kiderra'.",
+   "Kotta Ruske / Fedok Wokkam: ANN cast spellings; Wikipedia's Pailsen Files page has 'Cotta Ruske' and 'Fedok Wockam'.",
+   "Teitania (glossary official, matches ANN, MAL and akurasu Shining Heresy) vs 'Titania De Montewells' in the Tengoku pilot database and 'Titania' in the Complete Chart. I believe the Tengoku wiki is the outlier, so no challenge, but the wiki-wins rule would say Titania. Also 'Kan Yuu' in the Complete Chart is a typo of Kan Yu.",
+   "Coconna / Vanilla Vartla (glossary) follow Wikipedia and ANN, while akurasu's Votoms pages write 'Cocona Varta' / 'Vanilla Varta' and 'Kunmen' where the glossary has 'Kummen'. I did not touch these; my notes and profiles use the glossary spellings.",
+   "Burglarydog (Black Lightning Brigade): the Tengoku mech list says 'Lighting'; I used 'Lightning' (Alone Again page, and the Japanese 稲妻). Strict wiki-wins would give 'Lighting'.",
+   "Gluphae (グルフェー): the wiki calls it a planet, the Tengoku entry says a trade city on the planet Melkia; only the spelling was settled.",
+   "Gotho name order: Tengoku CHFN is surname first (ゴウト・ブールーズ) but the English name is given-name first ('Bouleuse Gotho') as in every source.",
+   "Wiseman gender: 'male' rests on the library's 彼 and the source cast, but Wiseman is a collective consciousness; translators can keep 'he' or use 'it' consistently.",
+   "Genders of Gotho, Rochina, Potaria, Kidera, Theo VIII, Montewells, Ypsilon and Fedok Wokkam come from the source work (MAL, ANN or Wikipedia cast), not from the library Japanese, which has no pronoun for them."
+  ]
+ }
+}

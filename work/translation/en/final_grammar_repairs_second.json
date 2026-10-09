@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 6,
+      "file": "dlg_2089_00.json",
+      "id": "628:t_1:51",
+      "before": "$$ヒイロ$$\n「Understood. $$ゼロ$$ will keep fighting to protect the world you want as well.」",
+      "after": "$$ヒイロ$$\n「I understand. $$ゼロ$$ will keep fighting to protect the world you want as well.」",
+      "reason": "Agent10_1 source+8neighbors review: Heero acknowledges Nunnally; restore settled subject and verb. Zero is Lelouch."
+    },
+    {
+      "batch": 8,
+      "file": "dlg_2020_04.json",
+      "id": "136:t_102:0",
+      "before": "$$デュオ$$\n「Too bad, small fry! Looks like you were no match for $$ゼロ$$!」",
+      "after": "$$デュオ$$\n「That's too bad, small fry! It looks like you were no match for $$ゼロ$$!」",
+      "reason": "Agent10_1 source+8neighbors review confirms Duo mocks Gilter after Lelouch outwits him; parent restores both settled assessment subjects/predicates under BASE_RULES. Zero remains Lelouch."
+    }
+  ]
+}

@@ -1,0 +1,998 @@
+{
+  "schema": 1,
+  "group": "g031",
+  "blocks": [
+    31
+  ],
+  "speaker": {
+    "token": "アドヴェント#pilot",
+    "jigoku_pilot": "Advent",
+    "jigoku_unit": "Asclepus",
+    "fraction": 0.893,
+    "basis": "settled 2026-10-02 from fresh-translation review: Asclepus attacks, Chrono/captain lines, supports Hibiki/Setsuko/Rand/Crowe (Crowe's debt joke). Agrees with Jigoku",
+    "proposed_by_v_mix_00": {
+      "token": "$$アドヴェント#pilot$$",
+      "basis": "Asclepus attacks, Chrono/captain lines, supports Hibiki/Setsuko/Rand/Crowe (Crowe's debt joke). Agrees with Jigoku"
+    },
+    "jigoku_token": "アドヴェント#pilot"
+  },
+  "lines": {
+    "31:0": {
+      "repository_source_sha256": "70dc7dde838a0d3b36778a7fdadef1be1f1b6e51d9fff4f13c264123bcf5e4d1",
+      "en": "「Commencing attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:23": {
+      "repository_source_sha256": "3f782f9a4a65aa85fdeeac10c994649f36ac7ab4d7fa50144567ec3d9f4f5d26",
+      "en": "「Now, the time for battle has come!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:50": {
+      "repository_source_sha256": "db4e58dae9c0fee83c0cbdb6472263d34fbd274f2ccdc5b0956717d105292041",
+      "en": "「Receive my attack!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:79": {
+      "repository_source_sha256": "ce8252ca1784f7bfc7c4f8e947bcbd61b41f3389f285bde1408b9707a49182a2",
+      "en": "「I will keep fighting!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:102": {
+      "repository_source_sha256": "125f091c58625f1c81c764ae95593c2043ba037459d8b5c1efe5f1f261b20621",
+      "en": "「I will fulfill my mission!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:131": {
+      "repository_source_sha256": "cef364f18f70d3db2a315036120bdf644b12a298e4b9bc268d22c34997523732",
+      "en": "「To fight like this is also my joy!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:172": {
+      "repository_source_sha256": "ad85cb55d7b6a2ea16efc55de68c701f5616433c1bd3268189e87a3f3118937a",
+      "en": "「I won't surrender tomorrow's hope!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:201": {
+      "repository_source_sha256": "9da500f5cc50aae677ee5790a7cfda26e6b12880f85424ddc52677bbb559a839",
+      "en": "「I will safeguard human evolution!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:232": {
+      "repository_source_sha256": "b7517c1c17f9bda69ed678cbfda0a106c8d0fd2e304a4bfea2b620135f753475",
+      "en": "「Halt our evolution-\\nyou are my foe!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:283": {
+      "repository_source_sha256": "351855413f02911c25dcaf2aa6c1b2f5ae5ad189612af9b519064d04091fbc74",
+      "en": "「I'll challenge you time and again!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "31:322": {
+      "repository_source_sha256": "09994b8fc56bf03da5391adca4747065e9ae36e8c66aabb29f15ccbde629352d",
+      "en": "「My attack is not over yet!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "31:357": {
+      "repository_source_sha256": "1616ace9026a78a9be00473e10db291f6d9597b0de23c5261ad0054fbf03056d",
+      "en": "「$$バアル$$! You won't have your way!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:400": {
+      "repository_source_sha256": "e195f1cea41c44041d702fff2f613ab8dae6a0f257513372c8acb72ed4698360",
+      "en": "「I reject humanity's extinction!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:435": {
+      "repository_source_sha256": "497c6908e0f9338ef41d708131f57368c27133fa9e14db9e8ae733ae67afd9cc",
+      "en": "「Humanity moves forward!\\nBeyond you!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:486": {
+      "repository_source_sha256": "6a5b3a96a0877f7e9fb390d6d8fb472507ef88a5a3e533115b0b08e9648781d2",
+      "en": "「$$ガドライト・メオンサム$$!\\nFace me!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "31:537": {
+      "repository_source_sha256": "62cbbd119d885fa62ba1599876cded6fa030c330d2100dc01968a7199edfa945",
+      "en": "「You cannot evade this barrage!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:566": {
+      "repository_source_sha256": "50b974aa8b9fd9b1193e3b726457d80a53cd714b4ec72075c90d7f25c8040a2c",
+      "en": "「Scramble Edge!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:593": {
+      "repository_source_sha256": "e72e76ef05bd5d81f981b4b56e8e61e4b23fec429e601427ea2bbf821b2496f6",
+      "en": "「Take the final blow!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:614": {
+      "repository_source_sha256": "0639491270b9570dea35575a1f473d3f0137cc020af8f3c43955dbcb99b2e1f6",
+      "en": "「Scramble Edge! Go!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:651": {
+      "repository_source_sha256": "f55f14cb2f6847a6881fc8ea2706c5c3cc45c5f1a018f143bd0747454eb1a297",
+      "en": "「You will not escape!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "You won't get away!",
+        "You won't escape!",
+        "I won't let you escape!",
+        "You're not getting away!"
+      ],
+      "review": "same-speaker"
+    },
+    "31:672": {
+      "repository_source_sha256": "17e58368f4099edcf611da88b73f94ada3ea2b4b62e95b5bf987b545dd12faf3",
+      "en": "「This will finish it!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:699": {
+      "repository_source_sha256": "0f3200a25c63be79c211e0b46b1b21255439418333b19d476c6f7b563e642578",
+      "en": "「With $$アスクレプス$$'s speed!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:732": {
+      "repository_source_sha256": "1085e2a26a9991890df87711410940cc0e3de753062e94a701f934fb0978c68d",
+      "en": "「I'll bring this to $$クロス$$ Combat!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:767": {
+      "repository_source_sha256": "7900c0a26c2953c6c3eeab7787a228f74de7a3b94aa820ff59e896a1dab18f24",
+      "en": "「Haaaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "31:784": {
+      "repository_source_sha256": "d15b7f120441f70e169f4cbc62d419a8efd1dfad7725db3fb96895f0fe8335d6",
+      "en": "「I will strike true!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "31:803": {
+      "repository_source_sha256": "3fe78d8f331adb18e30ba1341771d22e460cffd0b32dafb67890150f3838d319",
+      "en": "「Folding Smasher!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "31:840": {
+      "repository_source_sha256": "ff528a386e892959319cb08e2ad1d0b0a4adafea1c32a6fc522b54981d5fdca4",
+      "en": "「Smasher deployed! Fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "31:875": {
+      "repository_source_sha256": "03309c35f431fd2571b50036d5eb83d9512c0a14550fb8ef59afd9cc25ebba30",
+      "en": "「Two serpents shall strike the foe!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "31:900": {
+      "repository_source_sha256": "6aefc8bc4cb0f000b16d26d9c53a500544b392dbd8371ed273988a8607a118da",
+      "en": "「Serpent's jaws, devour the foe!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "31:927": {
+      "repository_source_sha256": "f8fd9c1e87e06a84643dc736641eb09caba3e56077c6324627c4eac24ca5cfaf",
+      "en": "「Serpent's fangs, don't let it flee!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "31:956": {
+      "repository_source_sha256": "482b9cd666a2b200117bde18f3cfa31a7f7eb32c79ae1eebeb2402b5ae062d60",
+      "en": "「Liberator! Come to my hand!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:993": {
+      "repository_source_sha256": "45e26bedf677aebcf81791cf847d5b33e82f8cd166cff7a661909d91a1b497bd",
+      "en": "「Target Insight!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1022": {
+      "repository_source_sha256": "9126e3e474aeec0e42a50c75bd8bdbd174a1d108ad51c8081c7bb6484dba2013",
+      "en": "「G Dimension! Fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1057": {
+      "repository_source_sha256": "4566cbb69095b9c7b1ea202f3356129a78ade93ddbd9fc63aa495ba82495f169",
+      "en": "「This is your destiny.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1078": {
+      "repository_source_sha256": "e98c6448cb4d631b6136ce524be009e575a5312925b69f84882d591817e623f8",
+      "en": "「I release you from causality!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1107": {
+      "repository_source_sha256": "7df0ff8a0e2e57932323dafe52e3c1ceba5eae240bbcbcbd82975907cd3a0ca5",
+      "en": "「Liberator, deploy!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1130": {
+      "repository_source_sha256": "d7578dfedf9bebdc341886f97f87deaa1c2c64ae63d2500d45bfafebf78055ff",
+      "en": "「Astral Shot!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1157": {
+      "repository_source_sha256": "e9f983a4f2f51ae05052e384f2fc8ced0adb4ba6eeb44030b3164778525c0032",
+      "en": "「Rest in peace.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1174": {
+      "repository_source_sha256": "15c8bc2009bb4abe2bb8da0f31291171d77ab24cec12e10c9a82fa986026b40b",
+      "en": "「Open, dimensional corridor!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1195": {
+      "repository_source_sha256": "f2763b235c1ddb4e211ed867746368a402b85dd9bc768df1b58f0d86a85235ec",
+      "en": "「I now unravel causality's spiral!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1226": {
+      "repository_source_sha256": "e0b19dd09617a23918225073bdcc5f0f269a435ef7ba63102755ea290362aafb",
+      "en": "「Liberator Discharge!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1261": {
+      "repository_source_sha256": "8dc732daf696dc3fa5f73cb4446193528e62f959871f9e2b4c4c4db97abd8071",
+      "en": "「This is the world's true form.」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "31:1286": {
+      "repository_source_sha256": "e8f28a152b03ac61aa39ae5b069a79a6e34bf5501b376d456a634a63d031c6ed",
+      "en": "「I will never forget you...」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:1315": {
+      "repository_source_sha256": "02a088a0ba999aaff0ed57e883f7782c5e0252c0e7d42a0644bda6c994cc9d0b",
+      "en": "「Now, it is my turn to act!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "31:1346": {
+      "repository_source_sha256": "3ee3c6062884b169d06fc6b0286e4622220ba924a031c9fd558cdc91b6c40738",
+      "en": "「Do not think you can escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "31:1383": {
+      "repository_source_sha256": "f72a43ae6e2c245b9f349baadaffab555cef1a91b6d67a479a2f0ced1402826f",
+      "en": "「You are the one who attacked first!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "31:1418": {
+      "repository_source_sha256": "9bcf1357f500d55f5181cbab9aa59790acb752d2a947f1a9c0bb66d136ab832b",
+      "en": "「I must give you your due.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "31:1455": {
+      "repository_source_sha256": "9e44dd40891424d797205a37e5c3298ac4c10963506254ee62404fada0b4b13d",
+      "en": "「Turn the other cheek?\\nNot today.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "31:1506": {
+      "repository_source_sha256": "17bb7f7c6c6a8b10812d9009531d628cf8b7d3bd9e78cd38984425bb086b9674",
+      "en": "「I dislike a one-sided beating.」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "31:1547": {
+      "repository_source_sha256": "7a7f358ed8f3e4d98a4d5ef84bc11017acf9d3e4957291e8a57b4823e18d3e78",
+      "en": "「I will provide support!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "31:1568": {
+      "repository_source_sha256": "9d4569ae9696fb57d669076d1a05678dd75b44cc77a8100298a28b441e9ca9aa",
+      "en": "「You may leave the rest to me!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "31:1595": {
+      "repository_source_sha256": "4447c0f552512966fdb1bdcc9736e89ed6782f718162eb7a889fd3ef0f63ccb4",
+      "en": "「$$ヒビキ$$, I will handle the rest!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "31:1624": {
+      "repository_source_sha256": "ea1fa0e1b316a70a86a4ddb7241eca4ca44439a9a615451170ad963ca8453c03",
+      "en": "「It is my joy to help you.」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "31:1657": {
+      "repository_source_sha256": "1f240324e7baebd1f5b40cc6dbfe7f45a905b6fb2043b81b287b13f91fe768a8",
+      "en": "「Fall back behind me!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "31:1686": {
+      "repository_source_sha256": "76694a04199f769d403ec0dcd5d200c464cb5b5d4ac5fde7ea834f2144470600",
+      "en": "「This too is my duty.」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "31:1713": {
+      "repository_source_sha256": "5b49767113d12e6e29fc3d2a89dd461203164bf12dc1a0ec4b5203e62290c6fd",
+      "en": "「It is my duty to protect $$ヒビキ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "31:1748": {
+      "repository_source_sha256": "d4ccdfbe20cf35f8e2309be439cc302f32eee30c9ee2908269c59aad2742f915",
+      "en": "「I will not let them defeat him!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "31:1783": {
+      "repository_source_sha256": "288269e9b95327b83d1a7a537bb22d69b412acb79d2002897d4be92dbbe9bd44",
+      "en": "「Leave that enemy to me!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "31:1812": {
+      "repository_source_sha256": "c30d1e1e21a3c0e12be062a7d1ed176c22f6b8bfa43408c0fe8bd6420b2779d5",
+      "en": "「A one-on-one duel!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "31:1833": {
+      "repository_source_sha256": "27904455934f5a5e174e442c7794d35dd834f63e03e2cc0e88950c1cab3add40",
+      "en": "「Now, allow me to face you!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "31:1862": {
+      "repository_source_sha256": "0535a7975c142f20825af2cb8a62c0937922d515f4dfa4db257b8005aa247aef",
+      "en": "「I will not let you interfere!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "31:1883": {
+      "repository_source_sha256": "bf9db4ec70a48b7f5394e49a2af5171d64459aae60823806d2908143f10a8e6a",
+      "en": "「I will go first!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "31:1904": {
+      "repository_source_sha256": "f2e6f97c714365705177a23fe596f4cbaa819eaf96ffcde2f18bb892dfff6bf7",
+      "en": "「I will keep the enemy in check!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "31:1929": {
+      "repository_source_sha256": "013102f95b514394091d6233927249abc121f9f172cbeb6a96d9fa6957bd07f1",
+      "en": "「Follow my lead!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "31:1954": {
+      "repository_source_sha256": "2aa60909971bf2dd13e13e25396e529b6812a3b939db2efeb8307082be3e5d8f",
+      "en": "「I will create an opening for you!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "31:1979": {
+      "repository_source_sha256": "955d0ad8c59de29eba1dfa5a2e6c33cc342d9eed3377b69c63c5ce52bd9a3d62",
+      "en": "「That was a grievous error.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "31:2006": {
+      "repository_source_sha256": "03e7fe8f8b26fc292e4e6b83e6758d8001256d834cdff5b829d8354957b8a5c0",
+      "en": "「I let the foe escape. How shameful.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "31:2049": {
+      "repository_source_sha256": "a11d7f44e5ce8fddd88838346b0d9d87500a2d928a8fd3c24fedf89714ea12f6",
+      "en": "「The foe is slyer than I expected.」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "31:2090": {
+      "repository_source_sha256": "13869df11ff60de71f5453d87e291d3ad88a8a9731c0472cf8966c5f1542ebd4",
+      "en": "「What a pity for you.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2107": {
+      "repository_source_sha256": "157ccafb2ca1ba511da1de6ebc9511ced954b0ed057bcf0c63b12a2504cdf507",
+      "en": "「I saw that attack coming.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2138": {
+      "repository_source_sha256": "6e6c7d585f49a6275d5cb2a07d185ebdf4a09c419538f244c5d7c307804576a3",
+      "en": "「It is futile even to try.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2165": {
+      "repository_source_sha256": "ce541418a8c597bdecdbbc0fce6258cb30db4ac6d2ca7266941d6c5074529771",
+      "en": "「Yes... This was inevitable.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2188": {
+      "repository_source_sha256": "10a5f3efebe05a77c34a26abd3a996313c151665dc2159bae64697ec37c52f32",
+      "en": "「I would rather not die either.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2215": {
+      "repository_source_sha256": "48f13eb9180d344b6876553e77e112296778f9aff1686476e4a5c709f95af038",
+      "en": "「Where exactly were you aiming?」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2242": {
+      "repository_source_sha256": "a2a66a386b1ad7fa3ceaf019ba68374d098f953e5db58bd7471852c7743b06f8",
+      "en": "「Forgive me, but I cannot be slain.」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "31:2281": {
+      "repository_source_sha256": "fb64d4ae974b33e3c6a64b7b742baa83394660c11daeb926e93ba477776f3d24",
+      "en": "「Perhaps it is all causality...」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "evade",
+        "no damage"
+      ]
+    },
+    "31:2314": {
+      "repository_source_sha256": "f1775a8110050fe1720531a5cef512f08baa17ddeeffa761228e9910661ca8a1",
+      "en": "「It is futile, $$ガドライト・メオンサム$$!」",
+      "source": "jigoku",
+      "slots": [
+        "evade",
+        "hit: light damage"
+      ]
+    },
+    "31:2351": {
+      "repository_source_sha256": "67ace83784857c7f75ff8f8156b0cc823b823c2dacd66c3bbce41f7dceadcb51",
+      "en": "「I have made preparations as well!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "31:2380": {
+      "repository_source_sha256": "13f74c0f4fca5e4881db967638d5f633d3c17eb8967aab191cbcf756d6612c7b",
+      "en": "「The defenses appear flawless.」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "31:2403": {
+      "repository_source_sha256": "fed32371a6924efffd3a95aede6da44ad7a95e6399eb808099d908b5f1c4afee",
+      "en": "「You are pitifully powerless...」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "31:2430": {
+      "repository_source_sha256": "fd7c843cab97a0c67df4d28e658387683b207aa8d94560c41bc5bfe7c059014c",
+      "en": "「What is the meaning of this?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2457": {
+      "repository_source_sha256": "dc4933a5c7f1ba91a55f2ac1ef1a0ca7838ff213bd7cd3c1061eb3085aa5c244",
+      "en": "「This much\\ncannot break my will.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2508": {
+      "repository_source_sha256": "7ce8897b31188be9e04253fad8b13e86c5c14cb82d3a35fd8518bf431798edfc",
+      "en": "「No problem. I will keep attacking!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2543": {
+      "repository_source_sha256": "21dfaeb9e17277fb7b4bdd4cda3e123c576b2b7e53b92d6dfc27571f952243ca",
+      "en": "「Even $$アスクレプス$$ could not evade it!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2584": {
+      "repository_source_sha256": "a3f6d6c44a1c8dd14bd0cbd114c3d78de285cff817ee294fb1c1369e9b7ea084",
+      "en": "「This wound... The cost of my lapse.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2611": {
+      "repository_source_sha256": "d95e37e488864e6fdcf3754e104ff50077bad3ea3388d031bd8742832b76c471",
+      "en": "「My movements were a little sloppy.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2640": {
+      "repository_source_sha256": "a1cd986e46ebdaae9dbd957da1577dd62c266b5cc414f95bb34ca548e6dc070f",
+      "en": "「Ugh... A surprise attack?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2665": {
+      "repository_source_sha256": "c2e305fd67a4c876487ebf7894ff58052181e928f5c1ad03225439de87c689d4",
+      "en": "「I will not make that mistake again!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "31:2704": {
+      "repository_source_sha256": "85b5f0e737b18ff8c3711f6b4d24cfb2f97c1f896fe2ee4d20a5fad6691ff8db",
+      "en": "「Output is holding! I won't retreat!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2747": {
+      "repository_source_sha256": "10b106e44e87f3790348e2fea53b7687e073f6f97a0b0946a0bbbfc79e3a1d6a",
+      "en": "「This peril was within my plans!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2782": {
+      "repository_source_sha256": "1a9d4bb76650520cc2f481ee37d009c26ac805e0d5cede51d03d272623413443",
+      "en": "「More damage-\\nI cannot allow it!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2835": {
+      "repository_source_sha256": "40db00ada6b9fff924d9741317c268cd628f03891bed5732fc141382d5f27066",
+      "en": "「I cannot shame myself as captain!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2878": {
+      "repository_source_sha256": "073fcd36b88d8631667ac95dabb07d216cdf1a278453844137fc38d0397d782e",
+      "en": "「$$アスクレプス$$, beaten this badly?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2921": {
+      "repository_source_sha256": "430709e4e8210b75473cd77775d4c02a604d1528f0dfb40c0eb8cf8d2d9992ae",
+      "en": "「All of my predictions have failed!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2964": {
+      "repository_source_sha256": "a90cadc6093ecefc94f4686ce0c19c863f9e0a10def5b75fe77b03b1ba3d66f9",
+      "en": "「My opponent exceeds projections?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:2997": {
+      "repository_source_sha256": "5a9c66a24adf599214f322181727e671d0aaf05765a8c05dd3c6716a1a7f4e52",
+      "en": "「Win unscathed?\\nReality is harsher.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "31:3052": {
+      "repository_source_sha256": "e8104808f5d1c121c5d9a8a184a872a4ec9851d6400198681953739180ebdc3e",
+      "en": "「Guh! I cannot hold out any longer!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3089": {
+      "repository_source_sha256": "608d03ed7930c74424309900b5cbd8da455faf79f5606b1e0c9ef0b2802bfc04",
+      "en": "「Why can't I draw\\nAsclepus's power?!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3140": {
+      "repository_source_sha256": "15415686dee4b3a963e4d4299a5bd28cd2a3e016be5f5e61650ff371db955af8",
+      "en": "「At this rate...!\\nNo fear in battle!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3197": {
+      "repository_source_sha256": "d53b4282eb312695341565e1feeed9c120007dc78f8f65c5ae4fc33050cc293d",
+      "en": "「I cannot fall with my duty undone!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3228": {
+      "repository_source_sha256": "bc2347bd5e6ad898e66215778a26d4af2876bc30d9064b7cdfcc3d26fc2db222",
+      "en": "「Hold on, $$アスクレプス$$!\\nA little longer!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3281": {
+      "repository_source_sha256": "bc5c0efb084fe49e8dd2b3e15d8e202607bf4eb34e4726d5dcd55314fd03258b",
+      "en": "「My mission: guard\\nhuman evolution!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3336": {
+      "repository_source_sha256": "2c8752dc856da89e6a7126a08968fd6ff197d5789e3be99ff74f883730afc37a",
+      "en": "「$$クロノ$$'s mission\\nI won't forsake!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3385": {
+      "repository_source_sha256": "fb0ce36afc0116fce7f19d2257e88feb19df4a1b1212058ac14c37cf77b4858f",
+      "en": "「I won't forsake hope until the end!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "31:3424": {
+      "repository_source_sha256": "f88006572ff0e82e810e1c905d7be993fd447b60b106713f86491a7480d247f8",
+      "en": "「$$バアル$$...! Enemy of humanity!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "31:3453": {
+      "repository_source_sha256": "c78d308ca95ce6e531d3acefe10004275917953ae8cf0102bc1de23bedc4a5c0",
+      "en": "「I must stop this unjust violence!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "31:3492": {
+      "repository_source_sha256": "e9455e7f687e2b64fc47219aab35d89382032788cc426b41ef160a9699d984a5",
+      "en": "「$$ガドライト・メオンサム$$!\\nWhat a man...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "31:3543": {
+      "repository_source_sha256": "9547395c3bbf868a2ab5a94d2b919f559e0e62239e007c77c5d04510348bc85e",
+      "en": "「I still... cannot let it end...!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "31:3576": {
+      "repository_source_sha256": "2bc6132f04c0573de1876976db34bcd51f589c4fd0915334980524aea9113849",
+      "en": "「Is this... my destiny?!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "31:3607": {
+      "repository_source_sha256": "332f3eda539a004cec2c856f13c070cfc96eec25ebfb87640e81b6792973e5d4",
+      "en": "「My joy... because you are... my...」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)"
+      ]
+    },
+    "31:3658": {
+      "repository_source_sha256": "530ddd04afec410a7e0a7f3ce67aa2e829cb540e06e9894fb0a64a780e32c205",
+      "en": "「So you seek this planet's $$次元力$$...!」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3691": {
+      "repository_source_sha256": "953917909f17435af0a47762b1fd91b0eb7f422ade116cc29a95a47f1a530906",
+      "en": "「Blue and Green! I'll protect both Earths!」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3734": {
+      "repository_source_sha256": "8eba5f7c4ca686dbcdbd8dafafa4fc90ef882ded0ab640a9a28e9ab3f3350fb6",
+      "en": "「Begone, $$サイデリアル$$!」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3767": {
+      "repository_source_sha256": "36806c7070bd60046adfe161708b2832c62511a5ed094e52d9fa9abb5d6ca97c",
+      "en": "「Defeating the $$サイデリアル$$ is our mission!」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3808": {
+      "repository_source_sha256": "e065bd91c3c66931586d54a30ee5541f4afbb1c1f923305cd14d006b8ae4e900",
+      "en": "「Are you truly fit to wield a $$スフィア$$?」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3847": {
+      "repository_source_sha256": "58f5953fc5e69862ad81cdabd527552c28f838672fde5de0dc76e93ed30db305",
+      "en": "「I regret that it has come to this.」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3888": {
+      "repository_source_sha256": "2d0ea54f7c306358ee9bc075929bd8fd2fe4655263e8580eed673fbf3031fe30",
+      "en": "「I will handle the rest, $$セツコ$$.」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3915": {
+      "repository_source_sha256": "c40f0846867baa0a3ee846d7ef8a45394c34d3170353db3249dc92693b000baa",
+      "en": "「I will strike the opening $$ランド$$ made.」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3948": {
+      "repository_source_sha256": "e052ca737e308de88f37eae2b70a0c3c9958f9a8e164fa5267561be0e0c3ccee",
+      "en": "「Let me lend you a hand, $$クロウ$$.」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:3977": {
+      "repository_source_sha256": "7a69c5f1c3973557838f1745bef6a06a80755cd187a20ea6ea23fad4257e0587",
+      "en": "「I won't let you grieve any more.」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:4012": {
+      "repository_source_sha256": "4be19eef2b5ce5dc3040c643366c0e18196b3ac5b6ce240e0fa5516547027eb2",
+      "en": "「You hardly need my help, I suppose.」",
+      "source": "new",
+      "slice": "v_mix_00"
+    },
+    "31:4051": {
+      "repository_source_sha256": "152c8de18a1fa5603f5c49e67ee2974bb208abbde9404673f8e5c67eff50362f",
+      "en": "「Needless damage only\\nadds to your debt, no?」",
+      "source": "new",
+      "slice": "v_mix_00"
+    }
+  }
+}

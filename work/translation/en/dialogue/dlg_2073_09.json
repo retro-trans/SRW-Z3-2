@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "slice": "dlg_2073_09",
+ "rows": {
+  "521:t_110:2": {
+   "sha": "452c123f61",
+   "en": "$$アンジェロ$$\n「You fool, taken in by $$シャア$$'s smooth talk!」"
+  },
+  "521:t_110:3": {
+   "sha": "c7049977a2",
+   "en": "$$ギュネイ$$\n「The Colonel has nothing to do with it anymore! I'm taking down $$フロンタル$$ and you by my own will!」"
+  },
+  "521:t_110:4": {
+   "sha": "de50cdfa90",
+   "en": "$$ギュネイ$$\n「If you can't understand that, go be $$フロンタル$$'s lapdog for the rest of your life!」"
+  },
+  "521:t_111:0": {
+   "sha": "d4a7c29100",
+   "en": "$$フロンタル$$\n「Proto $$プルトゥエルブ$$... I'm told your data was useful in my completion, too.」"
+  },
+  "521:t_111:1": {
+   "sha": "30ca7e8c85",
+   "en": "$$マリーダ$$\n「So this man, too...」"
+  },
+  "521:t_111:2": {
+   "sha": "7ebba2a474",
+   "en": "$$フロンタル$$\n「But in the end, you are prototypes. I can tell that your limit is drawing near.」"
+  },
+  "521:t_111:3": {
+   "sha": "a875aa9da5",
+   "en": "$$マリーダ$$\n「Even so...! Even so, I will fight!」"
+  },
+  "521:t_111:4": {
+   "sha": "b7e2599702",
+   "en": "$$マリーダ$$\n「That is the selfishness the Master allowed me!」"
+  },
+  "521:t_999:0": {
+   "sha": "c55adac948",
+   "en": "$n\n「Ah!」"
+  }
+ },
+ "names": {},
+ "report": {
+  "rows_in_slice": 9,
+  "rows_examined": 9,
+  "left_untranslated": [],
+  "kept_omissions": [
+   "521:t_110:3: 'the Colonel' = Char (大佐), by Gyunei's usage"
+  ],
+  "uncertain": [
+   "521:t_111:2: 君 addressed to Marida only (君達 earlier = Marida and Ple Twelve data); プロト・プルトゥエルブ rendered 'Proto $$プルトゥエルブ$$' as in earlier slices"
+  ]
+ }
+}

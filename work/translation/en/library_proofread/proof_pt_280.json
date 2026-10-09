@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "batch": "proof_pt_280",
+  "fixes": [
+    {
+      "kind": "pilot",
+      "id": 280,
+      "field": "DSCR",
+      "english_sha256": "93b930150b9649ef",
+      "new": "$$甲児$$'s younger brother.\nAn energetic, cheerful elementary school student whose motto is not to think too deeply about anything.\nThough he adores his grandfather Juzo, his childish bluntness often gets the better of him, and he frequently cracks jokes like calling his grandfather's face scary, for which $$甲児$$ would scold him each time.\nMeeting the mysterious girl $$ローレライ$$ drew him into the secrets of the Kabuto family, and for a time he joined $$甲児$$ in rejecting their mother $$つばさ$$. However, when $$つばさ$$ grew weak under Pygman's curse, he served as her bodyguard on $$甲児$$'s orders and was eventually able to reconcile with her.",
+      "reason": "mistranslation (tense of events): the Japanese narrates past events (触れ ... 否定していた); 'draws' is present while the rest of the sentence is past"
+    },
+    {
+      "kind": "pilot",
+      "id": 293,
+      "field": "DSCR",
+      "english_sha256": "655da533306035de",
+      "new": "An Ultra Gorgeous Computer that Juzo left behind to help $$甲児$$ in his hour of need.\nHis personality is exactly that of Juzo. He awakened the moment God Scrander was activated, appearing as a three-dimensional image small enough to sit neatly near the main console in the cockpit of the Mazinger.\nFrom then on, he supported $$甲児$$, fighting Dr. Hell together.",
+      "reason": "pronoun: researched gender of オジイちゃん is male (Juzo's personality copy), so it/its became he/his; 'alongside him' was ambiguous (共に = together with Kouji) and is restated"
+    },
+    {
+      "kind": "pilot",
+      "id": 294,
+      "field": "DSCR",
+      "english_sha256": "32b6e803c00c61e6",
+      "new": "A delinquent detective working at the Atami Police Station.\nOrdered to guard Juzo, he was investigating the string of incidents occurring around the $$くろがね屋$$. In the process, he got caught up in the battle between $$マジンガーＺ$$ and a $$機械獣$$ led by $$あしゅら$$, and continued to act alongside $$甲児$$ and the others from then on.\nHe is basically flippant and happy-go-lucky, easily carried away. He is also quite the ladies' man, and once even peeped on a bathing $$ガミアＱ$$ together with $$シロー$$ and An.\nIn the final battle, he moved on someone's orders and saved the Photon Power Institute from a crisis, but he could not prevent the worst-case scenario that Dr. Hell had feared.",
+      "reason": "mistranslation: お調子者 means one who gets carried away / happy-go-lucky, not a loudmouth"
+    },
+    {
+      "kind": "pilot",
+      "id": 298,
+      "field": "DSCR",
+      "english_sha256": "9c38926f212922b3",
+      "new": "A machine god of $$ミケーネ$$.\nIt is called 'the Hero' for its valor.\nAfter many long years, its body was split into the two $$機械獣$$s $$ガラダＫ７$$ and $$ダブラスＭ２$$.\n$$甲児$$, $$つばさ$$, and $$あしゅら男爵$$ encountered it after being sent into ancient $$ミケーネ$$, the world within Kedora's memories. It fought $$マジンガーＺ$$ and was defeated by the Rust Hurricane.\nUnlike an ordinary $$機械獣$$, it has a will of its own and is even able to speak.",
+      "reason": "pronoun: researched gender of ガラダブラ is unknown (a machine god with a will of its own), so he/his/him is not allowed; replaced with it/its"
+    },
+    {
+      "kind": "pilot",
+      "id": 302,
+      "field": "DSCR",
+      "english_sha256": "eaf9301eff06e8e5",
+      "new": "Main pilot of Kokubouger.\nHe was Akagi's mentor back in his National Defense University days, serving as a practical skills instructor. Since Akagi's student days he has called him 'Akaten' (failing grade), and even now treats him as if he were still his underachieving student.\nBeing older, he shows no flashiness, but his skill, backed by experience, is genuine. He has repeatedly demonstrated high ability in many respects: always calm and precise judgment, the insight to notice Akagi's poor physical condition when even $$いぶき$$ and $$青山$$ had not, and the leadership to keep Kokubouger's two sub-pilots in line.\nHe basically follows orders from his superiors faithfully, but he is a man of sound conscience who can put human life first. When Kokubouger was engulfed by a $$ヘテロダイン$$, he had his two sub-pilots evacuate regardless of danger to himself, fully aware he was disobeying orders. He also objected to a superior officer who wanted to use an OE weapon with $$ヘテロダイン$$ annihilation as the top priority, showing his deeply human side time and again.",
+      "reason": "mistranslation: 自身の危険を顧みずに means 'without regard for his own danger'; 'at his own risk' reads as accepting responsibility"
+    },
+    {
+      "kind": "pilot",
+      "id": 309,
+      "field": "DSCR",
+      "english_sha256": "ed046769d7225e38",
+      "new": "In charge of clerical work for Public Relations Section 2. 27 years old.\nDuring $$ダイ・ガード$$'s battles he stays behind at headquarters to provide backup, the unsung pillar of support behind the scenes.\nHe also acts as the de facto leader who keeps his fellow new hires $$伊集院$$ and $$田口$$ in line.",
+      "reason": "pronoun: researched gender of 石塚 is male; 'she' is wrong"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "pilot 295 DSCR 'she used a secretly installed function ... to thwart Dr. Hell's plan': the Japanese has no subject; kept 'she' = Q3, because the previous sentence names Q3 as the repaired unit acting with Ankokuji (all five units are otherwise described only in the plural)",
+      "pilot 294 DSCR 'he moved on someone's orders': impersonal 'someone' kept because the Japanese itself says 何者か (unnamed)"
+    ],
+    "name_issues": [
+      "'Juzo' (十蔵) is literal English in pilots 280, 281 ('Juzo Kabuto'), 282 ('Juzo-chan'), 285, 293, 294; no token used",
+      "literal, not tokens: 'Pygman'/'Viscount Pygman' (280, 281), 'Kedora' (285, 296, 297, 298), 'Dr. Hell' (285, 292, 293, 294, 295), 'Bardos Island' (285, 292, 296), 'Stroheim Heinrich' (285, 291), 'Kabuto' (280, 281), 'Atami' (285, 294), 'Grand Duke Gorgon' (297), 'Japanium' (296), 'Donau Alpha 1' (291), 'Energer Z' (292), 'God Scrander' and 'Mazinger' (293), 'Rust Hurricane' (298), 'Photon Power Institute' (281-284, 294)",
+      "'Mechanical Beast' is literal in pilots 281, 287, 289, while pilots 294 and 298 use the $$機械獣$$ token (inconsistent); 'Chogokin Z' literal in 287, 288, 289, 290, 296; 'Kurogane Five' (くろがね五人衆) literal in 285-290",
+      "pilot 286 DSCR ('An the Weasel') and pilot 294 DSCR ('together with $$シロー$$ and An'): 'An' for 安, but the glossary English for 安 is Yasu",
+      "pilot 300-317: literal 'Akagi' (赤木) in 300, 301, 302, 303, 307, 313, 315, 316, 317 (no token in the brief); 'Security Force' (安保軍) literal in 299, 307, 314, 316, 317; 'Nishijima' (317); 'Kokubouger' (302); 'Knot Buster' / 'Fractal Knot' (312); 'Mai' (299 hint, 302 'Akaten', 308 'Mai' - 308 is the daughter Mai)",
+      "pilot 319 DSCR: 'Timothy Waynewright', 'R. Instro', 'Alex Rosewater', 'Paradigm Corporation', 'Final Stage' are literal; the glossary lists CHNN ドロシー as '?' (no English) and the token $$ドロシー#pt319$$ is used in 318; pilot 318: 'Paradigm City' and 'Out of Dome' are literal",
+      "pilot 297 DSCR uses token $$ゼウス神#pilot$$ while pilot 296 is titled ゼウス (CHNN); make sure the token resolves to Zeus"
+    ],
+    "uncertain": [
+      "pilot 293: the translator used 'it/its' because オジイちゃん is a computer; the brief's researched gender is male (a copy of Juzo's personality), so I changed to he/his. Revert if the orchestrator prefers 'it' for the machine.",
+      "pilot 298: the brief gives gender unknown for ガラダブラ (a machine with its own will, male voice actor). I removed he/his/him and used it/its; another neutral wording is possible. The name 'the Hero' has no token.",
+      "pilot 309: 石塚智美 has a name that reads female, but the researched gender is male (trio of salarymen, male voice actor); applied 'he' per the brief, not by inference from the name.",
+      "pilot 318: 元軍警察警部補 is 'military police inspector' (kept from Jigoku); 警部補 is normally 'sub-inspector/assistant inspector' and 警部 is 'inspector', so the rank may be off by one. Not settled by the brief, so not changed.",
+      "pilot 288: 板前 is 'head chef' (Jigoku); the ja wiki says 板長, so kept.",
+      "pilots 312/313: 技術部主任 is 'Section chief of the Technical Department'; 主任 is closer to 'chief/supervisor' than 課長 'section chief'. Kept as consistent in both entries and Jigoku.",
+      "pilot 300: 'technically their senior' - 'technically' is a mild addition to 先輩に当たる; harmless, left.",
+      "pilot 305: 'Information ... is always at the center of her conversation' - the Japanese is past (であった) and 話題 is 'the topic'; left as a habitual present, harmless.",
+      "pilots 296/297: 'he' used for Zeus and Hades (male per glossary) although the Japanese has no pronoun; fine."
+    ]
+  }
+}

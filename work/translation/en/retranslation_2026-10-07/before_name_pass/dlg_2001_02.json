@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "slice": "dlg_2001_02",
+  "rows": {
+    "4:t_113:1": {
+      "sha": "43d25f973a",
+      "en": "$$テッサ$$\n「I understand. But unless we defeat the enemy's first wave, we won't even be able to secure a retreat route.」"
+    },
+    "4:t_113:2": {
+      "sha": "8eb45be915",
+      "en": "$$マデューカス$$\n「Understood. Then please focus on directing the battle, Captain. I'll determine the best time to withdraw.」"
+    },
+    "4:t_113:3": {
+      "sha": "c99951aae2",
+      "en": "$$テッサ$$\n「I'm counting on you, $$マデューカス$$.」"
+    },
+    "4:t_113:4": {
+      "sha": "7664023f64",
+      "en": "$$テッサ$$\n(And I'm counting on you, too... everyone...)"
+    },
+    "4:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
+  },
+  "names": {},
+  "report": {
+    "rows_in_slice": 5,
+    "rows_examined": 5,
+    "context_rows_read": 16,
+    "left_untranslated": [],
+    "kept_omissions": [],
+    "uncertain": [
+      "4:t_113:2: Timing explicitly identified as withdrawal timing from previous retreat-route line."
+    ]
+  }
+}

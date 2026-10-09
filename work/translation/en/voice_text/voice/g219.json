@@ -1,0 +1,953 @@
+{
+  "schema": 1,
+  "group": "g219",
+  "blocks": [
+    219
+  ],
+  "speaker": {
+    "token": "ヒビキ",
+    "jigoku_pilot": null,
+    "jigoku_unit": "Genion GAI",
+    "fraction": 0.248,
+    "basis": "settled 2026-10-02 from fresh-translation review: Hibiki piloting Genion GAI, polite to Miss Suzune (his co-rider); the gruff/commanding lines (kill them all, take the controls) are Suzune's female voice, as in g217",
+    "proposed_by_v_g219_00": {
+      "token": "$$ヒビキ$$",
+      "basis": "Hibiki piloting Genion GAI, polite to Miss Suzune (his co-rider); the gruff/commanding lines (kill them all, take the controls) are Suzune's female voice, as in g217"
+    },
+    "proposed_by_v_g219_01": {
+      "token": "$$ヒビキ$$",
+      "basis": "Genion GAI set: ore, calls Suzune sensei, Vanargand/Helheim/Nibelung Annihilation; same unit as the g217 Hibiki sets (Jigoku gave no pilot)"
+    },
+    "jigoku_token": null
+  },
+  "lines": {
+    "219:43": {
+      "repository_source_sha256": "cf624996ff989ab3eeae8d582101652d8513efd4cea824f1b9ed5baf9940e34c",
+      "en": "「I'll blast right through you!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "219:66": {
+      "repository_source_sha256": "1e1ce25f9007a7b5434da1d2a26fbcfd557eee9eac2dbc54dfc600f3ae68c789",
+      "en": "「I'll punch through your guard!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "219:93": {
+      "repository_source_sha256": "0660bc6871098f2b0a6e35b6bd04a5f1270a5280da70161913fd052301dab36b",
+      "en": "「Nitro Pike, fire!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "219:122": {
+      "repository_source_sha256": "47ee9b3771de8c377b81005dca35c03d821da85aacfe1be45cdb11178b53e10d",
+      "en": "「Punch through, Pike!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "219:145": {
+      "repository_source_sha256": "a56e770cf5625ca05be000ffe3a7fe7f19d1c697f8f6abc984beac0a8a16dcee",
+      "en": "「Impact Dagger, set!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:176": {
+      "repository_source_sha256": "44fed2b33bd2de9514389fa0fba5027dd18b39f3c5222e30d02ef5a00b770b2c",
+      "en": "「Take this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:191": {
+      "repository_source_sha256": "773a8795a4ab0b88b5c141ad78aa6315431fc1b985ab00904bd27b67088d125b",
+      "en": "「I know my way around a knife!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:220": {
+      "repository_source_sha256": "40782dab0951fbdee1fa17fb53bdf8f08e9c18e7a3110112da65e4950fd38d46",
+      "en": "「Hyaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "Hyaah!"
+      ],
+      "review": "conflict"
+    },
+    "219:235": {
+      "repository_source_sha256": "e527e1a64251a4ae0fba67a7737e57e0fc1cc932a7e8ec010e181a266c92ff6e",
+      "en": "「Dagger, charge!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:258": {
+      "repository_source_sha256": "8743eb19ef221caa20936dd7ee2f48014c3b16342a98648a8ff7ef2e103e2c4c",
+      "en": "「Impact!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:275": {
+      "repository_source_sha256": "6c5b33aa3363b3dda4614886b50fde9384f64bddbd662100378cf5ab60ca28eb",
+      "en": "「At this range...!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:300": {
+      "repository_source_sha256": "40924ce421cb7db93263e1ba6be8b41a24c83a1ca4a8295b3ae50e4c73942b90",
+      "en": "「Slice 'em apart!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:317": {
+      "repository_source_sha256": "b0329e86bb12748459ab9bb5806cd774e9bb20ea231f478a4d6e0fafaeba8d72",
+      "en": "「I'll finish you up close!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "I'll finish this up close!"
+      ],
+      "review": "conflict"
+    },
+    "219:340": {
+      "repository_source_sha256": "06410972665c528baeebac8b719d1f2b8ca24ce9d29eb0e550e02286eedcbea3",
+      "en": "「Impact Dagger, action!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "219:375": {
+      "repository_source_sha256": "f2bf02b2ef9c5f49cd4802fce3b3646a34f7e1b3cd7f891266ccc77b683959c5",
+      "en": "「Shift: Helheim!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "219:400": {
+      "repository_source_sha256": "d70b85fcf290cb6b24d6307fff3ac8da02d9da595f41e477c9438943ec3cf9ef",
+      "en": "「This is $$ジェニオン・ガイ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "219:431": {
+      "repository_source_sha256": "7258fb71391c23efcd3fb909edb83426cb729e3e2c48d642c27aa5b978b78422",
+      "en": "「You'll see the realm of death!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "219:464": {
+      "repository_source_sha256": "973a8f319d2690964d00cb69f2ba8c49922f3002e6a88ba71c8ebf9eb6a05eb8",
+      "en": "「Cross the dead line!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "219:491": {
+      "repository_source_sha256": "c9a7d9376727ab4491b7c96ac0784072b7cb0c48726b143c106bf71faa3ebebc",
+      "en": "「Vanish into the underworld!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "219:510": {
+      "repository_source_sha256": "36dacc07146dbda52d84f1359a07bddeaea97d8382542c0e86764a31393f99d9",
+      "en": "「I'll take that one!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "219:535": {
+      "repository_source_sha256": "56ac8cbeb2d0a4fa6f027a673e3a4c49c906f3ea38dba4a8b7fffcb171b9dacf",
+      "en": "「I'll separate it from its wingman!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "219:562": {
+      "repository_source_sha256": "ce436db93f9f866228284ef59f3d6f466a8f847083a703af9d216198856a7026",
+      "en": "「I'll force a one-on-one!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ],
+      "alternatives": [
+        "I'll force a one-on-one fight!",
+        "I'll force this into a one-on-one!"
+      ],
+      "review": "conflict"
+    },
+    "219:585": {
+      "repository_source_sha256": "199ed1dca2609c7e452251b76d85f1cd72407e7f011cb392ebd301e9eb8d6e02",
+      "en": "「I'm your opponent!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ],
+      "alternatives": [
+        "I'm the one you're fighting!"
+      ],
+      "review": "conflict"
+    },
+    "219:608": {
+      "repository_source_sha256": "0824a9f182a0230d9ff95c6b70a43f90abee0dd69953c46df5f3c657b5bae80c",
+      "en": "「I won't let its wingman assist!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "219:635": {
+      "repository_source_sha256": "aa77d0efacf7b7b22181376062aa5dfdc97a5f8e4f43578d8010ccb3b58d0f3f",
+      "en": "「I'll draw the enemy's eyes to me!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "219:668": {
+      "repository_source_sha256": "088d8e08d29a477dd84b70ab6c69d0d427d098e746704eb206ed7f6d4527c850",
+      "en": "「We'll focus all our attacks!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "219:691": {
+      "repository_source_sha256": "ae55e434b080d0c696f9150364b0d15695b51a68b950d35b01f0b97c84be0583",
+      "en": "「I'll focus on support here!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "I'll focus entirely on support!"
+      ],
+      "review": "conflict"
+    },
+    "219:720": {
+      "repository_source_sha256": "dab27b8d1c6ff8ca36210195ae393c4428295b423083473e37d6c2c18161f831",
+      "en": "「The finishing blow is yours!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "You handle the finishing blow!"
+      ],
+      "review": "conflict"
+    },
+    "219:743": {
+      "repository_source_sha256": "1d3869c366e39d3a2094e57babe27e1cb23e12713f40dd9f9b248b9c2133fe4f",
+      "en": "「I'll pin you right where you are!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "I'll pin you right there!"
+      ],
+      "review": "conflict"
+    },
+    "219:774": {
+      "repository_source_sha256": "48059533a24be9ccb4deb157d993f7f095550090bb7cb8005eb18cffd19ac3d3",
+      "en": "「$$スフィア$$! Answer me!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 8"
+      ]
+    },
+    "219:803": {
+      "repository_source_sha256": "6116e20dff7ba36391f15744ccbc589f917a256b93ee31002b1812b6574d3b36",
+      "en": "「I'll unite these two powers!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 8"
+      ]
+    },
+    "219:830": {
+      "repository_source_sha256": "54f73db4876e59a2f9a87a37599d3b35db2618af7498a38fa1c39035a0f00b8f",
+      "en": "「The light that annihilates all...!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 8"
+      ]
+    },
+    "219:853": {
+      "repository_source_sha256": "02524b3cbf1218cd71b0508ec54810101e4e4a16bd87cb96608731c709bbd1f5",
+      "en": "「Nibelung Annihilation!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 8"
+      ]
+    },
+    "219:892": {
+      "repository_source_sha256": "96d17fc5bc78bd444805db58367d6685e3be55068e6133daa6f27e74d1c629f1",
+      "en": "「This is $$ジェニオン・ガイ$$'s true power!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 8"
+      ]
+    },
+    "219:931": {
+      "repository_source_sha256": "1d07316d30563ccb0ff9a902d20628eac6f01d6c9fa9110ea0ed18d84baf52f7",
+      "en": "「Wipe them out without a trace.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:958": {
+      "repository_source_sha256": "f2d1dafe2f6e49dd299eb06b764746f222baa3984a1e65fa66804c684906518d",
+      "en": "「Right. The order is kill them all.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:991": {
+      "repository_source_sha256": "6d64315fc8bf75f8e173211e281f1ec5f59c3e58953982ee387c7a16f34e6daf",
+      "en": "「That's the way. Do it properly.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1022": {
+      "repository_source_sha256": "d7f150b6c7f4f81568a5998e88ead03cf1694e784067cc22e5fb2aa387acb872",
+      "en": "「Don't lean on me. Do it yourself.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1047": {
+      "repository_source_sha256": "f014454bf70a020517cf8bf8103a2afe3aaf264f30a44656060be39387853344",
+      "en": "「Quit playing. They're still alive.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1082": {
+      "repository_source_sha256": "d9fcf0c58ea6e0976695e31ba41c76bec8f8b7fae284f508b33caa8831805cd3",
+      "en": "「If you miss, you'll be punished.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1109": {
+      "repository_source_sha256": "7aec69021218ae38b1fe3e233d67865fffed9c3b9338e2096933e9ba983d1767",
+      "en": "「Riddle it full of holes.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1134": {
+      "repository_source_sha256": "e96178d9ba7c67d46f0567b1c808f9a329ed3f8cba644224a6fbbc18149deb9e",
+      "en": "「Cut it to shreds.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1163": {
+      "repository_source_sha256": "ff9513b9c2405ef47b28d75edf05084ae6ad42342a4854257792400d26130f35",
+      "en": "「Nice. Melee gets my heart racing.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1194": {
+      "repository_source_sha256": "89c4423b9a6e0aba0218337115b2b18c4aa823d7a9fe748f0345cc182da42f83",
+      "en": "「Very well. Be thorough.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1223": {
+      "repository_source_sha256": "d922273c7c236a06d119217100a68f86a08b70aa8c734ebf947e67411d4f5e6a",
+      "en": "「D-Energy convergence is complete.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1258": {
+      "repository_source_sha256": "b17490d3277276da1fd98d3c2596ae8c5eeb3cbb3c67aaacab1b99193b2c989f",
+      "en": "「I know that without being told.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1299": {
+      "repository_source_sha256": "22dd9be7febe110e0758915525f1199549849cee024d400ebd3c5599fa1c19b9",
+      "en": "「Not a bad call.」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:1318": {
+      "repository_source_sha256": "98e7fa4ac6855b3004b717b13ee0ab9bc05cf66d7ec231ddca16f6d8f2fbf38a",
+      "en": "「Crush them with overwhelming power.」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:1349": {
+      "repository_source_sha256": "414d8267ad082fcd9909af7096024266f4f303d16158e807f4ba1033311a0359",
+      "en": "「Don't dawdle! The enemy's fleeing!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1386": {
+      "repository_source_sha256": "74b8db8dad4b3897ed6d1c270e1ba3de5d8041b9735009ebabc9b0096c4a1d8c",
+      "en": "「Shoot fleeing enemies in the back.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1419": {
+      "repository_source_sha256": "e75c99ba250d6ab888dca2bdc99ffe37d88b1a5b9d3b1700d377b0d33f744ed4",
+      "en": "「Your hunter's blood is stirring.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1450": {
+      "repository_source_sha256": "3aa757d65123c67e694c74a00b348ce385d08c81a5a8e88065edde64ff73b2db",
+      "en": "「I don't like a one-sided beating.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1489": {
+      "repository_source_sha256": "8101f296fdeec2845fc677c13e29ee32b0b9eea603dd02e86962075444e23d3b",
+      "en": "「The enemy's using cheap tricks.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1530": {
+      "repository_source_sha256": "254a032a98ca39c394cfc84bca9dac9c88917332266fa2da26f1c9251eb814d8",
+      "en": "「Heh... you've learned to talk big.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1563": {
+      "repository_source_sha256": "a32e136dd7d65e0f0297f103e8109c7a0a338bbeb645782bfe643b352811259b",
+      "en": "「No idiot gets hit by something\\nthat slow, right?」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1612": {
+      "repository_source_sha256": "d526e683ea106ce0757ec1d57eaf2bee5fd3b43e22eb1d7f6c6297157eb3f0e2",
+      "en": "「Not bad at all. I'll praise you.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1651": {
+      "repository_source_sha256": "b6cafd5d933d6b5a37b9a31abb857f6294d0f82f8f445c072c40083815208266",
+      "en": "「If we're relying on the field,\\nwe can't talk big.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1710": {
+      "repository_source_sha256": "c7b24b3ee2c57358b8d42da072cc6122e5eca7ee97a516920b2a29a4e7f2a159",
+      "en": "「Hey... we got hit.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1731": {
+      "repository_source_sha256": "e32fbd3a422c32c5792a8c1be8d6cba3a76bbecd87d0913bb1e00c1fa113fd59",
+      "en": "「That shook us a little...」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1750": {
+      "repository_source_sha256": "5d51e5e13289cf49df84128e306b1b730c6a3ce410ba3963724e13ce01286fcb",
+      "en": "「Ask your passenger before deciding.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1785": {
+      "repository_source_sha256": "bf7157f75227079ffc5422be29c3ce48df008f88f9ef1c865d2ed43ea9b9f57f",
+      "en": "「What's this supposed to mean, huh?」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1820": {
+      "repository_source_sha256": "2d45ab3b21c52b789209149e86e636237fbd1516629ee744bba0d42e9390e360",
+      "en": "「You... are you playing games?」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1847": {
+      "repository_source_sha256": "902060e945ae3730e23ad4bf59ed0758c4c8969b2a57865c6d1c13ca0a946717",
+      "en": "「Think we're OK after all those hits?」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1886": {
+      "repository_source_sha256": "a5d7aff6949d257e2217870227e2d3c6b05b764fa57b7dbfe59c84f64cc3571b",
+      "en": "「Choose right now!\\nKilled by me, or by the enemy?!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1939": {
+      "repository_source_sha256": "ea459cf56507dd2ec965943b6ef6860d6d7e1ed0f92506ab543c9629809b70d0",
+      "en": "「Let me pilot! I can't trust you!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:1982": {
+      "repository_source_sha256": "13c9238698d3875291eee24c52d5e0d82d7de483d6f5af7d4c046f54fd97b9ea",
+      "en": "「Damn amateur! Trying to kill me?!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2023": {
+      "repository_source_sha256": "6efc18d7b36c98527cc404f34106c8b957d5cd9360eba6b429a3a8ebbd723696",
+      "en": "「Figures. Can't leave $$ジェニオン$$ to you.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2066": {
+      "repository_source_sha256": "e8853a885ceafe4f1d677bf9012731f63e023a3b0a4d2cefaa08f2f5dd2de2ea",
+      "en": "「I'm going in next!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "219:2085": {
+      "repository_source_sha256": "a3e6f3fce43df2c71416b8ce20cdbbf0916f72c56cb911e7b82961aa7cdcd2d6",
+      "en": "「I'll press on while I can!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2110": {
+      "repository_source_sha256": "4365713b9ec636361e220f11722ce7d016e89b57852173d8e50f61108879df99",
+      "en": "「I'll be the wall!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2127": {
+      "repository_source_sha256": "3e867c51cfffc3721add35b7748f305f68de1bd7196bec2593bc32d9ac056d06",
+      "en": "「I'll shove the $$ジェニオン$$ in there!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2154": {
+      "repository_source_sha256": "d488215d60878e454655c077c7a7789257db1b782b96504fc8e2fbed2de8e56f",
+      "en": "「I'll split the enemy up here!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2179": {
+      "repository_source_sha256": "e462edcc1e40ed7f4cd924e49681391769ec713b9d1cf216eddfba991aa5a577",
+      "en": "「I'll fulfill my assigned role!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2208": {
+      "repository_source_sha256": "c3e1857cbc74148ff05bea280861007421d37736ee34224e681d927c2ed16188",
+      "en": "「I'll open a path through!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ],
+      "alternatives": [
+        "I'll open a way through!"
+      ],
+      "review": "conflict"
+    },
+    "219:2231": {
+      "repository_source_sha256": "88192225b1b139281d359af9323abbabe03b0bb0613aa7d52adf4feb1fefd992",
+      "en": "「I'll keep you from going anywhere!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2262": {
+      "repository_source_sha256": "d462b285d50ac25acbfd9db6fd90a0fe21e21ad8646cd806e9fda2b9a42edadb",
+      "en": "「Th-That's going a bit far...」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2293": {
+      "repository_source_sha256": "6424671c70f49095a7d0d4b55dd9e40c36ce0f328fe3f0a637fa3b7361ca8948",
+      "en": "「I-I'll try, but...」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2322": {
+      "repository_source_sha256": "a63bc89c043283a31c03edba3a718a884f0fcad9199ce24c124dff88fe412d30",
+      "en": "「I'm going on the offensive!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2341": {
+      "repository_source_sha256": "c02db88595a0465759054a019788dcf979d5bc0a5a678dd3dbf0418915e4eb63",
+      "en": "「Miss $$スズネ$$, scan for the enemy!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2366": {
+      "repository_source_sha256": "ad7200bd9c1c88c91af81f6069a93f14316585a39255f6676b4b4f3063bb02a1",
+      "en": "「I-I'm following up!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2387": {
+      "repository_source_sha256": "0f5a2b5c3b42504ba5901a8df215a7fb0b977273307fabacbe7f8a157b5c4717",
+      "en": "「I know!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2406": {
+      "repository_source_sha256": "00c9b35e14c334e82db74c7ee5f91ebb1196bd71cc5513b8a1c25db980e0d32f",
+      "en": "「That's a bit much...」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2427": {
+      "repository_source_sha256": "5885286ee1d088ea1601d526f125185233eea8e1d4c9a1188f732dd11450ea47",
+      "en": "「I'm counterattacking, Miss $$スズネ$$!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2456": {
+      "repository_source_sha256": "f6967c1ee13439da007e0f9771b25ea09802897132df479e9d294bde3affe2a8",
+      "en": "「I-I'll deal with it right away!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2483": {
+      "repository_source_sha256": "d52a55ccb50d23de0417e50cc352795a9358f3fdc18152077b24261ac8fb001d",
+      "en": "「T-They're desperate too, you know.」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2514": {
+      "repository_source_sha256": "1af37e73ab910f47d8e6e17902afe2e5fec1aed67982bf7a2dbb54326b69619b",
+      "en": "「You think that attack can hit me?!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "219:2541": {
+      "repository_source_sha256": "bc443c7e379b3df9aacf213255c6e19ebbd977cd56516d126076ed8da7d79a91",
+      "en": "「Y-Yes! You're right, Miss $$スズネ$$!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2578": {
+      "repository_source_sha256": "7e253cd32e32d22b8a89a4620df34a362de2319112a08940bae1b2d94aece96c",
+      "en": "「Th-Thanks for the treat!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2601": {
+      "repository_source_sha256": "fcbcba326c69c54feb3b9dcd8ae1577145a390d3c732bea02c11839bdc379f31",
+      "en": "「We've got D-Fault!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "219:2636": {
+      "repository_source_sha256": "f014950821e969281a602a7cbf03f891cc2bfebc60ee5f568ace1eb5d07d4023",
+      "en": "「I-I'll be careful next time!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2663": {
+      "repository_source_sha256": "cff2a9c3ef7546e3cf07937207074fefec29fdadd2aad6e6dd30d058c76ed26d",
+      "en": "「I'll definitely dodge next time!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2694": {
+      "repository_source_sha256": "c2776cccf7d8609b4242ec432a35b75e974be963d7bab7a5104a8928f35bb4aa",
+      "en": "「No need to dodge a hit like this!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2729": {
+      "repository_source_sha256": "93b6b1795b16126072846d25eba0d64cdca8fa2b616116f2e27ed06300ef8e10",
+      "en": "「Sorry! I'm doing my best here!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2768": {
+      "repository_source_sha256": "8ec2518b95ee87f3770d9b151200ab3251541807c86c65e887358474e3372320",
+      "en": "「N-No!\\nI'm serious, completely serious!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2819": {
+      "repository_source_sha256": "5d93abab4fda4a5ec7ffc74b8dc764ebbeca1413e70d548ca4acd17c97d3e6d1",
+      "en": "「Are you okay, Miss $$スズネ$$...?!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2854": {
+      "repository_source_sha256": "ee410c92a1ed00b4edd11b270d3fe43c0bc15c7d671a805bf6952d9d67a8d97d",
+      "en": "「I'll pass on both!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2877": {
+      "repository_source_sha256": "7b447731faa33c759996d4586a6a17945c15b5c85be580e199f2ce3e2f6f4f0f",
+      "en": "「Wait! No way, Miss $$スズネ$$!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2916": {
+      "repository_source_sha256": "495c35b38ccaf24452fd5d6379c2510dcedd8707e51ac81e5911e48d9c53991c",
+      "en": "「Then,\\nplease do the scouting properly!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2967": {
+      "repository_source_sha256": "d3283cb280210c4669fc528722752a49275632e847433191ea9e44579b2c31ea",
+      "en": "「It's no good! The $$ジェニオン$$...!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:2998": {
+      "repository_source_sha256": "71a633a6c97f30e5f70ba266532b8a20e9bda92095eecd0e0b6303f7c882d5b9",
+      "en": "「I-I'll try my best!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3021": {
+      "repository_source_sha256": "ec2e1f1d77db6ffcf75d870ec542e14fa178ea523217f0a6cb6cbb6079daff29",
+      "en": "「You'd better hit!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "Come on, hit!"
+      ],
+      "review": "conflict"
+    },
+    "219:3042": {
+      "repository_source_sha256": "f4c5f914a7a5b77f6f4e075b05459e3c67e5c88f0f7b79d7590c9422789f257a",
+      "en": "「I don't intend to miss!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3071": {
+      "repository_source_sha256": "4d543a022316a641dc4d341953e747de3a9f76c7960ee754bf004291d8454c7a",
+      "en": "「There!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ],
+      "alternatives": [
+        "There you aaaaaare!!"
+      ],
+      "review": "conflict"
+    },
+    "219:3094": {
+      "repository_source_sha256": "4266db275290918e17173d015154fbb70104d8eb292447a7a3311f37859a8ee0",
+      "en": "「Um... well, that's the idea, but...」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3131": {
+      "repository_source_sha256": "0a52bfbb33a4834e0de47370e89e64bce875590857f292cbcea23e6539ff8074",
+      "en": "「Don't hold it against me!!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3150": {
+      "repository_source_sha256": "948cfc32962796385f76e9a7d312fcf4dc354e2f554c4ae773e2e9f001db4582",
+      "en": "「I see...」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3167": {
+      "repository_source_sha256": "34aa10158b610389e395e79b61209462e271e773844b46d1cb5f67cae05e1b1f",
+      "en": "「Here goes!!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3184": {
+      "repository_source_sha256": "ab43fca81ed1df64818e1c1943c1bbb952ae9e71655cf815664f8a288b4eeb61",
+      "en": "「Miss $$スズネ$$, it's Stormbringer!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3225": {
+      "repository_source_sha256": "9cb8339cb90badd5ed6ac38e29c3687490f0ab4f2c6d9102bf7a02df74617440",
+      "en": "「Then I'll do just that...!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3250": {
+      "repository_source_sha256": "7d22a9dd2081804dd5477e864986433361eb37aa3fd0d02b6331351fce7a2b7d",
+      "en": "「With this... it's over!!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3277": {
+      "repository_source_sha256": "67aa9d572a3dc06f6df6641a5c0cd2f7261219250cf545be98781e3369549418",
+      "en": "「Blast through, Nitro Pike!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3306": {
+      "repository_source_sha256": "1ea43dd3df1146ee475dacd01e11f6d4b36a8bd577e42a9bda4a9210eebdf9e9",
+      "en": "「Nitro Pike! Pierce!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3333": {
+      "repository_source_sha256": "ed959ce7f08c11562a92fc11f5a21e7e502c11f26aa32fb2a5e19bbba6abc846",
+      "en": "「Dagger, action!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3358": {
+      "repository_source_sha256": "4c132bd1111758b4eb44800fab6caee2f5c4280507fa7b9aca7e5a7ef541e5b0",
+      "en": "「There!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "There you are!"
+      ],
+      "review": "conflict"
+    },
+    "219:3373": {
+      "repository_source_sha256": "926ca3576fa96def993d6ca8ee959ebc4653afd087933b9107b399cdc50c0d23",
+      "en": "「Charge, Impact Dagger!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3406": {
+      "repository_source_sha256": "508f09fa3f75eb35b5061532db6741e75a4d1e9bd237837638d2975ea7d34d9a",
+      "en": "「I've got you!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "You're mine!",
+        "Got you!",
+        "I've got you now!",
+        "Mine!"
+      ],
+      "review": "conflict"
+    },
+    "219:3423": {
+      "repository_source_sha256": "32d318df3ef732751156883b4863063f5d015c3f3e0aa7f3f9b3efa1d1a9967c",
+      "en": "「Be swallowed by this!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3446": {
+      "repository_source_sha256": "5fa4d7f8243e19576cd010a76244c91dc3b757df85877cf4df05d191548c21fe",
+      "en": "「Helheim! Shoot!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3475": {
+      "repository_source_sha256": "dec26926d61932af81362b10b92d57fdf846fd4d1d5f572a1bbb59248031d11b",
+      "en": "「Pierce through, Helheim!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3498": {
+      "repository_source_sha256": "7911388e1ab37fa5380c543fd7f5422fb148f4bbdc00b859444f53ec39c54fcf",
+      "en": "「Punch through the armor, Helheim!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3533": {
+      "repository_source_sha256": "c584aa4310f571cf4c80ae7c72ddc1e25c963e3fd060d0e5296935a63fac45a8",
+      "en": "「Time to fly, $$ジェニオン・ガイ$$!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3564": {
+      "repository_source_sha256": "d3efc88ba787ec8b66e6e7b5e979ed1f657d24ccdd5eb26d4a589631357acc69",
+      "en": "「Take this, Midgardsormr!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3595": {
+      "repository_source_sha256": "b7e0dcc3a999eb75ef265911c29493efd228d8b390f0818be9334cfe42cee3b6",
+      "en": "「Miss $$スズネ$$, Midgardsormr, please!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3632": {
+      "repository_source_sha256": "0468bf7a39c27914a59275283893618e5233232d1a9eb44675896eeae202d52d",
+      "en": "「This is $$ジェニオン・ガイ$$'s best right now!」",
+      "source": "new",
+      "slice": "v_g219_00"
+    },
+    "219:3667": {
+      "repository_source_sha256": "ba56369b3a0c20270113e1467a16943691795bd62f8ee5a2bc6a6ce99f3ef4d8",
+      "en": "「Miss $$スズネ$$, with Vanargand!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3702": {
+      "repository_source_sha256": "bcaef837d95d6d1c465fa949f5a45c30a38814df6632b1f05ac13b1a5dc4b66d",
+      "en": "「We're charging in, $$ジェニオン・ガイ$$!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3737": {
+      "repository_source_sha256": "e9b64dd66e98c4b8af44e48272f65ba45500063eb3998b33a8dff0aa8cce3457",
+      "en": "「This one finishes it!!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3772": {
+      "repository_source_sha256": "74ea5c9b88c69274884499e002cbc6b249a444ca362795f45a0bea17441bd979",
+      "en": "「Hope and despair...!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3791": {
+      "repository_source_sha256": "33385e8628a85ccad85899c71766820e62bbb7031d901f8a4b5250420b98c496",
+      "en": "「On to what lies beyond them!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3814": {
+      "repository_source_sha256": "26837cf9c5d8b1c2df1cba97c14b2fac2798661349c07686e68254a2a372898c",
+      "en": "「This is that power!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3835": {
+      "repository_source_sha256": "7e886656019f312fcc4b3e64959c89a3a5571c3ac1952dceead3725e73d01a75",
+      "en": "「This is Nibelung Annihilation!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    },
+    "219:3878": {
+      "repository_source_sha256": "3a83784505de847e8b93cfe86e3ec278b2aaed175477e44703ffd90156378f51",
+      "en": "「Born of man and machine as one!」",
+      "source": "new",
+      "slice": "v_g219_01"
+    }
+  }
+}

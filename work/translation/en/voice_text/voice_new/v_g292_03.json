@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "rows": {
+    "292:4636": {
+      "repository_source_sha256": "abc228df71f576a04cb7fead67a3e12a91b1c159345c5de99bae1c97c1420467",
+      "en": "「Deflector Beam, firing!」"
+    },
+    "292:4669": {
+      "repository_source_sha256": "d7f5860b1b0de6da231f74bbd88bc1291a93429097cdd489a33450311d0c96eb",
+      "en": "「Focus the attack on a single unit!」"
+    },
+    "292:6473": {
+      "repository_source_sha256": "ea647dff0f7bc0c21cbdb8a8bcbffce9c77f3cf08a3a20920d57508e9488b205",
+      "en": "「Destroying it swiftly.」"
+    },
+    "292:6849": {
+      "repository_source_sha256": "32adac310fffae53fb928227aad84ad22bae9a0dc914d2886c9efd31b516dc8a",
+      "en": "「Focusing Deflector Beam on one unit!」"
+    },
+    "292:6888": {
+      "repository_source_sha256": "9c590728e457483827f84cfaf2ec7f922873585a3588feb6419c752be87a1305",
+      "en": "「Targeting only the enemy unit ahead!」"
+    },
+    "292:338": {
+      "repository_source_sha256": "a26a828089707f6ac2bb2c2ceb690208c393f0d28534a9c29142cb7a1ca5da2c",
+      "en": "「Aim locked. Commencing attack.」"
+    },
+    "292:4762": {
+      "repository_source_sha256": "ea56a40f207d1568642f4078458208f206ab17b02626f062f478b832f9438e3b",
+      "en": "「Ending this in one go!」"
+    },
+    "292:4785": {
+      "repository_source_sha256": "8c5cbe4aae319b6af2f9dd19d889adac87384fa10860ea0d9fcd67eca27a9d76",
+      "en": "「Maximum output...! Emitting!」"
+    },
+    "292:6964": {
+      "repository_source_sha256": "51f3e740e9a397495763de938836e0027e3ff9efbf9de0d207e827791aa61762",
+      "en": "「Sweeping the targets clear!」"
+    }
+  },
+  "speakers": {
+    "g292": {
+      "token": "$$レド$$",
+      "basis": "Set mixes Ledo and Chamber machine voice (siblings address チェインバー, say 当機); these rows are the Chamber/Ledo weapon-call style; Jigoku's Klan Klang is wrong"
+    }
+  },
+  "report": {
+    "uncertain": [
+      "Voice is Chamber's machine voice or Ledo; kept neutral (no 'this unit') so it fits both",
+      "4669 imperative 'Focus the attack' could be Ledo ordering Chamber",
+      "Deflector Beam is not in the glossary or other briefs; used plain English from the Japanese"
+    ],
+    "names": {}
+  }
+}

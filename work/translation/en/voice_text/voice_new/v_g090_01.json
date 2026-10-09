@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "rows": {
+    "90:6319": {
+      "repository_source_sha256": "7a75d6fbf30ca87640596f9e15d3055c1ac1230862a6249402df2ed9d8644dea",
+      "en": "「$$フリーダム$$ will end this war!」"
+    },
+    "90:6358": {
+      "repository_source_sha256": "fae0166e0fdff982bcf28c76b972ee708926ca583e3421c416936b1c5b2a7895",
+      "en": "「Win the freedom to choose tomorrow!!」"
+    },
+    "90:6681": {
+      "repository_source_sha256": "3a277a5ac1c7c1e46ac338d079a55234b143083b59bc8d8558d4af21e53b1093",
+      "en": "「I'll do what I can, too...!」"
+    },
+    "90:886": {
+      "repository_source_sha256": "36a74de18a2f4b18be372abb4f1069eb9af95f9348590eb0c35644258089a754",
+      "en": "「Hiiiit!!」"
+    },
+    "90:909": {
+      "repository_source_sha256": "a1781172c481591b769f5ee9ebeb463019d2544cac96d0a4023ddb960ce944f5",
+      "en": "「Goooo!!」"
+    },
+    "90:3423": {
+      "repository_source_sha256": "29fed5efa1f4854ffb303060be4753c234dd65e9a0dc9d3c697f8d403bd05561",
+      "en": "「Raaaagh!!」"
+    },
+    "90:3442": {
+      "repository_source_sha256": "7cc8d372d9bb7c54ee928ef12f9d6f1a07abf0f845931bcbd43708179dd5df3c",
+      "en": "「Goooooo!!」"
+    },
+    "90:6716": {
+      "repository_source_sha256": "3a75612711bc35dfaf49ba8c925578b641e3c56e636e08dc4f2c1ac6d5f374fd",
+      "en": "「$$キラ$$!」"
+    },
+    "90:7435": {
+      "repository_source_sha256": "2b0fdf5c2cf62f69babbbcb250c0351e8464cb4c6012c3f8eb37c9676e39828f",
+      "en": "「$$アスラン$$!」"
+    }
+  },
+  "speakers": {
+    "g090": {
+      "token": "$$キラ・ヤマト$$",
+      "basis": "Freedom's power, 'win the freedom to choose tomorrow', calls Athrun; Jigoku says Kira Yamato / Strike Freedom"
+    }
+  },
+  "report": {
+    "uncertain": [
+      "90:6681 uses 俺 (Kira normally says 僕): may be Athrun's line stored in this bank; wording kept pronoun-neutral",
+      "90:6716 キラッ！ is someone calling Kira (likely Athrun) in a Kira set; rendered with $$キラ$$ token",
+      "90:6319 and 90:6358 shortened for the 36-char limit; check token $$キラ$$/$$アスラン$$ exist in glossary as used"
+    ],
+    "names": {}
+  }
+}

@@ -1,0 +1,798 @@
+{
+  "scope": "first ten in play order, including two prologues and Green route choice",
+  "rows": 3888,
+  "slices": 54,
+  "baseline_files_verified": 54,
+  "rows_differing_from_prior": 3101,
+  "glossary_additions": 13,
+  "validation": {
+    "result": "PASS",
+    "errors": 0,
+    "length_warnings": 0,
+    "unknown_tokens": 0,
+    "untranslated_rows": 0
+  },
+  "limitations": [
+    "Coordinator sampled source meaning; this is not a second complete independent meaning proofread.",
+    "No in-game layout check or build performed."
+  ],
+  "coordinator_resolutions": [
+    "Food label unified to researched Grilled Trident.",
+    "Sirius allied-faction token disambiguated from Aquarion pilot.",
+    "Pinion Halberd spelling confirmed against licensed Good Smile product."
+  ],
+  "proposed_terms": [
+    {
+      "token": "銀河ラーメン",
+      "en": "Galaxy Ramen"
+    },
+    {
+      "token": "ボランティア部",
+      "en": "Volunteer Club"
+    },
+    {
+      "token": "中央大陸",
+      "en": "Central Continent"
+    },
+    {
+      "token": "クローザーパス",
+      "en": "Closer Pass"
+    },
+    {
+      "token": "スナンパーズ",
+      "en": "Sniper Casanovas"
+    },
+    {
+      "token": "ヒカリムシ",
+      "en": "Lightbugs"
+    },
+    {
+      "token": "ビアル",
+      "en": "Beal"
+    },
+    {
+      "token": "ミスタートライアングラー",
+      "en": "Mr. Triangler"
+    },
+    {
+      "token": "リアクター",
+      "en": "Reactor"
+    },
+    {
+      "token": "シリウス#keyword",
+      "en": "Sirius"
+    }
+  ],
+  "agent_reports": {
+    "dlg_2001_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "4:t_000:18: Unspecified incoming threat rendered as something, preserving its unknown identity.",
+        "4:t_012:4: First two minutes understood as the critical initial survival period, from surrounding combat orders.",
+        "4:t_003:2 and 4:t_009:3: Intentional unfinished source speech preserved."
+      ],
+      "context_rows_read": 8
+    },
+    "dlg_2001_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "4:t_110:4: Rendered the idiomatic defiant acceptance as throwing caution to the wind in this desperate combat context.",
+        "4:t_110:5: Intentional thought fragment naming the concept of hope amid despair.",
+        "Several combat lines intentionally trail off; preserved interruption rather than inventing conclusions."
+      ]
+    },
+    "dlg_2001_02": {
+      "rows_in_slice": 5,
+      "rows_examined": 5,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "4:t_113:2: Timing explicitly identified as withdrawal timing from previous retreat-route line."
+      ]
+    },
+    "dlg_2002_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "10:t_006:8,11: The revered person is not identified in the scene; used that person without assigning gender.",
+        "10:t_000:7: Literal descriptive rendering of the defense plan; no matching glossary entry found.",
+        "10:t_006:16: Shikoku is explicitly identified as a woman in Otto's later line."
+      ]
+    },
+    "dlg_2002_01": {
+      "rows_in_slice": 48,
+      "rows_examined": 48,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "10:t_010:16-17: Matched the two-row thought break; enemy introduced in the question, then identified in a deliberately trailing fragment.",
+        "10:t_102:1: Enemy leader unspecified; used neutral them.",
+        "10:t_109:5: Interpreted battle as the team's way of fighting, emphasizing refusal to retreat."
+      ]
+    },
+    "dlg_2003_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "21:t_2:21: Geological ley lines rendered as plain ley lines; artificial installations retain the Leyline glossary token.",
+        "21:t_1:39: Source deliberately leaves what it is time for unspecified; surrounding rescue operation provides context without adding a new action.",
+        "21:t_1:28: Preserved interrupted sentence before the soldier is struck."
+      ]
+    },
+    "dlg_2003_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "21:t_10:27: Haircut antecedent retained as even that; the thought deliberately trails off before its consequence.",
+        "21:t_10:35: Kept the religious offering/blessing analogy rather than reframing it as a purchase."
+      ]
+    },
+    "dlg_2003_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "22:t_001:0: Bat insult refers to the bat-shaped Daimon Police machines, not turncoats.",
+        "22:t_007:0-22:t_008:0: Retained the source sentence split across records.",
+        "22:t_013:1: Revered person kept gender-neutral; the scene does not unambiguously distinguish Strauss from another superior.",
+        "22:t_009:0: Hibiki is angry at Boss for flirting with Suzune; retained his threat without inventing its eventual punishment."
+      ]
+    },
+    "dlg_2003_03": {
+      "rows_in_slice": 56,
+      "rows_examined": 56,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "22:t_111:11: Boss deflects accusations about flirting by calling it a side effect; rendered idiomatically, retaining the joke rather than literal hindsight.",
+        "22:t_106:1: Kept the 80% estimate without adding an explicit geographic denominator absent from the line.",
+        "22:t_107:0: Nu Gundam coming back to Amuro understood as getting the machine back into his possession."
+      ]
+    },
+    "dlg_2004_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "27:t_1:13: Proposed Trident Cakes for named snack; no current glossary entry found. Requires glossary research.",
+        "27:t_1:68: Angry comedic comeback rendered naturally rather than using untranslated comedy terminology.",
+        "27:t_1:81: President refers to elementary student Watta's company role.",
+        "27:t_1:83: Deliberately unfinished suspicion about the club's military activity preserved."
+      ]
+    },
+    "dlg_2004_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "27:t_2:10: Her refers to Kaname, whom Leonard intends to collect; the preceding Teresa is the addressee of his declaration, not this pronoun.",
+        "27:t_1:90-93: Parentheses preserved for private dialogue even though these are spoken asides."
+      ]
+    },
+    "dlg_2004_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "27:t_2:71: Hibiki says he is bearing the fallout from Michel upsetting Klan; rendered as taking the heat for Michel.",
+        "27:t_2:80: Intentional continuation of Suzune's preceding thought preserved.",
+        "27:t_10:23-24: Gya fun idiom adapted to eating his words so Al's request for a definition still works."
+      ]
+    },
+    "dlg_2004_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "28:t_000:24: Club President addresses Alto, who has just called Hibiki strange; question restored as colloquial retort.",
+        "28:t_001:13: Sousuke promises to protect Kaname, explicitly restoring you from preceding thought.",
+        "28:t_003:7: Otto refers to Mao's reassurance; she restored from the preceding speaker."
+      ]
+    },
+    "dlg_2004_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "28:t_007:13: Hair-sprouting idiom translated literally enough to preserve Suzune's sexual misreading and the ensuing joke.",
+        "28:t_015:1: Trident-yaki rendered as a food label; no glossary token exists for the snack.",
+        "28:t_011:0: Hibiki observes the Behemoth holding its damaged body together with Lambda Driver, not a command to his own unit."
+      ],
+      "coordinator_resolutions": [
+        "28:t_015:1: Unify the food label with the researched glossary rendering Grilled Trident."
+      ]
+    },
+    "dlg_2004_05": {
+      "rows_in_slice": 65,
+      "rows_examined": 65,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "28:t_017:3: Clouseau's singular evaluation refers to Kurz, who has maintained his morale in the preceding exchange.",
+        "28:t_100:4: Most seriously affected is psychological strain over Kaname, not literal wounds.",
+        "28:t_105:1-4: Loosened up keeps the relaxation idiom and Al's literal mechanical interpretation; bilateral angle retained as AS terminology."
+      ]
+    },
+    "dlg_2005_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "33:t_1:34: Bare Akagi is Shunsuke Akagi of the fighting team, not Ritsuko; used existing bare token.",
+        "33:t_1:82: Kejime rendered settle things for yourself, matching Toji's encouragement to seek the Volunteer Club and resolve Shinji's doubts.",
+        "33:t_1:87: Big bros and sisters refers affectionately to older team members, not biological siblings."
+      ]
+    },
+    "dlg_2005_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "33:t_3:4: Rei's it is no use answers Shinji's effort to locate/save her; next row establishes she believes she cannot leave.",
+        "33:t_4:7: Give me your hand restores the request implicit in the shouted noun, settled by Shinji reaching for Rei.",
+        "34:t_001:4: Fuyutsuki's she is Mari, confirmed by the Unit-02 exchange immediately afterward."
+      ]
+    },
+    "dlg_2005_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "34:t_009:3: Gendo asks Fuyutsuki to cover command briefly while he leaves; I'm counting on you preserves requester-to-listener direction.",
+        "34:t_011:7: Japanese proverb means risking oneself opens a route to survival; full meaning retained in Mari's strained speech.",
+        "34:t_017:0: Rei deliberately calls Mari the person in Unit-02 because she does not know her name.",
+        "34:t_005:2: Rejection type retained as Angel classification, distinct from ordinary hostility."
+      ]
+    },
+    "dlg_2005_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Rei is Ayanami throughout; speaker pid is offset, so speaker text and EVA scene determine #pt394. Shinji demands Ayanami back across the matching two-row boundary. Mari entrusts the remaining battle to Shinji; Bobby asks him to succeed while the squad clears his way."
+      ]
+    },
+    "dlg_2005_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "34:t_038:0: Mari addresses the awakened EVA as a conveniently obliging creature; its different smell is preserved without specifying what she compares it to."
+      ],
+      "notes": [
+        "Misato urges Shinji to pursue his own wish. Complementarity is retained as Ritsuko's scientific wording. Branch battle lines follow the awakening scene but remain in source order."
+      ]
+    },
+    "dlg_2005_05": {
+      "rows_in_slice": 22,
+      "rows_examined": 22,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Al questions the method and rescue objective; Sousuke explicitly entrusts the rescue to Shinji while allies stop the Angel. Hibiki and Suzune share foreboding about the impending disaster."
+      ]
+    },
+    "dlg_2200_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Blue speaks formally to the three captains. Chrono doctrine remains undisclosed; Tessa infers the faction distinction. Heero in the assassination keyword link is #keyword, not the living pilot."
+      ]
+    },
+    "dlg_2200_01": {
+      "rows_in_slice": 79,
+      "rows_examined": 79,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Both route choices remain separate speech blocks within one record. Tessa asks Otto to handle Blue Earth. Blue identifies himself on radio; the supposed Advent sighting is corrected by color and identity."
+      ]
+    },
+    "dlg_2006_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Kaname's unnamed he is Sousuke, confirmed by Tessa's immediate question. Sachs's goddess and the fourth romantic participant refer to Tessa; keeping goddess preserves his affectionate crew nickname. Sousuke maintains military formality despite Sachs requesting a plain name."
+      ]
+    },
+    "dlg_2006_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Suzune recalls Hibiki's bereavement; his fight remains deliberately unfinished in her thought. Jeffrey's debris surfing rescues Danaan. Melty wishes for a handsome man; Amy wishes for another peaceful good day. AG and Kaname share the shop chant across rows."
+      ]
+    },
+    "dlg_2006_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "notes": [
+        "Sardias uses obsequious politeness while stalling for his attack. Cunning old fox preserves Kakikouji's age component so Sardias's reply still works. Tessa and Mardukas identify the two ships as the enemy targets."
+      ]
+    },
+    "dlg_2006_03": {
+      "rows_in_slice": 63,
+      "rows_examined": 63,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "40:t_012:0-1: bokan (mothership/explosion) pun adapted to mothership / mother of a bang; the atmospheric-friction danger and his admission of a terrible pun are preserved."
+      ],
+      "notes": [
+        "Al imitates Kaname for his first two enthusiastic lines, then returns to formal speech when he explains her advice. Sousuke objects to the imitation and asks for an original approach. Sardias provokes each young pilot while respecting their actual capability."
+      ]
+    },
+    "dlg_2007_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "45:t_10:17: Rendered the ideals-versus-necessity remark in context as inability to stick to ideals; Garrod still prefers avoiding the cannon."
+      ]
+    },
+    "dlg_2007_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "46:t_000:8-13: Kept unnamed enemy group as they; Bellows describes a feared group before pirates arrive.",
+        "46:t_000:2: Preserved interrupted refusal to dive.",
+        "46:t_004:5: Source short form de Danaan maps to settled Danaan token; no new spelling proposed."
+      ]
+    },
+    "dlg_2007_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "46:t_010:1 / 46:t_011:1: Bellows revises from continent to stars; preserved her uncertainty rather than claiming an alien origin.",
+        "46:t_007:3 / 46:t_008:3: The source frames obtaining the Sphere as effectively costing Advent his life, rather than a formal exchange."
+      ]
+    },
+    "dlg_2007_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "46:t_014:19: Setsuko is the woman Gilter describes; preserved interrupted accusation.",
+        "46:t_022:1: The anonymous machine voice resumes its pilot; resuscitation rather than literal resurrection.",
+        "46:t_024:2: Used Twin plus settled Satellite Cannon token for compound weapon name.",
+        "46:t_024:6: Preserved Hibiki trailing off at Garrod after the warning to enemies; no unstated judgment added."
+      ]
+    },
+    "dlg_2007_04": {
+      "rows_in_slice": 7,
+      "rows_examined": 7,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "46:t_103:1: Parla teases Garrod about his beloved Tiffa; restored Garrod as the person returning to her."
+      ]
+    },
+    "dlg_2008_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "51:t_1:81: Rendered the deliberate left-behind wordplay as a sea left behind, while 77/82/83 retain the proper-name token.",
+        "51:t_1:47: Preserved all three listed atmospheric components and source claim of ideal proportions.",
+        "51:t_1:37: Existing Sirius token points to Aquarion pilot, but Ledo may mean a Sirius allied faction/colony in this Alliance-machine discussion. Kept exact bare source-name token and neutral wording; orchestrator research requested for possible glossary disambiguation."
+      ],
+      "coordinator_resolutions": [
+        "51:t_1:37: Sirius here is an allied faction, as confirmed by the source context and SRW wiki, not the Aquarion pilot."
+      ]
+    },
+    "dlg_2008_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "51:t_1:133: Used go out with me to preserve the invitation's dating/fishing misunderstanding.",
+        "51:t_1:152: Preserved fishing imagery before Kaname's pickup-artist misunderstanding is resolved.",
+        "51:t_1:142: Tiffa refers to Kaname, whose blushing reaction is the surrounding topic.",
+        "51:t_1:144: Parla silently applies the lovey-dovey complaint to Garrod/Tiffa; did not turn it into spoken criticism."
+      ]
+    },
+    "dlg_2008_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "51:t_1:207: Preserved the deliberately clinical descriptions of vulgar mother-related and holy-shit expressions; Amy is not quoted uttering them in this row.",
+        "51:t_1:225-226: Preserved row split; proposed Sniper Casanovas as localization of the sniper/pickup-artist pun.",
+        "51:t_1:198: Used neutral they before the group sees Ledo; later male pronouns follow identified Ledo."
+      ]
+    },
+    "dlg_2008_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "52:t_000:0: Closer Pass equipment name is not in current glossary; token and provisional names entry supplied for research.",
+        "52:t_002:0: Striker X3752 is the withdrawing machine, so robot token selected.",
+        "57:t_1:10: Pinion orders the snipers to shoot Ledo, not the armored machine; following responses clarify his intent to acquire it.",
+        "57:t_10:16: Kept unnamed specialist neutral because no individual is explicitly identified in this scene."
+      ]
+    },
+    "dlg_2008_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "57:t_10:18 and 57:t_10:19: call-and-response slogan intentionally splits the sentence.",
+        "58:t_009:0: interrupted visual recognition preserved.",
+        "58:t_000:2: Ridget leaves her warning about Sidereal's aim unfinished.",
+        "58:t_012:2: Mao trails off after but."
+      ],
+      "uncertain": [
+        "58:t_002:5-6: the treasure intruder is Ledo; restored male pronouns from the established scene.",
+        "58:t_013:4: rendered the inferred friendly pilot as a question, preserving Ledo's hypothesis."
+      ]
+    },
+    "dlg_2008_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "58:t_103:0: Gilter trails off before Sousuke dismisses his threat.",
+        "58:t_107:5: interrupted shock preserved."
+      ],
+      "uncertain": [
+        "58:t_019:1: Ledo gives an attack command; hyphenated accented English follows the established style.",
+        "58:t_018:9: annihilation command explicitly targets the withdrawing pirates."
+      ]
+    },
+    "dlg_2008_06": {
+      "rows_in_slice": 8,
+      "rows_examined": 8,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "58:t_108:1: Chamber compares combined friendly strength with enemy strength to assess feasibility; made the comparison explicit."
+      ]
+    },
+    "dlg_2009_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "63:t_1:16-17: Lukkage's object is revealed on the next row.",
+        "63:t_1:18: pirate trails off awaiting Lukkage's decision.",
+        "63:t_1:30-31: priority list spans rows.",
+        "63:t_1:41: Chamber's recommendation is interrupted.",
+        "63:t_1:69 and 63:t_1:71: Ridget is interrupted by Amy."
+      ],
+      "uncertain": [
+        "63:t_1:27: Ledo's assessment concerns the allied machines he believes natives commandeered, not the currently surrounding fleet guards.",
+        "63:t_1:52: representative aide rendered aide to fleet commander for the established administrative role.",
+        "63:t_1:66: standard Earth language retained as an in-universe descriptive term."
+      ]
+    },
+    "dlg_2009_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "63:t_1:99: Ridget trails off watching the youths.",
+        "63:t_1:123: Kaname's explanation continues in next row.",
+        "63:t_1:125: Mao's prompt is completed by Luca.",
+        "63:t_1:143: Shotaro trails through alternate descriptions.",
+        "63:t_1:162: thought fragment continues the previous row's hardly ever talks about.",
+        "63:t_1:142: Hibiki trails off repeating the quiet-type characterization."
+      ],
+      "uncertain": [
+        "63:t_1:110-112: translated the greeting as look forward to working with you and adapted Chamber's quotation to match its referent; Al's definition preserves the original explanation.",
+        "63:t_1:161: family accident keyword appears after his to make the expanded glossary text read naturally.",
+        "63:t_1:88 and 92: accented speech uses syllable splits where the English words allow them; proper-name token stays whole."
+      ]
+    },
+    "dlg_2009_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "63:t_1:177: Sousuke trails off while reassuring Tessa.",
+        "63:t_1:184: Tessa interrupts Sousuke.",
+        "63:t_1:235-236: Bellows' fleet explanation spans rows.",
+        "63:t_1:243: Bellows' hesitation remains a fragment.",
+        "63:t_1:180: Sousuke echoes Tessa's word anxious."
+      ],
+      "uncertain": [
+        "63:t_1:183: Tessa's fear about sustaining her composure rendered with explicit I do not know.",
+        "63:t_1:236-237: the weapons discussion describes deterrence and negotiation; no actual killing is implied in this explanation.",
+        "63:t_1:250: pirates must restore their standing by spilling more blood; preserved the social mechanism of retaliation."
+      ]
+    },
+    "dlg_2009_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "63:t_1:277: Flange trails off about renewed attacks after the visitors leave.",
+        "63:t_2:34: Hibiki's offer is interrupted by Alto.",
+        "63:t_2:42-43: Tessa's recollection continues across rows."
+      ],
+      "uncertain": [
+        "63:t_1:275: she refers to Lukkage, confirmed female in glossary.",
+        "63:t_2:38: Alto deliberately leaves Sousuke and Tessa alone; us restores the scene's intended pair.",
+        "63:t_2:14: everyone's commanding officer conveys the rank-address role without incorrectly calling Tessa Colonel."
+      ]
+    },
+    "dlg_2009_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "63:t_2:65: Tessa excitedly echoes Sousuke's phrase rather than completing a new proposition.",
+        "63:t_2:73: Tessa's thought completes the previous row's continue living.",
+        "63:t_10:24-25: AG's explanation continues across rows.",
+        "63:t_10:29: Tessa trails off explaining the Empress title.",
+        "63:t_10:36: Kaname trails off at the predictable scene.",
+        "63:t_10:37: AG trails off about his impulse around pretty girls."
+      ],
+      "uncertain": [
+        "63:t_2:56: いつもすまない made explicit as apology for recurring trouble; warmth retained with plain Tessa address.",
+        "63:t_2:78: Mr. Triangler nickname absent from glossary; proposed token for parent review.",
+        "63:t_10:3: drawn-out address represented with Oh plus ellipsis while keeping the full name token.",
+        "63:t_10:27: 糞虫 rendered shitbug to retain its crude comic force."
+      ]
+    },
+    "dlg_2009_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "63:t_10:43: AG stammers under Mardukas' threat.",
+        "63:t_10:49-50: business call-and-response spans rows."
+      ],
+      "uncertain": [
+        "64:t_000:13-31: Chamber speaks aloud as Ledo's interpreter; restored we for their shared demands rather than treating the robot as an independent applicant.",
+        "64:t_000:4: Al's stolen friend joke refers to Sousuke watching Hibiki be assigned to Ledo.",
+        "64:t_001:9: annihilate preserved despite nonlethal operational rules; following response explicitly states those limits."
+      ]
+    },
+    "dlg_2009_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "64:t_007:0: Lukkage deliberately trails off before naming what happened.",
+        "64:t_015:5: stunned repetition, deliberately fragmented.",
+        "64:t_010:0: Lukkage spits out You as an unfinished angry reaction.",
+        "64:t_011:2: Lukkage echoes surrender incredulously, identifying herself in the second fragment.",
+        "64:t_013:0: shocked exclamation deliberately cut off.",
+        "64:t_017:13: Ledo repeats the squad name thoughtfully."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "Chamber uses pilot token throughout; pid is offset, so speaker line governs.",
+        "Tessa steals the title to redirect Lukkage's revenge toward herself personally, per Mardukas's explanation.",
+        "64:t_017:17 retains Ledo's deliberate trailing fragment and hyphenates his accented speech."
+      ]
+    },
+    "dlg_2009_07": {
+      "rows_in_slice": 57,
+      "rows_examined": 57,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "64:t_018:4: Ledo thoughtfully repeats the unfamiliar word.",
+        "64:t_101:5: continuation of previous row, boundary preserved."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "64:t_018:6 answers whether Ledo never heard gratitude: English No preserves the negative answer.",
+        "64:t_102:1 and following rows imply Hibiki means Suzune, while she names other women; no extra explicit identification added.",
+        "64:t_019 rows are an earlier conditional battle event, not a reversal of the completed victory."
+      ]
+    },
+    "dlg_2010_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "69:t_1:42: Garrod is interrupted by Oldham at the matching row boundary.",
+        "69:t_1:85: Ledo repeats the unfamiliar idea rather than completing a statement."
+      ],
+      "uncertain": [
+        "69:t_1:29: chest condition retained broadly; no diagnosis is established in this scene."
+      ],
+      "context_decisions": [
+        "69:t_1:33 restores they for those the Alliance disposes of; no euphemism added.",
+        "69:t_1:8 renders the family definition as blood relationships plus spouses, without implying spouses are blood relatives.",
+        "69:t_1:46 is addressed directly to the arriving Oldham."
+      ]
+    },
+    "dlg_2010_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "69:t_1:89: echo of Amy's perfect timing.",
+        "69:t_1:91: Ledo echoes unfamiliar party.",
+        "69:t_2:11: thoughtful repetition of special day.",
+        "69:t_2:43: thoughtful repetition of to live.",
+        "69:t_2:63: deliberately trails off rather than name his activity.",
+        "69:t_2:67: interrupted demonstration, trailing boundary preserved.",
+        "69:t_2:72,74,75: Ledo trails off while the flute brings back childhood memories."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "The child in Hibiki's account is Hibiki himself, established by his story and Ledo's recognition at 69:t_2:52, so male pronouns restored.",
+        "69:t_2:24 asks to join their conversation, then Bevel welcomes him.",
+        "Ledo speaks fluent Alliance language via Chamber when discussing the useless being at 69:t_2:59; no artificial accent added there."
+      ]
+    },
+    "dlg_2010_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "69:t_3:9: Amy repeats her brother's phrase contemplatively.",
+        "69:t_3:11: Amy falters before completing her answer.",
+        "70:t_000:1: Pinion's introduction trails into the next row.",
+        "70:t_002:8: Melty's excited handsome-guy fragment is retained."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "70:t_002:14 four dancers are Saya, Melty, Amy and Tifa; Parla is not added to the count.",
+        "70:t_003:10 Ox is Black Ox, addressed directly by Al.",
+        "70:t_004:14 fat means cooking grease for the makeshift grill, not a human descriptor."
+      ]
+    },
+    "dlg_2010_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "75:t_1:34: Hibiki echoes Ledo's partial explanation.",
+        "75:t_1:41: Kurz trails off before Mao asks about the danger.",
+        "75:t_1:44: Ledo trails off asking about Bevel, completed by Amy's explanation.",
+        "75:t_1:56: Watta leads into Koji's next row.",
+        "75:t_1:16: Parla's I see is a conventional elliptical acknowledgment with a restored subject."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "70:t_005:7 Mina is the Macross bridge operator, identified by Monica and Ram in the surrounding exchange.",
+        "75:t_1:29 Kappei asks Watta for support; direction preserved.",
+        "75:t_1:40 Pinion asks his new team to take care of him, following his offer to repair machines."
+      ]
+    },
+    "dlg_2010_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "75:t_10:38: Ledo trails off as AG interrupts.",
+        "75:t_10:54: Sousuke leads into Hibiki's next row.",
+        "76:t_000:8: Jeffrey contemplatively repeats the nanomachine information.",
+        "76:t_001:0: Gilter trails off at the surprise encounter."
+      ],
+      "uncertain": [
+        "ヒカリムシ: proposed Lightbugs; parent asked to research official English spelling."
+      ],
+      "context_decisions": [
+        "75:t_10:7 Suzune's threat is blunt and unsoftened.",
+        "75:t_10:51 he means Ledo, whose earnest imitation is being exploited by AG.",
+        "76:t_000:3 Mehna is the Macross bridge operator; pt169 selected.",
+        "76:t_000:9 belongs to the alternate farewell route, where Ledo and Amy have not already joined."
+      ]
+    },
+    "dlg_2010_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "76:t_003:8: Ledo echoes the unfamiliar idiom.",
+        "76:t_005:1: Ledo trails off upon seeing the attackers.",
+        "76:t_007:0: Watta trails off before Shotaro identifies them.",
+        "76:t_009:8: Watta trails off before Kakikouji identifies Zambot.",
+        "76:t_013:3: Watta trails off, Shotaro supplies the feared conclusion."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "76:t_009:2-4 moon is a premonition of Zambot's arrival, so the original metaphor is retained.",
+        "76:t_008:6 Boss theorizes the unknown attackers stole Sidereal machines; not presented as confirmed fact.",
+        "76:t_012:2 male pilot is Kappei, established in the preceding exchange."
+      ]
+    },
+    "dlg_2010_06": {
+      "rows_in_slice": 38,
+      "rows_examined": 38,
+      "context_rows_read": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "76:t_013:11: Koji echoes father in surprise.",
+        "76:t_013:13: Keiko leads into Uchuta's explanation.",
+        "76:t_013:19: Watta echoes the message sender in surprise.",
+        "76:t_013:20: Tessa contemplatively identifies Banjo by reputation.",
+        "76:t_102:3: list of enemies continues into the next row."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "76:t_101:1 Suzune identifies Hibiki as the Reactor rather than herself; preceding Gilter line and Hibiki's reply settle referent.",
+        "76:t_101:4-5 retains Hibiki's unsoftened dismissal and full threat about the stolen Sphere.",
+        "76:t_103:4 hundred times stronger preserves the force of the encouragement idiom."
+      ]
+    }
+  }
+}

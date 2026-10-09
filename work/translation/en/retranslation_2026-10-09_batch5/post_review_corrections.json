@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "changes": [
+    {
+      "file": "dlg_2087_00.json",
+      "id": "610:t_1:24",
+      "before": "$$ミネバ$$\n「In space, I will join Vice Foreign Minister $$ドーリアン$$ and the others in negotiating with $$ネオ・ジオン$$'s remaining forces.」",
+      "after": "$$ミネバ$$\n「In space, I will join Vice Foreign Minister $$ドーリアン#relena$$ and the others in negotiating with $$ネオ・ジオン$$'s remaining forces.」",
+      "reason": "Current Vice Foreign Minister with Mineva and Heero context is Relena Darlian, not her deceased adoptive father. Visible English unchanged."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_02.json",
+      "id": "563:t_003:0",
+      "before": "$$竜馬$$\n「Unlike the $$インベーダー#pilot$$s or $$宇宙怪獣$$, those $$ＥＬＳ#keyword$$ are a real pain to fight.」",
+      "after": "$$竜馬$$\n「Unlike the $$インベーダー#robot$$s or $$宇宙怪獣$$, those $$ＥＬＳ#keyword$$ are a real pain to fight.」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2067_00.json",
+      "id": "479:t_1:46",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2067_01.json",
+      "id": "479:t_1:104",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Command Room ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Command Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2068_04.json",
+      "id": "491:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～ $$ドラゴンズハイヴ$$ Command Room ～",
+      "after": "　\n　　\n　　　　　　　　～$$ドラゴンズハイヴ$$　Command Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_00.json",
+      "id": "556:t_1:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_00.json",
+      "id": "556:t_1:69",
+      "before": "　\n　　\n　　　　　～ $$ラー・カイラム$$ Briefing Room ～",
+      "after": "　\n　　\n　　　　　～$$ラー・カイラム$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_05.json",
+      "id": "556:t_5:67",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_06.json",
+      "id": "556:t_6:69",
+      "before": "　\n　\n　　　　　　～$$マクロス・クォーター$$ Bridge～",
+      "after": "　\n　\n　　　　　　～$$マクロス・クォーター$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_00.json",
+      "id": "562:t_1:3",
+      "before": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_00.json",
+      "id": "562:t_1:35",
+      "before": "　\n　　\n　　　　　　～$$マクロス・クォーター$$ Residential Area～",
+      "after": "　\n　　\n　　　　　　～$$マクロス・クォーター$$　Residential Area～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2081_00.json",
+      "id": "568:t_3:3",
+      "before": "　\n　　\n　　　　　　　～ $$マクロス・クォーター$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　～$$マクロス・クォーター$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2081_01.json",
+      "id": "568:t_3:70",
+      "before": "　\n　\n　　　　　　　　～ $$ネオ・ジオン$$ Leader's Private Quarters ～",
+      "after": "　\n　\n　　　　　　　　～$$ネオ・ジオン$$ Leader's　Private Quarters～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_00.json",
+      "id": "592:t_1:3",
+      "before": "　\n　\n　　　　　　　　　～ $$クロノ$$ Ship Bridge ～",
+      "after": "　\n　\n　　　　　　　　　～$$クロノ$$ Ship　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_00.json",
+      "id": "592:t_1:31",
+      "before": "　\n　　\n　　　～ Deep-Space Mothership $$ソレスタルビーイング号$$ Bridge ～",
+      "after": "　\n　　\n　　　～Deep-Space Mothership $$ソレスタルビーイング号$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_01.json",
+      "id": "592:t_1:111",
+      "before": "　\n　　\n　　　　　　　　～ $$ネェル・アーガマ$$ Hangar ～",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2084_01.json",
+      "id": "592:t_3:3",
+      "before": "　\n　　\n　　　　　～ $$ソレスタルビーイング号$$ - $$ヴェーダ$$ Core ～",
+      "after": "　\n　　\n　　　　　～$$ソレスタルビーイング号$$　$$ヴェーダ$$ Core～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2085_00.json",
+      "id": "598:t_1:75",
+      "before": "　\n　\n　　　　　　　～ $$ネェル・アーガマ$$ Bridge ～",
+      "after": "　\n　\n　　　　　　　～$$ネェル・アーガマ$$　Bridge～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_00.json",
+      "id": "604:t_1:53",
+      "before": "　\n　\n　　　~ $$シャイアン基地$$ Underground, $$コロニーレーザー$$ Control Room ~",
+      "after": "　\n　\n　　　～$$シャイアン基地$$ Underground　$$コロニーレーザー$$ Control Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_02.json",
+      "id": "604:t_7:3",
+      "before": "　\n　\n　　　~ $$シャイアン基地$$ Underground, $$コロニーレーザー$$ Control Room ~",
+      "after": "　\n　\n　　　～$$シャイアン基地$$ Underground　$$コロニーレーザー$$ Control Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_02.json",
+      "id": "604:t_7:42",
+      "before": "　\n　　\n　　　　　　　　~ $$ラース・バビロン$$, Imperial Palace ~",
+      "after": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$　Imperial Palace～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_02.json",
+      "id": "604:t_7:53",
+      "before": "　\n　　\n　　　　　　　　~ $$ネェル・アーガマ$$, Hangar ~",
+      "after": "　\n　　\n　　　　　　　　～$$ネェル・アーガマ$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2086_03.json",
+      "id": "604:t_7:106",
+      "before": "　\n　　\n　　　　　　　　~ $$ジェニオン$$, Cockpit ~",
+      "after": "　\n　　\n　　　　　　　　～$$ジェニオン$$　Cockpit～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_00.json",
+      "id": "610:t_1:3",
+      "before": "　\n　\n　　　　　　~ $$トゥアハー・デ・ダナン$$, Hangar ~",
+      "after": "　\n　\n　　　　　　～$$トゥアハー・デ・ダナン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_00.json",
+      "id": "610:t_1:55",
+      "before": "　\n　\n　　　　　　　~ $$セントラル・ベース$$, Command Room ~",
+      "after": "　\n　\n　　　　　　　～$$セントラル・ベース$$　Command Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_01.json",
+      "id": "610:t_2:3",
+      "before": "　\n　　\n　　　　　　　　　~ $$ソーラリアン$$, Hangar ~",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_02.json",
+      "id": "610:t_2:88",
+      "before": "　\n　\n　　　　　　　~ $$ソーラリアン$$, $$Ｚクリスタル$$ ~",
+      "after": "　\n　\n　　　　　　　～$$ソーラリアン$$　$$Ｚクリスタル$$～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2088_00.json",
+      "id": "616:t_1:3",
+      "before": "　\n　　\n　　　　　　　　～ $$ラース・バビロン$$ - Imperial Palace ～",
+      "after": "　\n　　\n　　　　　　　　～$$ラース・バビロン$$　Imperial Palace～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2088_00.json",
+      "id": "616:t_1:42",
+      "before": "　\n　\n　　　　　～ $$ソーラリアン$$ - Briefing Room ～",
+      "after": "　\n　\n　　　　　～$$ソーラリアン$$　Briefing Room～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2079_06.json",
+      "id": "556:t_6:81",
+      "before": "$$ラム$$\n「Captain! Incoming transmission from Director $$大塚$$ at the Far East Branch!」",
+      "after": "$$ラム$$\n「Captain! Incoming transmission from Director $$大塚$$ at the $$極東支部$$!」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_02.json",
+      "id": "563:t_001:1",
+      "before": "$$ゼロ$$\n「So those are the mysterious enemies that appeared near Jupiter.」",
+      "after": "$$ゼロ$$\n「So those are the mysterious enemies that appeared near $$木星$$.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2087_01.json",
+      "id": "610:t_2:58",
+      "before": "$$ランド$$\n「Could it have been you who released him from the $$ＺＯＮＥ$$ on Mars...?」",
+      "after": "$$ランド$$\n「Could it have been you who released him from the $$ＺＯＮＥ$$ on $$火星$$...?」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2080_05.json",
+      "id": "563:t_022:11",
+      "before": "$$ノリコ$$\n「Yes! Big Sis looks exactly like she did when everyone called her the Rose Queen!」",
+      "after": "$$ノリコ$$\n「Yes! Big Sis looks exactly like she did when everyone called her the $$バラの女王$$!」",
+      "reason": "Whole-corpus exact Japanese review; apply batch11 researched Queen of Roses / Fold Wave terminology, retaining plural suffix. Original source and prior snapshots preserved."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2081_00.json",
+      "id": "568:t_2:34",
+      "before": "$$チコ$$\n「I don't want the Rose Queen saying our $$バスターマシン$$ pilots have no spirit.」",
+      "after": "$$チコ$$\n「I don't want the $$バラの女王$$ saying our $$バスターマシン$$ pilots have no spirit.」",
+      "reason": "Whole-corpus exact Japanese review; apply batch11 researched Queen of Roses / Fold Wave terminology, retaining plural suffix. Original source and prior snapshots preserved."
+    },
+    {
+      "batch": 5,
+      "file": "dlg_2088_04.json",
+      "id": "617:t_024:0",
+      "before": "$$アルト$$\n「We'll use $$ＹＦ－２９$$'s fold wave system, too!」",
+      "after": "$$アルト$$\n「We'll use $$ＹＦ－２９$$'s $$フォールドウェーブシステム$$, too!」",
+      "reason": "Whole-corpus exact Japanese review; apply batch11 researched Queen of Roses / Fold Wave terminology, retaining plural suffix. Original source and prior snapshots preserved."
+    }
+  ],
+  "source_review": "Source contexts reviewed; active/prior files unchanged."
+}

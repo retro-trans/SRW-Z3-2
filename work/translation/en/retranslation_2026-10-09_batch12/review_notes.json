@@ -1,0 +1,819 @@
+{
+  "scope": "remaining dialogue: ace pilot talks, guidance scenario, and next-episode previews",
+  "rows": 2369,
+  "slices": 31,
+  "rows_differing_from_prior": 2152,
+  "baseline_files_verified": 31,
+  "validation": {
+    "result": "PASS",
+    "errors": 0,
+    "length_warnings": 0,
+    "unknown_tokens": 0,
+    "untranslated_rows": 0,
+    "fit_warnings": []
+  },
+  "coordinator_row_edits": 1,
+  "glossary_additions": [
+    {
+      "jp": "ロボビタンＢ",
+      "token": "ロボビタンＢ",
+      "en": "Robovitan B",
+      "kind": "item",
+      "status": "proposed",
+      "source": "853:t_6:7 source+neighbors reviewed: AG offers Black Ox a robot tonic. Single corpus occurrence. Searches found Robovitan A/E in Dr. Slump-related texts but no exact B English confirmation; provisional literal katakana rendering, retaining source B. Possible parody not established as fact.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ドラグーン",
+      "token": "ドラグーン",
+      "en": "DRAGOON",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "853:t_36:5 and neighbors reviewed: Kira's remote weapons; single exact corpus occurrence. https://gundam.fandom.com/wiki/DRAGOON_system and https://gundam.fandom.com/wiki/ZGMF-X20A_Strike_Freedom_Gundam corroborate standard acronym. Retain short source form. Official Bandai Namco https://gget.ggame.jp/en/titles/detail.php?t=z9io7y5r explicitly uses DRAGOON System for Strike Freedom.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "シモン",
+      "token": "シモン#uav",
+      "en": "Simon",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "853:t_62:5 plus neighbors reviewed; Luca's three Ghost UAVs, distinct from Gurren Lagann pilot Simon. Only corpus row naming this trio. https://en.wikipedia.org/wiki/List_of_Macross_Frontier_characters gives Simon, John and Peter alongside phonetic variants; https://w.atwiki.jp/macrossuf/pages/146.html confirms exact JP identities. English Bible-name renderings proposed, licensed subtitle spelling unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ヨハネ",
+      "token": "ヨハネ",
+      "en": "John",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "853:t_62:5 plus neighbors reviewed; Luca's three Ghost UAVs, distinct from Gurren Lagann pilot Simon. Only corpus row naming this trio. https://en.wikipedia.org/wiki/List_of_Macross_Frontier_characters gives Simon, John and Peter alongside phonetic variants; https://w.atwiki.jp/macrossuf/pages/146.html confirms exact JP identities. English Bible-name renderings proposed, licensed subtitle spelling unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ペテロ",
+      "token": "ペテロ",
+      "en": "Peter",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "853:t_62:5 plus neighbors reviewed; Luca's three Ghost UAVs, distinct from Gurren Lagann pilot Simon. Only corpus row naming this trio. https://en.wikipedia.org/wiki/List_of_Macross_Frontier_characters gives Simon, John and Peter alongside phonetic variants; https://w.atwiki.jp/macrossuf/pages/146.html confirms exact JP identities. English Bible-name renderings proposed, licensed subtitle spelling unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ベクター",
+      "token": "ベクター",
+      "en": "Vector",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "853:t_97:7 plus neighbors reviewed: Apollo challenges Sirius and Silvia to separate Vectors and form Aquarion Mars/Luna. https://shojikawamori.jp/en/works/aquarion/ lists Vector machines, https://www.sankyo-fever.jp/history/mp/713.pdf names Aquarion Luna/Mars. Preserve short source names, distinguish pilot Mars and Lunamaria short Luna. Whole corpus short-form search identified this one machine use; existing longer Vector/full robot terms unchanged.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "マーズ",
+      "token": "マーズ#aquarion",
+      "en": "Mars",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "853:t_97:7 plus neighbors reviewed: Apollo challenges Sirius and Silvia to separate Vectors and form Aquarion Mars/Luna. https://shojikawamori.jp/en/works/aquarion/ lists Vector machines, https://www.sankyo-fever.jp/history/mp/713.pdf names Aquarion Luna/Mars. Preserve short source names, distinguish pilot Mars and Lunamaria short Luna. Whole corpus short-form search identified this one machine use; existing longer Vector/full robot terms unchanged.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ルナ",
+      "token": "ルナ#aquarion",
+      "en": "Luna",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "853:t_97:7 plus neighbors reviewed: Apollo challenges Sirius and Silvia to separate Vectors and form Aquarion Mars/Luna. https://shojikawamori.jp/en/works/aquarion/ lists Vector machines, https://www.sankyo-fever.jp/history/mp/713.pdf names Aquarion Luna/Mars. Preserve short source names, distinguish pilot Mars and Lunamaria short Luna. Whole corpus short-form search identified this one machine use; existing longer Vector/full robot terms unchanged.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "欲求７７７",
+      "token": "欲求７７７",
+      "en": "Desire 777",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "853:t_111:8,112:8,113:8 are the only exact source occurrences. Source+neighbors: AG labels all-you-can-sleep/eat/sex service in Chamber conversation. Exact JP/ASCII-number web searches found no corroborating proper-name reference or licensed English. Provisional literal humorous label; do not assert a Gargantia facility or external franchise identity.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "空間補填",
+      "token": "空間補填",
+      "en": "Space Fill",
+      "kind": "ability",
+      "status": "proposed",
+      "source": "861:t_001:6 and neighbors: MIX activates hole-filling Element power, not a robot weapon name. Only dialogue occurrence. https://srw.wiki.cre.jp/wiki/MIX confirms exact skill and function. Match existing Jigoku-derived UI work/translation/en/ui/rpw_names.json and eboot.json: Space Fill. Licensed English not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "単分子カッター",
+      "token": "単分子カッター",
+      "en": "Monomolecular Cutter",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "861:t_014:5 source+neighbors read, single dialogue occurrence. Match full UI weapon name in work/translation/en/ui/rpw_names.json (compact label Mono Cutter). https://fullmetalpanic.fandom.com/wiki/M9E_Gernsback and https://www.mahq.net/m9e-fmp/ confirm weapon term. Use lowercase modifier in running prose where appropriate.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＴＤＤ－１",
+      "token": "ＴＤＤ－１",
+      "en": "TDD-1",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "861:t_017:6 source+neighbors read, single dialogue occurrence. Danaan model identifier matches work/translation/en/ui/eboot.json and https://srw.wiki.cre.jp/wiki/トゥアハー・デ・ダナン. Preserve code and source short designation.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "愛知県",
+      "token": "愛知県",
+      "en": "Aichi Prefecture",
+      "kind": "location",
+      "status": "proposed",
+      "source": "861:t_047:6 and048:6 source+neighbors, fictional reader postcard sender location. Only two corpus occurrences. Official https://www.pref.aichi.jp/global/en/ confirms English name.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ビューナス",
+      "token": "ビューナス",
+      "en": "Venus",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "861:t_088:8 source Koji pairs Mazinger/Venus; sole short-form occurrence, other838 full Venus A unchanged. Short form of existing Venus A, corroborated https://gonagai.fandom.com/wiki/Venus_A and https://akurasu.net/wiki/Super_Robot_Wars/Z/Mech_List. Preserve source omission of A.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "うますぎＷＡＶＥ",
+      "token": "うますぎＷＡＶＥ",
+      "en": "Umasugi WAVE",
+      "kind": "program",
+      "status": "proposed",
+      "source": "861:t_136:8 and137:8: Chamber listens weekly. Official SRW blog https://blog.spalog.jp/?m=200801 identifies the radio show and Morisoba; https://srw.wiki.cre.jp/wiki/うますぎWAVE corroborates title. Romanized Umasugi plus source WAVE; licensed English title unverified. Only two corpus occurrences.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "モリソバ",
+      "token": "モリソバ",
+      "en": "Morisoba",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "861:t_138:8 and139:8, Chamber compares Ledo's SRW knowledge to radio personality. https://blog.spalog.jp/?m=200801 and https://srw.wiki.cre.jp/wiki/新人ロボット・モイモイ confirm Mai Aizawa's nickname/radio persona. https://nekketsunikki.wordpress.com/suparobo-og-radio-umasugi-wave-translations/ corroborates English romanization. Only two corpus occurrences.",
+      "profile": {
+        "gender": "unknown",
+        "gender_evidence": "Nickname refers to Mai Aizawa/radio robot Moimoi; no gender inference for robot persona, pronouns unnecessary in these rows.",
+        "position": "Umasugi WAVE radio persona/nickname associated with Mai Aizawa; rookie robot Moimoi",
+        "personality": "Aspiring to appear in Super Robot Wars; other personality details not established for this scene.",
+        "nickname": "Moimoi; Morisoba",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/新人ロボット・モイモイ",
+          "https://blog.spalog.jp/?m=200801"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    }
+  ],
+  "glossary_corrections": [
+    {
+      "token": "アンネ",
+      "before": {
+        "jp": "アンネ",
+        "kind": "pilot",
+        "en": "Anne",
+        "status": "official",
+        "source": "jigoku_glossary_unbound",
+        "targets": [],
+        "token": "アンネ"
+      },
+      "after": {
+        "jp": "アンネ",
+        "kind": "pilot",
+        "en": "Anne",
+        "status": "official",
+        "source": "jigoku_glossary_unbound",
+        "targets": [],
+        "token": "アンネ",
+        "profile": {
+          "gender": "female",
+          "gender_evidence": "https://gurrenlagann.fandom.com/wiki/Anne_Littner explicitly identifies her as daughter and female.",
+          "position": "Young daughter of Dayakka and Kiyoh",
+          "personality": "Not sufficiently characterized in the source reviewed; no personality inference.",
+          "nickname": "Anne Littner",
+          "sources": [
+            "https://gurrenlagann.fandom.com/wiki/Anne_Littner"
+          ]
+        }
+      },
+      "reason": "Source853:t_128:6-8 reviewed; researched missing gender/profile metadata, name and targets unchanged."
+    }
+  ],
+  "agent_reports": {
+    "dlg_2500_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_4:11: Kakikouji deliberately trails off listing his family.",
+        "853:t_5:5: AG deliberately trails off before repeating his congratulation.",
+        "853:t_8:8: Conditional sentence deliberately trails off before Takeru asks its consequence.",
+        "853:t_9:7: Mika deliberately trails off after conceding the combat-strength point."
+      ],
+      "uncertain": [
+        "853:t_3:8 / 853:t_3:9: Recast happa/leaf homophone as lighting a fire under employees, with Watta misunderstanding it literally; leaf imagery lost to preserve joke mechanics.",
+        "853:t_6:7: Robovitan B uses parent-approved provisional glossary token; exact B form remains externally unverified.",
+        "853:t_6:9: Source Ikue spelling differs from established Ikue token; same snacks/character referent used.",
+        "853:t_8:10: Preserved the aye-aye/love sound joke by meaning and animal description; English love does not reproduce Japanese ai homophone."
+      ]
+    },
+    "dlg_2500_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_13:8: AG trails off in his request to learn about women.",
+        "853:t_14:5: AG trails off in a contrast before the next row requests a specific tale.",
+        "853:t_14:8: AG trails off quoting a desired line.",
+        "853:t_14:10: AG trails off listing hints about Char.",
+        "853:t_15:6: Fa deliberately leaves But unfinished.",
+        "853:t_15:8: AG trails off offering self-damage as atonement.",
+        "853:t_16:8: AG leaves his romantic offer unfinished.",
+        "853:t_17:6: Emma trails off after her denial.",
+        "853:t_18:5: AG leaves conditional warning unfinished, interrupted by Katz."
+      ],
+      "uncertain": [
+        "853:t_13:13 / 853:t_13:14: Lord makes the source honorific itself the joke; ordinary honorifics elsewhere are dropped. Original U+0431 retained in t_13:14 without interpreting its appearance.",
+        "853:t_14:8: Rendered the Gundam correction catchphrase literally to preserve the following repair/correction wordplay.",
+        "853:t_17:11: Spelled out pleasure with stretched gooood rather than syllabic Japanese kai-kan."
+      ]
+    },
+    "dlg_2500_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_20:8: Amuro deliberately stops mid-thought at the possibility of an unauthorized book.",
+        "853:t_22:6: Hathaway hesitates without completing his answer.",
+        "853:t_24:6: Gyunei trails off after his plans to become the squad ace.",
+        "853:t_24:8: Gyunei cannot complete his answer about postwar plans."
+      ],
+      "uncertain": [
+        "853:t_21:8: Japanese repeated sha/sho sounds of Char final chapter not reproducible while retaining glossary name; catchy phrase kept without invented rhyme.",
+        "853:t_22:10: Kept herbivore men as the source pop-culture label for passive young men.",
+        "853:t_25:12: Preserved startled robot meaning, losing the Bikkuri Dokkiri Mecha allusion rather than introducing an ungrounded character identity."
+      ]
+    },
+    "dlg_2500_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_28:5: AG deliberately trails off contrasting Quatre blessed upbringing.",
+        "853:t_32:5: AG leaves assessment of straightforward people unfinished when interrupted.",
+        "853:t_32:12: Hilde deliberately leaves even-if clause unfinished.",
+        "853:t_35:5: AG trails off explaining discomfort at dropping customer formalities."
+      ],
+      "uncertain": [
+        "853:t_29:7: Alto plus mahjong ron preserved; pronunciation creates Altron in Japanese, which English reader may infer.",
+        "853:t_29:9 / 853:t_29:10: Japanese repeated Nataku homophones cannot be reproduced naturally; retained literal meanings of serious/nonreaction and willing action/fewer complaints, with sound puns lost.",
+        "853:t_34:5: Moonrace collective rendered as one of the Moonrace, with explicit subject and verb.",
+        "853:t_35:6 / 853:t_35:8 / 853:t_35:10 / 853:t_35:11: Replaced focal honorific with Mr.; retained hardship meaning but lost Japanese Shinn-san homophone; contempt/taste wordplay only partly survives."
+      ]
+    },
+    "dlg_2500_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_37:5: AG deliberately trails off offering flowers.",
+        "853:t_37:9: AG starts an offer, interrupted by Setsuna.",
+        "853:t_37:11: AG restarts feelings-in-flowers offer, interrupted again.",
+        "853:t_39:7: AG interrupted mid ha-; Japanese hare/Hallelujah partial sound recreated with happy/Hallelujah.",
+        "853:t_39:11: AG restates his unfinished offer and leaves the why-me complaint trailing off."
+      ],
+      "uncertain": [
+        "853:t_35:13: Bitter Hardship is AG temporary pun nickname for Shinn, not a new glossary identity; Japanese Shinn-san/hardship homophone lost.",
+        "853:t_39:7 / 853:t_39:11: Happy occasion preserves festive meaning and shared ha onset of interruption; original hare/Hallelujah resemblance is stronger.",
+        "853:t_42:4: Happy Colasour is the married-character epithet, not ordinary congratulations.",
+        "853:t_45:9: Banshee/death penalty Japanese sound pun adapted to Banshee sentence; weapon-name token preserved, phonetic pun lost."
+      ]
+    },
+    "dlg_2500_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_46:5: AG trails off during his Tri-Stars pun before Nigel demands a repeat.",
+        "853:t_47:7: Conroy trails off lamenting his lack of chances to shine.",
+        "853:t_47:8: Conroy begins explaining ECOAS and trails off into an implied lecture.",
+        "853:t_49:11: AG trails off naming the gift discs.",
+        "853:t_50:6: AG hesitates before explaining his distance from Nono.",
+        "853:t_50:10: Nono interrupts AG before he finishes proposing harassment.",
+        "853:t_50:12: AG reacts with the genuine interjection Ah after Nono refuses his advances.",
+        "853:t_51:6: AG hesitates before explaining his distance from Nono.",
+        "853:t_51:11: Nono interrupts AG before he finishes proposing harassment.",
+        "853:t_51:13: AG reacts with the genuine interjection Ah after Nono refuses his advances.",
+        "853:t_52:6: AG hesitates before explaining his distance from Nono.",
+        "853:t_52:11: Nono interrupts AG before he finishes proposing harassment.",
+        "853:t_52:13: AG reacts with the genuine interjection Ah after Nono refuses his advances."
+      ],
+      "uncertain": [
+        "853:t_46:5: Adapted the Tri-Stars/try pun as tried for stardom; preserves trio contrast.",
+        "853:t_46:7: The source folds Nigel into ikanai; normal English conveys the refusal but loses that name pun."
+      ]
+    },
+    "dlg_2500_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_57:10: Gamlin twice trails off and revises his own romantic reasoning.",
+        "853:t_58:4: Basara silently refuses to respond; the nine-dot silence is intentional.",
+        "853:t_62:7: AG gives a genuine noncommittal Ah as Luca talks about Nanase."
+      ],
+      "uncertain": [
+        "853:t_56:6: Agari is sushi-shop tea and also the threatened end of Nicola's Topless powers; glossary token retains that word.",
+        "853:t_56:7: Kept ah, gari as the alternative ginger pun matching agari.",
+        "853:t_59:6: Feelings/weighing you down adapts omoi/omoi while keeping the follow-up about emotional shackles.",
+        "853:t_62:5: Luca's drone names use distinct Simon UAV, John, and Peter tokens researched by the parent; licensed subtitle spellings remain unverified."
+      ]
+    },
+    "dlg_2500_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_63:8: Klan trails off trying to rationalize love as a Zentran.",
+        "853:t_63:9: Klan leaves her conclusion about fighting for Michel unfinished.",
+        "853:t_63:10: Klan trails off after invoking her captaincy.",
+        "853:t_68:7: Benkei interrupts AG's tomboy remark.",
+        "853:t_68:9: AG gives a frightened Eek after Benkei shouts.",
+        "853:t_68:11: Benkei trails off picturing Kei dressed up.",
+        "853:t_69:14: AG stammers a genuine panic interjection after Kouji hears his thought.",
+        "853:t_70:10: Sayaka addresses AG by name as she softens to the flattery."
+      ],
+      "uncertain": [
+        "853:t_71:6: Boss mangles hides its claws as hides its butt; retained the deliberate malapropism."
+      ]
+    },
+    "dlg_2500_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_72:8: Flatfoot is AG's direct insult/name-calling after a complete sentence of praise.",
+        "853:t_72:9: Zeus's standalone exclamation mark is an intentional surprised reaction.",
+        "853:t_73:7: AG trails off introducing his alternative congratulatory titles.",
+        "853:t_75:4: Beck's nine-dot silence precedes his offer to team up.",
+        "853:t_75:9: AG pauses after but before explaining why he refuses Beck.",
+        "853:t_77:6: AG interrupts Kurz's description of the title he wants.",
+        "853:t_79:4: Mao trails off after but in her grief variant.",
+        "853:t_80:5: AG trails off presenting the old anime disc."
+      ],
+      "uncertain": [
+        "853:t_78:13: The source literally threatens a carton of magazines, rather than one magazine; retained the full extreme threat."
+      ]
+    },
+    "dlg_2500_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_81:12: Kurara gives conventional OK acceptance and directly addresses Aoi.",
+        "853:t_83:5: AG gives a conventional No thank you refusal of Yoko's rifle threat.",
+        "853:t_83:7: AG gives a genuine Yes acknowledgement of Yoko's command.",
+        "853:t_85:6: AG begins an approach and Darry immediately threatens to shoot.",
+        "853:t_85:8: AG gives a genuine Huh reaction to Darry's threat.",
+        "853:t_88:6: Asuka deliberately cuts off her accusation at You...!",
+        "853:t_88:9: Asuka addresses AG by name, pausing before his explanation."
+      ],
+      "uncertain": [
+        "853:t_82:9: Source doriru/doriiru joke: retained the French-derived baking term dorure, whose sound echoes drill less closely in English.",
+        "853:t_81:15: Sakuya's gochisousama joke addresses Johnny and Eida's flirting; rendered being full from watching the lovebirds."
+      ]
+    },
+    "dlg_2500_10": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_89:4: Silent response retains nine-dot ellipsis.",
+        "853:t_90:4: Silent response retains nine-dot ellipsis.",
+        "853:t_93:7: Zero deliberately cuts off after But before revealing his countermeasure.",
+        "853:t_93:10: Hot-food cries interrupt Zero's assertion and leave it unfinished as in source.",
+        "853:t_94:7: Suzaku is interrupted before finishing his statement about his sins."
+      ],
+      "uncertain": [
+        "853:t_92:6: Source leaves what happened after that unspecified; retained without assigning an event.",
+        "853:t_92:12: A certain place remains unnamed, and the parallel-world possibility stays tentative."
+      ]
+    },
+    "dlg_2500_11": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_98:10: Amata leaves the feared result of Mikono seeing him unfinished before screaming.",
+        "853:t_98:11: Standalone scream.",
+        "853:t_98:14: Standalone elongated no interjection.",
+        "853:t_99:4: Cayenne addresses AG and trails off, withholding his accusation until next response.",
+        "853:t_99:8: Standalone surprised interjection.",
+        "853:t_101:10: Andy trails off after conceding that he said it.",
+        "853:t_101:11: Andy stammers through his circular reasoning and never completes it.",
+        "853:t_102:8: Moroi trails off before finishing his reform plan.",
+        "853:t_104:6: Hesitant affirmative interjections.",
+        "853:t_104:8: Jin leaves I unfinished while protesting AG's instruction.",
+        "853:t_106:5: AG's flustered interjections are retained.",
+        "853:t_106:8: AG's flustered affirmative interjections are retained."
+      ],
+      "uncertain": [
+        "853:t_104:13: Japanese omits who would vanish; inferred Yunoha from her established invisibility ability, preserving AG's exaggerated joke."
+      ]
+    },
+    "dlg_2500_12": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_106:11: Standalone surprised interjection.",
+        "853:t_106:14: MIX trails off with an exasperated accusation at AG.",
+        "853:t_108:6: Silent ellipsis.",
+        "853:t_109:4: Schrade is interrupted after As ever, you are.",
+        "853:t_111:11: Ledo trails off after but, then describes his good feeling in the following row.",
+        "853:t_112:11: Ledo trails off after but, then describes his good feeling in the following row.",
+        "853:t_113:11: Ledo trails off after but, then describes his good feeling in the following row."
+      ],
+      "uncertain": [
+        "853:t_110:6: Takurande/takuran/takuan wordplay has no direct English equivalent; retained the cuckoo and pickled radish references and romanized the two pun words with brief glosses.",
+        "853:t_110:8: Takuan romanized and glossed so its sound echoes takuran in Claire's correction.",
+        "853:t_111:8: Desire777 is an uncorroborated literal humorous label, not asserted to be a named facility; doing it preserves the source euphemism.",
+        "853:t_112:8: Desire777 is an uncorroborated literal humorous label, not asserted to be a named facility; doing it preserves the source euphemism.",
+        "853:t_113:8: Desire777 is an uncorroborated literal humorous label, not asserted to be a named facility; doing it preserves the source euphemism."
+      ]
+    },
+    "dlg_2500_13": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_115:4: Silent ellipsis.",
+        "853:t_115:11: Military Attention command, deliberate formula.",
+        "853:t_115:12: Surprised interjection.",
+        "853:t_115:13: Repeated military Attention command.",
+        "853:t_115:14: Military affirmative Yes ma'am formula.",
+        "853:t_115:15: Opening You who possess... is a formal vocative; subsequent order restores you must.",
+        "853:t_115:16: Military affirmative Yes ma'am formula.",
+        "853:t_115:18: Military Aye aye ma'am formula.",
+        "853:t_116:9: Threatening Huh interjection.",
+        "853:t_118:12: Conditional setup continues into AG's example in next row.",
+        "853:t_118:13: Quoted slogan is deliberately chanted without ordinary sentence grammar.",
+        "853:t_118:14: Surprised interjection.",
+        "853:t_118:16: Surprised interjection.",
+        "853:t_118:17: Slogan is deliberately chanted without ordinary sentence grammar.",
+        "853:t_119:12: Conditional setup continues into AG's example in next row."
+      ],
+      "uncertain": [
+        "853:t_116:8: The Crusher is a nickname used as a verb in source; rendered as use The Crusher on my body to preserve the name gag.",
+        "853:t_117:6: You-know-what preserves the source euphemism for money without replacing it with an explicit term.",
+        "853:t_118:13: Japanese three rhyming adverbs adapted to all set/all muscle/all flesh, tied to the specified poses in15.",
+        "853:t_118:15: Genital-reveal sound gag adapted as dick-a-pop, preserving the source's crude slapstick posing instruction.",
+        "853:t_118:17: Repeated chant adaptation all set/all muscle/all flesh retained after context review."
+      ]
+    },
+    "dlg_2500_14": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "853:t_119:13: Quoted slogan intentionally uses chant grammar.",
+        "853:t_119:14: Surprised interjection.",
+        "853:t_119:16: Surprised interjection.",
+        "853:t_119:17: Deliberate repeated chant.",
+        "853:t_120:4: Silent ellipsis.",
+        "853:t_121:4: Silent ellipsis.",
+        "853:t_121:5: AG trails off after but while acknowledging Gou ignoring him.",
+        "853:t_123:10: AG's emotional address to Bright trails off without further words.",
+        "853:t_126:7: Conditional clause continues across row boundary into Ram's consequence in8.",
+        "853:t_127:5: AG leaves his wish to touch Tessa's cheeks unfinished when Mardukas intervenes.",
+        "853:t_127:10: Deliberately muted congratulatory formula."
+      ],
+      "uncertain": [
+        "853:t_119:13: Chant sound adaptation all set/all muscle/all flesh retained after repeat-context review.",
+        "853:t_119:15: Crude genital-reveal sound/pose gag adapted as dick-a-pop.",
+        "853:t_119:17: Chant adaptation repeated identically after context review.",
+        "853:t_121:10: Gou/Kei names sound like Japanese goukei (total); preserved names and total gloss, though English pronunciation may weaken joke.",
+        "853:t_122:10: Tanaka's layered hedging is a comic variant of Let's do it; retained rambling uncertainty in English.",
+        "853:t_124:9: Mature/bitter shibui wordplay cannot be duplicated directly; retained mature compliment and following tea-astringency reference."
+      ]
+    },
+    "dlg_2500_15": {
+      "rows_in_slice": 31,
+      "rows_examined": 31,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "853:t_128:7: Anne she/her confirmed by parent research: https://gurrenlagann.fandom.com/wiki/Anne_Littner identifies Dayakka and Kiyoh's daughter; applies to row 128:8 too. No gender inferred from her name.",
+        "853:t_129:8: Accomplice language preserves the conspiracy implication without asserting a specific crime.",
+        "853:t_130:8: Same-context repeated accomplice language matches 129:8."
+      ]
+    },
+    "dlg_2600_00": {
+      "rows_in_slice": 64,
+      "rows_examined": 64,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "857:t_1:6: Deliberately unfinished introduction, before the silent student is presented in rows 7-8.",
+        "857:t_1:20: Contains-clause continues in row 21; preserve the matching row boundary.",
+        "857:t_1:21: Object of contains in row 20; deliberately no new subject or verb.",
+        "857:t_1:23: But-clause continues into row 24; preserve the source cut.",
+        "857:t_2:4: Intermission explanation continues its coordination in row 5.",
+        "857:t_2:5: Coordinated where-clause inherits intermission subject and predicate from row 4.",
+        "857:t_2:11: Deliberate address to players, followed by the actual message in row 12.",
+        "858:t_000:2: Instruction continues after place-cursor clause in row 3; preserves source trailing cut.",
+        "858:t_000:3: Continuation imperative coordinated with row 2; no redundant subject.",
+        "858:t_003:1: But-clause trails off as Suzune answers the question in row 2."
+      ],
+      "uncertain": [
+        "857:t_1:10: Hibiki addresses the player; I'm counting on you preserves request direction in his terse introduction.",
+        "857:t_1:15: Parent confirmed plain UI labels Lecture Plates/Combat Record and game title suffixes without colon; applied consistently.",
+        "857:t_2:7: Team Setup/Support menu route follows Japanese exact nesting, aligned to UI labels.",
+        "858:t_006:1: Singular it refers to the allied team after its annihilation; restoration treatment matches both prior unit branches."
+      ]
+    },
+    "dlg_2700_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_000:5: Conventional next-episode preview title announcement; nominal title preserves the source format.",
+        "861:t_001:4: Deliberately unfinished recognition before Andy confirms digging holes.",
+        "861:t_001:6: Signature ability shouted as an action call, not an omitted assessment.",
+        "861:t_001:9: Purpose phrase continues the rest instruction in row 8; retains cross-row boundary.",
+        "861:t_006:5: Until-then farewell deliberately trails off into the next farewell row.",
+        "861:t_007:3: Repeated Fragile incantation intentionally remains a chant without grammatical predicates.",
+        "861:t_007:7: Repeated Fragile incantation intentionally remains a chant without grammatical predicates.",
+        "861:t_007:8: Repeated Rot incantation echoes rotting motivation in row 6; action chant retains nominal form.",
+        "861:t_007:9: Repeated Fragile incantation intentionally remains a chant without grammatical predicates.",
+        "861:t_007:10: Repeated Rot incantation echoes rotting motivation in row 6; action chant retains nominal form.",
+        "861:t_008:5: Mikono trails off after if-you-want-me conditional; main clause is intentionally unspoken."
+      ],
+      "uncertain": [
+        "861:t_007:3: Moroi name/fragile pun localized as Fragile chant; exact Japanese homophony cannot survive.",
+        "861:t_007:7: Same fragile chant localization in repeated action.",
+        "861:t_007:8: Sazanka rotten/fu laughter pun localized as Rot chant; loses fufufu sound to retain rotting meaning.",
+        "861:t_007:9: Same fragile chant localization in repeated action.",
+        "861:t_007:10: Same rotten/fu laughter localization with distinct ending punctuation.",
+        "861:t_010:8: Ore-to-boku register switch conveyed by self-correction into formal farewell; both English pronouns are I."
+      ]
+    },
+    "dlg_2700_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_018:4: Studying mnemonic deliberately quotes a date phrase followed by the wrong shogunate, corrected by Kurz in row 5.",
+        "861:t_019:5: Tessa trails off while discussing the best operation, interrupted by tickling next row.",
+        "861:t_022:5: Kurtz trails off while exposing the anime secret; Clouseau interrupts next row.",
+        "861:t_023:5: Same secret-exposure interruption as 022:5, with different Clouseau rank."
+      ],
+      "uncertain": [
+        "861:t_015:3: Bonta-kun costume speech uses pilot variant; Sousuke speaks directly later in this same scene.",
+        "861:t_015:4: Same Bonta-kun pilot identity as preceding costume speech.",
+        "861:t_015:5: Same Bonta-kun pilot identity as preceding costume speech.",
+        "861:t_016:3: Valor/Alert plain labels confirmed by parent from authoritative UI glossary.",
+        "861:t_018:4: Kept source 1185 and wrong Muromachi answer without historical correction, preserving Kurz correction next row."
+      ]
+    },
+    "dlg_2700_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_025:5: Sousuke trails off at his disbelief before Kaname interrupts next row.",
+        "861:t_025:8: Threat/persuasion proposal trails off before Kaname forbids it in row 9.",
+        "861:t_026:10: Tessa flusteredly trails off after explaining she was half-asleep; retains source interruption.",
+        "861:t_029:7: Mao cuts her criticism after you, interrupted by Kurtz next row.",
+        "861:t_029:10: Kurtz is cut off mid-word, matching source ponko... from useless.",
+        "861:t_033:6: My song phrase intentionally lacks listen predicate, supplied by Basara interrupting in row 7.",
+        "861:t_034:7: My song phrase intentionally lacks listen predicate, supplied by Mylene interrupting in row 8.",
+        "861:t_035:6: Klan trails off while proposing soldier-mindset teaching; unfinished source retained."
+      ],
+      "uncertain": [
+        "861:t_027:7: Aegis ship remains the proposed attack target; A-OK localizes bad ii-desukan/Aegis-kan permission pun imperfectly.",
+        "861:t_032:5: Generic silent creature uses Invader robot variant, not the Cowen/Stinger fused pilot.",
+        "861:t_032:8: Silent entity uses Hideauze robot variant among generic hostile creatures.",
+        "861:t_032:9: Silent entity uses ELS robot variant among generic hostile creatures."
+      ]
+    },
+    "dlg_2700_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_037:7: Alto is interrupted after That is... before explaining the romantic phrase.",
+        "861:t_038:6: Mikage deliberately trails off after proposing sinful days together.",
+        "861:t_038:8: Mikage deliberately trails off after proposing a night of depravity and pleasure.",
+        "861:t_040:4: Brera is interrupted after detain-them-and, before naming subsequent action.",
+        "861:t_044:6: Conventional next-episode preview title announcement retains nominal title.",
+        "861:t_046:5: When-clause continues into the ace-pilot result in row 6.",
+        "861:t_046:6: Main clause continues when-clause from row 5, retaining one-row-in/one-row-out structure.",
+        "861:t_047:6: From-sender phrase continues into postcard receipt in row 7; no added verb before source cut.",
+        "861:t_047:7: Postcard receipt completes sender phrase in row 6 across exact row boundary."
+      ],
+      "uncertain": [
+        "861:t_038:5: Winged emissary preserves wings/emissary orthographic pun without assigning a deity identity.",
+        "861:t_041:8: What rather than Who preserves source nani and the modified Gurren Lagann slogan about a game.",
+        "861:t_042:5: Grown-up complications preserves the meta joke without inventing licensing or production details.",
+        "861:t_047:6: Quoted fictional penname Super Robot Wars Fan translated descriptively; no gender inferred from kun.",
+        "861:t_047:15: Same fictional penname reused; of-phrase avoids ambiguous English possessive inside quotation."
+      ]
+    },
+    "dlg_2700_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_048:6: Postcard introduction continues into row 7; matching trailing cut retained.",
+        "861:t_049:3: Rei calls Ikari by surname; source vocative retained.",
+        "861:t_049:10: Shinji trails off rather than completing his objection.",
+        "861:t_050:5: Opening until-clause completes previous row's repeat instruction.",
+        "861:t_050:9: Opening as-long-as clause completes previous row's resume condition.",
+        "861:t_051:7: Shinji trails off on Kaworu's name.",
+        "861:t_052:9: Rei trails off after stating I.",
+        "861:t_048:7: Opening sent verb completes prior row's postcard sender subject; source row boundary retained."
+      ],
+      "uncertain": [
+        "861:t_049:9: Rei asks generally whether playing for someone would please them; kept general rather than assigning a recipient.",
+        "861:t_053:5: Playful yoropiku rendered as colloquial request with trailing ~.",
+        "861:t_057:6: Splitting above the head alludes to SEED awakening; preserved joke without explaining it.",
+        "861:t_059:6: Uchi no refers to Hathaway's family; rendered my folks, without selecting an individual parent."
+      ]
+    },
+    "dlg_2700_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_063:7: Mineva trails off on Banagher's name.",
+        "861:t_068:6: Angelo is interrupted after give up and.",
+        "861:t_069:7: Means phrase completes prior row's promise, then trails off on so.",
+        "861:t_069:9: Even so is deliberately unfinished."
+      ],
+      "uncertain": [
+        "861:t_062:6: Preserved Banagher's distressed repeated insistence.",
+        "861:t_066:3: Ensign retained from settled 少尉 rank convention.",
+        "861:t_067:7: They flew off to prepare, as inferred from Riddhe's joke in next row; movement retained without inventing destination."
+      ]
+    },
+    "dlg_2700_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_073:3: Heero's kill threat is interrupted mid-word.",
+        "861:t_075:6: Next-episode title is a conventional title fragment.",
+        "861:t_076:6: Next-episode title is a conventional title fragment.",
+        "861:t_077:4: Tiffa trails off before her message.",
+        "861:t_080:7: Quoted Shinn outburst intentionally trails off on I.",
+        "861:t_080:9: Lunamaria's farewell introduction is completed by Shinn next row.",
+        "861:t_085:5: Aoi reads title as a question after let me see.",
+        "861:t_081:6: Spoken game title is a standalone promotional title before complete invitation to fight."
+      ],
+      "uncertain": [
+        "861:t_071:5: Wing cast and quoted Endless Waltz question identify Zero as Wing Zero, not Lelouch; used #wing_zero.",
+        "861:t_077:7: Source luck/moon pun in Gundam X tagline rendered Luck is always there.",
+        "861:t_080:7: Deliberately incomplete parody quote retained rather than completing Shinn's phrase."
+      ]
+    },
+    "dlg_2700_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_086:10: Aoi's together-with-us lead-in is completed by next row's catchphrase.",
+        "861:t_087:7: Tanaka's next-time-too lead-in is completed by F.S. next row.",
+        "861:t_088:7: Sayaka's disbelief is an interrupted exclamation.",
+        "861:t_090:7: Go trails off after I.",
+        "861:t_091:7: Preview title is conventional fragment.",
+        "861:t_092:6: Preview title is conventional fragment.",
+        "861:t_093:6: Preview title is conventional fragment.",
+        "861:t_093:10: Young President is vocative completing previous row's cheer.",
+        "861:t_095:6: Preview title is conventional fragment."
+      ],
+      "uncertain": [
+        "861:t_085:8: Invented in-world monthly magazine title rendered Monthly Super Robot Wars for Men.",
+        "861:t_087:8: F.S. catchphrase rendered I'll do it, matching his response to Tanaka's lead-in.",
+        "861:t_089:6: Hunger idiom kept as comic stomach/back exaggeration.",
+        "861:t_091:7: Rengoku in mock preview title translated Purgatory; not game subtitle Rengoku-hen.",
+        "861:t_096:5: Black Ox speaker uses autonomous pilot identity #pilot; robot addressed in speech uses short Ox."
+      ]
+    },
+    "dlg_2700_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_099:5: Kappei intentionally trails off before revealing battle outcome.",
+        "861:t_099:6: Next-episode title is a conventional title fragment.",
+        "861:t_103:5: Lelouch trails off on the answer he will choose.",
+        "861:t_104:3: Kallen's otherwise threat trails off.",
+        "861:t_110:7: Aoyama's aiming comparison trails into Kurz's girls' hearts reply next row."
+      ],
+      "uncertain": [
+        "861:t_099:7: Grandpa retained as relational address without selecting a name.",
+        "861:t_102:4: R. prefix kept outside Big O Dorothy short token; not Wing Dorothy.",
+        "861:t_103:3: Lelouch's self-directed criticism follows unlucky hit; translated I was far too naive.",
+        "861:t_105:3: Game metaphor rendered comes into being; no invented gameplay mechanism.",
+        "861:t_110:3: Lyle's brother Neil is scene-resolved, but source brother retained rather than adding name."
+      ]
+    },
+    "dlg_2700_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_112:6: Final temporal phrase deliberately trails off in the source.",
+        "861:t_113:10: Closing farewell trails off before Nono replies.",
+        "861:t_114:8: Nono trails off listing traits before Lal'C dismisses her.",
+        "861:t_115:12: Closing address trails off before the farewell.",
+        "861:t_116:6: Lal'C trails off imagining Nicola's meaning.",
+        "861:t_117:6: Repeated route variant retains the same deliberate trailing conditional.",
+        "861:t_118:4: Preview announcement deliberately cuts before Chico gives its title."
+      ],
+      "uncertain": []
+    },
+    "dlg_2700_10": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_123:7: Nono deliberately trails off extending her duo-name wordplay.",
+        "861:t_123:10: Nono cuts off her mangled attempt at the duo name before correcting it.",
+        "861:t_131:11: Ledo stumbles and cuts off while learning the farewell."
+      ],
+      "uncertain": [
+        "861:t_123:7: Japanese excited/field/Nono-Noriko sound-chain adapted as Bouncy and in the Meadow; all joke stages retained but phonetic wordplay differs.",
+        "861:t_131:11: Japanese failed farewell syllables rendered as interrupted English attempts.",
+        "861:t_131:12: Japanese malformed farewell uses hesitant syllable delivery instead of misspelling."
+      ]
+    },
+    "dlg_2700_11": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_132:9: Ledo trails off before joining the silent group.",
+        "861:t_134:7: Ledo trails off incredulously at the suggestion of SRW lessons.",
+        "861:t_135:7: Ledo trails off incredulously at the suggestion of SRW lessons.",
+        "861:t_136:7: Ledo trails off incredulously at the suggestion of SRW lessons.",
+        "861:t_137:7: Ledo trails off incredulously at the suggestion of SRW lessons.",
+        "861:t_138:7: Ledo trails off incredulously at the suggestion of SRW lessons.",
+        "861:t_139:7: Ledo trails off incredulously at the suggestion of SRW lessons."
+      ],
+      "uncertain": [
+        "861:t_133:11: Dated gyaru slang adapted with mad as hell/totally gross/mega yikes; MG5 expanded as five seconds from flipping out; slang humor and intensity preserved."
+      ]
+    },
+    "dlg_2700_12": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_142:3: Ledo trails off enumerating his upgrade plan.",
+        "861:t_143:3: Route repeat preserves Ledo's unfinished upgrade plan.",
+        "861:t_144:4: Hibiki's farewell cuts off when Suzune stops him."
+      ],
+      "uncertain": []
+    },
+    "dlg_2700_13": {
+      "rows_in_slice": 34,
+      "rows_examined": 34,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "861:t_154:9: Hibiki starts with I and abandons the clause before asking how worried the others were."
+      ],
+      "uncertain": []
+    }
+  },
+  "limitations": [
+    "Coordinator sampled source meaning, not a second complete independent meaning proofread.",
+    "No in-game check, promotion, build or deployment."
+  ]
+}

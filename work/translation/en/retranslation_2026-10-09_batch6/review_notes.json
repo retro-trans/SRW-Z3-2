@@ -1,0 +1,2217 @@
+{
+  "scope": "stages 49-58 on route A: common 49-51, Getter 52-54, common 55-56, hope 57, common 58, and 2250/2251 choice scenes",
+  "rows": 6828,
+  "slices": 91,
+  "rows_differing_from_prior": 5672,
+  "baseline_files_verified": 91,
+  "validation": {
+    "result": "PASS",
+    "errors": 0,
+    "length_warnings": 0,
+    "unknown_tokens": 0,
+    "untranslated_rows": 0,
+    "fit_warnings": []
+  },
+  "coordinator_row_edits": 82,
+  "glossary_additions": [
+    {
+      "jp": "火星",
+      "token": "火星",
+      "en": "Mars",
+      "kind": "location",
+      "status": "official",
+      "source": "https://srw.wiki.cre.jp/wiki/火星 explicitly gives Mars; the planet, distinct from Takeru alias マーズ. All 55 source occurrences read; current batch 640:t_1:19 and 640:t_3:17.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ライザーシステム",
+      "token": "ライザーシステム",
+      "en": "Raiser System",
+      "kind": "keyword",
+      "status": "official",
+      "source": "https://koei.fandom.com/wiki/00_Raiser names the Raiser System; https://gundam.fandom.com/zh/wiki/GN-0000_00_GUNDAM corroborates English spelling and GN-condenser shared-consciousness operation. Sole corpus occurrence 629:t_014:1 read.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "木星",
+      "token": "木星",
+      "en": "Jupiter",
+      "kind": "location",
+      "status": "official",
+      "source": "https://srw.wiki.cre.jp/wiki/木星 explicitly gives Jupiter and its Buster Machine No. 3 role. All 19 corpus rows containing the planet name read; current 641:t_001:2-3.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "クアンタムバースト",
+      "token": "クアンタムバースト",
+      "en": "Quantum Burst",
+      "kind": "keyword",
+      "status": "official",
+      "source": "https://gundam.fandom.com/wiki/Quantum_System confirms Quantum Burst. All three corpus occurrences read: 384:t_016:5,634:t_3:27,420:t_013:2.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ラファエル",
+      "token": "ラファエル",
+      "en": "Raphael",
+      "kind": "mech",
+      "status": "official",
+      "source": "Short source form of Raphael Gundam, https://gundam.fandom.com/wiki/CB-002_Raphael_Gundam . All three corpus occurrences read: 635:t_014:1,123:t_2:3,124:t_003:1; keep short form without expanding Gundam.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "地球帝国",
+      "token": "地球帝国",
+      "en": "Earth Empire",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "Bare state name in 837:t_1:6; six corpus rows containing the name read (five are Space Force compounds). Matches existing Earth Empire Space Force glossary wording; independent discussion https://viktor.eikman.se/media/atcl/essays_filmc.pdf . Licensed English not verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "螺旋族",
+      "token": "螺旋族",
+      "en": "Spiral Race",
+      "kind": "keyword",
+      "status": "official",
+      "source": "https://gurrenlagann.fandom.com/wiki/Human and https://gurrenlagann.fandom.com/wiki/Gurren_Lagann_The_Movie:_The_Lights_in_the_Sky_are_Stars confirm Spiral race/races. All three corpus occurrences read: 838:t_000:5,8 and 683:t_042:10. Plural s outside token where context requires multiple races.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "真ドラゴン",
+      "token": "真ドラゴン",
+      "en": "Shin Dragon",
+      "kind": "mech",
+      "status": "official",
+      "source": "https://getterrobo.fandom.com/wiki/Shin_Getter_Robo_G confirms Shin Dragon (Armageddon). Both corpus occurrences read: 838:t_002:5,838:t_005:1. Preserve short source form, not full Shin Getter Dragon.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "タイタンガニ",
+      "token": "タイタンガニ",
+      "en": "Titan Crab",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "All three corpus occurrences read: 288:t_1:15,635:t_022:5-6; nickname for the creature/its flesh, distinct from the moon. Literal English corroborated in episode commentary https://www.reddit.com/r/anime/comments/om84he ; licensed English not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "グレートアトラクター",
+      "token": "グレートアトラクター",
+      "en": "Great Attractor",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "All five source occurrences read: 682:t_1:19,20,115; 695:t_000:2;707:t_000:2. Established astronomical English spelling https://kotobank.jp/word/ぐれーとあとらくたー-157474 and Gunbuster usage https://gunbuster.fandom.com/wiki/Space_Monsters . Specific Tengoku licensed English not verified; fictional galactic-center anomaly, not an assertion of real astronomical location.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "天獄",
+      "token": "天獄",
+      "en": "Heavenly Prison",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "Sole named-system occurrence 688:t_3:82; all seven corpus matches read, six others are game-title compounds and must retain their title translation. System purpose confirmed https://srw.wiki.cre.jp/wiki/カオス・レムレース . Meaning translation aligned with settled Heavenly Prison for 天の獄; licensed English system name not verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "カオス・シリーズ",
+      "token": "カオス・シリーズ",
+      "en": "Chaos Series",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "Both corpus occurrences read:688:t_3:65,86. Machine family confirmed https://srw.m.wiki.cre.jp/wiki/DEMシリーズ ; English literal form corroborated https://www.pluschan.com/topic/15-ps3ps2psp-super-robot-taisen-z-saga/page/54/ . Licensed English not verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "銀河連邦",
+      "token": "銀河連邦",
+      "en": "Galactic Federation",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "Sole corpus occurrence 682:t_4:22 read. https://srw.wiki.cre.jp/wiki/ユング・フロイト confirms Jung as first president; English fan translation of Comptiq timeline https://gunbusternovels.wordpress.com/2022/03/11/aim-for-the-top-timeline-comptiq-1989/ uses Galactic Federation. Licensed English not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "フィジカルキャンセラー",
+      "token": "フィジカルキャンセラー",
+      "en": "Physical Canceller",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "Both corpus rows read:82:t_100:0;683:t_026:0. Established English fan usage https://tropedia.fandom.com/wiki/Diebuster and https://forums.spacebattles.com/threads/about-gunbuster-physical-canceller.990731/ . Licensed spelling not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "太陽系絶対防衛システム",
+      "token": "太陽系絶対防衛システム",
+      "en": "Solar System Absolute Defense System",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "All three corpus variants read:683:t_024:4,5,6. Function confirmed https://srw.wiki.cre.jp/wiki/ダイバスター ; English wording corroborated https://comicvine.gamespot.com/profile/lucia_fex/blog/aim-for-the-top-gunbuster-and-diebuster-cosmology/181812/ . Licensed wording not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "エグゼリオ",
+      "token": "エグゼリオ",
+      "en": "Exelio",
+      "kind": "keyword",
+      "status": "official",
+      "source": "All twelve corpus matches read; sole bare reference683:t_030:2 names the variable gravity source. Preserve short name rather than expanding to full machine name. Existing authoritative Exelio Variable Gravity Source and https://gunbuster.fandom.com/wiki/Exelion support spelling.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "イナズマキック",
+      "token": "イナズマキック",
+      "en": "Lightning Kick",
+      "kind": "keyword",
+      "status": "official",
+      "source": "All four corpus occurrences read:195:t_026:1 and683:t_041:1,2,3. English move name corroborated https://gunbuster.fandom.com/wiki/Gunbuster_(Mecha) and https://mmecha.fandom.com/wiki/Mecha_and_Monsters_from_Gunbuster ; short source form has no Super prefix. Friendship is a descriptive modifier outside the token.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "おコンさん",
+      "token": "おコンさん",
+      "en": "O-Kon",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "Both corpus occurrences and neighbors read:688:t_10:39;335:t_1:102. https://srw.m.wiki.cre.jp/wiki/トライア・スコート identifies O-Kon as the fox mask Tria holds up, not Tria herself. Provisional romanization with honorific san dropped under style rules; no verified English localization. Preserve object reference; do not translate as a generic sly woman.",
+      "targets": [],
+      "researched_token": true
+    }
+  ],
+  "glossary_corrections": [],
+  "agent_reports": {
+    "dlg_2089_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "628:t_1:13: F.S. stops at But; Jeffrey supplies the moral objection in the next row.",
+        "628:t_1:23: Bright leaves his explanation of their space mission unfinished; Cagalli declines to press him.",
+        "628:t_1:28: Source name/title-only address or recognition preserved: Um... Princess NAME...",
+        "628:t_1:29: Marina begins recognizing Shinn, then identifies him as someone who helped Orb; the recognition trails off.",
+        "628:t_1:33: Shinn hesitates before the contrast about Setsuna treasuring the flowers in row34.",
+        "628:t_1:38: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:60: Source standalone reaction preserved: Huh...",
+        "628:t_1:62: Riddhe addresses Cagalli by her office, emotionally, without continuing.",
+        "628:t_1:75: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:78: Source standalone reaction preserved: Yes...",
+        "628:t_1:80: Marie leaves her suspicion about the captives unfinished; Amuro identifies their psychic potential in row81."
+      ],
+      "uncertain": [
+        "628:t_1:18: Generic Earth Federation Forces token chosen for the mixed-series joint force, not the Gundam00-only variant.",
+        "628:t_1:29: Marina recognizes Shinn from Orb; source trails off after identifying his past help."
+      ]
+    },
+    "dlg_2089_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "628:t_1:86: Source standalone reaction preserved: What!?",
+        "628:t_1:111: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:112: Setsuna begins recognizing the Ribbons lookalike and stops before naming him in row114.",
+        "628:t_1:113: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:114: Source name/title-only address or recognition preserved: NAME!",
+        "628:t_1:115: Source standalone reaction preserved: Aah!",
+        "628:t_1:118: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:119: Banagher begins identifying the threatening person but leaves the warning unfinished.",
+        "628:t_1:122: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:124: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:126: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:128: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:131: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:132: Setsuna leaves Then unfinished before continuing to shoot.",
+        "628:t_1:133: Source name/title-only address or recognition preserved: NAME!",
+        "628:t_1:135: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:136: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:138: Source name/title-only address or recognition preserved: NAME!",
+        "628:t_1:142: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:143: Banagher names the anomalous metal, then stops at Could this be; Setsuna supplies ELS in row144.",
+        "628:t_1:155: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_1:157: Cecile stops at but before explaining the subsequent assimilation in row158.",
+        "628:t_1:159: Billy trails off in horror at human-body assimilation; Lakshata answers that implication.",
+        "628:t_1:161: Mina begins an inference about the ELS targets; Cecile supplies the answer in row162.",
+        "628:t_1:168: Mina stops at Then while processing the invasion implications."
+      ],
+      "uncertain": [
+        "628:t_1:161/163/168/171: Scientist Mina is #pt251, established by Billy and the Brains laboratory; not Mehna #pt169.",
+        "628:t_1:112-144: Initial he/him follows the apparently male Ribbons lookalike; after the metallic body is exposed the wording switches to this thing/an ELS."
+      ]
+    },
+    "dlg_2089_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "628:t_2:4: Setsuna is interrupted while asking the ELS objective; the next row is his scream.",
+        "628:t_2:5: Source standalone reaction preserved: Gwaaaaaaaaah!!",
+        "628:t_3:17: Mishima leaves his conclusion unfinished; Grace proposes their new home in row18.",
+        "628:t_3:34: Alto leaves the implication of Setsuna being unconscious unstated.",
+        "628:t_3:35: Michel cannot finish the thought about Tieria after the apparent sacrifice.",
+        "628:t_3:37: MIX voices an incredulous infinitive about Tieria sacrificing himself; emotional disbelief stays unfinished.",
+        "628:t_3:39: Alto continues the description of Tieria changing through the wars in a deliberately trailing second sentence.",
+        "628:t_3:40: Alto stops at And yet in grief over Tieria.",
+        "628:t_3:41: Source name/title-only address or recognition preserved: ...NAME...",
+        "628:t_3:49: Sylvia meditatively names Baal and their role as humanity's natural enemy.",
+        "628:t_3:53: Ranka leaves the feared fate of Alto and her brother unstated.",
+        "628:t_3:54: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_3:55: Source standalone reaction preserved: Huh...",
+        "628:t_3:56: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_3:57: Source name/title-only address or recognition preserved: NAME...?",
+        "628:t_3:58: Source silent pause or punctuation-only reaction preserved.",
+        "628:t_3:67: Tieria echoes the revelation about Aeolia's true plan, without making a further assertion.",
+        "629:t_000:0: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_001:2: Source silent pause or punctuation-only reaction preserved."
+      ],
+      "uncertain": [
+        "628:t_3:5-23: Grace is the Macross antagonist #pilot; not Feldt Grace or the keyword entry.",
+        "628:t_3:57: Source hiragana Ai-kun uses existing katakana token supplied by parent; no gender inferred."
+      ]
+    },
+    "dlg_2089_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "629:t_002:2: Chico leaves the contrast about Lal'C, Nono's Big Sis, unfinished; row4 explains the awkwardness.",
+        "629:t_002:3: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_002:9: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_002:15: Feldt leaves her jealous inference about Setsuna's feelings for Marina unfinished.",
+        "629:t_002:20: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_002:27: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_002:28: Heero addresses Setsuna in an unfinished internal thought.",
+        "629:t_004:5: Sumeragi leaves the consequence of a joint ELS/Vajra advance unstated in alarm.",
+        "629:t_004:6: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_005:5: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_006:3: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_006:12: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_006:14: Ledo starts explaining himself; Klan interrupts to say no explanation is needed.",
+        "629:t_006:17: Ledo leaves his appeal to Chamber unfinished; Chamber accepts in row18.",
+        "629:t_006:20: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_006:21: Al begins with the thematic noun phrase human-machine partnership, then states his admiration in a complete sentence.",
+        "629:t_007:0: Source name/title-only address or recognition preserved: NAME..."
+      ],
+      "uncertain": [
+        "629:t_002:2/4: Chico contrasts Kazumi with Lal'C as Big Sis; her in row4 is Lal'C.",
+        "629:t_006:8/9: Hideauze species discussion uses #keyword."
+      ],
+      "coordinator_resolutions": [
+        "629:t_006:30: Superdimensional Cinderella standardized to researched token $$超時空シンデレラ$$."
+      ]
+    },
+    "dlg_2089_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "629:t_007:4: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_007:13: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_007:15: Alternate branch: Ledo starts explaining himself; Klan interrupts in row16.",
+        "629:t_007:18: Alternate branch: Ledo leaves his appeal to Chamber unfinished; Chamber accepts in row19.",
+        "629:t_007:21: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_007:22: Alternate branch of Al's thematic human-machine partnership phrase and complete admiration sentence.",
+        "629:t_008:0: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_008:2: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_008:5: Source standalone reaction preserved: Yeah...",
+        "629:t_009:4: Source standalone reaction preserved: What!?",
+        "629:t_010:3: Colasour leaves his protest about the impossible scale unfinished.",
+        "629:t_010:4: Source name/title-only address or recognition preserved: NAME-chan!",
+        "629:t_010:5: Source standalone reaction preserved: Yes!",
+        "629:t_011:2: Ranka leaves the hoped-for result of listening to their song unstated.",
+        "629:t_011:3: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_012:4: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_014:0: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_015:0: Source name/title-only address or recognition preserved: NAME...!",
+        "629:t_017:0: Source standalone reaction preserved: Gwaaaaaaaaah!!",
+        "629:t_018:2: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_019:0: Allelujah leaves the dangerous consequence of using quantum brainwaves unstated; Peiris continues the warning.",
+        "629:t_019:1: Peiris leaves the feared ELS assimilation unfinished; Ryoma calls it self-sacrifice next.",
+        "629:t_020:3: Source name/title-only address or recognition preserved: NAME!?",
+        "629:t_021:1: Lockon addresses Tieria in stunned disbelief without continuing."
+      ],
+      "uncertain": [
+        "629:t_014:1: Raiser System is a distinct system name; parent researched and added token.",
+        "629:t_020:2: Tieria requests saving Setsuna in preference to himself; request direction retained."
+      ],
+      "coordinator_resolutions": [
+        "629:t_007:31: Superdimensional Cinderella standardized to researched token $$超時空シンデレラ$$."
+      ]
+    },
+    "dlg_2089_05": {
+      "rows_in_slice": 62,
+      "rows_examined": 62,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "629:t_022:3: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_023:0: Source name/title-only address or recognition preserved: NAME!!",
+        "629:t_023:1: Source standalone reaction preserved: No...",
+        "629:t_023:3: Shinn leaves his accusation after And yet unfinished in anger.",
+        "629:t_023:5: Source name/title-only address or recognition preserved: NAME!",
+        "629:t_100:0: Setsuna focuses internally on an unexplained sensation, a deliberately incomplete noun thought.",
+        "629:t_100:2: Source name/title-only address or recognition preserved: NAME...",
+        "629:t_101:0: Amuro focuses internally on what the ELS emit; the next row asks whether it counts as a will.",
+        "629:t_105:0: Source silent pause or punctuation-only reaction preserved.",
+        "629:t_105:5: Ledo starts to state his decision but hesitates; Chamber supplies safety advice next.",
+        "629:t_108:1: Source standalone reaction preserved: Yes...",
+        "629:t_108:3: Source standalone reaction preserved: Huh...?",
+        "629:t_108:5: Source standalone reaction preserved: What!?",
+        "629:t_108:7: Source standalone reaction preserved: Y-Yes!",
+        "629:t_999:0: Source standalone reaction preserved: Ah!"
+      ],
+      "uncertain": [
+        "629:t_024:0-2: Advent speaker is #pilot.",
+        "629:t_106:0: Speaker header says Ledo despite machine-style wording and offset pid; retained header and formal technical phrasing."
+      ]
+    },
+    "dlg_2090_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "634:t_1:13: Source standalone reaction preserved: Yes...",
+        "634:t_1:20: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_1:22: Feldt stops after but; the medical explanation follows in row24.",
+        "634:t_1:27: Alto leaves the contrast after and yet unfinished, despairing that Setsuna is unconscious.",
+        "634:t_1:30: Hibiki leaves the question of how long the forces can fight hanging.",
+        "634:t_1:32: Feldt addresses the gathered friends emotionally.",
+        "634:t_1:37: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_1:38: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_1:39: Source name/title-only address or recognition preserved: NAME...",
+        "634:t_1:41: Source standalone reaction preserved: Huh...",
+        "634:t_1:44: Feldt repeats Heero's unfinished-business phrase reflectively.",
+        "634:t_1:46: Source name/title-only address or recognition preserved: NAME...",
+        "634:t_1:57: Feldt recognizes the band by name, with no additional assertion.",
+        "634:t_1:60: Source standalone reaction preserved: What!?",
+        "634:t_1:66: Ledo leaves the outcome of Gamlin's song unfinished in wonder; surrounding rows establish Basara awoke.",
+        "634:t_1:69: Feldt reflects by echoing the word Feelings.",
+        "634:t_1:76: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_1:78: Beginning of Graham's sentence, continued in row80 after Feldt's surprised reaction.",
+        "634:t_1:79: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_1:80: Continues row78 about people understanding one another, with Setsuna restored as you; Graham trails off in admiration.",
+        "634:t_1:81: Source name/title-only address or recognition preserved: Major NAME...",
+        "634:t_1:83: Source name/title-only address or recognition preserved: NAME...",
+        "634:t_1:84: Source silent pause or punctuation-only reaction preserved."
+      ],
+      "uncertain": [
+        "634:t_1:78/80: Graham's sentence spans Feldt's intervening reaction. Setsuna is the person searching for understanding; human beings are the parties to be reconciled."
+      ]
+    },
+    "dlg_2090_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "634:t_1:86: Feldt begins a question to Graham and leaves it unfinished.",
+        "634:t_1:89: Feldt prompts Graham to explain what he must do, leaving the question trailing.",
+        "634:t_1:94: Source standalone reaction preserved: Yes.",
+        "634:t_1:101: Ian describes the Qan[T] capabilities in a deliberately trailing technical phrase; row103 identifies the machine.",
+        "634:t_1:102: Linda reflectively identifies it as a machine to stop fighting, without a finite clause.",
+        "634:t_1:106: Lockon leaves the obstacle of Setsuna's condition hanging.",
+        "634:t_1:110: Crowe leaves his suggested alternate pilots hanging; Ian and Amuro explain why it will not work.",
+        "634:t_1:111: Ian stops at but; Amuro explicitly rejects the alternative next.",
+        "634:t_1:124: Allelujah leaves his inference unfinished; Amuro explains Aeolia's intended purpose.",
+        "634:t_1:144: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_1:146: Source name/title-only address or recognition preserved: Lieutenant NAME...",
+        "634:t_1:156: Graham leaves his refusal after but unfinished when Heero interrupts.",
+        "634:t_1:158: Source name/title-only address or recognition preserved: NAME...",
+        "634:t_1:160: Graham starts addressing Heero and stops in surprise.",
+        "634:t_2:7: Source silent pause or punctuation-only reaction preserved."
+      ],
+      "uncertain": [
+        "634:t_1:110: Crowe's Gundam veteran is Amuro, confirmed by his immediate technical response.",
+        "634:t_1:153-155: The two men with self-sacrificial attitudes are Graham and Zechs, confirmed by Zechs' response."
+      ]
+    },
+    "dlg_2090_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "634:t_2:12: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_2:15: Setsuna's thought continues row14 about changing together with the world; preserve the row boundary.",
+        "634:t_2:19: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_2:20: Setsuna weakly utters Feldt's name, preserving the broken address without breaking the token.",
+        "634:t_2:21: Source name/title-only address or recognition preserved: NAME!!",
+        "634:t_3:10: Source standalone reaction preserved: What?",
+        "634:t_3:13: Setsuna leaves the feared effect on Heero unfinished; Heero tells him not to worry.",
+        "634:t_3:15: Setsuna starts an objection, but Heero interrupts with reassurance.",
+        "634:t_3:17: Source name/title-only address or recognition preserved: NAME...",
+        "634:t_3:23: Source name/title-only address or recognition preserved: NAME...",
+        "634:t_3:25: Source standalone reaction preserved: Yeah!",
+        "634:t_3:27: Source name/title-only address or recognition preserved: NAME!!",
+        "634:t_3:28: Setsuna announces the beginning of dialogue, with the noun phrase following the initial complete clause for dramatic emphasis.",
+        "634:t_3:32: Source standalone reaction preserved: Uooooooooh!!",
+        "634:t_3:33: Heero trails off while telling Setsuna to take the ELS feelings; the intended action is restored as take.",
+        "634:t_3:35: Source standalone reaction preserved: Uooooooooh!!",
+        "634:t_3:39: Source silent pause or punctuation-only reaction preserved.",
+        "634:t_3:41: Marina begins reporting that she felt Setsuna just now, but leaves the experience unnamed.",
+        "634:t_3:43: Source standalone reaction preserved: No...",
+        "634:t_3:44: Source standalone reaction preserved: Huh...",
+        "634:t_4:4: Source reflective noun phrase or address preserved: A flower...?",
+        "634:t_4:19: Kira begins recognizing the flower and stops; Shinn identifies it in row20."
+      ],
+      "uncertain": [
+        "634:t_2:20: Name token preserved intact; F... before Feldt reproduces the weakened broken utterance without splitting the token.",
+        "634:t_4:33: Historical leader Heero Yuy uses #keyword, distinct from living pilot #pilot."
+      ]
+    },
+    "dlg_2090_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "634:t_4:40: Noriko's question continues into Simon's answer in row41.",
+        "634:t_4:41: Simon supplies the noun answer to Noriko's unfinished question in row40.",
+        "634:t_4:44: Source reflective noun phrase or address preserved: A flower...?",
+        "634:t_4:59: Alternate branch: Kira begins recognizing the flower; Shinn identifies it in row60.",
+        "634:t_4:81: Alternate branch: Noriko's question continues into Simon's answer in row82.",
+        "634:t_4:82: Alternate branch: Simon supplies the noun answer to Noriko's question in row81.",
+        "634:t_10:17: A.G. lists the still-active threats; the list continues in row18.",
+        "634:t_10:18: Continuation of A.G.'s threat list from row17, kept at the matching row boundary.",
+        "635:t_000:0: Source standalone reaction preserved: Uooooooh!!",
+        "635:t_001:0: Source name/title-only address or recognition preserved: Captain NAME!!"
+      ],
+      "uncertain": [
+        "634:t_4:38-43 versus78-84: Alternate survival/death outcomes retained as distinct rows; no narrative contradiction removed.",
+        "634:t_10:17: Invader enemy species uses #robot token."
+      ]
+    },
+    "dlg_2090_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "635:t_002:5: The soldier cannot finish the objection that even retreat is impossible; Andrei offers an escape route.",
+        "635:t_002:10: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_003:0: Source standalone reaction preserved: What!?",
+        "635:t_004:0: Source name/title-only address or recognition preserved: $c!",
+        "635:t_004:7: Source silent pause or punctuation-only reaction preserved.",
+        "635:t_004:9: Source standalone reaction preserved: Yes!",
+        "635:t_005:0: Source name/title-only address or recognition preserved: $c!",
+        "635:t_006:1: Trowa begins identifying the enormous rearward ELS; Lockon describes its size next.",
+        "635:t_007:0: Lockon starts with asteroid then corrects the comparison to moon size; deliberate spoken self-correction preserved.",
+        "635:t_007:3: Shinji leaves the objection about overwhelming numbers unfinished; Akagi counters it next.",
+        "635:t_007:7: Suzune trails off over facing the swarm in five minutes; Hibiki clarifies their job is holding the line.",
+        "635:t_007:10: Source name/title-only address or recognition preserved: NAME...",
+        "635:t_007:13: Source name/title-only address or recognition preserved: NAME...",
+        "635:t_007:16: Graham's declaration continues at the matching boundary in row17.",
+        "635:t_007:17: Completes Graham's declaration from row16: he will return alive.",
+        "635:t_007:26: Source name/title-only address or recognition preserved: NAME...",
+        "635:t_009:1: Four stops while rejecting the apparent friendly units; Marida identifies them as ELS.",
+        "635:t_009:3: Source standalone reaction preserved: What!?",
+        "635:t_010:1: Alternate branch: Four stops while rejecting the apparent friendly units; Quess identifies ELS.",
+        "635:t_010:3: Source standalone reaction preserved: What!?",
+        "635:t_011:0: Source name/title-only address or recognition preserved: NAME!"
+      ],
+      "uncertain": [
+        "635:t_004:2/5/6: Colasour still calls Kati Colonel; her correction to Brigadier General is the joke, deliberately preserved."
+      ]
+    },
+    "dlg_2090_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "635:t_012:0: Kamille stops at This is as he senses the ELS change; Banagher explains next.",
+        "635:t_012:5: Source name/title-only address or recognition preserved: NAME...!",
+        "635:t_012:9: Source name/title-only address or recognition preserved: NAME...",
+        "635:t_012:17: Source name/title-only address or recognition preserved: Young man!",
+        "635:t_013:7: Loran leaves his fear of repeating Setsuna's previous injury unfinished.",
+        "635:t_014:0: Garrod points out the arriving Gundam in surprise; Kira identifies Raphael.",
+        "635:t_014:10: Source silent pause or punctuation-only reaction preserved.",
+        "635:t_014:13: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_014:16: Source standalone reaction preserved: Hm?",
+        "635:t_016:1: Gimmy leaves his objection to punching the ELS unfinished; Darry clarifies the goal next.",
+        "635:t_016:7: Hibiki leaves the hoped-for result of fighting to protect rather than hate unstated.",
+        "635:t_020:0: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_020:1: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_020:2: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_020:3: Noriko leaves her comparison with the giant ELS unfinished; Kazumi warns these monsters differ.",
+        "635:t_021:1: Source standalone reaction preserved: What!?"
+      ],
+      "uncertain": [
+        "635:t_014:15/17: Feldt's vast love refers to Setsuna's love for humanity, not a physical size; her own romantic love remains explicit."
+      ]
+    },
+    "dlg_2090_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "635:t_021:6: Source name/title-only address or recognition preserved: NAME...!?",
+        "635:t_021:8: Nicola begins recognizing the Titan Crab and stops in alarm.",
+        "635:t_022:0: Chico first recognizes the Buster Machine by pointing, then identifies Calandou and its pilots in the same row.",
+        "635:t_022:6: Source name/title-only address or recognition preserved: NAME!?",
+        "635:t_022:12: Piaget addresses the alleged eternal Topless in invocation before LeCoultre requests its power.",
+        "635:t_022:14: Source silent pause or punctuation-only reaction preserved.",
+        "635:t_023:0: Source standalone reaction preserved: No...!",
+        "635:t_024:0: Source standalone reaction preserved: Aah!",
+        "635:t_024:1: Source standalone reaction preserved: Aah!",
+        "635:t_024:2: Source standalone reaction preserved: Aah!",
+        "635:t_024:11: A.G. leaves his proposed event-control procedure unfinished; Simon rejects the delay.",
+        "635:t_024:13: Source standalone reaction preserved: What!?",
+        "635:t_025:0: Simon identifies the coordinates by deixis while targeting the dimensional point.",
+        "635:t_028:0: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_030:11: Nono begins a conditional handoff to Setsuna; Noriko supplies the request in row14.",
+        "635:t_030:12: Buster Machine No.7 branch of Nono's conditional handoff, completed by Noriko in row14.",
+        "635:t_030:13: Diebuster branch of Nono's conditional handoff, completed by Noriko in row14."
+      ],
+      "uncertain": [
+        "635:t_021:5: Titan is Saturn's moon; uses existing Titan token. The monsters are plural as five were counted in prior slice.",
+        "635:t_022:8-11: Eating the creature's flesh for eternal Topless powers is preserved literally, without softening."
+      ]
+    },
+    "dlg_2090_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "635:t_032:1: Tria leaves the hoped-for resolution after stopping the ELS unstated.",
+        "635:t_034:0: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_034:1: Zechs starts a startled address to Graham, without finishing.",
+        "635:t_035:1: Wufei leaves the fatal consequence of Graham's maneuver unstated.",
+        "635:t_036:0: Source standalone reaction preserved: Guh!",
+        "635:t_036:1: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_036:4: Setsuna starts the objection that nobody wants Graham's sacrifice; Heero completes it in row5.",
+        "635:t_036:5: Heero completes Setsuna's sentence from row4: nobody wants that sacrifice.",
+        "635:t_037:0: Source name/title-only address or recognition preserved: Young man!",
+        "635:t_037:3: Source name/title-only address or recognition preserved: NAME...",
+        "635:t_039:6: Source standalone reaction preserved: What!?",
+        "635:t_040:0: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_040:1: Death branch: Zechs starts a startled address to Graham, without finishing.",
+        "635:t_041:1: Death branch: Wufei leaves the fatal consequence of Graham's maneuver unstated.",
+        "635:t_042:0: Source standalone reaction preserved: Guh!",
+        "635:t_042:1: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_042:2: Source name/title-only address or recognition preserved: Young man...",
+        "635:t_042:4: Graham's last explanation of his sacrifice is deliberately unfinished.",
+        "635:t_043:0: Source name/title-only address or recognition preserved: NAME!",
+        "635:t_043:1: Source standalone reaction preserved: Gh...!",
+        "635:t_045:5: Source standalone reaction preserved: What!?",
+        "635:t_046:0: Noriko leaves the consequence of a black hole unstated; Kazumi supplies it next.",
+        "635:t_046:4: Suzune leaves humanity's feared fate unfinished in panic.",
+        "635:t_046:5: Hibiki leaves an impossible wish for the twelve Spheres deliberately hanging.",
+        "635:t_047:0: Amuro stops at This is as the shared voice arrives; the next rows identify it."
+      ],
+      "uncertain": [
+        "635:t_034-039 versus040-045: Graham survival and death branches retained separately.",
+        "635:t_047:1: Words flash through Kamille's mind via shared consciousness; no physical written text is implied."
+      ]
+    },
+    "dlg_2090_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "635:t_051:3: Sumeragi gives up mid-thought after the ELS convergence; the unfinished conclusion is retained.",
+        "635:t_108:0: Noriko begins the shared pledge to protect Earth; anticipatory it points to Earth named in t_108:2.",
+        "635:t_108:1: Kazumi supplies the means clause of Noriko's shared pledge; kept as a cross-speaker fragment.",
+        "635:t_108:2: Noriko supplies Earth as the delayed object of the shared pledge begun in t_108:0.",
+        "635:t_118:0: Loran contrasts hoped-for understanding with the present, leaving the contrast unfinished; t_118:1 states the need to fight.",
+        "635:t_126:1: Kira leaves the consequence of for their sake unfinished rather than adding a promise absent from the source.",
+        "635:t_128:0: Heero's clipped targeting report deliberately defers the target after Attack target; t_128:1 supplies it.",
+        "635:t_128:1: Completes Heero's target specification in t_128:0; kept as the matching noun-phrase continuation.",
+        "635:t_132:0: Sousuke announces there is only one battlefield task and leaves its description unstated; next row explains his fighting policy."
+      ],
+      "uncertain": []
+    },
+    "dlg_2090_09": {
+      "rows_in_slice": 44,
+      "rows_examined": 44,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "635:t_139:0: Source deliberately leaves the spoken reaction $$ノリコ$$! That space monster...! as a standalone naming/recognition phrase; no conclusion is invented.",
+        "635:t_146:0: Source deliberately leaves the spoken reaction $$ダヤッカ$$, $$リーロン$$, $$ロージェノム$$, $$アーテンボロー$$! $$テツカン$$, $$ガバル$$, $$シベラ$$! as a standalone naming/recognition phrase; no conclusion is invented.",
+        "635:t_146:9: Standalone address or recognition: $$ニア$$!; no missing predicate is inferred."
+      ],
+      "uncertain": []
+    },
+    "dlg_2091_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "640:t_1:29: Standalone address or recognition: $$ニア$$...; no missing predicate is inferred.",
+        "640:t_1:32: Simon begins the condition for their wedding promise and leaves the main clause to t_1:34.",
+        "640:t_1:33: Nia repeats Simon's conditional fragment as a prompt; Simon supplies the wedding promise next.",
+        "640:t_1:70: Kira enumerates the cosmic collapse and its Baal harbinger as reflective noun phrases before Shinn's inference.",
+        "640:t_1:73: Ledo leaves the now that clause open; t_1:74 supplies the decisive battle they will undertake.",
+        "640:t_1:76: Olson begins the explanation of the Earth defense project and carries its development history into t_1:77."
+      ],
+      "uncertain": [
+        "640:t_1:17: Simon treats defeating Baal as a way to stop the collapse; should/expected confidence is preserved rather than asserting proven mechanics."
+      ]
+    },
+    "dlg_2091_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "640:t_1:89: Sylvia repeats the 120-million-year figure pensively before questioning why Earth years measure cosmic events.",
+        "640:t_1:98: Sivil's deliberately broken speech preserves her established halting voice; this is stylistic, not unresolved Japanese pro-drop.",
+        "640:t_1:101: Source is deliberate silence; no words or inferred thought are supplied.",
+        "640:t_1:105: Chirico lists contact with Wiseman, Kamine Island ruins and the fundamental calamity; Zero provides their shared connection next.",
+        "640:t_1:137: Sousuke's technical explanation of the drone attack is interrupted by Kaname's complaint in t_1:138.",
+        "640:t_1:139: Sousuke starts an appeal for peace through understanding; Kaname interrupts in t_1:140.",
+        "640:t_1:161: Hibiki starts a reproach to Boss, Nuke and Mucha, then Suzune interrupts with her question."
+      ],
+      "uncertain": [
+        "640:t_1:115/119: The source greets Year 3 Class 4 but later says Year 2 Class 4. Both source year numbers are deliberately retained; no continuity repair invented.",
+        "640:t_1:137: RVF-25 is the abbreviated machine identifier in the source; kept as plain RVF-25, not expanded to a longer model."
+      ]
+    },
+    "dlg_2091_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "640:t_1:189: Alternate route: Sousuke's appeal for peace is interrupted by Kaname in t_1:190.",
+        "640:t_1:211: Alternate route: Hibiki starts a reproach to the teasing trio before Suzune's question.",
+        "640:t_1:224: Source is deliberate silence; no words or inferred thought are supplied.",
+        "640:t_1:245: Noriko repeats Kazumi's key to the fleet description in surprise, without adding a proposition."
+      ],
+      "uncertain": []
+    },
+    "dlg_2091_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "640:t_3:21: Standalone address or recognition: Chief...; no missing predicate is inferred.",
+        "640:t_3:38: Rand leaves the implication of the one-month lifespan unstated; Kamille states the deadline in t_3:39.",
+        "640:t_3:41: Source is deliberate silence; no words or inferred thought are supplied.",
+        "640:t_3:42: Source is deliberate silence; no words or inferred thought are supplied.",
+        "640:t_3:43: Source is deliberate silence; no words or inferred thought are supplied.",
+        "640:t_3:44: Source is deliberate silence; no words or inferred thought are supplied.",
+        "640:t_3:46: Haman names El Millenium and Angeloi Arca as the terrifying combatants AG has just mentioned.",
+        "640:t_3:61: The unidentified voice juxtaposes despair/possibility and destruction/evolution in deliberate parallel noun phrases.",
+        "640:t_3:63: The unidentified speaker leaves those needing salvation unnamed; them is neutral and does not assert a specific individual."
+      ],
+      "uncertain": [
+        "640:t_3:63: The unknown voice's salvation recipient is unstated; neutral them preserves that unresolved group/object without naming an individual.",
+        "640:t_3:35-37: spirit quanta is distinct from the ordinary power of life; the field's event-control and one-use/month limits are all retained."
+      ]
+    },
+    "dlg_2091_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "641:t_002:3: Source deliberately leaves the spoken reaction $$シロー$$, Mom, Dad... as a standalone naming/recognition phrase; no conclusion is invented.",
+        "641:t_002:4: Source deliberately leaves the spoken reaction Mom, $$サチ子$$, $$しげる$$, $$かおる$$, Miss $$美重子$$, Mr. $$大門$$, everyone at school... as a standalone naming/recognition phrase; no conclusion is invented.",
+        "641:t_002:5: Source deliberately leaves the spoken reaction $$マッキー$$, Dr. $$敷島$$, Director $$大塚$$... as a standalone naming/recognition phrase; no conclusion is invented.",
+        "641:t_002:6: Source deliberately leaves the spoken reaction Dad, Mom, Big Bro $$イチ$$, Grandpa, Grandma, $$香月$$, $$アキ$$, $$ミチ$$... as a standalone naming/recognition phrase; no conclusion is invented.",
+        "641:t_002:7: Standalone address or recognition: $$オードリー$$...; no missing predicate is inferred.",
+        "641:t_002:8: Standalone address or recognition: $$リリーナ$$...; no missing predicate is inferred.",
+        "641:t_002:9: Standalone address or recognition: $$ナナリー$$...; no missing predicate is inferred.",
+        "641:t_002:10: Standalone address or recognition: $$フィアナ$$...; no missing predicate is inferred.",
+        "641:t_002:11: Standalone address or recognition: $$ラクス$$...; no missing predicate is inferred.",
+        "641:t_002:12: Source deliberately leaves the spoken reaction Everyone at $$陣代高校$$... as a standalone naming/recognition phrase; no conclusion is invented.",
+        "641:t_002:13: Standalone address or recognition: Big Sis...; no missing predicate is inferred.",
+        "641:t_002:14: Standalone address or recognition: Big Sis...; no missing predicate is inferred.",
+        "641:t_002:15: Standalone address or recognition: Big Sis...; no missing predicate is inferred.",
+        "641:t_004:0: Standalone address or recognition: $$新地球皇国$$!; no missing predicate is inferred.",
+        "641:t_006:0: Source deliberately leaves the spoken reaction Those machines...! as a standalone naming/recognition phrase; no conclusion is invented."
+      ],
+      "uncertain": []
+    },
+    "dlg_2091_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "641:t_008:0: Standalone address or recognition: $$宇宙怪獣$$!; no missing predicate is inferred.",
+        "641:t_008:1: Standalone address or recognition: $$宇宙怪獣$$!; no missing predicate is inferred.",
+        "641:t_008:2: Standalone address or recognition: $$宇宙怪獣$$!; no missing predicate is inferred.",
+        "641:t_009:1: Standalone address or recognition: $$ハーデス$$!; no missing predicate is inferred.",
+        "641:t_010:1: Standalone address or recognition: Emperor $$ズール$$!; no missing predicate is inferred.",
+        "641:t_010:3: Standalone address or recognition: $$宇宙魔王#pilot$$!; no missing predicate is inferred.",
+        "641:t_011:0: Cowen begins a because clause addressed to the team; Stinger completes the reason in t_011:1.",
+        "641:t_011:1: Stinger completes Cowen's because clause with the team's move from evolution to Shinka.",
+        "641:t_013:1: Standalone address or recognition: $$ヴィルダーク$$!; no missing predicate is inferred.",
+        "641:t_013:8: Hades starts the collective description of they as the universe's self-appointed rulers; Vildark names the Antis later.",
+        "641:t_013:9: Zuul supplies the next noun-phrase description of the same beings; identification is delayed until t_013:15.",
+        "641:t_013:10: Space Demon King supplies another descriptor in the collective list whose final identification is the Antis.",
+        "641:t_013:11: Cowen opens a coordinated description of the beings at evolution's pinnacle; Stinger completes it next.",
+        "641:t_013:12: Stinger completes Cowen's coordinated description with their refusal to allow others' Shinka.",
+        "641:t_013:13: Mikage adds the last descriptor in the collective list before Vildark supplies their name.",
+        "641:t_013:14: Vildark leaves Their name is open; t_013:15 supplies Antis.",
+        "641:t_013:15: Antis completes the naming clause in t_013:14; preserved as its own row.",
+        "641:t_014:2: Source is a nonverbal startled exclamation; no spoken clause is supplied.",
+        "641:t_014:4: Hibiki begins identifying the familiar girl and cuts himself off in disbelief; Tempty reveals Titi next.",
+        "641:t_014:31: Standalone address or recognition: $$シモン$$!?; no missing predicate is inferred.",
+        "641:t_014:32: Simon lists what Anti-Spiral feared as noun phrases; t_014:33 identifies that despair as these beings.",
+        "641:t_014:36: Chirico's terse reaction is an evaluative fragment at the Antis' arrogance."
+      ],
+      "uncertain": [
+        "641:t_013:8-15: All speakers describe the same unnamed beings; final Antis identification governs the whole descriptor chain.",
+        "641:t_014:22: Tempty speaks of genetic conditioning from the Moon/Chrono era, not literal biological parenthood; like children retains her comparison."
+      ]
+    },
+    "dlg_2091_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "641:t_014:42: Hades begins a furious accusation at the Antis but leaves it unfinished.",
+        "641:t_014:63: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_014:65: Standalone address or recognition: $$ティティ$$...; no missing predicate is inferred.",
+        "641:t_014:67: Hibiki starts asking whether Titi's family tragedy was real; Tempty supplies the lie revelation next.",
+        "641:t_014:69: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_014:71: Suzune breaks off her condemnation of Tempty and is told to keep quiet next.",
+        "641:t_014:78: Suzune's reproach for deceiving Hibiki is interrupted when he says it is all right in t_014:79.",
+        "641:t_014:80: Standalone address or recognition: $n...; no missing predicate is inferred.",
+        "641:t_014:87: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_014:90: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_014:91: Standalone address or recognition: $$ハマリエル・ザ・スター$$...; no missing predicate is inferred.",
+        "641:t_014:92: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_014:93: Standalone address or recognition: $$ウェルキエル・ザ・ヒート$$...; no missing predicate is inferred.",
+        "641:t_014:94: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_014:95: Standalone address or recognition: $$ズリエル・ジ・アンブレイカブル$$...; no missing predicate is inferred.",
+        "641:t_014:96: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_015:1: Standalone address or recognition: $$アドヴェント#pilot$$!; no missing predicate is inferred.",
+        "641:t_016:1: Standalone address or recognition: $n!; no missing predicate is inferred.",
+        "641:t_016:2: Koji recognizes the Bloodstained Eyes attack in alarm without adding an action not in the source.",
+        "641:t_016:9: Rand's demand for Advent's identity breaks off; Advent identifies himself in t_016:10."
+      ],
+      "uncertain": [
+        "641:t_014:98: that one is the holder of the remaining four Spheres, contextually Vildark; kept as the source's indirect reference.",
+        "641:t_016:10: Advent's claim to be the last Anti conflicts only apparently with later sorrow speculation; source claim is preserved without harmonizing lore."
+      ]
+    },
+    "dlg_2091_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "641:t_016:20: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_016:28: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_016:33: Source is deliberate silence; no words or inferred thought are supplied.",
+        "641:t_016:39: Shinn breaks off the accusation about Hibiki's father and sister; their killing is explicitly confirmed by Hibiki in t_016:51.",
+        "641:t_016:47: Standalone address or recognition: $n!; no missing predicate is inferred.",
+        "641:t_016:50: Standalone address or recognition: $n...; no missing predicate is inferred.",
+        "641:t_016:67: Doctrine completes Tempty's promise to send images in t_016:66 with the content of those images.",
+        "641:t_016:68: Source is a nonverbal startled exclamation; no spoken clause is supplied.",
+        "641:t_017:3: Standalone address or recognition: $$ＡＧ$$!; no missing predicate is inferred."
+      ],
+      "uncertain": [
+        "641:t_016:52: proof in his blood refers back to the genetically engraved fear at t_014:21. Kept close to the source metaphor; review if a settled lore rendering is later established.",
+        "641:t_016:61-62: galaxy destruction preparations/state remain undefined here; no mechanism is added."
+      ]
+    },
+    "dlg_2091_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "641:t_017:28: Source deliberately leaves the spoken reaction That's...! as a standalone naming/recognition phrase; no conclusion is invented.",
+        "641:t_020:0: Koji leaves the proposed combined-power consequence open; Vildark rejects reliance on him next.",
+        "641:t_020:2: Crowe begins a reaction to Vildark's rejection, but does not finish it.",
+        "641:t_021:2: Zuul supplies what Hades says Vildark knows in t_021:1; the English restores He knows for grammatical clarity.",
+        "641:t_021:4: Cowen begins Our battlefield is; Stinger names that battlefield in t_021:5.",
+        "641:t_021:5: Stinger supplies the sea of stars as the predicate complement of Cowen's previous row.",
+        "641:t_023:7: Standalone address or recognition: Dr. $$トライア$$...; no missing predicate is inferred.",
+        "641:t_023:9: Tessa leaves Then open; Tria confirms that their contingency has arrived in the next row.",
+        "641:t_023:12: Shotaro leaves the failure condition open, before Takeru urges him to focus on fighting.",
+        "641:t_026:1: Zechs leaves Earth's fate unfinished if the enemy breaks through; it is a deliberate ominous break.",
+        "641:t_026:5: Riddhe leaves his protest at withdrawing with enemies still present unfinished; Banagher voices the feared implication next.",
+        "641:t_028:0: Setsuko starts Earth is; Rand completes the predicate with being covered in t_028:1.",
+        "641:t_028:1: Rand supplies the predicate for Setsuko's Earth is in t_028:0, keeping the shared cross-speaker sentence."
+      ],
+      "uncertain": [
+        "641:t_019:29: them means the Antis; Vildark's aim to seize our Spheres follows his refusal to ally with us.",
+        "641:t_028:0-1: The visible shared sentence deliberately crosses Setsuko/Rand rows; Earth is / Being covered preserves its boundary."
+      ]
+    },
+    "dlg_2091_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "641:t_109:0: Nono leaves So open; her next dialogue variant continues with the promise to meet Lal'C in the galaxy.",
+        "641:t_109:1: Buster Machine No. 7 variant of Nono's So fragment; t_109:4 supplies the reunion promise.",
+        "641:t_109:2: Diebuster variant of Nono's So fragment; t_109:5 supplies the reunion promise.",
+        "641:t_115:1: Shinji supplies the purpose phrases for We have to go in t_115:0; retained as a cross-row continuation.",
+        "641:t_133:0: Hibiki leaves the what-if consequence of an attack after departure unstated; Suzune answers the worry in t_133:1.",
+        "641:t_134:0: Hibiki silently names the Antis and Advent; no unspoken conclusion is invented.",
+        "641:t_134:1: Standalone address or recognition: $n...; no missing predicate is inferred."
+      ],
+      "uncertain": []
+    },
+    "dlg_2091_10": {
+      "rows_in_slice": 2,
+      "rows_examined": 2,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2250_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "837:t_1:16: The Elder begins attributing Lal'C's distance from Nono to Nono's power; Lal'C cuts off that interpretation next.",
+        "837:t_1:26: The Elder presents Baal and Space Monsters as an explanatory naming phrase before his speculation in t_1:27.",
+        "837:t_1:32: Lal'C repeats the key and its significance, not an independent declarative sentence.",
+        "837:t_1:35: Lal'C leaves her relation to Nono unfinished after I am your; no conclusion is supplied.",
+        "838:t_000:9: Lordgenome begins we must not forget; t_000:10 supplies the fact to remember.",
+        "838:t_000:10: Completes Lordgenome's we must not forget with the earlier civilizations' defeat.",
+        "838:t_000:17: Lordgenome prompts Nia to name the key, leaving That is open; Nia answers in t_000:18.",
+        "838:t_000:21: Tetsukan starts recognizing the incoming threat and breaks off before F.S. identifies the servants.",
+        "838:t_002:6: Felt begins the Shin Getter Dragon deployment list; t_002:7 completes that same list.",
+        "838:t_002:7: Felt supplies the final two entries of her deployment list in t_002:6.",
+        "838:t_002:8: Mileina begins the Quarter deployment list; t_002:9 completes that list.",
+        "838:t_002:9: Mileina supplies the last personnel in the deployment list opened in t_002:8.",
+        "838:t_004:0: Tria begins a reaction to the attack; AG immediately warns hyperspace is collapsing.",
+        "837:t_10:4: AG begins the reflective topic The final battle; t_10:5 comments on its troubled beginning."
+      ],
+      "uncertain": [
+        "837:t_1:23: quoted gun is the power of guns/fire-age civilization, rendered as guns, not a newly invented named system.",
+        "837:t_1:26-27: Elder speculates that Space Monsters could be humanity's future. His uncertainty and opposition to life-power are preserved.",
+        "838:t_002:12: This single source record contains two route-choice speech blocks; both are retained on separate lines.",
+        "838:t_002:5: source short Shin Dragon kept as its new short-name token, distinct from full Shin Getter Dragon in the deployment list."
+      ]
+    },
+    "dlg_2250_01": {
+      "rows_in_slice": 19,
+      "rows_examined": 19,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "838:t_006:0: Alternate route: Tria begins reacting to the attack; AG supplies the immediate collapse warning.",
+        "838:t_006:3: Standalone address or recognition: $$號$$!; no missing predicate is inferred.",
+        "843:t_1:3: Source is deliberate silence; no words or inferred thought are supplied.",
+        "843:t_10:4: AG begins the reflective topic The final battle; t_10:5 comments on its troubled beginning."
+      ],
+      "uncertain": []
+    },
+    "dlg_2092_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "646:t_1:3: Source is deliberate silence; no words or inferred thought are supplied.",
+        "646:t_1:4: The unknown voice begins recognizing Asakim and leaves the identification unfinished.",
+        "646:t_2:4: Source is deliberate silence; no words or inferred thought are supplied.",
+        "646:t_2:10: Garrod prompts Loran about the implied Moonlight Butterfly connection; Loran explains it next.",
+        "646:t_2:16: Standalone address or recognition: Big Bro $$ロジャー$$...; no missing predicate is inferred.",
+        "646:t_2:41: Source is deliberate silence; no words or inferred thought are supplied.",
+        "646:t_10:7: Kappei pensively repeats Bandock as a topic before AG resumes flattering him."
+      ],
+      "uncertain": [
+        "646:t_2:8-11: Zeus proposes Gaizock's reasoning, and Loran proposes a parallel Moonlight Butterfly purpose; both remain conjecture.",
+        "646:t_2:59-70: Banjo's deductions about the Time Prison and sorrow Anti remain deductions, not established facts."
+      ]
+    },
+    "dlg_2092_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "646:t_10:25: AG opens the recurring business chant; Zeus completes it in t_10:26.",
+        "646:t_10:26: Zeus supplies the business chant after AG's lead-in; its slogans are deliberate fragments.",
+        "646:t_10:31: Zeus begins identifying AG, then AG explicitly stops him from finishing in t_10:32.",
+        "647:t_000:12: Standalone address or recognition: $n...; no missing predicate is inferred.",
+        "647:t_000:17: Source is deliberate silence; no words or inferred thought are supplied.",
+        "647:t_000:20: Takeru lists the few known attributes of the Antis as noun phrases following Kamille's observation.",
+        "647:t_000:29: Shinji leaves the consequence of galaxy destruction open; Kappei explains Svell could not stop it next."
+      ],
+      "uncertain": [
+        "646:t_10:13: Bandock/woof-dog adapts the Japanese barking pun; Chiyonishiki's surrounding woofs maintain the joke.",
+        "647:t_000:33-38: The team infers a limit on galaxy destruction but does not know the preparations; no invented explanation is supplied.",
+        "647:t_002:7-9: Mycenaean God offers an alliance and guidance; translated as his claim, without validating its sincerity."
+      ]
+    },
+    "dlg_2092_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "647:t_002:15: Benkei leaves his concession after \"but\" unfinished; Hayato immediately rebuts the tempting claim in the next row.",
+        "647:t_002:23: An unfinished accusatory address to the enemy precedes the complete question; no accusation was supplied.",
+        "647:t_003:0: The enemy army is identified in a shouted noun phrase; this is the sighting that prompts the next response.",
+        "647:t_003:12: Takeru states the condition about losing peace and freedom; Koji supplies the defiant consequence in t_003:13.",
+        "647:t_005:0: Bandock is identified in an exclamation rather than a declarative sentence.",
+        "647:t_005:15: Aoi lists the defects in Gaizok's argument before her complete judgment about its lack of sense."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "The Olympus god offers false or coercive assurances; the later Zeus guidance is sincere. Their statements are not treated as the same offer."
+      ]
+    },
+    "dlg_2092_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "647:t_006:26: The planet Earth is identified before Gaizok states his conclusion in t_006:27.",
+        "647:t_008:7: Zeus trails after \"Unfortunately\" in response to the question about the Adversaries' stronghold; Watta asks him to stop keeping secrets before Zeus explains why he cannot provide that information.",
+        "647:t_011:0: The recognition question stops after \"You are\"; the subsequent identification resolves who appeared.",
+        "647:t_012:0: The invitation is deliberately left hanging; the following speaker responds to the implied invitation.",
+        "647:t_012:3: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "647:t_008:12: Zeus answers the preceding question about elapsed time with a comparative phrase; \"longer than that\" means longer than the suggested 12,000 years."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "The Olympus god offers false or coercive assurances; the later Zeus guidance is sincere. Their statements are not treated as the same offer."
+      ]
+    },
+    "dlg_2092_04": {
+      "rows_in_slice": 2,
+      "rows_examined": 2,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [],
+      "context_decisions": [
+        "The Olympus god offers false or coercive assurances; the later Zeus guidance is sincere. Their statements are not treated as the same offer."
+      ]
+    },
+    "dlg_2093_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "652:t_1:9: The Galaxy fleet's Vajra are echoed as a surprised identification of the incoming force.",
+        "652:t_1:11: The possibility of an attack is left as a shocked reflection; no unstated consequence was invented.",
+        "652:t_1:28: Silent reaction; no spoken grammatical clause exists in the source.",
+        "652:t_1:31: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "652:t_1:47: The recollection trails after \"now that you mention it\" before the following explanation.",
+        "652:t_1:55: Silent reaction; no spoken grammatical clause exists in the source.",
+        "652:t_1:66: The object of \"know\" appears in t_1:67: nothing can be accomplished without hard work and guts. The two rows remain separate.",
+        "652:t_1:72: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "652:t_1:74: Silent reaction; no spoken grammatical clause exists in the source.",
+        "652:t_1:78: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "652:t_1:85: The internal objection is deliberately left at \"But\"; no conclusion is supplied.",
+        "652:t_1:65: The phrase \"hard work and guts\" is raised as the topic before the complete statement that nobody enjoys pain or hardship."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2093_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "652:t_1:87: Silent reaction; no spoken grammatical clause exists in the source.",
+        "652:t_1:92: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "652:t_1:99: The internal objection is deliberately left at \"But\"; no conclusion is supplied.",
+        "652:t_1:101: Johnny enumerates the two remaining enemy bases in response to the prior question; these are the galactic center and the dimensional rift.",
+        "652:t_1:105: The fear of encountering another variable gravity source trails off without stating the feared consequence.",
+        "652:t_1:107: Noriko's explanation ends with an unfinished concession after the gravity-collapse countermeasure; Johnny then expresses his reluctance to fight.",
+        "652:t_1:110: The affectionate reproach stops at the address; no extra accusation was added.",
+        "652:t_10:4: The Olympus god is raised as a reflective topic before the next row discusses the encounter.",
+        "652:t_10:6: The two battles with Garadoublas are enumerated; t_10:7 explains that they generated Z Chips.",
+        "653:t_003:2: The source leaves this hesitation or conversational lead-in unfinished without stating a subsequent proposition.",
+        "653:t_003:3: The source leaves this hesitation or conversational lead-in unfinished without stating a subsequent proposition.",
+        "653:t_003:4: The source leaves this hesitation or conversational lead-in unfinished without stating a subsequent proposition.",
+        "653:t_003:9: The exasperated remark leaves the complaint unfinished rather than supplying an insult."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2093_02": {
+      "rows_in_slice": 78,
+      "rows_examined": 78,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "653:t_003:17: Garadoublas stops before naming the being who established the Baal category.",
+        "653:t_003:18: Hayato's conclusion is cut off by the incoming attack; no completed theory was invented.",
+        "653:t_004:4: Garadoublas leaves the consequence of the heroes' continuing growth unsaid.",
+        "653:t_005:1: The astonished reflection trails without a completed conclusion.",
+        "653:t_008:3: Koji's moved address to Garadoublas is unfinished; the emotional reaction is retained.",
+        "653:t_105:0: Hibiki considers self-sacrifice and leaves the \"if that is the only way\" condition without a stated consequence.",
+        "653:t_105:1: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "658:t_1:13: The proof is not stated before the comrades arrive and demonstrate it.",
+        "658:t_1:23: Ryoma recognizes his comrades with an unfinished identifying address.",
+        "658:t_1:27: Ryoma says he has chosen his path here; t_1:28 gives that path as fighting and living.",
+        "658:t_1:28: The purpose phrase completes the choice made in t_1:27; it remains separate to preserve the spoken turn.",
+        "658:t_1:30: Ryoma's objection trails after \"But\"; his alternate self answers in t_1:31.",
+        "658:t_1:33: The end of myth is repeated as a questioning identification, before the explanation in t_1:34.",
+        "658:t_2:8: The instruments of Mishima's plan are listed here; t_2:9 supplies the main clause about becoming humanity's ruler.",
+        "658:t_2:37: The unresolved concern about Ranka trails after \"But then\"; Klan answers it in t_2:38.",
+        "658:t_2:44: Silent reaction; no spoken grammatical clause exists in the source.",
+        "658:t_1:35: The command to fight is followed by its purpose as a detached phrase: carrying the warriors' lives into the future.",
+        "658:t_2:43: The complete statement that they must win is followed by a detached dedication to every life in the universe."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "658:t_10:23: The merchant slogan \"Business, business\" is deliberately a chant without a predicate.",
+        "659:t_000:0: Hayato starts to identify the sight and stops; Ryoma identifies the dimensional rift next.",
+        "659:t_001:0: Ryoma identifies the dimensional rift in a shocked noun question.",
+        "659:t_001:3: Benkei repeats the void as a surprised question before Crow explains it.",
+        "659:t_002:2: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_002:9: Amuro repeats the two concepts, truth and Shinka, while reflecting on their connection.",
+        "659:t_003:5: Banagher starts an angry address to Tempti, then her departure cuts the exchange short.",
+        "658:t_10:20: The concession about possibly never using the trump card is left hanging; AG answers with encouragement rather than a stated main clause."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_009:2: Viral poses two possible identifications of the extra enemies as brief noun questions.",
+        "659:t_009:11: Suzune echoes the claim about dimensional power's essence in surprise.",
+        "659:t_009:16: The Invader enumerates the two sides; t_009:17 completes the proposition about their combination.",
+        "659:t_010:16: Hayato contrasts the two sides before the complete sentence explaining that this fight determines who survives.",
+        "659:t_011:7: Wordless exclamation; no grammatical clause exists in the source.",
+        "659:t_012:0: Koji points to the unexplained light; Go identifies it as Getter rays in the next row.",
+        "659:t_012:3: The recognition question stops before naming Saotome; his identity is supplied in later rows.",
+        "659:t_012:7: The changed form is pointed out in a noun exclamation, followed by a complete question about absorption into Getter rays.",
+        "659:t_009:8: Roger identifies the space as a world with a different natural order before inferring that the enemies wield dimensional power."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_012:12: The first half of the two-row question is spoken here; t_012:13 supplies its questioning predicate.",
+        "659:t_012:13: This row completes the question begun in t_012:12; the split is deliberate.",
+        "659:t_012:15: \"Together\" is the first half of the remembered principle, completed by \"we live\" in t_012:16.",
+        "659:t_012:16: The remembered principle completes t_012:15; its subject is restored as \"we\" while retaining the two-row echo.",
+        "659:t_012:27: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_014:3: The Great Void and its annihilating force are identified in a shocked echo of the sight.",
+        "659:t_015:0: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_016:0: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_016:1: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_016:3: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_016:4: AG states an unfinished conditional inference about Getter rays; Ryoma acts before the proposed conclusion is stated.",
+        "659:t_018:0: Ryoma begins to recognize their location; AG provides the coordinates in the next row.",
+        "659:t_019:0: The Macross Quarter is identified as the arriving ship in an exclamation.",
+        "659:t_019:4: The implication of their escape is left at \"Then\"; the later exchange names the approaching final battle.",
+        "659:t_019:5: The implication of their escape is left at \"Then\"; the later exchange names the approaching final battle.",
+        "659:t_019:6: The implication of their escape is left at \"Then\"; the later exchange names the approaching final battle.",
+        "659:t_021:1: Kaworu reflects on the enemies' end as a noun phrase before saying it is sad; this is internal reflection rather than a tactical report.",
+        "659:t_012:14: \"To live together\" answers the preceding question about the truth, followed by \"that is all\"; it is a deliberate infinitival answer.",
+        "659:t_013:0: The names are spoken as a recognition or farewell without a further predicate; the surrounding exchange identifies the people.",
+        "659:t_016:6: Ryoma points to the dimensional rift in a separate noun exclamation, then requests power to dispel the Great Void."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_107:0: The epithet describing the bearer of light and darkness precedes the complete naming sentence about Mars; it is a deliberate introductory identification.",
+        "659:t_110:5: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_110:6: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_110:7: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_114:1: Shinji leaves the threatened action unsaid after stating his wish to protect everyone; the Invader interrupts and mocks him in the following row."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "Akagi accuses the Invaders of taking lives, then states humanity's duty to stop them; the English subject explicitly attributes the killing to the enemies."
+      ]
+    },
+    "dlg_2094_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_118:0: The enemies are addressed through an accusatory noun phrase before the complete sentence denying them a place in the universe.",
+        "659:t_118:3: Camille's condition about selfishness destroying the universe is completed by his response in t_118:4.",
+        "659:t_119:4: Banagher states that they will survive, then gives the purpose in a separate rhetorical phrase: seeing where humanity's potential leads.",
+        "659:t_128:4: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_129:0: The condition about using Sphere power precedes the consequence in t_129:1; the two source rows remain separate.",
+        "659:t_116:3: Loran begins an accusatory address to the enemy before the complete question about who lives in the universe.",
+        "659:t_117:2: Amuro sets out evolution and Shinka as the thought's paired topic before reflecting on their meaning.",
+        "659:t_125:2: The Invader reacts to Sousuke in an identifying exclamation before the complete question about his apparent lack of fear.",
+        "659:t_126:0: Zero raises truth and Shinka as the thought's paired topic before asking whether that pursuit has inflated the enemies' egos."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_137:0: The epithet describing the bearer of light and darkness precedes the complete naming sentence about Mars; it is a deliberate introductory identification.",
+        "659:t_140:5: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_140:6: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_140:7: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_144:1: Shinji leaves the threatened action unsaid after stating his wish to protect everyone; the Invader interrupts and mocks him in the following row."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "Akagi accuses the Invaders of taking lives, then states humanity's duty to stop them; the English subject explicitly attributes the killing to the enemies."
+      ]
+    },
+    "dlg_2094_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_148:0: The enemies are addressed through an accusatory noun phrase before the complete sentence denying them a place in the universe.",
+        "659:t_148:3: Camille's condition about selfishness destroying the universe is completed by his response in t_118:4.",
+        "659:t_149:4: Banagher states that they will survive, then gives the purpose in a separate rhetorical phrase: seeing where humanity's potential leads.",
+        "659:t_158:4: A name or identifying address is exclaimed without a completed clause; the speaker is reacting to the person addressed.",
+        "659:t_159:0: The condition about using Sphere power precedes the consequence in t_129:1; the two source rows remain separate.",
+        "659:t_146:3: Loran begins an accusatory address to the enemy before the complete question about who lives in the universe.",
+        "659:t_147:2: Amuro sets out evolution and Shinka as the thought's paired topic before reflecting on their meaning.",
+        "659:t_155:2: The Invader reacts to Sousuke in an identifying exclamation before the complete question about his apparent lack of fear.",
+        "659:t_156:0: Zero raises truth and Shinka as the thought's paired topic before asking whether that pursuit has inflated the enemies' egos."
+      ],
+      "uncertain": [],
+      "context_decisions": []
+    },
+    "dlg_2094_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_167:0: The epithet describing the bearer of light and darkness precedes the complete naming sentence about Mars; it is a deliberate introductory identification.",
+        "659:t_170:5: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_170:6: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_170:7: The reason is deliberately held until the next matching Nono form's row, which identifies her as humanity's protective Buster Machine.",
+        "659:t_174:1: Shinji leaves the threatened action unsaid after stating his wish to protect everyone; the Invader interrupts and mocks him in the following row."
+      ],
+      "uncertain": [],
+      "context_decisions": [
+        "Akagi accuses the Invaders of taking lives, then states humanity's duty to stop them; the English subject explicitly attributes the killing to the enemies."
+      ]
+    },
+    "dlg_2094_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_177:2: The initial evolution-to-Shinka phrase is Amuro's explicit reflective topic before his complete thought.",
+        "659:t_178:3: Kamille's conditional deliberately trails into his resolve in t_178:4.",
+        "659:t_180:3: Setsuna's second phrase apposition identifies Baal after the complete first clause.",
+        "659:t_186:0: Zero opens with the two concepts he is considering; the following question explicitly restores they.",
+        "659:t_188:4: Mom's worried address to Kei is deliberately only his name.",
+        "659:t_189:0: The Invader's wish trails into the result stated in t_189:1."
+      ],
+      "uncertain": []
+    },
+    "dlg_2094_10": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_196:0: Go's first two noun phrases introduce the subject of his complete conclusion.",
+        "659:t_199:0: Noriko identifies the enemy with two shocked noun exclamations.",
+        "659:t_199:4: Noriko's affirmative answer and address directly accept Kazumi's instruction.",
+        "659:t_200:5: Nono's because clause deliberately waits for her declaration in t_200:8.",
+        "659:t_200:6: Nono's alternate form waits for her declaration in t_200:9.",
+        "659:t_200:7: Nono's alternate form waits for her declaration in t_200:10.",
+        "659:t_204:1: Shinji deliberately trails off before naming the action he will take to protect everyone."
+      ],
+      "uncertain": [
+        "659:t_200:0: Nono distinguishes the original space-monster identification from the broader enemy-of-humanity category; the deliberate contradiction is retained.",
+        "659:t_200:1: Same Nono route form: Baal's broader meaning resolves her deliberate contradiction.",
+        "659:t_200:2: Same Nono route form: Baal's broader meaning resolves her deliberate contradiction."
+      ]
+    },
+    "dlg_2094_11": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_207:2: The initial evolution-to-Shinka phrase is Amuro's explicit reflective topic before his complete thought.",
+        "659:t_208:3: Kamille's conditional deliberately trails into his resolve in t_208:4.",
+        "659:t_210:3: Setsuna's second phrase apposition identifies Baal after the complete first clause.",
+        "659:t_216:0: Zero opens with the two concepts he is considering; the following question explicitly restores they.",
+        "659:t_218:4: Mom's worried address to Kei is deliberately only his name.",
+        "659:t_219:0: The Invader's wish trails into the result stated in t_219:1."
+      ],
+      "uncertain": []
+    },
+    "dlg_2094_12": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_226:0: Go's first two noun phrases introduce the subject of his complete conclusion.",
+        "659:t_229:0: Noriko identifies the enemy with two shocked noun exclamations.",
+        "659:t_229:4: Noriko's affirmative answer and address directly accept Kazumi's instruction.",
+        "659:t_230:5: Nono's because clause deliberately waits for her declaration in t_230:8.",
+        "659:t_230:6: Nono's alternate form waits for her declaration in t_230:9.",
+        "659:t_230:7: Nono's alternate form waits for her declaration in t_230:10.",
+        "659:t_234:1: Shinji deliberately trails off before naming the action he will take to protect everyone."
+      ],
+      "uncertain": [
+        "659:t_230:0: Nono distinguishes the original space-monster identification from the broader enemy-of-humanity category; the deliberate contradiction is retained.",
+        "659:t_230:1: Same Nono route form: Baal's broader meaning resolves her deliberate contradiction.",
+        "659:t_230:2: Same Nono route form: Baal's broader meaning resolves her deliberate contradiction."
+      ]
+    },
+    "dlg_2094_13": {
+      "rows_in_slice": 73,
+      "rows_examined": 73,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "659:t_237:2: The initial evolution-to-Shinka phrase is Amuro's explicit reflective topic before his complete thought.",
+        "659:t_238:3: Kamille's conditional deliberately trails into his resolve in t_238:4.",
+        "659:t_240:3: Setsuna's second phrase apposition identifies Baal after the complete first clause.",
+        "659:t_246:0: Zero opens with the two concepts he is considering; the following question explicitly restores they.",
+        "659:t_248:4: Mom's worried address to Kei is deliberately only his name.",
+        "659:t_249:0: The Invader's wish trails into the result stated in t_249:1.",
+        "659:t_999:0: Hibiki's isolated interjection is the source's entire test/terminal record."
+      ],
+      "uncertain": []
+    },
+    "dlg_2098_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "682:t_1:5: Amuro remains silent during Bright's congratulations.",
+        "682:t_1:6: Banagher remains silent during Bright's congratulations.",
+        "682:t_1:9: Alto silently listens to Jeffrey's statement.",
+        "682:t_1:10: Koji silently listens to Jeffrey's statement.",
+        "682:t_1:15: Ryoma repeats Zero's term in reaction before Traia explains it.",
+        "682:t_1:18: Kei's opening noun phrase restates the process before his complete conclusion.",
+        "682:t_1:20: Takeru repeats the named anomaly before explicitly identifying its significance.",
+        "682:t_1:24: Kaname's brief interjection marks her realization of the mechanism.",
+        "682:t_1:28: Aoi names the opposing forces as a topic before her complete conclusion.",
+        "682:t_1:39: Suzune deliberately leaves her question about the same mechanism unfinished; Traia answers it next.",
+        "682:t_1:49: Watta's affirmative exclamation accepts Kappei's point before his full question.",
+        "682:t_1:65: Suzune addresses Hibiki in reaction to his interpretation, without completing another thought.",
+        "682:t_1:74: Jeffrey's list continues across the row boundary to t_1:75."
+      ],
+      "uncertain": [
+        "682:t_1:58: Traia's abstract explanation treats the perceiver's existence as transcendent after everything else vanishes."
+      ]
+    },
+    "dlg_2098_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "682:t_1:88: Noriko's silence responds to Kappei's confidence, preceding her warning about scale.",
+        "682:t_1:91: Watta's shocked interjection reacts to Noriko's comparison.",
+        "682:t_1:103: Chirico silently watches the enemy footage.",
+        "682:t_1:104: Heero silently watches the enemy footage.",
+        "682:t_1:115: Tessa introduces the operation as a topic; its first phase is explained in t_1:116.",
+        "682:t_1:128: Banagher's military affirmative directly acknowledges Bright's order.",
+        "682:t_1:129: Nono remains silently anxious about Lal'C's absence.",
+        "682:t_1:130: Chico's concerned address notices Nono's silence.",
+        "682:t_1:137: Noriko's surprised interjection responds to Nono's praise.",
+        "682:t_1:139: Noriko's name address answers Nono's vulnerable confession.",
+        "682:t_2:8: Nono's punctuation-only shock at Lal'C's rejection is retained exactly as an expressive reaction.",
+        "682:t_2:10: Lal'C's angry accusation deliberately breaks off into a second unfinished address.",
+        "682:t_2:11: Nono addresses Lal'C in hurt disbelief without adding a proposition.",
+        "682:t_2:14: Nono silently listens to Lal'C's confession of jealousy.",
+        "682:t_2:16: Lal'C's shouted insult is direct vocative address, not an omitted declarative predicate.",
+        "682:t_2:18: Lal'C's unfinished address reacts to Nono's admission.",
+        "682:t_2:21: Lal'C addresses Nono as she listens, without a completed thought."
+      ],
+      "uncertain": [
+        "682:t_2:27: Dorothy is Big O's Dorothy, as settled by Roger and Beck in this exchange."
+      ]
+    },
+    "dlg_2098_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "682:t_2:30: Beck completes the content of his question from t_2:29 across the row boundary.",
+        "682:t_2:31: Nono's affirmative directly answers Beck's question about Nonoriri's identity.",
+        "682:t_2:32: Noriko's shocked interjection reacts to her identification as Nonoriri.",
+        "682:t_2:49: Nono silently listens to the explanation of her world's forgotten history.",
+        "682:t_2:53: Noriko's concerned address responds to Nono's self-hatred.",
+        "682:t_2:57: Lal'C leaves her first-person declaration unfinished before expressing Nono's dazzling presence.",
+        "682:t_2:63: Nono's conditional appeal to Lal'C deliberately trails off.",
+        "682:t_2:64: Lal'C's involuntary reaction is only an interjection.",
+        "682:t_2:67: Nono's punctuation-only shock in the alternate branch is preserved.",
+        "682:t_2:69: Lal'C again breaks off her accusation into two incomplete angry addresses in this alternate branch.",
+        "682:t_2:70: Nono's hurt address to Lal'C is deliberately a fragment in this alternate branch.",
+        "682:t_2:73: Nono silently hears Lal'C's jealousy in the alternate branch.",
+        "682:t_2:75: Lal'C's name and shouted insult directly address Nono in this alternate branch.",
+        "682:t_2:77: Lal'C's incomplete address reacts to Nono's admission in the alternate branch.",
+        "682:t_2:80: Lal'C addresses Nono while hearing why she admired her in the alternate branch.",
+        "682:t_2:85: Noriko's shocked interjection reacts to Nono identifying her in the alternate branch.",
+        "682:t_2:102: Nono silently listens to the alternate explanation of her world's history.",
+        "682:t_2:108: Noriko's concerned address follows Nono's self-hatred in the alternate branch."
+      ],
+      "uncertain": []
+    },
+    "dlg_2098_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "682:t_2:112: Lal'C's first clause trails off before she calls Nono dazzling in this second branch.",
+        "682:t_2:118: Nono's conditional wish for Lal'C to be with her deliberately trails off in this second branch.",
+        "682:t_2:119: Lal'C reacts with an interjection before the scene shifts to her powerless cockpit.",
+        "682:t_3:11: Lal'C introduces the sealed power as a topic, then explicitly states her action.",
+        "682:t_4:3: Lal'C addresses Nono upon returning to her.",
+        "682:t_4:20: Nono's surprised address recognizes Noriko and Kazumi arriving.",
+        "682:t_4:29: Noriko reads the displayed welcome message aloud.",
+        "682:t_4:36: Nono's and-for clause continues the beneficiaries from t_4:35 across the row boundary.",
+        "682:t_4:37: Noriko addresses Nono in response to her concern for Earth and its people.",
+        "682:t_4:46: Kazumi begins a deliberate cross-row list of absent people that Noriko continues in t_4:47.",
+        "682:t_4:47: Noriko continues Kazumi's list of absent people; Kazumi draws the conclusion in t_4:48.",
+        "682:t_10:8: Asakim's location phrase completes where he will wait from t_10:7 across the row boundary.",
+        "682:t_10:9: AG's initial title addresses the departing Asakim before his complete reflection.",
+        "682:t_10:13: AG ends with his repeated business slogan, after his complete exhortation."
+      ],
+      "uncertain": [
+        "682:t_4:9: Her no rejects the supposed inability to be friends, as the following declaration explicitly confirms they are friends.",
+        "682:t_4:31: The visible Japanese welcome-home sign has a reversed final katakana I; 'I' names that glyph while preserving ASCII text."
+      ]
+    },
+    "dlg_2098_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_001:5: Nicola's opening noun phrase identifies the evolved enemies before his complete reaction.",
+        "683:t_001:8: Nono's affirmative accepts Noriko's battle instruction.",
+        "683:t_001:9: Nono's alternate Unit7 form accepts Noriko's battle instruction.",
+        "683:t_001:10: Nono's alternate Diebuster form accepts Noriko's battle instruction.",
+        "683:t_002:4: Gamlin opens by repeating the countdown as a topic before his complete thought.",
+        "683:t_003:6: Banagher's affirmative accepts Amuro's order to attack proactively.",
+        "683:t_003:9: Akagi continues the objects of Koji's we-will-protect declaration from t_003:8 across the row boundary.",
+        "683:t_006:2: Lordgenome deliberately leaves his recognition unfinished upon detecting the giant incoming enemy.",
+        "683:t_008:0: Nono's recognition of the incoming monster deliberately breaks off before naming it.",
+        "683:t_008:1: Nono's Unit7 alternate recognition deliberately breaks off before naming it.",
+        "683:t_008:2: Nono's Diebuster alternate recognition deliberately breaks off before naming it.",
+        "683:t_009:8: Aoi's conditional deliberately waits for Banagher's consequence in t_009:9.",
+        "683:t_010:1: Advent's greeting names Hibiki and then extends the greeting to the player squad.",
+        "683:t_010:6: Suzune's concerned address to Maki follows White's defense of Advent."
+      ],
+      "uncertain": []
+    },
+    "dlg_2098_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_010:14: Noriko's shocked denial reacts to the monster's reactor origin.",
+        "683:t_011:0: Kira names the newly appearing enemy in alarm.",
+        "683:t_012:0: Setsuko names Asakim upon his sudden appearance.",
+        "683:t_012:3: Advent addresses Asakim formally upon recognizing him.",
+        "683:t_012:4: Asakim's praise deliberately trails into another identifying quality in t_012:5.",
+        "683:t_012:5: Asakim continues the from-phrase of his praise in t_012:4 across the row boundary.",
+        "683:t_012:6: Kei's shocked interjection reacts to Asakim blaming the Angels for his curse.",
+        "683:t_013:0: Advent's punctuation-only surprise at Asakim's attack is preserved.",
+        "683:t_013:2: Blue calls out to Advent upon seeing the attack threaten him.",
+        "683:t_015:0: White's cry addresses Blue as he sacrifices himself.",
+        "683:t_016:2: Advent deliberately breaks off his anger at Asakim's accusation.",
+        "683:t_016:6: Traia's shocked interjection responds to the revealed entrance location.",
+        "683:t_016:7: Advent pauses silently after Asakim exposes the entrance.",
+        "683:t_016:9: Hibiki addresses Advent in reaction to the revelation.",
+        "683:t_016:14: Kei introduces the collapse as the topic before his full question.",
+        "683:t_017:0: Hibiki calls after the departing Advent.",
+        "683:t_018:0: Kazumi names the still-threatening monster after Advent leaves.",
+        "683:t_018:14: Asakim's brief chuckle responds to the team's acceptance of his power.",
+        "683:t_019:2: Kazumi's conditional deliberately continues into Noriko's consequence in t_019:3.",
+        "683:t_020:2: Simon identifies the arriving fleet as an exclamation before his complete welcome."
+      ],
+      "uncertain": [
+        "683:t_018:4: Rey is the Gundam SEED Destiny pilot beside Athrun and Shinn; #pt136 is Rey Za Burrel."
+      ]
+    },
+    "dlg_2098_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_020:4: Noriko's recognition deliberately breaks off before identifying the approaching machine.",
+        "683:t_021:1: Nono joyfully calls to Lal'C on her arrival.",
+        "683:t_021:2: Nono's Unit7 form calls to Lal'C on her arrival.",
+        "683:t_021:3: Nono's Diebuster form calls to Lal'C on her arrival.",
+        "683:t_021:5: Lal'C's by-phrase states the means of her promise from t_021:4 across the row boundary.",
+        "683:t_021:6: Nono's shocked interjection reacts to the plan to sacrifice Earth.",
+        "683:t_021:7: Nono's Unit7 form reacts with a shocked interjection to the Earth collision plan.",
+        "683:t_021:8: Nono's Diebuster form reacts with a shocked interjection to the Earth collision plan.",
+        "683:t_022:2: Nono calls urgently to Lal'C after she confirms the Earth collision plan.",
+        "683:t_022:3: Nono's Unit7 form calls urgently to Lal'C after the plan is confirmed.",
+        "683:t_022:4: Nono's Diebuster form calls urgently to Lal'C after the plan is confirmed.",
+        "683:t_023:9: Nono deliberately leaves her resolve unfinished before calling the Buster Legion together.",
+        "683:t_023:10: Nono's Unit7 form leaves her resolve unfinished before the combination.",
+        "683:t_023:11: Nono's Diebuster form leaves her resolve unfinished before the combination.",
+        "683:t_024:0: Darry names the newly arriving Buster Legion in surprise.",
+        "683:t_025:0: Kazumi names the resulting combined giant in awe.",
+        "683:t_025:2: Noriko calls to Nono as she prepares to stop Lal'C.",
+        "683:t_025:3: Nono's urgent address appeals to Lal'C to stop.",
+        "683:t_025:4: Nono's Unit7 form urgently appeals to Lal'C to stop.",
+        "683:t_025:5: Nono's Diebuster form urgently appeals to Lal'C to stop.",
+        "683:t_027:2: Nicola's shocked response deliberately leaves the feared loss of Lal'C's powers unstated until her following realization.",
+        "683:t_027:4: Nono calls to Lal'C upon her loss of contact with Dix-Neuf.",
+        "683:t_027:5: Nono's Unit7 form calls to Lal'C upon her loss of contact with Dix-Neuf.",
+        "683:t_027:6: Nono's Diebuster form calls to Lal'C upon her loss of contact with Dix-Neuf.",
+        "683:t_027:12: Nono's punctuation-only shock at Lal'C's refusal of rescue is preserved.",
+        "683:t_027:13: Nono's Unit7 form gives the same punctuation-only shock at the refusal of rescue.",
+        "683:t_027:14: Nono's Diebuster form gives the same punctuation-only shock at the refusal of rescue.",
+        "683:t_028:4: Nono agrees to Noriko's plan to defeat the monster and rescue Lal'C.",
+        "683:t_028:5: Nono's Unit7 form agrees to the plan to defeat the monster and rescue Lal'C.",
+        "683:t_028:6: Nono's Diebuster form agrees to the plan to defeat the monster and rescue Lal'C."
+      ],
+      "uncertain": []
+    },
+    "dlg_2098_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_031:2: Ledo deliberately breaks off before naming the threatened destruction of Buster3.",
+        "683:t_031:3: Nono's internal address appeals to the absent Lal'C under mounting danger.",
+        "683:t_031:4: Nono's Unit7 form internally addresses the absent Lal'C under mounting danger.",
+        "683:t_031:5: Nono's Diebuster form internally addresses the absent Lal'C under mounting danger.",
+        "683:t_032:1: Hibiki deliberately breaks off before naming the threatened destruction of Buster3.",
+        "683:t_032:2: Nono's punctuation-only recognition of the threat to Buster3 is preserved.",
+        "683:t_032:3: Nono's Unit7 form reacts to the threat to Buster3 with punctuation-only shock.",
+        "683:t_032:4: Nono's Diebuster form reacts to the threat to Buster3 with punctuation-only shock.",
+        "683:t_033:0: Nono's cry of pain when taking the attacks for Buster3 has no proposition.",
+        "683:t_033:1: Nono's Unit7 form cries out from shielding Buster3 with her body.",
+        "683:t_033:2: Nono's Diebuster form cries out from shielding Buster3 with her body.",
+        "683:t_033:3: Noriko calls to Nono in alarm as she takes the incoming attacks.",
+        "683:t_034:2: The Zazagoras-class machine silently hears Lal'C thanking it for carrying her.",
+        "683:t_035:3: Dix-Neuf's punctuation-only response to Lal'C's resolve is preserved.",
+        "683:t_036:0: Shinji's recognition leaves the identity to Asuka's following line.",
+        "683:t_038:0: Nono calls joyfully to the returned Lal'C.",
+        "683:t_038:1: Nono's Unit7 form calls joyfully to the returned Lal'C.",
+        "683:t_038:2: Nono's Diebuster form calls joyfully to the returned Lal'C.",
+        "683:t_039:1: Nono's attempted objection is interrupted by Lal'C's further explanation.",
+        "683:t_039:2: Nono's Unit7 form starts an objection interrupted by Lal'C.",
+        "683:t_039:3: Nono's Diebuster form starts an objection interrupted by Lal'C.",
+        "683:t_039:6: Nono's moved address reacts to Lal'C affirming her humanity.",
+        "683:t_039:7: Nono's Unit7 form addresses Lal'C in response to her affirmation of humanity.",
+        "683:t_039:8: Nono's Diebuster form addresses Lal'C in response to her affirmation of humanity.",
+        "683:t_039:10: Nono's affirmative answers Lal'C's question about heart and hard work.",
+        "683:t_039:11: Nono's Unit7 form affirms Lal'C's question about heart and hard work.",
+        "683:t_039:12: Nono's Diebuster form affirms Lal'C's question about heart and hard work.",
+        "683:t_040:0: Noriko calls to both girls before their combined attack.",
+        "683:t_040:2: Nono's affirmative and address accept Lal'C's attack cue.",
+        "683:t_040:3: Nono's Unit7 form accepts Lal'C's attack cue with an affirmative address.",
+        "683:t_040:4: Nono's Diebuster form accepts Lal'C's attack cue with an affirmative address.",
+        "683:t_041:7: Noriko's through-phrase supplies the means of Kazumi's inheritance statement in t_041:6 across the row boundary.",
+        "683:t_041:8: Lal'C repeats the motto reflectively before judging it in t_041:9.",
+        "683:t_041:10: Nono's delighted address reacts to Lal'C accepting their motto.",
+        "683:t_041:11: Nono's Unit7 form gives a delighted address after Lal'C accepts the motto.",
+        "683:t_041:12: Nono's Diebuster form gives a delighted address after Lal'C accepts the motto.",
+        "683:t_041:15: Lal'C leaves her we-clause for Nono to complete in t_041:16 or its alternate forms.",
+        "683:t_041:16: Nono supplies the predicate to Lal'C's we-clause from t_041:15 across the row boundary.",
+        "683:t_041:17: Nono's Unit7 form supplies the predicate to Lal'C's we-clause from t_041:15.",
+        "683:t_041:18: Nono's Diebuster form supplies the predicate to Lal'C's we-clause from t_041:15."
+      ],
+      "uncertain": []
+    },
+    "dlg_2098_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_042:5: Sivil calls out happily upon hearing Geperuniti's report.",
+        "683:t_042:14: Sardias's affirmative answers Setsuko's question about his survival.",
+        "683:t_042:16: Rand's surprised address recognizes Dabararn's survival.",
+        "683:t_042:18: Crow's recognition exclamation adds Shikoku to the returning former enemies.",
+        "683:t_042:30: Amata's as-long-as clause continues Koji's refusal from t_042:29 across the row boundary."
+      ],
+      "uncertain": []
+    },
+    "dlg_2098_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_044:6: Roger names the impossible realm as a stunned noun fragment.",
+        "683:t_044:7: Kei deliberately leaves the conditional consequence unfinished; Zero supplies it next.",
+        "683:t_044:8: Zero answers Kei's conditional with two outcome fragments.",
+        "683:t_048:0: AG's warning about Buster Machine No. 3 is interrupted before a predicate.",
+        "683:t_049:1: Tria's catastrophic conditional deliberately trails off.",
+        "683:t_108:2: Kazumi trails off at But; Noriko understands and answers."
+      ],
+      "uncertain": [
+        "683:t_047:1 and 683:t_108:3: Noriko's Big Sis addresses Kazumi; Nono's Big Sis elsewhere addresses Lal'C.",
+        "683:t_043:4: Schwarzschild surface refers to the black hole event horizon; retained the source's technical surface wording."
+      ]
+    },
+    "dlg_2098_10": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "683:t_128:0: Basara's My life... My song shout deliberately remains two noun fragments.",
+        "683:t_140:1: T-Bone leaves his complaint conditional unfinished before Beck cuts in."
+      ],
+      "uncertain": [
+        "683:t_118:1: The young lady is Sochie, kept as the source relationship term; Dianna remains a plain name as honorifics are dropped.",
+        "683:t_122:1: Setsuna's source is a purpose/motivation phrase; English explicitly restores I believe.",
+        "683:t_136:0..1: Nono's self-reference by name retained in thoughts.",
+        "683:t_129:1: Chamber's speaker token uses pilot as required despite multiple source options."
+      ]
+    },
+    "dlg_2098_11": {
+      "rows_in_slice": 1,
+      "rows_examined": 1,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2099_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_1:3: Prophetic address is a deliberately unfinished noun phrase.",
+        "688:t_1:4: Opening phrase An order called chaos remains a contemplative fragment; the following clause is complete.",
+        "688:t_2:4 and 37: Banagher's list continues Setsuna's prior Everything has a will sentence.",
+        "688:t_2:7 and 40: Crowe trails off in concern about Esther's body before her explanation.",
+        "688:t_2:22: Koji repeats the previous true power phrase as a contemplative echo.",
+        "688:t_2:27: Ryoma repeats Future as an intentional echo.",
+        "688:t_2:49: Alto continues his previous sentence with a noun phrase defining the wings as freedom.",
+        "688:t_3:25: Bright opens with an appositive human description, then continues with the full claim about his power."
+      ],
+      "uncertain": [
+        "688:t_1:5: Those passing the pillar are the referent of save them, inferred from the two preceding thoughts.",
+        "688:t_2:15: Restored You mean for Hayato's identification of Benkei's remembered event.",
+        "688:t_3:16: Nono uses mock period/gangster politeness; preserved her duty and courteous surrender demand.",
+        "688:t_3:21: The Edel is speaking, so pilot speaker token selected; 23 retains keyword token inside the link."
+      ]
+    },
+    "dlg_2099_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:31: Crowe's This is trails off before Sumeragi identifies Elgan.",
+        "688:t_3:44: Zero lists the process as an intentional thought fragment, explained by Setsuna next.",
+        "688:t_3:67 and 68: The Edel leaves machine-purpose explanations hanging; 70 concludes the list.",
+        "688:t_3:74: Tsiine's disgusted How far can you possibly is deliberately unfinished.",
+        "688:t_3:99: But trails into the following row describing the Sphere's final destination.",
+        "688:t_3:77: Kira's We were question trails off in surprise, answered by The Edel in79.",
+        "688:t_3:82: Even though clause continues the account of Chaos Lemures being defeated in81."
+      ],
+      "uncertain": [
+        "688:t_3:27..41: Different personalities share one speaker header; formal Elgan and playful Jie voices distinguished by wording and source nya tic.",
+        "688:t_3:47: Inheritor is a role description; Innovator and Newtype use glossary tokens.",
+        "688:t_3:82: Parent research confirmed Tengoku is a named sealing system; exact glossary token now used with proposed English Heavenly Prison.",
+        "688:t_3:65 and86: Parent added the exact Chaos Series glossary term after source/research review; token now resolves.",
+        "688:t_3:68: Endured his hatred of women is the stated emotion, not generalized hatred or a presumed Sphere trait."
+      ]
+    },
+    "dlg_2099_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:114: Hibiki's speculation about Suzune's anxiety deliberately trails off; she supplies the explanation.",
+        "688:t_3:122: Hibiki identifies the object across rows; The Edel supplies its name next.",
+        "688:t_3:130: Hibiki's angry accusation You really are is deliberately unfinished.",
+        "688:t_3:135,136,167..170: Silent nine-dot rows intentionally contain no subject or verb.",
+        "688:t_3:144: And for the means we used continues I apologize in the preceding sentence within the same row.",
+        "688:t_3:154: Banjo supplies a noun-phrase description of the book mentioned by Beck.",
+        "688:t_3:164: Suzune leaves her objection after but unfinished.",
+        "688:t_3:166: Opening noun phrase introduces the future in the following complete request.",
+        "688:t_3:180: Koji's conditional hangs as others follow Hibiki's physical punishment.",
+        "688:t_3:182: Banjo's action trails off; subsequent action implied by group punishment.",
+        "688:t_3:149: Hibiki opens with weapon-name and Svell noun phrases, then states the Ragnarok inference."
+      ],
+      "uncertain": [
+        "688:t_3:109..119: Ambriel is the personality whose memories and fear separated from Suzune as she emerged.",
+        "688:t_3:132: Both choice blocks preserved on separate lines, using settled hope/despair wording.",
+        "688:t_3:149: Ragnarok is the god-overthrowing allusion carried by Genion Gai's weapon names and Svel.",
+        "688:t_3:176..179: Hibiki's That's good precedes a punch, and AG's sumo-style thanks is an ironic reaction to receiving the blow."
+      ]
+    },
+    "dlg_2099_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:189 and 199: Named attack calls retained as attack-name fragments.",
+        "688:t_3:203,248,249: Deliberate silent nine-dot lines.",
+        "688:t_3:210: AG's emotional vocative Everyone remains an address.",
+        "688:t_3:213: Watta leaves the betrayal condition hanging; Shotaro supplies the warning next.",
+        "688:t_3:225: Setsuko's exasperated You really are trails off.",
+        "688:t_3:240: Crowe lists four emotions and identifies the last Angel through noun fragments.",
+        "688:t_3:241: Setsuko identifies the woman with a noun phrase, then clarifies in243.",
+        "688:t_3:242: Hibiki's realization hangs before Setsuko explains.",
+        "688:t_3:257: And for the means we used continues the apology within the same row.",
+        "688:t_3:265: Suzune trails off after but.",
+        "688:t_3:262: Weapon-name and Svell opening noun phrases lead into full Ragnarok inference."
+      ],
+      "uncertain": [
+        "688:t_3:186: Kallen combines her own and Zero's share of the punishment, as Zero requested in184.",
+        "688:t_3:205: Kamille's He is joking refers to silent Chirico drawing an Armor Magnum; no claim Kamille drew it.",
+        "688:t_3:230: The parenthetical reading of Stigma is provided by the glossary token; no duplicated word added.",
+        "688:t_3:237..245: The woman is the sorrow-governing Angel previously sensed by Setsuko, not Suzune/Ambriel."
+      ]
+    },
+    "dlg_2099_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:267: Opening noun phrase introduces the future in the following complete request.",
+        "688:t_3:268..271 and304: Silent nine-dot lines deliberately have no subject or verb.",
+        "688:t_3:281: Koji leaves his conditional hanging as the others join Hibiki's punishment.",
+        "688:t_3:283: Banjo's action deliberately trails off.",
+        "688:t_3:290 and300: Named attack calls remain attack-name fragments.",
+        "688:t_3:311: AG's emotional Everyone remains a vocative.",
+        "688:t_3:314: Watta's unfinished betrayal condition is completed by Shotaro's next warning.",
+        "688:t_3:326: Setsuko's angry You really are trails off.",
+        "688:t_3:341: Crowe's four-emotion list and last Angel description remain noun fragments.",
+        "688:t_3:342: Setsuko identifies the previously sensed woman as a noun phrase, clarified in344.",
+        "688:t_3:343: Hibiki's realization trails off before Setsuko explains."
+      ],
+      "uncertain": [
+        "688:t_3:266..345: All80 rows are source-identical repetitions of previously freshly translated rows in my own assigned slices; copied only those fresh drafts after reading the complete source and neighbors.",
+        "688:t_3:273..280: Mask disguises The Edel as AG; Hibiki punches only after mask is back on.",
+        "688:t_3:306: He is joking refers to Chirico drawing the Armor Magnum.",
+        "688:t_3:338..345: The sensed woman is the sorrow-governing Angel."
+      ]
+    },
+    "dlg_2099_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:347,352,353,384..387,420: Deliberate silent nine-dot rows.",
+        "688:t_3:348: Suzune's address to Hibiki remains a vocative.",
+        "688:t_3:361: And for the means we used continues the apology in the same row.",
+        "688:t_3:371: Banjo's book description intentionally remains a noun phrase.",
+        "688:t_3:381: Suzune leaves but hanging.",
+        "688:t_3:383: Opening noun phrase introduces future in the following request.",
+        "688:t_3:397: Koji leaves his conditional hanging as others follow Hibiki's punishment.",
+        "688:t_3:399: Banjo's implied attack trails off.",
+        "688:t_3:406 and416: Named attacks remain attack-name calls.",
+        "688:t_3:366: Weapon-name and Svell opening noun phrases lead into full Ragnarok inference."
+      ],
+      "uncertain": [
+        "688:t_3:346..425: 76 source-identical repetitions reuse only my own fresh translations, after all source rows and neighbors were read; 347..350 newly drafted.",
+        "688:t_3:349: Hibiki identifies Advent and The Edel as the manipulators of his battles.",
+        "688:t_3:422: He is joking refers to Chirico drawing the Armor Magnum."
+      ]
+    },
+    "dlg_2099_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:427: Everyone is an emotional vocative.",
+        "688:t_3:430: Unfinished betrayal condition followed by Shotaro's warning.",
+        "688:t_3:442: Setsuko's exasperated accusation remains unfinished.",
+        "688:t_3:457: Four-emotion list and last Angel identification are intentional noun fragments.",
+        "688:t_3:458: Woman description remains a noun phrase clarified next.",
+        "688:t_3:459: Hibiki's realization trails off.",
+        "688:t_3:463,468,469,488..491: Deliberate silent nine-dot rows.",
+        "688:t_3:464: Suzune addresses Hibiki by his name code.",
+        "688:t_3:477: And for the means we used continues apology within the row.",
+        "688:t_3:485: Suzune trails off after but.",
+        "688:t_3:487: Introductory future noun phrase before full request.",
+        "688:t_3:501 and503: Koji's conditional and Banjo's implied action deliberately trail off.",
+        "688:t_3:482: Weapon-name and Svell opening noun phrases lead into full Ragnarok inference."
+      ],
+      "uncertain": [
+        "688:t_3:426..505: All80 source rows reread with neighbors; source-identical repeats reuse only my own fresh drafts.",
+        "688:t_3:454..462: Sorrow-governing Angel is the female presence previously sensed by Setsuko."
+      ]
+    },
+    "dlg_2099_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_3:510 and520: Named attack cries intentionally remain name fragments.",
+        "688:t_3:524 and688:t_10:3: Deliberate silent nine-dot rows.",
+        "688:t_3:531: Everyone remains AG's emotional vocative.",
+        "688:t_3:534: Betrayal condition is unfinished before Shotaro supplies warning.",
+        "688:t_3:546: Setsuko's exasperated accusation trails off.",
+        "688:t_3:561: Four emotions and last Angel identification remain noun fragments.",
+        "688:t_3:562: Setsuko's description of the sensed woman remains a noun phrase.",
+        "688:t_3:563: Hibiki's realization trails off before explanation.",
+        "688:t_10:5: AG's internal opening noun phrase paints the situation; following exclamation complete."
+      ],
+      "uncertain": [
+        "688:t_10:5..11: AG's thoughts are an internal exchange between playful Jie and sober Elgan, not thoughts addressed aloud to Suzune.",
+        "688:t_10:18: That dimwit left unnamed as in source; Elgan's faith is what Tria says she wanted to trust.",
+        "688:t_10:11: $F retained unchanged; the final-key referent is not replaced with Hibiki's $n."
+      ]
+    },
+    "dlg_2099_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "688:t_10:29..30: AG starts a chant and Esther answers with its Business refrain, which remains a chant fragment.",
+        "689:t_000:1: Leeron's sensor report trails off at but.",
+        "689:t_000:5: Kei's realization about their location is deliberately unfinished.",
+        "689:t_000:6: Tria supplies world description as a noun phrase, followed by AG's identification.",
+        "689:t_002:8: Second sentence is an appositive defining True Disciples from the first clause.",
+        "689:t_002:10: Takeru echoes Exalted Ones, an intentional phrase.",
+        "689:t_002:14: Shinn repeats Inferior species as an angry echo.",
+        "689:t_002:15..16: Salus chant retained as a ritual cry.",
+        "689:t_003:4 and7: Deliberate silent nine-dot lines.",
+        "689:t_003:5: Boota's Boo is a vocal sound.",
+        "689:t_003:8 and689:t_004:4: AG and Crowe voice names as vocatives.",
+        "689:t_003:6: What this universe means is an appositive continuation of You feel it, not a lost predicate."
+      ],
+      "uncertain": [
+        "688:t_10:39: Parent research identified O-Kon as Tria's fox mask, not Tria herself; There it is points to the mask. Exact glossary token used.",
+        "689:t_003:1..2: That being refers to the defeated Anti-Spiral, not the crystal giants.",
+        "689:t_004:6 and689:t_005:1 and689:t_006:1: Clock directions are destination assignments for named pilots, rendered full commands."
+      ]
+    },
+    "dlg_2099_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "689:t_008:12: Suzune's $n is a vocative.",
+        "689:t_009:0: AG's Before that, Beck is a deliberate vocative interruption before his instruction.",
+        "689:t_009:4: Because clause answers Kei's preceding question directly.",
+        "689:t_009:7..10: Business chant split across call and three replies; refrain preserved as fragments.",
+        "689:t_010:3..4: Salus remains a ritual chant.",
+        "689:t_010:7: With everything we've got is an emphatic continuation of preceding do it.",
+        "689:t_015:2: Setsuko repeats Gamble as an uncertain echo.",
+        "689:t_015:7: Kappei echoes Of dimensional power, following Tria's true essence phrase.",
+        "689:t_015:8: Kallen's Even us question continues Tria's scope rather than stating an action.",
+        "689:t_015:18: Koji's conditional complaint trails off.",
+        "689:t_015:22..23: Tria's example list spans rows and is completed by Remember those moments in23.",
+        "689:t_015:25 and28: Noriko and Heero echo key noun phrases contemplatively.",
+        "689:t_015:29: Sousuke recites the truth as a deliberate phrase list."
+      ],
+      "uncertain": [
+        "689:t_008:5,6,10: Pleas from Shinn/Garrod/Rand all ask the listener to help; English retains I'm counting on you direction.",
+        "689:t_008:11: Crowe's idiom means wait and see the results, rather than a request to look at an existing result.",
+        "689:t_015:30: Both Z-Crystal and Spheres serve as tools containing gathered human feelings; matter's will glosses dimensional power.",
+        "689:t_016:0: Advent speaker uses pilot option as an embodied character."
+      ]
+    },
+    "dlg_2099_10": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "689:t_016:4: Alto echoes Miracle as an incredulous phrase.",
+        "689:t_017:1: Rand's This is is deliberately unfinished under Advent's power.",
+        "689:t_017:6 and8: Tsiine and Marguerite echo awe and absolute power as overwhelmed fragments.",
+        "689:t_049:0..1 and4..5: Business response chant remains a fragment.",
+        "689:t_049:18: Setsuko identifies Bind Spell with an appositive noun phrase.",
+        "689:t_049:26: AG trails off before describing the spell's failed effect.",
+        "689:t_018:4: Or the Angels continues the preceding full We won't obey you clause.",
+        "689:t_018:7 and689:t_019:2: Suzune addresses Hibiki through $n vocatives.",
+        "689:t_020:0..1: I can feel and Our Spheres begin a deliberate four-speaker cross-row phrase, continued by Crowe and Hibiki next slice."
+      ],
+      "uncertain": [
+        "689:t_017:5..9: Awe contrasts ordinary fear and means instinctive reverence before superior power, not mere surprise.",
+        "689:t_049:22: AG credits anger against God's emissary, but Haman and Kamille immediately clarify anger at him too.",
+        "689:t_018:13..15: White's possessive soothing voice kept; settled Captain title for Advent retained.",
+        "689:t_019:0: Subject is Hibiki's life, protected by Mom, nurtured by Dad and Sis, supported by friends; all relationships preserved."
+      ]
+    },
+    "dlg_2099_11": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "689:t_020:2..3: Crowe and Hibiki's noun phrases continue Setsuko's I can feel across four speakers and rows.",
+        "689:t_020:5: White's incredulous Shinka Fusion is a repeated term.",
+        "689:t_021:11: Marguerite addresses Esther by name.",
+        "689:t_021:15: For working so hard is a deliberate continuation of Thank you within the same row.",
+        "689:t_021:19: Boota's Boo remains a vocal sound.",
+        "689:t_023:0: Tengen Toppa is an attack/transformation cry following the complete Let's do it.",
+        "689:t_024:3: Lal'C names the transformation after Nono's prior That is phrase.",
+        "689:t_024:8: Deliberate silent nine-dot row.",
+        "689:t_024:9: True Disciple addresses Advent in a stunned vocative.",
+        "689:t_024:12: Even at the cost of your lives continues the preceding stop command.",
+        "689:t_025:4: True Disciple's You remains an angry unfinished address.",
+        "689:t_025:8..9: Amuro and Hibiki's purpose/manner phrases continue Kamille's fight pledge in7.",
+        "689:t_025:10,13 and689:t_028:1: White, Nia and Crowe call names as vocatives.",
+        "689:t_027:5: Kei's explanation trails off at but before Vildark confirms it."
+      ],
+      "uncertain": [
+        "689:t_021:2: Steel bodies refers to machines; fusion draws their power and further strengthens pilots' hearts.",
+        "689:t_024:4: Recognition of existence means reality in this universe responds to will, as Lordgenome compares the Anti-Spiral universe.",
+        "689:t_025:2: They cannot run or hide refers to Advent/the Angels in their own universe, consistent with Garrod answering Apollo's ran away.",
+        "689:t_028:0: Vildark says their victory sent Baal into the dimensional gap; he does not claim all Baal already destroyed, as2 specifies remaining Baal."
+      ]
+    },
+    "dlg_2099_12": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "689:t_029:23: Name-only address.",
+        "689:t_032:0: Urgent title-only cry.",
+        "689:t_037:2: Explanatory apposition after complete statement, source trails off.",
+        "689:t_037:4: Conditional trails off after complete declaration.",
+        "689:t_038:0: Interjection.",
+        "689:t_038:1: Name-only cry.",
+        "689:t_039:0: Name-only address.",
+        "689:t_039:3: Exclamation punctuation.",
+        "689:t_039:6: Unfinished alternatives explain preceding I do not know.",
+        "689:t_039:7: Name-only address.",
+        "689:t_040:0: Interrupted question.",
+        "689:t_040:1: Fate clause deliberately trails off.",
+        "689:t_040:4: Desire trails off in source; want restored to clarify intent.",
+        "689:t_041:1: Name-only address.",
+        "689:t_042:1: Source deliberately splits forget and its object across rows.",
+        "689:t_042:2: Continuation of preceding row."
+      ],
+      "uncertain": [
+        "689:t_039:1: Maki is White, addressed by her personal name; Captain Advent follows settled White title.",
+        "689:t_040:1: Hibiki sends Maki to another world; no claim about death added.",
+        "689:t_039:4: The question asks whether falling in love was her own feeling or the will of Advent, continuing the previous distinction."
+      ]
+    },
+    "dlg_2099_13": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "689:t_042:5: Conditional continuation of preceding promise.",
+        "689:t_043:0: Interjection.",
+        "689:t_043:1: Name-only cry.",
+        "689:t_044:1: Name-only address.",
+        "689:t_044:4: Suzune trails off before stating what Advent did; passive victim implication retained without inventing specific action.",
+        "689:t_044:5: Exclamation.",
+        "689:t_044:7: Dedication deliberately trails off.",
+        "689:t_045:0: Fate clause deliberately trails off.",
+        "689:t_045:1: Name-only address.",
+        "689:t_046:1: Object follows in next row.",
+        "689:t_046:2: Continuation of preceding row.",
+        "689:t_047:1: Defeat complaint deliberately trails off.",
+        "689:t_116:2: Shinji trails off without specifying action.",
+        "689:t_122:0: Machine list and apposition deliberately incomplete."
+      ],
+      "uncertain": [
+        "689:t_108:1: Kazumi's he refers to Coach Ota, whose wishes are embodied in Gunbuster; source does not name him.",
+        "689:t_107:1: Simon's ten-gen line retains literal piercing the heavens, while the Tengen Toppa transformation name is not spoken here."
+      ]
+    },
+    "dlg_2099_14": {
+      "rows_in_slice": 61,
+      "rows_examined": 61,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "689:t_129:0: Name-only address.",
+        "689:t_129:1: However deliberately trails off.",
+        "689:t_132:0: AT apposition precedes complete sentence.",
+        "689:t_136:2: Except debt continues preceding sentence.",
+        "689:t_137:0: Name-only address.",
+        "689:t_138:0: Name-only address.",
+        "689:t_139:0: Name-only address.",
+        "689:t_140:1: Name-only cry.",
+        "689:t_999:0: Interjection."
+      ],
+      "uncertain": [
+        "689:t_129:4: Chamber's this unit retains his normal self-reference to support Ledo's next line that it now means both of them."
+      ]
+    },
+    "dlg_2100_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "694:t_1:15: Silent row.",
+        "694:t_1:16: Silent row.",
+        "694:t_1:21: Hesitant response.",
+        "694:t_1:25: List identifying other inhabitants continues preceding claim.",
+        "694:t_1:27: Silent row.",
+        "694:t_1:31: Silent row.",
+        "694:t_1:40: Interrupted inference.",
+        "694:t_1:43: Unfinished alternative list.",
+        "695:t_000:5: Inference deliberately deferred to response.",
+        "695:t_000:7: His Majesty continuation of prior heading statement.",
+        "700:t_1:5: Not yet elliptical rebuttal to inability to fulfill duty.",
+        "700:t_1:6: Recognition trails off.",
+        "700:t_1:12: Silent row.",
+        "700:t_1:18: Silent row.",
+        "700:t_1:23: Silent row.",
+        "700:t_10:3: Address trails off."
+      ],
+      "uncertain": [
+        "700:t_1:14: Unknown speaker's yes confirms refusal to change mind; rendered That is correct to avoid reversing English negative-question meaning.",
+        "694:t_1:3: Caption retains original spacing and blank line."
+      ]
+    },
+    "dlg_2100_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "700:t_10:12: Brief assent.",
+        "700:t_10:17: Thanks formula.",
+        "700:t_10:28: Conditional aside uses debt explicit subject.",
+        "700:t_10:33: Name-only address.",
+        "700:t_10:43: Interrupted gift announcement.",
+        "700:t_10:47: Interrupted threat.",
+        "700:t_10:49: Interjection.",
+        "700:t_10:51: Prepositional continuation of previous row.",
+        "700:t_10:54: Sales chant retains repeated business.",
+        "701:t_001:2: Continuation of praise in preceding row.",
+        "701:t_002:0: Identification cry.",
+        "701:t_002:5: Exclamatory identification.",
+        "701:t_002:15: Proposal trails off."
+      ],
+      "uncertain": [
+        "700:t_10:21: AG's chip-pincher wordplay translates coin-pinching into chip-pinching to preserve Z-Chip joke.",
+        "700:t_10:51: Marguerite displays white Rhinodamon as her brother's memorial because he became one; no extra explanation added."
+      ]
+    },
+    "dlg_2100_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "701:t_004:3: Presence exclamation deliberately fragmentary.",
+        "701:t_004:5: Disbelief trails off.",
+        "701:t_007:3: Surprise interjection.",
+        "701:t_007:6: Apposition identifies Revive Cell.",
+        "701:t_007:14: Address trails off.",
+        "701:t_007:21: List of sacrificed people continues across rows 52-57, resolved by row58.",
+        "701:t_007:22: Continuation of sacrifice list.",
+        "701:t_007:23: Continuation of sacrifice list.",
+        "701:t_007:24: Continuation of sacrifice list.",
+        "701:t_007:25: Continuation of sacrifice list.",
+        "701:t_007:26: Continuation of sacrifice list.",
+        "701:t_007:30: Interjection."
+      ],
+      "uncertain": [
+        "701:t_007:13: Vildark treats recognition of Shinka Fusion as repudiation of sacrificed lives; his argument is retained, without endorsing or rationalizing it."
+      ]
+    },
+    "dlg_2100_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "701:t_010:5: Sphere-name list; no standalone assertion in source.",
+        "701:t_010:9: Name-only address.",
+        "701:t_010:14: Tell object continued next row.",
+        "701:t_010:15: Continuation of preceding row.",
+        "701:t_011:5: Sphere-name list.",
+        "701:t_011:8: Interrupted objection.",
+        "701:t_012:0: Name-only cry.",
+        "701:t_012:6: Otherwise clause interrupted by Advent.",
+        "701:t_014:0: Pain cry.",
+        "701:t_014:2: Name-only address.",
+        "701:t_014:3: Name enumeration.",
+        "701:t_015:0: Name-only cry.",
+        "701:t_015:1: Silent row.",
+        "701:t_016:5: Interjection.",
+        "701:t_017:0: Name-only cry.",
+        "701:t_101:2: Interjection."
+      ],
+      "uncertain": [
+        "701:t_010:18: Setsuko's he is Asakim, identified immediately in the next event.",
+        "701:t_014:4: Advent says he has already taken Vildark's life; past tense retained although Vildark has final words afterward."
+      ]
+    },
+    "dlg_2100_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "701:t_112:1: Silent row.",
+        "701:t_112:2: Reproach trails off before specific bad consequence.",
+        "701:t_113:5: Interrupted comparison."
+      ],
+      "uncertain": [
+        "701:t_108:2: Vildark's sexist comment to Noriko/Kazumi is retained at full force.",
+        "701:t_113:6: Roger's paradoxical intention to defeat power using power is preserved, then explicitly explained by his next row.",
+        "701:t_114:1: Apollo refers to the Aquarion species; the Aquarion Angel token distinguishes it from the Emissaries and the named Angel character."
+      ]
+    },
+    "dlg_2100_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "701:t_115:4: Interrupted inference.",
+        "701:t_116:2: Interjection.",
+        "701:t_116:6: Shinji declaration deliberately unfinished.",
+        "701:t_117:1: Interjection.",
+        "701:t_117:5: Teach object deferred to next row.",
+        "701:t_117:6: Object continuation of previous row.",
+        "701:t_122:0: Taking lives apposition followed by complete comparison.",
+        "701:t_122:4: Will apposition followed by complete statement.",
+        "701:t_126:3: Interjection."
+      ],
+      "uncertain": [
+        "701:t_119:3: At 701:t_119:3 Amuro acknowledges similarity but says he is no pioneer; both self-critical clauses preserved.",
+        "701:t_126:4: Heero's doubt is an ongoing process that he repeatedly overcomes, not a contradiction to be smoothed out."
+      ]
+    },
+    "dlg_2100_06": {
+      "rows_in_slice": 76,
+      "rows_examined": 76,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "701:t_127:4: Address after full imperative.",
+        "701:t_128:1: Exclamation.",
+        "701:t_130:5: Interrupted comparison; mocking repeated but final sentence remains unfinished.",
+        "701:t_131:3: Silent row.",
+        "701:t_135:1: Silent row.",
+        "701:t_135:2: You too trails off in source.",
+        "701:t_136:0: Demand for power interrupted by Rand.",
+        "701:t_999:0: Interjection."
+      ],
+      "uncertain": [
+        "701:t_127:3: Alto's the one waiting for me is deliberately gender-neutral; nearby battle dialogue does not establish which love interest he refers to.",
+        "701:t_137:0: Vildark's woman is unnamed in source; retained rather than naming someone without scene evidence."
+      ]
+    },
+    "dlg_2102_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "718:t_2:3: Silent row.",
+        "718:t_2:4: Recognition trails off.",
+        "718:t_2:12: Silent row.",
+        "718:t_2:19: What about Crowe follows preceding character naming questions.",
+        "718:t_2:20: Interrupted description.",
+        "718:t_2:24: Interjection."
+      ],
+      "uncertain": [
+        "718:t_1:28: Black Sun refers to guidance from Sol and uses sol token variant.",
+        "718:t_2:46: Sacrifice describes both 120-million-year great collapse and 12,000-year regular collapse; distinct numbers retained exactly.",
+        "718:t_2:22: Her term fate is predetermined despite other characters rejecting her interpretation later."
+      ]
+    },
+    "dlg_2102_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "718:t_2:59: System explanation deliberately continued from prior sun statement.",
+        "718:t_2:102: Interjection.",
+        "718:t_2:118: List of worlds and residents deliberately continued into next row."
+      ],
+      "uncertain": [
+        "718:t_2:108: Sacrifice's claims of protection and blame are retained as her assertions; subsequent characters challenge them.",
+        "718:t_2:73: Great collapse and routine collapse remain distinct; no attempt to reconcile apparent cyclical cosmology.",
+        "718:t_2:117: The four-factor wind phrase uses settled destination of the wind despite source orthographic variant."
+      ]
+    },
+    "dlg_2102_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "718:t_2:138: Interjection.",
+        "718:t_2:145: Name-only cry.",
+        "718:t_2:161: Name-only exclamation.",
+        "718:t_2:162: Explanatory land apposition after full birthplace statement.",
+        "718:t_2:164: Disbelief interrupted.",
+        "718:t_10:9: Interrupted inference.",
+        "718:t_10:10: Echo question of deliberate fragment.",
+        "718:t_10:18: Silent row.",
+        "718:t_10:27: Offer trails off.",
+        "718:t_10:30: Stammered interjection.",
+        "718:t_10:32: Military response formula.",
+        "718:t_10:34: Military response formula.",
+        "718:t_10:36: Repeated chant.",
+        "719:t_000:3: Assent.",
+        "719:t_001:8: Crystal description deliberately continues to verb in next row.",
+        "719:t_001:9: Predicate continuation of preceding row."
+      ],
+      "uncertain": [
+        "718:t_10:9: Simon stops his speculation about possibilities; no resurrecting Kamina suggestion added.",
+        "718:t_2:163: Sacrifice reveals the Angels arose from humanity on another Earth; Solar System third planet details retained."
+      ]
+    },
+    "dlg_2102_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "719:t_001:13: Echo of curses.",
+        "719:t_005:5: Interrupted recognition.",
+        "719:t_005:8: Consciousness description connects to next row reason.",
+        "719:t_005:9: Reason continuation of preceding row.",
+        "719:t_008:8: Echo question.",
+        "719:t_009:0: Name-only cry.",
+        "719:t_010:0: Possessive exclamation.",
+        "719:t_011:2: Possessive exclamation.",
+        "719:t_012:1: Name-only address."
+      ],
+      "uncertain": [
+        "719:t_011:4: Endless darkness is Asakim's threat, not the named Infinite Prison term, which is not in source.",
+        "719:t_005:4: Fusion is distinct from remote piloting, as Tempty explicitly explains."
+      ]
+    },
+    "dlg_2102_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "719:t_013:4: Elliptical business question echoes prior statement.",
+        "719:t_016:3: Interrupted rebuttal.",
+        "719:t_016:7: Brief laugh.",
+        "719:t_017:2: Brief laugh.",
+        "719:t_019:0: Exclamatory power identification.",
+        "719:t_020:0: Curse cry.",
+        "719:t_020:1: Title-only address.",
+        "719:t_020:5: Apposition enemy followed by complete power observation.",
+        "719:t_020:6: Conditional trails off.",
+        "719:t_020:8: Conditional trails off.",
+        "719:t_020:9: Silent row.",
+        "719:t_020:10: Silent row.",
+        "719:t_020:12: Name-only cry.",
+        "719:t_020:22: Interjection.",
+        "719:t_021:0: Name-only cry.",
+        "719:t_022:0: Recognition deliberately trails off.",
+        "719:t_100:1: Apposition innocence continued by next row.",
+        "719:t_101:0: Name-only address.",
+        "719:t_101:3: Especially you retains the emphatic address after a full happiness declaration.",
+        "719:t_102:2: Reason continuation of prior grateful statement."
+      ],
+      "uncertain": [
+        "719:t_019:2: Asakim's they refers to the Angels; he demonstrates the curse linked to his strengthening, then names Sacrifice.",
+        "719:t_024:4: Sousuke and Chamber judge Tempty's fusion inferior because it dominates the machine; this is their rebuttal to her earlier claim of equivalence."
+      ]
+    },
+    "dlg_2102_05": {
+      "rows_in_slice": 10,
+      "rows_examined": 10,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "719:t_105:0: Reflective noun phrase deliberately linked to next thought row.",
+        "719:t_999:0: Interjection."
+      ],
+      "uncertain": [
+        "719:t_105:1: Setsuko's she is Sacrifice, the final Angel not yet encountered; female pronoun established by prior scene."
+      ]
+    }
+  },
+  "limitations": [
+    "Coordinator sampled source meaning, not a second complete independent meaning proofread.",
+    "No in-game check, promotion, build or deployment."
+  ]
+}

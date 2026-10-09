@@ -1,0 +1,399 @@
+{
+  "schema": 1,
+  "method": "Source/English samples at ordinal rows 10, 40, 70 of each slice; every row in slices shorter than 10. Extra adjacent context read for flagged questions. Not a second full independent proofread.",
+  "sample_rows": 225,
+  "sample_slices": 75,
+  "sample_ids": {
+    "dlg_2053_00": [
+      "389:t_1:12",
+      "389:t_1:45",
+      "389:t_1:75"
+    ],
+    "dlg_2053_01": [
+      "389:t_1:95",
+      "389:t_1:125",
+      "389:t_2:18"
+    ],
+    "dlg_2053_02": [
+      "389:t_2:38",
+      "389:t_2:68",
+      "389:t_10:5"
+    ],
+    "dlg_2053_03": [
+      "389:t_10:28",
+      "390:t_000:18",
+      "390:t_002:16"
+    ],
+    "dlg_2053_04": [
+      "390:t_005:1",
+      "390:t_010:7",
+      "390:t_012:10"
+    ],
+    "dlg_2053_05": [
+      "390:t_015:6",
+      "390:t_020:5",
+      "390:t_020:35"
+    ],
+    "dlg_2053_06": [
+      "390:t_024:3",
+      "390:t_100:4",
+      "390:t_105:0"
+    ],
+    "dlg_2058_00": [
+      "425:t_1:12",
+      "425:t_1:42",
+      "425:t_1:72"
+    ],
+    "dlg_2058_01": [
+      "425:t_1:92",
+      "425:t_1:122",
+      "425:t_1:152"
+    ],
+    "dlg_2058_02": [
+      "425:t_1:172",
+      "425:t_2:20",
+      "425:t_2:53"
+    ],
+    "dlg_2058_03": [
+      "425:t_2:76",
+      "425:t_2:106",
+      "425:t_3:4"
+    ],
+    "dlg_2058_04": [
+      "425:t_3:24",
+      "425:t_3:54",
+      "425:t_3:84"
+    ],
+    "dlg_2058_05": [
+      "425:t_3:104",
+      "425:t_10:11",
+      "425:t_10:44"
+    ],
+    "dlg_2058_06": [
+      "426:t_002:6",
+      "426:t_003:19",
+      "426:t_007:9"
+    ],
+    "dlg_2058_07": [
+      "426:t_012:5",
+      "426:t_013:27",
+      "426:t_019:4"
+    ],
+    "dlg_2058_08": [
+      "426:t_022:3",
+      "426:t_028:9",
+      "426:t_034:1"
+    ],
+    "dlg_2058_09": [
+      "426:t_100:5",
+      "426:t_105:2",
+      "426:t_110:0"
+    ],
+    "dlg_2058_10": [
+      "426:t_111:5",
+      "426:t_111:6",
+      "426:t_999:0"
+    ],
+    "dlg_2059_00": [
+      "431:t_1:12",
+      "431:t_1:42",
+      "431:t_1:72"
+    ],
+    "dlg_2059_01": [
+      "431:t_1:92",
+      "431:t_1:125",
+      "431:t_2:6"
+    ],
+    "dlg_2059_02": [
+      "431:t_2:26",
+      "431:t_2:56",
+      "432:t_001:11"
+    ],
+    "dlg_2059_03": [
+      "432:t_002:6",
+      "432:t_004:14",
+      "432:t_010:0"
+    ],
+    "dlg_2059_04": [
+      "432:t_013:4",
+      "432:t_016:0",
+      "432:t_019:13"
+    ],
+    "dlg_2059_05": [
+      "432:t_025:1",
+      "432:t_030:0",
+      "432:t_038:3"
+    ],
+    "dlg_2059_06": [
+      "432:t_100:1",
+      "432:t_105:0"
+    ],
+    "dlg_2060_00": [
+      "437:t_1:12",
+      "437:t_1:42",
+      "437:t_1:75"
+    ],
+    "dlg_2060_01": [
+      "437:t_2:6",
+      "437:t_2:36",
+      "437:t_2:66"
+    ],
+    "dlg_2060_02": [
+      "437:t_2:86",
+      "437:t_3:10",
+      "437:t_3:40"
+    ],
+    "dlg_2060_03": [
+      "437:t_3:60",
+      "437:t_10:20",
+      "438:t_000:10"
+    ],
+    "dlg_2060_04": [
+      "438:t_003:6",
+      "438:t_007:8",
+      "438:t_010:0"
+    ],
+    "dlg_2060_05": [
+      "438:t_011:9",
+      "438:t_015:3",
+      "438:t_020:5"
+    ],
+    "dlg_2060_06": [
+      "438:t_023:5",
+      "438:t_027:0",
+      "438:t_101:4"
+    ],
+    "dlg_2061_00": [
+      "443:t_1:12",
+      "443:t_1:42",
+      "443:t_2:12"
+    ],
+    "dlg_2061_01": [
+      "443:t_2:32",
+      "443:t_2:65",
+      "443:t_2:95"
+    ],
+    "dlg_2061_02": [
+      "443:t_2:115",
+      "443:t_2:148",
+      "443:t_2:178"
+    ],
+    "dlg_2061_03": [
+      "443:t_3:5",
+      "443:t_10:19",
+      "443:t_10:49"
+    ],
+    "dlg_2061_04": [
+      "444:t_000:9",
+      "444:t_005:2",
+      "444:t_007:8"
+    ],
+    "dlg_2061_05": [
+      "444:t_009:0",
+      "444:t_015:3",
+      "444:t_019:5"
+    ],
+    "dlg_2061_06": [
+      "444:t_020:2",
+      "444:t_025:7",
+      "444:t_106:0"
+    ],
+    "dlg_2062_00": [
+      "449:t_1:12",
+      "449:t_1:45",
+      "449:t_1:75"
+    ],
+    "dlg_2062_01": [
+      "449:t_1:95",
+      "449:t_2:30",
+      "449:t_3:31"
+    ],
+    "dlg_2062_02": [
+      "449:t_3:51",
+      "449:t_3:81",
+      "449:t_10:7"
+    ],
+    "dlg_2062_03": [
+      "449:t_10:30",
+      "450:t_000:4",
+      "450:t_000:34"
+    ],
+    "dlg_2062_04": [
+      "450:t_000:54",
+      "450:t_006:0",
+      "450:t_011:2"
+    ],
+    "dlg_2062_05": [
+      "450:t_017:3",
+      "450:t_021:3",
+      "450:t_102:1"
+    ],
+    "dlg_2062_06": [
+      "450:t_105:5",
+      "450:t_105:6",
+      "450:t_999:0"
+    ],
+    "dlg_2063_00": [
+      "455:t_1:12",
+      "455:t_2:17",
+      "455:t_2:50"
+    ],
+    "dlg_2063_01": [
+      "455:t_2:73",
+      "455:t_2:106",
+      "455:t_3:4"
+    ],
+    "dlg_2063_02": [
+      "455:t_3:24",
+      "455:t_3:54",
+      "455:t_3:84"
+    ],
+    "dlg_2063_03": [
+      "455:t_10:3",
+      "455:t_10:36",
+      "456:t_003:15"
+    ],
+    "dlg_2063_04": [
+      "456:t_005:0",
+      "456:t_010:2",
+      "456:t_016:2"
+    ],
+    "dlg_2063_05": [
+      "456:t_018:6",
+      "456:t_023:5",
+      "456:t_027:6"
+    ],
+    "dlg_2063_06": [
+      "456:t_029:4",
+      "456:t_104:0"
+    ],
+    "dlg_2230_00": [
+      "803:t_1:12",
+      "803:t_1:45",
+      "803:t_1:75"
+    ],
+    "dlg_2230_01": [
+      "803:t_1:95",
+      "803:t_1:128",
+      "803:t_1:161"
+    ],
+    "dlg_2230_02": [
+      "803:t_10:4",
+      "803:t_10:5",
+      "803:t_10:6",
+      "807:t_1:3",
+      "807:t_10:3",
+      "807:t_10:4",
+      "807:t_10:5",
+      "807:t_10:6"
+    ],
+    "dlg_2064_00": [
+      "461:t_1:12",
+      "461:t_1:42",
+      "461:t_1:75"
+    ],
+    "dlg_2064_01": [
+      "461:t_1:95",
+      "461:t_1:125",
+      "461:t_2:24"
+    ],
+    "dlg_2064_02": [
+      "461:t_2:47",
+      "461:t_2:77",
+      "461:t_10:27"
+    ],
+    "dlg_2064_03": [
+      "461:t_10:47",
+      "462:t_004:9",
+      "462:t_004:39"
+    ],
+    "dlg_2064_04": [
+      "462:t_004:59",
+      "462:t_008:1",
+      "462:t_010:7"
+    ],
+    "dlg_2064_05": [
+      "462:t_013:7",
+      "462:t_105:1"
+    ],
+    "dlg_2065_00": [
+      "467:t_1:15",
+      "467:t_2:5",
+      "467:t_2:35"
+    ],
+    "dlg_2065_01": [
+      "467:t_2:55",
+      "467:t_3:5",
+      "467:t_4:26"
+    ],
+    "dlg_2065_02": [
+      "467:t_10:9",
+      "468:t_001:10",
+      "468:t_007:0"
+    ],
+    "dlg_2065_03": [
+      "468:t_014:5",
+      "468:t_016:2",
+      "468:t_021:9"
+    ],
+    "dlg_2065_04": [
+      "468:t_025:2",
+      "468:t_029:6",
+      "468:t_035:1"
+    ],
+    "dlg_2065_05": [
+      "468:t_037:4",
+      "468:t_100:0"
+    ],
+    "dlg_2066_00": [
+      "473:t_1:12",
+      "473:t_1:42",
+      "473:t_1:75"
+    ],
+    "dlg_2066_01": [
+      "473:t_1:95",
+      "473:t_2:25",
+      "473:t_3:11"
+    ],
+    "dlg_2066_02": [
+      "473:t_3:31",
+      "473:t_10:20",
+      "474:t_000:10"
+    ],
+    "dlg_2066_03": [
+      "474:t_004:3",
+      "474:t_009:6",
+      "474:t_010:29"
+    ],
+    "dlg_2066_04": [
+      "474:t_015:1",
+      "474:t_021:3",
+      "474:t_028:3"
+    ],
+    "dlg_2066_05": [
+      "474:t_030:14",
+      "474:t_101:2",
+      "474:t_108:0"
+    ],
+    "dlg_2066_06": [
+      "474:t_111:1",
+      "474:t_115:10"
+    ]
+  },
+  "decisions": [
+    "Restored complete English subjects in the sampled Looks like lines at 389:t_1:18, 438:t_006:1, 431:t_1:87; translators broadened their own sweeps.",
+    "450:t_021:3 restored subject and copula in the response to the ominous beginning-of-the-end question.",
+    "474:t_015:1 strengthened send you on your way to finish you off: adjacent still alive and killing-blow lines establish a death threat.",
+    "455:t_1:12 retains passive protection promise because 455:t_1:14 explicitly rules out Cayenne himself as protector.",
+    "426:t_100:4 teacher-attraction subject remains an explicitly flagged contextual interpretation; no definitive independent resolution claimed.",
+    "431:t_1:131 immediate Maki goodbye supports her; 432:t_004:4 aura reading follows the next line sensing hatred; 432:t_038:0 insufficient thing remains unspecified.",
+    "467:t_1 unnamed sender kept neutral in early scene. Later 468:t_000:3 and 468:t_001:0-1 identify Advent and confirm the message; no Tetsuya inference retained.",
+    "390:t_020:1 Holstein/buffalo bust joke retained indirectly. Akagi/red ink and AG mi/body-gai/shell jokes remain editorial review points.",
+    "467:t_10:19 decorative source glyph is represented by flirtatious ASCII delivery; font-specific rendering has not been checked in-game.",
+    "Clarification to agent 1 report: the short interface-title note labeled 389:t_2:31 concerns Chamber at 389:t_2:30. Striker at row 31 uses the full Human Race Support and Enlightenment Regulation System term.",
+    "Restored the context-supported subjects He in 461:t_1:117, That in 473:t_3:35, and It in 473:t_3:37 before final name normalization."
+  ],
+  "agent_meaning_edits_before_names": true,
+  "separate_agent4_proofread_row": "431:t_1:87; excluded from fresh assignment count 955",
+  "terminology_status": "Official is the existing project glossary category and can denote wiki-supported spelling; it is not a claim that every name has a licensed English localization. Proposed entries remain explicitly provisional."
+}

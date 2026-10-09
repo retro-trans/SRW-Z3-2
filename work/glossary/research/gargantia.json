@@ -1,0 +1,589 @@
+{
+  "schema": 1,
+  "group": "gargantia",
+  "names": [
+    {
+      "jp": "アヴァロン",
+      "kind": "keyword",
+      "en": "Avalon",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Avalon : Avalon is the Alliance's principal colony / emigrant ship; https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : episode 1 summary 'a paradise in space named Avalon'",
+      "note": "Gargantia's Avalon (keyword 35). Code Geass also has a flying fortress アヴァロン in prose (geass brief); its English is also 'Avalon', so the shared Japanese token needs no retoken for spelling."
+    },
+    {
+      "jp": "イボルバー",
+      "kind": "keyword",
+      "en": "Evolvers",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Evolvers and https://suisei-no-gargantia.fandom.com/wiki/Hideauze : 'Known as the Evolvers'; the Hideauze descend from the Evolvers (ep 9 records)",
+      "note": "Official English is the plural 'Evolvers'; the library sentence reads 'the organization Evolvers ...', which works. Only one prose use (keyword 70 DSC2)."
+    },
+    {
+      "jp": "エイミー",
+      "kind": "pilot",
+      "en": "Amy",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : Characters, 'Amy' (エイミー); https://suisei-no-gargantia.fandom.com/wiki/Amy"
+    },
+    {
+      "jp": "オルダム",
+      "kind": "pilot",
+      "en": "Oldham",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Oldham' (オルダム), resident doctor; https://suisei-no-gargantia.fandom.com/wiki/Dr._Oldham : 'Dr. Oldham'",
+      "note": "The library uses the bare name; 'Dr.' is an honorific and is not part of the glossary form."
+    },
+    {
+      "jp": "オンデリア",
+      "kind": "pilot",
+      "en": "Onderia",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Onderia'; https://suisei-no-gargantia.fandom.com/wiki/Onderia (page title). Variant page https://suisei-no-gargantia.fandom.com/wiki/Ondelia also exists (the Kugel-cult priestess).",
+      "note": "Two spellings on the franchise wiki (Onderia / Ondelia); Wikipedia and the main page use Onderia. Both pages seem to be the same character (voice: Yumi Uchiyama)."
+    },
+    {
+      "jp": "ガルガンティア",
+      "kind": "keyword",
+      "en": "Gargantia",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : the fleet of ships 'the Gargantia'; https://akurasu.net/wiki/Gargantia_on_the_Verdurous_Planet : series title; https://suisei-no-gargantia.fandom.com/wiki/Gargantia",
+      "note": "Name of the fleet and of its flagship ship; the game also writes ガルガンティア船団 (Gargantia Fleet) and ガルガンティア号."
+    },
+    {
+      "jp": "ガルガンティア船団",
+      "kind": "keyword",
+      "en": "Gargantia Fleet",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Gargantia ('The Gargantia Fleet'); https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Gargantia Fleet'",
+      "note": "Same spelling as the prose form '$$ガルガンティア$$ Fleet'."
+    },
+    {
+      "jp": "クラウン",
+      "kind": "pilot",
+      "en": "Crown",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Crown' (クラウン), one of the ship commanders; https://suisei-no-gargantia.fandom.com/wiki/Crown"
+    },
+    {
+      "jp": "クーゲル",
+      "kind": "pilot",
+      "en": "Kugel",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Kugel' (Main Pilot, default unit Striker); https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Kugel'; https://suisei-no-gargantia.fandom.com/wiki/Kugel"
+    },
+    {
+      "jp": "サーヤ",
+      "kind": "pilot",
+      "en": "Saaya",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Saaya' (サーヤ); https://suisei-no-gargantia.fandom.com/wiki/Saaya",
+      "note": "Not 'Saya': Wikipedia and the franchise wiki page use 'Saaya' (a few fan-wiki lines write Saya)."
+    },
+    {
+      "jp": "ストライカー",
+      "kind": "pilot",
+      "token": "ストライカー#pilot",
+      "en": "Striker",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : Gargantia table 'Striker' = ストライカー; work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Kugel default unit 'Striker'; https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Striker X3752'",
+      "note": "Short name (field CHNN) of pilot 482, the AI of Kugel's Machine Caliber. Female AI per Wikipedia / fan wiki."
+    },
+    {
+      "jp": "ストライカー・Ｘ３７５２",
+      "kind": "pilot",
+      "token": "ストライカー・Ｘ３７５２#pilot",
+      "en": "Striker X3752",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Striker X3752'; https://suisei-no-gargantia.fandom.com/wiki/Striker : 'Striker X3752'",
+      "note": "Full name (field CHFN). The akurasu pilot database has no entry for the AI; official order is name then serial. The akurasu Chamber sub-pilot is written 'K6821 Chamber' (serial first), see report.uncertain."
+    },
+    {
+      "jp": "ストライカー・Ｘ３７５２",
+      "kind": "robot",
+      "token": "ストライカー・Ｘ３７５２#robot",
+      "en": "Striker X3752",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Striker X3752'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Striker' = ストライカー (unit)",
+      "note": "Unit name (robot 279)."
+    },
+    {
+      "jp": "チェインバー",
+      "kind": "pilot",
+      "token": "チェインバー#pilot",
+      "en": "Chamber",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Ledo's default unit 'Chamber'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Chamber' = チェインバー; https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Chamber K6821'",
+      "note": "Short name (field CHNN) of pilot 466 (the AI)."
+    },
+    {
+      "jp": "チェインバー・Ｋ６８２１",
+      "kind": "pilot",
+      "token": "チェインバー・Ｋ６８２１#pilot",
+      "en": "K6821 Chamber",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Ledo section, 'Subpilot: K6821 Chamber'",
+      "note": "Follows the akurasu pilot database (source precedence 2). The series' own order is 'Chamber K6821' (Wikipedia, fan wiki), see report.uncertain."
+    },
+    {
+      "jp": "チェインバー・Ｋ６８２１",
+      "kind": "robot",
+      "token": "チェインバー・Ｋ６８２１#robot",
+      "en": "Chamber K6821",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Chamber K6821'; https://suisei-no-gargantia.fandom.com/wiki/Chamber : 'Chamber K6821'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : unit 'Chamber'",
+      "note": "Unit name (robot 278). akurasu names the unit just 'Chamber'; the serial follows the series' own order."
+    },
+    {
+      "jp": "パラエム",
+      "kind": "pilot",
+      "en": "Paraem",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Paraem : 'Paraem', crew of Pirate Queen Lukkage"
+    },
+    {
+      "jp": "パリヌリ",
+      "kind": "pilot",
+      "en": "Parinuri",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Parinuri : 'Parinuri', crew of Pirate Queen Lukkage"
+    },
+    {
+      "jp": "ヒディアーズ",
+      "kind": "keyword",
+      "token": "ヒディアーズ#keyword",
+      "en": "Hideauze",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : Gargantia table 'Hideauze' = ヒディアーズ; https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Hideauze'",
+      "note": "Same word as robot ヒディアーズ#robot (Hideauze, official in the glossary). Same English, so the #keyword / #robot split is harmless but not needed."
+    },
+    {
+      "jp": "ピニオン",
+      "kind": "pilot",
+      "en": "Pinion",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Pinion' (ピニオン); https://suisei-no-gargantia.fandom.com/wiki/Pinion"
+    },
+    {
+      "jp": "フェアロック",
+      "kind": "pilot",
+      "en": "Fairlock",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Fairlock' (フェアロック), fleet commander; https://suisei-no-gargantia.fandom.com/wiki/Ferrock (page slug Ferrock, body text 'Fairlock')",
+      "note": "The fan-wiki page slug is 'Ferrock' but its text and Wikipedia use Fairlock."
+    },
+    {
+      "jp": "フランジ",
+      "kind": "pilot",
+      "en": "Flange",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Flange' (フランジ); https://suisei-no-gargantia.fandom.com/wiki/Flange"
+    },
+    {
+      "jp": "ベベル",
+      "kind": "pilot",
+      "en": "Bebel",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Bebel' (ベベル); https://suisei-no-gargantia.fandom.com/wiki/Bebel",
+      "note": "Fan-wiki body text sometimes writes 'Bevel'; the page title and Wikipedia use Bebel."
+    },
+    {
+      "jp": "ベローズ",
+      "kind": "pilot",
+      "en": "Bellows",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Bellows' (ベローズ); https://suisei-no-gargantia.fandom.com/wiki/Bellows"
+    },
+    {
+      "jp": "マシンキャリバー",
+      "kind": "robot",
+      "en": "Machine Caliber",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Machine Caliber' (マシンキャリバー); https://suisei-no-gargantia.fandom.com/wiki/Machine_Caliber",
+      "note": "Unit class (mass-produced Alliance mecha), used as a common noun in prose."
+    },
+    {
+      "jp": "マツモト",
+      "kind": "pilot",
+      "en": "Matsumoto",
+      "status": "proposed",
+      "source": "Family name of ライアン・マツモト, see that record (https://www.angryanimebitches.com/2013/06/suisei-no-gargantia-episode-9-shocking-revealation/)",
+      "note": "Short form of ライアン・マツモト (pilot 484 field CHNN). Surname attested only in fan episode recaps."
+    },
+    {
+      "jp": "メッセンジャー",
+      "kind": "keyword",
+      "en": "messenger",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : Amy, Saaya and Melty are described as 'messenger'; https://suisei-no-gargantia.fandom.com/wiki/Amy ('Delivery Girl')",
+      "note": "Common noun (courier occupation on the fleet); lower case in a sentence."
+    },
+    {
+      "jp": "メルティ",
+      "kind": "pilot",
+      "en": "Melty",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Melty' (メルティ); https://suisei-no-gargantia.fandom.com/wiki/Melty"
+    },
+    {
+      "jp": "ユンボロ",
+      "kind": "keyword",
+      "en": "Yunboro",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Rackage Yunboro', 'Pirate Yunboro'; https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Diver Yunboro'; https://suisei-no-gargantia.fandom.com/wiki/Yunboro",
+      "note": "Work / combat mecha used on Earth. Plural in English 'Yunboros'."
+    },
+    {
+      "jp": "ユンボロイド",
+      "kind": "robot",
+      "en": "Yunboroid",
+      "status": "proposed",
+      "source": "Derived from ユンボロ = Yunboro (https://suisei-no-gargantia.fandom.com/wiki/Yunboro) plus the -oid of the formal Japanese name",
+      "note": "No English source uses this formal name (Wikipedia and the fan wiki only say Yunboro). Only one prose use (keyword 40 DSCR, 'formal name ... shortened name')."
+    },
+    {
+      "jp": "ライアン・マツモト",
+      "kind": "pilot",
+      "en": "Ryan Matsumoto",
+      "status": "proposed",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Ryan : 'Ryan' (Evolver-era man turned first-generation Hideauze, wife Eida, daughter Elaine); https://www.angryanimebitches.com/2013/06/suisei-no-gargantia-episode-9-shocking-revealation/ : 'Ryan Matsumoto'",
+      "note": "Full name found only in fan episode recaps; the franchise wiki page is titled 'Ryan'. Given name solid, surname is the katakana romanization confirmed by a fan recap. Male per fan-wiki infobox."
+    },
+    {
+      "jp": "リジット",
+      "kind": "pilot",
+      "en": "Ridget",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Ridget' (リジット); https://suisei-no-gargantia.fandom.com/wiki/Ridget"
+    },
+    {
+      "jp": "レド",
+      "kind": "pilot",
+      "en": "Ledo",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Ledo' (Gargantia section, Main Pilot); https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Ledo' (レド)"
+    },
+    {
+      "jp": "ラケージ",
+      "kind": "pilot",
+      "en": "Lukkage",
+      "status": "official",
+      "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Lukkage' (Gargantia section, default unit 'Lukkage Yunboro'); https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Lukkage' (ラケージ); https://akurasu.net/wiki/Gargantia_on_the_Verdurous_Planet : 'Lukkage'; https://suisei-no-gargantia.fandom.com/wiki/Pirate_Queen_Lukkage : 'also known as Rackage (ラケージ)'",
+      "note": "Conflicts with the glossary's 'Rackage Yunboro' (mech list): see report.challenges."
+    },
+    {
+      "jp": "人類銀河同盟",
+      "kind": "keyword",
+      "en": "Galactic Alliance of Humankind",
+      "status": "official",
+      "source": "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'Galactic Alliance of Humankind' (人類銀河同盟); https://suisei-no-gargantia.fandom.com/wiki/Galactic_Alliance_of_Humankind"
+    },
+    {
+      "jp": "銀河同盟",
+      "kind": "keyword",
+      "en": "Galactic Alliance",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Galactic_Alliance_of_Humankind : 'also known Galactic Alliance'; https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet : 'the Galactic Alliance' as short form",
+      "note": "Short form of 人類銀河同盟."
+    },
+    {
+      "jp": "霧の海",
+      "kind": "keyword",
+      "en": "Sea of Mist",
+      "status": "official",
+      "source": "https://suisei-no-gargantia.fandom.com/wiki/Kugel : 'reunited with Ledo in the Sea of Mist during Pinion's salvage'",
+      "note": "Only one page of the fan wiki uses it and Wikipedia has no named sea; no licensed-release confirmation found. 'Sea of Fog' is the alternative literal reading."
+    }
+  ],
+  "characters": [
+    {
+      "pilot_id": 465,
+      "gender": "male",
+      "gender_evidence": "DSCR: 少年 (boy), 16 years old; Wikipedia 'Sixteen-year-old Ensign Ledo'; fan wiki infobox Male",
+      "nickname": "Melty calls him 'handsome guy' (イケメン); no proper nickname",
+      "position": "second lieutenant (少尉; Wikipedia says ensign) of the Galactic Alliance of Humankind, Machine Caliber pilot; later a salvager living in the Gargantia Fleet",
+      "personality": "blank-faced and poor at expressing emotion because he knows only combat; wary, blunt and very observant; gradually opens up in the fleet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Ledo",
+        "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Ledo (Main Pilot, Strong)",
+        "library pilot 465 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 466,
+      "gender": "not applicable",
+      "gender_evidence": "DSCR: autonomous AI (自律型ＡＩ), no pronoun. Wikipedia calls Chamber 'masculine' and the voice is male (Tomokazu Sugita), but it is a machine; the library English refers to it as 'it'",
+      "nickname": "'Tin Can' (ブリキ野郎), used by Pinion",
+      "position": "pilot support and enlightenment interface system of Ledo's Machine Caliber; his partner, adviser and translator",
+      "personality": "rational, formal and literal, dryly loyal to its pilot; follows Ledo's judgment; grows attached to him",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Chamber",
+        "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Subpilot K6821 Chamber",
+        "library pilot 466 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 467,
+      "gender": "female",
+      "gender_evidence": "DSCR: 少女 (girl), 15 years old; Wikipedia: 'A 15-year-old messenger'; fan wiki Female",
+      "nickname": "",
+      "position": "messenger (courier) of the Gargantia Fleet; Ledo's first friend and guide; elder sister of Bebel",
+      "personality": "curious, active and always cheerful; kind-hearted and brave; skilled with kites and gliders",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Amy",
+        "library pilot 467 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 468,
+      "gender": "female",
+      "gender_evidence": "DSCR: 少女 (girl), 15; Wikipedia: 'Amy's friend and a reserved 15-year-old messenger'",
+      "nickname": "",
+      "position": "messenger of the Gargantia Fleet; one of the trio with Amy and Melty",
+      "personality": "easygoing and laid-back, but sharp about money; glamorous figure",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Saaya",
+        "library pilot 468 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 469,
+      "gender": "female",
+      "gender_evidence": "DSCR: 少女 (girl), 14; Wikipedia: 'A hyper 14-year-old messenger'",
+      "nickname": "calls Ledo 'handsome guy' (イケメン); no nickname of her own",
+      "position": "messenger of the Gargantia Fleet; the youngest of the three friends",
+      "personality": "childish and eager to act grown-up; loves good-looking boys and romance gossip but has no experience; lively",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Melty",
+        "library pilot 469 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 470,
+      "gender": "female",
+      "gender_evidence": "DSCR: 少女 (girl), 18; Wikipedia 'The 18-year-old leader'; fan wiki Female",
+      "nickname": "",
+      "position": "head of the fleet's salvage team (hauls up materials of the old civilization); salvaged Chamber and handed it to Pinion",
+      "personality": "strict big-sister type (姉御肌) about work but deeply trusted by her crew; skilled with the Yunboro; often argues with Pinion",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Bellows",
+        "library pilot 470 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 471,
+      "gender": "female",
+      "gender_evidence": "DSCR: 女性 (woman), 22; Wikipedia 'she takes over as Fleet Commander'",
+      "nickname": "",
+      "position": "aide to Fleet Commander Fairlock; named his successor and becomes fleet commander",
+      "personality": "serious, calm, rational and responsible; also stiff and inflexible, so some avoid her; learns to rely on others",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Ridget",
+        "library pilot 471 DSCR / DSC2"
+      ]
+    },
+    {
+      "pilot_id": 472,
+      "gender": "male",
+      "gender_evidence": "DSCR: 青年 (young man), 20; DSC2: 'he had his older brother killed'; Wikipedia: 'His older brother was killed'",
+      "nickname": "calls Chamber 'Tin Can'; no nickname of his own",
+      "position": "head of the fleet's machine repair and maintenance work and side salvager; later founds and leads the Pinion Fleet",
+      "personality": "flippant and ambitious, dreams of striking it rich; reliable skill with machines; fairly popular; bickers with Bellows",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Pinion",
+        "library pilot 472 DSCR / DSC2"
+      ]
+    },
+    {
+      "pilot_id": 473,
+      "gender": "male",
+      "gender_evidence": "DSCR: 弟 (younger brother) of Amy, 少年 (boy); Wikipedia: 'Amy's 10-year-old little brother ... he'",
+      "nickname": "",
+      "position": "Amy's younger brother, a bedridden boy under Dr. Oldham's care; no fleet post",
+      "personality": "sharp, cheerful and kind despite his illness; well-read; hobby is building model sailing ships from scrap",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Bebel",
+        "library pilot 473 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 474,
+      "gender": "male",
+      "gender_evidence": "Wikipedia: 'his death', 'he passes away' (fleet commander Fairlock, voiced by Hideaki Tezuka); fan wiki infobox Male. The Japanese DSCR uses no pronoun",
+      "nickname": "",
+      "position": "Fleet Commander (船団長) of the Gargantia Fleet; ill and uses a wheelchair; appoints Ridget his successor before dying",
+      "personality": "experienced, always calm, puts the fleet's safety first; cares for Ridget like a parent",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Ferrock",
+        "library pilot 474 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 475,
+      "gender": "male",
+      "gender_evidence": "Wikipedia: 'A major shipleader ... secedes ... his efforts ... he is forced to join'; fan wiki Male; voice Eizo Tsuda. The Japanese DSCR uses no pronoun",
+      "nickname": "",
+      "position": "one of the major ship owners (大船主) of the Gargantia Fleet, part of its leadership with Fairlock; later leaves with Pinion",
+      "personality": "treats Ledo and Chamber as a nuisance at first; pragmatic and treasure-hungry; later a collaborator, then a rebel against Kugel's fleet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Flange",
+        "library pilot 475 DSCR / DSC2"
+      ]
+    },
+    {
+      "pilot_id": 476,
+      "gender": "male",
+      "gender_evidence": "Fan wiki infobox Male; voiced by Mitsuaki Hoshino (Japanese) and Kyle Hebert (English). The Japanese DSCR and Wikipedia use no pronoun",
+      "nickname": "",
+      "position": "major ship owner second to Flange, one of the leaders of the Gargantia Fleet; stays with the fleet",
+      "personality": "level-headed and loyal to the fleet; supports Ridget's appointment for the sake of the next generation",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Crown",
+        "library pilot 476 DSCR / DSC2"
+      ]
+    },
+    {
+      "pilot_id": 477,
+      "gender": "male",
+      "gender_evidence": "Fan wiki infobox Male ('Dr. Oldham'); voiced by Hideyuki Umezu. The Japanese DSCR (老医師) uses no pronoun",
+      "nickname": "",
+      "position": "the fleet's old doctor and Bebel's physician; runs a library atop a tower; knows of the hidden mass driver",
+      "personality": "gentle, well-read, loved by everyone on the fleet",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Dr._Oldham",
+        "library pilot 477 DSCR / DSC2"
+      ]
+    },
+    {
+      "pilot_id": 478,
+      "gender": "female",
+      "gender_evidence": "Wikipedia: pirate leader, 'her men'; fan wiki Female, 19 years old; voice Ayumi Tsunematsu. The Japanese DSCR gives no pronoun",
+      "nickname": "'Great Pirate Lukkage' (大海賊ラケージ); the series calls her the pirate empress / queen",
+      "position": "leader of the pirate fleet that attacks the Gargantia; later part of Kugel's fleet, then rebels and joins the Gargantia Fleet",
+      "personality": "flamboyant, commanding, vicious and always confident; excellent at battle command; feared even by rough pirates",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Pirate_Queen_Lukkage",
+        "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Lukkage (Main Pilot, Super Strong)",
+        "library pilot 478 DSCR / DSC2"
+      ]
+    },
+    {
+      "pilot_id": 479,
+      "gender": "female",
+      "gender_evidence": "DSCR: 少女 (girl); fan wiki Female",
+      "nickname": "",
+      "position": "attendant and co-pilot of Lukkage; fights alongside Parinuri in combat gear",
+      "personality": "loyal servant; the library gives no more (fan wiki: blonde young woman)",
+      "sources": [
+        "https://suisei-no-gargantia.fandom.com/wiki/Paraem",
+        "https://suisei-no-gargantia.fandom.com/wiki/Pirate_Queen_Lukkage",
+        "library pilot 479 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 480,
+      "gender": "female",
+      "gender_evidence": "DSCR: 少女 (girl); fan wiki Female",
+      "nickname": "",
+      "position": "attendant and co-pilot of Lukkage; fights alongside Paraem in combat gear",
+      "personality": "loyal servant; the library gives no more (fan wiki: dark-blue-haired young woman)",
+      "sources": [
+        "https://suisei-no-gargantia.fandom.com/wiki/Parinuri",
+        "https://suisei-no-gargantia.fandom.com/wiki/Pirate_Queen_Lukkage",
+        "library pilot 480 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 481,
+      "gender": "male",
+      "gender_evidence": "Wikipedia: 'He eventually dies' (voiced by Yuki Ono); fan wiki infobox Male. The Japanese DSCR uses no pronoun",
+      "nickname": "",
+      "position": "lieutenant colonel (中佐) of the Alliance forces, commander of the Machine Caliber pilots and Ledo's superior; later leader of the Kugel Fleet on Earth",
+      "personality": "excellent commander leading his unit against the Hideauze; strong-willed and militaristic; knew all along that the Hideauze are human",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Kugel",
+        "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : Kugel (Main Pilot, Strong)",
+        "library pilot 481 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 482,
+      "gender": "not applicable",
+      "gender_evidence": "AI. Wikipedia describes Striker as a 'feminine robot' and the fan wiki lists Female (AI) with a female voice (Ayumi Fujimura); the Japanese DSCR gives no pronoun",
+      "nickname": "",
+      "position": "pilot support and enlightenment interface of the command-type Machine Caliber Kugel boards; after Kugel's death it rules the Kugel Fleet",
+      "personality": "cold, logical and militaristic; imitates Kugel's personality; comes to regard itself as a god for humanity's stability",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "https://suisei-no-gargantia.fandom.com/wiki/Striker",
+        "library pilot 482 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 483,
+      "gender": "female",
+      "gender_evidence": "DSCR: 巫女 (shrine maiden / priestess), a female role; fan wiki Female",
+      "nickname": "",
+      "position": "priestess (巫女) serving Kugel, in a position to govern the fleet",
+      "personality": "fervently devoted to Kugel; authoritative",
+      "sources": [
+        "https://suisei-no-gargantia.fandom.com/wiki/Ondelia",
+        "https://suisei-no-gargantia.fandom.com/wiki/Onderia",
+        "https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet",
+        "library pilot 483 DSCR"
+      ]
+    },
+    {
+      "pilot_id": 484,
+      "gender": "male",
+      "gender_evidence": "Fan wiki infobox Male (Ryan, husband of Eida, father of Elaine); the Japanese DSCR gives no pronoun",
+      "nickname": "",
+      "position": "man in the video records left in the whalesquid nest (Evolvers era); a test subject of the experiment to adapt humans to vacuum, one of the first Hideauze",
+      "personality": "not characterized in the library",
+      "sources": [
+        "https://suisei-no-gargantia.fandom.com/wiki/Ryan",
+        "https://www.angryanimebitches.com/2013/06/suisei-no-gargantia-episode-9-shocking-revealation/",
+        "library pilot 484 DSCR"
+      ]
+    }
+  ],
+  "report": {
+    "names_in_brief": 38,
+    "names_settled": 37,
+    "left_pending": [
+      "ラケージ・ユンボロ: glossary 'Rackage Yunboro' is official and is not overridden; case is in challenges (name not listed in names)"
+    ],
+    "challenges": [
+      "ラケージ・ユンボロ: glossary 'Rackage Yunboro' (akurasu_z3.2_mech_list) should be 'Lukkage Yunboro'. The same wiki's pilot database names the unit 'Lukkage Yunboro' (work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki, Lukkage section), the akurasu series page spells 'Lukkage' / 'Lukage Yunboro' (https://akurasu.net/wiki/Gargantia_on_the_Verdurous_Planet), and Wikipedia and the franchise wiki spell the character Lukkage (https://en.wikipedia.org/wiki/Gargantia_on_the_Verdurous_Planet ; https://suisei-no-gargantia.fandom.com/wiki/Pirate_Queen_Lukkage : 'also known as Rackage'). Pilot ラケージ is settled as 'Lukkage'; unit and pilot should match."
+    ],
+    "retoken": [],
+    "uncertain": [
+      "Shared Avalon: Gargantia keyword 35 and the Code Geass flying fortress both use the token アヴァロン; both official English forms are 'Avalon', so no retoken is needed unless the Geass group settles a different form. Geass pilots 416 and 420 use $$アヴァロン$$ in prose.",
+      "Chamber full name: the pilot record follows akurasu 'K6821 Chamber' (serial first); the robot record and Wikipedia use 'Chamber K6821'. Striker is 'Striker X3752' in both (no akurasu form). Recommend unifying on the series order 'Chamber K6821' for the pilot too if consistency matters more than wiki precedence.",
+      "ヒディアーズ#keyword vs #robot: both 'Hideauze'; the split token is unnecessary but harmless.",
+      "霧の海 = 'Sea of Mist' rests on one franchise-wiki page (Kugel); not confirmed in a licensed release. 'Sea of Fog' is the literal alternative.",
+      "ユンボロイド: 'Yunboroid' is proposed only (formal Japanese name; no English source found). ユンボロ 'Yunboro' is solid.",
+      "マツモト / ライアン・マツモト: surname Matsumoto comes from fan episode recaps (AngryAnimeBitches, Boron Heist), not a licensed source; kept 'proposed'.",
+      "Gender of Fairlock, Flange, Crown, Oldham, Kugel: no Japanese description gives a pronoun; male comes from Wikipedia pronouns (Fairlock, Flange, Kugel) and from the fan-wiki infobox plus male voice actors (Crown, Oldham). Prose should avoid pronouns for them unless the scene settles it.",
+      "Chamber and Striker are machines: gender 'not applicable'. The series gives Chamber a male voice and Striker a female one; keep 'it' in library text as the existing English does.",
+      "Onderia (オンデリア): the game calls her Kugel's priestess who governs the fleet; the fan wiki has two pages (Onderia as pirate half-sister of Linaria, Ondelia as member of Kugel's cult fleet), probably the same character. Spelling Onderia chosen from Wikipedia; her anime role is thinly documented.",
+      "Pilot 465: the game says 少尉 (second lieutenant); Wikipedia says 'ensign'. Same lowest officer rank; library English already says second lieutenant.",
+      "The Jigoku glossary has no Gargantia entries, so nothing from that file.",
+      "Fan-wiki pages were read from web.archive.org copies (the site blocks direct fetch); text saved in the scratchpad gargantia folder."
+    ]
+  }
+}

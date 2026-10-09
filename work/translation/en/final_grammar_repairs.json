@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "batch": 1,
+      "file": "dlg_2005_00.json",
+      "id": "33:t_1:29",
+      "before": "$$ミサト$$\n「...Understood.」",
+      "after": "$$ミサト$$\n「...I understand.」",
+      "reason": "Agent9_4 source+8neighbors review: Misato acknowledges Gendo's order, no genuine cut; restore subject and verb."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2061_02.json",
+      "id": "443:t_2:163",
+      "before": "$$テイタニア$$\n「The $$異能者$$ who ruled the $$アストラギウス$$ Galaxy from the shadows...」",
+      "after": "$$テイタニア$$\n「They were the $$異能者#plural$$ who ruled the $$アストラギウス$$ Galaxy from the shadows...」",
+      "reason": "Agent9_4 and coordinator source review: full identification clause; following Shako plural and DOME confirms plural ancient Overmen, preserve distinct VOTOMS identity."
+    },
+    {
+      "batch": 4,
+      "file": "dlg_2061_02.json",
+      "id": "443:t_2:164",
+      "before": "$$シャッコ$$\n「Those who moved their minds into machines and gained eternity...」",
+      "after": "$$シャッコ$$\n「So they transferred their minds into machines and gained eternity?」",
+      "reason": "Agent9_4 source+8neighbors review: settled interrogative clause, no cross-row continuation; restore subject and predicate."
+    }
+  ]
+}

@@ -1,0 +1,1785 @@
+{
+  "scope": "alternate routes: Sousuke rescue stages 17-22, Left-Behind Sea stages 26-29, and remaining choice D-Traders",
+  "rows": 5583,
+  "slices": 79,
+  "rows_differing_from_prior": 4553,
+  "baseline_files_verified": 79,
+  "validation": {
+    "result": "PASS",
+    "errors": 0,
+    "length_warnings": 0,
+    "unknown_tokens": 0,
+    "untranslated_rows": 0,
+    "fit_warnings": []
+  },
+  "coordinator_row_edits": 9,
+  "glossary_additions": [
+    {
+      "jp": "チーム・クロスボウ",
+      "token": "チーム・クロスボウ",
+      "en": "Team Crossbow",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "311:t_1:19;329:t_1:3/13 and neighbors read: Nami's AS arena team. https://fullmetal-panic.jp/character/ confirms team ownership; https://www.goodsmile.info/en/product/7263/MODEROID%2BSavage%2BCrossbow.html confirms Crossbow spelling. Compositional team name, licensed full form unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "Ｒｋ－９１",
+      "token": "Ｒｋ－９１",
+      "en": "Rk-91",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "311:t_1:57;329:t_1:13 and neighbors read. Early Savage model, distinct from Rk-92. https://fullmetalpanic.fandom.com/wiki/Rk-91_Savage ; https://srw.wiki.cre.jp/wiki/サベージ_(クロスボウ)",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "Ｒｋ－９２",
+      "token": "Ｒｋ－９２",
+      "en": "Rk-92",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "311:t_1:59 and neighbors read. Model-only form derived from existing full Rk-92 Savage glossary entry.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "プリベンター・ウインド",
+      "token": "プリベンター・ウインド",
+      "en": "Preventer Wind",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:29 and neighbors read: Zechs's codename. https://srw.wiki.cre.jp/wiki/ゼクス・マーキス and https://gundam.fandom.com/wiki/Preventer confirm alias.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス",
+        "position": "Preventer agent; former OZ ace",
+        "personality": "resolute, proud, troubled by warfare",
+        "nickname": "Zechs Merquise / Milliardo Peacecraft",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ウインド",
+      "token": "ウインド",
+      "en": "Wind",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:32 and neighbors read: Zechs short codename; same evidence as Preventer Wind.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス",
+        "position": "Preventer agent; former OZ ace",
+        "personality": "resolute, proud, troubled by warfare",
+        "nickname": "Zechs Merquise / Milliardo Peacecraft",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ゼクス・マーキス"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "プリベンター・サンド",
+      "token": "プリベンター・サンド",
+      "en": "Preventer Sand",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:31 and neighbors read: Lemon, NOT Quatre. https://srw.wiki.cre.jp/wiki/ミシェル・レモン explicitly identifies this Tengoku codename. English reconstructs Japanese; no licensed English verified.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ミシェル・レモン",
+        "position": "Preventer operative investigating Amalgam; originally DGSE agent",
+        "personality": "intelligent, sociable and skilled at information work",
+        "nickname": "Michel Lemon; surname is an alias",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ミシェル・レモン"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ファイヤー",
+      "token": "ファイヤー",
+      "en": "Fire",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:32 and neighbors read: Noin's codename. https://srw.wiki.cre.jp/wiki/ルクレツィア・ノイン and https://gundam.fandom.com/wiki/Preventer confirm alias.",
+      "profile": {
+        "gender": "female",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/ルクレツィア・ノイン",
+        "position": "Preventer agent; former OZ instructor",
+        "personality": "loyal, capable, protective",
+        "nickname": "Lucrezia Noin",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/ルクレツィア・ノイン"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＡＲＸー７",
+      "token": "ＡＲＸー７",
+      "en": "ARX-7",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "329:t_3:48 and neighbors read. Model-only Arbalest reference; English derived from existing full ARX-7 Arbalest glossary. Preserve unusual source long-vowel mark in token.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "シャドウ",
+      "token": "シャドウ",
+      "en": "Shadow",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "329:t_10:5 and neighbors read. Short model name; derived from existing Zy-98 Shadow glossary.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アンドレイ・カリーニン",
+      "token": "アンドレイ・カリーニン",
+      "en": "Andrei Kalinin",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "329:t_3:118 and neighbors read: patronymic absent. Existing glossary and https://en.wikipedia.org/wiki/List_of_Full_Metal_Panic!_characters use Andrei; https://fullmetal-panic.jp/character/ uses Andrey variant. Retain established wiki-supported Andrei, no expansion.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://fullmetal-panic.jp/character/",
+        "position": "Major; former Mithril operations commander, now with Leonard",
+        "personality": "disciplined, loyal to his mission and coldly decisive",
+        "nickname": "Kalinin",
+        "sources": [
+          "https://fullmetal-panic.jp/character/"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アル二世",
+      "token": "アル二世",
+      "en": "Al II",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "330:t_015:0 and neighbors read: Sousuke's nickname for the Savage Crossbow, not the AI itself. https://jcrcomicarts.wordpress.com/2018/02/28/full-metal-panic-fight-who-dares-win-mechs/ corroborates nickname. Licensed form unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "触れ得ざる者",
+      "token": "触れ得ざる者",
+      "en": "Untouchable",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "311:t_1:7 and neighbors read: Chirico epithet. https://srw.wiki.cre.jp/wiki/キリコ・キュービィー confirms exact Japanese epithet. Literal English proposed; licensed rendering unverified. Article outside token.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://srw.wiki.cre.jp/wiki/キリコ・キュービィー",
+        "position": "Former Red Shoulder soldier and AT pilot",
+        "personality": "reserved, independent, rejects control by others",
+        "nickname": "Chirico Cuvie",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/キリコ・キュービィー"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "マッスルパッケージ",
+      "token": "マッスルパッケージ",
+      "en": "Muscle Package",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "311:t_1:62 and neighbors read: artificial muscle component. https://fullmetalpanic.fandom.com/wiki/Arm_Slave corroborates English technical label; lowercase modifier for running prose.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "デ・ダナン",
+      "token": "デ・ダナン",
+      "en": "de Danaan",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "317:t_1:46 source request and neighbors reviewed by translator. Partial vessel name derived from established Tuatha de Danaan glossary; do not expand source.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "秩序の盾",
+      "token": "秩序の盾",
+      "en": "Shield of the Order",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "317:t_1:133 and neighbors read: Martial defenders. https://akurasu.net/wiki/Armored_Trooper_VOTOMS_(PS2)/AT_Data supplies this wording; https://srw.wiki.cre.jp/wiki/オーデルバックラー confirms guardian rank. Wiki spelling; licensed form unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ショット・キャノン",
+      "token": "ショット・キャノン",
+      "en": "Shot Cannon",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "318:t_000:10 and neighbors read. Weapon type, not extra Boxer model designation. https://en.wikipedia.org/wiki/Full_Metal_Panic! lists English Shot Cannon in game weapon names. Lowercase modifier in speech.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "オーガ",
+      "token": "オーガ",
+      "en": "Ogre",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "318:t_001:0 and 318:t_003:3 with neighbors read: short name of rival AS arena team. Existing Ogre Family glossary and https://www.siliconera.com/full-metal-panic-fight-dares-wins-shows-off-impressive-mechs-equippable-weaponry/ corroborate Ogre team name; do not expand source.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "Ｍ９",
+      "token": "Ｍ９",
+      "en": "M9",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "330:t_102:0 and neighbors read. Model-only form from existing official M9 Gernsback glossary; do not expand to full machine name.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "異能者",
+      "token": "異能者",
+      "en": "Overman",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "342:t_111:0 and neighbors read. Shako recalls the shadow of the superior being he pursued; do not collapse into Abnormal Survivor (異能生存体). Official https://www.votoms.net/keywords/ identifies ancient Quent beings becoming Wiseman; https://timeldred.com/inoueinterview/ and licensed Votoms RPG English https://anyflip.com/xxnsk/dtqp/basic/101-150 use Overman. Distinct from King Gainer machine class. Identity/singular inference retained in translator report.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "異能者",
+      "token": "異能者#plural",
+      "en": "Overmen",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "Plural of VOTOMS Overman; 306:t_000:6 and753:t_202:3 refer to the ancient Quent superhumans expelled. Official https://www.votoms.net/keywords/ confirms group identity; https://timeldred.com/inoueinterview/ uses overmen. English irregular plural requires separate token.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＺＯＮＥブレイカー",
+      "token": "ＺＯＮＥブレイカー",
+      "en": "ZONE Breaker",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "348:t_000:5 and neighbors read. Exact device developed to disable ZONE; https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story5 and https://srw.wiki.cre.jp/wiki/ZONE corroborate name and function; licensed localization unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ブリュッセル",
+      "token": "ブリュッセル",
+      "en": "Brussels",
+      "kind": "location",
+      "status": "proposed",
+      "source": "348:t_001:9 and neighbors read: Mariemaia remnant recalls Endless Waltz battle. https://gundam.fandom.com/wiki/After_Colony_locations confirms city and battle; https://gundam.fandom.com/wiki/Relena_Darlian corroborates Belgium. Spelling established; do not carry erroneous Germany location from separate wiki battle page.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "地球外変異性金属体",
+      "token": "地球外変異性金属体",
+      "en": "Extraterrestrial Living-metal Shape-shifter",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "347:t_2:77 and neighbors read: full expansion of ELS acronym. https://gundam.fandom.com/wiki/Extraterrestrial_Living-metal_Shape-shifter and https://gundam.fandom.com/wiki/Earth_Sphere_Federation corroborate singular expansion and hyphenation. Full form must not be replaced by ELS here; licensed spelling not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "自発進化推進派",
+      "token": "自発進化推進派",
+      "en": "Voluntary Evolution Advocates",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "401:t_1:51 and neighbors read: formal descriptive name of Evolvers. https://srw.wiki.cre.jp/wiki/翠星のガルガンティア confirms exact Japanese identity. Proposed literal English; established licensed full English not verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アンタレス１",
+      "token": "アンタレス１",
+      "en": "Antares 1",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "408:t_007:0 and neighbors read: Brera's call sign under Galaxy control. https://macross.anime.net/wiki/Brera_Sterne confirms Antares unit and identity; numeral follows exact game source.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Brera profile and Macross Compendium identifies Ranka's older brother.",
+        "position": "Galaxy Fleet cyborg pilot; Antares unit",
+        "personality": "Reserved, mission-focused, protective of Ranka",
+        "nickname": "Brera Sterne",
+        "sources": [
+          "https://macross.anime.net/wiki/Brera_Sterne"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "スカル４",
+      "token": "スカル４",
+      "en": "Skull 4",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "408:t_101:1 and neighbors read: Brera targets Alto. https://macross.anime.net/wiki/Alto_Saotome explicitly gives Code name Skull 4. Licensed localization not independently verified.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://macross.anime.net/wiki/Alto_Saotome",
+        "position": "S.M.S. Skull Team pilot",
+        "personality": "Defiant, standoffish, yearns for open skies",
+        "nickname": "Alto Saotome; Princess",
+        "sources": [
+          "https://macross.anime.net/wiki/Alto_Saotome"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アームレイカー",
+      "token": "アームレイカー",
+      "en": "Arm Raker",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "419:t_1:178 and neighbors read: Amuro's preferred cockpit control play. https://gundam.wiki.cre.jp/wiki/アームレイカー explicitly supplies Arm raker; https://gundam.fandom.com/wiki/Gundam_Wiki:Technology corroborates. Lowercase token modifier and plural outside for running dialogue; licensed spelling not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "翠星蟲システム",
+      "token": "翠星蟲システム",
+      "en": "Lightbug System",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "413:t_2:30 and neighbors read: named nanomachine dispersal system. https://srw.wiki.cre.jp/wiki/ガルガンティア船団 confirms exact Japanese. Compose established Lightbugs term in singular attributive form, as existing Lightbug Project; licensed English unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "船団五賢人",
+      "token": "船団五賢人",
+      "en": "Five Sages of the Fleet",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "413:t_2:22 and neighbors read: Oldham's council guards the fleet's lost weapon. https://www.production-ig.co.jp/works/gargantia/story/04.html confirms five sages; https://suisei-no-gargantia.fandom.com/wiki/Gargantia confirms Sages guarding system. Proposed full compositional English.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ギャラクシー",
+      "token": "ギャラクシー",
+      "en": "Galaxy",
+      "kind": "location",
+      "status": "proposed",
+      "source": "413:t_3:19 and neighbors read: short fleet name contrasted with Frontier. Derived from established full Galaxy fleet glossary, https://macross.fandom.com/wiki/Grace_O'Connor; do not expand source or confuse ordinary galaxy.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "フォールドジャミング",
+      "token": "フォールドジャミング",
+      "en": "Fold Jamming",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "413:t_3:13 and neighbors read: Vajra consciousness disruption paired with implant shells. https://www.macross2.net/m3/macrosspedia/macrosspedia-index.html describes Fold Wave Jamming and Implant Shells. Short form matches exact source without extra Wave.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ブレイブ・バイブレーション",
+      "token": "ブレイブ・バイブレーション",
+      "en": "Brave Vibration",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "811:t_10:5 and815:t_10:5 with neighbors read: AG jokes that his named function switches ON for counteroffensive. Literal romanization from source; no reliable external game-specific English found, not identified as the unrelated song.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "波乗りロブスター",
+      "token": "波乗りロブスター",
+      "en": "Surfing Lobster",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "414:t_101:1 and neighbors read: Lukkage's upgraded personal craft. https://it.wikipedia.org/wiki/Suisei_no_Gargantia and episode11 transcript https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e11&tv-show=gargantia-on-the-verdurous-planet-2013 corroborate name; licensed wording not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "マキシマイズ",
+      "token": "マキシマイズ",
+      "en": "Maximize",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "414:t_021:7 and414:t_026:3: Chamber's boost command, separate from neural fusion. Japanese term corroborated https://kenchi555.hatenablog.com/entry/20150412/1428747589 . Direct English reconstruction; licensed English unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ニューロプラスパワード",
+      "token": "ニューロプラスパワード",
+      "en": "Neuroplus Powered",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "414:t_021:7 and neighbors read: neural machine fusion, life-threatening without support. https://suisei-no-gargantia.fandom.com/wiki/Machine_Caliber confirms Neuroplus spelling/function; https://isekai.fandom.com/wiki/Gargantia gives neuroplus-powered. Full capitalization provisional; licensed English unverified.",
+      "targets": [],
+      "researched_token": true
+    }
+  ],
+  "glossary_corrections": [],
+  "agent_reports": {
+    "dlg_2041_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "300:t_1:10: Ono trails off while suspecting the volunteer club.",
+        "300:t_1:15: Angry unfinished address.",
+        "300:t_1:30: Ono breaks off his accusation.",
+        "300:t_1:31: Sousuke starts speaking and trails off.",
+        "300:t_2:10: Suzune trails off before stating what happened to the others in the Spacequake.",
+        "300:t_2:32: Suzune trails off after contrasting herself.",
+        "300:t_2:44: Hibiki trails off about being mentally ready."
+      ],
+      "uncertain": [
+        "300:t_2:38: Teaching practicum is special educational field training; rendered as a teaching practicum based on Suzune being the trainee teacher."
+      ]
+    },
+    "dlg_2041_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "300:t_2:51: Playfully unfinished reproach.",
+        "300:t_2:57: Contrast trails into next row.",
+        "300:t_2:62: Suzune trails off in referring to the Wrath Babylon incident.",
+        "300:t_2:64: Thought trails off about dealing with his mother; intentionally unspecified resolution.",
+        "300:t_2:67: Suzune leaves her conclusion unfinished for Hibiki to answer.",
+        "300:t_2:97: Kidera pauses before identifying Martial in next row.",
+        "300:t_2:111: Kallen leaves reproach unfinished.",
+        "300:t_2:113: Mao leaves reproach unfinished.",
+        "300:t_2:123: Kallen trails off about the destroyed Arbalest.",
+        "300:t_2:124: Roger begins the topic of the black AS, completed in next row."
+      ],
+      "uncertain": []
+    },
+    "dlg_2041_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "300:t_2:142: Potaria sets up the message whose content is given in next row.",
+        "301:t_000:1: Hibiki haltingly addresses Suzune upon regaining consciousness; name itself not cut to invent token fragments.",
+        "306:t_001:8: Kallen thinks only Chirico name in sympathy."
+      ],
+      "uncertain": [
+        "300:t_2:146: Red Devil nickname is translated plainly; reputation idiom renders the name-cry joke as a rebuke about her tears.",
+        "306:t_002:6: Japanese Kan Yu/kan pun has no direct English equivalent; hunch is used and the speaker still denies a pun."
+      ]
+    },
+    "dlg_2041_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "306:t_006:0: Kan Yu exclaims in disbelief at the ambush.",
+        "306:t_006:9: Kan Yu leaves his question about the prior argument unfinished.",
+        "306:t_006:23: Angry unfinished address.",
+        "306:t_007:2: Hibiki trails off before stating what seeing his friends means to him."
+      ],
+      "uncertain": [
+        "306:t_002:13: Dorothy is the Big O android, settled by Roger and her participation in the act.",
+        "306:t_003:18: Dorothy is the Big O android; Roger immediately replies."
+      ]
+    },
+    "dlg_2041_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "306:t_008:5: Suzune breaks off identifying the approaching ship; next row supplies its identity.",
+        "306:t_009:15: Mao thinks only Tessa name in distress.",
+        "306:t_101:2: Means clause continues the promise in preceding row.",
+        "306:t_102:2: Negative response continues into the explanation in next row."
+      ],
+      "uncertain": [
+        "306:t_011:3: Dorothy is the Big O android, responding to Roger.",
+        "306:t_101:5: Dorothy is the Big O android, responding to Roger.",
+        "311:t_1:14: That one remains gender-neutral; adjacent context does not yet identify whom Montewells means."
+      ]
+    },
+    "dlg_2041_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "311:t_1:15: Formal trailing assent to the unseen superior.",
+        "311:t_1:26: Nami leaves her contrast unfinished.",
+        "311:t_1:34: Lemon trails off referring to Rick murder without repeating kill verb, matching the source cut.",
+        "311:t_1:41: Sympathetic address only.",
+        "311:t_1:56: Nami is interrupted before completing her dismissal.",
+        "311:t_1:65: Nami is interrupted mid-judgment of amateurs.",
+        "311:t_1:69: Lemon leaves his suggestion unfinished.",
+        "311:t_10:15: AG is interrupted mid-sentence about Z-Chips pouring in."
+      ],
+      "uncertain": []
+    },
+    "dlg_2041_06": {
+      "rows_in_slice": 42,
+      "rows_examined": 42,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "311:t_10:44: AG ends full sentence with business slogan repeated as nouns.",
+        "311:t_10:30: AG deliberately dwells on private lessons as a suggestive topic fragment.",
+        "311:t_10:37: AG stammers without completing his thought.",
+        "311:t_10:41: AG reflects on Suzune by address only.",
+        "312:t_000:6: Tessa trails off upon hearing Kalinin is unaccounted for."
+      ],
+      "uncertain": [
+        "312:t_004:3: Katakana Sagara refers to Sousuke; canonical Sagara token used."
+      ]
+    },
+    "dlg_2042_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "317:t_1:16: Suzune leaves contrast unfinished.",
+        "317:t_1:42: Kallen trails off before stating what may have happened to Tessa.",
+        "317:t_1:44: Sympathetic address.",
+        "317:t_1:66: Kurz addresses Mao by relational Sis only.",
+        "317:t_1:72: Mao leaves contrast unfinished.",
+        "317:t_1:74: Hibiki address only."
+      ],
+      "uncertain": [
+        "317:t_1:21: Sheep remark preserves source pun on butler and sheep and likely refers to the prior false sheep; Dorothy dismisses it.",
+        "317:t_1:22: Dorothy is the Big O android responding to Roger.",
+        "317:t_1:82: Caption compound rendered existing Grulfee token plus plain Chamber of Commerce."
+      ]
+    },
+    "dlg_2042_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "317:t_1:129: Formal ritual preserves battle invocations as noun fragments.",
+        "317:t_1:111: Zero echoes the believer affiliation thoughtfully.",
+        "317:t_1:131: Ritual chant is deliberately unfinished and repeated.",
+        "317:t_1:137: Child trails off in objection.",
+        "317:t_1:141: Child trails off in objection again.",
+        "317:t_1:148: Kallen concerned address only.",
+        "317:t_1:154: Chirico reflects on the topic of a god, then complete judgment; topic phrase mirrors narration."
+      ],
+      "uncertain": [
+        "317:t_1:129: Formal ritual describes combat as universal harmony; love and father/mother images retained rather than embellished.",
+        "318:t_000:0: Katakana Sousuke variant uses known Sousuke token, scene identity certain."
+      ]
+    },
+    "dlg_2042_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "318:t_002:4: Sousuke repeats team name and generic meaning as topic fragments before full evaluation.",
+        "318:t_000:31: Nami leaves conclusion unfinished when Lemon interrupts warning.",
+        "318:t_001:6: Nami trails off in accusatory reference to the threats.",
+        "318:t_002:2: Angry address.",
+        "318:t_002:7: Lemon thinks through the heavy crossbow/Arbalest association without asserting a full sentence.",
+        "323:t_1:7: Teitania address only.",
+        "323:t_1:11: Hibiki trails off before completing description of Chirico speech."
+      ],
+      "uncertain": [
+        "318:t_002:4: Crossbow team name followed by plain generic crossbow makes Japanese loanword/native-word gloss natural in English."
+      ]
+    },
+    "dlg_2042_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "323:t_1:61: Noin begins a thought about Lemon and leaves it unfinished.",
+        "323:t_10:10: AG leaves contrast unfinished before stating his own conception of gods.",
+        "323:t_10:16: AG concerned address only.",
+        "323:t_10:24: AG address only.",
+        "323:t_10:39: Ritual lead-in deliberately cues next row business refrain.",
+        "323:t_10:40: Ritual refrain of two nouns preserved.",
+        "323:t_10:42: AG is interrupted mid-instruction."
+      ],
+      "uncertain": [
+        "323:t_10:44: Stutter immediately before token retains K- rather than splitting the name token."
+      ]
+    },
+    "dlg_2042_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "324:t_000:5: Soldier stammers while hesitating to report count.",
+        "324:t_001:4: Soldier leaves trap hypothesis unfinished when commander answers.",
+        "324:t_002:2: Soldier leaves identification unfinished for next row.",
+        "324:t_003:2: Teitania address only.",
+        "324:t_004:1: Soldier trails off in observation of their lack of coordination.",
+        "324:t_006:6: Teitania thought trails off about father pursuing Chirico.",
+        "324:t_007:0: Teitania question is unfinished before Chirico explains covering blind spots.",
+        "324:t_008:2: Teitania unfinished objection.",
+        "324:t_009:15: Teitania recognition of squad name only."
+      ],
+      "uncertain": [
+        "324:t_006:1: Lady retained because soldier regards Teitania as high status before commander corrects him, making honorific meaningful."
+      ]
+    },
+    "dlg_2042_05": {
+      "rows_in_slice": 74,
+      "rows_examined": 74,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "324:t_011:14: Kallen trails off in thought while considering Teitania; preserved unfinished noun phrase.",
+        "324:t_011:15: Hibiki is interrupted by Kallen mid-assertion; matching cut preserved.",
+        "324:t_011:17: Name-only reaction addressed to Kallen.",
+        "324:t_012:14: Genuine startled interjection, not an omitted declarative verb.",
+        "324:t_100:0: Chirico silently evokes Martial; deliberate name-only thought.",
+        "324:t_102:0: Deliberate paired noun phrases contemplating Fyana's entrusted feelings and Teitania's own."
+      ],
+      "uncertain": [
+        "324:t_011:15: The source cuts inside an assertion of certainty; English cuts within plotting something to match interruption."
+      ]
+    },
+    "dlg_2043_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "329:t_1:23: Sousuke echoes the school topic, a deliberate contemplative noun fragment.",
+        "329:t_1:27: Thought ends with genuine concessive trail-off.",
+        "329:t_1:36: Nami hesitates while addressing Sousuke by name.",
+        "329:t_1:48: Lemon calls Sousuke by name to gain attention.",
+        "329:t_1:66: Lemon trails off after describing his impulse; deliberate unfinished thought."
+      ],
+      "uncertain": [
+        "329:t_1:13: Exact source says Rk-91, distinct from Rk-92; now verified and tokenized by parent glossary research."
+      ]
+    },
+    "dlg_2043_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "329:t_1:87: Sousuke cuts off his speculation about Lemon's motive after special.",
+        "329:t_1:93: Deliberately unfinished probability argument, interrupted by gunfire.",
+        "329:t_1:99: Sousuke trails off identifying Gates as an Amalgam member.",
+        "329:t_1:115: Deliberate unfinished thought about what would happen to Nami.",
+        "329:t_2:4: Nami calls Sousuke's name in fear.",
+        "329:t_2:11: Nami thinks Sousuke's name.",
+        "329:t_2:12: Spoken countdown number.",
+        "329:t_2:18: Spoken countdown numbers.",
+        "329:t_2:21: Deliberate noun-phrase thought searching for a survival option.",
+        "329:t_2:23: Spoken countdown number.",
+        "329:t_2:25: Unfinished conditional pondering whether continued hiding might help.",
+        "329:t_2:26: Genuine trailing-off premise about Kurama's declared threat.",
+        "329:t_2:27: Spoken countdown number.",
+        "329:t_2:35: Nami calls Sousuke's name.",
+        "329:t_2:42: Sousuke calls Hibiki's name.",
+        "329:t_2:46: Deliberate unfinished deduction answered by Kurz.",
+        "329:t_2:52: Sousuke starts an unfinished echo of Lemon's name as information source."
+      ],
+      "uncertain": [
+        "329:t_2:44: Suzaku's all-right reassurance refers to Sousuke and Nami now protected by arriving team."
+      ]
+    },
+    "dlg_2043_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "329:t_2:63: Sousuke shouts Kurama's name.",
+        "329:t_2:69: Kurama is interrupted while promising to finish Sousuke.",
+        "329:t_2:76: Kurama trails off mid-description of his defeat.",
+        "329:t_2:78: Dying answer lists alternative locations; deliberate list fragment.",
+        "329:t_2:79: Kurama's final line breaks off mid-word as he dies.",
+        "329:t_3:4: Kaname wakes calling Sousuke's name.",
+        "329:t_3:12: Kaname's protest is interrupted by Sabina.",
+        "329:t_3:23: Kaname thinks Sousuke's name.",
+        "329:t_3:39: Sousuke addresses Lemon by name."
+      ],
+      "uncertain": [
+        "329:t_3:48: ARX-7 kept as model code rather than substituting full mech name."
+      ]
+    },
+    "dlg_2043_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "329:t_3:65: Sousuke trails off explaining he does not own the Savage, interrupted by Nami.",
+        "329:t_3:67: Sousuke calls Nami's name.",
+        "329:t_3:71: Sousuke hesitates while objecting, genuine interruption by Nami."
+      ],
+      "uncertain": [
+        "329:t_10:8: Idiom teasing presumed romantic closeness; rendered as quite the pair.",
+        "329:t_3:70: Mao agrees with Hibiki but still withdraws as an unwanted onlooker; I will preserves her personal retirement, rather than adding an invitation to everyone."
+      ]
+    },
+    "dlg_2043_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "329:t_10:30: AG deliberately lists physical traits rather than making a predication.",
+        "329:t_10:37: Military drill response formula.",
+        "329:t_10:45: Military drill response formula.",
+        "329:t_10:47: Slogan chant repeats business as ordered by Mao.",
+        "329:t_10:49: Victory slogan chant repeats business.",
+        "330:t_003:3: Nami thinks Sousuke's name.",
+        "330:t_004:4: Nami repeats unfamiliar organization names in bewilderment.",
+        "330:t_004:8: Nami echoes the one-woman phrase in shock.",
+        "330:t_013:5: Genuine concessive cut continued by the same speaker in next row.",
+        "330:t_015:1: Sousuke deliberately trails off after retiring the Savage.",
+        "330:t_015:2: Nami calls Sousuke's name."
+      ],
+      "uncertain": [
+        "330:t_003:2: Katakana full-name spelling refers to Sousuke Sagara, using exact full-name identity token.",
+        "330:t_009:1: Preserved Gates' sweet/naive wordplay as sweets comparison."
+      ]
+    },
+    "dlg_2043_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "330:t_017:6: Beck trails off while seeking a more thrilling alternative.",
+        "330:t_019:0: Sousuke begins an unfinished question about Arbalest's presence, interrupted by Mao.",
+        "330:t_019:7: Suzune trails off objecting about Sousuke's injuries.",
+        "330:t_021:2: Mao leaves a genuine concessive clause unfinished.",
+        "330:t_021:11: Sousuke's promise to Nami is deliberately incomplete.",
+        "330:t_022:7: Mao calls Sousuke's name in alarm.",
+        "330:t_022:9: Hibiki calls Sousuke's name in alarm.",
+        "330:t_022:10: Sousuke says Chidori's name while losing consciousness.",
+        "330:t_023:0: Sousuke thinks Chidori's name.",
+        "330:t_024:1: Sousuke calls Kurama's name.",
+        "330:t_025:0: Sousuke screams Nami's name.",
+        "330:t_017:5: Beck leaves a genuine contrast unfinished before explaining his real desired thrills in next row."
+      ],
+      "uncertain": [
+        "330:t_027:1: Noin's disengagement refers to Gates' strange departure, so him is used.",
+        "330:t_022:3: Neo Zeon's stated benefit is recognition as successor to Earth humanity; no alien biological inheritance implied."
+      ]
+    },
+    "dlg_2043_06": {
+      "rows_in_slice": 26,
+      "rows_examined": 26,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "330:t_101:3: Preserved Gates' nonsensical sideburns gag in apology.",
+        "330:t_105:2: Suzune's internal encouragement addresses Hibiki in thought; let's keeps shared effort."
+      ],
+      "coordinator_resolutions": [
+        "330:t_102:0: M9-class standardized to researched token $$Ｍ９$$-class."
+      ]
+    },
+    "dlg_2044_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "335:t_1:6: Hibiki echoes Duo's fanciful town nickname.",
+        "335:t_1:14: Hibiki reflects on the discipline name in a deliberate noun-phrase thought.",
+        "335:t_1:37: Suzune echoes the alliance name in curiosity.",
+        "335:t_1:45: Kallen trails off contrasting her intended meaning.",
+        "335:t_1:83: Kallen starts an unfinished inference, answered by Kei."
+      ],
+      "uncertain": [
+        "335:t_1:27: Patrick identified as Colasour by wife Mannequin; correct disambiguated token.",
+        "335:t_1:46: That guy inferred to be Crowe from surrounding alliance discussion.",
+        "335:t_1:81: Idiom about helpless research subject rendered guinea pig."
+      ]
+    },
+    "dlg_2044_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "335:t_1:101: Kallen exclaims Traia's title and name.",
+        "335:t_1:108: Traia genuinely trails off before starting her report in next row.",
+        "335:t_1:110: Zero starts a deduction, deliberately cut before C.C. settles it.",
+        "335:t_1:130: Traia's concessive recollection trails off before next-row confirmation.",
+        "335:t_1:139: C.C. echoes the key phrase about life.",
+        "335:t_1:145: Hibiki leaves a genuine concessive thought unfinished.",
+        "335:t_1:147: Hibiki addresses Suzune in uncertainty.",
+        "335:t_1:148: Genuine opening temporal clause continued in next row.",
+        "335:t_1:150: Genuine cross-row causal continuation, completed by next row.",
+        "335:t_1:163: Sousuke addresses Hibiki by name sympathetically.",
+        "335:t_1:164: Hibiki trails off after a causal clause explaining his childhood departure from his mother."
+      ],
+      "uncertain": [
+        "335:t_1:102: O-Kon is the fox mask object, as glossary research settles; bringing it out preserves that object reference without treating it as Traia herself.",
+        "335:t_1:127: Uplifted renders deliberate advancement of human ancestors' intelligence.",
+        "335:t_1:146: Suzune's unusually masculine internal voice retained as direct thought."
+      ]
+    },
+    "dlg_2044_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "335:t_1:177: Genuine unfinished clause continued in next-row engulfing statement.",
+        "335:t_1:184: C.C. echoes the ancient message's battle phrase.",
+        "335:t_1:215: Kallen calls Hibiki's name sympathetically.",
+        "335:t_1:236: Researcher begins revealing Esther's situation but is interrupted by alarm.",
+        "335:t_1:212: Hibiki trails off after causal explanation that he barely remembers his mother."
+      ],
+      "uncertain": [
+        "335:t_1:171: Noriko's world survives through destruction of the Space Monsters' nest as Zero reasons, preserved as conjecture.",
+        "335:t_1:216: Hard mode is the cast's established shorthand for Hibiki closing himself off.",
+        "335:t_1:227: Researcher refers to Traia as doctor here, confirmed by subsequent line."
+      ]
+    },
+    "dlg_2044_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "336:t_000:9: Suzune thinks Hibiki's name in concern.",
+        "336:t_001:9: Suzaku exclaims Emperor Australis' title/name.",
+        "336:t_003:5: Zechs identifies Straus by Sphere epithet in deliberate name phrase.",
+        "336:t_003:11: Dabalan's destructive promise genuinely trails off.",
+        "336:t_004:5: Identical Zechs name/epithet identification, retained after checking timed branch.",
+        "336:t_004:11: Identical Dabalan unfinished promise, retained after checking timed branch."
+      ],
+      "uncertain": [
+        "336:t_001:12: Sardias attributes dislike of Martial's god to leadership without naming a specific leader, retaining source ambiguity.",
+        "336:t_003:4: Supreme Commander title used instead of gendered pronoun, preserving source-era armored Straus knowledge.",
+        "336:t_004:4: Same source-era Commander title choice in five-minute branch."
+      ]
+    },
+    "dlg_2044_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "336:t_005:11: Dabalan's threat deliberately trails off before his plan is finished.",
+        "336:t_006:2: Kallen begins recognizing Crowe, then trails off before naming him.",
+        "336:t_008:4: Traia trails off before revealing the debt in the next row.",
+        "336:t_011:2: Dabalan's accusation trails off before a concluding predicate."
+      ],
+      "uncertain": [
+        "336:t_007:7: Interpreted the debt owed on Green Earth as payback against Sardias, following Crowe's threat and Sardias's response."
+      ]
+    },
+    "dlg_2044_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "336:t_018:1: Hibiki's report trails off before saying who else is aboard the ship.",
+        "336:t_018:2: Australis is deliberately silent; retained nine dots.",
+        "336:t_018:4: Australis remains silent; retained nine dots.",
+        "336:t_018:7: Straus is deliberately silent; retained nine dots.",
+        "336:t_023:0: Straus is deliberately silent; retained nine dots.",
+        "336:t_025:4: Crowe goes silent when Duo asks for a free story; retained nine dots."
+      ],
+      "uncertain": [
+        "336:t_101:5: The unnamed girl is Mimsy, established by Kei's neighboring private monologue; no name added to this row.",
+        "336:t_018:1: Preserved the deliberate incomplete aboard-the-ship clause; Emperor Australis is revealed two rows later."
+      ]
+    },
+    "dlg_2044_06": {
+      "rows_in_slice": 14,
+      "rows_examined": 14,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "336:t_105:2: Rendered Dabalan's 'that person' as His Majesty because the immediate encounter reveals Emperor Australis seeking Crowe; Crowe's following question retains his lack of knowledge."
+      ]
+    },
+    "dlg_2045_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "341:t_1:4: Heero calls Relena's name in a private impression; no predicate stated.",
+        "341:t_1:7: The identity clause is deliberately cut before the predicate, completed in the following row.",
+        "341:t_1:14: Unknown rescuer remains silent, retained nine dots.",
+        "341:t_1:18: Unknown rescuer remains silent, retained nine dots.",
+        "341:t_2:19: Sousuke begins drawing a conclusion and is answered by AG before completing it.",
+        "341:t_2:22: AG's concession trails off before its qualification.",
+        "341:t_2:35: AG hesitates and trails off before answering Hilde.",
+        "341:t_2:39: Heero remains deliberately silent, retained nine dots.",
+        "341:t_2:40: Chirico remains deliberately silent, retained nine dots.",
+        "341:t_2:54: Teitania's objection is cut before Kallen replies.",
+        "341:t_2:68: Zero's introductory then is continued in the next row with his unmasked speaker header."
+      ],
+      "uncertain": [
+        "341:t_1:7: People's seeking peace is inferred from the preceding spread of their wills and feelings; retained the actual cross-row cut.",
+        "341:t_2:50: Hibiki contrasts waiting for others with doing everything he personally can, consistent with his earlier promise; the slightly abstract wording is retained."
+      ]
+    },
+    "dlg_2045_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "341:t_3:4: Tessa calls three soldiers' names in a roll call; no predicate in source.",
+        "341:t_3:5: Clouseau silently listens; retained nine dots.",
+        "341:t_3:6: Mao silently listens; retained nine dots.",
+        "341:t_3:7: Kurz silently listens; retained nine dots.",
+        "341:t_3:8: Tessa calls Sousuke's full name in a roll call; no predicate in source.",
+        "341:t_3:9: Sousuke silently listens; retained nine dots.",
+        "341:t_3:12: Tessa's introductory concession is deliberately continued by her next report.",
+        "341:t_3:23: Sousuke silently absorbs Kalinin's MIA report; retained nine dots.",
+        "341:t_3:31: Tessa silently watches Sousuke depart; retained nine dots.",
+        "341:t_3:39: Mao deliberately trails off after then; Tessa asks her to continue in the next row."
+      ],
+      "uncertain": [
+        "341:t_2:99: Rendered whole-person martial art as a description of Jeet Kune Do's integrated philosophy, preserving Hibiki's father's disparagement of Systema.",
+        "341:t_3:19: Tessa says Chidori Kaname in katakana; canonical full-name glossary token selected from the established character identity."
+      ]
+    },
+    "dlg_2045_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "341:t_3:51: Quatre's objection is interrupted by Suzaku's question.",
+        "341:t_3:76: Sousuke begins noticing Suzune's altered demeanor and trails off before identifying it.",
+        "341:t_10:9: Hibiki deliberately leaves 'The problem is...' unfinished for AG to supply Suzune.",
+        "341:t_10:33: Crowe silently considers AG's offer, retained nine dots.",
+        "341:t_10:41: AG's admission about analysis deliberately trails off.",
+        "341:t_10:45: AG's qualification trails off before Crowe orders flowers."
+      ],
+      "uncertain": [
+        "341:t_3:69: Sickly young lady and red devil both refer to Kallen's contrasting personas; retained the teasing descriptions rather than adding her name.",
+        "341:t_3:72: Suzune's unusually blunt register is deliberate and confirmed by the cast's comments about recurrence of her Time Prison War demeanor."
+      ]
+    },
+    "dlg_2045_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "341:t_10:51: Suzune silently listens to Crowe and AG; retained nine dots.",
+        "342:t_000:1: AG begins reading sensor data and deliberately cuts before the result in the next row.",
+        "342:t_001:4: Kallen silently watches the stars; retained nine dots.",
+        "342:t_004:5: Crowe's startled response is cut mid-word.",
+        "342:t_004:7: Hibiki's inward appeal to Advent trails off after I, before a predicate."
+      ],
+      "uncertain": [
+        "342:t_001:0: Dorothy is Big O's R. Dorothy, established by her pairing with Roger, so selected #bigo speaker option.",
+        "342:t_007:5: Source supplies Japanese Stigma plus its reading; rendered the established Stigma token once because they are the same spoken word.",
+        "342:t_007:12: Tessa's vow inference is explicitly conjectural in source; retained surely rather than claiming Sousuke's spoken vow."
+      ]
+    },
+    "dlg_2045_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "342:t_008:1: Zechs's warning about repeated battles without resupply trails off before the consequence.",
+        "342:t_011:3: Hibiki begins identifying the entities and trails off before Suzune calls them enemies.",
+        "342:t_011:25: Hibiki struggles to complete his refusal, supplied fully in the next row.",
+        "342:t_011:47: Chirico is deliberately silent, retained nine dots."
+      ],
+      "uncertain": [
+        "342:t_011:26: Rendered dehumanizing contempt for the unknown enemies as bastards, retaining Hibiki's force.",
+        "342:t_011:34: What does it matter is Crowe's defiant refrain; repeated with full subject and verb through 37-39 and 342:t_014:7."
+      ]
+    },
+    "dlg_2045_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "342:t_014:4: Kallen inwardly calls to her mother and friends without a predicate.",
+        "342:t_014:5: Sousuke's inward address to Chidori trails off after I.",
+        "342:t_014:6: Zero's second desperate question is deliberately cut before its main verb.",
+        "342:t_015:4: Crowe begins reporting his Sphere's reaction and is cut before the predicate.",
+        "342:t_016:6: Unknown woman's prophecy trails off before what they will do to all universes.",
+        "342:t_018:1: Zero's recognition question deliberately trails off before naming Mars.",
+        "342:t_105:0: C.C. inwardly names Charles, Marianne, and V.V.; no predicate in source.",
+        "342:t_106:0: Kallen leaves her repeat-this-time resolve deliberately unfinished after a complete prior statement.",
+        "342:t_107:2: Suzaku trails off after So, having stated the complete earlier resolve.",
+        "342:t_109:0: Chirico ends with deliberately isolated God and fate as names of the irresistible power.",
+        "342:t_112:0: Heero inwardly addresses Relena without a predicate.",
+        "342:t_112:2: Heero's even-if clause continues his fight resolution from the preceding row.",
+        "342:t_115:1: Quatre's list of past regrets deliberately trails off before a concluding predicate."
+      ],
+      "uncertain": [
+        "342:t_016:5: Mysterious woman's use of Zuriel's full name for Crowe is retained exactly, without explaining this plot revelation.",
+        "342:t_111:0: Parent research distinguishes Overman from Abnormal Survivor. Selected the singular Overman token; Shako may mean the Overman/Wiseman lineage shadow rather than Chirico himself. Source leaves the exact referent indirect.",
+        "342:t_115:3: Restored the will clause's infinitive relation; the person embodying the Heart of Space is left unnamed as in source."
+      ]
+    },
+    "dlg_2045_06": {
+      "rows_in_slice": 22,
+      "rows_examined": 22,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "342:t_122:1: Suzune's accusation about someone who cannot fight is interrupted by Hibiki's objection.",
+        "342:t_122:3: Suzune silently reacts to Hibiki's objection, retained nine dots."
+      ],
+      "uncertain": [
+        "342:t_118:0: Subordinates' accusing voices are described as Noin's perception without declaring them real ghosts."
+      ]
+    },
+    "dlg_2046_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "347:t_1:29: AS member deliberately leaves the threat's if-clause open; fellow member supplies the resolve in the next row.",
+        "347:t_1:61: AS member's report trails off after but before Clouseau supplies the Federation's inability to help.",
+        "347:t_1:72: AS member leaves the request about the dead Prince's unfulfilled wish unfinished before Zero promises his best.",
+        "347:t_1:81: The unidentified Banjo remains silent; retained nine dots."
+      ],
+      "uncertain": [
+        "347:t_1:32: Selected the generic Earth Federation Forces token, reflecting the merged Federation context and conventional military affiliation rather than the separate Gundam 00 nomenclature.",
+        "347:t_1:75: Uther's water vessel alludes to Aquarius and his endless compassion; kept both the vessel image and its sustaining effect.",
+        "347:t_1:85: Unnamed speaker is Banjo but source header remains ???; recognizes Barbiel's target as Chrono Reformists."
+      ]
+    },
+    "dlg_2046_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "347:t_1:89: Barbiel deliberately remains silent while Banjo explains Chrono, retained nine dots.",
+        "347:t_1:91: Cross-row means clause completes the previous row's creation account; retained its lack of an independent subject and verb.",
+        "347:t_2:20: Kamille's sentence names the two information sources and is deliberately cut before the main predicate in 21.",
+        "347:t_2:21: Main predicate continues Kamille's subject from the preceding row.",
+        "347:t_2:27: Brera silently listens to Alto, retained nine dots.",
+        "347:t_2:41: Sivil silently receives her introduction, retained nine dots.",
+        "347:t_2:52: Gamlin's report trails off before Sivil joining them in the next row."
+      ],
+      "uncertain": [
+        "347:t_2:14: Captain is Gamlin's army rank, not a ship command title.",
+        "347:t_2:15: Gamlin calls Battle 7 a fleet although it is its core ship; retained his source phrasing without silently substituting Macross 7.",
+        "347:t_2:20: Saotome is Getter's Dr. Saotome, settled by Getter Rays and Dragon's Hive; selected #getter token.",
+        "347:t_2:28: Super-Dimensional Cinderella is Ranka's epithet; preserved the established full-term token."
+      ]
+    },
+    "dlg_2046_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "347:t_2:74: Kamille's account trails off after but before naming ELS in the next row.",
+        "347:t_2:100: Hibiki inwardly addresses Advent without a predicate.",
+        "347:t_2:101: Hibiki trails off after I, without stating his thought.",
+        "347:t_2:106: Hibiki's spoken reply is interrupted after I.",
+        "347:t_2:110: Hibiki remains inwardly silent, retained nine dots.",
+        "347:t_10:5: Crowe's speaking-of clause is cut before the subject AG supplies in the following question.",
+        "347:t_10:13: Crowe remains deliberately silent, retained nine dots."
+      ],
+      "uncertain": [
+        "347:t_2:109: Suzune's well-designed assessment refers to the hope/despair mechanism she just described; English remains impersonal without adding Sphere explanation.",
+        "347:t_10:32: AG comically responds to the women's request to count on him by eagerly consenting, preserved as his reply rather than reversing their original request.",
+        "347:t_10:39: The alternate private-detective Banjo is presented only as AG's story; not treated as this world's Banjo's identity."
+      ]
+    },
+    "dlg_2046_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "347:t_10:46: Banjo delivers the repeated shop slogan Business, business as a genuine noun slogan.",
+        "348:t_000:0: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_000:23: Spoken interjection or acknowledgment 'Wha...!?' is retained as a standalone response.",
+        "348:t_000:25: Crowe suspends his list of Kurz traits after mentioning his quiet partner.",
+        "348:t_000:45: Duo hesitantly addresses Hilde; the Hey and her name are a vocative.",
+        "348:t_000:47: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_000:52: Spoken interjection or acknowledgment 'Y-yes...' is retained as a standalone response.",
+        "348:t_000:70: Hibiki leaves the conditional If that is true unfinished.",
+        "348:t_000:71: Source silence is retained as nine dots.",
+        "348:t_000:74: Spoken interjection or acknowledgment 'Huh...' is retained as a standalone response."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2046_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "348:t_000:79: Wufei begins identifying the approaching unit, then breaks off.",
+        "348:t_001:3: Spoken interjection or acknowledgment 'What...!?' is retained as a standalone response.",
+        "348:t_001:13: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_001:18: Source silence is retained as nine dots.",
+        "348:t_001:19: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_004:1: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_005:0: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_005:5: Barbiel ends the concession with but; the next row supplies his contrast.",
+        "348:t_005:7: Spoken interjection or acknowledgment 'What!?' is retained as a standalone response.",
+        "348:t_005:12: Source silence is retained as nine dots.",
+        "348:t_005:13: Source silence is retained as nine dots.",
+        "348:t_005:14: Barbiel threatens what hatred will someday do, and Zero cuts him off.",
+        "348:t_005:21: Zero starts a shield-and action plan; the Arksaber interrupts him.",
+        "348:t_006:1: Crowe recognizes the Arksabers with a standalone group-name cry.",
+        "348:t_008:0: Crowe trails off emotionally while referring to the Arksabers."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2046_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "348:t_010:0: Source wordless surprise is retained as punctuation.",
+        "348:t_010:3: Barbiel leaves his before-things-get-troublesome clause suspended.",
+        "348:t_010:4: Source wordless surprise is retained as punctuation.",
+        "348:t_010:6: Spoken interjection or acknowledgment 'Ghh!' is retained as a standalone response.",
+        "348:t_012:6: Source wordless surprise is retained as punctuation.",
+        "348:t_013:0: Spoken interjection or acknowledgment 'What!?' is retained as a standalone response.",
+        "348:t_014:0: Spoken interjection or acknowledgment 'Ah... Ahh...' is retained as a standalone response.",
+        "348:t_014:2: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_015:0: Source silence is retained as nine dots.",
+        "348:t_015:2: Source silence is retained as nine dots.",
+        "348:t_015:6: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_015:7: Mome begins asking who freed Asakim; Roger completes the question in the next row.",
+        "348:t_015:10: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_015:14: Source wordless surprise is retained as punctuation.",
+        "348:t_016:1: Roger begins recognizing the arriving unit and trails off.",
+        "348:t_018:0: Advent echoes Banjo's sun imagery while considering its significance.",
+        "348:t_018:10: Spoken interjection or acknowledgment 'Now then...' is retained as a standalone response.",
+        "348:t_019:1: Spoken interjection or acknowledgment 'Huh...' is retained as a standalone response.",
+        "348:t_022:7: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_022:9: Spoken interjection or acknowledgment 'Heh...' is retained as a standalone response."
+      ],
+      "uncertain": [
+        "348:t_012:1: Third Stage is the descriptive Sphere progression level; parent confirmed plain English rather than a new name token.",
+        "348:t_012:3: The Sphere recipient is not identified in the eight-row context on either side. Singular they preserves unknown gender.",
+        "348:t_014:6: Barbiel's him is Asakim, settled by Advent calling him and the following appearance; no later identity knowledge introduced."
+      ],
+      "neighbor_rows_examined": 16,
+      "coordinator_resolutions": [
+        "348:t_012:3: Agent9_5 and coordinator reviewed source; replaced unjustified male pronoun with singular they after agent4 stopped."
+      ]
+    },
+    "dlg_2046_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "348:t_026:0: Source silence is retained as nine dots.",
+        "348:t_028:1: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_028:8: Kurz suspends his objection after but.",
+        "348:t_028:10: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_028:14: Source silence is retained as nine dots.",
+        "348:t_028:16: Source silence is retained as nine dots.",
+        "348:t_028:19: Hibiki gives the because-clause explaining his trust in the preceding row; row boundary retained.",
+        "348:t_028:20: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_029:2: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "348:t_029:6: Roger recalls their prior encounter and leaves the implied question hanging for Advent.",
+        "348:t_030:2: Kurz suspends his objection after but; Mao stops him.",
+        "348:t_030:6: Hibiki begins a concession about being glad Advent is alive and leaves but unfinished.",
+        "348:t_030:7: Source silence is retained as nine dots.",
+        "348:t_031:2: Bright leaves his discovery after Blue guided them here hanging.",
+        "348:t_031:10: Banjo silently enumerates Advent, Asakim, and the Reformists before asking their purpose in the next row.",
+        "348:t_032:4: Spoken interjection or acknowledgment 'What!?' is retained as a standalone response."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2046_07": {
+      "rows_in_slice": 39,
+      "rows_examined": 39,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "348:t_100:2: Source silence is retained as nine dots.",
+        "348:t_102:0: Barbiel starts identifying Advent but breaks off in disbelief.",
+        "348:t_102:2: Barbiel again starts You are and leaves the identity unspoken.",
+        "348:t_107:0: Asakim introduces the four Spheres within him and suspends the noun phrase before the next thought.",
+        "348:t_999:0: Spoken interjection or acknowledgment 'Ah!' is retained as a standalone response."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2220_00": {
+      "rows_in_slice": 17,
+      "rows_examined": 17,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "800:t_1:3: Source silence is retained as nine dots."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "395:t_1:7: Ridget begins an objection with But and is prompted by Cathy.",
+        "395:t_1:12: Jeffrey leaves his concession with but; Fairlock anticipates his objection.",
+        "395:t_1:17: Ridget addresses the Fleet Commander and trails off in surprise.",
+        "395:t_1:25: Ridget starts a concern about divided opinions and trails off; Fairlock answers.",
+        "395:t_1:27: Source silence is retained as nine dots.",
+        "395:t_1:40: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_1:45: Melty repeats galaxy as a surprised echo question after Amy says she visited its center.",
+        "395:t_1:52: Bellows starts identifying Pinion's plan and leaves the accusation unfinished.",
+        "395:t_1:57: Pinion calls Crowe and Benkei by name in a standalone appeal for help.",
+        "395:t_1:72: Garrod repeats sheer as a startled echo of Parla's costume description.",
+        "395:t_1:75: Garrod hesitantly addresses Melty after hearing about the costume; the stammer is retained.",
+        "395:t_1:82: Melty ends her setup about arriving outsiders with but; the next row supplies her contrast."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "395:t_1:88: Amy leaves Kaname's whereabouts unfinished; Sousuke answers in the next row.",
+        "395:t_1:91: Amy calls Melty to stop the intrusive question with a hesitant Hey vocative.",
+        "395:t_1:111: Spoken interjection or acknowledgment 'Huh...' is retained as a standalone response.",
+        "395:t_1:113: Spoken interjection or acknowledgment 'Yes...' is retained as a standalone response.",
+        "395:t_1:121: Ledo observes the body and tentacles in a suspended noun phrase before identifying the creature.",
+        "395:t_1:129: Spoken interjection or acknowledgment 'Hah!' is retained as a standalone response.",
+        "395:t_1:130: Spoken interjection or acknowledgment 'Hyah!' is retained as a standalone response.",
+        "395:t_1:134: Titi repeats Jeet Kune Do as a clarification echo question.",
+        "395:t_1:147: Hibiki leaves his even-if-you-ask-me objection unfinished; Titi asks whether he objects.",
+        "395:t_4:3: Source silence is retained as nine dots.",
+        "395:t_4:5: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response.",
+        "395:t_4:9: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response.",
+        "395:t_4:11: Garrod echoes Tiffa's word life while listening, rather than making an evaluation."
+      ],
+      "uncertain": [
+        "395:t_1:131: Source motto says to use the infinite as the finite, unlike the famous no-limitation wording. Preserved this source direction instead of silently replacing it."
+      ],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "395:t_4:19: Source silence is retained as nine dots.",
+        "395:t_4:20: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_4:21: Source silence is retained as nine dots.",
+        "395:t_4:22: Source silence is retained as nine dots.",
+        "395:t_4:24: Spoken interjection or acknowledgment 'Huh...!?' is retained as a standalone response.",
+        "395:t_4:26: Tiffa briefly names the feeling as a thought fragment before addressing its unknown source.",
+        "395:t_2:7: Spoken interjection or acknowledgment 'Huh...' is retained as a standalone response.",
+        "395:t_2:12: Spoken interjection or acknowledgment 'What!?' is retained as a standalone response.",
+        "395:t_3:15: Loran trails off before explicitly condemning extermination.",
+        "395:t_3:31: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_3:40: Source silence is retained as nine dots.",
+        "395:t_3:50: Source silence is retained as nine dots.",
+        "395:t_3:52: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_3:60: Fairlock breaks off mid-word during an attack; English retains his unfinished prohibition.",
+        "395:t_3:61: Spoken interjection or acknowledgment 'Ghh...!' is retained as a standalone response.",
+        "395:t_3:62: Ridget calls the Fleet Commander in alarm; this is a vocative."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "395:t_3:68: Source silence is retained as nine dots.",
+        "395:t_3:84: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_3:85: Ledo addresses Amy and notices Bevel with an unfinished surprised enumeration.",
+        "395:t_3:88: Spoken interjection or acknowledgment 'Yes...' is retained as a standalone response.",
+        "395:t_3:96: Amy leaves her disbelief unfinished after That cannot be.",
+        "395:t_3:98: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_3:104: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "395:t_3:114: Bevel calls to his sister; this is a vocative.",
+        "395:t_3:122: Spoken interjection or acknowledgment 'Y-yeah...' is retained as a standalone response.",
+        "395:t_3:124: Bevel echoes the child resembling Ledo as he processes that revelation.",
+        "395:t_3:126: Source wordless surprise is retained as punctuation.",
+        "395:t_3:128: Bevel begins an objection with But and is cut off.",
+        "395:t_3:130: Bevel begins a further objection about whalesquid and Ledo cuts him off.",
+        "395:t_3:134: Source silence is retained as nine dots.",
+        "396:t_000:1: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response.",
+        "396:t_000:4: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response."
+      ],
+      "uncertain": [
+        "395:t_3:123: Source says a child was making the flute, not that Ledo already knew it was his brother; next row keeps his uncertainty."
+      ],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "396:t_000:12: Spoken interjection or acknowledgment 'Huh...' is retained as a standalone response.",
+        "396:t_002:0: Amy begins identifying the creature and breaks off before Ledo interrupts.",
+        "396:t_003:0: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "396:t_004:11: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "396:t_999:0: Spoken interjection or acknowledgment 'Ah!' is retained as a standalone response."
+      ],
+      "uncertain": [
+        "401:t_1:3: Earth-type Hideauze is a descriptive composition rather than a new token; parent confirmed species robot token identity.",
+        "401:t_1:36: Formal system title uses established Pilot Support Enlightenment Interface token plus System, as parent confirmed.",
+        "401:t_1:51: Formal Evolvers group name uses the new authoritative glossary token; licensed English wording remains unverified per parent research."
+      ],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "401:t_1:66: The newscaster leaves the question of the Evolvers' goal unfinished; Matsumoto supplies it.",
+        "401:t_1:70: The newscaster leaves the objection about the planned agenda unfinished; Matsumoto interrupts.",
+        "401:t_1:72: The newscaster gives an unfinished protest at the broadcast takeover.",
+        "401:t_1:77: Source wordless surprise is retained as punctuation.",
+        "401:t_1:83: The newscaster echoes Chrono in confusion.",
+        "401:t_10:3: Spoken interjection or acknowledgment 'Whew...' is retained as a standalone response.",
+        "401:t_10:20: Source silence is retained as nine dots.",
+        "401:t_10:22: Amy starts an objection with But and AG continues.",
+        "401:t_10:24: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response.",
+        "401:t_10:30: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response.",
+        "401:t_10:36: AG suspends his shop slogan; Amy finishes it in the next row.",
+        "401:t_10:37: Amy completes the shop slogan begun in AG's preceding row; genuine noun slogan retained."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "402:t_010:6: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "402:t_010:11: Mardukas leaves Then hanging while waiting for Tessa's decision.",
+        "402:t_010:13: Standalone name is an address or recognition cry, retained without an invented predicate.",
+        "402:t_010:15: Spoken interjection or acknowledgment 'Yeah...' is retained as a standalone response.",
+        "402:t_100:0: Standalone name is an address or recognition cry, retained without an invented predicate."
+      ],
+      "uncertain": [
+        "402:t_014:1: Repeated motto retains the same unusual infinite-as-finite source direction as 395:t_1:131."
+      ],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2054_07": {
+      "rows_in_slice": 1,
+      "rows_examined": 1,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "402:t_999:0: Spoken interjection or acknowledgment 'Ah!' is retained as a standalone response."
+      ],
+      "uncertain": [],
+      "neighbor_rows_examined": 16
+    },
+    "dlg_2055_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "407:t_1:12: Ledo trails off while asking about Pinion's brother; next row supplies the death.",
+        "407:t_1:33: Chamber's explanation is cut off by Ledo.",
+        "407:t_1:38: Ledo trails off without completing what he would do in this state.",
+        "407:t_1:46: Ledo's contrast trails off before he can state his own reason.",
+        "407:t_1:65: Chamber's sentence continues into the next row.",
+        "407:t_1:74: Ledo trails off after his pride collapses."
+      ],
+      "uncertain": []
+    },
+    "dlg_2055_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "407:t_1:96: Mao leaves the objection to hiring Titi unstated.",
+        "407:t_1:98: Titi trails off after explaining her relatives' deaths.",
+        "407:t_1:100: Titi trails off after describing her mother's hostility.",
+        "407:t_1:102: Titi leaves her contrast after leaving home unfinished.",
+        "407:t_1:103: Klan trails off after explaining she did not know Titi's history.",
+        "407:t_1:118: Amy leaves her objection unfinished after trying to understand Ledo.",
+        "407:t_1:112: Ranka calls Amy by name without a proposition.",
+        "407:t_1:120: Sheryl addresses Alto by name in surprise.",
+        "407:t_1:136: Ranka addresses Alto by name emotionally.",
+        "407:t_2:5: Ridget addresses the dying Fleet Commander."
+      ],
+      "uncertain": []
+    },
+    "dlg_2055_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "407:t_2:19: Ridget trails off on seeing the key.",
+        "407:t_2:23: Ridget breaks off while saying she could never take over.",
+        "407:t_2:24: Fairlock's dying delivery breaks into pauses; complete assertion retained.",
+        "407:t_2:25: Ridget calls the dying Fleet Commander without a proposition.",
+        "407:t_2:41: Ledo trails off upon finding Kugel apparently safe.",
+        "407:t_2:48: Ledo cannot finish his answer to Kugel's invitation.",
+        "407:t_2:63: Ledo leaves his objection to Kugel's definition of humanity unstated."
+      ],
+      "uncertain": [
+        "407:t_10:10: AG's joke uses brothers-in-law to convey three prospective familial connections around Ranka, rather than literal sworn brothers."
+      ]
+    },
+    "dlg_2055_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "408:t_002:5: Monica's identification is interrupted by the appearance of Vajra.",
+        "408:t_005:9: Brera's reply falters as the control system activates.",
+        "408:t_008:0: Alto shouts Brera's name in alarm.",
+        "408:t_010:0: Michel shouts Alto's name in alarm.",
+        "408:t_012:0: Alto shouts Ledo's name as he intervenes."
+      ],
+      "uncertain": []
+    },
+    "dlg_2055_04": {
+      "rows_in_slice": 70,
+      "rows_examined": 70,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "408:t_015:6: Ledo's introspection trails off while identifying his attachment to his old life.",
+        "408:t_016:3: Ledo trails off in his reciprocal greeting to Kugel.",
+        "408:t_017:1: Michel's objection is cut before the subject and predicate.",
+        "408:t_017:2: Alto thinks Brera's name in distress.",
+        "408:t_018:0: Ledo addresses Kugel by rank and name.",
+        "408:t_019:0: Alto calls Ledo as he leaves.",
+        "408:t_019:4: Military acknowledgment is an interjection rather than a proposition.",
+        "408:t_020:0: Sousuke calls Ledo as he leaves.",
+        "408:t_022:2: Brera falteringly says Ranka's name without a proposition.",
+        "408:t_024:0: Alto calls Brera as he retreats.",
+        "408:t_102:1: Brera falteringly says Ranka's name without a proposition."
+      ],
+      "uncertain": [
+        "408:t_016:0: Striker X3752 is initially identified as an arriving machine, using robot identity."
+      ]
+    },
+    "dlg_2056_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "413:t_1:6: Ridget trails off before stating what will happen to Gargantia.",
+        "413:t_1:10: Ridget begins an objection without continuing.",
+        "413:t_1:24: Bellows calls Ridget's name to admonish her.",
+        "413:t_1:48: Bellows starts a concluding clause which Ridget interrupts.",
+        "413:t_1:66: Pinion starts an objection without continuing.",
+        "413:t_1:82: Onderia formally addresses Pinion by name and epithet."
+      ],
+      "uncertain": []
+    },
+    "dlg_2056_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "413:t_1:86: Onderia trails off after specifying the meeting time and place; imperative reconstructed from context.",
+        "413:t_1:89: Pinion recognizes an unexpected arrival without completing the identity.",
+        "413:t_1:92: Lukkage addresses Pinion by two contrasting epithets.",
+        "413:t_1:115: Chamber's explanation continues into the next row.",
+        "413:t_1:119: Ledo leaves his objection unfinished.",
+        "413:t_1:122: Ledo leaves his objection to killing unfinished.",
+        "413:t_1:124: Chamber begins another point which Ledo interrupts.",
+        "413:t_1:134: Ledo cannot complete his reason for stopping the attack.",
+        "413:t_1:138: Ledo starts an objection which Kugel interrupts.",
+        "413:t_1:140: Ledo trails off comparing the regime to the Alliance.",
+        "413:t_1:143: Ledo trails off before stating what he did to protect Amy and Bebel.",
+        "413:t_1:148: Chamber's question about Kugel's orders is interrupted."
+      ],
+      "uncertain": [
+        "413:t_1:110: Striker X3752 is the speaking AI providing virus data, so the pilot identity token is used.",
+        "413:t_1:158: Striker X3752 is assessed for unauthorized autonomous action and designated a combat target; pilot identity retained as acting AI."
+      ]
+    },
+    "dlg_2056_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "413:t_1:176: The crewman trails off on spotting Ledo.",
+        "413:t_3:9: Grace leaves the point about bodies unfinished; Mishima completes it next row.",
+        "413:t_3:34: Amy calls Ledo's name upon reunion.",
+        "413:t_3:37: Ledo cannot complete his admission concerning the Whalesquid."
+      ],
+      "uncertain": [
+        "413:t_3:21: Source spelling of Vajra Queen differs from existing canonical term; existing female Vajra queen token used.",
+        "413:t_2:30: Lightbug System was added by parent; exact full compound token used."
+      ]
+    },
+    "dlg_2056_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "413:t_3:64: Amy calls Chamber's name to admonish him.",
+        "413:t_3:67: Amy's objection trails off in embarrassment.",
+        "413:t_3:71: Amy addresses Ledo emotionally.",
+        "413:t_3:78: Ledo calls Pinion's name in surprise.",
+        "413:t_3:100: Brera calls Alto's name to start a conversation.",
+        "413:t_3:109: Alto trails off referring to Brera after his unexpected concession.",
+        "413:t_3:111: Alto addresses Kei by name in embarrassment.",
+        "413:t_3:120: Amy's admonishment to Kei is a genuine interjection.",
+        "413:t_3:122: Amy leaves her objection unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2056_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "413:t_3:124: Amy addresses Ledo by name emotionally.",
+        "413:t_10:25: Tessa's defense is interrupted by Lukkage.",
+        "413:t_10:27: Paraem's invitation continues in Parinuri's next row.",
+        "413:t_10:28: Parinuri completes Paraem's cross-row invitation.",
+        "413:t_10:36: AG's sales slogan continues in Chamber's next row.",
+        "413:t_10:37: Chamber completes AG's cross-row slogan.",
+        "414:t_000:2: Ledo trails off before identifying what remains to be done.",
+        "414:t_001:1: Ledo addresses Kugel by rank and name.",
+        "414:t_001:2: Kugel's conditional threat continues in next row.",
+        "414:t_006:1: Ledo calls Kugel by rank and name during the struggle.",
+        "414:t_009:2: Kugel's recorded voice breaks down; intelligible words retained with pauses.",
+        "414:t_009:3: Ledo calls his superior's rank upon finding him dead.",
+        "414:t_010:0: Ledo trails off upon realizing Striker's autonomy.",
+        "414:t_010:2: Ledo's horrified identification of the speaker trails off."
+      ],
+      "uncertain": [
+        "414:t_010:0: Striker is now revealed as autonomous AI, so pilot identity used for Ledo's unfinished inference."
+      ]
+    },
+    "dlg_2056_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "414:t_012:0: Amy calls Ledo's name upon arriving.",
+        "414:t_013:0: Amy's explanatory clause trails off and continues next row.",
+        "414:t_013:2: Amy continues her plea to return from previous row; subject supplied in imperative.",
+        "414:t_013:3: Ledo addresses Amy emotionally.",
+        "414:t_016:3: Ledo's comparison is cut before identifying the White Doll's ability.",
+        "414:t_018:12: Ledo's correction of Alto's assumption is cut before identifying Striker.",
+        "414:t_020:14: Ledo's response to Striker's accusation is left unfinished.",
+        "414:t_020:17: Ledo addresses Chamber by name in surprise.",
+        "414:t_020:25: Ledo addresses Chamber by name emotionally."
+      ],
+      "uncertain": [
+        "414:t_019:8: Striker X3752 is directly addressed as the autonomous AI, using pilot identity.",
+        "414:t_020:22: K6821 is a serial identifier; plain ASCII serial plus Chamber pilot identity and System retained.",
+        "414:t_020:26: Striker programming refers to the autonomous AI rather than its physical frame, using pilot identity."
+      ]
+    },
+    "dlg_2056_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "neighbor_rows_examined": 16,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "414:t_020:36: Ledo addresses his comrades emotionally without a proposition.",
+        "414:t_023:1: Ledo's startled protest to Chamber is an interjection and vocative.",
+        "414:t_024:3: Ledo trails off in protest as Chamber prepares to sacrifice itself.",
+        "414:t_024:6: Ledo addresses Chamber emotionally.",
+        "414:t_025:0: Ledo addresses Alto in surprise.",
+        "414:t_030:0: Alto calls Brera as he retreats.",
+        "414:t_031:0: Brera addresses Alto by full name before confrontation."
+      ],
+      "uncertain": [
+        "414:t_022:7: The person is Amy, established by Ledo's earlier wish to stay with her and her pledge to find a life together.",
+        "414:t_021:1: Striker is the AI analyzing piloting skill and optimizing itself, so pilot identity retained.",
+        "414:t_021:7: Maximize and Neuroplus Powered are distinct boost command tokens researched by parent; machine fusion in following row is separate."
+      ]
+    },
+    "dlg_2056_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "414:t_031:5: Brera echoes the phrase about what matters, halting as his memories stir.",
+        "414:t_040:5: Alternate branch repeats Brera's halting echo about what matters.",
+        "414:t_042:4: Eida starts a conclusion after the Fold Wave explanation and leaves it for Mylene to act on.",
+        "414:t_044:0: Brera begins asking what he was doing but trails off after regaining consciousness.",
+        "414:t_044:2: Brera trails off after realizing he was being controlled again.",
+        "414:t_046:5: This row completes Ledo's preceding assertion that no one may deprive them of their lives, even a god."
+      ],
+      "uncertain": []
+    },
+    "dlg_2056_08": {
+      "rows_in_slice": 25,
+      "rows_examined": 25,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "414:t_104:3: This row supplies the purpose of Alto's preceding declaration about cutting through the mist."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "419:t_1:7: Girtar starts an excuse to Sardias but cannot finish it.",
+        "419:t_1:19: This thought names the scorpion's venom as the object of mastering in the preceding thought.",
+        "419:t_1:75: Hibiki trails off while exasperated at his friends' hints to Titi."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "419:t_1:112: Rand leaves his feared outcome unfinished before Amy interrupts the scene.",
+        "419:t_1:138: Pinion begins an excuse when Takuya exposes his ulterior motive.",
+        "419:t_1:158: Tycho deliberately echoes Mari's reference to a long time, seeking clarification."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "419:t_1:173: Tycho suspects Nicola's loss of powers but is interrupted before stating it.",
+        "419:t_1:179: Ledo begins citing the manual before Astonaige interrupts with a correction."
+      ],
+      "uncertain": [
+        "419:t_2:5 and 419:t_2:7 and 419:t_2:9: Shikuu speaker is the pilot character in the Australis scene; chose #pilot over #keyword."
+      ]
+    },
+    "dlg_2057_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "419:t_2:60: Rand begins asking whether Crowe and Setsuko feel the same anxiety, leaving the predicate unfinished."
+      ],
+      "uncertain": [
+        "419:t_2:57: Dorothy is the Big O android, established by Roger immediately before her reply; selected #bigo speaker."
+      ]
+    },
+    "dlg_2057_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "420:t_004:7: Ledo's alarm about the threatened fleet breaks off before Amy replies that they are safe."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "420:t_008:4: Girtar stammers an unfinished excuse under Barbiel's questioning.",
+        "420:t_008:12: Setsuko's comparison clause continues across the row boundary into the Barbiel matchup explanation.",
+        "420:t_008:40: Hibiki haltingly repeats the two emotions while processing Barbiel's ultimatum.",
+        "420:t_008:43: Setsuko begins identifying the mental collapse but breaks off before Setsuna states it."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "420:t_009:17: Banagher leaves his accusation against Barbiel unfinished in anger.",
+        "420:t_009:19: Barbiel's afterthought refers back to the situation in his preceding row.",
+        "420:t_010:1: Tessa leaves the fleet commander's identity unfinished before Rand names Straus.",
+        "420:t_012:5: Nono starts an objection but stops as Hibiki regains consciousness.",
+        "420:t_018:6: Barbiel starts addressing Hibiki in disbelief and leaves the thought unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "420:t_028:2: Dabalan reacts to Elunaluna's unveiled appearance with an unfinished noun phrase."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "420:t_029:24: Elunaluna trails off after changing the topic; Barbiel understands and withdraws.",
+        "420:t_030:2: Setsuna begins identifying the change in Girtar and breaks off.",
+        "420:t_030:3: Amuro identifies the aura emanating from Girtar in a startled unfinished phrase; Banagher completes its meaning.",
+        "420:t_035:4: Girtar repeats that he does not want to die and trails off mid-clause before screaming."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "420:t_038:2: Mardukas starts asking for the next action; Tessa answers before the question is finished.",
+        "420:t_040:4: Rand starts an exasperated remark about Elunaluna and leaves it unfinished.",
+        "420:t_043:4: Alternate timeout branch retains Rand's unfinished exasperated remark.",
+        "420:t_101:2: Girtar trails off after demanding that Setsuko stop looking at him.",
+        "420:t_101:3: Setsuko starts addressing Girtar but he interrupts her with a shouted demand."
+      ],
+      "uncertain": []
+    },
+    "dlg_2057_10": {
+      "rows_in_slice": 27,
+      "rows_examined": 27,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2230_00": {
+      "rows_in_slice": 10,
+      "rows_examined": 10,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2240_00": {
+      "rows_in_slice": 10,
+      "rows_examined": 10,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2250_00": {
+      "rows_in_slice": 6,
+      "rows_examined": 6,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    }
+  },
+  "limitations": [
+    "Coordinator sampled source meaning, not a second complete independent meaning proofread.",
+    "No in-game check, promotion, build or deployment."
+  ]
+}

@@ -1,0 +1,1456 @@
+{
+  "schema": 1,
+  "archive": "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK",
+  "member": 1,
+  "about": "UI word sprites in AIDDATAPACK member 1 (four 512x512 swizzled atlases). Each cell is one rectangle; tools/aid_art.py repaints only inside it. source: jigoku-0.6.24 = Jigoku shipped pixels reused (Tengoku source identical), new = rendered from \"en\", keep = left as is. Edit \"en\" for new cells only.",
+  "terms": {
+    "eboot": "work/translation/en/ui/eboot.json",
+    "spirit_abbreviation": "work/translation/en/ui/spirit_commands.json (abbreviation column)",
+    "skill": "work/translation/en/ui/rpw_names.json (skill)"
+  },
+  "face": "SCE-PS3-RD-B-LATIN.TTF",
+  "cells": {
+    "t0.shield_def": {
+      "texture": 0,
+      "rect": [
+        0,
+        24,
+        128,
+        48
+      ],
+      "jp": "シールド防御",
+      "en": "Shield Def.",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "defensive skill activation word (map/battle popup)",
+      "term": "eboot: シールド防御 = Shield Defense",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        4,
+        1,
+        124,
+        23
+      ],
+      "source_sha256": "fa131c0ae30d88c792d388af93202a41d981de33bb6f31a5abad27eed4be025f"
+    },
+    "t0.parry": {
+      "texture": 0,
+      "rect": [
+        0,
+        48,
+        88,
+        72
+      ],
+      "jp": "切り払い",
+      "en": "Parry",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "defensive skill activation word",
+      "term": "eboot: 切り払い = Parry",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        3,
+        1,
+        86,
+        23
+      ],
+      "source_sha256": "80d7b20961486a8827b27fdd17e4c65fd68054a6e0ea8e812038f6459c85d4b6"
+    },
+    "t0.double_image": {
+      "texture": 0,
+      "rect": [
+        88,
+        48,
+        136,
+        72
+      ],
+      "jp": "分身",
+      "en": "Dbl Img",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "defensive skill activation word",
+      "term": "eboot: 分身 = Double Image",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        1,
+        46,
+        23
+      ],
+      "source_sha256": "1f55f745bd517d3876ff4521f3a41089d96f7da89a530dcf0a878fc38f3b7ecb"
+    },
+    "t0.barrier": {
+      "texture": 0,
+      "rect": [
+        0,
+        72,
+        64,
+        96
+      ],
+      "jp": "バリア",
+      "en": "Barrier",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "defensive skill activation word",
+      "term": "eboot: バリア = Barrier",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        1,
+        1,
+        63,
+        23
+      ],
+      "source_sha256": "1e77c2dd508b23e2b2aaf1e31a967b38339968234f7e0bcd99f5c9e74d4543f4"
+    },
+    "t0.intermission": {
+      "texture": 0,
+      "rect": [
+        0,
+        192,
+        296,
+        232
+      ],
+      "jp": "インターミッション",
+      "en": "Intermission",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "Intermission menu heading",
+      "term": "eboot: インターミッションを終了します。 = End the intermission.",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        1,
+        3,
+        295,
+        37
+      ],
+      "source_sha256": "e2070113810969e0968557dd1cd05eb11f066c5b35d69a3d93ba8082e05cfc75"
+    },
+    "t0.sub_order": {
+      "texture": 0,
+      "rect": [
+        0,
+        232,
+        208,
+        273
+      ],
+      "jp": "サブオーダー",
+      "en": "Sub Order",
+      "source": "new",
+      "style": "inverse",
+      "role": "Sub Order heading (same black-on-white style as Intermission)",
+      "term": "eboot: サブオーダー… = Sub Order",
+      "ink_box": [
+        3,
+        2,
+        204,
+        35
+      ],
+      "source_sha256": "d373c45eff44738a1e58a33caaed325e06c8d8568063667d90bc1a136dede129"
+    },
+    "t0.sortie": {
+      "texture": 0,
+      "rect": [
+        295,
+        88,
+        368,
+        128
+      ],
+      "jp": "出撃",
+      "en": "Sortie",
+      "source": "new",
+      "style": "white",
+      "role": "deploy marker; drawn with t0.locked as 出撃不可",
+      "term": "eboot: 出撃準備画面 = Sortie Prep",
+      "ink_box": [
+        4,
+        2,
+        71,
+        38
+      ],
+      "source_sha256": "7cd173fe1a84c0b19d66d7159085db302544d18d84ca5cb4dd2f7f021339cdc4"
+    },
+    "t0.locked": {
+      "texture": 0,
+      "rect": [
+        368,
+        88,
+        441,
+        128
+      ],
+      "jp": "不可",
+      "en": "Locked",
+      "source": "new",
+      "style": "white",
+      "role": "second half of 出撃不可 (unit cannot sortie)",
+      "term": "new wording (no project string for 出撃不可)",
+      "ink_box": [
+        1,
+        2,
+        70,
+        38
+      ],
+      "source_sha256": "2035bad64c24fd9521bab20c8ad8e32843373409eb5add828e09be1ec0a74b0b"
+    },
+    "t0.combine": {
+      "texture": 0,
+      "rect": [
+        441,
+        104,
+        512,
+        145
+      ],
+      "jp": "合体",
+      "en": "Combine",
+      "source": "new",
+      "style": "white",
+      "role": "combine command word",
+      "term": "eboot: 合体 = Combine",
+      "ink_box": [
+        0,
+        2,
+        70,
+        38
+      ],
+      "source_sha256": "3b16903a0d7ae84271e1be7117ccb8aaef4223b32d40664dde7751f3fde4f489"
+    },
+    "t0.spirit_wall": {
+      "texture": 0,
+      "rect": [
+        0,
+        287,
+        48,
+        320
+      ],
+      "jp": "鉄",
+      "en": "Wa",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 鉄 = Wa",
+      "ink_box": [
+        3,
+        1,
+        43,
+        28
+      ],
+      "source_sha256": "1b764fa105ce18ac7f8b40271da543a81d8dd6dc87ce2b512d5034b8646680dc"
+    },
+    "t0.spirit_luck": {
+      "texture": 0,
+      "rect": [
+        48,
+        287,
+        96,
+        320
+      ],
+      "jp": "幸",
+      "en": "Lu",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 幸 = Lu",
+      "ink_box": [
+        3,
+        1,
+        42,
+        28
+      ],
+      "source_sha256": "1133c775f7862a00ab89fca85fa74a6bd07e901d9a7085484f331589e7a77c85"
+    },
+    "t0.spirit_focus": {
+      "texture": 0,
+      "rect": [
+        0,
+        322,
+        48,
+        368
+      ],
+      "jp": "集",
+      "en": "Fo",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 集 = Fo",
+      "ink_box": [
+        3,
+        4,
+        43,
+        41
+      ],
+      "source_sha256": "e06b4f9cae79f8b7f0e09d46a0a6bd5dbe869870a42fbae73674d25283ed2c75"
+    },
+    "t0.spirit_gain": {
+      "texture": 0,
+      "rect": [
+        48,
+        322,
+        96,
+        368
+      ],
+      "jp": "努",
+      "en": "Ga",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 努 = Ga",
+      "ink_box": [
+        3,
+        4,
+        42,
+        41
+      ],
+      "source_sha256": "c4fba583664352a7097b4221a89fc0f8174c436fb051efa91a1aa4a953978f29"
+    },
+    "t0.spirit_strike": {
+      "texture": 0,
+      "rect": [
+        0,
+        370,
+        48,
+        416
+      ],
+      "jp": "必",
+      "en": "St",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 必 = St",
+      "ink_box": [
+        3,
+        4,
+        42,
+        41
+      ],
+      "source_sha256": "8043b879e6ba113ab78c630fff4f07bece2fe52913ee95ce9a5d06bc047597ce"
+    },
+    "t0.spirit_disrupt": {
+      "texture": 0,
+      "rect": [
+        48,
+        370,
+        96,
+        416
+      ],
+      "jp": "乱",
+      "en": "Di",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 乱 = Di",
+      "ink_box": [
+        3,
+        4,
+        44,
+        41
+      ],
+      "source_sha256": "eff1aef9344119379557fb54606179ab262078f562568d1795f9a80fb49060cd"
+    },
+    "t0.spirit_accel": {
+      "texture": 0,
+      "rect": [
+        0,
+        418,
+        48,
+        464
+      ],
+      "jp": "加",
+      "en": "Ac",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 加 = Ac",
+      "ink_box": [
+        3,
+        4,
+        42,
+        41
+      ],
+      "source_sha256": "47a088b5bd44aae042759fe137a2edd9f585ba1ab5285bfb185734a4d5d58330"
+    },
+    "t0.spirit_analyze": {
+      "texture": 0,
+      "rect": [
+        48,
+        418,
+        96,
+        464
+      ],
+      "jp": "分",
+      "en": "An",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 分 = An",
+      "ink_box": [
+        3,
+        4,
+        42,
+        41
+      ],
+      "source_sha256": "06f32fa5a88b4adac97ad6f7bade1626c6ab52e2045b327ba9adfe4f6bdbb418"
+    },
+    "t0.spirit_zeal": {
+      "texture": 0,
+      "rect": [
+        0,
+        466,
+        48,
+        512
+      ],
+      "jp": "覚",
+      "en": "Ze",
+      "source": "new",
+      "style": "icon",
+      "role": "Spirit Command icon (kanji abbreviation on a grey plate)",
+      "term": "spirit abbreviation: 覚 = Ze",
+      "ink_box": [
+        3,
+        4,
+        42,
+        41
+      ],
+      "source_sha256": "b9b7bd9ce100e67808cdd110e04023a1f10b09ac2238977f479250708a085efd"
+    },
+    "t0.spirit_blank": {
+      "texture": 0,
+      "rect": [
+        48,
+        466,
+        96,
+        512
+      ],
+      "jp": "",
+      "en": null,
+      "source": "keep",
+      "style": null,
+      "role": "empty Spirit icon plate (used as the base of the English icons)",
+      "ink_box": [
+        3,
+        15,
+        35,
+        41
+      ],
+      "source_sha256": "32e90f673d0b9d4a3610854dea854d4b3ff1a4f261c0f8a8409c2d29d93610e5"
+    },
+    "t2.all": {
+      "texture": 2,
+      "rect": [
+        0,
+        0,
+        80,
+        40
+      ],
+      "jp": "全体",
+      "en": "ALL",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "attack-type heading (target selection)",
+      "term": "eboot: 全体 = All; ALL weapons",
+      "jigoku_module": "attack_heading.py",
+      "ink_box": [
+        4,
+        1,
+        77,
+        38
+      ],
+      "source_sha256": "314f24d84d87b43fa7f261b5e57a1200698664d73f75bde7ff5b89c077237e6f"
+    },
+    "t2.attack_heading": {
+      "texture": 2,
+      "rect": [
+        80,
+        0,
+        160,
+        40
+      ],
+      "jp": "攻撃",
+      "en": "Attack",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "attack-type heading",
+      "term": "eboot: 攻撃 = Attack",
+      "jigoku_module": "attack_heading.py",
+      "ink_box": [
+        4,
+        1,
+        77,
+        38
+      ],
+      "source_sha256": "3cc8912fbd4fefc980e66e7c4fc1bceb5937d751cdf1162e2b28f4275cf9e310"
+    },
+    "t2.center": {
+      "texture": 2,
+      "rect": [
+        160,
+        0,
+        296,
+        40
+      ],
+      "jp": "センター",
+      "en": "Center",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "attack-type heading",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        4,
+        1,
+        132,
+        38
+      ],
+      "source_sha256": "8b367c82a3a9f68393bd3773f6857622c56e48782b490b4bfcf96dd21cd0f7f8"
+    },
+    "t2.wide": {
+      "texture": 2,
+      "rect": [
+        296,
+        0,
+        392,
+        40
+      ],
+      "jp": "ワイド",
+      "en": "Wide",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "attack-type heading",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        1,
+        2,
+        92,
+        38
+      ],
+      "source_sha256": "a203c7c28fead2c5a8aa13b059f8099b3e5d6d37705950c56de7430ef718efec"
+    },
+    "t2.map": {
+      "texture": 2,
+      "rect": [
+        392,
+        0,
+        512,
+        40
+      ],
+      "jp": "マップ",
+      "en": "MAP",
+      "source": "new",
+      "style": "white",
+      "role": "attack-type heading / MAP weapon (Jigoku drew \"Map\")",
+      "term": "eboot: マップ兵器 = MAP Weapon",
+      "note": "overrides the Jigoku 0.6.24 cell ('Map') for project wording",
+      "ink_box": [
+        3,
+        0,
+        98,
+        37
+      ],
+      "source_sha256": "20ea66ffeed9ace1c19aabbd8c0e9721e904c9ed19d70097f6a20b70a2650a03"
+    },
+    "t2.maximum": {
+      "texture": 2,
+      "rect": [
+        0,
+        40,
+        176,
+        88
+      ],
+      "jp": "マキシマム",
+      "en": "Maximum",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "Maximum Break word",
+      "term": "eboot: マキシマムブレイク = Maximum Break",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        7,
+        6,
+        171,
+        42
+      ],
+      "source_sha256": "c718b4304b27861bbf05ce61fe99d60535fd1f296b27619a90e02800d6de7f04"
+    },
+    "t2.break": {
+      "texture": 2,
+      "rect": [
+        176,
+        40,
+        320,
+        88
+      ],
+      "jp": "ブレイク",
+      "en": "Break",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "Maximum Break word",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        7,
+        4,
+        137,
+        42
+      ],
+      "source_sha256": "8c25866ee4edfdd517723116ea5574be9d1c0a0a6364e15c841a53fae3eee7ec"
+    },
+    "t2.counter": {
+      "texture": 2,
+      "rect": [
+        320,
+        40,
+        512,
+        88
+      ],
+      "jp": "カウンター",
+      "en": "Counter",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "skill activation word",
+      "term": "skill: カウンター = Counter",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        6,
+        5,
+        169,
+        43
+      ],
+      "source_sha256": "f9bf99a0dd225dc70a5e440829e38b14343493df5319d6044bccddf43d195c64"
+    },
+    "t2.support": {
+      "texture": 2,
+      "rect": [
+        0,
+        88,
+        72,
+        128
+      ],
+      "jp": "援護",
+      "en": "Support",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "support attack / defend popup word",
+      "term": "skill: 援護攻撃 = Support Atk, 援護防御 = Support Def",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        0,
+        2,
+        71,
+        38
+      ],
+      "source_sha256": "cd2b1f0d101148629efada521a056882024c63fd6b47d2a40292f340c9104647"
+    },
+    "t2.attack": {
+      "texture": 2,
+      "rect": [
+        72,
+        88,
+        144,
+        128
+      ],
+      "jp": "攻撃",
+      "en": "Attack",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "popup word",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        0,
+        2,
+        72,
+        39
+      ],
+      "source_sha256": "c98786304b53d186cdb9e318edb645a8b48bd646bbdbb07a629a99b3f8c977e5"
+    },
+    "t2.defend": {
+      "texture": 2,
+      "rect": [
+        144,
+        88,
+        216,
+        128
+      ],
+      "jp": "防御",
+      "en": "Defend",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "popup word",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        2,
+        70,
+        38
+      ],
+      "source_sha256": "2a91554978e211cd3800e05f84f6c9ea12b1dfa3cfdebc985085493b7fb7ae8f"
+    },
+    "t2.re": {
+      "texture": 2,
+      "rect": [
+        216,
+        88,
+        256,
+        128
+      ],
+      "jp": "再",
+      "en": "Re-",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "Re-Attack prefix",
+      "term": "skill: 再攻撃 = Re-Attack",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        1,
+        3,
+        38,
+        38
+      ],
+      "source_sha256": "69ac7a01613558904eb39f916fe55535d019267152c94ff54e79e15c8a2e5659"
+    },
+    "t2.weapon": {
+      "texture": 2,
+      "rect": [
+        256,
+        88,
+        336,
+        128
+      ],
+      "jp": "兵器",
+      "en": "Wpn",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "MAP weapon popup word",
+      "term": "eboot: マップ兵器 = MAP Weapon",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        1,
+        75,
+        38
+      ],
+      "source_sha256": "16164182cc6892c88fdd90686514f1ed4aa1b47cb07104ab7ea5067da3b01371"
+    },
+    "t2.song": {
+      "texture": 2,
+      "rect": [
+        336,
+        88,
+        384,
+        128
+      ],
+      "jp": "歌",
+      "en": "Song",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "song command word",
+      "term": "eboot: 歌 = Song",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        1,
+        1,
+        40,
+        39
+      ],
+      "source_sha256": "d7808349745a7fc08231479099b90848921f7004dc827149675e71420752fa42"
+    },
+    "t2.mobi": {
+      "texture": 2,
+      "rect": [
+        56,
+        192,
+        112,
+        224
+      ],
+      "jp": "運動",
+      "en": "Mobi",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "first half of 運動性 (Mobility)",
+      "term": "eboot: 運動性▼ = Mobility Down",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        3,
+        53,
+        30
+      ],
+      "source_sha256": "204eef609ed8cbb8e55bcdc5e776733d6284ee16b33498889df34f85f4dcd34a"
+    },
+    "t2.lity": {
+      "texture": 2,
+      "rect": [
+        56,
+        320,
+        88,
+        352
+      ],
+      "jp": "性",
+      "en": "lity",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "second half of 運動性",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        3,
+        30,
+        29
+      ],
+      "source_sha256": "a1c9ee4ad3efc039c20f3ce9bc60fa50d521ad97899bc5bdc4ac66b2cbefff9a"
+    },
+    "t2.armor": {
+      "texture": 2,
+      "rect": [
+        56,
+        256,
+        112,
+        288
+      ],
+      "jp": "装甲",
+      "en": "Armor",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "first half of 装甲値",
+      "term": "eboot: 装甲値▼ = Armor Down",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        3,
+        52,
+        30
+      ],
+      "source_sha256": "03bf5e8ce2fdf8992f3fd10a554989d9bf885822008a2fb454c6bfaccd8de362"
+    },
+    "t2.value": {
+      "texture": 2,
+      "rect": [
+        56,
+        352,
+        88,
+        384
+      ],
+      "jp": "値",
+      "en": "",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "shared suffix 値 of 装甲値/照準値; blank in English",
+      "jigoku_module": "trader_art.py",
+      "ink_box": [
+        2,
+        3,
+        29,
+        29
+      ],
+      "source_sha256": "c52f14b1b6ed853afc7988b6cd6e13c747e336678d6d2b0e61e5edd46ba36cae"
+    },
+    "t2.accuracy": {
+      "texture": 2,
+      "rect": [
+        56,
+        224,
+        112,
+        256
+      ],
+      "jp": "照準",
+      "en": "Acc.",
+      "source": "new",
+      "style": "white",
+      "role": "first half of 照準値 (Jigoku drew \"Sight\")",
+      "term": "eboot: 照準値▼ = Accuracy Down",
+      "note": "overrides the Jigoku 0.6.24 cell ('Sight') for project wording",
+      "ink_box": [
+        2,
+        3,
+        54,
+        30
+      ],
+      "source_sha256": "2aac6d0e77f8428654b2475547b10dbdf95fcd35524b1ca4709e390cc3faec5c"
+    },
+    "t2.spirit": {
+      "texture": 2,
+      "rect": [
+        56,
+        128,
+        112,
+        160
+      ],
+      "jp": "精神",
+      "en": "Spirit",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 精神付与 = Spirit Grant",
+      "ink_box": [
+        4,
+        4,
+        49,
+        28
+      ],
+      "source_sha256": "b3ffb3d5b807041cf5ba4a1d0f77fb2d8e13c4ddadd3492e97d0dd8f2c5e6887"
+    },
+    "t2.grant": {
+      "texture": 2,
+      "rect": [
+        56,
+        160,
+        112,
+        192
+      ],
+      "jp": "付与",
+      "en": "Grant",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 精神付与 = Spirit Grant",
+      "ink_box": [
+        4,
+        4,
+        50,
+        28
+      ],
+      "source_sha256": "ebfc9578fd0bac857c7174b5d204bafbc89ad230b398d554a1c35a8e08e9d1b7"
+    },
+    "t2.max": {
+      "texture": 2,
+      "rect": [
+        56,
+        384,
+        112,
+        416
+      ],
+      "jp": "最大",
+      "en": "Max",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 最大気力上昇 = Max Morale Up",
+      "ink_box": [
+        2,
+        3,
+        53,
+        30
+      ],
+      "source_sha256": "4d06444a387f12212cacb4fb294d137a9d20f29857b8277ca5b1a338671a27f2"
+    },
+    "t2.morale": {
+      "texture": 2,
+      "rect": [
+        0,
+        224,
+        56,
+        256
+      ],
+      "jp": "気力",
+      "en": "Morale",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 気力上昇 = Morale Up",
+      "ink_box": [
+        2,
+        3,
+        52,
+        29
+      ],
+      "source_sha256": "b787a6522befc06ba0c89ecb606d8b8238341622e385c496d1ab5518219a96af"
+    },
+    "t2.stats": {
+      "texture": 2,
+      "rect": [
+        0,
+        256,
+        56,
+        288
+      ],
+      "jp": "能力",
+      "en": "Stats",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 能力上昇 = Stats Up",
+      "ink_box": [
+        2,
+        3,
+        52,
+        29
+      ],
+      "source_sha256": "ff68365a3d16f0ac3624ff5d79491a3eae7de841a86b7fc339b4feec7a5964fc"
+    },
+    "t2.combat": {
+      "texture": 2,
+      "rect": [
+        0,
+        288,
+        56,
+        320
+      ],
+      "jp": "戦闘",
+      "en": "Combat",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word (戦闘不能)",
+      "term": "eboot: 戦闘不能 = Disabled",
+      "ink_box": [
+        2,
+        3,
+        53,
+        29
+      ],
+      "source_sha256": "6457b7418779b332c5ce9496be6c7fe9013424c4c1347dfa2606da19b8e96f70"
+    },
+    "t2.regen": {
+      "texture": 2,
+      "rect": [
+        0,
+        320,
+        56,
+        352
+      ],
+      "jp": "回復",
+      "en": "Regen",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: ＨＰ回復 = HP Regen",
+      "ink_box": [
+        3,
+        2,
+        54,
+        30
+      ],
+      "source_sha256": "849ddddbca09f22f865379eb3e1557e92d500a9d70c15aac2e8fe4c688a4c880"
+    },
+    "t2.up": {
+      "texture": 2,
+      "rect": [
+        0,
+        352,
+        56,
+        384
+      ],
+      "jp": "上昇",
+      "en": "Up",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 気力上昇 = Morale Up",
+      "ink_box": [
+        2,
+        3,
+        53,
+        29
+      ],
+      "source_sha256": "26757f651ed06b4dc3d71fe3664cd8dae1affccc56285d0803d66d926df1af82"
+    },
+    "t2.halved": {
+      "texture": 2,
+      "rect": [
+        0,
+        384,
+        56,
+        416
+      ],
+      "jp": "半減",
+      "en": "Halved",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 能力半減 = Stats Halved",
+      "ink_box": [
+        2,
+        2,
+        54,
+        30
+      ],
+      "source_sha256": "33b1d32f76f445d1194b3031284661e9e10a1fa5d9661c7b91f0971208ded859"
+    },
+    "t2.down": {
+      "texture": 2,
+      "rect": [
+        0,
+        416,
+        56,
+        448
+      ],
+      "jp": "低下",
+      "en": "Down",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 気力低下 = Morale Down",
+      "ink_box": [
+        2,
+        3,
+        53,
+        30
+      ],
+      "source_sha256": "1e392ffa27c03c2b641f9bc78afa6f7dc806f341ea3bb36ec2c500bff483771f"
+    },
+    "t2.disabled": {
+      "texture": 2,
+      "rect": [
+        0,
+        448,
+        56,
+        480
+      ],
+      "jp": "不能",
+      "en": "Disabled",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: 戦闘不能 = Disabled",
+      "ink_box": [
+        2,
+        3,
+        54,
+        29
+      ],
+      "source_sha256": "6622512eb6c61a260d987f275574d1fcf8f727eaf43024f6fb3c83b47324071c"
+    },
+    "t2.command": {
+      "texture": 2,
+      "rect": [
+        0,
+        480,
+        80,
+        512
+      ],
+      "jp": "コマンド",
+      "en": "Command",
+      "source": "new",
+      "style": "white",
+      "role": "effect popup word",
+      "term": "eboot: コマンド選択 = Select Command",
+      "ink_box": [
+        3,
+        5,
+        77,
+        28
+      ],
+      "source_sha256": "a25d09838853dbcd51c4325af99de071239084a997a839ee00a78853a4592d08"
+    },
+    "t2.pilot_setup": {
+      "texture": 2,
+      "rect": [
+        304,
+        384,
+        512,
+        432
+      ],
+      "jp": "主人公設定",
+      "en": "Pilot Setup",
+      "source": "new",
+      "style": "white",
+      "role": "new-game protagonist setup heading",
+      "term": "Jigoku Vita art: Pilot Setup",
+      "ink_box": [
+        4,
+        3,
+        205,
+        46
+      ],
+      "source_sha256": "d6e5a0cef652ecea37b3328c84daa736080bf4f3362df4a6a196f048063cd403"
+    },
+    "t2.scenario_select": {
+      "texture": 2,
+      "rect": [
+        272,
+        432,
+        512,
+        472
+      ],
+      "jp": "シナリオ選択",
+      "en": "Scenario Select",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "new-game scenario select heading",
+      "jigoku_module": "startup_menu_layout.py",
+      "ink_box": [
+        1,
+        0,
+        236,
+        39
+      ],
+      "source_sha256": "6a53f472f2827e730f755bd60891426995df36b51bb2fc4ff64f0b46b6d4ce6b"
+    },
+    "t2.main": {
+      "texture": 2,
+      "rect": [
+        136,
+        472,
+        208,
+        512
+      ],
+      "jp": "本編",
+      "en": "Main",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "drawn with t2.scenario",
+      "jigoku_module": "startup_menu_layout.py",
+      "ink_box": [
+        4,
+        3,
+        71,
+        37
+      ],
+      "source_sha256": "8ea32af521b56d09826257a59307b945b4691f953283a3b9d6c7a63b07e30042"
+    },
+    "t2.tutorial": {
+      "texture": 2,
+      "rect": [
+        208,
+        472,
+        376,
+        512
+      ],
+      "jp": "ガイダンス",
+      "en": "Tutorial",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "drawn with t2.scenario",
+      "jigoku_module": "startup_menu_layout.py",
+      "ink_box": [
+        4,
+        2,
+        164,
+        36
+      ],
+      "source_sha256": "99c6fdf957c65d143f2f140a21d298219b1412f092ece8d324dd72e6facf5d85"
+    },
+    "t2.scenario": {
+      "texture": 2,
+      "rect": [
+        376,
+        472,
+        512,
+        512
+      ],
+      "jp": "シナリオ",
+      "en": "Scenario",
+      "source": "jigoku-0.6.24",
+      "style": null,
+      "role": "Main / Tutorial Scenario",
+      "jigoku_module": "startup_menu_layout.py",
+      "ink_box": [
+        4,
+        3,
+        133,
+        36
+      ],
+      "source_sha256": "1c7f146fb304f788592aded42340f0fef574afbeaf333291d0f07afc3b888e48"
+    },
+    "t2.game": {
+      "texture": 2,
+      "rect": [
+        330,
+        320,
+        410,
+        350
+      ],
+      "jp": "ゲーム",
+      "en": "Game",
+      "source": "new",
+      "style": "white",
+      "role": "title menu: [Game][Start]",
+      "term": "new (Tengoku-only title menu art)",
+      "ink_box": [
+        1,
+        2,
+        75,
+        29
+      ],
+      "source_sha256": "d4f95662d1ad38a59b7fc4f3a1db94b147ce8e0a5183c583b5219b46e36aa9ac"
+    },
+    "t2.start": {
+      "texture": 2,
+      "rect": [
+        410,
+        320,
+        512,
+        350
+      ],
+      "jp": "スタート",
+      "en": "Start",
+      "source": "new",
+      "style": "white",
+      "role": "title menu: shared second word of both start options",
+      "term": "FSSA: この結果をリンクさせてスタート",
+      "ink_box": [
+        2,
+        3,
+        98,
+        29
+      ],
+      "source_sha256": "956cfde80071e8cf19574ae9f73d40206689d27d2ecb0d0ea67d2d54fe0607fc"
+    },
+    "t2.link_data": {
+      "texture": 2,
+      "rect": [
+        265,
+        352,
+        512,
+        384
+      ],
+      "jp": "データをリンクさせて",
+      "en": "Link Data and",
+      "source": "new",
+      "style": "white",
+      "role": "title menu: [Link Data and][Start] (link Jigoku/Rengoku clear data)",
+      "term": "FSSA: データのリンクを行いますか？",
+      "ink_box": [
+        2,
+        3,
+        243,
+        29
+      ],
+      "source_sha256": "b2e0cc83a6cc7501c489d60e1ad11f74e20448007dfbf2e82e6ce49c5304bd9a"
+    },
+    "t3.sortie": {
+      "texture": 3,
+      "rect": [
+        175,
+        224,
+        231,
+        255
+      ],
+      "jp": "出撃",
+      "en": "Sortie",
+      "source": "new",
+      "style": "white",
+      "role": "deploy marker (small copy)",
+      "term": "eboot: 出撃準備画面 = Sortie Prep",
+      "ink_box": [
+        3,
+        1,
+        55,
+        30
+      ],
+      "source_sha256": "59b1b8e68843897413ff0c469f6d23620caa7d52c508551b1da8c87120ae3cc3"
+    },
+    "t3.locked": {
+      "texture": 3,
+      "rect": [
+        231,
+        224,
+        287,
+        255
+      ],
+      "jp": "不可",
+      "en": "Locked",
+      "source": "new",
+      "style": "white",
+      "role": "second half of 出撃不可 (small copy)",
+      "ink_box": [
+        3,
+        2,
+        56,
+        30
+      ],
+      "source_sha256": "eebbe0f13de7b029306908b0111711c6b3b94738bf4e2f94378242efd0dafb68"
+    },
+    "t3.combine_score": {
+      "texture": 3,
+      "rect": [
+        298,
+        177,
+        356,
+        207
+      ],
+      "jp": "合体",
+      "en": "Combine",
+      "source": "new",
+      "style": "white",
+      "role": "drawn after the separate \"SCORE:\" sprite",
+      "term": "eboot: 合体 = Combine",
+      "ink_box": [
+        7,
+        3,
+        53,
+        28
+      ],
+      "source_sha256": "308b858094eb8a01b1dfecb5301433990bfafa4fa696720705aeafb7085e0f7a"
+    },
+    "t3.combo_attack": {
+      "texture": 3,
+      "rect": [
+        47,
+        479,
+        142,
+        511
+      ],
+      "jp": "合体攻撃",
+      "en": "Combo Attack",
+      "source": "new",
+      "style": "white",
+      "role": "combination attack word",
+      "term": "eboot: 合体攻撃 = Combo Attack",
+      "ink_box": [
+        3,
+        4,
+        93,
+        30
+      ],
+      "source_sha256": "f6496b54a99aa12e6210570f1295240adf61f07b1c62e6049e08bf46e8a8e84b"
+    },
+    "t3.single_icon": {
+      "texture": 3,
+      "rect": [
+        140,
+        108,
+        190,
+        152
+      ],
+      "jp": "単",
+      "en": null,
+      "source": "keep",
+      "style": null,
+      "role": "pictogram icon (single unit); role not traced, left as is",
+      "ink_box": [
+        0,
+        0,
+        50,
+        42
+      ],
+      "source_sha256": "b1bd2bd12b85505098f9b46e2eae254925039174eb9694ffbf65c5faf915b7aa"
+    },
+    "t3.combine_icon": {
+      "texture": 3,
+      "rect": [
+        148,
+        169,
+        183,
+        199
+      ],
+      "jp": "合体",
+      "en": null,
+      "source": "keep",
+      "style": null,
+      "role": "35x30 icon next to the VR icon; too small for English, left as is",
+      "ink_box": [
+        0,
+        0,
+        35,
+        30
+      ],
+      "source_sha256": "eddb68e10329f0e6af2b881b0e6dbc940b444e1e091271e2910c70220c607e37"
+    },
+    "t3.unit_icon": {
+      "texture": 3,
+      "rect": [
+        34,
+        346,
+        78,
+        397
+      ],
+      "jp": "機",
+      "en": null,
+      "source": "keep",
+      "style": null,
+      "role": "pictogram icon (unit); role not traced, left as is",
+      "ink_box": [
+        0,
+        0,
+        44,
+        51
+      ],
+      "source_sha256": "ab566ae18c69b6700132954cb874eae1765ba6ea11fcabb29b8f8f2de9fc75b8"
+    }
+  }
+}

@@ -1,0 +1,831 @@
+{
+ "schema": 1,
+ "group": "gunbuster",
+ "names": [
+  {
+   "jp": "るくしおん",
+   "kind": "robot",
+   "en": "Luxion",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'the Luxion fleet', 'Luxion (るくしおん)'; https://gunbuster.fandom.com/wiki/Luxion : 'The Luxion (るくしおん; Rukushion)'",
+   "note": "Deep-space survey ship of Admiral Yuzo Takaya, Noriko's father. Jigoku library English 'Ruuxion' is a romanization; the franchise English is Luxion."
+  },
+  {
+   "jp": "ヱクセリヲン",
+   "kind": "robot",
+   "en": "Exelion",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'Exelion (ヱクセリヲン)'; https://gunbuster.fandom.com/wiki/Exelion : 'The Exelion (ヱクセリヲン) ... black hole was named Exelio, in the memory of the ship'",
+   "note": "Space battleship of Gunbuster. Same spelling family as Exelio (Z3.2 mech list 'Exelio Variable Gravity Source'). The akurasu generic glossary once writes 'Excelion' (Aegis System entry, Alpha Gaiden); see report.uncertain. Kept as robot (ship)."
+  },
+  {
+   "jp": "シズラー",
+   "kind": "robot",
+   "en": "Sizzler",
+   "status": "official",
+   "source": "https://gunbuster.fandom.com/wiki/Sizzler : 'The Sizzler is a mass-production model of combat mecha modeled after Gunbuster ... piloted by Jung Freud'; https://akurasu.net/wiki/Aim_for_the_Top! : 'Unit Appearances: Gunbuster, Black Sizzler'",
+   "note": "Mass-production Gunbuster-type machine. akurasu lists the black variant as 'Black Sizzler'; the bare Japanese word is just Sizzler."
+  },
+  {
+   "jp": "スミス",
+   "kind": "keyword",
+   "en": "Smith",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'American pilot Smith Toren'; https://gunbuster.fandom.com/wiki/Smith_Toren",
+   "note": "Keyword entry 139 is about Smith Toren (short form). Not Roger Smith (glossary ロジャー・スミス); no other brief uses bare スミス.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR keyword 139: 'a young man, a machine-weapon pilot'; Wikipedia Gunbuster: 'American pilot Smith Toren'; Fandom Smith Toren infobox: Male",
+    "position": "American Machine Weapon (RX-7) pilot aboard the Exelion; killed in action",
+    "personality": "teases Noriko at first, becomes her partner; killed protecting her",
+    "nickname": "",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Gunbuster",
+     "https://gunbuster.fandom.com/wiki/Smith_Toren",
+     "library keyword 139 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "スミス・トーレン",
+   "kind": "pilot",
+   "en": "Smith Toren",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'Smith Toren (スミス・トーレン)'; https://gunbuster.fandom.com/wiki/Smith_Toren : 'Smith Toren is an American pilot who was briefly partnered with Noriko Takaya'",
+   "note": "ANN lists the cast name as 'Toren Smith' (Western order, an in-joke on the manga translator); the wiki order Smith Toren matches the Japanese. Jigoku library English 'Smith Toren' agrees.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR keyword 139: 'a young man'; Fandom Smith Toren infobox gender Male; voiced by Kazuki Yao (male)",
+    "position": "American Machine Weapon pilot aboard the Exelion (Noriko's first partner in combat)",
+    "personality": "cheerful teaser; from Amarillo, Texas; dies in Noriko's first battle",
+    "nickname": "",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Smith_Toren",
+     "https://en.wikipedia.org/wiki/Gunbuster",
+     "library keyword 139 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "タカヤ・ユウゾウ",
+   "kind": "pilot",
+   "en": "Yuzo Takaya",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'Yuzo Takaya (タカヤ・ユウゾウ)'; https://gunbuster.fandom.com/wiki/Yuzo_Takaya : 'Yuzo Takaya is Noriko Takaya's father, an admiral and the captain of the Luxion'",
+   "note": "Jigoku library English 'Admiral Yuzo Takaya' agrees (rank is not part of the name).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "DSCR pilot 215: 父親 (father) 'Admiral Yuzo Takaya'; Fandom infobox gender Male",
+    "position": "Admiral; captain of the deep-space survey ship Luxion (lost 2015)",
+    "personality": "devoted father who could only visit on Noriko's birthday",
+    "nickname": "Papa (Fandom alias; Noriko's name for him)",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Yuzo_Takaya",
+     "https://en.wikipedia.org/wiki/Gunbuster",
+     "library pilot 215 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "オオタ・コウイチロウ",
+   "kind": "pilot",
+   "en": "Koichiro Oota",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aim_for_the_Top! : 'Character Appearances: Koichiro Oota'; https://gunbuster.fandom.com/wiki/Koichiro_Oota : 'Lt. Commander Koichiro Oota (オオタ・コウイチロウ)'",
+   "note": "Spelling settled by akurasu (Oota), which beats Wikipedia 'Ohta', ANN 'Ota' with macrons and the Jigoku library 'Kouichirou Ota'. Kazumi's married surname follows this spelling.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Fandom infobox gender Male, wife Kazumi Amano; Wikipedia Gunbuster: 'Ohta' referred to as he; DSCR pilot 216: Kazumi marries him",
+    "position": "Lt. Commander; Machine Weapon coach of Okinawa Girls' Space Pilot High School and head of the Gunbuster development program",
+    "personality": "unconventional, strict but devoted coach; teaches 'effort and guts'",
+    "nickname": "Coach (コーチ)",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Koichiro_Oota",
+     "https://en.wikipedia.org/wiki/Gunbuster",
+     "https://akurasu.net/wiki/Aim_for_the_Top!",
+     "library pilot 215/216 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "コーチ",
+   "kind": "pilot",
+   "en": "Coach",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'Koichiro \"Coach\" Ohta'; https://gunbuster.fandom.com/wiki/Coach : redirect to Koichiro Oota (infobox alias 'Coach')",
+   "note": "Nickname of Koichiro Oota (keyword 134 refers to him). Not the Diebuster Casio, who holds a nominal coach title in Japanese (ja wiki).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "same person as オオタ・コウイチロウ: Fandom infobox gender Male, husband of Kazumi",
+    "position": "see Koichiro Oota",
+    "personality": "see Koichiro Oota",
+    "nickname": "Coach",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Koichiro_Oota",
+     "https://en.wikipedia.org/wiki/Gunbuster"
+    ]
+   }
+  },
+  {
+   "jp": "オオタ・カズミ",
+   "kind": "pilot",
+   "en": "Kazumi Oota",
+   "status": "proposed",
+   "source": "derived: glossary アマノ・カズミ = Kazumi Amano (official); married Koichiro Oota (https://gunbuster.fandom.com/wiki/Koichiro_Oota : 'relatives = Kazumi Amano (Wife)'); https://akurasu.net/wiki/Aim_for_the_Top!",
+   "note": "Married name of Kazumi Amano (library pilot 216 CHFN). No source prints the married name in English; Oota comes from combining the settled spellings.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "DSCR pilot 216: Oki-jo girls' school, called お姉様, marries Coach; Wikipedia: 'her senior and inspiration, Kazumi Amano'; ANN cast 'Kazumi \"Onee-sama\" Amano'",
+    "position": "Top Squadron pilot; later instructor at Okinawa Girls' Space Pilot High School; Gunbuster pilot",
+    "personality": "intellectual, elegant, strong-willed, capable of intense emotion; sincere and hard-working despite natural talent",
+    "nickname": "Onee-sama (お姉様); 'Queen of Roses' (バラの女王様)",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Kazumi_Amano",
+     "https://en.wikipedia.org/wiki/Gunbuster",
+     "library pilot 216 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ユング・フロイト",
+   "kind": "pilot",
+   "en": "Jung Freud",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Gunbuster : 'Jung Freud (ユング・フロイト)'; https://akurasu.net/wiki/Aim_for_the_Top! : 'Character Appearances: Jung Freud'; https://gunbuster.fandom.com/wiki/Jung_Freud",
+   "note": "Jigoku library writes bare 'Jung' for the bare name; full name is Jung Freud.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Wikipedia Gunbuster: 'Her name is derived from ...' (Jung Freud); Fandom category Females; DSCR pilot 217 has no gendered word",
+    "position": "Machine Weapon pilot raised on the Soviet lunar base; pilots a Sizzler in the final battle",
+    "personality": "emotionally volatile, warm after a duel; ruthless about combat; called a genius of space combat",
+    "nickname": "'genius of space combat' (宇宙戦闘の天才)",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Jung_Freud",
+     "https://en.wikipedia.org/wiki/Gunbuster",
+     "library pilot 217 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ユング",
+   "kind": "keyword",
+   "token": "ユング#keyword",
+   "en": "Jung",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aim_for_the_Top!; https://en.wikipedia.org/wiki/Gunbuster : 'Jung Freud'",
+   "note": "Keyword entry 134 (Jung as a keyword page). Token already split: ユング#keyword here, ユング#pilot below."
+  },
+  {
+   "jp": "ユング",
+   "kind": "pilot",
+   "token": "ユング#pilot",
+   "en": "Jung",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aim_for_the_Top!; https://en.wikipedia.org/wiki/Gunbuster : 'Jung Freud'; https://gunbuster.fandom.com/wiki/Jung_Freud",
+   "note": "Short form of Jung Freud (pilot 217 CHNN)."
+  },
+  {
+   "jp": "ノノ",
+   "kind": "pilot",
+   "en": "Nono",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Nono===' (Aim for the Top 2! Diebuster section); https://en.wikipedia.org/wiki/Diebuster"
+  },
+  {
+   "jp": "ノノリリ",
+   "kind": "pilot",
+   "en": "Nonoriri",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'a space pilot ... \"like Nonoriri\"' (link text and target both Nonoriri); https://gunbuster.fandom.com/wiki/Nono-Riri spells 'Nono-Riri'",
+   "note": "The person Nono idolizes is revealed to be Noriko (as known to Nono). Wikipedia's one-word spelling chosen; Fandom hyphenates.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "Fandom Nono-Riri page: 'she was Noriko Takaya the whole time', category Females",
+    "position": "legendary Buster Machine pilot idolized by Nono; identity is Noriko Takaya",
+    "personality": "admired for effort and guts",
+    "nickname": "Nonoriri is itself the name Nono uses for Noriko",
+    "sources": [
+     "https://gunbuster.fandom.com/wiki/Nono-Riri",
+     "https://en.wikipedia.org/wiki/Diebuster"
+    ]
+   }
+  },
+  {
+   "jp": "ラルク",
+   "kind": "pilot",
+   "en": "Lal'C",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Lal\\'C Mellk Mal'; https://en.wikipedia.org/wiki/Diebuster : 'Lal\\'C'"
+  },
+  {
+   "jp": "ラルク・メルク・マール",
+   "kind": "pilot",
+   "en": "Lal'C Mellk Mal",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Lal\\'C Mellk Mal==='; https://en.wikipedia.org/wiki/Diebuster : 'Lal\\'C Mellk Mal (ラルク・メルク・マール)'",
+   "note": "ANN and Fandom print 'Lal'C Melk Mark'; akurasu and Wikipedia print 'Mellk Mal', akurasu wins."
+  },
+  {
+   "jp": "ニコラ",
+   "kind": "pilot",
+   "en": "Nicola",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Nicola Vacheron==='; https://en.wikipedia.org/wiki/Diebuster",
+   "note": "ANN prints 'Nichola'; akurasu and Wikipedia print Nicola."
+  },
+  {
+   "jp": "ニコラス・バセロン",
+   "kind": "pilot",
+   "en": "Nicola Vacheron",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Nicola Vacheron==='; https://en.wikipedia.org/wiki/Diebuster : 'Nicola Vacheron (ニコラス・バセロン)'",
+   "note": "The Japanese full name reads ニコラス, but the wiki spelling wins (same call as pt_214)."
+  },
+  {
+   "jp": "チコ",
+   "kind": "pilot",
+   "en": "Tycho",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Tycho Science==='; https://en.wikipedia.org/wiki/Diebuster"
+  },
+  {
+   "jp": "チコ・サイエンス",
+   "kind": "pilot",
+   "en": "Tycho Science",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : '===Tycho Science==='; https://en.wikipedia.org/wiki/Diebuster : 'Tycho Science (チコ・サイエンス)'",
+   "note": "Named after Tycho Brahe and the musician Chico Science (ja wiki)."
+  },
+  {
+   "jp": "カシオ",
+   "kind": "pilot",
+   "en": "Casio",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'Casio Takashiro (カシオ・タカシロウ)'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'Casio Takashiro'",
+   "note": "Named after the watch maker (ja wiki: カシオ計算機), so 'Casio' not 'Kashio'."
+  },
+  {
+   "jp": "カシオ・タカシロウ",
+   "kind": "pilot",
+   "en": "Casio Takashiro",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster; https://gunbuster.fandom.com/wiki/Casio_Takashiro; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920; https://ja.wikipedia.org/wiki/トップをねらえ2! : 名前の由来は日本の時計メーカーであるカシオ計算機"
+  },
+  {
+   "jp": "ピアジェ",
+   "kind": "pilot",
+   "en": "Piaget",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7455 : 'Piaget Serpentine' (Sanae Kobayashi); https://ja.wikipedia.org/wiki/トップをねらえ2! : 名前の由来は ピアジェ と ジャガー・ルクルト"
+  },
+  {
+   "jp": "ピアジェ・サーペンタイン",
+   "kind": "pilot",
+   "en": "Piaget Serpentine",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7455; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'Piaget Serpentine'",
+   "note": "Older twin. Named after the Swiss watch maker Piaget (ja wiki)."
+  },
+  {
+   "jp": "ルクルト",
+   "kind": "pilot",
+   "en": "LeCoultre",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7455 : 'LeCoultre Serpentine' (Yuki Matsuoka); https://ja.wikipedia.org/wiki/トップをねらえ2! : ジャガー・ルクルト (Jaeger-LeCoultre)",
+   "note": "The proposals 'Lecult' and 'Lecoultre' are replaced by the ANN spelling LeCoultre (matches the watch brand)."
+  },
+  {
+   "jp": "ルクルト・サーペンタイン",
+   "kind": "pilot",
+   "en": "LeCoultre Serpentine",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7455; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'LeCoultre Serpentine'",
+   "note": "Younger twin."
+  },
+  {
+   "jp": "サーペンタイン姉妹",
+   "kind": "keyword",
+   "en": "Serpentine Sisters",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'The Serpentine Sisters'; https://ja.wikipedia.org/wiki/トップをねらえ2! : サーペンタイン姉妹",
+   "note": "Same group as サーペンタインの双子 (Serpentine Twins). Wikipedia says Sisters; ANN and Fandom use Twins. Each keeps its own entry."
+  },
+  {
+   "jp": "サーペンタインの双子",
+   "kind": "keyword",
+   "en": "Serpentine Twins",
+   "status": "official",
+   "source": "https://gunbuster.fandom.com/wiki/Quarante-Deux : 'Piloted by the Serpentine Twins'; https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'Serpentine Twins'",
+   "note": "Same pair as サーペンタイン姉妹 (Serpentine Sisters)."
+  },
+  {
+   "jp": "ハトリ",
+   "kind": "pilot",
+   "en": "Hatori",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'Hatori' (Hideyuki Umezu); https://gunbuster.fandom.com/wiki/Captain_Hatori; https://ja.wikipedia.org/wiki/トップをねらえ2!",
+   "note": "ANN also lists the variant 'Hattori' in a foreign dub; the Japanese ハトリ, ANN and Fandom agree on Hatori."
+  },
+  {
+   "jp": "グランディネ・アルガローリング",
+   "kind": "pilot",
+   "en": "Grandine Argaroring",
+   "status": "proposed",
+   "source": "no English source found for the real name (only the library text); Hepburn romanization of the katakana; ANN lists the character only as 'Shop Owner': https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+   "note": "L/R is ambiguous in katakana (Argaloring is equally possible). Same person as 店長.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "ja wiki: 「レストランの女性店長」 (female manager), voiced by Mami Koyama; DSCR pilot 226 has no pronoun",
+    "position": "hired manager of the diner Lakeside Diner's near Mars Spaceport No. 6",
+    "personality": "realist whose singing dream failed; cares about the dreamy Nono",
+    "nickname": "Manager (店長)",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+     "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+     "library pilot 226 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "店長",
+   "kind": "pilot",
+   "en": "Manager",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ2! : 店長 (第1話でノノを住み込みバイトで雇っていたレストランの女性店長); https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'Shop Owner' (no personal name)",
+   "note": "Literal (store manager); ANN's 'Shop Owner' is a cast label. Real name Grandine Argaroring. Gender-neutral 'Manager' kept."
+  },
+  {
+   "jp": "長老",
+   "kind": "pilot",
+   "en": "Elder",
+   "status": "official",
+   "source": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920 : 'Elder A' (Koichi Kitamura); https://ja.wikipedia.org/wiki/トップをねらえ2! : 枢密参謀たち",
+   "note": "Entries 227 and 228 are two different members of the Privy General Staff with identical text; both stay 'Elder'."
+  },
+  {
+   "jp": "ソワサンシス",
+   "kind": "robot",
+   "en": "Soixante-Six",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'Buster Machine No.66: Soixante-Six'; https://gunbuster.fandom.com/wiki/Soixante-Six; https://ja.wikipedia.org/wiki/バスターマシン : ソワサンシス(soixante-six)"
+  },
+  {
+   "jp": "トラントロワ",
+   "kind": "robot",
+   "en": "Trente-Trois",
+   "status": "official",
+   "source": "https://gunbuster.fandom.com/wiki/Trente-Trois : 'Buster Machine 33'; https://ja.wikipedia.org/wiki/バスターマシン : トラントロワ(trente-trois)"
+  },
+  {
+   "jp": "ドゥーズミーユ",
+   "kind": "robot",
+   "en": "Douze-Mille",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'Douze-Mille's reformed components'; https://gunbuster.fandom.com/wiki/Douze-Mille : 'Buster Machine numbered 12,000'",
+   "note": "French 'twelve thousand'. Also the name of the weapon that hurls Earth (same word)."
+  },
+  {
+   "jp": "カランドゥ",
+   "kind": "robot",
+   "en": "Quarante-Deux",
+   "status": "official",
+   "source": "https://ja.wikipedia.org/wiki/バスターマシン : カランドゥ(quarante-deux), pilots サーペンタイン姉妹; https://gunbuster.fandom.com/wiki/Quarante-Deux : 'Buster Machine 42, Piloted by the Serpentine Twins'",
+   "note": "The proposal 'Calando' (music term) was wrong; the katakana is French quarante + deux."
+  },
+  {
+   "jp": "ＥＶＯ－４",
+   "kind": "robot",
+   "en": "EVO-4",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'EVO-4 || EVO-4' (Aim for the Top! 2 section); work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'EVO-4 -> Buster Machine 7 -> Diebuster'"
+  },
+  {
+   "jp": "ツインテール級",
+   "kind": "robot",
+   "en": "Twintail-class",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Space Monster Twintail-class || 宇宙怪獣・ツインテール級'",
+   "note": "Short form; full akurasu name is Space Monster Twintail-class."
+  },
+  {
+   "jp": "ビーストロン級",
+   "kind": "robot",
+   "en": "Beastron-class",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Space Monster Beastron-class || 宇宙怪獣・ビーストロン級'",
+   "note": "Short form of the akurasu name."
+  },
+  {
+   "jp": "ザザゴラス級",
+   "kind": "robot",
+   "en": "Zazagolas-class",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Space Monster Zazagolas-class || 宇宙怪獣・ザザゴラス級'",
+   "note": "Short form of the akurasu name."
+  },
+  {
+   "jp": "ギドドンガス級",
+   "kind": "robot",
+   "en": "Gidodongas-class",
+   "status": "official",
+   "source": "https://gunbuster.fandom.com/wiki/Space_Monsters : 'Gidodongas (ギドドンガス) ... cruiser-type'; class suffix follows the akurasu pattern (work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki); https://ja.wikipedia.org/wiki/トップをねらえ2! : 巡洋艦怪獣ギドドンガス",
+   "note": "Same cruiser-type monster as glossary 宇宙怪獣・巡洋艦級 (Cruiser-class Space Monster); the library text uses the type name."
+  },
+  {
+   "jp": "ララァシャン",
+   "kind": "robot",
+   "en": "Lalah-Shan",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ2! : 旗艦ララァシャン (the newest ships are ララ級); no English source found; Fandom Captain Hatori page says only 'Lalatian flagship'",
+   "note": "Katakana romanization; the series has a Lu Sun (ルウ・スン, a Lalah Sune homage), so a Lalah-style spelling is plausible. Low confidence."
+  },
+  {
+   "jp": "トップレス",
+   "kind": "keyword",
+   "en": "Topless",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Aim_for_the_Top!_2:_Diebuster : BGM 'トップレス || Topless'; https://en.wikipedia.org/wiki/Diebuster : 'teenage pilots called Topless'; https://gunbuster.fandom.com/wiki/Topless",
+   "note": "kw_113's 'Toppless' is a typo."
+  },
+  {
+   "jp": "フラタニティ",
+   "kind": "keyword",
+   "en": "Fraternity",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'the elite Fraternity'; https://gunbuster.fandom.com/wiki/The_Fraternity"
+  },
+  {
+   "jp": "エキゾチックマニューバ",
+   "kind": "keyword",
+   "en": "Exotic Maneuver",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'the Exotic Maneuvers needed to power his machine'; https://gunbuster.fandom.com/wiki/Vingt-Sept : 'Exotic Maneuvers'"
+  },
+  {
+   "jp": "バスターマシン",
+   "kind": "keyword",
+   "en": "Buster Machine",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Buster Machine No. 19 / No. 7'; https://en.wikipedia.org/wiki/Diebuster : 'Buster Machines'"
+  },
+  {
+   "jp": "バスター軍団",
+   "kind": "keyword",
+   "en": "Buster Legion",
+   "status": "official",
+   "source": "https://gunbuster.fandom.com/wiki/Buster_Machine_7 : 'control the Buster Legion (what humanity calls \"Space Monsters\" at that point)'; https://tvtropes.org/pmwiki/pmwiki.php/Anime/DieBuster : 'units of the Buster Legion'",
+   "note": "TV Tropes also has one use of 'Buster Corps'; Legion (軍団) is the form on the franchise wiki, so it replaces the proposed 'Buster Corps'."
+  },
+  {
+   "jp": "宇宙怪獣",
+   "kind": "keyword",
+   "en": "Space Monsters",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Space Monster ...' names; https://gunbuster.fandom.com/wiki/Space_Monsters : 'The Space Monsters (宇宙怪獣; Uchu Kaiju)'",
+   "note": "Plural because the only prose use is 'against $$宇宙怪獣$$'. Capitalised as in the akurasu unit names."
+  },
+  {
+   "jp": "宇宙軍",
+   "kind": "keyword",
+   "en": "Space Force",
+   "status": "proposed",
+   "source": "https://gunbuster.fandom.com/wiki/Gunbuster_(Mecha) : 'Imperial Space Force' (Gunbuster's 帝国宇宙軍); Diebuster's 宇宙軍 has no English source",
+   "note": "Literal. Consistent with the library prose 'Imperial Space Force' for 帝国宇宙軍."
+  },
+  {
+   "jp": "木星急行",
+   "kind": "keyword",
+   "en": "Jupiter Express",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Diebuster : 'the Jupiter Express (a massive swarm of space monsters ...)'"
+  },
+  {
+   "jp": "あがり",
+   "kind": "keyword",
+   "en": "Agari",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ2! : あがり (ability loss on reaching adulthood); TV Tropes notes the Japanese word doubles as 'reaching the top': https://tvtropes.org/pmwiki/pmwiki.php/Anime/DieBuster",
+   "note": "No English rendering found in Wikipedia, Fandom, ANN or TV Tropes; kept as a romanization. Prose reads 'reached Agari'. See report.left_pending."
+  },
+  {
+   "jp": "メガネビュラ",
+   "kind": "keyword",
+   "en": "Meganebula",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ2! : 火星上空の衛星基地メガネビュラ; no English source found",
+   "note": "Pun on メガネ (glasses) + nebula; romanization kept. Japanese sites gloss it 'Megane Nebula'."
+  },
+  {
+   "jp": "枢密参謀院",
+   "kind": "keyword",
+   "en": "Privy General Staff",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ2! : 枢密参謀たち (members of the Earth Empire's top body); no English source found",
+   "note": "枢密 = privy (as in Privy Council), 参謀院 = general staff office."
+  },
+  {
+   "jp": "辺境星区",
+   "kind": "keyword",
+   "en": "Outlying Star Sector",
+   "status": "proposed",
+   "source": "no English source found; literal reading (辺境 outlying/remote + 星区 star sector)",
+   "note": "'Frontier' avoided to prevent confusion with Macross Frontier."
+  },
+  {
+   "jp": "ケンジントン",
+   "kind": "keyword",
+   "en": "Kensington",
+   "status": "proposed",
+   "source": "no English source found; katakana of the English place name Kensington (Serpentine and Kensington are neighbouring London names, matching the Serpentine twins' base)",
+   "note": "Northern base of the outlying star sector, home of the Serpentine twins."
+  },
+  {
+   "jp": "蛇の沼",
+   "kind": "keyword",
+   "en": "Snake Swamp",
+   "status": "proposed",
+   "source": "no English source found; literal (蛇 snake + 沼 swamp); https://ja.wikipedia.org/wiki/トップをねらえ2! prints 「蛇の池」 (pond) in one line, the game says 沼",
+   "note": "The secret circle run by the Serpentine twins."
+  },
+  {
+   "jp": "秘密サークル",
+   "kind": "keyword",
+   "en": "Secret Circle",
+   "status": "proposed",
+   "source": "no English source found; literal (秘密 secret + サークル circle)",
+   "note": "The same organization as 蛇の沼."
+  },
+  {
+   "jp": "バスターマシン公社",
+   "kind": "keyword",
+   "en": "Buster Machine Corporation",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ2! : 「バスターマシン整備公社」 (maintenance corporation, Casio's new employer); no English source found",
+   "note": "公社 = public corporation. ja wiki's fuller form includes 整備 (maintenance)."
+  },
+  {
+   "jp": "タイタン",
+   "kind": "keyword",
+   "en": "Titan",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Titan Variable Gravity Source'; https://en.wikipedia.org/wiki/Diebuster : 'the moon Titan'"
+  },
+  {
+   "jp": "タイタン事件",
+   "kind": "keyword",
+   "en": "Titan Incident",
+   "status": "proposed",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Titan Variable Gravity Source'; no English source for the event name",
+   "note": "Diebuster episode 4 events on Titan; literal."
+  },
+  {
+   "jp": "変動重力源",
+   "kind": "keyword",
+   "en": "Variable Gravity Source",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Titan Variable Gravity Source', 'Exelio Variable Gravity Source'",
+   "note": "Generic term taken from the two wiki names. Prose uses the |lc modifier, so the capitalised entry can render lower case."
+  },
+  {
+   "jp": "ブラックホール・エグゼリオ",
+   "kind": "keyword",
+   "en": "Black Hole Exelio",
+   "status": "proposed",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Exelio Variable Gravity Source'; https://gunbuster.fandom.com/wiki/Exelion : 'The black hole was named Exelio, in the memory of the ship'",
+   "note": "The Exelio spelling is sourced; the word order 'Black Hole Exelio' follows the Japanese and is ours."
+  },
+  {
+   "jp": "雷王星",
+   "kind": "keyword",
+   "en": "Jupiter II",
+   "status": "proposed",
+   "source": "https://ja.wikipedia.org/wiki/トップをねらえ! (トップ世界の太陽系 table): 第13番惑星 雷王星 = 'Jupiter2'; https://ja.wikipedia.org/wiki/トップをねらえ2! : 雷王星の中心核",
+   "note": "Fictional 13th planet of the Gunbuster solar system (雷王 = thunder king = Jupiter), not the real Jupiter (木星 is an artificial planet in Diebuster). The rt_086 prose 'Planet Raoh' (雷王星絶対防衛戦線, 雷王星宙域) should change to Jupiter II; see report.uncertain."
+  },
+  {
+   "jp": "レイクサイド・ダイナーズ",
+   "kind": "keyword",
+   "en": "Lakeside Diner's",
+   "status": "proposed",
+   "source": "no English source found; katakana of the diner's name (prose form 'Lakeside Diner's' from the library translation); https://ja.wikipedia.org/wiki/トップをねらえ2! : レストラン",
+   "note": "Could also be 'Lakeside Diners' on the sign; kept the possessive form the shipped prose already uses."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 215,
+   "gender": "female",
+   "gender_evidence": "Wikipedia Gunbuster: 'a teenage girl named Noriko Takaya'; DSCR: graduate of Okinawa Girls' Space High School (沖縄女子宇宙高等学校); Fandom category Females",
+   "nickname": "Nonoriri (the name by which Nono knows her; Diebuster)",
+   "position": "Top Squadron pilot of the Imperial Space Force; graduate of Oki-jo; pilot of Gunbuster; daughter of Admiral Yuzo Takaya",
+   "personality": "clumsy and scatterbrained but optimistic; outstanding athlete; hobbies anime and plastic models; overcomes trials with effort and guts (努力と根性)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gunbuster",
+    "https://gunbuster.fandom.com/wiki/Noriko_Takaya",
+    "https://akurasu.net/wiki/Aim_for_the_Top!",
+    "library pilot 215 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 216,
+   "gender": "female",
+   "gender_evidence": "DSCR: Oki-jo girls' school, revered as お姉様, later marries Coach; Wikipedia Gunbuster: Noriko's 'senior and inspiration, Kazumi Amano'; Fandom: wife of Koichiro Oota",
+   "nickname": "Onee-sama (お姉様); 'Queen of Roses' (バラの女王様)",
+   "position": "Top Squadron pilot; Gunbuster co-pilot; later instructor at Oki-jo (Kazumi Oota after marrying Coach)",
+   "personality": "intellectual, elegant, strong-willed, sometimes intense; sincere, never rests on her talent",
+   "sources": [
+    "https://gunbuster.fandom.com/wiki/Kazumi_Amano",
+    "https://en.wikipedia.org/wiki/Gunbuster",
+    "library pilot 216 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 217,
+   "gender": "female",
+   "gender_evidence": "Wikipedia Gunbuster: 'Her name is derived from ...' (Jung Freud); Fandom category Females; DSCR has no gendered word",
+   "nickname": "'genius of space combat' (宇宙戦闘の天才)",
+   "position": "Machine Weapon pilot raised on the Soviet lunar base; Gunbuster pilot paired with Noriko after Kazumi's marriage; pilots a Sizzler in the final battle and survives",
+   "personality": "emotionally volatile; warm after the duel with Kazumi; severe about combat, once gave up on the frightened Noriko",
+   "sources": [
+    "https://gunbuster.fandom.com/wiki/Jung_Freud",
+    "https://en.wikipedia.org/wiki/Gunbuster",
+    "library pilot 217 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 218,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女 (girl) living on Mars; ja wiki: 性別：女; Fandom Nono infobox Female (an android built as a girl, also Buster Machine No. 7)",
+   "nickname": "none (Nono; idolizes 'Nonoriri')",
+   "position": "Mars girl who wants to be a space pilot; Fraternity trainee; really Buster Machine No. 7 / Diebuster",
+   "personality": "bright, positive, fearless, innocent and pure; clumsy super-strength; motto effort and guts; calls Lal'C 'onee-sama'",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/Diebuster",
+    "https://gunbuster.fandom.com/wiki/Nono",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 218 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 219,
+   "gender": "female",
+   "gender_evidence": "ja wiki: 性別：女, 17; Wikipedia Diebuster: 'Nicknamed \"princess\" by her teammates'; DSCR: Nono calls her onee-sama",
+   "nickname": "Princess (姫); 'teacher's pet'/model student (優等生)",
+   "position": "Topless of the Meganebula base; Fraternity ace with the highest yearly kill count; pilot of Dix-Neuf (Buster Machine No. 19); 17",
+   "personality": "cool, blunt, a model student; kind at heart; not a believer in effort and guts at first; excels at matter transfer",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/Diebuster",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 219 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 220,
+   "gender": "male",
+   "gender_evidence": "ja wiki: 性別：男, 18; Wikipedia Diebuster: 'The only male Topless on the Idol team'",
+   "nickname": "Nicola (通称ニコラ, short for ニコラス)",
+   "position": "oldest, leader-type Topless of Meganebula; pilot of Vingt-Sept (Buster Machine No. 27); later joins the Space Force; 18",
+   "personality": "outwardly smiling and composed, irritates adults; secretly fears Agari most of all; prefers to command others rather than fight",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/Diebuster",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 220 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 221,
+   "gender": "female",
+   "gender_evidence": "ja wiki: 性別：女, 13; Wikipedia Diebuster: 'The final member of the Idol team ... she'",
+   "nickname": "none",
+   "position": "youngest active Topless of the Fraternity (Meganebula); 13; pilot of Soixante-Six, then Quatre-Vingt-Dix",
+   "personality": "moody and naive but hides it behind cynicism; rivals Lal'C over kill score; strong precognition and communication ability; dislikes the Topless ability after losing a boy she liked",
+   "sources": [
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki",
+    "https://en.wikipedia.org/wiki/Diebuster",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 221 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 222,
+   "gender": "male",
+   "gender_evidence": "ja wiki: 性別：男, 38; Wikipedia Diebuster: 'The only adult member of the Idol team ... he'; voiced by Takumi Yamazaki",
+   "nickname": "none (nominal title 'coach' among the Topless)",
+   "position": "former Topless, Dix-Neuf's pilot before Lal'C; guardian/supervisor of the Topless; later joins the Buster Machine Corporation; 38",
+   "personality": "shabby, easygoing joker with a legendary kill record; retired by declaring Agari himself; treated as a handyman by proud Topless",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Diebuster",
+    "https://gunbuster.fandom.com/wiki/Casio_Takashiro",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 222 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 223,
+   "gender": "female",
+   "gender_evidence": "DSCR: 双子の姉 (older twin sister); ja wiki: 性別:女 for the Serpentine sisters",
+   "nickname": "one of the Serpentine Twins",
+   "position": "older of the Serpentine Twins; Topless of the northern base Kensington; organizer of the secret circle Snake Swamp; claims to be 18 (true age unknown)",
+   "personality": "schemer seeking an 'eternal Topless'; twin ability that works only together with her sister",
+   "sources": [
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7455",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 223 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 224,
+   "gender": "female",
+   "gender_evidence": "DSCR: 双子の妹 (younger twin sister); ja wiki: 性別:女 for the Serpentine sisters",
+   "nickname": "one of the Serpentine Twins",
+   "position": "younger of the Serpentine Twins; same base, circle and goal as Piaget; claims to be 18 (true age unknown)",
+   "personality": "schemer seeking an 'eternal Topless'; twin ability that works only together with her sister",
+   "sources": [
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=7455",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 224 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 225,
+   "gender": "male",
+   "gender_evidence": "Fandom Captain Hatori infobox: gender Male; ANN: voiced by Hideyuki Umezu (male); DSCR has no gendered word",
+   "nickname": "none",
+   "position": "Space Force paymaster colonel aboard flagship Lalah-Shan of the 1st Inspection Squadron, Mars Surveillance and Control Army (15th Army)",
+   "personality": "rejected by the Fraternity because his ability was faint, so he harbors excessive loathing of the Topless (DSCR)",
+   "sources": [
+    "https://gunbuster.fandom.com/wiki/Captain_Hatori",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 225 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 226,
+   "gender": "female",
+   "gender_evidence": "ja wiki: 「レストランの女性店長」 (woman); ANN: voiced by Mami Koyama (female); DSCR has no pronoun",
+   "nickname": "none (店長, 'the manager'); real name Grandine Argaroring",
+   "position": "hired manager of the cheap diner Lakeside Diner's near Mars Spaceport No. 6",
+   "personality": "realist whose singer dream failed; sincerely worries about dreamy Nono; keeps a notebook of the breakage tab",
+   "sources": [
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+    "library pilot 226 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 227,
+   "gender": "unknown",
+   "gender_evidence": "DSCR has no gendered word; ANN lists 'Elder A' voiced by a male actor (Koichi Kitamura) but a voice actor does not settle the character; keep gender-neutral",
+   "nickname": "none",
+   "position": "member of the Privy General Staff, the de facto supreme decision-making body of the Earth Empire (average age 150)",
+   "personality": "never flustered; calmly watches over humanity's future (DSCR)",
+   "sources": [
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 227 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 228,
+   "gender": "unknown",
+   "gender_evidence": "DSCR has no gendered word; ANN lists 'Elder A' voiced by a male actor (Koichi Kitamura) but a voice actor does not settle the character; keep gender-neutral",
+   "nickname": "none",
+   "position": "member of the Privy General Staff, the de facto supreme decision-making body of the Earth Empire (average age 150)",
+   "personality": "never flustered; calmly watches over humanity's future (DSCR)",
+   "sources": [
+    "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=3920",
+    "https://ja.wikipedia.org/wiki/トップをねらえ2!",
+    "library pilot 228 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 64,
+  "names_settled": 63,
+  "left_pending": [
+   "あがり: no English rendering in Wikipedia, Fandom, ANN or TV Tropes; recorded as proposed 'Agari' (romanization), please choose if a better English (e.g. from the Discotek subtitles) is found"
+  ],
+  "challenges": [],
+  "retoken": [],
+  "uncertain": [
+   "雷王星: ja Wikipedia (Gunbuster, 'Top world solar system' table) labels it planet 13 with the Latin name 'Jupiter2'; I propose 'Jupiter II'. rt_086 prose (robots 138/143 etc.) writes 'Planet Raoh' / 'Absolute Defense Line of Planet Raoh' for 雷王星, which looks wrong (雷王 = thunder king = Jupiter, not Raoh); those prose lines (robot 138 and 143 area, plus pilot 219 which already uses the token) should be revised to 'Jupiter II'.",
+   "ヱクセリヲン: 'Exelion' (Wikipedia, Fandom, matches Exelio in the Z3.2 mech list). The akurasu generic glossary page prints 'Excelion' in the Aegis System entry (Alpha Gaiden). Orchestrator may prefer that spelling if the wiki-wins rule is meant literally; the black hole spelling 'Exelio' argues for Exelion.",
+   "ラルク・メルク・マール: akurasu Z3.2 and Wikipedia say 'Lal'C Mellk Mal'; ANN and Fandom say 'Lal'C Melk Mark' (the anime's subtitle spelling). Kept akurasu.",
+   "オオタ・コウイチロウ: akurasu and Fandom say 'Oota', Wikipedia 'Ohta', Jigoku library 'Ota'. Kept 'Oota' (akurasu); Kazumi's married name 'Kazumi Oota' follows it and is a derived (proposed) name.",
+   "Glossary confirmed/official タカヤ・ノリコ = 'Noriko Takaya' is right (Wikipedia, ANN, akurasu Aim for the Top! page), but the saved akurasu Z3.2 pilot database prints the header 'Noriko Takeya'. Not a change request; just do not copy the wiki's spelling from that table.",
+   "バスター軍団: 'Buster Legion' (Fandom, TV Tropes) versus one TV Tropes use of 'Buster Corps' and the proposal 'Buster Corps'. Legion chosen because it is the franchise wiki form; low-stakes.",
+   "宇宙怪獣 is kept plural ('Space Monsters') because the only use is 'against $$宇宙怪獣$$'; if the build ever needs singular ('a Space Monster'), the entry needs a variant.",
+   "Proposed-only (no English source): あがり, メガネビュラ, 枢密参謀院, 辺境星区, ケンジントン, 蛇の沼, 秘密サークル, バスターマシン公社, タイタン事件, 宇宙軍, ララァシャン, グランディネ・アルガローリング (L/R ambiguity), レイクサイド・ダイナーズ, ブラックホール・エグゼリオ (word order ours), 店長, オオタ・カズミ (derived).",
+   "蛇の沼: ja Wikipedia's character list prints 「蛇の池」 once but the game and the Diebuster titles use 沼; treated as a typo on the wiki.",
+   "タイタン: the library prose calls Titan 'a moon of Jupiter' (keyword 132 DSCR); Titan is Saturn's moon in the real solar system and Wikipedia says the Jupiter Express roams between Jupiter and Saturn. Cannot tell if the Japanese says Jupiter or the translator slipped; worth a check against the Japanese text.",
+   "Pilots 227 and 228 (長老) are two different Privy General Staff members with the same text and name; gender left unknown.",
+   "Hatori (225): gender male rests on the Fandom infobox and the male voice actor, not on the Japanese text."
+  ]
+ }
+}

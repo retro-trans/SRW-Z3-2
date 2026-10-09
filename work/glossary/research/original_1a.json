@@ -1,0 +1,970 @@
+{
+ "schema": 1,
+ "group": "original_1a",
+ "names": [
+  {
+   "jp": "ご家族の事故",
+   "kind": "keyword",
+   "en": "family accident",
+   "status": "proposed",
+   "source": "library keyword 38 DSCR/DSC2: the incident in which the survivor lost his father and older sister to a spacequake (Hibiki); no akurasu or ja.wikipedia entry for the term (all saved akurasu pages and https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧 checked)",
+   "note": "Literal. ご is an honorific for someone else's family, so a speaker addressing Hibiki would say 'your family's accident'; en is kept neutral so it reads after either 'the' or 'your'. No source, so proposed."
+  },
+  {
+   "jp": "アイム",
+   "kind": "pilot",
+   "token": "アイム#pilot",
+   "en": "Aim",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) 'Sphere of the Lying Black Sheep': 'Aim Liard'; work/glossary/reference/jigoku_glossary.json アイム = Aim (official); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List 'Aim Liard'",
+   "note": "Short name of Aim Liard (pilot 531). Z2 fan summaries write 'Eim' (https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_5); the glossary wins."
+  },
+  {
+   "jp": "アイム・ライアード",
+   "kind": "pilot",
+   "en": "Aim Liard",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Aim Liard, who was once known as Hamal Argo'); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List 'Aim Liard'; ja.wikipedia says the name reads 'I'm Liar' (https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧)",
+   "note": "The wordplay 'I'm Liar' is the reason for the spelling; keep 'Liard'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "library pilot 531 DSCR: その所有者である彼 (the Sphere's owner, 'he'); ja.wikipedia: 自らを人間ではなく次元獣であると称する男",
+    "position": "Reactor of the Lying Black Sheep Sphere; strategist of the New Imperium; real name Hamal Argo (a researcher)",
+    "personality": "habitual liar whose speech breaks into gibberish when emotional; manipulative, hard to read",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List",
+     "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary)",
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "library pilot 531"
+    ]
+   }
+  },
+  {
+   "jp": "アウストラリス",
+   "kind": "pilot",
+   "en": "Australis",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) (Sphere of the Taciturn Crab / Standing Archer: 'Australis, the king of Sidereal', 'passed on to Australis'); https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('Australis')",
+   "note": "Emperor Australis is really the Dimensional General Vildark (library pilot 521 DSC2; ja.wikipedia)."
+  },
+  {
+   "jp": "アクエリア市",
+   "kind": "keyword",
+   "en": "Aquaria City",
+   "status": "proposed",
+   "source": "work/glossary/reference/jigoku_glossary.json (status proposed, 'Retain established stage translation spelling', translation/stage0039_04.json); library keyword 22: administrative district of the Holy Angel Academy area transplanted to Tokyo Bay, name from the myth of their world",
+   "note": "Aquarion EVOL place name. The related film title アクエリアの舞う空 is 'Skies of Aquaria' in the Jigoku glossary. No akurasu entry for the city, so proposed."
+  },
+  {
+   "jp": "アクシオン",
+   "kind": "pilot",
+   "en": "Axion",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story ('Axion Foundation', 'Carlos Axion Jr.'); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List 'Carlos Axion'; https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_1 ('Axion')",
+   "note": "Used in prose for the Axion Foundation (organization) and as the short name of Carlos Axion the elder (pilot 536); same English, so no retoken is needed. The unit Axio (アクシオ) is a separate word."
+  },
+  {
+   "jp": "アドヴェント",
+   "kind": "keyword",
+   "token": "アドヴェント#keyword",
+   "en": "Advent",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database) ('Advent'); work/glossary/reference/jigoku_glossary.json アドヴェント = Advent (official)",
+   "note": "Keyword 2 is the Chrono Reformist Advent (the Angel of Joy in disguise). Same English as pilot アドヴェント."
+  },
+  {
+   "jp": "アムブリエル",
+   "kind": "pilot",
+   "en": "Ambriel",
+   "status": "proposed",
+   "source": "Katakana reading; Ambriel is the angel of Gemini in https://en.wikipedia.org/wiki/List_of_angels_in_theology ('Angel of the Month of May and the Zodiac of Gemini'), fitting Suzune's other personality tied to the Quarreling Twins Sphere; library pilot 487",
+   "note": "No akurasu entry (ja.wikipedia gives the same katakana). Proposed, but the Gemini link makes 'Ambriel' very likely intended."
+  },
+  {
+   "jp": "アリエティス",
+   "kind": "robot",
+   "en": "Arietis",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) (Sphere of the Lying Black Sheep: 'Arietis'); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_3 ('His mech, the Arietis')"
+  },
+  {
+   "jp": "アンタレス",
+   "kind": "keyword",
+   "en": "Antares",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('The unit they're members of, Antares'); star Antares, alpha Scorpii",
+   "note": "Same token also names the Galaxy fleet squadron in the Macross Frontier movie entry (pilot 253); English 'Antares' fits both."
+  },
+  {
+   "jp": "アンナ",
+   "kind": "pilot",
+   "en": "Anna",
+   "status": "proposed",
+   "source": "library keyword 24 DSC2 / keyword 126 DSC2: twin daughters Anna and Lotta of Gadlight and Annalotta; ja.wikipedia: 'アンナ、ロッタ ... 母の名を分けて受け継いでいる' (https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧)",
+   "note": "Half of Annalotta. Katakana romanization only, so proposed. Twins: Anna and Lotta.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library keyword 126 DSC2: 双子の娘 (twin daughters); ja.wikipedia: 双子の娘",
+    "position": "infant daughter of Gadlight and Annalotta; hope for the survival of the Geminaids",
+    "personality": "newborn; no personality given",
+    "nickname": "",
+    "sources": [
+     "library keyword 126 DSC2",
+     "library keyword 24 DSC2",
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+    ]
+   }
+  },
+  {
+   "jp": "アンナロッタ",
+   "kind": "keyword",
+   "en": "Annalotta",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3/Pilot_Database ('Annalotta Stohls'); work/glossary/reference/jigoku_glossary.json アンナロッタ = Annalotta, アンナロッタ・ストールス = Annalotta Stohls (official)",
+   "note": "Kept as kind keyword because the glossary row comes from keyword card 126; she is a person (Jigoku glossary lists her as pilot). Z3.R summary spells 'Annelotte' in one place; the pilot database wins.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library keyword 126: ジェミナイドの最後の女性 (last woman of the Geminaids), pregnant; ja.wikipedia: 最後の女性 ... 妊娠している",
+    "position": "vice-captain of the Geminis (Sidereal special unit), Gadlight's partner",
+    "personality": "calm, capable commander, pitiless when the mission requires it but troubled by conscience; forced herself to act cold",
+    "nickname": "",
+    "sources": [
+     "library keyword 126 DSCR/DSC2",
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z3/Pilot_Database"
+    ]
+   }
+  },
+  {
+   "jp": "アンブローン",
+   "kind": "keyword",
+   "en": "Anbrorn",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story4 (Anbrorn, 20 uses; also Story2, 3, 5, 6); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List 'Anbrorn Jeus'",
+   "note": "Replaces the Jigoku glossary proposal 'Ambrone Zius' (status proposed, no wiki basis). Unusual spelling but consistent across akurasu. Kind kept as keyword (glossary row is keyword card 124); she is a person.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library keyword 124 DSCR: 彼女の死により; ja.wikipedia: 宰相を務める老婆 (an old woman)",
+    "position": "Prime Minister (chancellor) of the Holy Kingdom of Insaraum; former Minister of Science and Technology; researcher of dimensional science",
+    "personality": "obsessive scientist who sacrifices anything for her research and will remove obstacles by any means; later absolutely loyal to Uther; regrets never having a normal youth",
+    "nickname": "",
+    "sources": [
+     "library keyword 124",
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story4"
+    ]
+   }
+  },
+  {
+   "jp": "アンブローン・ジウス",
+   "kind": "keyword",
+   "en": "Anbrorn Jeus",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('アンブローン・ジウス = Anbrorn Jeus', Z2.2); https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story2 ('Anbrorn')",
+   "note": "Replacement of Jigoku 'Ambrone Zius' (status proposed, so not a challenge). The surname spelling 'Jeus' only appears on the character list page.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library keyword 124 DSCR: 彼女の死により; ja.wikipedia: 老婆",
+    "position": "Prime Minister of Insaraum; creator of the artificial Dimensional Beast series and of Exa Adamon",
+    "personality": "single-minded scientist, ruthless toward obstacles, devoted to Uther in the end",
+    "nickname": "",
+    "sources": [
+     "library keyword 124",
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List"
+    ]
+   }
+  },
+  {
+   "jp": "アークセイバー",
+   "kind": "keyword",
+   "en": "Arksaber",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story4 ('Arksaber members', 'Arksabers' 29 uses across Z2.2 Story2-6); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story ('Arksaber number 3')",
+   "note": "Wiki spelling 'Arksaber' beats the Jigoku library English 'Ark Saber' (precedence 3 over 4). Plural 'Arksabers' outside the token."
+  },
+  {
+   "jp": "イドム",
+   "kind": "pilot",
+   "en": "Idom",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/D-Trader (achievement: 'Defeat all the enemy units piloted by Idom(イドム)'); https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('Demons operated by Idoms')",
+   "note": "Spirit-form beings that pilot Sidereal's Demons and the El Millenium; plural 'Idoms' in the wiki. Kind pilot as proposed by rt_301."
+  },
+  {
+   "jp": "ウェイン",
+   "kind": "pilot",
+   "en": "Wayne",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story3 ('Wayne', 100+ uses); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List 'Wayne Ribtail'",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "library pilot 532 DSCR: 愛弟子ウェイン ... 彼を見守り続けていた (Cheval watched over 'him'); Z2.2 Story summaries use 'he'",
+    "position": "Arksaber High Knight No. 4, disciple of Cheval; later Knight of Knights, piloting Diamud",
+    "personality": "cynical, self-confident, wild fighting style backed by real talent; respects those he acknowledges; deeply attached to Insaraum",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List",
+     "library pilot 534 DSCR",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Story4"
+    ]
+   }
+  },
+  {
+   "jp": "ウェイン・リブテール",
+   "kind": "pilot",
+   "en": "Wayne Ribtail",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('ウェイン・リブテール = Wayne Ribtail', Z2.2)",
+   "note": "ja.wikipedia writes リプテール; the game library writes リブテール. The -tail pattern (Ribtail, Reptail, Pistail) matches the other Arksaber surnames.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "library pilot 532 DSCR (彼); pilot 534",
+    "position": "Arksaber High Knight No. 4",
+    "personality": "cynical, confident, wild fighter",
+    "nickname": "",
+    "sources": [
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List",
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+    ]
+   }
+  },
+  {
+   "jp": "エクサ・アダモン",
+   "kind": "robot",
+   "en": "Exa Adamon",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Mech_List ('Artificial Dimensional Beast Exa ADAMON', 人造次元獣エクサ・アダモン)",
+   "note": "The wiki writes ADAMON in capitals; use normal capitalization 'Exa Adamon'."
+  },
+  {
+   "jp": "エグゼクター",
+   "kind": "keyword",
+   "en": "Executor",
+   "status": "proposed",
+   "source": "Katakana of 'executor'; no wiki text. The concept is the secret-epilogue system 'エグゼクター' of Z Special Disc (https://ja.wikipedia.org/wiki/スーパーロボット大戦Z); library keyword 114",
+   "note": "No English source found; 'Executor' is the ordinary English word."
+  },
+  {
+   "jp": "エスター",
+   "kind": "pilot",
+   "en": "Esther",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Esther Elhas'); work/glossary/reference/jigoku_glossary.json エスター = Esther (official); https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database ('Esther Elhas')"
+  },
+  {
+   "jp": "エスター・エルハス",
+   "kind": "pilot",
+   "en": "Esther Elhas",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Esther Elhas', Z2.1); https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Pilot_Database ('Esther Elhas')"
+  },
+  {
+   "jp": "エス・テラン",
+   "kind": "keyword",
+   "en": "Es Terran",
+   "status": "proposed",
+   "source": "library pilot 513 DSC2 / ja.wikipedia (エス・テランでの最終決戦, Hibiki's final battle vs Advent); no English source",
+   "note": "Katakana romanization of a battle site; the wiki gives no spelling."
+  },
+  {
+   "jp": "エタニティ・フラット",
+   "kind": "keyword",
+   "en": "Eternity Flat",
+   "status": "proposed",
+   "source": "work/glossary/reference/jigoku_glossary.json (エタニティ・フラット = Eternity Flat, status proposed); no akurasu wiki text",
+   "note": "Time-stasis phenomenon; literal reading, proposed."
+  },
+  {
+   "jp": "エメラルダン",
+   "kind": "robot",
+   "en": "Emeraldan",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Mech_List ('Emeraldan', エメラルダン)"
+  },
+  {
+   "jp": "エルガン",
+   "kind": "keyword",
+   "token": "エルガン#keyword",
+   "en": "Elgan",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_2 ('Elgan', short form of Elgan Roddick)",
+   "note": "Keyword 55 is the Elgan Roddick card."
+  },
+  {
+   "jp": "エルガン",
+   "kind": "pilot",
+   "token": "エルガン#pilot",
+   "en": "Elgan",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_2 ('Elgan')",
+   "note": "Pilot 537 short name."
+  },
+  {
+   "jp": "エルガン・ローディック",
+   "kind": "pilot",
+   "en": "Elgan Roddick",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_1 ('Elgan Roddick', 5 uses in Parts 1-3); work/glossary/reference/jigoku_glossary.json (Elgan Roddick, official)",
+   "note": "Other akurasu forms: 'Elgan Rhodic' (character list), 'Elgan Laudic' (Z2 Story page, Z3.R summary). Roddick has the most uses and matches the Jigoku glossary; the Jigoku library English 'Elgan Roadick' should not be used.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "ja.wikipedia: 髭面で強面な人物 (bearded, stern-faced man); library pilot 537 DSCR: 彼",
+    "position": "representative of the UN Peacekeeping Council; organizer of Z EXtra International Savers; Chrono Reformist",
+    "personality": "stern, bearded man of iron will and hidden intent",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "library pilot 537"
+    ]
+   }
+  },
+  {
+   "jp": "エルーナルーナ",
+   "kind": "pilot",
+   "en": "Elunaluna",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Elunaluna Burnstraus, also known as Straus')"
+  },
+  {
+   "jp": "エルーナルーナ・バーンストラウス",
+   "kind": "pilot",
+   "en": "Elunaluna Burnstraus",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Elunaluna Burnstraus ... A cowgirl commander of the Hyades battleship forces of her Earth, she wore armor to intimidate her enemies'); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List spells it 'Eluna Luna Bernstraus'",
+   "note": "Glossary (precedence 2) wins over the character list page."
+  },
+  {
+   "jp": "エーデル",
+   "kind": "pilot",
+   "en": "Edel",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Edel Bernal'); https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library keyword 136 DSCR: 彼女のためなら命すら捧げる (Leben would give his life 'for her'); ja.wikipedia カイメラ: 若くして新地球連邦軍准将に上り詰めた美しい女性",
+    "position": "brigadier general of the New Earth Federation Army (UCW), ringleader and commander of Chimera; an artificial human created by Ji Edel Bernal",
+    "personality": "gentle, motherly smile and thoughtful on the surface; self-centered and hysterical once her true nature shows",
+    "nickname": "",
+    "sources": [
+     "library keyword 129/136",
+     "https://ja.wikipedia.org/wiki/カイメラ",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List"
+    ]
+   }
+  },
+  {
+   "jp": "エーデル・ベルナル",
+   "kind": "pilot",
+   "en": "Edel Bernal",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('エーデル・ベルナル = Edel Bernal', Z1); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_1; work/glossary/reference/jigoku_glossary.json (ジ・エーデル・ベルナル = The Edel Bernal, official)",
+   "note": "Distinct from ジ・エーデル・ベルナル (Ji Edel Bernal, 'The Edel Bernal'), who created her. Keep the two spellings parallel.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library keyword 136 (彼女); ja.wikipedia カイメラ: 美しい女性",
+    "position": "brigadier general, commander of Chimera",
+    "personality": "gentle and thoughtful on the surface, deranged and self-centered underneath",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/カイメラ"
+    ]
+   }
+  },
+  {
+   "jp": "オカルトフォーラム",
+   "kind": "keyword",
+   "en": "Occult Forum",
+   "status": "proposed",
+   "source": "work/glossary/reference/jigoku_glossary.json (オカルトフォーラム = Occult Forum, status proposed); library keyword 84: the UN site where Hibiki posts as 'Knight'",
+   "note": "Literal name of an in-world website."
+  },
+  {
+   "jp": "オーティス",
+   "kind": "keyword",
+   "en": "Otis",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Flow_Chart (第７話：オーティス基地攻略戦 = 'Scenario 7: Siege of the Otis Base')",
+   "note": "Library keyword 120 uses オーティス for the town wiped out by the first Dimensional Beast (Esther's home), while pilot 499 writes オーディス for the same town; see オーディス and report.uncertain."
+  },
+  {
+   "jp": "オーディス",
+   "kind": "keyword",
+   "en": "Ordis",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_1 ('A little town in West Texas, named Ordis'); https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧 (北米の田舎町オーディス)",
+   "note": "Same town as オーティス in library keyword 120 (only Esther survived). The Japanese itself is inconsistent; each spelling follows its own wiki source."
+  },
+  {
+   "jp": "カイメラ",
+   "kind": "keyword",
+   "en": "Chimera",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/D-Trader (カイメラ隊員証 = 'Chimera Membership Card'); https://ja.wikipedia.org/wiki/カイメラ"
+  },
+  {
+   "jp": "カオス・コスモス",
+   "kind": "keyword",
+   "en": "Chaos Cosmos",
+   "status": "proposed",
+   "source": "Katakana of the two English words; library pilot 512 DSCR (the realm from which the Angels banished Advent 12,000 years ago), robot 290/317; ja.wikipedia uses the same katakana; no English source",
+   "note": "Literal. Used for the site of the Z-BLUE vs Angels battle."
+  },
+  {
+   "jp": "カオス・レムレース",
+   "kind": "robot",
+   "en": "Chaos Lemures",
+   "status": "proposed",
+   "source": "library robot 284 DSC2: '02: カオス・レムレース' in Ji Edel's Lemures line; ja.wikipedia カイメラ (https://ja.wikipedia.org/wiki/カイメラ) lists it; other Chaos units on akurasu are 'Chaos Capra' (Z1 secrets)",
+   "note": "Follows レムレース = Lemures (original_1c). No English source; proposed."
+  },
+  {
+   "jp": "カラミティ・バース",
+   "kind": "keyword",
+   "en": "Calamity Birth",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_3 ('\"Calamity Birth\", as this incident became known')"
+  },
+  {
+   "jp": "カルロス・アクシオン",
+   "kind": "pilot",
+   "en": "Carlos Axion",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Carlos Axion', Z3.1; 'Carlos Axion Jr.', Z2.1); work/glossary/reference/jigoku_glossary.json カルロス = Carlos (official); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story ('Carlos Axion Jr.')",
+   "note": "Same token is used for the son ('Carlos Axion Jr.', Jr. written outside the token, prose in pilots 497/498 and keyword 91) and the father (pilot 536); one English spelling works for both."
+  },
+  {
+   "jp": "ガイアエンパイア",
+   "kind": "keyword",
+   "en": "Gaia Empire",
+   "status": "proposed",
+   "source": "Katakana of the two English words (ガイア = Gaia); library keyword 7: the nation Sidereal built on the Blue Earth, 'the Empire'; the alias 新地球皇国 is 'New Earth Empire' (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Flow_Chart, 'Scenario 1: New Earth Empire')",
+   "note": "The brief claims akurasu Z3.R Story Summary uses 'Gaia Empire'; the saved page has no such string (checked). Literal romanization, proposed. Keep 'New Earth Empire' for 新地球皇国 (original_1c)."
+  },
+  {
+   "jp": "ガドライト",
+   "kind": "keyword",
+   "token": "ガドライト#keyword",
+   "en": "Gadlight",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database) ('Gadlight Meonsam'); work/glossary/reference/jigoku_glossary.json ガドライト = Gadlight (official)",
+   "note": "Keyword 6 is Gadlight's own card."
+  },
+  {
+   "jp": "ガナリー・カーバー",
+   "kind": "keyword",
+   "en": "Gunnery Carver",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('According to Kravia, the Gunnery Carver was changed out to facilitate better control of the Sphere', matching library robot 287: the Sphere control system added to the ガナリー・カーバー)",
+   "note": "Replaces the katakana proposal 'Ganary Carver'. The saved glossary work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) calls the Sorrowful Maiden Sphere's housing the 'Nautilus Carver' (Virgola Glory main weapon); ja.wikipedia (https://ja.wikipedia.org/wiki/グローリー・スター) says the Sphere sits in the ガナリー・カーバー, so both very likely name the same weapon. Report.uncertain."
+  },
+  {
+   "jp": "ガンレオン",
+   "kind": "robot",
+   "en": "Gunleon",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Mech_List) ('Gunleon Magna'); work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Gunleon')"
+  },
+  {
+   "jp": "ガン・アーレス",
+   "kind": "robot",
+   "en": "Gun-Ares",
+   "status": "proposed",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Mech_List) gives 'An-Ares' (アン・アーレス); ガン follows ガンレオン = Gunleon; library pilot 518 DSC2 / robot 314 DSC2 (the unit's original name in a parallel world)",
+   "note": "Hyphen as in the wiki's 'An-Ares'. Alternative romanization 'Gan-Ares'; no source for either."
+  },
+  {
+   "jp": "キング",
+   "kind": "pilot",
+   "en": "King",
+   "status": "proposed",
+   "source": "work/glossary/reference/jigoku_glossary.json (キング = King, status proposed); library pilot 536 DSC2, pilot 506 DSC2: code name of the head of Chrono, inherited by the Axion family head; ja.wikipedia (Chrono section)",
+   "note": "Literal English word. Same person as Carlos Axion the elder."
+  },
+  {
+   "jp": "ギルター",
+   "kind": "pilot",
+   "en": "Girtar",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('Girtar', 72 uses; the summary derives it from the star Girtab)",
+   "note": "The character list page writes 'Gilter Belone' (https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List). Girtar is used throughout the Z3.R summary and matches the Scorpio star names of Sidereal's Antares unit (Antares, Sardias, Girtar); Gilter is the alternative."
+  },
+  {
+   "jp": "ギルター・ベローネ",
+   "kind": "pilot",
+   "en": "Girtar Belone",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary (Girtar); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Gilter Belone' for ギルター・ベローネ, surname Belone)",
+   "note": "Given name from the Z3.R summary, surname from the character list page; no page gives the full name in one spelling."
+  },
+  {
+   "jp": "クィーン",
+   "kind": "pilot",
+   "en": "Queen",
+   "status": "proposed",
+   "source": "work/glossary/reference/jigoku_glossary.json (クィーン = Queen, status proposed); library pilot 506 DSC2/526: code name of Ziene as King's secretary; ja.wikipedia (クイーン)",
+   "note": "Literal English word. Same person as Ziene Espio."
+  },
+  {
+   "jp": "クラヴィア",
+   "kind": "pilot",
+   "en": "Cravia",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('most notably Cravia Argo, an ally of Crowe')",
+   "note": "Other akurasu spellings: 'Kravia' (Z3.R summary, 58 uses), 'Clavia' (Z3.2 flow chart), 'Clavier Argo' (character list). The glossary is the precedence-2 source, so 'Cravia'; if the orchestrator prefers the dialogue-level majority it is 'Kravia'."
+  },
+  {
+   "jp": "クラヴィア・アーゴ",
+   "kind": "pilot",
+   "en": "Cravia Argo",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Cravia Argo, an ally of Crowe'; the same page gives 'Hamal Argo' for Aim Liard's real name)"
+  },
+  {
+   "jp": "クロウ",
+   "kind": "pilot",
+   "en": "Crowe",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database) ('Crowe Bluste'); Z3.R summary and other pages write 'Crow'"
+  },
+  {
+   "jp": "クロウ・ブルースト",
+   "kind": "pilot",
+   "en": "Crowe Bluste",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database) ('Crowe Bluste'). Other akurasu forms: 'Crowe Bluest' (https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List), 'Crowe Bruste' (glossary), 'Crowe Broust' (Z2 pilot database)",
+   "note": "Precedence-2 Tengoku pilot database spelling."
+  },
+  {
+   "jp": "クロノ",
+   "kind": "keyword",
+   "en": "Chrono",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('the Chrono conservatives', 'Chrono reformationists'); ja.wikipedia (クロノ, 秘密結社「クロノ」)",
+   "note": "Group names in prose: Chrono Reformists / Chrono Conservatives (the wiki writes 'reformationists')."
+  },
+  {
+   "jp": "クロノエイチ",
+   "kind": "keyword",
+   "en": "Black Wisdom",
+   "status": "proposed",
+   "source": "work/glossary/reference/jigoku_glossary.json (黒の英知 = Black Wisdom, proposed); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_4 and Part_5 ('Black Wisdom'); ja.wikipedia: Elgan used the special code 「CHRONO H」 after touching 黒の英知",
+   "note": "クロノエイチ is the sound of 黒の英知 (kuro no eichi, 'Chrono H'). The library entries for Elgan/Ji Edel say the person 'touched' it. English keeps the meaning and loses the pun; alternative 'Chrono H' if the code name should stay Latin. Report.uncertain."
+  },
+  {
+   "jp": "グローリー・スター",
+   "kind": "keyword",
+   "en": "Glory Star",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Glory Star test pilot Setsuko Ohara'); work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database)"
+  },
+  {
+   "jp": "コード：ブルー",
+   "kind": "pilot",
+   "en": "Code: Blue",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Code: Blue', Z3.2 and Rengoku-Hen)",
+   "note": "The wiki writes 'Code:Blue' or 'Code: Blue'; normalized with a space after the colon."
+  },
+  {
+   "jp": "コード：ホワイト",
+   "kind": "pilot",
+   "en": "Code: White",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Code:White', Rengoku-Hen)",
+   "note": "Same person as the nurse Maki Kashiwaba; normalized to 'Code: White'."
+  },
+  {
+   "jp": "サイデリアル",
+   "kind": "keyword",
+   "en": "Sidereal",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('Sidereal', 76 uses); work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary) ('Australis, the king of Sidereal')"
+  },
+  {
+   "jp": "サクリファイ",
+   "kind": "pilot",
+   "en": "Sacrifice",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List (哀しみのサクリファイ = 'Sadness Sacrifice', Z3.2); ja.wikipedia: 御使い of sorrow, a green-haired goddess",
+   "note": "Katakana ends -fai (proposals 'Sacrifai'); the wiki page title reads it as 'Sacrifice', the natural word for the Angel of Sorrow. The wiki's other Angel names are Doctrine and Tempty (original_1c)."
+  },
+  {
+   "jp": "サフィーアダ",
+   "kind": "robot",
+   "en": "Sapphiada",
+   "status": "proposed",
+   "source": "Gem-themed Arksaber unit name like Emeraldan (Z2 mech list), Pearl Nail, Diamud; ja.wikipedia writes サフィアーダ (https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧); no English source",
+   "note": "Sapphire + -ada; strict transliteration would be 'Saphiada'."
+  },
+  {
+   "jp": "サルディアス",
+   "kind": "pilot",
+   "en": "Sardias",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary ('Sardias', 56 uses; the summary derives it from the star Sargas)",
+   "note": "The character list page writes 'Saldias Ax' (https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List); Sardias is the Z3.R prose spelling."
+  },
+  {
+   "jp": "サルディアス・アクス",
+   "kind": "pilot",
+   "en": "Sardias Ax",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary (Sardias); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Saldias Ax', Ax)",
+   "note": "Given name from the Z3.R summary, surname 'Ax' from the character list page (alternatives Axe, Aks)."
+  },
+  {
+   "jp": "シェーヌ",
+   "kind": "pilot",
+   "en": "Chene",
+   "status": "proposed",
+   "source": "Katakana of the French 'chêne' (oak), in keeping with the French-styled Arksaber names Marguerite, Cheval; ja.wikipedia: シェーヌ・ピステール, Marguerite's younger brother, squire piloting Jade Rune (https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧)",
+   "note": "No English source. Surname would follow Pistail (original_1b).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "library pilot 534 DSCR: マルグリット・ピステールの実弟であるシェーヌ (Marguerite's biological younger brother); ja.wikipedia: 実弟",
+    "position": "squire (従騎士) of Insaraum, pilot of the Jade Rune; was turned into the Rhinodamon MD by Gaiou",
+    "personality": "not described; Wayne's best friend",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+     "library pilot 534 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "シオニー",
+   "kind": "pilot",
+   "en": "Shiony",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story ('Shiony Regis'); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Shiony Regis')",
+   "note": "Z2 Story Summary Part 1 writes 'Sionny Legis'; the two wiki pages agree on Shiony."
+  },
+  {
+   "jp": "シオニー・レジス",
+   "kind": "pilot",
+   "en": "Shiony Regis",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('シオニー・レジス = Shiony Regis', Z2.1); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story"
+  },
+  {
+   "jp": "シュバル",
+   "kind": "pilot",
+   "en": "Cheval",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Cheval Repter'); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story ('Cheval Reptail'); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets ('Emeraldan (Cheval)')",
+   "note": "Z2 Story Summary Parts 3-5 write 'Shubal' (plain katakana romanization). Two independent wiki pages plus the French-styled Arksaber names (Marguerite, Chene) favor Cheval."
+  },
+  {
+   "jp": "シュバル・レプテール",
+   "kind": "pilot",
+   "en": "Cheval Reptail",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story ('Cheval Reptail'); https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_3 ('Shubal Reptail'); https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Cheval Repter')",
+   "note": "Surname Reptail agrees between the Z2 Story page and Z2 summary (character list says Repter); matches the -tail pattern of Pistail and Ribtail."
+  },
+  {
+   "jp": "シュラン",
+   "kind": "keyword",
+   "en": "Schran",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('Schran Opel')",
+   "note": "Kind kept as keyword (glossary row is keyword card 137); he is a person.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "ja.wikipedia カイメラ: his dying line 「僕は君になりたかった」 (first person 僕) and voice actor 松本吉朗; library pilot has no pronoun",
+    "position": "captain of Chimera 2nd Squad, rank captain; strategist for information operations, New Earth Federation Army (UCW)",
+    "personality": "calm, cool and calculating outwardly, secretly anxious; enjoys the chaos his schemes cause; both hates and is drawn to Leben; wishes to live by emotion",
+    "nickname": "",
+    "sources": [
+     "library keyword 137",
+     "https://ja.wikipedia.org/wiki/カイメラ",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List"
+    ]
+   }
+  },
+  {
+   "jp": "シュラン・オペル",
+   "kind": "pilot",
+   "en": "Schran Opel",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List ('シュラン・オペル = Schran Opel', Z1)",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "ja.wikipedia カイメラ: 僕は君になりたかった (first person 僕); voice actor Yoshiro Matsumoto",
+    "position": "captain of Chimera 2nd Squad (UCW)",
+    "personality": "calm outwardly, anxious inside, fond of provoking chaos",
+    "nickname": "",
+    "sources": [
+     "https://ja.wikipedia.org/wiki/カイメラ",
+     "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List"
+    ]
+   }
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 485,
+   "gender": "male",
+   "gender_evidence": "library keyword 38 DSCR: その時空震動で生き残った彼は「血塗られた眼」を発症し (he, the survivor who lost father and older sister); keyword 84: handle 'Knight' given by his older sister so he becomes 'a strong man' (強い男); ja.wikipedia: main protagonist",
+   "nickname": "'Knight' (handle on the Occult Forum, originally a pet name from his older sister; library keyword 84)",
+   "position": "protagonist; Jindai High School student; test pilot of Genion for DEM Corporation; later gate traveler with Suzune",
+   "personality": "blunt and cool-mannered, keeps people at a distance but is trying to change; carries hope against fate and despair at the same time; strong survival and field skills (game will type: Strong); dislikes talking first",
+   "sources": [
+    "library pilot 485 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "library keyword 38, 84",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database)"
+   ]
+  },
+  {
+   "pilot_id": 488,
+   "gender": "not applicable",
+   "gender_evidence": "library pilot 488 DSCR: エージェントロボ (agent robot); no pronoun in the text. ja.wikipedia: robot made by DEM Corporation; personality is based on the male Jie Babel, but AG is a robot, so no gender is stated",
+   "nickname": "none (AG; the library says it stands for AGENT, ja.wikipedia says 'All Gathered')",
+   "position": "DEM Corporation agent robot; runs the D Trader shop; later operator of the Solarian; is in fact a collective of the parallel-world Ji Edel Bernals (Jie Babel as main personality, Elgan Roddick as assistant)",
+   "personality": "cheerful, fast-talking rascal with rich emotions for a robot; stirs things up but is attentive to people's feelings and gives advice",
+   "sources": [
+    "library pilot 488 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+   ]
+  },
+  {
+   "pilot_id": 491,
+   "gender": "male",
+   "gender_evidence": "ja.wikipedia グローリー・スター: 色黒でスキンヘッドの大柄な男 (a large dark-skinned bald man); library pilot 491 DSCR: いかつい外見 (rugged looks)",
+   "nickname": "call sign 'Star 1' (ja.wikipedia)",
+   "position": "captain (rank captain) of the Earth Federation research team Glory Star; pilots Virgola Unit 1; here a parallel-world version of the original Denzel",
+   "personality": "looks tough but is considerate and looks after subordinates; naturally easygoing, aware of his age and responsibility, aims for accurate decisions; fond of cold beer; game will type Strong",
+   "sources": [
+    "library pilot 491 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/グローリー・スター",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Pilot_Database"
+   ]
+  },
+  {
+   "pilot_id": 494,
+   "gender": "female",
+   "gender_evidence": "ja.wikipedia: 女性。16歳。シエロの娘; library pilot 495 DSCR: 愛娘メール (Cielo's beloved daughter); library pilot 494 DSCR: 娘",
+   "nickname": "none given (calls Rand 'Darling', calls herself his fiancee)",
+   "position": "Beater Services sales and accounting, diary keeper; Gunleon sub-pilot; daughter of Cielo Beater; bearer of the Wounded Lion Sphere",
+   "personality": "spirited and playful, childlike appearance (17 by the library, 16 on ja.wikipedia); hobby is writing a diary; worries about not growing",
+   "sources": [
+    "library pilot 494 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "library pilot 495 DSCR",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary)"
+   ]
+  },
+  {
+   "pilot_id": 497,
+   "gender": "female",
+   "gender_evidence": "ja.wikipedia: アクシオン財団第13防衛研究所「スコート・ラボ」の代表を務める女性エンジニア。24歳; voice actress Aya Hisakawa",
+   "nickname": "none",
+   "position": "head of Scott Lab, the anti-Dimensional Beast consultancy under the Axion Foundation; authority on robotics and energy engineering; creator of the Brasta; later of the Solarian; leading authority on hyper-spatial physics",
+   "personality": "eccentric, single-minded about finishing her research, sacrifices everything else for it; flexible thinker but clueless about common sense and very much on her own beat; blunt-spoken; favors Japanese dress and wears a fox mask when her true nature shows; stingy with money",
+   "sources": [
+    "library pilot 497 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Z3.2/Pilot_Database)"
+   ]
+  },
+  {
+   "pilot_id": 500,
+   "gender": "female",
+   "gender_evidence": "library pilot 500 DSC2: ピステール家の令嬢 ... 彼女は自らの実力でハイナイトの座に就いている (noble daughter, 'she'); Uther's bride candidate (花嫁候補); ja.wikipedia: 小島幸子",
+   "nickname": "'Maru-san' (マルさん), used by some people, which embarrasses her (ja.wikipedia)",
+   "position": "Arksaber High Knight No. 7 and captain of the royal guard of Insaraum; pilots the Pearl Nail; Uther's bride candidate; later leader of the Insaraum colonists on Mars",
+   "personality": "fastidious, proud, wants an honorable, above-board fight; reluctantly obeyed Aim; loyal to her country and Uther; fond of Crowe; like an older sister to Esther",
+   "sources": [
+    "library pilot 500 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List"
+   ]
+  },
+  {
+   "pilot_id": 503,
+   "gender": "male",
+   "gender_evidence": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_1 (Z2.1 summary of Zenitory: 'he has a much better job for Crow', 'Zenitory says he'); library pilot 503 has no pronoun",
+   "nickname": "'Zeni-san' (ゼニさん), Crowe's name for him (ja.wikipedia)",
+   "position": "employee in the collections department of a large lender; collects from problem debtors",
+   "personality": "tough-looking but kind-hearted and sociable, well connected inside and outside the company; ruthless when collecting but trusting; shaved his head himself for psychological impact",
+   "sources": [
+    "library pilot 503 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story_Summary/Part_1"
+   ]
+  },
+  {
+   "pilot_id": 506,
+   "gender": "female",
+   "gender_evidence": "ja.wikipedia カイメラ: アサキムと行動を共にしている謎の美女 (mysterious beauty); Z1 secrets on akurasu use 'her battle dialogue' (https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets); voice actress Rie Saito",
+   "nickname": "code name 'Queen' (クィーン) while King's secretary in Chrono",
+   "position": "formerly captain of Chimera 3rd Squad (UCW); Queen, secretary to King in Chrono; assistant to Traia; the third Origin Singularity, key to restoring all spacetime; later a member of the gate control bureau",
+   "personality": "seductive, provocative dress and talk since the Great Spacetime Quake, but at heart a soldier loyal to her duty who wants peace and freedom; honest; regrets losing her subordinates",
+   "sources": [
+    "library pilot 506 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/カイメラ",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+   ]
+  },
+  {
+   "pilot_id": 509,
+   "gender": "female",
+   "gender_evidence": "library pilot 509 DSCR: 物静かな女性 (a quiet woman); ja.wikipedia: 尸空の妹 (Shikuu's sister); voice actress Umeka Shoji",
+   "nickname": "none (calls her brother 'Captain' in public)",
+   "position": "vice-captain of Kishuku (Sidereal special unit); pilots Shimeisou Zetsu; younger sister of Shikuu, daughter of the high-priest house of the death-bound Kishuku clan",
+   "personality": "quiet, never shows emotion; completely trusted by Shikuu; her subordinates are absolutely loyal; supports her brother's resolve",
+   "sources": [
+    "library pilot 509 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+   ]
+  },
+  {
+   "pilot_id": 512,
+   "gender": "male",
+   "gender_evidence": "ja.wikipedia: モノクルをつけた老人の姿をしている (appears as an old man with a monocle); voice actor Unsho Ishizuka",
+   "nickname": "'Doctrine of Anger' (怒りのドクトリン)",
+   "position": "one of the Angels (御使い), embodiment of anger; self-styled manager of the parallel universes",
+   "personality": "stern; punishes those who disturb cosmic order with 'anger' and regards it as ascetic duty; at odds with Advent",
+   "sources": [
+    "library pilot 512 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "https://akurasu.net/wiki/Super_Robot_Wars/Characters/Banpresto_Original_Characters_List"
+   ]
+  },
+  {
+   "pilot_id": 515,
+   "gender": "female",
+   "gender_evidence": "library robot 311 DSC2: エルーナルーナ ... 娘 (daughter of the Hyades chief) and pilot 515 DSC2: ストラウス = エルーナルーナ・バーンストラウス; ja.wikipedia: そばかすとウェーブがかった金髪が特徴のアクティブな美女; akurasu glossary: a cowgirl commander",
+   "nickname": "'Straus' is the short name of the armored persona of Elunaluna Burnstraus",
+   "position": "commander of all Empire forces; leader of Hyades; Reactor of the Covetous Golden Ox Sphere; flagship Pleiades Taura",
+   "personality": "in armor: intimidating, uses a machine voice; in truth cheerful, flashy and a battle-lover with excellent strategic and tactical sense; wants revenge on the Angels for her father",
+   "sources": [
+    "library pilot 515 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "library robot 311 DSC2",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary)"
+   ]
+  },
+  {
+   "pilot_id": 518,
+   "gender": "male",
+   "gender_evidence": "library pilot 519 DSCR/DSC2: バルビエル ... 彼に畏怖の念 (Sardias shows no awe of 'him'); keyword 58 (バルビエル自ら); ja.wikipedia: voice actor Daisuke Kishio",
+   "nickname": "alias 'Orion' while pretending to have amnesia (ja.wikipedia); 'the Needle' (ザ・ニードル) is his baptismal name from the Angels",
+   "position": "Sidereal executive; captain of the Antares special unit; Reactor of the Resentful Scorpion Sphere; pilots An-Ares",
+   "personality": "hates everything except himself; provokes enemies with wicked talk; favors psychological schemes and drugs; loyal to the Angels; twisted love and hate for Setsuko",
+   "sources": [
+    "library pilot 518 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary)"
+   ]
+  },
+  {
+   "pilot_id": 521,
+   "gender": "male",
+   "gender_evidence": "library pilot 501 DSC2: 皇帝アウストラリスの正体を見抜き、ガイオウのメッセージを彼へと伝えた (conveyed Gaiou's message to 'him'); ja.wikipedia: Dimensional General Vildark, voice actor Hideyuki Hori",
+   "nickname": "none (real identity: Dimensional General Vildark)",
+   "position": "Emperor of the New Earth Empire; ruler of the interstellar military alliance Sidereal; Reactor of the Standing Archer Sphere",
+   "personality": "overwhelming dignity, unknown origins and motives; leader among the four Reactors; treats defeat as a chance to grow stronger",
+   "sources": [
+    "library pilot 521 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary)"
+   ]
+  },
+  {
+   "pilot_id": 524,
+   "gender": "female",
+   "gender_evidence": "library keyword 18 DSCR: 看護師である柏葉真紀 ... 彼女をこう呼ぶ (nurse Maki Kashiwaba, 'her'); ja.wikipedia: 女性 (Code: White = 柏葉真紀)",
+   "nickname": "'Nurse-san' / Miss Nurse (ナースさん), used by the volunteer club",
+   "position": "female member of the Chrono Reformist action unit; nurse at Second Neo Tokyo City General Hospital (real identity Maki Kashiwaba); rear support and medic",
+   "personality": "mild, keeps her opinions to herself and follows Advent's orders, but fights bravely at the front; cheerful and attentive nurse",
+   "sources": [
+    "library pilot 524 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "library keyword 18",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+   ]
+  },
+  {
+   "pilot_id": 527,
+   "gender": "unknown",
+   "gender_evidence": "library pilot 527 and keyword 19 use no gendered word; ja.wikipedia (バンプレストオリジナルのキャラクター一覧): 子供達 (children) in hospital with the Bloodstained Eyes; the name is not used as evidence",
+   "nickname": "none",
+   "position": "patient in the special ward of Second Neo Tokyo City General Hospital; sole survivor of a spacequake that killed the family; Bloodstained Eyes victim; recovered after the Angels fell",
+   "personality": "emotionless apart from fear, with sudden fits of fright; attacks grew more frequent as the Time Prison neared completion",
+   "sources": [
+    "library pilot 527 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "library keyword 19",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+   ]
+  },
+  {
+   "pilot_id": 530,
+   "gender": "male",
+   "gender_evidence": "library pilot 530 DSCR: 第一皇子 (first prince); pilot 500 DSC2: 彼の真意を汲んで (Marguerite reads 'his' true intent); ja.wikipedia: 第一皇子, voice actor Yasuhiro Mamiya",
+   "nickname": "the last Holy King (最後の聖王), revered as such after his death",
+   "position": "first prince (24) of the Holy Kingdom of Insaraum, son of King Insaraum LXXII; effective ruler; Reactor of the Inexhaustable Water Gourd Sphere; Ji Insa's pilot",
+   "personality": "gentle, thoughtful and kind, loved by the people, but timid; poetry lover and honorary adviser to the arts bureau; awakens to his duty after Jerald's death and gives everything for Insaraum",
+   "sources": [
+    "library pilot 530 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧",
+    "work/glossary/reference/sources/akurasu_srw_glossary.wiki (https://akurasu.net/wiki/Super_Robot_Wars/Glossary)"
+   ]
+  },
+  {
+   "pilot_id": 533,
+   "gender": "male",
+   "gender_evidence": "ja.wikipedia: ナイトオブナイツの称号を持つ男 (a man holding the Knight of Knights title); library pilot 533 DSCR: 妻子を失った (lost his wife and children)",
+   "nickname": "'Knight of Knights' (ナイトオブナイツ); 'Galus' in his name is the champion's title from the Royal Tournament",
+   "position": "Arksaber High Knight No. 1 (35), Knight of Knights, pilots Diamud",
+   "personality": "upright, courteous, well read and skilled at arms, respected by all knights; sturdy and honest but the bravest and fiercest in battle; scarred both cheeks after losing wife and children",
+   "sources": [
+    "library pilot 533 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+   ]
+  },
+  {
+   "pilot_id": 536,
+   "gender": "male",
+   "gender_evidence": "library pilot 536 DSCR: カルロス・アクシオン・Ｊｒ．の実父 (biological father of Carlos Axion Jr.); ja.wikipedia: 現在のキングが父のカルロス・アクシオン",
+   "nickname": "'King' (キング), inherited code name of the head of Chrono",
+   "position": "former president of Axion Inc. (predecessor of the Axion Foundation); head of the family at the top of Chrono; chair of Chrono's 13-member council and leader of the Conservatives",
+   "personality": "powerful and hidden; stood aside as a spectator after Sidereal took over Earth; inwardly grieves his late son who refused to inherit King and doubts Chrono's ways",
+   "sources": [
+    "library pilot 536 DSCR/DSC2 (work/tengoku/prepared/library_inventory.json)",
+    "https://ja.wikipedia.org/wiki/バンプレストオリジナルのキャラクター一覧"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 70,
+  "names_settled": 70,
+  "left_pending": [],
+  "challenges": [],
+  "retoken": [],
+  "uncertain": [
+   "Insaraum vs Insalaum (not in my brief, affects Arksaber prose): akurasu prose uses 'Insalaum' ~150 times, but the saved glossary (precedence 2), Z3.2 D-Trader and the Jigoku glossary say 'Insaraum'; original_1c already uses Insaraum. Keep one.",
+   "Kind: people whose glossary row comes from a library keyword card are kept as kind keyword per the keep-the-kind rule (アンナロッタ, アンブローン, アンブローン・ジウス, シュラン). They are persons; the Jigoku glossary lists Annalotta as pilot.",
+   "アンブローン / アンブローン・ジウス: I settled 'Anbrorn' / 'Anbrorn Jeus' (akurasu Z2.2 Story2-6 and the character list) over the Jigoku glossary proposal 'Ambrone Zius' (status proposed). Unusual but the only wiki-backed form.",
+   "オーティス vs オーディス: the library uses both for Esther's destroyed hometown (keyword 120 vs pilot 499). Wiki gives 'Otis' (Z3.2 Flow Chart, 'Siege of the Otis Base') and 'Ordis' (Z2 Story Summary Part 1; ja.wikipedia オーディス). I kept each spelling as is; the orchestrator may prefer to unify (for example retoken $$オーティス$$ in keyword 120 to $$オーディス$$).",
+   "Conflicting akurasu spellings decided by precedence: Cravia (glossary) vs Kravia (Z3.R summary, 58 uses) vs Clavia/Clavier; Sardias (Z3.R) vs Saldias (character list); Girtar (Z3.R, 72 uses) vs Gilter (character list); Cheval (character list + Z2 Story page) vs Shubal (Z2 summary); Reptail vs Repter; Roddick vs Laudic/Rhodic; Crowe Bluste (Z3.2 pilot DB) vs Bluest/Bruste/Broust. Girtar Belone and Sardias Ax combine a Z3.R given name with the character-list surname.",
+   "ガナリー・カーバー: I used 'Gunnery Carver' (Z3.R summary in the same context); the saved glossary says the Sorrowful Maiden Sphere sits in a 'Nautilus Carver' (Virgola Glory main weapon), which ja.wikipedia places in the ガナリー・カーバー, so glossary and prose probably name the same weapon and the glossary (precedence 2) would then win.",
+   "クロノエイチ: rendered 'Black Wisdom' to match 黒の英知 (original_1c) since the library says the same person 'touched' it; the ja.wikipedia code name is Latin 'CHRONO H', so 'Chrono H' is the alternative if the pun should survive.",
+   "サクリファイ = 'Sacrifice' rests on the akurasu page title 'Sadness Sacrifice'; the katakana ends in -fai (proposals said 'Sacrifai').",
+   "ガイアエンパイア: kw_000 claimed the Z3.R Story Summary says 'Gaia Empire'; the saved page has no such string, so 'Gaia Empire' is only a literal romanization.",
+   "AG (pilot 488): the library says AG abbreviates AGENT, ja.wikipedia says 'All Gathered'; profile gender is 'not applicable', although its personality core is the male Jie Babel. Translators should avoid he/she for AG.",
+   "Shinya Ohara (pilot 527): no source states gender; left 'unknown', not inferred from the name.",
+   "Xenity (pilot 503 profile): akurasu Z2 summary writes 'Zenitory' (10 uses, uses 'he'), the character list and Jigoku glossary 'Xenity Masse'; the name belongs to original_1c but the two forms differ.",
+   "Jerald (pilot 533): original_1b uses 'Geraud', akurasu Z2.2 summaries use 'Gerard' 60 times.",
+   "Leben (original_1c): the Z1 pilot database on akurasu names the Chimera 1st Squad captain 'Löwen General'; the character list says 'Leben General'.",
+   "The character list page names Shikoku's page 'Engraving' (尸刻); the reading is しこく per ja.wikipedia (original_1c settled 'Shikoku').",
+   "Shared names checked against original_1b/1c output: Marguerite Pistail, Pistail, Straus, Barbiel, Uther Insaraum, Ziene, Lotta, Black Wisdom, New Earth Empire, Vildark, The Edel Bernal are consistent with mine; no disagreement found.",
+   "ja.wikipedia (バンプレストオリジナルのキャラクター一覧, カイメラ, グローリー・スター) is a supplementary source used for gender, position and personality; it gives no English spellings.",
+   "Proposed only (no source for the English): ご家族の事故, アクエリア市, アムブリエル (Gemini angel, Wikipedia), アンナ, エグゼクター, エス・テラン, エタニティ・フラット, オカルトフォーラム, カオス・コスモス, カオス・レムレース, ガイアエンパイア, ガン・アーレス, キング, クィーン, クロノエイチ, サフィーアダ, シェーヌ."
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "group": "stages 19-28 fresh retranslation",
+  "names": [
+    {
+      "jp": "ブスペア", "token": "ブスペア", "kind": "keyword", "en": "Ugly Duo", "status": "proposed",
+      "replace_existing": "Busupea",
+      "source": "Two source occurrences, 371:t_10:23 and 371:t_10:24, Kappei's insulting nickname for Aki and Michi, with AG objecting to its cruelty. Official series page https://www.sunrise-world.net/titles/pickup_018.php explicitly calls the pair ブスペア in their character entry. English is a project adaptation retaining the insult, not a verified licensed English nickname. No numeric binding."
+    },
+    {
+      "jp": "太陽の翼", "token": "太陽の翼", "kind": "keyword", "en": "Solar Wing", "status": "official",
+      "source": "Nine full-corpus occurrences, two in this batch at 360:t_017:6 and 360:t_018:2. https://aquarion.fandom.com/wiki/Solar_Wing explicitly pairs the Japanese term with Solar Wing and describes both the Apollonius epithet and Aquarion reference. Preserve source ambiguity instead of replacing with a person's name. Wiki-sourced spelling, no numeric binding."
+    },
+    {
+      "jp": "終末のシ者", "token": "終末のシ者", "kind": "keyword", "en": "Emissary of the End", "status": "proposed",
+      "source": "Two full-corpus occurrences, 360:t_015:6 and 360:t_018:9, Mikage's title for Kaworu. Preserve the source's end/emissary wordplay and the project's settled emissary rendering. https://srw.wiki.cre.jp/wiki/渚カヲル supplies Kaworu/Aquarion context but does not verify this exact English title; no licensed equivalent found. Project title proposal, no numeric binding."
+    },
+    {
+      "jp": "チュウ", "token": "チュウ", "kind": "pilot", "en": "Chuu", "status": "proposed",
+      "source": "One corpus occurrence, in チュウちゃん at 371:t_1:84. Umee greets Uchuta and Keiko, who answer in the following rows; retain the abbreviated pet name rather than expanding Uchuta. Existing Uchuta profile establishes the name; no independently attested English nickname was found. Romanization proposal; generic honorific omitted consistently with style. No numeric binding."
+    },
+    {
+      "jp": "神グレートカンパニー", "token": "神グレートカンパニー", "kind": "keyword", "en": "Jin Great Company", "status": "proposed",
+      "source": "Two source occurrences, 371:t_1:26 and 758:t_1:591; Kappei names a business after his Jin surname, echoing Takeo General Company. Existing surname 神 = Jin and Kappei Jin profile establish the reading. https://mousousouko.blog10.fc2.com/blog-entry-1252.html independently describes the stage's proposed company joke. English is a transparent project rendering, not an official localized company name."
+    },
+    {
+      "jp": "イナカッペイ", "token": "イナカッペイ", "kind": "pilot", "en": "Hick Kappei", "status": "proposed",
+      "source": "One source occurrence, 371:t_1:28: Watta teases Kappei with a countryside/hick plus Kappei pun, and Kappei objects in the next row. Preserve the pointed nickname rather than expanding to his ordinary name. Searches found no verified localized equivalent. Any allusion to the real performer Ina Kappei remains unconfirmed and is not inserted. Project adaptation, no numeric binding."
+    },
+    {
+      "jp": "オーガスⅡ", "token": "オーガスⅡ", "kind": "robot", "en": "Orguss II", "status": "official",
+      "source": "One exact source occurrence, 366:t_018:0, explicitly Olson's machine. https://srw.wiki.cre.jp/wiki/オーガスII confirms identity and Tengoku appearance; https://akurasu.net/wiki/Super_Robot_Wars/Z/Unit_Database pairs Orguss II with Olson D. Verne. Distinct from the Orguss 02 OVA. Source uses single Unicode Roman numeral; preserve it in token. Wiki-sourced name, no numeric binding."
+    },
+    {
+      "jp": "パワードシスターズ", "token": "パワードシスターズ", "kind": "keyword", "en": "Powered Sisters", "status": "proposed",
+      "source": "One source occurrence, 359:t_10:10: AG coins a pop-group name for Marida, Quess and Four. Preserve the source's Powered/Sisters loanword joke; do not substitute a different franchise group. Targeted web research found no independent attestation of the exact name or licensed English. Project proposal based on the game source."
+    },
+    {
+      "jp": "コロニー同盟軍", "token": "コロニー同盟軍", "kind": "keyword", "en": "Colony Alliance Forces", "status": "proposed",
+      "source": "One full-corpus occurrence, 359:t_2:18: Zinnerman promises Char to defend these forces while Char joins the player squad. Literal organizational rendering. Research of https://srw.wiki.cre.jp/wiki/ネオ・ジオン and https://srw.wiki.cre.jp/wiki/UCW found related colony alliances, but no verified English name for this exact Tengoku wording; do not substitute the earlier game's Aprilius Alliance. Project proposal, no numeric binding."
+    },
+    {
+      "jp": "東京湾", "token": "東京湾", "kind": "keyword", "en": "Tokyo Bay", "status": "official",
+      "source": "Two full-corpus occurrences, 294:t_10:35 and 347:t_10:39; the former is in this batch. https://www.gotokyo.org/en/see-and-do/nature/waterfront/tokyo-bay-beaches.html and its Japanese equivalent confirm the standard place name. The fictional floating-city story remains as stated by AG; this entry verifies only the place spelling."
+    },
+    {
+      "jp": "ダブルエントリーシステム", "token": "ダブルエントリーシステム", "kind": "keyword", "en": "Double Entry System", "status": "proposed",
+      "source": "One full-corpus occurrence, 359:t_1:57. Kaworu names EVA-13's two-pilot system. https://evangelion.fandom.com/wiki/Evangelion describes its double entry-plug system. Preserve the source's shorter label without adding Plug; English capitalization is a project convention, not a claim of licensed localization."
+    },
+    {
+      "jp": "エクリプス", "token": "エクリプス", "kind": "keyword", "en": "Eclipse", "status": "proposed",
+      "source": "14 corpus substring hits including Operation Eclipse, with one bare short-name use at 365:t_1:105 immediately after the full operation name. https://srw.wiki.cre.jp/wiki/オペレーション・エクリプス explicitly gives English Eclipse and the solar-eclipse naming rationale. Keep the short form as spoken; full compound retains existing オペレーション・エクリプス token."
+    },
+    {
+      "jp": "ザンボット・ムーン・アタック", "token": "ザンボット・ムーン・アタック", "kind": "weapon", "en": "Zambot Moon Attack", "status": "official",
+      "source": "One exact full-form occurrence, 371:t_10:48. https://akurasu.net/wiki/Super_Robot_Wars/Z/Unit_Database pairs this Japanese spelling with Zambot Moon Attack; https://srw.wiki.cre.jp/wiki/ザンボット3 identifies the full and abbreviated forms. Wiki-sourced spelling, no numeric binding."
+    },
+    {
+      "jp": "ムーン・アタック", "token": "ムーン・アタック", "kind": "weapon", "en": "Moon Attack", "status": "official",
+      "source": "Two corpus substring occurrences, one full compound at 371:t_10:48 and one short form at 372:t_013:0. https://srw.wiki.cre.jp/wiki/ザンボット3 explicitly records the short attack label; https://akurasu.net/wiki/Super_Robot_Wars/Compact_2.3/Player_Units uses Moon Attack. Short alias only, no numeric binding."
+    },
+    {
+      "jp": "ＧＮ粒子", "token": "ＧＮ粒子", "kind": "keyword", "en": "GN Particles", "status": "official",
+      "source": "18 full-corpus records, three in this batch: 236:t_1:23, 283:t_015:5, 353:t_2:116. https://gundam.fandom.com/wiki/GN_Particles identifies the term and its connection to human innovation and communications. English naming is wiki-sourced; no numeric binding."
+    },
+    {
+      "jp": "グレイス", "token": "グレイス#feldt", "kind": "pilot", "en": "Grace", "status": "official",
+      "source": "282:t_10:22 pairs Grace with Seiei in Mileina's list of couples: Feldt Grace, not Macross Grace O'Connor. Whole-corpus scan found 70 records containing this spelling, with one in this batch; surname collision reviewed separately from the Macross character. Existing full-name token フェルト・グレイス and https://gundam.fandom.com/wiki/Feldt_Grace confirm spelling and identity. Surname alias only; no new numeric binding."
+    },
+    {
+      "jp": "ダークスマイル", "token": "ダークスマイル", "kind": "keyword", "en": "Dark Smile", "status": "proposed",
+      "source": "One full-corpus occurrence, 354:t_103:3. Hibiki explicitly names this smile in response to Rand, and Mel criticizes the name in the following row. Transparent rendering of the source loanwords; web research found no independent attestation of this exact nickname. https://srw.wiki.cre.jp/wiki/ヒビキ・カミシロ corroborates Rand teaching Hibiki to smile, but not this English label. Project proposal, no numeric binding."
+    },
+    {
+      "jp": "ゲペなんとか", "token": "ゲペなんとか", "kind": "pilot", "en": "Gepe-whatever", "status": "proposed",
+      "source": "Three exact corpus occurrences: 231:t_017:2, 231:t_018:4, 231:t_021:2. Basara and Ozma deliberately truncate Gepelnitch's name; the immediately following dialogue corrects it. https://macross.fandom.com/wiki/Gepelnitchi confirms character identity and alternative spelling Gepelnitch. Preserve the joke rather than silently expanding to the full name; this English nickname is a project proposal. Insults remain outside the token. No numeric binding."
+    },
+    {
+      "jp": "ジークンドー", "token": "ジークンドー", "kind": "keyword", "en": "Jeet Kune Do", "status": "official",
+      "source": "26 source records across the full corpus, six in this batch, first 353:t_1:34. https://brucelee.com/jeet-kune-do and https://brucelee.com/bruce-lee confirm the martial art's English spelling. Hibiki attributes learning it to his father in the game's own dialogue. No numeric binding."
+    },
+    {
+      "jp": "システマ", "token": "システマ", "kind": "keyword", "en": "Systema", "status": "official",
+      "source": "Four full-corpus occurrences: 353:t_1:36, 365:t_5:54, 341:t_2:98, 348:t_000:8; two in this batch. https://www.russianmartialart.com/whatis.php confirms the martial art's English spelling. The source identifies it as Crowe's martial art. No numeric binding."
+    }
+  ]
+}

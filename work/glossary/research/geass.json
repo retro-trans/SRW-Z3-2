@@ -1,0 +1,960 @@
+{
+ "schema": 1,
+ "group": "geass",
+ "names": [
+  {
+   "jp": "イカルガ",
+   "kind": "robot",
+   "en": "Ikaruga",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Ikaruga : 'The A141F5 Ikaruga (斑鳩) is the aerial carrier of the Black Knights'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 unit list: 'Ikaruga'",
+   "note": "Black Knights' floating carrier (斑鳩 = grosbeak). Pilot 435 DSCR uses it as the ship Cornelia is held aboard."
+  },
+  {
+   "jp": "ガウェイン",
+   "kind": "robot",
+   "en": "Gawain",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Gawain : 'The Gawain (ガウェイン)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 unit list: 'Gawain'; Jigoku shipped English pt_reuse 417: 'the Gawain'",
+   "note": "Lelouch/C.C.'s prototype KMF."
+  },
+  {
+   "jp": "ジークフリート",
+   "kind": "robot",
+   "en": "Siegfried",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Siegfried (title 'Siegfried', Code-R KMF piloted by Jeremiah, later V.V.); Jigoku shipped English pt_reuse 415/417: 'the Siegfried'",
+   "note": "Not on the akurasu R2 unit list; confirmed via the franchise wiki and Jigoku shipped text."
+  },
+  {
+   "jp": "ダモクレス",
+   "kind": "robot",
+   "en": "Damocles",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Damocles : 'Sky Fortress Damocles (天空要塞ダモクレス)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 unit list: 'Damocles Fortress'; Jigoku shipped English rt_reuse 276: 'Damocles'",
+   "note": "Flying fortress = machine, so kind robot (the brief's proposals said keyword). Bare 'Damocles' reads correctly in the prose ('inside Damocles')."
+  },
+  {
+   "jp": "トリスタン・ディバイダー",
+   "kind": "robot",
+   "en": "Tristan Divider",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Tristan_Divider; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 unit list: 'Tristan Divider'; Jigoku shipped English pt_reuse 421: 'Tristan Divider'",
+   "note": "Gino's Knightmare in the final battle."
+  },
+  {
+   "jp": "パーシヴァル",
+   "kind": "robot",
+   "en": "Percival",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Percival; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 unit list: 'Percival'",
+   "note": "Bismarck's Knightmare; the pilot 277 entry says its missile shield was added to the Lancelot Frontier."
+  },
+  {
+   "jp": "ランスロット",
+   "kind": "robot",
+   "en": "Lancelot",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Lancelot; Jigoku glossary (official): ランスロット・アルビオン = Lancelot Albion, ランスロット・フロンティア = Lancelot Frontier",
+   "note": "Base name of the Lancelot family; consistent with the two glossary entries."
+  },
+  {
+   "jp": "インヴォーグ",
+   "kind": "keyword",
+   "en": "In Vogue",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/In_Vogue : 'In Vogue is a nuclear research team based at the Dallas Research Institute ... Nina Einstein'; https://en.wikipedia.org/wiki/List_of_Code_Geass_characters : 'his \"In Vogue\" research team'",
+   "note": "Two words. The proposals wrote 'Invogue'; both the franchise wiki and Wikipedia write 'In Vogue'. Nina's research team under Schneizel."
+  },
+  {
+   "jp": "キャメロット",
+   "kind": "keyword",
+   "en": "Camelot",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Camelot : 'Camelot (キャメロット) is a Britannian Research and Development organization'; Jigoku shipped English rt_reuse 276: 'developed at Camelot'"
+  },
+  {
+   "jp": "ギアスキャンセラー",
+   "kind": "keyword",
+   "en": "Geass Canceller",
+   "status": "official",
+   "source": "Jigoku shipped English pt_reuse 417/422: \"'Geass Canceller'\" ; https://codegeass.fandom.com/wiki/Jeremiah_Gottwald (spelled 'Geass Canceler' or 'Canceller' on the wiki)",
+   "note": "Two-L spelling follows Jigoku's shipped text and the official release's subtitle style; the franchise wiki mostly writes 'Canceler'. Either is attested; keep one."
+  },
+  {
+   "jp": "ナイトオブセブン",
+   "kind": "keyword",
+   "en": "Knight of Seven",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Knights_of_the_Round : 'Suzaku Kururugi (Knight of Seven)'; Jigoku shipped English pt_reuse 413: 'Knight of Seven'",
+   "note": "Title, capitalized as in the official English."
+  },
+  {
+   "jp": "ナイトオブゼロ",
+   "kind": "keyword",
+   "en": "Knight of Zero",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Knights_of_the_Round : 'Lelouch vi Britannia created a special title, Knight of Zero ... given to Suzaku Kururugi'; Jigoku shipped English pt_reuse 413: 'Knight of Zero'"
+  },
+  {
+   "jp": "ゼロ・レクイエム",
+   "kind": "keyword",
+   "en": "Zero Requiem",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Zero_Requiem : 'The Zero Requiem (ゼロ・レクイエム)'; Jigoku shipped English pt_reuse 411-414: 'Zero Requiem'"
+  },
+  {
+   "jp": "フレイヤ",
+   "kind": "keyword",
+   "en": "FLEIJA",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/F.L.E.I.J.A. : 'Field Limitary Effective Implosion Armament (F.L.E.I.J.A.)'; Jigoku shipped English rt_reuse 276: 'FLEIJA' (but pt_reuse 413/418 say 'Freya'); keyword 61's own DSCR spells out the acronym",
+   "note": "Official English is 'F.L.E.I.J.A.' with periods. Chosen 'FLEIJA' (no periods) because the Jigoku library entry we reuse (rt 276) and all three translator proposals use it and the periods cost width; the orchestrator may prefer the dotted form. Jigoku's pilot 413/418 texts say 'Freya' and should be normalized."
+  },
+  {
+   "jp": "フレイヤ・エリミネーター",
+   "kind": "keyword",
+   "en": "FLEIJA Eliminator",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/F.L.E.I.J.A._Eliminator : 'F.L.E.I.J.A. Eliminator'; Jigoku shipped English rt_reuse 276: 'FLEIJA Eliminator'",
+   "note": "Follows the FLEIJA spelling above."
+  },
+  {
+   "jp": "フロートシステム",
+   "kind": "keyword",
+   "en": "Float System",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Float_System : 'The Float System (フロートシステム)'",
+   "note": "Capitalized as a system name in the franchise wiki."
+  },
+  {
+   "jp": "ブラックリベリオン",
+   "kind": "keyword",
+   "en": "Black Rebellion",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Black_Rebellion : 'The Black Rebellion was an armed conflict ...'; Jigoku shipped English pt_reuse 411-414: 'Black Rebellion'"
+  },
+  {
+   "jp": "ラグナレクの接続",
+   "kind": "keyword",
+   "en": "Ragnarok Connection",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Ragnarök_Connection : 'The Ragnarök Connection'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 episode list: 'The Ragnarök Connection'",
+   "note": "Diacritic dropped ('Ragnarok') in case the game font lacks ö; official spelling is Ragnarök."
+  },
+  {
+   "jp": "思考エレベーター",
+   "kind": "keyword",
+   "en": "Thought Elevator",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Thought_Elevator : 'Thought Elevator is a term used by those affiliated with Code R Research Team'",
+   "note": "Capitalized as in the official English."
+  },
+  {
+   "jp": "厳島",
+   "kind": "keyword",
+   "en": "Itsukushima",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Kyoshiro_Tohdoh : 'the event itself would later be known as the miracle of Itsukushima'; battle name in prose is 'Battle of $$厳島$$'",
+   "note": "Place of Japan's only victory over Britannia (Tohdoh). Wiki gives the Itsukushima spelling; no dedicated page exists."
+  },
+  {
+   "jp": "第二次トウキョウ決戦",
+   "kind": "keyword",
+   "en": "Second Battle of Tokyo",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/F.L.E.I.J.A. : 'In preparation for the Second Assault on Tokyo Settlement|Second Battle of Tokyo'; Jigoku shipped English pt_reuse 413/414/418/426: 'Second Battle of Tokyo'; wiki episode 18 title 'Final Battle Tokyo II'",
+   "note": "Wiki page title is 'Second Assault on Tokyo Settlement', but the wiki prose and Jigoku's shipped text both say 'Second Battle of Tokyo'; keep Jigoku's wording."
+  },
+  {
+   "jp": "神根島",
+   "kind": "keyword",
+   "en": "Kamine Island",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Kamine_Island : 'Kamine Island (神根島, Kaminejima)'; Jigoku shipped English pt_reuse 411/413/414: 'Kamine Island'"
+  },
+  {
+   "jp": "四聖剣",
+   "kind": "keyword",
+   "en": "Four Holy Swords",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Four_Holy_Swords : 'The Four Holy Swords (四聖剣)'",
+   "note": "Tohdoh's elite four."
+  },
+  {
+   "jp": "日本解放戦線",
+   "kind": "keyword",
+   "en": "Japan Liberation Front",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Japan_Liberation_Front : 'The Japan Liberation Front, also referred to as the JLF (日本解放戦線)'"
+  },
+  {
+   "jp": "機密情報局",
+   "kind": "keyword",
+   "en": "Office of Secret Intelligence",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Office_of_Secret_Intelligence : 'The Office of Secret Intelligence is an intelligence agency answerable only to the Emperor'; https://en.wikipedia.org/wiki/List_of_Code_Geass_characters : 'the Office of Secret Intelligence'",
+   "note": "Jigoku's pilot 413 text says lower-case 'intelligence bureau' (descriptive, not a name). The prose 'a member of the X' reads well with this name."
+  },
+  {
+   "jp": "特別派遣嚮導技術部",
+   "kind": "keyword",
+   "en": "Advanced Special Envoy Engineering Corps",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Camelot : 'Originally known as the Advanced Special Envoy Engineering Corps or ASEEC'; https://codegeass.fandom.com/wiki/Lloyd_Asplund title: 'Director of the former Britannian Forces Advanced Special Envoy Engineering Corps'",
+   "note": "Long (39 characters) but it only appears as 'Former chief/member of the X' in DSCR text. Predecessor of Camelot. If a shorter form is ever needed, 'Special Envoy Engineering Corps' is the unabridged name minus 'Advanced'; do not use the bare acronym without expansion."
+  },
+  {
+   "jp": "神聖ブリタニア帝国",
+   "kind": "keyword",
+   "en": "Holy Britannian Empire",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Holy_Britannian_Empire; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Holy Britannian Empire'; Jigoku shipped English pt_reuse 411: 'Holy Britannian Empire'",
+   "note": "The akurasu SRW glossary machine text says 'sacred Britannia Empire'; ignore. Prose puts it after 'Emperor of the' / 'Prince of the'."
+  },
+  {
+   "jp": "ブリタニア",
+   "kind": "keyword",
+   "en": "Britannia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Holy_Britannian_Empire; Jigoku shipped English pt_reuse 411-414: 'Britannia'; Jigoku glossary ブリタニア・ユニオン = Britannia Union (different entity, 'Britannia Union')",
+   "note": "Adjective form in prose (e.g. 'Britannian') is not a token; the tokens $$ブリタニア$$ inside compounds must read 'Britannia'. No clash: ブリタニア・ユニオン is its own glossary entry."
+  },
+  {
+   "jp": "中華連邦",
+   "kind": "keyword",
+   "en": "Chinese Federation",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Chinese_Federation : 'The Chinese Federation (中華連邦)'; Jigoku shipped English pt_reuse 412/425: 'Chinese Federation'"
+  },
+  {
+   "jp": "超合集国",
+   "kind": "keyword",
+   "en": "United Federation of Nations",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/United_Federation_of_Nations; Jigoku shipped English pt_reuse 411/412/423: 'United Federation of Nations'; prose adds 'military' after the token",
+   "note": "Often abbreviated UFN."
+  },
+  {
+   "jp": "黒の騎士団",
+   "kind": "keyword",
+   "en": "Black Knights",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Black_Knights (page 'The Order of the Black Knights', also 'Black Knights'); https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 : 'The Black Knights'; akurasu_srw_glossary.wiki line 795 'the Black Knights'; Jigoku shipped English pt_reuse 411: 'Black Knights'",
+   "note": "Official long form is 'Order of the Black Knights'; the short form is the SRW/Jigoku usage."
+  },
+  {
+   "jp": "コーネリア",
+   "kind": "pilot",
+   "en": "Cornelia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Cornelia_li_Britannia; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Cornelia li Britannia'",
+   "note": "Short form of Cornelia li Britannia."
+  },
+  {
+   "jp": "コーネリア・リ・ブリタニア",
+   "kind": "pilot",
+   "en": "Cornelia li Britannia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Cornelia_li_Britannia : 'Cornelia li Britannia (コーネリア・リ・ブリタニア)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list",
+   "note": "'li' lower-case as in the glossary's 'Nunnally vi Britannia'."
+  },
+  {
+   "jp": "シャルル",
+   "kind": "pilot",
+   "en": "Charles",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Charles_zi_Britannia; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Charles zi Britannia'; Jigoku shipped English pt_reuse 411/413/415: 'Charles'"
+  },
+  {
+   "jp": "シャルル・ジ・ブリタニア",
+   "kind": "pilot",
+   "en": "Charles zi Britannia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Charles_zi_Britannia : 'Charles zi Britannia (シャルル・ジ・ブリタニア)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "シャーリー",
+   "kind": "pilot",
+   "en": "Shirley",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Shirley_Fenette; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Shirley Fenette'; Jigoku shipped English pt_reuse 411: 'Shirley'"
+  },
+  {
+   "jp": "シャーリー・フェネット",
+   "kind": "pilot",
+   "en": "Shirley Fenette",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Shirley_Fenette : 'Shirley Fenette'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "シュナイゼル",
+   "kind": "pilot",
+   "en": "Schneizel",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Schneizel_el_Britannia; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Schneizel el Britannia'; Jigoku shipped English pt_reuse 411-413: 'Schneizel'",
+   "note": "Not 'Schneizer' (a fan story summary on akurasu uses that; the anime/franchise spelling is Schneizel)."
+  },
+  {
+   "jp": "シュナイゼル・エル・ブリタニア",
+   "kind": "pilot",
+   "en": "Schneizel el Britannia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Schneizel_el_Britannia; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "セシル",
+   "kind": "pilot",
+   "en": "Cecile",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Cecile_Croomy (page title 'Cécile Croomy'); Jigoku shipped English pt_reuse 425 / rt_reuse 275: 'Cecile'",
+   "note": "Accent dropped (ASCII-safe); Jigoku shipped text uses 'Cecile'."
+  },
+  {
+   "jp": "セシル・クルーミー",
+   "kind": "pilot",
+   "en": "Cecile Croomy",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Cecile_Croomy : 'Cécile Croomy (セシル・クルーミー)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Cécile Croomy'",
+   "note": "Wiki writes Cécile; dropped accent to match Jigoku's shipped 'Cecile' and avoid font issues."
+  },
+  {
+   "jp": "ニーナ",
+   "kind": "pilot",
+   "en": "Nina",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Nina_Einstein; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Nina Einstein'"
+  },
+  {
+   "jp": "ニーナ・アインシュタイン",
+   "kind": "pilot",
+   "en": "Nina Einstein",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Nina_Einstein; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "マリアンヌ",
+   "kind": "pilot",
+   "en": "Marianne",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Marianne_vi_Britannia; Jigoku shipped English pt_reuse 415-422: 'Marianne'"
+  },
+  {
+   "jp": "マリアンヌ・ヴィ・ブリタニア",
+   "kind": "pilot",
+   "en": "Marianne vi Britannia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Marianne_vi_Britannia : 'Marianne vi Britannia'"
+  },
+  {
+   "jp": "ミレイ",
+   "kind": "pilot",
+   "en": "Milly",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Milly_Ashford; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Milly Ashford'",
+   "note": "Not the same as ミレイナ (Mileina, Gundam 00), which has its own glossary entry."
+  },
+  {
+   "jp": "ミレイ・アッシュフォード",
+   "kind": "pilot",
+   "en": "Milly Ashford",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Milly_Ashford; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "リヴァル",
+   "kind": "pilot",
+   "en": "Rivalz",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Rivalz_Cardemonde; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Rivalz Cardemonde'"
+  },
+  {
+   "jp": "リヴァル・カルデモンド",
+   "kind": "pilot",
+   "en": "Rivalz Cardemonde",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Rivalz_Cardemonde; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "ロイド",
+   "kind": "pilot",
+   "en": "Lloyd",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Lloyd_Asplund; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Lloyd Asplund'; Jigoku shipped English pt_reuse 425: 'Lloyd'"
+  },
+  {
+   "jp": "ロイド・アスプルンド",
+   "kind": "pilot",
+   "en": "Lloyd Asplund",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Lloyd_Asplund; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "ロロ",
+   "kind": "pilot",
+   "en": "Rolo",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Rolo_Lamperouge; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Rolo Lamperouge'; Jigoku shipped English pt_reuse 411: 'Rolo'"
+  },
+  {
+   "jp": "ロロ・ランペルージ",
+   "kind": "pilot",
+   "en": "Rolo Lamperouge",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Rolo_Lamperouge; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list",
+   "note": "Same family spelling as the confirmed glossary entry 'Lelouch Lamperouge'."
+  },
+  {
+   "jp": "玉城",
+   "kind": "pilot",
+   "en": "Tamaki",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Shinichiro_Tamaki; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Shinichiro Tamaki'"
+  },
+  {
+   "jp": "玉城真一郎",
+   "kind": "pilot",
+   "en": "Shinichiro Tamaki",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Shinichiro Tamaki'; https://codegeass.fandom.com/wiki/Shinichiro_Tamaki (title 'Shinichirō Tamaki')",
+   "note": "akurasu's Z2 pilot database writes 'Shinichirou Tamaki'; the Code Geass page and official English use 'Shinichiro'."
+  },
+  {
+   "jp": "藤堂",
+   "kind": "pilot",
+   "en": "Tohdoh",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Kyoshiro_Tohdoh; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Kyoshirou Tohdoh' (surname 'Tohdoh')",
+   "note": "Not 'Todoh': Jigoku's shipped rt_reuse 276 says 'Todoh's Zangetsu'; the wiki spelling is Tohdoh."
+  },
+  {
+   "jp": "藤堂鏡志朗",
+   "kind": "pilot",
+   "en": "Kyoshiro Tohdoh",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Kyoshiro_Tohdoh : 'Kyoshiro Tohdoh'; akurasu Z2 pilot database and https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Kyoshirou Tohdoh'",
+   "note": "akurasu spells the given name 'Kyoshirou'; the official English is 'Kyoshiro' (consistent with 'Shinichiro' and 'Kallen Kozuki' already used). Orchestrator may prefer the akurasu form."
+  },
+  {
+   "jp": "千葉",
+   "kind": "pilot",
+   "en": "Chiba",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Nagisa_Chiba; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Nagisa Chiba'",
+   "note": "This bare token belongs to the Code Geass character (pilot 437 CHNN). The Macross 7 Dr. Chiba in keyword 74 needs `千葉#macross`."
+  },
+  {
+   "jp": "千葉凪沙",
+   "kind": "pilot",
+   "en": "Nagisa Chiba",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Nagisa_Chiba; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list"
+  },
+  {
+   "jp": "千葉",
+   "kind": "pilot",
+   "token": "千葉#macross",
+   "en": "Chiba",
+   "status": "official",
+   "source": "https://macross.fandom.com/wiki/Gadget_M._Chiba : 'Gadget M. Chiba (ガジェット・M・千葉) is an eccentric doctor with the U.N. Medical Group'; library keyword 74 DSCR",
+   "note": "Macross 7's Dr. Chiba (Song Energy researcher; the 'Chiba Song' unit is named for him). Different person from Nagisa Chiba.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Macross wiki infobox: gender Male (Gadget M. Chiba); keyword 74 DSCR calls him 'Dr.'",
+    "position": "military doctor of the Unified Forces on the Macross 7 fleet; Song Energy researcher",
+    "personality": "eccentric; leading expert on Song Energy",
+    "nickname": "Dr. Chiba",
+    "sources": [
+     "https://macross.fandom.com/wiki/Gadget_M._Chiba",
+     "library keyword 74 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ギルフォード",
+   "kind": "pilot",
+   "en": "Guilford",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Guilford : 'Gilbert G.P. Guilford (ギルバート・G・P・ギルフォード)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Gilbert G.P. Guilford'",
+   "note": "No pilot entry; prose only (pilot 435 DSCR).",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "franchise wiki infobox gender Male; pilot 435 DSCR calls him Cornelia's 'former loyal retainer'",
+    "position": "Cornelia's personal knight and confidant; leader of the Glaston Knights",
+    "personality": "staunchly loyal, quick-witted, first-rate pilot",
+    "nickname": "Spearhead of the Empire",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/Guilford",
+     "library pilot 435 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "バトレー",
+   "kind": "pilot",
+   "en": "Bartley",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Bartley_Asprius : 'Bartley Asprius (バトレー・アスプリウス)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Bartley Asprius'; Jigoku shipped English pt_reuse 417: 'Bartley'",
+   "note": "No pilot entry. Full name Bartley Asprius.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "franchise wiki infobox gender Male ('a large and balding Britannian general')",
+    "position": "general; leader of the Code R Research Team",
+    "personality": "loyal servant to the imperial family; follows Britannian anti-Japanese prejudice",
+    "nickname": "",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/Bartley_Asprius",
+     "library pilot 435 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "ユーフェミア",
+   "kind": "pilot",
+   "en": "Euphemia",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Euphemia_li_Britannia : 'Euphemia li Britannia'; Jigoku shipped English pt_reuse 413: 'Euphemia'",
+   "note": "No pilot entry in this brief. Full name Euphemia li Britannia; keep 'li' lower-case like Cornelia li Britannia.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "pilot 435 DSCR: 実妹ユーフェミア (Cornelia's blood sister); pilot 430 DSCR: Nina 'adored her'; wiki gender Female",
+    "position": "3rd Princess of Britannia; Sub-Viceroy of Area 11 (killed at the Special Administrative Zone massacre)",
+    "personality": "pure-hearted, open-minded, treats everyone with respect",
+    "nickname": "Euphy",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/Euphemia_li_Britannia",
+     "library pilot 430 and 435 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "天子",
+   "kind": "pilot",
+   "en": "Tianzi",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Jiang_Lihua : 'Jiang Lihua or Tianzi (天子) is the young Empress of the Chinese Federation'; also 'Tianzi' per the pt_396 proposal quoting Jigoku",
+   "note": "A title used as her name ('Empress Tianzi'); real name Jiang Lihua. Prose uses it as a name.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "franchise wiki gender Female; pilot 416 DSCR: 幼き天子 (young Tianzi) whom Xingke swore to protect",
+    "position": "Empress of the Chinese Federation (puppet ruler under the High Eunuchs)",
+    "personality": "shy, self-deprecating, childlike and kind-hearted",
+    "nickname": "Puppet Princess",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/Jiang_Lihua",
+     "library pilot 416 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "朝比奈",
+   "kind": "pilot",
+   "en": "Asahina",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Shogo_Asahina : 'Shōgo Asahina (朝比奈省悟)'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'Shougo Asahina'",
+   "note": "No pilot entry. Full name Shogo Asahina.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "franchise wiki: 'a male member of the Four Holy Swords'",
+    "position": "member of the Four Holy Swords; captain of the First Squad of the Black Knights",
+    "personality": "distrustful of Zero; loyal to Tohdoh",
+    "nickname": "",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/Shogo_Asahina",
+     "library pilot 436 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "高亥",
+   "kind": "pilot",
+   "en": "Gao Hai",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/Gao_Hai : 'Gao Hai (高亥)'; also 'Gao Hai' per the pt_396 proposal quoting Jigoku",
+   "note": "No pilot entry.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "franchise wiki gender Male; pilot 416 DSCR: Xingke 'purged' him after Geass made him put Zero above the nation",
+    "position": "High Eunuch; Chinese Federation Consul-General to Area 11",
+    "personality": "eunuch politician; came under Lelouch's Geass (wiki gives no detailed personality)",
+    "nickname": "",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/Gao_Hai",
+     "library pilot 416 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "Ｖ．Ｖ．",
+   "kind": "pilot",
+   "en": "V.V.",
+   "status": "official",
+   "source": "https://codegeass.fandom.com/wiki/V.V. : 'V.V.'; https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2 list: 'V.V.'",
+   "note": "No pilot entry. Full-width dots in the Japanese token; English uses plain 'V.V.'.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "pilot 432 DSCR: 双子の兄、Ｖ．Ｖ． (Charles's twin elder brother); wiki gender Male",
+    "position": "Charles's twin brother; leader of the Geass Order (嚮団); Code holder",
+    "personality": "sadistic, cruel, childlike glee despite his age",
+    "nickname": "",
+    "sources": [
+     "https://codegeass.fandom.com/wiki/V.V.",
+     "library pilot 431-433 DSCR"
+    ]
+   }
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 411,
+   "gender": "male",
+   "gender_evidence": "DSCR: 第１１皇子 (Eleventh Prince), 最愛の妹 (his beloved sister Nunnally); wiki gender Male",
+   "nickname": "Lulu (called so by Shirley); Black Prince; Demon Emperor; alias Zero",
+   "position": "Vice president of Ashford Academy's student council; leader of the Black Knights as Zero; later Emperor of Britannia (real name Lelouch vi Britannia, 11th Prince, 17th in line)",
+   "personality": "brilliant strategist, calm, arrogant, ruthless in pursuit of a world where Nunnally can smile; masks a sociable school persona",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Lelouch_vi_Britannia",
+    "library pilot 411 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 412,
+   "gender": "male",
+   "gender_evidence": "Persona worn by Lelouch and later Suzaku (both male); DSCR narrates 'he' via Jigoku shipped text; wiki: 'typically presents as male'",
+   "nickname": "Man of Miracles",
+   "position": "masked leader of the Black Knights; symbol of the anti-Britannia resistance; after the Zero Requiem the role is taken over by Suzaku",
+   "personality": "charismatic, theatrical, enigmatic; miracle-worker leader (personality is Lelouch's, later Suzaku's)",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Zero",
+    "library pilot 412 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 413,
+   "gender": "male",
+   "gender_evidence": "DSCR: 枢木ゲンブの息子 (son of Genbu Kururugi), 彼; wiki gender Male",
+   "nickname": "White Knight (Britannian nickname); White Grim Reaper",
+   "position": "Honorary Britannian soldier; Knight of Seven of the Knights of the Round, later Knight of Zero; after the Zero Requiem he becomes Zero",
+   "personality": "earnest and idealistic, strong sense of duty and responsibility, cold decisions in the field after Euphemia's death, stubborn will",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Suzaku_Kururugi",
+    "library pilot 413 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 414,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Kallen Kozuki); DSCR gives no pronoun; Jigoku shipped English uses 'she'",
+   "nickname": "None (alias Kallen Stadtfeld as her Britannian student identity)",
+   "position": "Ace of the Black Knights; captain of the Zero Squad (Zero's guard); half-Britannian, half-Japanese; pilots the Guren",
+   "personality": "energetic, competitive and short-tempered, brave, loyal to Zero; hates Britannia for conquering Japan; gentle with those she cares about",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Kallen_Kozuki",
+    "library pilot 414 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 415,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女 (girl), 彼女 (she); wiki gender Female",
+   "nickname": "Immortal Witch; Pizza Girl; name read 'Shī Tsū'",
+   "position": "Code holder (immortal); gave Lelouch his Geass; former leader of the Geass Order",
+   "personality": "apathetic, stubborn and pragmatic on the surface; selfish about her wish to die; grows attached to Lelouch",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/C.C.",
+    "library pilot 415 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 416,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Li Xingke); DSCR gives no pronoun",
+   "nickname": "None",
+   "position": "Chinese Federation military officer; bodyguard of Gao Hai; later general and commander-in-chief of the Black Knights inside the UFN military; sworn to Tianzi",
+   "personality": "hardened, loyal, dutiful; stoic; will defy orders and stage a coup for Tianzi; suffers from a serious illness",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Li_Xingke",
+    "library pilot 416 DSCR",
+    "https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2"
+   ]
+  },
+  {
+   "pilot_id": 417,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Jeremiah Gottwald); DSCR: 辺境伯 (Margrave), gives no pronoun; Jigoku shipped English uses 'he/his'",
+   "nickname": "Orange; Orange Boy; Jerry; Pureblood",
+   "position": "Britannian army officer, Margrave; former leader of the Purist faction; cyborg who wields the Geass Canceller; loyal to Marianne and her children; after the war works on an orange farm",
+   "personality": "fiercely loyal, rash and passionate; pride in knightly duty; wry sense of humor about 'Orange'",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Jeremiah_Gottwald",
+    "library pilot 417 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 418,
+   "gender": "female",
+   "gender_evidence": "DSCR: 実妹 (blood younger sister), 皇女 (princess); wiki gender Female",
+   "nickname": "Nunna (called so by Shirley)",
+   "position": "Britannian princess (87th in line); Viceroy of Area 11; later Empress; Lelouch's younger sister; blind and paralysed as a child",
+   "personality": "gentle, kind, patient and empathetic; unshakable conviction that the world can be changed to be kinder; brave enough to take the sin on herself",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Nunnally_vi_Britannia",
+    "library pilot 418 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 419,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Lloyd Asplund); DSCR: 婚約者 (fiance, of Milly), 伯爵家の出身 (earl's family); Rakshata calls him 'Earl Pudding'",
+   "nickname": "Earl Pudding (Rakshata's jibe, プリン伯爵)",
+   "position": "Former chief of the Advanced Special Envoy Engineering Corps; chief of Camelot; genius engineer who developed the Lancelot",
+   "personality": "brilliant but absorbed in technology, out of touch with people, self-declared sociopath; unconcerned by things that bother others; rival of Rakshata",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Lloyd_Asplund",
+    "library pilot 419 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 420,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Cecile Croomy); DSCR gives no pronoun; 25 years old, works under Lloyd",
+   "nickname": "None",
+   "position": "Former member of the Special Envoy Engineering Corps; Camelot staff, assigned exclusively to Suzaku; chief developer of the Float System; operator aboard the Avalon in the final battle",
+   "personality": "caring and kind, keeps Lloyd in check (often with force), odd cooking taste",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Cecile_Croomy",
+    "library pilot 420 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 421,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Gino Weinberg); DSCR gives no pronoun",
+   "nickname": "None",
+   "position": "Knight of Three of the Knights of the Round; of a noble family; later fights Lelouch's forces in the Tristan Divider",
+   "personality": "cheerful, easygoing, friendly, curious and caring; a little naive",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Gino_Weinberg",
+    "library pilot 421 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 422,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Anya Alstreim); DSCR gives no pronoun; 15 years old",
+   "nickname": "None",
+   "position": "Knight of Six of the Knights of the Round, the youngest Round; host of Marianne's mind; later works on Jeremiah's orange farm",
+   "personality": "stoic, deadpan and detached; occasionally does inexplicable things; photographs everything on her phone as 'memory'",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Anya_Alstreim",
+    "library pilot 422 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 423,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Kaname Ohgi); DSCR gives no pronoun; Jigoku shipped English 'he'",
+   "nickname": "None",
+   "position": "Leader of the Ohgi Group resistance; deputy commander of the Black Knights; Secretary-General of the UFN forces; later Prime Minister of Japan; husband of Villetta",
+   "personality": "caring, somewhat indecisive (former teacher who says leadership is not his strength); devoted to Villetta",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Kaname_Ohgi",
+    "library pilot 423 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 424,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Shinichiro Tamaki); DSCR gives no pronoun; 自称 (calls himself) Zero's best friend",
+   "nickname": "None",
+   "position": "Black Knights member since the founding; former Ohgi Group member; UFN 'Internal Affairs Cleanup Assistant Officer'; later a cafe owner",
+   "personality": "optimistic, jokey, hot-headed, complains a lot and picks fights; loyal to Zero",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Shinichiro_Tamaki",
+    "library pilot 424 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 425,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Rakshata Chawla); DSCR gives no pronoun; Jigoku shipped English uses 'she'",
+   "nickname": "None",
+   "position": "Engineer from the Chinese Federation's Indian Military District; developer of Black Knights KMFs; Minister of Science in the UFN forces",
+   "personality": "calm, laid-back and easygoing, tobacco pipe always in hand; calls Lloyd 'Earl Pudding'",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Rakshata_Chawla",
+    "library pilot 425 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 426,
+   "gender": "female",
+   "gender_evidence": "DSCR: メイド (maid); wiki gender Female (Sayoko Shinozaki)",
+   "nickname": "Supermaid",
+   "position": "maid from the Ashford family serving Lelouch and Nunnally; Honorary Britannian; 37th head of the Shinozaki school; secretly a Black Knights member and Lelouch's body double",
+   "personality": "kind, maternal and selfless; airheaded at times, which confuses matters",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Sayoko_Shinozaki",
+    "library pilot 426 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 427,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Shirley Fenette); DSCR: 水泳部 member who secretly loves Lelouch (彼の力になろう); no pronoun for herself",
+   "nickname": "None",
+   "position": "Ashford Academy student council member and swim club member; Lelouch's classmate",
+   "personality": "honest, cheerful, wears her feelings openly; shows love for 'Lulu'",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Shirley_Fenette",
+    "library pilot 427 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 428,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Milly Ashford); DSCR gives no pronoun; engagement to Lloyd, later an announcer",
+   "nickname": "Prez",
+   "position": "President of Ashford Academy's student council; 19; later a TV announcer; once engaged to Lloyd (broken off)",
+   "personality": "eccentric event-lover who runs everyone around, but caring and well liked; strong-willed",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Milly_Ashford",
+    "library pilot 428 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 429,
+   "gender": "male",
+   "gender_evidence": "wiki gender Male (Rivalz Cardemonde); DSCR gives no pronoun; has feelings for Milly",
+   "nickname": "None",
+   "position": "Ashford Academy student council member (later president); Lelouch's partner in mischief",
+   "personality": "happy-go-lucky, fun-loving optimist; loyal friend; hopeless about Milly",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Rivalz_Cardemonde",
+    "library pilot 429 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 430,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Nina Einstein); DSCR gives no pronoun; adored Euphemia",
+   "nickname": "None",
+   "position": "former Ashford student council member; chief of Schneizel's In Vogue research team; creator of FLEIJA and the FLEIJA Eliminator",
+   "personality": "timid and fearful of Elevens, obsessive when driven; fixated on avenging Euphemia; later remorseful",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Nina_Einstein",
+    "library pilot 430 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 431,
+   "gender": "male",
+   "gender_evidence": "DSCR: ルルーシュの偽りの弟 (Lelouch's false younger brother); wiki gender Male",
+   "nickname": "None",
+   "position": "assassin sent by the Geass Order; member of the Office of Secret Intelligence; posed as Lelouch's younger brother",
+   "personality": "cold-blooded killer on the surface; later blindly devoted and possessive toward Lelouch; Geass stops others' perceived time but stops his own heart",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Rolo_Lamperouge",
+    "library pilot 431 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 432,
+   "gender": "male",
+   "gender_evidence": "DSCR: 実の父親 (real father of Lelouch and Nunnally), 双子の兄 = Ｖ．Ｖ．; wiki gender Male",
+   "nickname": "None",
+   "position": "98th Emperor of the Holy Britannian Empire; wielder of a memory-rewriting Geass; Code holder; leader of the Ragnarok plan",
+   "personality": "cold, intelligent, social Darwinist; worships strength; discards weak children",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Charles_zi_Britannia",
+    "library pilot 432 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 433,
+   "gender": "female",
+   "gender_evidence": "DSCR: 実母 (real mother of Lelouch and Nunnally), 皇妃 (consort); wiki gender Female",
+   "nickname": "Marianne the Flash (閃光のマリアンヌ)",
+   "position": "former empress consort of Britannia; former KMF test pilot and Knight of Six; assassinated eight years earlier, her mind lives on inside Anya",
+   "personality": "kind and sweet with a rebellious spirit; strong protective love for her children; brilliant pilot",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Marianne_vi_Britannia",
+    "library pilot 433 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 434,
+   "gender": "male",
+   "gender_evidence": "DSCR: 第二皇子 (Second Prince); wiki gender Male",
+   "nickname": "White Prince; Cold-Blooded Strategist",
+   "position": "Second Prince of Britannia and Prime Minister; later leads Damocles against Lelouch; sworn to Zero after Lelouch's Geass",
+   "personality": "calm and evenhanded with a gentle manner, brilliant chess mind; beneath it a nihilistic detachment and a wish to rule through terror",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Schneizel_el_Britannia",
+    "library pilot 434 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 435,
+   "gender": "female",
+   "gender_evidence": "DSCR: 第二皇女 (Second Princess), 実妹ユーフェミア (her blood sister); wiki gender Female",
+   "nickname": "Witch of Britannia; Goddess of Victory",
+   "position": "Second Princess of Britannia; former Viceroy of Area 11; gave up the viceroyalty after the Black Rebellion and investigated Euphemia's disgrace on her own",
+   "personality": "proud and ruthless on the battlefield, but deeply caring toward her soldiers and family; loves Euphemia",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Cornelia_li_Britannia",
+    "library pilot 435 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 436,
+   "gender": "male",
+   "gender_evidence": "DSCR: 元日本軍中佐, 彼に想いを寄せる千葉 (Chiba who has feelings for him); wiki gender Male",
+   "nickname": "Miracle Tohdoh (奇跡の藤堂); Tohdoh of Miracles",
+   "position": "former lieutenant colonel of the Japanese military; leader of the Four Holy Swords; Chief of the Joint Staff in the UFN military",
+   "personality": "calm, disciplined and honorable; despises needless fighting; trusted Zero's talent until he learned of the Geass",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Kyoshiro_Tohdoh",
+    "library pilot 436 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 437,
+   "gender": "female",
+   "gender_evidence": "wiki gender Female (Nagisa Chiba, 'the sole female member of the Four Holy Swords'); DSCR: has secret feelings for Tohdoh, modest side; no pronoun",
+   "nickname": "None",
+   "position": "former Japanese military officer sworn to Tohdoh; one of the Four Holy Swords; captain of the Fourth Squad of the UFN military; the only one of the four to survive",
+   "personality": "spirited and strong-willed, but modest; secretly in love with Tohdoh",
+   "sources": [
+    "https://codegeass.fandom.com/wiki/Nagisa_Chiba",
+    "library pilot 437 DSCR",
+    "https://akurasu.net/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 66,
+  "names_settled": 66,
+  "extra_records": 1,
+  "left_pending": [],
+  "challenges": [],
+  "retoken": [
+   "keyword 74 DSCR (Macross 7 song energy): 'Dr. $$千葉$$' -> 'Dr. $$千葉#macross$$' (Gadget M. Chiba, male doctor). The bare token 千葉 stays with the Code Geass pilot 437 CHNN; pilot 436 DSCR uses of $$千葉$$ are correct as they are. The macross brief lists チバソング but not 千葉, so the Macross researcher may not have noticed."
+  ],
+  "uncertain": [
+   "FLEIJA: official English is 'F.L.E.I.J.A.' (with periods; franchise wiki, Wikipedia). I set 'FLEIJA' because Jigoku's shipped rt 276 and all three translator proposals use it and periods cost width. Jigoku's own pilot 413 and 418 texts say 'Freya' -- those literal strings in pt_reuse.json should be normalized to the glossary spelling. Orchestrator may choose the dotted form.",
+   "Tohdoh vs Todoh: I chose 'Tohdoh' (franchise wiki, akurasu, official). Jigoku shipped rt_reuse 276 has the literal 'Todoh's Zangetsu', which should be fixed to match. Given names: akurasu writes 'Kyoshirou Tohdoh' (Z2 pilot database and the R2 page) and 'Shinichirou Tamaki' (Z2 database) but 'Shinichiro Tamaki' on the R2 page; I used the official 'Kyoshiro' and 'Shinichiro', which match the already-official 'Kallen Kozuki' style. Precedence rule technically favors akurasu's 'Kyoshirou'; orchestrator decides.",
+   "Geass Canceller vs Canceler: franchise wiki mostly writes 'Canceler' (one L); Jigoku's shipped text and the official subtitles use 'Canceller'. I kept 'Canceller' (Jigoku precedence, and the wiki does also use it in places).",
+   "Cecile: wiki and akurasu write 'Cécile'; I dropped the accent (ASCII-safe, and Jigoku shipped text says 'Cecile'). Ragnarok: same treatment for 'Ragnarök'.",
+   "Damocles filed as kind robot (flying fortress = machine) although the rt_259 proposal said keyword; gargantia's Avalon is proposed as keyword. Kind does not change the English; orchestrator may want one convention for fortresses/ships.",
+   "特別派遣嚮導技術部 = 'Advanced Special Envoy Engineering Corps' (franchise wiki, the ASEEC name). The game's Japanese has no equivalent of 'Advanced'; I found no separate official English source. Long, but only appears in 'Former chief/member of the X'.",
+   "機密情報局 = 'Office of Secret Intelligence' (franchise wiki, Wikipedia); Jigoku's shipped text only says lower-case 'intelligence bureau'. Not verified against the official dub/subtitle script.",
+   "Second Battle of Tokyo: wiki page is titled 'Second Assault on Tokyo Settlement'; chose 'Second Battle of Tokyo' (used in wiki prose and in Jigoku shipped text).",
+   "In Vogue (two words) corrects the proposals' 'Invogue'; supported by the franchise wiki and Wikipedia.",
+   "天子 is a title used as a name: wiki gives her name as Jiang Lihua / 'Tianzi'. Chose 'Tianzi' (Jigoku reference and wiki).",
+   "Age mismatches between DSCR and wiki (for example Chiba: DSCR 30, wiki 28/29; Lloyd, Cornelia small differences) are not name issues and were not touched.",
+   "Gender for many pilots rests on the franchise wiki because the Japanese DSCR uses no pronouns or gendered nouns (416, 420, 421, 422, 424, 425, 428, 429, 430, 437). Zero (412) is a persona worn by two men; the wiki says 'typically presents as male'.",
+   "Source strength: the franchise wiki (codegeass.fandom.com) was read through its MediaWiki API; the akurasu R2 page supplies the cast/unit lists but contains almost no glossary text. No akurasu Tengoku page discusses these names, so nothing here comes from the saved Z3.2 files apart from unit/pilot listings of Zero, Suzaku, Kallen and the two Lancelots."
+  ]
+ }
+}

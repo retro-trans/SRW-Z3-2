@@ -1,0 +1,457 @@
+{
+  "schema": 1,
+  "batch": 7,
+  "status": "complete",
+  "sampled_slices": [
+    "dlg_2103_00",
+    "dlg_2104_05",
+    "dlg_2104_06",
+    "dlg_2105_08",
+    "dlg_2103_01",
+    "dlg_2103_02",
+    "dlg_2104_07",
+    "dlg_2105_09",
+    "dlg_2103_03",
+    "dlg_2103_04",
+    "dlg_2104_08",
+    "dlg_2105_10",
+    "dlg_2105_00",
+    "dlg_2105_11",
+    "dlg_2103_05",
+    "dlg_2103_06",
+    "dlg_2105_01",
+    "dlg_2105_12",
+    "dlg_2104_00",
+    "dlg_2105_02",
+    "dlg_2105_13",
+    "dlg_2105_03",
+    "dlg_2105_14",
+    "dlg_2106_00",
+    "dlg_2104_03",
+    "dlg_2105_04",
+    "dlg_2105_05",
+    "dlg_2106_01",
+    "dlg_2104_04",
+    "dlg_2105_06",
+    "dlg_2106_02",
+    "dlg_2106_03",
+    "dlg_2105_07",
+    "dlg_2104_01",
+    "dlg_2104_02",
+    "dlg_2106_04",
+    "dlg_2106_05",
+    "dlg_2106_06",
+    "dlg_2106_07",
+    "dlg_2106_16",
+    "dlg_2106_27",
+    "dlg_2106_08",
+    "dlg_2106_17",
+    "dlg_2106_09",
+    "dlg_2106_18",
+    "dlg_2106_28",
+    "dlg_2106_10",
+    "dlg_2106_19",
+    "dlg_2106_29",
+    "dlg_2106_11",
+    "dlg_2106_12",
+    "dlg_2106_20",
+    "dlg_2106_30",
+    "dlg_2106_31",
+    "dlg_2106_13",
+    "dlg_2106_21",
+    "dlg_2106_32",
+    "dlg_2106_33",
+    "dlg_2106_14",
+    "dlg_2106_22",
+    "dlg_2106_34",
+    "dlg_2106_23",
+    "dlg_2106_35",
+    "dlg_2106_15",
+    "dlg_2106_36",
+    "dlg_2106_24",
+    "dlg_2106_25",
+    "dlg_2106_37",
+    "dlg_2106_38",
+    "dlg_2106_26"
+  ],
+  "decisions": [
+    "731:t_028:1: caught homonymous Angel character token substituted for the Angels; requested source-specific glossary lookup and correction across agent2 drafts.",
+    "725:t_004:1: requested full predicate in Hades's 'As expected' statement.",
+    "737:t_012:0 and737:t_010:30: requested person-specific Advent/The Edel tokens and full Spacequake Bomb token matching source.",
+    "731:t_127:2 and737:t_100:5: requested connecting purpose/means phrases within a single row instead of artificial sentence fragments.",
+    "737:t_116:9: surrounding call to speak and Akagi's following catchphrase confirm Ibuki requests his familiar line, not a physical attack; no change.",
+    "730:t_1:12: neighboring dialogue identifies Rand as grateful to Asakim for saving Mel; requested explicit name to disambiguate two he referents.",
+    "731:t_000:12: source literally says gathered stars/planets; retain the unusual noun with uncertainty rather than silently emending to power.",
+    "736:t_1:310: Spiral life-forms accepted as descriptive terminology; source context and franchise terminology agree.",
+    "752:t_2:9-12: identified collaborative cross-row continuation; requested matching sentence cut instead of repeating previous predicate.",
+    "736:t_1:495: requested subject and verb for grammatical omission in short response.",
+    "Agent1 initial omission notes were generic placeholders; requested specific per-ID reasons and removal of complete-sentence false positives.",
+    "736:t_1:448/497: requested full question in both exact-source repeats; agent verified source/context and final checks passed.",
+    "Verified requested meaning fixes at730:t_1:11-12,725:t_004:1,731:t_127:2,737:t_100:5; agent1 reports now give specific omission reasons.",
+    "753:t_140:1: Book of Sousei proposed to preserve the katakana umbrella title across distinct homophonous Aquarion book names; source and franchise reference reviewed.",
+    "753:t_031:23: requested idiomatic emphatic denial of godhood instead of literal 'not a god or anything else'.",
+    "730:t_4:12/14: planned source-specific name normalization of ley lines to existing Leyline token; ordinary 地脈 elsewhere retains descriptive wording.",
+    "753:t_066:1: verified Infinite Palm of the Buddha against explicit English in Z3.1 Japanese library and weapon glossary.",
+    "758:t_1:649-650: Dr. Fox accepted as Traia's joking nickname, not a new formal name; following reply identifies her and franchise reference describes fox mask.",
+    "753:t_183:3: retain source Zentran used by Klan; do not replace with a gender-derived term.",
+    "753:t_075:1: agent corrected Rey SEED (#pt136) vs Ray Macross (#pt231). Parent scanned all fresh #pt231 uses;15 remaining occurrences match Macross contexts. Prior active corpus also scanned for SEED-context candidates.",
+    "753:t_194:1: translator restored the Peeping Tom force of Kurz's coined insult after source review; final own checks passed.",
+    "753:t_127:4: excluded Mechanical Angel from literal Angel normalization to avoid substituting the unrelated Angels token; reviewed dry-run changes before apply.",
+    "All six translators confirmed EDITS STOPPED before normalization. Final source-name collision audit returned zero candidates."
+  ],
+  "method": "Read source and fresh English at row ordinals 10,40,70, or all rows for slices shorter than10; additional neighboring context for flagged decisions. Not a second full independent proofread.",
+  "sample_ids": {
+    "dlg_2103_00": [
+      "724:t_1:12",
+      "724:t_1:42",
+      "724:t_2:13"
+    ],
+    "dlg_2103_01": [
+      "724:t_2:33",
+      "724:t_10:13",
+      "725:t_003:1"
+    ],
+    "dlg_2103_02": [
+      "725:t_003:21",
+      "725:t_004:1",
+      "725:t_007:4"
+    ],
+    "dlg_2103_03": [
+      "725:t_008:0",
+      "725:t_012:6",
+      "725:t_013:17"
+    ],
+    "dlg_2103_04": [
+      "725:t_016:1",
+      "725:t_020:1",
+      "725:t_024:5"
+    ],
+    "dlg_2103_05": [
+      "725:t_027:0",
+      "725:t_102:5",
+      "725:t_114:3"
+    ],
+    "dlg_2103_06": [
+      "725:t_121:1",
+      "725:t_136:1"
+    ],
+    "dlg_2104_00": [
+      "730:t_1:12",
+      "730:t_1:42",
+      "730:t_1:72"
+    ],
+    "dlg_2104_01": [
+      "730:t_2:6",
+      "730:t_3:21",
+      "730:t_10:3"
+    ],
+    "dlg_2104_02": [
+      "730:t_10:26",
+      "731:t_002:6",
+      "731:t_002:36"
+    ],
+    "dlg_2104_03": [
+      "731:t_002:56",
+      "731:t_004:15",
+      "731:t_005:17"
+    ],
+    "dlg_2104_04": [
+      "731:t_009:2",
+      "731:t_011:1",
+      "731:t_015:7"
+    ],
+    "dlg_2104_05": [
+      "731:t_018:2",
+      "731:t_025:4",
+      "731:t_027:25"
+    ],
+    "dlg_2104_06": [
+      "731:t_028:1",
+      "731:t_031:3",
+      "731:t_107:1"
+    ],
+    "dlg_2104_07": [
+      "731:t_110:9",
+      "731:t_116:2",
+      "731:t_123:2"
+    ],
+    "dlg_2104_08": [
+      "731:t_127:2",
+      "731:t_134:5",
+      "731:t_999:0"
+    ],
+    "dlg_2105_00": [
+      "736:t_1:12",
+      "736:t_1:45",
+      "736:t_1:75"
+    ],
+    "dlg_2105_01": [
+      "736:t_1:95",
+      "736:t_1:125",
+      "736:t_1:155"
+    ],
+    "dlg_2105_02": [
+      "736:t_1:175",
+      "736:t_1:205",
+      "736:t_1:235"
+    ],
+    "dlg_2105_03": [
+      "736:t_1:255",
+      "736:t_1:285",
+      "736:t_1:315"
+    ],
+    "dlg_2105_04": [
+      "736:t_1:335",
+      "736:t_1:365",
+      "736:t_1:395"
+    ],
+    "dlg_2105_05": [
+      "736:t_1:415",
+      "736:t_1:445",
+      "736:t_1:475"
+    ],
+    "dlg_2105_06": [
+      "736:t_1:495",
+      "736:t_1:525",
+      "736:t_3:15"
+    ],
+    "dlg_2105_07": [
+      "736:t_2:16",
+      "736:t_10:8",
+      "737:t_003:13"
+    ],
+    "dlg_2105_08": [
+      "737:t_016:6",
+      "737:t_007:12",
+      "737:t_009:24"
+    ],
+    "dlg_2105_09": [
+      "737:t_010:0",
+      "737:t_010:30",
+      "737:t_012:0"
+    ],
+    "dlg_2105_10": [
+      "737:t_100:5",
+      "737:t_104:2",
+      "737:t_108:1"
+    ],
+    "dlg_2105_11": [
+      "737:t_110:3",
+      "737:t_114:5",
+      "737:t_116:9"
+    ],
+    "dlg_2105_12": [
+      "737:t_118:7",
+      "737:t_122:3",
+      "737:t_126:1"
+    ],
+    "dlg_2105_13": [
+      "737:t_128:6",
+      "737:t_132:4",
+      "737:t_135:4"
+    ],
+    "dlg_2105_14": [
+      "737:t_137:7",
+      "737:t_141:0"
+    ],
+    "dlg_2106_00": [
+      "742:t_000:9",
+      "747:t_001:12",
+      "752:t_1:32"
+    ],
+    "dlg_2106_01": [
+      "752:t_2:11",
+      "752:t_2:53",
+      "752:t_2:101"
+    ],
+    "dlg_2106_02": [
+      "752:t_3:7",
+      "752:t_3:40",
+      "752:t_3:73"
+    ],
+    "dlg_2106_03": [
+      "752:t_3:96",
+      "753:t_002:11",
+      "753:t_007:2"
+    ],
+    "dlg_2106_04": [
+      "753:t_008:15",
+      "753:t_008:45",
+      "753:t_009:13"
+    ],
+    "dlg_2106_05": [
+      "753:t_011:3",
+      "753:t_075:5",
+      "753:t_073:6"
+    ],
+    "dlg_2106_06": [
+      "753:t_014:1",
+      "753:t_015:7",
+      "753:t_023:0"
+    ],
+    "dlg_2106_07": [
+      "753:t_027:5",
+      "753:t_030:2",
+      "753:t_031:23"
+    ],
+    "dlg_2106_08": [
+      "753:t_031:43",
+      "753:t_070:29",
+      "753:t_071:15"
+    ],
+    "dlg_2106_09": [
+      "753:t_071:35",
+      "753:t_072:21",
+      "753:t_032:7"
+    ],
+    "dlg_2106_10": [
+      "753:t_034:11",
+      "753:t_037:2",
+      "753:t_038:21"
+    ],
+    "dlg_2106_11": [
+      "753:t_039:7",
+      "753:t_040:0",
+      "753:t_060:0"
+    ],
+    "dlg_2106_12": [
+      "753:t_066:9",
+      "753:t_101:0",
+      "753:t_104:4"
+    ],
+    "dlg_2106_13": [
+      "753:t_107:1",
+      "753:t_110:3",
+      "753:t_114:3"
+    ],
+    "dlg_2106_14": [
+      "753:t_116:3",
+      "753:t_120:8",
+      "753:t_124:6"
+    ],
+    "dlg_2106_15": [
+      "753:t_125:10",
+      "753:t_128:9",
+      "753:t_133:1"
+    ],
+    "dlg_2106_16": [
+      "753:t_136:4",
+      "753:t_141:2",
+      "753:t_145:2"
+    ],
+    "dlg_2106_17": [
+      "753:t_147:5",
+      "753:t_151:7",
+      "753:t_156:3"
+    ],
+    "dlg_2106_18": [
+      "753:t_158:4",
+      "753:t_162:1",
+      "753:t_166:4"
+    ],
+    "dlg_2106_19": [
+      "753:t_169:5",
+      "753:t_173:1",
+      "753:t_177:5"
+    ],
+    "dlg_2106_20": [
+      "753:t_180:4",
+      "753:t_186:3",
+      "753:t_188:13"
+    ],
+    "dlg_2106_21": [
+      "753:t_191:0",
+      "753:t_195:3",
+      "753:t_199:2"
+    ],
+    "dlg_2106_22": [
+      "753:t_202:1",
+      "753:t_205:0",
+      "753:t_207:9"
+    ],
+    "dlg_2106_23": [
+      "753:t_208:7",
+      "753:t_212:7",
+      "753:t_216:0"
+    ],
+    "dlg_2106_24": [
+      "753:t_217:6",
+      "758:t_1:6",
+      "758:t_1:36"
+    ],
+    "dlg_2106_25": [
+      "758:t_1:59",
+      "758:t_1:92",
+      "758:t_1:125"
+    ],
+    "dlg_2106_26": [
+      "758:t_1:148",
+      "758:t_1:181",
+      "758:t_1:214"
+    ],
+    "dlg_2106_27": [
+      "758:t_1:237",
+      "758:t_1:270",
+      "758:t_1:303"
+    ],
+    "dlg_2106_28": [
+      "758:t_1:326",
+      "758:t_1:359",
+      "758:t_1:392"
+    ],
+    "dlg_2106_29": [
+      "758:t_1:415",
+      "758:t_1:448",
+      "758:t_1:478"
+    ],
+    "dlg_2106_30": [
+      "758:t_1:501",
+      "758:t_1:531",
+      "758:t_1:564"
+    ],
+    "dlg_2106_31": [
+      "758:t_1:587",
+      "758:t_1:620",
+      "758:t_1:653"
+    ],
+    "dlg_2106_32": [
+      "758:t_1:673",
+      "758:t_1:709",
+      "758:t_1:742"
+    ],
+    "dlg_2106_33": [
+      "758:t_1:762",
+      "758:t_1:795",
+      "758:t_1:828"
+    ],
+    "dlg_2106_34": [
+      "758:t_1:851",
+      "758:t_1:884",
+      "758:t_1:917"
+    ],
+    "dlg_2106_35": [
+      "758:t_1:937",
+      "758:t_1:967",
+      "758:t_1:997"
+    ],
+    "dlg_2106_36": [
+      "758:t_1:1023",
+      "758:t_1:1053",
+      "758:t_1:1086"
+    ],
+    "dlg_2106_37": [
+      "758:t_1:1109",
+      "758:t_1:1142",
+      "758:t_1:1172"
+    ],
+    "dlg_2106_38": [
+      "759:t_000:2",
+      "759:t_002:19"
+    ]
+  },
+  "sample_rows": 207,
+  "sample_slices": 70,
+  "agent_meaning_edits_before_names": true,
+  "do_not_touch": "All agents stopped before normalization; preserve final glossary spellings and token identities. Originals are in before_name_pass/.",
+  "terminology_status": "Official is the existing glossary category, including wiki-supported forms; licensed localization is not implied. Proposed terms remain provisional."
+}

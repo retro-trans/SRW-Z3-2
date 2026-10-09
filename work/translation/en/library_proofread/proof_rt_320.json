@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_320",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 327,
+      "field": "DSCR",
+      "english_sha256": "546498f14ee13977",
+      "new": "A mobile weapon under the direct command of the $$御使い$$.\nIts entire body is composed of DEC (Dimension Energy Crystal / Dimensional Crystal), and its operation and armament are all powered by the Power of Origin.\nIt is mainly piloted by $$イドム$$, a spirit-form being, who turns craving for a body and for life directly into power to attack the living. It boasts combat strength greater than the $$アンゲロイ・アルカ$$, and it was this unit that defeated $$エルーナルーナ$$'s father, the previous leader of $$ハイアデス$$.\nIn addition, one to three are sent to each star watched over by the $$御使い$$; each awakens when that star begins to go down a path of evolution against the will of the $$御使い$$, and has the role of destroying its civilization. It is feared in galactic legend under the name 'Giant Beast of Judgment.'\nIncidentally, the $$次元獣$$s used by the Dimensional Generals were developed using this unit as a model.",
+      "reason": "mistranslation (referent): ハイアデスの前頭領であるエルーナルーナの父 = Elunaluna's father, who was the previous leader of Hyades; the English apposition made Elunaluna the previous leader"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 11,
+    "entries_examined": 11,
+    "kept_omissions": [],
+    "name_issues": [
+      "robot 327 DSCR: 'Dimensional Generals' is literal English for 次元将 (no token); check against glossary/wiki",
+      "robot 329 DSCR/DSC2: 'Sol' in 'the embers of Sol' is literal English for ソル (no token; token 至高神ソル is Supreme God Sol)",
+      "robots 322-323, 327-329: the token $$御使い$$ (Angel) is used without a plural where the Japanese means the group ('exiled from the Angel', 'under the direct command of the Angel', 'strongest unit among the forces under the direct command of the Angel'); the glossary elsewhere treats them as several Angels ('the Angels', three others in robot 329). A name script may want 'the Angels' or a plural rule",
+      "robot 322 DSC2 / 329 DSC2: '$$御使い$$s' plural suffix used after a token (fine per style), but inconsistent with the singular use above"
+    ],
+    "uncertain": [
+      "robot 322 DSC2: 'one of the $$御使い$$s' is slightly more than 御使いの本性 (true nature as an Angel), but robot 329 confirms Advent is one of four Angels; kept",
+      "robot 325 DSC2: 黒の英知 boarded 'them as pilots': Japanese is singular (操縦者として搭乗した); ambiguous whether one entity or a group; kept",
+      "robot 325/326: 'Power of Origin' for 源理の力 is a literal term not tokenized; kept as consistent across batch",
+      "robot 327: イドム given no gender in the source (霊体); English uses 'who', no pronoun; correct",
+      "robot 328: 'about two of them can annihilate the military of a planet of average civilization' kept; Japanese is 平均的な文明の惑星の軍ならば",
+      "no military ranks appear in this batch"
+    ]
+  }
+}

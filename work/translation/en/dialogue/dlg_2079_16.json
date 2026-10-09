@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "slice": "dlg_2079_16",
+  "rows": {
+    "557:t_139:3": {
+      "sha": "3925da528d",
+      "en": "$$レナード$$\n「Once you can master that $$スフィア$$ too, you'll understand a little of what I'm thinking.」"
+    },
+    "557:t_139:4": {
+      "sha": "1d2ac0798c",
+      "en": "$n\n「I won't listen to talk like it's all over! We'll stop your plan right here!」"
+    },
+    "557:t_140:0": {
+      "sha": "a6001f3d76",
+      "en": "$$テッサ$$\n($$レナード$$...)"
+    },
+    "557:t_140:1": {
+      "sha": "c0ca190d10",
+      "en": "$$テッサ$$\n(As I feared, words alone can't stop you. Then there is only one thing left to do.)"
+    },
+    "557:t_140:2": {
+      "sha": "0f03e028bc",
+      "en": "$$テッサ$$\n(Prepare yourself, $$レナード$$. We will never give up, not until the very end.)"
+    },
+    "557:t_141:0": {
+      "sha": "57c8c59168",
+      "en": "$$クロウ$$\n「Looks like this is $$ファイヤバグ$$'s last battlefield.」"
+    },
+    "557:t_141:1": {
+      "sha": "f3c8a98b85",
+      "en": "$$クロウ$$\n「Get ready, you arsonists! We end your crimes right here!」"
+    },
+    "557:t_141:2": {
+      "sha": "cb15e66b63",
+      "en": "$$クロウ$$\n(Just wait, $$マリリン$$. Your lackeys will be joining you real soon.)"
+    },
+    "557:t_141:3": {
+      "sha": "7c9834b556",
+      "en": "$$クロウ$$\n(I'll come too, in the end. That's when $$ファイヤバグ$$ is finished.)"
+    },
+    "557:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
+  },
+  "names": {
+    "マリリン": {
+      "kind": "pilot",
+      "en": "Marilyn",
+      "evidence": "Given-name-only form of マリリン・キャット (Marilyn Catto, female, in sheet); Crowe addresses her by first name in thought."
+    }
+  },
+  "report": {
+    "rows_in_slice": 10,
+    "rows_examined": 10,
+    "left_untranslated": [],
+    "kept_omissions": [],
+    "uncertain": [
+      "557:t_141:2: bare マリリン has no token in the sheet; proposed $$マリリン$$ (Marilyn Catto's given name). 'Your lackeys' = Firebug members, addressed to her in thought.",
+      "557:t_141:1: 放火魔 = 'arsonists' (pun on Firebug).",
+      "557:t_141:3: 最後には俺も行く rendered 'I'll come too, in the end' (Crowe following Marilyn / dying at the end; ambiguous).",
+      "557:t_139:3: そのスフィア = 'that $$スフィア$$' (Hibiki's Sphere)."
+    ]
+  }
+}

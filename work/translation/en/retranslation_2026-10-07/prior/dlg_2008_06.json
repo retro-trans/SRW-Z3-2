@@ -1,0 +1,51 @@
+{
+ "schema": 1,
+ "slice": "dlg_2008_06",
+ "rows": {
+  "58:t_108:1": {
+   "sha": "b32158b7ad",
+   "en": "$$チェインバー#pilot$$\n[Understood. With the forces available, including this unit, it is fully feasible against the enemy force.]"
+  },
+  "58:t_108:2": {
+   "sha": "cec3862b8e",
+   "en": "$$レド$$\n[Don't let a single unit escape. Annihilate them.]"
+  },
+  "58:t_109:0": {
+   "sha": "2d42536443",
+   "en": "$$ギルター$$\n「Why is the Alliance's force, deployed in the galactic core, here on Earth...!」"
+  },
+  "58:t_109:1": {
+   "sha": "f3fdcc6931",
+   "en": "$$レド$$\n[Chamber, do you know why the $$サイデリアル$$ are on this planet?]"
+  },
+  "58:t_109:2": {
+   "sha": "1abb99bb99",
+   "en": "$$チェインバー#pilot$$\n[Data insufficient for a judgment at this time.]"
+  },
+  "58:t_109:3": {
+   "sha": "da6679d750",
+   "en": "$$レド$$\n[They're the Alliance's enemy. We'll gather intel, if only to learn their strategic objective.]"
+  },
+  "58:t_109:4": {
+   "sha": "d3ee1e630e",
+   "en": "$$チェインバー#pilot$$\n[Understood.]"
+  },
+  "58:t_999:0": {
+   "sha": "c55adac948",
+   "en": "$n\n「Ah!」"
+  }
+ },
+ "names": {},
+ "report": {
+  "rows_in_slice": 8,
+  "rows_examined": 8,
+  "left_untranslated": [],
+  "kept_omissions": [],
+  "uncertain": [
+   "同盟 alone rendered plain 'the Alliance' (not a keyword link; glossary has 銀河同盟 = Galactic Alliance)",
+   "Chamber speaker uses #pilot token as in dlg_2008_00/01 (51:t_1)",
+   "58:t_108:1 敵部隊と本機を含む友軍の戦力ならば: read as 'forces available incl. this unit'; 十分に可能 = 'fully feasible'",
+   "58:t_109:0 Girtar's 同盟 = Ledo's Alliance (not the Sidereal)"
+  ]
+ }
+}

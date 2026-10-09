@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "changes": [
+    {
+      "file": "dlg_2106_18.json",
+      "id": "753:t_161:0",
+      "before": "$$聖アドヴェント$$\n「Do you reject me as well, $$パトリック$$?」",
+      "after": "$$聖アドヴェント$$\n「Do you reject me as well, $$パトリック#colasour$$?」",
+      "reason": "Neighboring Colasour dialogue / Kati husband context identifies Patrick Colasour, not Zala. English display spelling unchanged."
+    },
+    {
+      "batch": 7,
+      "file": "dlg_2105_11.json",
+      "id": "737:t_109:7",
+      "before": "$$隼人$$\n「The $$インベーダー#pilot$$s, the $$宇宙怪獣$$, $$ヴィルダーク$$, the army of evil gods, $$アサキム$$, $$アドヴェント#pilot$$...」",
+      "after": "$$隼人$$\n「The $$インベーダー#robot$$s, the $$宇宙怪獣$$, $$ヴィルダーク$$, the army of evil gods, $$アサキム$$, $$アドヴェント#pilot$$...」",
+      "reason": "Generic Invader species/creatures, not glossary pilot274 fused Cowen/Stinger boss. Generic robot token covers multiple creature forms. Visible English unchanged."
+    },
+    {
+      "batch": 7,
+      "file": "dlg_2105_00.json",
+      "id": "736:t_1:28",
+      "before": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$ Hangar～",
+      "after": "　\n　　\n　　　　　　　　　～$$ソーラリアン$$　Hangar～",
+      "reason": "Restore source caption field order, fullwidth separators and line layout; preserve location meaning."
+    },
+    {
+      "batch": 7,
+      "file": "dlg_2106_22.json",
+      "id": "753:t_202:3",
+      "before": "$$聖アドヴェント$$\n「Very well, hero of $$クエント$$. Though you expelled the gifted ones, I shall teach you that some things are still beyond you.」",
+      "after": "$$聖アドヴェント$$\n「Very well, hero of $$クエント$$. Though you expelled the $$異能者#plural$$, I shall teach you that some things are still beyond you.」",
+      "reason": "VOTOMS Overman/Overmen identified by source and neighbors; separate from Abnormal Survivor. See batch9 glossary research."
+    },
+    {
+      "batch": 7,
+      "file": "dlg_2106_31.json",
+      "id": "758:t_1:582",
+      "before": "$$梅江$$\n「I'm sorry, you two. You came all the way from Nagano and Tokyo, too.」",
+      "after": "$$梅江$$\n「I'm sorry, you two. You came all the way from Nagano and $$東京$$, too.」",
+      "reason": "Late glossary additions; source-gated exact literal normalization, manually reviewed."
+    }
+  ],
+  "source_review": "Full fresh and active corpus scan; contexts reviewed for all three corrected fresh rows. Active/prior files unchanged."
+}

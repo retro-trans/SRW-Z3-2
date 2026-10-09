@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "about": "English for the two map badges in TPACKPS3 member 2 that Jigoku left Japanese; rendered by tools/texture_art.py (badge_pixels) in each badge's measured style. Texture 1 (support, AT) reuses Jigoku 0.6.24 art and is not listed here.",
+  "badges": {
+    "4": {
+      "jp": "搭載",
+      "en": "Aboard",
+      "note": "Shown on a ship that is carrying units (the units are off the map, stored aboard). One line, pink, Rodin Bold. Jigoku's map command for the same verb is 'Board' (translation/ui_eboot.json); 'Aboard' is the state, matching the badge. Alternatives considered: 'Loaded' (reads like ammunition), 'Board' (the command, not the state)."
+    },
+    "5": {
+      "jp": "マルチアクション",
+      "en": "Multi-\nAction",
+      "note": "Tengoku's Multi-Action system (a unit that can act again). Hyphenated term 'Multi-Action', broken over the badge's two lines like the Japanese (マルチ / アクション). One-line 'Multi-Action' fits only at about half the height and is hard to read."
+    }
+  }
+}

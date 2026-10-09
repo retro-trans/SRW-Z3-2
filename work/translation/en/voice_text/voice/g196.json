@@ -1,0 +1,2738 @@
+{
+  "schema": 1,
+  "group": "g196",
+  "blocks": [
+    196
+  ],
+  "speaker": {
+    "token": "ノリコ",
+    "jigoku_pilot": "Noriko Takaya",
+    "jigoku_unit": "Gunbuster",
+    "fraction": 0.579,
+    "basis": "settled 2026-10-02 from fresh-translation review: Mixed set: Noriko Takaya (hit/evade/attack lines, blocks <9000; calls Coach, Big Sis, Gunbuster) plus Kazumi Amano ($$カズミ$$; blocks 8456+ and 13xxx-15xxx: addresses Noriko, ですわ, hosts the suspend-message letter corner as Amano). Matches Jigoku for Noriko but misses Kazumi's lines.",
+    "proposed_by_v_g196_00": {
+      "token": "$$タカヤ・ノリコ$$",
+      "basis": "Gunbuster main pilot Noriko: calls Kazumi/Coach お姉さま/コーチ, ガンバスター; blocks 12887-14799 are Kazumi ($$カズミ$$) the sub-pilot speaking to ノリコ (same voice set, matches Jigoku Gunbuster)."
+    },
+    "proposed_by_v_g196_01": {
+      "token": "$$ノリコ$$",
+      "basis": "Mixed set: Noriko Takaya (hit/evade/attack lines, blocks <9000; calls Coach, Big Sis, Gunbuster) plus Kazumi Amano ($$カズミ$$; blocks 8456+ and 13xxx-15xxx: addresses Noriko, ですわ, hosts the suspend-message letter corner as Amano). Matches Jigoku for Noriko but misses Kazumi's lines."
+    },
+    "jigoku_token": "タカヤ・ノリコ"
+  },
+  "lines": {
+    "196:0": {
+      "repository_source_sha256": "b0405c000e679e26d2da5870838123a7878a935c49770e45e468e91ea8e513ad",
+      "en": "「Aaaaaagh!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:27": {
+      "repository_source_sha256": "d364814a4441ac0555520432eaa5dd7d0d5b66767d389a79f06161f89ab74786",
+      "en": "「Okay... $$ノリコ$$... let's combine!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:70": {
+      "repository_source_sha256": "269464974210d4201207c16dda632e3ea216ae57b2840ffebdbcb344368c7af2",
+      "en": "「Sis... $$コーチ$$... I'm sorry.」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "196:105": {
+      "repository_source_sha256": "54bb214680f65b4a3df51c626d652d4cd38a2c9758a0184ad39ef7bdde8b5963",
+      "en": "「Not yet! I'll still pull through!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:142": {
+      "repository_source_sha256": "199145a9fb1f7da6afc217a23617f8c0696af9717731ecf0be23b033604fcc70",
+      "en": "「Not, not like this!\\nI won't lose!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:207": {
+      "repository_source_sha256": "49cfc28853eef19b4342956e0fcf7dbe7f599ed358be834957f3962409c6ff97",
+      "en": "「Please, hold on, $$ガンバスター$$!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:246": {
+      "repository_source_sha256": "7e713e9b036484755366f1cec972612e5eaec410d3f7a4710d05b61b0e07d110",
+      "en": "「Agh!! I-I'm not done yet!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:285": {
+      "repository_source_sha256": "28f33136854877a1b79eab8a62c8f5cb7ee1270fbbc33ee162f9a45d2669204e",
+      "en": "「It hurt!! But we\\ncan't lose!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:350": {
+      "repository_source_sha256": "65220fab3a7f92259172e496ba37de3e77e26e1bca61991b9788cf858a9ce387",
+      "en": "「No! $$ガンバスター$$\\nwon't fall to that!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:413": {
+      "repository_source_sha256": "7e668b747fb9a431a6c67575e5a8e23502963c280266a50483cfbbecfde186d0",
+      "en": "「Not yet! This is nothing!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:450": {
+      "repository_source_sha256": "6ab65bbf8fa5e130406b07c70fa70c87ea8fbd92d2ed860650ba3a1f61b76771",
+      "en": "「Ngh! You're good... but!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:483": {
+      "repository_source_sha256": "0f9b4eb7e04520cd28e83fe28e6224037c5111f473a2a3dc43e0da6d9660392f",
+      "en": "「$$コーチ$$'s $$ガンバスター$$.\\nDon't dismiss it.」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:540": {
+      "repository_source_sha256": "5697cc12449d5ab331d2c89bb42c48261b4b3074bbc0c8de38536b68d51f7715",
+      "en": "「Like that could hit me!!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:565": {
+      "repository_source_sha256": "86db544c91feec75b12d2370e0e9f5983d38744b36189780ca026ccf01f0acde",
+      "en": "「Too easy!!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:580": {
+      "repository_source_sha256": "96f4fedcfa8573210b8c52a54fd025e1deb162af4c200bb00d086105e06f4390",
+      "en": "「Too slow!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:597": {
+      "repository_source_sha256": "ca0eb1b2263001135703becef99604bac4b6c994f600988e8e7ea68e4417c4a6",
+      "en": "「I'll dodge it!!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:622": {
+      "repository_source_sha256": "acdd55e6a1ebe6493bcff7128396f070b0665e77b84bfe9f5d6c014676d36878",
+      "en": "「You think that\\ncan beat us?!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "196:673": {
+      "repository_source_sha256": "1a53b4a0781b05162c29bd3f10cc5711e14f84560fefe4fdda66d1d564028984",
+      "en": "「That weak attack won't hurt me!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:708": {
+      "repository_source_sha256": "8cd125f4c328400167fb4bf021b405adbecd30dc156731a1cba7e1e128229f32",
+      "en": "「This is nothing!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:731": {
+      "repository_source_sha256": "6fdb9677781237d72aec0a56a6275ad5168b114e10445d030e4311c0595bbeeb",
+      "en": "「Even $$ガンバスター$$...\\ncan't reach it!?」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "196:782": {
+      "repository_source_sha256": "90e78bb557b975ca99201c940943112f486652b5fb83d264e17f701cc87a2094",
+      "en": "「Here's my chance!!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:799": {
+      "repository_source_sha256": "c3011c18ee6c18ffee5fa5855f1a71ee3570e50f9b4e8c6cef178a83c1e5ff6e",
+      "en": "「I'll finish this now!!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:822": {
+      "repository_source_sha256": "c1c69b5505c158802327296dd2d085338915024e5c315aa9de68ba24d8e30b68",
+      "en": "「Buster Beeeeeam!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "196:861": {
+      "repository_source_sha256": "9ab61a0a4cfaada48ee9888c1c698f4ea953f4959d90897487ed11df1787026d",
+      "en": "「Buster Missile!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "196:894": {
+      "repository_source_sha256": "979bd9f7612fe598b69c40047e48d3f79ab30ad4f84ea9755bf25fcc14d976d2",
+      "en": "「Buster Collider!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3"
+      ]
+    },
+    "196:929": {
+      "repository_source_sha256": "b9140ce68c1b5bb6eb69b1d6d177bdef764f225e5ea996062c78106b9e297072",
+      "en": "「Aaaaaagh!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3",
+        "weapon slot 6"
+      ]
+    },
+    "196:954": {
+      "repository_source_sha256": "04bfe36a9e98408bd83c7ef58b7a5d83da81058d28134ab908afeef415b80630",
+      "en": "「Double Buster\\nCollider!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1001": {
+      "repository_source_sha256": "f4fa10a51856e1b32d68139183e14516b76878ec428e7559365623aad715a4a0",
+      "en": "「Buster Tomahawk!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "196:1040": {
+      "repository_source_sha256": "55804b428df0ee0bb185d78bdb54091cebbf465aa56f6b4cf7aac4e94a996e23",
+      "en": "「Buster Hooome Run!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1077": {
+      "repository_source_sha256": "a9c5f80d9b694f0d4e035586ec240225e2e982fd60816954f0beb9bf4c16b1b9",
+      "en": "「Oh no...」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "196:1094": {
+      "repository_source_sha256": "7fdcb07a342b2c177ee245a312571e106e921388b6843165fc987466b298fa74",
+      "en": "「I won't let you escape again!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "196:1119": {
+      "repository_source_sha256": "70d8d86851338a79ab29030b83070c54b13ffac584bbed49760069c75d75a4b9",
+      "en": "「Big Sis, I'm going to use that.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1146": {
+      "repository_source_sha256": "1cbdae95361b77ac20cd3acce36e01618e2bdf056153b22076d011d8437702ff",
+      "en": "「Yes, go right ahead.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1167": {
+      "repository_source_sha256": "0d5f07b9094a71104d3b6de61254aafc7863fc6c638b32cb3b849cd3c13d3062",
+      "en": "「Super!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1182": {
+      "repository_source_sha256": "be7f82bae5f6690c6a9880833b3e512dee00786f1e0d53b12b05dbc3b46eac2d",
+      "en": "「Lightning!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1197": {
+      "repository_source_sha256": "4c6989e2c1ccfc813b4dbf7f7818af6d73db96ae26fa7de1851f946ec7fac091",
+      "en": "「Kiiiiiick!!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1224": {
+      "repository_source_sha256": "7e2c111556387221e4516d5de6787652890b1cc7378b132fd3cab40df83a04f2",
+      "en": "「Guuuun! Buuus! Teeeer!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1271": {
+      "repository_source_sha256": "28dfb401e56727d38761e95a45b38cec01cafda9e6857aabae7c05142eee24b4",
+      "en": "「No! Miracles happen! I'll make one!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)"
+      ]
+    },
+    "196:1322": {
+      "repository_source_sha256": "9219a52baf28c61532358abb0a908274d08f38017d7669063ecf470d4b25eb6a",
+      "en": "「Of course! All together now!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1353": {
+      "repository_source_sha256": "0f462ed57ebfd48547921b3723cb3ccf8b3a02bdf417cc7cb355d79ddbf55a6d",
+      "en": "「Of course!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1374": {
+      "repository_source_sha256": "629fa5bcfcca4747206f8d9c567760dc14d855c7e2f4e6a33f24ded49aceb4ed",
+      "en": "「Wait, that's not it... Everyone, thank you for your hard work. Please rest up!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1441": {
+      "repository_source_sha256": "9058966d33153ce54f62cfddb6576de3d8ca890c1ffe803a5e59ebccce147b0d",
+      "en": "「Huh!?」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1452": {
+      "repository_source_sha256": "379b6c7464a13b495a30407d4abb79c1ed9b814cbfe130114baf637432b21af9",
+      "en": "「I'll never, ever forgive you!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1475": {
+      "repository_source_sha256": "02914bf18f92bf3715a2c65af83f147f65e3c42243eb2f94d8d619825402aae8",
+      "en": "「Hard to aim...!\\nIt's too fast...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1522": {
+      "repository_source_sha256": "5f688b55dfbd15fe28cbda7be56eeec5ccc35ed6e34487fc3948239ef9ee8b2c",
+      "en": "「Prepare, monster!\\nFace $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1579": {
+      "repository_source_sha256": "2104cb0fabe6963481974cabe4d6114b276e2bb5733969871c4dc01063424fc4",
+      "en": "「You won't reach Earth! Never!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1618": {
+      "repository_source_sha256": "d3a55bbed9de682da1a60d75d4ca62cdbfd070366f28e567c6fa8188f5f9d6ef",
+      "en": "「Not to you...\\nOur future is ours!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1667": {
+      "repository_source_sha256": "dcdeffab4c60e49ef78b7df84f413c1ae12d885d9865c1659bfda0c3a37e3cbb",
+      "en": "「A miracle...\\nI'll make it happen!!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1716": {
+      "repository_source_sha256": "a6b9a8948e74e07053ce4fe61610e170e95c1f64aeb310ad0a2a3111543c15b3",
+      "en": "「I promised!\\nBeat you and go home!!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:1791": {
+      "repository_source_sha256": "82f2aee3449fae46e424975302ef24bb27cf59269474dacfd657213ea9b3f006",
+      "en": "「Here we go! Buster Missile!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ]
+    },
+    "196:1830": {
+      "repository_source_sha256": "05b89ce992b841704c237a107c46654c12778e6ef1ffc681c2c4a01c610f7a36",
+      "en": "「Now feel\\nGunbuster's true power!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "196:1895": {
+      "repository_source_sha256": "86846b8d1696f255734ff5c9c0cfcb0373ab055fcea816103e3ca0398eac9c10",
+      "en": "「To the galaxy's backscreen...\\nFly awaaay!!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:1950": {
+      "repository_source_sha256": "420362a27e128624c28685e3c7e4aa2bd5e1280f05bffb502ac690519559e52a",
+      "en": "「I'll never flinch!\\nRight, $$コーチ$$?」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:2001": {
+      "repository_source_sha256": "acb842b993420b4302be71e48a097d3b5704af8fb8058c1dc10fa01a541ef715",
+      "en": "「If that's your move, here's mine!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:2036": {
+      "repository_source_sha256": "3584acd50c51d6e2990341efed8e95399117bef87a244df9606810ea0c928f0f",
+      "en": "「I won't let you go any further!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:2063": {
+      "repository_source_sha256": "a22d01d68e8a820b62cf500e91f836fe81fbef79d368bfc75e35f7dd0977aafd",
+      "en": "「I'm not backing down here!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:2100": {
+      "repository_source_sha256": "8ae38269a6d7632d997949dbdadca2abc4af14bcddaee66c23734a572db04e6e",
+      "en": "「I can still go on!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:2119": {
+      "repository_source_sha256": "16ecbd7471f337e439f98a19763233592e4deaa5153fcec7aa082108b14a64a4",
+      "en": "「I can't let myself fall behind!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:2156": {
+      "repository_source_sha256": "459fc0b11ef917e3c631b146c323e43523ae4626d5abfe7a354160776dd97353",
+      "en": "「I won't give up! I can still fight!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:2187": {
+      "repository_source_sha256": "ad332670518bc3ec45bba99758ffadde2b948f0415adce1d503629b4a065ebe8",
+      "en": "「$$ガンバスター$$'s still here!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:2224": {
+      "repository_source_sha256": "380e2d197b1b2b31ddac4bcfca8cd83241763975fb2d823264adbe6cd6f62a8a",
+      "en": "「$$ガンバスター$$ can protect it!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:2253": {
+      "repository_source_sha256": "f83df83873e550f737ef172d83d98e74226dc31d5e16e60ea421dc3dcef7259d",
+      "en": "「I'll protect it to the end!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:2276": {
+      "repository_source_sha256": "bfb7c23d32572063821aad94d23e6c5515b7b91436085e2515ad7887dc1ae8f0",
+      "en": "「Hold it right there!!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:2303": {
+      "repository_source_sha256": "eb2c4c1d51209e1c17032a7077da7f179b1acc7ef216114d70ea929c82c1b6e1",
+      "en": "「I won't let you! Never!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:2332": {
+      "repository_source_sha256": "bca380aefb69c3b49d088986004570381521c2f148a2509c05f3fd0fcbe71941",
+      "en": "「I'm not the same\\nas I once was!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:2377": {
+      "repository_source_sha256": "34aab9d37c3c6707d2c090cafe9b360b22b328c7a9eea1680d1d090edea5e7fd",
+      "en": "「However many come,\\nI won't lose!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:2424": {
+      "repository_source_sha256": "9919adfcde9f557661625b1d33e7d500ecec0842627b807874e6e7b84e83d30d",
+      "en": "「That didn't hurt!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "196:2445": {
+      "repository_source_sha256": "577b2486610b17a4d57b220d68d97659cd50a322bd87abb38bf43a23a892432d",
+      "en": "「That won't\\nscratch $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "196:2510": {
+      "repository_source_sha256": "505f4a497e6217604fd4a52c7535b6a2f679fef8585ba3a82993a33d98125459",
+      "en": "「Useless! It's useless!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block",
+        "no damage"
+      ]
+    },
+    "196:2533": {
+      "repository_source_sha256": "71f8aaf7b0504391d33ef77bbe542bfe15044bf6dd0ef8aabd2551945376e061",
+      "en": "「Buster Alloy\\nwon't budge from that!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:2588": {
+      "repository_source_sha256": "1603b3d3ff2e9d77d580c149ed53ecaba5c58cfc445a61301b5f3463cde23646",
+      "en": "「No space monster\\nwill defeat me!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:2637": {
+      "repository_source_sha256": "286e34595c2ac08e951b2623ed6997c48441328c7a799c82eb27dcd0a83f725b",
+      "en": "「Space monsters...!\\nThey picked me!?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:2690": {
+      "repository_source_sha256": "deb38bde6d1f75c6e36bfe6087235dcdf11dfeecfcc7b5621de9d45f0735a4c0",
+      "en": "「Watched the screen,\\nso I got hit...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:2753": {
+      "repository_source_sha256": "8678c8113abe03bf847c94872ad2e765ccae6d4ab205ea3f6da824d3fbe2952a",
+      "en": "「I won't let hope's flame go out!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:2784": {
+      "repository_source_sha256": "3f0cc1bf7f7e884158d3e33e94d8561ef5e7303f162e479eafc63d0c7204a315",
+      "en": "「Ghk! It's stronger than before!?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:2825": {
+      "repository_source_sha256": "d1cc2dffd03dcee744c53cb731e5a0b83384d7b985ced564f98f76127b4dfcca",
+      "en": "「If I lose,\\nmy training is wasted!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:2882": {
+      "repository_source_sha256": "84c9a44dc2dc0faba62593072af90f8d5f2985b585b90fd7ccad3dfc22945d74",
+      "en": "「Ngh! We absolutely\\nhave to win!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:2941": {
+      "repository_source_sha256": "61c197a9993bfe063085834aff4e99380a12a304c51a0c0b3a7d39e4c956563d",
+      "en": "「Papa...! Please protect me...!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:2976": {
+      "repository_source_sha256": "916653384add104eeb1976c8df23739a5527c6de396038913ce4882ccc7babe2",
+      "en": "「I-If it comes to that, I'll ram it!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:3017": {
+      "repository_source_sha256": "21a6c36c6f3f3aa590a2abd4872c5279cfc6dcbbfd8b29c971a527761e29baca",
+      "en": "「As expected of space monsters...!\\nThey're no easy win!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3070": {
+      "repository_source_sha256": "6b6a78ac778a4375d977509099dec4c47e045a6bcfaea0f25132ed2bd3b5993c",
+      "en": "「Big Sis! I'm finishing this!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3103": {
+      "repository_source_sha256": "1764c89e18726aacd41ad8cf4d65ed32d6c81f792445d3ab602c61b2fc8ec6de",
+      "en": "「Understood! I'll strike first!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3138": {
+      "repository_source_sha256": "420c3989932aafb0b6bd9dcc81fca37cc2233949b0ec677b1de3e10b3e2262ac",
+      "en": "「Yes! Watch me,\\nBig Sis, $$コーチ$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3191": {
+      "repository_source_sha256": "b6a55b78089a157e453c787b04bc722a98138a7586a55a9cf4dbfbc9d726bc3f",
+      "en": "「Yes! Big Sis!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3214": {
+      "repository_source_sha256": "cf0a0c469413a88137876ad0ee7b09750b8c1d29f11b4e5c11da17c9cd990f56",
+      "en": "「Understood! Gunbuster annihilates!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3253": {
+      "repository_source_sha256": "ff85d13900e73b2541e0e20b86d8cea538c147f34a18ae6255d036104ae6a20c",
+      "en": "「Yes! Now we become flame!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3296": {
+      "repository_source_sha256": "a07b2cadb5c968ce0e556268b7f978403a327b1e664ea45d318b049ec0bae203",
+      "en": "「Big Sis, the time for that has come!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3339": {
+      "repository_source_sha256": "4b8ea532b2d23d4a945581e515d59c504a35f40d184857f167d05ceab81a8536",
+      "en": "「Yes! I'll finish it in one blow!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3378": {
+      "repository_source_sha256": "d5a9b1e613b298d159b31068b9e3fd0bd136c3360ab0ec1d2a15ee1012633e07",
+      "en": "「Exactly! So don't get in my way!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3419": {
+      "repository_source_sha256": "da851c3fd99fbef5fb66d57d5157613459f843cb17e32db471abb17cee448457",
+      "en": "「A face punch for every one of you!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3460": {
+      "repository_source_sha256": "ea93e69bd39219d742fc61edba372cf64fec6a3e09917604d54c825d5d945949",
+      "en": "「This is no time for people\\nto fight each other...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3511": {
+      "repository_source_sha256": "9a930cf6847dddcbe740a8dd63322b8f963c014f6a90ca1821046aa3c061496e",
+      "en": "「Good versus evil Super Robots!\\nI can't lose!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3568": {
+      "repository_source_sha256": "a22a59351e47aa7085c27f305415560cb841d4a3bd49b7f5b166e17689c35420",
+      "en": "「It's fast! Where do I aim!?」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3603": {
+      "repository_source_sha256": "a5f5b79f9e8b5b8157237555617452da6e137e1e8633d00a77e293d36b851026",
+      "en": "「The enemy is a Gundam!\\nWhat do I do, Big Sis!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3654": {
+      "repository_source_sha256": "506986682755af1f308f3eeb561c76c5676444b8fb43493ede145260c82adc07",
+      "en": "「No matter the foe,\\nwe and $$ガンバスター$$ won't lose!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3713": {
+      "repository_source_sha256": "70053297b6864ad6a318f0d1149a285f2de71176f464c147b0ec5af90b26b38a",
+      "en": "「And those flames\\nwill burn up every enemy!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3762": {
+      "repository_source_sha256": "e7b6fbd1fe86ab50f369c4ad9d01729fc24c25fcf826bf2d6a48008f594c3791",
+      "en": "「Buster! Home Run!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:3801": {
+      "repository_source_sha256": "782c3441e3bdf5617180fe745d93010b7617ce746e16db17e1d567ee8e741f81",
+      "en": "「You won't get away free!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3822": {
+      "repository_source_sha256": "9855acbd95652c51cc8d1c0a79242f9aeccb9a3909fdde269085c8e3c2745ccc",
+      "en": "「How dare you!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3845": {
+      "repository_source_sha256": "15a1621cf1a32914ba0909862d2d15fd9152ab2b7c96ff4e6aa632d955cbe2da",
+      "en": "「Yes! Here I go, Big Sis!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3878": {
+      "repository_source_sha256": "eccbf1e57b969bcbfbd08d46280718cc9b7d1231df18b16de1fb1dc820d596f0",
+      "en": "「I'm betting on this chance!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3907": {
+      "repository_source_sha256": "ee478c74267d911ff4e6150761654e17b4237456ab35da063d2a9999fabee543",
+      "en": "「Yes! I'll hit back and finish you!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:3944": {
+      "repository_source_sha256": "8e93527daacedc04df1eafea5d807c60cf9dd236e8730276fdb58271f90a2f09",
+      "en": "「Yes!\\nI'll overcome any adversity!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:3995": {
+      "repository_source_sha256": "eaf052f2c2eab5cdc35fe52572b5ed8d6fc5d313686ff16c8a6423e57a27cf1b",
+      "en": "「Busteeer...!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4014": {
+      "repository_source_sha256": "3d2c4b8479d4d11473f1ef4de5c5bda6a5a58133867fc39f49ef3daac1d329c7",
+      "en": "「Lost the target!?」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4037": {
+      "repository_source_sha256": "fd19e02359d1fe4bd01a22b50aa0e5fa29c63b29f2357c86bb20ab0004161fd6",
+      "en": "「No, not yet!\\nI should be able to go way faster!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4096": {
+      "repository_source_sha256": "b99332d4e46d7676ea2f3caf302d23ccae9e47204efb69c2a6d8a1032ce4fa40",
+      "en": "「$$ガンバスター$$ is\\nno ordinary machine!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4145": {
+      "repository_source_sha256": "cb1185b53162f23f81afca9b3458d2e198540933b42660f4fa499ffdc465e290",
+      "en": "「I won't waste $$コーチ$$'s training!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4188": {
+      "repository_source_sha256": "c152c4656dcaada9e04cb14e6865225338a1ecb0638ea9f5a1a1f7bbc2a003c2",
+      "en": "「$$コーチ$$'s teachings\\nstill live on inside me!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4241": {
+      "repository_source_sha256": "adaa8656ea89e32105056125dd2ec0879c4011a906da5e6e4bde7de0a5a5d131",
+      "en": "「I did it...! Faster than before!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4280": {
+      "repository_source_sha256": "94094a1cf4bbdf0a85ea8aba5c80f4cee536bd92234277f726a43dd9ad26e5c2",
+      "en": "「I absolutely can't\\nlose to the $$宇宙怪獣$$!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4335": {
+      "repository_source_sha256": "1963af6782dfeba31b0bc77001c951fa40326e1b9f7c164252e2c287cf19a144",
+      "en": "「We're invincible!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4356": {
+      "repository_source_sha256": "039d5855b7034f916325da5370e87aae9ed974071c2f18eb4342388cc708751a",
+      "en": "「With damage this light,\\nit shouldn't be a problem!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4407": {
+      "repository_source_sha256": "85a30ad260a717eedca010394ade6dacda60b29d1415314bf066808b24e7e53e",
+      "en": "「I can't shake the enemy off...!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4432": {
+      "repository_source_sha256": "48749ec8b66ef7edfb65623fa67bdacd2a3a4985cfd1da8776a0ad94c771c95d",
+      "en": "「Yes!\\nThat doesn't even count as damage!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4481": {
+      "repository_source_sha256": "3e2463a7a6fd343d76fb30ef76f8997b7fda1c3d40b4c4a017e0469ab9748b62",
+      "en": "「As expected of $$ガンバスター$$!\\nBut I'll dodge the next one!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4540": {
+      "repository_source_sha256": "31f52ed676326d8faeb0c197bc458ef7b2c9fa0f0a45ff0c080ae7c1be14f2c8",
+      "en": "「In that case,\\nI'll lure the enemy with $$ガンバスター$$!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:4591": {
+      "repository_source_sha256": "49af0cf6b99f70a0f48ad03b6833de5401056bbe70b3e76bac8301349f624a2c",
+      "en": "「I never imagined that.」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4616": {
+      "repository_source_sha256": "8dc6e621676b017f66bea8d9fc98b18913fff1da3a7d14abdf335cfe784cdb73",
+      "en": "「I know!\\nI'll always keep looking forward!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4673": {
+      "repository_source_sha256": "b86c8aebc0b558c77ccfc5365dfb2eef1daa107456074237ef7ced5247bf797c",
+      "en": "「$$ガンバスター$$ accepts that challenge!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4716": {
+      "repository_source_sha256": "f809e22a9fc2c5a0dad86a9e2e98b36ffbccb91f886b7fd79dd7792f62b4197d",
+      "en": "「A pinch this size\\nisn't even a pinch!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4769": {
+      "repository_source_sha256": "b4e5e12a3b3113a00d66e8dc7dc694ae674f9d5664e00deb20178cb0f2d0d2c9",
+      "en": "「My moves were read...!?」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4802": {
+      "repository_source_sha256": "90f39defb4f74fd8dfc53f4c11f8dcfda5c3058d6e5357bca00f5b56946b3815",
+      "en": "「That monster's unlike the others...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4843": {
+      "repository_source_sha256": "e805f0cb2da421d1f64abd564fdade5cba472916dfe4936d46d7852f2b992283",
+      "en": "「Effort and guts! And if that fails,\\nI'll push back with spirit and fire!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4914": {
+      "repository_source_sha256": "cda75d900c4850f8264b2b46ac05258361bcc011403402fd62bd0cb6a15d8994",
+      "en": "「Give up and it's over!\\nThere's still something I can do!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:4965": {
+      "repository_source_sha256": "ca68aa824622c1d26fdbd0ead5d21e13f0d9bb001cac791fbc42f2ad7a194bf8",
+      "en": "「No way...!\\n$$ガンバスター$$ is being pushed back!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:5014": {
+      "repository_source_sha256": "b36be38460fc3242ee81da618458f016a073ae52ef7e336f1371d1682005bce8",
+      "en": "「I can't lose!\\nAnd for everyone who believes in me!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:5071": {
+      "repository_source_sha256": "f7e0cfe2ff592e3f5e243ea56aa7e85de0af3ec2c71f03b02354e549e6a6bfdd",
+      "en": "「Big Sis...!\\nI'll... fight to the end!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:5122": {
+      "repository_source_sha256": "7977360131cf764049481008252558b0c08e129baf609b09d8d1d671ce59ef46",
+      "en": "「In a place like this, $$ガンバスター$$...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:5159": {
+      "repository_source_sha256": "57dee7062d5ed482fd62eaa85a65c2c794e7e115e9acd12786f8cd1563b21f07",
+      "en": "「SRW Z3! Strategy Class!」",
+      "source": "jigoku",
+      "slots": [
+        "system/suspend message (?)"
+      ]
+    },
+    "196:5208": {
+      "repository_source_sha256": "85278bdf58b8cbf3f88bfd3abd4db6f604e37e3343cb2e02d43dc255c873e9ce",
+      "en": "「Hiya! $$タカヤ$$ here!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5237": {
+      "repository_source_sha256": "f07d5029f1085825fa16fb67d7c86fea014fa16baa3f14324c1c2423c672e81e",
+      "en": "「They're points you earn by defeating enemies or taking certain actions in a scenario, and you can buy all kinds of things with them at the intermission $$Ｄトレーダー$$!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5368": {
+      "repository_source_sha256": "f36af82155d4934ac988104cea7ff09ee39d88495429d6d5569092d161d92ac1",
+      "en": "「Wh-what, ehh?! Aw, no way...!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5401": {
+      "repository_source_sha256": "4fc95669cdc545ee724a5882d32cac787b3487663f1d76bb09c655f63bea5d9b",
+      "en": "「Bye-bye!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5418": {
+      "repository_source_sha256": "9cd11a5ec8b9054fab8c957a967f043f6e737fc6a07a2ab85444380688664c36",
+      "en": "「Oh! It's a postcard! More people send email entries these days, so that makes me happy!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5495": {
+      "repository_source_sha256": "f1b52c7082511b179eb959141a5420c50591edb48c22a17c0d65a30b0517e647",
+      "en": "「I send my entries on postcards whenever I can, too! I think your own handwriting really shows the effort and guts you put into a letter!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5624": {
+      "repository_source_sha256": "a8f36afcfb73541df673780702bcc60f59b2e56491ba93fd015f6229cfbfa134",
+      "en": "「And you can draw illustrations, too!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5661": {
+      "repository_source_sha256": "b854c1f3c966a8e591d295e54f5e329433cbd8e7076edd01de80ad2e65e6d2af",
+      "en": "「Awww! But I still have so much I want to talk about!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5708": {
+      "repository_source_sha256": "0da6e53d11cd745102e64997ec4f4b0803a04a695436fc991fb5e78de97a1dec",
+      "en": "「It's the $$次元力$$ activation system that affects the whole unit. And you can power it up in all sorts of ways with $$Ｚチップ$$s!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:5805": {
+      "repository_source_sha256": "250de0062a2cddba4b8bf33a2385bf02f9bb980864feb3b0037e7cabe1456c46",
+      "en": "「I'll do Big Sis's share, too...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:5846": {
+      "repository_source_sha256": "d4d57b5808cf8e06b94a2b022171dc69c9ba39e811db167b8ff84996c637a762",
+      "en": "「Feel, think,\\nlet your heart decide!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "196:5903": {
+      "repository_source_sha256": "f1eeb8414a860e1a7d1094cfb103a0b48eeb1b947de41b624c125782fb4e2a0b",
+      "en": "「See, think...\\nthen your body acts!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "196:5962": {
+      "repository_source_sha256": "054ba54cc9eb6dc9013cc4840408f0d56bc316ea0229619a3610707c3e9141d3",
+      "en": "「It's okay...! You can do it, $$ノリコ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "196:6001": {
+      "repository_source_sha256": "c44a1cdd53b6991e1de3d86f50cb4c1ecc142944ddcdc344042a8cc6b06c1383",
+      "en": "「Lend me your power, $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "196:6034": {
+      "repository_source_sha256": "6dda2c727755c180fdc0f204ba9e78a3a19194038007c6be39b6fc87f8f29f0f",
+      "en": "「I'm $$ガンバスター$$'s pilot.\\nI'll do it!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "196:6097": {
+      "repository_source_sha256": "d2de257fa1e4abf9bbf0e4b9bf4c42bd5cd2f1b046a674ebcc33c59bd5028b98",
+      "en": "「All right, I'll give it a try!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6124": {
+      "repository_source_sha256": "9315a0e80c0dd8a9fa7819a14803389c10efca5b1b97fe5cd8d729d76d17219c",
+      "en": "「This is a fight I can't lose...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6165": {
+      "repository_source_sha256": "a9fbf4bd2148bd763c3ee715ce147057529685e24dceef42eb3a55c3589155ab",
+      "en": "「Time to show off my training!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6202": {
+      "repository_source_sha256": "d6a5dec26147e93d01f9ebf0636c9006a3112a647e5a80f169c2bc971592d429",
+      "en": "「$$ガンバスター$$, here we go!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6231": {
+      "repository_source_sha256": "bc2132da5d0bc3b675c7712cf17899cc86e7ac2b4fa73ee115a74a959e2195e0",
+      "en": "「Space belongs to all.\\nI'll guard it!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6280": {
+      "repository_source_sha256": "eed91ac45d416c9a8bcb1454c9b30165fcf23153db4afdd30776630a73b4eb14",
+      "en": "「I bet our future on $$ガンバスター$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:6323": {
+      "repository_source_sha256": "35fd747e3137968b0f9b297b22431938641b0607b1dfd8062de81bbc791d776e",
+      "en": "「With Big Sis, nothing scares me...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:6366": {
+      "repository_source_sha256": "b8f10853306f376de1f5b724e7e9a343e045b53cd04b3ea2f03f03cdcc222ff2",
+      "en": "「Don't think the combined $$ガンバスター$$\\nis just a machine!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:6425": {
+      "repository_source_sha256": "c63d5575861a3256c2d5e67992820ed0900778cf5a5968a384dadeb09325c15a",
+      "en": "「I'm not stopping yet!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "196:6448": {
+      "repository_source_sha256": "41a37c42cf8833566293296dae6f29b3d006e295fb6f77f43b3365a46a20b8d8",
+      "en": "「This time, I'll finish it!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "196:6475": {
+      "repository_source_sha256": "bad9d3ec6638f36e012064b6114ae9e217778b09fbdb163068d97f5100b32357",
+      "en": "「Another chance! Once more!」",
+      "source": "jigoku",
+      "slots": [
+        "follow-up attack"
+      ]
+    },
+    "196:6504": {
+      "repository_source_sha256": "e45c86a32ed357706ed86306e2fa4645ae3415f506e1e23d2002d3654fc300d7",
+      "en": "「We have to stop the space monsters!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6539": {
+      "repository_source_sha256": "9c0dca34077459287a03e3b9d1b88ecd15c715878f0db52352380740768b1ca2",
+      "en": "「$$ガンバスター$$'s here\\nto crush monsters!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6592": {
+      "repository_source_sha256": "2296fff57b8ad02536b7afa94d6a0399c762e869b1cbdb4b4429a86b8431efe5",
+      "en": "「With $$ガンバスター$$,\\nno beast runs free!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6653": {
+      "repository_source_sha256": "cf5d30346146e80db05dd32aade910e957c574782b75bde347a40155ef804001",
+      "en": "「That's far enough, Fifteen-Face!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6682": {
+      "repository_source_sha256": "4aa36a4a0267158d2942e00330d22a5257f88f51131434b346387b18199cc4af",
+      "en": "「We never give up!\\nWe never despair!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6739": {
+      "repository_source_sha256": "242f3b4cecbf4b64ef99b7c70991f95d108bb569e98d341da932c2548a7fa352",
+      "en": "「I won't lose to a heartless robot!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6782": {
+      "repository_source_sha256": "274b96dbbad4bb5580afbfd2e0ae8f56ffb76f193326d810b7ffbb6c63083dbb",
+      "en": "「My effort and guts beat machines!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6819": {
+      "repository_source_sha256": "1e8cc7169f9bd0942a79ca7a7c05dc21d595f8edd81c7069597a55a5b8e0e7a8",
+      "en": "「Why are humans fighting each other?!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6852": {
+      "repository_source_sha256": "674c60432b0014a542f3bee53b61093918aa2c4c89d137bfe512219a1c27809a",
+      "en": "「Come at me,\\nand I'll give it my all!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6909": {
+      "repository_source_sha256": "fd789df840fea002c89d0f2fc35dfd6936fc9dd69fb5fc63cf025f5b5e3adee6",
+      "en": "「There you are, invader of Earth!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6946": {
+      "repository_source_sha256": "9bb9cd26d149aab7640fbffb6482bec5f02aca7c17caa56223a4f9e361cc73e2",
+      "en": "「Don't underestimate Earthlings!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:6975": {
+      "repository_source_sha256": "3453dffa1d976e2b053f33a698b5aca452e6a3c7151c784adcfb5e6b78676f59",
+      "en": "「For a monster, a finishing move!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7012": {
+      "repository_source_sha256": "a8ba0c23a882e6ed38fc2091b4a4c3f64817f38be276a650a8d185984095b643",
+      "en": "「$$タカヤ・ノリコ$$,\\nmonster duty calls!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7063": {
+      "repository_source_sha256": "a9ab1e87db0080751531b9c1d1097723cd5800e3320014db210dc1b0e2b422f4",
+      "en": "「Vicious monster!\\nFace $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7112": {
+      "repository_source_sha256": "863b40dd049cd0de29d148bba098d4f80b846cadca3f60823a541e1dc8705fa7",
+      "en": "「Space has enemies like these too...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7147": {
+      "repository_source_sha256": "27ede7bc5e72ea3013b28e14974f55dcb96febaaa609003aa4aef9a7fc01bfde",
+      "en": "「I'll drive you off with Nagoya Shot!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7176": {
+      "repository_source_sha256": "7c9376f13c7469765fa40f5186207483ecaa7b8ec71f8e73dba33512e87f79b1",
+      "en": "「Gundam vs. $$ガンバスター$$.\\nGuns blazing!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7225": {
+      "repository_source_sha256": "ca78a7236b3351604c1fae5b9e23eff3c11b223781e829607358160eb1651a07",
+      "en": "「To meet a Gundam like this...!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7266": {
+      "repository_source_sha256": "7ad3521c3bb957671e54c714f755ea422f9fa36b27175e91d3b4be573ecde844",
+      "en": "「I'll stop you before it's too late!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7307": {
+      "repository_source_sha256": "3ec770fd32beb6f82cc3f4417a34d8c0ab2d9bdcd78474718b4a470623423592",
+      "en": "「$$赤い彗星$$! I'll take you on!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7348": {
+      "repository_source_sha256": "18ad7aad9ad6947209cb1de36eca0f2f91ef3404c8b2ed50bd317ba27db33706",
+      "en": "「No mercy for an evil Super Robot!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7389": {
+      "repository_source_sha256": "d12be803c8d5b831d8ec1939a10a278f12b3d2c9e2fba91fac5ef5f27a74666a",
+      "en": "「$$ガンバスター$$ can fight you as an equal!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7424": {
+      "repository_source_sha256": "e34144cc60cd8e12cfd232ac9f8ebf26022dece694c35e46cf1417612e6f0a70",
+      "en": "「Speed won't deny me my chance!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7463": {
+      "repository_source_sha256": "aeebac2fb89f5dec2dd1d92ee91156ca44c375e0a97bbe5f7bb666a58c6ed351",
+      "en": "「I'll win before you get close!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7498": {
+      "repository_source_sha256": "bb8356803347fd38ed74c61d4c34d6e100dbc04b123933770e72856066f5f2a0",
+      "en": "「Target: enemy warship! No escape!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7539": {
+      "repository_source_sha256": "02397657ef9c589c3b8480c1a2c70d9319210625eb90ffeb4160887b6b2b429e",
+      "en": "「Concentrate all fire on their ship!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7572": {
+      "repository_source_sha256": "8cee0417d87edcc38c01aedc012c52d5642ab5d9275505bbebb7291c3def9e0a",
+      "en": "「We'll decide our world's future!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7613": {
+      "repository_source_sha256": "f51fe6980106bcabde62db7061341cabea6878c07cca304977e44ed2802124a7",
+      "en": "「Your ideal\\nbrings others misery!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7666": {
+      "repository_source_sha256": "5878ed4fc074a388ac8d8d2a2b922a70d662b9300959e8bfdf502186d57564d3",
+      "en": "「Earth and us!\\nGunbuster's mission!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7723": {
+      "repository_source_sha256": "f37df1df05c91d7fccc8fa9ae06fdf8b5e97c911530fb3106281fb3b08b36750",
+      "en": "「I'll crush all enemies of peace!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7766": {
+      "repository_source_sha256": "ed1070db8b5fb3c7e9637e7f1c2a328f3d04409abfe9938952ebd27fad59cd67",
+      "en": "「This is the only way right now!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7795": {
+      "repository_source_sha256": "104f344e28837c4649f5062f6970c6d1b5d3e9bdda1cbabb8682ee034c853241",
+      "en": "「I'm sorry! Please bear with this!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:7838": {
+      "repository_source_sha256": "f12c83a6f72574900e38bc587fce6238581bd04d4db3b6da274a9fe28e3cb2b4",
+      "en": "「Your free rein on Earth ends today!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:7877": {
+      "repository_source_sha256": "a2e7030c186095991b2ef475c6f1e225d7278598f0f1520def6c777756c85492",
+      "en": "「I'll never lose to people\\nwho would rule others!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:7928": {
+      "repository_source_sha256": "d84b255f2b285ac2b479cbaa14cca81ebf9f6ffc95d252c2ff0450c799b67912",
+      "en": "「It's your $$スフィア$$ against\\nmy guts!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:7979": {
+      "repository_source_sha256": "d024414c3a9a0565417e624907fc5ba822f5a5d272ca02c6dde72da8bad0d3c6",
+      "en": "「I won't lose to someone who\\ndoesn't know how to use power!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:8032": {
+      "repository_source_sha256": "156f9f26b89127100713903b3642d1531433fc79457a683eb72cee47ec065b52",
+      "en": "「Even if you're immortal,\\nI won't give up!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:8083": {
+      "repository_source_sha256": "7389a8864e83f58116be0c313799c1069bfd35d412d463348c56d061be9562b9",
+      "en": "「This universe's future!\\nI'm taking it back from you!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:8136": {
+      "repository_source_sha256": "ff2568805d435a25ad00d43cc515daf3ef00c341865765b4c5e4d788c47103a5",
+      "en": "「My effort and guts\\nwill surely defeat you all!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:8195": {
+      "repository_source_sha256": "84556cf5addbee8ac80b8473d59b8ef666aca1ca4438f60ff7f711e8989d4276",
+      "en": "「Take careful aiiim...!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "196:8220": {
+      "repository_source_sha256": "29b371a87df0f9275dbc5d741c86d1214c83ef9248e4f6c964a81837588582af",
+      "en": "「At long range, use this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "196:8245": {
+      "repository_source_sha256": "fea9e965b4e4b91211296063d2e29fd97d4ccbb7b00de0ab9a6bc6305002b8cd",
+      "en": "「No matter how far away you are!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "196:8274": {
+      "repository_source_sha256": "e772de523a45edad1d183b7cb6509e09c736a9c2556ebe85de4148b0457561e6",
+      "en": "「I'll hit you at full power!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "196:8301": {
+      "repository_source_sha256": "ea4cf3f0ed7cff31e743ca94979a1e3739127d54e26744597586269b1206cc9a",
+      "en": "「With $$ガンバスター$$'s power!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "196:8332": {
+      "repository_source_sha256": "b5e3de51ad7e6d63bf6c460697ea9bc57dca41e8b4d95c4a1b0e1994381c38af",
+      "en": "「Melee is an Oki Girls' tradition!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "196:8361": {
+      "repository_source_sha256": "6191861bfdb14d67593db6b9fd34d9ed81473b9ce1f7ce5a35694c8d50a4401c",
+      "en": "「I'll close the distance at once!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "196:8386": {
+      "repository_source_sha256": "4e4c1dc84a17bb98e9fbdb625d0f0d38612405a40399e3036b453d9c44681844",
+      "en": "「Lightning Kick!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "196:8423": {
+      "repository_source_sha256": "eca82fa95287828dd8a73b5a1923f90172607ec7958adf168d2f1950290e3f80",
+      "en": "「Finisher! Lightning Kick!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ]
+    },
+    "196:8456": {
+      "repository_source_sha256": "f34c52600b3bff5796189b151da071f5cfe9863293a90049a05d9d6a6d2077a3",
+      "en": "「This one shot sends you to hell!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:8483": {
+      "repository_source_sha256": "8ead02ec9731409128661fa719420c5b5e5f224beebe635b5fbbeff7ee52c794",
+      "en": "「Finisher! Buster Home Run!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:8516": {
+      "repository_source_sha256": "6945c6f7e740ea594247ef46b26558ecbed0d8d02234c450ffb5277cc8ac3509",
+      "en": "「Rooooooooar!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3",
+        "weapon slot 6"
+      ],
+      "alternatives": [
+        "Raaaaaaaagh!!",
+        "Raaaaaagh!!"
+      ],
+      "review": "same-speaker"
+    },
+    "196:8543": {
+      "repository_source_sha256": "772d58c8b242e03554b2167374b15541ceb5b46eab99dd134b9414e4da12f48e",
+      "en": "「Goooooooo!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3",
+        "weapon slot 6"
+      ]
+    },
+    "196:8570": {
+      "repository_source_sha256": "7e2bc962a81be07a98fa57f81eef876ff866c45c398a1c9de39fe1159ffaed73",
+      "en": "「Now I'm coming at you!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:8601": {
+      "repository_source_sha256": "c614bec161ad2eaf327b3b0e7ff613a99bb53b3b8f199c80c9a6addd7a776165",
+      "en": "「Now take this attack!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:8638": {
+      "repository_source_sha256": "df5af4a9d6aa4ab53bfab322191ec65f2a01c3f114da6ab71195af78d3081e73",
+      "en": "「Think you'll have your way? Wrong!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:8679": {
+      "repository_source_sha256": "63abbe1bca41dc5ed655ef0f49a167b03d07544f19fceb244ccc4180adaa8339",
+      "en": "「Here's my counterattack chance!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:8700": {
+      "repository_source_sha256": "4e858592de15f4b27394e7d3b91d0d86478d42f4f360f6afea7c9c1aa313a745",
+      "en": "「I absolutely won't let you escape!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:8731": {
+      "repository_source_sha256": "c27837579852016f7e5b4aceeb734bc5c0d12c0e0aa914f236f61bf479022535",
+      "en": "「Going second,\\nI can turn it around!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ]
+    },
+    "196:8782": {
+      "repository_source_sha256": "f407ad90bf815727b3ff99ab5222e42ef28a2db6a01c32a0bbed20c13ed7d4a6",
+      "en": "「This timing will work!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:8813": {
+      "repository_source_sha256": "71e3bc854c2d3d55cc3c17a7083290a4604c46a7fa74b5d7c94ce0c8a1593450",
+      "en": "「It isn't over yet!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:8842": {
+      "repository_source_sha256": "8a8605484fe69aad093a88dd747ebba095b44794f363e6a055c004acbeee60da",
+      "en": "「I won't lose to $$シモン$$'s spirit!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:8879": {
+      "repository_source_sha256": "62d0f37e7945e6845ec156e4de2cf38f6912072467ba77529f59ba9deaa8d990",
+      "en": "「Switch, $$シンジ$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:8902": {
+      "repository_source_sha256": "18c63e1395ba442d87fc8080eddb84d79af323c4947efcfcaab5c55ae15c7db9",
+      "en": "「I'll back up the EVA!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:8939": {
+      "repository_source_sha256": "4ffe71401e4de55332cc14294d55a539f7316568690f4c8d9e6a788b426f13ae",
+      "en": "「$$ゲッター$$'s leader!\\nI must learn too!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:8998": {
+      "repository_source_sha256": "6c3a874a2a04cd13d37357c99520755e2ec0161046a567ad8a66e794b4316047",
+      "en": "「I'll follow the $$ゲッター$$ Team!」",
+      "source": "jigoku",
+      "slots": [
+        "support attack"
+      ]
+    },
+    "196:9029": {
+      "repository_source_sha256": "77e287970445d0ba98436b9ad41450bec5bc1c01b6cba853b9b6e6099b96a5d9",
+      "en": "「$$ガンバスター$$, bear with it a little!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9066": {
+      "repository_source_sha256": "b2f99ebccfdc8cce4c6315a5b455101525f80f9e64a8398689cb9edeadc61859",
+      "en": "「$$ガンバスター$$'s power protects everyone!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9103": {
+      "repository_source_sha256": "6f814e195c240816492d11089460c6221bba9a44d2666c54f3c2233c630ebe24",
+      "en": "「Don't be reckless, $$シモン$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9132": {
+      "repository_source_sha256": "78ea735a004bb94150247f9188d95c53425140a04f682616e340088856433476",
+      "en": "「$$シンジ$$!\\nHide behind $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9181": {
+      "repository_source_sha256": "cdd678ac55da4ad2f0cb1a5dfb871afeef36c9ee8ae99a55e897e14369a01ea8",
+      "en": "「I won't let the EVA go down!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9214": {
+      "repository_source_sha256": "6951d9f582673e9dc5183f067c02a6c2d429b81d7cd8c987731a8afd4d129636",
+      "en": "「$$竜馬$$!\\nGunbuster will shield you!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9263": {
+      "repository_source_sha256": "d827ba3de5dd5d7f6b75e862cc01fcde6e74dd86436c3f069ea9d59cc825fc59",
+      "en": "「$$ガンバスター$$, protect $$ゲッター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "support defense (cover)"
+      ]
+    },
+    "196:9302": {
+      "repository_source_sha256": "d929dfa127283bb986d7cdc90fbcd4addf8868c2f6940939975657b4fda33dc0",
+      "en": "「We'll split up and attack!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "196:9329": {
+      "repository_source_sha256": "288286a96ba40e9ac01077bb7887627db9c7444c376a16e9b9d33cf857fdde09",
+      "en": "「We're commencing combat too!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "196:9360": {
+      "repository_source_sha256": "20ab361fdb68ea8a01f0676b0070e02ba370415f27e2a7d7d1f1b3887bc180cc",
+      "en": "「Your opponent is $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "196:9395": {
+      "repository_source_sha256": "ea4fbd63501854f74491c5b9c9ac2c960ae040299263f691f2ba9867756b2db4",
+      "en": "「One on one, fair and square!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: split targets (?)"
+      ]
+    },
+    "196:9426": {
+      "repository_source_sha256": "a5e2bf2b394605349a274c278ff50fa97f381435548cc697eac88312cd39086b",
+      "en": "「I'll go on ahead!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "196:9453": {
+      "repository_source_sha256": "c15effff25ea0130d759c57f5b90b6acfadaac088b2d3daa4d9074cc9db406ea",
+      "en": "「I'll suppress them with $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "196:9484": {
+      "repository_source_sha256": "a331c33fb92742d7db4f129a7a73cd3f78268418fb42ed30fbbb5e8e5577b67e",
+      "en": "「I'll draw the enemy away!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "196:9521": {
+      "repository_source_sha256": "c93da952f145672af9525c96957b431125077c79ca1c27ee4114f02e51e57e70",
+      "en": "「Let's combine our two machines!」",
+      "source": "jigoku",
+      "slots": [
+        "team attack: focus/hold (?)"
+      ]
+    },
+    "196:9564": {
+      "repository_source_sha256": "018c226fcdc48ddb02fa35f0328b52e4470d7d45ed36a5649383a7490d01c9d2",
+      "en": "「I can't counterattack...!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "196:9591": {
+      "repository_source_sha256": "2496c27cd97fe69c05fcc47d1b3d7fdb697d992cccaf7d537bc3e5566f6b297c",
+      "en": "「At this rate, they'll get me soon!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ]
+    },
+    "196:9632": {
+      "repository_source_sha256": "9c13926b02fcbf54d32b36d26d639530ad29882339a731f9dd960948152dac89",
+      "en": "「Oh no...!\\nI need resupply to fight!」",
+      "source": "jigoku",
+      "slots": [
+        "out of EN/ammo"
+      ]
+    },
+    "196:9681": {
+      "repository_source_sha256": "1ce990cd3e9b5a05c9e87ca016f7af9abe67baa081af4aa1b83035fca4bf3785",
+      "en": "「Oh no...! They got in my blind spot!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "196:9724": {
+      "repository_source_sha256": "c7094cfec80023470ca8379c72d3e44de378bcdba7982b28664e487b8bf9b641",
+      "en": "「No! I can't counter from here!」",
+      "source": "jigoku",
+      "slots": [
+        "out of range (?)"
+      ]
+    },
+    "196:9763": {
+      "repository_source_sha256": "4508f74b818fdaf24aaafe21a3fc518ec943224243a7907ac1449732052d83b4",
+      "en": "「I'm right here!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:9784": {
+      "repository_source_sha256": "4d4be6292a580bcc105368caf2715b5ac9a284c0850e1296182d5eea397225dc",
+      "en": "「I can handle this much too!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:9817": {
+      "repository_source_sha256": "3202075322be90573bc80b7d41081baef82a1b5cc2921e6a8bf09c1e3952e7eb",
+      "en": "「I'll protect $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:9852": {
+      "repository_source_sha256": "c4117e237bb6bf98ead3e9d47c511b52b7317cadf4b838a44631240b2b481bdc",
+      "en": "「Let their attack come in close...!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:9895": {
+      "repository_source_sha256": "760c6e28940e11f94c1a76ef5660daf4dc4417a14dfedac81babdcddefaae0e5",
+      "en": "「Don't doubt $$ガンバスター$$'s\\nmobility!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:9944": {
+      "repository_source_sha256": "255296717d7711912568c58463e4b7761162e000e3e56e07ff416b415bcff7b9",
+      "en": "「I already predicted that attack!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:9973": {
+      "repository_source_sha256": "250ec8ed1fa8d3a317eb73a3cb9610264a4fbde54a6f74e7c1980b4c829afec9",
+      "en": "「Yes! I can track the space monsters!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "196:10016": {
+      "repository_source_sha256": "2eb48bc072345d3660792163bfc0492d2c357783153da515e65ba1f781d93239",
+      "en": "「Barrier, deploy!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "196:10033": {
+      "repository_source_sha256": "05d661da2c9d37c94541d8cf02344fbb891959c92c2a805297e27a03b870a02d",
+      "en": "「That can't break my barrier!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "196:10074": {
+      "repository_source_sha256": "d360ffd7a560a0d9803f52d471fc118f7120369ee1b634d283e0a690537c1edf",
+      "en": "「Inertial Canceller!\\nDeflect it!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "196:10125": {
+      "repository_source_sha256": "d801b1df6f9e8ee0dc0363d3aa9da134598e9cfaab9f9997fbaf3f42f4a2d21c",
+      "en": "「Inertial Canceller, full power!」",
+      "source": "jigoku",
+      "slots": [
+        "barrier/field block"
+      ]
+    },
+    "196:10162": {
+      "repository_source_sha256": "d363992c27060006e6086e36c00ed21956215c25d4cb7c4063cc90a078ee5c68",
+      "en": "「I have to avoid a direct hit...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10193": {
+      "repository_source_sha256": "c684d2e6caa3947c7da7027a4dcdc6311eed4739bde2d02ebea22a6c0ab5d898",
+      "en": "「Take the hit, $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10224": {
+      "repository_source_sha256": "d40cbd61e088fb6e564eac0889670de4166ee4a5305baf8893afe71063f5cd97",
+      "en": "「I'll beat this damage with guts!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10259": {
+      "repository_source_sha256": "bbefb3ce410b85be2995f76df14f69e1b2b42188e3f8849b8fa29775abac8315",
+      "en": "「$$ガンバスター$$ and I\\nfear no pain!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10310": {
+      "repository_source_sha256": "1369e5c4f30681c9d8b45baf1088a85ab41aac9f4063b80f5eb0f5c745b8f446",
+      "en": "「I'll focus on attacking now!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10335": {
+      "repository_source_sha256": "3315619cff46dd155e4f53685481e9bad9fe0868c97ed514768d563adc6efc77",
+      "en": "「I...! I'm not afraid to be hurt!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10376": {
+      "repository_source_sha256": "fc481ccb3739dd127876bc5903a30cc47ca08be19f3ffa376a92594aa8fc8069",
+      "en": "「I see its moves...!\\nNow just react!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10427": {
+      "repository_source_sha256": "bb60e9157aaadeb2851dc3296a9938fb673334aed27d4bb712b371f0cf9fb496",
+      "en": "「You're no match for $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10462": {
+      "repository_source_sha256": "ac90ec7f6ae2a15ad4a23b6d3e3b7479700392cfd90184b22b0d3be4fd16b68e",
+      "en": "「$$ガンバスター$$ won't\\nfall to monsters!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: light damage"
+      ]
+    },
+    "196:10513": {
+      "repository_source_sha256": "3aab9db22573e4b17d58d80cc8bbe58be20227280912e15142ce73400c08b252",
+      "en": "「$$ガンバスター$$, entrusted by Big Sis...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:10556": {
+      "repository_source_sha256": "69ba720aabecb293a5281c489e82e66388ba40ec8516feb141289ec1d73f40a1",
+      "en": "「Hold on, $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10583": {
+      "repository_source_sha256": "1bb10d90e4fa2cd75f3c664b8efb2b6823dfcd2d6c3f2f0122605ed5f00af614",
+      "en": "「I'll turn this around from here!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10614": {
+      "repository_source_sha256": "2d5d4ee6476d1f4130f37fe4f2a5407cc807a2ff96652464949719424f9de2c4",
+      "en": "「I can't react to their speed!?」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10649": {
+      "repository_source_sha256": "e826bd44c007157f793ae2489c7f682af2de2fb2ceae574fce58c80036c2b368",
+      "en": "「That's more damage than I thought...」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10684": {
+      "repository_source_sha256": "7c7f9409752d81cea183bd2e132be54b5f3cfce561a817befb03b2d351f41a81",
+      "en": "「The enemy's keeping up with us...!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10725": {
+      "repository_source_sha256": "daf676f3f65104544a4a59aa996d6aecb238ac502c67b997c35c7cdaa5647a6e",
+      "en": "「Not yet! The fight starts now!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10760": {
+      "repository_source_sha256": "92fa7ccd4262e27b141f392c84c86c8e1b9b40539907532836ca7a8459b99690",
+      "en": "「This won't faze\\nGunbuster or me!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10813": {
+      "repository_source_sha256": "a2cff175fac97458dd2691180836ae83263d34fce901a7e9aa6cada6edb58812",
+      "en": "「What $$コーチ$$ taught\\nwon't break here!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10876": {
+      "repository_source_sha256": "18e2e2ac501fbed6322911f322653efedf0d0ee8a04a571fa3c5f7d0b8dbebbe",
+      "en": "「$$ガンバスター$$\\nhas far more than this!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "196:10925": {
+      "repository_source_sha256": "d9490dcde2dea4dea17896006b1d1e44d2196b14e8db623d53aa904906e3a243",
+      "en": "「Beasts...!\\nGunbuster still fights!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "196:10978": {
+      "repository_source_sha256": "d6f4814ca6c5162f39afc6b21ee1251f16ed48c0ac73d73707ff27c30e670ffa",
+      "en": "「Not yet, beast!\\nGunbuster won't die!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage",
+        "hit: moderate damage"
+      ]
+    },
+    "196:11037": {
+      "repository_source_sha256": "c195a28df4d88ab30f3693f2a7c9525fe9022964683b65ed5c5f6e24aac48346",
+      "en": "「If I stop here,\\nI'll never see Big Sis again!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:11094": {
+      "repository_source_sha256": "15ac4e7520204c76844d4dea804e8bef3736af2309ae2620965b6e5b9d182bf8",
+      "en": "「Until the day I meet Big Sis again,\\nI'll protect $$ガンバスター$$ to the end!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:11157": {
+      "repository_source_sha256": "eda0a2b4b2625f3e17fc5e3583f66714f6c52949ce11a297807c756fa4ff6a6a",
+      "en": "「I won't scream! Never!!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11190": {
+      "repository_source_sha256": "d7485bc9f48fbc1e02bbf117168ca0db796c12dafce55aa16ddedf5bdd8f14a1",
+      "en": "「Trade flesh for bone!\\nNow we fight!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11241": {
+      "repository_source_sha256": "2ceb0b0615927e5810b2169f693c914b1a91c5e70148d80a944c60f448a389ab",
+      "en": "「I never expected\\na flawless victory!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11294": {
+      "repository_source_sha256": "f2632c6388e1c407f379d54b373f0317759fe72b482a9c6b7107e57366d89f0b",
+      "en": "「Never give up!\\nCoach taught me that!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11361": {
+      "repository_source_sha256": "0ca9a1c5a8d210bd2986ae6cd3d4b494fd7a93090fab4eaa92908b82d585c725",
+      "en": "「Super Robots\\nmake comebacks!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11410": {
+      "repository_source_sha256": "2bd303483d3412fe22b6d7d70c6f0be77521d120a2a41c5b62fe06d773be1a85",
+      "en": "「I can't lose!\\nGunbuster is our hope!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11473": {
+      "repository_source_sha256": "09be61ada30bbd3b8a4ca963a48d48fe6679b4fd44d6d16110e3450c1da6dece",
+      "en": "「I stake my life on $$ガンバスター$$!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11514": {
+      "repository_source_sha256": "32ce5dbf0f3d7e13e00f434a3b351f81bcb3a03a99dc710f1f243d0502d70dd1",
+      "en": "「Hope lives!\\nGunbuster still fights!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "196:11573": {
+      "repository_source_sha256": "2cace6a405baa7f2acb1251c6e5dfb137e8afad0b68961c8a45941a404b7859e",
+      "en": "「I'm sorry, $$コーチ$$, Big Sis...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:11610": {
+      "repository_source_sha256": "c01b8c2cc806b344a9dc652a894e65ac84cb4bdff042b71889cc1ec916a98fc9",
+      "en": "「$$ガンバスター$$... beaten...!?」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "196:11647": {
+      "repository_source_sha256": "dde489070851ad38b6b0836604fac69e7548ca8259981e66c2b33bea96a8c0df",
+      "en": "「Ghk! $$ガンバスター$$'s going down...!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ]
+    },
+    "196:11684": {
+      "repository_source_sha256": "859b2aadbbbb4c8a6d6ea4a40fc2ca243630ac90f0cd0f05434677c9e4776098",
+      "en": "「Another scramble for Earth's future!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:11759": {
+      "repository_source_sha256": "318a2a244f859dd3684af67b96a52b368a5b801983aea319eba1370c7e9e32d0",
+      "en": "「Foes! Really, really, all may fall!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:11840": {
+      "repository_source_sha256": "0187e65b9eca5d17fdc1e8f72f5820a158f892fa0e7c15c098a1149ede7b0872",
+      "en": "「Player, help us win Earth's future!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:11931": {
+      "repository_source_sha256": "28fd9a1776bb3586a27f7e03394f2d174c6afac3b5e92a8b3a2e9712f5f437e4",
+      "en": "「Next: SRW Z3 - Song of a Far Galaxy!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:11998": {
+      "repository_source_sha256": "d011f8b48f653ccf40e431c778713cc378450de6e279ab8f8ae7dd3810789d99",
+      "en": "「Lightning Kick, together with you!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12035": {
+      "repository_source_sha256": "57dee7062d5ed482fd62eaa85a65c2c794e7e115e9acd12786f8cd1563b21f07",
+      "en": "「SRW Z3! Strategy Class!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12084": {
+      "repository_source_sha256": "b2b05a97e95fc6b5e6c83b3ee56b811cb530d4255623b13b56e4ecf9e2880134",
+      "en": "「Hiya, it's $$タカヤ$$! Guess what...! This time I'm running the show all by myself! $$コーチ$$, Big Sis! $$ノリコ$$ is growing up a little more!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:12215": {
+      "repository_source_sha256": "796e973cc51e90a5611e1f2a2c9b81a950133e1d0ec641faf2aebe1a0b6a6137",
+      "en": "「Ahem. Downing a foe adds one kill.」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12322": {
+      "repository_source_sha256": "b0c2075abc1ea1264f9b710d0eb18a620c9c9eac7acd9bf653e6799ecefb375d",
+      "en": "「Top Ace: most kills, bonus Focus!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12433": {
+      "repository_source_sha256": "c639474d36d414eff8df74cffc8cae14e1db015793f64eceb160620f932ea50d",
+      "en": "「Top Ace, our star! Root for my rise!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12560": {
+      "repository_source_sha256": "3c45cf58734218ffc55127d31d1491e54db4ec433d099a100abc30f4ec25ea80",
+      "en": "「Ace: Focus, cash, and Ace Bonus!」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12713": {
+      "repository_source_sha256": "334931c57b1ba1b990f2fead547eeaf0e628807d9fc090e19471344641fadf21",
+      "en": "「Find each bonus! Wait, what's mine?」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12852": {
+      "repository_source_sha256": "1c8d1581e7ed5f30084243bb5b2a87fcc5d5af8a329e8994dc3ca55e7103cbdb",
+      "en": "「Once your kill count passes 80...」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)",
+        "system/suspend message (?)"
+      ]
+    },
+    "196:12887": {
+      "repository_source_sha256": "ffe98162e83aa5f151cd60b1edc77b54cdffe61dcdf0cd7a41ef75fae1044e41",
+      "en": "「Very well! Go, $$ノリコ$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:12928": {
+      "repository_source_sha256": "6bd10a56cec175512a1381627b886d7f301f4bed7cbc443574b114b48c1d4ae7",
+      "en": "「Contact with the enemy, $$ノリコ$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:12959": {
+      "repository_source_sha256": "bee3b9747f853f66681efce0d255ff1489b3c5cf67c31954027aad668219f5f8",
+      "en": "「$$ノリコ$$, show how you've grown, now!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:12992": {
+      "repository_source_sha256": "bcd0039de7bdd46befbe499d7742996062b24e563dda1aa6d71f2fef002012ea",
+      "en": "「$$ノリコ$$, I've got the enemy head-on!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13025": {
+      "repository_source_sha256": "f8f14cc434256f07f514883c2db2267dec26c8b0b2205f301c73ed2d97301272",
+      "en": "「Target acquired!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack",
+        "special opponent: attacking (?)"
+      ]
+    },
+    "196:13042": {
+      "repository_source_sha256": "65a577bff1c596c49133f1a630b7cdb8413f70cef5b3f6db07a30c9cdddb5a4c",
+      "en": "「Burn your life in this moment!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13075": {
+      "repository_source_sha256": "a067ebe7625c1f210991819cd6da5c59a04b2890f56fe34dd5bf2cb50a068e67",
+      "en": "「$$ノリコ$$, chance! We're doing that!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13116": {
+      "repository_source_sha256": "6a7372865a99ea41f8323a9e1a0fe5d617e9e7f5c2eaddfbabe7be4548d827cb",
+      "en": "「They're space monsters, we can't\\nspend time on each one!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13173": {
+      "repository_source_sha256": "a180eea4cd65df3291783ace7159aa7e57a69383fc0119b028f956b65fd2741c",
+      "en": "「Everyone's future...! Our future...!\\nWe'll create it with $$ガンバスター$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13246": {
+      "repository_source_sha256": "1f14c11ca3c9a7366b018143ea8f8aa54640845a008135a0a84a40e67dde13c6",
+      "en": "「How eerie... countless faces...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13285": {
+      "repository_source_sha256": "351055e5e1ec96ae785604a30f04103cf1c1fef3796687c9b9bb7a8ce78b798c",
+      "en": "「$$ノリコ$$!\\nFocus on weakening their forces now!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13334": {
+      "repository_source_sha256": "a9ce22c93f14db8e5f40f41b83d4c44f689bc05ebf150baec244afd319bc4682",
+      "en": "「Turn that fighting spirit to power!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13365": {
+      "repository_source_sha256": "6203367cafbebb12aef64379ddc4b25ab3e2347eeb1082aaf26ff66c5bf1daa3",
+      "en": "「Have confidence, $$ノリコ$$!\\nYou can do it!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13422": {
+      "repository_source_sha256": "2ae924383c14b08281e3f968264a43a5c04448308ecd0af4b62dccfc5dda6199",
+      "en": "「Asking what to do...\\nIf they're enemies, we fight!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13475": {
+      "repository_source_sha256": "83173bf56a6d3e792f9b2437908752cbe6a62d4c2cd9455ae4adcb04e9f4cd08",
+      "en": "「$$ノリコ$$, it's the enemy's main force!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13506": {
+      "repository_source_sha256": "b2d8c4f906c2ebc269b4a5fcb4fd6f340cbd29a09882001922ddc89ac49aa985",
+      "en": "「We and $$ガンバスター$$ become flame, now!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13545": {
+      "repository_source_sha256": "8c8b838d12e7ab809a68cafbe6ba1d41386217221c3848cacf4a56d5924ec2d8",
+      "en": "「Send it flying to the galaxy's end!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13582": {
+      "repository_source_sha256": "0df7d6df649b04af4ee7dbad48bc5e21990dc7cf76b68993b6eb440fb4752edd",
+      "en": "「Counterattack, $$ノリコ$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13603": {
+      "repository_source_sha256": "5509f867c790b722ac794802f7e25f35a2881516872f45f11fdecb6a8be2634d",
+      "en": "「Time to return the favor!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13634": {
+      "repository_source_sha256": "188d803f61d241e3cc8d4c02969c1698805d43552f83acd09aafdc413dc2e2de",
+      "en": "「$$ノリコ$$, now it's our turn!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13667": {
+      "repository_source_sha256": "87ff22c89d37acef07e7202e0f459cf8ae0a405e2d74b27dc65c37311a21e0bb",
+      "en": "「Now, $$ノリコ$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13686": {
+      "repository_source_sha256": "daa33113df31355f19d0b8915ebd49eae8726a16cf796921e48684f1e30e64ee",
+      "en": "「Good, they came to us.」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:13725": {
+      "repository_source_sha256": "7923b5a738fb7bc67e889c165dae223e599bac4b6ddff4dd45e47211a65cd2f3",
+      "en": "「Endure it for now, $$ノリコ$$!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13754": {
+      "repository_source_sha256": "86afdeb79a30013401d525cb7316e0ff812965472587b9c4b27fefeb985b83ac",
+      "en": "「Hold it!\\n$$ガンバスター$$ is badly worn down!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13807": {
+      "repository_source_sha256": "ad4ab96995933499cbac93d05dc476ef0c8f4235060c7c8c108f24f3d7fa7680",
+      "en": "「Yes, the enemy is no pushover...!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13836": {
+      "repository_source_sha256": "1666beef18e3961c81f00cd9d647a9de940f8bc2a8f1fc27ab51be2e719735ca",
+      "en": "「$$ノリコ$$, an ideal evasion pattern.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13877": {
+      "repository_source_sha256": "0362bf820c49ae15b6c56cca061cfdddd754cf8b3940494f30dfe09b17850460",
+      "en": "「Too easy!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13892": {
+      "repository_source_sha256": "d568e2220db8e727400e9d3a1323a212ed8fceb12a307db3385b384222fed7d4",
+      "en": "「You've grown, $$ノリコ$$.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13917": {
+      "repository_source_sha256": "ace4d990a341906cd13e03a3018a3d011f52a55da5d9033c1f2001bd3be92e20",
+      "en": "「And so have your feelings.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13940": {
+      "repository_source_sha256": "1c720ba6729bad8db250d6e9fe2c5fc09d8ad0662cb46e1bf11d39d1dab9a28a",
+      "en": "「$$ノリコ$$, the effort you've built up\\nwill make you even stronger.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:13997": {
+      "repository_source_sha256": "27b3863a30e86e8dad4a11d1dc9b434f39cf60a4d728b0191c68552666943315",
+      "en": "「$$ノリコ$$, you've got a good grasp\\nof the enemy's movement patterns!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14052": {
+      "repository_source_sha256": "6c172a98c930ef4fac2414627ce60b23a0a09d3543156d070cbc27af83009a0d",
+      "en": "「Futile! A flaming $$ガンバスター$$ is...!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14095": {
+      "repository_source_sha256": "73dfdd2408658f3d662384d928a15e21db890895e06d2481837f90eca1c24740",
+      "en": "「Don't let your guard down, $$ノリコ$$.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14120": {
+      "repository_source_sha256": "63a28930e17c10c854809a15b843c652ef0a1ec7e1176133d5daed083b65de16",
+      "en": "「Wait, $$ノリコ$$!\\nI'll build a new evasion pattern!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14179": {
+      "repository_source_sha256": "eaa45555db71344eb7ce03a5590a351c4f846dc278c8f5c664eb9e8e82d85173",
+      "en": "「Are you ready, $$ノリコ$$?」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14204": {
+      "repository_source_sha256": "e2ea81aa63fd6c6857ea9490585dd8be09bbbe7f80bb6b12ab1c258c45513cd3",
+      "en": "「All normal. Just hull scratches.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14245": {
+      "repository_source_sha256": "7c6aa104512684fe1c8ea1218c60b7fae4c8862f8d51f86c93f06cf31f284a63",
+      "en": "「$$宇宙怪獣$$ seem to target us...!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14282": {
+      "repository_source_sha256": "25c37e608efb0e3dc0c9440b36f60e03ff82837f165079c28039dacd69d3d80f",
+      "en": "「Oh dear,\\nI never expected they'd have this...」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14335": {
+      "repository_source_sha256": "ac3c21a5a2e1fea91bf0b2e0a52b27eb6bd84841eca1bd2aa749cd3237d6cbae",
+      "en": "「$$ノリコ$$, no matter the situation,\\ndon't ever lose heart!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14386": {
+      "repository_source_sha256": "3bb77a8c86eda7bfb587d38274c55431e1b1805bcbd84c950b6e0ef49042bdbf",
+      "en": "「The enemy seems to be focusing\\ntheir fire on $$ガンバスター$$.」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14437": {
+      "repository_source_sha256": "768d5759f33b2e597d570ee72d991ba949b6d830957630b1da817b5422bb7ef8",
+      "en": "「That's right, $$ノリコ$$! We'll win!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14474": {
+      "repository_source_sha256": "978e238c1e1cb3fac747e6965d9a2b8a5f77aa7976eb260e563d95f5cc9b2d12",
+      "en": "「$$ノリコ$$! Add circular moves to dodge!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14517": {
+      "repository_source_sha256": "89e1cf7c55e94a331b001fe17a5bf2ab67a546c416a4a76de006a483d8311249",
+      "en": "「Then we'll just go beyond that!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14558": {
+      "repository_source_sha256": "bcd751b5d67e191ed0c262e430cb441ad49af76b9f3abd2cbbbe2f04ac9ef863",
+      "en": "「We can't keep being pushed back...!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14595": {
+      "repository_source_sha256": "529dd474566f06774a1faee3c9f2090730351079a9f5c1b86472bc7799721f27",
+      "en": "「That's right!\\nThat feeling drives $$ガンバスター$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14652": {
+      "repository_source_sha256": "5832e8992cb0321be6c8f73f379b831a0301c07564d6c1d3c49e9394bb62b414",
+      "en": "「$$ノリコ$$! Believe in your own power\\nand $$ガンバスター$$'s!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14711": {
+      "repository_source_sha256": "b5c89bdbb309f4669d97ca87302678d0e7336fa70509bed247d7b76f791d39fe",
+      "en": "「Ngh! $$ノリコ$$, endure it for now!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14748": {
+      "repository_source_sha256": "b0c5ffbaf552b50192ad4c8edf741715ed030b76f3bde1564d2f32e71e954dce",
+      "en": "「Are you all right, $$ノリコ$$!\\nAnswer me, $$ノリコ$$!」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14799": {
+      "repository_source_sha256": "9979f55c54d26f7a05ade01bb01724199c0cabfc69c064326ff736dc5c10bb71",
+      "en": "「I'm so sorry, dear...」",
+      "source": "new",
+      "slice": "v_g196_00"
+    },
+    "196:14830": {
+      "repository_source_sha256": "5a407e34bf8228e1cb44f75a2b4a3a721a9acc0d73b7bb252122a7926388adc0",
+      "en": "「This is $$アマノ$$.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14845": {
+      "repository_source_sha256": "031e5a46aa1769641fb0c6d999fb95a1b09666aafef0d09c68b387396afbffcb",
+      "en": "「Now then, a message from one of the good kids playing Super Robot Wars, a superfan from Aichi Prefecture...」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:14934": {
+      "repository_source_sha256": "caea8bd853789f3d4c17b6f8b9df3e6f19dde74f1276ccf65397af021be0c877",
+      "en": "「A postcard has come in asking, 'What are the $$Ｚチップ$$s that debuted this time?'」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15007": {
+      "repository_source_sha256": "2d3bf5cae7703b17af4f36a14bc89f703da6a9b662c115bc3e1a8431405191ec",
+      "en": "「$$タカヤ$$, what do you know of $$Ｚチップ$$s?」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15058": {
+      "repository_source_sha256": "e204534e2fc5621f0c7dfa0dfc782cce639fbd8acaccdf7af8c2f30706266194",
+      "en": "「Close, but no. You also get $$Ｚチップ$$s when you earn SR Points. So you won't forget, you'll learn it by writing it out 100 times!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15183": {
+      "repository_source_sha256": "d707f0d1f671a5ccd8f46cb25cd32e4bd56a761d5b211c67156c0dd2192460e8",
+      "en": "「Well then, until next time...」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15204": {
+      "repository_source_sha256": "e204534e2fc5621f0c7dfa0dfc782cce639fbd8acaccdf7af8c2f30706266194",
+      "en": "「Close, but no. You also get $$Ｚチップ$$s when you earn SR Points. So you won't forget, you'll learn it by writing it out 100 times!」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15329": {
+      "repository_source_sha256": "205261405751f09d928d417ab58e6a445193f4f8ad56fa839d6ee3714cef611c",
+      "en": "「Yes. It's been a while, so I was surprised too.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15370": {
+      "repository_source_sha256": "a0c02954587eae32828fc3521f073b2e46c260935139fdda7be5e3fc71ce85a8",
+      "en": "「Y-yes... that's right.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15393": {
+      "repository_source_sha256": "f4799cc03cfa99644a901bb25e9849250ee0b90fd1133b4e75965ada955a4bb3",
+      "en": "「$$ノリコ$$... it's almost time...」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15422": {
+      "repository_source_sha256": "d90d071701e5b099cb6d28f180654c689f05dc5c7b8e56138c9bc2f8778eca84",
+      "en": "「I'll answer the Super Robot Wars superfan's question another time.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15481": {
+      "repository_source_sha256": "981a530c3aedf05493f5352df1f002bf12d61bee87c1ace2ed59a85b63267bc0",
+      "en": "「A postcard has come in asking, 'What is the $$Ｚクリスタル$$ that debuted this time?'」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15560": {
+      "repository_source_sha256": "31588f992ee64304de2ecb7d51db932c2ed70ce246c5f21dd51a6797cbd02653",
+      "en": "「$$タカヤ$$, what do you know about the $$Ｚクリスタル$$?」",
+      "source": "new",
+      "slice": "v_g196_01"
+    },
+    "196:15615": {
+      "repository_source_sha256": "c9fe51626e609f143dbbf1280af642b10093a3c55e9fdd29c012aee543900317",
+      "en": "「Close, but no. The $$Ｚクリスタル$$ does more than that. Its power will be revealed as you progress through the game.」",
+      "source": "new",
+      "slice": "v_g196_01"
+    }
+  }
+}

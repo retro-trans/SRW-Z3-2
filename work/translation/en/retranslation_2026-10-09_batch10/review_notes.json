@@ -1,0 +1,1544 @@
+{
+  "scope": "alternate routes: Neo Zeon stages 36-40 and Amalgam stages 36-40",
+  "rows": 6085,
+  "slices": 81,
+  "rows_differing_from_prior": 4877,
+  "baseline_files_verified": 81,
+  "validation": {
+    "result": "PASS",
+    "errors": 0,
+    "length_warnings": 0,
+    "unknown_tokens": 0,
+    "untranslated_rows": 0,
+    "fit_warnings": []
+  },
+  "coordinator_row_edits": 7,
+  "glossary_additions": [
+    {
+      "jp": "サイド１",
+      "token": "サイド１",
+      "en": "Side 1",
+      "kind": "location",
+      "status": "proposed",
+      "source": "496:t_2:51/81 and neighbors reviewed: Bright's target, held by Chrono-affiliated Federation forces. https://gundam.fandom.com/wiki/Space_Colony_(U.C.) and https://gundam.fandom.com/wiki/Escape_from_Side_1 confirm Side 1; do not add alternate name Zahn absent in source.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アプリリウス",
+      "token": "アプリリウス",
+      "en": "Aprilius",
+      "kind": "location",
+      "status": "proposed",
+      "source": "515:t_002:2 and515:t_006:0 with neighbors read: PLANT capital infiltration. https://gundam.fandom.com/wiki/Aprilius_One corroborates name; source short form omits One, preserve that scope.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ヤマト",
+      "token": "ヤマト#kira",
+      "en": "Yamato",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "515:t_006:0 and neighbors read: Mileina uses Kira Yamato's surname while he remains in Aprilius with Shinn. Established full Kira Yamato glossary and https://gundam.fandom.com/wiki/Kira_Yamato; do not expand surname.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Kira_Yamato",
+        "position": "ZAFT-aligned allied mobile suit pilot; Strike Freedom pilot",
+        "personality": "Compassionate, reluctant to kill, determined to protect others",
+        "nickname": "Kira Yamato; surname-only form",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Kira_Yamato"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アスカ",
+      "token": "アスカ#shinn",
+      "en": "Asuka",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "515:t_006:0 and neighbors read: Mileina's surname for Shinn Asuka, not EVA Asuka. Established full Shinn Asuka glossary and https://gundam.fandom.com/wiki/Shinn_Asuka.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Shinn_Asuka",
+        "position": "ZAFT mobile suit pilot; Destiny pilot",
+        "personality": "Passionate, impulsive, protective, scarred by war",
+        "nickname": "Shinn Asuka; surname-only form",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Shinn_Asuka"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＧＮビッグキャノン",
+      "token": "ＧＮビッグキャノン",
+      "en": "GN Big Cannon",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "497:t_113:0 and neighbors read: Tieria notices increased output. https://gundam.fandom.com/wiki/CB-002_Raphael_Gundam lists GN Big Cannon remote armament. Wiki-supported spelling; licensed localization not independently verified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "レジェンド",
+      "token": "レジェンド",
+      "en": "Legend",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "515:t_103:0 and neighbors read: Rey's mobile suit. https://en.gundam-official.com/seed/destiny/mecha/8/ names Legend Gundam and identifies Rey. Short form preserves exact source; no Gundam expansion.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ザフトレッド",
+      "token": "ザフトレッド",
+      "en": "ZAFT Red",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "515:t_034:2 and neighbors read: Lunamaria's elite status. https://gundam.fandom.com/wiki/Lunamaria_Hawke confirms red uniform for elite pilots; https://gundam.fandom.com/wiki/ZAFT uses ZAFT Red Pilot. Proposed capitalized rank/class label.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ゼロ",
+      "token": "ゼロ#wing_zero",
+      "en": "Zero",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "503:t_012:12 and neighbors read: Zechs refers to the future foreseen by Heero's Wing Zero/ZERO System, not Lelouch. https://gundam.fandom.com/wiki/XXXG-00W0_Wing_Gundam_Zero explicitly lists just Zero alias; https://gundam.fandom.com/wiki/ZERO_System corroborates prediction system. Preserve short form.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ゴビ砂漠",
+      "token": "ゴビ砂漠",
+      "en": "Gobi Desert",
+      "kind": "location",
+      "status": "proposed",
+      "source": "503:t_022:3 and neighbors read: Heero's self-destruction location in game history. Established geographical English https://ignca.gov.in/Asi_data/17537.pdf (The Gobi Desert). No independent external verification of game event needed or claimed.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "バスターライフル",
+      "token": "バスターライフル",
+      "en": "Buster Rifle",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "503:t_024:0 and neighbors read: Garrod warns repeated shots will destroy damaged Wing Zero. https://gundam.fandom.com/wiki/XXXG-01W_Wing_Gundam and Bandai official https://tamashiiweb.com/images/item/item_0000014364_YjEpfkAa_300.pdf establish English Buster Rifle. Preserve source short wording; do not add Twin.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "スーパーコーディネイター",
+      "token": "スーパーコーディネイター",
+      "en": "Ultimate Coordinator",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "514:t_3:56 and neighbors read: Rey addresses Kira's engineered identity. https://gundam.fandom.com/wiki/Ultimate_Coordinator and https://gundam.fandom.com/wiki/Kira_Yamato use Ultimate Coordinator; Japanese label is Super Coordinator. Wiki-preferred English per repository rule, not independently claimed licensed.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "トライン",
+      "token": "トライン",
+      "en": "Trine",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "514:t_3:94 and neighbors read: Arthur reports his named unit leaving headquarters. https://gundam.fandom.com/wiki/Arthur_Trine confirms surname.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Arthur_Trine",
+        "position": "Minerva executive officer; ZAFT unit leader in this scene",
+        "personality": "Friendly and dependable, easily flustered",
+        "nickname": "Arthur Trine; surname-only form",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Arthur_Trine"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "コロニー共栄圏",
+      "token": "コロニー共栄圏",
+      "en": "Colony Co-Prosperity Sphere",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "520:t_2:154 and neighbors read: Frontal's economic coalition excluding Earth. https://gundam.fandom.com/wiki/Full_Frontal and https://gundam.fandom.com/wiki/The_Side_Co-Prosperity_Sphere corroborate Co-Prosperity Sphere concept. Game explicitly uses Colony rather than anime Side; retain this adapted label. Proposed game rendering, not independently licensed.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アクシオン財団",
+      "token": "アクシオン財団",
+      "en": "Axion Foundation",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "526:t_4:25 and neighbors read: Gratia manufacturer. https://akurasu.net/wiki/Super_Robot_Wars/Z2/Story corroborates Axion Foundation, distinct from person Axion. Whole corpus exact term appears once.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ブラックベレー",
+      "token": "ブラックベレー",
+      "en": "Black Berets",
+      "kind": "organization",
+      "status": "proposed",
+      "source": "526:t_1:118 and neighbors read: Hibiki's father's former unit. https://srw.wiki.cre.jp/wiki/ヒビキ・カミシロ and https://srw.wiki.cre.jp/wiki/ブリタニア・ユニオン confirm unit membership. Black Berets is proposed English transliteration with collective plural, no licensed English verified. Whole corpus exact term appears once.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ファルケ",
+      "token": "ファルケ",
+      "en": "Falke",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "527:t_001:7 and neighbors read: Ben Clouseau's AS. https://fullmetalpanic.fandom.com/wiki/M9D_Falke and existing full M9D Falke glossary confirm short form.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ニケーロ島",
+      "token": "ニケーロ島",
+      "en": "Nikero Island",
+      "kind": "location",
+      "status": "proposed",
+      "source": "527:t_000:0 and neighbors read: Amalgam island base. Existing short ニケーロ=Nikero remains proposed. Japanese location corroborated by https://www.animatetimes.com/news/details.php?id=1531894824 and game source; no reliable English spelling verification. Niquero found in unverified subtitle mirror only, insufficient to replace existing spelling. Preserve provisional consistency; spelling remains uncertain.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "マリィ",
+      "token": "マリィ",
+      "en": "Marie",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "520:t_2:341/348 source and neighbors: Zinnerman's deceased daughter alongside Fee, not Marie Parfacy. https://gundam.fandom.com/wiki/Suberoa_Zinnerman and https://gundam.fandom.com/wiki/Two_Worlds,_Two_Tomorrows corroborate.",
+      "profile": {
+        "gender": "female",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Suberoa_Zinnerman identifies daughter",
+        "position": "Zinnerman's deceased civilian daughter",
+        "personality": "Insufficient characterization to establish; do not infer",
+        "nickname": "Marie Zinnerman; given name",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Suberoa_Zinnerman"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "スカル１",
+      "token": "スカル１",
+      "en": "Skull 1",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "533:t_010:1 and neighbors: Cathy addresses Ozma after his enthusiastic Fire Bomber response. https://w.atwiki.jp/aniwotawiki/pages/1012.html gives call sign Skull1; https://macross.anime.net/wiki/Ozma_Lee corroborates leader identity.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://macross.anime.net/wiki/Ozma_Lee",
+        "position": "S.M.S. Skull Team leader; Major",
+        "personality": "Boisterous, protective of Ranka, serious about his crew's safety",
+        "nickname": "Ozma Lee; Skull 1",
+        "sources": [
+          "https://macross.anime.net/wiki/Ozma_Lee",
+          "https://w.atwiki.jp/aniwotawiki/pages/1012.html"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "アルビオン",
+      "token": "アルビオン",
+      "en": "Albion",
+      "kind": "robot",
+      "status": "proposed",
+      "source": "527:t_106:1 and neighbors: Suzaku thinks about Lloyd/Cecile's upgrade. Existing Lancelot Albion glossary and https://codegeass.fandom.com/wiki/Lancelot_Albion confirm short machine name; not Gundam ship.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "デモリッションガン",
+      "token": "デモリッションガン",
+      "en": "Demolition Gun",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "527:t_039:1 and neighbors: Al explains barrel extension. https://fullmetalpanic.fandom.com/wiki/Make_My_Day names Demolition Gun; wiki-supported spelling.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ガン・ハウザーモード",
+      "token": "ガン・ハウザーモード",
+      "en": "Gun-Howitzer Mode",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "527:t_039:3 and neighbors: Al finishes weapon mode transition. https://fullmetalpanic.fandom.com/wiki/Make_My_Day uses Gun-Howitzer Mode; retain hyphen.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "シベリア",
+      "token": "シベリア",
+      "en": "Siberia",
+      "kind": "location",
+      "status": "proposed",
+      "source": "532:t_1:55; geographic region, single exact occurrence in corpus. Standard English https://en.wikipedia.org/wiki/Siberia ; spelling verified, game geography claims not externally inferred.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "プロト・プルトゥエルブ",
+      "token": "プロト・プルトゥエルブ",
+      "en": "Proto-Ple Twelve",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "521:t_111:0 and neighbors: Frontal addresses Marida's prototype identity. Existing Ple Twelve glossary plus https://wikiwiki.jp/srwztengoku/赤い彗星の未来 corroborates exact game appellation. Proto- extension proposed; licensed game English not verified.",
+      "profile": {
+        "gender": "female",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Marida_Cruz",
+        "position": "Cyber-Newtype pilot, prototype clone; Marida Cruz",
+        "personality": "Reserved, devoted to Zinnerman, compassionate despite trauma",
+        "nickname": "Marida Cruz; Ple Twelve; prototype designation",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Marida_Cruz"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ミスタ・Ｋ",
+      "token": "ミスタ・Ｋ",
+      "en": "Mister K",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "526:t_1:8/9/54 and neighbors read: Kalinin's Amalgam codename. https://srw.wiki.cre.jp/wiki/コールサイン confirms Gates-to-Kalinin succession; current context Kalinin. English Mister K proposed literal label.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Andrei Kalinin profile; https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン",
+        "position": "Amalgam executive, former Mithril officer",
+        "personality": "Reserved, experienced and methodical military commander",
+        "nickname": "Andrei Kalinin; Mister K, Potassium",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ミスタ・Ｋ（カリウム）",
+      "token": "ミスタ・Ｋ（カリウム）",
+      "en": "Mister K (Potassium)",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "526:t_1:8 source includes elemental explanation. https://srw.wiki.cre.jp/wiki/コールサイン confirms exact K/Kalium label; standard English element potassium. Preserve symbol K.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Andrei Kalinin profile; https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン",
+        "position": "Amalgam executive, former Mithril officer",
+        "personality": "Reserved, experienced and methodical military commander",
+        "nickname": "Andrei Kalinin; Mister K, Potassium",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/アンドレイ・セルゲイヴィッチ・カリーニン"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "オムニ・スフィア転移反応",
+      "token": "オムニ・スフィア転移反応",
+      "en": "Transfer and Response Omni-Sphere",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "544:t_2:62 and neighbors read: Tessa expands TAROS acronym. https://fullmetalpanic.fandom.com/wiki/TAROS and https://srw.wiki.cre.jp/wiki/ラムダ・ドライバ confirm expansion and English order. Do not reverse acronym.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ミスタ・Ａｇ",
+      "token": "ミスタ・Ａｇ",
+      "en": "Mister Ag",
+      "kind": "pilot",
+      "status": "proposed",
+      "source": "526:t_2:58 and neighbors: Kalinin addresses Leonard. https://srw.wiki.cre.jp/wiki/コールサイン identifies Leonard with silver/Ag codename. Preserve symbol case. English Mister Ag proposed.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "Existing Leonard Testarossa profile; https://srw.wiki.cre.jp/wiki/レナード・テスタロッサ",
+        "position": "Amalgam executive; Whispered",
+        "personality": "Calculating, patronizing, convinced he can remake the world",
+        "nickname": "Leonard Testarossa; Mister Ag (Silver)",
+        "sources": [
+          "https://srw.wiki.cre.jp/wiki/コールサイン"
+        ]
+      },
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "タイムハザード",
+      "token": "タイムハザード",
+      "en": "Time Hazard",
+      "kind": "keyword",
+      "status": "proposed",
+      "source": "544:t_2:235 and neighbors read: Tessa labels altered world a temporal disaster. Direct katakana rendering; https://en.wikipedia.org/wiki/List_of_Full_Metal_Panic!_light_novels (indexed mirrors) corroborates Time Hazard as volume10chapter4 title. Exact game localization unverified.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ウインチェスターＭ７０",
+      "token": "ウインチェスターＭ７０",
+      "en": "Winchester M70",
+      "kind": "weapon",
+      "status": "proposed",
+      "source": "545:t_027:21 and neighbors read: Kurz names personal rifle. https://www.winchesterguns.com/products/rifles/model-70/overview.html confirms Winchester Model 70 product name. Preserve source M70 abbreviation; no claim about real-world fictional shot performance.",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＸＬ－２",
+      "en": "XL-2",
+      "kind": "equipment",
+      "source": "550:t_1:208 + neighbors read; two booster units combined. Official Bandai https://blog.livedoor.jp/tamashii_robot/29547510201919 identifies XL-2 emergency deployment booster.",
+      "token": "ＸＬ－２",
+      "status": "proposed",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "緊急展開ブースターＸＬ－３",
+      "en": "XL-3 Emergency Deployment Booster",
+      "kind": "equipment",
+      "source": "550:t_1:213 + neighbors: Laevatein Merida landing equipment. Official Bandai https://www.bandaispirits.co.jp/products/search/detail.php?grp_id=5312&prd_id=14456 confirms Japanese name; descriptive English translation proposed.",
+      "token": "緊急展開ブースターＸＬ－３",
+      "status": "proposed",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "ＸＬ－３",
+      "en": "XL-3",
+      "kind": "equipment",
+      "source": "550:t_1:231/238 same booster. Official Bandai https://www.bandaispirits.co.jp/products/search/detail.php?grp_id=5312&prd_id=14456 confirms designation.",
+      "token": "ＸＬ－３",
+      "status": "proposed",
+      "targets": [],
+      "researched_token": true
+    },
+    {
+      "jp": "フリーダム王子",
+      "en": "Prince Freedom",
+      "kind": "pilot",
+      "source": "509:t_001:19 plus neighbors identifies Duo teasing Kira, not machine Freedom. Single corpus occurrence. https://blog.livedoor.jp/shibachi1/archives/51437289.html independently reports nickname in SRW Z; English literal proposed, not official. https://gundam.fandom.com/wiki/Kira_Yamato confirms person.",
+      "profile": {
+        "gender": "male",
+        "gender_evidence": "https://gundam.fandom.com/wiki/Kira_Yamato",
+        "position": "Allied mobile suit pilot; Strike Freedom pilot",
+        "personality": "Compassionate, reluctant to kill, determined to protect others",
+        "nickname": "Kira Yamato; Prince Freedom (Duo teasing him)",
+        "sources": [
+          "https://gundam.fandom.com/wiki/Kira_Yamato"
+        ]
+      },
+      "token": "フリーダム王子",
+      "status": "proposed",
+      "targets": [],
+      "researched_token": true
+    }
+  ],
+  "glossary_corrections": [],
+  "agent_reports": {
+    "dlg_2069_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "496:t_1:8: Char trails off after adding And, before Mineva answers his concern.",
+        "496:t_1:20: Tieria leaves his hoped-for contact attempt unfinished with an ellipsis.",
+        "496:t_1:39: Tiffa calls Tieria by name questioningly to interrupt his thoughts.",
+        "496:t_1:42: Garrod calls Tiffa by name as she volunteers solidarity.",
+        "496:t_1:82: Banagher leaves his objection to Kamille unfinished.",
+        "496:t_1:83: Kamille uses a deictic Look to introduce Micott and Mineva.",
+        "496:t_1:88: Banagher recognizes Mineva and says her alias alone."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "496:t_1:91: Banagher trails off after questioning Audreys visit to the hangar.",
+        "496:t_1:97: Banagher addresses Audrey by name alone.",
+        "496:t_1:102: Banagher repeats Audreys alias, moved by her faith in him.",
+        "496:t_1:116: Mineva leaves But I unfinished before Banagher takes over.",
+        "496:t_1:118: Mineva addresses Banagher by name alone.",
+        "496:t_1:148: Char trails off on But before Amuro supplies his meaning.",
+        "496:t_1:151: Amuro leaves his suspicion of Chars plan unfinished.",
+        "496:t_1:159: Amuro calls Char by name alone.",
+        "496:t_2:5: Banagher calls Audrey by name alone.",
+        "496:t_2:8: Mineva leaves her objection unfinished.",
+        "496:t_2:11: Banagher leaves his question about Chars departure unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "496:t_2:39: Nanai addresses Mineva by title and name in reaction to her interruption.",
+        "496:t_2:50: Nanai starts Then before Bright names the target.",
+        "496:t_2:69: Repeated Nanai address of Mineva by title and name.",
+        "496:t_2:80: Repeated Then before Bright names the target.",
+        "496:t_10:8: Gyunei trails off before stating the action he suspects was motivated by Z-Chips.",
+        "496:t_10:14: Gyunei calls out Quess and Marida in a deliberately incomplete exclamation."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "496:t_10:24: Kamille presses for the answer to his earlier question with a conversational Well.",
+        "496:t_10:32: Gyunei addresses Kamille alone, moved by his welcome.",
+        "496:t_10:47: AG starts his customary slogan and Gyunei completes it in the next row.",
+        "496:t_10:48: Gyunei completes AGs slogan with the ritual Business repetition.",
+        "496:t_10:64: AG gives Yes as the hypothetical reply his next row explains.",
+        "496:t_10:70: AG starts the customary slogan; Kamille completes it next row.",
+        "496:t_10:71: Kamille completes the ritual slogan.",
+        "497:t_000:3: Marida silently addresses her Master while watching Zinnerman."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "497:t_001:8: Quess addresses Char by rank alone in concern.",
+        "497:t_002:8: Same rank-only concerned address in alternate branch.",
+        "497:t_004:1: Char addresses Gyunei by name in hesitation.",
+        "497:t_004:3: Banagher echoes the notion of a god of space as a deliberately isolated concept.",
+        "497:t_004:4: Marida thinks Gyuneis name in empathy.",
+        "497:t_004:8: Fa calls Kamilles name alone.",
+        "497:t_004:11: Gyunei leaves his accusation of Kamille unfinished.",
+        "497:t_004:14: Gyunei repeats I with his thought unfinished.",
+        "497:t_004:15: Kamille calls Gyunei alone to reach him.",
+        "497:t_005:0: Char calls Kamilles name alone.",
+        "497:t_005:2: Gyunei leaves his shocked This is unfinished.",
+        "497:t_005:4: Hibiki calls Kamilles name alone.",
+        "497:t_007:0: Quess calls Gyunei alone after his defeat.",
+        "497:t_007:1: Shinn leaves his worried question about Gyunei unfinished.",
+        "497:t_007:5: Banagher addresses Char by rank and name alone.",
+        "497:t_007:7: Char leaves In this battle unfinished when Amuro warns of the main force.",
+        "497:t_008:0: Alternate Quess call to Gyunei after his defeat.",
+        "497:t_008:1: Alternate Shinn unfinished question about Gyunei."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "497:t_008:7: Banagher addresses Char by rank and name alone.",
+        "497:t_008:9: Char leaves his thought In this battle unfinished as Amuro interrupts.",
+        "497:t_009:5: Kamille addresses Char by rank alone hesitantly.",
+        "497:t_011:1: Quess leaves her startled identification unfinished.",
+        "497:t_012:0: Kamille calls Gyuneis name when he appears.",
+        "497:t_012:10: Shinn leaves his rebuttal You unfinished when Hibiki interrupts.",
+        "497:t_015:0: Kamille calls Colonel alone as Char leaves.",
+        "497:t_016:3: Wufei calls Char Aznable alone in shock.",
+        "497:t_017:2: Graham leaves his question to Amuro unfinished.",
+        "497:t_017:6: Kamille addresses Colonel alone in grief.",
+        "497:t_018:2: Alternate Graham unfinished question to Amuro.",
+        "497:t_019:0: Kamille calls Gyunei alone to open the conversation."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "497:t_019:8: Gyunei leaves I unfinished while wavering.",
+        "497:t_019:9: Char leaves Now unfinished, expecting Kamille to complete the plan.",
+        "497:t_020:6: Gyunei leaves his response to Chars demand unfinished.",
+        "497:t_020:9: Kamille leaves his report about Gyunei unfinished.",
+        "497:t_021:1: Char calls Rezin by rank and name alone to get her attention.",
+        "497:t_022:0: Emma starts a question about Rezin but Quess answers before she finishes.",
+        "497:t_100:1: Kamille leaves a conditional unfinished; Char supplies their action next row.",
+        "497:t_105:3: Gyunei leaves his objection unfinished when Quess rebukes him."
+      ],
+      "uncertain": []
+    },
+    "dlg_2069_07": {
+      "rows_in_slice": 25,
+      "rows_examined": 25,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "497:t_113:2: Tieria adds Alongside these comrades to the completed thought in preceding row; source row boundary retained.",
+        "497:t_115:1: Trowa purpose clause continues his previous row about using the upgrade; source row boundary retained."
+      ],
+      "uncertain": []
+    },
+    "dlg_2070_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "502:t_1:10: Queen introduces the topic of Side 1 and completes it in the next row.",
+        "502:t_1:25: Otto starts an objection, cut off by Sumeragi.",
+        "502:t_1:43: Relena leaves her outraged accusation unfinished.",
+        "502:t_1:65: Relena leaves her question why unfinished as Guin cuts her off.",
+        "502:t_1:70: Relena silently calls Heero and her brother by address alone.",
+        "502:t_2:8: Relena calls Riddhe by rank and name alone in dismay."
+      ],
+      "uncertain": []
+    },
+    "dlg_2070_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "502:t_2:20: Riddhe trails off after But rather than disclose the deeper truth.",
+        "502:t_2:23: Purpose clause continues Riddhes decision to pilot the machine in preceding row.",
+        "502:t_3:4: Quatre calls Heero alone to find him.",
+        "502:t_3:7: Zechs addresses Relena by name alone.",
+        "502:t_3:9: Hibiki calls Heeros name alone on seeing him asleep.",
+        "502:t_3:10: Relena trails off after describing Heeros arrival at her side.",
+        "502:t_3:17: Duo addresses Quatre in puzzled hesitation.",
+        "502:t_3:21: Quatre introduces an unfinished definition which his following row completes.",
+        "502:t_3:29: Shinn leaves his objection to taking photos unfinished.",
+        "502:t_3:47: Alberto leaves his objection to NT-D unfinished.",
+        "502:t_3:52: Alberto begins his warning about Riddhe recovering the Banshee; next row completes it.",
+        "502:t_3:68: Alberto leaves But unfinished before changing back to the Unicorn."
+      ],
+      "uncertain": []
+    },
+    "dlg_2070_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "502:t_10:29: AG calls Heero in a sing-song address; original U+0431 glyph retained exactly; its visual meaning is unverified.",
+        "502:t_10:30: Heero gives the ritual slogan before his full question.",
+        "502:t_10:35: AG trails off describing the private photographs; Zechs interrupts.",
+        "502:t_10:39: AG leaves But unfinished in protest.",
+        "502:t_10:41: AG stammers an unfinished denial under Zechs threat.",
+        "502:t_10:47: Setsuna starts the customary slogan; Heero completes next row.",
+        "502:t_10:48: Heero supplies the customary Business repetition.",
+        "503:t_000:2: Soldier hesitates before next row reveals only two machines.",
+        "503:t_002:0: Zechs leaves Then unfinished before launching his attack.",
+        "503:t_004:3: Merrybell starts Then its finally time as the implicit next phase begins.",
+        "503:t_007:3: Zechs calls Heero by name alone to signal the next move."
+      ],
+      "uncertain": [
+        "502:t_10:14: That man inferred as Alberto from preceding scene and Maridas memories, without naming him in English; subsequent rows use male pronouns based on Alberto identity.",
+        "503:t_004:4: Queen here inferred as Relena by queen title and hostage-fate scene, not Chrono agent Queen; rendered plain queen.",
+        "502:t_10:29: Original U+0431 glyph retained exactly. Its on-screen visual meaning is unverified, so no heart interpretation was invented."
+      ]
+    },
+    "dlg_2070_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "503:t_010:3: Banagher starts This is but leaves his identification unfinished.",
+        "503:t_011:0: Marida leaves her identification of the familiar machine unfinished.",
+        "503:t_011:5: Kamille starts identifying the pilot, then Banagher says Riddhes name.",
+        "503:t_011:10: Allelujah trails off after naming Riddhe in disbelief.",
+        "503:t_012:5: Riddhe leaves his If only you were not here accusation unfinished.",
+        "503:t_012:8: Banagher leaves his objection This is unfinished.",
+        "503:t_012:13: Banagher leaves his objection to fighting Riddhe unfinished.",
+        "503:t_012:16: Banagher repeats My life as a genuine contemplative echo of Heeros words.",
+        "503:t_012:17: Banagher thinks through the future with Audrey but leaves the phrase unfinished; Heero affirms it.",
+        "503:t_013:6: Banagher calls Riddhe by rank and name alone.",
+        "503:t_014:4: Riddhe supplies the objects to understand from his previous row; row cut retained.",
+        "503:t_014:8: Banagher calls Riddhe by rank and name alone."
+      ],
+      "uncertain": []
+    },
+    "dlg_2070_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "503:t_015:1: Relena calls Heero by name alone.",
+        "503:t_015:2: Heero calls Relena by name alone.",
+        "503:t_017:2: Heero calls Relena alone in urgency.",
+        "503:t_017:7: Banagher leaves his accusation of Riddhe unfinished.",
+        "503:t_017:21: Noin leaves her outraged accusation unfinished.",
+        "503:t_017:23: Relena calls Heero alone before he signals understanding.",
+        "503:t_018:2: Alternate Heero call to Relena in urgency.",
+        "503:t_018:7: Alternate unfinished accusation by Banagher.",
+        "503:t_018:21: Alternate unfinished accusation by Noin.",
+        "503:t_018:23: Alternate Relena call to Heero before he signals understanding.",
+        "503:t_021:0: Hibiki calls Heero by name alone in alarm.",
+        "503:t_021:1: Heero calls Relena by name alone.",
+        "503:t_022:1: Tieria starts He but leaves his observation unfinished; next rows expand it.",
+        "503:t_023:2: Heero calls Relena by name alone."
+      ],
+      "uncertain": []
+    },
+    "dlg_2070_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "503:t_024:5: Riddhe begins an objection with Even so, then leaves it unsaid before Bright interrupts.",
+        "503:t_025:3: Heero hesitates after Then I will within the row, before stating his full resolve.",
+        "503:t_104:0: Riddhe trails off after naming Amuro as his opponent; the source leaves his claimed victory unspoken.",
+        "503:t_110:1: Riddhe leaves his If only you were not a Coordinator wish unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2070_06": {
+      "rows_in_slice": 21,
+      "rows_examined": 21,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "503:t_115:0: Riddhe leaves the threatened action after by my own hand unspoken; English retains that threat without supplying kill."
+      ],
+      "uncertain": []
+    },
+    "dlg_2071_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "508:t_1:15: Ambriel begins Then and is cut off by Barbiel claiming the targets.",
+        "508:t_1:47: Bright leaves but at the row boundary; the next row explains Guin used those contacts for his ambition."
+      ],
+      "uncertain": []
+    },
+    "dlg_2071_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "508:t_1:96: Loran trails off after I believe before giving the basis of his faith in Guin in the next row.",
+        "508:t_1:109: Banagher begins But Ensign Riddhe and is interrupted by Kamille before adding a predicate.",
+        "508:t_1:140: Alternate branch repeats Loran's unfinished I believe before the next row explains his faith in Guin.",
+        "508:t_1:149: Alternate branch repeats Banagher's interrupted But Ensign Riddhe without completing the predicate."
+      ],
+      "uncertain": []
+    },
+    "dlg_2071_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "508:t_1:173: Mineva apologizes, then starts But before Haman stops the objection.",
+        "508:t_1:192: Mineva starts to say what Char's actions mean to Haman, but Haman cuts her off.",
+        "508:t_1:212: Alternate branch repeats Mineva's unfinished But after apologizing.",
+        "508:t_1:231: Alternate branch repeats Mineva's interrupted remark about Haman's feelings for Char."
+      ],
+      "uncertain": []
+    },
+    "dlg_2071_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "508:t_2:33: Gyunei starts a flustered denial and breaks off after I before Shinn redirects the conversation.",
+        "508:t_2:60: Katz starts the alternate branch's flustered denial and likewise breaks off after I."
+      ],
+      "uncertain": []
+    },
+    "dlg_2071_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "508:t_10:28: AG trails off after See while presenting the unit's initiation ritual.",
+        "508:t_10:36: AG begins the shop chant; its unfinished opening is answered by Haman in the next row.",
+        "508:t_10:37: Haman recites the deliberately verbless Business, business shop chant.",
+        "508:t_10:51: Alternate branch repeats AG's unfinished See while presenting the initiation ritual.",
+        "508:t_10:59: Alternate branch repeats the chant's unfinished opening before Haman's next-row answer.",
+        "508:t_10:60: Alternate branch repeats the deliberately verbless Business, business shop chant."
+      ],
+      "uncertain": [
+        "508:t_10:21: Source U+0431 glyph retained exactly; its appearance and visual meaning in the game are unverified.",
+        "508:t_10:44: Source U+0431 glyph retained exactly in alternate branch; its appearance and visual meaning in the game are unverified."
+      ]
+    },
+    "dlg_2071_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "509:t_002:7: Setsuko begins Haman is and is interrupted when Amuro says he knows.",
+        "509:t_003:7: Alternate branch repeats Setsuko's unfinished Haman is before Amuro answers.",
+        "509:t_004:3: Setsuko realizes Haman came to die and breaks off before saying the purpose; English leaves came here to unfinished.",
+        "509:t_008:3: Haman begins You but breaks off before confronting Barbiel further.",
+        "509:t_008:14: Barbiel begins Then and Haman interrupts his proposed next step.",
+        "509:t_009:2: Haman starts I and breaks off before rejecting the poison in her next line."
+      ],
+      "uncertain": []
+    },
+    "dlg_2071_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2071_07": {
+      "rows_in_slice": 79,
+      "rows_examined": 79,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "509:t_102:2: Kamille says Haman can feel his heart, then trails off after Then before Haman cuts him off.",
+        "509:t_103:4: Amuro leaves his comparison with Char unfinished at the row boundary; the next row states his intended action.",
+        "509:t_107:3: Marida begins saying Char surely respects Haman too; the source stops before its predicate and English leaves the object of would respect unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "514:t_1:21: Shinn begins I and cannot immediately say what he wants before Kira prompts him.",
+        "514:t_1:27: Shinn begins But and Kira responds before the thought is completed."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "514:t_2:48: Hibiki begins If you are coming at me and breaks off as the assailant reacts.",
+        "514:t_2:84: Hibiki starts I and cannot finish his reply to White's invitation.",
+        "514:t_3:31: Kira begins to clarify Rey's meaning with You mean and Rey answers before the thought is completed."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "514:t_3:40: Kira begins to react to the Chairman drawing out their potential; source ends after mentioning them, and English leaves its object unfinished.",
+        "514:t_3:93: Rey starts This is and is interrupted by Arthur's formal report."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "514:t_10:6: AG's warning about Marida's life ends with an unspoken consequence; her next row interrupts him."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "514:t_10:14: AG leaves the request after When that time comes unfinished; Marida responds to the implied request in the next row.",
+        "514:t_10:23: AG trails off after the condition about Athrun staring at him; the embarrassed consequence remains unsaid.",
+        "514:t_10:38: AG begins approaching Rey with Then, Rey before Rey rejects his ritual solicitation.",
+        "515:t_004:1: Felt starts identifying the threat with This is... and Sumeragi supplies Chrono next.",
+        "515:t_008:4: Banagher leaves his And yet protest unfinished after saying they fought to protect the world."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "515:t_010:0: Kamille reacts with This is... without identifying the power in this row.",
+        "515:t_013:1: Setsuko reacts with That is... before Hibiki identifies the Reformists next.",
+        "515:t_017:3: Lunamaria starts a But objection that Shinn interrupts.",
+        "515:t_019:3: Shinn begins a defense of Coordinators with We are... before Athrun answers that they are not monsters."
+      ],
+      "uncertain": []
+    },
+    "dlg_2072_06": {
+      "rows_in_slice": 77,
+      "rows_examined": 77,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "515:t_027:3: Kira trails off after naming Lacus in his surprise at her rescue effort.",
+        "515:t_028:2: Riddhe leaves the follow-up about his blood unfinished after demanding what Banagher knows about him.",
+        "515:t_028:5: Riddhe begins But! I... without completing his objection.",
+        "515:t_033:0: Sumeragi leaves the predicted consequence for PLANT unfinished at this urgent moment.",
+        "515:t_104:4: Athrun begins But before Kira answers that he understands."
+      ],
+      "uncertain": [
+        "515:t_031:10: They refers to Lacus and Waltfeld in the immediately preceding discussion of their rescue effort. The Japanese has no subject; I chose that contextual referent over Athrun himself."
+      ]
+    },
+    "dlg_2073_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2073_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "520:t_2:18: Banagher leaves his And yet protest unfinished after questioning the captain.",
+        "520:t_2:44: Gyunei addresses Angelo with You bastard...; the source leaves the hostile address unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2073_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "520:t_2:75: Zinnerman introduces the possibility that Char also felt this way; the thought reaches its predicate in row 76.",
+        "520:t_2:97: Banagher trails off while imagining that obeying Frontal would grant temporary peace; his subordinate thought remains deliberately incomplete.",
+        "520:t_2:99: Banagher leaves the despairing conclusion after no matter how much I struggle unresolved."
+      ],
+      "uncertain": []
+    },
+    "dlg_2073_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "520:t_2:143: Frontal ends with but after identifying Chrono intent; the following row explains the underlying Earthnoid motivation.",
+        "520:t_2:214: Banagher starts an Even so objection that Frontal interrupts."
+      ],
+      "uncertain": []
+    },
+    "dlg_2073_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "520:t_2:232: Frontal begins Then, Princess before Tieria interrupts his approach.",
+        "520:t_2:247: Angelo leaves the dismissive objection about merely turning out lights unfinished before Hallelujah answers.",
+        "520:t_2:261: Angelo trails off after saying resistance could not have occurred under the ship security.",
+        "520:t_2:267: Angelo utterance is a cut-off shocked exclamation, Wh...!?",
+        "520:t_2:294: Banagher starts I... before Marida interrupts."
+      ],
+      "uncertain": []
+    },
+    "dlg_2073_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "520:t_2:339: Mineva starts an appeal about Zinnerman actions since rescuing Marida and leaves you... unfinished.",
+        "520:t_2:343: Zinnerman addresses Marida and leaves the object me without a verb. Will you... preserves an unfinished request; forgiveness is inferred from the immediately following exchange, rather than stated as a completed source request.",
+        "520:t_2:349: Zinnerman thought remains I... while he reaches his emotional decision."
+      ],
+      "uncertain": [
+        "520:t_2:343: The source says Marida... me... without a verb. I framed the cut as Will you... because the next rows turn to forgiving selfishness and Zinnerman forgiveness. The specific request is inferred and remains unfinished."
+      ]
+    },
+    "dlg_2073_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "520:t_3:24: F.S. starts the enumeration of powered-up machines; its predicate falls in row 25. Both rows preserve the source boundary.",
+        "520:t_3:25: This row continues the machine enumeration in row 24 and completes its powered-up predicate.",
+        "520:t_3:32: Bright leaves the deduction If the rendezvous point is off Sagami Bay unfinished, before F.S. identifies Tokyo-3.",
+        "520:t_3:36: Otto begins a question about the Celestial Being and trails off before Bright entrusts it to him.",
+        "520:t_3:51: The Then, Commander Bright prompt leaves the requested next orders implicit."
+      ],
+      "uncertain": []
+    },
+    "dlg_2073_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "521:t_009:1: Shinn starts reporting what the Unicorn is doing and trails off before the following reaction.",
+        "521:t_015:1: Quess starts a fearful deduction about Haman intended attack without completing it."
+      ],
+      "uncertain": []
+    },
+    "dlg_2073_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "521:t_022:6: Haman begins deducing that the battle was connected to the enemy arrangement, leaving was... unfinished.",
+        "521:t_026:1: Shinn starts reporting what the Unicorn is doing and leaves the observation unfinished."
+      ],
+      "uncertain": [
+        "521:t_108:2: Loran leaves the person he knows unnamed; the English preserves The person I know without forcing an identity or gender."
+      ]
+    },
+    "dlg_2073_09": {
+      "rows_in_slice": 9,
+      "rows_examined": 9,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "521:t_111:1: Marida begins recognizing that Frontal too has undergone similar alteration and leaves the deduction unfinished."
+      ],
+      "uncertain": []
+    },
+    "dlg_2074_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "526:t_1:14: Hunter starts recognizing Kalinin with You are... before Kalinin supplies his identity.",
+        "526:t_1:28: Hunter begins Are you really... and is interrupted by Kalinin shooting him.",
+        "526:t_1:69: Kaname thought about going with another man is an unfinished concessive continuation of her thoughts in row 68; her emotion trails off here."
+      ],
+      "uncertain": [
+        "526:t_1:24: Hunter indirect that preserves the source reference to Kalinin changed outlook and youthful respect; it does not impose a more specific motive."
+      ]
+    },
+    "dlg_2074_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "526:t_1:97: Luca leaves his list of machines unfinished; Michel interrupts before the predicate.",
+        "526:t_2:12: Leonard starts asking Kaname to listen to his explanation; Kaname interrupts after the possessive.",
+        "526:t_2:19: Kaname trails off after describing Leonard smiling at her imprisonment; the evaluation follows in row20."
+      ],
+      "uncertain": [
+        "526:t_1:111: Adapted the Clouseau/kuru-zo sound joke as cruise on over; intended corny wordplay preserved."
+      ]
+    },
+    "dlg_2074_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "526:t_2:46: Leonard lists possible motives and trailing alternatives; row47 dismisses their relevance.",
+        "526:t_2:54: Kaname trails off while asking why Leonard revealed his trauma.",
+        "526:t_2:56: Kaname cannot complete why Leonard wants her despite his past.",
+        "526:t_2:57: Leonard deliberately leaves his answer to why he wants Kaname unresolved.",
+        "526:t_2:59: Kaname recognizes the arriving man but stops before naming him in row61.",
+        "526:t_3:10: Kaname hesitates instead of completing her answer about meeting Sousuke.",
+        "526:t_3:19: Kaname interrupts her question about what Leonard is doing with the gun.",
+        "526:t_3:30: Kaname trails off after but; row31 states that she lacks the resolve to kill.",
+        "526:t_3:49: Kaname stammers the pronoun after accidentally firing, without finishing her thought.",
+        "526:t_3:52: Kaname leaves But unfinished after trying to deny intent to fire.",
+        "526:t_3:54: Kaname stammers and trails off while denying intent to shoot.",
+        "526:t_3:58: Kalinin stops his explanation of why they must leave when Sousuke arrives in row59.",
+        "526:t_2:43: Kaname leaves her shocked disbelief unfinished after witnessing Leonard's childhood."
+      ],
+      "uncertain": []
+    },
+    "dlg_2074_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "526:t_4:14: Kaname leaves her reasoning unfinished before Kalinin says he can shoot Sousuke.",
+        "526:t_4:34: Kaname deliberately trails off to imply suicide if she cannot see Sousuke."
+      ],
+      "uncertain": []
+    },
+    "dlg_2074_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "526:t_10:32: Chamber repeats the unfamiliar friendliness concept as a questioning echo.",
+        "526:t_10:36: Chamber completes AG's established sales chant with the isolated chant word.",
+        "526:t_10:37: Al completes AG's established sales chant with the isolated chant word."
+      ],
+      "uncertain": [
+        "527:t_000:0: Nikero Island spelling is provisional; follows the existing Nikero short-name glossary, per parent research."
+      ]
+    },
+    "dlg_2074_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "527:t_011:5: Gates uses a deliberately unfinished adversative before destroying the dummy.",
+        "527:t_012:1: Kei trails off at the sight of the destroyed new model.",
+        "527:t_013:4: Ozma recognizes the arriving man but leaves his identification unfinished.",
+        "527:t_013:17: Sousuke's What is cut short by shock at Kalinin's betrayal.",
+        "527:t_013:31: Kalinin's Then deliberately spans into his elimination declaration in row32.",
+        "527:t_013:35: Sousuke cannot finish the thought that his father figure intends to kill him.",
+        "527:t_010:8: Sousuke echoes the unfamiliar Mr. Ag codename while trying to identify it.",
+        "527:t_012:2: Suzaku's disbelief trails off at the destruction of the dummy.",
+        "527:t_013:5: Mao cannot complete her shocked reaction to Kalinin's arrival."
+      ],
+      "uncertain": []
+    },
+    "dlg_2074_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "527:t_019:0: Sousuke leaves the machine's identification unfinished until Al speaks.",
+        "527:t_019:4: Ledo echoes the unexpected ARX-8 model designation.",
+        "527:t_021:5: Sousuke's accusation of Al stops after You.",
+        "527:t_021:16: Al trails off in suggesting use of their Lambda Driver; Sousuke interrupts.",
+        "527:t_026:0: Mardukas leaves the missing persons report unfinished; Tessa answers.",
+        "527:t_017:8: Tessa's insult is echoed incredulously by Gates."
+      ],
+      "uncertain": []
+    },
+    "dlg_2074_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "527:t_027:0: Alternate branch retains the same interrupted missing persons report.",
+        "527:t_028:7: Sousuke leaves his conditional action unfinished when Kaname corrects him.",
+        "527:t_028:10: Sousuke's What is cut short by disbelief at Kaname's request.",
+        "527:t_028:18: Kaname leaves her contrast unfinished before Sousuke asks what she means.",
+        "527:t_028:21: Sousuke stops after I while pleading with Kaname.",
+        "527:t_028:22: Kaname leaves their separation unfinished, unable to say it.",
+        "527:t_028:25: Kaname's After all leads into her rejection of separation in row26.",
+        "527:t_028:30: Kaname's command to use his skills continues into the next row's rescue command.",
+        "527:t_033:0: Kan Yu cannot finish his shocked thought about Gates being defeated.",
+        "527:t_035:1: Kan Yu's parting threat cuts off after And as he flees."
+      ],
+      "uncertain": []
+    },
+    "dlg_2074_08": {
+      "rows_in_slice": 49,
+      "rows_examined": 49,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "527:t_104:0: Tessa's make you understand takes its object in row1.",
+        "527:t_104:1: Object clause deliberately continues Tessa's sentence from row0."
+      ],
+      "uncertain": []
+    },
+    "dlg_2075_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "532:t_1:13: Ambrie's Then is interrupted by Shikuu volunteering to go.",
+        "532:t_1:50: Tessa trails off while recognizing the developer; Wraith names Mira next.",
+        "532:t_1:53: Sousuke leaves Mira's identity unfinished; Tessa confirms Whispered next.",
+        "532:t_1:56: Sousuke leaves the Siberian girl's identity unfinished; Tessa identifies her.",
+        "532:t_1:63: Sousuke deliberately leaves the leader's identity to Tessa's next row.",
+        "532:t_1:64: Tessa supplies the name completing the previous row's leader identification.",
+        "532:t_1:69: Tessa leaves And also unfinished; Wraith supplies the spacequake bombs next."
+      ],
+      "uncertain": [
+        "532:t_1:32: Kept his unidentified target neutral in wording and did not supply a later-plot identity.",
+        "532:t_1:78: Rendered the misquoted love confession as I adore you; Al corrects it to I love you in row80.",
+        "532:t_1:80: Correction quotes the newly translated actual Kaname confession; love/adore contrast carries the Japanese lexical correction."
+      ]
+    },
+    "dlg_2075_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "532:t_1:90: Kurz leaves his plan during Sousuke's absence unfinished when Hibiki challenges him.",
+        "532:t_1:95: Kallen trails off at the suspected love triangle.",
+        "532:t_1:112: Alto leaves his surprised address to Hibiki unfinished.",
+        "532:t_1:143: Alto leaves his identification of Kamine Island unfinished; Crowe explains next.",
+        "532:t_2:25: Amy leaves the implications of the Stigma unfinished; Ledo voices them next."
+      ],
+      "uncertain": []
+    },
+    "dlg_2075_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "532:t_2:30: Zero's conditional naming phrase takes God from row31.",
+        "532:t_2:96: Alto's But deliberately continues into the next row's plea to protect song.",
+        "532:t_2:104: Ledo leaves his objection to Kugel unfinished.",
+        "532:t_2:110: Ledo echoes the shocking god concept rather than making an assertion.",
+        "532:t_2:107: Ledo leaves his denial unfinished while hearing Kugel's philosophy."
+      ],
+      "uncertain": []
+    },
+    "dlg_2075_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "532:t_2:139: Hibiki leaves his conditional thought about God's power unfinished.",
+        "532:t_2:154: Lelouch starts recognizing Charles but stops before his name."
+      ],
+      "uncertain": [
+        "532:t_2:177: Speaker is Macross7 Ray pt231, established by Basara/Mylene scene; not Rey pt136 or Rei pt394."
+      ]
+    },
+    "dlg_2075_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "533:t_000:4: Tessa leaves her inference at Then; Jeffrey supplies the conclusion in row5.",
+        "532:t_3:14: Amy leaves her disbelief unfinished at the supposedly predetermined future."
+      ],
+      "uncertain": [
+        "532:t_2:232: Pursued him refers to Advent from this encounter; no later identity supplied."
+      ]
+    },
+    "dlg_2075_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "533:t_006:6: Six ritual syllables are a chant, not a proposition; no subject or verb is intended.",
+        "533:t_008:0: Shikoku trails off in surprise at the song, leaving the complement unfinished.",
+        "533:t_007:10: Gamlin begins claiming the phrase as his own and Crowe interrupts with an urgent explanation."
+      ],
+      "uncertain": [
+        "533:t_006:6: Chant uses inferred standard on-readings Zetsu/In/A/Gou/Goku/Shuu per parent research; official voiced/localized readings unverified.",
+        "533:t_003:8: Basara is the incompatible one, resolved from Fire Bomber targeting and song countermeasure context."
+      ]
+    },
+    "dlg_2075_06": {
+      "rows_in_slice": 37,
+      "rows_examined": 37,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": [
+        "533:t_016:5: Chirico's unnamed he is deliberately unnamed in source; preceding Martial and following Wiseman scene establish a male referent without revealing his name early."
+      ]
+    },
+    "dlg_2076_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "538:t_1:45: Kallen trails off after Besides; Hibiki supplies the painful memory in the next row."
+      ],
+      "uncertain": []
+    },
+    "dlg_2076_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "538:t_2:5: Cardinal starts recognizing Chirico but cuts off before the identifying complement.",
+        "538:t_2:8: Cardinal trails off about the Pope seeking protection, interrupted by Chirico demanding his location.",
+        "538:t_2:17: Teo addresses Chirico by title and name before assessing the outcome in row19; retained vocative."
+      ],
+      "uncertain": []
+    },
+    "dlg_2076_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "538:t_2:99: Wiseman trails off after asking why Chirico attacks despite saving Fyana."
+      ],
+      "uncertain": []
+    },
+    "dlg_2076_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "538:t_3:34: Zero leaves the proposed end of Chirico's battle unfinished; Chirico interrupts to affirm membership.",
+        "538:t_3:38: Hibiki trails off prompting Chirico to explain what staying in the team means.",
+        "538:t_10:6: AG's request to wear the bunny suit is cut short by Kallen's threatening response.",
+        "538:t_10:37: AG starts the shop catchphrase and Shako supplies Business, business in the next row."
+      ],
+      "uncertain": [
+        "538:t_3:34: Zero's implied ending is a suggestion interrupted by Chirico, not a declaration that Chirico actually leaves."
+      ]
+    },
+    "dlg_2076_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "539:t_006:0: Suzaku begins identifying the AT and Kallen supplies the identification in the next row.",
+        "539:t_006:3: Titania leaves the pilot identity unfinished; Chirico supplies Nextant in the next row.",
+        "539:t_006:16: Titania begins identifying the arrival; Chirico supplies Rochina in the next row."
+      ],
+      "uncertain": [
+        "539:t_003:13: Adapted moon/turtle/naked pun as whole other bare-ass league, preserving crude mistaken idiom and Al's correction without a literal unintelligible animal comparison."
+      ]
+    },
+    "dlg_2076_05": {
+      "rows_in_slice": 70,
+      "rows_examined": 70,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "539:t_014:4: Kallen trails off realizing Fyana may be alive; Chirico confirms in the next row.",
+        "539:t_014:10: Zero leaves the remaining task unfinished; Chirico supplies destroying the fate-twister next.",
+        "539:t_015:2: Purpose fragment continues Chirico's previous-row statement that he fights to live.",
+        "539:t_021:4: Wiseman's conditional is cut before the identity, which is supplied in row5.",
+        "539:t_021:5: Predicate continues Wiseman's preceding conditional, retaining the matching row boundary.",
+        "539:t_022:2: Mome starts an objection with But and Kei interrupts; no completed clause exists."
+      ],
+      "uncertain": []
+    },
+    "dlg_2077_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_1:16: Olson trails off after Besides, waiting for Kei to prompt his additional reason.",
+        "544:t_1:44: Kurz stumbles through an initial I before changing to the buildup about Chirico and Fyana.",
+        "544:t_1:67: Sousuke stumbles through Kurz was before restarting as an apology; unfinished attempt retained.",
+        "544:t_1:70: Sousuke's explanation of Kurz starting the talk is interrupted by Tessa teasing him."
+      ],
+      "uncertain": [
+        "544:t_1:56: Source promoted ranks preserved: Master Sergeant Weber and Ensign Mao, overriding earlier generic ranks."
+      ]
+    },
+    "dlg_2077_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_2:10: Kaname begins asking what Leonard means and is interrupted by Shut up.",
+        "544:t_2:26: Tessa leaves the conjunction unfinished and completes the second point in row27.",
+        "544:t_2:41: Tessa's conditional about a god existing continues into the next-row savior comparison.",
+        "544:t_2:43: Sousuke falters at the savior comparison; I couldn't be leaves the implied savior complement unsaid.",
+        "544:t_2:50: Hibiki leaves the strange sensation's cause unfinished; Tessa confirms in the next row.",
+        "544:t_2:55: Tessa introduces Varov with a name and appositive; the next row begins his belief.",
+        "544:t_2:58: Hibiki begins identifying the realm; Tessa supplies the parallel with the collective unconscious.",
+        "544:t_2:61: Sousuke leaves TAROS' expansion unfinished; Tessa supplies it next.",
+        "544:t_2:63: Sousuke leaves his Lambda Driver inference unfinished; Tessa confirms next.",
+        "544:t_2:79: Hibiki leaves his challenge conditional unfinished while engaging the approaching soldiers."
+      ],
+      "uncertain": []
+    },
+    "dlg_2077_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_2:89: Hibiki's Why remains a stunned interjection about Maki's affiliation.",
+        "544:t_2:116: Hibiki begins I but cannot complete his answer to White's invitation.",
+        "544:t_2:124: Kaname's escape plan trails off after the conditional about contacting the team.",
+        "544:t_2:134: Kaname trails off after the conditional about meeting Sousuke."
+      ],
+      "uncertain": [
+        "544:t_2:143: Leonard questions calling the interfering Chrono agents human; no later identity details inferred."
+      ]
+    },
+    "dlg_2077_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_2:171: Leonard leaves the first explanation trailing; the next row gives the reversed causal alternative.",
+        "544:t_2:240: Kaname leaves the consequence for Sousuke unfinished while imagining a world without ASes.",
+        "544:t_2:242: Kaname dislocates the subject to row243; this row refers ahead with It.",
+        "544:t_2:243: Delayed subject names the place from row242, retaining the source row cut.",
+        "544:t_2:250: Sousuke trails off in disbelief before Leonard summarizes the origin of the world.",
+        "544:t_2:252: Sousuke begins a second objection with Something like that but leaves it unfinished."
+      ],
+      "uncertain": [
+        "544:t_2:177: Adapted Kaname/keystone pun with linchpin and name; no-past/future/present world clause retained.",
+        "544:t_2:203: Amplifying psychic waves is the means of controlling dimensional power; same-row clauses attached."
+      ]
+    },
+    "dlg_2077_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_2:259: Sousuke's unless-you-were-a-god thought is interrupted by his realization in the next row.",
+        "544:t_2:313: Sousuke leaves the identity unfinished; Leonard supplies Kaname in row314.",
+        "544:t_2:317: Sousuke trails off reacting to the claim that Chidori will send the information."
+      ],
+      "uncertain": [
+        "544:t_2:327: 考察 interpreted as devising/analyzing the technical information in a further future, not the immediate person receiving it."
+      ]
+    },
+    "dlg_2077_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_2:339: Sousuke trails off after But while considering Leonard's argument.",
+        "544:t_2:363: Kaname begins identifying the capsule girl; the identification is completed in row364.",
+        "544:t_2:372: Kaname trails off after her conditional inference before the unknown voice answers.",
+        "544:t_2:386: Tessa trails off addressing Kaname and starting You.",
+        "544:t_2:390: Sousuke trails off after But on noticing Kaname's strange behavior.",
+        "544:t_2:396: Tessa is interrupted while describing Kaname's condition.",
+        "544:t_2:406: Tessa trails off while identifying Sophia as the capsule girl, and Kaname interrupts her."
+      ],
+      "uncertain": []
+    },
+    "dlg_2077_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "544:t_2:427: Sousuke's proposed action is interrupted by Kaname's accusation.",
+        "544:t_2:451: Sousuke's voice/feelings thought deliberately lacks its main predicate at the row cut before452.",
+        "544:t_3:8: Kaname leaves the as-long-as-I-survive conditional unfinished.",
+        "545:t_000:13: Tessa's time clause continues into the experiment description in row14."
+      ],
+      "uncertain": []
+    },
+    "dlg_2077_07": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "545:t_002:6: Jeffrey addresses Tessa and leaves the handoff implicit; Tessa replies next.",
+        "545:t_006:3: Kei leaves his Now-all-we-need thought unfinished during the trap."
+      ],
+      "uncertain": [
+        "545:t_003:5: Phonetic full-name alias is normalized to the established full-name token per parent decision."
+      ]
+    },
+    "dlg_2077_08": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "545:t_014:3: Kei leaves the conditional about enemies blocking investigation unfinished.",
+        "545:t_019:1: Clouseau starts his report on Weber but Mao interrupts.",
+        "545:t_020:6: Sousuke's angry You outburst is interrupted by Kei."
+      ],
+      "uncertain": []
+    },
+    "dlg_2077_09": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "545:t_027:19: Michel interrupts with But before Kurz explains the rifle.",
+        "545:t_027:22: Crowe trails off while referring to Kurz's position; range is given next.",
+        "545:t_027:25: Hibiki leaves Even you unfinished while doubting the extreme range shot.",
+        "545:t_028:1: Crowe's emotional You address trails off before Kurz prepares to shoot.",
+        "545:t_028:23: Kurz deliberately lists ballistic variables without a finite predicate; row24 describes processing them.",
+        "545:t_031:4: Al is cut off before stating Kurz is already dead."
+      ],
+      "uncertain": []
+    },
+    "dlg_2077_10": {
+      "rows_in_slice": 13,
+      "rows_examined": 13,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    },
+    "dlg_2078_00": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "550:t_1:15: Kalinin begins contradicting Kaname about Sousuke/Tessa but Leonard stops him.",
+        "550:t_1:41: Mardukas's report ends at the source cut and continues with further findings in42.",
+        "550:t_1:44: Robot subject list continues into each-has-grown-stronger in45.",
+        "550:t_1:66: Mardukas's report ends at the source cut and continues with further findings in67.",
+        "550:t_1:69: Robot subject list continues into each-has-grown-stronger in70."
+      ],
+      "uncertain": []
+    },
+    "dlg_2078_01": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "550:t_1:120: Hibiki's purpose clause continues his protecting-Kaname thought in119 across a source row boundary.",
+        "550:t_1:126: Olson trails off after but about the Reformists' intentions.",
+        "550:t_1:140: Kallen avoids completing her reference to Kurz's death."
+      ],
+      "uncertain": []
+    },
+    "dlg_2078_02": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "550:t_1:185: Mao trails off after So while denying the relationship was serious.",
+        "550:t_1:187: Mao starts another thought about Kurz and stops.",
+        "550:t_1:188: Sousuke leaves the if-I-had-saved-Tessa conditional unfinished.",
+        "550:t_1:192: Mao's emotional nominal insult is a deliberate grieving outburst.",
+        "550:t_1:221: Al begins his objection with But at the source row cut; Sachs refuses the proposed booster repair in222."
+      ],
+      "uncertain": [
+        "550:t_1:213: New exact booster term researched and added by parent; use official token."
+      ]
+    },
+    "dlg_2078_03": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "550:t_1:271: Tessa's imagined calming effect trails off before she trips.",
+        "550:t_1:276: Tessa trails off planning hangar changes before catching herself.",
+        "550:t_1:308: Tessa's system plan sentence continues into remaking the world in309.",
+        "550:t_1:309: This row continues the predicate from308 with And remake at the matching cut.",
+        "550:t_1:319: Tessa leaves but at the cut before describing the Whispering in320.",
+        "550:t_1:330: Tessa's And so bridges to Let's win in331."
+      ],
+      "uncertain": []
+    },
+    "dlg_2078_04": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "550:t_2:6: Pinion's warning about the Boss trails off urgently.",
+        "550:t_2:33: Al's unfinished question about Sachs is answered by Sousuke next.",
+        "550:t_2:53: Sousuke is interrupted after telling Al to keep quiet.",
+        "550:t_2:54: Al begins his objection with But at the source row cut; Al gives the greater-loss explanation in55."
+      ],
+      "uncertain": []
+    },
+    "dlg_2078_05": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "550:t_2:62: Sousuke leaves but while reflecting on Al's design before considering emotion in63.",
+        "550:t_2:65: He said ends at the source row cut; the quotation content follows in66.",
+        "550:t_2:66: This row gives the quotation content started by he said in65.",
+        "550:t_3:6: Sousuke leaves his realization of Leonard's trap unfinished."
+      ],
+      "uncertain": [
+        "550:t_4:8: The unidentified object is kept as its, without adding its later identity.",
+        "550:t_4:10: The unnamed male helper is retained as him; no later plot identity inserted."
+      ]
+    },
+    "dlg_2078_06": {
+      "rows_in_slice": 80,
+      "rows_examined": 80,
+      "left_untranslated": [],
+      "kept_omissions": [
+        "551:t_009:6: Al's Then is a source cut before the launch.",
+        "551:t_012:5: Kei completes the purpose phrase begun by Ledo in012:4 at a source row boundary.",
+        "551:t_019:4: For clause continues thanks to Wraith/McAllen from019:3 across a source row boundary.",
+        "551:t_019:22: Al begins his objection with But at the source row cut; Pinion interrupts with the booster announcement in23.",
+        "551:t_019:29: Al trails off asking about the new feeling before Sousuke names happiness.",
+        "551:t_019:31: Al trails off pondering This is after learning the feeling's name.",
+        "551:t_020:1: Ozma's But introduces the unresolved absence of Leonard.",
+        "551:t_021:1: Tessa's evidence clause continues into the conclusion in021:2."
+      ],
+      "uncertain": []
+    },
+    "dlg_2078_07": {
+      "rows_in_slice": 25,
+      "rows_examined": 25,
+      "left_untranslated": [],
+      "kept_omissions": [],
+      "uncertain": []
+    }
+  },
+  "limitations": [
+    "Coordinator sampled source meaning, not a second complete independent meaning proofread.",
+    "No in-game check, promotion, build or deployment."
+  ]
+}

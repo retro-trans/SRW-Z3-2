@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "title_id": "BLJS10299",
+  "archive": "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK",
+  "archive_sha256": "84dec7393f18dd9c1733c373160620ffd34367146336ca9fa818b0797f2fc257",
+  "member_id": 0,
+  "member_sha256": "fd95a2df8ead3b3ed52c984407260b7ad2b2d9e9d0ef7f1ee2d43c39723651bf",
+  "chunk": "spirit",
+  "chunk_offset": 499096,
+  "chunk_bytes": 880,
+  "chunk_sha256": "bdd3d6d6caa9007bbffb71542440ab209395be722590e433e788b5164b964489",
+  "candidate_strides": [
+    20,
+    40,
+    80
+  ],
+  "record_stride": 20,
+  "string_columns": {
+    "name": 1,
+    "abbreviation": 2,
+    "description": 3
+  },
+  "runtime_consumer_verified": false,
+  "evidence": {
+    "records_examined": 44,
+    "fields_examined": 132,
+    "reason": "Smallest candidate stride is 20 bytes. All 132 string fields point to real source string starts; all 44 triples were semantically reviewed. Non-string words remain uninterpreted.",
+    "structural_binding_reviewed": true,
+    "runtime_consumer_verified": false
+  }
+}

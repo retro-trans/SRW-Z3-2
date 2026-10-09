@@ -1,0 +1,487 @@
+{
+ "schema": 1,
+ "group": "evangelion",
+ "names": [
+  {
+   "jp": "アヤナミレイ（仮称）",
+   "kind": "pilot",
+   "en": "Rei Ayanami (Tentative Name)",
+   "status": "official",
+   "source": "https://www.goodsmile.info/en/product/13483/Rei+Ayanami+tentative+name.html : product title 'Rei Ayanami (Tentative Name)' (Khara-licensed figure); same form on otakumode.com 3.0+1.0 merchandise",
+   "note": "Evangelion 3.0 character (clone-like being, same voice actor Hayashibara as Rei). Parentheses are part of the official name (the glossary already has '(Kai)', '(Pre-Production Unit)'). 28 characters: check the CHFN width; a fallback is 'Rei (Tentative Name)'. Not the same being as 綾波レイ = Rei Ayanami.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library pilot 395 DSCR: 少女 (girl); looks exactly like 綾波レイ; same voice actor 林原めぐみ (ACTR)",
+    "position": "pilot of Evangelion Mark.09; takes Shinji out of WILLE custody to the old NERV base",
+    "personality": "almost no emotion or self; obeys orders ('if that is an order, I will'); later starts asking herself 'what would Rei Ayanami do?'",
+    "nickname": "",
+    "sources": [
+     "library pilot 395 DSCR/DSC2",
+     "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo (Rei follows in Mark.09)",
+     "https://www.goodsmile.info/en/product/13483/Rei+Ayanami+tentative+name.html"
+    ]
+   }
+  },
+  {
+   "jp": "アヤナミレイ",
+   "kind": "pilot",
+   "en": "Rei (Tentative Name)",
+   "status": "proposed",
+   "source": "CHNN of pilot 395; short form of the official 'Rei Ayanami (Tentative Name)' (https://www.goodsmile.info/en/product/13483/Rei+Ayanami+tentative+name.html); glossary pattern: CHNN = given name only (アスカ = Asuka)",
+   "note": "Name-box short form. A bare 'Rei' would clash with レイ#pt394 = Rei (different being), so the qualifier is kept. Alternative if space is short: 'Tentative Rei' (fan usage, no official source). Note the Japanese is the full katakana name アヤナミレイ, not just レイ."
+  },
+  {
+   "jp": "エヴァンゲリオン　Ｍａｒｋ．６",
+   "kind": "robot",
+   "en": "Evangelion Mark.06",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance : plot 'Evangelion Mark.06'; https://evangelion.fandom.com/wiki/Near_Third_Impact (Kaworu arrives in Evangelion Mark.06); glossary Mark.09 = Evangelion Mark.09 (akurasu work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki)",
+   "note": "Same numbering style as Mark.09 (two digits, period). Game writes Ｍａｒｋ．６ with one digit; official is Mark.06."
+  },
+  {
+   "jp": "エヴァンゲリオン改２号機",
+   "kind": "robot",
+   "en": "Evangelion Unit-02 Kai",
+   "status": "proposed",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Evangelion Unit-02γ Kai' = エヴァンゲリオン改2号機γ; glossary 'Evangelion Unit-00 (Kai)' for 零号機（改）",
+   "note": "Short form of 改２号機γ: the game's short name omits γ, so English omits it too. Official English of 改 is 'Revised' (Fandom quotes 'Unit Two Revised Gamma'; akurasu pilot db 'Evangelion Revised Unit-02γ'), but the akurasu mech list, which outranks it here, and the glossary's '(Kai)' both use Kai, so Kai is kept for one style. See report.uncertain."
+  },
+  {
+   "jp": "シゲル",
+   "kind": "pilot",
+   "en": "Shigeru",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters : Shigeru Aoba; glossary 青葉シゲル = Shigeru Aoba (official)",
+   "note": "Short name of pilot 407. Kana differs from しげる (Shigeru Takeo, Trider G7), so no clash and no retoken: しげる is a different Japanese string."
+  },
+  {
+   "jp": "ジオフロント",
+   "kind": "keyword",
+   "en": "Geofront",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo : 'Tokyo-3 and the Geofront being abandoned'; https://evangelion.fandom.com/wiki/Geofront",
+   "note": "Standard Evangelion term (one word)."
+  },
+  {
+   "jp": "タブハベース",
+   "kind": "keyword",
+   "en": "Tabgha Base",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance : 'NERV's lunar compound, Tabgha Base'",
+   "note": "Lunar NERV base of Rebuild 2.0 (named after Tabgha, Israel: https://en.wikipedia.org/wiki/Tabgha). Also Jigoku 'Tabgha Base'."
+  },
+  {
+   "jp": "ニアサードインパクト",
+   "kind": "keyword",
+   "en": "Near Third Impact",
+   "status": "official",
+   "source": "https://evangelion.fandom.com/wiki/Near_Third_Impact ; https://wiki.evageeks.org/Near_Third_Impact (page titles); events of Evangelion 2.0",
+   "note": "Some reviews write 'Near-Third Impact'; the wiki titles use no hyphen. Capitalized as a named event, like 'Second Impact' (glossary official)."
+  },
+  {
+   "jp": "ベタニアベース",
+   "kind": "keyword",
+   "en": "Bethany Base",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance : 'NERV's arctic Bethany Base'; https://evangelion.fandom.com/wiki/Bethany_Base ; https://wiki.evageeks.org/Bethany_Base",
+   "note": "Arctic NERV base (Rebuild 2.0 opening). Also Jigoku 'Bethany Base'."
+  },
+  {
+   "jp": "ユイ",
+   "kind": "pilot",
+   "en": "Yui",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters : Yui Ikari (Shinji's mother, Gendo's wife)",
+   "note": "Yui Ikari, deceased. Not Heero Yui (ヒイロ・ユイ is a different Japanese string). Bare ユイ appears only in the Gendo entry within my group.",
+   "profile": {
+    "gender": "female",
+    "gender_evidence": "library pilot 403 DSCR: 死んだ妻ユイ (his late wife Yui); Wikipedia: Shinji's mother",
+    "position": "Gendo Ikari's late wife and Shinji's mother (lost in the Unit-01 activation experiment)",
+    "personality": "not described in the library; in the source work she willingly volunteered for the experiment",
+    "nickname": "",
+    "sources": [
+     "library pilot 403 DSCR",
+     "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Yui_Ikari"
+    ]
+   }
+  },
+  {
+   "jp": "レイ#pt394",
+   "kind": "pilot",
+   "token": "レイ#pt394",
+   "en": "Rei",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters : Rei Ayanami; glossary 綾波レイ = Rei Ayanami (akurasu Z3.2 pilot database)",
+   "note": "CHNN of pilot 394 (Evangelion First Child). Kept apart from レイ#pt231 (Ray Lovelock, Macross 7) and レイ#pt136 (Rei Z. Barrel); the Jigoku glossary marks bare レイ ambiguous for exactly that reason. Spelling unchanged from the glossary."
+  },
+  {
+   "jp": "人類補完計画",
+   "kind": "keyword",
+   "en": "Human Instrumentality Project",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters : 'Gendo conducts the Adam Project and the Human Instrumentality Project'; https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion",
+   "note": "Capitalized as a named project ('Human Instrumentality Project'); 'Instrumentality' alone is the process."
+  },
+  {
+   "jp": "松代",
+   "kind": "keyword",
+   "en": "Matsushiro",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Matsushiro,_Nagano ; https://en.wikipedia.org/wiki/Evangelion_(mecha) : 'the city of Matsushiro, Nagano Prefecture, where Nerv's second experimentation site is located'",
+   "note": "Site of the Unit-03 activation test."
+  },
+  {
+   "jp": "汎用ヒト型決戦兵器　人造人間エヴァンゲリオン　正規実用型　改２号機γ",
+   "kind": "robot",
+   "en": "General-Purpose Humanoid Decisive Battle Weapon, Artificial Human Evangelion, Production Model Unit-02γ Kai",
+   "status": "proposed",
+   "source": "glossary precedent: 汎用ヒト型決戦兵器　人造人間エヴァンゲリオン　正規実用型２号機（先行量産機） = 'General-Purpose Humanoid Decisive Battle Weapon, Artificial Human Evangelion, Production Model Unit-02 (Pre-Production Unit)'; work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Evangelion Unit-02γ Kai'; https://evangelion.fandom.com/wiki/Evangelion_Unit-02_(Rebuild)/Unit-02'%CE%B3 (official full name in the form '... Evangelion Utility Model Unit Two Revised Gamma')",
+   "note": "Assembled from the glossary's own pattern; nothing gives this exact string in English. Unit designation follows the wiki order 'Unit-02γ Kai'. Official English of the film sub-title differs ('Utility Model', 'Revised', 'Battle Weapon'); the glossary pattern is kept for consistency."
+  },
+  {
+   "jp": "汎用ヒト型決戦兵器　人造人間エヴァンゲリオン　正規実用型（ヴィレカスタム）８号機β",
+   "kind": "robot",
+   "en": "General-Purpose Humanoid Decisive Battle Weapon, Artificial Human Evangelion, Production Model (WILLE Custom) Unit-08β",
+   "status": "proposed",
+   "source": "glossary precedent (same pattern as above); work/glossary/reference/sources/akurasu_z3.2_mech_list.wiki : 'Evangelion Unit-08' = エヴァンゲリオン8号機; https://evangelion.fandom.com/wiki/Evangelion_Unit-08 (full official form 'General-Purpose Humanoid Battle Weapon Android Evangelion Utility Model (WILLE Custom) Unit Eight ...' seen via search snippet)",
+   "note": "Assembled from the glossary pattern plus WILLE (ヴィレ). Only the Unit-08 part is wiki-attested; the long string is not."
+  },
+  {
+   "jp": "相模湾",
+   "kind": "keyword",
+   "en": "Sagami Bay",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Sagami_Bay (相模湾 Sagami-wan)",
+   "note": "Real place; standard English."
+  },
+  {
+   "jp": "第３新東京市",
+   "kind": "keyword",
+   "en": "Tokyo-3",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo : 'Tokyo-3 and the Geofront'; https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters : 'city of Tokyo-3'; glossary note: Evangelion Map caption and stage0018-0020 terminology",
+   "note": "Upgrades the glossary's 'proposed'. The library also has 'Tokyo-3 Municipal Junior High School No. 1' (pilot 392, 394, 409, 410 prose). Compare 第２新東京市 = 'Neo Tokyo-2' in original_1c: same pattern, different English (see report.uncertain)."
+  },
+  {
+   "jp": "第８の使徒",
+   "kind": "robot",
+   "en": "the Eighth Angel",
+   "status": "official",
+   "source": "https://evangelion.fandom.com/wiki/Ninth_Angel and https://evangelion.fandom.com/wiki/Tenth_Angel (wiki title pattern '<Ordinal> Angel'); glossary 第７の使徒 = the Seventh Angel, 第９の使徒 = the Ninth Angel; Jigoku library English 'Eighth Angel'",
+   "note": "Rebuild 2.0 eighth Angel (Unit-00 held its core, Unit-02 stabbed it). Follows the glossary siblings, including their leading 'the'. See report.challenges for 第１０の使徒."
+  },
+  {
+   "jp": "芦ノ湖",
+   "kind": "keyword",
+   "en": "Lake Ashi",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Lake_Ashi (芦ノ湖 Ashi-no-ko); Jigoku library English 'Lake Ashi'",
+   "note": "EvaGeeks uses the romanization 'Ashinoko'; Lake Ashi is the standard English name and the one used in the Jigoku library."
+  },
+  {
+   "jp": "ＤＳＳチョーカー",
+   "kind": "keyword",
+   "en": "DSS Choker",
+   "status": "official",
+   "source": "https://otakumode.com/shop/5449d4fbc9d4c97e43ca878a/Evangelion-3-0-You-Can-Not-Redo-DSS-Choker : Movic product 'Evangelion: 3.0 You Can (Not) Redo DSS Choker'; https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo (explosive choker)",
+   "note": "Device on Shinji's neck in 3.0 that kills him if he pilots an Eva."
+  },
+  {
+   "jp": "ＥＶＡ仮設５号機",
+   "kind": "robot",
+   "en": "EVA Provisional Unit-05",
+   "status": "proposed",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance : 'Evangelion Provisional Unit-05'; https://evangelion.fandom.com/wiki/Evangelion_Provisional_Unit-05",
+   "note": "Official order is 'Provisional Unit-05'; Jigoku's 'provisional EVA Unit-05' (with |lc) is a paraphrase. The game keeps ＥＶＡ in Latin capitals, so EVA is kept (as ＥＶＡ３号機 = EVA Unit-03). Uppercase 'Provisional' is the official spelling, so the |lc modifier must be dropped, see report.retoken."
+  },
+  {
+   "jp": "ＥＶＡ３号機",
+   "kind": "robot",
+   "en": "EVA Unit-03",
+   "status": "official",
+   "source": "https://evangelion.fandom.com/wiki/Evangelion_Unit-03_(Rebuild) (official name 'Evangelion Unit-03'); Jigoku library English 'EVA Unit-03' (entry 218)",
+   "note": "Game abbreviates to ＥＶＡ; kept as EVA to mirror the source and the existing prose ('EVA Unit-01' in robot 273). Not a game unit (akurasu lists none), only a description subject."
+  },
+  {
+   "jp": "ＮＥＲＶ",
+   "kind": "keyword",
+   "en": "NERV",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance and https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo : 'NERV' (all caps in film titles and articles); akurasu Z3.2 series page: Evangelion 1.0-3.0",
+   "note": "Latin capitals in the game; five proposals agree."
+  },
+  {
+   "jp": "ＷＩＬＬＥ",
+   "kind": "keyword",
+   "en": "WILLE",
+   "status": "official",
+   "source": "https://en.wikipedia.org/wiki/Rebuild_of_Evangelion : 'a new organization called WILLE'",
+   "note": "All caps as in the film and the game's Latin letters. The reading ヴィレ is only shown in the pilot texts."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 392,
+   "gender": "male",
+   "gender_evidence": "DSCR: 第３の少年 (Third boy), シンジの父親 is Gendo; Wikipedia: only son of Gendo and Yui",
+   "nickname": "Third Child (第３の少年)",
+   "position": "Third Child, pilot of Evangelion Unit-01; age 14; lives with Misato; student at Tokyo-3 Municipal Junior High School No. 1 (Evangelion 2.0)",
+   "personality": "introverted, low self-esteem, isolated at first; grows through his friends and the guardianship of Misato; reluctant to pilot at first; quits piloting after the Ninth Angel, then resolves to fight again to save Rei (akurasu: personality Weak)",
+   "sources": [
+    "library pilot 392 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Shinji_Ikari",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (Shinji Ikari)"
+   ]
+  },
+  {
+   "pilot_id": 393,
+   "gender": "male",
+   "gender_evidence": "DSCR: 第３の少年 (Third boy); same character as pilot 392",
+   "nickname": "Third Child (第３の少年)",
+   "position": "Third Child, pilot of Unit-01; recovered by WILLE after the battle with the Tenth Angel; later boards Unit-13 with Kaworu (Evangelion 3.0)",
+   "personality": "confused and heartbroken, met with cold treatment by former comrades; opens his heart to Kaworu, then shuts down again on learning the truth (akurasu: personality Weak)",
+   "sources": [
+    "library pilot 393 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Shinji_Ikari",
+    "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (Shinji Ikari (Q))"
+   ]
+  },
+  {
+   "pilot_id": 394,
+   "gender": "female",
+   "gender_evidence": "DSCR: 第１の少女 (First girl), 無口な少女 (quiet girl); Wikipedia: 'taciturn, shy girl'",
+   "nickname": "First Child (第１の少女)",
+   "position": "First Child, pilot of Evangelion Unit-00; student in class 2-A at Tokyo-3 Municipal Junior High School No. 1 (Evangelion 2.0)",
+   "personality": "quiet, hardly shows emotion, mysterious past; opens up only to Gendo; gradually changes, shows feelings to Shinji and Asuka, practises cooking for a dinner for the Ikari father and son (akurasu: personality Normal)",
+   "sources": [
+    "library pilot 394 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Rei_Ayanami",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (Rei Ayanami)"
+   ]
+  },
+  {
+   "pilot_id": 395,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女 (girl); looks identical to 綾波レイ; same voice actor 林原めぐみ as pilot 394",
+   "nickname": "",
+   "position": "pilot of Evangelion Mark.09; takes Shinji out of WILLE custody to the old NERV base (Evangelion 3.0); a different being from 綾波レイ; fans call her 'Rei Q' (no source in the game)",
+   "personality": "very little emotion or self; obedient ('if that is an order, I will'); knows Shinji only by name; asks herself 'what would Rei Ayanami do?' after talking with him",
+   "sources": [
+    "library pilot 395 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo",
+    "https://www.goodsmile.info/en/product/13483/Rei+Ayanami+tentative+name.html"
+   ]
+  },
+  {
+   "pilot_id": 396,
+   "gender": "female",
+   "gender_evidence": "DSCR/DSC2 carry no gendered word; Wikipedia: 'red-haired, blue-eyed girl' (Asuka Langley Soryu/Shikinami, Rebuild rename); akurasu pilot database 'Asuka Langley Shikinami (Q)'",
+   "nickname": "Second Child; calls Shinji 'Brat Shinji' (ガキシンジ)",
+   "position": "WILLE member, pilot of Evangelion Unit-02 Kai; fights NERV alongside Misato and Mari; Captain in the European air force in Rebuild (Wikipedia); wears an eyepatch over her left eye (Evangelion 3.0)",
+   "personality": "harsh and sarcastic toward Shinji; proud, headstrong and fiery in the source work (akurasu: personality Super Strong); does not explain the situation to Shinji",
+   "sources": [
+    "library pilot 396 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Asuka_Langley_Soryu",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (Asuka Langley Shikinami (Q))"
+   ]
+  },
+  {
+   "pilot_id": 397,
+   "gender": "female",
+   "gender_evidence": "DSCR carries no gendered word (glasses, 'nya' speech); Wikipedia: 'new female character' created for Rebuild; akurasu 'Mari Illustrious Makinami'",
+   "nickname": "called 'problem child' (問題児) by Kaji; calls Shinji 'NERV's puppy' (ワンコくん)",
+   "position": "Eva pilot from England, member of NERV's European branch; pilots Provisional Unit-05 at Bethany Base and later Unit-02 (Evangelion 2.0)",
+   "personality": "optimistic, playful and eccentric; red-framed glasses, sometimes ends sentences with 'nya'; mysterious behaviour (smells the L.C.L. on Shinji) (akurasu: personality Super Strong)",
+   "sources": [
+    "library pilot 397 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Mari_Illustrious_Makinami",
+    "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (Mari Illustrious Makinami)"
+   ]
+  },
+  {
+   "pilot_id": 398,
+   "gender": "female",
+   "gender_evidence": "DSCR carries no gendered word; same character as pilot 397; Wikipedia: female pilot",
+   "nickname": "",
+   "position": "Mari fourteen years after the Near Third Impact; WILLE member, pilot of Evangelion Unit-08, fights NERV alongside Asuka (Evangelion 3.0)",
+   "personality": "unchanged: cheerful, goes her own way (マイペース); only her glasses have changed (akurasu: personality Super Strong)",
+   "sources": [
+    "library pilot 398 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Mari_Illustrious_Makinami",
+    "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki (Mari Illustrious Makinami (Q))"
+   ]
+  },
+  {
+   "pilot_id": 399,
+   "gender": "male",
+   "gender_evidence": "DSCR: 謎の少年 (mysterious boy); Wikipedia: 'Fifth Child', befriends Shinji",
+   "nickname": "Fifth Child (source work; not used in the DSCR)",
+   "position": "mysterious boy stationed at Tabgha Base on the moon; arrives in Evangelion Mark.06 at the end of Evangelion 2.0",
+   "personality": "mysterious; speaks as if he already knows Shinji",
+   "sources": [
+    "library pilot 399 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Kaworu_Nagisa",
+    "https://en.wikipedia.org/wiki/Evangelion:_2.0_You_Can_(Not)_Advance"
+   ]
+  },
+  {
+   "pilot_id": 400,
+   "gender": "male",
+   "gender_evidence": "DSCR: 少年 (boy); Wikipedia: Kaworu, sincere and unconditional affection for Shinji",
+   "nickname": "Fifth Child (source work; not used in the DSCR)",
+   "position": "boy attached to NERV; plays piano with Shinji; boards Unit-13 with Shinji to 'repair the world' and dies to the DSS Choker in front of him (Evangelion 3.0)",
+   "personality": "friendly to the lonely Shinji, deepens their friendship; loves playing the piano; takes the DSS Choker off Shinji and puts it on himself",
+   "sources": [
+    "library pilot 400 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Kaworu_Nagisa",
+    "https://en.wikipedia.org/wiki/Evangelion:_3.0_You_Can_(Not)_Redo"
+   ]
+  },
+  {
+   "pilot_id": 401,
+   "gender": "female",
+   "gender_evidence": "DSCR carries no gendered word (Shinji's guardian, 'former lover' of Kaji); Wikipedia uses she/her throughout",
+   "nickname": "",
+   "position": "chief of Section 1, Operations Division, NERV Tactical Operations Department (課長); rank 二佐 (roughly major), later promoted to 一佐 (colonel); age 29; Shinji's guardian; in command in the field, and of the battle when Gendo and Fuyutsuki are absent",
+   "personality": "sense of responsibility, strict with herself and others, sometimes bold to recklessness; cheerful and caring in private but slovenly at home; strongly driven to annihilate the Angels; friend of Ritsuko and Kaji since student days",
+   "sources": [
+    "library pilot 401 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Misato_Katsuragi"
+   ]
+  },
+  {
+   "pilot_id": 402,
+   "gender": "female",
+   "gender_evidence": "DSCR carries no gendered word; Wikipedia: Ritsuko Akagi and 'her mother Naoko'",
+   "nickname": "",
+   "position": "scientist of Section 1, Technology Bureau, NERV Technology Department; in charge of Project E (Eva development); age 30",
+   "personality": "intellectual and rational; a little inflexible ('someone who cannot take a joke', per Misato); often clashes with Misato's bold plans yet respects her as an old friend",
+   "sources": [
+    "library pilot 402 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Ritsuko_Akagi"
+   ]
+  },
+  {
+   "pilot_id": 403,
+   "gender": "male",
+   "gender_evidence": "DSCR: シンジの父親 (Shinji's father), 死んだ妻ユイ (his late wife Yui)",
+   "nickname": "",
+   "position": "Supreme Commander of NERV; secretly advances the Human Instrumentality Project on SEELE's orders",
+   "personality": "cold and stern, never shows his true intentions; the only exception is Rei, with whom he speaks smiling; uncompromising to Shinji, relationship worsens after the Ninth Angel incident",
+   "sources": [
+    "library pilot 403 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Gendo_Ikari"
+   ]
+  },
+  {
+   "pilot_id": 404,
+   "gender": "male",
+   "gender_evidence": "DSCR carries no gendered word; Wikipedia: Kozo Fuyutsuki, 'he' throughout (former professor, met Yui and Gendo)",
+   "nickname": "",
+   "position": "Deputy Commander of NERV; aide to Gendo, commands the fight against the Angels in his stead at times",
+   "personality": "understands Gendo and stands on equal terms with him; shows little emotion, but says the Second Impact ground zero is 'too painful to look at'; plays tsume shogi in his spare time",
+   "sources": [
+    "library pilot 404 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Kozo_Fuyutsuki"
+   ]
+  },
+  {
+   "pilot_id": 405,
+   "gender": "female",
+   "gender_evidence": "DSCR carries no gendered word; Wikipedia: Maya Ibuki, 'she' throughout",
+   "nickname": "",
+   "position": "Section 1, Technology Bureau, NERV; rank 二尉 (lieutenant); Ritsuko's aide on Project E; operator",
+   "personality": "diligent and conscientious; deeply respects Ritsuko; emotionally immature and idealistic (Wikipedia)",
+   "sources": [
+    "library pilot 405 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Maya_Ibuki"
+   ]
+  },
+  {
+   "pilot_id": 406,
+   "gender": "male",
+   "gender_evidence": "DSCR carries no gendered word; Wikipedia: Makoto Hyuga, 'he' throughout",
+   "nickname": "",
+   "position": "Section 1, Operations Bureau, NERV; rank 二尉 (lieutenant); operator at HQ operations command who analyses the battle situation for Misato",
+   "personality": "friendly and kind, speaks his mind even to superiors; has feelings for Misato (Wikipedia)",
+   "sources": [
+    "library pilot 406 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Makoto_Hyuga"
+   ]
+  },
+  {
+   "pilot_id": 407,
+   "gender": "male",
+   "gender_evidence": "DSCR carries no gendered word; Wikipedia: Shigeru Aoba, 'he' throughout, 'plays guitar'",
+   "nickname": "",
+   "position": "Section 1, Intelligence Bureau, Investigation Department, NERV; rank 二尉 (lieutenant); handles communications and data analysis",
+   "personality": "realistic, serious, professional and emotionally reserved; keeps his private life private; music fan who plays guitar (Wikipedia)",
+   "sources": [
+    "library pilot 407 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Shigeru_Aoba"
+   ]
+  },
+  {
+   "pilot_id": 408,
+   "gender": "male",
+   "gender_evidence": "DSCR carries no gendered word (once Misato's lover); Wikipedia: Ryoji Kaji, 'he' throughout, 'romantic relationship with Misato'",
+   "nickname": "",
+   "position": "chief inspector of NERV (首席監察官); transferred from the European branch to HQ at Tokyo-3; acts on special orders and knows much secret information",
+   "personality": "easygoing, breezy and unpretentious (farms with Shinji); old friend of Misato and Ritsuko from student days",
+   "sources": [
+    "library pilot 408 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Ryoji_Kaji"
+   ]
+  },
+  {
+   "pilot_id": 409,
+   "gender": "male",
+   "gender_evidence": "DSCR carries no gendered word (mentions his younger sister); Wikipedia: Toji Suzuhara, 'he assaults Shinji', 'his sister'",
+   "nickname": "",
+   "position": "student of class 2-A, Tokyo-3 Municipal Junior High School No. 1; always in a jersey; speaks Kansai dialect",
+   "personality": "hot-headed and direct at first (angry at Shinji over his sister's injury), then reconciles after seeing Shinji fight; a good friend to Shinji and Kensuke afterwards (Wikipedia: tough on the surface, honest and kind inside)",
+   "sources": [
+    "library pilot 409 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Toji_Suzuhara"
+   ]
+  },
+  {
+   "pilot_id": 410,
+   "gender": "male",
+   "gender_evidence": "DSCR carries no gendered word; Wikipedia: Kensuke Aida, 'he' throughout (military fan); Toji calls him 自分の欲望に素直な奴",
+   "nickname": "",
+   "position": "student of class 2-A, Tokyo-3 Municipal Junior High School No. 1; photographs weapons as a hobby; envies the Eva pilots",
+   "personality": "military otaku, 'a guy honest about his own desires' (per Toji); slips out of the shelter with Toji to watch the battle; saved by Shinji and becomes his friend",
+   "sources": [
+    "library pilot 410 DSCR/DSC2",
+    "https://en.wikipedia.org/wiki/List_of_Neon_Genesis_Evangelion_characters#Kensuke_Aida"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 25,
+  "names_settled": 24,
+  "left_pending": [],
+  "challenges": [
+   "第１０の使徒: glossary '10th Angel' (official, akurasu mech list) breaks the style of its siblings 'the Fourth/Fifth/Sixth/Seventh/Ninth Angel' (Jigoku, en.wikipedia Angel_(Evangelion)). Case: robot 264 proposes 'the Tenth Angel'; wiki title is 'Tenth Angel' (https://evangelion.fandom.com/wiki/Tenth_Angel), and the library prose is inconsistent: pilot 393 'the battle against $$第１０の使徒$$' and 392 'absorbed by $$第１０の使徒$$' need an article from the token, while robot 258 already writes 'the $$第１０の使徒$$' (would become 'the the'). Recommendation: change the entry to 'the Tenth Angel' (like the others) and fix the robot 258 prose to drop its own 'the'. If the numeral form '10th Angel' stays, the prose needs 'the' added in pilot 392/393 and robot 264. Also the akurasu mech list writes all numbers as digits ('4th Angel', '7th Angel'), and the glossary already overrides it with 'the Seventh Angel' for all others."
+  ],
+  "retoken": [
+   "pilot 397 DSCR (proposed by pt_396): $$ＥＶＡ仮設５号機|lc$$ -> $$ＥＶＡ仮設５号機$$ (the English is 'EVA Provisional Unit-05'; lc would produce 'eVA Provisional Unit-05')",
+   "No other retoken needed: 綾波レイ / アヤナミレイ（仮称） / アヤナミレイ are already different Japanese strings; レイ#pt394 is already tokenized."
+  ],
+  "uncertain": [
+   "エヴァンゲリオン改２号機 / long 改２号機γ name: 'Kai' follows the akurasu mech list and the glossary's '(Kai)', but the official Rebuild English is 'Revised' (Fandom: 'Unit Two Revised Gamma'; akurasu pilot database: 'Evangelion Revised Unit-02γ'). The two akurasu files disagree; if the user prefers official English, use 'Evangelion Unit-02 Revised' style for both. Also 'Production Model' (glossary) vs the film's 'Utility Model'.",
+   "Long names for 改２号機γ and ８号機β are assembled from the glossary pattern, not attested as strings: marked proposed.",
+   "アヤナミレイ (CHNN): 'Rei (Tentative Name)' is my short-form proposal (proposed). Official form is only attested for the full 'Rei Ayanami (Tentative Name)' (Good Smile). Width of both should be checked in the pilot name fields; no bare 'Rei' because レイ#pt394 = Rei is a different being.",
+   "'(Tentative Name)' uses brackets although NAME_RESEARCH forbids brackets in en: the parentheses are part of the official name and the glossary already holds bracketed official names. Orchestrator may want an unbracketed form such as 'Tentative Rei'.",
+   "第３新東京市 = 'Tokyo-3' (official everywhere) vs original_1c 第２新東京市 = 'Neo Tokyo-2': same 新東京市 pattern, inconsistent English. Official Evangelion English calls the second one 'Tokyo-2' (Wikipedia characters list: 'Tokyo-2'). Original_1c should decide whether the game city is meant to echo Eva; note only.",
+   "'Near Third Impact' (fandom/evageeks page titles): the film's own subtitle spelling was not seen; some reviews write 'Near-Third Impact'. Marked official on the strength of both wiki titles.",
+   "Rank glosses for 二佐/一佐/二尉 are my own rendering (JSDF ranks); subtitles use Major/Colonel/Lieutenant loosely. Not used in a name token.",
+   "Fandom/EvaGeeks pages were not fetchable directly (HTTP 403/402); their content was taken from search-result snippets and Wikipedia raw text. Every 'official' cites at least one Wikipedia article or product page I could read.",
+   "Aliases to sync: レイ#pt394 = Rei (this group), レイ#pt231, レイ#pt136 are in macross.md / gundam_3.md; no spelling conflict with those groups. ユイ = Yui (this group) vs ヒイロ・ユイ = Heero Yui (gundam_5): distinct Japanese."
+  ]
+ }
+}

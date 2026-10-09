@@ -1,0 +1,795 @@
+{
+ "schema": 1,
+ "group": "gundam_1",
+ "names": [
+  {
+   "jp": "ガロード・ラン",
+   "kind": "pilot",
+   "en": "Garrod Ran",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Garrod Ran' (After War Gundam X); https://akurasu.net/wiki/Garrod_Ran",
+   "note": "Same spelling as the Gundam Wiki and Wikipedia."
+  },
+  {
+   "jp": "ガロード",
+   "kind": "pilot",
+   "en": "Garrod",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Garrod Ran'; https://akurasu.net/wiki/Garrod_Ran",
+   "note": "Given name of Garrod Ran."
+  },
+  {
+   "jp": "ティファ・アディール",
+   "kind": "pilot",
+   "en": "Tiffa Adill",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Tiffa Adill' (subpilot of Garrod Ran); https://gundam.fandom.com/wiki/Tiffa_Adill",
+   "note": "Not 'Tifa' / 'Tiffa Adil'."
+  },
+  {
+   "jp": "ティファ",
+   "kind": "pilot",
+   "en": "Tiffa",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Tiffa Adill'",
+   "note": "Given name of Tiffa Adill. Brief kw_090 proposed 'Tifa'; the Z3.2 pilot database spelling with double f wins."
+  },
+  {
+   "jp": "ジャミル・ニート",
+   "kind": "pilot",
+   "en": "Jamil Neate",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Jamil_Neate : infobox 'Jamil Neate'; https://gundam.fandom.com/wiki/Jamil_Neate"
+  },
+  {
+   "jp": "ジャミル",
+   "kind": "pilot",
+   "en": "Jamil",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Jamil_Neate",
+   "note": "Given name of Jamil Neate."
+  },
+  {
+   "jp": "ウィッツ・スー",
+   "kind": "pilot",
+   "en": "Witz Sou",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Witz_Sou : infobox 'Witz Sou'; https://gundam.fandom.com/wiki/Witz_Sou"
+  },
+  {
+   "jp": "ウィッツ",
+   "kind": "pilot",
+   "en": "Witz",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Witz_Sou",
+   "note": "Given name of Witz Sou."
+  },
+  {
+   "jp": "ロアビィ・ロイ",
+   "kind": "pilot",
+   "en": "Roybea Roy",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Roybea_Roy : 'Roybea Roy' (page title and infobox)",
+   "note": "CONFLICT WITH LICENSED ENGLISH. akurasu (source 3) says 'Roybea Roy' but its own page warns the name may not be official and adds 'also inconsistently translated as Roybea Loy'. The Gundam Wiki uses 'Roybea Loy' and states that the licensed English subtitles (Right Stuf DVD/Blu-ray, Tubi, YouTube) use 'Roabea Loy' (https://gundam.fandom.com/wiki/Roybea_Loy, https://gundam.fandom.com/wiki/After_War_Gundam_X). Chosen per source precedence (akurasu before official English, 'wiki wins'). If the orchestrator prefers the licensed spelling: 'Roabea Loy' full, 'Roabea' short. Listed in report.uncertain."
+  },
+  {
+   "jp": "ロアビィ",
+   "kind": "pilot",
+   "en": "Roybea",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Roybea_Roy",
+   "note": "Given name of Roybea Roy. Licensed subtitle alternative: 'Roabea'. See the full-name record."
+  },
+  {
+   "jp": "エニル・エル",
+   "kind": "pilot",
+   "en": "Enil El",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Enil El'",
+   "note": "Gundam Wiki and Wikipedia use 'Ennil El'; akurasu 'Enil El' chosen (matches the single ニ of the Japanese)."
+  },
+  {
+   "jp": "エニル",
+   "kind": "pilot",
+   "en": "Enil",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Enil El'",
+   "note": "Given name of Enil El."
+  },
+  {
+   "jp": "サラ・タイレル",
+   "kind": "pilot",
+   "en": "Sara Tyrell",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Sara Tyrell'",
+   "note": "Gundam Wiki 'Sala Tyrrell' is a different spelling; akurasu chosen."
+  },
+  {
+   "jp": "サラ",
+   "kind": "pilot",
+   "en": "Sara",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Sara Tyrell'",
+   "note": "Given name of Sara Tyrell."
+  },
+  {
+   "jp": "トニヤ・マーム",
+   "kind": "pilot",
+   "en": "Tonya Malme",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Tonya Malme'",
+   "note": "Gundam Wiki 'Toniya Malme'; brief pt_114 proposed 'Tonya Mum'. akurasu chosen. (https://akurasu.net/wiki/Witz_Sou shows the stray variant 'Tanya Malme'; the main page list is authoritative.)"
+  },
+  {
+   "jp": "トニヤ",
+   "kind": "pilot",
+   "en": "Tonya",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Tonya Malme'",
+   "note": "Given name of Tonya Malme."
+  },
+  {
+   "jp": "シンゴ・モリ",
+   "kind": "pilot",
+   "en": "Shingo Mori",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Shingo Mori'"
+  },
+  {
+   "jp": "シンゴ",
+   "kind": "pilot",
+   "en": "Shingo",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Shingo Mori'",
+   "note": "Given name of Shingo Mori."
+  },
+  {
+   "jp": "キッド・サルサミル",
+   "kind": "pilot",
+   "en": "Kid Salsamille",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Kid_Salsamille : infobox 'Kid Salsamille'"
+  },
+  {
+   "jp": "キッド",
+   "kind": "pilot",
+   "en": "Kid",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Kid_Salsamille",
+   "note": "Given name of Kid Salsamille; name scripts must never touch the ordinary word 'kid'."
+  },
+  {
+   "jp": "テクス・ファーゼンバーグ",
+   "kind": "pilot",
+   "en": "Tex Farzenburg",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Tex Farzenburg'",
+   "note": "Gundam Wiki uses 'Techcs Farzenberg'; brief pt_114 proposed 'Tex Ferzenberg' from memory. akurasu spelling chosen."
+  },
+  {
+   "jp": "テクス",
+   "kind": "pilot",
+   "en": "Tex",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Tex Farzenburg'",
+   "note": "Given name of Tex Farzenburg."
+  },
+  {
+   "jp": "パーラ・シス",
+   "kind": "pilot",
+   "en": "Paula Sis",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Paula Sis'",
+   "note": "Gundam Wiki uses 'Pala Sys' (https://gundam.fandom.com/wiki/Pala_Sys). akurasu chosen."
+  },
+  {
+   "jp": "パーラ",
+   "kind": "pilot",
+   "en": "Paula",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Paula Sis'",
+   "note": "Given name of Paula Sis."
+  },
+  {
+   "jp": "シャギア・フロスト",
+   "kind": "pilot",
+   "en": "Shagia Frost",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Shagia Frost'"
+  },
+  {
+   "jp": "シャギア",
+   "kind": "pilot",
+   "en": "Shagia",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Shagia Frost'",
+   "note": "Given name; older twin of Olba."
+  },
+  {
+   "jp": "オルバ・フロスト",
+   "kind": "pilot",
+   "en": "Olba Frost",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Olba Frost'"
+  },
+  {
+   "jp": "オルバ",
+   "kind": "pilot",
+   "en": "Olba",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Olba Frost'",
+   "note": "Given name; younger twin of Shagia."
+  },
+  {
+   "jp": "カリス・ノーティラス",
+   "kind": "pilot",
+   "en": "Carris Nautilus",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Carris Nautilus'"
+  },
+  {
+   "jp": "カリス",
+   "kind": "pilot",
+   "en": "Carris",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Carris Nautilus'",
+   "note": "Given name of Carris Nautilus."
+  },
+  {
+   "jp": "ノモア",
+   "kind": "pilot",
+   "en": "Nomoa",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Nomoa Long'; https://gundam.fandom.com/wiki/Nomoa_Long",
+   "note": "Given name of Nomoa Long (ノモア・ロング); in prose the mayor of Fort Severn. Brief proposed 'Nomore' from memory.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Gundam Wiki infobox 'gender=Male'; library pilot 120 DSCR calls him 市長 (Mayor) with no gendered term, so the wiki settles it",
+    "position": "mayor of Fort Severn; former Space Revolutionary Army scientist who used the alias Professor Dorat",
+    "personality": "obsessive and vengeful; treats Carris as his finest masterpiece; took his own life when his plan failed",
+    "nickname": "Professor Dorat (former identity)",
+    "sources": [
+     "https://gundam.fandom.com/wiki/Nomoa_Long",
+     "library pilot 120 DSCR"
+    ]
+   }
+  },
+  {
+   "jp": "カトック",
+   "kind": "pilot",
+   "en": "Katokk",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Character Appearances list, 'Katokk Alzamille'; https://gundam.fandom.com/wiki/Katokk_Alzamille",
+   "note": "Given name of Katokk Alzamille (カトック・アルザミール per Gundam Wiki infobox). Brief proposed 'Katock Alister' from memory; akurasu wins.",
+   "profile": {
+    "gender": "male",
+    "gender_evidence": "Gundam Wiki infobox 'gender=Male', age 45; library robot 70 DSCR only quotes his words",
+    "position": "New UNE soldier who led the operation to capture the Freeden from Zonder Epta; ground-troop veteran risen through the ranks",
+    "personality": "hard-bitten soldier with a deep prejudice against Newtypes, unpopular with his officers; later resolves to protect the children",
+    "nickname": "",
+    "sources": [
+     "https://gundam.fandom.com/wiki/Katokk_Alzamille",
+     "https://akurasu.net/wiki/After_War_Gundam_X"
+    ]
+   }
+  },
+  {
+   "jp": "ガンダムＸ",
+   "kind": "robot",
+   "en": "Gundam X",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam X'; https://gundam.fandom.com/wiki/GX-9900_Gundam_X",
+   "note": "Series title in the game is 'After War Gundam X' (glossary official)."
+  },
+  {
+   "jp": "ガンダムエックス",
+   "kind": "robot",
+   "en": "Gundam X",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam X'",
+   "note": "Katakana spelling of ガンダムＸ (pilot 112 DSCR); same unit."
+  },
+  {
+   "jp": "ガンダムＸディバイダー",
+   "kind": "robot",
+   "en": "Gundam X Divider",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam X Divider'; https://gundam.fandom.com/wiki/GX-9900-DV_Gundam_X_Divider"
+  },
+  {
+   "jp": "ガンダムエアマスター",
+   "kind": "robot",
+   "en": "Gundam Airmaster",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam Airmaster'; https://gundam.fandom.com/wiki/GW-9800_Gundam_Airmaster"
+  },
+  {
+   "jp": "エアマスター",
+   "kind": "robot",
+   "en": "Airmaster",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam Airmaster'",
+   "note": "Short form (pilot 116 DSCR lists it beside レオパルド); derived from the official full name."
+  },
+  {
+   "jp": "ガンダムレオパルド",
+   "kind": "robot",
+   "en": "Gundam Leopard",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam Leopard'; https://gundam.fandom.com/wiki/GT-9600_Gundam_Leopard"
+  },
+  {
+   "jp": "レオパルド",
+   "kind": "robot",
+   "en": "Leopard",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam Leopard'",
+   "note": "Short form; derived from the official full name."
+  },
+  {
+   "jp": "ガンダムヴァサーゴ",
+   "kind": "robot",
+   "en": "Gundam Virsago",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Gundam Virsago'; https://gundam.fandom.com/wiki/NRX-0013_Gundam_Virsago"
+  },
+  {
+   "jp": "Ｇファルコン",
+   "kind": "robot",
+   "en": "G-Falcon",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'G-Falcon'; https://gundam.fandom.com/wiki/GS-9900_G-Falcon"
+  },
+  {
+   "jp": "ベルティゴ",
+   "kind": "robot",
+   "en": "Vertigo",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Vertigo'",
+   "note": "Gundam Wiki and Wikipedia spell it 'Bertigo' (https://gundam.fandom.com/wiki/RMSN-008_Bertigo); brief pt_114 proposed 'Bertigo'. akurasu 'Vertigo' chosen per precedence."
+  },
+  {
+   "jp": "パトゥーリア",
+   "kind": "robot",
+   "en": "Patulia",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Patulia'; https://gundam.fandom.com/wiki/MAN-003_Patulia",
+   "note": "Brief proposed 'Patoolia'; akurasu spelling chosen."
+  },
+  {
+   "jp": "バリエント",
+   "kind": "robot",
+   "en": "Valiant",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Valiant'",
+   "note": "New UNE mass-production suit. Brief proposed 'Valient'; akurasu 'Valiant' chosen. No Gundam Wiki unit page found (the wiki page 'Valiant' is an unrelated Hathaway's Flash ship)."
+  },
+  {
+   "jp": "フリーデン",
+   "kind": "keyword",
+   "en": "Freeden",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : Unit Appearances list, 'Freeden'; https://gundam.fandom.com/wiki/Freeden",
+   "note": "Kind kept as in the glossary (keyword) although it is the ship."
+  },
+  {
+   "jp": "フリーデンⅡ",
+   "kind": "robot",
+   "en": "Freeden II",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Freeden_II : 'Freeden II' (the space-going second ship)",
+   "note": "Roman numeral in the Japanese; keep ship name Freeden."
+  },
+  {
+   "jp": "フリーデンⅢ",
+   "kind": "keyword",
+   "en": "Freeden III",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Kid_Salsamille : 'Freeden III' (junk shop run by Kid, Shingo, Paula and others after the war); https://akurasu.net/wiki/Kid_Salsamille : affiliation 'Freeden III'",
+   "note": "Name of the junk shop/dealership, not a ship."
+  },
+  {
+   "jp": "Ｄ．Ｏ．Ｍ．Ｅ．#keyword",
+   "kind": "keyword",
+   "token": "Ｄ．Ｏ．Ｍ．Ｅ．#keyword",
+   "en": "D.O.M.E.",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : 'D.O.M.E.'; https://gundam.fandom.com/wiki/D.O.M.E.",
+   "note": "Same entity as the #pilot record; one spelling. Latin letters in the Japanese."
+  },
+  {
+   "jp": "Ｄ．Ｏ．Ｍ．Ｅ．#pilot",
+   "kind": "pilot",
+   "token": "Ｄ．Ｏ．Ｍ．Ｅ．#pilot",
+   "en": "D.O.M.E.",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : 'D.O.M.E.'; https://gundam.fandom.com/wiki/D.O.M.E.",
+   "note": "Library pilot 121 is the lunar facility whose core is the First Newtype called D.O.M.E.; same spelling as the keyword record."
+  },
+  {
+   "jp": "宇宙革命軍",
+   "kind": "keyword",
+   "en": "Space Revolutionary Army",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : 'Space Revolutionary Army' faction; https://gundam.fandom.com/wiki/Space_Revolutionary_Army",
+   "note": "The wikis abbreviate to SRA; write it in full."
+  },
+  {
+   "jp": "新連邦",
+   "kind": "keyword",
+   "en": "New UNE",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/United_Nations_Earth : infobox 'UNE/New UNE'; akurasu full form 'New United Nations Earth' (https://akurasu.net/wiki/After_War_Gundam_X)",
+   "note": "Short 新連邦 = the New United Nations Earth government. Abbreviated as the wiki does; translators may spell out 'New United Nations Earth' once where space allows. Do NOT use 'New Federation' (the brief's literal)."
+  },
+  {
+   "jp": "新連邦軍",
+   "kind": "keyword",
+   "en": "New UNE Forces",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/United_Nations_Earth : 'New UNE'; akurasu 'New United Nations Earth' (https://akurasu.net/wiki/After_War_Gundam_X)",
+   "note": "The New UNE military/intelligence body (pilots 118/119)."
+  },
+  {
+   "jp": "政府再建委員会",
+   "kind": "keyword",
+   "en": "Government Reconstruction Committee",
+   "status": "proposed",
+   "source": "https://gundam.fandom.com/wiki/New_United_Nations_Earth_Officers : the committee of seven officers ruling the New UNE (its image files are named 'Reconstructioncommittee_member')",
+   "note": "No wiki gives the exact English phrase; 'Reconstruction Committee' comes from the wiki image file names and the literal Japanese."
+  },
+  {
+   "jp": "第７次宇宙戦争",
+   "kind": "keyword",
+   "en": "7th Space War",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/7th_Space_War : page title",
+   "note": "Pilot 107 writes 第７次宇宙大戦 without a token; use the same name."
+  },
+  {
+   "jp": "コロニー落とし",
+   "kind": "keyword",
+   "en": "colony drop",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Colony_Drop; https://gundam.fandom.com/wiki/7th_Space_War : 'mass colony drop'",
+   "note": "Lower case: an event term, not a proper name."
+  },
+  {
+   "jp": "サテライトキャノン",
+   "kind": "keyword",
+   "en": "Satellite Cannon",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/After_War_Gundam_X : BGM table 'Satellite Cannon' (サテライト・キャノン); https://gundam.fandom.com/wiki/Satellite_System",
+   "note": "The weapon; the power system behind it is the 'Satellite System'."
+  },
+  {
+   "jp": "ビットＭＳ",
+   "kind": "keyword",
+   "en": "Bit MS",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Flash_System : 'Bit MS' (long form 'Bit Mobile Suit', https://gundam.fandom.com/wiki/Bit_Mobile_Suit)",
+   "note": "Short form kept because the game abbreviates MS."
+  },
+  {
+   "jp": "フラッシュシステム",
+   "kind": "keyword",
+   "en": "Flash System",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Flash_System"
+  },
+  {
+   "jp": "ニュータイプ",
+   "kind": "keyword",
+   "en": "Newtype",
+   "status": "official",
+   "source": "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : skill 'Newtype'; https://gundam.fandom.com/wiki/Newtype; Jigoku library English 'Newtype' (brief kw_090)",
+   "note": "Plural 'Newtypes' is built with an s outside the token."
+  },
+  {
+   "jp": "ファーストニュータイプ",
+   "kind": "keyword",
+   "en": "First Newtype",
+   "status": "proposed",
+   "source": "https://gundam.fandom.com/wiki/D.O.M.E. : 'one of the first Newtypes' (no fixed English proper name found)",
+   "note": "Literal. Refers to the man (D.O.M.E.) whose body was built into the lunar facility."
+  },
+  {
+   "jp": "カテゴリーＦ",
+   "kind": "keyword",
+   "en": "Category F",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/Newtype : Frost brothers classed as 'Category F'; https://gundam.fandom.com/wiki/Olba_Frost"
+  },
+  {
+   "jp": "ツインズ・シンクロニティ",
+   "kind": "keyword",
+   "en": "Twins Synchronicity",
+   "status": "proposed",
+   "source": "https://gundam.fandom.com/wiki/Olba_Frost : 'Twins Synchronization'",
+   "note": "The Gundam Wiki says 'Twins Synchronization', which does not match the Japanese シンクロニティ (synchronicity). Proposed 'Twins Synchronicity'; no licensed spelling found."
+  },
+  {
+   "jp": "バルチャー",
+   "kind": "keyword",
+   "en": "Vulture",
+   "status": "official",
+   "source": "https://akurasu.net/wiki/Garrod_Ran : profession 'Vulture'; https://gundam.fandom.com/wiki/Vulture",
+   "note": "Pilot 109 says the Airmaster is a keepsake of a 'Vulture' (a person). Plural 'Vultures' with s outside the token."
+  },
+  {
+   "jp": "サテリコン",
+   "kind": "keyword",
+   "en": "Satelicon",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/After_War_Gundam_X : licensed subtitles (Right Stuf, Tubi, YouTube) use 'Satelicon' instead of 'Satyricon'; https://gundam.fandom.com/wiki/Pala_Sys : 'Satelicon'",
+   "note": "Wikipedia and older wiki text use 'Satyricon'. Satelicon is the licensed spelling and matches サテリコン."
+  },
+  {
+   "jp": "フォートセバーン",
+   "kind": "keyword",
+   "en": "Fort Severn",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/After_War_locations : 'Fort Severn'; https://gundam.fandom.com/wiki/Carris_Nautilus"
+  },
+  {
+   "jp": "ゾンダーエプタ",
+   "kind": "keyword",
+   "en": "Zonder Epta",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/After_War_locations : 'Zonder Epta' (island in the Pacific)"
+  },
+  {
+   "jp": "新地球連邦軍",
+   "kind": "keyword",
+   "token": "新地球連邦軍#awgx",
+   "en": "New UNE Forces",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/United_Nations_Earth; https://akurasu.net/wiki/After_War_Gundam_X",
+   "note": "Same body as 新連邦軍. In library pilot 121 DSCR it appears in an After War Gundam X passage, but the Original series also has a 新地球連邦軍 (original_1c, UCW); bind this one to X."
+  },
+  {
+   "jp": "地球連邦",
+   "kind": "keyword",
+   "token": "地球連邦#awgx",
+   "en": "United Nations Earth",
+   "status": "official",
+   "source": "https://gundam.fandom.com/wiki/United_Nations_Earth : infobox kanji 地球連邦 = 'United Nations Earth'",
+   "note": "In After War Gundam X the 地球連邦 is the United Nations Earth, not the Earth Federation of the UC/00 series. Used in pilot 121 DSCR ('an important 地球連邦 stronghold'). Bound with a token so gundam_2's 'Earth Federation' does not apply."
+  }
+ ],
+ "characters": [
+  {
+   "pilot_id": 106,
+   "gender": "male",
+   "gender_evidence": "DSCR: 少年 (boy), 父親 (his father); akurasu Garrod_Ran infobox gender Male",
+   "nickname": "Gundam Boy (what Kid calls him; not in the library text); 'The Blazing Mobile Suit Pilot' (his self-styled title in the anime)",
+   "position": "protagonist; young vulture who hunts and sells mobile suits; pilot of Gundam X, Gundam DX and Gundam X Divider (Double X); age 15",
+   "personality": "bright and positive despite being a war orphan; self-reliant, resourceful and cunning; genius at piloting; single-minded devotion to Tiffa",
+   "sources": [
+    "https://akurasu.net/wiki/Garrod_Ran",
+    "https://gundam.fandom.com/wiki/Garrod_Ran",
+    "library pilot 106 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 107,
+   "gender": "female",
+   "gender_evidence": "DSCR: 少女 (girl), '１人の少女として'; Gundam Wiki gender Female",
+   "nickname": "",
+   "position": "naturally awakened Newtype girl (age 15); the Freeden's guide who leads the crew to D.O.M.E.; Garrod's sub-pilot in Z3",
+   "personality": "withdrawn and shy; fears her own power and hates people fighting over it; gradually opens her heart to Garrod",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Tiffa_Adill",
+    "work/glossary/reference/sources/akurasu_z3.2_pilot_database.wiki : 'Tiffa Adill' subpilot",
+    "library pilot 107 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 108,
+   "gender": "female",
+   "gender_evidence": "DSCR does not use a pronoun: it says she grew up among nothing but men and so is boyish (男ばかりの環境で育った...男っぽい), which presupposes a girl; Gundam Wiki 'Pala Sys' gender Female, age 15",
+   "nickname": "",
+   "position": "G-Falcon pilot of Satelicon, the resistance organization against the Space Revolutionary Army; later a Freeden crew member; age 15; after the war runs the Freeden III junk shop",
+   "personality": "rough-spoken tomboy with a very boyish personality ('lame' slang); tears of sorrow and joy show her warm side; quickly bonds with Garrod and with the similar Kid",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Pala_Sys",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Paula Sis'",
+    "library pilot 108 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 109,
+   "gender": "male",
+   "gender_evidence": "DSCR: 男らしい性格 (manly personality), 父親 (his father); pilot 114 DSCR has Tonya given a ring by him; akurasu Witz_Sou infobox Male",
+   "nickname": "",
+   "position": "freelance mobile suit pilot (vulture) hired by the Freeden, later under exclusive contract; pilot of the Gundam Airmaster; age 17",
+   "personality": "manly and hot-tempered, hands move before his mouth, very rough speech; looks like a miser but works only for his family back home; kind and tormented that he cannot tell his mother his job",
+   "sources": [
+    "https://akurasu.net/wiki/Witz_Sou",
+    "https://gundam.fandom.com/wiki/Witz_Sou",
+    "library pilot 109 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 110,
+   "gender": "male",
+   "gender_evidence": "DSCR: 女性を口説くのが趣味 and 彼女たち (his lovers) show a man; akurasu Roybea_Roy infobox Male, age 18",
+   "nickname": "",
+   "position": "freelance mobile suit pilot hired by the Freeden then under exclusive contract; pilot of the Gundam Leopard; age 18",
+   "personality": "easygoing and free-spirited; dislikes ideology; flirtatious and frivolous but skilled and attentive; 'a decent guy after all'",
+   "sources": [
+    "https://akurasu.net/wiki/Roybea_Roy",
+    "https://gundam.fandom.com/wiki/Roybea_Loy",
+    "library pilot 110 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 111,
+   "gender": "male",
+   "gender_evidence": "DSCR: 彼 ('彼はついに探していた未来を手に入れた'); akurasu Jamil_Neate infobox Male, age 30",
+   "nickname": "",
+   "position": "captain of the Freeden; former UNE Newtype pilot of the Gundam X in the 7th Space War; later pilots the Gundam X Divider; member of the peace council after the war",
+   "personality": "reserved and taciturn (always wears sunglasses); trusted absolutely by his crew; carries guilt and a cockpit phobia from firing the shot that led to the colony drop",
+   "sources": [
+    "https://akurasu.net/wiki/Jamil_Neate",
+    "https://gundam.fandom.com/wiki/Jamil_Neate",
+    "library pilot 111 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 112,
+   "gender": "female",
+   "gender_evidence": "DSCR: 美貌 (beauty) and 女同士の友好 (friendship between women, with Tonya); Gundam Wiki gender Female, age 19",
+   "nickname": "",
+   "position": "freelance mobile suit pilot (vulture) with a blue-painted machine; later cooperates with the Freeden; age 19",
+   "personality": "guarded and hardened by a survival-only life; proud, holds a grudge against Garrod; softens through her friendship with Tonya",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Ennil_El",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Enil El'",
+    "library pilot 112 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 113,
+   "gender": "female",
+   "gender_evidence": "DSCR: 副長的な立場の女性 (a woman in a deputy-captain-like position); Gundam Wiki gender Female, age 19",
+   "nickname": "",
+   "position": "operator of the Freeden; acts as captain when Jamil is absent (chief operator / second in command); peace council member after the war",
+   "personality": "logical and rational, but her feelings sometimes make her sharp-tongued; loves Jamil beyond respect and grows jealous; remains loyal to him",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Sala_Tyrrell",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Sara Tyrell'",
+    "library pilot 113 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 114,
+   "gender": "female",
+   "gender_evidence": "pilot 109 DSCR: 彼女 (Witz took her back to his hometown); pilot 112 DSCR: 女同士 (women together with Enil); Gundam Wiki gender Female, age 17",
+   "nickname": "",
+   "position": "communications officer of the Freeden; age 17",
+   "personality": "cheerful and friendly, the mood-maker of the whole ship; blunt speech sometimes hurts others; grows close to Witz",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Toniya_Malme",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Tonya Malme'",
+    "library pilot 114 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 115,
+   "gender": "male",
+   "gender_evidence": "DSCR gives no pronoun; Gundam Wiki 'Shingo Mori' gender Male, age 20",
+   "nickname": "",
+   "position": "helmsman of the Freeden; age 20; after the war helps run the Freeden III junk shop",
+   "personality": "honest and plain; first-class at steering and indispensable; handles odd jobs in port",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Shingo_Mori",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Shingo Mori'",
+    "library pilot 115 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 116,
+   "gender": "male",
+   "gender_evidence": "DSCR: 彼の手による (by his hand), 12歳; Gundam Wiki gender Male, age 12; akurasu Kid_Salsamille infobox Male",
+   "nickname": "",
+   "position": "chief mechanic of the Freeden, youngest crew member (12); after the war runs the Freeden III junk shop",
+   "personality": "prodigy with adult-beating mechanical skill and many talents (bit simulator, G-Falcon adjustment); hoards parts and ideas",
+   "sources": [
+    "https://akurasu.net/wiki/Kid_Salsamille",
+    "https://gundam.fandom.com/wiki/Kid_Salsamille",
+    "library pilot 116 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 117,
+   "gender": "male",
+   "gender_evidence": "DSCR gives no pronoun (子供のような意外な一面, oldest crew member); Gundam Wiki 'Techcs Farzenberg' gender Male, age 36",
+   "nickname": "",
+   "position": "the Freeden's physician (age 36, oldest of the crew); after the Freeden disbanded, works in a field hospital",
+   "personality": "calm, experienced and composed; well read (recites Heine's Lorelei); billiards is his hobby, with a secret childlike side",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Techcs_Farzenberg",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Tex Farzenburg'",
+    "library pilot 117 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 118,
+   "gender": "male",
+   "gender_evidence": "DSCR: 兄 (older brother of Olba, of the Frost brothers); Gundam Wiki gender Male, age 19",
+   "nickname": "",
+   "position": "elder of the Frost brothers; famous free mobile suit pilot as a cover, in truth an agent of the New UNE intelligence agency; pilot of the Gundam Virsago",
+   "personality": "cruel and ruthless, cool-headed and able to read the battlefield; restrains his hot-headed brother; hates Newtypes because branded 'Category F'",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Shagia_Frost",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Shagia Frost'",
+    "library pilot 118 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 119,
+   "gender": "male",
+   "gender_evidence": "DSCR: 弟 (younger brother of Shagia, one of the Frost brothers); Gundam Wiki gender Male, age 19",
+   "nickname": "",
+   "position": "younger of the Frost brothers; free mobile suit pilot as a cover, in truth a New UNE intelligence agent; pilot of the Gundam Ashtaron",
+   "personality": "cold and heartless on the surface but hides a violent temper behind refined features; loses control when angry and is reined in by Shagia",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Olba_Frost",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Olba Frost'",
+    "library pilot 119 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 120,
+   "gender": "male",
+   "gender_evidence": "DSCR: 少年 (boy); Gundam Wiki gender Male, age 15",
+   "nickname": "",
+   "position": "leader of the vigilante corps of Fort Severn; artificial Newtype; pilot of the Vertigo; later commander of an anti-New UNE unit",
+   "personality": "extremely confident in his own power, then loses his sense of purpose and attempts suicide before Garrod saves him; devotes himself to rebuilding the city as atonement",
+   "sources": [
+    "https://gundam.fandom.com/wiki/Carris_Nautilus",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'Carris Nautilus'",
+    "library pilot 120 DSCR"
+   ]
+  },
+  {
+   "pilot_id": 121,
+   "gender": "male",
+   "gender_evidence": "the entry describes a lunar facility ('it'), whose core is a man's body: Gundam Wiki D.O.M.E. page 'dissected him' and voiced by Yutaro Mitsuoka. Refer to the facility as 'it' and to the First Newtype inside it as 'he' only when the person is meant",
+   "nickname": "",
+   "position": "Earth-facing lunar stronghold of the United Nations Earth (unmanned, solar powered) that controls the Satellite Cannon microwave transmission; its core is the First Newtype",
+   "personality": "not applicable to the facility; the First Newtype inside calls Newtypes an illusion people held about a kind of psychic and denies their existence",
+   "sources": [
+    "https://gundam.fandom.com/wiki/D.O.M.E.",
+    "https://akurasu.net/wiki/After_War_Gundam_X : 'D.O.M.E.'",
+    "library pilot 121 DSCR"
+   ]
+  }
+ ],
+ "report": {
+  "names_in_brief": 66,
+  "names_settled": 66,
+  "left_pending": [
+   "none of the 66 is unresolved. Three are settled only as 'proposed' (no licensed or wiki source for the exact phrase): 政府再建委員会 'Government Reconstruction Committee', ファーストニュータイプ 'First Newtype' and ツインズ・シンクロニティ 'Twins Synchronicity' (the Gundam Wiki says 'Twins Synchronization')"
+  ],
+  "challenges": [
+   "Not my group, seen in passing: the glossary's official 'Gundam Zanbanya' (ガンダムサバーニャ, imported from the akurasu Z3 mech list) looks wrong; the franchise English is 'Gundam Sabernya' (from memory, not verified here); the 00 group should check. No challenge to any official/confirmed name in gundam_1: the glossary has none of my 66."
+  ],
+  "retoken": [
+   "pilot 121 DSCR: $$新地球連邦軍$$ -> $$新地球連邦軍#awgx$$ (En 'New UNE Forces'; original_1c's 新地球連邦軍 is the Original series' UCW body)",
+   "pilot 121 DSCR: $$地球連邦$$ ('an important 地球連邦 stronghold') -> $$地球連邦#awgx$$ (En 'United Nations Earth'; gundam_2's 地球連邦 is the Earth Federation of the UC/00 series)",
+   "untokenized X passages that should read United Nations Earth, not Earth Federation: pilot 111 DSCR ('地球連邦軍に所属', '連邦政府の和平協議会'), pilot 113 DSCR (和平協議会) and pilot 107 DSCR (第７次宇宙大戦, 'Seventh Space War' vs '7th Space War'); translators should follow the records above"
+  ],
+  "uncertain": [
+   "SOURCE PRECEDENCE: akurasu (source 3) spellings were chosen over licensed English wherever they differ, but several akurasu character pages carry a warning that the name is a fan translation or an editor's choice. The main differences: Roybea Roy (licensed subtitles 'Roabea Loy'; Gundam Wiki 'Roybea Loy'), Tonya Malme (Gundam Wiki 'Toniya Malme'), Sara Tyrell ('Sala Tyrrell'), Tex Farzenburg ('Techcs Farzenberg'), Paula Sis ('Pala Sys'), Enil El ('Ennil El'), Vertigo ('Bertigo'). If the orchestrator prefers the licensed Right Stuf subtitle names, only Roabea Loy and Satelicon are confirmed by a source I could read (Gundam Wiki AWGX page); the others were not verified against the subtitles.",
+   "Satelicon: chosen over 'Satyricon' because the Gundam Wiki says the licensed subtitles use Satelicon; akurasu has no entry.",
+   "Nomoa (Nomoa Long) and Katokk (Katokk Alzamille): brief proposals 'Nomore' and 'Katock' overridden by the akurasu list; the akurasu list gives no Japanese for the family names, the Gundam Wiki gives カトック・アルザミール and ノモア・ロング.",
+   "New UNE / New UNE Forces: abbreviation used by the Gundam Wiki; the full name on akurasu is 'New United Nations Earth'. The Japanese has short and long forms (新連邦 / 新地球連邦); I mapped both to the same body.",
+   "colony drop kept lower case; 7th Space War uses a digit as the wiki page title (the game uses ７次).",
+   "D.O.M.E. pilot 121 gender recorded 'male' only because the wiki says the entity is a man; the library text treats it as a facility.",
+   "Gundam Wiki (fandom) text was fetched through its public API; wikitext quoted as a source, not the licensed subtitles themselves.",
+   "Other briefs: 地球連邦 (gundam_2), 新地球連邦軍 (original_1c), コロニーレーザー (gundam_5) appear in X passages; I did not change them but bound X uses with #awgx tokens; コロニーレーザー 'Colony Laser' is compatible with the Gundam Wiki."
+  ]
+ }
+}

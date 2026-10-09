@@ -1,0 +1,1293 @@
+{
+  "schema": 1,
+  "about": "Episode title-card textures in TPACKPS3.CPK (member id = texture id, not stage number). Fill \"en\" (one ASCII line); tools/texture_art.py renders it. Member 88 is already English.",
+  "evidence": "jp = the EBOOT UTF-8 stage-title table (eboot_strings.json, family stage_titles) in table order: members 6-110 = main rows 0x89e828.., 111-134 = bonus rows 0x89f4b0... Each card was also matched by rendering every candidate in a Mincho face and correlating with the card ink: the best candidate equals the table-order title for all 128 Japanese cards (match_score vs runner_up_score).",
+  "unused_titles": [
+    "果てなき世界"
+  ],
+  "style": {},
+  "cards": {
+    "6": {
+      "jp": "時獄の果てに",
+      "en": "At the End of the Time Prison",
+      "eboot_va": "0x89e828",
+      "table": "main",
+      "table_index": 0,
+      "match_score": 0.66,
+      "runner_up_score": 0.221,
+      "member_sha256": "9ceaaaffac7ec9d022163b6195a62e7e8e6ac520c71161180c49e8b03e4b8958"
+    },
+    "7": {
+      "jp": "地球絶対防衛線",
+      "en": "Earth's Absolute Defense Line",
+      "eboot_va": "0x89e840",
+      "table": "main",
+      "table_index": 1,
+      "match_score": 0.761,
+      "runner_up_score": 0.2,
+      "member_sha256": "e3f38273e2d1f5aaf3d12da18c3a2fa972f0dc2a68f3663257dbf636f83bd336"
+    },
+    "8": {
+      "jp": "新地球皇国",
+      "en": "New Earth Empire",
+      "eboot_va": "0x89e858",
+      "table": "main",
+      "table_index": 2,
+      "match_score": 0.877,
+      "runner_up_score": 0.241,
+      "member_sha256": "7e2bf3d033d3d485445d221f5aadd864cddea569923d8be2d516b48994d1b9f7"
+    },
+    "9": {
+      "jp": "守るべきもの",
+      "en": "What We Must Protect",
+      "eboot_va": "0x89e868",
+      "table": "main",
+      "table_index": 3,
+      "match_score": 0.636,
+      "runner_up_score": 0.43,
+      "member_sha256": "ac05aea55ce7995c59d0238b25c8f3dafeb393739f9ae14f1874b4369d8ceed5"
+    },
+    "10": {
+      "jp": "新世界への扉",
+      "en": "Door to a New World",
+      "eboot_va": "0x89e880",
+      "table": "main",
+      "table_index": 4,
+      "match_score": 0.787,
+      "runner_up_score": 0.28,
+      "member_sha256": "6cfa63c3c089d9f76498adcc019ae2047e6901aa5523cf15649b8bbd06b313d1"
+    },
+    "11": {
+      "jp": "もう一つの地球",
+      "en": "Another Earth",
+      "eboot_va": "0x89e898",
+      "table": "main",
+      "table_index": 5,
+      "match_score": 0.663,
+      "runner_up_score": 0.215,
+      "member_sha256": "f0da7e08f6915aa8cb6a67f8109d5f55f9bf52745ccd96950910b0cc2f54ec09"
+    },
+    "12": {
+      "jp": "翠の大海原",
+      "en": "The Green Ocean",
+      "eboot_va": "0x89e8b0",
+      "table": "main",
+      "table_index": 6,
+      "match_score": 0.677,
+      "runner_up_score": 0.209,
+      "member_sha256": "fd132766a78c46f1e9f6f3c531505b8b50640d6cee094c1da3e38ab91233f500"
+    },
+    "13": {
+      "jp": "漂流者",
+      "en": "The Castaway",
+      "eboot_va": "0x89e8c0",
+      "table": "main",
+      "table_index": 7,
+      "match_score": 0.726,
+      "runner_up_score": 0.316,
+      "member_sha256": "b7b0792864bd64880c23a6f41fa1a8058cb99dc93e5d660b2a1a444668d5aee1"
+    },
+    "14": {
+      "jp": "無頼の女帝",
+      "en": "The Lawless Empress",
+      "eboot_va": "0x89e8d0",
+      "table": "main",
+      "table_index": 8,
+      "match_score": 0.724,
+      "runner_up_score": 0.262,
+      "member_sha256": "582e78490f120ae8d9c7d30077f1c3575aab3468f0538818004192fc82ceaeb8"
+    },
+    "15": {
+      "jp": "旅立ちの日",
+      "en": "The Day of Departure",
+      "eboot_va": "0x89e8e0",
+      "table": "main",
+      "table_index": 9,
+      "match_score": 0.651,
+      "runner_up_score": 0.109,
+      "member_sha256": "a1a67eb812ac0469d03137e750c1f5e997d2b8af56ffe84c1f61596cc0fdb5d4"
+    },
+    "16": {
+      "jp": "戦いの大地",
+      "en": "Land of Battle",
+      "eboot_va": "0x89e8f0",
+      "table": "main",
+      "table_index": 10,
+      "match_score": 0.788,
+      "runner_up_score": 0.24,
+      "member_sha256": "4c8cb5e9c4dcb906a45d2aa0d97141f1993f72e1de38fcdf487f5529c4d3900b"
+    },
+    "17": {
+      "jp": "蠍の毒、蝶の毒",
+      "en": "Scorpion Venom, Butterfly Venom",
+      "eboot_va": "0x89e900",
+      "table": "main",
+      "table_index": 11,
+      "match_score": 0.733,
+      "runner_up_score": 0.294,
+      "member_sha256": "dc081044f3383b7cdafae97981ea177bff036c1494e60d1d8487f4ce824448d1"
+    },
+    "18": {
+      "jp": "出撃、トップレス！",
+      "en": "Sortie, Topless!",
+      "eboot_va": "0x89e918",
+      "table": "main",
+      "table_index": 12,
+      "match_score": 0.823,
+      "runner_up_score": 0.161,
+      "member_sha256": "51d028210a710ad11469d783a1c91de8b91836e139b9f38512a2f2bd9047e918"
+    },
+    "19": {
+      "jp": "宇宙と大地の狭間",
+      "en": "Between Space and Earth",
+      "eboot_va": "0x89e938",
+      "table": "main",
+      "table_index": 13,
+      "match_score": 0.841,
+      "runner_up_score": 0.168,
+      "member_sha256": "c80ec99f285d0913f28cbb9f08919f304033402f87d80b0febc03e7414e3ad5b"
+    },
+    "20": {
+      "jp": "北米戦線、波高し",
+      "en": "Stormy North American Front",
+      "eboot_va": "0x89e958",
+      "table": "main",
+      "table_index": 14,
+      "match_score": 0.57,
+      "runner_up_score": 0.2,
+      "member_sha256": "aa7b667517519fa83e3ed397fb7bf64864469f018264984bc1d2bd9f82acae26"
+    },
+    "21": {
+      "jp": "ジオンの未来",
+      "en": "The Future of Zeon",
+      "eboot_va": "0x89e978",
+      "table": "main",
+      "table_index": 15,
+      "match_score": 0.703,
+      "runner_up_score": 0.408,
+      "member_sha256": "877ef96a437ff62266d44aed0b10c33bcbee4b04771325d7ae69cdc1d490b2c6"
+    },
+    "22": {
+      "jp": "オーティス基地攻略戦",
+      "en": "Assault on Otis Base",
+      "eboot_va": "0x89e990",
+      "table": "main",
+      "table_index": 16,
+      "match_score": 0.656,
+      "runner_up_score": 0.177,
+      "member_sha256": "1ecd7509a4278d663b5fdf714f427aa7d4cf1bb107a44981f0e4662c99599226"
+    },
+    "23": {
+      "jp": "毒針",
+      "en": "The Poison Needle",
+      "eboot_va": "0x89e9b0",
+      "table": "main",
+      "table_index": 17,
+      "match_score": 0.729,
+      "runner_up_score": 0.12,
+      "member_sha256": "8a428443036dc729cf4f4bd481f44db468e6456d65d23cc9924cfff7a343200a"
+    },
+    "24": {
+      "jp": "新たなる戦場",
+      "en": "A New Battlefield",
+      "eboot_va": "0x89e9b8",
+      "table": "main",
+      "table_index": 18,
+      "match_score": 0.69,
+      "runner_up_score": 0.28,
+      "member_sha256": "f6127fb38da9dbdf60ca922d3198889822b1a872b8b94c8b9c249874ab0ab429"
+    },
+    "25": {
+      "jp": "トウキョウ攻防戦",
+      "en": "The Battle for Tokyo",
+      "eboot_va": "0x89e9d0",
+      "table": "main",
+      "table_index": 19,
+      "match_score": 0.705,
+      "runner_up_score": 0.133,
+      "member_sha256": "173cc695597a1024bbefb5544176a68fa547573f8b1f907179ce3d40d9cce47a"
+    },
+    "26": {
+      "jp": "厳島の奇跡",
+      "en": "The Miracle of Itsukushima",
+      "eboot_va": "0x89e9f0",
+      "table": "main",
+      "table_index": 20,
+      "match_score": 0.682,
+      "runner_up_score": 0.273,
+      "member_sha256": "e30535f5c03ff242abb689c42b48a91b5f16c8d2ac89b1e69d27cdca01ac3ada"
+    },
+    "27": {
+      "jp": "第２次トウキョウ攻防戦",
+      "en": "The Second Battle for Tokyo",
+      "eboot_va": "0x89ea00",
+      "table": "main",
+      "table_index": 21,
+      "match_score": 0.761,
+      "runner_up_score": 0.152,
+      "member_sha256": "73708ec5206a9a3c66296a52a8508d54b5bb05dd712c9cb7a80b67cf302bab35"
+    },
+    "28": {
+      "jp": "平和への暁",
+      "en": "The Dawn of Peace",
+      "eboot_va": "0x89ea28",
+      "table": "main",
+      "table_index": 22,
+      "match_score": 0.702,
+      "runner_up_score": 0.238,
+      "member_sha256": "75c242d1d5dff82a1229c9ac2eb69d977ae2c3bea50c11b73eaabf4a39767b9c"
+    },
+    "29": {
+      "jp": "赤い彗星の影",
+      "en": "Shadow of the Red Comet",
+      "eboot_va": "0x89ea38",
+      "table": "main",
+      "table_index": 23,
+      "match_score": 0.703,
+      "runner_up_score": 0.201,
+      "member_sha256": "667baa49c76925f19b454c01ea7ca090db924f937ff882c663aee5fcd34b0cff"
+    },
+    "30": {
+      "jp": "プラント動乱",
+      "en": "PLANT Unrest",
+      "eboot_va": "0x89ea50",
+      "table": "main",
+      "table_index": 24,
+      "match_score": 0.636,
+      "runner_up_score": 0.22,
+      "member_sha256": "9eaf946aeda8294332368094bb3d85abeab398b21e77c1dce16684305985b3ac"
+    },
+    "31": {
+      "jp": "憎しみの翅、愛しさの翼",
+      "en": "Wings of Hate, Wings of Love",
+      "eboot_va": "0x89ea68",
+      "table": "main",
+      "table_index": 25,
+      "match_score": 0.695,
+      "runner_up_score": 0.175,
+      "member_sha256": "2429ff38bc94590c5fecdc77fa192ca6b61d91df3ab21e509b57a387307796a6"
+    },
+    "32": {
+      "jp": "大気圏突入",
+      "en": "Atmospheric Entry",
+      "eboot_va": "0x89ea90",
+      "table": "main",
+      "table_index": 26,
+      "match_score": 0.791,
+      "runner_up_score": 0.111,
+      "member_sha256": "35d5e3b62f6cdf55d045494d52067dc114b957ee269da11a4aedbd0a92e3d6d7"
+    },
+    "33": {
+      "jp": "アルカトラズ大脱走",
+      "en": "The Great Escape from Alcatraz",
+      "eboot_va": "0x89eaa0",
+      "table": "main",
+      "table_index": 27,
+      "match_score": 0.786,
+      "runner_up_score": 0.174,
+      "member_sha256": "3641a614f032cec594cf6edc53e76897c1a8696f9214d9f913128a0d94a2dc1f"
+    },
+    "34": {
+      "jp": "決戦、ラース・バビロン！",
+      "en": "Showdown at Wrath Babylon!",
+      "eboot_va": "0x89eac0",
+      "table": "main",
+      "table_index": 28,
+      "match_score": 0.752,
+      "runner_up_score": 0.131,
+      "member_sha256": "bbc58b7ecfaf1f304681f6eafcd428ee0c269d819f4ab8c894a9c7dd22f94e36"
+    },
+    "35": {
+      "jp": "終わる世界",
+      "en": "A World Coming to an End",
+      "eboot_va": "0x89eae8",
+      "table": "main",
+      "table_index": 29,
+      "match_score": 0.701,
+      "runner_up_score": 0.403,
+      "member_sha256": "1b1a3b00cc19202bcb305be04d53c890b927604bfcf5ef492ce5c61ea631c308"
+    },
+    "36": {
+      "jp": "銀河の海",
+      "en": "The Sea of the Galaxy",
+      "eboot_va": "0x89eaf8",
+      "table": "main",
+      "table_index": 30,
+      "match_score": 0.625,
+      "runner_up_score": 0.215,
+      "member_sha256": "160e12c640a9df23ddfe85e810e5f5db2642bb63a8e4024e05489d01464804fc"
+    },
+    "37": {
+      "jp": "禁断の惑星",
+      "en": "Forbidden Planet",
+      "eboot_va": "0x89eb08",
+      "table": "main",
+      "table_index": 31,
+      "match_score": 0.678,
+      "runner_up_score": 0.244,
+      "member_sha256": "268227388644d04b11e20b67098da1199fc627bd697dfcd486d4e470bdd00901"
+    },
+    "38": {
+      "jp": "大いなる意志",
+      "en": "The Great Will",
+      "eboot_va": "0x89eb18",
+      "table": "main",
+      "table_index": 32,
+      "match_score": 0.702,
+      "runner_up_score": 0.315,
+      "member_sha256": "aa6713f898c0ef87e34b5469dcb03409943bcfb7d77138b5204de664c85eb0e1"
+    },
+    "39": {
+      "jp": "未知なる恐怖",
+      "en": "An Unknown Terror",
+      "eboot_va": "0x89eb30",
+      "table": "main",
+      "table_index": 33,
+      "match_score": 0.646,
+      "runner_up_score": 0.245,
+      "member_sha256": "4326b44dfae315fa7a2317ca28c00eef39dde2b2b114487a808eb847f378f1be"
+    },
+    "40": {
+      "jp": "飢える破壊魔",
+      "en": "Ravenous Destroyers",
+      "eboot_va": "0x89eb48",
+      "table": "main",
+      "table_index": 34,
+      "match_score": 0.553,
+      "runner_up_score": 0.194,
+      "member_sha256": "159ad901d6bdcdb0dd7ff47372c9bc22858d88afc5752467cc4d8ff37ffcae20"
+    },
+    "41": {
+      "jp": "果てなき破壊の化身",
+      "en": "Endless Destruction Incarnate",
+      "eboot_va": "0x89eb60",
+      "table": "main",
+      "table_index": 35,
+      "match_score": 0.739,
+      "runner_up_score": 0.159,
+      "member_sha256": "d88ad9e29444f9574424a2489a46ee6a20cdec93e7c93ec9569f89ef115b4354"
+    },
+    "42": {
+      "jp": "裂ける次元",
+      "en": "Dimensions Torn Asunder",
+      "eboot_va": "0x89eb80",
+      "table": "main",
+      "table_index": 36,
+      "match_score": 0.642,
+      "runner_up_score": 0.2,
+      "member_sha256": "fa90c910212289f4a1794a5da5fa26aa890a8dbf154b69cf9ae2f6edcc6dd3b1"
+    },
+    "43": {
+      "jp": "導く者",
+      "en": "The One Who Leads",
+      "eboot_va": "0x89eb90",
+      "table": "main",
+      "table_index": 37,
+      "match_score": 0.659,
+      "runner_up_score": 0.273,
+      "member_sha256": "c68d68c98bbcb490c4946a234431a47ad67d8922233cfe2b374988513ebb612a"
+    },
+    "44": {
+      "jp": "ジュピター・クライシス",
+      "en": "Jupiter Crisis",
+      "eboot_va": "0x89eba0",
+      "table": "main",
+      "table_index": 38,
+      "match_score": 0.718,
+      "runner_up_score": 0.129,
+      "member_sha256": "71f3f57bdf5f461fba057af57c35ef46525cca0176a4d5e02591b14290be8284"
+    },
+    "45": {
+      "jp": "マーズ・エンカウント",
+      "en": "Mars Encounter",
+      "eboot_va": "0x89ebc8",
+      "table": "main",
+      "table_index": 39,
+      "match_score": 0.524,
+      "runner_up_score": 0.158,
+      "member_sha256": "4d900342730c8b9470226b68f766b8d96548e2662965b42a0f4c52423974ee20"
+    },
+    "46": {
+      "jp": "敗走",
+      "en": "Routed",
+      "eboot_va": "0x89ebe8",
+      "table": "main",
+      "table_index": 40,
+      "match_score": 0.846,
+      "runner_up_score": 0.139,
+      "member_sha256": "06ffd6890d168bab2f55da88730d049abf97081dc04cff8dcb973c4d0b26d810"
+    },
+    "47": {
+      "jp": "孤影",
+      "en": "A Lone Shadow",
+      "eboot_va": "0x89ebf0",
+      "table": "main",
+      "table_index": 41,
+      "match_score": 0.594,
+      "runner_up_score": 0.314,
+      "member_sha256": "8a14dc77ff5e2efbeb393d5243aa992eaf6cbc15f51b88377b915f422bd8ec6c"
+    },
+    "48": {
+      "jp": "怒りのナムサク",
+      "en": "Namsac Enraged",
+      "eboot_va": "0x89ebf8",
+      "table": "main",
+      "table_index": 42,
+      "match_score": 0.693,
+      "runner_up_score": 0.131,
+      "member_sha256": "5714084ccd8d451ac4c9fd251ee62eed5b71ce373b3ddb93ca26dafb6d71857f"
+    },
+    "49": {
+      "jp": "ザ・リターンマン",
+      "en": "The Return Man",
+      "eboot_va": "0x89ec10",
+      "table": "main",
+      "table_index": 43,
+      "match_score": 0.717,
+      "runner_up_score": 0.158,
+      "member_sha256": "500da60c6e5a32c3910bacccff3a2fd65ecf52e2857ca37d7022a268c09776ca"
+    },
+    "50": {
+      "jp": "遭遇",
+      "en": "Encounter",
+      "eboot_va": "0x89ec30",
+      "table": "main",
+      "table_index": 44,
+      "match_score": 0.831,
+      "runner_up_score": 0.135,
+      "member_sha256": "7be92c59bcf711c821f1ae3310b1f1ecf2e9beb31063a5006550fe8220b7e270"
+    },
+    "51": {
+      "jp": "再会の火の星",
+      "en": "Reunion on the Red Planet",
+      "eboot_va": "0x89ec38",
+      "table": "main",
+      "table_index": 45,
+      "match_score": 0.82,
+      "runner_up_score": 0.276,
+      "member_sha256": "5fc599b00613c3bf64fe77cc2ba78f28c0c0a375d0fdc7c8cdb4eb824700e400"
+    },
+    "52": {
+      "jp": "最後の来訪者",
+      "en": "The Last Visitor",
+      "eboot_va": "0x89ec50",
+      "table": "main",
+      "table_index": 46,
+      "match_score": 0.724,
+      "runner_up_score": 0.269,
+      "member_sha256": "01507e4c225e1e3bcf10c8afce2ed9ef17726ac7da8f1a1f9d78b4da08e361c2"
+    },
+    "53": {
+      "jp": "一筋の光明",
+      "en": "A Ray of Hope",
+      "eboot_va": "0x89ec68",
+      "table": "main",
+      "table_index": 47,
+      "match_score": 0.767,
+      "runner_up_score": 0.22,
+      "member_sha256": "67e891eb0e57a9d7020b9cbdbe0e9372224916dd120ff6dee4b57e2f5506d057"
+    },
+    "54": {
+      "jp": "特異点の使命",
+      "en": "The Singularity's Mission",
+      "eboot_va": "0x89ec78",
+      "table": "main",
+      "table_index": 48,
+      "match_score": 0.683,
+      "runner_up_score": 0.31,
+      "member_sha256": "eb2a476fe4997cef43a2f5f44a07151c826ec2cef40e69206902f5b0bcf3350c"
+    },
+    "55": {
+      "jp": "輝け、ぼくらの星",
+      "en": "Shine On, Our Star",
+      "eboot_va": "0x89ec90",
+      "table": "main",
+      "table_index": 49,
+      "match_score": 0.717,
+      "runner_up_score": 0.195,
+      "member_sha256": "f8d66028f69814665351542b3cfa956308ae3dede1540492dd269a3a7c006a7e"
+    },
+    "56": {
+      "jp": "地上に降りた太陽",
+      "en": "The Sun That Came Down to Earth",
+      "eboot_va": "0x89ecb0",
+      "table": "main",
+      "table_index": 50,
+      "match_score": 0.74,
+      "runner_up_score": 0.185,
+      "member_sha256": "ef712bd9ab3657a2e55dc3b694942255f99d1961ac6476313865d5893593d0fa"
+    },
+    "57": {
+      "jp": "闇の兄、光の弟",
+      "en": "Dark Brother, Light Brother",
+      "eboot_va": "0x89ecd0",
+      "table": "main",
+      "table_index": 51,
+      "match_score": 0.769,
+      "runner_up_score": 0.301,
+      "member_sha256": "390b58554661bfa400d1fbd3f8b242a20c447e9322a7a288afa35d226d960af7"
+    },
+    "58": {
+      "jp": "猛攻のストラウス",
+      "en": "Straus's Onslaught",
+      "eboot_va": "0x89ece8",
+      "table": "main",
+      "table_index": 52,
+      "match_score": 0.741,
+      "runner_up_score": 0.263,
+      "member_sha256": "61096d4a1090b443c8053ba9820eb6deff5fd5da93bb25358b24524b446cacda"
+    },
+    "59": {
+      "jp": "深海の秘密",
+      "en": "Secrets of the Deep Sea",
+      "eboot_va": "0x89ed08",
+      "table": "main",
+      "table_index": 53,
+      "match_score": 0.705,
+      "runner_up_score": 0.252,
+      "member_sha256": "0c07067c8c210c3c6be2f2cce3b6292ca670a628e7cb9602fd6d9114556badac"
+    },
+    "60": {
+      "jp": "野望の島",
+      "en": "Island of Ambition",
+      "eboot_va": "0x89ed18",
+      "table": "main",
+      "table_index": 54,
+      "match_score": 0.707,
+      "runner_up_score": 0.31,
+      "member_sha256": "fe8a245f68f17d963f45ae3d3589e7c66ceaee9cc3440b3c79cd77696a8eb59a"
+    },
+    "61": {
+      "jp": "翠の海の明日",
+      "en": "A Tomorrow for the Green Sea",
+      "eboot_va": "0x89ed28",
+      "table": "main",
+      "table_index": 55,
+      "match_score": 0.698,
+      "runner_up_score": 0.46,
+      "member_sha256": "61452000a2a4672c83be99d9c080a700deb94e500de3132ce21a7840aacadc7c"
+    },
+    "62": {
+      "jp": "深淵よりの目覚め",
+      "en": "Awakening from the Abyss",
+      "eboot_va": "0x89ed40",
+      "table": "main",
+      "table_index": 56,
+      "match_score": 0.672,
+      "runner_up_score": 0.13,
+      "member_sha256": "6495a62811b06ded5c55933aac2f0b271ffcc083fb053c2740d1c4e62450682f"
+    },
+    "63": {
+      "jp": "闇の中の真実",
+      "en": "Truth in the Darkness",
+      "eboot_va": "0x89ed60",
+      "table": "main",
+      "table_index": 57,
+      "match_score": 0.774,
+      "runner_up_score": 0.228,
+      "member_sha256": "8c69330866b274722c41eb817ce4a10f60977a8618f74dd4d1faa6a19141f0a6"
+    },
+    "64": {
+      "jp": "憎しみと悲しみと",
+      "en": "Of Hatred and Sorrow",
+      "eboot_va": "0x89ed78",
+      "table": "main",
+      "table_index": 58,
+      "match_score": 0.612,
+      "runner_up_score": 0.222,
+      "member_sha256": "d99d02c9c705b1e30b8479aab0999eb39bd0157876c5cf3c15437fe09b54ad55"
+    },
+    "65": {
+      "jp": "太極",
+      "en": "Taiji",
+      "eboot_va": "0x89ed98",
+      "table": "main",
+      "table_index": 59,
+      "match_score": 0.509,
+      "runner_up_score": 0.162,
+      "member_sha256": "3093e5857c15b3668b319ca2e1d92308d53bb45de704b4d0e4a07836f2738c30"
+    },
+    "66": {
+      "jp": "黒歴史の闇",
+      "en": "The Darkness of Black History",
+      "eboot_va": "0x89eda0",
+      "table": "main",
+      "table_index": 60,
+      "match_score": 0.751,
+      "runner_up_score": 0.272,
+      "member_sha256": "f21253a6f65a9bda3fe1845e67f61834dfb1b6c06f6a11dbd2785c677149f5eb"
+    },
+    "67": {
+      "jp": "復活の日",
+      "en": "Day of Resurrection",
+      "eboot_va": "0x89edb0",
+      "table": "main",
+      "table_index": 61,
+      "match_score": 0.69,
+      "runner_up_score": 0.122,
+      "member_sha256": "a11c4d18288208dd6b8ba540a073b088e7186cc5887097f5b0cedbdd8e98b4d3"
+    },
+    "68": {
+      "jp": "１万２０００年を越えて",
+      "en": "Beyond 12,000 Years",
+      "eboot_va": "0x89edc0",
+      "table": "main",
+      "table_index": 62,
+      "match_score": 0.761,
+      "runner_up_score": 0.118,
+      "member_sha256": "d5760d51adbfba0566ccf4f2c7ff23611744fdc60dc93233213929f6d7aa933e"
+    },
+    "69": {
+      "jp": "帰ることなき故郷",
+      "en": "The Homeland of No Return",
+      "eboot_va": "0x89ede8",
+      "table": "main",
+      "table_index": 63,
+      "match_score": 0.714,
+      "runner_up_score": 0.178,
+      "member_sha256": "5f55f954a11483cd14a1f3f4631f85d9c09088305a4d186439990bfb6567896b"
+    },
+    "70": {
+      "jp": "光の魔神",
+      "en": "The Demon God of Light",
+      "eboot_va": "0x89ee08",
+      "table": "main",
+      "table_index": 64,
+      "match_score": 0.698,
+      "runner_up_score": 0.249,
+      "member_sha256": "9fb7c81a72b1fd85b5a55a93cc262f05a2cec1e99c09c73bdd70a12080ffe4cb"
+    },
+    "71": {
+      "jp": "永遠の戦士",
+      "en": "The Eternal Warrior",
+      "eboot_va": "0x89ee18",
+      "table": "main",
+      "table_index": 65,
+      "match_score": 0.805,
+      "runner_up_score": 0.248,
+      "member_sha256": "275ac8833f7b5bd0c4e2c4587ddda406965ed802632f864cb85f842f90a77855"
+    },
+    "72": {
+      "jp": "受け継がれる牙",
+      "en": "The Inherited Fang",
+      "eboot_va": "0x89ee28",
+      "table": "main",
+      "table_index": 66,
+      "match_score": 0.666,
+      "runner_up_score": 0.167,
+      "member_sha256": "826f4f834d39c52ef6d4731bae651d28b7881a5d8bb3ca1607501adfddb50940"
+    },
+    "73": {
+      "jp": "光と闇の向こうに",
+      "en": "Beyond Light and Darkness",
+      "eboot_va": "0x89ee40",
+      "table": "main",
+      "table_index": 67,
+      "match_score": 0.463,
+      "runner_up_score": 0.136,
+      "member_sha256": "5bfea2c08e260485daa307c5abab69d1b7609b90ed80e104f82e6e2ec9a14169"
+    },
+    "74": {
+      "jp": "宇宙の神",
+      "en": "The God of Space",
+      "eboot_va": "0x89ee60",
+      "table": "main",
+      "table_index": 68,
+      "match_score": 0.816,
+      "runner_up_score": 0.277,
+      "member_sha256": "7cd4f38321c8c2b1d918f383043d19846b10dacbe5abc4e01e6c8d4469a8b88a"
+    },
+    "75": {
+      "jp": "暗闇のリディ",
+      "en": "Riddhe in Darkness",
+      "eboot_va": "0x89ee70",
+      "table": "main",
+      "table_index": 69,
+      "match_score": 0.635,
+      "runner_up_score": 0.197,
+      "member_sha256": "20fff17b8694ca8a8b7b472e43e64fa1dbf29817a2a568474eff2e1cc692a7a4"
+    },
+    "76": {
+      "jp": "ハマーンのためらい",
+      "en": "Haman's Hesitation",
+      "eboot_va": "0x89ee88",
+      "table": "main",
+      "table_index": 70,
+      "match_score": 0.64,
+      "runner_up_score": 0.148,
+      "member_sha256": "02086b7c150da84ec8723a650b88ce2fde5619e3b9d4b7f9130f0d641c715768"
+    },
+    "77": {
+      "jp": "想いと力の向かう先",
+      "en": "Where Feelings and Power Lead",
+      "eboot_va": "0x89eea8",
+      "table": "main",
+      "table_index": 71,
+      "match_score": 0.742,
+      "runner_up_score": 0.15,
+      "member_sha256": "42c6e2068294db40da97e9c66c582c68eea9a2ec4ecd9da00fa468e64accf922"
+    },
+    "78": {
+      "jp": "赤い彗星の未来",
+      "en": "Future of the Red Comet",
+      "eboot_va": "0x89eec8",
+      "table": "main",
+      "table_index": 72,
+      "match_score": 0.736,
+      "runner_up_score": 0.195,
+      "member_sha256": "625ae1f4d71dd0f8b40db90b9c31df19214e43224ba254d988a9763eec4652e0"
+    },
+    "79": {
+      "jp": "世界への挑戦",
+      "en": "A Challenge to the World",
+      "eboot_va": "0x89eee0",
+      "table": "main",
+      "table_index": 73,
+      "match_score": 0.802,
+      "runner_up_score": 0.27,
+      "member_sha256": "6963c2af9236cc95223488c59deb1ff01d1ec58171e49575f41e832938a11b44"
+    },
+    "80": {
+      "jp": "神への誘い",
+      "en": "An Invitation to Godhood",
+      "eboot_va": "0x89eef8",
+      "table": "main",
+      "table_index": 74,
+      "match_score": 0.61,
+      "runner_up_score": 0.246,
+      "member_sha256": "9c78410463faccc11ce0dbd804161c8845fc784bf4bfa4f74f28a52274f1c25a"
+    },
+    "81": {
+      "jp": "幻影",
+      "en": "Phantom",
+      "eboot_va": "0x89ef08",
+      "table": "main",
+      "table_index": 75,
+      "match_score": 0.641,
+      "runner_up_score": 0.358,
+      "member_sha256": "0fe4f7fd1b03be49cc2ce6823b14aecc3fae6e2e871efafe27ca6655c3c6fa29"
+    },
+    "82": {
+      "jp": "歪む因果",
+      "en": "Distorted Causality",
+      "eboot_va": "0x89ef10",
+      "table": "main",
+      "table_index": 76,
+      "match_score": 0.772,
+      "runner_up_score": 0.187,
+      "member_sha256": "97debb6d8620f42dfae27a09c6a3c824da8c016da67155b94357316485bc8411"
+    },
+    "83": {
+      "jp": "迫るクロス・オブ・ワールド",
+      "en": "Cross of World Approaches",
+      "eboot_va": "0x89ef20",
+      "table": "main",
+      "table_index": 77,
+      "match_score": 0.686,
+      "runner_up_score": 0.167,
+      "member_sha256": "1ae162c88c1da6a7c4ee4d54aa646f359b51eccd5a7ac243d7294b750b3da718"
+    },
+    "84": {
+      "jp": "ずっと、スタンド・バイ・ミー",
+      "en": "Always, Stand by Me",
+      "eboot_va": "0x89ef48",
+      "table": "main",
+      "table_index": 78,
+      "match_score": 0.744,
+      "runner_up_score": 0.116,
+      "member_sha256": "aeb74efaf9d3c11111fa6fdfbc38f3209429bd5374c76107468dfaa238bfd04d"
+    },
+    "85": {
+      "jp": "炎",
+      "en": "Flame",
+      "eboot_va": "0x89ef78",
+      "table": "main",
+      "table_index": 79,
+      "match_score": 0.816,
+      "runner_up_score": 0.069,
+      "member_sha256": "68eee6f3a22f28002be10093d45740ae5f9b178f19d9ddd26f868fee3f38c8f7"
+    },
+    "86": {
+      "jp": "閉じた世界",
+      "en": "A Closed World",
+      "eboot_va": "0x89ef80",
+      "table": "main",
+      "table_index": 80,
+      "match_score": 0.658,
+      "runner_up_score": 0.394,
+      "member_sha256": "b36e92824f2db29f14b90176cc9a4d67befa07988f5349cff92a612a243f73d5"
+    },
+    "87": {
+      "jp": "永遠の聖王国",
+      "en": "The Eternal Holy Kingdom",
+      "eboot_va": "0x89ef90",
+      "table": "main",
+      "table_index": 81,
+      "match_score": 0.801,
+      "runner_up_score": 0.218,
+      "member_sha256": "5b1cb399faf4510bcda378a55360333c7cce0dca2d78e8717aa6bc2b98e37d3a"
+    },
+    "89": {
+      "jp": "宿命を越えて",
+      "en": "Beyond Destiny",
+      "eboot_va": "0x89efe8",
+      "table": "main",
+      "table_index": 83,
+      "match_score": 0.624,
+      "runner_up_score": 0.205,
+      "member_sha256": "9ac813356344bdd563c71174d49ddbeaa9c72c659b60f4d5e90212348725b2ab"
+    },
+    "90": {
+      "jp": "虹の彼方に",
+      "en": "Over the Rainbow",
+      "eboot_va": "0x89f000",
+      "table": "main",
+      "table_index": 84,
+      "match_score": 0.619,
+      "runner_up_score": 0.2,
+      "member_sha256": "fc61a7d834adcef38fd1ecb103be49f10e3620824f964787b635d8b1fb87e701"
+    },
+    "91": {
+      "jp": "守るべき未来",
+      "en": "The Future We Must Protect",
+      "eboot_va": "0x89f010",
+      "table": "main",
+      "table_index": 85,
+      "match_score": 0.636,
+      "runner_up_score": 0.413,
+      "member_sha256": "1f106c9ee912816d77f708b9ebc94fd88214956f97733ece90993a8c326d9462"
+    },
+    "92": {
+      "jp": "決戦の地へ",
+      "en": "To the Final Battleground",
+      "eboot_va": "0x89f028",
+      "table": "main",
+      "table_index": 86,
+      "match_score": 0.662,
+      "runner_up_score": 0.276,
+      "member_sha256": "8086f06aca0fe247b07f78ba97c7a74820913770a744d67490a2347869ef93fd"
+    },
+    "93": {
+      "jp": "燃える地球",
+      "en": "Earth Ablaze",
+      "eboot_va": "0x89f038",
+      "table": "main",
+      "table_index": 87,
+      "match_score": 0.734,
+      "runner_up_score": 0.229,
+      "member_sha256": "2125c1be179691a6838c442f641348fa181bf6e0b1f66fdb1cea1fec50bf3c8b"
+    },
+    "94": {
+      "jp": "宇宙に響く声",
+      "en": "A Voice Echoing Through Space",
+      "eboot_va": "0x89f048",
+      "table": "main",
+      "table_index": 88,
+      "match_score": 0.816,
+      "runner_up_score": 0.167,
+      "member_sha256": "cadfcb9493c97cae63a4cb7d4bf2a999c343afdcfbf868d87b95429e62ef4c38"
+    },
+    "95": {
+      "jp": "星の向こうに",
+      "en": "Beyond the Stars",
+      "eboot_va": "0x89f060",
+      "table": "main",
+      "table_index": 89,
+      "match_score": 0.671,
+      "runner_up_score": 0.18,
+      "member_sha256": "3d392b87c7b5b49a8182d64462fc3c5fcd696cf09d689e213e3c8c7f0c31a37f"
+    },
+    "96": {
+      "jp": "運命への出航",
+      "en": "Setting Sail Toward Fate",
+      "eboot_va": "0x89f078",
+      "table": "main",
+      "table_index": 90,
+      "match_score": 0.842,
+      "runner_up_score": 0.257,
+      "member_sha256": "22b96d3dc0523eecff73422048d4f99c6a898225648c4252ad0c94ad5017455d"
+    },
+    "97": {
+      "jp": "神に導かれしもの",
+      "en": "Those Guided by God",
+      "eboot_va": "0x89f090",
+      "table": "main",
+      "table_index": 91,
+      "match_score": 0.562,
+      "runner_up_score": 0.142,
+      "member_sha256": "66470404eaa59a610ac677629047d906038f54e16dddea778902c43b0b208d6b"
+    },
+    "98": {
+      "jp": "歪んだ進化",
+      "en": "Distorted Evolution",
+      "eboot_va": "0x89f0b0",
+      "table": "main",
+      "table_index": 92,
+      "match_score": 0.495,
+      "runner_up_score": 0.253,
+      "member_sha256": "9aacb7426c962dff09689a0b45f758531ed7ac1389d0a4592807c2ce82b1ce70"
+    },
+    "99": {
+      "jp": "閃光！！　次元の果て！",
+      "en": "Flash!! The Edge of Dimension!",
+      "eboot_va": "0x89f0c0",
+      "table": "main",
+      "table_index": 93,
+      "match_score": 0.795,
+      "runner_up_score": 0.099,
+      "member_sha256": "e399bae83c49e3406d6486fa28128baaa122974775642f7c6f32390016d3b32d"
+    },
+    "100": {
+      "jp": "崩壊へのスタンピード",
+      "en": "Stampede to Collapse",
+      "eboot_va": "0x89f0e8",
+      "table": "main",
+      "table_index": 94,
+      "match_score": 0.683,
+      "runner_up_score": 0.116,
+      "member_sha256": "3672a15cf40ef865c605a0c053a441456b0abc01c6299e1e6ec29eec9f40793c"
+    },
+    "101": {
+      "jp": "愛憎のラビリンス",
+      "en": "Labyrinth of Love and Hate",
+      "eboot_va": "0x89f108",
+      "table": "main",
+      "table_index": 95,
+      "match_score": 0.657,
+      "runner_up_score": 0.287,
+      "member_sha256": "ce705db26fd5d7e83fe8cbbe0be1c8e6241678f7c675bf532fa1ca8ec429c3e4"
+    },
+    "102": {
+      "jp": "愛する翼",
+      "en": "Beloved Wings",
+      "eboot_va": "0x89f128",
+      "table": "main",
+      "table_index": 96,
+      "match_score": 0.578,
+      "runner_up_score": 0.172,
+      "member_sha256": "8f1a2a806d9981cf40aec3460dab5ee15422514d9cbc17923d94ed0aba2022f2"
+    },
+    "103": {
+      "jp": "死闘の銀河",
+      "en": "Galactic Deathmatch",
+      "eboot_va": "0x89f138",
+      "table": "main",
+      "table_index": 97,
+      "match_score": 0.681,
+      "runner_up_score": 0.248,
+      "member_sha256": "0b5b789503dd92631eabf5404505ed96c0258c62940942c479d58342e7972340"
+    },
+    "104": {
+      "jp": "覚醒",
+      "en": "Awakening",
+      "eboot_va": "0x89f148",
+      "table": "main",
+      "table_index": 98,
+      "match_score": 0.693,
+      "runner_up_score": 0.167,
+      "member_sha256": "41d544d456283eed1619945847efefca3cf256e74248471a172014dc7d511cd2"
+    },
+    "105": {
+      "jp": "真化、その意味",
+      "en": "Shinka: Its Meaning",
+      "eboot_va": "0x89f150",
+      "table": "main",
+      "table_index": 99,
+      "match_score": 0.675,
+      "runner_up_score": 0.161,
+      "member_sha256": "3ae0d69afe25a668eb3a020a37c940a2d5d95e4152b6bb423d31d05879705323"
+    },
+    "106": {
+      "jp": "終焉の宇宙",
+      "en": "The End of the Universe",
+      "eboot_va": "0x89f168",
+      "table": "main",
+      "table_index": 100,
+      "match_score": 0.781,
+      "runner_up_score": 0.3,
+      "member_sha256": "f90573446c6b017921c5e1c1a9af74daf03e25d122f6da95dd157f92705715a5"
+    },
+    "107": {
+      "jp": "哀しき墓守",
+      "en": "The Sorrowful Gravekeeper",
+      "eboot_va": "0x89f178",
+      "table": "main",
+      "table_index": 101,
+      "match_score": 0.706,
+      "runner_up_score": 0.175,
+      "member_sha256": "90fa6cefce84a9f901f1c825d1da804e0ad309c48f5417d1e5ba1dea8893b3b4"
+    },
+    "108": {
+      "jp": "邪神降臨",
+      "en": "The Evil God Descends",
+      "eboot_va": "0x89f188",
+      "table": "main",
+      "table_index": 102,
+      "match_score": 0.621,
+      "runner_up_score": 0.122,
+      "member_sha256": "c5805640c0a2090e543f34ca1757f83eb068b8c8283317f3a63d352a9ce53a4c"
+    },
+    "109": {
+      "jp": "永遠へ",
+      "en": "Toward Eternity",
+      "eboot_va": "0x89f198",
+      "table": "main",
+      "table_index": 103,
+      "match_score": 0.712,
+      "runner_up_score": 0.146,
+      "member_sha256": "30ae3e551cf4e19509d570c233fd5c7b23a84d8c5e89a7de2b7c73503e78b31f"
+    },
+    "110": {
+      "jp": "黒い太陽",
+      "en": "Black Sun",
+      "eboot_va": "0x89f1a8",
+      "table": "main",
+      "table_index": 104,
+      "match_score": 0.767,
+      "runner_up_score": 0.231,
+      "member_sha256": "2af465fa857dc4cefcbdff1aae50ea6dfda5b854797a7230c1c10dcde1f7b30a"
+    },
+    "111": {
+      "jp": "スズネ、ストレス発散",
+      "en": "Suzune Blows Off Steam",
+      "eboot_va": "0x89f4b0",
+      "table": "bonus",
+      "table_index": 0,
+      "match_score": 0.734,
+      "runner_up_score": 0.177,
+      "member_sha256": "d4015780f3cac821d685fe9ce34216d481dfcb64df153fc4cc540d11b427e504"
+    },
+    "112": {
+      "jp": "出動、少年探偵団",
+      "en": "Move Out, Boy Detectives",
+      "eboot_va": "0x89f4d0",
+      "table": "bonus",
+      "table_index": 1,
+      "match_score": 0.774,
+      "runner_up_score": 0.195,
+      "member_sha256": "1fd3e158e617c78a1177076449f21eae7c6ec90f380f154f71cbbe733ef6d5dd"
+    },
+    "113": {
+      "jp": "新時代の扉",
+      "en": "Door to a New Era",
+      "eboot_va": "0x89f4f0",
+      "table": "bonus",
+      "table_index": 2,
+      "match_score": 0.702,
+      "runner_up_score": 0.239,
+      "member_sha256": "8b676b4d785f44612ec634ca127d7569d82004f1788ea80fa5ec9252c35bee0e"
+    },
+    "114": {
+      "jp": "目覚めるふもっふ",
+      "en": "Fumoffu Awakens",
+      "eboot_va": "0x89f500",
+      "table": "bonus",
+      "table_index": 3,
+      "match_score": 0.602,
+      "runner_up_score": 0.114,
+      "member_sha256": "76325250492bdc2f4c1045c56d124ecb7756de80c284fe2d5c72dbf58816cf1a"
+    },
+    "115": {
+      "jp": "俺の正義",
+      "en": "My Justice",
+      "eboot_va": "0x89f520",
+      "table": "bonus",
+      "table_index": 4,
+      "match_score": 0.733,
+      "runner_up_score": 0.275,
+      "member_sha256": "1a807257bdc5a1e73ba342ab61e08fd4a1c60ded7e4ac437abc168721882cbd6"
+    },
+    "116": {
+      "jp": "愛と勇気と力",
+      "en": "Love, Courage, and Power",
+      "eboot_va": "0x89f530",
+      "table": "bonus",
+      "table_index": 5,
+      "match_score": 0.668,
+      "runner_up_score": 0.196,
+      "member_sha256": "0c38fc1314fc1d34f2537dedd05a4088f37f09c027b3d592d60aa435d13f0f14"
+    },
+    "117": {
+      "jp": "炎のトウキョウライブ",
+      "en": "Fiery Live in Tokyo",
+      "eboot_va": "0x89f548",
+      "table": "bonus",
+      "table_index": 6,
+      "match_score": 0.693,
+      "runner_up_score": 0.141,
+      "member_sha256": "e5128bcce2cdf2a86db47a33fe2594f05fae6fc32236775e3013db92c09e7175"
+    },
+    "118": {
+      "jp": "戦わざるもの食うべからず",
+      "en": "No Fight, No Food",
+      "eboot_va": "0x89f568",
+      "table": "bonus",
+      "table_index": 7,
+      "match_score": 0.693,
+      "runner_up_score": 0.145,
+      "member_sha256": "04088b9a5223fd96d7595a3926b170a84d78908d070f79defe2ebdfc7695f411"
+    },
+    "119": {
+      "jp": "獣と風",
+      "en": "The Beast and the Wind",
+      "eboot_va": "0x89f590",
+      "table": "bonus",
+      "table_index": 8,
+      "match_score": 0.744,
+      "runner_up_score": 0.146,
+      "member_sha256": "82119a62e22679499fee5946781e1a5911e4e03ec62ab0c442172a95969995be"
+    },
+    "120": {
+      "jp": "多元戦争追想",
+      "en": "Memories of the Multiverse War",
+      "eboot_va": "0x89f5a0",
+      "table": "bonus",
+      "table_index": 9,
+      "match_score": 0.71,
+      "runner_up_score": 0.169,
+      "member_sha256": "1b374a4b5af31608502c0ee11a8835896d3e46eabda9866d7ba0006115793cf4"
+    },
+    "121": {
+      "jp": "ザ・バトリング",
+      "en": "The Battling",
+      "eboot_va": "0x89f5b8",
+      "table": "bonus",
+      "table_index": 10,
+      "match_score": 0.688,
+      "runner_up_score": 0.125,
+      "member_sha256": "513166655e940a161301216dd8bf10f869a080b6d61952523fc228426084cbf4"
+    },
+    "122": {
+      "jp": "縁の下のハードワーカー",
+      "en": "The Unsung Hard Worker",
+      "eboot_va": "0x89f5d0",
+      "table": "bonus",
+      "table_index": 11,
+      "match_score": 0.75,
+      "runner_up_score": 0.159,
+      "member_sha256": "e7e67324fbcef165307c1ae7f557828e80113477c0e772cd07346ee8b66003b9"
+    },
+    "123": {
+      "jp": "愛・気合・出会い",
+      "en": "Love, Spirit, Encounters",
+      "eboot_va": "0x89f5f8",
+      "table": "bonus",
+      "table_index": 12,
+      "match_score": 0.688,
+      "runner_up_score": 0.177,
+      "member_sha256": "fbbb8e0b7e81e78b9ec9fb7ce5ba91bf2a757f4048a6d80f95f80a303feb34f4"
+    },
+    "124": {
+      "jp": "ガルガンティアの休暇",
+      "en": "Vacation on Gargantia",
+      "eboot_va": "0x89f618",
+      "table": "bonus",
+      "table_index": 13,
+      "match_score": 0.534,
+      "runner_up_score": 0.171,
+      "member_sha256": "3d0601aadbc049a9af9073b1065d9eb0a993f6a7d16ac6d6c9e887301049bede"
+    },
+    "125": {
+      "jp": "マウンテンサイクルの闇",
+      "en": "Darkness of the Mountain Cycle",
+      "eboot_va": "0x89f638",
+      "table": "bonus",
+      "table_index": 14,
+      "match_score": 0.749,
+      "runner_up_score": 0.145,
+      "member_sha256": "d73374c1f55e313e4d3c2a8fd7af7fe65ea30ae514307dd37c80b3e7767ff884"
+    },
+    "126": {
+      "jp": "バスターマシンの心",
+      "en": "Heart of a Buster Machine",
+      "eboot_va": "0x89f660",
+      "table": "bonus",
+      "table_index": 15,
+      "match_score": 0.719,
+      "runner_up_score": 0.105,
+      "member_sha256": "a7e36baaa1b4dca1fe9f7381a6f8fd397010d6c23371634daca54c9fab090888"
+    },
+    "127": {
+      "jp": "対決、傭兵団",
+      "en": "Showdown with the Mercenaries",
+      "eboot_va": "0x89f680",
+      "table": "bonus",
+      "table_index": 16,
+      "match_score": 0.734,
+      "runner_up_score": 0.212,
+      "member_sha256": "84e33fe243589051f9bb6142acce68df7f4f00438f05c1ee41f4f7dcef4fb2b8"
+    },
+    "128": {
+      "jp": "その背に未来を",
+      "en": "The Future on Their Backs",
+      "eboot_va": "0x89f698",
+      "table": "bonus",
+      "table_index": 17,
+      "match_score": 0.646,
+      "runner_up_score": 0.23,
+      "member_sha256": "f2eb26d6c8650f98b65186685c8c325ed14b07f59e95e62077d37b368053b908"
+    },
+    "129": {
+      "jp": "メトロポリスを追え",
+      "en": "Chase the Metropolis",
+      "eboot_va": "0x89f6b0",
+      "table": "bonus",
+      "table_index": 18,
+      "match_score": 0.68,
+      "runner_up_score": 0.192,
+      "member_sha256": "3c146d6ad9562c1a5c8a570c3819615ebded0b22d3b3df98789f13766014d058"
+    },
+    "130": {
+      "jp": "強き事は美しき哉Ⅱ",
+      "en": "How Beautiful Is Strength II",
+      "eboot_va": "0x89f6d0",
+      "table": "bonus",
+      "table_index": 19,
+      "match_score": 0.655,
+      "runner_up_score": 0.155,
+      "member_sha256": "06c4dd9e02205b61b01fb6ab26c1529af8303f9276c428907a338430e2757744",
+      "note": "sequel of Jigoku \"How Beautiful Is Strength\" (強き事は美しき哉); keep the wording"
+    },
+    "131": {
+      "jp": "ボス・オン・ザ・グラウンド",
+      "en": "Boss on the Ground",
+      "eboot_va": "0x89f6f0",
+      "table": "bonus",
+      "table_index": 20,
+      "match_score": 0.722,
+      "runner_up_score": 0.213,
+      "member_sha256": "a1af94a62b1bf2d17783c7b41c6e293798410a2fc7657277bdaec4138a9be800"
+    },
+    "132": {
+      "jp": "ボス・イン・ザ・スペース",
+      "en": "Boss in Space",
+      "eboot_va": "0x89f718",
+      "table": "bonus",
+      "table_index": 21,
+      "match_score": 0.718,
+      "runner_up_score": 0.154,
+      "member_sha256": "4b4b16aeb9d4d9cf201a9c14e46574e2ee6a2d80bb1ef334923d30c423e4cdab"
+    },
+    "133": {
+      "jp": "聖王国の明日",
+      "en": "A Tomorrow for the Holy Kingdom",
+      "eboot_va": "0x89f740",
+      "table": "bonus",
+      "table_index": 22,
+      "match_score": 0.809,
+      "runner_up_score": 0.467,
+      "member_sha256": "7d297ea50a81280b4307d58dd56e915ed69872cc4c3d58782678e77f8df4c041"
+    },
+    "134": {
+      "jp": "超アルティメット・バトル",
+      "en": "Super Ultimate Battle",
+      "eboot_va": "0x89f758",
+      "table": "bonus",
+      "table_index": 23,
+      "match_score": 0.782,
+      "runner_up_score": 0.143,
+      "member_sha256": "88e4b7679622b0b11fe7dbc832886d9a85677b02965ecc6b432831ec9887d3cd",
+      "note": "extends Jigoku \"Ultimate Battle\" (アルティメット・バトル); keep the wording"
+    }
+  }
+}

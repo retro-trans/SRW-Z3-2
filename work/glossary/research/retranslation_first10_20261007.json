@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "group": "first-ten retranslation terminology",
+  "names": [
+    {
+      "jp": "トライデント焼き",
+      "token": "トライデント焼き",
+      "kind": "keyword",
+      "en": "Grilled Trident",
+      "status": "official",
+      "source": "https://akurasu.net/wiki/Super_Robot_Wars/Z3/Parts : exact Japanese item maps to Grilled Trident; reviewed 2026-10-07. 'official' here is the repository's sourced-wiki status, not a claim of licensed localization.",
+      "note": "The Z3.2 Parts page no longer lists this item, but Tengoku dialogue 27:t_1:13 and 28:t_015:1 explicitly names it. Jigoku UI reference uses Trident-yaki; BASE_RULES gives sourced wiki terminology precedence. No Tengoku item ID imported."
+    },
+    {
+      "jp": "伊豆",
+      "token": "伊豆",
+      "kind": "keyword",
+      "en": "Izu",
+      "status": "official",
+      "source": "https://www.japan.travel/en/destinations/tokai/shizuoka/izu-and-around/ : official tourism spelling Izu; target dialogue 33:t_1:51 locates the Far East Base there."
+    },
+    {
+      "jp": "銀河ラーメン",
+      "token": "銀河ラーメン",
+      "kind": "keyword",
+      "en": "Galaxy Ramen",
+      "status": "proposed",
+      "source": "Target dialogue 27:t_2:64 and 28:t_015:1; descriptive translation of the named ramen dish. No official English form located in the 2026-10-07 search."
+    },
+    {
+      "jp": "ボランティア部",
+      "token": "ボランティア部",
+      "kind": "keyword",
+      "en": "Volunteer Club",
+      "status": "proposed",
+      "source": "Target dialogue 21:t_2:67, 27:t_1:44 and 28:t_000:27 identify the school club and its relation to the player-named squad. Transparent descriptive translation; existing project convention, not a verified licensed English title."
+    },
+    {
+      "jp": "中央大陸",
+      "token": "中央大陸",
+      "kind": "keyword",
+      "en": "Central Continent",
+      "status": "proposed",
+      "source": "Target 40:t_001:6, 46:t_004:14, 75:t_1:11-20. Descriptive geographical label; https://akurasu.net/wiki/Super_Robot_Wars/Z3.R/Story_Summary corroborates the central continent and Sidereal setting. Capitalization is project style."
+    },
+    {
+      "jp": "クローザーパス",
+      "token": "クローザーパス",
+      "kind": "keyword",
+      "en": "Closer Pass",
+      "status": "proposed",
+      "source": "Target 52:t_000:0. Spelling corroborated by https://suisei-no-gargantia.fandom.com/wiki/Avalon and episode transcript https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=gargantia-on-the-verdurous-planet-2013 . Licensed subtitle provenance not verified."
+    },
+    {
+      "jp": "スナンパーズ",
+      "token": "スナンパーズ",
+      "kind": "keyword",
+      "en": "Sniper Casanovas",
+      "status": "proposed",
+      "source": "Target 51:t_1:225-226. Localized sniper/pickup-artist nickname. https://srw.wiki.cre.jp/wiki/クルツ・ウェーバー confirms the Japanese nickname and shared sniper/flirting traits; English pun is a project proposal."
+    },
+    {
+      "jp": "ヒカリムシ",
+      "token": "ヒカリムシ",
+      "kind": "keyword",
+      "en": "Lightbugs",
+      "status": "proposed",
+      "source": "Target 76:t_000:1-8 describes light-producing nanomachines. English compound corroborated by https://www.tvmaze.com/shows/8257/gargantia-on-the-verdurous-planet/episodeguide ; licensed spelling not verified."
+    },
+    {
+      "jp": "ビアル",
+      "token": "ビアル",
+      "kind": "robot",
+      "en": "Beal",
+      "status": "proposed",
+      "source": "Target 76:t_102:0 abbreviates King Beal, whose existing glossary spelling is retained. Short mothership form; no new numeric binding, distinct from the planet token."
+    },
+    {
+      "jp": "ピニオンハルバード",
+      "token": "ピニオンハルバード",
+      "kind": "weapon",
+      "en": "Pinion Halberd",
+      "status": "official",
+      "source": "Target 76:t_003:13; official licensed product lists Pinion Halberd: https://www.goodsmile.com/en/product/61372/MODEROID%2BChamber . Reviewed 2026-10-07."
+    },
+    {
+      "jp": "ミスタートライアングラー",
+      "token": "ミスタートライアングラー",
+      "kind": "pilot",
+      "en": "Mr. Triangler",
+      "status": "proposed",
+      "source": "Target 63:t_2:78 addresses Alto. https://srw.wiki.cre.jp/wiki/アイム・ライアード confirms nickname ties Alto to the theme song and love triangle; https://macross.fandom.com/wiki/Missing_Birthday gives song spelling Triangler. English nickname is a project proposal."
+    },
+    {
+      "jp": "リアクター",
+      "token": "リアクター",
+      "kind": "keyword",
+      "en": "Reactor",
+      "status": "proposed",
+      "source": "Target 76:t_101:0-2 abbreviates Sphere Reactor. Existing glossary Sphere Reactor and Neo Reactor establish the English noun; no numeric binding."
+    },
+    {
+      "jp": "シリウス",
+      "token": "シリウス#keyword",
+      "kind": "keyword",
+      "en": "Sirius",
+      "status": "proposed",
+      "source": "Target 51:t_1:36-38 concerns an allied faction, not Aquarion pilot Sirius de Alisia. https://srw.wiki.cre.jp/wiki/人類銀河同盟 explicitly identifies Sirius as one of the allied forces in this game. Keep source short form without expanding to an inferred full faction name."
+    }
+  ],
+  "report": {
+    "source_corpus_occurrences": {
+      "トライデント焼き": 2,
+      "銀河ラーメン": 6,
+      "伊豆": 1,
+      "ボランティア部": 59,
+      "中央大陸": 34,
+      "クローザーパス": 1,
+      "スナンパーズ": 2,
+      "ヒカリムシ": 9,
+      "ビアル": 12,
+      "ピニオンハルバード": 1,
+      "ミスタートライアングラー": 1,
+      "リアクター": 249,
+      "シリウス": 79
+    },
+    "scope": "Audited all source occurrences before adding terms. Only fresh first-ten draft text receives the scoped token pass; old translations stay unchanged.",
+    "unresolved": [
+      "Galaxy Ramen",
+      "Volunteer Club",
+      "Central Continent",
+      "Closer Pass",
+      "Sniper Casanovas",
+      "Lightbugs",
+      "Beal",
+      "Mr. Triangler",
+      "Reactor",
+      "Sirius"
+    ],
+    "census_note": "Counts are source-record substring occurrences, including longer compounds for short forms. No global source substitutions were made."
+  }
+}

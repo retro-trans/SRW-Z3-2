@@ -1,0 +1,650 @@
+{
+  "schema": 1,
+  "archive": "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK",
+  "members": [
+    {
+      "id": 0,
+      "stored_bytes": 379124,
+      "bytes": 1044044,
+      "crilayla": true,
+      "kind": "FSSA UI layout + cp932 string pool (EBOOT hook path)",
+      "sha256": "2432b3425ef264a10a311a6707f7963acd1cbe802868b07b702a51d9c62e8ad0",
+      "jigoku_identical": [],
+      "japanese_strings": 48049,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 1,
+      "stored_bytes": 349528,
+      "bytes": 4194560,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "db7ef062281e0f8f5ce7b72eb7d56db8ae2948ad673d8d4b9d61931c9c64a6a6",
+      "jigoku_identical": [],
+      "textures": [
+        "512x512 A8R8G8B8 swizzled",
+        "512x512 A8R8G8B8 swizzled",
+        "512x512 A8R8G8B8 swizzled",
+        "512x512 A8R8G8B8 swizzled"
+      ],
+      "japanese_art": "yes: textures 0, 2, 3 (see aiddata_art.json)"
+    },
+    {
+      "id": 2,
+      "stored_bytes": 1572,
+      "bytes": 262272,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "195c52f8283fdbcb3c3c981603cf1ff59d76aa7f65c94f3ac931b23fe1dd9fb7",
+      "jigoku_identical": [],
+      "textures": [
+        "256x256 A8R8G8B8 swizzled"
+      ],
+      "japanese_art": "no (all black)"
+    },
+    {
+      "id": 3,
+      "stored_bytes": 1572,
+      "bytes": 262272,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "195c52f8283fdbcb3c3c981603cf1ff59d76aa7f65c94f3ac931b23fe1dd9fb7",
+      "jigoku_identical": [],
+      "textures": [
+        "256x256 A8R8G8B8 swizzled"
+      ],
+      "japanese_art": "no (all black)"
+    },
+    {
+      "id": 4,
+      "stored_bytes": 51200,
+      "bytes": 181476,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "76e695768899eda3680133d9c4c153048e5679767b48617c2000a01fed414533",
+      "jigoku_identical": [],
+      "japanese_strings": 4338,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 5,
+      "stored_bytes": 2320,
+      "bytes": 3274,
+      "crilayla": true,
+      "kind": "SB2T string table (cp932)",
+      "sha256": "51518401270bbb74c4681a88a3ef29d984a4273a1ec9c513a82971627ad2e8ea",
+      "jigoku_identical": [],
+      "japanese_strings": 206,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 6,
+      "stored_bytes": 13176,
+      "bytes": 37464,
+      "crilayla": true,
+      "kind": "UB2T string table (UTF-8)",
+      "sha256": "2b9559a9f0d5dec00e690125b2cb9656114e673620c406aeac83e6e13974432d",
+      "jigoku_identical": [],
+      "japanese_strings": 580,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 7,
+      "stored_bytes": 2184780,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "6f97a4e358192ac195f03fe4d2a8a017c2dc9f2f296355d37aa1133897e51f13",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 8,
+      "stored_bytes": 2746528,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "2959c20db92fbc05e393a9c39d4a66a7be49df701541084efd425b7f0c73313e",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 9,
+      "stored_bytes": 842764,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "9f27ec132ce9b6cf3e5077f897049096079d9949d06832df893a3f29e6e8050c",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 10,
+      "stored_bytes": 1636796,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "f68452ab2ffac7dfa49c4f38bd27e04dde8e001ffef150487d751da92d02378c",
+      "jigoku_identical": [
+        6
+      ],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 11,
+      "stored_bytes": 1921556,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "65bd23b9cb5bc0260f2044f21b8d736dc2e86772214d4619f9dc43cdb37280b3",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 12,
+      "stored_bytes": 506940,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "4f93a77e038ca772c25c160f213988b923fe7a1e6aa04b6170c2b47952454c1e",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 13,
+      "stored_bytes": 1689656,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "04c9b0c4fbcbd2481252fe6a1fa3875a533fa595c16898f8fbcf56bf3349391e",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 14,
+      "stored_bytes": 2124444,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "ad42e1c02f4b331ee689320494bce47fc687525cb7a93b7871f63f785cbe8ba6",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 15,
+      "stored_bytes": 2780232,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "86919803784bd345c4a4971cda62047f05c5522fbab2ae2ed96653b480810257",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 16,
+      "stored_bytes": 2920092,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "0af96943778fbbba868507a67457381e819b049cd4876f7d792c89c45a7ba9db",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 17,
+      "stored_bytes": 2857380,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "86943bc87a168cfdcf45bbf4164fc4c67a5a2e3ebb6c11cfff64db03b9b3831f",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 18,
+      "stored_bytes": 1254616,
+      "bytes": 3686528,
+      "crilayla": true,
+      "kind": "GTF texture",
+      "sha256": "12f39b631c326758683532c3efbf0a45cfa27741c23f77e5a3a0d5a71a98ef09",
+      "jigoku_identical": [],
+      "textures": [
+        "1280x720 A8R8G8B8 linear"
+      ],
+      "japanese_art": "no (background illustration)"
+    },
+    {
+      "id": 19,
+      "stored_bytes": 1252,
+      "bytes": 7508,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "e5015c3ff555f6b20aa0e6c20473e59d57ee3efec1be804ab0e7326d29194b73",
+      "jigoku_identical": [],
+      "japanese_strings": 39,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 20,
+      "stored_bytes": 540,
+      "bytes": 1658,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "135a9b987299935b9bbf8e5c8268e64e7486174ed42aa06e068ba87340921a5f",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 21,
+      "stored_bytes": 368,
+      "bytes": 400,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "535775160c425ba8b3139c6d3d79b8abcb88f47d876e102a399a4ac918987131",
+      "jigoku_identical": [],
+      "japanese_strings": 6,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 22,
+      "stored_bytes": 588,
+      "bytes": 3300,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "9bd658e83e046af99f8661c4a3842886b18df4e0ae8e0b49445ab14130247d7c",
+      "jigoku_identical": [],
+      "japanese_strings": 12,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 23,
+      "stored_bytes": 788,
+      "bytes": 4534,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "5c91334b6b53217df99fda2c0badc5110a5fc0b4cffc9bd2b7cbd216309e3674",
+      "jigoku_identical": [],
+      "japanese_strings": 18,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 24,
+      "stored_bytes": 640,
+      "bytes": 3940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "87f9c02638eba88b7fa6daa66ec17763bbab084eefa62c4fcf6a4e996606ab99",
+      "jigoku_identical": [],
+      "japanese_strings": 11,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 25,
+      "stored_bytes": 12480,
+      "bytes": 83810,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "d16e8e55582f39ffba28f87098721228b2088564456e17468acf0e4c4ae9075e",
+      "jigoku_identical": [],
+      "japanese_strings": 690,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 26,
+      "stored_bytes": 432,
+      "bytes": 1138,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "b7e192b655b02f4c23f16d196427247b796f787b5b6d0535e884173862e638ec",
+      "jigoku_identical": [],
+      "japanese_strings": 6,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 27,
+      "stored_bytes": 448,
+      "bytes": 2420,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "8e046c881365f6fb4436d7bb2a4f64a8af18c41b03b69dd6deb0234f63c62c52",
+      "jigoku_identical": [],
+      "japanese_strings": 6,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 28,
+      "stored_bytes": 512,
+      "bytes": 2300,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "26364638548302d54c456b1bbc22a129790f514e8b2172f3883d85140cd2d2a5",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 29,
+      "stored_bytes": 576,
+      "bytes": 2820,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "e382f9e413bca228f9853f7f1b9f94d1f96f4cdc9d208d2648221b6e9aa7fcf1",
+      "jigoku_identical": [],
+      "japanese_strings": 9,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 30,
+      "stored_bytes": 468,
+      "bytes": 1700,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "e4be325bb674c123125f4af2b14c601cbd7b5a94803010d59dea17c4122f9758",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 31,
+      "stored_bytes": 436,
+      "bytes": 1748,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "01c0cf497fc0811498175943384fbc68222166846dcb6fa5c2e428accea628c2",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 32,
+      "stored_bytes": 564,
+      "bytes": 2036,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "1e51142e7dcff711d79dafe85c83e77bab5cd18c0dcc960942c5366ad9f13069",
+      "jigoku_identical": [],
+      "japanese_strings": 10,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 33,
+      "stored_bytes": 456,
+      "bytes": 1796,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "f8edbd4704477ca66e69a6cc62f2c4e1a05481dd96647b9ce0be3aeb5fa0eb7b",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 34,
+      "stored_bytes": 488,
+      "bytes": 1988,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "dfe87083676b21ae3ec0492eefc95728ef37fd08792f979f332cd54ec2b55146",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 35,
+      "stored_bytes": 456,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "d3075420fac61e806b4d8e96c071bfcc2c4a95e7f999d1eaf2394400a227be83",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 36,
+      "stored_bytes": 516,
+      "bytes": 2036,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "580c73dfe3c611422352cde6aabac24e58db5da4d68a83da62600715023ac761",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 37,
+      "stored_bytes": 412,
+      "bytes": 1796,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "3ba0764483f5685afd2a8701594c6d77a27b25f890ffed2f373cb7de54ad56a6",
+      "jigoku_identical": [],
+      "japanese_strings": 6,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 38,
+      "stored_bytes": 500,
+      "bytes": 1988,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "bdcdbd8c93c4566ccf14c20d75773bfd68101254640ff6c262dd05c486a5aa6c",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 39,
+      "stored_bytes": 480,
+      "bytes": 1748,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "11424174fa4b3b96d4c4fa867e1cb468f209391b189643d919db12259ca2c9c5",
+      "jigoku_identical": [],
+      "japanese_strings": 8,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 40,
+      "stored_bytes": 500,
+      "bytes": 1844,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "4236839ba84bd1721d1612924586a61b88634b71ba4131f2a464329296dae8fe",
+      "jigoku_identical": [],
+      "japanese_strings": 8,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 41,
+      "stored_bytes": 476,
+      "bytes": 1892,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "d0e4493693d0711ff92c9d8fe4ac41afe1b135a294fdf8cb14253fa9dc72376b",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 42,
+      "stored_bytes": 452,
+      "bytes": 1796,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "85b0f61fbfe3b0116c9e80ad9647db10cbd3faa1a1f697d05cecea751b941dd1",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 43,
+      "stored_bytes": 468,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "4edd58f80015f335c64e4e90744c021676f17e664bbb3671be1ba461b8bd04a0",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 44,
+      "stored_bytes": 524,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "a7e0689eda6ecbbb338de55963f964f206fc52775b5dbeef4aa905de24c3c45f",
+      "jigoku_identical": [],
+      "japanese_strings": 8,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 45,
+      "stored_bytes": 516,
+      "bytes": 1988,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "4196d0b9895fc6292d76ef11022b81193a3ff9f1b4643ba0226cb765beecc72a",
+      "jigoku_identical": [],
+      "japanese_strings": 8,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 46,
+      "stored_bytes": 520,
+      "bytes": 1988,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "dd531fe2eebebc067f3f39790449c418772aafa7b19d83b030d263bf6193d76f",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 47,
+      "stored_bytes": 544,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "7ff2eb2fabe8f70dd180fce8c39078fb5316ba8b63d3b59d224c3c5f92699baa",
+      "jigoku_identical": [],
+      "japanese_strings": 8,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 48,
+      "stored_bytes": 444,
+      "bytes": 1700,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "9a7bec55144e95a722c69c575f73bbf0599a382ff04ff1f27a94b17e761ea35f",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 49,
+      "stored_bytes": 460,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "cfee2d35c9661ef24c8c414bd6954980a83aa6ce89cf21b02ed128bd161eabfb",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 50,
+      "stored_bytes": 448,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "3b94ff82955e2450288509fad2a70b7ef7cb44b33f00d73ae6293e3e82046516",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 51,
+      "stored_bytes": 448,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "3b94ff82955e2450288509fad2a70b7ef7cb44b33f00d73ae6293e3e82046516",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 52,
+      "stored_bytes": 456,
+      "bytes": 1940,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "e7fa93bef23cf6eb95098e7ffeeda88fdb2120df75c3c96a9fa3f8551dd2ce44",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    },
+    {
+      "id": 53,
+      "stored_bytes": 464,
+      "bytes": 1844,
+      "crilayla": true,
+      "kind": "binary layout / text record",
+      "sha256": "bd8ce48db4474a1b00a200c122c3252c429774c2a8f88449676208c17f9fce52",
+      "jigoku_identical": [],
+      "japanese_strings": 7,
+      "japanese_art": "no (text/layout data, not art)"
+    }
+  ],
+  "located": {
+    "pp_screen_tabs": {
+      "where": "member 0 (FSSA) text, not art",
+      "evidence": "cp932 strings パラメータ/上昇/スキル/修得 four times at 0x59c50..0x59cca (two-line tab captions, one set per tab state), followed by システム設定１/２. Jigoku has the same block at 0x6342c and translated it as hook text (ui_hook \"Raise Stats\" / \"Learn Skills\"), not as a texture."
+    },
+    "menu_headers": {
+      "where": "member 0 (FSSA) text, plus the art headings of member 1",
+      "evidence": "71 【…】 headers in member 0, e.g. 【機体一覧】 0x5d772, 【パイロット養成】 0x5d7c8, 【Ｄトレーダー：購入】 0x58fca (drawn by the font through the EBOOT hook path). The only headings that are images are in member 1: インターミッション, サブオーダー (t0), 主人公設定, シナリオ選択, 本編/ガイダンス/シナリオ, ゲーム/スタート, データをリンクさせて (t2)."
+    }
+  },
+  "member1_cells": {
+    "jigoku-0.6.24": 26,
+    "new": 35,
+    "keep": 4
+  }
+}

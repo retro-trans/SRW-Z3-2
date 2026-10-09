@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "batch": "proof_rt_080",
+  "fixes": [
+    {
+      "kind": "robot",
+      "id": 102,
+      "field": "DSCR",
+      "english_sha256": "7cad0a0e8543acad",
+      "new": "A mobile suit developed for the mass production of the $$Ｚガンダム$$.\nWhere the $$リ・ガズィ$$ substituted a BWS (Back Weapon System) for a variable mechanism, this unit simplifies matters by adopting the $$メタス$$'s variable mechanism instead.\nBy sharing actuators and internal electronics as much as possible, costs were reduced, and it was completed as the first variable mobile suit of the GM and $$ジェガン$$ lineage.\nIts weapons and backpack can be swapped according to mission requirements; besides standard armaments such as the beam rifle and beam saber, it can also carry large weapons such as the mega beam launcher.\nThe only visible difference between the squad leader's unit and standard units is color: the leader's unit has green sensors, with its chest and legs in dark gray.",
+      "reason": "addition: the Japanese says 'large weapons' (daigata kaki); 'large-caliber' is not in the source"
+    },
+    {
+      "kind": "robot",
+      "id": 111,
+      "field": "DSCR",
+      "english_sha256": "8e32c3f02e2d77cb",
+      "new": "A mobile suit exclusive to $$フル・フロンタル$$.\nThe Sleeves seized a prototype mobile suit under development by Anaheim Electronics, and operate it after applying their own modifications and decoration.\nIt is an experimental unit using a psycoframe in its movable frame, and the data obtained from it also proved useful in the development of the $$ユニコーンガンダム$$.\nIt is also said that, in order to test its limit performance, it was not even designed on the assumption that a human would board it, and thanks to the responsiveness afforded by the psycoframe and the mobility gained from its two pairs of flexible thrusters, reminiscent of wings, it boasts overwhelming combat power.\nIts speed and crimson coloring bring to mind the 'Red Comet' in the eyes of those who see it.",
+      "reason": "mistranslation: the Japanese has a purpose clause (to test the limit performance, a human boarding was not even assumed); the English turned it into 'performance was tested without assuming a pilot', losing the purpose and the design decision"
+    },
+    {
+      "kind": "robot",
+      "id": 119,
+      "field": "DSCR",
+      "english_sha256": "1f83afea6f8ba64c",
+      "new": "A mobile suit developed by Neo Zeon forces during the First Neo Zeon War for the Earth invasion operation.\nIt boasts stable, high performance, and its Gundarium alloy armor and high-output generator are not inferior even compared to mobile suits of the U.C. 0096 era. Because of this, it is a valuable asset to the Sleeves, who are short on military strength.\nAs built-in weapons, it carries a triple-tube beam gun and a launchable slashing weapon called the Tri-Blade on its arms. It can also be equipped with the Giant Bazooka, newly developed based on the $$シナンジュ$$'s bazooka, as an option.",
+      "reason": "mistranslation: the Japanese says the Sleeves are lacking in military strength/forces (senryoku no toboshii); 'resource-poor' shifts the meaning to resources"
+    }
+  ],
+  "report": {
+    "entries_in_batch": 40,
+    "entries_examined": 40,
+    "kept_omissions": [
+      "robot 94 DSCR/DSC2 'is thought to be around five minutes' and 'it is speculated that the unit may have been developed...': the Japanese is impersonal (mirareteiru, suisoku sareteiru); the entry does not say who thinks or speculates",
+      "robot 98 DSCR 'it is better described as a sibling unit': impersonal in the Japanese; no describer named",
+      "robot 98 DSCR / robot 118 DSCR 'is presumed to be one that survived': Japanese passive (suisoku sareru); the entry does not say who presumes",
+      "robot 118 DSCR 'it was judged that it could serve as a fighting force': Japanese passive (handan sare); the Delaz Fleet is probably the judge but the entry does not say",
+      "robot 83/84 DSCR 'realizing the adoption of Trans-Am and backup support from Veda': no agent in the Japanese; kept as a result clause",
+      "robot 111 DSCR 'it was not even designed on the assumption that a human would board it': the Japanese has no subject for the assumption (developers implied); kept impersonal"
+    ],
+    "name_issues": [
+      "robot 81 DSCR: literal 'Celestial Being's', 'Innovades', 'Ptolemaios 2' (no tokens in this entry)",
+      "robot 82 DSCR: literal 'Ptolemaios 2' (the unmodified ship), 'Trans-Am'",
+      "robot 83/84 DSCR: literal 'Federation forces', 'Federation control', 'Federation' (Federation Forces has a token in the same entries); weapon names GN Bazooka, GN Buster Sword",
+      "robot 86-92: literal 'Earth sphere', 'the Moon'; ELS uses token ELS#keyword while the entry's own name is ELS#robot (translator note); orchestrator to confirm",
+      "robot 89 DSCR/DSC2: literal 'Earth Federation Forces'' (token for the Federation forces exists and is used in robots 83 and 85)",
+      "robot 93 DSCR: literal 'Anaheim Electronics', 'Federation's', and 'Unicorn Project' (the UC Project token is used in robots 98, 99, 101, 109)",
+      "robot 94/95 DSCR: literal 'Laplace Program', 'NT-D', 'Psycho-Field' (spelled with 'psycoframe' elsewhere in the same entry)",
+      "robot 96 DSCR: literal 'Anaheim Electronics'",
+      "robot 98 DSCR: literal 'RX-0', 'Armed Armor', 'Laplace Program', 'Spacenoids'",
+      "robot 100/101 DSCR: literal 'Armed Armors', 'Armed Armor XC', 'Beam Magnum', 'Revolving Launcher'",
+      "robot 102 DSCR: literal 'GM', 'BWS (Back Weapon System)'",
+      "robot 104 DSCR: literal \"Rezel's\" in sentence 4 although the Rezel token is used in sentence 1",
+      "robot 105 DSCR: literal 'Anaheim Electronics', 'Hyaku Shiki'",
+      "robot 107 DSCR/DSC2: literal 'Earth Federation Forces' (token exists), 'ECOAS', 'Neo Zeon', 'Strategic Naval Research Institute (S.N.R.I.)'",
+      "robot 108 DSCR: literal 'ECOAS', 'Mega Bazooka Launcher'",
+      "robot 109 DSCR: literal 'Anaheim Electronics', 'Earth Federation Forces', 'Londo Bell'",
+      "robot 110 DSCR: literal 'Argama-class', 'First Neo Zeon War', 'Londo Bell', 'ZZ Gundam', 'Argama'",
+      "robot 111 DSCR: literal 'Sleeves', 'Anaheim Electronics', 'Red Comet'",
+      "robot 112 DSCR/DSC2: literal 'Psycho-Field'",
+      "robot 113 DSCR/DSC2: literal 'Sleeves', 'Quin Mantha', 'Industrial 7', 'First Neo Zeon War'",
+      "robot 114 DSCR: literal 'Sleeves', 'Anaheim Electronics', 'Zeon'",
+      "robot 116 DSCR: literal 'Runge Bruno Cannon Kai'",
+      "robot 117 DSCR: literal 'Sleeves', 'Neo Zeon', 'Psycho-Field'",
+      "robot 118 DSCR: literal 'Zeon', 'Delaz Fleet', 'Sleeves', 'Palau'",
+      "robot 119 DSCR: literal 'First Neo Zeon War', 'Neo Zeon', 'Sleeves', 'Gundarium', 'Giant Bazooka', 'Tri-Blade'"
+    ],
+    "uncertain": [
+      "robot 98 DSCR: the phrase 'taisaikomyu soubi mobile suit ni tokka shita' is ambiguous: 'specialized against psycommu-equipped mobile suits' or 'specialized as a mobile suit with anti-psycommu equipment'. The current English 'specializes in mobile suits equipped with anti-psycommu gear' is odd but I could not settle the reading, so I left it; the first reading may be the natural one",
+      "robot 110 DSCR: 'the Londo Bell fleet' for 'Londo Bell tai' (tai = unit/force); 'fleet' is slightly added but harmless, left alone",
+      "robot 119 DSCR: 'Giant Bazooka' for the Japanese 'Giant Baz'; official English may be 'Giant Bus', left as a literal name",
+      "robots 86-92: the Japanese and English agree; token choice (ELS#keyword vs ELS#robot) left to the orchestrator",
+      "No military ranks appear in this batch (no rank issues)."
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "group": "stages 9-18 fresh retranslation",
+  "names": [
+    {
+      "jp": "エビル", "token": "エビル", "kind": "keyword", "en": "Evil", "status": "official",
+      "source": "Target 224:t_1:75 and 224:t_1:83 shorten the linked Evil series term in 224:t_1:74. Five corpus substring occurrences including full compounds. https://macross.fandom.com/wiki/Protoculture names the super-Zentradi Evil, while https://macross.fandom.com/wiki/Protodeviln describes their possession. Proper entity/class name, not the ordinary moral adjective."
+    },
+    {
+      "jp": "ゴースト", "token": "ゴースト", "kind": "robot", "en": "Ghost", "status": "official",
+      "source": "Target 225:t_014:4 uses the short drone name; whole-corpus substring scan found five records including longer compounds. https://macross.fandom.com/wiki/AIF-9V_(V-9)_Ghost confirms Ghost; existing glossary has Ghost V9. Keep source short form; plural s stays outside the token. No numeric binding."
+    },
+    {
+      "jp": "ＶＦ－２５", "token": "ＶＦ－２５", "kind": "robot", "en": "VF-25", "status": "official",
+      "source": "Target 224:t_3:80 is Alto's short model reference. Existing full Messiah mode names use VF-25; https://macross.fandom.com/wiki/VF-27%CE%B2_Lucifer explicitly contrasts VF-27 with VF-25 Messiah. Retain the source's bare model number without suffix or mode; no numeric binding."
+    },
+    {
+      "jp": "沖ジョ", "token": "沖ジョ", "kind": "keyword", "en": "Okinawa Girls'", "status": "proposed",
+      "source": "One corpus occurrence, 195:t_026:2. https://srw.wiki.cre.jp/wiki/タカヤノリコ identifies Okinawa Girls' space school and its Okijo abbreviation; https://gunbuster.fandom.com/wiki/Okinawa_High_School_for_Girls confirms the school. Keep a short English school name to reflect the familiar abbreviation; project rendering, not an official English nickname.",
+      "note": "The school noun is implicit in the short name; avoid adding another possessive suffix to the token."
+    },
+    {
+      "jp": "アーム・スレイブ", "token": "アーム・スレイブ", "kind": "keyword", "en": "Arm Slave", "status": "official",
+      "source": "One source occurrence of this exact full spelling, 206:t_1:265. https://fullmetalpanic.fandom.com/wiki/Arm_Slave confirms the class name and AS abbreviation. Generic mecha class term, not a specific robot ID. Keep AS abbreviations as written elsewhere."
+    },
+    {
+      "jp": "ＶＦ－２７", "token": "ＶＦ－２７", "kind": "robot", "en": "VF-27", "status": "official",
+      "source": "One corpus occurrence, 219:t_013:0, the source's bare model number. https://macross.fandom.com/wiki/VF-27%CE%B2_Lucifer documents VF-27; existing glossary contains full Lucifer mode names. Keep the short spoken number without adding a model suffix or mode. No new numeric robot binding."
+    },
+    {
+      "jp": "オセアニア", "token": "オセアニア", "kind": "keyword", "en": "Oceania", "status": "official",
+      "source": "One target occurrence, 194:t_1:233 (western Oceania front). Standard regional spelling confirmed by United Nations M49: https://unstats.un.org/unsd/methodology/M49 . Direction and front remain ordinary prose."
+    },
+    {
+      "jp": "フォールドクォーツ", "token": "フォールドクォーツ", "kind": "keyword", "en": "Fold Quartz", "status": "official",
+      "source": "Three corpus records: 194:t_2:8, 230:t_1:29, 753:t_021:0. https://macross.fandom.com/wiki/Fold_Quartz maps the exact Japanese term and describes the crystal used in the Nome family heirloom. Wiki-sourced status, not a claim of a licensed game localization."
+    },
+    {
+      "jp": "ガンメン", "token": "ガンメン", "kind": "keyword", "en": "Gunmen", "status": "official",
+      "source": "One target occurrence, 194:t_3:9, plural mecha carried back to the New World Continent. https://gurrenlagann.fandom.com/wiki/Gunmen gives Gunmen as the mecha class name. Wiki-sourced status; no numeric robot binding."
+    },
+    {
+      "jp": "ウルズチーム", "token": "ウルズチーム", "kind": "keyword", "en": "Urzu Team", "status": "proposed",
+      "source": "Two source occurrences: 777:t_1:15 and 777:t_1:42. Existing glossary ウルズ spells Urzu; https://fullmetalpanic.fandom.com/wiki/Special_Response_Team uses Urzu for the SRT callsigns and https://fullmetalpanic.fandom.com/wiki/Soviet_Union uses Urzu Team. Other pages vary to Uruz; retain the established glossary form. No numeric binding."
+    },
+    {
+      "jp": "ミンメイ・ショック", "token": "ミンメイ・ショック", "kind": "keyword", "en": "Minmay Shock", "status": "proposed",
+      "source": "Target 194:t_1:118; one corpus occurrence. https://srw.wiki.cre.jp/wiki/リン・ミンメイ describes the Zentradi culture-shock phenomenon; existing glossary spells Minmay. Preserve the source's Shock term rather than substituting the distinct Minmay Attack label. English composite is a project proposal."
+    },
+    {
+      "jp": "超時空シンデレラ", "token": "超時空シンデレラ", "kind": "keyword", "en": "Super-Dimensional Cinderella", "status": "proposed",
+      "source": "Five corpus occurrences; target 194:t_1:76 pairs Ranka's epithet with Sheryl's Galactic Fairy. https://macross.fandom.com/wiki/Ranka_Lee identifies the epithet and uses Super-Dimensional Cinderella in the Bobby description alongside Super-Dimension/Super Dimension variants. Retain the translator's supported adjective form consistently.",
+      "note": "Title only, not a new character ID or speaker token."
+    },
+    {
+      "jp": "ニュートン", "token": "ニュートン", "kind": "keyword", "en": "Newton", "status": "official",
+      "source": "Target 81:t_1:84 invokes Newton, falling apples and gravity; one source occurrence. The Newton Project's scholarly edition of Stukeley's memoir corroborates the allusion and surname: https://www.newtonproject.ox.ac.uk/view/texts/normalized/OTHE00001 . This is a real-world reference, not a new pilot binding."
+    },
+    {
+      "jp": "２０００ミリ砲", "token": "２０００ミリ砲", "kind": "weapon", "en": "2,000 mm cannon", "status": "proposed",
+      "source": "Target 87:t_10:16; one source occurrence. https://srw.wiki.cre.jp/wiki/AG confirms all three absurd weapon suggestions and their earlier Z-series callback. Preserve the exaggerated calibre; descriptive English rather than a verified localized weapon label."
+    },
+    {
+      "jp": "テラビームライフル", "token": "テラビームライフル", "kind": "weapon", "en": "Tera Beam Rifle", "status": "proposed",
+      "source": "Target 87:t_10:16; one source occurrence. https://srw.wiki.cre.jp/wiki/AG confirms exact Japanese weapon label in the callback joke. Transparent loanword rendering; no licensed English found."
+    },
+    {
+      "jp": "斬国刀", "token": "斬国刀", "kind": "weapon", "en": "Zankokutou", "status": "proposed",
+      "source": "Target 87:t_10:16; one source occurrence. https://srw.wiki.cre.jp/wiki/AG confirms exact Japanese name. Retain the proposed romanization and flag it for review; do not silently substitute the different Zankantou weapon. No established English form located."
+    },
+    {
+      "jp": "マリネリス峡谷",
+      "token": "マリネリス峡谷",
+      "kind": "keyword",
+      "en": "Valles Marineris",
+      "status": "proposed",
+      "source": "Target 93:t_2:6 explicitly locates Nono's upbringing in the Marineris canyon on Mars; 177:t_1:449 repeats it. https://www.nasa.gov/image-article/valles-marineris-grand-canyon-of-mars/ establishes the geographical English name Valles Marineris. Applying that name to this fictional setting is source-based inference, not a verified licensed subtitle.",
+      "note": "Three source records contain the exact term. Standardize the fresh batch's literal Marineris Valley references through this token."
+    },
+    {
+      "jp": "ヒートスマイル",
+      "token": "ヒートスマイル",
+      "kind": "keyword",
+      "en": "Heat Smile",
+      "status": "proposed",
+      "source": "Ten source records use Rand's named smile, including 87:t_2:39, 177:t_1:554 and 177:t_1:601. https://srw.wiki.cre.jp/wiki/ランド・トラビス confirms the named thumbs-up/wink gesture; https://blog.spalog.jp/?p=5962 uses the Japanese label officially. English is a transparent rendering of the loanword name.",
+      "note": "Tokenize the named gesture consistently; keep ordinary descriptions of a smile as prose."
+    },
+    {
+      "jp": "フロンティア",
+      "token": "フロンティア",
+      "kind": "keyword",
+      "en": "Frontier",
+      "status": "proposed",
+      "source": "Target 188:t_1:65 uses the emigrant fleet's short name. Existing glossary Frontier fleet and Macross Frontier fleet use the same spelling; https://macross.fandom.com/wiki/Macross_Frontier_(Spacecraft) identifies the Frontier Fleet. Retain source short form; do not expand it or confuse it with Battle Frontier/Queen Frontier.",
+      "note": "Whole-corpus substring scan found 50 source records, including longer compounds. New short-form token only; no global substitutions or numeric binding."
+    },
+    {
+      "jp": "イチ",
+      "token": "イチ",
+      "kind": "pilot",
+      "en": "Ichi",
+      "status": "proposed",
+      "source": "Target 183:t_114:4 and seven other corpus occurrences of Ichi-niichan identify Kappei's older brother Ichitaro. Existing glossary spells Ichitaro; https://www.mahq.net/zambot3ep1/ corroborates the relationship. Ichi is a source-faithful shortened form, not a verified licensed English nickname.",
+      "note": "Use Big Bro $$イチ$$ for Kappei's address. No new numeric character binding. Whole-corpus scan found eight records with this nickname."
+    }
+  ]
+}

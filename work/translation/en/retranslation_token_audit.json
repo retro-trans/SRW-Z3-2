@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "method": "Read-only homonymous English-token check against the Japanese name in each source record. Candidates require source review; absence of candidates does not prove full semantic correctness.",
+  "reviewed_batches": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "confirmed_defects_in_these_batches": [
+    {
+      "batch": 6,
+      "id": "634:t_1:146",
+      "status": "resolved",
+      "reason": "Patrick Colasour used Patrick Zala token; exact-Japanese homonym requires scene identity review, not string collision audit."
+    },
+    {
+      "batch": 6,
+      "id": "641:t_001:40",
+      "status": "resolved",
+      "reason": "Patrick Colasour used Patrick Zala token; exact-Japanese homonym requires scene identity review, not string collision audit."
+    },
+    {
+      "batch": 7,
+      "id": "753:t_161:0",
+      "status": "resolved",
+      "reason": "Patrick Colasour used Patrick Zala token; exact-Japanese homonym requires scene identity review, not string collision audit."
+    },
+    {
+      "batch": 5,
+      "id": "610:t_1:24",
+      "status": "resolved",
+      "reason": "Relena Darlian used father identity token; exact-Japanese homonym requires scene review."
+    },
+    {
+      "batch": 6,
+      "id": "640:t_1:59",
+      "status": "resolved",
+      "reason": "Relena Darlian used father identity token; exact-Japanese homonym requires scene review."
+    },
+    {
+      "batch": 6,
+      "id": "640:t_1:63",
+      "status": "resolved",
+      "reason": "Relena Darlian used father identity token; exact-Japanese homonym requires scene review."
+    }
+  ],
+  "dismissed_candidates": [
+    {
+      "batch": 3,
+      "id": "353:t_1:103",
+      "reason": "Source explicitly says deep-space mothership Celestial Being, so ship token is correct despite omitted ship suffix in the proper name."
+    },
+    {
+      "batch": 3,
+      "id": "354:t_001:0",
+      "reason": "Source explicitly identifies the mothership; keep ship-specific Celestial Being token, not organization token."
+    },
+    {
+      "batch": 3,
+      "id": "384:t_016:5",
+      "reason": "Quantum Burst token uses a punctuated Japanese alias for the same attack. English and referent match; no meaning or name correction required."
+    },
+    {
+      "batch": 5,
+      "id": "592:t_1:31",
+      "reason": "Bridge location caption explicitly identifies the deep-space mothership; ship-specific token is correct."
+    }
+  ],
+  "batch7_resolved_issue": "731:t_028:1 and agent2 related drafts: Angel character token changed to the source-specific Angels term by translator before normalization."
+}

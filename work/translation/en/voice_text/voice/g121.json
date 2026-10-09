@@ -1,0 +1,723 @@
+{
+  "schema": 1,
+  "group": "g121",
+  "blocks": [
+    121
+  ],
+  "speaker": {
+    "token": "コンロイ",
+    "jigoku_pilot": "Canaria Berstein (カナリア・ベルシュタイン)",
+    "jigoku_unit": "VB-6 Konig Monster (・・ケーニッヒモンスター)",
+    "fraction": 0.021,
+    "basis": "settled 2026-10-02 from fresh-translation review: Calls himself Conroy (コンロイだ！援護する！), repeatedly invokes ECOAS and the Manhunter name, Banagher/Unicorn cast; differs from Jigoku (Canaria)",
+    "proposed_by_v_g121_00": {
+      "token": "$$コンロイ$$",
+      "basis": "Calls himself Conroy (コンロイだ！援護する！), repeatedly invokes ECOAS and the Manhunter name, Banagher/Unicorn cast; differs from Jigoku (Canaria)"
+    },
+    "proposed_by_v_g121_01": {
+      "token": "$$コンロイ$$",
+      "basis": "Says コンロイだ！援護する！, Echoes (エコーズ) pilot who calls Banagher/Nahel Argama/Ra Cailum allies and Unicorn-era captain; differs from Jigoku (Canaria)"
+    },
+    "jigoku_token": "カナリア・ベルシュタイン"
+  },
+  "lines": {
+    "121:0": {
+      "repository_source_sha256": "84c799ef02634700689a46a7dbe7ebf2ac05347e1bbe2f8a28f5c001d12b5d15",
+      "en": "「Let's move!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ]
+    },
+    "121:17": {
+      "repository_source_sha256": "334873b6b060260abc17a60e42d4543453621f1a4f6a716d6efce3386de2f076",
+      "en": "「Target acquired!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Lock!"
+      ],
+      "review": "conflict"
+    },
+    "121:32": {
+      "repository_source_sha256": "3f1546f0d02e1b4e3b716def20a643910a97afea9fa5d7a3173cda2fd8e28c06",
+      "en": "「Commencing combat!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Commencing combat...!"
+      ],
+      "review": "conflict"
+    },
+    "121:55": {
+      "repository_source_sha256": "bd522ef4062134e34fcd8f0479fa4e1ee5ff79b9d56996c69f4e0481ecef2e7f",
+      "en": "「I'll show you how $$エコーズ$$ fights...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:92": {
+      "repository_source_sha256": "8091d1b5ba391b9a57826768ab12eddbb40ec622b5792695fb31ec1636ae7145",
+      "en": "「Hit!」",
+      "source": "jigoku",
+      "slots": [
+        "could not retaliate (?)"
+      ],
+      "alternatives": [
+        "Hit them!",
+        "Hit your mark!",
+        "Make contact!",
+        "Come on, hit!"
+      ],
+      "review": "conflict"
+    },
+    "121:107": {
+      "repository_source_sha256": "4a367b0a9cdb30c8fd8007c0f1750a0953400e4550c9683d33d82057fd2cdf8e",
+      "en": "「You're slow!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:124": {
+      "repository_source_sha256": "73008d86b118255303316854024e16fd27af9871bef8a009cdfd2a9bda9f7fe1",
+      "en": "「I'm aiming at a single point!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:145": {
+      "repository_source_sha256": "851c53b2870a752e457136d489091312c2240b584dac94aba680df616dab09ed",
+      "en": "「Found an opening!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:164": {
+      "repository_source_sha256": "4b1f181e2139b8ea39b4475caea8b9f82009c63d46dfbbdd24797016cac007df",
+      "en": "「If I outmaneuver you!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:181": {
+      "repository_source_sha256": "099d7b03a50b762e5b8c5c3c1a31c10d1f4b96ba73410afa627882a3f305e422",
+      "en": "「It looks like a cheap shot, but!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:208": {
+      "repository_source_sha256": "ad6e1a7fb24927d73cf3ce997a423e1b4ebad10dd52b5cac8c7cdc20be45b6c8",
+      "en": "「I'm getting through...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:231": {
+      "repository_source_sha256": "c6197bbaf26ce8c7e7586f8847d29de43566c284b2e156a5009ab4593ed09f47",
+      "en": "「I have to pull this off here...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:260": {
+      "repository_source_sha256": "326a0e79b335edbe9521b5dfd10382c989767e149e84df0737e1e03e71d7063b",
+      "en": "「I just carry out the mission...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:289": {
+      "repository_source_sha256": "e75869e9f9023306bcd530fa05b40815e265bd7a516142a27106db12a0fb80df",
+      "en": "「Mobile combat is rough in this, but!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:324": {
+      "repository_source_sha256": "502cefb9f586e048e1333c175ea88c01d19315c976a1fde20023dd44408b9474",
+      "en": "「Now that I'm in a Gundam...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:357": {
+      "repository_source_sha256": "514614327261d3df5059eb8cfc3f971568e98d8725dfad3baf4aa6b5d15f751a",
+      "en": "「Old model or not, it's the pilot!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:390": {
+      "repository_source_sha256": "687ac2042a786d75f97fedc18b3960adf539debac747d4a8e14fffa67b7279b7",
+      "en": "「It's far, but...!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:411": {
+      "repository_source_sha256": "1ecc32106b63ee2e3592e199927835c967acfaf5b4aff4b101af424479305d9f",
+      "en": "「I already have a lock!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:438": {
+      "repository_source_sha256": "9ffffe9b8fac741ccfa8895ab2a8f30e97602ef1c7b21c701bb026b94906e763",
+      "en": "「Closing the distance!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0",
+        "weapon slot 4"
+      ],
+      "alternatives": [
+        "Closing",
+        "I'm closing the distance!"
+      ],
+      "review": "conflict"
+    },
+    "121:457": {
+      "repository_source_sha256": "4884773853832c724c0f85abc485c435d689c6151acdb0f108a18e46df5342ba",
+      "en": "「To finish this for sure...!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:484": {
+      "repository_source_sha256": "a357b3243e3695079e6e994481275294c961584aafffaee98ef718a4bbf39191",
+      "en": "「Hah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 12",
+        "weapon slot 15",
+        "weapon slot 16",
+        "weapon slot 7",
+        "weapon slot 9"
+      ]
+    },
+    "121:495": {
+      "repository_source_sha256": "5f0034abc140230d75ad81b58a179da3694902e7c6021619fd1af43b8be6c0b8",
+      "en": "「Hup!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 12",
+        "weapon slot 15",
+        "weapon slot 16",
+        "weapon slot 7",
+        "weapon slot 9"
+      ]
+    },
+    "121:506": {
+      "repository_source_sha256": "4a05dfc9ebd84ec27252850dc7a388c16b91a107649018b285350e87f1f274f3",
+      "en": "「Hmph!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:517": {
+      "repository_source_sha256": "85d9db8ebb7eed9baa5d7aff32c6c0bf9f7c1a79f34b82be04256c30befc5e5f",
+      "en": "「Haaah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 12",
+        "weapon slot 15",
+        "weapon slot 16",
+        "weapon slot 7",
+        "weapon slot 9"
+      ],
+      "alternatives": [
+        "Hah!"
+      ],
+      "review": "conflict"
+    },
+    "121:530": {
+      "repository_source_sha256": "30fe867b3c7959525f4f72d5cac5d42b8a09809a8e0271be3adc7c001c95b436",
+      "en": "「With this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 16",
+        "weapon slot 9"
+      ],
+      "alternatives": [
+        "Take this!",
+        "This'll do it!"
+      ],
+      "review": "conflict"
+    },
+    "121:543": {
+      "repository_source_sha256": "1ae24a11fe13c885c0f78e411d164e8e838fe953408d9c5d38424b15920c93ba",
+      "en": "「This ends now!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 14",
+        "weapon slot 16",
+        "weapon slot 9"
+      ]
+    },
+    "121:562": {
+      "repository_source_sha256": "5ecc91395c317c954331769959a1b5091b80f2db352bf99740bc6631d49e9a1e",
+      "en": "「Uooooooh!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 16",
+        "weapon slot 9"
+      ],
+      "alternatives": [
+        "Raaaaaagh!!",
+        "Uoooooh!!",
+        "Uooooooh!"
+      ],
+      "review": "conflict"
+    },
+    "121:585": {
+      "repository_source_sha256": "39ab6eb7dc0ed2500315a489304fd9e23a1ca2cd41de875b0546a725852ec0ec",
+      "en": "「Finishing blow!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:602": {
+      "repository_source_sha256": "184aeed50bdc66412d9db0a03fe8d6e58c135d3e381439d7e864cca00f7e5bc8",
+      "en": "「I'll finish you with wave attacks!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:627": {
+      "repository_source_sha256": "15125bda2a2372f430059edd7781f58bcc1f01e8e5727d5f10b7739cdda1cf3c",
+      "en": "「One more strike...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:646": {
+      "repository_source_sha256": "625f04d5cc32eaac0dd4cd8f7cdbcfb901375b7dbf0129d79213348544881200",
+      "en": "「$$フル・フロンタル$$...!\\nYou're going to play along!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:697": {
+      "repository_source_sha256": "314c29e733c62e8d8d2b2f967cb5239435005761616383f618156096deb42ade",
+      "en": "「$$袖付き$$!\\nYou gathered this much force!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:746": {
+      "repository_source_sha256": "7de764d59df468df284a749fa56b06915fabf4a946529a22e5e635204536793c",
+      "en": "「This is the end, $$ネオ・ジオン$$!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:777": {
+      "repository_source_sha256": "03710b6d08f588cc316d8a807847337f57c70842260018ce4d7ffe4c07b24e0e",
+      "en": "「Zeon...! Do you still want war?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:818": {
+      "repository_source_sha256": "15f8c5e8f514d154502642cdb1b1725db2639b100ff131bd3f11903a30469790",
+      "en": "「To end up fighting this man...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:857": {
+      "repository_source_sha256": "779483a4a32b5a645595c4cd264acfc709c11910b7976dbb572bd4f479001474",
+      "en": "「If I just take out the commander...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:882": {
+      "repository_source_sha256": "db61196dfe5bdf9e94b464c07784e316556a8588b4b3e73cf7e6381d2396400e",
+      "en": "「This is the last mission...!\\nI'll make it a success!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:933": {
+      "repository_source_sha256": "78dbe1e89b5b3d31f62910ed5e70adce1c0597d134699f0a95030f6708679b69",
+      "en": "「Diffusing the beam!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:958": {
+      "repository_source_sha256": "dbe8db00679fc50513036c78f43d34de6a2b4021899b3c2e66e51a540fa3bdbe",
+      "en": "「Using the sealed system!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:989": {
+      "repository_source_sha256": "57cdae7f3c50d25e3507063a44b4b733053a4b1ceed8b5b5f720f88be6ea56f1",
+      "en": "「Engage $$月光蝶$$ system!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:1020": {
+      "repository_source_sha256": "d430cc6fe658c632312f8e52b39d53dc77bbc434dd43916675a2b314f19488b4",
+      "en": "「Pursuing!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1035": {
+      "repository_source_sha256": "65c762996a6c9bc0c14bf5d1c65661623f285ecca4c3edda7716e79af17d401a",
+      "en": "「You're not getting away!」",
+      "source": "jigoku",
+      "slots": [
+        "counterattack"
+      ],
+      "alternatives": [
+        "You won't escape!",
+        "No exit"
+      ],
+      "review": "conflict"
+    },
+    "121:1054": {
+      "repository_source_sha256": "2234f266bfb7bc31e6f082d22bdc8e2c4ac171c84f8f69257744c5b7ba19755a",
+      "en": "「I'll chase you down and finish you!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1079": {
+      "repository_source_sha256": "b62de8b21e51b76cec5b489abfa5fefc6f931e47be9ac97437377ecc86fba225",
+      "en": "「You gave me a chance to hit back...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1108": {
+      "repository_source_sha256": "4ed9a8c16817ecf7c98f7b9f4f78f416b5d79be5e9e66a7be8abb29fbade42c8",
+      "en": "「Openings appear after an attack...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1141": {
+      "repository_source_sha256": "30bd0ab28ffb1d51a7cb300971b4d5f7a60bd40f9031b9cc97397217650ee61a",
+      "en": "「Don't think you can escape $$エコーズ$$...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1180": {
+      "repository_source_sha256": "d2721a4d3e089ee1b2ec1632a6d88510ed06b9160d54568665a866efe761e3d8",
+      "en": "「We're here too!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1203": {
+      "repository_source_sha256": "25573bd5c4cfdc323793a8793edcdd21aed21481edf25352144f42f7db6e802e",
+      "en": "「This is $$コンロイ$$! I'll cover you!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1232": {
+      "repository_source_sha256": "bb2f6a8497180bec0ebd93f2cdd940138119db9319911e121888840c90b741dd",
+      "en": "「Captain! I'll cover you!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1257": {
+      "repository_source_sha256": "0d59d50c2d1ca11e7929afcec02ba62cf0da52db1745f47fbd38ab1195321a8f",
+      "en": "「I'll help, $$バナージ$$!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1282": {
+      "repository_source_sha256": "779ab1dab677dbc744ba01457bea26b7ca24d41364491ac75dddebe5964468be",
+      "en": "「I'll sync with the $$ネェル・アーガマ$$!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1315": {
+      "repository_source_sha256": "b6208dd1903cc8bab8e45e6b029da0d826e773ba581d9fbbb9238ba03143b2f4",
+      "en": "「If I follow the $$ラー・カイラム$$...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1346": {
+      "repository_source_sha256": "5076aa4764e5e7ca5d30fc68a4f15ce0c70c500a4aeb9a83e0067de55d1347e7",
+      "en": "「Can I hold them off...?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1377": {
+      "repository_source_sha256": "2ffa90e81639afd2764bcd66296f5cb921c0d41c691408f6f89908a30344eee7",
+      "en": "「I'll buy us some time!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1398": {
+      "repository_source_sha256": "c210befbba982f2cddc24d9f65a405ba372bf3f023d74059e8355998da92e501",
+      "en": "「It's dangerous, Captain!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1419": {
+      "repository_source_sha256": "dc30274db461353c37fc365b0812951d16c109ab930d1a3ffb3ac7f5862e9fef",
+      "en": "「I won't let them touch $$バナージ$$...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1446": {
+      "repository_source_sha256": "5da92de6dfe3ad0d97ded377b374b8bf49d1707aa3109f69aaf702b4fccec6ac",
+      "en": "「$$ネェル・アーガマ$$, fall back!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1481": {
+      "repository_source_sha256": "fc57e40fb71ac41359c0afa3405be1a07677c49a0d9a143b48ae05c4e1124bfd",
+      "en": "「$$ラー・カイラム$$, retreat!!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1512": {
+      "repository_source_sha256": "15a455e56ea3d9b7751a13873be6fad4d59f9c0e5038cfa2dd21bc6f4a42ae99",
+      "en": "「I can't even touch them...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1551": {
+      "repository_source_sha256": "a6ac75588fcf71be98c61c5d27a73f472b07bab5764292c70c39b35cb98d3a55",
+      "en": "「You can't even counterattack...!」",
+      "source": "new",
+      "slice": "v_g121_01"
+    },
+    "121:1580": {
+      "repository_source_sha256": "bbcebd0b503bd26ec8d385b01263f8abc52920acfc29f8e8235931eef78726c5",
+      "en": "「Out of energy, of all times...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1617": {
+      "repository_source_sha256": "3f9445cf4418b000ad8747ca2312cd4ffb49ec92f628a7d9a2c3b02079ef4ac9",
+      "en": "「I can't hit that position...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1650": {
+      "repository_source_sha256": "eaf36a31e3f0e45a43262b897f07fac5a6b0a1a631e9741f33978ffa0c71f532",
+      "en": "「Letting them get that position\\nmeans I lost...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1699": {
+      "repository_source_sha256": "dd9c5b50ceb5c71b34bc88d485731df7d7f0f851997c3318a07aa9a827b7adbc",
+      "en": "「With something like that...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1720": {
+      "repository_source_sha256": "711b4e5b0d4de51d886b6f29a7b5363da992c8f1f762a807d1b74bf8482b58b1",
+      "en": "「You're too slow!」",
+      "source": "jigoku",
+      "slots": [
+        "evade"
+      ]
+    },
+    "121:1737": {
+      "repository_source_sha256": "9bb29bd22b6f6594fc2c91a010b0a5e4c80b2642b00498b8da09234c4301d025",
+      "en": "「I won't fall for that!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1760": {
+      "repository_source_sha256": "b1e559485adc27e83795e3e442fcf9a5017dff84fe71d99e0d7ddb894e1b02aa",
+      "en": "「You mean to pin me down, but...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1793": {
+      "repository_source_sha256": "0bc6e6e2d7f56374de12072cde49362d4167da2f645f9ed8233fc181d4861300",
+      "en": "「They think little of $$エコーズ$$ too!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1826": {
+      "repository_source_sha256": "b3a2d0b412e00f7f7f35256f3265b9b43a905874ea2b5a9a23688fa6c427721e",
+      "en": "「Don't underestimate Manhunters!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1857": {
+      "repository_source_sha256": "e8dc1077272be0925170bede4cd898f7ae7bd890dafb7146d994081ff9709503",
+      "en": "「$$フル・フロンタル$$...! Toying with me?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1896": {
+      "repository_source_sha256": "78ecf3593b63124d7004e2037b56cdae63d3f31f422732e7b5f12165f89a7a9a",
+      "en": "「Is that all $$袖付き$$ has got?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1923": {
+      "repository_source_sha256": "5713a6bcd9248bdef0d8694e67782e93dda055fe43d21329372e56077cb37f43",
+      "en": "「Give it up, $$ネオ・ジオン$$!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1956": {
+      "repository_source_sha256": "9704c2261b2f3704aec008c28c472dd99389fbdf5930a3507699fd6648e5eb20",
+      "en": "「An attack like that won't work!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:1985": {
+      "repository_source_sha256": "bc4b254a74f5a9a0313050315ea2429236cc0292095a5c7053a6a6963c72ab50",
+      "en": "「We've made our own preparations...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2020": {
+      "repository_source_sha256": "f7acd8a3268e47b3a364a870fe3a3395a748d000a398f864c663df8a03b235ea",
+      "en": "「If the I-Field blocks it...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2049": {
+      "repository_source_sha256": "2cf8ca5e77f49d0844826f65b2eac257a47ecf38206585f099c9ad373e03c1b0",
+      "en": "「Stopping it with the shield...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2074": {
+      "repository_source_sha256": "87a7b09a712bd4a5a334bb08d401b4e854b325d167c450fa7c2244b096f3549a",
+      "en": "「A shield still takes the hit...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2105": {
+      "repository_source_sha256": "064521aa1b2cf7897cdb47ce5b08118e4c87f48bf1a5fbc2f9c5993bb4a5a4cf",
+      "en": "「They landed a hit...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2126": {
+      "repository_source_sha256": "73e176f8b695c2dc3303627057d03089cbd519401c139d3286b0805dae3c57be",
+      "en": "「It wasn't a direct hit, but...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2149": {
+      "repository_source_sha256": "6c5782fa01444049e6fd8dea49acb0bb804469a4bbb44bf5edbe7c6d5bf63bf8",
+      "en": "「They won't take our bait...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2182": {
+      "repository_source_sha256": "07b70248524a0a52ed7c9f81c2faa5ae1d5bf5245f6a1fd20514a1a4cc4fcdab",
+      "en": "「Gah...! I can't dodge it all!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2211": {
+      "repository_source_sha256": "474819ea642ef58f06efb90dfd6dba5a1dd1ed059e8bc3285950de8b4948feab",
+      "en": "「With the armor, this much is...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2248": {
+      "repository_source_sha256": "0987316d5bb2011fe558098bffcae75e41f8aa9007e41fd845c8c8cbdf92ee89",
+      "en": "「$$エコーズ$$ won't fall to that...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2281": {
+      "repository_source_sha256": "0ffbe34de627ed412c9df7b04333c427cb608fc00464e09cb9d1424f47059fb7",
+      "en": "「A direct hit...?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2300": {
+      "repository_source_sha256": "92ab6284fb21ee3542f9ff91c450888ed6b710e859b280dbd89b7342fd2a5611",
+      "en": "「Damn! At this rate...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2331": {
+      "repository_source_sha256": "7b04ae417792721b24272df730f0552e587fe6b9bf404374b08db86666b18c63",
+      "en": "「Taking their bait led to this...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2374": {
+      "repository_source_sha256": "f6f58237edf4fdebbda4836f75fa722efeceb910b0dedd758e349b9b3e4a636a",
+      "en": "「We're clearly a bad matchup...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2407": {
+      "repository_source_sha256": "995ce69a158bb48ffbfc1346e2e6fa50038f24fb49c17c66f4b7e515755fbaa3",
+      "en": "「Any more hampers the operation...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2446": {
+      "repository_source_sha256": "7b8d75d2bd04541430d3cebcc5ded3e8f614a07f142ff35701621f373cbe4a43",
+      "en": "「Damn, the tide is turning...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2485": {
+      "repository_source_sha256": "3725ea2ded1edd8bf79edd9597415207d97b13527e20df6575e88c24a5dc9fcf",
+      "en": "「So this is $$フル・フロンタル$$'s fight...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2524": {
+      "repository_source_sha256": "7ba42aa2e7190de557dd5a412cc017f310bb17ef57ccd51ee7a33d865653f5e8",
+      "en": "「Damn you, $$袖付き$$...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2549": {
+      "repository_source_sha256": "9332cc081caecc40245d3fe34dca082a42331bddccb356e5314d306ac735fca2",
+      "en": "「$$ネオ・ジオン$$ went this far...?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2588": {
+      "repository_source_sha256": "1a3656cfb9d983b6403056a9d6b7a7664a5371cb5dc403917b52c0983a151fda",
+      "en": "「So they've come at us\\nready to give everything!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2637": {
+      "repository_source_sha256": "f05e82b3251212f16ce42d57f6ece8f333c957df710c5bb4fa1b8ac5e1fd2ca4",
+      "en": "「Damn...! Output is dropping!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2674": {
+      "repository_source_sha256": "2cbdbc6f4db7f0393c24bbcacabf32b6fcce0b29e8c4c1cba6ca461f4b37f0c6",
+      "en": "「I held out until now, but more...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2713": {
+      "repository_source_sha256": "396510cdaddfe522d47a0f44a70eb7d42ba24a1dcb28bed79c2e4a3e86f5267e",
+      "en": "「Even if the unit barely moves,\\nthere's still a way to fight...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2764": {
+      "repository_source_sha256": "78c459475d8e90fd27943bbf4e5aad684eb0fc9e8ba67ac09272a2bbb84ffda1",
+      "en": "「The monitors and sensors\\nare dying...?!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2813": {
+      "repository_source_sha256": "4039123c4721c4795c12b22da3ad6351b0cf7d705363111f4a68b65c71e5a962",
+      "en": "「If I go down here,\\nI'll disgrace the name of $$エコーズ$$...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2868": {
+      "repository_source_sha256": "cc6deaddaf5877d4ce7841311c8c3525c264a50ffcb44e7327d2aea49e04fc60",
+      "en": "「The Manhunter...! Not here...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2907": {
+      "repository_source_sha256": "1973b6ae770cf0c744712e621569c74fd78fa56dbb6a5a518eb9fc43254e17af",
+      "en": "「Gah! Time to bail out...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2940": {
+      "repository_source_sha256": "2d53209455959b9f87f72f7a82df4be05b72e0f6766c2a17fdad665d57e1e179",
+      "en": "「Uooh! I never expected this much...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    },
+    "121:2973": {
+      "repository_source_sha256": "e3775a02947d1ff4ec17840f0be6b28b5948acf96b38711a0247d5137f9f88cc",
+      "en": "「My apologies, Captain...!」",
+      "source": "new",
+      "slice": "v_g121_00"
+    }
+  }
+}

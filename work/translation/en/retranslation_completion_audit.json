@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "records": 63553,
+  "batches": 12,
+  "slices": 857,
+  "quantified_sampling_batches": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "coordinator_sample_rows": 1901,
+  "coordinator_sample_slices": 662,
+  "source_glyph_rows": [
+    {
+      "batch": 4,
+      "slice": "dlg_2065_02",
+      "id": "467:t_10:19",
+      "count": 1
+    },
+    {
+      "batch": 10,
+      "slice": "dlg_2070_02",
+      "id": "502:t_10:29",
+      "count": 1
+    },
+    {
+      "batch": 10,
+      "slice": "dlg_2071_04",
+      "id": "508:t_10:21",
+      "count": 1
+    },
+    {
+      "batch": 10,
+      "slice": "dlg_2071_04",
+      "id": "508:t_10:44",
+      "count": 1
+    },
+    {
+      "batch": 12,
+      "slice": "dlg_2500_01",
+      "id": "853:t_13:14",
+      "count": 1
+    }
+  ],
+  "known_fit_exception": "604:t_6:4; four lines, maximum three; all eleven Sphere names retained.",
+  "promotion": false,
+  "build": false,
+  "in_game_validation": false
+}

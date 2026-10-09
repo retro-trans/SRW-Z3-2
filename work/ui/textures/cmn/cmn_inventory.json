@@ -1,0 +1,802 @@
+{
+  "schema": 1,
+  "archive": "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK",
+  "archive_sha256": "cdef558527205e0bf55ac98f12b51d96d02ac06fbabab9af7bb5ac7705278757",
+  "member_sha256": "cd834f502b60a72ffa4c3397f1b8d72b75a0a198fd97bcc434305c179cc42635",
+  "gtf_offset": "0xa400",
+  "textures": [
+    {
+      "texture": 0,
+      "size": [
+        128,
+        128
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0xa800",
+      "pixel_sha256": "ede6d607c65f4247a79bd566839318d209b8e89ff0520a4e927d74d968f7409f",
+      "text": "none",
+      "content": "sparkle particles",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 1,
+      "size": [
+        512,
+        40
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x1a800",
+      "pixel_sha256": "aed47c28383d16c2644474c1f69fa39aa995a0353008e641b0117bba750dc321",
+      "text": "english",
+      "content": "red MAXIMUM BREAK ribbon",
+      "jigoku_original_texture": 1
+    },
+    {
+      "texture": 2,
+      "size": [
+        224,
+        224
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x2e800",
+      "pixel_sha256": "4b65d3395eb123c7a1423eab76e97fc59b26894d9d6648c9e501d27d0ff73c75",
+      "text": "none",
+      "content": "SRW emblem ring (Latin logo)",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 3,
+      "size": [
+        80,
+        32
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x5f800",
+      "pixel_sha256": "33d60f0629bd5f3a192e5d1370161a4f06144e8cf846b29254686be230d65dbc",
+      "text": "none",
+      "content": "wave panel",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 4,
+      "size": [
+        488,
+        72
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x62000",
+      "pixel_sha256": "5cd38a2cfcd7cc841a92cc1522bac75e9b194a801ee892020c84ab4d4456634d",
+      "text": "english",
+      "content": "HP / EN gauge frame",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 5,
+      "size": [
+        16,
+        40
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x84500",
+      "pixel_sha256": "bded67fdb45cb921b1e6b3b7c2e22d8d4dfb48e6637e56cab33d6db13b2e6ddf",
+      "text": "none",
+      "content": "chevron",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 6,
+      "size": [
+        8,
+        8
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0x84f00",
+      "pixel_sha256": "a9faedf005419034af9a0adfb822237e183bb5e6315f586c2abfa999e13125fa",
+      "text": "none",
+      "content": "white 8x8",
+      "jigoku_original_texture": 9
+    },
+    {
+      "texture": 7,
+      "size": [
+        64,
+        288
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x85000",
+      "pixel_sha256": "c67ae332de94b24d7ffffa5dbe8d90af04a29eedf342c2c9b0163d5dbb9afb97",
+      "text": "none",
+      "content": "coloured unit icons",
+      "jigoku_original_texture": 7
+    },
+    {
+      "texture": 8,
+      "size": [
+        8,
+        8
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0x97000",
+      "pixel_sha256": "a9faedf005419034af9a0adfb822237e183bb5e6315f586c2abfa999e13125fa",
+      "text": "none",
+      "content": "white 8x8",
+      "jigoku_original_texture": 9
+    },
+    {
+      "texture": 9,
+      "size": [
+        32,
+        16
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0x97100",
+      "pixel_sha256": "eb1f5d9e6585c0645dc13744485455cb9910963f7eff20e187edf948a78d2f83",
+      "text": "none",
+      "content": "dots",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 10,
+      "size": [
+        192,
+        48
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x97900",
+      "pixel_sha256": "230a7c51b03deec1e47cd2736f32b5b144bf63d955bdcab6834261df1704e1ca",
+      "text": "japanese",
+      "content": "合体攻撃 Combo Attack banner",
+      "jigoku_original_texture": 10
+    },
+    {
+      "texture": 11,
+      "size": [
+        272,
+        256
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0xa0900",
+      "pixel_sha256": "4a031abc1518acd7578be811467a6322b34caf6b96070f22dffd98b5e3142585",
+      "text": "japanese",
+      "content": "カウンター / 再攻撃 / 援護攻撃 / 援護防御 banners",
+      "jigoku_original_texture": 11
+    },
+    {
+      "texture": 12,
+      "size": [
+        800,
+        112
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0xe4900",
+      "pixel_sha256": "b4fe43186e41a28bd210852ec43288e4fb8be2f06f95b6db78f83e704ed4d04b",
+      "text": "none",
+      "content": "blue digits 0-9",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 13,
+      "size": [
+        800,
+        112
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x13c100",
+      "pixel_sha256": "a803c01e954abff5e8ed1a4a959b4c6d811f34141434d9ceffe291b048196f54",
+      "text": "none",
+      "content": "gold digits 0-9",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 14,
+      "size": [
+        384,
+        40
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x193900",
+      "pixel_sha256": "9e4a021d8e7cfbee509ed3399742517a350ae951e2ef0235bdebfae8d397101c",
+      "text": "english",
+      "content": "CRITICAL",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 15,
+      "size": [
+        160,
+        120
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x1a2900",
+      "pixel_sha256": "936a81b4a928e169073aedd08c17c013f6bf494b3565ac4bc8fc3c65a982544d",
+      "text": "none",
+      "content": "button prompts (skip / fast-forward / return)",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 16,
+      "size": [
+        1472,
+        176
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x1b5500",
+      "pixel_sha256": "39143a652080ab87e3b74b5472f7843cbc91a89963b301c1c00db672d8d70615",
+      "text": "japanese",
+      "content": "マキシマムブレイク gold banner (nine animated quads)",
+      "jigoku_original_texture": 16
+    },
+    {
+      "texture": 17,
+      "size": [
+        512,
+        280
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x2b2500",
+      "pixel_sha256": "bbd0042a9090cde2b3992c7f9ad70a1e7afc6cd755f2a8a3f229ecde73c5d042",
+      "text": "none",
+      "content": "hit / spark / splash effect sprites",
+      "jigoku_original_texture": 17
+    },
+    {
+      "texture": 18,
+      "size": [
+        256,
+        256
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0x33e500",
+      "pixel_sha256": "72e21429a3c74be4b2d06bbfac6dd1b7ad15aebede5d133fc8ad16fad2df03a6",
+      "text": "none",
+      "content": "soft glow",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 19,
+      "size": [
+        104,
+        104
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x37e500",
+      "pixel_sha256": "5ecb4c55a10bad373fe84a51cfdb2bb2dfa405bd74251d2d37ac2cb0ec1c38ea",
+      "text": "none",
+      "content": "ring",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 20,
+      "size": [
+        64,
+        8
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0x388e00",
+      "pixel_sha256": "eabe0f4ffb5ca5ae6c92cb13aa5dd1917a22eb2aa7fd0409cfec9a171d3e2db3",
+      "text": "none",
+      "content": "gradient bar",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 21,
+      "size": [
+        16,
+        32
+      ],
+      "format": "A8R8G8B8 swizzled",
+      "offset": "0x389600",
+      "pixel_sha256": "a26868c2948e9261f7630a1bc1506ba9ccad7e637a1e05120f8cfed07752b286",
+      "text": "none",
+      "content": "bar",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 22,
+      "size": [
+        80,
+        80
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x389e00",
+      "pixel_sha256": "735e445f9f648b524762c1d305a131f32ea05617a33d39b8cf59a0e2c7dd0b09",
+      "text": "none",
+      "content": "dotted ring",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 23,
+      "size": [
+        96,
+        112
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x390200",
+      "pixel_sha256": "da1b8118771c779f46264b45cd7b45ca5acd9e5c76a0b44f99db218d606a45f2",
+      "text": "english",
+      "content": "word atlas Center / Wide / ALL / MAXIMUM / Main / Assist / BREAK",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 24,
+      "size": [
+        144,
+        48
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x39aa00",
+      "pixel_sha256": "831be2c3a24ed340330d0a15d9a5e77955bb975fa351e2f94714f228cf4b7b6a",
+      "text": "none",
+      "content": "frame corners",
+      "jigoku_original_texture": null
+    },
+    {
+      "texture": 25,
+      "size": [
+        384,
+        48
+      ],
+      "format": "A8R8G8B8 linear",
+      "offset": "0x3a1600",
+      "pixel_sha256": "5a6af0cb06ef25e254d0428f0fcb064d8142e62414511b3e3c61b7785cb62fbb",
+      "text": "none",
+      "content": "digits / ? 0-9",
+      "jigoku_original_texture": null
+    }
+  ],
+  "japanese_textures": [
+    10,
+    11,
+    16
+  ],
+  "english_textures": [
+    1,
+    4,
+    14,
+    23
+  ],
+  "jigoku": {
+    "tengoku_textures": 26,
+    "jigoku_textures": 20,
+    "pixel_identical_to_jigoku_original": {
+      "1": 1,
+      "6": 9,
+      "7": 7,
+      "8": 9,
+      "10": 10,
+      "11": 11,
+      "16": 16,
+      "17": 17
+    },
+    "jigoku_shipped_changed_textures": [
+      6,
+      10,
+      11,
+      16
+    ],
+    "jigoku_shipped_script_bytes_changed": 53,
+    "jigoku_shipped_script_changes_only_in_records": true,
+    "records": [
+      {
+        "tengoku": "0x3b14",
+        "jigoku": "0x419c",
+        "jigoku_le": [
+          -88,
+          -88,
+          88,
+          88,
+          1,
+          0,
+          175,
+          176
+        ],
+        "tengoku_be": [
+          -88,
+          -88,
+          88,
+          88,
+          1,
+          0,
+          175,
+          176
+        ],
+        "jigoku_anchor_le": [
+          -632,
+          0
+        ],
+        "tengoku_anchor_be": [
+          -632,
+          0
+        ],
+        "jigoku_shipped_le": [
+          -104,
+          -88,
+          149,
+          88,
+          1,
+          0,
+          252,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x39f8",
+        "jigoku": "0x4080",
+        "jigoku_le": [
+          -84,
+          -88,
+          84,
+          88,
+          177,
+          0,
+          343,
+          176
+        ],
+        "tengoku_be": [
+          -84,
+          -88,
+          84,
+          88,
+          177,
+          0,
+          343,
+          176
+        ],
+        "jigoku_anchor_le": [
+          -504,
+          0
+        ],
+        "tengoku_anchor_be": [
+          -504,
+          0
+        ],
+        "jigoku_shipped_le": [
+          21,
+          -88,
+          191,
+          88,
+          254,
+          0,
+          422,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x38e8",
+        "jigoku": "0x3f70",
+        "jigoku_le": [
+          -96,
+          -96,
+          96,
+          80,
+          345,
+          0,
+          535,
+          176
+        ],
+        "tengoku_be": [
+          -96,
+          -96,
+          96,
+          80,
+          345,
+          0,
+          535,
+          176
+        ],
+        "jigoku_anchor_le": [
+          -344,
+          4
+        ],
+        "tengoku_anchor_be": [
+          -344,
+          4
+        ],
+        "jigoku_shipped_le": [
+          31,
+          -92,
+          184,
+          84,
+          424,
+          0,
+          575,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x37d8",
+        "jigoku": "0x3e60",
+        "jigoku_le": [
+          -88,
+          -88,
+          88,
+          88,
+          1,
+          0,
+          175,
+          176
+        ],
+        "tengoku_be": [
+          -88,
+          -88,
+          88,
+          88,
+          1,
+          0,
+          175,
+          176
+        ],
+        "jigoku_anchor_le": [
+          -160,
+          0
+        ],
+        "tengoku_anchor_be": [
+          -160,
+          0
+        ],
+        "jigoku_shipped_le": [
+          0,
+          -88,
+          132,
+          88,
+          577,
+          0,
+          707,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x36d0",
+        "jigoku": "0x3d58",
+        "jigoku_le": [
+          -84,
+          -88,
+          84,
+          88,
+          537,
+          0,
+          703,
+          176
+        ],
+        "tengoku_be": [
+          -84,
+          -88,
+          84,
+          88,
+          537,
+          0,
+          703,
+          176
+        ],
+        "jigoku_anchor_le": [
+          -56,
+          0
+        ],
+        "tengoku_anchor_be": [
+          -56,
+          0
+        ],
+        "jigoku_shipped_le": [
+          28,
+          -88,
+          205,
+          88,
+          709,
+          0,
+          884,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x35c0",
+        "jigoku": "0x3c48",
+        "jigoku_le": [
+          -96,
+          -92,
+          96,
+          84,
+          705,
+          0,
+          895,
+          176
+        ],
+        "tengoku_be": [
+          -96,
+          -92,
+          96,
+          84,
+          705,
+          0,
+          895,
+          176
+        ],
+        "jigoku_anchor_le": [
+          176,
+          0
+        ],
+        "tengoku_anchor_be": [
+          176,
+          0
+        ],
+        "jigoku_shipped_le": [
+          -27,
+          -88,
+          92,
+          88,
+          886,
+          0,
+          1003,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x34b0",
+        "jigoku": "0x3b38",
+        "jigoku_le": [
+          -92,
+          -84,
+          92,
+          92,
+          897,
+          0,
+          1079,
+          176
+        ],
+        "tengoku_be": [
+          -92,
+          -84,
+          92,
+          92,
+          897,
+          0,
+          1079,
+          176
+        ],
+        "jigoku_anchor_le": [
+          332,
+          0
+        ],
+        "tengoku_anchor_be": [
+          332,
+          0
+        ],
+        "jigoku_shipped_le": [
+          -64,
+          -88,
+          56,
+          88,
+          1005,
+          0,
+          1123,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x339c",
+        "jigoku": "0x3a24",
+        "jigoku_le": [
+          -100,
+          -86,
+          100,
+          90,
+          1081,
+          0,
+          1279,
+          176
+        ],
+        "tengoku_be": [
+          -100,
+          -86,
+          100,
+          90,
+          1081,
+          0,
+          1279,
+          176
+        ],
+        "jigoku_anchor_le": [
+          496,
+          0
+        ],
+        "tengoku_anchor_be": [
+          496,
+          0
+        ],
+        "jigoku_shipped_le": [
+          -108,
+          -88,
+          109,
+          88,
+          1125,
+          0,
+          1340,
+          176
+        ]
+      },
+      {
+        "tengoku": "0x3288",
+        "jigoku": "0x3910",
+        "jigoku_le": [
+          -96,
+          -84,
+          96,
+          92,
+          1281,
+          0,
+          1471,
+          176
+        ],
+        "tengoku_be": [
+          -96,
+          -84,
+          96,
+          92,
+          1281,
+          0,
+          1471,
+          176
+        ],
+        "jigoku_anchor_le": [
+          624,
+          0
+        ],
+        "tengoku_anchor_be": [
+          624,
+          0
+        ],
+        "jigoku_shipped_le": [
+          -19,
+          -88,
+          112,
+          88,
+          1342,
+          0,
+          1471,
+          176
+        ]
+      }
+    ],
+    "records_equal": true,
+    "block_jigoku": [
+      "0x38d8",
+      "0x4278"
+    ],
+    "block_tengoku": [
+      "0x3250",
+      "0x3bf0"
+    ],
+    "block_words_not_byte_order_equivalent": [],
+    "tengoku_strip_quads": [
+      "0x3288",
+      "0x339c",
+      "0x34b0",
+      "0x35c0",
+      "0x36d0",
+      "0x37d8",
+      "0x38e8",
+      "0x39f8",
+      "0x3b14"
+    ],
+    "jigoku_strip_quads": [
+      "0x3910",
+      "0x3a24",
+      "0x3b38",
+      "0x3c48",
+      "0x3d58",
+      "0x3e60",
+      "0x3f70",
+      "0x4080",
+      "0x419c"
+    ],
+    "renderer_reproduces_jigoku_0.6.24": {
+      "combo_attack": true,
+      "counter": true,
+      "attack_again": true,
+      "support_attack": true,
+      "support_defense": true,
+      "maximum_break": true,
+      "records": true
+    }
+  },
+  "runtime_verified": false
+}

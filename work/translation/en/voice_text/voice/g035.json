@@ -1,0 +1,2391 @@
+{
+  "schema": 1,
+  "group": "g035",
+  "blocks": [
+    35
+  ],
+  "speaker": {
+    "token": "アポロ",
+    "jigoku_pilot": "Amata Sora",
+    "jigoku_unit": "Aquarion (EVOL configuration)",
+    "fraction": 0.014,
+    "basis": "settled 2026-10-02 from fresh-translation review: Mostly Apollo (rough 'ore', calls Sirius and Silvia by name, calls Sirius a prince, Aquarion lines); a few Silvia lines (4301-4533, female, call Apollo) and Sirius lines (5001-5053, 7516-7681, call Apollo/Silvia) share the set; Jigoku's Amata Sora is wrong (Apollo, not Amata)",
+    "proposed_by_v_g035_00": {
+      "token": "$$アポロ$$",
+      "basis": "Mostly Apollo (rough 'ore', calls Sirius and Silvia by name, calls Sirius a prince, Aquarion lines); a few Silvia lines (4301-4533, female, call Apollo) and Sirius lines (5001-5053, 7516-7681, call Apollo/Silvia) share the set; Jigoku's Amata Sora is wrong (Apollo, not Amata)"
+    },
+    "proposed_by_v_g035_01": {
+      "token": "$$アポロ$$",
+      "basis": "Refers to himself as アポロ様, calls out アマタ and カイエン as allies, smells (匂い) enemies, Aquarion boasts; Jigoku said Amata Sora (wrong: Amata is addressed in the lines)"
+    },
+    "proposed_by_v_g035_02": {
+      "token": "$$アポロ$$",
+      "basis": "Rough male voice; calls Silvia/Sirius by name ('Sorry, Sirius, Silvia'), Sirius is 'damn prince'; rows 4xxx are Silvia (female, 'Apollo, dodge properly') and 5xxx/7xxx are Sirius (stiff, 'Apollo, calm down') mixed into the set"
+    },
+    "proposed_by_v_g035_03": {
+      "token": "$$アポロ$$",
+      "basis": "Mostly Apollo (rough 'ore', 'The great Apollo', calls Sirius/Silvia by name, Aquarion boasts, hunger/smell lines); a few Silvia lines (4391-4932: calls Sirius Big Brother, 'don't lump me with Apollo') and Sirius lines (5030-5393, 5123, 7704-7729, 7954, 8027: stiff, calls Apollo by name, 'my sister') share the set; Jigoku's Amata Sora is wrong (Amata is addressed in the support lines)"
+    },
+    "proposed_by_v_g035_04": {
+      "token": "$$アポロ$$",
+      "basis": "Mostly Apollo (rough 'ore', Aquarion/Solar Aquarion finishers, calls Amata by name, 'Double Infinity' combo with Amata); 4473 is Silvia (female, calls Apollo) and 5435 Sirius (calls Apollo); 7305-7476 look like Amata/Sirius partner shouts in the combo; Jigoku's Amata Sora is wrong"
+    },
+    "jigoku_token": "アマタ・ソラ"
+  },
+  "lines": {
+    "35:0": {
+      "repository_source_sha256": "44e50c4e76dea252803efac47bb681437daec14cfb5bd76d6b2dd3e814c6e711",
+      "en": "「Get out of my way!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:25": {
+      "repository_source_sha256": "cb2af56b0938970c72e1b58c52da69caa01683e212bdbcd7236d9769042f30a8",
+      "en": "「I'll blast you away!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:50": {
+      "repository_source_sha256": "a06b9edea7e5e3a37f9369564e7478777875e22aa0186bd3995f5ebae65be24a",
+      "en": "「Prepare yourself!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Brace yourself!"
+      ],
+      "review": "conflict"
+    },
+    "35:65": {
+      "repository_source_sha256": "cb76827a0a53247b9f13f295a298e7ef454c36b0ed72d8334179eb7577404be7",
+      "en": "「Take this!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Take this if you can!",
+        "Try taking this!"
+      ],
+      "review": "conflict"
+    },
+    "35:82": {
+      "repository_source_sha256": "fa749bd60dbca18e1fcffd7d20c1ba80ca38926ea2b6ccf71889d95c28e247cb",
+      "en": "「I won't hold back!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:105": {
+      "repository_source_sha256": "7e87ab73036586870c3e8c4d170d4fe58c54e10c4f8a207b80664e07af12997d",
+      "en": "「This one's mine!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "I'll take this!"
+      ],
+      "review": "conflict"
+    },
+    "35:122": {
+      "repository_source_sha256": "53ee5360b4cea95d9f651cfe1f57d2b690793eeb4f0d57c2d8477201fa805de1",
+      "en": "「Thereee!!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:143": {
+      "repository_source_sha256": "561ec2c2c3c219dd16e38966d8c882ff1347bde3e202b39eac464813efc150d3",
+      "en": "「Let's go, everyone!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:166": {
+      "repository_source_sha256": "9901f7d47f01cb27340f7b22a7a9eaa198025ef16a0473fdc635cfb9738e5c76",
+      "en": "「Charging in, $$シルヴィア$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:195": {
+      "repository_source_sha256": "8b8b872d4b80a62e8dafadaa8e666e80f60b731d8fb140ccbbd9cec68c41a7e7",
+      "en": "「Sync up with me, $$シリウス$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:222": {
+      "repository_source_sha256": "2489c4c707725730b19b5ce05ff151456953a72434cc7fd8afb333e5cd5e7080",
+      "en": "「While I'm at it, take this too!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:261": {
+      "repository_source_sha256": "fb26dfe9360243173f13a84fc16473573ec8eff5374039249ee043b7733ea02c",
+      "en": "「Overeating isn't in my dictionary!!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:294": {
+      "repository_source_sha256": "158d588d5d553380bc725acc7c92dccee14992e5be24bc28d3fe19b7a8b04116",
+      "en": "「Another round coming up!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:315": {
+      "repository_source_sha256": "ed886a4c3731c75b05ebc1ce79a72224a5c6050a8514d716a6c39851156fb64d",
+      "en": "「$$頭翅#pilot$$!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:342": {
+      "repository_source_sha256": "57968b461b9f7d90c203b61db05a02d994edf84f3e97074ecc7463bf2c5e1665",
+      "en": "「I'll scatter the $$ケルビム兵$$s!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:381": {
+      "repository_source_sha256": "12edc9492a90618178cffada96e14b32b4e262e6bd3b0af1cefdead9987b6e25",
+      "en": "「I've got no use for small fry! Move!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:416": {
+      "repository_source_sha256": "0a5448445c08f43f04ce75f6934dd41747834edf852f37e48ce65187fa0b6864",
+      "en": "「Up against stuffy soldiers, huh...!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:453": {
+      "repository_source_sha256": "d4372013cf426b339a831d615edd738c191ac23f089af79b046d4e99111ee40d",
+      "en": "「Earth is ours! I won't let someone\\nfrom another star do as they please!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:522": {
+      "repository_source_sha256": "360e17902c1b2e41a3ac4f3a59c7db5a8725bca16f4ad6d2bb69aa15e7fb127d",
+      "en": "「If you came from the stars,\\nI'll turn you into a star!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:577": {
+      "repository_source_sha256": "76b2e70e79325e93558286fa4e271c674b4819c888ccbcc7d330391d1f21e22c",
+      "en": "「So you're the boss!\\nI'll crush you!!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:624": {
+      "repository_source_sha256": "eedeeb345e28a8ab8c2323db13ea0f6917d2e1234523e09d1f07e08be01e03cc",
+      "en": "「What a foul scent...!\\nBut all I can do is fight!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:673": {
+      "repository_source_sha256": "db89c7c43704907fb18da51db6be450a16c09aa1c6b1f1cfafa40873838ef17a",
+      "en": "「If you get in my way,\\nI show no mercy to anyone!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:724": {
+      "repository_source_sha256": "98bb2b1f608f393834183c8dc042e5daa386844490ae1df41694666111e400a0",
+      "en": "「Apologize in the afterlife to those\\nsacrificed for your ambition!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:787": {
+      "repository_source_sha256": "9864ce3216877a3240f9874be8f7e5b2828086a22017eeba86b5705c033bb68a",
+      "en": "「I'll never forgive you for\\ntoying with people's lives!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:844": {
+      "repository_source_sha256": "9e9ea6f5c070533a92bcbf8dc72a466f37b0126c193f1795c21acf0ed5803365",
+      "en": "「Right!\\nLet's go, $$シリウス$$, $$シルヴィア$$!!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:893": {
+      "repository_source_sha256": "7f49228b5446908a03b23a15b36284806040de56b793316dffc161a48669069c",
+      "en": "「Daaaaaryaaaah!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:924": {
+      "repository_source_sha256": "dc357487640da6efe03cf360d5267f147117b5cd816a07e573eb5a63c85a4911",
+      "en": "「I'll slug you good!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:959": {
+      "repository_source_sha256": "c7244a24f5a8b97cefea0ad170b576182e5094ea007adca23b187bd2f38f9024",
+      "en": "「Raaaaagh!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 1"
+      ],
+      "alternatives": [
+        "Raaaaaagh!!",
+        "Raaaaah!!",
+        "Rraaaaagh!!",
+        "Whoooooa!!",
+        "Whoaaaaa!!",
+        "Wooooaaah!!",
+        "Raaaaaaagh!!",
+        "Uoooooh!!"
+      ],
+      "review": "conflict"
+    },
+    "35:980": {
+      "repository_source_sha256": "6786c9b462a4bd4fdd99925883bce382979e9418d31307e99bb3acf14c61ca6a",
+      "en": "「Infinity Punch!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 2"
+      ]
+    },
+    "35:999": {
+      "repository_source_sha256": "c501588f468510556c2bf552ddf1c91eaefbf792d2196a1a256142bb01e79220",
+      "en": "「Finishing move! Infinity Punch!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:1026": {
+      "repository_source_sha256": "687bd821f734d602774f1581d430dc4c4536be17452c5c69fdec675d4935bc97",
+      "en": "「Stretch out!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:1051": {
+      "repository_source_sha256": "e61e93de96d18b036d0b8e4e5912f2cbfd5b3f6100370afb4c5d40d9e90b30e3",
+      "en": "「Finishing move... Moon Punch...」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:1074": {
+      "repository_source_sha256": "9761169038b6bc7462b8b62b18aa6c3b97181ae0f78cfaeacde52ba51982f988",
+      "en": "「Thanks!\\nI won't waste your power, guys!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:1131": {
+      "repository_source_sha256": "9559b0f715741875c8aad06c20269a6839576338493415b6fe8cdbac1602f36d",
+      "en": "「Raaaaagh!!\\nThis is the finisher!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:1182": {
+      "repository_source_sha256": "28081c8ca8326ad10f2b11ca9dcc6c5632203b9c2764e111fd64094e588aa9bf",
+      "en": "「Hold it right there!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1201": {
+      "repository_source_sha256": "6988bf19a151f7fd408b52d6afbc4b02f19c2982e51481b553d6977e22121602",
+      "en": "「You've done it now!\\nIt's my turn this time!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1250": {
+      "repository_source_sha256": "13949e4ab80af01312f093f0880b9f9d944d9eeceb80672586d2747cce147b73",
+      "en": "「The great $$アポロ$$ doesn't just\\nstand there and take it!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1299": {
+      "repository_source_sha256": "1f141f5b055ea844d4b2077495240f3c3521ae5a19bd7a6c4f229f7f36edb116",
+      "en": "「Time for me to pay you back!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1328": {
+      "repository_source_sha256": "bda6939304709e940c2c500ab8195f4c751f0f9d9cbe2be6c2a4996a311db98c",
+      "en": "「Damn you for getting in my way!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1353": {
+      "repository_source_sha256": "4f8228b725524614922c4553720fa761caf1d38cec4b564fdee21b8eaaf58ffd",
+      "en": "「I've got to do it to survive!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1392": {
+      "repository_source_sha256": "04911879f47dd70e8c09c8b4f156466c8a94f8f838662622ea2ac66132814e0d",
+      "en": "「Bastard, I'll pay it back tenfold!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1427": {
+      "repository_source_sha256": "7d262734339e5c9874ae34d605d6881600dd3b4d376756fc61ac924527273964",
+      "en": "「Mess with me and you'll get hurt!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1460": {
+      "repository_source_sha256": "69e365fc2a0d36ce47203a7b81bbda2dbcc98c609814d764050202c651464161",
+      "en": "「If that's what you want, no mercy!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1499": {
+      "repository_source_sha256": "57a5381816cb85eb1e8777f33f893da4ab844e3ffccc78f3a7f7e58f9153895e",
+      "en": "「If a hit like that could win,\\nwe wouldn't be struggling!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1544": {
+      "repository_source_sha256": "5cc197925b22c1dda2f86b998c8fb25b5887e6b89579e3ffb95fb2d964ee0018",
+      "en": "「I'll finish this off!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1573": {
+      "repository_source_sha256": "ea1bb88e6edc91eafabd00331ec4de3693f89d759e867149b42a5abdec127811",
+      "en": "「I'll do it!\\nYou stand back and watch!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1618": {
+      "repository_source_sha256": "d012555c696c325b1df4f89e930ac8a1f9dd2cdd17868555ffe201ce97727710",
+      "en": "「Watch out! Get out of the way!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:1651": {
+      "repository_source_sha256": "eb68461218d67dae4083c2ac68bced2260caa7d36bec3fec59d1b6bef05f4f7e",
+      "en": "「What are you spacing out for!\\nYou'll get taken down!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:1700": {
+      "repository_source_sha256": "39ba1c39c88ec594ee0535f07a27e5d90d54ef6440d379c2f820da6a0488b917",
+      "en": "「I won't let you have your way!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:1733": {
+      "repository_source_sha256": "c6da7b033412688244472a823f1ba88be6fb347ecb18e46f1aa94a38b074160f",
+      "en": "「Leave this one to me!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:1756": {
+      "repository_source_sha256": "367266edaab2f1f6f7702528c5bdd935f71a95a016f9520b1b1c4f87c7669036",
+      "en": "「I won't lose in a one-on-one!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:1787": {
+      "repository_source_sha256": "76f92fcc8fb4ae28a56dc831ef22e8b1ed7fd489af65825dd4e4a47d72146f3f",
+      "en": "「So we're focusing our fire!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1814": {
+      "repository_source_sha256": "3f127ff7e707eef5393089a9148e7333a8f1086f4cc5ba5e4f4a893f3ea5da62",
+      "en": "「I'll hit them square on the nose!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:1845": {
+      "repository_source_sha256": "d9fe9eac3780c23c609753e2ef5f2cf4c747eef239b4891f74349e85610dc399",
+      "en": "「Tch! So I wasted too many shots!?」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:1884": {
+      "repository_source_sha256": "1fc15703f01bf58e40fa3351d06178ffb202e9d06072cc46a632def01a4ea825",
+      "en": "「Damn...! My strength is gone...!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:1917": {
+      "repository_source_sha256": "50c4cfbb6f93e201421c73de253a8e15e5229e4deabf8bd9fefc4924aafc8a02",
+      "en": "「Where'd that attack come from!?」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:1956": {
+      "repository_source_sha256": "0dd1720460ffc180434b288ccec261c084a827aa27d695cb4d3a01e23c1f0a87",
+      "en": "「Damn it!\\nThat's dirty, attacking from there!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2005": {
+      "repository_source_sha256": "41f07cc53f8aca6bc686e6d9020e6745754458d1da5936627c456339a95a698a",
+      "en": "「I can't get a shot from there!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2032": {
+      "repository_source_sha256": "32b8e071a04aac4041a99310ba44b4c3878003f73998ceef3dd1f16670e762a3",
+      "en": "「I don't care if it's cheap,\\njust hurry up and find them!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2087": {
+      "repository_source_sha256": "1bef20d2e9d91dddfd74e50bce8d5f6849b2bfb27778f65f116c080fd82b776b",
+      "en": "「Shut up!\\nJust watch quietly, $$シリウス$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2132": {
+      "repository_source_sha256": "787a5c015b862680842c972acb3c4db76f0ea14b586538437ce52d355a70669e",
+      "en": "「Not falling for that!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2155": {
+      "repository_source_sha256": "057e5ff0c891a4c9b18db5705d0e25fcacf3fe5406fdc8ac0f43516acb5fb12c",
+      "en": "「Asking me to get hit!?\\nNo way!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2204": {
+      "repository_source_sha256": "abf18f1a0a7600ad92b8d8962879589f82eb87765cac2c44222e289432335d1f",
+      "en": "「Too weak!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2217": {
+      "repository_source_sha256": "247ca3b33424bd7c105d72c4ab6e85058f4d9012c85fa66d2ab706768c4ee951",
+      "en": "「Heh... that foul smell was right!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2252": {
+      "repository_source_sha256": "aa6034a64b3b02336ee88722be82fb269a0149fc6355f4d502f04391dbcac907",
+      "en": "「The great $$アポロ$$ won't take that!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2291": {
+      "repository_source_sha256": "740837a55077007a16c0d062af77e9df02807d3aa9639af6d1be9e5c5a3c2d56",
+      "en": "「What's wrong? Hit me if you can!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2324": {
+      "repository_source_sha256": "363024c76a8ccc87eda079f32edf4a6c696e4a387c684295c3e3d91093e7008a",
+      "en": "「Heh heh! Way off!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2353": {
+      "repository_source_sha256": "94af20529c504f71c5c53e2ed8abc837568862b2004320dc806cc165a40170fd",
+      "en": "「Don't worry, $$シルヴィア$$!\\nIt won't hit us!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2402": {
+      "repository_source_sha256": "c8b58a4844ad754a4844c09740f7068057a4d85e21685b55d728bf904a735f81",
+      "en": "「Impressive, $$シリウス$$...\\nI can't fall behind either!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2449": {
+      "repository_source_sha256": "0fc8c9139a7f2b7b24b489acdeebca09b345440eb83a2a02a17c1348a907c891",
+      "en": "「Like I'll take a hit from\\nevery small fry's attack!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2494": {
+      "repository_source_sha256": "8a1e7101390b7125a6c955f5a8be59fc6d65a49111e57e117e9409d1e93248cd",
+      "en": "「Heh, it's useless!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2515": {
+      "repository_source_sha256": "691afbca8cdacaf67ef3df91fecc798ff2a4320340cafcdf227cb9d02123ebf5",
+      "en": "「Like that'll work on me!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:2548": {
+      "repository_source_sha256": "a826d95ca77b99d5c1cb0b94d5680834a35fc752707dc4fcab039aede2e4f3ce",
+      "en": "「Tch! Stay out of my way!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2583": {
+      "repository_source_sha256": "880403153b7435bed09b289283ed7b367b7a43e50ea5763b48b85b0e58b6bf45",
+      "en": "「Damn! Quit darting around!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2620": {
+      "repository_source_sha256": "2e0669f68d20b1858b556d7a14185d62cff5c0495e76bbede41e3433e14adbfc",
+      "en": "「What a wimpy attack!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2647": {
+      "repository_source_sha256": "edacab21e5e15c06d9773d7b2f3b1be5d11b7ba5fcb65bdb78ebde9bebfee89f",
+      "en": "「What, all show and no power!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2674": {
+      "repository_source_sha256": "f0b706d8e5e8d879dd6d95ca00be65836037cf56bdd63ec76def3a2869699ca6",
+      "en": "「Heh, you're no match for me!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2703": {
+      "repository_source_sha256": "ced7dde3e4105bf730804d7ba3c3f1c97263591f58e3c9686240c391ed06c2e1",
+      "en": "「No need to dodge this weak attack!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2740": {
+      "repository_source_sha256": "356d2065a1681d4f153fa8e72a10a560808f5f52142077035ca19f2e30ed94f8",
+      "en": "「You're too weak to pick\\na fight with me!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2785": {
+      "repository_source_sha256": "4153428d3087342372bd087723f355d06dea6aba5d0d5c7e5f22219dcb9bd5f0",
+      "en": "「Tch!\\nNo time to bother with small fry!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2830": {
+      "repository_source_sha256": "b16cf9c1011bf69aba0d00bd45981cbffd718c9de390d9c142bec34670f12305",
+      "en": "「That won't work on\\nour $$アクエリオン$$!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2875": {
+      "repository_source_sha256": "77162ee642bf28f5ee64063802bee759a0eaa5fd34eefedc2b0ce5ace9488809",
+      "en": "「It grazed the leg!?\\nAre you okay, $$シリウス$$!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2922": {
+      "repository_source_sha256": "4b929d63e58f07998237b748896dd88e6e0478f96024c046e1cf90db8b1928fc",
+      "en": "「You're annoying, you small fry!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2955": {
+      "repository_source_sha256": "cf8a7538e755e8a8aba83c5d96d45cad777a322d9809729fc1e8b5cb3ec1453c",
+      "en": "「Ngh! You bastard!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:2986": {
+      "repository_source_sha256": "3b95045c9b8702c1f64cd5210a3abdd86fe8fedb011e7702618feccd55d5adaf",
+      "en": "「Damn you! Don't mess with me!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3023": {
+      "repository_source_sha256": "d8445509a9b7c9593c9ed3428355e6ebf8fe888c49a336ef622501d88ccf21ae",
+      "en": "「You did it now!\\nI'll pay you back for that!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3074": {
+      "repository_source_sha256": "22cf7f826c3af4ddcc7885a019e2b465c21a442d22fa3b4cdfba520d127b01f5",
+      "en": "「You bastard! What're you doing!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3103": {
+      "repository_source_sha256": "c5c9da12f7ba46f018459d172d3bd892fca2a0cc11a26f63fdb4967d07e45a6a",
+      "en": "「Tch! Don't get cocky!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3140": {
+      "repository_source_sha256": "ffafe397e5015e64ea359350d438e65696142b728ce98c8c2db539aa62b986ef",
+      "en": "「Whoa! That one got me!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3173": {
+      "repository_source_sha256": "1b7a91ba8a98c96317d45039fd900d61936bd372e373691439d612c4e7e21446",
+      "en": "「Guh! Heh... Now I'm fired up!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3212": {
+      "repository_source_sha256": "a302fccfcdc024e8df701ffaf57e1c548511e02a49c8eeefa0f3d66865522828",
+      "en": "「Aaagh! You bastard,\\ndoing whatever you please!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3267": {
+      "repository_source_sha256": "f72e8e161d8bfcc640d52be98639c8bfccf1e913379dc9281ae0d9c181260f67",
+      "en": "「$$シルヴィア$$!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3284": {
+      "repository_source_sha256": "dae5dd452d43c6f9e0d21aea27253383c5459446e101270a93003c121d0c5817",
+      "en": "「$$シリウス$$...! Got it!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3315": {
+      "repository_source_sha256": "fb2f1bebc0891914b0c4db1edaf5a089d705eb8b4d5b39ae87ba68d9b332ddec",
+      "en": "「Getting pushed this far by\\n$$ケルビム兵$$s...!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3364": {
+      "repository_source_sha256": "2f74d6031cbff12e7d80c86c21a4797bb8cc8d2d3bd6cc07de7040f282044be3",
+      "en": "「Waaagh!!\\nWhat monstrous strength!?」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3417": {
+      "repository_source_sha256": "daa0d693dc3311dc3aa4e6acccb4d39cefea7d3d068db059c9e01eabac437c12",
+      "en": "「Damn!\\nI can't do a thing against this!?」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3462": {
+      "repository_source_sha256": "e27f6ac100aaa3d74be7f2f4cbfc639b14638fb5495e63c244265eb8f8042b1f",
+      "en": "「What's going on!? It won't move!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3499": {
+      "repository_source_sha256": "2ee55869771d67ec488fd28f1cd09a29905bc8264fca158e964fae75ff56c758",
+      "en": "「Waaaaagh!?」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3524": {
+      "repository_source_sha256": "f53d19666c469ee6ea7a7f89fa300d5f74e33fde2b3a7e0c1bfc6b34533d53d8",
+      "en": "「That's all you've got...!?\\nIt didn't hurt at all...!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3577": {
+      "repository_source_sha256": "c282f17169b50552c0eccbb236b6da12ce3e305a62ddf09f69aee18feb602677",
+      "en": "「Guh!! ...Finally serious, huh...!\\nNow it's getting fun...!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3646": {
+      "repository_source_sha256": "797d67f092728e16a8bb32abf5610b7667aee84f9031b2e0ddf584df6c5b8ed9",
+      "en": "「Heh... I don't give up easily...!\\nI'll struggle to the very end!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3719": {
+      "repository_source_sha256": "bb78e7e20733dbf6b0ffd79eb8d47e625218b980cdd1e2ed6e059b98d116ac05",
+      "en": "「Not yet! I'm not giving up\\nuntil the very end!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3788": {
+      "repository_source_sha256": "47facd8f11a27c45e2900b1770548dabf13306697aec9c01e20961f3370a61f4",
+      "en": "「$$シルヴィア$$!?\\n...I'll never forgive you!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3837": {
+      "repository_source_sha256": "ffeaff41ad3addf2f2f9404b5e2d0306b216412a023b8c3d089feae135f2994c",
+      "en": "「Don't worry, $$シルヴィア$$...!\\nI'm never going to lose!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3896": {
+      "repository_source_sha256": "873ce4f024c8309cb422c8560f6034ead1928d7aac77c33acff36a0e03a8fcce",
+      "en": "「If $$シリウス$$ says so, it's right...!\\nToo early to go reckless, huh...!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:3969": {
+      "repository_source_sha256": "74f771caa2c15c26a386c952543a2d5ed158c8df96425a80076a863e8f85df73",
+      "en": "「A $$ケルビム兵$$ this strong!?」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4006": {
+      "repository_source_sha256": "fc307cd5c0a80a9871757f2508866518ea2085663154c14d2f0824ca1b4ab370",
+      "en": "「I lost...!? I actually lost...!?」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4045": {
+      "repository_source_sha256": "9e6a42583aea167dacd4adc17bd6176adb99d9f5cbacb97a3b2e364a79a21ed5",
+      "en": "「Daaaamn iiit!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4074": {
+      "repository_source_sha256": "d17a41c7477664f34ba19c8d6de304fd38cf4ed4eb18a6bf31b67e8686fa5d08",
+      "en": "「Aaaaaagh!!」",
+      "source": "jigoku",
+      "slots": [
+        "shot down"
+      ],
+      "alternatives": [
+        "Waaagh!!"
+      ],
+      "review": "conflict"
+    },
+    "35:4097": {
+      "repository_source_sha256": "1d60f2680a56510a964dc250904b5ea0d91034f4ed2fbc7f7853ff02ce46ad05",
+      "en": "「Genesis Union... GO! $$アクエリオン$$!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4150": {
+      "repository_source_sha256": "2b6c1d105f8ffcd44602fc3b452cdcf8e022fd6d200c1fca2b004716a1bf9134",
+      "en": "「...With luck, see you in 12,000 years!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4203": {
+      "repository_source_sha256": "720d871f30b7d583ef4d2a8053dc49dca2a50f01c657a719349d6003f34ef9ec",
+      "en": "「Haaaaaaaah!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 4"
+      ],
+      "alternatives": [
+        "Haaaaaah!!"
+      ],
+      "review": "conflict"
+    },
+    "35:4226": {
+      "repository_source_sha256": "2c16486f84a25766c81481d6cebe6016e39953b9d3da2600e649d016d2365955",
+      "en": "「Aaaaaaagh!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4251": {
+      "repository_source_sha256": "6180f474df943eb1cee3b800b176b7e96c4415ade5463420bfa1e681154d5561",
+      "en": "「Daaaamn it!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4276": {
+      "repository_source_sha256": "71e1f18552328be260cfd1b27dbd86b51280bc0ce57691c77d9b6cac8ba329cd",
+      "en": "「You bastaaaard!!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4301": {
+      "repository_source_sha256": "0a834021a14adfc14d0acdb484583f6189565247890368b9e90a956fef814351",
+      "en": "「Everyone! Let's do this!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:4326": {
+      "repository_source_sha256": "807e615226afc5b7fbf86631d706862b297588242fdb53e3b38696f29ba34478",
+      "en": "「Here we go, $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:4349": {
+      "repository_source_sha256": "2cb3e33596571b5f4160e06892f3880ff81bf562f900bb9ce31adc1f8e75373d",
+      "en": "「Ready whenever you are, $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:4380": {
+      "repository_source_sha256": "84e2d93491614994b446eb223faad2dbc0b1dd7d6dbf10b8aa94b3ec4107a161",
+      "en": "「Understood!」",
+      "source": "jigoku",
+      "slots": [
+        "attack",
+        "counterattack"
+      ],
+      "alternatives": [
+        "Understood!"
+      ],
+      "review": "conflict"
+    },
+    "35:4391": {
+      "repository_source_sha256": "2f558f75c95dddecff565d1a199838c491c6705c2979e8841632729384ec6965",
+      "en": "「Big Brother! Stop it!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4424": {
+      "repository_source_sha256": "5086389de5f00710b7f360746caddadd05f564f6f79337c0919da4034d811d94",
+      "en": "「$$アポロ$$!\\nLet's settle this with our hands!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:4473": {
+      "repository_source_sha256": "3b46ef7c3abc5fa7f21154191812da528e73b59f7291d3bcbb617b430ea918a8",
+      "en": "「Take it, $$アポロ$$!\\nTake my feelings!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:4516": {
+      "repository_source_sha256": "31e46403d61071943853c99302832b58f1fdc12a24c7072effc52fb727b54aed",
+      "en": "「Not faaair!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4533": {
+      "repository_source_sha256": "1706656360d001150208ed2e1eb0aeb59ecad046599defb7f882803dda4961c3",
+      "en": "「$$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:4546": {
+      "repository_source_sha256": "42b580b75f962436eb113613a6d9a7714674295f48e4780c73928b1a1f7cd783",
+      "en": "「Eek! Don't scare me like that!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4583": {
+      "repository_source_sha256": "766e16c2c8b78ccc6e4054d67eadb20ebdba01f13eca5170c72a736aa8bc6f46",
+      "en": "「$$アポロ$$! Dodge it properly!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4620": {
+      "repository_source_sha256": "90e7f0cabade6b42c70ee16dd247dbb0268b8169dba46ef97fc4a48870d79dc6",
+      "en": "「Not with an attack like that!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4639": {
+      "repository_source_sha256": "996f9d720221cd1cc16fdaeca4234638a93fb109134ca1f72a467af5929b1ad5",
+      "en": "「Ngh! I won't be beaten by this!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4676": {
+      "repository_source_sha256": "821d6163a324c51aa37ac7f2bc0cbf601dbbf2b704e8314a3c2f90befa81279d",
+      "en": "「We're still going strong!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4713": {
+      "repository_source_sha256": "dbcc697e794cae9e9f7e0a6bbfcad81d85159bbe90fbde700e24b0c7310a9076",
+      "en": "「I-I'm fine, $$アポロ$$!\\nDon't worry about me and fight!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4772": {
+      "repository_source_sha256": "c1b9f9a406120105294ca2b3a034c494a87abd6cd7a9f55a77619ee98a6158f3",
+      "en": "「Kyaaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: heavy damage"
+      ]
+    },
+    "35:4791": {
+      "repository_source_sha256": "27d17cc62a5cd2336c8111de4c8b44978d3246047fc79590cbaf57e5322b657d",
+      "en": "「$$アポロ$$...! We die together!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4824": {
+      "repository_source_sha256": "8b93d3388b6554ea2608172d650148eda2535b4022a7d1964fd6e8a8f088d140",
+      "en": "「$$アクエリオン$$ Luna!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4855": {
+      "repository_source_sha256": "610e71389cb3790fa80b6a01fa2c86ea4ba16e7a64d2b5fd4f33c53fd3145b66",
+      "en": "「No way... this feels good...」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4878": {
+      "repository_source_sha256": "2e7720f5937f5bfac69f7515455d95264c131ede2c2b73d3bfb410fe6f3ce2ed",
+      "en": "「...$$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:4893": {
+      "repository_source_sha256": "1e975a1b4babf9aa878ac415da8687fa34ea76d42d192c2ed09a13a0c1ac7fb3",
+      "en": "「Right! Don't lump me in with $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:4932": {
+      "repository_source_sha256": "3eef1f0a53252988da9cfdf8d2fba6c90fafc11d104d1ee3a3a2e4b30c7bf2f3",
+      "en": "「Big Brother! You said resets were poor form!?」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5001": {
+      "repository_source_sha256": "c592523c323eef3461412c33830c557a15edce9ba8bcd39e3384f3503e500841",
+      "en": "「Understood! Let's go, $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5030": {
+      "repository_source_sha256": "6e29e01644f60650e0fdb801f92474e424d8097d90f738fef5c0b9c7bd067f0b",
+      "en": "「Prepare yourself, $$堕天翅$$!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5053": {
+      "repository_source_sha256": "07ec5235560a37d89b91090c1836e705aee856497be1d8852cfb25fef8aade41",
+      "en": "「Last battle... Stay sharp, you two!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5092": {
+      "repository_source_sha256": "8805f3bf13fc3864a1b8650a0baa8c9e040ffa156f14eba1125daf9d7eb6f149",
+      "en": "「What are you doing! Pathetic...!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5123": {
+      "repository_source_sha256": "79e72aa04801fe4eb0d4d05a345b0eb9f3a478b4a2c654a898723069dfcb2088",
+      "en": "「Saw through it!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5140": {
+      "repository_source_sha256": "13763688c568ce643adea702b166d3f28f48c7d998d468b5d82612a7f92adc5f",
+      "en": "「No need to worry!\\n$$アポロ$$, focus on the battle!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:5187": {
+      "repository_source_sha256": "e42ecfd5ca5f5315d9fea8c29ebe0bbd30d6217554a21adb0625b10fda0e86d6",
+      "en": "「$$アポロ$$, stay calm!\\nThis is an attack we can read!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:5240": {
+      "repository_source_sha256": "7535373ebef76102409c8dcbe634c237287b0ed1ac0bc1838b581b04a69e53ac",
+      "en": "「Don't lose your composure!\\nWe haven't lost our chance to win!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:5293": {
+      "repository_source_sha256": "2cc8fece21efd03aba661e736d17a2dc0ab9bbf0aaa6eefb147537d8d284d322",
+      "en": "「$$アクエリオン$$! Mars!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5324": {
+      "repository_source_sha256": "4d3f9560fe25c0afb94b4a54a7c78b111426a899b190493aa4736a1872173f60",
+      "en": "「Enough, $$アポロ$$! Not all are as tough as you!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5393": {
+      "repository_source_sha256": "953271b698e775c104ce9a58fed823dfb17ee1fda7062feafcdec172c4c28f25",
+      "en": "「I won't allow insults to my sister!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:5424": {
+      "repository_source_sha256": "c3d2a7a69c37a95e65cd9f07431d53510378323a39b83eedb00272bc2370d6ce",
+      "en": "「Ngh...」",
+      "source": "jigoku",
+      "slots": [
+        "special cut-in (?)"
+      ]
+    },
+    "35:5435": {
+      "repository_source_sha256": "a9e6214c561cfa8071d21e6cf2d376ef3364bbf26d246749cd8f352a49b48c32",
+      "en": "「$$アポロ$$, take it! Take my power!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:5470": {
+      "repository_source_sha256": "466eb400c76b697c9cdc990803218a30bf530a756c9811ee709b1baf3c19ff71",
+      "en": "「I don't care where this is!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5507": {
+      "repository_source_sha256": "b903442279f1adf340505a839abc50d0a1ab798919efb4b0cb262471129c6cd6",
+      "en": "「So every world is about the same!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5550": {
+      "repository_source_sha256": "efffb5cc5942d67abfb47c22b376a32cc2b8c716a9d79920bea7c0e3d63ae201",
+      "en": "「I fight to live!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5577": {
+      "repository_source_sha256": "139ef65483260fd28a49c1263c474b857977462906682ec93c7a104ea264946f",
+      "en": "「Then I'll use force too!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5606": {
+      "repository_source_sha256": "28fbe7ae15aad54879cd5dc19f11382f10e4d26d3326348f33d698a39355adb0",
+      "en": "「If you're coming at me,\\nI'll take you on!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5655": {
+      "repository_source_sha256": "c62ab4f7f1f6ac1d419ef7a67513be6fa2cbd91e16fd3a7b02f4373cba47ad0c",
+      "en": "「Here goes...!\\nThis is the power of $$アクエリオン$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5704": {
+      "repository_source_sha256": "4c3e2ac2ec76db4a4dfab825e01ded3acf145255f90da90b3fc8321b0a4ef22e",
+      "en": "「Let's show them...!\\nThe power of $$アクエリオン$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5753": {
+      "repository_source_sha256": "33f599ec70db1560f1830b99de154f01ac89bbe1141fc68ed2988c400767153a",
+      "en": "「I'll borrow everyone's power too!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5780": {
+      "repository_source_sha256": "735b8e6ee34bad88bbdfbc53649b190fc7d9b68ce171981d2fd87626adf92cc5",
+      "en": "「I can't forgive your selfishness!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5823": {
+      "repository_source_sha256": "57ad98a715c3e88001b855d6136745e4083131510e6f41dacd51eb79b6199219",
+      "en": "「I can't stand arrogant types!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5860": {
+      "repository_source_sha256": "2d114f60927c6244520b318b44004365e49770c8325f4f9267ba547d643f4928",
+      "en": "「Something inside me starts aching\\nwhen I look at that one...!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5917": {
+      "repository_source_sha256": "1a4232807b47f4474a9ce7e8de63dad129d5043d3ee5906ce051cfa49bc790a4",
+      "en": "「I'll retake the universe from you!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:5958": {
+      "repository_source_sha256": "ccbe8c517f4a88667dceaa9c516c2a6b497af12b03bb7384711ccaccf9b29bd7",
+      "en": "「Ties from the distant past...!\\nI'll settle them here!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6013": {
+      "repository_source_sha256": "8836cccfd427d87b26f7094f5caec4c0f29e00bb48c564de142c1eee5da89ed1",
+      "en": "「This $$アクエリオン$$ will avenge the\\n$$天翅$$s' wrath and hatred!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6068": {
+      "repository_source_sha256": "43032e61d437ad02a1469bf531971a1e326dbe25e578b4d46bb6ffa1a97007ec",
+      "en": "「My fist guards all life's future!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6109": {
+      "repository_source_sha256": "d39adcf4edb9be8b22244e8eaa23bf78d3cd257fd73ab582cf05c9173f39e450",
+      "en": "「Can a selfish punk like you\\ncarry the world on his back?!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6164": {
+      "repository_source_sha256": "39566a2373042f2247a5487e2bd8290f6cf21934e8f8cd792ae7465f914f07b9",
+      "en": "「Mechanical Beasts? Just blast 'em!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6201": {
+      "repository_source_sha256": "b466bc04e84eeb1482aac5c3621d06fec79f1dcff2449f9ec1f9ed2fde9a8087",
+      "en": "「I'll knock you off Earth!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6232": {
+      "repository_source_sha256": "94e6ba275d970ff2462891f586a7c6e6e2cd2f124bb89e665a91fdfa0ab90505",
+      "en": "「Let's go, $$バジュラ$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6255": {
+      "repository_source_sha256": "5720c824cf3cf6402b40eccbfc1ff37a0981f69a5c7e9ce5bcd42e021410782a",
+      "en": "「I won't let you have a say\\nin how we live!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6308": {
+      "repository_source_sha256": "6b4b4e73b8dfbf5160cbb4e0078f6d0daa6e274a7cfc466dff4ab28e1911353b",
+      "en": "「We live because we want to live!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6345": {
+      "repository_source_sha256": "6f581d7011277ccce0e4f8ad749e31b999c62ea0f34311de267f8e97f9533361",
+      "en": "「I'll punch you out and end it all!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:6388": {
+      "repository_source_sha256": "dc777b3b550c0997cd7600a0162ca552b4a89f44e6570783fd545175226de0d9",
+      "en": "「Get blasted to the moon!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6421": {
+      "repository_source_sha256": "10b51308b58bf34b590a84b8bcb2fac9e27c47483490754d7d101a2b17db859e",
+      "en": "「Yeah! That's one done!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6446": {
+      "repository_source_sha256": "af62caa7b08b06cd820cf4cda2dfab0d7d0b1c6a4b1f26b383edf8a291799db0",
+      "en": "「You're not getting away!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6479": {
+      "repository_source_sha256": "f38e6b41ffdc880bb4f46addc5141e7574a8a861ac2d87d45ee13b09160d7b07",
+      "en": "「It flew pretty far, huh.」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6502": {
+      "repository_source_sha256": "88746773994f943f2b6a731263a27aff74bb1cfef308338a106123d184a8ec4d",
+      "en": "「Free dark and light in my soul...!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6539": {
+      "repository_source_sha256": "b8545992d57b90df803f8be3f48fd975574eece90e7336666d0199cc20fcb43a",
+      "en": "「Gwooooooh!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3"
+      ]
+    },
+    "35:6558": {
+      "repository_source_sha256": "2c80bb82cea61b706ca8a13ddcaaaecdab8e845ef22b5fd3475421506a0ddeaa",
+      "en": "「A miraculous comeback...!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6577": {
+      "repository_source_sha256": "abb7bab486dea4d63dd9c6895449618f726f05fa22e8e5a671061ee73e4606d6",
+      "en": "「One-Shot Reversal Fist!!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6598": {
+      "repository_source_sha256": "e39a9751b0d16f24e6c053d37ecf4d7830c7e1df05ff96b4438ae89065c14078",
+      "en": "「The flower of victory has bloomed.」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6625": {
+      "repository_source_sha256": "045e26e5d42e9d4d04932ccc1871cf3669fa53df9024fc2c821da53c1ec7728f",
+      "en": "「The power of life...! I'll show you!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6656": {
+      "repository_source_sha256": "2ff0f9c628fa751e11670d3eb5beacee0f0b78fc59030195d6f25d236a4ebc7d",
+      "en": "「Haaaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 3"
+      ],
+      "alternatives": [
+        "Haaaah!",
+        "Haaaaaaah!"
+      ],
+      "review": "conflict"
+    },
+    "35:6675": {
+      "repository_source_sha256": "0fb59e4ce546e9016e189cefaab8cbd701b0cdf1869ccbe944334626349307aa",
+      "en": "「This is $$アクエリオン$$'s...!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6706": {
+      "repository_source_sha256": "bdc26097158d7fdce69aa2580f78a45d035613d697fa2e7596bd72dda08e49ae",
+      "en": "「It's the One-Shot Reversal Fist!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6731": {
+      "repository_source_sha256": "dfb5208f9c075d6731e633cd6a3979b1e851e74a9ba00a7d7f3155cce6f0dfb9",
+      "en": "「Heh heh... Nailed it.」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6752": {
+      "repository_source_sha256": "aafa8ddc400cb5422ac1e673801778b47b984f3dc947b6b31ca5c47f338a8f1f",
+      "en": "「Hraah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "Deyaaah!",
+        "Hyaa!"
+      ],
+      "review": "conflict"
+    },
+    "35:6767": {
+      "repository_source_sha256": "a443fb8793eed9dfc704512c7c4e9941a072b6a567d56c2d9034d72ec2cf4000",
+      "en": "「Oraah!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:6780": {
+      "repository_source_sha256": "44fed2b33bd2de9514389fa0fba5027dd18b39f3c5222e30d02ef5a00b770b2c",
+      "en": "「Take this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ]
+    },
+    "35:6795": {
+      "repository_source_sha256": "5fb85da8dac91d9a3ce67fe4a89c828eb494100f9764e5ab3434b750636a80a2",
+      "en": "「Take this!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "There you go!"
+      ],
+      "review": "conflict"
+    },
+    "35:6810": {
+      "repository_source_sha256": "4c132bd1111758b4eb44800fab6caee2f5c4280507fa7b9aca7e5a7ef541e5b0",
+      "en": "「There!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 0"
+      ],
+      "alternatives": [
+        "There you are!"
+      ],
+      "review": "conflict"
+    },
+    "35:6825": {
+      "repository_source_sha256": "39ab6eb7dc0ed2500315a489304fd9e23a1ca2cd41de875b0546a725852ec0ec",
+      "en": "「Time to finish this!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:6842": {
+      "repository_source_sha256": "f7b933d74cb2938e0af9f81006004f2934a518c46f1a4a923a80c7287862a6fd",
+      "en": "「What the hell! Quitting here!? I'm not full yet!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:6923": {
+      "repository_source_sha256": "801b7f4c2c6adfb84e9e88789153757ca164dab37f4ed1ff9b0d4873eaa0ba81",
+      "en": "「Hah! Not from a dopey brute princess!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:6970": {
+      "repository_source_sha256": "6c1f6033cc622a35ee09cc48710b0c3228d35cc20b2367e7f863118cab4f74ae",
+      "en": "「Nor from $$シリウス$$, the nervous resetter!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7033": {
+      "repository_source_sha256": "65a33a22de79f902aa75f2e00fde90cef73c6ec0e90277e018b6d54ce253f0e7",
+      "en": "「Everyone, play however you like. I'm still hungry... Later!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7130": {
+      "repository_source_sha256": "4575fdc6d980f63005e6fa9213846cc1514bd2952e808b931f6731edd0d6efee",
+      "en": "「Oh, a break? I'm getting hungry too, perfect.」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7183": {
+      "repository_source_sha256": "89054b535cfcaae7eeef2af45910054c3c7f4ac640255fe0509f7ae789e61ea6",
+      "en": "「Can't play on an empty stomach. Let's fight again after we eat.」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7250": {
+      "repository_source_sha256": "ef6bcf056c215f6e5f54a623d891a0f6fe4948ebf0df366809f2ec996dadadb1",
+      "en": "「Later! You eat plenty of good food too!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7305": {
+      "repository_source_sha256": "b3cd0dcf75a49b5fff38a486c02473af79543031f746eaf42aed1b21e3566eed",
+      "en": "「Got it! Let's show them!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:7344": {
+      "repository_source_sha256": "f24c9d12dfa68fa5eac81ffda75ad28e6f20e66750f700818b3d9e057d533f83",
+      "en": "「Infinity!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:7355": {
+      "repository_source_sha256": "35317553ba62ff56f62b5d04303a48c3128a0ab9875a5d821bb8d7b7c43d4d6f",
+      "en": "「A perfectly synced combination.」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:7390": {
+      "repository_source_sha256": "1969ea45e3826b04b68e08bdd49d5c0b5e556ff0bc81f9b3e942f8995f19fcbc",
+      "en": "「$$アポロ$$! Let's do it together!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:7419": {
+      "repository_source_sha256": "f6b216f47aa66f229ad312d87c90102966fec0684c53364f3a6de272fc461d42",
+      "en": "「Double Infinity!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:7436": {
+      "repository_source_sha256": "6a440c1fe0b53f6bf2ebf2f1f58275d770e9a965dbfc86e650a846939271a325",
+      "en": "「$$アクエリオン$$!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "35:7455": {
+      "repository_source_sha256": "d85e66277b4c0f92d6d7b487ef24a22950b106829dbd333af0aa240aeb249177",
+      "en": "「Haaaaaah!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "35:7476": {
+      "repository_source_sha256": "9d87c1e534888277cb1caff840435b98335071964b984a7b4c6ceafc3045104b",
+      "en": "「Puuuunch!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:7499": {
+      "repository_source_sha256": "3a9da569dbbb092c5e8a813951bee53fc46f2a5d2babaaa9b87763991edb6989",
+      "en": "「LOVE!!」",
+      "source": "jigoku",
+      "slots": [
+        "weapon slot 5"
+      ]
+    },
+    "35:7516": {
+      "repository_source_sha256": "d64ef6c4d9828e8586dbbe1b9c333b9686aa1162868ddfc73a3322c518053240",
+      "en": "「I lend you my strength! Go, $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:7547": {
+      "repository_source_sha256": "4dec48240f923ea12777376f301a93a407efc40480c42ec94555cb67c4301e79",
+      "en": "「I'll take a good look at your power!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:7586": {
+      "repository_source_sha256": "0ef42e9ea6bce76d260979302678b08a281a9d57ff4d2f4c2897ea5e9c12ec5c",
+      "en": "「Heh, who are you talking to?」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:7615": {
+      "repository_source_sha256": "2c3ed143ca89cb4e4513507c3fcff90f23ecce819a63a51e5d81436c2c8f3b82",
+      "en": "「Let's go, $$シルヴィア$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:7640": {
+      "repository_source_sha256": "044946358e1f3a37f3e52cf2fbc052d2fd57c9b68032b01f0d3b2edbcafb98cf",
+      "en": "「I'll sever the past's ties now!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:7681": {
+      "repository_source_sha256": "a0f0a64db517c870af5e0aefbf43a0189e6d25ea3099fdb8eeba3950a03ee6e8",
+      "en": "「Of people, worlds and spacetime...」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:7704": {
+      "repository_source_sha256": "6cab2e2bd85d97ca7e3770a914a80cb440366185912031e2e13dbabea9389b14",
+      "en": "「Just as I predicted.」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7729": {
+      "repository_source_sha256": "93dfcd81c867090fd6039e8811b2ffe95b2527bacabf2a20649078cda1650348",
+      "en": "「Never let your guard down, $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:7758": {
+      "repository_source_sha256": "6f2e225cc9d20bfc8d372a93253b89bb97493e4aee8894b0c0f1b4e989bb0075",
+      "en": "「What are you doing, $$アポロ$$!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:7787": {
+      "repository_source_sha256": "51608960f73b5f51678dda6ba5c303a87e81ff739b2862fc6eeadb3669da0618",
+      "en": "「This much is no problem at all!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:7820": {
+      "repository_source_sha256": "d3a75d7785cc5583bfb87f8bcf7844de0f43505032720fba60183ac086ec7cf1",
+      "en": "「$$アポロ$$, don't take any more hits!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:7855": {
+      "repository_source_sha256": "83fbe782f9681ae101f50bacd6a7b6eb017cc3a2f59f16a52e050ce0cf6aabc5",
+      "en": "「Don't blame me!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:7878": {
+      "repository_source_sha256": "275b0be2c03a3bc201812227505c62936d4f3ec8e320242ea7ee14280386204b",
+      "en": "「$$アポロ$$, is that all you've got!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:7919": {
+      "repository_source_sha256": "443b403cc57bdf4b258dc54da665ae7037744d5b8c55266eb5c42b982e543d6f",
+      "en": "「Lending you strength! Don't give up!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:7954": {
+      "repository_source_sha256": "0fd0e8ac0072a848c8a0ebcefe516b8b2bfd21dcf03a6621191ed37e39ce674c",
+      "en": "「It's needed to win the coming battles. Let's start, $$アポロ$$.」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:8027": {
+      "repository_source_sha256": "b52b071c47e8fd224b9541040647a02f15824ede800d5703e59d168736fe99b5",
+      "en": "「Players, everyooone! Plaaay agaaain, please!!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:8100": {
+      "repository_source_sha256": "7fd73a99b2163eb3333e76375060ede6c23a19f92ea157c632103194ad92b28d",
+      "en": "「Let's go, $$シリウス$$, $$シルヴィア$$!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8135": {
+      "repository_source_sha256": "6c4845925ea9875a0d15613a8e97b1855d95e8aa5349fb94cdadebd7e00d0c45",
+      "en": "「Sounds fun, I'll do it!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8170": {
+      "repository_source_sha256": "a227b0ea277fbd3652732d8ae2de0453d2ff0563345ca854a5332a2260500c4e",
+      "en": "「Wherever, I'll blast the enemy...!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8211": {
+      "repository_source_sha256": "c644de21419344a2e93be0eb1ec557dc90713a3e1496fc740779bdd4694f88b0",
+      "en": "「Show me how strong\\nyour power really is!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8262": {
+      "repository_source_sha256": "0faaf4e151bd2b7e0087c9c15747e41babebbaae249ede6b2d029e821cf69536",
+      "en": "「I'll eat, eat, and keep on eating!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8293": {
+      "repository_source_sha256": "a1b285f0954d64b208be93dcfaa5730691df57e0075ff6e0309711bc2671edec",
+      "en": "「We can fly, as long as it's us...!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8322": {
+      "repository_source_sha256": "0867cc148b6e2db7ce1b3a0d367b52be83ae9cc27a2af8317c246588460f5c8a",
+      "en": "「Past lives don't matter...! I'm me!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8363": {
+      "repository_source_sha256": "86645e265c53c9d7b1862e076637f0672148572ae8cf233cc145978f6eeec1c8",
+      "en": "「I've been me for 12,000 years!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8404": {
+      "repository_source_sha256": "31a2a9f6261a0ced372bf8df9790f31fd9f2454803977715404211fadbd7af55",
+      "en": "「I'll settle all these ties...!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8443": {
+      "repository_source_sha256": "4368877a581d973926d0fa21f40aed8d30a8758ec3f776512e424e49f75cf755",
+      "en": "「Yeah, I'll do it!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8468": {
+      "repository_source_sha256": "eecfadf56f9ed1cce05d2832fe258de4a326a95e1da612f1f8124a2fcab6ff76",
+      "en": "「Heh, bring it on!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8491": {
+      "repository_source_sha256": "833283db9d58a20c691d64af4fb0aa152057650cd097a5385e88c80c90c71c19",
+      "en": "「Wake up already, you damn prince!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8532": {
+      "repository_source_sha256": "b1c68aa077cf992f7d9d906d7b5e4858b641b6628ad54b74c90a6eabeb6c2d81",
+      "en": "「$$シリウス$$, $$シルヴィア$$, lend me your power!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8569": {
+      "repository_source_sha256": "03950731705b716c7d6c757d3785b7b9085b418aad3b602a6c443c1f343251e8",
+      "en": "「Got it, you rowdy princess!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8602": {
+      "repository_source_sha256": "f747cb7dee252142d22c941e45f12d6962923e9d605098050f32022cad1b797b",
+      "en": "「Heh, can't top Her Rowdy Highness!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8643": {
+      "repository_source_sha256": "f25db32c2673cab5ddc89201b8c0507212d737228c1a2bd00809480ec070907c",
+      "en": "「Take one more hit!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:8668": {
+      "repository_source_sha256": "f6638b07e891a94104e665115d84a09968865b5203d3323b6e851c88b6155bdf",
+      "en": "「You're not getting away!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:8693": {
+      "repository_source_sha256": "476114537e706960ec90b749c6a4c2a60f83755b39fd25474076a338d352e115",
+      "en": "「Feels like there's nothing inside!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8730": {
+      "repository_source_sha256": "9fc35a7830c3cfefc2e16f11233695192c2dcd594be1cfeabe9d029d97318a0f",
+      "en": "「No scent at all from this thing...!?」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8771": {
+      "repository_source_sha256": "d29a85882c454ae23ea6d08f81c9acf2e8d15ef8096d1a679f037f1d06bb76cb",
+      "en": "「I won't let you remake the world!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8814": {
+      "repository_source_sha256": "bc00afe5037164d9ce69d00b16bfbb693973eca21b35cd992e51e505e989b811",
+      "en": "「Who the hell are you!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8835": {
+      "repository_source_sha256": "4074687d24343648d8a18aa938e259f1d9a46f323708f183bca560f4488465ec",
+      "en": "「They give off only a foul scent...!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8876": {
+      "repository_source_sha256": "9f179818f684d483fbb0e169a25801118c70365f98d16b55dc207bb6eef4df00",
+      "en": "「Woman or not, I won't go easy!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8913": {
+      "repository_source_sha256": "42feee0abbad9cb623638623485763e4c5260072e810c6c8795c5d43b6564b28",
+      "en": "「I'll give you a good scolding!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8940": {
+      "repository_source_sha256": "aa7306ca109c85065e3437d523e3ffd6124432e105f067334262d0b2108665b9",
+      "en": "「This scent again?! I'm sick of it!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:8981": {
+      "repository_source_sha256": "1b4a95d857e8cade2d8bbe1f95cf1e72ff1e8f593049dc8ac590f2b4f615ba36",
+      "en": "「I'm fed up with you lot!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:9020": {
+      "repository_source_sha256": "0319bd6495f48fed255963591e9d09dc1ec73ab83fb47972a50025de9dae7071",
+      "en": "「Let's fight till we understand!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:9061": {
+      "repository_source_sha256": "eb82e239be1d1665f508654f27ad799d1767079838a8972632df23e56fd94c5c",
+      "en": "「If you come at me, I have to fight!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:9096": {
+      "repository_source_sha256": "1aa1163262b30f915f5013284bbfc31cdc9d32ec76261df6e574488297cfddea",
+      "en": "「Looks like I'll get stuffed full!」",
+      "source": "new",
+      "slice": "v_g035_00"
+    },
+    "35:9133": {
+      "repository_source_sha256": "eb9f303ef9eea5a45db5587fe84426981166bdc975b36836211d8d8375ca7a7e",
+      "en": "「Tch! Slippery bastard...!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9166": {
+      "repository_source_sha256": "fd9ed44a1a776dfbd8d626d6f694d617a4cb429418cf08ee718d810fde25f3d9",
+      "en": "「Even small prey gets my all!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9203": {
+      "repository_source_sha256": "f5297d8acd057c1c2ed1dbcc46f113858e87cab2eda5d7625b5f95cd942aa6e8",
+      "en": "「This guy... is strong!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9222": {
+      "repository_source_sha256": "04e21a02a469cb94ca059f9a2842c31c5de2ed96d7c66ee34e68f739d2f03960",
+      "en": "「Quit barking orders at me!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9263": {
+      "repository_source_sha256": "5ffa3936e4030ccf6d3aa09922bb5432e16f7d2d33df1c6499c84eb60f2fa43a",
+      "en": "「I'll chew up even a battleship!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9296": {
+      "repository_source_sha256": "f0a633fb9a44c404a706d333d98beeae16c3005963e3dd94f4ca0caab9cfd966",
+      "en": "「Like hell I'll lose to a calamity!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9331": {
+      "repository_source_sha256": "f2b9dad6f052d99629041b7aa61adef038a6a2152588a948b187df3eadcbaf7f",
+      "en": "「Keep coming, you monsters!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9364": {
+      "repository_source_sha256": "b60ae0b9c2147b74042c6c395c0cf11f334cafb4533d7d9b36e1fa32af582791",
+      "en": "「Don't think humans die that easily!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9407": {
+      "repository_source_sha256": "58c6af44dc609847f9a519069ef8b7d62e45df7e5d6c02f86cbc465e9ba74b7f",
+      "en": "「$$頭翅#pilot$$'s darkness...!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9426": {
+      "repository_source_sha256": "60e4de1c1b39fa6ee7aed1b652baff1afa3870259e78e7ef869652ad94317d7c",
+      "en": "「$$ミカゲ$$!\\nAim all your hatred at me alone!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9481": {
+      "repository_source_sha256": "d43485f3ba1a665a41f414c56a595041d23d55f3f87fdcfa41eabc25da828a65",
+      "en": "「Keep others out of your darkness,\\n$$ミカゲ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9538": {
+      "repository_source_sha256": "318e33c6f4b890312496973ef15cedfd2819cad49f38acf3632e5bf0ed9ca8e1",
+      "en": "「Not losing to a hard-headed machine!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9577": {
+      "repository_source_sha256": "b8c41cfe61ca2a1ef335e9588ac85aa9527aa7ab1a34074f2bd6230292b2fc51",
+      "en": "「I'll teach you what a human is!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9614": {
+      "repository_source_sha256": "5cb4c8855213e858aa7eda5b3e19ef2cdcb1a7c385bc2b0b5710138e97ecc711",
+      "en": "「This fake stench is killing my nose!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9653": {
+      "repository_source_sha256": "da1bf916e1202a92f9f70236b4078ff60699dfc8d318767840b121c2d5b0e2fa",
+      "en": "「Don't push your selfish logic on me!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9688": {
+      "repository_source_sha256": "fa483d7e1b6c05b11947b02606a1c50d9d4e251c99d3ea557074fafd1e1e6c3c",
+      "en": "「I'll smash you and reclaim Earth!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9729": {
+      "repository_source_sha256": "50ea76d30d3662037d9ebd85708a3979ac866950bfbc5f29526c4b21510cdfe5",
+      "en": "「I'll crush you, $$サイデリアル$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9766": {
+      "repository_source_sha256": "ef03c6c4fa3d60d67b108804467dad6fad9e36b8466e040adf58d36155172f8d",
+      "en": "「Get back to your own planet already!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9801": {
+      "repository_source_sha256": "47c0aa347232a3695eddb72b2697d491a6a689445b423636d25f031176fe56f8",
+      "en": "「A $$スフィア$$ holder...!\\nHeh, now this is interesting!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9852": {
+      "repository_source_sha256": "8379055031cbed395644d0ca12dcaced77d703bded4f28951634b52333998f94",
+      "en": "「When it comes to crazy power,\\n$$アクエリオン$$ is no slouch!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9911": {
+      "repository_source_sha256": "4c3fadfa194b218d90ae426e3246cd1fd565ea1b0ae737c2ec736547c076f241",
+      "en": "「A scorpion, huh...!\\nI'll eat it, venom and all!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:9960": {
+      "repository_source_sha256": "255afd98149c449278e6eb0474caa247a9f1e881a8b040f1b8982564aa629683",
+      "en": "「All bones, so there's not much\\nto sink my teeth into...!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10011": {
+      "repository_source_sha256": "f3f09803ac157e78c3cfeb2c864164b5e22ae5664b1ebb86c06640bdfa60558e",
+      "en": "「This guy's scent... No way...!?」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10044": {
+      "repository_source_sha256": "acf7d086cc94dc49bb05017d12ae17bf5fee442bed452e66c4d22655d93e75d6",
+      "en": "「No mercy for a battle-loving woman!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10087": {
+      "repository_source_sha256": "8a0ec60a464fa606311ebcbcf8261c67046d98b070148cafcac3e88ccb7e41d9",
+      "en": "「Their boss? Then I'll take you down!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10120": {
+      "repository_source_sha256": "598abe805cb87d49604426dbe24f34a3155c34d96ede05359719cd60dc96c296",
+      "en": "「Beware, Emperor Dimensional General!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10153": {
+      "repository_source_sha256": "83b99e2682c2d7b7fcde0c79ebc064e314c9eb1ea7dc87dc5cfee3bf0e8d634b",
+      "en": "「Today we end this, $$アサキム$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10196": {
+      "repository_source_sha256": "d56af8869bbab7148cac464c73a7d1ac2f75760fbe54a931974ee0993a32a0db",
+      "en": "「$$アサキム$$! Don't you dare show up!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10239": {
+      "repository_source_sha256": "b7963f9e9d9f24494d9e12116b99430b0fc13aeddab596132486f1710d37ade9",
+      "en": "「Like hell I'll do\\nwhat you tell me!!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10288": {
+      "repository_source_sha256": "e580161cfa0b63f9c2295781bc40726da5f604a123710ff52e271aceebece530",
+      "en": "「Emissary of God or not,\\nan enemy gets blasted!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10339": {
+      "repository_source_sha256": "e70b2e121861c2654c2134fc3d009efb555294928b2a009fc4180be923f0ef5c",
+      "en": "「I've known this scent for ages...!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10382": {
+      "repository_source_sha256": "5edac7f8550933b78176be8a0a2016981f296104297b8d67edb6de4d23fc8d65",
+      "en": "「You've no right to condemn\\nthe whole of humanity!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10435": {
+      "repository_source_sha256": "b9a410ff01f57f037000e0cace59749e16853cfe942efe7bcbd4f529de1b519a",
+      "en": "「If you want to play that bad,\\nI'll take you on!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10492": {
+      "repository_source_sha256": "3f69dbf4b7692d7cbd962fc246687ff099d45b2e8c39011dd04400db6f10e7fa",
+      "en": "「Damn...!\\nWhat's with this guy's scent...!?」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10543": {
+      "repository_source_sha256": "3b1b3c428b1c7b11346dba6c9c4f54a75b52abfd5ce8eb8bcd22d9d76fffbd62",
+      "en": "「Having fun looking down on people!?」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10584": {
+      "repository_source_sha256": "a39f7301bb880ec2cb61c1b5fb68d8b0869a94d375828ad5009ebc022d49ffed",
+      "en": "「If you're so great,\\nfight with just your own strength!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10645": {
+      "repository_source_sha256": "c3cde08d6740f2b608a63d603cdb8f1ee0b44d3f20bf989fc20fc6bf9c4e93b3",
+      "en": "「You've got a nice scent!\\nBut I don't like it!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10706": {
+      "repository_source_sha256": "545288efacd0b0d9dc73020c11bd2ea79ab240837d0b0b934afc2ded5df911dd",
+      "en": "「We and the world haven't fallen\\nso low that you'd save us!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10769": {
+      "repository_source_sha256": "3d6c99ff0f46f988ef0dc0937ab8156212716e7554e074fb78b86a8ada55fc65",
+      "en": "「And then... on to a new path!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10798": {
+      "repository_source_sha256": "00293ba734ae274aa9fe5d8ddc327947689c088a8592abfc043cb122d3de34a9",
+      "en": "「Let's go, my friend!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10817": {
+      "repository_source_sha256": "4b525d4bffb79035eb1d5b411f23bd4df6ce6518d32933e99321baf1afac7457",
+      "en": "「For a new Genesis!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10844": {
+      "repository_source_sha256": "69f8acac342cf04738badccdfbb1481dbab23ec6b7aefe872eeab1f17b7cc2e3",
+      "en": "「I'm here to deliver what you forgot!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10871": {
+      "repository_source_sha256": "25c862ac47a003fe0b4136e16b35d783818b7f46065a38aa742bcfcce70955bd",
+      "en": "「Naturally, I hit back when I'm hit!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10902": {
+      "repository_source_sha256": "3190beda362083aed73ea25c2e6678f7c4b68eb68e288c16f03b284cc7a43dd4",
+      "en": "「Not running away? You've got guts!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10931": {
+      "repository_source_sha256": "072fa8ea1344b425d95790033aeb0bc8e0ba871bb9c3b583ee6368703a23b31d",
+      "en": "「It's still too early to go home!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10962": {
+      "repository_source_sha256": "4d04b2b5b6ea7b4a41e1a168e31d69d2d978cceee63cbeed103fb3d29760270e",
+      "en": "「Okay, $$アマタ$$! Leave the rest to me!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:10997": {
+      "repository_source_sha256": "a6049d7679da2bef214777dc015b50f5a6405a97c702253b328886a51bc68505",
+      "en": "「I'll lend a hand, $$カイエン$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11024": {
+      "repository_source_sha256": "2b61a0e9fee1c88db918eacdfa3f6aaf33528a973d104704adc8947eef9c6203",
+      "en": "「Let's see if you dug a good hole!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11055": {
+      "repository_source_sha256": "47e20aeedce0d93be744a88d61c2644f89f9a3f653a543870b75d3fff00199ac",
+      "en": "「Quietly working hard, huh, $$モロイ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11098": {
+      "repository_source_sha256": "c993057f10a5b6a88d4138e146ea46bdc61a480e7c45b41afac45f178f772798",
+      "en": "「Nice performance, $$シュレード$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11133": {
+      "repository_source_sha256": "21d1137571e75e26abbb99340d2a4b47b9c02ab63efc275696a0528a8c5e3512",
+      "en": "「Heh, as expected of you, $$カグラ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11162": {
+      "repository_source_sha256": "88b0bb6a0081a1690dc31002b2cbc343b1de259fde1075a8aec71739db1aaa61",
+      "en": "「$$ジン$$!\\nI saw that drive of yours!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11211": {
+      "repository_source_sha256": "c018561e94a37246ba2871c53d5f6b5ceab9767e918465ca9f2897eb9f4a8c90",
+      "en": "「Don't overdo it, $$ミコノ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11244": {
+      "repository_source_sha256": "179f5f8b61f5902ea7161b993f58021eb43959042b85c37e05ee8594c919aac0",
+      "en": "「You're dependable, $$ゼシカ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11279": {
+      "repository_source_sha256": "b2b82dd1d27ea530cb400fe4da6dcbd27d9185c5ca64b6c9c3824bbec79bdf96",
+      "en": "「I-I'm not dirty, you know!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11310": {
+      "repository_source_sha256": "8720313da748cb2f43129676f7e26557208a7aa48b72868b38a9d2e0d6efe451",
+      "en": "「This is no time to be embarrassed,\\n$$ユノハ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11359": {
+      "repository_source_sha256": "9d6c20daea895a81c4685871dccab9372c63760b410a2b7927113fee62170d46",
+      "en": "「Don't think weird stuff, $$サザンカ$$!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11396": {
+      "repository_source_sha256": "87a40e3e5b01656a20055ffd210f15685219d384d3ba099e3f783c74c321a00b",
+      "en": "「Hustling at your age, Chairwoman!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11435": {
+      "repository_source_sha256": "9eeefe6774e883bf2b514a6a176ea8bd10bb51d98273bf99c389506a0f21327b",
+      "en": "「You're still green, $$アマタ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11464": {
+      "repository_source_sha256": "593f27af5192337cd937338bb79cde690a54892ad6ee6b4c0b2c174706d8e288",
+      "en": "「Heh, that's not like you, $$カイエン$$.」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11495": {
+      "repository_source_sha256": "7ce0c3d4dc21ee24669dbadfbe7aeb21a275404a0f12e0c53a72ed82ff9ee5a4",
+      "en": "「Too distracted by the hole, $$アンディ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11532": {
+      "repository_source_sha256": "f59ff839a882fdb7a3347f51f5b93892e17f3a99a64d03eef36037c37e2e6185",
+      "en": "「So you really are fragile!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11557": {
+      "repository_source_sha256": "8076030771202a3f2102e209c83663b9f393b546b34f302c24d3fd72cd67cf3b",
+      "en": "「Easy, you just recovered, $$シュレード$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11598": {
+      "repository_source_sha256": "cbf5096f154d15f49438adcb54b6955a266b0fe21ba250000148fb226a319cf8",
+      "en": "「Don't rush ahead, $$カグラ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11635": {
+      "repository_source_sha256": "b5909a9b5e3103ff9036f5812310cdf944b87121aee85f2adef1b4906e4ea404",
+      "en": "「Don't let your guard down, $$ジン$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11660": {
+      "repository_source_sha256": "3eb1a24f4ff7a6a628ee6fc833e80459739e9ec7cd14f5305dae7f9ad54b4a07",
+      "en": "「I won't let you touch $$ミコノ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11685": {
+      "repository_source_sha256": "a8e2665441f66e9d7078f213527674d060ce4d53db0063b67184578cca80c2ab",
+      "en": "「Don't push yourself, $$ゼシカ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11718": {
+      "repository_source_sha256": "b9e4d8232bc2bc277c23641a1337cc7171b0b79278ead3781d620dde8afbbb5e",
+      "en": "「Stay back, $$ＭＩＸ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11743": {
+      "repository_source_sha256": "51e6b1e3f334c60cd4022a32772f68a63a86af597659a9e3fd7e73b3208e5429",
+      "en": "「Don't be scared, $$ユノハ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11766": {
+      "repository_source_sha256": "6ae1050b48c9e5a1fc685246ec6ded8fe0d14c9173e6f9f38ee6427ecdf813bf",
+      "en": "「I said quit the delusions, $$サザンカ$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11809": {
+      "repository_source_sha256": "99d6c5c2c7545a807fc686a6a02e79a02d060b73faa67474756d392fd31fb1ac",
+      "en": "「Act your age a little, Chairwoman!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:11840": {
+      "repository_source_sha256": "61f411dbb5c0a21675e68ab0f3a2dad961beeaf5b0ef7f12bd0e20e9116068c9",
+      "en": "「I'll do things my own way!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:11875": {
+      "repository_source_sha256": "9d3630341e5ffc7e24f991fab1609de8c377ffba69bb03bff933988749a743d8",
+      "en": "「So you're my prey!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:11900": {
+      "repository_source_sha256": "f99470985f2cf7f125807e97b237f6cf5ea644dcb521f2cf0b055f66e3c996e4",
+      "en": "「So it's one-on-one.」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:11923": {
+      "repository_source_sha256": "3f91f26600f56efc20fe86655d40db0f89ebef7bfa69e5f77ef366733a6c2c5d",
+      "en": "「Heh, looks like tasty prey!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:11958": {
+      "repository_source_sha256": "f1b93fbe9fc5c3e801627ba4d9e11cc6e46e4dad61a165b18b31739181f6f54b",
+      "en": "「I'm going in first!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:11981": {
+      "repository_source_sha256": "3f8239ea658574530f06e66abb450833ee0bb692f0cb63415e201ace1927041e",
+      "en": "「I can't just sit and wait!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:12012": {
+      "repository_source_sha256": "fea3e6c8f7c8469dd2c35f1f4122665dd5809d7a9f1c006959523161fb06036c",
+      "en": "「Dawdle and I'll leave you behind!」",
+      "source": "new",
+      "slice": "v_g035_01"
+    },
+    "35:12045": {
+      "repository_source_sha256": "f9d2a254043ff1308baf32fe839b87da7b360d12ee9f2c4ea1f5d2e3ed30ab35",
+      "en": "「Don't whine if you get no share!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12080": {
+      "repository_source_sha256": "a0713f5abd7a30bcfb5f23f37cb98631485658b065465b31a4407a1311df281a",
+      "en": "「Why can't I attack!?」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12113": {
+      "repository_source_sha256": "2328db0cbd5bd805691c27887ccb673943769b92ac310946ca554f58e4aab077",
+      "en": "「I'll return it a hundredfold later!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12144": {
+      "repository_source_sha256": "26c27b2de5c7dbbbab3e715820648ba7503ffc4a572c77df79b543bc077311a4",
+      "en": "「Damn you, quit hiding and come out!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12181": {
+      "repository_source_sha256": "7f41fc287bc1f6d4c22c9fe34b14e0316ae1b32a319242a2cfaf2ef72852d209",
+      "en": "「Ha ha! Missed by a mile!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12210": {
+      "repository_source_sha256": "49e9e9cdd4da1fe1b42d2989e6c23a797fbd3f2e2415f095457bb5cab54481fd",
+      "en": "「You slowpoke!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12233": {
+      "repository_source_sha256": "0c264695136f349182f8d432a26412a891ef23d83355ac92a62ffbd8512ffd9c",
+      "en": "「Like hell I'm taking that hit!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12266": {
+      "repository_source_sha256": "8e5d18b274a5b110bfdc1d838e93626b9cd4a1012fc8ed004152c73bed078371",
+      "en": "「You saved me, $$シリウス$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12293": {
+      "repository_source_sha256": "4a5cb61dfe2bdc6b92caaa1058d476d9c9d23f2ed2323b95db27b144a3f91058",
+      "en": "「Heh heh heh, this is easy!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12324": {
+      "repository_source_sha256": "462684a1b0ed878d4374b665bad532705d7aa53675ee3f3fb1f8ab7188184b8c",
+      "en": "「Weren't you out for revenge on me,\\n$$ミカゲ$$?」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12373": {
+      "repository_source_sha256": "3acfb797604cc01801d8973213feb83d2a8f1bd3788e5d1aa7b3f8ef05c66459",
+      "en": "「You won't beat me with darkness\\nand hatred and the like!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12426": {
+      "repository_source_sha256": "f55d6cfaca49d65108ebc375fd8f6543bf9a27d670c82e970ac42fb855b3ee43",
+      "en": "「What a lame attack, damn it!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12455": {
+      "repository_source_sha256": "f043f34e895f7a9848e9f20151d0eae5e0963b331c4321d4935e7c330e85cf39",
+      "en": "「Put some more guts into your attack!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12488": {
+      "repository_source_sha256": "b4fc3cc5d38a1156028b38601e34578e9707e2842e46ece462fa123e3bb38393",
+      "en": "「If that's all the power you've got,\\ndon't come at me!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12541": {
+      "repository_source_sha256": "df67cdc2716e2dc76b7ab09de2a1efbb5661eb5d36900d2fb1b4b8c2109e8bec",
+      "en": "「The smell just fooled me! Not again!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12582": {
+      "repository_source_sha256": "f8d0ff8010ea3c9a5a28cef8eb2b5b9566335070cbc25d7c6460ed5e955a2252",
+      "en": "「You okay over there, $$シリウス$$?」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12613": {
+      "repository_source_sha256": "c15751ff1f461e81639dc7f0c8c830f23e5003cfbcd17473e238c967bd99e5a3",
+      "en": "「Shut up! Watch the next one!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12642": {
+      "repository_source_sha256": "bd82a3debf0acb76569c5d3a322dd2173b6657487a872ca3964d206ad98bdc9a",
+      "en": "「Don't let your guard down, $$シルヴィア$$!」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:12675": {
+      "repository_source_sha256": "9bd82366bf711ad8de82192683ba1073dc82928a6fa2334eec5f762c9a69b07f",
+      "en": "「Now this is getting interesting!」",
+      "source": "jigoku",
+      "slots": [
+        "hit: moderate damage"
+      ]
+    },
+    "35:12706": {
+      "repository_source_sha256": "df37bb2d87fc7a44ba76600b589ae98541586d2caa977cf9b3a96070155aaeeb",
+      "en": "「Took a nasty one...!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12739": {
+      "repository_source_sha256": "b392a4bbadd0ecab29561e81c889ce7509176b432775f5b858c74563b7606d23",
+      "en": "「Damn!\\nYou did it now, you bastaaard!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12790": {
+      "repository_source_sha256": "9c024b9d85c083f48e86ac53f845dfba52a36a4e5267c7404cdc41571359e926",
+      "en": "「You don't need to tell me!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12815": {
+      "repository_source_sha256": "c5084544db8f015b0aaad1420082671c75282b81eb9a440b0c5ead62acdd1327",
+      "en": "「Your orders are late, damn prince!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12844": {
+      "repository_source_sha256": "5d5cacca45f539462c2078de6a38d052a64bbdd387f88c863d6a72267179f671",
+      "en": "「Right! We won't lose!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12881": {
+      "repository_source_sha256": "33092ecdb3ab28f0badf697c3a645967318c76763afbbb283cac600fdd92fa41",
+      "en": "「Yeah, it's nothing!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12912": {
+      "repository_source_sha256": "0771e442a89caa686772f4e61e3d928d46e90b64fed7e9b90686612d683050b6",
+      "en": "「Like hell I'll lose to\\nthat guy's grudge!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:12961": {
+      "repository_source_sha256": "321fb22a503924755ed71549dd5a1c554f66a1919f4c4df4312faf8fb2d74eb8",
+      "en": "「I'll blast your hatred\\naway from right here!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13016": {
+      "repository_source_sha256": "22fb42fd8bac4cc03438d33908a1567ec78e93f3c7fa3273db57d0343fd676cb",
+      "en": "「Damn! Brute strength like $$シルヴィア$$'s!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13057": {
+      "repository_source_sha256": "31969a2500a91aa02591208dfea9f9add1618ccc807d9894df1ba301c4b47ebc",
+      "en": "「I'm an idiot to the core!\\nI won't give up!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13112": {
+      "repository_source_sha256": "ee52d8cf945ac29c1c833f6b58b5d8b2a45498260ea339c78b2fa614d89ab60a",
+      "en": "「After seeing an attack like that,\\nI can't just keep quiet!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13165": {
+      "repository_source_sha256": "9739977094c90553a2494df66b6f223fbc236b3f299c29b87fb9172d622bdd15",
+      "en": "「No way!\\nI'll turn this around soon!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13214": {
+      "repository_source_sha256": "ecf453527b4c3cbe81b733c3062d7c26503e17c4eae59944915332dca2b58b19",
+      "en": "「I... I won't let anyone else die!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13253": {
+      "repository_source_sha256": "d2c712a0134da7bbdfc7a6752fed78dfeb741eaee7fb4075123a2d2812729002",
+      "en": "「Thanks... $$シリウス$$, $$シルヴィア$$!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13292": {
+      "repository_source_sha256": "a67da079ea1d84dda94ff5ae948ded8f4169b47e62cef1417b118dec759e0956",
+      "en": "「Sorry, $$シリウス$$, $$シルヴィア$$...!」",
+      "source": "new",
+      "slice": "v_g035_02"
+    },
+    "35:13331": {
+      "repository_source_sha256": "e31db60f1406a4fe2384856d14c47d4783fec243ca8350cd432a6f0ce50b9a28",
+      "en": "「Huh? Training now? I'm not putting up with that.」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:13396": {
+      "repository_source_sha256": "042c86d45c9e52170ae839606857e3e04b6080de0bc481ee5dae15f4059d74c3",
+      "en": "「Then do it alone. Training topic: 'Read the ending message with your fusion face.'」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:13479": {
+      "repository_source_sha256": "2008bfa1ce85f114eec7d660028a2395eee8c92d8d89d8bbdd22a8bb38798f89",
+      "en": "「...I lost this time, $$シリウス$$...」",
+      "source": "new",
+      "slice": "v_g035_03"
+    },
+    "35:13512": {
+      "repository_source_sha256": "8a9b4f638144efe5fcd92e1b961e38bcb3fccef2b495dfaae8328ce6d6430fdc",
+      "en": "「Let's combine our powers, $$アマタ$$!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13549": {
+      "repository_source_sha256": "482f39c5a99d096371eee6859c3458cbfcff7e84d14ebba0961d9c2e8209966f",
+      "en": "「Double!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13562": {
+      "repository_source_sha256": "b022ac42e3202e04c05bab0d07432576a7813cfbd00ee5475b29bdadbbdc5e05",
+      "en": "「Here goes! This is $$アクエリオン$$'s power!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13605": {
+      "repository_source_sha256": "f2c793528fa4faf9ac30399dee8d8ad5917687b9d475c138ffd06c123c595c12",
+      "en": "「Heh, of course!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13624": {
+      "repository_source_sha256": "87ead57c345710b05b93ecc17ee0d064a682e53a09a040652ff209efdf087ffc",
+      "en": "「I'll show you $$アクエリオン$$'s true power!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13661": {
+      "repository_source_sha256": "ecf286a393a8a9bd5c5aa80ac0138475e7261bc914bebbfccdc0dab1f70c7ca0",
+      "en": "「Finishing move!!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13676": {
+      "repository_source_sha256": "07b84d5b2a0fe5bfffadc833eb7f25f936477f41c83647d5c1f90f27e4fcd28c",
+      "en": "「Embracing all hate, grief and anger!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    },
+    "35:13717": {
+      "repository_source_sha256": "061a991f99af6b73dfb63ffb9efc10f64f6b1f58de05a21257d2726c11f50795",
+      "en": "「Heh, obvious since 12,000 years ago!」",
+      "source": "new",
+      "slice": "v_g035_04"
+    }
+  }
+}

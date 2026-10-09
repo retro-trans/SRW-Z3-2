@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "slice": "dlg_2086_10",
+  "rows": {
+    "605:t_107:0": {
+      "sha": "3be54a1c6b",
+      "en": "$$アサキム$$\n「$$シュロウガ$$... The time has come for our black wings to transcend causality.」"
+    },
+    "605:t_107:1": {
+      "sha": "e636d06234",
+      "en": "$$アサキム$$\n「Now, clad in hellfire, fate that stood still will tear through the Heavenly Prison!!」"
+    },
+    "605:t_108:0": {
+      "sha": "2bf96f6ddb",
+      "en": "$$ガドライト#pilot$$\n($$アンナロッタ$$, $$ジェミニス$$... every life on the planet $$ジェミナイ$$... and the new life that was born, I swear it!)"
+    },
+    "605:t_108:1": {
+      "sha": "01ba3af00a",
+      "en": "$$ガドライト#pilot$$\n(Your regrets and your hopes for the future, I've taken them on myself!)"
+    },
+    "605:t_108:2": {
+      "sha": "6fbdb0d506",
+      "en": "$$ガドライト#pilot$$\n「I am $$ガドライト・メオンサム$$! A warrior of $$ジェミナイド$$!」"
+    },
+    "605:t_109:0": {
+      "sha": "3eb7147e01",
+      "en": "$$スズネ$$\n「I got to come back to this seat again...」"
+    },
+    "605:t_109:1": {
+      "sha": "b1ace0a22e",
+      "en": "$n\n「The new suit and the glasses... they suit you.」"
+    },
+    "605:t_109:2": {
+      "sha": "624f803f05",
+      "en": "$$スズネ$$\n「Thank you, $n. Your smile has become decent enough, too.」"
+    },
+    "605:t_109:3": {
+      "sha": "32bae8c16c",
+      "en": "$n\n「Only decent enough, still.」"
+    },
+    "605:t_109:4": {
+      "sha": "6f89afba43",
+      "en": "$$スズネ$$\n「But right now...」"
+    },
+    "605:t_109:5": {
+      "sha": "a58a31d389",
+      "en": "$n\n「I know! Now that Miss $$スズネ$$ and I are together, I'll draw out everything $$ジェミニオン・レイ$$ has!」"
+    },
+    "605:t_109:6": {
+      "sha": "8dd9538aab",
+      "en": "$n\n「This is the power we fight with!」"
+    },
+    "605:t_110:0": {
+      "sha": "12b5b1f9de",
+      "en": "$$アムロ$$\n「Humanity is moving toward the future...」"
+    },
+    "605:t_110:1": {
+      "sha": "ffa22d5334",
+      "en": "$$アムロ$$\n「No matter who tries to stop it, we will overcome them...!」"
+    },
+    "605:t_111:0": {
+      "sha": "6ed75bc97f",
+      "en": "$$刹那$$\n「The future $$イオリア・シュヘンベルグ$$ envisioned... the $$イノベイター$$s...」"
+    },
+    "605:t_111:1": {
+      "sha": "00f2e70213",
+      "en": "$$刹那$$\n「If I am one, then I'll carve it out! The future humanity is meant to reach!」"
+    },
+    "605:t_112:0": {
+      "sha": "3a36445cbc",
+      "en": "$$バナージ$$\n「$$ユニコーン$$... Your role as the key to $$ラプラスの箱$$ ended today...」"
+    },
+    "605:t_112:1": {
+      "sha": "1766598264",
+      "en": "$$バナージ$$\n「But you and I aren't done fighting yet...!」"
+    },
+    "605:t_112:2": {
+      "sha": "4fea8574f4",
+      "en": "$$バナージ$$\n「Let's go, $$ユニコーン$$! We'll defeat whoever closes off possibility, and I'll make it back to $$オードリー$$ for sure!」"
+    },
+    "605:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
+  },
+  "names": {
+    "イオリア・シュヘンベルグ": {
+      "kind": "pilot",
+      "en": "Aeolia Schenberg",
+      "evidence": "sheet lists it as proposed (Aeolia Schenberg); used in finished dlg_2086_1x slices"
+    }
+  },
+  "report": {
+    "rows_in_slice": 20,
+    "rows_examined": 20,
+    "left_untranslated": [],
+    "kept_omissions": [],
+    "uncertain": [
+      "605:t_109:1-2: Hibiki compliments Suzune's new suit and glasses (Suzune's reply thanks him); Suzune's 'decent enough' smile jab rendered with 'decent' for それなりに",
+      "605:t_108:*: speaker line uses $$ガドライト#pilot$$ (pid GADLITE, spoken/thought by Gadlight's Sphere persona); 《》 keyword form not used",
+      "605:t_108:0: ジェミニス taken as the organization token (Annalotta, Geminis) and ジェミナイ as the planet; 'new life' read as the new life born from the Sphere",
+      "605:t_107:1: 天の獄 = 'Heavenly Prison' (matches 天獄戦争 = Heavenly Prison War); 獄炎 = 'hellfire'",
+      "605:t_111:1: もし俺がそれならば = 'If I am one' (an Innovator); Setsuna refers to the Innovators plural",
+      "605:t_112:2: 可能性を閉ざす者 = 'whoever closes off possibility' (generic plural/singular left ambiguous)",
+      "605:t_109:5: 俺とスズネ先生 = 'Miss Suzune' per settled rendering"
+    ]
+  }
+}

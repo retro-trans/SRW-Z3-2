@@ -1,5 +1,13 @@
 # Tengoku-hen handoff
 
+## Public repository — 2026-10-10
+
+The user requested public visibility after the 0.5.2 release. GitHub confirms
+`retro-trans/SRW-Z3-2` is public. Release downloads no longer require repository
+access. The release remains a playtest prerelease; use manual Apply xdelta.
+This instruction supersedes the earlier private-repository requirement.
+Game sources and release artifacts are unchanged.
+
 ## Fresh-dialogue release 0.5.2 — 2026-10-10
 
 Published private prerelease:
@@ -25,7 +33,7 @@ Five source-bound long records use the separate condensed alphabet in
 eleven-Sphere list now measures three lines. Builder checks include brackets
 and exact glyph advances. Runtime readability still needs playtesting.
 Build/release evidence belongs under `work/output/` and `docs/RELEASE_0.5.2.md`.
-Keep the repository private; this release targets RPCS3, not physical PS3/Vita.
+This release targets RPCS3, not physical PS3/Vita.
 
 ## Private repository setup — 2026-10-09
 

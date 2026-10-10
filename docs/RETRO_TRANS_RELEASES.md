@@ -4,8 +4,9 @@ Every new Tengoku release must work with
 [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), following
 the approach documented by [SRW-Z3](https://github.com/retro-trans/SRW-Z3/blob/master/docs/RETRO_TRANS_RELEASES.md).
 
-This repository is private. Repository setup does not publish a release,
-change visibility, enroll private metadata in a public catalog or create a build.
+This repository is public as of 2026-10-10, at the user's request. The 0.5.2
+playtest prerelease uses manual Apply xdelta and is outside the public
+Automatic catalog. Repository administration does not create a game build.
 
 For a separately requested release:
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-10 - Public repository
+
+- Make SRW-Z3-2 public at the user's request and update release download instructions. Version 0.5.2 remains an RPCS3 playtest prerelease; game artifacts are unchanged.
+
 ## 0.5.2 - 2026-10-10
 
 - Promote all 63,553 fresh dialogue records across 857 slices, preserving the previous active inputs in a local backup and recording exact file hashes.

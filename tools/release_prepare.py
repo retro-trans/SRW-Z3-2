@@ -32,14 +32,13 @@ def main():
     notes = f'''# 0.5.2 — Fresh English dialogue retranslation (RPCS3 playtest)
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
-**BLJS10299**. This is the first release in the private SRW-Z3-2 repository.
+**BLJS10299**. This is the first release in the SRW-Z3-2 repository.
 
 ## Apply
 
-Download the assets while signed into a GitHub account with access to this
-private repository. In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools),
+Download the release assets. In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools),
 use **Apply xdelta**, select your matching original Japanese ISO and
-`{patch}`, and choose a new output ISO. Private releases are not enrolled in
+`{patch}`, and choose a new output ISO. This playtest prerelease is not enrolled in
 the public Automatic catalog. Retro Trans 0.5.4 was used for release validation.
 
 Alternatively:

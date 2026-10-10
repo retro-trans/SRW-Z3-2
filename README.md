@@ -1,6 +1,6 @@
 # Super Robot Taisen Z3: Tengoku-hen — translation project
 
-Private development repository for the PS3 English translation of **Dai-3-Ji
+Development repository for the PS3 English translation of **Dai-3-Ji
 Super Robot Taisen Z: Tengoku-hen** (BLJS10299).
 
 The repository follows the source-only approach of
@@ -66,7 +66,7 @@ See [release preparation](docs/RETRO_TRANS_RELEASES.md). Versions use `0.x.y`;
 repository administration does not assign a build version.
 
 The [0.5.2 playtest release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.2)
-uses an original-to-English ISO xdelta patch. Download it with an authorized
-GitHub account, then use Retro Trans's **Apply xdelta** mode. See
-[0.5.2 installation and compatibility notes](docs/RELEASE_0.5.2.md). The private
-release is outside the public Automatic catalog.
+uses an original-to-English ISO xdelta patch. Download it, then use Retro
+Trans's **Apply xdelta** mode. See
+[0.5.2 installation and compatibility notes](docs/RELEASE_0.5.2.md). This
+playtest prerelease is outside the public Automatic catalog.

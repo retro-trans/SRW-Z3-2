@@ -15,6 +15,16 @@ Release package built with Retro Trans 0.5.4, commit
   original and target input hashes. The official release validator passed.
 - Exactly four assets: one xdelta patch, BUILD-MANIFEST.json, VALIDATION.json
   and SHA256SUMS.txt. Only protocol metadata is mirrored in this directory.
+- Published at 2026-10-10 01:08:35 UTC:
+  https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.2
+  The repository remains private and the release remains a prerelease.
+- All four actual GitHub assets were downloaded using the authorized account;
+  their sizes, GitHub SHA-256 digests and local hashes match the package. The
+  official release validator and release-record reader passed unchanged.
+  Only private download transport was supplied by the authenticated download.
+- Release tag commit: `458fd31ee0fe9e3d2bca732e6ba54a3698ffd560`. This adds
+  release notes and protocol metadata to the recorded game build source commit.
+  GitHub source checks passed for both commits.
 
 Runtime boot, gameplay, condensed-glyph readability and enlarged battle-voice
 block limits remain unverified. This is a private RPCS3 playtest prerelease.

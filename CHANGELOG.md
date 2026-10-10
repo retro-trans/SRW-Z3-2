@@ -6,7 +6,7 @@
 - Merge six shared route-choice filenames by record ID into 851 active files; reject duplicate or incomplete build coverage.
 - Fit five source-bound long records with a separate 85% horizontal VWF alphabet, retaining every word and all eleven Sphere names.
 - Match glyph cells, advances, wrapping and encoding; reject rendered speech blocks longer than three lines.
-- Prepare the first private Tengoku release using SRW-Z3's manifest, xdelta, checksums and round-trip validation format. RPCS3 playtest build; runtime remains unverified.
+- Publish the first private Tengoku release, v0.5.2, using SRW-Z3's manifest, xdelta, checksums and round-trip validation format. All four hosted assets match the verified local package and pass the Retro Trans 0.5.4 validator and release reader. RPCS3 playtest prerelease; runtime remains unverified.
 
 ## 2026-10-09 - Prepare private SRW-Z3-2 repository
 

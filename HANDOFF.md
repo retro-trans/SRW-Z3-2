@@ -2,6 +2,16 @@
 
 ## Fresh-dialogue release 0.5.2 — 2026-10-10
 
+Published private prerelease:
+https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.2
+The 198,690,589-byte original-to-English patch passes full ISO decode round
+trip. All four hosted assets were downloaded and matched by size and SHA-256;
+Retro Trans 0.5.4's validator and release reader passed. Game build sources
+are commit `5e1f5083ce24b714f35a078627a32955bc44d857`; the release tag targets
+`458fd31ee0fe9e3d2bca732e6ba54a3698ffd560`, which adds notes and metadata.
+Use manual Apply xdelta after an authorized download. No emulator navigation,
+cache removal, deployment or runtime playtest was performed.
+
 The user requested a release with the fresh dialogue retranslation. All 857
 fresh slices are promoted into 851 active files, covering 63,553 records. Six
 route-choice filenames held disjoint records from different batches; their

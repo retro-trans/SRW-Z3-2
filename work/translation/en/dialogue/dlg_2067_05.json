@@ -2,13 +2,23 @@
   "schema": 1,
   "slice": "dlg_2067_05",
   "rows": {
-    "480:t_104:1": {"sha": "5faed2d438",
-                    "en": "$$葵$$\n(And I'll make it there! To the place my seniors were aiming for!!)"},
-    "480:t_999:0": {"sha": "c55adac948",
-                    "en": "$n\n「Ah!」"}
+    "480:t_104:1": {
+      "sha": "5faed2d438",
+      "en": "$$葵$$\n(And we'll reach it! The place you and the others were striving for!!)"
+    },
+    "480:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
   },
   "names": {},
-  "report": {"rows_in_slice": 2, "rows_examined": 2, "left_untranslated": [],
-             "kept_omissions": [],
-             "uncertain": ["480:t_104:1: センパイ達 rendered 'my seniors' (Dancouga's former crew, plural; honorific-style senpai dropped per settled rule); sibling slice 2067_04 uses センパイ singular - keep consistent (e.g. 'Senpai' vs name) at proofreading", "480:t_104:1: 'make it there' = たどり着く (arrive at the destination); the destination is 'the place' they aimed for"]}
+  "report": {
+    "rows_in_slice": 2,
+    "rows_examined": 2,
+    "left_untranslated": [],
+    "kept_omissions": [
+      "480:t_999:0: Brief source call, interjection, or silence retained as a fragment."
+    ],
+    "uncertain": []
+  }
 }

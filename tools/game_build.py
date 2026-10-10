@@ -1,7 +1,7 @@
-"""Build Tengoku 0.2.0: VWF executable, Spirit UI, font and translated library.
+"""Build Tengoku: matched VWF executable, UI, library, dialogue and battle voice.
 
 Dry run by default. One font allocation serves the Spirit UI and all three
-library archives, so every Latin character has exactly one cell and one width.
+library archives. Source-bound long dialogue uses a separate condensed alphabet.
 Every output is read back and decoded before the build is accepted.
 """
 import argparse
@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.1'
+VERSION = '0.5.2'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -52,8 +52,12 @@ def plan(settings):
     from tools.library_text import Resolver
     resolver = Resolver(terms)
     dialogue_rows = dbuild.translations()
-    for entry in dialogue_rows.values():
-        tokens |= dbuild.characters([lb.expand(entry['en'], resolver)])
+    from tools import dialogue_layout as layout
+    for rid, entry in dialogue_rows.items():
+        chars = dbuild.characters([lb.expand(entry['en'], resolver)])
+        tokens |= chars
+        if layout.condensed(rid, entry):
+            tokens.update(layout.PREFIX + ch for ch in chars)
     # Battle voice: same expanded-English rule, breaks are the literal two-character \n.
     from tools import srvc, voice_build
     voice_rows = voice_build.translations()
@@ -174,6 +178,8 @@ def plan(settings):
     summary = {'schema': 3, 'version': VERSION, 'title_id': 'BLJS10299', 'encoding': 'vwf',
                'spirit_occurrences': len(edits), 'library_entries': {k: len(v) for k, v in members.items()},
                'dialogue_records': len(dialogue_rows), 'stage_members_rebuilt': len(stage_members),
+               'dialogue_layout': {'condensed_records': sorted(set(dialogue_rows) & set(layout.CONDENSED)),
+                                   'horizontal_scale': layout.SCALE},
                'rpw_names': rpw_report,
                'mission_strings': len(mission), 'squad_names': len(squad),
                'mission_squad_members_rebuilt': mission_members,

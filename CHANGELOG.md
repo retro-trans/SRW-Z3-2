@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.2 - 2026-10-10
+
+- Promote all 63,553 fresh dialogue records across 857 slices, preserving the previous active inputs in a local backup and recording exact file hashes.
+- Merge six shared route-choice filenames by record ID into 851 active files; reject duplicate or incomplete build coverage.
+- Fit five source-bound long records with a separate 85% horizontal VWF alphabet, retaining every word and all eleven Sphere names.
+- Match glyph cells, advances, wrapping and encoding; reject rendered speech blocks longer than three lines.
+- Prepare the first private Tengoku release using SRW-Z3's manifest, xdelta, checksums and round-trip validation format. RPCS3 playtest build; runtime remains unverified.
+
 ## 2026-10-09 - Prepare private SRW-Z3-2 repository
 
 - Follow SRW-Z3's source-only approach while retaining this project's layout.

@@ -1,29 +1,30 @@
 {
- "schema": 1,
- "slice": "dlg_2058_10",
- "rows": {
-  "426:t_111:5": {
-   "sha": "da091f2105",
-   "en": "$$セツコ$$\n「Then let's stop Miss $$スズネ$$ ourselves! For $n's sake, too!」"
+  "schema": 1,
+  "slice": "dlg_2058_10",
+  "rows": {
+    "426:t_111:5": {
+      "sha": "da091f2105",
+      "en": "$$セツコ$$\n「Then let's stop Miss $$スズネ$$ ourselves! For $n's sake too!」"
+    },
+    "426:t_111:6": {
+      "sha": "b16a1637bc",
+      "en": "$$アムブリエル$$\n「Try it if you can! $$サイデリアル$$'s pseudo-$$スフィア$$s put the ones in $$ＤＥＭ$$s to shame!」"
+    },
+    "426:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
   },
-  "426:t_111:6": {
-   "sha": "b16a1637bc",
-   "en": "$$アムブリエル$$\n「Try it if you think you can! The $$サイデリアル$$'s pseudo-$$スフィア$$s are in a different league from $$ＤＥＭ$$'s!」"
-  },
-  "426:t_999:0": {
-   "sha": "c55adac948",
-   "en": "$n\n「Ah!」"
+  "names": {},
+  "report": {
+    "rows_in_slice": 3,
+    "rows_examined": 3,
+    "neighbor_rows_examined": 16,
+    "left_untranslated": [],
+    "kept_omissions": [
+      "426:t_999:0: Surprise interjection."
+    ],
+    "uncertain": [],
+    "rows_examined_with_context": 19
   }
- },
- "names": {},
- "report": {
-  "rows_in_slice": 3,
-  "rows_examined": 3,
-  "left_untranslated": [],
-  "kept_omissions": [],
-  "uncertain": [
-   "426:t_111:6: DEM written as DEM uses $$ＤＥＭ$$ token as in earlier slices; 目じゃない rendered 'different league'",
-   "426:t_111:5: 君 dropped (no honorifics)"
-  ]
- }
 }

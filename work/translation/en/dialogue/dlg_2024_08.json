@@ -4,19 +4,19 @@
   "rows": {
     "166:t_108:6": {
       "sha": "9b2bea441a",
-      "en": "$$クェス$$\n「$$ギュネイ$$, you idiot! A guy like you deserves to get hurt a little!」"
+      "en": "$$クェス$$\n「$$ギュネイ$$, you idiot! You deserve a little pain!」"
     },
     "166:t_109:0": {
       "sha": "5253e74e42",
-      "en": "$$ギュネイ$$\n「$$シャア・アズナブル$$! This day has finally come!」"
+      "en": "$$ギュネイ$$\n「$$シャア・アズナブル$$! The day has finally come!」"
     },
     "166:t_109:1": {
       "sha": "78c5793efc",
-      "en": "$$シャア$$\n「$$ギュネイ$$... Answer me one thing.」"
+      "en": "$$シャア$$\n「$$ギュネイ$$... Let me ask you one thing.」"
     },
     "166:t_109:2": {
       "sha": "156d8fd044",
-      "en": "$$シャア$$\n「You said you would stop me if I ever did something reckless. Is now that time?」"
+      "en": "$$シャア$$\n「You said you'd stop me if I went too far. Is this that moment?」"
     },
     "166:t_109:3": {
       "sha": "24d6cc7bea",
@@ -24,15 +24,15 @@
     },
     "166:t_109:4": {
       "sha": "c0055ecfc8",
-      "en": "$$シャア$$\n「Unable to answer, are you...? I'm not so cheap that a man like that could take me down.」"
+      "en": "$$シャア$$\n「You can't answer...? I'm not so cheap that a man like you could kill me.」"
     },
     "166:t_109:5": {
       "sha": "8a387bb595",
-      "en": "$$ギュネイ$$\n「Shut up! You're going to be my stepping stone!」"
+      "en": "$$ギュネイ$$\n「Shut up! You'll be my stepping stone!」"
     },
     "166:t_109:6": {
       "sha": "5d18e6554e",
-      "en": "$$ギュネイ$$\n「I'll surpass you and prove that I'm a better man than you are!」"
+      "en": "$$ギュネイ$$\n「I'll surpass you and prove I'm a greater man than you!」"
     },
     "166:t_110:0": {
       "sha": "795118bfab",
@@ -44,35 +44,35 @@
     },
     "166:t_110:2": {
       "sha": "a48cfca8f4",
-      "en": "$$カミーユ$$\n「I left persuading you to $$クェス$$ and the Colonel! I'm going to teach you how pointless it is to fight alone!」"
+      "en": "$$カミーユ$$\n「I'll leave persuading you to $$クェス$$ and the Colonel! I'll teach you how pointless it is to fight alone!」"
     },
     "166:t_110:3": {
       "sha": "ec98474cea",
-      "en": "$$ギュネイ$$\n「Don't be ridiculous! Say that kind of thing after you've beaten me!」"
+      "en": "$$ギュネイ$$\n「Don't give me that! Save that talk until you've defeated me!」"
     },
     "166:t_111:0": {
       "sha": "ad15bb2352",
-      "en": "$$フロンタル$$\n「$$キラ・ヤマト$$... You are a Super $$コーディネイター$$. Should you really be in a place like this?」"
+      "en": "$$フロンタル$$\n「$$キラ・ヤマト$$... Is this really where an $$スーパーコーディネイター$$ like you belongs?」"
     },
     "166:t_111:1": {
       "sha": "b3141a5787",
-      "en": "$$キラ$$\n「You know... who I am...?」"
+      "en": "$$キラ$$\n「Do you... know about me...?」"
     },
     "166:t_111:2": {
       "sha": "840dc612db",
-      "en": "$$フロンタル$$\n「I have my share of connections in $$プラント$$, you see. That is why I also know the truth about $$コーディネイター$$s.」"
+      "en": "$$フロンタル$$\n「I have my share of contacts in $$プラント$$. So I know the truth about $$コーディネイター$$s, too.」"
     },
     "166:t_111:3": {
       "sha": "de22140355",
-      "en": "$$キラ$$\n「The truth about $$コーディネイター$$s...!?」"
+      "en": "$$キラ$$\n「What is this truth about $$コーディネイター$$s...?!」"
     },
     "166:t_111:4": {
       "sha": "69c546d407",
-      "en": "$$フロンタル$$\n「Ignorance truly is bliss. But at times, it becomes a sin.」"
+      "en": "$$フロンタル$$\n「Ignorance is bliss. But it can sometimes be a sin.」"
     },
     "166:t_111:5": {
       "sha": "b3b0eac433",
-      "en": "$$フロンタル$$\n「You, who do not fulfill your own mission, will one day receive a fitting punishment.」"
+      "en": "$$フロンタル$$\n「If you fail to fulfill your mission, you'll one day face the punishment you deserve.」"
     },
     "166:t_999:0": {
       "sha": "c55adac948",
@@ -86,9 +86,10 @@
     "left_untranslated": [],
     "kept_omissions": [],
     "uncertain": [
-      "166:t_111:0: 'Super Coordinator' written as 'Super $$コーディネイター$$' (no token for スーパーコーディネイター in the sheet)",
-      "166:t_110:2: 大佐 rendered 'the Colonel' (Char), consistent with dlg_2024_07 where Quess calls Char 'the Colonel'",
-      "166:t_109:4: 討たれる rendered as 'take me down' (killed/defeated by)"
+      "166:t_111:0: Super Coordinator is the accepted composition of Super with the exact Coordinator token, preserving the source qualifier."
+    ],
+    "coordinator_resolutions": [
+      "166:t_111:0: Whole-corpus scan found three exact source occurrences. Replace composed old Super Coordinator with newly researched Ultimate Coordinator token; adjust article. Kira identity verified from source and neighbors."
     ]
   }
 }

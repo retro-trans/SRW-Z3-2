@@ -4,39 +4,39 @@
   "rows": {
     "838:t_004:2": {
       "sha": "f9d81cbc01",
-      "en": "$$號$$\n「Are we about to be spat out into normal space?!」"
+      "en": "$$號$$\n「We're going to be thrown out into normal space!」"
     },
     "838:t_004:3": {
       "sha": "4060a7901a",
-      "en": "$$テッサ$$\n「Captain $$ジェフリー$$, stay safe!」"
+      "en": "$$テッサ$$\n「Stay safe, Captain $$ジェフリー$$!」"
     },
     "838:t_004:4": {
       "sha": "715ce9af15",
-      "en": "$$ジェフリー$$\n「You too! We will meet again at the galactic center!」"
+      "en": "$$ジェフリー$$\n「You, too! We'll meet again at the galaxy's central point!」"
     },
     "838:t_004:5": {
       "sha": "c4bdfcd8c4",
-      "en": "$$ブライト$$\n「All ships, brace for shock!!」"
+      "en": "$$ブライト$$\n「All ships, brace for impact!!」"
     },
     "838:t_005:0": {
       "sha": "0c637cae1c",
-      "en": "$$ブライト$$\n「All ships, go to the aid of the $$マクロス・クォーター$$!」"
+      "en": "$$ブライト$$\n「All ships, move to rescue the $$マクロス・クォーター$$!」"
     },
     "838:t_005:1": {
       "sha": "21dbafca41",
-      "en": "$$スメラギ$$\n「Have the $$ＥＬＳ#keyword$$ fall back and support the $$真ゲッタードラゴン$$!」"
+      "en": "$$スメラギ$$\n「Have the $$ＥＬＳ#keyword$$ support the $$真ドラゴン$$!」"
     },
     "838:t_006:0": {
       "sha": "8bee1620a4",
-      "en": "$$トライア$$\n「This attack is...!」"
+      "en": "$$トライア$$\n「This attack...!」"
     },
     "838:t_006:1": {
       "sha": "a32fbd7ea6",
-      "en": "$$ＡＧ$$\n「This is bad! The hyperspace we're in now is going to collapse!」"
+      "en": "$$ＡＧ$$\n「This is bad! The hyperspace we're in is collapsing!」"
     },
     "838:t_006:2": {
       "sha": "6d087b3ff1",
-      "en": "$$ジェフリー$$\n「Are we about to be spat out into normal space?!」"
+      "en": "$$ジェフリー$$\n「We're going to be thrown out into normal space!」"
     },
     "838:t_006:3": {
       "sha": "5c143dd0a8",
@@ -44,11 +44,11 @@
     },
     "838:t_006:4": {
       "sha": "07ea4359bd",
-      "en": "$$號$$\n「No need to worry. We'll meet again at the galactic center.」"
+      "en": "$$號$$\n「Don't worry. We'll meet again at the galaxy's central point.」"
     },
     "838:t_006:5": {
       "sha": "c4bdfcd8c4",
-      "en": "$$ブライト$$\n「All ships, brace for shock!!」"
+      "en": "$$ブライト$$\n「All ships, brace for impact!!」"
     },
     "838:t_999:0": {
       "sha": "c55adac948",
@@ -60,23 +60,23 @@
     },
     "843:t_10:3": {
       "sha": "63d29e6b8a",
-      "en": "　\n　　\n　　　　　　　　　　　～ $$Ｄトレーダー$$ ～"
+      "en": "　\n　　\n　　　　　　　　　　　～$$Ｄトレーダー$$～"
     },
     "843:t_10:4": {
       "sha": "65478bb13f",
-      "en": "$$ＡＧ$$\n「...The final battle, set in the galactic center...」"
+      "en": "$$ＡＧ$$\n「The final battle at the galactic center...」"
     },
     "843:t_10:5": {
       "sha": "046913f6c8",
-      "en": "$$ＡＧ$$\n「Rough going from the very first step, I'm afraid...」"
+      "en": "$$ＡＧ$$\n「We're facing trouble right from the first step...」"
     },
     "843:t_10:6": {
       "sha": "6497b9d007",
-      "en": "$$ＡＧ$$\n「But having come this far, there's no turning back! All that's left is to fight with everything we've got!」"
+      "en": "$$ＡＧ$$\n「But we've come this far, and there's no turning back! All that's left is to fight with no thought for ourselves!」"
     },
     "843:t_10:7": {
       "sha": "182cd60615",
-      "en": "$$ＡＧ$$\n「So, that being the case, we do what we always do! Let's give it our all again today... business, business!」"
+      "en": "$$ＡＧ$$\n「So we'll do what we always do! Let's get down to... business, business!」"
     }
   },
   "names": {},
@@ -84,9 +84,12 @@
     "rows_in_slice": 19,
     "rows_examined": 19,
     "left_untranslated": [],
-    "kept_omissions": [],
-    "uncertain": [
-      "838:t_004:3 and t_006:x: speaker/addressee (Tessa to Jeffrey) rendered as 'Captain Jeffrey'; 838:t_005:1 short 真ドラゴン rendered with the full Shin Getter Dragon token (no token for the short form); dlg_2250_00 not yet present to compare route wording."
-    ]
+    "kept_omissions": [
+      "838:t_006:0: Alternate route: Tria begins reacting to the attack; AG supplies the immediate collapse warning.",
+      "838:t_006:3: Standalone address or recognition: $$號$$!; no missing predicate is inferred.",
+      "843:t_1:3: Source is deliberate silence; no words or inferred thought are supplied.",
+      "843:t_10:4: AG begins the reflective topic The final battle; t_10:5 comments on its troubled beginning."
+    ],
+    "uncertain": []
   }
 }

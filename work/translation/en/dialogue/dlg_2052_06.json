@@ -4,27 +4,27 @@
   "rows": {
     "384:t_101:0": {
       "sha": "d3fce7e416",
-      "en": "$$セツコ$$\n(The scorpion's venom that controls the human mind...)"
+      "en": "$$セツコ$$\n(The scorpion's venom controls human minds...)"
     },
     "384:t_101:1": {
       "sha": "4da896ca0f",
-      "en": "$$セツコ$$\n(But what's most frightening is the person who uses it... Can I really stop $$バルビエル$$...?)"
+      "en": "$$セツコ$$\n(But the most frightening thing is the person using it... Will I... be able to stop $$バルビエル$$...?)"
     },
     "384:t_102:0": {
       "sha": "4160946743",
-      "en": "$$クロウ$$\n「Our hard-won joint operation ends up backfiring on us...!」"
+      "en": "$$クロウ$$\n「I can't believe our joint operation ended up backfiring on us...!」"
     },
     "384:t_102:1": {
       "sha": "678de8b702",
-      "en": "$$クロウ$$\n「Hold on, $$ギルター$$! Once I've saved these guys, I'll deal with you!」"
+      "en": "$$クロウ$$\n「Just wait, $$ギルター$$! Once I've rescued these people, I'll deal with you!」"
     },
     "384:t_103:0": {
       "sha": "e7cdd3b65d",
-      "en": "$n\n「(Not clinging to convenient hopes, and not lashing out in despair either... Just doing what I have to do...)」"
+      "en": "$n\n(I won't cling to convenient hopes or let despair make me reckless. I'll do what I have to do...)"
     },
     "384:t_103:1": {
       "sha": "7aff9054dc",
-      "en": "$n\n(I can see the path a little now...!)"
+      "en": "$n\n(I've seen a little of the path ahead...!)"
     },
     "384:t_104:0": {
       "sha": "d3ab8f58bf",
@@ -32,11 +32,11 @@
     },
     "384:t_104:1": {
       "sha": "13ab337337",
-      "en": "$$タケル$$\n(What in the world is waiting for us beyond that?)"
+      "en": "$$タケル$$\n(What on earth lies beyond them...?)"
     },
     "384:t_105:0": {
       "sha": "6237011f82",
-      "en": "$$ギルター$$\n「$$セツコ$$!! If you had just obediently become mine, it would never have come to this!!」"
+      "en": "$$ギルター$$\n「$$セツコ$$!! If you'd only quietly become mine, none of this would've happened!!」"
     },
     "384:t_105:1": {
       "sha": "57269b9128",
@@ -44,23 +44,23 @@
     },
     "384:t_105:2": {
       "sha": "60363fdd50",
-      "en": "$$ギルター$$\n「D-don't look at me with those eyes! I... I...!」"
+      "en": "$$ギルター$$\n「D-don't look at me like that! I... I...!」"
     },
     "384:t_105:3": {
       "sha": "608c458720",
-      "en": "$$セツコ$$\n「You're...」"
+      "en": "$$セツコ$$\n「You are...」"
     },
     "384:t_105:4": {
       "sha": "33fcafe0b3",
-      "en": "$$ギルター$$\n「Shut up! Everyone who insults me, die!!」"
+      "en": "$$ギルター$$\n「Shut up! Anyone who insults me can die!!」"
     },
     "384:t_106:0": {
       "sha": "5ac05092fa",
-      "en": "$$ギルター$$\n「I hate them...! I hate everyone who won't acknowledge my power, everyone who won't bend to my will!!」"
+      "en": "$$ギルター$$\n「I hate them...! I hate everyone who refuses to recognize my power, everyone who won't do as I want!!」"
     },
     "384:t_106:1": {
       "sha": "b963189ecb",
-      "en": "$$ギルター$$\n「Die! Everyone, die!! Everyone who defies me, dieee!!」"
+      "en": "$$ギルター$$\n「Die! All of you, die!! Anyone who defies me can die!!」"
     },
     "384:t_999:0": {
       "sha": "c55adac948",
@@ -71,8 +71,21 @@
   "report": {
     "rows_in_slice": 16,
     "rows_examined": 16,
+    "neighbor_rows_examined": 16,
     "left_untranslated": [],
-    "kept_omissions": [],
-    "uncertain": []
+    "kept_omissions": [
+      "384:t_104:0: paired noun fragments as internal topic.",
+      "384:t_105:1: name-only address.",
+      "384:t_105:2,3: deliberately interrupted clauses.",
+      "384:t_999:0: startled interjection."
+    ],
+    "uncertain": [
+      "384:t_105:0: possessive coercion remains explicit and unsoftened.",
+      "384:t_104:1: them refers to darkness and light, not two people."
+    ],
+    "context_rows_examined": 32,
+    "neighbor_read_scope": "Eight source rows before and eight after, all read untruncated; no previous English translations used.",
+    "unresolved_pro_drop": [],
+    "change_log": "Fresh Japanese-to-English draft; restored settled subjects and verbs, preserved source controls and row boundaries; all names resolved against library_terms.json."
   }
 }

@@ -1,6 +1,14 @@
 # Building a test ISO
 
-Current build: **0.5.1** (Spirit UI + RPW name tables + mission conditions + team names + executable UI text via the draw-time hook + title cards + battle/caption/menu art + translated library + all stage dialogue + all battle voice, VWF), RPCS3 only.
+Current build: **0.5.2** (fresh dialogue retranslation + Spirit UI + RPW name tables + mission conditions + team names + executable UI text via the draw-time hook + title cards + battle/caption/menu art + translated library + battle voice, VWF), RPCS3 only.
+
+The 63,553 fresh dialogue drafts were promoted for this build. Five source-bound
+records use an additional alphabet at 85% horizontal width, preserving their
+complete wording within three lines. This includes the full eleven-Sphere list.
+`tools/dialogue_layout.py` pins each record's source fingerprint. Both font
+pages and the VWF advance table contain the same extra glyphs; other text keeps
+its regular glyphs. The builder now rejects any rendered speech block over
+three lines. Live readability and the new build's runtime remain unverified.
 
 Use the bundled Python, which has Pillow, numpy and cryptography:
 `C:\Users\Binh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`
@@ -76,7 +84,8 @@ read 2026-09-30:
   `original`, optional upgrade patches from earlier translated versions.
 - Manifest needs `game_id` (stable slug), `version` (= git tag, e.g. v0.3.0),
   and `source_commit`: a full 40-character commit of this project's sources.
-  **This repo is not a git repository yet**, so a release needs one first.
+  The project is tracked in private `retro-trans/SRW-Z3-2`; commit the actual
+  build inputs before stamping release provenance.
 - Built with `python -m retro_trans.release build release-local.json --out
   release-vX.Y.Z` then `... validate`, config copied from the tool's
   `examples/release-config.json`.

@@ -4,11 +4,11 @@
   "rows": {
     "557:t_139:3": {
       "sha": "3925da528d",
-      "en": "$$レナード$$\n「Once you can master that $$スフィア$$ too, you'll understand a little of what I'm thinking.」"
+      "en": "$$レナード$$\n「Once you master that $$スフィア$$, you'll understand my thinking a little, too.」"
     },
     "557:t_139:4": {
       "sha": "1d2ac0798c",
-      "en": "$n\n「I won't listen to talk like it's all over! We'll stop your plan right here!」"
+      "en": "$n\n「I won't listen to you talk as though it's all over! We'll stop your plan here!」"
     },
     "557:t_140:0": {
       "sha": "a6001f3d76",
@@ -16,50 +16,43 @@
     },
     "557:t_140:1": {
       "sha": "c0ca190d10",
-      "en": "$$テッサ$$\n(As I feared, words alone can't stop you. Then there is only one thing left to do.)"
+      "en": "$$テッサ$$\n(It seems words cannot stop you after all. Then there's only one thing to do.)"
     },
     "557:t_140:2": {
       "sha": "0f03e028bc",
-      "en": "$$テッサ$$\n(Prepare yourself, $$レナード$$. We will never give up, not until the very end.)"
+      "en": "$$テッサ$$\n(Prepare yourself, $$レナード$$. We won't give up until the very end.)"
     },
     "557:t_141:0": {
       "sha": "57c8c59168",
-      "en": "$$クロウ$$\n「Looks like this is $$ファイヤバグ$$'s last battlefield.」"
+      "en": "$$クロウ$$\n「It looks like this is $$ファイヤバグ$$'s last battlefield.」"
     },
     "557:t_141:1": {
       "sha": "f3c8a98b85",
-      "en": "$$クロウ$$\n「Get ready, you arsonists! We end your crimes right here!」"
+      "en": "$$クロウ$$\n「Brace yourselves, arsonists! We'll end your crimes here!」"
     },
     "557:t_141:2": {
       "sha": "cb15e66b63",
-      "en": "$$クロウ$$\n(Just wait, $$マリリン$$. Your lackeys will be joining you real soon.)"
+      "en": "$$クロウ$$\n(Hold on, $$マリリン$$. Your subordinates will be joining you soon.)"
     },
     "557:t_141:3": {
       "sha": "7c9834b556",
-      "en": "$$クロウ$$\n(I'll come too, in the end. That's when $$ファイヤバグ$$ is finished.)"
+      "en": "$$クロウ$$\n(I'll join you in the end, too. Then $$ファイヤバグ$$ will be finished.)"
     },
     "557:t_999:0": {
       "sha": "c55adac948",
       "en": "$n\n「Ah!」"
     }
   },
-  "names": {
-    "マリリン": {
-      "kind": "pilot",
-      "en": "Marilyn",
-      "evidence": "Given-name-only form of マリリン・キャット (Marilyn Catto, female, in sheet); Crowe addresses her by first name in thought."
-    }
-  },
+  "names": {},
   "report": {
     "rows_in_slice": 10,
     "rows_examined": 10,
     "left_untranslated": [],
-    "kept_omissions": [],
+    "kept_omissions": [
+      "557:t_140:0: Name-only thought."
+    ],
     "uncertain": [
-      "557:t_141:2: bare マリリン has no token in the sheet; proposed $$マリリン$$ (Marilyn Catto's given name). 'Your lackeys' = Firebug members, addressed to her in thought.",
-      "557:t_141:1: 放火魔 = 'arsonists' (pun on Firebug).",
-      "557:t_141:3: 最後には俺も行く rendered 'I'll come too, in the end' (Crowe following Marilyn / dying at the end; ambiguous).",
-      "557:t_139:3: そのスフィア = 'that $$スフィア$$' (Hibiki's Sphere)."
+      "557:t_141:2/3: Joining Marilyn is death euphemism; preserved ominous intention rather than inventing timing."
     ]
   }
 }

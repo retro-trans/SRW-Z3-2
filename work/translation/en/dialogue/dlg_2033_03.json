@@ -4,15 +4,15 @@
   "rows": {
     "231:t_100:1": {
       "sha": "698c95cfa1",
-      "en": "$$アルト$$\n(But someday, I'll fly for my real purpose! Yours and mine... carrying those guys' songs with us!)"
+      "en": "$$アルト$$\n(But someday, we'll fly for your true purpose! Our shared wish... to carry their songs!)"
     },
     "231:t_101:0": {
       "sha": "03b32ad0d7",
-      "en": "$n\n(This thing... is no ordinary $$アンゲロイ$$...)"
+      "en": "$n\n(This... isn't an ordinary $$アンゲロイ$$...)"
     },
     "231:t_101:1": {
       "sha": "c687ecde4a",
-      "en": "$n\n(What the hell is it...? Why do I fear its very existence...?)"
+      "en": "$n\n(What is it...? Why does its very existence terrify me...?)"
     },
     "231:t_101:2": {
       "sha": "24febc8378",
@@ -20,27 +20,27 @@
     },
     "231:t_101:3": {
       "sha": "be835933f5",
-      "en": "$n\n(Miss $$スズネ$$ isn't feeling anything... Am I the only one who's scared...?)"
+      "en": "$n\n(Miss $$スズネ$$ doesn't feel anything... Am I... the only one who's afraid...?)"
     },
     "231:t_102:0": {
       "sha": "33aaba05b0",
-      "en": "$$バサラ$$\n「Let's go! $$Ｆｉｒｅ　Ｂｏｍｂｅｒ$$ feat. $$シビル$$'s galaxy live show!」"
+      "en": "$$バサラ$$\n「Here we go! It's a galactic concert by $$Ｆｉｒｅ　Ｂｏｍｂｅｒ$$ feat. $$シビル$$!」"
     },
     "231:t_102:1": {
       "sha": "35f3ea4edc",
-      "en": "$$シビル$$\n「Kooooh!!」"
+      "en": "$$シビル$$\n「Koooooh!!」"
     },
     "231:t_102:2": {
       "sha": "43c31e89f8",
-      "en": "$$レイ#pt231$$\n「Not bad, this vibe...!」"
+      "en": "$$レイ#pt231$$\n「This groove isn't bad...!」"
     },
     "231:t_102:3": {
       "sha": "a7df22860b",
-      "en": "$$ミレーヌ$$\n「Yeah! My heart's at its peak too!」"
+      "en": "$$ミレーヌ$$\n「Yeah! My heart's at its peak, too!」"
     },
     "231:t_102:4": {
       "sha": "5a9c0bd399",
-      "en": "$$バサラ$$\n「No matter who I'm up against or where we are, I'm gonna sing!!」"
+      "en": "$$バサラ$$\n「No matter who I'm facing or where I am, I'll sing!!」"
     },
     "231:t_999:0": {
       "sha": "c55adac948",
@@ -51,12 +51,31 @@
   "report": {
     "rows_in_slice": 11,
     "rows_examined": 11,
+    "neighbor_rows_examined": 16,
     "left_untranslated": [],
-    "kept_omissions": [],
-    "uncertain": [
-      "231:t_100:1: お前 taken as Alto's YF-29 (next Alto row in 2033_02 addresses it); 'Yours and mine' keeps that ambiguity",
-      "231:t_102:2: speaker Ray = pt231 (Macross 7 band master, used in neighbouring slices)",
-      "231:t_102:0: 銀河ライブ = 'galaxy live show' (no glossary term); Sivil roar rendered 'Kooooh!!'"
-    ]
+    "kept_omissions": [
+      "231:t_102:1;231:t_999:0: Nonverbal cry/interjection.",
+      "231:t_100:1: Deliberate final fragment elaborates the wish already stated."
+    ],
+    "uncertain": [],
+    "neighbor_row_ids": [
+      "231:t_028:7",
+      "231:t_028:8",
+      "231:t_028:9",
+      "231:t_029:0",
+      "231:t_029:1",
+      "231:t_029:2",
+      "231:t_029:3",
+      "231:t_100:0",
+      "236:t_1:3",
+      "236:t_1:4",
+      "236:t_1:5",
+      "236:t_1:6",
+      "236:t_1:7",
+      "236:t_1:8",
+      "236:t_1:9",
+      "236:t_1:10"
+    ],
+    "rows_examined_including_context": 27
   }
 }

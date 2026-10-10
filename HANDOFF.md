@@ -1,5 +1,22 @@
 # Tengoku-hen handoff
 
+## Fresh-dialogue release 0.5.2 — 2026-10-10
+
+The user requested a release with the fresh dialogue retranslation. All 857
+fresh slices are promoted into 851 active files, covering 63,553 records. Six
+route-choice filenames held disjoint records from different batches; their
+fresh records and reports are merged by ID. Previous active inputs
+remain in ignored `work/output/retranslation-promotion-0.5.2/prior_active/`;
+`work/translation/en/retranslation_promotion_0.5.2.json` records exact hashes.
+Historical batch reports describe their original completion state.
+
+Five source-bound long records use the separate condensed alphabet in
+`tools/dialogue_layout.py`. English wording and tokens are unchanged; the
+eleven-Sphere list now measures three lines. Builder checks include brackets
+and exact glyph advances. Runtime readability still needs playtesting.
+Build/release evidence belongs under `work/output/` and `docs/RELEASE_0.5.2.md`.
+Keep the repository private; this release targets RPCS3, not physical PS3/Vita.
+
 ## Private repository setup — 2026-10-09
 
 Repository: `retro-trans/SRW-Z3-2`, private, administered with `binhlt0402`.

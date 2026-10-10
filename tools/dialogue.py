@@ -155,8 +155,10 @@ class Width:
         self.adv = json.loads(ADVANCES.read_text(encoding='utf-8'))['advances']
         self.resolver = resolver
 
-    def text(self, s):
-        return sum(self.adv.get(c, FULLWIDTH) for c in s)
+    def text(self, s, rid=None):
+        from tools import dialogue_layout as layout
+        return sum(layout.advance(self.adv[c]) if layout.condensed(rid) and c in self.adv
+                   else self.adv.get(c, FULLWIDTH) for c in s)
 
     def expand(self, s):
         def sub(m):
@@ -165,13 +167,13 @@ class Width:
             return en[0].lower() + en[1:] if m.group(2) else en
         return TOKEN.sub(sub, s)
 
-    def wrap(self, speech):
+    def wrap(self, speech, rid=None):
         """Lines of the speech after wrapping; $n counts as PROTAGONIST_UNITS."""
         words = self.expand(speech).split(' ')
         lines, line, used = [], '', 0
         for word in words:
-            w = self.text(word.replace('$n', '')) + word.count('$n') * PROTAGONIST_UNITS
-            gap = self.adv[' '] if line else 0
+            w = self.text(word.replace('$n', ''), rid) + word.count('$n') * PROTAGONIST_UNITS
+            gap = self.text(' ', rid) if line else 0
             lead = FULLWIDTH if lines else 0          # continuation lines start with
             if line and used + gap + w > BOX_UNITS - lead:
                 lines.append(line)
@@ -339,7 +341,12 @@ def check(only=None):
                     missing.add(m.group(1))
                 elif problem:
                     errors.append('%s: %s' % (where, problem))
-            lines = [l for part in body.split('\n') for l in width.wrap(part.strip().strip('「」'))] \
+            from tools import dialogue_layout as layout
+            try:
+                layout.condensed(rid, entry)
+            except ValueError as exc:
+                errors.append(where + ': ' + str(exc))
+            lines = [l for part in body.split('\n') for l in width.wrap(part.strip().strip('「」'), rid)] \
                 if speech and not caption else []
             if len(lines) > MAX_SPEECH_LINES:
                 long_rows.append('%s: %d lines (max %d)' % (where, len(lines), MAX_SPEECH_LINES))

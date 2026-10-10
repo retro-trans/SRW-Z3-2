@@ -30,6 +30,8 @@ def translations():
     rows = {}
     for path in sorted(dlg.TRANSLATIONS.glob('*.json')):
         for rid, entry in json.loads(path.read_text(encoding='utf-8')).get('rows', {}).items():
+            if rid in rows:
+                raise ValueError('Duplicate active dialogue record: ' + rid)
             rows[rid] = entry
     return rows
 
@@ -41,6 +43,10 @@ def render(entry, record, resolver, width_of):
     caption = not head.strip('　 ') and '$' not in head
     if caption:
         return head + '\n' + lb.expand(body, resolver)
+    from tools import dialogue_layout as layout
+    if layout.condensed(record.get('id'), entry):
+        normal_width = width_of
+        width_of = lambda c: layout.advance(normal_width(c)) if ord(c) < 128 else normal_width(c)
     out = [head]
     # One 「...」 block per line of the translation (normally one; route-branch
     # records have one per branch); each block wraps on its own.
@@ -91,13 +97,23 @@ def plan(width_of):
     resolver = Resolver(terms)
     rows = {r['id']: r for r in dlg.plan_rows()}
     rendered = {}
-    for rid, entry in translations().items():
+    active = translations()
+    if set(active) != set(rows):
+        raise ValueError('Active dialogue coverage mismatch: %d missing, %d unexpected' %
+                         (len(set(rows) - set(active)), len(set(active) - set(rows))))
+    for rid, entry in active.items():
         record = rows.get(rid)
         if record is None:
             raise ValueError('translation for an unknown record: ' + rid)
         if entry['sha'] != record['sha']:
             raise ValueError('%s: the Japanese changed since translation' % rid)
         text = render(entry, record, resolver, width_of)
+        if record['jp'].partition('\n')[0].strip() and len(text.split('\n')) - 1 > dlg.MAX_SPEECH_LINES:
+            # Several independent source blocks have a separate budget each.
+            for part in entry['en'].partition('\n')[2].split('\n'):
+                piece = dict(entry, en=entry['en'].partition('\n')[0] + '\n' + part)
+                if len(render(piece, record, resolver, width_of).split('\n')) - 1 > dlg.MAX_SPEECH_LINES:
+                    raise ValueError('%s: rendered speech exceeds the three-line box' % rid)
         if text.count('《') != record['jp'].count('《'):
             raise ValueError('%s: 《》 link count changed; links bind by position' % rid)
         if sorted(dlg.CODES.findall(text)) != sorted(dlg.CODES.findall(record['jp'])):
@@ -124,7 +140,8 @@ def rebuild_member(mid, rendered, mapping):
         rid = ids.get(m.start())
         if rid not in rendered:
             continue
-        block = encode(rendered[rid], mapping)
+        from tools import dialogue_layout as layout
+        block = encode(rendered[rid], layout.mapping_for(rid, mapping))
         if not lua_safe(block):
             raise ValueError('%s: encoded text would break the Lua [[...]] string' % rid)
         out += text[pos:m.start(1)].encode('cp932') + block

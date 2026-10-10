@@ -4,27 +4,27 @@
   "rows": {
     "195:t_103:3": {
       "sha": "aca567a893",
-      "en": "$$シモン$$\n「Who the hell do you think I am!」"
+      "en": "$$シモン$$\n「Who the hell do you think I am!?」"
     },
     "195:t_103:4": {
       "sha": "eb217f3f12",
-      "en": "$$シモン$$\n「I'm $$シモン$$ the Digger...! Leader of $$大グレン団$$, $$シモン$$ the Digger!」"
+      "en": "$$シモン$$\n「I'm $$シモン$$ the Digger...! Leader of the $$大グレン団$$, $$シモン$$ the Digger!」"
     },
     "195:t_103:5": {
       "sha": "635aec7570",
-      "en": "$$シモン$$\n「Come at me, $$サイデリアル$$! Don't think you can stop my drill!」"
+      "en": "$$シモン$$\n「Come on, $$サイデリアル$$! Don't think you can stop my drill!」"
     },
     "195:t_104:0": {
       "sha": "aabc60b1d8",
-      "en": "$$ギミー$$\n(Keep watching, $$キタン$$...!)"
+      "en": "$$ギミー$$\n(Watch me, $$キタン$$...!)"
     },
     "195:t_104:1": {
       "sha": "e9c49bcb4c",
-      "en": "$$ダリー$$\n($$キタン$$'s $$大グレン団$$ spirit...! We'll carry it on!)"
+      "en": "$$ダリー$$\n(We'll carry on your $$大グレン団$$ spirit, $$キタン$$!)"
     },
     "195:t_104:2": {
       "sha": "a4eb8d70fa",
-      "en": "$$ギミー$$\n(And we will definitely pull it off!)"
+      "en": "$$ギミー$$\n(And we'll make it happen!)"
     },
     "195:t_104:3": {
       "sha": "ae45ab23be",
@@ -36,11 +36,11 @@
     },
     "195:t_105:1": {
       "sha": "2742785f61",
-      "en": "$$ギルター$$\n($c, who get in my way... and $$サルディアス$$, who won't acknowledge me... I hate them!)"
+      "en": "$$ギルター$$\n(I hate $c for getting in my way... I hate $$サルディアス$$ for refusing to acknowledge me!)"
     },
     "195:t_105:2": {
       "sha": "5475273931",
-      "en": "$$ギルター$$\n(Everyone who won't obey me, die! $c, $$サルディアス$$, $$バルビエル$$ - all of you!!)"
+      "en": "$$ギルター$$\n(Everyone who refuses to obey me should die! $c, $$サルディアス$$, $$バルビエル$$... All of them!!)"
     },
     "195:t_999:0": {
       "sha": "c55adac948",
@@ -51,18 +51,19 @@
   "report": {
     "rows_in_slice": 11,
     "rows_examined": 11,
+    "neighbor_rows_examined": 16,
     "left_untranslated": [],
     "kept_omissions": [
-      "195:t_104:3: 取り戻します subject not stated; rendered 'We'll' (Darry speaking for the group, following her 私達 in t_104:1)",
-      "195:t_104:0: 見ていてくれよ object left unstated ('Keep watching'), scene does not settle me vs us",
-      "195:t_104:2: やってみせる subject rendered 'we' to follow Darry's 私達"
+      "195:t_103:4: Source hesitation, ellipsis, address, silence, or trailing construction retained; complete clauses restore grammatical subjects and verbs.",
+      "195:t_104:0: Source hesitation, ellipsis, address, silence, or trailing construction retained; complete clauses restore grammatical subjects and verbs.",
+      "195:t_105:0: Source hesitation, ellipsis, address, silence, or trailing construction retained; complete clauses restore grammatical subjects and verbs.",
+      "195:t_105:1: Source hesitation, ellipsis, address, silence, or trailing construction retained; complete clauses restore grammatical subjects and verbs.",
+      "195:t_105:2: Source hesitation, ellipsis, address, silence, or trailing construction retained; complete clauses restore grammatical subjects and verbs.",
+      "195:t_999:0: Intentional source echo, shout, reaction, address, conventional acknowledgement, or continuation of the preceding row retained."
     ],
-    "uncertain": [
-      "195:t_103:3 is labelled pid_VIRAL but speaker is Simon; 'Who the hell do you think I am' is his catchphrase, read as aimed at the Sidereal",
-      "穴掘りシモン rendered '$$シモン$$ the Digger' (no glossary token for 穴掘り)",
-      "195:t_105:0-2: 憎い rendered 'I hate them' with objects (Gurren Team, Sardias) from the following rows; Girtar's 'Sardias who won't acknowledge me' read as Sardias/Barbiel being Sidereal leaders he resents",
-      "195:t_105:1-2: $c used bare as the Japanese has it (Girtar addresses the player squad as a group)",
-      "Brief calls this stage 14 Alcatraz but rows are Sidereal/Girtar/Simon; translated from text"
+    "uncertain": [],
+    "context_decisions": [
+      "The closing battle monologues carry the Gurren team's vows and Girtar's growing hatred. Girtar's targets are explicitly the squad, Saldias, and Barubiel."
     ]
   }
 }

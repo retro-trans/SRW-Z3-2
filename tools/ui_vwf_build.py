@@ -17,6 +17,13 @@ VERSION = 'ui-0.1.1-vwf'
 
 def raster(token, face=FACE):
     from PIL import Image, ImageDraw, ImageFont
+    from tools import dialogue_layout as layout
+    if token.startswith(layout.PREFIX):
+        glyph, width = raster(token[len(layout.PREFIX):], face)
+        narrow = glyph.resize((round(32 * layout.SCALE), 32), Image.Resampling.LANCZOS)
+        cell = Image.new('L', (32, 32))
+        cell.paste(narrow, (0, 0))
+        return cell, layout.advance(width)
     badge = token.startswith('@badge:')
     text = token[7:] if badge else token
     font = ImageFont.truetype(str(face),116)

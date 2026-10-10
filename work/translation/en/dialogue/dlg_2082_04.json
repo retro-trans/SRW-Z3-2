@@ -2,13 +2,29 @@
   "schema": 1,
   "slice": "dlg_2082_04",
   "rows": {
-    "581:t_001:14": {"sha": "e1b9ce614c", "en": "$n\n「I won't push. You can't squeeze money out of a broke guy, after all.」"},
-    "581:t_001:15": {"sha": "4409c39282", "en": "$$クロウ$$\n「Okay. That buys me some peace of mind for now.」"},
-    "581:t_001:16": {"sha": "34d2233191", "en": "$$クロウ$$\n(Even if we save $$インサラウム$$, it won't erase $$マルグリット$$ and the others' wounds...)"},
-    "581:t_001:17": {"sha": "80a72e6547", "en": "$$クロウ$$\n(The past can't be changed after all... All we can do is keep moving forward.)"}
+    "581:t_001:14": {
+      "sha": "e1b9ce614c",
+      "en": "$n\n「I won't ask the impossible. You can't spend what you don't have.」"
+    },
+    "581:t_001:15": {
+      "sha": "4409c39282",
+      "en": "$$クロウ$$\n「That's fine. Now I can keep my peace of mind for a while.」"
+    },
+    "581:t_001:16": {
+      "sha": "34d2233191",
+      "en": "$$クロウ$$\n(Saving that $$インサラウム$$ won't erase the wounds $$マルグリット$$ and the others carry...)"
+    },
+    "581:t_001:17": {
+      "sha": "80a72e6547",
+      "en": "$$クロウ$$\n(We really can't change the past... All we can do is keep moving forward.)"
+    }
   },
   "names": {},
-  "report": {"rows_in_slice": 4, "rows_examined": 4, "left_untranslated": [],
-             "kept_omissions": [],
-             "uncertain": ["14: speaker $n replying to Crowe's tab joke; rendered as a light 'can't squeeze blood from a stone' idiom, listener assumed Crowe", "16: インサラウム as a bare keyword token ($$インサラウム$$) for the people/world, per earlier slices"]}
+  "report": {
+    "rows_in_slice": 4,
+    "rows_examined": 4,
+    "left_untranslated": [],
+    "kept_omissions": [],
+    "uncertain": []
+  }
 }

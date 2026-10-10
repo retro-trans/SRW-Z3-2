@@ -15,11 +15,12 @@ Fresh dialogue drafts cover **63,553 records in 857 slices across 12 batches**,
 including alternate routes, endings, ace talks and previews.
 See [the completion report](docs/FRESH_RETRANSLATION_COMPLETION.md).
 
-Fresh drafts live in `work/translation/en/retranslation_*/drafts/`. They have
-**not** replaced the older `work/translation/en/dialogue/` build inputs and
-have not been built or tested in-game. One eleven-Sphere-name list still needs
-a layout fix. Recorded validation is evidence from the local source workspace,
-not a promise that source-dependent checks run in a fresh clone.
+Fresh drafts live in `work/translation/en/retranslation_*/drafts/` and were
+promoted to `work/translation/en/dialogue/` for **0.5.2**. Five long records,
+including the full eleven-Sphere list, use a condensed alphabet. The complete
+wording is preserved. The new build still needs in-game playtesting. Recorded
+validation is evidence from the local source workspace, not a promise that
+source-dependent checks run in a fresh clone.
 
 UI, library and voice work have separate coverage notes in [HANDOFF.md](HANDOFF.md).
 Repository creation does not publish a game patch. The user handles emulator

@@ -4,38 +4,40 @@
   "rows": {
     "781:t_10:3": {
       "sha": "63d29e6b8a",
-      "en": "　\n　　\n　　　　　　　　　　　～ $$Ｄトレーダー$$ ～"
+      "en": "　\n　　\n　　　　　　　　　　　～$$Ｄトレーダー$$～"
     },
     "781:t_10:4": {
       "sha": "0fb9df1712",
-      "en": "$$ＡＧ$$\n「Well, well. Caught up in the $$時空震動$$, $c has been split into three units.」"
+      "en": "$$ＡＧ$$\n「Well, well! After getting caught in that $$時空震動$$, $c has been split into three groups.」"
     },
     "781:t_10:5": {
       "sha": "893f65d270",
-      "en": "$$ＡＧ$$\n「Well, as always, I'll be tagging along with $n.」"
+      "en": "$$ＡＧ$$\n「Of course, I'll be following $n as usual.」"
     },
     "781:t_10:6": {
       "sha": "42ba09a170",
-      "en": "$$ＡＧ$$\n「So, no matter what awaits us down the road, it's another day of giving it my all... business, business!」"
+      "en": "$$ＡＧ$$\n「So, whatever awaits us up ahead, I'll put my all into another day's... business, business!」"
     },
     "781:t_10:7": {
       "sha": "929a1f1498",
-      "en": "$$ＡＧ$$\n「Ah... I'm sorry, but this time I'll be taking a break from celebrating our ace pilots.」"
+      "en": "$$ＡＧ$$\n「Oh... I'm sorry, but I'll have to skip the ace pilot celebrations this time.」"
     },
     "781:t_10:8": {
       "sha": "42d00c3176",
-      "en": "$$ＡＧ$$\n「I have to go search for $n right now, you see.」"
+      "en": "$$ＡＧ$$\n「You see, I... have to go look for $n now.」"
     }
   },
   "names": {},
   "report": {
     "rows_in_slice": 6,
     "rows_examined": 6,
+    "neighbor_rows_examined": 16,
     "left_untranslated": [],
+    "context_decisions": [
+      "AG explains the separation and postpones celebrations to search for Hibiki."
+    ],
     "kept_omissions": [],
-    "uncertain": [
-      "781:t_10:5/8: $n is treated as the player character, as in earlier AG scenes; AG follows and searches for $n (separated from the squad).",
-      "781:t_10:4: 時空震動 rendered 'spacequake' per the brief context."
-    ]
+    "uncertain": [],
+    "changelog": "Fresh Japanese retranslation for batch 2; adjacent context reviewed, grammar restored, speaker choices and glossary tokens checked."
   }
 }

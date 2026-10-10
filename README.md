@@ -64,3 +64,9 @@ Every new release must work with
 [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools).
 See [release preparation](docs/RETRO_TRANS_RELEASES.md). Versions use `0.x.y`;
 repository administration does not assign a build version.
+
+The [0.5.2 playtest release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.2)
+uses an original-to-English ISO xdelta patch. Download it with an authorized
+GitHub account, then use Retro Trans's **Apply xdelta** mode. See
+[0.5.2 installation and compatibility notes](docs/RELEASE_0.5.2.md). The private
+release is outside the public Automatic catalog.

@@ -27,6 +27,17 @@ Release package built with Retro Trans 0.5.4, commit
   GitHub source checks passed for both commits.
 
 Runtime boot, gameplay, condensed-glyph readability and enlarged battle-voice
-block limits remain unverified. This is a private RPCS3 playtest prerelease.
-Use Retro Trans's manual **Apply xdelta** mode after an authorized GitHub
-download. This release is outside the public Automatic catalog.
+block limits remain unverified. This is an RPCS3 playtest release.
+
+On 2026-10-10 the user requested public repository visibility and then regular
+release publication. The prerelease flag is now disabled. The scoped catalog
+refresh passed in run 38052611269, committing the unchanged manifest and patch
+identities in `f7a396b19ea728374543623edb0ae6cd9389b99e`. Retro Trans's standard
+latest-release reader accepts v0.5.2. Use **Refresh catalog** in Automatic mode;
+manual **Apply xdelta** remains available. Earlier private/prerelease statements
+above record the initial publication state.
+
+The live catalog URL used by Refresh catalog contains v0.5.2. Retro Trans
+0.5.4's unchanged recognition function identified the actual original ISO by
+size and full hash; its Automatic Latest planner selected 0.5.2 in one patch,
+with the published patch SHA-256 matching the verified release manifest.

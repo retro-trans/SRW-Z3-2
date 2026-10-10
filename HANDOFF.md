@@ -1,5 +1,18 @@
 # Tengoku-hen handoff
 
+## Automatic catalog discovery — 2026-10-10
+
+At the user's request, v0.5.2 is now a regular public GitHub release with the
+prerelease flag disabled. Playtest limitations remain in the release notes.
+Retro Trans's scoped catalog refresh passed:
+https://github.com/retro-trans/retro-trans-tools/actions/runs/38052611269
+Catalog commit `f7a396b19ea728374543623edb0ae6cd9389b99e` adds the unchanged
+verified manifest and patch. Use Refresh catalog, select the matching original
+Japanese ISO, and choose Latest. This supersedes earlier manual-only guidance.
+Retro Trans 0.5.4 recognized the actual original ISO by size and full hash;
+Automatic Latest selects 0.5.2 in one patch. The live Refresh catalog URL
+includes this entry. No game binaries or translation inputs changed.
+
 ## Public repository — 2026-10-10
 
 The user requested public visibility after the 0.5.2 release. GitHub confirms

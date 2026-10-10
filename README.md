@@ -66,7 +66,8 @@ See [release preparation](docs/RETRO_TRANS_RELEASES.md). Versions use `0.x.y`;
 repository administration does not assign a build version.
 
 The [0.5.2 playtest release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.2)
-uses an original-to-English ISO xdelta patch. Download it, then use Retro
-Trans's **Apply xdelta** mode. See
-[0.5.2 installation and compatibility notes](docs/RELEASE_0.5.2.md). This
-playtest prerelease is outside the public Automatic catalog.
+uses an original-to-English ISO xdelta patch. In Retro Trans, click **Refresh
+catalog**, select the matching original Japanese ISO, and choose **Latest**.
+Manual **Apply xdelta** is also available. See
+[0.5.2 installation and compatibility notes](docs/RELEASE_0.5.2.md). This is
+a playtest release; in-game testing remains pending.

@@ -36,10 +36,15 @@ English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
 
 ## Apply
 
-Download the release assets. In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools),
-use **Apply xdelta**, select your matching original Japanese ISO and
-`{patch}`, and choose a new output ISO. This playtest prerelease is not enrolled in
-the public Automatic catalog. Retro Trans 0.5.4 was used for release validation.
+In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), click
+**Refresh catalog**, select your matching original Japanese ISO in Automatic
+mode, and choose **Latest** (0.5.2). Select a new output ISO and apply the patch.
+Tengoku-hen is included in the public catalog. Retro Trans 0.5.4 was used for
+release validation.
+
+For manual patching, download the release assets, use **Apply xdelta**, select
+your matching original Japanese ISO and
+`{patch}`, and choose a new output ISO.
 
 Alternatively:
 
@@ -75,7 +80,7 @@ decode round trip. Only patches and protocol metadata are distributed.
 ## RPCS3 compatibility and limitations
 
 **RPCS3 only.** This build uses a plain ELF executable; physical PS3 and Vita
-support are not claimed. This is a playtest prerelease. Boot, gameplay and
+support are not claimed. This is a playtest release. Boot, gameplay and
 live readability of this exact build remain unverified. Coverage checks do
 not prove every screen or wording is final; provisional names and difficult
 interpretations remain recorded in the project reports.

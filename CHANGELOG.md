@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-10 - Enable Retro Trans Automatic discovery
+
+- Publish v0.5.2 as a regular public GitHub release at the user's request; retain playtest limitations in the notes.
+- Refresh Retro Trans's scoped catalog successfully and add Tengoku-hen's verified original-to-0.5.2 route. Update installation instructions; patch bytes and game build are unchanged.
+
 ## 2026-10-10 - Public repository
 
 - Make SRW-Z3-2 public at the user's request and update release download instructions. Version 0.5.2 remains an RPCS3 playtest prerelease; game artifacts are unchanged.

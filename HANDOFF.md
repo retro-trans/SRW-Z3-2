@@ -1,5 +1,31 @@
 # Tengoku-hen handoff
 
+## Six public screenshot reports — 0.5.19 preparation
+
+See docs/UI_REVIEW_0.5.19.md. Shortened Link labels/replay suffixes, the shared
+Library Name label, composed SR reward captions and the baked domination HUD
+are source-bound fixes. The earlier mission-name dictionary matches missed a
+separate substitution consumer; tools/mission_names.py translates its four
+display-value pointers while preserving custom names and saved bytes.
+
+The build/footer version is 0.5.19. The full suite passed 252 tests, with two
+optional checks skipped. Prepare and validate both original-ISO and public
+0.5.18 upgrade patches. The user must explicitly consent before creating or
+publishing this GitHub release. In-game appearance remains unconfirmed.
+
+## Release consent and new result-screen report
+
+The user explicitly requires consent before creating or publishing any future
+GitHub release. Public 0.5.18 was accepted as a one-time exception. Prepare
+reviewable fixes and patches locally, then request release consent as the final
+step. Public-release testing alone is not authorization to publish.
+
+The new screenshot `codex-clipboard-0808f1c0-c7db-4275-8731-4fafdb8a216c.png`
+shows malformed text resembling `1l,` in the result screen's top-left team-name
+field, where an earlier screenshot displayed DEM. Do not treat this as a level
+or reward value. The exact runtime cause and intended team name are unverified;
+no game-code fix or new build has been made for this report.
+
 ## Public release delivery and enemy Spirit separator — 0.5.18
 
 The user confirmed that every screenshot is from the public release. Public

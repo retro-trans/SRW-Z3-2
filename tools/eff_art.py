@@ -996,6 +996,14 @@ def plan(settings=None, catalog=None, families=FAMILIES, title_version=None):
             verify_member(sources[mid],data,pix,ed)
             members[mid],intended[mid],edits[mid]=data,pix,ed
             report['scenario_chart'][mid]=info
+        from tools import domination_art
+        mid=domination_art.MEMBER
+        if mid in members:raise ValueError('Domination member rendered twice')
+        sources.update(source_members(settings,[mid],{mid:domination_art.SOURCE_SHA}))
+        data,pix,ed,info=domination_art.render(sources[mid])
+        members[mid],intended[mid],edits[mid]=data,pix,ed
+        report['domination_hud']=info
+        report['pending']=[key for key in report['pending']if key!='hud:239']
     report['members'] = {m: {'input_sha256': sha256(sources[m]), 'output_sha256': sha256(members[m]),
                              'script_edits': len(edits[m])} for m in sorted(members)}
     report['counts'] = {f: sum(1 for e in work if e['family'] == f) for f in families}

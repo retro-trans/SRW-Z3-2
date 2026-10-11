@@ -62,7 +62,7 @@ first run decodes the 95 source members in pure Python (about a minute).
 | Title logo | 229 t1 `第3次スーパーロボット大戦`, t2/t12 `天獄篇` | yes | **pending**: new logo art needs the user's approval |
 | Sound Select | 233 t1 header plate, t0 `作品名` label | yes | pending: baked into a 1280x720 background (needs inpainting) |
 | Scenario Chart | 234/235/236 t1 header plate | yes | pending: same |
-| Domination HUD | 239 t1 `新地球皇国　支配率` | yes | pending: swizzled atlas shared with digits; sprite records not traced |
+| Domination HUD | 239 t1 `新地球皇国　支配率` | yes | **translated in 0.5.19**: bounded caption rectangle; percentage and digit art and all effect records preserved |
 | Logos / decoration | 234 t2 / 236 t2 (`天獄篇`/`時獄篇` backgrounds), 281 t6 (game logo), 480 t5-t7 (Gurren Lagann logo), 378 t4 (Macross 7 Chinese lettering) | yes | kept (logo / source art) |
 
 All the other text art (system cut-ins ZERO SYSTEM, NT-D, TENGENTOPPA…,

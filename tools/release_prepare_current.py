@@ -11,7 +11,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source-commit', required=True)
     p.add_argument('--version', default=VERSION)
-    p.add_argument('--upgrade-from', default='0.5.2')
+    p.add_argument('--upgrade-from', default='0.5.18')
     p.add_argument('--apply', action='store_true')
     a = p.parse_args(); version = a.version
     if version != VERSION:raise ValueError('Only the current verified build can be released')
@@ -19,7 +19,8 @@ def main():
     iso = ROOT/'work/output/iso'/version/('Tengoku-hen-English-'+version+'.iso')
     build = json.loads((folder/'build.json').read_text(encoding='utf8'))
     image = json.loads(iso.with_suffix('.json').read_text(encoding='utf8'))
-    evidence = json.loads((ROOT/'work/ui'/('enemy_ui_verified_'+version+'.json')).read_text(encoding='utf8'))
+    evidence_prefix='review19_verified_' if version=='0.5.19' else 'enemy_ui_verified_'
+    evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
     if build['version'] != version or image['version'] != version or evidence['version'] != version:
         raise ValueError('Mixed release versions')
@@ -43,15 +44,15 @@ def main():
     tool_commit = subprocess.check_output(['git','rev-parse','HEAD'],cwd=tool,text=True).strip()
     cfg = dict(game_id='srw-z3-tengoku-ps3',game_name='Super Robot Taisen Z3: Tengoku-hen (PS3)',
                platform='PS3',version=version,source_commit=a.source_commit,patches=patches)
-    notes = f'''# {version} — Accumulated UI and translation fixes (RPCS3 playtest)
+    notes = f'''# {version} — Link, protagonist name and reward UI fixes
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
-**BLJS10299**. This public release includes the fixes previously supplied as
-local builds 0.5.3–0.5.17 and the enemy Spirit band separator repair.
+**BLJS10299**. Prepared locally; creating or publishing a GitHub release
+requires the user's explicit consent for this version.
 
 ## Apply
 
-In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
+Once published, in [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
 **Refresh catalog**, select either your original Japanese ISO or the exact
 public {a.upgrade_from} ISO in **Automatic**, then select **Latest** ({version}).
 Choose a new output ISO. Both routes produce the same verified image.
@@ -69,6 +70,12 @@ and size; keep checksum checks enabled. Game images are not distributed.
 
 ## Included
 
+- Shorter Link question and PP bonus labels, preserving counts and totals.
+- Default protagonist names translated in the independent mission-condition
+  substitution routine; custom names, name order and saved bytes preserved.
+- Compact Library Name caption, aligned SR Point award layers and a single
+  highlighted bonus amount with its separate English prefix.
+- English world-map domination caption; percentage digits and animation retained.
 - English UI, menu/help wrapping and alignment, full Library descriptions,
   scenario chart, English title logo, retro-trans credit and version footer.
 - All 197 narration records, 104 ordinary stage title variants, 83 terrain
@@ -82,12 +89,14 @@ and size; keep checksum checks enabled. Game images are not distributed.
 ## Verification and compatibility
 
 All 82 disc files passed both filesystem-tree checks. The final executable's
-translation bindings, Spirit band geometry, name drawer, fonts and stat widths
+translation bindings, mission name substitution stores, reward captions,
+domination atlas, Spirit band geometry, name drawer, fonts and stat widths
 passed readback/execution checks. Each patch receives a complete ISO decode
 round trip and Retro Trans 0.5.4 release validation before publication.
 
 **RPCS3 only.** Physical PS3/Vita compatibility is not claimed. In-game visual
-confirmation of this exact build remains pending. Provisional wording and
+confirmation of this exact build remains pending. The separately reported
+malformed result-screen team name remains unresolved. Provisional wording and
 battle-caption limitations remain recorded in the project reports.
 
 Fresh-boot the new image and load an in-game save; emulator save states can

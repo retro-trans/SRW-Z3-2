@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.18'
+VERSION = '0.5.19'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -175,12 +175,17 @@ def plan(settings):
     runtime_plan = ui_runtime.plan(elf,mapping)
     from tools import runtime_names
     names_plan = runtime_names.plan(elf,mapping)
+    from tools import mission_names
+    names_plan['payloads'] += mission_names.payloads(mapping)
     from tools import library_runtime
     library_runtime_plan=library_runtime.plan(elf,mapping,width_of)
     executable, hook_report = ui_hook.apply(executable, hook_entries,
         runtime_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+[(link_layout.STATE,link_layout.PAYLOAD)])
     executable, runtime_report = ui_runtime.apply(executable,runtime_plan,hook_report['table']['payload_vas'])
     executable, names_report = runtime_names.apply(executable,names_plan,hook_report['table']['payload_vas'])
+    executable,mission_names_report=mission_names.apply(executable,hook_report['table']['payload_vas'])
+    names_report['mission_substitutions']=mission_names_report
+    names_report['mission_execution_cases']=mission_names.verify(executable,mapping,hook_report['table']['payload_vas'])
     executable, library_runtime_report=ui_runtime.apply(executable,library_runtime_plan,hook_report['table']['payload_vas'])
     executable, library_converter_report=library_runtime.native_patch(executable,elf,mapping)
     executable, library_conversion_report=library_runtime.apply_fastpath(executable,elf,library_runtime_plan,hook_report['table']['payload_vas'])

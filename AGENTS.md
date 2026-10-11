@@ -17,4 +17,4 @@ incoming - outside files that need agent to look into
 
 ** REMEMBER **
 - Every new release must work with [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools).
-- The user always tests the public release. Deliver completed fixes as a new public release with validated Retro Trans patches; a separate local testing ISO does not reach their normal testing workflow.
+- The user always tests the public release. Prepare fixes and validated Retro Trans patches for public delivery; a separate local testing ISO does not reach their normal testing workflow. Creating or publishing a GitHub release requires the user's explicit consent for that release. The user accepted 0.5.18 as a one-time exception; this does not authorize future releases.

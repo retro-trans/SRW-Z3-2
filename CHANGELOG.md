@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+
+- Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
+- Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
+
+## 0.5.19 - 2026-10-12 (prepared; publication requires consent)
+
+- Shorten and align the Link question labels and choices across all six Clears/Chart layouts. Compact the Link Bonus PP header, completion labels and replay multiplication suffix; preserve all separate values.
+- Repair the independent mission-condition name substitution routine. Translate the default protagonist's nickname, first name, surname and full name before display; preserve custom names, name order, save bytes and script lookup keys.
+- Shorten the Library's shared Full Name caption to Name while retaining complete official names.
+- Align the colored SR Point subject with the black earned sentence. Move the bonus-funds/Z-Chip prefix before the unchanged highlighted amount, removing duplicate literal numbers.
+- Translate the world-map domination caption to New Earth Empire Control. Preserve the complete digit row, decimal/percent symbols, bar and all animation records.
+- Retain prior translations and fixes; update the retro-trans title-screen footer to v0.5.19. Full regression suite: 252 passed, two optional checks skipped (full texture recompression and Capstone execution). Local archive/ISO and Retro Trans patch validation is recorded in the release evidence; in-game visual confirmation remains pending.
+
 ## 0.5.18 - 2026-10-11
 
 - Replace the two enemy Spirit bands' leftover Japanese slash with an allocated English slash cell. Preserve all five bands' slot order, flag state, native pitch and geometry; the enemy sequence is Fy / Di An.

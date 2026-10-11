@@ -62,7 +62,12 @@ def name_cases(elf, mapping, table_va):
 def verify(version):
     from tools.verify_category_ui import verify as previous
     from tools.cpk import CPK
+    iso_manifest = ROOT/'work/output/iso'/version/('Tengoku-hen-English-'+version+'.json')
+    if not iso_manifest.is_file():
+        raise ValueError('Finish ISO verification before saving release evidence')
     prior = previous(version)
+    if not prior['iso_verification']:
+        raise ValueError('Cumulative verification did not read the final ISO manifest')
     folder = ROOT/'work/output/builds'/version
     build = json.loads((folder/'build.json').read_text(encoding='utf8'))
     mapping = build['mapping']; elf = (folder/'EBOOT.BIN').read_bytes()

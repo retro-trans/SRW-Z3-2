@@ -119,6 +119,7 @@ def decode(w, pc=0):
         if xo10 in (954, 922, 986, 26, 58):
             return ({954: 'extsb', 922: 'extsh', 986: 'extsw', 26: 'cntlzw', 58: 'cntlzd'}[xo10], ra, rt, rc)
         if xo10 == 824: return ('srawi', ra, rt, rb, rc)
+        if xo10 == 75: return ('mulhw', rt, ra, rb, rc)
         loads = {87: ('lbzx', 1), 23: ('lwzx', 4), 279: ('lhzx', 2), 21: ('ldx', 8)}
         stores = {215: ('stbx', 1), 151: ('stwx', 4), 407: ('sthx', 2), 149: ('stdx', 8)}
         if xo10 in loads: return (loads[xo10][0], rt, ra, rb, loads[xo10][1])
@@ -293,7 +294,7 @@ class Machine:
             else:
                 mk = mask64(m, 63 - sh); r[a] = (rot & mk) | (r[a] & ~mk & M64)
             if rc: self.rc(r[a])
-        elif n in ('add', 'subf', 'neg', 'addze', 'mullw', 'mulld', 'subfc', 'addc'):
+        elif n in ('add', 'subf', 'neg', 'addze', 'mullw', 'mulld', 'mulhw', 'subfc', 'addc'):
             _, t, a, b, rc = ins
             if n == 'add': r[t] = (r[a] + r[b]) & M64
             elif n == 'subf': r[t] = (r[b] - r[a]) & M64
@@ -302,6 +303,7 @@ class Machine:
                 s = r[a] + self.ca; self.ca = s >> 64; r[t] = s & M64
             elif n == 'mullw': r[t] = (sext(r[a], 32) * sext(r[b], 32)) & M64
             elif n == 'mulld': r[t] = (sext(r[a], 64) * sext(r[b], 64)) & M64
+            elif n == 'mulhw': r[t] = ((sext(r[a],32)*sext(r[b],32))>>32)&M64
             elif n == 'subfc':
                 s = (~r[a] & M64) + r[b] + 1; self.ca = s >> 64; r[t] = s & M64
             else:

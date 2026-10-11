@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.23'
+VERSION = '0.5.24'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -88,6 +88,10 @@ def plan(settings):
     for edit in review23_layout.plan()['edits']:
         # Existing fullwidth spaces retain their native converter/font cell.
         chars=set(edit['en'].replace('\n','').replace('\u3000',''));tokens.update(chars)
+        if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
+    from tools import review24_layout
+    for edit in review24_layout.plan()['edits']:
+        chars=set(edit['en'].replace('\n',''));tokens.update(chars)
         if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
     tokens.update('HibikiKamishiroK.')
     from tools.menu_layout import PADS
@@ -192,6 +196,8 @@ def plan(settings):
     expanded_report['tutorial_layout']=tutorial_layout.report(grouped_ui,translated_ui,resolver)
     from tools import ui_runtime
     runtime_plan = ui_runtime.plan(elf,mapping)
+    from tools import review24_report
+    report24_plan=review24_report.plan(elf,mapping)
     from tools import runtime_names
     names_plan = runtime_names.plan(elf,mapping)
     from tools import mission_names
@@ -199,8 +205,10 @@ def plan(settings):
     from tools import library_runtime
     library_runtime_plan=library_runtime.plan(elf,mapping,width_of)
     executable, hook_report = ui_hook.apply(executable, hook_entries,
-        runtime_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+[(link_layout.STATE,link_layout.PAYLOAD)])
+        runtime_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+[(link_layout.STATE,link_layout.PAYLOAD)])
     executable, runtime_report = ui_runtime.apply(executable,runtime_plan,hook_report['table']['payload_vas'])
+    executable,report24_report=review24_report.apply(executable,elf,report24_plan,hook_report['table']['payload_vas'])
+    runtime_report['clear_report']=report24_report
     executable, names_report = runtime_names.apply(executable,names_plan,hook_report['table']['payload_vas'])
     executable,mission_names_report=mission_names.apply(executable,hook_report['table']['payload_vas'])
     names_report['mission_substitutions']=mission_names_report

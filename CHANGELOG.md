@@ -5,6 +5,24 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.24 - 2026-10-12 (prepared; publication requires consent)
+
+- Translate assembled Clear Report Z-Chip and funds award rows, remove their
+  six-cell number padding, and retain all live amounts and award calculations.
+  Align the three PP report rows with “each” stated only once.
+- Separate the Weapon and RANK footer captions in both upgrade list variants;
+  shorten upgrade headings to fit the right edge. Preserve numbers and bars.
+- Fit deployment menu commands inside their buttons. Shorten the deployed
+  team caption and remove its redundant suffix around the unchanged live count.
+- Carry all unpublished 0.5.19–0.5.23 fixes. Prepare original/public 0.5.18
+  Retro Trans patches; publication requires explicit consent for 0.5.24.
+  In-game visual confirmation remains pending.
+- Regression checks: 271 tests passed, with two optional tests skipped.
+- Twenty native Clear Report executions pass with zero, ordinary and large
+  amounts. Both PP award paths retain per-pilot amounts and completion state;
+  the resource rows retain their values and all row canaries remain intact.
+- The finished ISO passes all 82 file checks through both filesystem trees.
+
 ## 0.5.23 - 2026-10-12 (prepared; publication requires consent)
 
 - Relocate all 262 static mission conditions through short display keys,

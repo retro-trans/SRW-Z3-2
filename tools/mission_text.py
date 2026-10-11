@@ -16,10 +16,11 @@ are decided by id_tbl, never by the wording). Team and squad names
 
 English is written with glossary $$tokens$$ like the story, one paragraph
 per Japanese paragraph (`\\n` in the Japanese = a newline in the English).
-The build expands tokens, word-wraps each paragraph to the panel (38
-full-width cells, the longest Japanese line is 39), encodes with the font
-mapping and writes the Lua literal with `\\n` for breaks and `\\\\` for
-any 0x5C byte (the scripts' own convention for ソ, 表...).
+The build expands tokens and wraps complete paragraphs to 35 full-width
+atlas cells (980 pixels at the native 28-pixel quad). Static conditions use
+short display keys and the relocated drawer payload in mission_display.py;
+live substitutions retain their encoded Lua text. The literal writer uses
+`\\n` for breaks and `\\\\` for any 0x5C byte.
 """
 import argparse
 import json
@@ -38,7 +39,7 @@ JIGOKU_HOOK = Path('E:/Projects/SRW Z3/translation/mission_conditions_hook.json'
 OP = re.compile(rb'OPERATE_TBL=\{str_tbl=\{(.*?)\};\s*id_tbl=\{(.*?)\};', re.S)
 LIT = re.compile(rb'"((?:[^"\\]|\\.)*)"')
 ROLES = {1: 'victory', 2: 'victory', 3: 'victory', 4: 'defeat', 5: 'defeat', 6: 'defeat', 7: 'sr'}
-LINE_UNITS = 38 * 32
+LINE_UNITS = 35 * 32  # 980 pixels at the condition drawer's 28-pixel quad
 SLICE = 60
 
 

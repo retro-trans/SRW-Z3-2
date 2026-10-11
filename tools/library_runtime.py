@@ -172,7 +172,11 @@ def plan(elf,mapping,width_of):
             # CP932 carrier characters remain genuine UTF-8 input for the
             # existing converter; assert its exact output, including LF.
             utf8=''.join(LETTERS.get(c,c) for c in text).encode('utf8')
-            if H.convert(utf8,H.unicode_table(converted_elf))!=raw:raise ValueError('Keyword carrier converter mismatch')
+            converted=H.convert(utf8,H.unicode_table(converted_elf))
+            if converted!=raw:
+                mismatch=next((n for n,(a,b)in enumerate(zip(converted,raw))if a!=b),min(len(converted),len(raw)))
+                raise ValueError('Keyword carrier converter mismatch: %d %s byte %d (%s != %s)'%
+                    (tid,tag,mismatch,converted[mismatch:mismatch+8].hex(),raw[mismatch:mismatch+8].hex()))
             key='library:keyword:%d:%s'%(tid,tag)
             payloads[key]=utf8+b'\0'
             payloads[key+':encoded']=raw+b'\0'

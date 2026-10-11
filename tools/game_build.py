@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.22'
+VERSION = '0.5.23'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -83,6 +83,11 @@ def plan(settings):
     from tools import review22_layout,native_labels
     for edit in review22_layout.plan()['edits']:
         chars=set(edit['en'].replace('\n',''));tokens.update(chars)
+        if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
+    from tools import review23_layout
+    for edit in review23_layout.plan()['edits']:
+        # Existing fullwidth spaces retain their native converter/font cell.
+        chars=set(edit['en'].replace('\n','').replace('\u3000',''));tokens.update(chars)
         if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
     tokens.update('HibikiKamishiroK.')
     from tools.menu_layout import PADS
@@ -141,9 +146,11 @@ def plan(settings):
                 if data is not None:
                     stage_members[mid] = data
     mission = mission_text.plan(width_of)
+    from tools import mission_display
+    mission_stage=mission_display.stage_text(mission)
     mission_members = 0
     for mid in squad_text.stage_members():
-        data = squad_text.rebuild_member(mid, mission, squad, mapping)
+        data = squad_text.rebuild_member(mid, mission_stage, squad, mapping)
         if data is None:
             continue
         if mid in stage_members:
@@ -176,7 +183,8 @@ def plan(settings):
     from tools import operation_layout, link_layout
     hook_entries += operation_layout.hook_entries(elf,mapping)
     upgrade_entries=upgrade_messages.hook_entries(elf,mapping)
-    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries}.values())
+    mission_entries=mission_display.hook_entries(elf,mission,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -253,6 +261,7 @@ def plan(settings):
                                    'tight_horizontal_scale': layout.TIGHT_SCALE},
                'rpw_names': rpw_report,
                'mission_strings': len(mission), 'squad_names': len(squad),
+               'mission_display_keys': len(mission_entries),
                'mission_squad_members_rebuilt': mission_members,
                'battle_voice': voice_report,
                'allocated_cells': len(mapping), 'letter_cells': len(widths),

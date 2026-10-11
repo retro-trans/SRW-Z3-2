@@ -30,12 +30,17 @@ python -m tools.mission_text check
 ```
 
 Build:
-- `game_build` expands tokens and word-wraps each paragraph to 38 full-width
-  cells (the longest Japanese line is 39).
+- `game_build` expands tokens and word-wraps each paragraph to 35 full-width
+  cells (980 pixels at the native 28-pixel condition size).
 - It encodes the result with the font mapping and writes the Lua literal with
   `\n` for each break and `\\` for each 0x5C byte. Lua reads the strings byte by
   byte; the scripts already store ソ as 83 5C 5C.
 - Each rebuilt member is read back byte for byte, and its `id_tbl` must not change.
+- From 0.5.23, the 262 static conditions use ten-byte display keys and the
+  existing drawer lookup returns complete relocated English. The native
+  refresh at `0x18c2dc` copies into a 128-byte field; English is never squeezed
+  into that field. All 25 conditions containing live names/counters retain
+  their existing substitution path. IDs, mission logic and saves are unchanged.
 
 ## Answer file
 

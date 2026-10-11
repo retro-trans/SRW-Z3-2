@@ -19,7 +19,7 @@ def main():
     iso = ROOT/'work/output/iso'/version/('Tengoku-hen-English-'+version+'.iso')
     build = json.loads((folder/'build.json').read_text(encoding='utf8'))
     image = json.loads(iso.with_suffix('.json').read_text(encoding='utf8'))
-    evidence_prefix=('review22_verified_' if version=='0.5.22' else 'review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_' if version=='0.5.20' else
+    evidence_prefix=('review23_verified_' if version=='0.5.23' else 'review22_verified_' if version=='0.5.22' else 'review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_' if version=='0.5.20' else
                      'review19_verified_' if version=='0.5.19' else 'enemy_ui_verified_')
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
@@ -45,15 +45,15 @@ def main():
     tool_commit = subprocess.check_output(['git','rev-parse','HEAD'],cwd=tool,text=True).strip()
     cfg = dict(game_id='srw-z3-tengoku-ps3',game_name='Super Robot Taisen Z3: Tengoku-hen (PS3)',
                platform='PS3',version=version,source_commit=a.source_commit,patches=patches)
-    label='Native label fonts, tutorial and parts layout' if version=='0.5.22' else 'Canonical names, training and Z Crystal layout' if version=='0.5.21' else 'Upgrade reports, bonus prompts and trophies' if version=='0.5.20' else 'Link, protagonist name and reward UI fixes'
+    label='Complete mission conditions, deployment and canonical names' if version=='0.5.23' else 'Native label fonts, tutorial and parts layout' if version=='0.5.22' else 'Canonical names, training and Z Crystal layout' if version=='0.5.21' else 'Upgrade reports, bonus prompts and trophies' if version=='0.5.20' else 'Link, protagonist name and reward UI fixes'
     upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
 - Repair both two-color Custom Bonus award headers and the matching Ace Bonus
   header, keeping their native font, colors, icons and row pitch.
 - Translate all 35 trophy names/descriptions and the trophy-set title in both
   metadata variants. Preserve IDs, hidden flags, grades, triggers and all icons.
-''' if version in ('0.5.20','0.5.21','0.5.22') else ''
-    if version in ('0.5.21','0.5.22'):
+''' if version in ('0.5.20','0.5.21','0.5.22','0.5.23') else ''
+    if version in ('0.5.21','0.5.22','0.5.23'):
         upgrade_notes+='''- Correct Heero Yuy and Crowe Bluest in the glossary, Library, executable
   names, dialogue token expansions and pilot surname pieces; preserve Yui Ikari.
 - Center Raise Stats / Learn Skills in all four training tab states; separate
@@ -61,7 +61,7 @@ def main():
 - Fit all nine Z Crystal effect names, including Grade 5, before the unchanged
   numeric cost column; shorten its headings to Effect / Cost.
 '''
-    if version=='0.5.22':
+    if version in ('0.5.22','0.5.23'):
         upgrade_notes+='''- Separate Z Crystal payment text from the live amount and align selected
   Yes / No words with their neutral row in every confirmation state.
 - Fit all 23 tutorial selector titles into their two columns. Keep every
@@ -73,6 +73,20 @@ def main():
 - Translate the Power Parts formatter's separate Air / Ground / Water table;
   preserve all eight movement masks, separators, and both comparison columns.
 '''
+    if version=='0.5.23':
+        upgrade_notes+='''- Relocate all 262 static mission conditions through ten-byte display keys,
+  keeping complete English beyond the native UI's 128-byte intermediate field.
+  Preserve the existing substitution route for all 25 live-name/counter conditions.
+- Correct Sacks and Giltar throughout active name fields, Library and glossary
+  expansions. Preserve the other user-selected canonical spellings.
+- Fit deployment headers around the remaining count; translate all seven
+  repeated movement templates and compact selection/movement captions.
+'''
+    review23_verification='''All 262 static mission keys pass the native copier and final drawer lookup
+checks; all 110 mission members pass complete archive readback. The 12
+deployment edits preserve numeric fields and movement-cell spacing. The
+expanded active-text audit confirms Sacks and Giltar without old spellings.
+''' if version=='0.5.23' else ''
     notes = f'''# {version} — {label}
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
@@ -126,6 +140,7 @@ lookup cases, 23 native report compositions and nine native bonus questions;
 the trophy pack passes complete text/structure/icon readback and SHA-1 checks.
 Each patch receives a complete ISO decode
 round trip and Retro Trans 0.5.4 release validation before publication.
+{review23_verification}
 
 **RPCS3 only.** Physical PS3/Vita compatibility is not claimed. In-game visual
 confirmation of this exact build remains pending. The separately reported

@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "version": "0.5.23",
+  "fields_examined": 153551,
+  "replacements": {
+    "Sachs": "Sacks",
+    "Girtar": "Giltar"
+  },
+  "files_changed": 6,
+  "changes": [
+    {
+      "file": "work/translation/en/library/pt_341.json",
+      "source_sha256": "74c7da2a54a7bffafc686e6994d91d8a58424837043c982b4d28a710e1d38a8e",
+      "changes": [
+        {
+          "field": "/names/エドワード・ブルーザー・サックス/en",
+          "old": "Edward Bruiser Sachs",
+          "new": "Edward Bruiser Sacks"
+        },
+        {
+          "field": "/names/サックス/en",
+          "old": "Sachs",
+          "new": "Sacks"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/eboot.json",
+      "source_sha256": "054f9232066fd48663e34d69d45392521d7c2024e3536379c1d49bf23efde3ed",
+      "changes": [
+        {
+          "field": "/strings/サックス/en",
+          "old": "Sachs",
+          "new": "Sacks"
+        },
+        {
+          "field": "/strings/ギルター/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/strings/大きな戦いを前にしてささやかな宴を楽しんでいた一行は、\nレジスタンスの食糧輸送部隊を襲うギルターに怒りを燃やす。/en",
+          "old": "Enjoying a modest feast before the big battle, the group\nburns with rage at Girtar for attacking the resistance's food convoy.",
+          "new": "Enjoying a modest feast before the big battle, the group\nburns with rage at Giltar for attacking the resistance's food convoy."
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/eboot_new/e_dlc_synopsis_00.json",
+      "source_sha256": "a11ac88e8bc082fdb56d55b1aebe44ba3234b79de32e890ad59430b68741aea4",
+      "changes": [
+        {
+          "field": "/rows/大きな戦いを前にしてささやかな宴を楽しんでいた一行は、\\nレジスタンスの食糧輸送部隊を襲うギルターに怒りを燃やす。/en",
+          "old": "Enjoying a modest feast before the big battle, the group\nburns with rage at Girtar for attacking the resistance's food convoy.",
+          "new": "Enjoying a modest feast before the big battle, the group\nburns with rage at Giltar for attacking the resistance's food convoy."
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/rpw_names.json",
+      "source_sha256": "0e272c75f96fa30522b3cae4b4bfea0f22e9515a41ddf3caf79acaefd1058a05",
+      "changes": [
+        {
+          "field": "/strings/pilot/サックス/en",
+          "old": "Sachs",
+          "new": "Sacks"
+        },
+        {
+          "field": "/slots/pilot-nw:1059:2/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1059:0/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1060:2/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1060:0/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1061:2/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1061:0/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1237:2/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:1237:0/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/slots/pilot-nw:757:0/en",
+          "old": "Sachs",
+          "new": "Sacks"
+        },
+        {
+          "field": "/slots/pilot-nw:757:1/en",
+          "old": "Bruiser Sachs",
+          "new": "Bruiser Sacks"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_terms.json",
+      "source_sha256": "87d2416ba8ab228a750a2312b1e6a36f48a568102da24224af56e15b5ffe77b5",
+      "changes": [
+        {
+          "field": "/terms/226/en",
+          "old": "Edward Bruiser Sachs",
+          "new": "Edward Bruiser Sacks"
+        },
+        {
+          "field": "/terms/327/en",
+          "old": "Girtar",
+          "new": "Giltar"
+        },
+        {
+          "field": "/terms/328/en",
+          "old": "Girtar Belone",
+          "new": "Giltar Belone"
+        },
+        {
+          "field": "/terms/389/en",
+          "old": "Sachs",
+          "new": "Sacks"
+        },
+        {
+          "field": "/terms/2000/en",
+          "old": "Edward Sachs",
+          "new": "Edward Sacks"
+        },
+        {
+          "field": "/terms/2001/en",
+          "old": "Ed Bruiser Sachs",
+          "new": "Ed Bruiser Sacks"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_settled.json",
+      "source_sha256": "562893beb432d92a43ed05964e44500234a45e40e9c7a71883bd5dcb63228125",
+      "changes": [
+        {
+          "field": "/terms/288/en",
+          "old": "Edward Sachs",
+          "new": "Edward Sacks"
+        },
+        {
+          "field": "/terms/289/en",
+          "old": "Ed Bruiser Sachs",
+          "new": "Ed Bruiser Sacks"
+        }
+      ]
+    }
+  ],
+  "historical_exports_modified": false
+}

@@ -5,6 +5,26 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.23 - 2026-10-12 (prepared; publication requires consent)
+
+- Relocate all 262 static mission conditions through short display keys,
+  avoiding the native UI's 128-byte intermediate buffer. Keep all 25 live
+  name/counter substitution conditions on their existing route. Fit complete
+  English lines to 980 pixels at the condition drawer's native size.
+- Restore the complete Episode 3 SR condition: defeat all other enemies
+  before shooting down the Tenth Angel. Source review confirms the reported
+  beta character is not part of the gameplay requirement.
+- Correct Sacks and Giltar throughout active name fields, Library text,
+  executable text and glossary expansions; record both as canonical spellings.
+- Shorten deployment headers around the unchanged remaining count. Translate
+  all seven repeated movement templates, retaining cell pitch, line breaks,
+  flag masks and numeric fields. Compact its selection and movement captions.
+- Carry the 0.5.20 translation of the Z Crystal Grade 3 item-unlock condition
+  and Fox Mask announcement, plus all other unpublished 0.5.19–0.5.22 fixes.
+  Prepare original/public 0.5.18 Retro Trans routes for review. Publication
+  requires explicit consent for 0.5.23; in-game visual confirmation is pending.
+- Regression checks: 267 tests passed, with two optional tests skipped.
+
 ## 0.5.22 - 2026-10-12 (prepared; publication requires consent)
 
 - Separate Z Crystal payment text from its live amount and align selected

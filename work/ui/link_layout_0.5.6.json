@@ -1,0 +1,893 @@
+{
+  "schema": 1,
+  "version": "0.5.6",
+  "matched_files": 12,
+  "final_elf_sha256": "a427552dfc7f114503c2465712c00c0623a1633fab6973d99742038ea8106eb3",
+  "helpers_verified": 15,
+  "instruction_cases": [
+    {
+      "text": "Sumeragi",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 149,
+      "steps": 394
+    },
+    {
+      "text": "Sumeragi",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 149,
+      "steps": 383
+    },
+    {
+      "text": "Shikuu",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 109,
+      "steps": 327
+    },
+    {
+      "text": "Shikuu",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 109,
+      "steps": 277
+    },
+    {
+      "text": "Hibiki",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 92,
+      "steps": 316
+    },
+    {
+      "text": "Hibiki",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 92,
+      "steps": 310
+    },
+    {
+      "text": "Move",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 84,
+      "steps": 238
+    },
+    {
+      "text": "Move",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 84,
+      "steps": 237
+    },
+    {
+      "text": "Transform",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 161,
+      "steps": 433
+    },
+    {
+      "text": "Transform",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 161,
+      "steps": 337
+    },
+    {
+      "text": "Spirit",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 87,
+      "steps": 316
+    },
+    {
+      "text": "Spirit",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 87,
+      "steps": 277
+    },
+    {
+      "text": "Status",
+      "source": "encoded",
+      "expected_key_match": true,
+      "units": 100,
+      "steps": 327
+    },
+    {
+      "text": "Status",
+      "source": "native key",
+      "expected_key_match": true,
+      "units": 100,
+      "steps": 277
+    }
+  ],
+  "input_sha256": {
+    "tools/link_layout.py": "56f49815e5dd65d1a74868dbbdf652b6da3f88c2840beee8f42b1450bfde880f",
+    "tools/operation_layout.py": "937c2ccea06dc1efe6e75fb97c3e028f5ce9b1af3d68533e5e7c3fdccb8d7630",
+    "tools/ui_hook.py": "c368ab5524d16731a1cbe48b219c7930ba8ce613c708fe73fb25c97e0a308248",
+    "tools/verify_link_layout.py": "dd1294aad98c693efd90296f4f226aabbc9f3403c5ec80523536b4f942c7d651",
+    "tests/test_link_layout.py": "a261fe7237ee0d12567e398970c30e640be07fd8e97e7da67a16563a3728de61",
+    "work/translation/en/ui/mission.json": "fd70351c75cc7548772222b51c59c2d16ad02dc1e6f9a237594eb5f9b4eef5a8"
+  },
+  "assembled_headings": [
+    {
+      "id": "operation:prologue:1",
+      "source_sha256": "5445dbd6cfe4da5c60b503501c11f841a4c036487f0e13d4bf52a62a9ae4a07d",
+      "steps": 597,
+      "english": "At the End of the Time Prison"
+    },
+    {
+      "id": "operation:prologue:2",
+      "source_sha256": "42df5119fd441af573085dc62454840b6e99c4e719eac775b88cb30be6b8805c",
+      "steps": 641,
+      "english": "Earth's Absolute Defense Line"
+    }
+  ],
+  "screenshots": [
+    {
+      "issue": "name-link",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-6406b641-045b-41e1-8b67-504c6dcc6292.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.6-name-link.png",
+      "sha256": "6a9ee5a4b7c2afc4f66346f69399173dadb06662a122fd3b98e9d81f205a6940",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_regions": [
+        {
+          "label": "speaker selection",
+          "x": 608,
+          "y": 1049,
+          "width": 381,
+          "height": 51,
+          "approximate": true
+        }
+      ],
+      "fix_binding": [
+        {
+          "id": "exact lookup",
+          "va": 9694992,
+          "bytes": 372
+        },
+        {
+          "id": "display lookup",
+          "va": 9695376,
+          "bytes": 48
+        },
+        {
+          "id": "VWF units",
+          "va": 9695424,
+          "bytes": 112
+        },
+        {
+          "id": "drawer origin",
+          "va": 9695536,
+          "bytes": 36
+        },
+        {
+          "id": "drawer advance",
+          "va": 9695584,
+          "bytes": 52
+        },
+        {
+          "id": "segment column",
+          "va": 9695648,
+          "bytes": 48
+        },
+        {
+          "id": "segment x/y",
+          "va": 9695696,
+          "bytes": 52
+        },
+        {
+          "id": "registered width",
+          "va": 9695760,
+          "bytes": 48
+        },
+        {
+          "id": "selected width",
+          "va": 9695808,
+          "bytes": 36
+        },
+        {
+          "id": "secondary rectangle",
+          "va": 9695856,
+          "bytes": 12
+        },
+        {
+          "id": "primary rectangle",
+          "va": 9695872,
+          "bytes": 256
+        },
+        {
+          "id": "dialogue scene",
+          "va": 9696128,
+          "bytes": 24
+        },
+        {
+          "id": "translated registration",
+          "va": 9696160,
+          "bytes": 48
+        },
+        {
+          "id": "name width",
+          "va": 9696208,
+          "bytes": 108
+        },
+        {
+          "id": "UTF-8 centering",
+          "va": 9696320,
+          "bytes": 156
+        }
+      ],
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "dialogue-link",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-c9094af8-b173-4df8-9fe6-f60c7c07bd12.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.6-dialogue-link.png",
+      "sha256": "0a65c36ca3695675bcb7ed83ee082c7a23abf17291ed9a5bc1e226d51f0c7e82",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_regions": [
+        {
+          "label": "selected keyword",
+          "x": 666,
+          "y": 1201,
+          "width": 355,
+          "height": 62,
+          "approximate": true
+        }
+      ],
+      "fix_binding": [
+        {
+          "id": "exact lookup",
+          "va": 9694992,
+          "bytes": 372
+        },
+        {
+          "id": "display lookup",
+          "va": 9695376,
+          "bytes": 48
+        },
+        {
+          "id": "VWF units",
+          "va": 9695424,
+          "bytes": 112
+        },
+        {
+          "id": "drawer origin",
+          "va": 9695536,
+          "bytes": 36
+        },
+        {
+          "id": "drawer advance",
+          "va": 9695584,
+          "bytes": 52
+        },
+        {
+          "id": "segment column",
+          "va": 9695648,
+          "bytes": 48
+        },
+        {
+          "id": "segment x/y",
+          "va": 9695696,
+          "bytes": 52
+        },
+        {
+          "id": "registered width",
+          "va": 9695760,
+          "bytes": 48
+        },
+        {
+          "id": "selected width",
+          "va": 9695808,
+          "bytes": 36
+        },
+        {
+          "id": "secondary rectangle",
+          "va": 9695856,
+          "bytes": 12
+        },
+        {
+          "id": "primary rectangle",
+          "va": 9695872,
+          "bytes": 256
+        },
+        {
+          "id": "dialogue scene",
+          "va": 9696128,
+          "bytes": 24
+        },
+        {
+          "id": "translated registration",
+          "va": 9696160,
+          "bytes": 48
+        },
+        {
+          "id": "name width",
+          "va": 9696208,
+          "bytes": 108
+        },
+        {
+          "id": "UTF-8 centering",
+          "va": 9696320,
+          "bytes": 156
+        }
+      ],
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "backlog-link",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-b95c670d-ba12-4ffc-bb47-484206266bdc.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.6-backlog-link.png",
+      "sha256": "f85a762a0a2224740d6c707e26108a8eec5f4b430b04ad44299df99f3bee012c",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_regions": [
+        {
+          "label": "selected keyword",
+          "x": 469,
+          "y": 880,
+          "width": 355,
+          "height": 61,
+          "approximate": true
+        }
+      ],
+      "fix_binding": [
+        {
+          "id": "exact lookup",
+          "va": 9694992,
+          "bytes": 372
+        },
+        {
+          "id": "display lookup",
+          "va": 9695376,
+          "bytes": 48
+        },
+        {
+          "id": "VWF units",
+          "va": 9695424,
+          "bytes": 112
+        },
+        {
+          "id": "drawer origin",
+          "va": 9695536,
+          "bytes": 36
+        },
+        {
+          "id": "drawer advance",
+          "va": 9695584,
+          "bytes": 52
+        },
+        {
+          "id": "segment column",
+          "va": 9695648,
+          "bytes": 48
+        },
+        {
+          "id": "segment x/y",
+          "va": 9695696,
+          "bytes": 52
+        },
+        {
+          "id": "registered width",
+          "va": 9695760,
+          "bytes": 48
+        },
+        {
+          "id": "selected width",
+          "va": 9695808,
+          "bytes": 36
+        },
+        {
+          "id": "secondary rectangle",
+          "va": 9695856,
+          "bytes": 12
+        },
+        {
+          "id": "primary rectangle",
+          "va": 9695872,
+          "bytes": 256
+        },
+        {
+          "id": "dialogue scene",
+          "va": 9696128,
+          "bytes": 24
+        },
+        {
+          "id": "translated registration",
+          "va": 9696160,
+          "bytes": 48
+        },
+        {
+          "id": "name width",
+          "va": 9696208,
+          "bytes": 108
+        },
+        {
+          "id": "UTF-8 centering",
+          "va": 9696320,
+          "bytes": 156
+        }
+      ],
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "operation-end",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-aec2d541-d6e1-4ee9-b997-d88ffb9d2dd7.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.6-operation-end.png",
+      "sha256": "78719bcd32194ac193e1d67b2fab2099645d12d5596710f31e942cf86cc314a7",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_regions": [
+        {
+          "label": "stage heading",
+          "x": 338,
+          "y": 180,
+          "width": 828,
+          "height": 53,
+          "approximate": true
+        },
+        {
+          "label": "SR explanation",
+          "x": 363,
+          "y": 955,
+          "width": 2062,
+          "height": 179,
+          "approximate": true
+        }
+      ],
+      "fix_binding": [
+        {
+          "id": "exact lookup",
+          "va": 9694992,
+          "bytes": 372
+        },
+        {
+          "id": "display lookup",
+          "va": 9695376,
+          "bytes": 48
+        },
+        {
+          "id": "VWF units",
+          "va": 9695424,
+          "bytes": 112
+        },
+        {
+          "id": "drawer origin",
+          "va": 9695536,
+          "bytes": 36
+        },
+        {
+          "id": "drawer advance",
+          "va": 9695584,
+          "bytes": 52
+        },
+        {
+          "id": "segment column",
+          "va": 9695648,
+          "bytes": 48
+        },
+        {
+          "id": "segment x/y",
+          "va": 9695696,
+          "bytes": 52
+        },
+        {
+          "id": "registered width",
+          "va": 9695760,
+          "bytes": 48
+        },
+        {
+          "id": "selected width",
+          "va": 9695808,
+          "bytes": 36
+        },
+        {
+          "id": "secondary rectangle",
+          "va": 9695856,
+          "bytes": 12
+        },
+        {
+          "id": "primary rectangle",
+          "va": 9695872,
+          "bytes": 256
+        },
+        {
+          "id": "dialogue scene",
+          "va": 9696128,
+          "bytes": 24
+        },
+        {
+          "id": "translated registration",
+          "va": 9696160,
+          "bytes": 48
+        },
+        {
+          "id": "name width",
+          "va": 9696208,
+          "bytes": 108
+        },
+        {
+          "id": "UTF-8 centering",
+          "va": 9696320,
+          "bytes": 156
+        }
+      ],
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "command-centering",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-97059bcf-db59-41b4-a67b-c09d016e02a2.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.6-command-centering.png",
+      "sha256": "0334af8ffccb0b1b7309122f38628821f3eaaf77f61060c1595a8542039a3026",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_regions": [
+        {
+          "label": "command buttons",
+          "x": 2019,
+          "y": 113,
+          "width": 424,
+          "height": 303,
+          "approximate": true
+        }
+      ],
+      "fix_binding": [
+        {
+          "id": "exact lookup",
+          "va": 9694992,
+          "bytes": 372
+        },
+        {
+          "id": "display lookup",
+          "va": 9695376,
+          "bytes": 48
+        },
+        {
+          "id": "VWF units",
+          "va": 9695424,
+          "bytes": 112
+        },
+        {
+          "id": "drawer origin",
+          "va": 9695536,
+          "bytes": 36
+        },
+        {
+          "id": "drawer advance",
+          "va": 9695584,
+          "bytes": 52
+        },
+        {
+          "id": "segment column",
+          "va": 9695648,
+          "bytes": 48
+        },
+        {
+          "id": "segment x/y",
+          "va": 9695696,
+          "bytes": 52
+        },
+        {
+          "id": "registered width",
+          "va": 9695760,
+          "bytes": 48
+        },
+        {
+          "id": "selected width",
+          "va": 9695808,
+          "bytes": 36
+        },
+        {
+          "id": "secondary rectangle",
+          "va": 9695856,
+          "bytes": 12
+        },
+        {
+          "id": "primary rectangle",
+          "va": 9695872,
+          "bytes": 256
+        },
+        {
+          "id": "dialogue scene",
+          "va": 9696128,
+          "bytes": 24
+        },
+        {
+          "id": "translated registration",
+          "va": 9696160,
+          "bytes": 48
+        },
+        {
+          "id": "name width",
+          "va": 9696208,
+          "bytes": 108
+        },
+        {
+          "id": "UTF-8 centering",
+          "va": 9696320,
+          "bytes": 156
+        }
+      ],
+      "runtime_confirmation": false
+    }
+  ],
+  "layout": {
+    "code": [
+      {
+        "id": "exact lookup",
+        "va": 9694992,
+        "bytes": 372
+      },
+      {
+        "id": "display lookup",
+        "va": 9695376,
+        "bytes": 48
+      },
+      {
+        "id": "VWF units",
+        "va": 9695424,
+        "bytes": 112
+      },
+      {
+        "id": "drawer origin",
+        "va": 9695536,
+        "bytes": 36
+      },
+      {
+        "id": "drawer advance",
+        "va": 9695584,
+        "bytes": 52
+      },
+      {
+        "id": "segment column",
+        "va": 9695648,
+        "bytes": 48
+      },
+      {
+        "id": "segment x/y",
+        "va": 9695696,
+        "bytes": 52
+      },
+      {
+        "id": "registered width",
+        "va": 9695760,
+        "bytes": 48
+      },
+      {
+        "id": "selected width",
+        "va": 9695808,
+        "bytes": 36
+      },
+      {
+        "id": "secondary rectangle",
+        "va": 9695856,
+        "bytes": 12
+      },
+      {
+        "id": "primary rectangle",
+        "va": 9695872,
+        "bytes": 256
+      },
+      {
+        "id": "dialogue scene",
+        "va": 9696128,
+        "bytes": 24
+      },
+      {
+        "id": "translated registration",
+        "va": 9696160,
+        "bytes": 48
+      },
+      {
+        "id": "name width",
+        "va": 9696208,
+        "bytes": 108
+      },
+      {
+        "id": "UTF-8 centering",
+        "va": 9696320,
+        "bytes": 156
+      }
+    ],
+    "state_va": 16872848,
+    "width_table_va": 9689488,
+    "source_spans": [
+      {
+        "start": 2181972,
+        "end": 2182224,
+        "sha256": "e10d3db6c7cde5db7fbc271783705856d35faad0354023f3111152b976756543"
+      },
+      {
+        "start": 2189844,
+        "end": 2190040,
+        "sha256": "70e46cec937a76860014b3a75d062bf65279c865109886b62aa6a19f54097e96"
+      },
+      {
+        "start": 2215144,
+        "end": 2215712,
+        "sha256": "4b4ca8d3d9c15191a371b1e4a0b2aa3c608afcd223b1d7a9223bc7d15ade9813"
+      },
+      {
+        "start": 2225920,
+        "end": 2225980,
+        "sha256": "61c014d457fb63f8361258d04c83f62798aa0c23b65ba40e26e8aa2fc50c448e"
+      },
+      {
+        "start": 2230172,
+        "end": 2230896,
+        "sha256": "3133f0498acdba8d017ba6a83fd1f78ce7ffce8bfc7ee014329b26119e8e73bc"
+      },
+      {
+        "start": 2796856,
+        "end": 2797160,
+        "sha256": "6154eb8fb09b9f7b99c479fde147242cad9d397e6aeab222e6017f9a9318d902"
+      },
+      {
+        "start": 84412,
+        "end": 84708,
+        "sha256": "070c515dec97c9d81472f11451fb919baf03ef93dca75009601defe003382f99"
+      }
+    ],
+    "modified_file_ranges": [
+      [
+        9629456,
+        9629828
+      ],
+      [
+        9629840,
+        9629888
+      ],
+      [
+        9629888,
+        9630000
+      ],
+      [
+        9630000,
+        9630036
+      ],
+      [
+        16808,
+        16812
+      ],
+      [
+        9630048,
+        9630100
+      ],
+      [
+        18572,
+        18576
+      ],
+      [
+        9630112,
+        9630160
+      ],
+      [
+        2165220,
+        2165224
+      ],
+      [
+        2165224,
+        2165228
+      ],
+      [
+        9630160,
+        9630212
+      ],
+      [
+        2160384,
+        2160388
+      ],
+      [
+        9630224,
+        9630272
+      ],
+      [
+        2149852,
+        2149856
+      ],
+      [
+        9630272,
+        9630308
+      ],
+      [
+        2124348,
+        2124352
+      ],
+      [
+        9630320,
+        9630332
+      ],
+      [
+        2124496,
+        2124500
+      ],
+      [
+        9630336,
+        9630592
+      ],
+      [
+        2116436,
+        2116440
+      ],
+      [
+        9630592,
+        9630616
+      ],
+      [
+        2149892,
+        2149896
+      ],
+      [
+        9630624,
+        9630672
+      ],
+      [
+        2150004,
+        2150008
+      ],
+      [
+        9630672,
+        9630780
+      ],
+      [
+        2731524,
+        2731528
+      ],
+      [
+        9630784,
+        9630940
+      ],
+      [
+        18984,
+        18988
+      ],
+      [
+        2731540,
+        2731544
+      ],
+      [
+        2731568,
+        2731572
+      ],
+      [
+        2731580,
+        2731584
+      ],
+      [
+        2731584,
+        2731588
+      ],
+      [
+        2731588,
+        2731592
+      ],
+      [
+        2731592,
+        2731596
+      ],
+      [
+        96,
+        112
+      ]
+    ],
+    "identity_and_navigation_preserved": true,
+    "font_measurement": "actual drawer advance",
+    "runtime_verified": false
+  },
+  "runtime_verified": false
+}

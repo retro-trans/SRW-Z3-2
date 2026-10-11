@@ -4094,8 +4094,9 @@
       "source": "reuse:jigoku"
     },
     "気力低下": {
-      "en": "Morale Down",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Focus Down",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ＳＰ低下": {
       "en": "SP Down",
@@ -4118,8 +4119,9 @@
       "source": "reuse:jigoku"
     },
     "気力上昇": {
-      "en": "Morale Up",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Focus Up",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ＳＰ回復": {
       "en": "SP Regen",
@@ -6258,8 +6260,9 @@
       "source": "reuse:jigoku"
     },
     "自軍フェイズ開始時、\n敵ユニットの気力－３。": {
-      "en": "At own phase start,\nenemy Morale -3.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At own phase start,\nenemy Focus -3.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "命中率＋５％、回避率＋５％。": {
       "en": "Hit rate +5%, evasion +5%.",
@@ -6322,8 +6325,9 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、\n自軍フェイズ開始時に「直感」が掛かる。": {
-      "en": "At Morale 130+, gains Intuition\nat own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, gains Intuition\nat own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "命中率、回避率、\nクリティカル率＋１０％。": {
       "en": "Hit rate, evasion,\ncritical rate +10%.",
@@ -6338,8 +6342,9 @@
       "source": "reuse:jigoku"
     },
     "移動力＋１。\nゼロシステムが気力１１０で発動可能。": {
-      "en": "Move +1.\nZERO System activates at Morale 110.",
-      "source": "reuse:jigoku | review: 気力 = Morale | review: Morale / ZERO System"
+      "en": "Move +1.\nZERO System activates at Focus 110.",
+      "source": "reuse:jigoku | review: 気力 = Morale | review: Morale / ZERO System",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "回避率＋２０％、\nクリティカル率＋２０％。": {
       "en": "Evasion +20%,\ncritical rate +20%.",
@@ -6350,8 +6355,9 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、\n自軍フェイズ開始時に「不屈」が掛かる。": {
-      "en": "At Morale 130+, gains Persist\nat own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale | review: Spirit names as in Tengoku"
+      "en": "At Focus 130+, gains Persist\nat own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale | review: Spirit names as in Tengoku",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "出撃時、全味方チームに\n「加速」が掛かる。": {
       "en": "On deploy, all allied\nteams gain Accel.",
@@ -6362,12 +6368,14 @@
       "source": "reuse:jigoku"
     },
     "移動力＋１。\n「ＳＥＥＤ」が気力１１０以上で発動可能。": {
-      "en": "Move +1.\nSEED activates at Morale 110+.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Move +1.\nSEED activates at Focus 110+.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "回避率＋２０％。\n「ＳＥＥＤ」が気力１１０以上で発動可能。": {
-      "en": "Evasion +20%.\nSEED activates at Morale 110+.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Evasion +20%.\nSEED activates at Focus 110+.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "クリティカル率＋２０％。\n全体攻撃での与ダメージ１．１倍。": {
       "en": "Critical rate +20%.\nAll-target attack damage x1.1.",
@@ -6378,16 +6386,18 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、戦闘した相手チームに\n次の自軍フェイズ開始時まで\n「分析」が掛かる。": {
-      "en": "At Morale 130+, enemy teams fought\nare under Analyze until the start\nof the next own phase.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, enemy teams fought\nare under Analyze until the start\nof the next own phase.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "「パーツ供給」の効果を\n指揮範囲内まで広げる。": {
       "en": "Part Supply reaches\nall of command range.",
       "source": "reuse:jigoku"
     },
     "気力１２０以上で、\n自軍フェイズ開始時に「幸運」が掛かる。": {
-      "en": "At Morale 120+, gains Luck\nat own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 120+, gains Luck\nat own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ユニコーンガンダム（デストロイモード）\n搭乗時、入手ＰＰ１．２倍。": {
       "en": "In Unicorn Gundam (Destroy Mode):\nPP earned x1.2.",
@@ -6402,8 +6412,9 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、\n自軍フェイズ開始時に「集中」が掛かる。": {
-      "en": "At Morale 130+, gains the Focus\nSpirit at own phase start.",
-      "source": "reuse:jigoku"
+      "en": "At Focus 130+, gains the Focus\nSpirit at own phase start.",
+      "source": "reuse:jigoku",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "自軍フェイズ開始時、\n指揮範囲内の味方機のＨＰ１０００回復。": {
       "en": "At own phase start, allies in\ncommand range recover 1000 HP.",
@@ -6418,8 +6429,9 @@
       "source": "reuse:jigoku"
     },
     "気力１５０以上で、\n与ダメージが１．１倍になる。": {
-      "en": "At Morale 150+,\ndamage dealt x1.1.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 150+,\ndamage dealt x1.1.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "出撃時、歌エネルギーが\n＋２００００される。": {
       "en": "On deploy, Song\nEnergy +20000.",
@@ -6454,32 +6466,39 @@
       "source": "reuse:jigoku"
     },
     "自分を除くバジュラが攻撃を\n受けた場合、気力＋１。": {
-      "en": "If another Vajra is\nattacked, Morale +1.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "If another Vajra is\nattacked, Focus +1.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１７０以上で、\n与ダメージが１．３倍になる。": {
-      "en": "At Morale 170+,\ndamage dealt x1.3.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 170+,\ndamage dealt x1.3.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で、\n回避率＋４０％。": {
-      "en": "At Morale 150+,\nevasion +40%.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 150+,\nevasion +40%.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で、\n被ダメージが０．７倍になる。": {
-      "en": "At Morale 150+,\ndamage taken x0.7.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 150+,\ndamage taken x0.7.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で、\n自軍フェイズ開始時にＳＰ＋１０。": {
-      "en": "At Morale 130+,\nSP +10 at own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+,\nSP +10 at own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ダメージを受けると気力＋２。": {
-      "en": "Morale +2 when damaged.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Focus +2 when damaged.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で、\n与ダメージが１．２倍になる。": {
-      "en": "At Morale 130+,\ndamage dealt x1.2.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+,\ndamage dealt x1.2.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "修理によるＨＰ回復量が\n２倍になる。": {
       "en": "Repair HP recovery\nis doubled.",
@@ -6490,8 +6509,9 @@
       "source": "reuse:jigoku"
     },
     "自軍フェイズ開始時、\n自チームのＳＰ＋５、気力＋３。": {
-      "en": "At own phase start,\nown team SP +5, Morale +3.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At own phase start,\nown team SP +5, Focus +3.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ＨＰが５０％以下で一度だけ、\n精神コマンド「勇気」が掛かる。": {
       "en": "Once, at 50% HP or less,\ngains the Bravery Spirit.",
@@ -6502,12 +6522,14 @@
       "source": "reuse:jigoku"
     },
     "命中率＋２０％、\n自軍フェイズ開始時、気力＋５。": {
-      "en": "Hit rate +20%,\nMorale +5 at own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Hit rate +20%,\nFocus +5 at own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "命中率＋１５％、\n自軍フェイズ開始時、気力＋３。": {
-      "en": "Hit rate +15%,\nMorale +3 at own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Hit rate +15%,\nFocus +3 at own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "「底力」発動時、\n移動力＋１、与ダメージ１．１倍。": {
       "en": "When Potential triggers,\nMove +1, dmg dealt x1.1.",
@@ -6518,16 +6540,18 @@
       "source": "reuse:jigoku"
     },
     "特殊スキル「ネゴシエイター」の\n気力低下が－５になる。": {
-      "en": "The Negotiator skill's Morale\nreduction becomes -5.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "The Negotiator skill's Focus\nreduction becomes -5.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "特殊スキル「強運」が\n「天才」に変化。": {
       "en": "The Lucky skill\nbecomes Genius.",
       "source": "reuse:jigoku"
     },
     "戦闘した相手の気力を－５する。": {
-      "en": "Foes it battles lose 5 Morale.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Foes it battles lose 5 Focus.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "指揮範囲内の味方の\nクリティカル率＋２０％、命中率＋１０％。": {
       "en": "Allies in command range:\ncritical rate +20%, hit rate +10%.",
@@ -6546,8 +6570,9 @@
       "source": "reuse:jigoku"
     },
     "ダメージを与えた相手の\n気力とＳＰを－５する。": {
-      "en": "Foes it damages lose\n5 Morale and 5 SP.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Foes it damages lose\n5 Focus and 5 SP.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "マップ上にいるＡ２１の\n命中率＋１０％、回避率＋１０％。": {
       "en": "A21 units on the map:\nhit rate +10%, evasion +10%.",
@@ -6574,8 +6599,9 @@
       "source": "reuse:jigoku"
     },
     "気力１４０以上で、\n自軍フェイズ開始時に「闘志」が掛かる。": {
-      "en": "At Morale 140+, gains Fighting Spirit\nat own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale | review: Spirit names as in Tengoku"
+      "en": "At Focus 140+, gains Fighting Spirit\nat own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale | review: Spirit names as in Tengoku",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "精神コマンド「愛」の\n消費ＳＰが５０になる。": {
       "en": "Love Spirit SP cost\nbecomes 50.",
@@ -6590,28 +6616,32 @@
       "source": "reuse:jigoku"
     },
     "出撃時気力＋１０、\n精神コマンド「突撃」の\n消費ＳＰが２０になる。": {
-      "en": "Morale +10 on deploy;\nAssail Spirit SP cost\nbecomes 20.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Focus +10 on deploy;\nAssail Spirit SP cost\nbecomes 20.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "援護攻撃の与ダメージ１．２倍、\n援護攻撃に参加時、気力＋５。": {
-      "en": "Support Attack dmg x1.2;\nMorale +5 when joining one.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Support Attack dmg x1.2;\nFocus +5 when joining one.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "出現時のシンクロ率＋５０。": {
       "en": "Sync Rate +50 on entry.",
       "source": "reuse:jigoku"
     },
     "常時気力１７０。": {
-      "en": "Morale always 170.",
-      "source": "reuse:jigoku | review: Morale / ZERO System"
+      "en": "Focus always 170.",
+      "source": "reuse:jigoku | review: Morale / ZERO System",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ＨＰ５％以下で、一度だけ\nＨＰとＥＮが全回復する。": {
       "en": "Once, at 5% HP or less,\nHP/EN fully recover.",
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、\n精神コマンド「必中」「狙撃」が掛かる。": {
-      "en": "At Morale 130+, gains the\nStrike and Snipe Spirits.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, gains the\nStrike and Snipe Spirits.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ＨＰが０になった場合、\n一度だけＨＰが全回復する。": {
       "en": "When HP hits 0, HP fully\nrecovers once.",
@@ -6634,8 +6664,9 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、\n自チームパイロットの全能力＋１０。": {
-      "en": "At Morale 130+,\nall own-team pilot stats +10.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+,\nall own-team pilot stats +10.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "自チーム全ユニットが\n「重力干渉」の効果を得る。": {
       "en": "All own-team units gain\nthe Grav Field effect.",
@@ -6678,8 +6709,9 @@
       "source": "reuse:jigoku"
     },
     "自軍フェイズ開始時、\nマップ上の味方パイロット気力＋２。": {
-      "en": "At own phase start, allied\npilots on the map get Morale +2.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At own phase start, allied\npilots on the map get Focus +2.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "「カウンター」発生時、\n与ダメージが１．１倍になる。": {
       "en": "When Counter triggers,\ndamage dealt x1.1.",
@@ -6690,20 +6722,23 @@
       "source": "reuse:jigoku"
     },
     "気力１５０以上で、\n自軍フェイズ開始時に「愛」が掛かる。": {
-      "en": "At Morale 150+, gains Love\nat own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 150+, gains Love\nat own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "常に「再攻撃」が\n発動可能になる。": {
       "en": "Re-Attack can\nalways trigger.",
       "source": "reuse:jigoku"
     },
     "気力１３０以上で、\n与ダメージ１．１倍、移動力＋１。": {
-      "en": "At Morale 130+,\ndamage dealt x1.1, Move +1.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+,\ndamage dealt x1.1, Move +1.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で、\n自軍フェイズ開始時に「必中」が掛かる。": {
-      "en": "At Morale 130+, gains Strike\nat own phase start.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, gains Strike\nat own phase start.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "自軍フェイズ開始時、\n自チームのパイロットのＳＰ＋１０。": {
       "en": "At own phase start,\nown team's pilots get SP +10.",
@@ -6722,8 +6757,9 @@
       "source": "reuse:jigoku"
     },
     "補給を受けたパイロットの気力＋５。": {
-      "en": "Resupplied pilots get Morale +5.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Resupplied pilots get Focus +5.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "昼間及び宇宙のマップでは、ＥＮ回復（中）の効果を得る。": {
       "en": "On daytime and space maps, gains EN Regen (M).",
@@ -6790,8 +6826,9 @@
       "source": "reuse:jigoku | review: Morale / ZERO System"
     },
     "『ハイパージャマー』の気力制限なし、全武器のＣＲＴ＋２０。": {
-      "en": "Hyper Jammer has no Morale limit; all weapon CRT +20.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Hyper Jammer has no Focus limit; all weapon CRT +20.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "運動性＋１５、全ての武器の弾数が１．５倍になる。": {
       "en": "Mobility +15, all weapon ammo x1.5.",
@@ -6866,8 +6903,9 @@
       "source": "reuse:jigoku"
     },
     "『ハイパー・メガ粒子砲』の消費ＥＮ－３０、必要気力－１０。": {
-      "en": "Hyper Mega Particle Cannon EN cost -30, Morale req. -10.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Hyper Mega Particle Cannon EN cost -30, Focus req. -10.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全ての武器の攻撃力＋３００、命中率＋２０。": {
       "en": "All weapon power +300, hit +20.",
@@ -6914,8 +6952,9 @@
       "source": "reuse:jigoku"
     },
     "機体搭載時の回復量が１００％になり、気力低下がなくなる。": {
-      "en": "Docked recovery becomes 100%, with no Morale loss.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Docked recovery becomes 100%, with no Focus loss.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "武器と機体の地形適応が『空Ｓ』『宇Ｓ』になる。": {
       "en": "Unit/weapon terrain: Air S, Space S.",
@@ -6962,8 +7001,9 @@
       "source": "reuse:jigoku"
     },
     "全ての武器に『気力低下』を付加する。": {
-      "en": "All weapons gain Morale Down.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "All weapons gain Focus Down.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "最大ＨＰ＋１５００、ＥＮ＋５０。": {
       "en": "Max HP +1500, EN +50.",
@@ -7326,7 +7366,7 @@
       "source": "reuse:jigoku"
     },
     "格闘": {
-      "en": "Melee",
+      "en": "CQB",
       "source": "reuse:tengoku"
     },
     "射撃": {
@@ -7674,12 +7714,14 @@
       "source": "reuse:tengoku"
     },
     "２０００以下の全属性のダメージを無効化。\n気力１３０以上で発動。\n発動時、ＥＮを５消費。": {
-      "en": "Nullifies all-attribute damage of 2000 or less.\nActivates at Morale 130+.\nCosts 5 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Nullifies all-attribute damage of 2000 or less.\nActivates at Focus 130+.\nCosts 5 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "射撃のビーム攻撃によるダメージを１５００軽減。\n気力１１０以上で発動。\n発動時、ＥＮを１０消費。": {
-      "en": "Reduces damage from ranged Beam attacks by 1500.\nActivates at Morale 110+.\nCosts 10 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces damage from ranged Beam attacks by 1500.\nActivates at Focus 110+.\nCosts 10 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "２０００以下の全属性のダメージを無効化。\n発動時、ＥＮを５消費。": {
       "en": "Nullifies all-attribute damage of 2000 or less.\nCosts 5 EN to activate.",
@@ -7690,8 +7732,9 @@
       "source": "reuse:jigoku"
     },
     "全属性のダメージを１５００軽減。\n気力１１０以上で発動。\n発動時、ＥＮを２０消費。": {
-      "en": "Reduces all-attribute damage by 1500.\nActivates at Morale 110+.\nCosts 20 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces all-attribute damage by 1500.\nActivates at Focus 110+.\nCosts 20 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "２５００以下の全属性のダメージを無効化。\n発動時、ＥＮを１０消費。": {
       "en": "Nullifies all-attribute damage of 2500 or less.\nCosts 10 EN to activate.",
@@ -7702,36 +7745,44 @@
       "source": "reuse:jigoku"
     },
     "全属性のダメージを１０００軽減。\n気力１１０以上で発動。\n発動時、ＥＮを５消費。": {
-      "en": "Reduces all-attribute damage by 1000.\nActivates at Morale 110+.\nCosts 5 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces all-attribute damage by 1000.\nActivates at Focus 110+.\nCosts 5 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全属性のダメージを５００軽減。\n気力１００以上で発動。気力が１０上昇する毎に効果も上昇。\n発動時、ＥＮを１０消費。": {
-      "en": "Reduces all-attribute damage by 500.\nActivates at Morale 100+; effect grows every Morale +10.\nCosts 10 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces all-attribute damage by 500.\nActivates at Focus 100+; effect grows every Focus +10.\nCosts 10 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全属性のダメージを２０００軽減。\n気力１００以上で発動。気力が１０上昇する毎に効果も上昇。\n発動時、ＥＮを１０消費。": {
-      "en": "Reduces all-attribute damage by 2000.\nActivates at Morale 100+; effect grows every Morale +10.\nCosts 10 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces all-attribute damage by 2000.\nActivates at Focus 100+; effect grows every Focus +10.\nCosts 10 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "４０００以下の全属性のダメージを無効化。\n気力１１０以上で発動。\n発動時、ＥＮを３０消費。": {
-      "en": "Nullifies all-attribute damage of 4000 or less.\nActivates at Morale 110+.\nCosts 30 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Nullifies all-attribute damage of 4000 or less.\nActivates at Focus 110+.\nCosts 30 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全属性のダメージを１５００軽減。\n気力１１０以上で発動。\n発動時、ＥＮを５消費。": {
-      "en": "Reduces all-attribute damage by 1500.\nActivates at Morale 110+.\nCosts 5 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces all-attribute damage by 1500.\nActivates at Focus 110+.\nCosts 5 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全属性のダメージを１５００軽減。\n気力１０５以上で発動。\n発動時、ＥＮを５消費。": {
-      "en": "Reduces all-attribute damage by 1500.\nActivates at Morale 105+.\nCosts 5 EN to activate.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Reduces all-attribute damage by 1500.\nActivates at Focus 105+.\nCosts 5 EN to activate.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "３０００以下の全属性のダメージを無効化。シンクロ率の上昇により効果も上昇。\n気力１００以上で発動。\n発動時、ＥＮを２０消費。ただし、使徒の格闘攻撃には無効。": {
-      "en": "Nullifies dmg of 3000 or less; scales with Sync Ratio.\nActivates at Morale 100+.\nCosts 20 EN; no effect against Angel melee attacks.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Nullifies dmg of 3000 or less; scales with Sync Ratio.\nActivates at Focus 100+.\nCosts 20 EN; no effect against Angel melee attacks.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "３５００以下の全属性のダメージを無効化。\n気力１００以上で発動。特殊効果「バリア貫通」を無効化。\n発動時、ＥＮを１０消費。ただし、エヴァンゲリオンの格闘攻撃には無効。": {
-      "en": "Nullifies all-attribute damage of 3500 or less.\nActivates at Morale 100+; nullifies Barrier Pierce.\nCosts 10 EN; no effect against Evangelion melee attacks.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Nullifies all-attribute damage of 3500 or less.\nActivates at Focus 100+; nullifies Barrier Pierce.\nCosts 10 EN; no effect against Evangelion melee attacks.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "１２００以下の全属性のダメージを無効化。\n発動時、ＥＮを１０消費。": {
       "en": "Nullifies all-attribute damage of 1200 or less.\nCosts 10 EN to activate.",
@@ -7790,36 +7841,43 @@
       "source": "reuse:jigoku"
     },
     "相手武器の特殊効果「能力半減」「戦闘不能」「気力低下」\n「ＳＰ低下」を無効化します。": {
-      "en": "Nullifies enemy special effects Ability Halved,\nIncapacitate, Morale Down, SP Down.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Nullifies enemy special effects Ability Halved,\nIncapacitate, Focus Down, SP Down.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "特殊効果「能力半減」「戦闘不能」「気力低下」「ＳＰ低下」、\n気力１００以下の場合の「脱力」、敵からの\n連続ターゲット補正、プレースメントシステムを無効化します。": {
-      "en": "Nullifies special effects Ability Halved,\nIncapacitate, Morale Down, SP Down, and Daunt\n(at Morale 100 or below), Morale-Fire, Placement.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Nullifies special effects Ability Halved,\nIncapacitate, Focus Down, SP Down, and Daunt\n(at Focus 100 or below), Focus-Fire, Placement.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上、ニュータイプＬ５以上で発動し、\n機体が強化されます。": {
-      "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe mech is empowered.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Activates at Focus 130+ and Newtype Lv5+;\nthe mech is empowered.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で発動し、気力に応じて\nパイロットのパラメータが強化されます。": {
-      "en": "Activates at Morale 130+; scales with Morale\nto boost the pilot's parameters.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Activates at Focus 130+; scales with Focus\nto boost the pilot's parameters.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "「トランザム発動」を使用すると、\n２ターンの間、機体がトランザム状態になります。\nなお、同じマップではトランザムは再使用できません。": {
       "en": "Using the command Trans-Am Activate,\nthe mech enters Trans-Am state for 2 turns.\nCannot be reused on the same map.",
       "source": "reuse:jigoku"
     },
     "気力１３０以上で発動し、\n気力の上昇により機体の「照準値」「運動性」「装甲値」が上昇し、\n最終与ダメージに補正が入ります。": {
-      "en": "Activates at Morale 130+;\nas Morale rises, Sight, Mobi, and Armor also rise,\nboosting final damage dealt.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Activates at Focus 130+;\nas Focus rises, Sight, Mobi, and Armor also rise,\nboosting final damage dealt.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で特殊能力「ＨＰ回復（小）」が発動します。\nまた、パイロットの気力と螺旋力のレベルによって、\n機体の最終与ダメージに補正が入ります。": {
-      "en": "At Morale 130+, activates special ability HP Regen (S).\nAlso, based on pilot Morale and Spiral Power level,\nboosts the mech's final damage dealt.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, activates special ability HP Regen (S).\nAlso, based on pilot Focus and Spiral Power level,\nboosts the mech's final damage dealt.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で「天元突破グレンラガン」に変形可能になります。": {
-      "en": "Morale 150+: transforms into Tengen Toppa Gurren Lagann.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Focus 150+: transforms into Tengen Toppa Gurren Lagann.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "自軍フェイズ開始時にＥＮが５０回復します。": {
       "en": "Restores 50 EN at own phase start.",
@@ -7830,12 +7888,14 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上になるとヘッド（＝メインパイロット）の能力値（格闘他）に、\n搭乗する３名のパイロット内で最高値のものが適用されます。": {
-      "en": "At Morale 130+, the Head's (main pilot's) stats\nuse the highest value among the 3 boarded pilots.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, the Head's (main pilot's) stats\nuse the highest value among the 3 boarded pilots.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上になるとヘッド（＝メインパイロット）の能力値（格闘他）に、\n搭乗する３名のパイロット内で最高値のものが適用されます。\nまた、搭乗者全員のエレメント能力がヘッドに適用されます。": {
-      "en": "At Morale 130+, the Head's (main pilot's) stats\nuse the highest value among the 3 boarded pilots.\nAlso, all pilots' Element abilities apply to the Head.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 130+, the Head's (main pilot's) stats\nuse the highest value among the 3 boarded pilots.\nAlso, all pilots' Element abilities apply to the Head.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "パイロットの超能力レベル１につき、\n武器の攻撃力が＋１００されます。": {
       "en": "For each level of the pilot's ESP,\nweapon attack power +100.",
@@ -7850,20 +7910,24 @@
       "source": "reuse:jigoku"
     },
     "気力１４０以上で「ジェニオン・ガイ」に変形可能になります。\nジェニオン・ガイの持続時間に制限はありません。": {
-      "en": "At Morale 140+, can transform into Genion Gai.\nGenion Gai's duration has no limit.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "At Focus 140+, can transform into Genion Gai.\nGenion Gai's duration has no limit.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「沈黙の巨蟹」のスフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\nＳＰが回復しません。": {
-      "en": "At Morale 140+, the Sphere of the Taciturn Crab\nactivates: enemy units within 10 tiles at phase\nstart gain no SP.",
-      "source": "reuse:jigoku | review: 気力 = Morale | review: glossary Sphere name"
+      "en": "At Focus 140+, the Sphere of the Taciturn Crab\nactivates: enemy units within 10 tiles at phase\nstart gain no SP.",
+      "source": "reuse:jigoku | review: 気力 = Morale | review: glossary Sphere name",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で発動し、敵の攻撃を５０％の確率で\n完全に回避します。": {
-      "en": "Activates at Morale 130+: 50% chance to\nevade an enemy attack completely.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Activates at Focus 130+: 50% chance to\nevade an enemy attack completely.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で発動し、敵の攻撃を３０％の確率で\n完全に回避します。": {
-      "en": "Activates at Morale 130+: 30% chance to\nevade an enemy attack completely.",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Activates at Focus 130+: 30% chance to\nevade an enemy attack completely.",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "敵の攻撃に対する特殊な防御機構です。\n効果はバリア・アーマーごとに異なります。": {
       "en": "A special defense mechanism against enemy attacks.\nEffects vary by Barrier / Armor type.",
@@ -7882,8 +7946,9 @@
       "source": "reuse:jigoku"
     },
     "気力１３０以上で発動し、搭乗している各エレメントの能力が\nヘッド（＝メインパイロット）に集まります。": {
-      "en": "Activates at Morale 130+: each boarded Element's\nability gathers into the Head (main pilot).",
-      "source": "reuse:jigoku | review: 気力 = Morale"
+      "en": "Activates at Focus 130+: each boarded Element's\nability gathers into the Head (main pilot).",
+      "source": "reuse:jigoku | review: 気力 = Morale",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "サバイバビリティ": {
       "en": "Survivability",
@@ -8794,8 +8859,9 @@
       "source": "fresh:e_ability_names_00"
     },
     "最大気力アップ": {
-      "en": "Max Morale Up",
-      "source": "fresh:e_ability_names_00"
+      "en": "Max Focus Up",
+      "source": "fresh:e_ability_names_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ノリコの奇跡": {
       "en": "Noriko's Miracle",
@@ -9678,24 +9744,27 @@
       "source": "fresh:e_help_description_00"
     },
     "自軍フェイズ開始時、\n同チーム及び隣接味方チームの気力＋３。": {
-      "en": "At own phase start, Morale +3\nfor own and adjacent allied teams.",
-      "source": "fresh:e_help_description_00"
+      "en": "At own phase start, Focus +3\nfor own and adjacent allied teams.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "回避率＋１０％。出撃時にＳＰ＋２０。": {
       "en": "Evasion +10%. SP +20 on deploy.",
       "source": "fresh:e_help_description_00"
     },
     "出撃時、気力＋１０。\n敵撃墜時の獲得資金１．５倍。": {
-      "en": "Morale +10 on deploy.\nFunds from downed enemies x1.5.",
-      "source": "fresh:e_help_description_00"
+      "en": "Focus +10 on deploy.\nFunds from downed enemies x1.5.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "出撃時、ＳＰが最大値になる。": {
       "en": "SP is maxed on deploy.",
       "source": "fresh:e_help_description_00"
     },
     "気力１２０以上で\n特殊スキル「イノベイター」発動、\nＳＰ回復がさらに＋５される。": {
-      "en": "At Morale 120+, the\nInnovator skill activates;\nits SP recovery gets a further +5.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 120+, the\nInnovator skill activates;\nits SP recovery gets a further +5.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "地形「空」「宇」への命中率＋２０％、\n与ダメージ１．１倍。": {
       "en": "Vs. Air/Space terrain: hit rate +20%,\ndamage dealt x1.1.",
@@ -9714,8 +9783,9 @@
       "source": "fresh:e_help_description_00"
     },
     "自軍フェイズ開始時、\n指揮範囲内にいる味方の気力＋５。": {
-      "en": "At own phase start, allies in\ncommand range get Morale +5.",
-      "source": "fresh:e_help_description_00"
+      "en": "At own phase start, allies in\ncommand range get Focus +5.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "所属チームの命中率＋１０％、\n回避率＋１０％、クリティカル率＋１０％。": {
       "en": "Own team's hit rate +10%,\nevasion +10%, critical rate +10%.",
@@ -9730,20 +9800,24 @@
       "source": "fresh:e_help_description_00"
     },
     "気力１７０以上で、\n一度だけ「奇跡」をおこす。": {
-      "en": "At Morale 170+,\nworks a Miracle once.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 170+,\nworks a Miracle once.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "出撃時の気力＋１０、\n「努力」「根性」の消費ＳＰ－５。": {
-      "en": "Morale +10 on deploy;\nGain and Vigor SP cost -5.",
-      "source": "fresh:e_help_description_00"
+      "en": "Focus +10 on deploy;\nGain and Vigor SP cost -5.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ダメージを受けると\n本来の気力増減に加えてさらに＋１。": {
-      "en": "When damaged, Morale gets\nan extra +1 over the usual change.",
-      "source": "fresh:e_help_description_00"
+      "en": "When damaged, Focus gets\nan extra +1 over the usual change.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ダメージを受けると\n本来の気力増減に加えてさらに＋３。": {
-      "en": "When damaged, Morale gets\nan extra +3 over the usual change.",
-      "source": "fresh:e_help_description_00"
+      "en": "When damaged, Focus gets\nan extra +3 over the usual change.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "特殊スキル「遠距離操作」の\n効果範囲＋１。": {
       "en": "Remote Op. skill\neffect range +1.",
@@ -9766,8 +9840,9 @@
       "source": "fresh:e_help_description_00"
     },
     "気力１５０以上で、\n被ダメージ０．９倍になる。": {
-      "en": "At Morale 150+,\ndamage taken x0.9.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 150+,\ndamage taken x0.9.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "自チーム内の回避率＋２０％、\n命中率＋１５％。": {
       "en": "Own team: evasion +20%,\nhit rate +15%.",
@@ -9790,8 +9865,9 @@
       "source": "fresh:e_help_description_00"
     },
     "気力１５０以上で自軍フェイズ開始時に\n全ての敵に「分析」が掛かる。": {
-      "en": "At Morale 150+, all enemies come\nunder Analyze at own phase start.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 150+, all enemies come\nunder Analyze at own phase start.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "「触手」の攻撃力＋５００、射程＋２": {
       "en": "Tentacle power +500, range +2",
@@ -9802,16 +9878,18 @@
       "source": "fresh:e_help_description_00"
     },
     "出撃時、気力＋２０。": {
-      "en": "Morale +20 on deploy.",
-      "source": "fresh:e_help_description_00"
+      "en": "Focus +20 on deploy.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "獲得経験値１．２倍、レベルアップ時と\n撃墜数１０機ごとにＰＰ＋５。": {
       "en": "EXP earned x1.2; PP +5 on level-up\nand for every 10 kills.",
       "source": "fresh:e_help_description_00"
     },
     "気力１５０以上で、\n一度だけ「愛」が掛かる。": {
-      "en": "At Morale 150+,\ngains Love once.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 150+,\ngains Love once.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "自軍フェイズ開始時に\n「集中」が掛かる。": {
       "en": "Gains Focus\nat own phase start.",
@@ -9830,8 +9908,9 @@
       "source": "fresh:e_help_description_00"
     },
     "所属チームに特殊スキル\n「気力＋（ダメージ）」の効果を与える。": {
-      "en": "Gives own team the effect\nof the Morale+ Dmg skill.",
-      "source": "fresh:e_help_description_00"
+      "en": "Gives own team the effect\nof the Foc+ Dmg skill.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "所属チーム及び隣接味方チームの\n与ダメージ１．１倍。": {
       "en": "Own and adjacent allied teams:\ndamage dealt x1.1.",
@@ -9850,32 +9929,37 @@
       "source": "fresh:e_help_description_00"
     },
     "気力１３０以上で、\n自軍フェイズ開始時に\n精神コマンド『集中』が掛かる。": {
-      "en": "At Morale 130+,\ngains the Focus Spirit\nat own phase start.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 130+,\ngains the Focus Spirit\nat own phase start.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で、\n自軍フェイズ開始時に\n「覚醒」が掛かる。": {
-      "en": "At Morale 130+,\ngains Zeal\nat own phase start.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 130+,\ngains Zeal\nat own phase start.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で、一度だけ\n「熱血」と「かく乱」が掛かる。": {
-      "en": "At Morale 130+, gains\nValor and Disrupt once.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 130+, gains\nValor and Disrupt once.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "指揮能力の効果が２倍になる。": {
       "en": "Command effects are doubled.",
       "source": "fresh:e_help_description_00"
     },
     "気力１５０以上で、被ダメージ０．８倍。": {
-      "en": "At Morale 150+, damage taken x0.8.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 150+, damage taken x0.8.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "攻撃を命中させた相手のＳＰを－１０。": {
       "en": "Foes it hits lose 10 SP.",
       "source": "fresh:e_help_description_00"
     },
     "気力１３０以上で、\n自軍フェイズ開始時に精神コマンド\n『必中』『直撃』が掛かる。": {
-      "en": "At Morale 130+,\ngains the Strike and Fury Spirits\nat own phase start.",
-      "source": "fresh:e_help_description_00"
+      "en": "At Focus 130+,\ngains the Strike and Fury Spirits\nat own phase start.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "所属チームのアシスト攻撃と\n援護攻撃による与ダメージ１．１倍。": {
       "en": "Own team's Assist and\nSupport Attack damage dealt x1.1.",
@@ -9886,8 +9970,9 @@
       "source": "fresh:e_help_description_00"
     },
     "出撃時気力＋５。": {
-      "en": "Morale +5 on deploy.",
-      "source": "fresh:e_help_description_00"
+      "en": "Focus +5 on deploy.",
+      "source": "fresh:e_help_description_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "敵対する軍勢のフェイズ時、\n与ダメージ１．１倍。": {
       "en": "During enemy phases,\ndamage dealt x1.1.",
@@ -9982,8 +10067,9 @@
       "source": "fresh:e_help_description_01"
     },
     "特殊能力『エレメントシステム』の発動気力が１２０になる。": {
-      "en": "Element System activates at Morale 120+.",
-      "source": "fresh:e_help_description_01"
+      "en": "Element System activates at Focus 120+.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "最大ＥＮ＋１００、全ての武器のＣＲＴ＋２０。": {
       "en": "Max EN +100, all weapon CRT +20.",
@@ -10038,224 +10124,279 @@
       "source": "fresh:e_help_description_01"
     },
     "味方のＨＰを1\u000b５００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}5001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}5001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b１０００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}10001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}10001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b１５００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}15001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}15001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b２０００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}20001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}20001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b２５００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}25001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}25001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b３０００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}30001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}30001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b３５００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}35001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}35001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b４０００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}40001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}40001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b４５００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}45001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}45001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＨＰを1\u000b５５００1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}55001{01} HP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}55001{01} HP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b５1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}51{01}.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}51{01}.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b６1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}61{01}.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}61{01}.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b７1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}71{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}71{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b８1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}81{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}81{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b９1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}91{01}.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}91{01}.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b１０1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}101{01}.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}101{01}.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b１１1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}111{01}.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}111{01}.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b１２1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}121{01}.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}121{01}.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b１３1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}131{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}131{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力を1\u000b１５1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' Morale by 1{0B}151{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' Focus by 1{0B}151{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b５1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}51{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}51{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b６1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}61{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}61{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b７1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}71{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}71{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b８1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}81{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}81{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b９1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}91{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}91{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b１０1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}101{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}101{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b１１1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}111{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}111{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b１２1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}121{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}121{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b１３1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}131{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}131{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方のＳＰを1\u000b１５1\u0001回復させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Restores 1{0B}151{01} SP to allies.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Restores 1{0B}151{01} SP to allies.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b５1\u0001、防御・命中・回避を1\u000b１０1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}51{01}, Defense/Hit/Evasion +1{0B}101{01}.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}51{01}, Defense/Hit/Evasion +1{0B}101{01}.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b６1\u0001、防御・命中・回避を1\u000b１２1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}61{01}, Defense/Hit/Evasion +1{0B}121{01}.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}61{01}, Defense/Hit/Evasion +1{0B}121{01}.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b７1\u0001、防御・命中・回避を1\u000b１４1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}71{01}, Defense/Hit/Evasion +1{0B}141{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}71{01}, Defense/Hit/Evasion +1{0B}141{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b８1\u0001、防御・命中・回避を1\u000b１６1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}81{01}, Defense/Hit/Evasion +1{0B}161{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}81{01}, Defense/Hit/Evasion +1{0B}161{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b９1\u0001、防御・命中・回避を1\u000b１８1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}91{01}, Defense/Hit/Evasion +1{0B}181{01}.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}91{01}, Defense/Hit/Evasion +1{0B}181{01}.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b１０1\u0001、防御・命中・回避を1\u000b２０1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}101{01}, Defense/Hit/Evasion +1{0B}201{01}.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}101{01}, Defense/Hit/Evasion +1{0B}201{01}.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b１１1\u0001、防御・命中・回避を1\u000b２２1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}111{01}, Defense/Hit/Evasion +1{0B}221{01}.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}111{01}, Defense/Hit/Evasion +1{0B}221{01}.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b１２1\u0001、防御・命中・回避を1\u000b２４1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}121{01}, Defense/Hit/Evasion +1{0B}241{01}.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}121{01}, Defense/Hit/Evasion +1{0B}241{01}.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b１３1\u0001、防御・命中・回避を1\u000b２６1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}131{01}, Defense/Hit/Evasion +1{0B}261{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}131{01}, Defense/Hit/Evasion +1{0B}261{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の格闘・射撃・技量を1\u000b１５1\u0001、防御・命中・回避を1\u000b３０1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Allies' Melee/Ranged/Skill +1{0B}151{01}, Defense/Hit/Evasion +1{0B}301{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies' Melee/Ranged/Skill +1{0B}151{01}, Defense/Hit/Evasion +1{0B}301{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effect of the 1{0B}Luck1{01} Spirit.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effect of the 1{0B}Luck1{01} Spirit.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effect of the 1{0B}Luck1{01} Spirit.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effect of the 1{0B}Luck1{01} Spirit.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001・1\u000b努力1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effects of 1{0B}Luck1{01} and 1{0B}Gain1{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effects of 1{0B}Luck1{01} and 1{0B}Gain1{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001・1\u000b努力1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effects of 1{0B}Luck1{01} and 1{0B}Gain1{01}.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effects of 1{0B}Luck1{01} and 1{0B}Gain1{01}.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001・1\u000b努力1\u0001・1\u000b加速1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01} and 1{0B}Accel1{01}.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01} and 1{0B}Accel1{01}.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001・1\u000b努力1\u0001・1\u000b加速1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01} and 1{0B}Accel1{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01} and 1{0B}Accel1{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001・1\u000b努力1\u0001・1\u000b加速・1\u000b閃き1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01}, 1{0B}Accel and 1{0B}Alert1{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01}, 1{0B}Accel and 1{0B}Alert1{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b５1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b６1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}51{01}.\nEnemies taking song Morale loss or damage lose 1{0B}61{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}51{01}.\nEnemies taking song Focus loss or damage lose 1{0B}61{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b５1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}51{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}51{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b６1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b７1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}61{01}.\nEnemies taking song Morale loss or damage lose 1{0B}71{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}61{01}.\nEnemies taking song Focus loss or damage lose 1{0B}71{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b６1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b８1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}61{01}.\nEnemies taking song Morale loss or damage lose 1{0B}81{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}61{01}.\nEnemies taking song Focus loss or damage lose 1{0B}81{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b７1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b９1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}71{01}.\nEnemies taking song Morale loss or damage lose 1{0B}91{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}71{01}.\nEnemies taking song Focus loss or damage lose 1{0B}91{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b７1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}71{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}71{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方の気力上昇上限を1\u000b１０1\u0001上昇させます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下。\n精神コマンド「熱血」の使用時は効果が1\u000b２倍1\u0001になります。": {
-      "en": "Raises allies' max Morale by 1{0B}101{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Raises allies' max Focus by 1{0B}101{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, effects are 1{0B}doubled1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "味方に精神コマンド「1\u000b幸運1\u0001・1\u000b努力1\u0001・1\u000b加速1\u0001・1\u000b閃き1\u0001」の効果を与えます。\n歌により気力低下する敵とダメージを受ける敵の気力を1\u000b１０1\u0001低下させます。\n精神コマンド「熱血」の使用時は敵には効果1\u000b２倍1\u0001、味方には「1\u000b熱血1\u0001」の効果を付与。": {
-      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01}, 1{0B}Accel1{01} and 1{0B}Alert1{01}.\nEnemies taking song Morale loss or damage lose 1{0B}101{01} Morale.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
-      "source": "fresh:e_help_description_01"
+      "en": "Allies gain the effects of 1{0B}Luck1{01}, 1{0B}Gain1{01}, 1{0B}Accel1{01} and 1{0B}Alert1{01}.\nEnemies taking song Focus loss or damage lose 1{0B}101{01} Focus.\nWith the Valor Spirit, enemy effect is 1{0B}doubled1{01} and allies gain 1{0B}Valor1{01}.",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "盾を所持していると、このアイコンが点灯します。\n防御選択時の被ダメージが４０％となり、その他の場合でも\n効果が発生することがあります。\n": {
       "en": "This icon lights up when the unit has a shield.\nDamage taken when defending drops to 40%; the\neffect may also occur at other times.\n",
@@ -10266,8 +10407,9 @@
       "source": "fresh:e_help_description_01"
     },
     "合体機能を所持していると、このアイコンが点灯します。\nシモンとダヤッカの気力が１３０以上で、個別コマンドに「合体」が追加されます。\n「合体」コマンドを選択することでユニットが変化します。\n": {
-      "en": "This icon lights up when the unit can combine.\nAt Morale 130+ for Simon and Dayakka, unit command Combine is added.\nSelecting the Combine command changes the unit.\n",
-      "source": "fresh:e_help_description_01"
+      "en": "This icon lights up when the unit can combine.\nAt Focus 130+ for Simon and Dayakka, unit command Combine is added.\nSelecting the Combine command changes the unit.\n",
+      "source": "fresh:e_help_description_01",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "修理装置を所持していると、このアイコンが点灯します。\n所持ユニットは、ＨＰを回復する「修理」コマンドを\n使用できます。\n": {
       "en": "This icon lights up when the unit has a Repair Module.\nThe unit can use the Repair command, which\nrestores HP.\n",
@@ -10294,8 +10436,9 @@
       "source": "fresh:e_help_description_02"
     },
     "相手ユニットのパイロットの気力を５減少させます。\nバリア等でダメージを０にされた場合は無効です。": {
-      "en": "Reduces the enemy pilot's Morale by 5.\nNo effect if a barrier, etc. reduces the damage to 0.",
-      "source": "fresh:e_help_description_02"
+      "en": "Reduces the enemy pilot's Focus by 5.\nNo effect if a barrier, etc. reduces the damage to 0.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "１ターンの間、相手ユニットの機体の装甲値を\n２００ダウンさせます。\nバリア等でダメージを０にされた場合は無効です。": {
       "en": "Lowers the enemy unit's Armor by 200\nfor 1 turn.\nNo effect if a barrier, etc. reduces the damage to 0.",
@@ -10318,8 +10461,9 @@
       "source": "fresh:e_help_description_02"
     },
     "ダメージを受けた機体に搭乗しているメインパイロットの気力を１０低下させます。\n戦闘終了後、この効果を受けたパイロットの気力が８０以下の場合、\n機体のＨＰに関係なく撃墜として扱われます。\n": {
-      "en": "Lowers the Morale of the main pilot of the damaged unit by 10.\nAfter battle, if the affected pilot's Morale is 80 or below,\nthe unit is treated as shot down regardless of its HP.\n",
-      "source": "fresh:e_help_description_02"
+      "en": "Lowers the Focus of the main pilot of the damaged unit by 10.\nAfter battle, if the affected pilot's Focus is 80 or below,\nthe unit is treated as shot down regardless of its HP.\n",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "相手ユニットの持つバリアの効果を無視します。": {
       "en": "Ignores the enemy unit's barrier effects.",
@@ -10418,8 +10562,9 @@
       "source": "fresh:e_help_description_02"
     },
     "人間の生命力そのものから次元力を引き出すシステム。\nただし、そのためには極限まで気力を高める必要があるため、\n使用者にも相応の力が必要とされる。": {
-      "en": "A system that draws $$次元力$$ from human life force itself.\nHowever, it requires raising Morale to the very limit,\nso the user must have matching strength too.",
-      "source": "fresh:e_help_description_02"
+      "en": "A system that draws $$次元力$$ from human life force itself.\nHowever, it requires raising Focus to the very limit,\nso the user must have matching strength too.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "インサラウムの開発したＺＯＮＥを機体に搭載できるサイズに小型化したもの。\nあらゆる場所に存在する次元力を引き出し、友軍全ての機体に効果を及ぼすが、\n暴走の危険性があるので１度の出撃では１回しか使用できない。": {
       "en": "The $$ＺＯＮＥ$$ developed by $$インサラウム$$, shrunk to fit on a mech.\nIt taps the $$次元力$$ found everywhere to affect all allies,\nbut it risks running wild, so it can be used only once per sortie.",
@@ -10470,48 +10615,58 @@
       "source": "fresh:e_help_description_02"
     },
     "全属性のダメージを３０００軽減。\n気力１３０以上で発動。\n発動時、ＥＮを２０消費。": {
-      "en": "Reduces all-attribute damage by 3000.\nActivates at Morale 130+.\nCosts 20 EN to activate.",
-      "source": "fresh:e_help_description_02"
+      "en": "Reduces all-attribute damage by 3000.\nActivates at Focus 130+.\nCosts 20 EN to activate.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全属性のダメージを１０００軽減。\n気力１１０以上で発動。\n発動時、ＥＮを１０消費。": {
-      "en": "Reduces all-attribute damage by 1000.\nActivates at Morale 110+.\nCosts 10 EN to activate.",
-      "source": "fresh:e_help_description_02"
+      "en": "Reduces all-attribute damage by 1000.\nActivates at Focus 110+.\nCosts 10 EN to activate.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "シモンとダヤッカの気力が１３０以上で、\nグレンラガンの個別コマンドに「合体」が追加され、「合体」コマンドを選択すると\nグレンラガンと超銀河ダイグレンが「超銀河グレンラガン」に合体します。": {
-      "en": "At Morale 130+ for $$シモン$$ and $$ダヤッカ$$, Combine is added to\n$$グレンラガン$$'s unit commands. Selecting it combines $$グレンラガン$$ and\n$$超銀河ダイグレン$$ into $$超銀河グレンラガン$$.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 130+ for $$シモン$$ and $$ダヤッカ$$, Combine is added to\n$$グレンラガン$$'s unit commands. Selecting it combines $$グレンラガン$$ and\n$$超銀河ダイグレン$$ into $$超銀河グレンラガン$$.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "相手武器の特殊効果「能力半減」「戦闘不能」「気力低下」\n「ＳＰ低下」「ＥＮ▼」「運動性▼」「照準値▼」\n「装甲値▼」「侵食」を無効化します。": {
-      "en": "Nullifies enemy weapon effects Stats Halved, Disabled,\nMorale Down, SP Down, EN Down, Mobility Down, Accuracy Down,\nArmor Down and Erosion.",
-      "source": "fresh:e_help_description_02"
+      "en": "Nullifies enemy weapon effects Stats Halved, Disabled,\nFocus Down, SP Down, EN Down, Mobility Down, Accuracy Down,\nArmor Down and Erosion.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上、ニュータイプＬ５以上で発動し、\nデストロイモードに変形可能になります。\nデストロイモードの持続時間は５ターンです。": {
-      "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.\nDestroy Mode lasts 5 turns.",
-      "source": "fresh:e_help_description_02"
+      "en": "Activates at Focus 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.\nDestroy Mode lasts 5 turns.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上、ニュータイプＬ５以上で発動し、\nデストロイモードに変形可能になります。\n持続時間に制限はありません。": {
-      "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.\nThere is no limit on its duration.",
-      "source": "fresh:e_help_description_02"
+      "en": "Activates at Focus 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.\nThere is no limit on its duration.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１００以上で発動し、\n気力の上昇により機体の「照準値」「運動性」「装甲値」が上昇し、\n最終与ダメージに補正が入ります。": {
-      "en": "Activates at Morale 100+;\nas Morale rises, the mech's Accuracy, Mobility and Armor rise,\nand a bonus applies to final damage dealt.",
-      "source": "fresh:e_help_description_02"
+      "en": "Activates at Focus 100+;\nas Focus rises, the mech's Accuracy, Mobility and Armor rise,\nand a bonus applies to final damage dealt.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "全属性のダメージを１／１０にする。": {
       "en": "Reduces all-attribute damage to 1/10.",
       "source": "fresh:e_help_description_02"
     },
     "気力１３０以上になると搭乗者全員のエレメント能力が\nヘッド（＝メインパイロット）に適用されます。": {
-      "en": "At Morale 130+, all boarded pilots' Element abilities\napply to the Head (main pilot).",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 130+, all boarded pilots' Element abilities\napply to the Head (main pilot).",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「ジェミニオン・レイ」に変形可能になります。\nジェミニオン・レイの持続時間に制限はありません。": {
-      "en": "At Morale 140+, can transform into $$ジェミニオン・レイ$$.\n$$ジェミニオン・レイ$$'s duration has no limit.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, can transform into $$ジェミニオン・レイ$$.\n$$ジェミニオン・レイ$$'s duration has no limit.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１２０以上で「ジェニオン・ガイ」に変形可能になります。\nジェニオン・ガイの持続時間に制限はありません。": {
-      "en": "At Morale 120+, can transform into $$ジェニオン・ガイ$$.\n$$ジェニオン・ガイ$$'s duration has no limit.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 120+, can transform into $$ジェニオン・ガイ$$.\n$$ジェニオン・ガイ$$'s duration has no limit.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "ＺクリスタルのＧＲＡＤＥに応じた個別コマンド「Ｄコマンド」が使用できます。\n「Ｄコマンド」は１ターンに１回のみ使用可能で、\n各コマンドは１マップにつき１回のみの使用です。": {
       "en": "Enables the unit command D-Command, based on the $$Ｚクリスタル$$'s GRADE.\nD-Commands can be used only once per turn,\nand each command only once per map.",
@@ -10526,96 +10681,119 @@
       "source": "fresh:e_help_description_02"
     },
     "気力１３０以上で個別コマンド「月光蝶」が使用可能になります。\n使用すると行動終了となり、自機から１０マス以内にいる敵ユニットの\nＥＮが３００ダウンし、自機のＥＮが全回復します。": {
-      "en": "At Morale 130+, the unit command $$月光蝶$$ is enabled.\nUsing it ends the unit's action; enemy units within 10 tiles\nlose 300 EN, and the unit's own EN is fully restored.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 130+, the unit command $$月光蝶$$ is enabled.\nUsing it ends the unit's action; enemy units within 10 tiles\nlose 300 EN, and the unit's own EN is fully restored.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上で全ての武器がバリア貫通になり、\nクリティカル率＋３０％、与ダメージが１．１倍になります。": {
-      "en": "At Morale 130+, all weapons gain Barrier Pierce,\ncritical rate +30%, and damage dealt x1.1.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 130+, all weapons gain Barrier Pierce,\ncritical rate +30%, and damage dealt x1.1.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で「いがみ合う双子」のスフィアが発動し、\n全ての味方パイロットの技量がマップ終了まで\n＋１０されます。": {
-      "en": "At Morale 150+, the Sphere of the $$いがみ合う双子$$\nactivates: all allied pilots get Skill +10\nuntil the end of the map.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 150+, the Sphere of the $$いがみ合う双子$$\nactivates: all allied pilots get Skill +10\nuntil the end of the map.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で「傷だらけの獅子」のスフィアが発動し、\n全ての味方パイロットの防御がマップ終了まで\n＋１０されます。": {
-      "en": "At Morale 150+, the Sphere of the $$傷だらけの獅子$$\nactivates: all allied pilots get Defense +10\nuntil the end of the map.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 150+, the Sphere of the $$傷だらけの獅子$$\nactivates: all allied pilots get Defense +10\nuntil the end of the map.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で「悲しみの乙女」のスフィアが発動し、\n全ての味方パイロットの回避がマップ終了まで\n＋１０されます。": {
-      "en": "At Morale 150+, the Sphere of the $$悲しみの乙女$$\nactivates: all allied pilots get Evade +10\nuntil the end of the map.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 150+, the Sphere of the $$悲しみの乙女$$\nactivates: all allied pilots get Evade +10\nuntil the end of the map.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１５０以上で「揺れる天秤」のスフィアが発動し、\n全ての味方パイロットの命中がマップ終了まで\n＋１０されます。": {
-      "en": "At Morale 150+, the Sphere of the $$揺れる天秤$$\nactivates: all allied pilots get Hit +10\nuntil the end of the map.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 150+, the Sphere of the $$揺れる天秤$$\nactivates: all allied pilots get Hit +10\nuntil the end of the map.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「欲深な金牛」のスフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\nＥＮが－４０されます。": {
-      "en": "At Morale 140+, the Sphere of the $$欲深な金牛$$\nactivates: at phase start, enemy units within 10 tiles\nlose 40 EN.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the Sphere of the $$欲深な金牛$$\nactivates: at phase start, enemy units within 10 tiles\nlose 40 EN.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「怨嗟の魔蠍」のスフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\n装甲値▼の効果を受けます。": {
-      "en": "At Morale 140+, the Sphere of the $$怨嗟の魔蠍$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Armor Down.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the Sphere of the $$怨嗟の魔蠍$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Armor Down.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「立ち上がる射手」のスフィアが発動し、\n自機から１０マス以内にいる敵チームは\n与ダメージが０．９倍になります。": {
-      "en": "At Morale 140+, the Sphere of the $$立ち上がる射手$$\nactivates: enemy teams within 10 tiles\ndeal x0.9 damage.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the Sphere of the $$立ち上がる射手$$\nactivates: enemy teams within 10 tiles\ndeal x0.9 damage.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「偽りの黒羊」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\n照準値▼の効果を受けます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$偽りの黒羊$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Accuracy Down.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$偽りの黒羊$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Accuracy Down.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「欲深な金牛」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\nＥＮが－４０されます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$欲深な金牛$$\nactivates: at phase start, enemy units within 10 tiles\nlose 40 EN.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$欲深な金牛$$\nactivates: at phase start, enemy units within 10 tiles\nlose 40 EN.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「いがみ合う双子」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\n気力が－３されます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$いがみ合う双子$$\nactivates: at phase start, enemy units within 10 tiles\nlose 3 Morale.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$いがみ合う双子$$\nactivates: at phase start, enemy units within 10 tiles\nlose 3 Focus.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「沈黙の巨蟹」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\nＳＰが回復しません。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$沈黙の巨蟹$$\nactivates: at phase start, enemy units within 10 tiles\ndo not recover SP.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$沈黙の巨蟹$$\nactivates: at phase start, enemy units within 10 tiles\ndo not recover SP.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「傷だらけの獅子」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\n現在のＨＰの１０％のダメージを受けます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$傷だらけの獅子$$\nactivates: at phase start, enemy units within 10 tiles\ntake damage equal to 10% of their current HP.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$傷だらけの獅子$$\nactivates: at phase start, enemy units within 10 tiles\ntake damage equal to 10% of their current HP.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「悲しみの乙女」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\nＳＰが－５されます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$悲しみの乙女$$\nactivates: at phase start, enemy units within 10 tiles\nlose 5 SP.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$悲しみの乙女$$\nactivates: at phase start, enemy units within 10 tiles\nlose 5 SP.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「揺れる天秤」の擬似スフィアが発動し、\n自機から１０マス以内にいる敵チームは\n移動力が－３されます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$揺れる天秤$$\nactivates: enemy teams within 10 tiles\nget Move -3.",
-      "source": "fresh:e_help_description_02"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$揺れる天秤$$\nactivates: enemy teams within 10 tiles\nget Move -3.",
+      "source": "fresh:e_help_description_02",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「怨嗟の魔蠍」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\n装甲値▼の効果を受けます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$怨嗟の魔蠍$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Armor Down.",
-      "source": "fresh:e_help_description_03"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$怨嗟の魔蠍$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Armor Down.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「立ち上がる射手」の擬似スフィアが発動し、\n自機から１０マス以内にいる敵チームは\n与ダメージが０．９倍になります。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$立ち上がる射手$$\nactivates: enemy teams within 10 tiles\ndeal x0.9 damage.",
-      "source": "fresh:e_help_description_03"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$立ち上がる射手$$\nactivates: enemy teams within 10 tiles\ndeal x0.9 damage.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「知りたがる山羊」の擬似スフィアが発動し、\n自機から１０マス以内にいる敵チームは\n所持しているバリアが発動しません。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$知りたがる山羊$$\nactivates: enemy teams within 10 tiles\ncannot activate their barriers.",
-      "source": "fresh:e_help_description_03"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$知りたがる山羊$$\nactivates: enemy teams within 10 tiles\ncannot activate their barriers.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「尽きぬ水瓶」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵チームは\nＥＮが回復しません。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$尽きぬ水瓶$$\nactivates: at phase start, enemy teams within 10 tiles\ndo not recover EN.",
-      "source": "fresh:e_help_description_03"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$尽きぬ水瓶$$\nactivates: at phase start, enemy teams within 10 tiles\ndo not recover EN.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１４０以上で「夢見る双魚」の擬似スフィアが発動し、\nフェイズ開始時に自機から１０マス以内にいる敵ユニットは\n運動性▼の効果を受けます。": {
-      "en": "At Morale 140+, the pseudo-Sphere of the $$夢見る双魚$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Mobility Down.",
-      "source": "fresh:e_help_description_03"
+      "en": "At Focus 140+, the pseudo-Sphere of the $$夢見る双魚$$\nactivates: at phase start, enemy units within 10 tiles\nsuffer Mobility Down.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "気力１３０以上、ニュータイプＬ５以上で発動し、\nデストロイモードに変形可能になります。": {
-      "en": "Activates at Morale 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.",
-      "source": "fresh:e_help_description_03"
+      "en": "Activates at Focus 130+ and Newtype Lv5+;\nthe unit can transform into Destroy Mode.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "スフィア搭載機が持つ特殊な能力です。\n気力１５０以上で発動し、効果はスフィアごとに異なります。": {
-      "en": "A special ability of Sphere-equipped mechs.\nActivates at Morale 150+; effects vary by Sphere.",
-      "source": "fresh:e_help_description_03"
+      "en": "A special ability of Sphere-equipped mechs.\nActivates at Focus 150+; effects vary by Sphere.",
+      "source": "fresh:e_help_description_03",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "フル装備": {
       "en": "Full Armament",
@@ -10922,8 +11100,9 @@
       "source": "fresh:e_menu_command_00"
     },
     "最大気力上昇": {
-      "en": "Max Morale Up",
-      "source": "fresh:e_menu_command_00"
+      "en": "Max Focus Up",
+      "source": "fresh:e_menu_command_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "歌：\n－：": {
       "en": "Song:\n-:",
@@ -10970,8 +11149,9 @@
       "source": "fresh:e_menu_command_00"
     },
     "・気力": {
-      "en": "- Morale",
-      "source": "fresh:e_menu_command_00"
+      "en": "- Focus",
+      "source": "fresh:e_menu_command_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "・スキル": {
       "en": "- Skill",
@@ -11222,12 +11402,14 @@
       "source": "fresh:e_reward_bonus_00"
     },
     "マップ出撃時に\n全味方チームのタッグテンションが＋１、\n全味方パイロットの気力が＋５される。": {
-      "en": "On map sortie,\nall allied teams get Tag Tension +1,\nall allied pilots get Morale +5.",
-      "source": "fresh:e_reward_bonus_00"
+      "en": "On map sortie,\nall allied teams get Tag Tension +1,\nall allied pilots get Focus +5.",
+      "source": "fresh:e_reward_bonus_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "マップ出撃時に全味方チームのタッグテンションが＋１、\n全味方パイロットの気力が＋５される。": {
-      "en": "On map sortie, all allied teams get Tag Tension +1,\nall allied pilots get Morale +5.",
-      "source": "fresh:e_reward_bonus_00"
+      "en": "On map sortie, all allied teams get Tag Tension +1,\nall allied pilots get Focus +5.",
+      "source": "fresh:e_reward_bonus_00",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "武神の護符": {
       "en": "Martial God's Talisman",

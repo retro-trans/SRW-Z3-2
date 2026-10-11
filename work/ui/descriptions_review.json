@@ -1,0 +1,797 @@
+{
+  "schema": 1,
+  "reviewer": "ui_meaning_descriptions",
+  "rows_examined": {
+    "skills": 150,
+    "parts": 391
+  },
+  "rows_translated": {
+    "skills": 150,
+    "parts": 391
+  },
+  "method": "Each Japanese target row read individually; English authored from source after learning from reference candidates. Equivalent full/short variants share prose deliberately. DLC flags preserved per source. Existing Movement +1. retained. Full prose drafted before line wrapping.",
+  "uncertainties": {
+    "skills": {
+      "453c11df31bf7b55ef27": "Preserves the stated Morale <=100 condition for Daunt; does not replace it with a stronger below-100 floor claim.",
+      "74761239b4e92983e284": "Same Daunt condition as the full source description.",
+      "dc6e448e0eb7e7af7b53": "Uses the established Dash interpretation: +2 total at Morale 130+, not +1 plus +2.",
+      "a539f4e9fd5d66a4aa38": "Uses the established Dash interpretation: +2 total at Morale 130+, not +1 plus +2.",
+      "41a875cb12545f83d884": "Source says an enemy fought, not only an enemy hit; repair waiver checks presence when costs are settled.",
+      "70c264d2aee00932c620": "Source says an enemy fought, not only an enemy hit; repair waiver checks presence when costs are settled.",
+      "c23f89a31f5c7693861f": "Source full view states Morale 140; abbreviated view 127 states 120. Both thresholds retained pending gameplay/code verification.",
+      "d9dbfec6664198f4f89e": "Source abbreviated view states Morale 120; full view 126 states 140. Both thresholds retained pending gameplay/code verification.",
+      "515dc6f0f7ab972a9fc3": "Source says all main pilots in the team; the short view refers to the main pilot. Team/main/sub scope retained per view.",
+      "e185759240aba50fa900": "Source short view refers to the main pilot, unlike the full view all-main-pilots wording."
+    },
+    "parts": {
+      "a29c02d109c63fd0633e": "1200-damage barrier wording retains the stated strength without asserting the exact boundary comparison, which needs mechanic verification.",
+      "27146dedbb8c97d5df11": "Same D-Fault boundary caveat as the non-DLC row.",
+      "f2fc790f16cc520ecb93": "All units in an allied team, not every allied team. Source does not explicitly distinguish the owner team from a selectable allied team.",
+      "3def774ef773dafc3f47": "Same allied-team target scope caveat.",
+      "9adc3a287f8b3a0b0a7d": "Same allied-team target scope caveat.",
+      "1380667de41af1a358ee": "Same allied-team target scope caveat.",
+      "ff98fa63296c2464fc49": "Same allied-team target scope caveat.",
+      "d8f3404f1be70e3af8d9": "This source view assigns rewards to main pilot, while other views separately name team funds/Z-Chips. Source wording retained.",
+      "99468c098fe2bf93cc3a": "This source is a distinct Tag Tension MAX-at-1 effect despite a Commander Lv4 reference candidate. Translated source, not candidate."
+    }
+  },
+  "runtime_layout_verified": false,
+  "followup_reviews": [
+    {
+      "review": "normal_vwf_description_fit",
+      "rows_examined": 50,
+      "source_review": "All 50 Japanese source descriptions and original English checked before abbreviation. Morale thresholds, scope, range exclusions, effects and DLC restrictions retained. Existing source inconsistencies and uncertainty notes preserved.",
+      "method": "Greedy word wrapping with exact raster() advances; skills budget 845 units and parts 617 units, at most 3 lines. No condensed glyphs.",
+      "unresolved": [],
+      "records": [
+        {
+          "family": "skills",
+          "id": "b9c1b629cb7aa99ac91b",
+          "source_index": 20,
+          "previous_en": "When counterattacking, attack before the enemy.\nActivation chance depends on skill level and the\ndifference in Skill stats. In a tag team, the sub unit\ncannot apply this skill.",
+          "en": "Counterattack first. Chance depends on skill level and\nSkill difference. No effect for a tag team's sub unit.",
+          "widths_units": [
+            799,
+            756
+          ],
+          "budget_units": 845,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "skills",
+          "id": "2cb70508ed11fddb3627",
+          "source_index": 21,
+          "previous_en": "When counterattacking, attack before the enemy.\nActivation chance depends on skill level and the\ndifference in Skill stats. In a tag team, the sub unit\ncannot apply this skill.",
+          "en": "Counterattack first. Chance depends on skill level and\nSkill difference. No effect for a tag team's sub unit.",
+          "widths_units": [
+            799,
+            756
+          ],
+          "budget_units": 845,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "78982f63309f27015f98",
+          "source_index": 48,
+          "previous_en": "Movement +2; Mobility and Accuracy +25; weapon and\nsong range +1, excluding MAP attacks and range-1\nweapons or songs.",
+          "en": "Move +2; Mobility/Accuracy +25.\nWeapon/song range +1 (except MAP and\nrange 1).",
+          "widths_units": [
+            495,
+            611,
+            138
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "488e92055bdcec48f706",
+          "source_index": 49,
+          "previous_en": "Movement +2; Mobility and Accuracy +25; weapon and\nsong range +1, excluding MAP attacks and range-1\nweapons or songs.",
+          "en": "Move +2; Mobility/Accuracy +25.\nWeapon/song range +1 (except MAP and\nrange 1).",
+          "widths_units": [
+            495,
+            611,
+            138
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "c3dc3839b6630593e3a9",
+          "source_index": 50,
+          "previous_en": "Movement +2; Mobility and Accuracy +25; weapon and\nsong range +1, excluding MAP attacks and range-1\nweapons or songs. DLC only.",
+          "en": "Move +2; Mobility/Accuracy +25.\nWeapon/song range +1 (except MAP and\nrange 1). DLC only.",
+          "widths_units": [
+            495,
+            611,
+            291
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "5a9fc8bf398d3bb9a85b",
+          "source_index": 51,
+          "previous_en": "Movement +2; Mobility and Accuracy +25; weapon and\nsong range +1, excluding MAP attacks and range-1\nweapons or songs. DLC only.",
+          "en": "Move +2; Mobility/Accuracy +25.\nWeapon/song range +1 (except MAP and\nrange 1). DLC only.",
+          "widths_units": [
+            495,
+            611,
+            291
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "4512d4071b103faea37b",
+          "source_index": 52,
+          "previous_en": "Movement +2; Mobility and Accuracy +25; weapon and\nsong range +1, excluding MAP attacks and range-1\nweapons or songs. DLC only.",
+          "en": "Move +2; Mobility/Accuracy +25.\nWeapon/song range +1 (except MAP and\nrange 1). DLC only.",
+          "widths_units": [
+            495,
+            611,
+            291
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "cf032c8fbcfa35782176",
+          "source_index": 82,
+          "previous_en": "Grants Mind Resist; Parry activates 100% of the time.\nNullifies enemy Placement and consecutive targeting\npenalties.",
+          "en": "Mind Resist; Parry 100%. No enemy\nPlacement or consecutive targeting\npenalty.",
+          "widths_units": [
+            537,
+            526,
+            120
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "5ef89fc7d97950b97cdc",
+          "source_index": 83,
+          "previous_en": "Grants Mind Resist; Parry activates 100% of the time.\nNullifies enemy Placement and consecutive targeting\npenalties.",
+          "en": "Mind Resist; Parry 100%. No enemy\nPlacement or consecutive targeting\npenalty.",
+          "widths_units": [
+            537,
+            526,
+            120
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "4290ad7009595129b790",
+          "source_index": 84,
+          "previous_en": "Grants Mind Resist; Parry activates 100% of the time.\nNullifies enemy Placement and consecutive targeting\npenalties.",
+          "en": "Mind Resist; Parry 100%. No enemy\nPlacement or consecutive targeting\npenalty.",
+          "widths_units": [
+            537,
+            526,
+            120
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "50e4e4fffb4789a531ce",
+          "source_index": 85,
+          "previous_en": "Grants Mind Resist; Parry activates 100% of the time.\nNullifies enemy Placement and consecutive targeting\npenalties. DLC only.",
+          "en": "Mind Resist; Parry 100%. No enemy\nPlacement or consecutive targeting\npenalty. DLC only.",
+          "widths_units": [
+            537,
+            526,
+            273
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "2888626622b87e341936",
+          "source_index": 86,
+          "previous_en": "Grants Mind Resist; Parry activates 100% of the time.\nNullifies enemy Placement and consecutive targeting\npenalties. DLC only.",
+          "en": "Mind Resist; Parry 100%. No enemy\nPlacement or consecutive targeting\npenalty. DLC only.",
+          "widths_units": [
+            537,
+            526,
+            273
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "b48cca0cbeffb280df75",
+          "source_index": 87,
+          "previous_en": "Grants Mind Resist; Parry activates 100% of the time.\nNullifies enemy Placement and consecutive targeting\npenalties. DLC only.",
+          "en": "Mind Resist; Parry 100%. No enemy\nPlacement or consecutive targeting\npenalty. DLC only.",
+          "widths_units": [
+            537,
+            526,
+            273
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "a29c02d109c63fd0633e",
+          "source_index": 99,
+          "previous_en": "Grants D-Fault (1200-damage barrier; 10 EN per use)\nand Jamming. At Morale 130+, gain Double Image with a\n50% activation chance.",
+          "en": "D-Fault (1200-damage barrier, 10\nEN/use); Jamming. Morale 130+: Double\nImage (50%).",
+          "widths_units": [
+            513,
+            609,
+            204
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "27146dedbb8c97d5df11",
+          "source_index": 102,
+          "previous_en": "Grants D-Fault (1200-damage barrier; 10 EN per use)\nand Jamming. At Morale 130+, gain Double Image with a\n50% activation chance. DLC only.",
+          "en": "D-Fault (1200-damage barrier, 10\nEN/use); Jamming. Morale 130+: Double\nImage (50%). DLC only.",
+          "widths_units": [
+            513,
+            609,
+            357
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "7d6a4ea1a9e34297d8bc",
+          "source_index": 103,
+          "previous_en": "Grants D-Fault (10 EN per use) and Jamming. At Morale\n130+, gain Double Image with a 50% activation chance.\nDLC only.",
+          "en": "D-Fault (10 EN/use); Jamming. Morale\n130+: Double Image (50%). DLC only.",
+          "widths_units": [
+            575,
+            573
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "962f7ecf0a7e9752a71e",
+          "source_index": 104,
+          "previous_en": "Grants D-Fault (10 EN per use) and Jamming. At Morale\n130+, gain Double Image with a 50% activation chance.\nDLC only.",
+          "en": "D-Fault (10 EN/use); Jamming. Morale\n130+: Double Image (50%). DLC only.",
+          "widths_units": [
+            575,
+            573
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "6a5e80a714ade0fdb0be",
+          "source_index": 138,
+          "previous_en": "For every 10 pilot levels, weapon and song power +100\nand Armor +50. Equipping multiple copies does not\nstack.",
+          "en": "Every 10 pilot levels: weapon/song\npower +100, Armor +50. Copies do not\nstack.",
+          "widths_units": [
+            520,
+            585,
+            89
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "d5f77976f31ea8194e4e",
+          "source_index": 139,
+          "previous_en": "For every 10 pilot levels, weapon and song power +100\nand Armor +50. Equipping multiple copies does not\nstack.",
+          "en": "Every 10 pilot levels: weapon/song\npower +100, Armor +50. Copies do not\nstack.",
+          "widths_units": [
+            520,
+            585,
+            89
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "9df447e6072ad5864243",
+          "source_index": 140,
+          "previous_en": "For every 10 pilot levels, weapon and song power +100\nand Armor +50. Equipping multiple copies does not\nstack.",
+          "en": "Every 10 pilot levels: weapon/song\npower +100, Armor +50. Copies do not\nstack.",
+          "widths_units": [
+            520,
+            585,
+            89
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "14da693909bcb36d56b7",
+          "source_index": 141,
+          "previous_en": "For every 10 pilot levels, weapon and song power +100\nand Armor +50. Equipping multiple copies does not\nstack. DLC only.",
+          "en": "Every 10 pilot levels: weapon/song\npower +100, Armor +50. Copies do not\nstack. DLC only.",
+          "widths_units": [
+            520,
+            585,
+            242
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "78bfb9422dff4d94bc1d",
+          "source_index": 142,
+          "previous_en": "For every 10 pilot levels, weapon and song power +100\nand Armor +50. Equipping multiple copies does not\nstack. DLC only.",
+          "en": "Every 10 pilot levels: weapon/song\npower +100, Armor +50. Copies do not\nstack. DLC only.",
+          "widths_units": [
+            520,
+            585,
+            242
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "1c37c1a6a48ef76d1ac8",
+          "source_index": 143,
+          "previous_en": "For every 10 pilot levels, weapon and song power +100\nand Armor +50. Equipping multiple copies does not\nstack. DLC only.",
+          "en": "Every 10 pilot levels: weapon/song\npower +100, Armor +50. Copies do not\nstack. DLC only.",
+          "widths_units": [
+            520,
+            585,
+            242
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "456074c35ddd97d7474a",
+          "source_index": 152,
+          "previous_en": "Movement +2; critical modifier +20; unit and weapon\nAir rating S. Units with non-fixed movement gain Air\nmovement. DLC only.",
+          "en": "Move +2; CRT +20; unit/weapon Air S.\nAir movement except fixed-movement\nunits. DLC only.",
+          "widths_units": [
+            575,
+            558,
+            237
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "74b4ac2b10afda421036",
+          "source_index": 155,
+          "previous_en": "Accuracy +20; all unit and weapon terrain ratings\nbecome A. Weapon and song range +1, excluding MAP\nattacks and range-1 weapons or songs.",
+          "en": "Accuracy +20; all unit/weapon terrain A.\nWeapon/song range +1 (except MAP and\nrange 1).",
+          "widths_units": [
+            603,
+            611,
+            138
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "ad5de2f44c82ed826076",
+          "source_index": 156,
+          "previous_en": "Accuracy +20; all unit and weapon terrain ratings\nbecome A. Weapon and song range +1, excluding MAP\nattacks and range-1 weapons or songs.",
+          "en": "Accuracy +20; all unit/weapon terrain A.\nWeapon/song range +1 (except MAP and\nrange 1).",
+          "widths_units": [
+            603,
+            611,
+            138
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "f37e0554f4d7b11cdb54",
+          "source_index": 157,
+          "previous_en": "Accuracy +20; all unit and weapon terrain ratings\nbecome A. Weapon and song range +1, excluding MAP\nattacks and range-1 weapons or songs. DLC only.",
+          "en": "Accuracy +20; all unit/weapon terrain A.\nWeapon/song range +1 (except MAP and\nrange 1). DLC only.",
+          "widths_units": [
+            603,
+            611,
+            291
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "762fe250878146459c05",
+          "source_index": 158,
+          "previous_en": "Accuracy +20; all unit and weapon terrain ratings\nbecome A. Weapon and song range +1, excluding MAP\nattacks and range-1 weapons or songs. DLC only.",
+          "en": "Accuracy +20; all unit/weapon terrain A.\nWeapon/song range +1 (except MAP and\nrange 1). DLC only.",
+          "widths_units": [
+            603,
+            611,
+            291
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "990ead0e26e754b0cea8",
+          "source_index": 159,
+          "previous_en": "Accuracy +20; all unit and weapon terrain ratings\nbecome A. Weapon and song range +1, excluding MAP\nattacks and range-1 weapons or songs. DLC only.",
+          "en": "Accuracy +20; all unit/weapon terrain A.\nWeapon/song range +1 (except MAP and\nrange 1). DLC only.",
+          "widths_units": [
+            603,
+            611,
+            291
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "6080ebf77477c1207fa9",
+          "source_index": 163,
+          "previous_en": "Mobility +20. Double Image at Morale 130+ (50%\nchance); barrier reduces all attack damage by 1000 (5\nEN per use). DLC only.",
+          "en": "Mobility +20; Double Image (Morale\n130+, 50%). All attack damage -1000\nbarrier (5 EN/use). DLC only.",
+          "widths_units": [
+            535,
+            568,
+            433
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "6b6a726486a21ff99137",
+          "source_index": 164,
+          "previous_en": "Mobility +20. Double Image at Morale 130+ (50%\nchance); barrier reduces all attack damage by 1000 (5\nEN per use). DLC only.",
+          "en": "Mobility +20; Double Image (Morale\n130+, 50%). All attack damage -1000\nbarrier (5 EN/use). DLC only.",
+          "widths_units": [
+            535,
+            568,
+            433
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "4c27571a40739d18f094",
+          "source_index": 178,
+          "previous_en": "Movement +1; weapon and song power +200; range +1,\nexcluding MAP attacks and range-1 weapons or songs.\nDLC only.",
+          "en": "Move +1; weapon/song power +200,\nrange +1 (except MAP and range 1). DLC\nonly.",
+          "widths_units": [
+            551,
+            615,
+            73
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "788f37f6d027a8c36016",
+          "source_index": 179,
+          "previous_en": "Movement +1; weapon and song power +200; range +1,\nexcluding MAP attacks and range-1 weapons or songs.\nDLC only.",
+          "en": "Move +1; weapon/song power +200,\nrange +1 (except MAP and range 1). DLC\nonly.",
+          "widths_units": [
+            551,
+            615,
+            73
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "1c45f1c1ae256f350cc0",
+          "source_index": 180,
+          "previous_en": "Movement +1; weapon and song power +200; range +1,\nexcluding MAP attacks and range-1 weapons or songs.\nDLC only.",
+          "en": "Move +1; weapon/song power +200,\nrange +1 (except MAP and range 1). DLC\nonly.",
+          "widths_units": [
+            551,
+            615,
+            73
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "7d4916e896d66cc0050f",
+          "source_index": 198,
+          "previous_en": "All onboard pilots: maximum Morale +50 and maximum SP\n+50. Weapon and song power +2000. Equipping multiple\ncopies does not stack.",
+          "en": "All onboard pilots: max Morale/SP +50.\nWeapon/song power +2000. Copies do\nnot stack.",
+          "widths_units": [
+            585,
+            582,
+            147
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "b3f9f6de6918ba16405c",
+          "source_index": 199,
+          "previous_en": "All onboard pilots: maximum Morale +50 and maximum SP\n+50. Weapon and song power +2000. Equipping multiple\ncopies does not stack.",
+          "en": "All onboard pilots: max Morale/SP +50.\nWeapon/song power +2000. Copies do\nnot stack.",
+          "widths_units": [
+            585,
+            582,
+            147
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "8fd94ebaf8bcd19d63cb",
+          "source_index": 200,
+          "previous_en": "All onboard pilots: maximum Morale +50 and maximum SP\n+50. Weapon and song power +2000. Equipping multiple\ncopies does not stack.",
+          "en": "All onboard pilots: max Morale/SP +50.\nWeapon/song power +2000. Copies do\nnot stack.",
+          "widths_units": [
+            585,
+            582,
+            147
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "824653421f37cd20774b",
+          "source_index": 201,
+          "previous_en": "All onboard pilots: maximum Morale +50 and maximum SP\n+50. Weapon and song power +2000. Equipping multiple\ncopies does not stack. DLC only.",
+          "en": "All onboard pilots: max Morale/SP +50.\nWeapon/song power +2000. Copies do\nnot stack. DLC only.",
+          "widths_units": [
+            585,
+            582,
+            300
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "bc580f8ea26fdb426b59",
+          "source_index": 202,
+          "previous_en": "All onboard pilots: maximum Morale +50 and maximum SP\n+50. Weapon and song power +2000. Equipping multiple\ncopies does not stack. DLC only.",
+          "en": "All onboard pilots: max Morale/SP +50.\nWeapon/song power +2000. Copies do\nnot stack. DLC only.",
+          "widths_units": [
+            585,
+            582,
+            300
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "c9bab8472482df42bfe9",
+          "source_index": 315,
+          "previous_en": "When your team destroys an enemy team, the main pilot\nrecovers 10 SP. Simultaneous destruction of multiple\nteams grants no additional SP.",
+          "en": "Your team wipes an enemy team: main\npilot SP +10. Simultaneous team wipes\ngive no extra SP.",
+          "widths_units": [
+            569,
+            579,
+            252
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "1bab4526362ac224afdf",
+          "source_index": 316,
+          "previous_en": "When your team destroys an enemy team, the main pilot\nrecovers 10 SP. Simultaneous destruction of multiple\nteams grants no additional SP.",
+          "en": "Your team wipes an enemy team: main\npilot SP +10. Simultaneous team wipes\ngive no extra SP.",
+          "widths_units": [
+            569,
+            579,
+            252
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "0b9f0b94b8ffa2af0563",
+          "source_index": 317,
+          "previous_en": "When your team destroys an enemy team, the main pilot\nrecovers 10 SP. Simultaneous destruction of multiple\nteams grants no additional SP. DLC only.",
+          "en": "Your team wipes an enemy team: main\npilot SP +10. Simultaneous team wipes\ngive no extra SP. DLC only.",
+          "widths_units": [
+            569,
+            579,
+            405
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "9d92ec5f337b06c4beae",
+          "source_index": 318,
+          "previous_en": "When your team destroys an enemy team, the main pilot\nrecovers 10 SP. Simultaneous destruction of multiple\nteams grants no additional SP. DLC only.",
+          "en": "Your team wipes an enemy team: main\npilot SP +10. Simultaneous team wipes\ngive no extra SP. DLC only.",
+          "widths_units": [
+            569,
+            579,
+            405
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "691baecc655d69815ca1",
+          "source_index": 319,
+          "previous_en": "When your team destroys an enemy team, the main pilot\nrecovers 10 SP. Simultaneous destruction of multiple\nteams grants no additional SP. DLC only.",
+          "en": "Your team wipes an enemy team: main\npilot SP +10. Simultaneous team wipes\ngive no extra SP. DLC only.",
+          "widths_units": [
+            569,
+            579,
+            405
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "bdd0e9518d02528183e6",
+          "source_index": 336,
+          "previous_en": "At Morale 150+, enemy kills grant double PP to the\nmain pilot and double funds and Z-Chips to the team.\nDoes not stack with power-part effects.",
+          "en": "Morale 150+: kills give main pilot PP x2,\nteam funds/Z-Chips x2. No stacking with\nparts.",
+          "widths_units": [
+            597,
+            604,
+            87
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "3a1bb6e01f10812fe0c1",
+          "source_index": 339,
+          "previous_en": "At Morale 150+, enemy kills grant double PP to the\nmain pilot and double funds and Z-Chips to the team.\nDoes not stack with power-part effects. DLC only.",
+          "en": "Morale 150+: kills give main pilot PP x2,\nteam funds/Z-Chips x2. No stacking with\nparts. DLC only.",
+          "widths_units": [
+            597,
+            604,
+            240
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "6d7fc6ce83aeabcc3016",
+          "source_index": 341,
+          "previous_en": "At Morale 150+, enemy kills grant double PP to the\nmain pilot and double funds and Z-Chips to the team.\nDoes not stack with power-part effects. DLC only.",
+          "en": "Morale 150+: kills give main pilot PP x2,\nteam funds/Z-Chips x2. No stacking with\nparts. DLC only.",
+          "widths_units": [
+            597,
+            604,
+            240
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "bedfc7c9953c90673128",
+          "source_index": 337,
+          "previous_en": "At Morale 150+, enemy kills grant double PP, and\ndouble funds and Z-Chips to the team. Does not stack\nwith power-part effects.",
+          "en": "Morale 150+: kills give PP x2, team\nfunds/Z-Chips x2. No stacking with\nparts.",
+          "widths_units": [
+            525,
+            522,
+            87
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "bb43cd714b715951cd05",
+          "source_index": 340,
+          "previous_en": "At Morale 150+, enemy kills grant double PP, and\ndouble funds and Z-Chips to the team. Does not stack\nwith power-part effects. DLC only.",
+          "en": "Morale 150+: kills give PP x2, team\nfunds/Z-Chips x2. No stacking with\nparts. DLC only.",
+          "widths_units": [
+            525,
+            522,
+            240
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        },
+        {
+          "family": "parts",
+          "id": "d8f3404f1be70e3af8d9",
+          "source_index": 338,
+          "previous_en": "At Morale 150+, enemy kills grant double funds,\nZ-Chips and PP to the main pilot. Equipping multiple\ncopies does not stack.",
+          "en": "Morale 150+: kills give main pilot\nfunds/Z-Chips/PP x2. Multiple copies do\nnot stack.",
+          "widths_units": [
+            492,
+            600,
+            147
+          ],
+          "budget_units": 617,
+          "max_lines": 3,
+          "normal_font": true
+        }
+      ],
+      "runtime_layout_verified": false
+    }
+  ]
+}

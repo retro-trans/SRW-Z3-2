@@ -937,7 +937,7 @@
         256
       ],
       "jp": "気力",
-      "en": "Morale",
+      "en": "Foc",
       "source": "new",
       "style": "white",
       "role": "effect popup word",
@@ -948,7 +948,8 @@
         52,
         29
       ],
-      "source_sha256": "b787a6522befc06ba0c89ecb606d8b8238341622e385c496d1ab5518219a96af"
+      "source_sha256": "b787a6522befc06ba0c89ecb606d8b8238341622e385c496d1ab5518219a96af",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
     },
     "t2.stats": {
       "texture": 2,
@@ -1366,6 +1367,28 @@
         28
       ],
       "source_sha256": "308b858094eb8a01b1dfecb5301433990bfafa4fa696720705aeafb7085e0f7a"
+    },
+    "t3.assist": {
+      "texture": 3,
+      "rect": [
+        432,
+        176,
+        512,
+        209
+      ],
+      "jp": "Assi",
+      "en": "Asst",
+      "source": "new",
+      "style": "white",
+      "role": "complete Assist abbreviation inside the existing weapon-type sprite",
+      "term": "native English Assist weapon badge",
+      "ink_box": [
+        6,
+        3,
+        75,
+        30
+      ],
+      "source_sha256": "3ed0bf9f8713f3c60121c271e3296aac4232f2ed0638a6024ba2eb35ff41498f"
     },
     "t3.combo_attack": {
       "texture": 3,

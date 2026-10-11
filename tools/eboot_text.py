@@ -275,7 +275,7 @@ def merge(apply):
 # --------------------------------------------------------------------------
 # Build: hook entries
 
-MARKUP = re.compile(r'1[\x01\x0b]')
+MARKUP = re.compile(r'1[\x00-\x09\x0b-\x1f]')
 
 
 def encode(text, mapping, utf8_source=False):

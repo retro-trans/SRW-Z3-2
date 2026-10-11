@@ -46,7 +46,7 @@ def render(entry, record, resolver, width_of):
     from tools import dialogue_layout as layout
     if layout.condensed(record.get('id'), entry):
         normal_width = width_of
-        width_of = lambda c: layout.advance(normal_width(c)) if ord(c) < 128 else normal_width(c)
+        width_of = lambda c: layout.advance(normal_width(c),layout.scale(record['id'])) if ord(c) < 128 else normal_width(c)
     out = [head]
     # One 「...」 block per line of the translation (normally one; route-branch
     # records have one per branch); each block wraps on its own.

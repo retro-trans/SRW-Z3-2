@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "version": "0.5.3",
+  "scope": "Identified UI expansion catalogue; not whole-game runtime coverage",
+  "reviewed_ids": 2499,
+  "source_occurrences": 4197,
+  "translation_files": {
+    "generated.json": {
+      "ids": 40,
+      "sha256": "eef40eec32412d8c68ae68d405449d7e988489a67419a864dee1cec04d14a4df"
+    },
+    "help.json": {
+      "ids": 523,
+      "sha256": "b1cbc6566e921f17431bc93ed0de97be9faf323b7aae16521baf620fd6852912"
+    },
+    "lua_team.json": {
+      "ids": 1,
+      "sha256": "b918ec8b77af064a0548964888e35af30801a8e08390108f8f8b301b7fc0550e"
+    },
+    "menus.json": {
+      "ids": 1295,
+      "sha256": "3f52f6f1b6a9d8444e122a767eec5ae5f842bdae650a480f8dc9e378e115b39a"
+    },
+    "parts.json": {
+      "ids": 391,
+      "sha256": "beaeaca3199c4ee6a1f7184d445473d7ccdf12cdc04e4710700a30bbdef70cb8"
+    },
+    "skills.json": {
+      "ids": 150,
+      "sha256": "88800acb4c28464875ce4b630d954659efb8631bc042592616aa131210519463"
+    },
+    "system.json": {
+      "ids": 99,
+      "sha256": "52cb89bc7ea28fa0040619a778befb60fd45bad1bb4ed8985d3fe12f8caaa744"
+    }
+  },
+  "hook_entries": 5623,
+  "expanded_dictionary_keys": 2309,
+  "dictionary_exclusions": {
+    "fragment": 67,
+    "review-only": 1,
+    "keep-input": 11
+  },
+  "description_layout": {
+    "descriptions": 541,
+    "max_lines": 3,
+    "budgets_pixels": {
+      "skills": 740,
+      "parts": 540
+    },
+    "glyph_size": 28,
+    "reference": "SRW Z3 description panels",
+    "runtime_verified": false
+  },
+  "context_text": {
+    "widgets": 139,
+    "appended_pool_bytes": 752,
+    "original_pool_preserved": true,
+    "header_sections_relocated": true,
+    "runtime_verified": false,
+    "layout_verified": false,
+    "sb2t_fragments": 2
+  },
+  "runtime_ui": {
+    "os_occurrences": 116,
+    "relocated_formats": 15,
+    "toc_pointers": 15,
+    "unresolved": [
+      {
+        "id": "eboot:0x9f1930",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x894758",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x894868",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x894c08",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x894ce0",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x8949a8",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x894a58",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x894b58",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x8555e6",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x855606",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x855650",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x855dbe",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x855dc4",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x855dea",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x85613c",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x893e90",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x9f18f0",
+        "reason": "Duplicate UTF-8 template needs consumer binding before relocation"
+      },
+      {
+        "id": "eboot:0x9f1908",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x9f1568",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0x9f1ba8",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0xa088e4",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0xa08910",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      },
+      {
+        "id": "eboot:0xa08928",
+        "reason": "Joined fragment: exact standalone draw covered; assembly consumer still needs binding"
+      }
+    ],
+    "runtime_verified": false,
+    "input_sha256": "a2cb4321534eacb5ced51a0a76a83dcb1a4e7cb7e0cf2f94b81e63b0d172a538",
+    "output_sha256": "ebf29d611444727a45390dc179e828baa830b87ec36b95dae41e394ad8c44422",
+    "isolation": true,
+    "carrier_cells": 0
+  },
+  "build_manifest_sha256": "5ac2cbde9b92efa5cfcd8ceb245771fa17599695b57943391d61d96be897a30b",
+  "outputs": {
+    "EBOOT.BIN": "ff436501b2ff9692d941825472cd70b5a2fc744847c6a9be62e3620d9c752d48",
+    "RPW_DATA.CPK": "39c207ca1b588d180bce83da815e835288110b04d0a3c49b4aa717e9ed6c1147",
+    "TPACKPS3.CPK": "460572fbb6277661a490f38d5c67a39b35f8c787cd4638d844dc0119a39937d7",
+    "MTZKN_KW.CPK": "383145542088a93d854c934e6e532b5417852b7a16f2222d4d02c9d188c7f8fc",
+    "MTZKN_PT.CPK": "89882f73fcc94c77086649545ea9cee6fc4ca332e37441dbea8552b2e9af6c20",
+    "MTZKN_RT.CPK": "1651711e58f977237a72178f48e30321a9f98e9256b9c442e4f70f9d7e870932",
+    "STGZ3OF2.SDAT": "ff490017b18fa3f7d892bedcf634953123d48b831abf5829d1051d116da7f344",
+    "SRVC.BIN": "71e98961489503d5ad811d8209869b5330928617df0337a6831f563403d18fab",
+    "AIDDATAPACK.CPK": "a2fe6c7f6a4aab4649fa3e55e9529872de0f05ed920f800a798de0f1d7d74898",
+    "CMN.CPK": "d015a601807de74c31dbfe588e5b16f41c2e2b01fb4eef4b1851c880c95b3468",
+    "EFFPS3.CPK": "50bd9f51e83432421b9cdc51897e58e41afb5138249d79d1485c9a16bc3970ee",
+    "OP.CPK": "77efc4ff8f3be8c7c250bf7680e5ec0072eca6a8c1c62460dbbdb3f054155170"
+  },
+  "runtime_verified": false,
+  "layout_verified": false,
+  "validation": {
+    "focused_tests": {
+      "run": 66,
+      "skipped": 0,
+      "failures": 0
+    },
+    "related_tests": {
+      "run": 103,
+      "skipped": 1,
+      "failures": 0
+    },
+    "iso": {
+      "bytes": 5284036608,
+      "sha256": "8858cd8f7d3496eda0366ad5625ba45ebd25cb3558f6fe7c78d4a4400f3b7303",
+      "files_verified_each_tree": 82,
+      "report_sha256": "1b7f3da805aae20ba660971966003d61f306b458cd05aba4cc5c05b02ba3a472"
+    },
+    "runtime_verified": false
+  }
+}

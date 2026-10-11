@@ -65,6 +65,7 @@ HEADER = 32
 SLOT = 16
 MIN_SLOTS = 16
 MAX_EXTENT = 4096              # strings longer than this (drawer bytes) are a miss
+MAX_ENGLISH_EXTENT = 8192      # relocated output may exceed the source-key cap
 EXT_STEP = 0x10000             # EXT grows in 64 KiB steps
 FRAME = 0x70
 
@@ -165,11 +166,11 @@ def check_english(key, english, allow_escapes=False):
     # close '1'+0x00 that UTF-8 sources produce); anywhere else it ends the
     # string early and the extent check below refuses it.
     try:
-        n = extent(english + b'\0', cap=MAX_EXTENT)
+        n = extent(english + b'\0', cap=MAX_ENGLISH_EXTENT)
     except ValueError:
         n = -1
     if n != len(english):
-        problems.append('English is not one drawer string (odd trailing byte, 0x2f or > %d bytes)' % MAX_EXTENT)
+        problems.append('English is not one drawer string (odd trailing byte, 0x2f or > %d bytes)' % MAX_ENGLISH_EXTENT)
         return problems
     # The drawer reads every byte outside 0x0a/0x2e..0x39 as the lead of a
     # two-byte cell, so plain ASCII text would pair up into garbage codes.
@@ -186,7 +187,7 @@ def check_english(key, english, allow_escapes=False):
 # ---------------------------------------------------------------------------
 # Table
 
-def build_table(entries, base=EXT_VA):
+def build_table(entries, base=EXT_VA, payloads=()):
     """-> (ext bytes, info). Deterministic; refuses bad or conflicting entries."""
     by_key, ids, merged = {}, set(), 0
     for e in entries:
@@ -238,6 +239,15 @@ def build_table(entries, base=EXT_VA):
             i, k = (i + 1) & mask, k + 1
         table[i] = (h, key_va[key], en_va[en], len(key))
         probes.append(k)
+    payload_vas = {}
+    for eid, raw in payloads:
+        if eid in payload_vas or not raw or raw[-1] != 0:
+            raise ValueError('Invalid or duplicate runtime payload: '+eid)
+        # Relocated runtime payloads can include float scratch, not just
+        # byte strings. Keep each address naturally aligned for PPC loads.
+        blob += bytes(-(strings_at+len(blob)) % 16)
+        payload_vas[eid] = base + strings_at + len(blob)
+        blob += raw
     used = strings_at + len(blob)
     size = max(EXT_STEP, -(-used // EXT_STEP) * EXT_STEP)
     out = bytearray(size)
@@ -251,7 +261,8 @@ def build_table(entries, base=EXT_VA):
             'displaced_entries': sum(1 for p in probes if p),
             'hash32_collisions': sum(len(v) - 1 for v in hashes.values() if len(v) > 1),
             'unique_english': len(en_va), 'used_bytes': used, 'ext_size': size,
-            'headroom_bytes': size - used, 'longest_key': max((len(r[0]) for r in rows), default=0)}
+            'headroom_bytes': size - used, 'longest_key': max((len(r[0]) for r in rows), default=0),
+            'payload_vas': payload_vas}
     return bytes(out), info
 
 
@@ -558,7 +569,7 @@ def check_stub_words(code, stub_va):
 # ---------------------------------------------------------------------------
 # The patch
 
-def hook(executable, entries, require_srvc=True, execute=512):
+def hook(executable, entries, require_srvc=True, execute=512, payloads=()):
     """Install the hook and the folded table. Returns (bytes, report).
 
     `execute` = how many distinct keys the real stub is executed for
@@ -578,7 +589,7 @@ def hook(executable, entries, require_srvc=True, execute=512):
         raise ValueError('refusing: executable gap %#x..%#x is not all zero' % (p0[5], PH1[2]))
     if stub_end > PH1[2] or 0x10000 + stub_end > PH1[3]:
         raise ValueError('stub does not fit the executable gap')
-    ext, info = build_table(entries)
+    ext, info = build_table(entries, payloads=payloads)
     data_end, ext_off = lay['data_end'], lay['ext_off']
     ext_end = ext_off + len(ext)
     new_tail = ext_end + (TAIL - ext_end) % 16          # keep offset % 16 of the tail
@@ -607,7 +618,7 @@ def hook(executable, entries, require_srvc=True, execute=512):
 
     geo = {'stub_off': stub_off, 'stub_end': stub_end, 'stub_va': stub_va, 'ext_end': ext_end,
            'new_tail': new_tail, 'delta': delta}
-    checks = verify(elf, out, entries, geo, require_srvc, execute)
+    checks = verify(elf, out, entries, geo, require_srvc, execute, payloads)
     h = lambda v: '%#x' % v
     report = {'schema': 1, 'phase': 1, 'input_sha256': sha256(elf), 'output_sha256': sha256(out),
               'site_va': h(SITE), 'displaced_word': '%08x' % ORIGINAL, 'return_va': h(BACK),
@@ -640,7 +651,7 @@ def _reader(out, phs, extra=None):
 PROBE_VA = 0x60000000          # where readback places a drawn string (any non-image address)
 
 
-def verify(elf, out, entries, geo, require_srvc=True, execute=512):
+def verify(elf, out, entries, geo, require_srvc=True, execute=512, payloads=()):
     """Gates. Raises on any failure; returns a summary dict."""
     lay = measure(elf)
     phoff, phs, shs = lay['phoff'], lay['phs'], lay['shs']
@@ -658,6 +669,9 @@ def verify(elf, out, entries, geo, require_srvc=True, execute=512):
         raise ValueError('isolation: fill is not zero')
     if len(out) != new_tail + len(elf) - TAIL:
         raise ValueError('isolation: unexpected output length')
+    expected_ext, _ = build_table(entries, payloads=payloads)
+    if out[ext_off:ext_end] != expected_ext:
+        raise ValueError('isolation: dictionary/runtime payload bytes differ')
     tail = bytearray(out[new_tail:])
     sh_at = lay['shoff'] - TAIL
     tail[sh_at:sh_at + SHNUM * SH.size] = elf[lay['shoff']:lay['shoff'] + SHNUM * SH.size]
@@ -695,7 +709,7 @@ def verify(elf, out, entries, geo, require_srvc=True, execute=512):
     if set(slots) != set(keyed):
         raise ValueError('readback: slot array keys differ from the entries')
     def drawn(va):
-        n = extent(plain(va, min(MAX_EXTENT + 2, nphs[1][3] + nphs[1][5] - va)))
+        n = extent(plain(va, min(MAX_ENGLISH_EXTENT + 2, nphs[1][3] + nphs[1][5] - va)), cap=MAX_ENGLISH_EXTENT)
         return plain(va, n)
     for key, e in keyed.items():
         found = lookup(_reader(out, nphs, {PROBE_VA: key + b'\0\0'}), PROBE_VA)
@@ -772,10 +786,10 @@ def _srvc_gate(elf, out, required):
             'pristine_size': size == srvc.SRVC_SIZE, 'blocks': len(after) - 1}
 
 
-def apply(executable, entries):
+def apply(executable, entries, payloads=()):
     """game_build entry point: after vwf.patch, before or after the SRVC table
     rewrite (the two touch disjoint bytes and commute; tests prove it)."""
-    return hook(executable, entries, require_srvc=True)
+    return hook(executable, entries, require_srvc=True, payloads=payloads)
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,2134 @@
+{
+  "schema": 1,
+  "version": "0.5.10",
+  "title": {
+    "version": "0.5.10",
+    "credit": "github.com/retro-trans",
+    "footer_box": [
+      912,
+      640,
+      1252,
+      696
+    ],
+    "footer_boxes": {
+      "0": [
+        912,
+        640,
+        1252,
+        696
+      ],
+      "6": [
+        858,
+        610,
+        1198,
+        666
+      ],
+      "10": [
+        912,
+        640,
+        1252,
+        696
+      ]
+    },
+    "footer_textures": [
+      0,
+      6,
+      10
+    ],
+    "wordmark": "3rd SUPER ROBOT WARS",
+    "subtitle": "HEAVENLY PRISON / CHAPTER",
+    "subtitle_top": 32,
+    "member": 229,
+    "source_sha256": "5f6d8d307e6b8e7e4704c048d07be030c9f49a17d79120a9c78e6de1c91d9277",
+    "output_sha256": "0b1c9d38e9877a69afd2ad214b594b33326ea9bac06815e6507d4e74cec68086",
+    "assets": {
+      "wordmark-generated.png": "74656a4041153deb74bcb32260f5005089f7ee6dbc4d80e63ac9b97aae475826",
+      "subtitle-generated.png": "d6bfb0328de482f3079ec6e555ee580d7b083611faf1869c334ced0a50629114"
+    },
+    "animated_subtitle_slices": [
+      [
+        0,
+        208,
+        0
+      ],
+      [
+        216,
+        216,
+        166
+      ],
+      [
+        440,
+        208,
+        332
+      ]
+    ],
+    "animation_bytes_unchanged": true,
+    "native_z_unchanged": true,
+    "runtime_verified": false
+  },
+  "final_archive_sha256": "a5d94116e5e344f8ad461cb985a0aad3460000ee7f0cbaf9c6d23776ad6e94c7",
+  "source_sha256": {
+    "tools/title_screen.py": "64cb652e692b54d9fc7594b583e5be38bc8f7a5b2ffbb6d26c6390b8039dbd3e",
+    "tools/verify_title_screen.py": "035ab5460b3f3a959c29abd02b40504efd0081a3c1f56f8ba05a66d613733330",
+    "tools/refresh_title_build.py": "79b6a199f36343c07125e51a378717c1f06e89311c2b474bb2e2a52fc74b80cf",
+    "tests/test_title_screen.py": "d17b39830ecfbe14fff255ee635c6e0b39cce0dacf2908c61506a6910721e54b",
+    "tools/eff_art.py": "ec615d7ca5636b852d1344c0a68e18795535dd1cd544d56ac7e406dc415989a5",
+    "tools/game_build.py": "2960dc4e28dd72cd22cac0f941f51cd6c2400d363661125955b176d38ee3f000"
+  },
+  "reported_screenshot": {
+    "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-824be348-2262-43fa-af11-559744e0c058.png",
+    "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-title.png",
+    "sha256": "48a2269e1aaf408b8d8ade2099f69a0635fc418456dacc03039ccd7397822259"
+  },
+  "prior_startup_verification": {
+    "schema": 1,
+    "version": "0.5.10",
+    "build_sha256": "ba1d9161609a90d1587fcefae5c789d0c5627b4a429c095b7ee5ab2db55bee3a",
+    "outputs": {
+      "EBOOT.BIN": "3875715a432c3a5ec1172fdf8ef30fe1958d126d3ef9c6b18cc009cb278d1bc3",
+      "RPW_DATA.CPK": "024c3ecb92ce436e765522e678bfdaecf6d82b3c8dfe81d236015de9a4da78d6",
+      "TPACKPS3.CPK": "3758ed7628cd33242e0bc4aac0f8a385b9602ee919bd25909d4820e9043606fa",
+      "MTZKN_KW.CPK": "e8f64a726f02d3630e1010a5179e69e9b7adeb56884f1242765946db17f2d1df",
+      "MTZKN_PT.CPK": "852df44003ce3dfb44b10554125c8bb39ed64f5483379d0054d8555f6765e81f",
+      "MTZKN_RT.CPK": "4967875ab2ef3223d5681eb33e1694cd09e0dcf97105a492825b9a6d952db117",
+      "STGZ3OF2.SDAT": "64149f47cda1a073f19c65e44c1caa1683ade1e3e9f0b86e7cd891345d6e9a3a",
+      "SRVC.BIN": "87ed529627591b29a3850eb85945f13725685e8cde13ada1864187978fb20c04",
+      "AIDDATAPACK.CPK": "c3e4dfb6e3663e33e373e42d242999d2cb27e90ee1d408b802bdb396f8920930",
+      "CMN.CPK": "d015a601807de74c31dbfe588e5b16f41c2e2b01fb4eef4b1851c880c95b3468",
+      "EFFPS3.CPK": "a5d94116e5e344f8ad461cb985a0aad3460000ee7f0cbaf9c6d23776ad6e94c7",
+      "OP.CPK": "77efc4ff8f3be8c7c250bf7680e5ec0072eca6a8c1c62460dbbdb3f054155170"
+    },
+    "input_sha256": {
+      "tools/game_build.py": "2960dc4e28dd72cd22cac0f941f51cd6c2400d363661125955b176d38ee3f000",
+      "tools/ui_catalog.py": "189a57d30c08218bba26d51f800548738fde4c8dfe2dc047e03f4b4bbc761a63",
+      "tools/ui_layout_text.py": "80c48b12a5e80bd93ee3a05e55caa10e49da40ef897bd18207d3936c633ce872",
+      "tools/opening_narration.py": "867a9c97b50946721df700d5a42be57b5fa07c48f5d39f76ef81cbf86b5771c5",
+      "tools/runtime_names.py": "5e867822579b7f77ccad722372c2499bceca94ba4bfc7c70d9aa24836211acd3",
+      "tools/startup_layout.py": "cae82e14e99d447e8e7b97048f9c7bf6dc77466ac9cbe84b1f4f9c80f7013005",
+      "tools/verify_startup_ui.py": "04aab92a3decd924959e3747f017ab72fc5a7e3d60ffa712dc1cad69885d7cc0",
+      "tests/test_startup_ui.py": "640806bda799fa0fbb9468e5903902b206b4ea9da8fd6bb262a7e772e82642e9",
+      "work/translation/en/ui/expanded/opening.json": "297eecc32d1e305119830eca3f5bd22e3cc5d3f360cf8cd66633d03485ea0403",
+      "work/ui/startup_layout.json": "2128b1a11249c4e071aa00a6623cf24fa779a83a07cd8a5a862bf515b018d98b",
+      "tools/latin_font.py": "c3b9e20e49571a9eaa01475a2c47e92668f1539cc02510faf0e69ffa26aea4ee",
+      "tools/ui_vwf_build.py": "b4858237ee8c5e0af28f986b7b24b29f6aafe208bf2f23d349a6fb08b46088e9",
+      "tools/ui_build.py": "7a086e3572ac3184520bd528497b50efb5098448be37e74b7123b7276d04e104",
+      "tools/ui_description_layout.py": "17631ed4f677056e3e2a0d804d2e0ac3fd2a8168e8818d2b7c42dfaae4351aad",
+      "tools/dialogue_layout.py": "f695d51eeaa2143ae83375039ea1ef720f73fb28e82976452ccb7ec1d87d97ad",
+      "tests/test_latin_font.py": "e68bd328c3ab6087c032a90ab8f73e3651460107972b98af7c863f3158663d6b"
+    },
+    "screenshots": {
+      "0.5.3-default-name.png": {
+        "sha256": "58cc77bb55b71a18a2862cb3d88c905fae848fdbeffe2bf9a8b479e01fa9979f",
+        "bytes": 386246
+      },
+      "0.5.3-link-overflow.png": {
+        "sha256": "fee26d7270ff6517db3602d1a168978650d4d466e6439e7fced8b8a1288704b9",
+        "bytes": 1025235
+      },
+      "0.5.3-name-overlap.png": {
+        "sha256": "e89e7119f824183077e3802d397134cf1166d805128ec96dfcb3ecd6b74c6395",
+        "bytes": 997677
+      },
+      "0.5.3-opening-page1.png": {
+        "sha256": "2ca7eab18d2f6c842a34db4b017be659b07930ae4da80ee7c3f7b321f7d998a0",
+        "bytes": 221726
+      },
+      "0.5.3-opening-page2.png": {
+        "sha256": "b59b6a2208156957c38a15a0e345ea8c7500cb12f5abecb5307a48de19f9129c",
+        "bytes": 3333518
+      }
+    },
+    "opening_lines_executed": 28,
+    "opening_member_unchanged": true,
+    "name_getter_cases_executed": 29,
+    "name_buffers_read_only": true,
+    "stage_cpk_sha256": "6dbcfd332801d612a38707469f4b20733ebcddd7f30ebfc675674a980d928efa",
+    "iso": {
+      "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.10\\Tengoku-hen-English-0.5.10.iso",
+      "bytes": 5284102144,
+      "sectors": 2580128,
+      "files_verified_each_tree": 82,
+      "udf": "absent",
+      "plaintext_regions": 1,
+      "sha256": "c5dac335998eeb328fb5bf122b81af3d269bb187e8337294f6653e23166f9807",
+      "version": "0.5.10",
+      "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.10",
+      "replaced": {
+        "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+        "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+        "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+        "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+        "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+        "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+        "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+        "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+      },
+      "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+      "rpcs3_only": true,
+      "runtime_verified": false
+    },
+    "latin_font": {
+      "face": "SCE-PS3-RD-B-LATIN.TTF",
+      "face_sha256": "2f10428d9fc0bbc710df221c0b5b12ee2ff881fb1a26da0594aba840f822c873",
+      "cap": 22,
+      "baseline": 26,
+      "supersampling": 4,
+      "horizontal_dilation": 0.5,
+      "space_advance": 9,
+      "advance_padding": 1,
+      "downsampling": "BOX",
+      "reference": "SRW Z3/tools/digraph.py + tools/ttfglyph.py",
+      "glyphs_verified_each_page": 247,
+      "pages_verified": [
+        1,
+        3
+      ],
+      "advance_cells_verified": 247,
+      "reference_source_sha256": {
+        "digraph.py": "b811bdbc183af8706c8ada72388f8910288ee8714d944f2107b4807d9a97634c",
+        "ttfglyph.py": "c30d4688d099b289540758c0f12174fbdeaee18b837bf161c17590daf2c32604"
+      },
+      "installed_font_cache": {
+        "path": "E:\\RPCS3\\dev_hdd0\\game\\BLJS10299_DATA\\USRDIR\\INSCO\\DATA0141.DAT",
+        "sha256": "460572fbb6277661a490f38d5c67a39b35f8c787cd4638d844dc0119a39937d7",
+        "matches_build": false,
+        "modified": false
+      }
+    },
+    "regression_tests": {
+      "run": 228,
+      "passed": 227,
+      "skipped": 1,
+      "log_sha256": "31da54546a25f8c56a09a355ebe71d5036b63b2b4e7a5014029ac6ea755932af"
+    },
+    "runtime_verified": false,
+    "layout_verified": false
+  },
+  "prior_battle_verification": {
+    "schema": 1,
+    "version": "0.5.10",
+    "matched_files": 12,
+    "final_elf_sha256": "3875715a432c3a5ec1172fdf8ef30fe1958d126d3ef9c6b18cc009cb278d1bc3",
+    "widgets": 53,
+    "compact_flag_cells": [
+      {
+        "token": "",
+        "label": "Va",
+        "code": "84fc",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "So",
+        "code": "86cb",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          24
+        ]
+      },
+      {
+        "token": "",
+        "label": "Ft",
+        "code": "86cc",
+        "advance": 32,
+        "ink_box": [
+          5,
+          7,
+          27,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Al",
+        "code": "86cd",
+        "advance": 32,
+        "ink_box": [
+          5,
+          7,
+          27,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Pe",
+        "code": "86ce",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Wa",
+        "code": "86cf",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Fo",
+        "code": "86d0",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "St",
+        "code": "86d1",
+        "advance": 32,
+        "ink_box": [
+          4,
+          7,
+          27,
+          24
+        ]
+      },
+      {
+        "token": "",
+        "label": "Ac",
+        "code": "86d2",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Ze",
+        "code": "86d3",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          29,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Me",
+        "code": "86d4",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Sn",
+        "code": "86d5",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          29,
+          24
+        ]
+      },
+      {
+        "token": "",
+        "label": "As",
+        "code": "86d6",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Fy",
+        "code": "86d7",
+        "advance": 32,
+        "ink_box": [
+          3,
+          7,
+          29,
+          27
+        ]
+      },
+      {
+        "token": "",
+        "label": "Lu",
+        "code": "86d8",
+        "advance": 32,
+        "ink_box": [
+          3,
+          7,
+          29,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "Ga",
+        "code": "86d9",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          24
+        ]
+      },
+      {
+        "token": "",
+        "label": "Di",
+        "code": "86da",
+        "advance": 32,
+        "ink_box": [
+          6,
+          7,
+          26,
+          23
+        ]
+      },
+      {
+        "token": "",
+        "label": "An",
+        "code": "86db",
+        "advance": 32,
+        "ink_box": [
+          2,
+          7,
+          30,
+          23
+        ]
+      }
+    ],
+    "dictionary_cases": 3,
+    "terrain": {
+      "archive": "/PS3_GAME/USRDIR/DATA/MAPETC/MAPZ3TENPS3.CPK",
+      "member": 168,
+      "member_sha256": "c1768a55e97773d5f0464bc8d4db524f8811af57fb5a17079915ad5f10a4d138",
+      "offset": 132,
+      "en": "Debris Field"
+    },
+    "caption_widths": [
+      {
+        "widget_offset": 632740,
+        "en": "Will",
+        "quad": 18,
+        "source_xy": [
+          -0.9164062738418579,
+          0.06388889253139496
+        ],
+        "original_widget_hex": "0000f08abf6a999a3d82d82effffffff1212101210123c000000000000000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          16
+        ],
+        "widths": [
+          32.625
+        ]
+      },
+      {
+        "widget_offset": 632932,
+        "en": "Will",
+        "quad": 18,
+        "source_xy": [
+          -0.9164062738418579,
+          0.07500000298023224
+        ],
+        "original_widget_hex": "0000f0aebf6a999a3d99999affffffff1212101210123c000000000000000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          16
+        ],
+        "widths": [
+          32.625
+        ]
+      },
+      {
+        "widget_offset": 633124,
+        "en": "Will",
+        "quad": 18,
+        "source_xy": [
+          -0.9164062738418579,
+          0.07500000298023224
+        ],
+        "original_widget_hex": "0000f0d2bf6a999a3d99999affffffff1212101210123c000000000000000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          16
+        ],
+        "widths": [
+          32.625
+        ]
+      },
+      {
+        "widget_offset": 633316,
+        "en": "Will",
+        "quad": 18,
+        "source_xy": [
+          -0.9164062738418579,
+          0.07500000298023224
+        ],
+        "original_widget_hex": "0000f0f6bf6a999a3d99999affffffff1212101210123c000000000000000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          16
+        ],
+        "widths": [
+          32.625
+        ]
+      },
+      {
+        "widget_offset": 633540,
+        "en": "Will",
+        "quad": 18,
+        "source_xy": [
+          -0.9164062738418579,
+          0.07500000298023224
+        ],
+        "original_widget_hex": "0000f11ebf6a999a3d99999affffffff1212101210123c000000000000000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          16
+        ],
+        "widths": [
+          32.625
+        ]
+      },
+      {
+        "widget_offset": 634020,
+        "en": "Will",
+        "quad": 23,
+        "source_xy": [
+          -0.9164062738418579,
+          0.0555555559694767
+        ],
+        "original_widget_hex": "0000f16cbf6a999a3d638e39ffffffff32321517151734000000000000000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          21
+        ],
+        "widths": [
+          41.6875
+        ]
+      },
+      {
+        "widget_offset": 634148,
+        "en": "Will",
+        "quad": 23,
+        "source_xy": [
+          -0.9164062738418579,
+          0.0555555559694767
+        ],
+        "original_widget_hex": "0000f184bf6a999a3d638e39ffffffff32321517151734000000000000000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          21
+        ],
+        "widths": [
+          41.6875
+        ]
+      },
+      {
+        "widget_offset": 634276,
+        "en": "Will",
+        "quad": 18,
+        "source_xy": [
+          -0.9164062738418579,
+          0.07500000298023224
+        ],
+        "original_widget_hex": "0000f19cbf6a999a3d99999affffffff1212101210123c000000000000000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          16
+        ],
+        "widths": [
+          32.625
+        ]
+      },
+      {
+        "widget_offset": 650628,
+        "en": "Will",
+        "quad": 25,
+        "source_xy": [
+          0.749218761920929,
+          0.7472222447395325
+        ],
+        "original_widget_hex": "00010f823f3fcccd3f3f49f5ffffffffffff1719191932000000000000000000",
+        "font_metrics": [
+          255,
+          255,
+          23,
+          25,
+          25
+        ],
+        "widths": [
+          45.3125
+        ]
+      },
+      {
+        "widget_offset": 656356,
+        "en": "Will",
+        "quad": 25,
+        "source_xy": [
+          0.797656238079071,
+          -0.2916666567325592
+        ],
+        "original_widget_hex": "000118e83f4c3333be955555ffffffff28271719191932000000000000000000",
+        "font_metrics": [
+          40,
+          39,
+          23,
+          25,
+          25
+        ],
+        "widths": [
+          45.3125
+        ]
+      },
+      {
+        "widget_offset": 656420,
+        "en": "Will",
+        "quad": 25,
+        "source_xy": [
+          -0.961718738079071,
+          -0.2916666567325592
+        ],
+        "original_widget_hex": "000118f4bf763333be955555ffffffff28271719191932000000000000000000",
+        "font_metrics": [
+          40,
+          39,
+          23,
+          25,
+          25
+        ],
+        "widths": [
+          45.3125
+        ]
+      },
+      {
+        "widget_offset": 665220,
+        "en": "Will",
+        "quad": 25,
+        "source_xy": [
+          0.749218761920929,
+          0.7472222447395325
+        ],
+        "original_widget_hex": "00012c7c3f3fcccd3f3f49f5ffffffffffff1719191932000000000000000000",
+        "font_metrics": [
+          255,
+          255,
+          23,
+          25,
+          25
+        ],
+        "widths": [
+          45.3125
+        ]
+      },
+      {
+        "widget_offset": 684100,
+        "en": "",
+        "quad": 25,
+        "source_xy": [
+          0.07421875,
+          0.01666666753590107
+        ],
+        "original_widget_hex": "00015e703d9800003c888889ffffff4019191719191903000000000001000000",
+        "font_metrics": [
+          25,
+          25,
+          23,
+          25,
+          25
+        ],
+        "widths": [
+          425.0
+        ]
+      },
+      {
+        "widget_offset": 684132,
+        "en": "",
+        "quad": 22,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00015e94ba4ccccd3b360b61ffffff404c261516141605000000000001000000",
+        "font_metrics": [
+          76,
+          38,
+          21,
+          22,
+          20
+        ],
+        "widths": [
+          374.0
+        ]
+      },
+      {
+        "widget_offset": 684164,
+        "en": "／",
+        "quad": 22,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00015eb8ba4ccccd3b360b61ffffff404c261516141605000000000001000000",
+        "font_metrics": [
+          76,
+          38,
+          21,
+          22,
+          20
+        ],
+        "widths": [
+          374.0
+        ]
+      },
+      {
+        "widget_offset": 684196,
+        "en": "",
+        "quad": 25,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00015edcba4ccccd3b360b61ffffff40191917191b1902000000000001000000",
+        "font_metrics": [
+          25,
+          25,
+          23,
+          25,
+          27
+        ],
+        "widths": [
+          425.0
+        ]
+      },
+      {
+        "widget_offset": 684228,
+        "en": "／",
+        "quad": 25,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00015f00ba4ccccd3b360b61ffffff40282717191b1902000000000001000000",
+        "font_metrics": [
+          40,
+          39,
+          23,
+          25,
+          27
+        ],
+        "widths": [
+          425.0
+        ]
+      },
+      {
+        "widget_offset": 655780,
+        "en": "Start Battle",
+        "quad": 28,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "0001183eba4ccccd3b360b61ffffffff3a3a1a1c1c1c51400000000010000000",
+        "font_metrics": [
+          58,
+          58,
+          26,
+          28,
+          28
+        ],
+        "widths": [
+          156.625
+        ]
+      },
+      {
+        "widget_offset": 655812,
+        "en": "Start Battle",
+        "quad": 31,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0
+        ],
+        "original_widget_hex": "00011848ba4ccccd00000000ffffffff2a2a1b1f1f1f50400000000010000000",
+        "font_metrics": [
+          42,
+          42,
+          27,
+          31,
+          31
+        ],
+        "widths": [
+          173.40625
+        ]
+      },
+      {
+        "widget_offset": 655844,
+        "en": "Action",
+        "quad": 28,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00011852ba4ccccd3b360b61ffffffff3a3a1a1c1c1c41400000000010000000",
+        "font_metrics": [
+          58,
+          58,
+          26,
+          28,
+          28
+        ],
+        "widths": [
+          89.25
+        ]
+      },
+      {
+        "widget_offset": 655876,
+        "en": "Action",
+        "quad": 31,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0
+        ],
+        "original_widget_hex": "0001185cba4ccccd0000000060ff60ff2a2a1b1f1f1f00400000000010000000",
+        "font_metrics": [
+          42,
+          42,
+          27,
+          31,
+          31
+        ],
+        "widths": [
+          98.8125
+        ]
+      },
+      {
+        "widget_offset": 655908,
+        "en": "Anim: OFF",
+        "quad": 28,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00011866ba4ccccd3b360b61ffffffff3a3a1a1c1a1c41400000000010000000",
+        "font_metrics": [
+          58,
+          58,
+          26,
+          28,
+          26
+        ],
+        "widths": [
+          144.375
+        ]
+      },
+      {
+        "widget_offset": 655940,
+        "en": "Anim: OFF",
+        "quad": 31,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0
+        ],
+        "original_widget_hex": "00011874ba4ccccd0000000060ff60ff2a2a1b1f1d1f00400000000010000000",
+        "font_metrics": [
+          42,
+          42,
+          27,
+          31,
+          29
+        ],
+        "widths": [
+          159.84375
+        ]
+      },
+      {
+        "widget_offset": 655972,
+        "en": "Anim: ON",
+        "quad": 28,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00011882ba4ccccd3b360b61ffffffff3a3a1a1c1a1c41400000000010000000",
+        "font_metrics": [
+          58,
+          58,
+          26,
+          28,
+          26
+        ],
+        "widths": [
+          130.375
+        ]
+      },
+      {
+        "widget_offset": 656004,
+        "en": "Anim: ON",
+        "quad": 31,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0
+        ],
+        "original_widget_hex": "0001188eba4ccccd0000000060ff60ff2a2a1b1f1d1f00400000000010000000",
+        "font_metrics": [
+          42,
+          42,
+          27,
+          31,
+          29
+        ],
+        "widths": [
+          144.34375
+        ]
+      },
+      {
+        "widget_offset": 656164,
+        "en": "Support",
+        "quad": 28,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "000118b2ba4ccccd3b360b61ffffffff3a3a1a1c1c1c41400000000010000000",
+        "font_metrics": [
+          58,
+          58,
+          26,
+          28,
+          28
+        ],
+        "widths": [
+          111.125
+        ]
+      },
+      {
+        "widget_offset": 656196,
+        "en": "Support",
+        "quad": 31,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0
+        ],
+        "original_widget_hex": "000118bcba4ccccd0000000060ff60ff2a2a1b1f1f1f00400000000010000000",
+        "font_metrics": [
+          42,
+          42,
+          27,
+          31,
+          31
+        ],
+        "widths": [
+          123.03125
+        ]
+      },
+      {
+        "widget_offset": 656228,
+        "en": "S. Atk",
+        "quad": 23,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "000118c6ba4ccccd3b360b61ffffffff32321517171734000000000000000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          23
+        ],
+        "widths": [
+          66.84375
+        ]
+      },
+      {
+        "widget_offset": 656260,
+        "en": "Re-Atk",
+        "quad": 23,
+        "source_xy": [
+          0.01796874962747097,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "000118d03c9333333b360b61ffffffff32321517171734000000000000000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          23
+        ],
+        "widths": [
+          77.625
+        ]
+      },
+      {
+        "widget_offset": 656292,
+        "en": "S. Def",
+        "quad": 23,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "000118d8ba4ccccd3b360b61ffffffff32321517171734000000000000000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          23
+        ],
+        "widths": [
+          69.0
+        ]
+      },
+      {
+        "widget_offset": 568932,
+        "en": "Atk.",
+        "quad": 24,
+        "source_xy": [
+          -0.16328124701976776,
+          0.24722221493721008
+        ],
+        "original_widget_hex": "00000956be2733333e7d27d200a0e8ff23251618181809010000000001000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          47.25
+        ]
+      },
+      {
+        "widget_offset": 656452,
+        "en": "Atk.",
+        "quad": 24,
+        "source_xy": [
+          0.01328125037252903,
+          0.011111111380159855
+        ],
+        "original_widget_hex": "000118fa3c59999a3c360b61ffffff8023251618181809010000000001000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          47.25
+        ]
+      },
+      {
+        "widget_offset": 656772,
+        "en": "Ctr.",
+        "quad": 24,
+        "source_xy": [
+          0.01328125037252903,
+          0.011111111380159855
+        ],
+        "original_widget_hex": "0001192c3c59999a3c360b61ffffff8023251618181809010000000001000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          44.25
+        ]
+      },
+      {
+        "widget_offset": 656804,
+        "en": "Evd.",
+        "quad": 24,
+        "source_xy": [
+          0.01328125037252903,
+          0.011111111380159855
+        ],
+        "original_widget_hex": "000119323c59999a3c360b61ffffff8023251618181809010000000001000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          51.75
+        ]
+      },
+      {
+        "widget_offset": 656836,
+        "en": "Def.",
+        "quad": 24,
+        "source_xy": [
+          0.01328125037252903,
+          0.011111111380159855
+        ],
+        "original_widget_hex": "000119383c59999a3c360b61ffffff8023251618181809010000000001000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          49.5
+        ]
+      },
+      {
+        "widget_offset": 656868,
+        "en": "S.D.",
+        "quad": 24,
+        "source_xy": [
+          0.01328125037252903,
+          0.011111111380159855
+        ],
+        "original_widget_hex": "0001193e3c59999a3c360b61ffffff8023251618181809010000000011000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          50.25
+        ]
+      },
+      {
+        "widget_offset": 656964,
+        "en": "Wait",
+        "quad": 24,
+        "source_xy": [
+          0.01328125037252903,
+          0.011111111380159855
+        ],
+        "original_widget_hex": "0001194c3c59999a3c360b61a0a0a0ff23251618181809010000000000000000",
+        "font_metrics": [
+          35,
+          37,
+          22,
+          24,
+          24
+        ],
+        "widths": [
+          51.0
+        ]
+      },
+      {
+        "widget_offset": 684260,
+        "en": "Rnd.",
+        "quad": 23,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00015f24ba4ccccd3b360b61ffffffc832321517151734000000000000000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          21
+        ],
+        "widths": [
+          52.46875
+        ]
+      },
+      {
+        "widget_offset": 584932,
+        "en": "EN",
+        "quad": 28,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00006b8eba4ccccd3b360b61ffffffff3a3a1a1c1c2531000000000000000000",
+        "font_metrics": [
+          58,
+          58,
+          26,
+          28,
+          28
+        ],
+        "widths": [
+          39.375
+        ]
+      },
+      {
+        "widget_offset": 584964,
+        "en": "EN",
+        "quad": 24,
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "original_widget_hex": "00006b98ba4ccccd3b360b61ffffffff13180e181318337f0000000000000000",
+        "font_metrics": [
+          19,
+          24,
+          14,
+          24,
+          19
+        ],
+        "widths": [
+          33.75
+        ]
+      },
+      {
+        "widget_offset": 631972,
+        "en": "DEF:\nEVD:",
+        "quad": 23,
+        "source_xy": [
+          0.33671873807907104,
+          0.8138889074325562
+        ],
+        "original_widget_hex": "0000efb63eac66663f505b06ffffffff32321517171a34000000000001000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          23
+        ],
+        "widths": [
+          56.0625,
+          57.5
+        ]
+      },
+      {
+        "widget_offset": 632036,
+        "en": "Rec:\nRec:",
+        "quad": 23,
+        "source_xy": [
+          0.711718738079071,
+          0.8138889074325562
+        ],
+        "original_widget_hex": "0000efd23f3633333f505b06ffffffff32321517171a34000000000001000000",
+        "font_metrics": [
+          50,
+          50,
+          21,
+          23,
+          23
+        ],
+        "widths": [
+          51.75,
+          51.75
+        ]
+      },
+      {
+        "widget_offset": 684004,
+        "en": "",
+        "quad": 25,
+        "source_xy": [
+          0.13671875,
+          0.008333333767950535
+        ],
+        "original_widget_hex": "00015e5a3e0c00003c088889ffffffff19191719191922000000000010000000",
+        "font_metrics": [
+          25,
+          25,
+          23,
+          25,
+          25
+        ],
+        "widths": [
+          0.0
+        ]
+      },
+      {
+        "widget_offset": 574180,
+        "en": ": Fast",
+        "quad": 23,
+        "source_xy": [
+          0.05859375,
+          0.03888889029622078
+        ],
+        "original_widget_hex": "00001ac03d7000003d1f49f5ffffffff17171517171724000000000000000000",
+        "font_metrics": [
+          23,
+          23,
+          21,
+          23,
+          23
+        ],
+        "widths": [
+          63.96875
+        ]
+      },
+      {
+        "widget_offset": 575812,
+        "en": ": Fast",
+        "quad": 21,
+        "source_xy": [
+          0.05859375,
+          0.03888889029622078
+        ],
+        "original_widget_hex": "00001cb83d7000003d1f49f5ffffffff15151215131526000000000000000000",
+        "font_metrics": [
+          21,
+          21,
+          18,
+          21,
+          19
+        ],
+        "widths": [
+          58.40625
+        ]
+      },
+      {
+        "widget_offset": 633956,
+        "en": "MV",
+        "quad": 22,
+        "source_xy": [
+          -0.9007812738418579,
+          -0.3583333194255829
+        ],
+        "original_widget_hex": "0000f160bf66999abeb77777ffffffff20271516163534200000000010000000",
+        "font_metrics": [
+          22,
+          22,
+          20,
+          22,
+          22
+        ],
+        "widths": [
+          34.375
+        ]
+      },
+      {
+        "widget_offset": 634084,
+        "en": "MV",
+        "quad": 22,
+        "source_xy": [
+          -0.9007812738418579,
+          -0.6472222208976746
+        ],
+        "original_widget_hex": "0000f178bf66999abf25b05bffffffff20271516163534200000000010000000",
+        "font_metrics": [
+          22,
+          22,
+          20,
+          22,
+          22
+        ],
+        "widths": [
+          34.375
+        ]
+      },
+      {
+        "widget_offset": 634212,
+        "en": "MV",
+        "quad": 22,
+        "source_xy": [
+          -0.9007812738418579,
+          -0.6027777791023254
+        ],
+        "original_widget_hex": "0000f190bf66999abf1a4fa5ffffffff20271516163534200000000010000000",
+        "font_metrics": [
+          22,
+          22,
+          20,
+          22,
+          22
+        ],
+        "widths": [
+          34.375
+        ]
+      },
+      {
+        "widget_offset": 675268,
+        "en": "AT\nDF",
+        "quad": 18,
+        "source_xy": [
+          0.01171875,
+          0.01666666753590107
+        ],
+        "original_widget_hex": "000156083c4000003c888889ffffff8032321517172034000000000001000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          18
+        ],
+        "widths": [
+          23.0625,
+          24.75
+        ]
+      },
+      {
+        "widget_offset": 681060,
+        "en": "AT",
+        "quad": 18,
+        "source_xy": [
+          0.01171875,
+          0.01666666753590107
+        ],
+        "original_widget_hex": "00015c703c4000003c888889ffffff4017171517151734000000000001000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          18
+        ],
+        "widths": [
+          23.0625
+        ]
+      },
+      {
+        "widget_offset": 681092,
+        "en": "AT",
+        "quad": 18,
+        "source_xy": [
+          0.01171875,
+          0.01666666753590107
+        ],
+        "original_widget_hex": "00015c783c4000003c888889ffffffff17171517151734000000000001000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          18
+        ],
+        "widths": [
+          23.0625
+        ]
+      },
+      {
+        "widget_offset": 681156,
+        "en": "DF",
+        "quad": 18,
+        "source_xy": [
+          0.01171875,
+          0.01666666753590107
+        ],
+        "original_widget_hex": "00015c883c4000003c888889ffffff4017171517151734000000000001000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          18
+        ],
+        "widths": [
+          24.75
+        ]
+      },
+      {
+        "widget_offset": 681188,
+        "en": "DF",
+        "quad": 18,
+        "source_xy": [
+          0.01171875,
+          0.01666666753590107
+        ],
+        "original_widget_hex": "00015c903c4000003c888889ffffffff17171517151734000000000001000000",
+        "font_metrics": [
+          18,
+          18,
+          16,
+          18,
+          18
+        ],
+        "widths": [
+          24.75
+        ]
+      }
+    ],
+    "screenshots": [
+      {
+        "issue": "battle-preview",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-4c5e586c-888c-4e6d-b615-8f930dc4027c.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-battle-preview.png",
+        "sha256": "cd7fa451f6c93e6d439bf6f1039616eb7756228b378d2c4178be234a14725b5e",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "observed_region": {
+          "x": 62,
+          "y": 80,
+          "width": 2435,
+          "height": 1250,
+          "approximate": true
+        },
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "map-popup",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-77ac1154-d07e-4144-b87a-4b430f014b2d.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-map-popup.png",
+        "sha256": "6d0f40cdf727a5d394446fd16dcefacdb94a51ba7a43f2ba64f19936e7ea816e",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "observed_region": {
+          "x": 62,
+          "y": 160,
+          "width": 2435,
+          "height": 1190,
+          "approximate": true
+        },
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "battle-result",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-33e6a7bb-f9f8-4faa-b9d6-50efb659ace4.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-battle-result.png",
+        "sha256": "f1d02828b9e3ed024589024788bbb1a96bf274a0cf85e708b63f62c51580a659",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "observed_region": {
+          "x": 245,
+          "y": 485,
+          "width": 2090,
+          "height": 445,
+          "approximate": true
+        },
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "fast-forward",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-5e6ca61c-28c4-417e-bc18-a66e50a68bff.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-fast-forward.png",
+        "sha256": "2ad6e7a9d8d81cd2dbca3795dbbf24ae95e2c48989108d6e85ffd55f1a4943ad",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "observed_region": {
+          "x": 825,
+          "y": 918,
+          "width": 910,
+          "height": 100,
+          "approximate": true
+        },
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "transform",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-e4bca260-05ca-4f47-a33d-527d31964ace.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-transform.png",
+        "sha256": "7a2a1c642194767804ae80f155b05e44ea46f6903b32c1bb709e3d2f9dc807c9",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "observed_region": {
+          "x": 659,
+          "y": 397,
+          "width": 1240,
+          "height": 774,
+          "approximate": true
+        },
+        "runtime_confirmation": false
+      }
+    ],
+    "prior_status_verification": {
+      "schema": 1,
+      "version": "0.5.10",
+      "final_elf_sha256": "3875715a432c3a5ec1172fdf8ef30fe1958d126d3ef9c6b18cc009cb278d1bc3",
+      "matched_files": 12,
+      "widgets": 138,
+      "status_dictionary_cases": 1622,
+      "save_centers": [
+        {
+          "text": "Save your current map progress.",
+          "quad": 25,
+          "left": 437.546875,
+          "width": 403.90625,
+          "center": 639.5,
+          "steps": 34
+        },
+        {
+          "text": "Save your current map progress.",
+          "quad": 28,
+          "left": 413.3125,
+          "width": 452.375,
+          "center": 639.5,
+          "steps": 34
+        },
+        {
+          "text": "Save your current map progress.",
+          "quad": 31,
+          "left": 389.078125,
+          "width": 500.84375,
+          "center": 639.5,
+          "steps": 34
+        },
+        {
+          "text": "Create a new save?",
+          "quad": 25,
+          "left": 520.75,
+          "width": 237.5,
+          "center": 639.5,
+          "steps": 36
+        },
+        {
+          "text": "Create a new save?",
+          "quad": 28,
+          "left": 506.5,
+          "width": 266.0,
+          "center": 639.5,
+          "steps": 36
+        },
+        {
+          "text": "Create a new save?",
+          "quad": 31,
+          "left": 492.25,
+          "width": 294.5,
+          "center": 639.5,
+          "steps": 36
+        }
+      ],
+      "compact_cells": [
+        {
+          "token": "",
+          "label": "Air",
+          "code": "84f7",
+          "advance": 32,
+          "ink_box": [
+            4,
+            9,
+            27,
+            20
+          ]
+        },
+        {
+          "token": "",
+          "label": "Grd",
+          "code": "84f8",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            21
+          ]
+        },
+        {
+          "token": "",
+          "label": "Wtr",
+          "code": "84f9",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            20
+          ]
+        },
+        {
+          "token": "",
+          "label": "Spc",
+          "code": "84fa",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            23
+          ]
+        },
+        {
+          "token": "",
+          "label": "Und",
+          "code": "84fb",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            21
+          ]
+        },
+        {
+          "token": "",
+          "label": "Only",
+          "code": "86dc",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            23
+          ]
+        },
+        {
+          "token": "",
+          "label": "CQB",
+          "code": "86dd",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            23
+          ]
+        },
+        {
+          "token": "",
+          "label": "RNG",
+          "code": "86de",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            21
+          ]
+        },
+        {
+          "token": "",
+          "label": "SKL",
+          "code": "86df",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            21
+          ]
+        },
+        {
+          "token": "",
+          "label": "DEF",
+          "code": "86e0",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            20
+          ]
+        },
+        {
+          "token": "",
+          "label": "EVD",
+          "code": "86e1",
+          "advance": 32,
+          "ink_box": [
+            2,
+            9,
+            30,
+            20
+          ]
+        },
+        {
+          "token": "",
+          "label": "HIT",
+          "code": "86e2",
+          "advance": 32,
+          "ink_box": [
+            4,
+            9,
+            27,
+            20
+          ]
+        },
+        {
+          "token": "@save-center:0",
+          "label": "",
+          "code": "849b",
+          "advance": 32,
+          "ink_box": null
+        },
+        {
+          "token": "@save-center:1",
+          "label": "",
+          "code": "849c",
+          "advance": 32,
+          "ink_box": null
+        }
+      ],
+      "movement_patch": {
+        "modified_file_ranges": [
+          [
+            8625152,
+            8625154
+          ],
+          [
+            8625154,
+            8625156
+          ],
+          [
+            8625156,
+            8625158
+          ],
+          [
+            8625158,
+            8625160
+          ],
+          [
+            8625160,
+            8625162
+          ],
+          [
+            8625198,
+            8625200
+          ],
+          [
+            8625200,
+            8625202
+          ],
+          [
+            8625202,
+            8625204
+          ],
+          [
+            8625204,
+            8625206
+          ],
+          [
+            8625206,
+            8625208
+          ],
+          [
+            8625208,
+            8625210
+          ],
+          [
+            8625210,
+            8625212
+          ],
+          [
+            9217304,
+            9217312
+          ],
+          [
+            9217312,
+            9217320
+          ],
+          [
+            9217320,
+            9217328
+          ],
+          [
+            9217328,
+            9217336
+          ],
+          [
+            9217912,
+            9217920
+          ],
+          [
+            9217920,
+            9217928
+          ],
+          [
+            9217928,
+            9217936
+          ],
+          [
+            9217936,
+            9217944
+          ],
+          [
+            9217256,
+            9217266
+          ],
+          [
+            9217272,
+            9217285
+          ],
+          [
+            9217288,
+            9217298
+          ]
+        ],
+        "movement_tables": [
+          9282840,
+          9283448
+        ],
+        "converter_private_cells": 12,
+        "restricted_movement_strings": 3,
+        "runtime_verified": false
+      },
+      "screenshots": [
+        {
+          "issue": "save-new",
+          "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-0d478949-3b3f-4e27-a8eb-b669e12bc23b.png",
+          "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-save-new.png",
+          "sha256": "f18429320aa7af020fda2f76d6075bea256c680c6d0fc1029b8f43641fd1acf5",
+          "pixel_size": [
+            2560,
+            1369
+          ],
+          "observed_region": {
+            "x": 208,
+            "y": 497,
+            "width": 2102,
+            "height": 436,
+            "approximate": true
+          },
+          "runtime_confirmation": false
+        },
+        {
+          "issue": "unit-stats",
+          "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-c3acbd5b-e46b-4220-a58a-41398bf469d8.png",
+          "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-unit-stats.png",
+          "sha256": "78fd1622842d322c3c6247e31dc066d651f921f6545874114e3c5195b10f445d",
+          "pixel_size": [
+            2560,
+            1369
+          ],
+          "observed_region": {
+            "x": 504,
+            "y": 249,
+            "width": 1873,
+            "height": 271,
+            "approximate": true
+          },
+          "runtime_confirmation": false
+        },
+        {
+          "issue": "pilot-stats",
+          "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-f04d40db-0ba4-4ec1-a094-db0933a6b806.png",
+          "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-pilot-stats.png",
+          "sha256": "71c0bff4f8729d106259ffa9737410cefdb82a39e7cab785e4b44dcddf67b9ce",
+          "pixel_size": [
+            2560,
+            1369
+          ],
+          "observed_region": {
+            "x": 883,
+            "y": 316,
+            "width": 1515,
+            "height": 601,
+            "approximate": true
+          },
+          "runtime_confirmation": false
+        },
+        {
+          "issue": "mech-stats",
+          "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-a145682e-f22e-489b-af47-ccbd1ed1ce85.png",
+          "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-mech-stats.png",
+          "sha256": "9b4f0b089e29db9b9440e9d8dd285e01a0aef37a76a27563c29e18b66b81e8cb",
+          "pixel_size": [
+            2560,
+            1369
+          ],
+          "observed_region": {
+            "x": 124,
+            "y": 748,
+            "width": 2320,
+            "height": 507,
+            "approximate": true
+          },
+          "runtime_confirmation": false
+        },
+        {
+          "issue": "weapon-costs",
+          "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-a40d67c0-391f-490c-a252-fbf5950c168c.png",
+          "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-weapon-costs.png",
+          "sha256": "a524fcccd2b62b820202b871492c7f1461a43d2c9df77c37298504fa926bf207",
+          "pixel_size": [
+            2560,
+            1369
+          ],
+          "observed_region": {
+            "x": 132,
+            "y": 223,
+            "width": 2260,
+            "height": 1031,
+            "approximate": true
+          },
+          "runtime_confirmation": false
+        },
+        {
+          "issue": "weapon-types",
+          "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-e78714cc-e4a1-4ab7-b328-b577725e9206.png",
+          "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.10-weapon-types.png",
+          "sha256": "9d8823c57ce2e11f37e4af3f4462f16bb3e62d3b1cd0bd8b31c02fcd82b5b7f7",
+          "pixel_size": [
+            2560,
+            1369
+          ],
+          "observed_region": {
+            "x": 127,
+            "y": 223,
+            "width": 2292,
+            "height": 1038,
+            "approximate": true
+          },
+          "runtime_confirmation": false
+        }
+      ],
+      "all_legacy_layout_helpers_verified": 16,
+      "source_sha256": {
+        "tools/status_layout.py": "273bc4e389184f2df5ea398e8f926434d85ec9dbeb2af311de2b055c350bcbf1",
+        "tools/verify_status_layout.py": "b8ec21a4303c8446682dc363633ac7aededc9fa8203ba073ab269acac733f849",
+        "tests/test_status_layout.py": "8dca1b8d367f9dd85032d58eed235f092744b473a1ebb742efc161718aa2f0e4",
+        "work/translation/en/ui/status_layout.json": "b87244f55eb14bc0c6594355e8f3ddab47076de3d617c085537f8f6e4bb23c97",
+        "work/translation/en/ui/aiddata_art.json": "82745e87b49a22e9118dcb7cfd437d99b65bf3cd37ba74148b57ccb427470864"
+      },
+      "iso_verification": {
+        "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.10\\Tengoku-hen-English-0.5.10.iso",
+        "bytes": 5284102144,
+        "sectors": 2580128,
+        "files_verified_each_tree": 82,
+        "udf": "absent",
+        "plaintext_regions": 1,
+        "sha256": "c5dac335998eeb328fb5bf122b81af3d269bb187e8337294f6653e23166f9807",
+        "version": "0.5.10",
+        "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.10",
+        "replaced": {
+          "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+          "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+          "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+          "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+          "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+          "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+          "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+          "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+        },
+        "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+        "rpcs3_only": true,
+        "runtime_verified": false
+      },
+      "runtime_verified": false
+    },
+    "source_sha256": {
+      "tools/battle_layout.py": "69eb8af7d9e706fc9f95c66ead25f6232a8550d3e628ab6c1d4895340425304c",
+      "tools/verify_battle_layout.py": "441c29edb3d4bb13e0803f464248e52c2037ba14d54c7539d52969c265563af9",
+      "tests/test_battle_layout.py": "a68152da0a7fad256ee5c35939cc1ebc64ebfb920952e8c9450389c5a6515394",
+      "tools/ui_layout_text.py": "80c48b12a5e80bd93ee3a05e55caa10e49da40ef897bd18207d3936c633ce872",
+      "work/translation/en/ui/battle_layout.json": "d41e7e0c5ae6eb2de3e28dd3616fe38a70eac68464a3dc4c346b4ce97617507a"
+    },
+    "iso_verification": {
+      "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.10\\Tengoku-hen-English-0.5.10.iso",
+      "bytes": 5284102144,
+      "sectors": 2580128,
+      "files_verified_each_tree": 82,
+      "udf": "absent",
+      "plaintext_regions": 1,
+      "sha256": "c5dac335998eeb328fb5bf122b81af3d269bb187e8337294f6653e23166f9807",
+      "version": "0.5.10",
+      "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.10",
+      "replaced": {
+        "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+        "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+        "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+        "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+        "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+        "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+        "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+        "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+      },
+      "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+      "rpcs3_only": true,
+      "runtime_verified": false
+    },
+    "runtime_verified": false
+  },
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.10\\Tengoku-hen-English-0.5.10.iso",
+    "bytes": 5284102144,
+    "sectors": 2580128,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "c5dac335998eeb328fb5bf122b81af3d269bb187e8337294f6653e23166f9807",
+    "version": "0.5.10",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.10",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "runtime_verified": false
+}

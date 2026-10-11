@@ -23,6 +23,50 @@ validation is evidence from the local source workspace, not a promise that
 source-dependent checks run in a fresh clone.
 
 UI, library and voice work have separate coverage notes in [HANDOFF.md](HANDOFF.md).
+The [current UI gap audit](docs/UI_COVERAGE_2026-10-10.md) compares the released
+build with Jigoku and identifies substantial untranslated menu/help paths.
+The [0.5.3 UI expansion](docs/UI_EXPANSION_0.5.3.md) supplies reviewed
+translations across the complete 2,499-ID expansion catalogue and a local
+testing build. Live layouts and 23 generated-message bindings remain pending.
+The [0.5.4 startup fixes](docs/STARTUP_UI_0.5.4.md) address the five reported
+screenshots: explanation wrapping, selected No alignment, naming overlap,
+opening narration and the default MC name inside dialogue.
+The [0.5.5 font build](docs/FONT_0.5.5.md) matches SRW Z3's Rodin Bold
+letter raster and spacing, with recalculated wrapping.
+The [0.5.6 link/menu fixes](docs/LINK_LAYOUT_0.5.6.md) address speaker-name,
+dialogue and backlog link geometry, prologue headings, the SR Point explanation
+and command-caption centering.
+The [0.5.7 menu layouts](docs/MENU_LAYOUT_0.5.7.md) center the remaining map,
+Spirit and save captions, shorten crowded tabs and fix the Tactical Situation
+heading and team counter.
+The [0.5.8 status layouts](docs/STATUS_LAYOUT_0.5.8.md) translate the new-save
+question and movement types, compact terrain/stat labels, separate pilot
+full names and fit the Mech/Weapon Stats captions into their native fields.
+The [0.5.9 battle layouts](docs/BATTLE_LAYOUT_0.5.9.md) fit battle-preview,
+map-popup and transformation labels, restore compact Spirit indicators,
+translate Debris Field, remove the result Score suffix and fit Fast beside Cancel.
+The [0.5.10 title screen](docs/TITLE_SCREEN_0.5.10.md) adds the English logo,
+Heavenly Prison Chapter subtitle, retro-trans credit and matching build version.
+The [0.5.11 intermission and Library fixes](docs/INTERMISSION_LIBRARY_0.5.11.md)
+shorten and align intermission menus, connect every linked glossary description
+to English, remove Library caption quotes and translate the scenario chart.
+The [0.5.12 date, briefing and level-up checks](docs/BRIEFING_LEVELUP_0.5.12.md)
+verify the centered date drawer, translate the three military-report lines,
+compact the reversed DEF/SKL pair and remove the shared Score suffix.
+The [0.5.13 enemy-fleet narration](docs/FLEET_NARRATION_0.5.13.md) translates
+the two missing descent-to-Earth captions with their original row timing.
+The [0.5.14 Focus and font changes](docs/FOCUS_STYLE_0.5.14.md) use Focus/Foc
+for the Ki stat and restore the native outline masks used by Lv/SP labels.
+The current **0.5.18** build fixes the enemy Spirit band's slash separator and
+includes the accumulated UI fixes in a new public release. The user tests
+public releases, so separate local testing builds are insufficient delivery.
+The [0.5.17 category and stat fixes](docs/CATEGORY_UI_0.5.17.md) connect
+ordinary stage headings, all 83 map terrain names and assembled Spirit targets,
+and improve stat/training label spacing. The [0.5.16 narration pass](docs/NARRATION_0.5.16.md) connects all 197
+full-screen narration records, including 154 missing unique translations and
+later story introductions. It retains the [0.5.15 UI fixes](docs/UI_REVIEW_0.5.15.md), which repair stray kanji in
+native captions, enlarge level-up labels, align intermission and settings text,
+and translate the concluding narration.
 Repository creation does not publish a game patch. The user handles emulator
 navigation.
 
@@ -65,9 +109,8 @@ Every new release must work with
 See [release preparation](docs/RETRO_TRANS_RELEASES.md). Versions use `0.x.y`;
 repository administration does not assign a build version.
 
-The [0.5.2 playtest release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.2)
-uses an original-to-English ISO xdelta patch. In Retro Trans, click **Refresh
-catalog**, select the matching original Japanese ISO, and choose **Latest**.
-Manual **Apply xdelta** is also available. See
-[0.5.2 installation and compatibility notes](docs/RELEASE_0.5.2.md). This is
-a playtest release; in-game testing remains pending.
+Release **0.5.18** is being prepared with an original-to-English ISO patch and
+a direct upgrade from public **0.5.2**. In Retro Trans, click **Refresh catalog**,
+select the matching original Japanese or public 0.5.2 ISO, and choose **Latest**.
+Manual **Apply xdelta** is also available. This is a playtest release; in-game
+testing remains pending.

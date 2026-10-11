@@ -1,0 +1,4927 @@
+{
+  "schema": 1,
+  "version": "0.5.12",
+  "date_drawer": {
+    "caller": 1393096,
+    "cases": [
+      {
+        "quad": 30,
+        "mode": 0,
+        "left": 256.5625,
+        "width": 766.875,
+        "center": 640.0,
+        "y": 360.0,
+        "steps": 1666
+      },
+      {
+        "quad": 30,
+        "mode": 1,
+        "left": 256.5625,
+        "width": 766.875,
+        "center": 640.0,
+        "y": 360.0,
+        "steps": 1666
+      },
+      {
+        "quad": 40,
+        "mode": 0,
+        "left": 128.75,
+        "width": 1022.5,
+        "center": 640.0,
+        "y": 360.0,
+        "steps": 1666
+      },
+      {
+        "quad": 40,
+        "mode": 1,
+        "left": 128.75,
+        "width": 1022.5,
+        "center": 640.0,
+        "y": 360.0,
+        "steps": 1666
+      }
+    ]
+  },
+  "briefing": [
+    {
+      "id": "aid:26:16c",
+      "text": "Earth Federation forces: 34.8% of founding strength remaining.",
+      "condensed": true,
+      "advance_units": 859,
+      "limit": 900
+    },
+    {
+      "id": "aid:26:1c2",
+      "text": "The chain of command is disrupted.",
+      "condensed": false,
+      "advance_units": 561,
+      "limit": 900
+    },
+    {
+      "id": "aid:26:218",
+      "text": "Enemy Sidereal: strength, organization size, all else unknown.",
+      "condensed": true,
+      "advance_units": 830,
+      "limit": 900
+    }
+  ],
+  "briefing_source_unchanged": true,
+  "level_up_labels": [
+    "CQB",
+    "RNG",
+    "DEF",
+    "SKL",
+    "EVD",
+    "HIT"
+  ],
+  "score_suffix": "",
+  "screenshots": [
+    {
+      "issue": "date",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-2d2e0376-cebe-4101-8943-6448ecec96d6.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-date.png",
+      "sha256": "c27dbbd8c3579d9d1a2d7181a9f812ac6272a30f234dfb6da54e10c62938dd67",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "briefing",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-9f73a3bf-2a69-47ec-84cf-a4d4a6bc8711.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-briefing.png",
+      "sha256": "cb1e85d74ad04f99ca6d78fdc9436f8a96fbfb0659c7540af514bbc0d528455a",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "level-up",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-0c2d32a5-13f8-4593-9fd3-345d98f47484.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-level-up.png",
+      "sha256": "451e3b87da594e94984a28e3d743766b76ab05e3013972f00eb6b262413a4601",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "runtime_confirmation": false
+    }
+  ],
+  "prior_verification": {
+    "schema": 1,
+    "version": "0.5.12",
+    "widgets": [
+      {
+        "widget_offset": 636036,
+        "source_sha256": "22516e7f20a2d7636184d7d2709f1c01439f49917eb88c96a2449ffd523cf17a",
+        "source_widget_sha256": "567deb77d669998deb5e062bdd8451f4a002bd243734579750e10ac3c4d23d9d",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Pilot List",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.09804687509313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636068,
+        "source_sha256": "22516e7f20a2d7636184d7d2709f1c01439f49917eb88c96a2449ffd523cf17a",
+        "source_widget_sha256": "57d750f3285125f6b98a1a032f01a8edf00f42b6284dd3a19c509c80a7b66a85",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Pilot List",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.11142578115686774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636100,
+        "source_sha256": "1be7cf15a7f4b1c23166d92fc4084a065ed2361621b18a7cf97918ba1f390ffc",
+        "source_widget_sha256": "615ca64e9f6f85b1cb7d70e53fb2ff5aaf4c2b417f370bb3380b0ce5626ac7ec",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Training",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.09189453134313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636132,
+        "source_sha256": "1be7cf15a7f4b1c23166d92fc4084a065ed2361621b18a7cf97918ba1f390ffc",
+        "source_widget_sha256": "547584fd5c209a65cc609c295ab3332e8c3888f9cb8a9c9b21e6dfa24c216f00",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Training",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10461425771936775,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636164,
+        "source_sha256": "68099d7732c926ee2101730f4408be63373f3b780d3eb5f1f3add715de8f90cd",
+        "source_widget_sha256": "e08a24f9c6a086cdab716449bf9d08b2538058eaedfadae7c75070343e8cfc63",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Mech List",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10625000009313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636196,
+        "source_sha256": "68099d7732c926ee2101730f4408be63373f3b780d3eb5f1f3add715de8f90cd",
+        "source_widget_sha256": "ffaf33d8ff6ba1266927a8376aca5a69e0209ba1cb9c2b2abb0019eb8fb33160",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Mech List",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.12050781240686774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636228,
+        "source_sha256": "1b66b55a342c8e799bd92527352044116286cd7e293e8ce35594fa60f9fbe301",
+        "source_widget_sha256": "bcbe3440bf08bbc0b5e5264fe9ff75d32b55c9b79601d478ecf1e76aacb32ac8",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Upgrades",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10625000009313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636260,
+        "source_sha256": "1b66b55a342c8e799bd92527352044116286cd7e293e8ce35594fa60f9fbe301",
+        "source_widget_sha256": "aa7c4908b19d0f289ab8847bf1baf67a883b259e7d7549e401baf0e9d0c777fa",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Upgrades",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.12050781240686774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636292,
+        "source_sha256": "282e66666848a1b2f6fd0ad078d3d9e13a2264ed2a5a7d440897e33cdad9ce81",
+        "source_widget_sha256": "d78532a484c8fde626a1269999e500f3e15126fec50715b395b5dc253149744b",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Sub Orders",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.12402343759313225,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636324,
+        "source_sha256": "282e66666848a1b2f6fd0ad078d3d9e13a2264ed2a5a7d440897e33cdad9ce81",
+        "source_widget_sha256": "69672dac13da863d1fad98e17f47badbc662feb31d0dfb4161339477d7f8609b",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Sub Orders",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.14018554678186773,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636356,
+        "source_sha256": "f99f039a732762b249c7bdc53966ae257f862cc73f9a1fa0651baf5d29b5abe0",
+        "source_widget_sha256": "e126ddd661084d165f8a5eaa145d2e34869547db83462b4697eb96991077f0e6",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Pilot Swap",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.11513671884313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636388,
+        "source_sha256": "f99f039a732762b249c7bdc53966ae257f862cc73f9a1fa0651baf5d29b5abe0",
+        "source_widget_sha256": "d179952e0f629f3c353de8aa21e9ded27df23f9f6801c3005853bc301393330c",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Pilot Swap",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.13034667959436774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636420,
+        "source_sha256": "b1e60f871453f84ffe295ad48e7953ef9ae80e1024bb1e4f90feef7d3d559a94",
+        "source_widget_sha256": "0fb847605725bd6ef2fb97a88111289ab6104b851f43d9bcd23afa42110df511",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Power Parts",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.13154296884313227,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636452,
+        "source_sha256": "b1e60f871453f84ffe295ad48e7953ef9ae80e1024bb1e4f90feef7d3d559a94",
+        "source_widget_sha256": "2dc66bb0b5db5abe0cdbea42872b6023c64857d59b720dee1800d5a481f8f0c9",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Power Parts",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.14851074209436774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636484,
+        "source_sha256": "84b8b7187779f24f53abd2256b9da039ec0f9a46982884e20633e1676964ee45",
+        "source_widget_sha256": "56f9651e850f2bb41d7adbab842de4ff6af742ed4a576792e49855514a9361ca",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Swap Parts",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.12128906259313225,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636516,
+        "source_sha256": "84b8b7187779f24f53abd2256b9da039ec0f9a46982884e20633e1676964ee45",
+        "source_widget_sha256": "1b623f4f48bea304734c4eb93dd60fdc6053da3ea306afbd5322c3418c0766f1",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Swap Parts",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.13715820303186774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636548,
+        "source_sha256": "0f88566f7610ea7ba9de32c43878c305b418b529cc2bed9c622b170c8d784b29",
+        "source_widget_sha256": "c345cc6a6ea15384cbeb9a89e40c7950189719c30a5efb5c20e115810a08beaf",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Search",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.07753906259313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636580,
+        "source_sha256": "0f88566f7610ea7ba9de32c43878c305b418b529cc2bed9c622b170c8d784b29",
+        "source_widget_sha256": "f539b47f8a2838dc9fb7e105f007aaa6a0cc68b339cf4786c1d61d0a6e91f6c0",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Search",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.08872070303186774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636612,
+        "source_sha256": "b944a5c4d5f9b55c02b908d12751c83789577f853c7fb084ef79ed34a4cfaf6d",
+        "source_widget_sha256": "535f8efffa3505f19ad574540acebea68b96a3f9633d5f0b4e8eb2c0da85447a",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Options",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.08642578134313225,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636644,
+        "source_sha256": "b944a5c4d5f9b55c02b908d12751c83789577f853c7fb084ef79ed34a4cfaf6d",
+        "source_widget_sha256": "98db445951ebd764cd3cb99f0c73f8fcd0051ed0287094022c22960bc33e7634",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Options",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.09855957021936775,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636676,
+        "source_sha256": "eb69a4aeb9f3ad6935abeeb658fc28b17ec43b03d51efb20a429e5aab8d09d7f",
+        "source_widget_sha256": "e81cee823691b35eb120d294f30bdae1f237a9b94c86b2c7a05dc2f719289366",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Save",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.05361328134313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636708,
+        "source_sha256": "eb69a4aeb9f3ad6935abeeb658fc28b17ec43b03d51efb20a429e5aab8d09d7f",
+        "source_widget_sha256": "e8208ad7639b9c8117575015ff7c3253b6e4955a5c4b0615b54229b5eef3ca01",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Save",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.06223144521936774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636740,
+        "source_sha256": "06e430a37a061e7c95606a42a2d16bb3df8dadd89d9058f20e3285fc52359cfd",
+        "source_widget_sha256": "f1510b8581fa37f357d8f0f32ff97edb58c824983035d12ab60556f86cdd172b",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Load",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.054980468843132256,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636772,
+        "source_sha256": "06e430a37a061e7c95606a42a2d16bb3df8dadd89d9058f20e3285fc52359cfd",
+        "source_widget_sha256": "6ec56220c3292444de5bb722a1d6306d0ae0c75a18e9b50941cac6948edf606b",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Load",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.06374511709436774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636804,
+        "source_sha256": "ad6a7d4123d00e091b2f04162226cafdef44448d82a349f090d1b601c107e3b8",
+        "source_widget_sha256": "f3f62e54c642d453b324209ffff9c44bd7105776923bfd0a003ad9fd19740f5d",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Next Map",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10214843759313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636836,
+        "source_sha256": "ad6a7d4123d00e091b2f04162226cafdef44448d82a349f090d1b601c107e3b8",
+        "source_widget_sha256": "fff190efa036257a5bd6ea6b53b8d6d240ae614a08c689a6bd49175c9fa12629",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Next Map",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.11596679678186775,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636868,
+        "source_sha256": "1974858e4c271b37394cdb88fc75d47abc3c93b03048bedc2b9934dd8589d624",
+        "source_widget_sha256": "c2b13ee01283c21adebe4ba949895fe8113ed7bcbc327b082922f6b9c9dad047",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Carry Over",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.11787109384313225,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636900,
+        "source_sha256": "1974858e4c271b37394cdb88fc75d47abc3c93b03048bedc2b9934dd8589d624",
+        "source_widget_sha256": "1c4c4975f25da117dfaed4315d53993d4c542141a83bd1b077a413419aae3fc7",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Carry Over",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.13337402334436774,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636932,
+        "source_sha256": "9edf01c9db7bc9ea43c1b9f0bc9d25dc53eb5431d274205904efcf22c8dc232d",
+        "source_widget_sha256": "26cf3e3d16f98b00ab462023b4e071eed4f0b38e0fe2c45d027f07079d25cfdd",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Route Select",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.13974609384313225,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636964,
+        "source_sha256": "9edf01c9db7bc9ea43c1b9f0bc9d25dc53eb5431d274205904efcf22c8dc232d",
+        "source_widget_sha256": "718066c3230191f918fd99636434a6a2274eb50b79b0bf097a71d7211c907bad",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Route Select",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.15759277334436775,
+        "mode": 0
+      },
+      {
+        "widget_offset": 637380,
+        "source_sha256": "42d83a9c9c66d6bc38f3770cf809bf87130d558243f4c726e50f2560ef6c8561",
+        "source_widget_sha256": "2edafee8a73f4e1d9bd5f3d9c0b6bc77a70160917769cbd7579d600d3b66d72f",
+        "source_xy": [
+          -0.0023437500931322575,
+          -0.03611111268401146
+        ],
+        "en": "Network",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.09189453134313226,
+        "mode": 0
+      },
+      {
+        "widget_offset": 637412,
+        "source_sha256": "42d83a9c9c66d6bc38f3770cf809bf87130d558243f4c726e50f2560ef6c8561",
+        "source_widget_sha256": "80cae7d956c9a1f10914694821383db2dea8745b0832eb7aded3639bb102038c",
+        "source_xy": [
+          -0.0054687499068677425,
+          -0.0416666679084301
+        ],
+        "en": "Network",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10461425771936775,
+        "mode": 0
+      },
+      {
+        "widget_offset": 636996,
+        "source_sha256": "4085669b34a492911f0ec6bc5345ef6403a2bc3cfc47664c2307040a926fbcce",
+        "source_widget_sha256": "5f45aa20d88885b05c4670828a68364f14eff6db80db98c512b9e6d52aa0cd70",
+        "source_xy": [
+          -0.11328125,
+          -0.03611111268401146
+        ],
+        "en": "Team Setup",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.12812500000000002,
+        "mode": 0
+      },
+      {
+        "widget_offset": 637028,
+        "source_sha256": "212bd259dd808c602d6271df5e8344267625f482a458c7d1f2dda8e30e5279c0",
+        "source_widget_sha256": "34a87b277c4f7cfefeac7c08964bf4a5fff938e6608c5f1900d05104d35ffdfd",
+        "source_xy": [
+          0.01171875,
+          -0.03611111268401146
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637060,
+        "source_sha256": "5b2c176dcfb7a28b7004187352c9c19d33109094b66fd5d113d35176a2844aad",
+        "source_widget_sha256": "9baf308328e1066b113fa7a4967a3e5a93ad18b1dc67c8f47106be118f22dd1d",
+        "source_xy": [
+          -0.03671874850988388,
+          -0.03611111268401146
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637092,
+        "source_sha256": "4085669b34a492911f0ec6bc5345ef6403a2bc3cfc47664c2307040a926fbcce",
+        "source_widget_sha256": "7f4e3cea616d1b09ca190ccd3fba728345bf2bfd2e4f8e0d2c4fb6d1a0f6f418",
+        "source_xy": [
+          -0.07421875,
+          -0.0416666679084301
+        ],
+        "en": "Team Setup",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.1416015625,
+        "mode": 0,
+        "font_metrics": [
+          31,
+          31,
+          29,
+          31,
+          31
+        ]
+      },
+      {
+        "widget_offset": 637124,
+        "source_sha256": "212bd259dd808c602d6271df5e8344267625f482a458c7d1f2dda8e30e5279c0",
+        "source_widget_sha256": "52cccfd77655ad668694abd6b251abd0f0e23661978e91f7efb4ac0768e64679",
+        "source_xy": [
+          0.01796874962747097,
+          -0.0416666679084301
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637156,
+        "source_sha256": "5b2c176dcfb7a28b7004187352c9c19d33109094b66fd5d113d35176a2844aad",
+        "source_widget_sha256": "c16bdcc9e8046f60b302c8dbeb45735e23f1f66467e491fdb0b9290261af1968",
+        "source_xy": [
+          -0.03671874850988388,
+          -0.0416666679084301
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637188,
+        "source_sha256": "cac76d39d4dfca4181b853a285e7fd1c71d520818f08bf1e8eba908d56626a8c",
+        "source_widget_sha256": "b511fec08e4e1fe53b1b2617a4c17de62685b00e026c63aa54f1c0b7e22d3f1b",
+        "source_xy": [
+          -0.11796875298023224,
+          -0.03611111268401146
+        ],
+        "en": "D-Trader",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10009765625,
+        "mode": 0
+      },
+      {
+        "widget_offset": 637220,
+        "source_sha256": "83473039ab67e8d34db874242075f64310d1a6e184986e20871a406d82d29548",
+        "source_widget_sha256": "2b70f12d85bd4d2ba3e0b16da00d2542eac074ff218dd961713c55859b6afb10",
+        "source_xy": [
+          -0.07890625298023224,
+          -0.03611111268401146
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637252,
+        "source_sha256": "9f9a59ae6bd3b9dc46cdeb7856e97aa2c838b1f17325ec929499865d822aa4ca",
+        "source_widget_sha256": "7034bb63d57921db97b0211dd6712f65dfa662fcc683f88d4244216b342e69a9",
+        "source_xy": [
+          -0.04765624925494194,
+          -0.03611111268401146
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637284,
+        "source_sha256": "cac76d39d4dfca4181b853a285e7fd1c71d520818f08bf1e8eba908d56626a8c",
+        "source_widget_sha256": "37140843e6cfc17da49fbfecc0a3f7c894773141c8a9cdefe1f10478a4cbe891",
+        "source_xy": [
+          -0.13515624403953552,
+          -0.0416666679084301
+        ],
+        "en": "D-Trader",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.11057128906250001,
+        "mode": 0,
+        "font_metrics": [
+          31,
+          31,
+          29,
+          31,
+          31
+        ]
+      },
+      {
+        "widget_offset": 637316,
+        "source_sha256": "83473039ab67e8d34db874242075f64310d1a6e184986e20871a406d82d29548",
+        "source_widget_sha256": "c15c219faa52bb7550324b1946b04f9f5da0adc944a4d8c80b179e275a10c21d",
+        "source_xy": [
+          -0.08984375,
+          -0.0416666679084301
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 637348,
+        "source_sha256": "9f9a59ae6bd3b9dc46cdeb7856e97aa2c838b1f17325ec929499865d822aa4ca",
+        "source_widget_sha256": "12b5c6aab0dc033449592a8d309df7c9e9af64fb9088b8cedbe0c2c868c7d3bd",
+        "source_xy": [
+          -0.05546874925494194,
+          -0.0416666679084301
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621220,
+        "source_sha256": "75626437d9211febc559598c63c0c9734792f10c7d27853353f5d3ee6fa4ba46",
+        "source_widget_sha256": "1c6c398ceb9380114b9221920859533ec37e236557d65fa197a13636c3509f4d",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "System",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.07871093751164153,
+        "mode": 0
+      },
+      {
+        "widget_offset": 621252,
+        "source_sha256": "5eb9c3686c1d136522712ab4b229d4a69314f49c69ea30b43a10cab1f4c79a30",
+        "source_widget_sha256": "380164f0f2f9e288c10c1424a668f5202b25d2fc30d904cccb0d6327101b3b15",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Library",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.07802734376164153,
+        "mode": 0
+      },
+      {
+        "widget_offset": 621380,
+        "source_sha256": "7c275b4ab2852cd86cbb1d71979dccca7d828e15e3e1e2efee8415f8cd1e8810",
+        "source_widget_sha256": "87418238885da38a7cdb8735c74dd2e3742e6968961661d68442178894d08aa5",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Bonus Maps",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.11735839844914153,
+        "mode": 0
+      },
+      {
+        "widget_offset": 621508,
+        "source_sha256": "b607b4fdb3ca2586786a40e7702923034406afa2c427c3266c97fcb731c9e3d6",
+        "source_widget_sha256": "0f08f59a889456cbe9db24c34c92a2936fb428e5ccb929e918b0bd8ac060326b",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Upload",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.07734375001164154,
+        "mode": 0
+      },
+      {
+        "widget_offset": 621540,
+        "source_sha256": "e10479382ca626d344384023467e10e86e36dd9933dbc94e68a083035ec70a9e",
+        "source_widget_sha256": "21240d3dd663ee7ed5f96f8c5287468631c42a6598170ce725b3fb13f715871f",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Download",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.10742187501164153,
+        "mode": 0
+      },
+      {
+        "widget_offset": 621668,
+        "source_sha256": "824c87f2b484c07e7f02575c758494a815fe59270a6b4a593ce382de23ef4d19",
+        "source_widget_sha256": "0d4841aedebdf5ed5529a39c713e7a8391e459c44b99fa44e58777d31f143f8c",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Rengoku Link",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.1320068359375,
+        "mode": 0,
+        "font_metrics": [
+          25,
+          25,
+          23,
+          25,
+          25
+        ]
+      },
+      {
+        "widget_offset": 621700,
+        "source_sha256": "b250eb05bd6db651326fbd41817ec5d8f2d9276434f2ae42f67c78987b13ee4b",
+        "source_widget_sha256": "01a3ed7e31ee7e69e2d100fb87c323c547201f51285c6d8ccf193be44e956a24",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621732,
+        "source_sha256": "6e57980f5fe79f8dfe870153c8edce3e30e29078b3e6655caaf2b9a2aeb8f3d8",
+        "source_widget_sha256": "d5ac65c191504c29a667c6b00ddb28182fa30dbeb2aece4b35dfe39f27212472",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621764,
+        "source_sha256": "9c9436fd55fd53389f7d867f1d5cc5bba8d1d32e56c75d80e07040997531f7c2",
+        "source_widget_sha256": "a44d6b4986624ee21f6d7d319ab9b9a0dbbec503c11cd5e79743844eb47375a8",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621796,
+        "source_sha256": "db0c22e6a80d38f5b7b1395fd85cdf3ba3886c660effa65afc256b889effec16",
+        "source_widget_sha256": "121a2aaac2623b6e83e2cb9c9bcd7a44fc794c21cada1bfdc0eb276c1a927516",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621348,
+        "source_sha256": "abecf1c7fac49e2a686567a7a7728734dc217ed078a49c75637d5ba4e05cdbfb",
+        "source_widget_sha256": "b20b8efc908b02380e4fd9c66eb70dbf72afea7359b90d32f6d22e4e4dff908e",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "PS Store",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": -0.08439941407414153,
+        "mode": 0,
+        "font_metrics": [
+          25,
+          25,
+          23,
+          25,
+          25
+        ]
+      },
+      {
+        "widget_offset": 621412,
+        "source_sha256": "884dbcd99485ec5aa995b1e372c5cfc8e15d2f69c698f8b13b6a74cf54a7c4ad",
+        "source_widget_sha256": "2c670d5245f3e48d83349761ac4ed6eaf94367300423615349400e855efd005a",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621444,
+        "source_sha256": "2fc47ae3e04574a4fbf525a1f1f63512aefe8c1665f834f284e1f91bb849b812",
+        "source_widget_sha256": "c138c820bf05c4b8365556c45fd98d455d5cd7fc4df280194c5d5a3eba38c058",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 621476,
+        "source_sha256": "eba47d8983e385a3f7966220965942b8e789c325ecaf54c22576557d7d6f2fb2",
+        "source_widget_sha256": "aacbccfad125550f337bad3431c36c67a25fae3251a870fd07cae4b44df4da69",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 609028,
+        "source_sha256": "9b10f782b271bac7d799285962f735efd5136fe13090c425e952ee5da0d24ed9",
+        "source_widget_sha256": "4f998a7212557a1c68a3e31f4f316d70b53e0ef9ed4b127d703d8a78cf1d3eb4",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Robot Library",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": 0.06425781248835846
+      },
+      {
+        "widget_offset": 609060,
+        "source_sha256": "9b10f782b271bac7d799285962f735efd5136fe13090c425e952ee5da0d24ed9",
+        "source_widget_sha256": "b65f701237893fc66c34385bcc769e3f5b45f35afc2985493f6e88161d80e644",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Robot Library",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": 0.06425781248835846
+      },
+      {
+        "widget_offset": 609092,
+        "source_sha256": "a87d27699d255c59eada64e5eaf77d479a49e64ac1064f9a67101f37c4ef0e37",
+        "source_widget_sha256": "d09b760c8accd5020f434cba2b4dd056072b401f826762875bc3f9e716eca887",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Character Library",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": 0.038061523425858466
+      },
+      {
+        "widget_offset": 609124,
+        "source_sha256": "4d1e2314d9811d72a2a4b846df9085d0083349c3f4a4554de71ddb729422f4c3",
+        "source_widget_sha256": "b3670c3d4e536fd6cf6c86a92ad44e448e803bbbb19a490b727938de8a38bb32",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Glossary",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": 0.04799804686335847
+      },
+      {
+        "widget_offset": 609156,
+        "source_sha256": "c4bd0a6100c35418098a16f93eb1b03aeb034d3b74d15e004d18c4dc6beaa4cb",
+        "source_widget_sha256": "24ceb2062a233fa7147540ce64154edf328df0243a5d64b30719c4ab31df5bf5",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Sound Select",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": 0.09948730467585847
+      },
+      {
+        "widget_offset": 609188,
+        "source_sha256": "df58877b229671cc902470b45fb106d095e211a122474c79a365af7fe110a733",
+        "source_widget_sha256": "8c897ef4e1b3a2d35b6b4bc8a421db2809c3a0300bde4049479b3478fbeff619",
+        "source_xy": [
+          -0.0007812500116415322,
+          0.0027777778450399637
+        ],
+        "en": "Scenario Chart",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values.",
+        "x": 0.07600097655085847
+      },
+      {
+        "widget_offset": 634788,
+        "source_sha256": "d12e08a069f2c049bb4930070a2e427bdb3f741fb9d7a162d246417a571e21da",
+        "source_widget_sha256": "8c375819cbba5644e5eaf43c1376f76f5d66780ec114ee664cb66e0ab3059d80",
+        "source_xy": [
+          -0.538281261920929,
+          0.7583333253860474
+        ],
+        "en": "＜　　 turns＞",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 634884,
+        "source_sha256": "50f67a29edfe84083d145e98cb121d0937f3c6ccfc1065ee24cd2262484e86f9",
+        "source_widget_sha256": "a9b1fbbbde8cefa459b165318c9e899ed0509f6c2aaefb245bdb8c4cd2dbf159",
+        "source_xy": [
+          0.9117187261581421,
+          0.49166667461395264
+        ],
+        "en": "\n\n",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 634916,
+        "source_sha256": "c6d5a78e40d0d1b10e47e3dd53903a77b1225ab813487bc3f4cf0140f2cf2ef8",
+        "source_widget_sha256": "c43b0cee8f4b7f692e38fb71a1dad7b2fb1dc2dc9f183541378e771eb9fd919a",
+        "source_xy": [
+          -0.7132812738418579,
+          0.7583333253860474
+        ],
+        "en": " Clear",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 634948,
+        "source_sha256": "635eacc9a7dd758f9aeecafd398ab00f8e15448ac5d305e25fc3212a5ecdb893",
+        "source_widget_sha256": "e197e3263c335f0e8c63659c9d720479b246305087485806c044088c32d1956d",
+        "source_xy": [
+          -0.813281238079071,
+          0.7583333253860474
+        ],
+        "en": "Ep",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635268,
+        "source_sha256": "d12e08a069f2c049bb4930070a2e427bdb3f741fb9d7a162d246417a571e21da",
+        "source_widget_sha256": "c5c92c02dc7a09b12b934eaf9f778ed0b043f93408f20f9d4521f08454200b10",
+        "source_xy": [
+          -0.538281261920929,
+          0.7583333253860474
+        ],
+        "en": "＜　　 turns＞",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635332,
+        "source_sha256": "bfd6ad9358256d7b4298faed2cce6105572d748af100b81bb382d6c7922ac9e0",
+        "source_widget_sha256": "91963e134650fba992453dc89ae154e6060958f72034212172e8dd6906305c0f",
+        "source_xy": [
+          0.711718738079071,
+          0.49166667461395264
+        ],
+        "en": "Teams\nShips",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635364,
+        "source_sha256": "50f67a29edfe84083d145e98cb121d0937f3c6ccfc1065ee24cd2262484e86f9",
+        "source_widget_sha256": "fbd474b3173acf87a2634726a9aac00098b5b250f50e1ff18d8ee8acf5cea36a",
+        "source_xy": [
+          0.9117187261581421,
+          0.49166667461395264
+        ],
+        "en": "\n\n",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635396,
+        "source_sha256": "635eacc9a7dd758f9aeecafd398ab00f8e15448ac5d305e25fc3212a5ecdb893",
+        "source_widget_sha256": "9ae995de323f079c38e0e9cb0460fbcdd2b3c5945d9cc95458499d02bbc3b38d",
+        "source_xy": [
+          -0.813281238079071,
+          0.7583333253860474
+        ],
+        "en": "Ep",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635428,
+        "source_sha256": "c6d5a78e40d0d1b10e47e3dd53903a77b1225ab813487bc3f4cf0140f2cf2ef8",
+        "source_widget_sha256": "786af91d8ae2db3efbd06490e0e92b94c2dc27c11b20d71bb744183aaa13ab2b",
+        "source_xy": [
+          -0.7132812738418579,
+          0.7583333253860474
+        ],
+        "en": " Clear",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635748,
+        "source_sha256": "d12e08a069f2c049bb4930070a2e427bdb3f741fb9d7a162d246417a571e21da",
+        "source_widget_sha256": "23875c1b353962631c22027efc3a70b655792a91cd86c4f5ad69a8fcee3de981",
+        "source_xy": [
+          -0.538281261920929,
+          0.7583333253860474
+        ],
+        "en": "＜　　 turns＞",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635844,
+        "source_sha256": "50f67a29edfe84083d145e98cb121d0937f3c6ccfc1065ee24cd2262484e86f9",
+        "source_widget_sha256": "73373826d9e9e595d7b1a9cda585488665580e2f8e2ee636b54bdd6920c1bc3b",
+        "source_xy": [
+          0.9117187261581421,
+          0.49166667461395264
+        ],
+        "en": "\n\n",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635876,
+        "source_sha256": "afa41f8857889e22ca663c22d1442d8f049122db2ef85e07e6e161baed8932e4",
+        "source_widget_sha256": "7468e95cb96231d83be9b05511c682f4a2c013d7c45e2a4f952cf550f82ef188",
+        "source_xy": [
+          0.7054687738418579,
+          0.4972222149372101
+        ],
+        "en": "Teams:\nShips:",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635908,
+        "source_sha256": "888364e9d574904c2ffccd4f5013f550fd5fe84336b2a4d321cd7e15e4611f7e",
+        "source_widget_sha256": "7cb813c42e02f162e22aa71c5fe8f9992eab7d854175be768e3b77247f730cce",
+        "source_xy": [
+          -0.50390625,
+          -0.0055555556900799274
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635940,
+        "source_sha256": "888364e9d574904c2ffccd4f5013f550fd5fe84336b2a4d321cd7e15e4611f7e",
+        "source_widget_sha256": "2a2311077920453e9db8c41c518d1017683ea5dbca2d12447116552d719eee03",
+        "source_xy": [
+          -0.5414062738418579,
+          0.3055555522441864
+        ],
+        "en": "",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      },
+      {
+        "widget_offset": 635972,
+        "source_sha256": "635eacc9a7dd758f9aeecafd398ab00f8e15448ac5d305e25fc3212a5ecdb893",
+        "source_widget_sha256": "025cfa2761bec3dabbd635ad1d19e42b5eb6459f5c32dbfd8bb61ba9fd5b27b8",
+        "source_xy": [
+          -0.813281238079071,
+          0.7583333253860474
+        ],
+        "en": "Ep",
+        "notes": "Screenshot-bound intermission / Library label; preserve state and live values."
+      }
+    ],
+    "native_keywords": {
+      "native_keyword_entries": 143,
+      "native_keyword_descriptions": 286,
+      "entries": [
+        {
+          "id": 0,
+          "name": "Shikuu",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574036,
+          "source_record_sha256": "017bbc2e5f547647aa5a4cbbd6cbed270d593373d7d58520813d526cff4ecb59"
+        },
+        {
+          "id": 1,
+          "name": "Bloodstained Eyes",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571852,
+          "source_record_sha256": "cab3c6dd4c02799d1178e328bc511348026e1bf6dd046de5dc80102ba3164190"
+        },
+        {
+          "id": 2,
+          "name": "Advent",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571300,
+          "source_record_sha256": "9fdb2bea54f8c9046da9c24c90d7d43c86c119745221a85d9fbc1a14e8da1b54"
+        },
+        {
+          "id": 3,
+          "name": "Chrono",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572044,
+          "source_record_sha256": "0aaa5b764a7389bfadc8ea4368bf21a8f1502bc9cf4e6b23c382a378dc25f96c"
+        },
+        {
+          "id": 4,
+          "name": "Quarreling Twins",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573988,
+          "source_record_sha256": "b169f0f7cfc9379f0907d2cf631733fe5bb3285b4f33184772b6221f993a0cae"
+        },
+        {
+          "id": 5,
+          "name": "Sphere",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574156,
+          "source_record_sha256": "e26502137a9c03e30d8a05cb129cb7ca465fd7fbbf313e5d8989a526f350f559"
+        },
+        {
+          "id": 6,
+          "name": "Gadlight",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572644,
+          "source_record_sha256": "3985e0760934ebf402f9e50fb795b23e77a4131ba6636af4bcbfb7106e715008"
+        },
+        {
+          "id": 7,
+          "name": "New Earth Empire",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573604,
+          "source_record_sha256": "092f60e96a3f35d61fcf725db0d8359c2b61a2e297f8d441a0c219499135b5ba"
+        },
+        {
+          "id": 8,
+          "name": "Wrath Babylon",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573940,
+          "source_record_sha256": "891546f6d4a4fbbd0ecb4443f304dd8d754a4ae95ce33a3d08166a69c5c60da3"
+        },
+        {
+          "id": 9,
+          "name": "Dimensional Power",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573172,
+          "source_record_sha256": "a7410ee70a48d297305f4640ad9fe51f0071f6ee745e34f14e8926109d80e876"
+        },
+        {
+          "id": 10,
+          "name": "Insaraum",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573052,
+          "source_record_sha256": "1ca38984b70b7ebde8c7382960173ffe81b59f6024f181196c55be5c7f060cd2"
+        },
+        {
+          "id": 11,
+          "name": "ZONE",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574708,
+          "source_record_sha256": "a6f4ff567a45dd41df9ab163d27775a3286ad98703a8a1e59038696519f588cb"
+        },
+        {
+          "id": 12,
+          "name": "Earth's Dimensional Power",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572332,
+          "source_record_sha256": "61ab06202ca9d6553dbd5b52c8bf9f677fba582b5be4436a4964f2fdc0cc9793"
+        },
+        {
+          "id": 13,
+          "name": "DEM Corporation",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572212,
+          "source_record_sha256": "f476ea407b6c7b16d2ba27ad700efdbef0c4e0bd9ff38c3e6a7b81228b04887b"
+        },
+        {
+          "id": 14,
+          "name": "Time Prison",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574372,
+          "source_record_sha256": "01dd0f820b5c4300bb6bb3080691e19b07e9e2ac7a24d6355c2306d9c5eea699"
+        },
+        {
+          "id": 15,
+          "name": "New Japan",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573676,
+          "source_record_sha256": "70997babf970941989418bf51e852b43dbe5499bb34ee02b6ce6f99d60d6029c"
+        },
+        {
+          "id": 16,
+          "name": "Time Prison War",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573196,
+          "source_record_sha256": "c53cbdd662f8488f7f95d7fc4078c348a2a7755ed3ad478042be69e2740a1390"
+        },
+        {
+          "id": 17,
+          "name": "Beast Hunter",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571828,
+          "source_record_sha256": "b2fc9bda1c865bbc47bcc87f242ae6fbb74f71d4f44042c87f492cce560f519d"
+        },
+        {
+          "id": 18,
+          "name": "Nurse-san",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573700,
+          "source_record_sha256": "988b838502b0d87de1d6efd780e22752f31d48e3802c5f8c39299c344c1d72ec"
+        },
+        {
+          "id": 19,
+          "name": "Shinya",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574060,
+          "source_record_sha256": "8bb020fdc0e7a84f174f1ebe735c08261160680ce57ae95120e528e7e74924c0"
+        },
+        {
+          "id": 20,
+          "name": "Misako",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573532,
+          "source_record_sha256": "08bbbb642ad223f69ceb0280a617030810722187a1873dcc0117e72e0642f421"
+        },
+        {
+          "id": 21,
+          "name": "Amalgam",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571468,
+          "source_record_sha256": "b5a1aeeea0f0072ec513aa81056ef4f227cb0160855ff3394ec5115599f42987"
+        },
+        {
+          "id": 22,
+          "name": "Aquaria City",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571444,
+          "source_record_sha256": "88c867c31d7c41beaef485deb2d325e3369edc55328acdc37f57d80b9c932222"
+        },
+        {
+          "id": 23,
+          "name": "Whispered",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574492,
+          "source_record_sha256": "09ecb33eb6ff89deb6e7b2b741ad4ef74b7b6d690e2c8416d9ec207fc87a6090"
+        },
+        {
+          "id": 24,
+          "name": "Geminis",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573124,
+          "source_record_sha256": "bcd8007387a1d00b050a3856c33cebb618f453e31b1871123f31209c94440447"
+        },
+        {
+          "id": 25,
+          "name": "Element",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572380,
+          "source_record_sha256": "479b56bf5cd6442a5b9ca6507687a09d82a55ad2102e4149c9ce6e94f3cb8061"
+        },
+        {
+          "id": 26,
+          "name": "Gen Fudou",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572620,
+          "source_record_sha256": "f19f108fe6c4aca3ea7022162e45eed789b5ad5acac52e87e38371684392b57e"
+        },
+        {
+          "id": 27,
+          "name": "NERV",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573628,
+          "source_record_sha256": "b7efe3a93f04a59121edb430842ab695b7101e81eb22618c726edc92671fc87e"
+        },
+        {
+          "id": 28,
+          "name": "UN",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574420,
+          "source_record_sha256": "40da7efd87a5bd638ca5643f0da880b05e0373f476044fe285c3d95b1b23277e"
+        },
+        {
+          "id": 29,
+          "name": "Odaiba Incident",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572116,
+          "source_record_sha256": "754a27e79d5752451a39d90748625710f26b6faba7780501b804c637067f926c"
+        },
+        {
+          "id": 30,
+          "name": "Tenshi",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571540,
+          "source_record_sha256": "3faf50c9b5eec83da5da9948eb2bee4eda443d05dd84e9ff8c303a5799f6a2d0"
+        },
+        {
+          "id": 31,
+          "name": "UCW",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574396,
+          "source_record_sha256": "31f65e274ead5f93ef0fc49f69e86b55e309a97589c816fd32895685488c138a"
+        },
+        {
+          "id": 32,
+          "name": "ZEXIS",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574660,
+          "source_record_sha256": "aa83de200cd50992ad503b1dd551f22e57b2acc23ef03b6e28358a096f76b86b"
+        },
+        {
+          "id": 33,
+          "name": "ZEUTH",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574636,
+          "source_record_sha256": "04c40e41ebe961adf9f2d3ad908f645e63fe2ba8a14da2ab56502804f68dc221"
+        },
+        {
+          "id": 34,
+          "name": "Geminia",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573100,
+          "source_record_sha256": "330db7f38a98916061700eb7d8ce1b918db8c60847ebb40d19750821ef9207f8"
+        },
+        {
+          "id": 35,
+          "name": "Avalon",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571732,
+          "source_record_sha256": "ba26d6e0e09a7b62a19a1ba7ceb49dad1a794e8917e823586a612dd1cf136638"
+        },
+        {
+          "id": 36,
+          "name": "Neo Spacequake",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574012,
+          "source_record_sha256": "1f24292d41b8baa612651061f309dd8868d8ebef9804216b530c31af8fa94d12"
+        },
+        {
+          "id": 37,
+          "name": "messenger",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573460,
+          "source_record_sha256": "c6052b31f465ce0bb04065ced9c7a98ce74d8390529151ac8a9c0f3b9938095b"
+        },
+        {
+          "id": 38,
+          "name": "family accident",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572524,
+          "source_record_sha256": "4eb663517530fc2812e37d25c4e8b0e63708a0eced2cded93c8c20e4b5eeafd5"
+        },
+        {
+          "id": 39,
+          "name": "Hideauze",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572956,
+          "source_record_sha256": "624f37f0a9df4a7d8ce7bb4f8c5566100e501b7c3b45ef2683f5b3289d3086c2"
+        },
+        {
+          "id": 40,
+          "name": "Yunboro",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574540,
+          "source_record_sha256": "7a80d82699666e422da489fa208824c20a03ca5b057fa872b41c72b8f84f9185"
+        },
+        {
+          "id": 41,
+          "name": "Mountain Cycle",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573580,
+          "source_record_sha256": "7a32e7e8c45989a112d0cbe65cdc08045bec09539cdc58b850222886676f219c"
+        },
+        {
+          "id": 42,
+          "name": "Sphere Reactor",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574204,
+          "source_record_sha256": "111bb28fccb251b5dd1f77520d003d7f21e157402f432d091627f4fc5586c1fa"
+        },
+        {
+          "id": 43,
+          "name": "Freeden",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572572,
+          "source_record_sha256": "c84693e44e0b054f43c78021e153315a041553927bc97e5c7611f271d3136947"
+        },
+        {
+          "id": 44,
+          "name": "Baal",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571756,
+          "source_record_sha256": "dc8259c529a9b322f7c29615778e24db1346be71c542102d61de94fc20d64c6e"
+        },
+        {
+          "id": 45,
+          "name": "Fraternity",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572548,
+          "source_record_sha256": "2e5beaebf55b558b2da7aba3f13a572304421e6620f0cca4669f55f08cfe03f1"
+        },
+        {
+          "id": 46,
+          "name": "Topless",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574324,
+          "source_record_sha256": "2b2cddb378ec64afc03dcb2d7fade66e37e07a05303755a6eda944759851e267"
+        },
+        {
+          "id": 47,
+          "name": "Exotic Maneuver",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572356,
+          "source_record_sha256": "40b9583f733b093b321e8f7b5e8dc95caae589609ccb090c20d6149229789ff1"
+        },
+        {
+          "id": 48,
+          "name": "Militia",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573508,
+          "source_record_sha256": "85a84b2250c107df7aaadd9b3d7d369f1a33455e81f9b20a2b1bfe9956a4397e"
+        },
+        {
+          "id": 49,
+          "name": "Time Stopped",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574300,
+          "source_record_sha256": "2ce6be2a58e064bdc2b6d2f4168f5020bc0599b120838659b749ea6622ff29b8"
+        },
+        {
+          "id": 50,
+          "name": "Moonlight Butterfly",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573556,
+          "source_record_sha256": "b8090bd272a24bfd2951d3b76b3386455e869ba7464d7cf7c1faa0295862143b"
+        },
+        {
+          "id": 51,
+          "name": "Laplace's Box",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573340,
+          "source_record_sha256": "dbab0eef90ddf071d9c84cc6e7be399985af397fba7269b26c5f3983fe464a3e"
+        },
+        {
+          "id": 52,
+          "name": "Veda",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574468,
+          "source_record_sha256": "747d7bfe6e933608871ac29182d10bdb8ba801d43cdc184046f952e124b75c99"
+        },
+        {
+          "id": 53,
+          "name": "Britannia Union",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571900,
+          "source_record_sha256": "9bc6eb56c08d80abd7f601a4c199b83892275b8df239e5c30710fe36e3da86d8"
+        },
+        {
+          "id": 54,
+          "name": "Aeolia",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573076,
+          "source_record_sha256": "993bc65e4ebcb6c9e75e3f5fbb03eaf39760c06870b3d37e4afb857ebda2d925"
+        },
+        {
+          "id": 55,
+          "name": "Elgan",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572404,
+          "source_record_sha256": "509f992aeb7d25b633fea5c5cb6eb90319fc626bb1e9acf9fe5c713a781c11be"
+        },
+        {
+          "id": 56,
+          "name": "Dimensional Beast",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573148,
+          "source_record_sha256": "59a31fb73252dc2759439b5c9373579d009c958881590fcdbd76de9cb491b5d8"
+        },
+        {
+          "id": 57,
+          "name": "Great Spacequake",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572164,
+          "source_record_sha256": "86dc49d58c761182c651179425ff9e01767564f4657e2b4bce781fe23bbbdced"
+        },
+        {
+          "id": 58,
+          "name": "Antares",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571612,
+          "source_record_sha256": "d0dca3865349d87d6d2902cff951d871ac4b6e20e3a2c348418216ad87fe7861"
+        },
+        {
+          "id": 59,
+          "name": "Zero Requiem",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574612,
+          "source_record_sha256": "dfc4c8917d9317f8f32eb819a43e459fe25febec531827325d7d9722543c8fae"
+        },
+        {
+          "id": 60,
+          "name": "Geass",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572716,
+          "source_record_sha256": "ea92d1c56738d15332cc03f6ea902f9b296bae73584d8aae38de142d9576e56b"
+        },
+        {
+          "id": 61,
+          "name": "FLEIJA",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572596,
+          "source_record_sha256": "5f99e667ff6ea84d496405e8accc5000f3244e6a950bce164b0a51af92f10206"
+        },
+        {
+          "id": 62,
+          "name": "One Year War",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573724,
+          "source_record_sha256": "37a7d2c20b36fd8e5d9047e42c2afed978c3ba396bc03432f97fc0968b55ecfc"
+        },
+        {
+          "id": 63,
+          "name": "Durandal",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572284,
+          "source_record_sha256": "dcab9be51a5e9ef1a1dc9be0828de12ebb5d3cf70ad7bfe8395aa35c2a5e6ee4"
+        },
+        {
+          "id": 64,
+          "name": "Coordinator",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572068,
+          "source_record_sha256": "424c8e1bf7db5312b068cb314ad249d7481ef94de23ea085a0df38d45b9373ba"
+        },
+        {
+          "id": 65,
+          "name": "George Glenn",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573220,
+          "source_record_sha256": "a9208c839464f45875c7b3f0a4bf67be9fb98c141b8361a53a1516c2647a1c9f"
+        },
+        {
+          "id": 66,
+          "name": "Logos",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573916,
+          "source_record_sha256": "cebf4a11b38c7d5633d79f8a5d080dd82ed64a14eeae5d8d9c543ced3c670857"
+        },
+        {
+          "id": 67,
+          "name": "Blue Cosmos",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571948,
+          "source_record_sha256": "fba4272240d4360300bc922a511a444421bac9cea13b2fee6a0b1138ae3cadee"
+        },
+        {
+          "id": 68,
+          "name": "Gil",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572812,
+          "source_record_sha256": "1daab341f11108afda0f1d02dd7af160c20d054d0fd805d16ff6862a6977ef37"
+        },
+        {
+          "id": 69,
+          "name": "Glory Star",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572884,
+          "source_record_sha256": "1cbd065dc74a23fd6590a468f52df810269e22795316e07d338e74155824642c"
+        },
+        {
+          "id": 70,
+          "name": "Galactic Alliance of Humankind",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573004,
+          "source_record_sha256": "43d7996ba94d9f59cd2dabfb5ddae94aa595bf99fa73f9b3594be7a53f2f94e8"
+        },
+        {
+          "id": 71,
+          "name": "Toma",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574348,
+          "source_record_sha256": "04ff48833b1b0fc9df5a6270e1eca37c354810bfc1f27523a54264add1b77441"
+        },
+        {
+          "id": 72,
+          "name": "Left-Behind Sea",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574564,
+          "source_record_sha256": "4fb712475c597bb4a97f0591ed7b15bb29463bdc7b49b59b917c8f3a88fd77f0"
+        },
+        {
+          "id": 73,
+          "name": "Boost Up",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571924,
+          "source_record_sha256": "e731447cde99864b6917f6614c867642a2e34584f28ed99520e8ab05f1fb8270"
+        },
+        {
+          "id": 74,
+          "name": "Song Energy",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574132,
+          "source_record_sha256": "5893ead7dde5f1c83f686aead5c60e1894c398fe948a9cbef4c0fd9d31775c13"
+        },
+        {
+          "id": 75,
+          "name": "Maki",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573388,
+          "source_record_sha256": "e735af29f0ada3eb444824d952c10ccfdb9501e0b7ece30f932d649570b48bba"
+        },
+        {
+          "id": 76,
+          "name": "Galaxy fleet",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572692,
+          "source_record_sha256": "257201ccdfcaa82cfbb1d991842bcb29a4e1c99dc89d36161b2d127af6da1df6"
+        },
+        {
+          "id": 77,
+          "name": "Varauta War",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571780,
+          "source_record_sha256": "4233ec2ee984969c1d01ce44f19b830d04c692983fc2f315a511c27fcf2608ed"
+        },
+        {
+          "id": 78,
+          "name": "Space War I",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572140,
+          "source_record_sha256": "b80680e9a259df1e463d26f52be8df5ac7f6ef550578622e9072fe3b0cc1690f"
+        },
+        {
+          "id": 79,
+          "name": "Protodeviln",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573796,
+          "source_record_sha256": "a9f2a0d514511e92b20e586106144192c68323f24160290b5d5b8a5577159bd4"
+        },
+        {
+          "id": 80,
+          "name": "Protoculture",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573772,
+          "source_record_sha256": "9ef4b099a93f35d9ba14ad16dde5b225c11ed88b54ee724218d21bf93bdaa985"
+        },
+        {
+          "id": 81,
+          "name": "Zentradi",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574588,
+          "source_record_sha256": "5881da9562b5da9cb86bf9fde130961c774bc9ddaa43fb6563772b01f5453737"
+        },
+        {
+          "id": 82,
+          "name": "Evil series",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572452,
+          "source_record_sha256": "5ac2f453c81cf0ee38538240f7a3408c77e507d5844a5519912811299e33f968"
+        },
+        {
+          "id": 83,
+          "name": "Planet Lux",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573748,
+          "source_record_sha256": "11cefa55a6ebec5c6bf9e1f7a08781f9ea991dca4a2b105360b930bf6c959776"
+        },
+        {
+          "id": 84,
+          "name": "Knight",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573316,
+          "source_record_sha256": "d41a628b3f4bfbd8ffc1b05e37422ae50117b0b68d5c2d80bf6d076481c26867"
+        },
+        {
+          "id": 85,
+          "name": "Grace",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572836,
+          "source_record_sha256": "5340bc44acae7a9c96c320929fff942df45915002dee054d5bae2fc716f4c818"
+        },
+        {
+          "id": 86,
+          "name": "Anima Spiritia",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571516,
+          "source_record_sha256": "3934cd3999edf700be54e556ad029dc60c1775153e5489ee3ec685bde26bc4b5"
+        },
+        {
+          "id": 87,
+          "name": "Getter Rays",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572788,
+          "source_record_sha256": "079c43e3b64538ccf9c6a2bcaf1dcbdbd52a911394f308668963569b5bb2bfce"
+        },
+        {
+          "id": 88,
+          "name": "Agari",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571348,
+          "source_record_sha256": "dfe3b81d7bd3a0f88ee985d8bebdc39fc401c19487fc8ad4de40b13f3566d197"
+        },
+        {
+          "id": 89,
+          "name": "Anti-Spiral",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571636,
+          "source_record_sha256": "3c2261c9241d080b69506c3a9f95f289a3d4d667fe6c02cbfc60dbd70a60f329"
+        },
+        {
+          "id": 90,
+          "name": "Genki",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572764,
+          "source_record_sha256": "e0f9e12c907e4fdcfa5ca5996b24d2f184b351e98834484d162ad4c9618f73b2"
+        },
+        {
+          "id": 91,
+          "name": "Gaiou",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572668,
+          "source_record_sha256": "d52526e2b1dac4ab750a13d57856a6459621e27488a223673dd6d8baf46023d2"
+        },
+        {
+          "id": 92,
+          "name": "Computer Doll",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572092,
+          "source_record_sha256": "ef13ee17daf366a41dd80b6fdbd0de4e08b146471078c1bf36faf88f0bc477cc"
+        },
+        {
+          "id": 93,
+          "name": "Hamamoto",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572908,
+          "source_record_sha256": "4f890456f97731075b247478dd0c35f609040c9d91fcd6b5bfba23ee971d68ca"
+        },
+        {
+          "id": 94,
+          "name": "ELS",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572428,
+          "source_record_sha256": "4105362aab6921d9b3d56b527588dda4b31c638d2a9d6f59feb739fc366e4f18"
+        },
+        {
+          "id": 95,
+          "name": "Ribbons",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573868,
+          "source_record_sha256": "1ee10519bcde1fdea708a782d9e6e4c0a581111875e99af1166786b92712506a"
+        },
+        {
+          "id": 96,
+          "name": "Arksaber",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571708,
+          "source_record_sha256": "1d46dfac49e33b5186f8bee394afe82306be5dd7534b29768715be240aa7e30e"
+        },
+        {
+          "id": 97,
+          "name": "Meganoid",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573436,
+          "source_record_sha256": "216718c5f03bbb248b059d47ad52c55ca62a6bb24234abc6abc236224724cde6"
+        },
+        {
+          "id": 98,
+          "name": "Martial",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573412,
+          "source_record_sha256": "2ef665e3d424b1e5920229f0f75d2ece0bd7ce35da22c895756eea4b56790c87"
+        },
+        {
+          "id": 99,
+          "name": "Nextant",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573652,
+          "source_record_sha256": "cf19988f45419b04b98816cc28dbee05b160b6ce4f81d8cff947c23c3278d2ab"
+        },
+        {
+          "id": 100,
+          "name": "CDS",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571996,
+          "source_record_sha256": "6ebf932aeba73af88b211d1bd3cb484a800b1995814750d826c1b300bf2d9e0e"
+        },
+        {
+          "id": 101,
+          "name": "Battling",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571804,
+          "source_record_sha256": "964512f635bca0023452d0a3a42d68cfd238140dcbd8a26c313d1141844d572c"
+        },
+        {
+          "id": 102,
+          "name": "Limonecia",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573892,
+          "source_record_sha256": "42bd7296ac399d0580789f1eddcbb1a5c812671500311bc29cc0a44aaf2bdc87"
+        },
+        {
+          "id": 103,
+          "name": "Aim",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571372,
+          "source_record_sha256": "440ef035914f53f9edd04da794d11965612368f79c83629cebf530195fa6a45f"
+        },
+        {
+          "id": 104,
+          "name": "Diem-Sar",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572308,
+          "source_record_sha256": "dc90c51ebf605bb68df6ca6552f4c38bce086c9f32dc2bd8005595502dc76e63"
+        },
+        {
+          "id": 105,
+          "name": "Sphere Resonance",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574180,
+          "source_record_sha256": "592e63c32aa7799f6cc4b7932c4a603d92d47f1f7a98aa39bb759c9ababff00a"
+        },
+        {
+          "id": 106,
+          "name": "D.O.M.E.",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572260,
+          "source_record_sha256": "5a153b6f92013b19af3b6fa7834697198e5b63d142b3cb07ad9c0c85e5388735"
+        },
+        {
+          "id": 107,
+          "name": "Genganam",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572740,
+          "source_record_sha256": "440c7b261f171596348be78a45485a88adf82dcb7aa2d18adebdd886af37c411"
+        },
+        {
+          "id": 108,
+          "name": "Wiseman",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574516,
+          "source_record_sha256": "07ea48aaa1e4a3c0dee989fb05fb3315eb4eaee69201c1eb81df5c3b5c7ed9a7"
+        },
+        {
+          "id": 109,
+          "name": "Apollonius",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571660,
+          "source_record_sha256": "a9928b33bd96e302c99be722287725776aec38c45fcdb39008338d5eccd63707"
+        },
+        {
+          "id": 110,
+          "name": "DEAVA",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572188,
+          "source_record_sha256": "b91ab7aeda78e7e98778e74d212856a1230bba46c7c4edf5f8661bf9b574202b"
+        },
+        {
+          "id": 111,
+          "name": "Skies of Aquaria",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571684,
+          "source_record_sha256": "f775c4232b7b5622b39f729b523f67153aef96918771fae6256f79fd9cb5115a"
+        },
+        {
+          "id": 112,
+          "name": "Gabarnium",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572860,
+          "source_record_sha256": "7735966239da4aa53f5814a2dddade1ed7c87a87345eefc8ade9d218ea0cbc8c"
+        },
+        {
+          "id": 113,
+          "name": "Sanc Kingdom",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573964,
+          "source_record_sha256": "ae089460ebbaf18fde54dae8b22869afe7313493eb8a110ec4614b97a55e1ad2"
+        },
+        {
+          "id": 114,
+          "name": "Executor",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572476,
+          "source_record_sha256": "cd479b1c058d5e07fc73cd1ba88d5b065b8f1c4d63639eb1a31b568d8d1f6f00"
+        },
+        {
+          "id": 115,
+          "name": "Rau Le Creuset",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573292,
+          "source_record_sha256": "f6bdceecee13ef9c5951239cf6e480257c1ff17efbfec5d740226dbd7a0be8eb"
+        },
+        {
+          "id": 116,
+          "name": "Destiny Plan",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572236,
+          "source_record_sha256": "3d438060175279c1a6252fb2bc8eadc116dcdd3101affe7cfe71cdb7be1b9014"
+        },
+        {
+          "id": 117,
+          "name": "That Lieutenant Colonel",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571588,
+          "source_record_sha256": "3b2c5f86f9c5e7c435bab20f05ee5dd7b6942bc53d75061b512ec90d8491d862"
+        },
+        {
+          "id": 118,
+          "name": "Fairy's Eye",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572500,
+          "source_record_sha256": "9e56caeccc10a8e22b00bf2b48083e9e35ef255d1cf07310075285983a5db91d"
+        },
+        {
+          "id": 119,
+          "name": "Crimson Affliction",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571396,
+          "source_record_sha256": "a492ead1163cb91dd57f2c4ea215a59c61da66ab8512a4f85b0f40d15f7f0cc3"
+        },
+        {
+          "id": 120,
+          "name": "Prometheus Experiment",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573820,
+          "source_record_sha256": "80201b375269e3d67f712eea7265d7a2dc99d01a9fc3c1ad24abb3920e2e249a"
+        },
+        {
+          "id": 121,
+          "name": "Akashic Record",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571420,
+          "source_record_sha256": "842190b59bd7746d815dac1c764cb5628ea7c55b1c42755199515b655b7fc232"
+        },
+        {
+          "id": 122,
+          "name": "TAROS",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574228,
+          "source_record_sha256": "b19f1fcc694417d1fd89c1615dd2901007abe527b2f2d100500fc4d76aa4000f"
+        },
+        {
+          "id": 123,
+          "name": "TARTAROS",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574252,
+          "source_record_sha256": "2ecbc3a81f47f146ee835a97122d4f2ab67abc76e62cdea453c8d9fdb210a4d8"
+        },
+        {
+          "id": 124,
+          "name": "Anbrorn",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571492,
+          "source_record_sha256": "fdc1b8e941b048b292964ca4eabacd636e8f1a8f9d64ec86a23b8061c43d746a"
+        },
+        {
+          "id": 125,
+          "name": "Metropolis",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573484,
+          "source_record_sha256": "aa64b21b7089323b7a7e66df292039321919bd0206ae86797193b5a5b38a6559"
+        },
+        {
+          "id": 126,
+          "name": "Annalotta",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571564,
+          "source_record_sha256": "3ce85c4d1842a860be712e311b79804882bfc1f05f04d36395165d8f563f1c1f"
+        },
+        {
+          "id": 127,
+          "name": "Hyades",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572932,
+          "source_record_sha256": "64b7aa53051262c470e708024b3ab2e6bd5ecdb54afc1ae1fc0caf3fa9d88136"
+        },
+        {
+          "id": 128,
+          "name": "Kishuku",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573268,
+          "source_record_sha256": "9eb092d42261ccc686023527632a29ea51612fe93047f13adb21343f676773c5"
+        },
+        {
+          "id": 129,
+          "name": "Chimera",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573244,
+          "source_record_sha256": "4df926a015dba96500952d959cbb31d5f3925239d82895ed48cf8d5d9772cb53"
+        },
+        {
+          "id": 130,
+          "name": "The Edel",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574276,
+          "source_record_sha256": "ed1ec229f3d73647c321a50044ac10e8dcfdcf5b0b33145a1de39c9c732710e0"
+        },
+        {
+          "id": 131,
+          "name": "Revive Cell",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573844,
+          "source_record_sha256": "6d1bb5089c7bc0d2f2ed3631436ecde6604a3879a931d7fce3f1b3225b826e5d"
+        },
+        {
+          "id": 132,
+          "name": "Serpentine Sisters",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574084,
+          "source_record_sha256": "2a334ac99d678ae3890e02c9905a90f8f94f2c0726584e3774b87df8e848b01b"
+        },
+        {
+          "id": 133,
+          "name": "implant",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573028,
+          "source_record_sha256": "ef6293d0b21e308a6cbe359ab64d3af2856a6d9eebe29e77eb45c0b0fd698164"
+        },
+        {
+          "id": 134,
+          "name": "Jung",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574444,
+          "source_record_sha256": "56e6cb25e8ee472327cb1e6dfef6976cc7155a59e3da29ec0f19c1b6b1d7be0b"
+        },
+        {
+          "id": 135,
+          "name": "Bind Spell",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571876,
+          "source_record_sha256": "0cdbc6f810d9dcd3536e74fb7ba49abb48278fc9af35942f58c7201727284e4d"
+        },
+        {
+          "id": 136,
+          "name": "Leben",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10573364,
+          "source_record_sha256": "48236d967cefd9a029c99878e341c13a6bda2bfb6ed593ff62160f7dbb9d1139"
+        },
+        {
+          "id": 137,
+          "name": "Schran",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572020,
+          "source_record_sha256": "a6e7c4129f61721fb93a6fad4c2b38d9255f2cb8268786360f94e2f78ab3cfad"
+        },
+        {
+          "id": 138,
+          "name": "Calamity Birth",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571972,
+          "source_record_sha256": "965691d12dad5d955f656d7015feb03c732daeae3f44ef7119fc187f0612db16"
+        },
+        {
+          "id": 139,
+          "name": "Smith",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574108,
+          "source_record_sha256": "a9bffa70623bc4c2ac3caf3190da97bf511bcaa388c36a580b46679e82bbe455"
+        },
+        {
+          "id": 140,
+          "name": "Zeon Deikun",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10574684,
+          "source_record_sha256": "55a37ef6945ef26a48dfcde97ae4fca97e82dfde852e3c26855e1964f67cd79b"
+        },
+        {
+          "id": 141,
+          "name": "ADW",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10571324,
+          "source_record_sha256": "7e5a5c83e9ceb8b92197a06dbadef9bbbadef80bfb2d2f738868def83dab7bd9"
+        },
+        {
+          "id": 142,
+          "name": "Heero Yui",
+          "fields": [
+            "DSCR",
+            "DSC2"
+          ],
+          "record_offset": 10572980,
+          "source_record_sha256": "4b52e9682f29108ae59156990f8b0bae2f7498a3fc60600e4a70e66e1837c4f1"
+        }
+      ],
+      "original_names_series_indices_preserved": true,
+      "runtime_verified": false
+    },
+    "native_conversion": {
+      "owned_consumer_cases": 572,
+      "substring_cases": 1,
+      "fallback_cases": 3,
+      "machine_steps": 871224,
+      "wrapped_converter_cases": 4
+    },
+    "library_audit": {
+      "entries": {
+        "keyword": 143,
+        "pilot": 539,
+        "robot": 331
+      },
+      "english_display_fields": 5838,
+      "description_fields": 2026,
+      "native_display_occurrences": 500,
+      "native_hook_cases": 500,
+      "untranslated_display_fields": 0
+    },
+    "charts": [
+      {
+        "member": 234,
+        "header": "Scenario Chart",
+        "rectangles": {
+          "(404480, 1)": [
+            112,
+            12,
+            432,
+            68
+          ],
+          "(404480, 2)": [
+            128,
+            176,
+            1056,
+            384
+          ]
+        },
+        "subtitle": "HEAVENLY PRISON",
+        "source_sha256": "efe6330b88458cecac8c4123178c5d94666b692c9735e6ec56e3af884f7bfa8f",
+        "output_sha256": "c173ba041e06c3899d6d2dcc836c0527741e7290516c7b6e37cb4743ed8fc190",
+        "runtime_verified": false
+      },
+      {
+        "member": 235,
+        "header": "Scenario Chart",
+        "rectangles": {
+          "(416, 1)": [
+            112,
+            12,
+            432,
+            68
+          ]
+        },
+        "subtitle": null,
+        "source_sha256": "e83e5eeddf4d66667b895338f70103eb871baa06c501360b7900cf229d0b24f7",
+        "output_sha256": "a0157ce90096653846dcf4eaa2b47ea7462baf5b8f96e30d4aa7084067e005cc",
+        "runtime_verified": false
+      },
+      {
+        "member": 236,
+        "header": "Scenario Chart",
+        "rectangles": {
+          "(404480, 1)": [
+            112,
+            12,
+            432,
+            68
+          ],
+          "(404480, 2)": [
+            128,
+            176,
+            1056,
+            384
+          ]
+        },
+        "subtitle": "TIME OF HELL",
+        "source_sha256": "c98e889f34cf8f7ab708b18a2b8c95a62a56a552afb9f7da3a6fa1bc0575a096",
+        "output_sha256": "061bda6dd40ba09f2fea3cf7b0068971fe946ff57deec638215fdc639c954373",
+        "runtime_verified": false
+      },
+      {
+        "member": 237,
+        "header": "Scenario Chart",
+        "rectangles": {
+          "(416, 1)": [
+            112,
+            12,
+            432,
+            68
+          ]
+        },
+        "subtitle": null,
+        "source_sha256": "336b5c86d1a24a156e13c94388b105b2ab43e769e735f09e55162bc7d9f00a10",
+        "output_sha256": "f02cbf8eb09ed1d663aa605b8f302a5989221a119252f5c60afe22063e2d057c",
+        "runtime_verified": false
+      }
+    ],
+    "screenshots": [
+      {
+        "issue": "intermission",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-04b50243-abee-4110-94c7-59e6c345773f.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-intermission.png",
+        "sha256": "1ce147e0fd18a05bbad782e8fe0b3e83cdfb18498f2f77dee927655687f87802",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "options",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-6bed6447-142d-4cb6-807b-7525a872cfc4.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-options.png",
+        "sha256": "cf811b9baa33891bb6036c051ec9a3950269fc5557ce2a67ce281d6feb9c4eb3",
+        "pixel_size": [
+          505,
+          585
+        ],
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "library-menu",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-0bc1848e-6b76-4e24-82f8-4517bc989c9e.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-library-menu.png",
+        "sha256": "2743dd906702d0ca69a2ebc8e4356c7148eaf2d497e816c7e0855fdba7a01c9d",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "keyword-popup",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-caf613a9-eb39-4936-9b33-cfe7b7dc48cd.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-keyword-popup.png",
+        "sha256": "813c3c6d1f7b351f7330090af9543e92e0b7be29205923ad14d3fba279ead339",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "runtime_confirmation": false
+      },
+      {
+        "issue": "scenario-chart",
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-efcb15c6-47ee-49fb-9060-c4292453bb29.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-scenario-chart.png",
+        "sha256": "871aa5361f4cf31d959f18677a70145973e39fb2d23d321d9be20481604a49e3",
+        "pixel_size": [
+          2560,
+          1369
+        ],
+        "runtime_confirmation": false
+      }
+    ],
+    "source_sha256": {
+      "tools/intermission_layout.py": "266a79451d7060bd3df6905f310610a2efcb7d642b8b536aff5afd193fb4f6ee",
+      "tools/library_runtime.py": "8d793397813aebe100a92194bc5edf5a5c2a3e02faaf7ae71137263249645c4c",
+      "tools/chart_art.py": "aa63bdccbad292880dd155caedf53e64e2b5d19446d07c118aa9a3d260b65ea3",
+      "tools/operation_layout.py": "26f562ab70e6bdef8e2a1559d3299c1c38b5d3d4e428df275ad7d47f3fbe5a9e",
+      "tools/game_build.py": "76e0562b732af92472631e9cb4fb7f8a456c4a61762cddddfa47bf00564949a9",
+      "tools/ui_layout_text.py": "e44314e188893fa8b11cc50580118a995c54c2354375df7e4cb32b8e7a335808",
+      "tools/verify_intermission_library.py": "510211e549abe178d84cdbaae2eef411e4128c1b13c47753a08ca4a391ab04d5",
+      "tests/test_intermission_library.py": "4f2bfecfdef8d2cea11dca4e123a07c11ee7fec5e95e14e7ecc462e9e8ea1f35"
+    },
+    "prior_title_verification": {
+      "schema": 1,
+      "version": "0.5.12",
+      "title": {
+        "version": "0.5.12",
+        "credit": "github.com/retro-trans",
+        "footer_box": [
+          912,
+          640,
+          1252,
+          696
+        ],
+        "footer_boxes": {
+          "0": [
+            912,
+            640,
+            1252,
+            696
+          ],
+          "6": [
+            858,
+            610,
+            1198,
+            666
+          ],
+          "10": [
+            912,
+            640,
+            1252,
+            696
+          ]
+        },
+        "footer_textures": [
+          0,
+          6,
+          10
+        ],
+        "wordmark": "3rd SUPER ROBOT WARS",
+        "subtitle": "HEAVENLY PRISON / CHAPTER",
+        "subtitle_top": 32,
+        "member": 229,
+        "source_sha256": "5f6d8d307e6b8e7e4704c048d07be030c9f49a17d79120a9c78e6de1c91d9277",
+        "output_sha256": "d0c74f7a5aa018fcfc22772a1780b28dd8c65fc49a33202c94f871fc4050d7db",
+        "assets": {
+          "wordmark-generated.png": "74656a4041153deb74bcb32260f5005089f7ee6dbc4d80e63ac9b97aae475826",
+          "subtitle-generated.png": "d6bfb0328de482f3079ec6e555ee580d7b083611faf1869c334ced0a50629114"
+        },
+        "animated_subtitle_slices": [
+          [
+            0,
+            208,
+            0
+          ],
+          [
+            216,
+            216,
+            166
+          ],
+          [
+            440,
+            208,
+            332
+          ]
+        ],
+        "animation_bytes_unchanged": true,
+        "native_z_unchanged": true,
+        "runtime_verified": false
+      },
+      "final_archive_sha256": "52eb47ec6bb068bf923c0cae8bb7890d75311d3dd0ad31b112dc6eacae52f1f3",
+      "source_sha256": {
+        "tools/title_screen.py": "64cb652e692b54d9fc7594b583e5be38bc8f7a5b2ffbb6d26c6390b8039dbd3e",
+        "tools/verify_title_screen.py": "035ab5460b3f3a959c29abd02b40504efd0081a3c1f56f8ba05a66d613733330",
+        "tools/refresh_title_build.py": "79b6a199f36343c07125e51a378717c1f06e89311c2b474bb2e2a52fc74b80cf",
+        "tests/test_title_screen.py": "d17b39830ecfbe14fff255ee635c6e0b39cce0dacf2908c61506a6910721e54b",
+        "tools/eff_art.py": "d93cd0bb2990be8a6a60f3a40228d41bfaf754bac8bbc6eef430af180f3090f4",
+        "tools/game_build.py": "76e0562b732af92472631e9cb4fb7f8a456c4a61762cddddfa47bf00564949a9"
+      },
+      "reported_screenshot": {
+        "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-824be348-2262-43fa-af11-559744e0c058.png",
+        "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-title.png",
+        "sha256": "48a2269e1aaf408b8d8ade2099f69a0635fc418456dacc03039ccd7397822259"
+      },
+      "prior_startup_verification": {
+        "schema": 1,
+        "version": "0.5.12",
+        "build_sha256": "ef0f85d703584c267a932c624401aa99db8d4c2e713695629ceaeb9e63bf2f80",
+        "outputs": {
+          "EBOOT.BIN": "1a989ae3135f2e0bcd7ce98d85dbbf163db77529b4d1be4a40cf4e93e213de5d",
+          "RPW_DATA.CPK": "9cb551442de2df524d325b5d26968c89ff7550e237d059e5cd87de67dbaa2fd1",
+          "TPACKPS3.CPK": "8a02f7a7c616e55f503f9661e951506d1ef747fd194ea37400862b792fb187b5",
+          "MTZKN_KW.CPK": "3b50021f8e9ce3a9b38df5dbe9ae0c2064945ab55c0f2b7452269c7fb6f986b6",
+          "MTZKN_PT.CPK": "1dce10b8bf151d012b9f22e639aa30cd6f22668d4e00487ea6c299d923fc07a8",
+          "MTZKN_RT.CPK": "b47570ce95da54463d398b3e3230036de0ce68955436d94801bf633e770a8c7c",
+          "STGZ3OF2.SDAT": "aefedd990fd1e0f7b219700a89220d51cec30a245ffe8e849cc507601234aed0",
+          "SRVC.BIN": "d23072326c15b3026f05f6fb8e500d7e6e7f0e695113fadaba5415ce6273e7ff",
+          "AIDDATAPACK.CPK": "360d5e4574d7595e2f247c7536f30ddf94ebdac966afb1d4831a48d9aec17604",
+          "CMN.CPK": "d015a601807de74c31dbfe588e5b16f41c2e2b01fb4eef4b1851c880c95b3468",
+          "EFFPS3.CPK": "52eb47ec6bb068bf923c0cae8bb7890d75311d3dd0ad31b112dc6eacae52f1f3",
+          "OP.CPK": "77efc4ff8f3be8c7c250bf7680e5ec0072eca6a8c1c62460dbbdb3f054155170"
+        },
+        "input_sha256": {
+          "tools/game_build.py": "76e0562b732af92472631e9cb4fb7f8a456c4a61762cddddfa47bf00564949a9",
+          "tools/ui_catalog.py": "5f872fbf66d65d18350bd721380932c039a879007790b4dc41863e59c19c4138",
+          "tools/ui_layout_text.py": "e44314e188893fa8b11cc50580118a995c54c2354375df7e4cb32b8e7a335808",
+          "tools/opening_narration.py": "867a9c97b50946721df700d5a42be57b5fa07c48f5d39f76ef81cbf86b5771c5",
+          "tools/runtime_names.py": "5e867822579b7f77ccad722372c2499bceca94ba4bfc7c70d9aa24836211acd3",
+          "tools/startup_layout.py": "cae82e14e99d447e8e7b97048f9c7bf6dc77466ac9cbe84b1f4f9c80f7013005",
+          "tools/verify_startup_ui.py": "04aab92a3decd924959e3747f017ab72fc5a7e3d60ffa712dc1cad69885d7cc0",
+          "tests/test_startup_ui.py": "640806bda799fa0fbb9468e5903902b206b4ea9da8fd6bb262a7e772e82642e9",
+          "work/translation/en/ui/expanded/opening.json": "297eecc32d1e305119830eca3f5bd22e3cc5d3f360cf8cd66633d03485ea0403",
+          "work/ui/startup_layout.json": "2128b1a11249c4e071aa00a6623cf24fa779a83a07cd8a5a862bf515b018d98b",
+          "tools/latin_font.py": "c3b9e20e49571a9eaa01475a2c47e92668f1539cc02510faf0e69ffa26aea4ee",
+          "tools/ui_vwf_build.py": "b4858237ee8c5e0af28f986b7b24b29f6aafe208bf2f23d349a6fb08b46088e9",
+          "tools/ui_build.py": "7a086e3572ac3184520bd528497b50efb5098448be37e74b7123b7276d04e104",
+          "tools/ui_description_layout.py": "17631ed4f677056e3e2a0d804d2e0ac3fd2a8168e8818d2b7c42dfaae4351aad",
+          "tools/dialogue_layout.py": "f695d51eeaa2143ae83375039ea1ef720f73fb28e82976452ccb7ec1d87d97ad",
+          "tests/test_latin_font.py": "e68bd328c3ab6087c032a90ab8f73e3651460107972b98af7c863f3158663d6b"
+        },
+        "screenshots": {
+          "0.5.3-default-name.png": {
+            "sha256": "58cc77bb55b71a18a2862cb3d88c905fae848fdbeffe2bf9a8b479e01fa9979f",
+            "bytes": 386246
+          },
+          "0.5.3-link-overflow.png": {
+            "sha256": "fee26d7270ff6517db3602d1a168978650d4d466e6439e7fced8b8a1288704b9",
+            "bytes": 1025235
+          },
+          "0.5.3-name-overlap.png": {
+            "sha256": "e89e7119f824183077e3802d397134cf1166d805128ec96dfcb3ecd6b74c6395",
+            "bytes": 997677
+          },
+          "0.5.3-opening-page1.png": {
+            "sha256": "2ca7eab18d2f6c842a34db4b017be659b07930ae4da80ee7c3f7b321f7d998a0",
+            "bytes": 221726
+          },
+          "0.5.3-opening-page2.png": {
+            "sha256": "b59b6a2208156957c38a15a0e345ea8c7500cb12f5abecb5307a48de19f9129c",
+            "bytes": 3333518
+          }
+        },
+        "opening_lines_executed": 28,
+        "opening_member_unchanged": true,
+        "name_getter_cases_executed": 29,
+        "name_buffers_read_only": true,
+        "stage_cpk_sha256": "f6f9cc097b3082eafe98f00ccfa0e57a3c494ad594683fe8dbf75c9d4383a5c4",
+        "iso": {
+          "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.12\\Tengoku-hen-English-0.5.12.iso",
+          "bytes": 5284167680,
+          "sectors": 2580160,
+          "files_verified_each_tree": 82,
+          "udf": "absent",
+          "plaintext_regions": 1,
+          "sha256": "6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32",
+          "version": "0.5.12",
+          "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.12",
+          "replaced": {
+            "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+            "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+            "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+            "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+            "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+            "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+            "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+            "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+          },
+          "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+          "rpcs3_only": true,
+          "runtime_verified": false
+        },
+        "latin_font": {
+          "face": "SCE-PS3-RD-B-LATIN.TTF",
+          "face_sha256": "2f10428d9fc0bbc710df221c0b5b12ee2ff881fb1a26da0594aba840f822c873",
+          "cap": 22,
+          "baseline": 26,
+          "supersampling": 4,
+          "horizontal_dilation": 0.5,
+          "space_advance": 9,
+          "advance_padding": 1,
+          "downsampling": "BOX",
+          "reference": "SRW Z3/tools/digraph.py + tools/ttfglyph.py",
+          "glyphs_verified_each_page": 249,
+          "pages_verified": [
+            1,
+            3
+          ],
+          "advance_cells_verified": 249,
+          "reference_source_sha256": {
+            "digraph.py": "b811bdbc183af8706c8ada72388f8910288ee8714d944f2107b4807d9a97634c",
+            "ttfglyph.py": "c30d4688d099b289540758c0f12174fbdeaee18b837bf161c17590daf2c32604"
+          },
+          "installed_font_cache": {
+            "path": "E:\\RPCS3\\dev_hdd0\\game\\BLJS10299_DATA\\USRDIR\\INSCO\\DATA0141.DAT",
+            "sha256": "460572fbb6277661a490f38d5c67a39b35f8c787cd4638d844dc0119a39937d7",
+            "matches_build": false,
+            "modified": false
+          }
+        },
+        "regression_tests": {
+          "run": 237,
+          "passed": 236,
+          "skipped": 1,
+          "log_sha256": "b2457b7451ae960bf493dc8372a200fa447bda1c73100b1b2ae73fadc4576b80"
+        },
+        "runtime_verified": false,
+        "layout_verified": false
+      },
+      "prior_battle_verification": {
+        "schema": 1,
+        "version": "0.5.12",
+        "matched_files": 12,
+        "final_elf_sha256": "1a989ae3135f2e0bcd7ce98d85dbbf163db77529b4d1be4a40cf4e93e213de5d",
+        "widgets": 53,
+        "compact_flag_cells": [
+          {
+            "token": "",
+            "label": "Va",
+            "code": "86cc",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "So",
+            "code": "86cd",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              24
+            ]
+          },
+          {
+            "token": "",
+            "label": "Ft",
+            "code": "86ce",
+            "advance": 32,
+            "ink_box": [
+              5,
+              7,
+              27,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Al",
+            "code": "86cf",
+            "advance": 32,
+            "ink_box": [
+              5,
+              7,
+              27,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Pe",
+            "code": "86d0",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Wa",
+            "code": "86d1",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Fo",
+            "code": "86d2",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "St",
+            "code": "86d3",
+            "advance": 32,
+            "ink_box": [
+              4,
+              7,
+              27,
+              24
+            ]
+          },
+          {
+            "token": "",
+            "label": "Ac",
+            "code": "86d4",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Ze",
+            "code": "86d5",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              29,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Me",
+            "code": "86d6",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Sn",
+            "code": "86d7",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              29,
+              24
+            ]
+          },
+          {
+            "token": "",
+            "label": "As",
+            "code": "86d8",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Fy",
+            "code": "86d9",
+            "advance": 32,
+            "ink_box": [
+              3,
+              7,
+              29,
+              27
+            ]
+          },
+          {
+            "token": "",
+            "label": "Lu",
+            "code": "86da",
+            "advance": 32,
+            "ink_box": [
+              3,
+              7,
+              29,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "Ga",
+            "code": "86db",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              24
+            ]
+          },
+          {
+            "token": "",
+            "label": "Di",
+            "code": "86dc",
+            "advance": 32,
+            "ink_box": [
+              6,
+              7,
+              26,
+              23
+            ]
+          },
+          {
+            "token": "",
+            "label": "An",
+            "code": "86dd",
+            "advance": 32,
+            "ink_box": [
+              2,
+              7,
+              30,
+              23
+            ]
+          }
+        ],
+        "dictionary_cases": 3,
+        "terrain": {
+          "archive": "/PS3_GAME/USRDIR/DATA/MAPETC/MAPZ3TENPS3.CPK",
+          "member": 168,
+          "member_sha256": "c1768a55e97773d5f0464bc8d4db524f8811af57fb5a17079915ad5f10a4d138",
+          "offset": 132,
+          "en": "Debris Field"
+        },
+        "caption_widths": [
+          {
+            "widget_offset": 632740,
+            "en": "Will",
+            "quad": 18,
+            "source_xy": [
+              -0.9164062738418579,
+              0.06388889253139496
+            ],
+            "original_widget_hex": "0000f08abf6a999a3d82d82effffffff1212101210123c000000000000000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              16
+            ],
+            "widths": [
+              32.625
+            ]
+          },
+          {
+            "widget_offset": 632932,
+            "en": "Will",
+            "quad": 18,
+            "source_xy": [
+              -0.9164062738418579,
+              0.07500000298023224
+            ],
+            "original_widget_hex": "0000f0aebf6a999a3d99999affffffff1212101210123c000000000000000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              16
+            ],
+            "widths": [
+              32.625
+            ]
+          },
+          {
+            "widget_offset": 633124,
+            "en": "Will",
+            "quad": 18,
+            "source_xy": [
+              -0.9164062738418579,
+              0.07500000298023224
+            ],
+            "original_widget_hex": "0000f0d2bf6a999a3d99999affffffff1212101210123c000000000000000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              16
+            ],
+            "widths": [
+              32.625
+            ]
+          },
+          {
+            "widget_offset": 633316,
+            "en": "Will",
+            "quad": 18,
+            "source_xy": [
+              -0.9164062738418579,
+              0.07500000298023224
+            ],
+            "original_widget_hex": "0000f0f6bf6a999a3d99999affffffff1212101210123c000000000000000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              16
+            ],
+            "widths": [
+              32.625
+            ]
+          },
+          {
+            "widget_offset": 633540,
+            "en": "Will",
+            "quad": 18,
+            "source_xy": [
+              -0.9164062738418579,
+              0.07500000298023224
+            ],
+            "original_widget_hex": "0000f11ebf6a999a3d99999affffffff1212101210123c000000000000000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              16
+            ],
+            "widths": [
+              32.625
+            ]
+          },
+          {
+            "widget_offset": 634020,
+            "en": "Will",
+            "quad": 23,
+            "source_xy": [
+              -0.9164062738418579,
+              0.0555555559694767
+            ],
+            "original_widget_hex": "0000f16cbf6a999a3d638e39ffffffff32321517151734000000000000000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              21
+            ],
+            "widths": [
+              41.6875
+            ]
+          },
+          {
+            "widget_offset": 634148,
+            "en": "Will",
+            "quad": 23,
+            "source_xy": [
+              -0.9164062738418579,
+              0.0555555559694767
+            ],
+            "original_widget_hex": "0000f184bf6a999a3d638e39ffffffff32321517151734000000000000000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              21
+            ],
+            "widths": [
+              41.6875
+            ]
+          },
+          {
+            "widget_offset": 634276,
+            "en": "Will",
+            "quad": 18,
+            "source_xy": [
+              -0.9164062738418579,
+              0.07500000298023224
+            ],
+            "original_widget_hex": "0000f19cbf6a999a3d99999affffffff1212101210123c000000000000000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              16
+            ],
+            "widths": [
+              32.625
+            ]
+          },
+          {
+            "widget_offset": 650628,
+            "en": "Will",
+            "quad": 25,
+            "source_xy": [
+              0.749218761920929,
+              0.7472222447395325
+            ],
+            "original_widget_hex": "00010f823f3fcccd3f3f49f5ffffffffffff1719191932000000000000000000",
+            "font_metrics": [
+              255,
+              255,
+              23,
+              25,
+              25
+            ],
+            "widths": [
+              45.3125
+            ]
+          },
+          {
+            "widget_offset": 656356,
+            "en": "Will",
+            "quad": 25,
+            "source_xy": [
+              0.797656238079071,
+              -0.2916666567325592
+            ],
+            "original_widget_hex": "000118e83f4c3333be955555ffffffff28271719191932000000000000000000",
+            "font_metrics": [
+              40,
+              39,
+              23,
+              25,
+              25
+            ],
+            "widths": [
+              45.3125
+            ]
+          },
+          {
+            "widget_offset": 656420,
+            "en": "Will",
+            "quad": 25,
+            "source_xy": [
+              -0.961718738079071,
+              -0.2916666567325592
+            ],
+            "original_widget_hex": "000118f4bf763333be955555ffffffff28271719191932000000000000000000",
+            "font_metrics": [
+              40,
+              39,
+              23,
+              25,
+              25
+            ],
+            "widths": [
+              45.3125
+            ]
+          },
+          {
+            "widget_offset": 665220,
+            "en": "Will",
+            "quad": 25,
+            "source_xy": [
+              0.749218761920929,
+              0.7472222447395325
+            ],
+            "original_widget_hex": "00012c7c3f3fcccd3f3f49f5ffffffffffff1719191932000000000000000000",
+            "font_metrics": [
+              255,
+              255,
+              23,
+              25,
+              25
+            ],
+            "widths": [
+              45.3125
+            ]
+          },
+          {
+            "widget_offset": 684100,
+            "en": "",
+            "quad": 25,
+            "source_xy": [
+              0.07421875,
+              0.01666666753590107
+            ],
+            "original_widget_hex": "00015e703d9800003c888889ffffff4019191719191903000000000001000000",
+            "font_metrics": [
+              25,
+              25,
+              23,
+              25,
+              25
+            ],
+            "widths": [
+              425.0
+            ]
+          },
+          {
+            "widget_offset": 684132,
+            "en": "",
+            "quad": 22,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00015e94ba4ccccd3b360b61ffffff404c261516141605000000000001000000",
+            "font_metrics": [
+              76,
+              38,
+              21,
+              22,
+              20
+            ],
+            "widths": [
+              374.0
+            ]
+          },
+          {
+            "widget_offset": 684164,
+            "en": "／",
+            "quad": 22,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00015eb8ba4ccccd3b360b61ffffff404c261516141605000000000001000000",
+            "font_metrics": [
+              76,
+              38,
+              21,
+              22,
+              20
+            ],
+            "widths": [
+              374.0
+            ]
+          },
+          {
+            "widget_offset": 684196,
+            "en": "",
+            "quad": 25,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00015edcba4ccccd3b360b61ffffff40191917191b1902000000000001000000",
+            "font_metrics": [
+              25,
+              25,
+              23,
+              25,
+              27
+            ],
+            "widths": [
+              425.0
+            ]
+          },
+          {
+            "widget_offset": 684228,
+            "en": "／",
+            "quad": 25,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00015f00ba4ccccd3b360b61ffffff40282717191b1902000000000001000000",
+            "font_metrics": [
+              40,
+              39,
+              23,
+              25,
+              27
+            ],
+            "widths": [
+              425.0
+            ]
+          },
+          {
+            "widget_offset": 655780,
+            "en": "Start Battle",
+            "quad": 28,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "0001183eba4ccccd3b360b61ffffffff3a3a1a1c1c1c51400000000010000000",
+            "font_metrics": [
+              58,
+              58,
+              26,
+              28,
+              28
+            ],
+            "widths": [
+              156.625
+            ]
+          },
+          {
+            "widget_offset": 655812,
+            "en": "Start Battle",
+            "quad": 31,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0
+            ],
+            "original_widget_hex": "00011848ba4ccccd00000000ffffffff2a2a1b1f1f1f50400000000010000000",
+            "font_metrics": [
+              42,
+              42,
+              27,
+              31,
+              31
+            ],
+            "widths": [
+              173.40625
+            ]
+          },
+          {
+            "widget_offset": 655844,
+            "en": "Action",
+            "quad": 28,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00011852ba4ccccd3b360b61ffffffff3a3a1a1c1c1c41400000000010000000",
+            "font_metrics": [
+              58,
+              58,
+              26,
+              28,
+              28
+            ],
+            "widths": [
+              89.25
+            ]
+          },
+          {
+            "widget_offset": 655876,
+            "en": "Action",
+            "quad": 31,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0
+            ],
+            "original_widget_hex": "0001185cba4ccccd0000000060ff60ff2a2a1b1f1f1f00400000000010000000",
+            "font_metrics": [
+              42,
+              42,
+              27,
+              31,
+              31
+            ],
+            "widths": [
+              98.8125
+            ]
+          },
+          {
+            "widget_offset": 655908,
+            "en": "Anim: OFF",
+            "quad": 28,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00011866ba4ccccd3b360b61ffffffff3a3a1a1c1a1c41400000000010000000",
+            "font_metrics": [
+              58,
+              58,
+              26,
+              28,
+              26
+            ],
+            "widths": [
+              144.375
+            ]
+          },
+          {
+            "widget_offset": 655940,
+            "en": "Anim: OFF",
+            "quad": 31,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0
+            ],
+            "original_widget_hex": "00011874ba4ccccd0000000060ff60ff2a2a1b1f1d1f00400000000010000000",
+            "font_metrics": [
+              42,
+              42,
+              27,
+              31,
+              29
+            ],
+            "widths": [
+              159.84375
+            ]
+          },
+          {
+            "widget_offset": 655972,
+            "en": "Anim: ON",
+            "quad": 28,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00011882ba4ccccd3b360b61ffffffff3a3a1a1c1a1c41400000000010000000",
+            "font_metrics": [
+              58,
+              58,
+              26,
+              28,
+              26
+            ],
+            "widths": [
+              130.375
+            ]
+          },
+          {
+            "widget_offset": 656004,
+            "en": "Anim: ON",
+            "quad": 31,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0
+            ],
+            "original_widget_hex": "0001188eba4ccccd0000000060ff60ff2a2a1b1f1d1f00400000000010000000",
+            "font_metrics": [
+              42,
+              42,
+              27,
+              31,
+              29
+            ],
+            "widths": [
+              144.34375
+            ]
+          },
+          {
+            "widget_offset": 656164,
+            "en": "Support",
+            "quad": 28,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "000118b2ba4ccccd3b360b61ffffffff3a3a1a1c1c1c41400000000010000000",
+            "font_metrics": [
+              58,
+              58,
+              26,
+              28,
+              28
+            ],
+            "widths": [
+              111.125
+            ]
+          },
+          {
+            "widget_offset": 656196,
+            "en": "Support",
+            "quad": 31,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0
+            ],
+            "original_widget_hex": "000118bcba4ccccd0000000060ff60ff2a2a1b1f1f1f00400000000010000000",
+            "font_metrics": [
+              42,
+              42,
+              27,
+              31,
+              31
+            ],
+            "widths": [
+              123.03125
+            ]
+          },
+          {
+            "widget_offset": 656228,
+            "en": "S. Atk",
+            "quad": 23,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "000118c6ba4ccccd3b360b61ffffffff32321517171734000000000000000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              23
+            ],
+            "widths": [
+              66.84375
+            ]
+          },
+          {
+            "widget_offset": 656260,
+            "en": "Re-Atk",
+            "quad": 23,
+            "source_xy": [
+              0.01796874962747097,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "000118d03c9333333b360b61ffffffff32321517171734000000000000000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              23
+            ],
+            "widths": [
+              77.625
+            ]
+          },
+          {
+            "widget_offset": 656292,
+            "en": "S. Def",
+            "quad": 23,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "000118d8ba4ccccd3b360b61ffffffff32321517171734000000000000000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              23
+            ],
+            "widths": [
+              69.0
+            ]
+          },
+          {
+            "widget_offset": 568932,
+            "en": "Atk.",
+            "quad": 24,
+            "source_xy": [
+              -0.16328124701976776,
+              0.24722221493721008
+            ],
+            "original_widget_hex": "00000956be2733333e7d27d200a0e8ff23251618181809010000000001000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              47.25
+            ]
+          },
+          {
+            "widget_offset": 656452,
+            "en": "Atk.",
+            "quad": 24,
+            "source_xy": [
+              0.01328125037252903,
+              0.011111111380159855
+            ],
+            "original_widget_hex": "000118fa3c59999a3c360b61ffffff8023251618181809010000000001000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              47.25
+            ]
+          },
+          {
+            "widget_offset": 656772,
+            "en": "Ctr.",
+            "quad": 24,
+            "source_xy": [
+              0.01328125037252903,
+              0.011111111380159855
+            ],
+            "original_widget_hex": "0001192c3c59999a3c360b61ffffff8023251618181809010000000001000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              44.25
+            ]
+          },
+          {
+            "widget_offset": 656804,
+            "en": "Evd.",
+            "quad": 24,
+            "source_xy": [
+              0.01328125037252903,
+              0.011111111380159855
+            ],
+            "original_widget_hex": "000119323c59999a3c360b61ffffff8023251618181809010000000001000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              51.75
+            ]
+          },
+          {
+            "widget_offset": 656836,
+            "en": "Def.",
+            "quad": 24,
+            "source_xy": [
+              0.01328125037252903,
+              0.011111111380159855
+            ],
+            "original_widget_hex": "000119383c59999a3c360b61ffffff8023251618181809010000000001000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              49.5
+            ]
+          },
+          {
+            "widget_offset": 656868,
+            "en": "S.D.",
+            "quad": 24,
+            "source_xy": [
+              0.01328125037252903,
+              0.011111111380159855
+            ],
+            "original_widget_hex": "0001193e3c59999a3c360b61ffffff8023251618181809010000000011000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              50.25
+            ]
+          },
+          {
+            "widget_offset": 656964,
+            "en": "Wait",
+            "quad": 24,
+            "source_xy": [
+              0.01328125037252903,
+              0.011111111380159855
+            ],
+            "original_widget_hex": "0001194c3c59999a3c360b61a0a0a0ff23251618181809010000000000000000",
+            "font_metrics": [
+              35,
+              37,
+              22,
+              24,
+              24
+            ],
+            "widths": [
+              51.0
+            ]
+          },
+          {
+            "widget_offset": 684260,
+            "en": "Rnd.",
+            "quad": 23,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00015f24ba4ccccd3b360b61ffffffc832321517151734000000000000000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              21
+            ],
+            "widths": [
+              52.46875
+            ]
+          },
+          {
+            "widget_offset": 584932,
+            "en": "EN",
+            "quad": 28,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00006b8eba4ccccd3b360b61ffffffff3a3a1a1c1c2531000000000000000000",
+            "font_metrics": [
+              58,
+              58,
+              26,
+              28,
+              28
+            ],
+            "widths": [
+              39.375
+            ]
+          },
+          {
+            "widget_offset": 584964,
+            "en": "EN",
+            "quad": 24,
+            "source_xy": [
+              -0.0007812500116415322,
+              0.0027777778450399637
+            ],
+            "original_widget_hex": "00006b98ba4ccccd3b360b61ffffffff13180e181318337f0000000000000000",
+            "font_metrics": [
+              19,
+              24,
+              14,
+              24,
+              19
+            ],
+            "widths": [
+              33.75
+            ]
+          },
+          {
+            "widget_offset": 631972,
+            "en": "DEF:\nEVD:",
+            "quad": 23,
+            "source_xy": [
+              0.33671873807907104,
+              0.8138889074325562
+            ],
+            "original_widget_hex": "0000efb63eac66663f505b06ffffffff32321517171a34000000000001000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              23
+            ],
+            "widths": [
+              56.0625,
+              57.5
+            ]
+          },
+          {
+            "widget_offset": 632036,
+            "en": "Rec:\nRec:",
+            "quad": 23,
+            "source_xy": [
+              0.711718738079071,
+              0.8138889074325562
+            ],
+            "original_widget_hex": "0000efd23f3633333f505b06ffffffff32321517171a34000000000001000000",
+            "font_metrics": [
+              50,
+              50,
+              21,
+              23,
+              23
+            ],
+            "widths": [
+              51.75,
+              51.75
+            ]
+          },
+          {
+            "widget_offset": 684004,
+            "en": "",
+            "quad": 25,
+            "source_xy": [
+              0.13671875,
+              0.008333333767950535
+            ],
+            "original_widget_hex": "00015e5a3e0c00003c088889ffffffff19191719191922000000000010000000",
+            "font_metrics": [
+              25,
+              25,
+              23,
+              25,
+              25
+            ],
+            "widths": [
+              0.0
+            ]
+          },
+          {
+            "widget_offset": 574180,
+            "en": ": Fast",
+            "quad": 23,
+            "source_xy": [
+              0.05859375,
+              0.03888889029622078
+            ],
+            "original_widget_hex": "00001ac03d7000003d1f49f5ffffffff17171517171724000000000000000000",
+            "font_metrics": [
+              23,
+              23,
+              21,
+              23,
+              23
+            ],
+            "widths": [
+              63.96875
+            ]
+          },
+          {
+            "widget_offset": 575812,
+            "en": ": Fast",
+            "quad": 21,
+            "source_xy": [
+              0.05859375,
+              0.03888889029622078
+            ],
+            "original_widget_hex": "00001cb83d7000003d1f49f5ffffffff15151215131526000000000000000000",
+            "font_metrics": [
+              21,
+              21,
+              18,
+              21,
+              19
+            ],
+            "widths": [
+              58.40625
+            ]
+          },
+          {
+            "widget_offset": 633956,
+            "en": "MV",
+            "quad": 22,
+            "source_xy": [
+              -0.9007812738418579,
+              -0.3583333194255829
+            ],
+            "original_widget_hex": "0000f160bf66999abeb77777ffffffff20271516163534200000000010000000",
+            "font_metrics": [
+              22,
+              22,
+              20,
+              22,
+              22
+            ],
+            "widths": [
+              34.375
+            ]
+          },
+          {
+            "widget_offset": 634084,
+            "en": "MV",
+            "quad": 22,
+            "source_xy": [
+              -0.9007812738418579,
+              -0.6472222208976746
+            ],
+            "original_widget_hex": "0000f178bf66999abf25b05bffffffff20271516163534200000000010000000",
+            "font_metrics": [
+              22,
+              22,
+              20,
+              22,
+              22
+            ],
+            "widths": [
+              34.375
+            ]
+          },
+          {
+            "widget_offset": 634212,
+            "en": "MV",
+            "quad": 22,
+            "source_xy": [
+              -0.9007812738418579,
+              -0.6027777791023254
+            ],
+            "original_widget_hex": "0000f190bf66999abf1a4fa5ffffffff20271516163534200000000010000000",
+            "font_metrics": [
+              22,
+              22,
+              20,
+              22,
+              22
+            ],
+            "widths": [
+              34.375
+            ]
+          },
+          {
+            "widget_offset": 675268,
+            "en": "AT\nDF",
+            "quad": 18,
+            "source_xy": [
+              0.01171875,
+              0.01666666753590107
+            ],
+            "original_widget_hex": "000156083c4000003c888889ffffff8032321517172034000000000001000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              18
+            ],
+            "widths": [
+              23.0625,
+              24.75
+            ]
+          },
+          {
+            "widget_offset": 681060,
+            "en": "AT",
+            "quad": 18,
+            "source_xy": [
+              0.01171875,
+              0.01666666753590107
+            ],
+            "original_widget_hex": "00015c703c4000003c888889ffffff4017171517151734000000000001000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              18
+            ],
+            "widths": [
+              23.0625
+            ]
+          },
+          {
+            "widget_offset": 681092,
+            "en": "AT",
+            "quad": 18,
+            "source_xy": [
+              0.01171875,
+              0.01666666753590107
+            ],
+            "original_widget_hex": "00015c783c4000003c888889ffffffff17171517151734000000000001000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              18
+            ],
+            "widths": [
+              23.0625
+            ]
+          },
+          {
+            "widget_offset": 681156,
+            "en": "DF",
+            "quad": 18,
+            "source_xy": [
+              0.01171875,
+              0.01666666753590107
+            ],
+            "original_widget_hex": "00015c883c4000003c888889ffffff4017171517151734000000000001000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              18
+            ],
+            "widths": [
+              24.75
+            ]
+          },
+          {
+            "widget_offset": 681188,
+            "en": "DF",
+            "quad": 18,
+            "source_xy": [
+              0.01171875,
+              0.01666666753590107
+            ],
+            "original_widget_hex": "00015c903c4000003c888889ffffffff17171517151734000000000001000000",
+            "font_metrics": [
+              18,
+              18,
+              16,
+              18,
+              18
+            ],
+            "widths": [
+              24.75
+            ]
+          }
+        ],
+        "screenshots": [
+          {
+            "issue": "battle-preview",
+            "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-4c5e586c-888c-4e6d-b615-8f930dc4027c.png",
+            "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-battle-preview.png",
+            "sha256": "cd7fa451f6c93e6d439bf6f1039616eb7756228b378d2c4178be234a14725b5e",
+            "pixel_size": [
+              2560,
+              1369
+            ],
+            "observed_region": {
+              "x": 62,
+              "y": 80,
+              "width": 2435,
+              "height": 1250,
+              "approximate": true
+            },
+            "runtime_confirmation": false
+          },
+          {
+            "issue": "map-popup",
+            "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-77ac1154-d07e-4144-b87a-4b430f014b2d.png",
+            "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-map-popup.png",
+            "sha256": "6d0f40cdf727a5d394446fd16dcefacdb94a51ba7a43f2ba64f19936e7ea816e",
+            "pixel_size": [
+              2560,
+              1369
+            ],
+            "observed_region": {
+              "x": 62,
+              "y": 160,
+              "width": 2435,
+              "height": 1190,
+              "approximate": true
+            },
+            "runtime_confirmation": false
+          },
+          {
+            "issue": "battle-result",
+            "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-33e6a7bb-f9f8-4faa-b9d6-50efb659ace4.png",
+            "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-battle-result.png",
+            "sha256": "f1d02828b9e3ed024589024788bbb1a96bf274a0cf85e708b63f62c51580a659",
+            "pixel_size": [
+              2560,
+              1369
+            ],
+            "observed_region": {
+              "x": 245,
+              "y": 485,
+              "width": 2090,
+              "height": 445,
+              "approximate": true
+            },
+            "runtime_confirmation": false
+          },
+          {
+            "issue": "fast-forward",
+            "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-5e6ca61c-28c4-417e-bc18-a66e50a68bff.png",
+            "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-fast-forward.png",
+            "sha256": "2ad6e7a9d8d81cd2dbca3795dbbf24ae95e2c48989108d6e85ffd55f1a4943ad",
+            "pixel_size": [
+              2560,
+              1369
+            ],
+            "observed_region": {
+              "x": 825,
+              "y": 918,
+              "width": 910,
+              "height": 100,
+              "approximate": true
+            },
+            "runtime_confirmation": false
+          },
+          {
+            "issue": "transform",
+            "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-e4bca260-05ca-4f47-a33d-527d31964ace.png",
+            "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-transform.png",
+            "sha256": "7a2a1c642194767804ae80f155b05e44ea46f6903b32c1bb709e3d2f9dc807c9",
+            "pixel_size": [
+              2560,
+              1369
+            ],
+            "observed_region": {
+              "x": 659,
+              "y": 397,
+              "width": 1240,
+              "height": 774,
+              "approximate": true
+            },
+            "runtime_confirmation": false
+          }
+        ],
+        "prior_status_verification": {
+          "schema": 1,
+          "version": "0.5.12",
+          "final_elf_sha256": "1a989ae3135f2e0bcd7ce98d85dbbf163db77529b4d1be4a40cf4e93e213de5d",
+          "matched_files": 12,
+          "widgets": 140,
+          "status_dictionary_cases": 1622,
+          "save_centers": [
+            {
+              "text": "Save your current map progress.",
+              "quad": 25,
+              "left": 437.546875,
+              "width": 403.90625,
+              "center": 639.5,
+              "steps": 34
+            },
+            {
+              "text": "Save your current map progress.",
+              "quad": 28,
+              "left": 413.3125,
+              "width": 452.375,
+              "center": 639.5,
+              "steps": 34
+            },
+            {
+              "text": "Save your current map progress.",
+              "quad": 31,
+              "left": 389.078125,
+              "width": 500.84375,
+              "center": 639.5,
+              "steps": 34
+            },
+            {
+              "text": "Save your current map progress.",
+              "quad": 36,
+              "left": 348.6875,
+              "width": 581.625,
+              "center": 639.5,
+              "steps": 34
+            },
+            {
+              "text": "Create a new save?",
+              "quad": 25,
+              "left": 520.75,
+              "width": 237.5,
+              "center": 639.5,
+              "steps": 36
+            },
+            {
+              "text": "Create a new save?",
+              "quad": 28,
+              "left": 506.5,
+              "width": 266.0,
+              "center": 639.5,
+              "steps": 36
+            },
+            {
+              "text": "Create a new save?",
+              "quad": 31,
+              "left": 492.25,
+              "width": 294.5,
+              "center": 639.5,
+              "steps": 36
+            },
+            {
+              "text": "Create a new save?",
+              "quad": 36,
+              "left": 468.5,
+              "width": 342.0,
+              "center": 639.5,
+              "steps": 36
+            }
+          ],
+          "compact_cells": [
+            {
+              "token": "",
+              "label": "Air",
+              "code": "84f9",
+              "advance": 32,
+              "ink_box": [
+                4,
+                9,
+                27,
+                20
+              ]
+            },
+            {
+              "token": "",
+              "label": "Grd",
+              "code": "84fa",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                21
+              ]
+            },
+            {
+              "token": "",
+              "label": "Wtr",
+              "code": "84fb",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                20
+              ]
+            },
+            {
+              "token": "",
+              "label": "Spc",
+              "code": "84fc",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                23
+              ]
+            },
+            {
+              "token": "",
+              "label": "Und",
+              "code": "86cb",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                21
+              ]
+            },
+            {
+              "token": "",
+              "label": "Only",
+              "code": "86de",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                23
+              ]
+            },
+            {
+              "token": "",
+              "label": "CQB",
+              "code": "86df",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                23
+              ]
+            },
+            {
+              "token": "",
+              "label": "RNG",
+              "code": "86e0",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                21
+              ]
+            },
+            {
+              "token": "",
+              "label": "SKL",
+              "code": "86e1",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                21
+              ]
+            },
+            {
+              "token": "",
+              "label": "DEF",
+              "code": "86e2",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                20
+              ]
+            },
+            {
+              "token": "",
+              "label": "EVD",
+              "code": "86e3",
+              "advance": 32,
+              "ink_box": [
+                2,
+                9,
+                30,
+                20
+              ]
+            },
+            {
+              "token": "",
+              "label": "HIT",
+              "code": "86e4",
+              "advance": 32,
+              "ink_box": [
+                4,
+                9,
+                27,
+                20
+              ]
+            },
+            {
+              "token": "@save-center:0",
+              "label": "",
+              "code": "849d",
+              "advance": 32,
+              "ink_box": null
+            },
+            {
+              "token": "@save-center:1",
+              "label": "",
+              "code": "849e",
+              "advance": 32,
+              "ink_box": null
+            }
+          ],
+          "movement_patch": {
+            "modified_file_ranges": [
+              [
+                8625152,
+                8625154
+              ],
+              [
+                8625154,
+                8625156
+              ],
+              [
+                8625156,
+                8625158
+              ],
+              [
+                8625158,
+                8625160
+              ],
+              [
+                8625160,
+                8625162
+              ],
+              [
+                8625198,
+                8625200
+              ],
+              [
+                8625200,
+                8625202
+              ],
+              [
+                8625202,
+                8625204
+              ],
+              [
+                8625204,
+                8625206
+              ],
+              [
+                8625206,
+                8625208
+              ],
+              [
+                8625208,
+                8625210
+              ],
+              [
+                8625210,
+                8625212
+              ],
+              [
+                9217304,
+                9217312
+              ],
+              [
+                9217312,
+                9217320
+              ],
+              [
+                9217320,
+                9217328
+              ],
+              [
+                9217328,
+                9217336
+              ],
+              [
+                9217912,
+                9217920
+              ],
+              [
+                9217920,
+                9217928
+              ],
+              [
+                9217928,
+                9217936
+              ],
+              [
+                9217936,
+                9217944
+              ],
+              [
+                9217256,
+                9217266
+              ],
+              [
+                9217272,
+                9217285
+              ],
+              [
+                9217288,
+                9217298
+              ]
+            ],
+            "movement_tables": [
+              9282840,
+              9283448
+            ],
+            "converter_private_cells": 12,
+            "restricted_movement_strings": 3,
+            "runtime_verified": false
+          },
+          "screenshots": [
+            {
+              "issue": "save-new",
+              "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-0d478949-3b3f-4e27-a8eb-b669e12bc23b.png",
+              "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-save-new.png",
+              "sha256": "f18429320aa7af020fda2f76d6075bea256c680c6d0fc1029b8f43641fd1acf5",
+              "pixel_size": [
+                2560,
+                1369
+              ],
+              "observed_region": {
+                "x": 208,
+                "y": 497,
+                "width": 2102,
+                "height": 436,
+                "approximate": true
+              },
+              "runtime_confirmation": false
+            },
+            {
+              "issue": "unit-stats",
+              "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-c3acbd5b-e46b-4220-a58a-41398bf469d8.png",
+              "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-unit-stats.png",
+              "sha256": "78fd1622842d322c3c6247e31dc066d651f921f6545874114e3c5195b10f445d",
+              "pixel_size": [
+                2560,
+                1369
+              ],
+              "observed_region": {
+                "x": 504,
+                "y": 249,
+                "width": 1873,
+                "height": 271,
+                "approximate": true
+              },
+              "runtime_confirmation": false
+            },
+            {
+              "issue": "pilot-stats",
+              "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-f04d40db-0ba4-4ec1-a094-db0933a6b806.png",
+              "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-pilot-stats.png",
+              "sha256": "71c0bff4f8729d106259ffa9737410cefdb82a39e7cab785e4b44dcddf67b9ce",
+              "pixel_size": [
+                2560,
+                1369
+              ],
+              "observed_region": {
+                "x": 883,
+                "y": 316,
+                "width": 1515,
+                "height": 601,
+                "approximate": true
+              },
+              "runtime_confirmation": false
+            },
+            {
+              "issue": "mech-stats",
+              "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-a145682e-f22e-489b-af47-ccbd1ed1ce85.png",
+              "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-mech-stats.png",
+              "sha256": "9b4f0b089e29db9b9440e9d8dd285e01a0aef37a76a27563c29e18b66b81e8cb",
+              "pixel_size": [
+                2560,
+                1369
+              ],
+              "observed_region": {
+                "x": 124,
+                "y": 748,
+                "width": 2320,
+                "height": 507,
+                "approximate": true
+              },
+              "runtime_confirmation": false
+            },
+            {
+              "issue": "weapon-costs",
+              "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-a40d67c0-391f-490c-a252-fbf5950c168c.png",
+              "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-weapon-costs.png",
+              "sha256": "a524fcccd2b62b820202b871492c7f1461a43d2c9df77c37298504fa926bf207",
+              "pixel_size": [
+                2560,
+                1369
+              ],
+              "observed_region": {
+                "x": 132,
+                "y": 223,
+                "width": 2260,
+                "height": 1031,
+                "approximate": true
+              },
+              "runtime_confirmation": false
+            },
+            {
+              "issue": "weapon-types",
+              "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-e78714cc-e4a1-4ab7-b328-b577725e9206.png",
+              "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.12-weapon-types.png",
+              "sha256": "9d8823c57ce2e11f37e4af3f4462f16bb3e62d3b1cd0bd8b31c02fcd82b5b7f7",
+              "pixel_size": [
+                2560,
+                1369
+              ],
+              "observed_region": {
+                "x": 127,
+                "y": 223,
+                "width": 2292,
+                "height": 1038,
+                "approximate": true
+              },
+              "runtime_confirmation": false
+            }
+          ],
+          "all_legacy_layout_helpers_verified": 16,
+          "source_sha256": {
+            "tools/status_layout.py": "f51d475b46a557a875c37d4f130e360d0ef7faf68eaf31c55a2ff5af370a05a5",
+            "tools/verify_status_layout.py": "70b02a1a714dd2eb5548719f92b963ba5ca27ef00f1f3908c7e7620d2d4f1096",
+            "tests/test_status_layout.py": "72adac4f4be421ccb544b10c5c292f3f4a1a0e3e8de33048e796dafbcb8055de",
+            "work/translation/en/ui/status_layout.json": "f54cd963aa552aaa09ca5cafb54e4dbde923a881b7b80be2aed68a95903d8bbe",
+            "work/translation/en/ui/aiddata_art.json": "82745e87b49a22e9118dcb7cfd437d99b65bf3cd37ba74148b57ccb427470864"
+          },
+          "iso_verification": {
+            "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.12\\Tengoku-hen-English-0.5.12.iso",
+            "bytes": 5284167680,
+            "sectors": 2580160,
+            "files_verified_each_tree": 82,
+            "udf": "absent",
+            "plaintext_regions": 1,
+            "sha256": "6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32",
+            "version": "0.5.12",
+            "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.12",
+            "replaced": {
+              "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+              "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+              "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+              "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+              "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+              "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+              "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+              "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+              "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+              "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+              "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+              "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+            },
+            "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+            "rpcs3_only": true,
+            "runtime_verified": false
+          },
+          "runtime_verified": false
+        },
+        "source_sha256": {
+          "tools/battle_layout.py": "69eb8af7d9e706fc9f95c66ead25f6232a8550d3e628ab6c1d4895340425304c",
+          "tools/verify_battle_layout.py": "441c29edb3d4bb13e0803f464248e52c2037ba14d54c7539d52969c265563af9",
+          "tests/test_battle_layout.py": "a68152da0a7fad256ee5c35939cc1ebc64ebfb920952e8c9450389c5a6515394",
+          "tools/ui_layout_text.py": "e44314e188893fa8b11cc50580118a995c54c2354375df7e4cb32b8e7a335808",
+          "work/translation/en/ui/battle_layout.json": "d41e7e0c5ae6eb2de3e28dd3616fe38a70eac68464a3dc4c346b4ce97617507a"
+        },
+        "iso_verification": {
+          "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.12\\Tengoku-hen-English-0.5.12.iso",
+          "bytes": 5284167680,
+          "sectors": 2580160,
+          "files_verified_each_tree": 82,
+          "udf": "absent",
+          "plaintext_regions": 1,
+          "sha256": "6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32",
+          "version": "0.5.12",
+          "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.12",
+          "replaced": {
+            "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+            "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+            "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+            "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+            "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+            "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+            "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+            "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+            "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+          },
+          "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+          "rpcs3_only": true,
+          "runtime_verified": false
+        },
+        "runtime_verified": false
+      },
+      "iso_verification": {
+        "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.12\\Tengoku-hen-English-0.5.12.iso",
+        "bytes": 5284167680,
+        "sectors": 2580160,
+        "files_verified_each_tree": 82,
+        "udf": "absent",
+        "plaintext_regions": 1,
+        "sha256": "6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32",
+        "version": "0.5.12",
+        "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.12",
+        "replaced": {
+          "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+          "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+          "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+          "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+          "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+          "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+          "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+          "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+          "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+        },
+        "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+        "rpcs3_only": true,
+        "runtime_verified": false
+      },
+      "runtime_verified": false
+    },
+    "iso_verification": {
+      "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.12\\Tengoku-hen-English-0.5.12.iso",
+      "bytes": 5284167680,
+      "sectors": 2580160,
+      "files_verified_each_tree": 82,
+      "udf": "absent",
+      "plaintext_regions": 1,
+      "sha256": "6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32",
+      "version": "0.5.12",
+      "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.12",
+      "replaced": {
+        "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+        "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+        "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+        "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+        "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+        "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+        "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+        "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+        "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+      },
+      "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+      "rpcs3_only": true,
+      "runtime_verified": false
+    },
+    "runtime_verified": false
+  },
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.12\\Tengoku-hen-English-0.5.12.iso",
+    "bytes": 5284167680,
+    "sectors": 2580160,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32",
+    "version": "0.5.12",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.12",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "source_sha256": {
+    "tools/briefing_narration.py": "d7436f8152588e5fc5b475b994493223519531d8834fb9b916db0e932225458d",
+    "tools/status_layout.py": "f51d475b46a557a875c37d4f130e360d0ef7faf68eaf31c55a2ff5af370a05a5",
+    "tools/ui_catalog.py": "5f872fbf66d65d18350bd721380932c039a879007790b4dc41863e59c19c4138",
+    "tools/verify_briefing_levelup.py": "4c04d29d21fca84d435abf28fca960765a278365396e18156641bc0c1be5a8e9",
+    "tests/test_briefing_levelup.py": "0d030147dd45d0dc4cdcf6e26b2c15efba30ad266acf349d8f473e35750dbb8a",
+    "work/translation/en/ui/expanded/briefing.json": "e68eda13441dcf46fd151a616c32da868f358b696ff526971f478c515765d7b9",
+    "work/translation/en/ui/status_layout.json": "f54cd963aa552aaa09ca5cafb54e4dbde923a881b7b80be2aed68a95903d8bbe"
+  },
+  "runtime_verified": false
+}

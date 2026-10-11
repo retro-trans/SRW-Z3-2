@@ -8,6 +8,11 @@ from the research inventory `work/tengoku/research/eboot_strings.json` (method i
 It reaches the screen through the draw-time hook (`tools/ui_hook.py`,
 `docs/UI_HOOK.md`).
 
+This is an executable-only inventory, not all UI. In build 0.5.2 only 3,494 keys
+are installed: 40 format/fragment strings are skipped and one long Sphere
+explanation exceeds the hook cap. Archive-resident labels and descriptions
+need separate inputs. See [the current UI audit](UI_COVERAGE_2026-10-10.md).
+
 The executable's own strings are never changed, so name strings that the program
 also uses as keys stay intact. A given Japanese string gets one English
 everywhere it is drawn.
@@ -84,3 +89,11 @@ Out of scope for now:
 - **Default team names** (勝平隊, 万丈隊...): "<Name> Team", consistent with
   `squad_names.json` (for example スカル小隊 = "Skull Squadron").
 - **Library entries:** follow `work/translation/en/library/`.
+
+## Expanded sources in 0.5.3
+
+See [UI_EXPANSION_0.5.3.md](UI_EXPANSION_0.5.3.md). `tools.ui_catalog` adds
+archive/Lua UI and descriptions; `tools.ui_runtime` handles checked native
+UTF-8 sites and formatter payloads. Source keys and generic exact lookup do
+not translate arbitrary assembled messages; 23 pending occurrences are
+explicitly reported. Context-bound widget fragments are handled separately.

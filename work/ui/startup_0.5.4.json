@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "version": "0.5.4",
+  "build_sha256": "1f846e2a45b086b8bce57cb5225152c94672776de019a05e4a9381c68de36928",
+  "outputs": {
+    "EBOOT.BIN": "96bb188c0bbd6ccb690754438881d5cc78f2e4c932e56439a6c8be7e116745a3",
+    "RPW_DATA.CPK": "39c207ca1b588d180bce83da815e835288110b04d0a3c49b4aa717e9ed6c1147",
+    "TPACKPS3.CPK": "460572fbb6277661a490f38d5c67a39b35f8c787cd4638d844dc0119a39937d7",
+    "MTZKN_KW.CPK": "383145542088a93d854c934e6e532b5417852b7a16f2222d4d02c9d188c7f8fc",
+    "MTZKN_PT.CPK": "89882f73fcc94c77086649545ea9cee6fc4ca332e37441dbea8552b2e9af6c20",
+    "MTZKN_RT.CPK": "1651711e58f977237a72178f48e30321a9f98e9256b9c442e4f70f9d7e870932",
+    "STGZ3OF2.SDAT": "5b8f61323ffe976168d2d5fa61a380da5d5e93731789671bfcefc73cef0c8db3",
+    "SRVC.BIN": "71e98961489503d5ad811d8209869b5330928617df0337a6831f563403d18fab",
+    "AIDDATAPACK.CPK": "9e4c244390b0fa8f506604c35ff02912fe2b00ae8467d66593644501efa3a396",
+    "CMN.CPK": "d015a601807de74c31dbfe588e5b16f41c2e2b01fb4eef4b1851c880c95b3468",
+    "EFFPS3.CPK": "50bd9f51e83432421b9cdc51897e58e41afb5138249d79d1485c9a16bc3970ee",
+    "OP.CPK": "77efc4ff8f3be8c7c250bf7680e5ec0072eca6a8c1c62460dbbdb3f054155170"
+  },
+  "input_sha256": {
+    "tools/game_build.py": "f89163d5ed422e89855830c3f2508c109317819f657b0dbffc456f7c77f5375a",
+    "tools/ui_catalog.py": "d0bafbd614073ba998caf04c7d17c6d02f5fbfbb3c5563867592493fd3d95968",
+    "tools/ui_layout_text.py": "aac28e20befcc9fa4994eab98658781b981c43259866308fa19322049ae8fd4f",
+    "tools/opening_narration.py": "33e21776bfdff18a207ba76e379f06061d285e1f59a9dbe5d0cbd521b4e4df04",
+    "tools/runtime_names.py": "5e867822579b7f77ccad722372c2499bceca94ba4bfc7c70d9aa24836211acd3",
+    "tools/startup_layout.py": "cae82e14e99d447e8e7b97048f9c7bf6dc77466ac9cbe84b1f4f9c80f7013005",
+    "tools/verify_startup_ui.py": "9ced5646e15d68175eb1d4a8b370d15f949b26f1c127488bf05238e8b155556e",
+    "tests/test_startup_ui.py": "640806bda799fa0fbb9468e5903902b206b4ea9da8fd6bb262a7e772e82642e9",
+    "work/translation/en/ui/expanded/opening.json": "297eecc32d1e305119830eca3f5bd22e3cc5d3f360cf8cd66633d03485ea0403",
+    "work/ui/startup_layout.json": "d566e921aca07d0cc6697c8ba8d6707511136c9dac3615477dc0f61a7add9d94"
+  },
+  "screenshots": {
+    "0.5.3-default-name.png": {
+      "sha256": "58cc77bb55b71a18a2862cb3d88c905fae848fdbeffe2bf9a8b479e01fa9979f",
+      "bytes": 386246
+    },
+    "0.5.3-link-overflow.png": {
+      "sha256": "fee26d7270ff6517db3602d1a168978650d4d466e6439e7fced8b8a1288704b9",
+      "bytes": 1025235
+    },
+    "0.5.3-name-overlap.png": {
+      "sha256": "e89e7119f824183077e3802d397134cf1166d805128ec96dfcb3ecd6b74c6395",
+      "bytes": 997677
+    },
+    "0.5.3-opening-page1.png": {
+      "sha256": "2ca7eab18d2f6c842a34db4b017be659b07930ae4da80ee7c3f7b321f7d998a0",
+      "bytes": 221726
+    },
+    "0.5.3-opening-page2.png": {
+      "sha256": "b59b6a2208156957c38a15a0e345ea8c7500cb12f5abecb5307a48de19f9129c",
+      "bytes": 3333518
+    }
+  },
+  "opening_lines_executed": 28,
+  "opening_member_unchanged": true,
+  "name_getter_cases_executed": 29,
+  "name_buffers_read_only": true,
+  "stage_cpk_sha256": "f28e215fdbab88779fb5b7201ff151ab805901bdcdc6367eb9b3c8bf3dff543f",
+  "iso": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.4\\Tengoku-hen-English-0.5.4.iso",
+    "bytes": 5284036608,
+    "sectors": 2580096,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "a019288059acf6f64cb8e1ecf67bdacea39d95397816f24eabaf0333c97df29e",
+    "version": "0.5.4",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.4",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "regression_tests": {
+    "run": 197,
+    "passed": 196,
+    "skipped": 1,
+    "log_sha256": "34513d5df3e775fdab024da74b981fbb4689c628545d90412210f083d669c00c"
+  },
+  "runtime_verified": false,
+  "layout_verified": false
+}

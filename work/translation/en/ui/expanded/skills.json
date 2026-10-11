@@ -1,0 +1,686 @@
+{
+  "schema": 1,
+  "strings": {
+    "62c2162d1ff1c9e656a3": {
+      "en": "Support Attack an adjacent team once per skill level\neach turn. Assist Attack damage +5% for each available\nsupport use.",
+      "reviewed": true
+    },
+    "286309e63e6e6a07ecf6": {
+      "en": "Support Attack once per skill level each turn. Assist\nAttack damage +5% for each available support use.",
+      "reviewed": true
+    },
+    "d5ee99b3f08cca1c462c": {
+      "en": "When your Skill stat exceeds the enemy's by at least\n20, perform a Support Attack for yourself after the\nenemy counters.",
+      "reviewed": true
+    },
+    "cbdc7965837dca1f6f21": {
+      "en": "When your Skill stat exceeds the enemy's by at least\n20, perform a Support Attack for yourself after the\nenemy counters.",
+      "reviewed": true
+    },
+    "6913e6de20644ad4c6f0": {
+      "en": "Support Attacks always inflict critical hits.\nRe-Attack is excluded.",
+      "reviewed": true
+    },
+    "20bb725d356acb58c9b7": {
+      "en": "Support Attacks always inflict critical hits.\nRe-Attack is excluded.",
+      "reviewed": true
+    },
+    "2ed2475b1eb187ef911b": {
+      "en": "Support Defend a unit in your own team or the main\nunit of an adjacent team. Uses per turn equal the\nskill level.",
+      "reviewed": true
+    },
+    "93e10fa2e2ac8bf93f7c": {
+      "en": "Support Defend an adjacent unit or team. Uses per turn\nequal the skill level.",
+      "reviewed": true
+    },
+    "cfff023b5e36c9195b27": {
+      "en": "Maximum SP +5 per skill level.",
+      "reviewed": true
+    },
+    "871baabd33178960a13d": {
+      "en": "Maximum SP +5 per skill level.",
+      "reviewed": true
+    },
+    "7a0a04e3c80168242125": {
+      "en": "Focus +10 upon deployment.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "0bbec8a60bb653a77b73": {
+      "en": "Focus +3 each turn, beginning on the first deployed\nturn.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "8d99bcb44f245f7af7d1": {
+      "en": "Dodging an attack grants Focus +1 in addition to the\nnormal Focus change.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "0f44c045cbf142d016f6": {
+      "en": "Landing an attack grants Focus +1 in addition to the\nnormal Focus change.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "ce5c404fd721b3ba4932": {
+      "en": "Taking damage from an enemy grants Focus +1 in\naddition to the normal Focus change.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "cf63e63119db4814e408": {
+      "en": "When an ally destroys an enemy team, Focus +1 in\naddition to the normal Focus change.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "169014053652084f1f83": {
+      "en": "Maximum Focus +20.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "dcb7159314413ffa7459": {
+      "en": "Maximum Focus +20.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "941afe2b31a693ee51cf": {
+      "en": "Hit, evade, critical rate and defense increase as HP\nfalls. Higher skill levels increase the effect.",
+      "reviewed": true
+    },
+    "09d37836a6527abc40ef": {
+      "en": "Hit, evade, critical rate and defense increase as HP\nfalls. Higher skill levels increase the effect.",
+      "reviewed": true
+    },
+    "b9c1b629cb7aa99ac91b": {
+      "en": "Counterattack first. Chance depends on skill level and\nSkill difference. No effect for a tag team's sub unit.",
+      "reviewed": true
+    },
+    "2cb70508ed11fddb3627": {
+      "en": "Counterattack first. Chance depends on skill level and\nSkill difference. No effect for a tag team's sub unit.",
+      "reviewed": true
+    },
+    "423cc112eb97ec23777c": {
+      "en": "Weapon EN costs become 80% of normal.",
+      "reviewed": true
+    },
+    "a631dd0d8e4a3248966e": {
+      "en": "Weapon EN costs become 80% of normal.",
+      "reviewed": true
+    },
+    "c9a39d4e7fb0f551bf67": {
+      "en": "Weapon ammunition x1.5, rounded up.",
+      "reviewed": true
+    },
+    "306e3646b158a9a52e11": {
+      "en": "Weapon ammunition x1.5, rounded up.",
+      "reviewed": true
+    },
+    "f6dedcb4aa139a3560c1": {
+      "en": "At Focus 130+: final hit, evade and critical rates\n+10%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "a32708e903794e14da16": {
+      "en": "At Focus 130+: final hit, evade and critical rates\n+10%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "d35eed7cad88e7b782c1": {
+      "en": "At Focus 130+: final damage taken becomes 80% of\nnormal.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "830ae360196759b6de51": {
+      "en": "At Focus 130+: final damage taken becomes 80% of\nnormal.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "476a9a014d2d940b79ea": {
+      "en": "When using an ALL weapon against a team of two units,\nthe damage penalty becomes -10% instead of -25%.",
+      "reviewed": true
+    },
+    "2fc02ef4b9e3f67fd484": {
+      "en": "When using an ALL weapon against a team of two units,\nthe damage penalty becomes -10% instead of -25%.",
+      "reviewed": true
+    },
+    "a6e340965737e927b4da": {
+      "en": "Ignore damage penalties from one size category of\ndifference per skill level.",
+      "reviewed": true
+    },
+    "ee7382cb25546a082417": {
+      "en": "Ignore damage penalties from one size category of\ndifference per skill level.",
+      "reviewed": true
+    },
+    "453c11df31bf7b55ef27": {
+      "en": "Nullifies Ability Halved, Incapacitate, Focus Down\nand SP Down. Also nullifies Daunt at Focus 100 or\nbelow. Has no effect for sub-pilots.",
+      "reviewed": true,
+      "notes": "Preserves the stated Morale <=100 condition for Daunt; does not replace it with a stronger below-100 floor claim.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "74761239b4e92983e284": {
+      "en": "Nullifies Ability Halved, Incapacitate, Focus Down\nand SP Down. Also nullifies Daunt at Focus 100 or\nbelow. Has no effect for sub-pilots.",
+      "reviewed": true,
+      "notes": "Same Daunt condition as the full source description.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "e8ccb87df787cfbe2a56": {
+      "en": "After attacking without moving, you can move.",
+      "reviewed": true
+    },
+    "a9bbf7d36b4b6dfedaf3": {
+      "en": "After attacking without moving, you can move.",
+      "reviewed": true
+    },
+    "dc6e448e0eb7e7af7b53": {
+      "en": "Movement +1. At Focus 130+, the bonus becomes +2.",
+      "reviewed": true,
+      "notes": "Uses the established Dash interpretation: +2 total at Morale 130+, not +1 plus +2.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "a539f4e9fd5d66a4aa38": {
+      "en": "Movement +1. At Focus 130+, the bonus becomes +2.",
+      "reviewed": true,
+      "notes": "Uses the established Dash interpretation: +2 total at Morale 130+, not +1 plus +2.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "cb199d746535c5a66ce5": {
+      "en": "Repair restores 1.5 times the normal HP and reaches\none space beyond adjacent spaces.",
+      "reviewed": true
+    },
+    "9aba4de4f4aea8945fe2": {
+      "en": "Repair restores 1.5 times the normal HP and reaches\none space beyond adjacent spaces.",
+      "reviewed": true
+    },
+    "585d2abd573a6c4c850c": {
+      "en": "When piloting a unit with Resupply, you can resupply\nafter moving.",
+      "reviewed": true
+    },
+    "f4e888a887ea38d63df5": {
+      "en": "When piloting a unit with Resupply, you can resupply\nafter moving.",
+      "reviewed": true
+    },
+    "3c44831feede6aa4f148": {
+      "en": "Use consumable power parts on units in your own team\nor an adjacent team.",
+      "reviewed": true
+    },
+    "aa4b2dc50f340e087deb": {
+      "en": "Use consumable power parts on units in your own team\nor an adjacent team.",
+      "reviewed": true
+    },
+    "673717878b9a2a328468": {
+      "en": "Recover 10 SP each turn.",
+      "reviewed": true
+    },
+    "06c21f3e197aad420d4d": {
+      "en": "Recover 10 SP each turn.",
+      "reviewed": true
+    },
+    "18600f9a38c875622ada": {
+      "en": "Dodging, taking enemy damage, landing an attack or an\nally destroying an enemy grants Focus +1 in addition\nto the normal Focus change.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "fd6ce61360c73bcfedbc": {
+      "en": "At Focus 130+: final hit, evade and critical rates\n+30%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "96e109b467ad71631915": {
+      "en": "At Focus 130+: final hit, evade and critical rates\n+30%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "a5915701f91a06eccfd4": {
+      "en": "Allows two actions per turn.",
+      "reviewed": true
+    },
+    "36435d0bfbbe0b1e2657": {
+      "en": "Allows two actions per turn.",
+      "reviewed": true
+    },
+    "5d3d2e6b2c3933c120c8": {
+      "en": "Funds earned from destroying enemy units x1.2.",
+      "reviewed": true
+    },
+    "c638e63eff5e6a9f2d87": {
+      "en": "Funds earned from destroying enemy units x1.2.",
+      "reviewed": true
+    },
+    "ab401eacfb496e279c0f": {
+      "en": "Hit, evade and critical rates +20%.",
+      "reviewed": true
+    },
+    "4d3aac6f3fb1efc657fd": {
+      "en": "Hit, evade and critical rates +20%.",
+      "reviewed": true
+    },
+    "bfa1b912b9bb99b0c003": {
+      "en": "Raises nearby allied units' final hit and evade rates.\nThe effect depends on skill level and distance from\nthis pilot.",
+      "reviewed": true
+    },
+    "c8e025257135b9ffeba3": {
+      "en": "Enables Tactic Cmd. Attack, Defense or Special changes\nallied pilots' stats for one turn according to the\nchosen command.",
+      "reviewed": true
+    },
+    "6ccc218b1731fda8a44e": {
+      "en": "Enables Tactic Cmd. Attack, Defense or Special changes\nallied pilots' stats for one turn according to the\nchosen command.",
+      "reviewed": true
+    },
+    "5ea519ee6da1852d82f7": {
+      "en": "All deployed pilots gain 5 extra PP when the map is\ncleared.",
+      "reviewed": true
+    },
+    "1283eda9a2ac3e7d55a7": {
+      "en": "All deployed pilots gain 5 extra PP when the map is\ncleared.",
+      "reviewed": true
+    },
+    "bd01fbe281ad71978c96": {
+      "en": "Gain 3 extra PP when leveling up, every 10 kills, and\nwhen deployed at map clear.",
+      "reviewed": true
+    },
+    "2df02b5a6e2c9f22f328": {
+      "en": "Gain 3 extra PP when leveling up, every 10 kills, and\nwhen deployed at map clear.",
+      "reviewed": true
+    },
+    "9c969a6bff2a4477335a": {
+      "en": "Final hit, evade and critical rates +15%.",
+      "reviewed": true
+    },
+    "eeb5ea0961e3ad5a65a3": {
+      "en": "Final hit, evade and critical rates +15%.",
+      "reviewed": true
+    },
+    "3b2c660c58094ad5cc83": {
+      "en": "Raises hit and evade rates and extends the range of\ncertain weapons. Higher skill levels increase the\neffect.",
+      "reviewed": true
+    },
+    "97b0e48c9401283bfa7c": {
+      "en": "Raises hit and evade rates and extends the range of\ncertain weapons. Higher skill levels increase the\neffect.",
+      "reviewed": true
+    },
+    "084250af27efefb32efe": {
+      "en": "At Focus 130+: final hit and evade rates +20%;\ncritical rate +40%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "2d55ce6dec09ba7e21e2": {
+      "en": "At Focus 140+: Hit, Evade and Skill +20; recover 5 SP\neach turn.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "bb5e8089af21c25a3bf9": {
+      "en": "At Focus 140+: Hit, Evade and Skill +20; recover 5 SP\neach turn.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "f4c2d9172901f8ad5a9f": {
+      "en": "At Focus 130+: final damage dealt x1.1 and the\neffects of Potential Lv9.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "1f58af79043128a17b0a": {
+      "en": "At Focus 130+: final damage dealt x1.1 and the\neffects of Potential Lv9.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "8f6bdb35a5498f2addcb": {
+      "en": "Raises hit and evade rates. Higher skill levels\nincrease the effect.",
+      "reviewed": true
+    },
+    "8f87c592fa1a40d73f4f": {
+      "en": "Raises hit and evade rates. Higher skill levels\nincrease the effect.",
+      "reviewed": true
+    },
+    "939edc6caa8b999caff4": {
+      "en": "Grants ESP Lv9 and recovers 10 SP each turn.",
+      "reviewed": true
+    },
+    "a383601902eb36bdbcbd": {
+      "en": "Grants ESP Lv9 and recovers 10 SP each turn.",
+      "reviewed": true
+    },
+    "6e1a0f9d269df562cb98": {
+      "en": "Raises hit rate and reduces final damage taken. Higher\nskill levels increase the effect.",
+      "reviewed": true
+    },
+    "96265de0833ec7e491f4": {
+      "en": "Raises hit rate and reduces final damage taken. Higher\nskill levels increase the effect.",
+      "reviewed": true
+    },
+    "9285eb7e7911d7cf942e": {
+      "en": "Grants Spiral Pow Lv9. At Focus 130+, PP earned x1.2.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "ea46ae102eed87fb4d4e": {
+      "en": "At Focus 130+: critical rate +20%; final damage dealt\nx1.1.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "b85ad677badb204d97df": {
+      "en": "At Focus 130+: critical rate +20%; final damage dealt\nx1.1.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "41a875cb12545f83d884": {
+      "en": "Enemies fought lose 3 Focus. If this pilot is on the\nmap when allied repair costs are settled, all repair\ncosts become zero.",
+      "reviewed": true,
+      "notes": "Source says an enemy fought, not only an enemy hit; repair waiver checks presence when costs are settled.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "70c264d2aee00932c620": {
+      "en": "Enemies fought lose 3 Focus. If this pilot is on the\nmap when allied repair costs are settled, all repair\ncosts become zero.",
+      "reviewed": true,
+      "notes": "Source says an enemy fought, not only an enemy hit; repair waiver checks presence when costs are settled.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "5097263c04fd38775e6a": {
+      "en": "Critical hits deal 1.5 times normal damage.",
+      "reviewed": true
+    },
+    "4238149465d38dcc3371": {
+      "en": "Critical hits deal 1.5 times normal damage.",
+      "reviewed": true
+    },
+    "5b4e524139dc68b58b96": {
+      "en": "At 10% HP or less: Hit, Evade, Melee, Ranged, Defense\nand Skill +20.",
+      "reviewed": true
+    },
+    "a7662e6565f4b5102c8d": {
+      "en": "At 10% HP or less: Hit, Evade, Melee, Ranged, Defense\nand Skill +20.",
+      "reviewed": true
+    },
+    "2258bf13c4961d2b45c3": {
+      "en": "At Focus 130+: gain Air movement, all weapons gain\nAir S, and Movement +1.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "43944b5c4fdcf09f1086": {
+      "en": "At Focus 130+: gain Air movement, all weapons gain\nAir S, and Movement +1.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "7181bf084e57211e987f": {
+      "en": "At Focus 130+: your team's main pilot recovers 5 SP\nat the start of the player phase.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "f70a222c7050230ffb88": {
+      "en": "At Focus 130+: your team's main pilot recovers 5 SP\nat the start of the player phase.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "6950083396e528e52f0c": {
+      "en": "At Focus 130+: damage dealt x1.05.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "7ecc71b9183fd5d2288c": {
+      "en": "At Focus 130+: damage dealt x1.05.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "f7dc0cc28bd49565f961": {
+      "en": "At Focus 130+: Counter activation chance +50%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "5e8a7b991245aa24d2c8": {
+      "en": "At Focus 130+: Counter activation chance +50%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "d322cd129dc7556e41dc": {
+      "en": "At Focus 130+: deploy a barrier field.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "f682fa8e5f11806b8468": {
+      "en": "At Focus 130+: a barrier field can be deployed.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "ef386d002b2b39689f68": {
+      "en": "At Focus 130+: all stats +5 for your team and\nadjacent allied teams.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "4c1207d004de0900075e": {
+      "en": "At Focus 130+: all stats +5 for your team and\nadjacent allied teams.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "affb1517cce0a12b8ddc": {
+      "en": "At Focus 130+: final hit, final evade and critical\nrates +15%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "d41aeb6ac30a4da55421": {
+      "en": "At Focus 130+: final hit, final evade and critical\nrates +15%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "4a778d9cdd9cb402e082": {
+      "en": "At Focus 130+: gain Underground movement and Barrier\nPierce for every weapon.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "4faa5a38622969041d1c": {
+      "en": "At Focus 130+: gain Underground movement and Barrier\nPierce for every weapon.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "fdeb329fd2d096acd635": {
+      "en": "At Focus 130+: HP Regen (S) and EN Regen (S)\nactivate.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "bec768d36d770e7514a5": {
+      "en": "At Focus 130+: HP Regen (S) and EN Regen (S)\nactivate.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "718b3118e5c85abcc4a1": {
+      "en": "At Focus 130+: enemies within 5 spaces lose 2 Focus\nat the start of the player phase.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "af725940f53d71ce28ce": {
+      "en": "At Focus 130+: enemies within 5 spaces lose 2 Focus\nat the start of the player phase.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "941fcfde27b911d22242": {
+      "en": "At Focus 130+: gain Double Image with a 50%\nactivation chance.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "6ed893c3104e35d064fa": {
+      "en": "At Focus 130+: gain Double Image with a 50%\nactivation chance.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "e573407c81445a6e5025": {
+      "en": "At Focus 130+: all weapons gain the Armor Down\neffect.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "9533afa9a40ff758f551": {
+      "en": "At Focus 130+: all weapons gain the Armor Down\neffect.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "1c8dad274e17cef4a379": {
+      "en": "At Focus 130+: Movement +1; your team ignores terrain\nmovement costs.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "031cd48fb48f12554e2f": {
+      "en": "At Focus 130+: Movement +1; your team ignores terrain\nmovement costs.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "f6ce7a09c04d26938209": {
+      "en": "If the enemy's hit rate is 30% or less, even a\nsuccessful hit deals only 50% of its final damage.",
+      "reviewed": true
+    },
+    "b7e38123e82681b63424": {
+      "en": "If the enemy's hit rate is 30% or less, even a\nsuccessful hit deals only 50% of its final damage.",
+      "reviewed": true
+    },
+    "71f1913e75b5e4779054": {
+      "en": "Allows three actions per turn.",
+      "reviewed": true
+    },
+    "367a65f72ba0884ade35": {
+      "en": "Allows three actions per turn.",
+      "reviewed": true
+    },
+    "2d50685f46921ee184f5": {
+      "en": "Raises hit, evade and critical rates. Higher skill\nlevels increase the effect.",
+      "reviewed": true
+    },
+    "61ea36db5fa7a2ae0b74": {
+      "en": "Raises hit, evade and critical rates. Higher skill\nlevels increase the effect.",
+      "reviewed": true
+    },
+    "5c3f467cbabb10b08db4": {
+      "en": "At Focus 120+: activate Battle Mode to fight as\nBuster Machine No. 7.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "7b1b97f64ade5c45c37f": {
+      "en": "At Focus 120+: activate Battle Mode to fight as\nBuster Machine No. 7.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "7e0400d4f9e983689558": {
+      "en": "At Focus 140+: use Telepathy once per phase. Applies\nStrike and Alert to the selected allied team.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "d2accf1e85d4d3ed5b1b": {
+      "en": "At Focus 140+: use Telepathy once per phase. Applies\nStrike and Alert to the selected allied team.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "677fda94254aedfddf43": {
+      "en": "At Focus 130+: use Remote Op. once per phase. Spend\nyour own action to restore an adjacent allied team's\naction.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "1da66d637c7e2b520028": {
+      "en": "At Focus 130+: use Remote Op. once per phase. Spend\nyour own action to restore an adjacent allied team's\naction.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "c23f89a31f5c7693861f": {
+      "en": "At Focus 140+: activate Decisive Mode to fight as\nDiebuster.",
+      "reviewed": true,
+      "notes": "Source full view states Morale 140; abbreviated view 127 states 120. Both thresholds retained pending gameplay/code verification.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "d9dbfec6664198f4f89e": {
+      "en": "At Focus 120+: activate Decisive Mode to fight as\nDiebuster.",
+      "reviewed": true,
+      "notes": "Source abbreviated view states Morale 120; full view 126 states 140. Both thresholds retained pending gameplay/code verification.",
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "b3ac678eaf5fac6022ed": {
+      "en": "At Focus 130+: Skill +20 and all weapons gain Barrier\nPierce.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "83c2e2e2b9fc8977bf53": {
+      "en": "At Focus 130+: Skill +20 and all weapons gain Barrier\nPierce.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "14c10724100c99797257": {
+      "en": "At Focus 130+: Melee and Defense +20.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "c46f55b086d06baf1550": {
+      "en": "At Focus 130+: Melee and Defense +20.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "ca8836083e2835c15973": {
+      "en": "Use Mat. Transfer once per map to use a Repair Kit,\nPropellant Tank or Cartridge on yourself.",
+      "reviewed": true
+    },
+    "30cad9684251c5d96789": {
+      "en": "Use Mat. Transfer once per map to use a Repair Kit,\nPropellant Tank or Cartridge on yourself.",
+      "reviewed": true
+    },
+    "441983e21193717b297b": {
+      "en": "At Focus 130+: hit, evade and critical rates +10%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "16ff049ee0bf5cd35fe2": {
+      "en": "At Focus 130+: hit, evade and critical rates +10%.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "f211f0da6ea5f91745ce": {
+      "en": "Against enemies with lower Skill, damage dealt rises\nand damage taken falls. Higher skill levels increase\nthe effect. Range: skill level x2 spaces.",
+      "reviewed": true
+    },
+    "d7255b632dc408d69fd7": {
+      "en": "Against enemies with lower Skill, damage dealt rises\nand damage taken falls. Higher skill levels increase\nthe effect. Range: skill level x2 spaces.",
+      "reviewed": true
+    },
+    "a17634914eaea173cacd": {
+      "en": "Once per map, at Focus 130+, survive a lethal hit\nwith 10 HP if HP was at least 25% before the hit.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "689c524f6ffe6f932c3d": {
+      "en": "Once per map, at Focus 130+, survive a lethal hit\nwith 10 HP if HP was at least 25% before the hit.",
+      "reviewed": true,
+      "terminology_note": "User-selected Z3 terminology: Focus for the Ki stat; Foc in compact labels. Spirit Focus remains unchanged."
+    },
+    "b73dba71fa0a40be7431": {
+      "en": "Against an enemy with higher Skill: damage dealt x1.1,\ndamage taken x0.9, and hit and evade rates +10%.",
+      "reviewed": true
+    },
+    "c0ebb7aa89ec02177af0": {
+      "en": "Against an enemy with higher Skill: damage dealt x1.1,\ndamage taken x0.9, and hit and evade rates +10%.",
+      "reviewed": true
+    },
+    "4caa7a9b9cfe42d790d4": {
+      "en": "When participating in Placement, add 5% to its normal\neffect. Nullifies enemy Placement.",
+      "reviewed": true
+    },
+    "c8b9e709612957c966f9": {
+      "en": "When participating in Placement, add 5% to its normal\neffect. Nullifies enemy Placement.",
+      "reviewed": true
+    },
+    "6871a9eafb2a9465c2f9": {
+      "en": "Using an ALL weapon against a single-unit team deals\nx1.1 damage.",
+      "reviewed": true
+    },
+    "df369567821049358ef3": {
+      "en": "Using an ALL weapon against a single-unit team deals\nx1.1 damage.",
+      "reviewed": true
+    },
+    "3765d4726a22426af907": {
+      "en": "Doubles the terrain effects of your current space.",
+      "reviewed": true
+    },
+    "e78561854f27c2e91aee": {
+      "en": "Doubles the terrain effects of your current space.",
+      "reviewed": true
+    },
+    "515dc6f0f7ab972a9fc3": {
+      "en": "If you end the player phase without acting, gain Zeal\nand Accel, and all main pilots in your team gain 5 SP.\nIn a tag team, the sub unit cannot apply this skill.",
+      "reviewed": true,
+      "notes": "Source says all main pilots in the team; the short view refers to the main pilot. Team/main/sub scope retained per view."
+    },
+    "e185759240aba50fa900": {
+      "en": "If you end the player phase without acting, gain Zeal\nand Accel, and your team's main pilot gains 5 SP. No\neffect for sub units.",
+      "reviewed": true,
+      "notes": "Source short view refers to the main pilot, unlike the full view all-main-pilots wording."
+    }
+  }
+}

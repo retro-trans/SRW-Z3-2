@@ -1,5 +1,11 @@
 # Draw-time UI hook (phase 1)
 
+For the broader 0.5.3 sources and guarded formatter/widget integration, see
+[UI_EXPANSION_0.5.3.md](UI_EXPANSION_0.5.3.md). The source-key/stub cap remains
+4,096 bytes; relocated English output validation allows 8,192 bytes.
+Auxiliary formatter strings share the checked extension; the machine-code
+lookup algorithm remains unchanged.
+
 `tools/ui_hook.py` lets the executable draw English for any string that
 reaches the game's string drawer, without changing a byte of the game's own
 strings. Phase 1 is exact, whole-string matching only. Centring and measure

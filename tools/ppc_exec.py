@@ -135,7 +135,17 @@ def decode(w, pc=0):
                 raise Unsupported('spr %d' % spr)
             return ('mfspr' if xo10 == 339 else 'mtspr', rt, SPR[spr])
         if xo10 == 278: return ('dcbt',)
+        if xo10 == 983: return ('stfiwx', rt, ra, rb)
         raise Unsupported('op31 xo %d' % xo10)
+    if op == 59:
+        xo = (w >> 1) & 31
+        if xo in (20,21): return ('fsubs' if xo==20 else 'fadds',rt,ra,rb)
+        if xo==25: return ('fmuls',rt,ra,(w>>6)&31)
+        if xo==29 and not w&1:return ('fmadds',rt,ra,(w>>6)&31,rb)
+    if op == 63:
+        xo = (w >> 1) & 1023
+        if xo==72 and not w&1:return ('fmr',rt,rb)
+        if xo in (846,12,15): return ({846:'fcfid',12:'frsp',15:'fctiwz'}[xo],rt,rb)
     dforms = {32: ('lwz', 4, 0), 33: ('lwzu', 4, 1), 34: ('lbz', 1, 0), 35: ('lbzu', 1, 1),
               40: ('lhz', 2, 0), 41: ('lhzu', 2, 1), 42: ('lha', 2, 0),
               36: ('stw', 4, 0), 37: ('stwu', 4, 1), 38: ('stb', 1, 0), 39: ('stbu', 1, 1),
@@ -353,6 +363,33 @@ class Machine:
             if spr == 'lr': self.lr = r[s]
             elif spr == 'ctr': self.ctr = r[s]
             else: self.ca = (r[s] >> 29) & 1
+        elif n=='fmr':
+            _,t,b=ins;self.f[t]=self.f[b]
+        elif n in ('fcfid','frsp','fctiwz'):
+            _,t,b=ins
+            if n=='fcfid':
+                bits=struct.unpack('>Q',struct.pack('>d',self.f[b]))[0]
+                self.f[t]=float(sext(bits,64))
+            elif n=='frsp':
+                self.f[t]=struct.unpack('>f',struct.pack('>f',self.f[b]))[0]
+            else:
+                value=int(self.f[b])
+                if not -(1<<31)<=value<(1<<31): raise Unsupported('fctiwz integer range')
+                self.f[t]=struct.unpack('>d',struct.pack('>Q',value & M32))[0]
+        elif n=='fmadds':
+            # Native caption geometry uses exact binary single-precision
+            # coordinates; round once after multiply/add, not after multiply.
+            _,t,a,c,b=ins
+            self.f[t]=struct.unpack('>f',struct.pack('>f',self.f[a]*self.f[c]+self.f[b]))[0]
+        elif n in ('fmuls','fadds','fsubs'):
+            _,t,a,b=ins
+            v=(self.f[a]*self.f[b] if n=='fmuls' else
+               self.f[a]+self.f[b] if n=='fadds' else self.f[a]-self.f[b])
+            self.f[t]=struct.unpack('>f',struct.pack('>f',v))[0]
+        elif n=='stfiwx':
+            _,s,a,b=ins
+            bits=struct.unpack('>Q',struct.pack('>d',self.f[s]))[0]
+            self.mem.write(self.ea(a,r[b]),struct.pack('>I',bits & M32))
         elif n == 'dcbt':
             pass
         elif n in ('lwz', 'lwzu', 'lbz', 'lbzu', 'lhz', 'lhzu', 'lha', 'ld', 'ldu', 'lwa'):

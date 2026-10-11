@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "version": "0.5.7",
+  "build_sha256": "aa9951d5489c2366da92ea67af5435bdf7055d24999d2c0de54ef124fa082c70",
+  "outputs": {
+    "EBOOT.BIN": "cf2759b2354ab18eee490701999265a61d47ee78bbc7bf87d9695b14a6712a06",
+    "RPW_DATA.CPK": "f9f1a662ba005ccd98877f5d52445a4775f8b0723aef51e151a33372fca8f9a1",
+    "TPACKPS3.CPK": "89ebfbe89f1614883e28f350c4fe494707bbc821d023cab367bc0859bacd4b8c",
+    "MTZKN_KW.CPK": "808131823b7483b01976bbe0e8ecdf32ebf5e1e9a46605e2645bb1d22f410311",
+    "MTZKN_PT.CPK": "94378b7a2505ebdd4173d52d983337ad2fa5c585fce30a5a1026cfbabf86a02d",
+    "MTZKN_RT.CPK": "84ef29193a0b79514e481c8a1e218a412407074f06b7861e3260c63b93ab0734",
+    "STGZ3OF2.SDAT": "cde34471733c711a147f281a66a89fe2059370a790afd18a5b703955eb4915bb",
+    "SRVC.BIN": "ef419a25363efed6b673d29e90cd32655206be5101455459512a602de0db2b51",
+    "AIDDATAPACK.CPK": "136f3fa0c1149cd3a50e1e439a2a3130664317befa535141450db04aa944497f",
+    "CMN.CPK": "d015a601807de74c31dbfe588e5b16f41c2e2b01fb4eef4b1851c880c95b3468",
+    "EFFPS3.CPK": "50bd9f51e83432421b9cdc51897e58e41afb5138249d79d1485c9a16bc3970ee",
+    "OP.CPK": "77efc4ff8f3be8c7c250bf7680e5ec0072eca6a8c1c62460dbbdb3f054155170"
+  },
+  "input_sha256": {
+    "tools/game_build.py": "86d3e62b750f36905f8167fd2fe2de90e06bc745e6d6857c0c7dd955df4d996c",
+    "tools/ui_catalog.py": "189a57d30c08218bba26d51f800548738fde4c8dfe2dc047e03f4b4bbc761a63",
+    "tools/ui_layout_text.py": "f0945d50f42c31d67f4f6eb0e6827fecdd57b6c6a7b7f6bd8efbe53081e1d2ce",
+    "tools/opening_narration.py": "867a9c97b50946721df700d5a42be57b5fa07c48f5d39f76ef81cbf86b5771c5",
+    "tools/runtime_names.py": "5e867822579b7f77ccad722372c2499bceca94ba4bfc7c70d9aa24836211acd3",
+    "tools/startup_layout.py": "cae82e14e99d447e8e7b97048f9c7bf6dc77466ac9cbe84b1f4f9c80f7013005",
+    "tools/verify_startup_ui.py": "04aab92a3decd924959e3747f017ab72fc5a7e3d60ffa712dc1cad69885d7cc0",
+    "tests/test_startup_ui.py": "640806bda799fa0fbb9468e5903902b206b4ea9da8fd6bb262a7e772e82642e9",
+    "work/translation/en/ui/expanded/opening.json": "297eecc32d1e305119830eca3f5bd22e3cc5d3f360cf8cd66633d03485ea0403",
+    "work/ui/startup_layout.json": "2128b1a11249c4e071aa00a6623cf24fa779a83a07cd8a5a862bf515b018d98b",
+    "tools/latin_font.py": "c3b9e20e49571a9eaa01475a2c47e92668f1539cc02510faf0e69ffa26aea4ee",
+    "tools/ui_vwf_build.py": "2de1d3cff1d48b71bbe7ddd3f3b6eef72fdaf422d2c495a755dd9281d212038c",
+    "tools/ui_build.py": "7a086e3572ac3184520bd528497b50efb5098448be37e74b7123b7276d04e104",
+    "tools/ui_description_layout.py": "17631ed4f677056e3e2a0d804d2e0ac3fd2a8168e8818d2b7c42dfaae4351aad",
+    "tools/dialogue_layout.py": "f695d51eeaa2143ae83375039ea1ef720f73fb28e82976452ccb7ec1d87d97ad",
+    "tests/test_latin_font.py": "e68bd328c3ab6087c032a90ab8f73e3651460107972b98af7c863f3158663d6b"
+  },
+  "screenshots": {
+    "0.5.3-default-name.png": {
+      "sha256": "58cc77bb55b71a18a2862cb3d88c905fae848fdbeffe2bf9a8b479e01fa9979f",
+      "bytes": 386246
+    },
+    "0.5.3-link-overflow.png": {
+      "sha256": "fee26d7270ff6517db3602d1a168978650d4d466e6439e7fced8b8a1288704b9",
+      "bytes": 1025235
+    },
+    "0.5.3-name-overlap.png": {
+      "sha256": "e89e7119f824183077e3802d397134cf1166d805128ec96dfcb3ecd6b74c6395",
+      "bytes": 997677
+    },
+    "0.5.3-opening-page1.png": {
+      "sha256": "2ca7eab18d2f6c842a34db4b017be659b07930ae4da80ee7c3f7b321f7d998a0",
+      "bytes": 221726
+    },
+    "0.5.3-opening-page2.png": {
+      "sha256": "b59b6a2208156957c38a15a0e345ea8c7500cb12f5abecb5307a48de19f9129c",
+      "bytes": 3333518
+    }
+  },
+  "opening_lines_executed": 28,
+  "opening_member_unchanged": true,
+  "name_getter_cases_executed": 29,
+  "name_buffers_read_only": true,
+  "stage_cpk_sha256": "6417b079b9e6e77e28d042115b69c0bef131f71c0069837bb19378312622c095",
+  "iso": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.7\\Tengoku-hen-English-0.5.7.iso",
+    "bytes": 5284036608,
+    "sectors": 2580096,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "70b32536eac05b854eb4ae1212a7a5d96d9de5be7906df234ef46c7a29224c64",
+    "version": "0.5.7",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.7",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "latin_font": {
+    "face": "SCE-PS3-RD-B-LATIN.TTF",
+    "face_sha256": "2f10428d9fc0bbc710df221c0b5b12ee2ff881fb1a26da0594aba840f822c873",
+    "cap": 22,
+    "baseline": 26,
+    "supersampling": 4,
+    "horizontal_dilation": 0.5,
+    "space_advance": 9,
+    "advance_padding": 1,
+    "downsampling": "BOX",
+    "reference": "SRW Z3/tools/digraph.py + tools/ttfglyph.py",
+    "glyphs_verified_each_page": 214,
+    "pages_verified": [
+      1,
+      3
+    ],
+    "advance_cells_verified": 214,
+    "reference_source_sha256": {
+      "digraph.py": "b811bdbc183af8706c8ada72388f8910288ee8714d944f2107b4807d9a97634c",
+      "ttfglyph.py": "c30d4688d099b289540758c0f12174fbdeaee18b837bf161c17590daf2c32604"
+    },
+    "installed_font_cache": {
+      "path": "E:\\RPCS3\\dev_hdd0\\game\\BLJS10299_DATA\\USRDIR\\INSCO\\DATA0141.DAT",
+      "sha256": "460572fbb6277661a490f38d5c67a39b35f8c787cd4638d844dc0119a39937d7",
+      "matches_build": false,
+      "modified": false
+    }
+  },
+  "regression_tests": {
+    "run": 213,
+    "passed": 212,
+    "skipped": 1,
+    "log_sha256": "09dd3856389078a66f732aa8f2daec6900463700da91ba646bd25a6c7919e319"
+  },
+  "runtime_verified": false,
+  "layout_verified": false
+}

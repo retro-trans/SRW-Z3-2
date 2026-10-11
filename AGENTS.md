@@ -13,6 +13,8 @@ incoming - outside files that need agent to look into
 - Identified each build with version 0.x.y (start at 0.1.0)
 - Always write change log
 - If user told you to remember anything write it down here, make sure to ask user if the new one conflict with old one
+- Consider using https://github.com/nationalsecurityagency/ghidra if applicable
 
 ** REMEMBER **
 - Every new release must work with [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools).
+- The user always tests the public release. Deliver completed fixes as a new public release with validated Retro Trans patches; a separate local testing ISO does not reach their normal testing workflow.

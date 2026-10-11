@@ -257,7 +257,11 @@ Findings:
   - Jigoku replaced its wordmark and subtitle with a user-approved generated
     English wordmark (`docs/TITLE_LOGO.md` there). That art is a Jigoku asset
     and does not fit Tengoku's 864x304 / 536x192 sprites.
-  - Tengoku needs new, approved art.
+  - Resolved in 0.5.10: Tengoku uses new transparent English wordmark and
+    subtitle art, packed into its own sprite sizes. The animated subtitle
+    is repacked as three overlapping windows; the native Z is preserved.
+    See [title screen and credits](TITLE_SCREEN_0.5.10.md). Earlier notes
+    in this inventory describe the original pending state.
   - t12 is sliced into three character cells that animate separately. An
     English subtitle there must be repacked into three cells (or the record
     rectangles edited); a continuous repaint would come out sliced. This is

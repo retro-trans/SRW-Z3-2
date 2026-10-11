@@ -1,5 +1,157 @@
 # Changelog
 
+## 0.5.18 - 2026-10-11
+
+- Replace the two enemy Spirit bands' leftover Japanese slash with an allocated English slash cell. Preserve all five bands' slot order, flag state, native pitch and geometry; the enemy sequence is Fy / Di An.
+- Carry forward the native fallback repair that prevents blank captions drawing stray kanji over map names, and verify Daimon Police, Genion and the blank overlay through the installed centered renderer in both font modes.
+- Prepare a public release containing the accumulated 0.5.3–0.5.17 translation and layout fixes. The user always tests public releases; local testing images alone did not update the copy they were using.
+- Retain full dialogue, narration, stage, terrain, target and library translation work, Focus/Foc terminology and matching outlined fonts. Update the retro-trans title footer to v0.5.18.
+
+## 0.5.17 - 2026-10-11
+
+- Translate complete ordinary episode headings using the actual stage number/title table: 104 variants across 126 records, including route branches. Add default Hibiki display-name bindings for all 19 relevant compiled mission conditions.
+- Translate all 83 terrain names across 128 map attribute members / 1,105 named records. Retain map parameters and source records; cover digit conversion in Industrial 7 and all 16 movement-flag combinations.
+- Translate the assembled Spirit target category, including One Ally, All Allies, One Foe and Own Team; preserve each enum's scope and fit every defensive combination into the native target field.
+- Use readable normal stat labels, shorten Training to Train and remove training colons that intruded into live values. Increase terrain badge cap height from 11 to 16 pixels while retaining native cell advance and rating positions. Bind all 23 Ki widgets to Foc and retain outlined Lv/SP-style masks and the native fallback repair.
+- Carry forward complete narration, library and dialogue work and the Retro Trans Tools-compatible pipeline. Update the retro-trans title footer to v0.5.17 and prepare a separate testing ISO. In-game appearance remains pending user testing.
+- Run 251 regression tests: 250 passed and one optional check skipped.
+- Verify all 82 ISO files through both directory trees. Testing image size: 5,284,429,824 bytes; SHA-256: `ee3b1069d4e3196e9126821238d44c9426b13c98320e5bf50c70c1b83bde5840`.
+- Final cumulative verification passed, including all 137 category lookups, 865 episode-heading bindings, 23 Foc widgets, stat widths and preserved native value positions. Save evidence in `work/ui/category_ui_verified_0.5.17.json`.
+
+## 0.5.16 - 2026-10-11
+
+- Replace the individual narration offset lists with a complete, fingerprint-bound catalogue of all 34 narration members, including later story introductions. All 197 timed records / 189 unique captions now have reviewed English; add 154 missing unique translations.
+- Translate the reported Sidereal introduction, invasion, occupation and Leyline cards. Preserve full meaning, deliberate continuations, page order and timing. Measure every English line and retain all original narration members byte-for-byte.
+- Add complete-corpus regression coverage and final executable checks for all narration bindings, plus native centering checks for the four reported cards.
+- Carry forward previous fixes, supplementary glossary research and the Retro Trans Tools-compatible build pipeline. Update the retro-trans title footer to v0.5.16. Prepare a separate testing ISO; live appearance remains pending in-game testing.
+- Run 246 regression tests: 245 passed and one optional check skipped.
+- Verify all 82 ISO files through both directory trees. Testing image size: 5,284,167,680 bytes; SHA-256: `e38ea9bc3bc45f16f0373eda67aaec55dc4f83ef2a00fd55bfc6542ce9bde5fd`.
+
+## 0.5.15 - 2026-10-11
+
+- Repair the centered drawer's native fallback source pointer. Blank captions and native settings no longer draw executable bytes as stray kanji. Verify the installed fallback through the original renderer entry in eight caption/style cases.
+- Use CQB on level-up and enlarge DEF/SKL/EVD/HIT with normal outlined glyphs. Preserve numeric positions, row spacing and display state; verify the final Focus skill labels.
+- Translate both concluding narration rows, preserving the new battle / battle without end continuation, original archive member and timing.
+- Separate Ep and Clear in the intermission footer, correct Rengoku Link's doubled centering offset, shorten settings captions and add explicit ON/OFF bindings. Correct two Focus terms adjoining color controls.
+- Carry forward earlier fixes and update the retro-trans title footer to v0.5.15. Run 244 tests: 243 passed and one optional check skipped. Prepare a separate local testing image; in-game appearance remains pending user navigation.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,167,680 bytes; SHA-256 is `4f65bed87b05ba45d5e0d9e8d068a9c847fc46dc7d329bd8138b07e368a0e900`.
+
+## 0.5.14 - 2026-10-11
+
+- Follow Z3's Focus terminology for the Ki stat: use Foc in compact labels and Focus in descriptions. Update 358 English UI fields, the source-bound Will label overrides and the weapon requirement caption. Preserve the separate Focus Spirit command and ordinary English will.
+- Restore native G8B8 font masks: separate the black outline coverage from the letter fill, matching the native Lv/SP treatment. Keep the Z3 Rodin Bold letter shapes, advances and all original font cells unchanged.
+- Shorten the crowded Spirit Effect caption to Eff. Preserve numeric positions, native widget geometry and gameplay values. Carry forward all earlier fixes and update the retro-trans title footer to v0.5.14.
+- Run 241 tests: 240 passed and one optional check skipped. Prepare a separate local testing image; in-game appearance remains pending user navigation.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,167,680 bytes; SHA-256 is `08a8c897991644aba1755f0e19e816a6d74944e26d1b06baab186b3c78961a5c`.
+
+## 0.5.13 - 2026-10-11
+
+- Translate the two missing enemy-fleet narration rows: the fleet breaches absolute defense lines on all fronts and descends toward Earth. Preserve the sentence continuation, original timing and complete meaning.
+- Bind both draw-time replacements to the fingerprinted AIDDATAPACK member 27. Keep the original archive member byte-identical; reuse the Z3 Rodin font and existing condensed alphabet for the first row.
+- Carry forward all earlier fixes and update the retro-trans title footer to v0.5.13. Prepare a separate local testing image; runtime confirmation remains pending user navigation.
+- Run 238 tests: 237 passed and one optional check skipped. Execute both translated captions from the final executable, check their widths and confirm the source narration member remains unchanged.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,167,680 bytes; SHA-256 is `030050b0a79abfd6319982dee999f0fd567a9889db4efad5d8c09047bfbe935a`.
+
+## 0.5.12 - 2026-10-11
+
+- Translate all three missing military briefing lines, preserving the 34.8% remaining-strength figure, its comparison with the Earth Federation's founding, the disrupted command structure and the unknown Sidereal information.
+- Bind the briefing to AIDDATAPACK member 26; exact draw-time replacements retain the original fixed rows and timing. Use the existing condensed Z3 Rodin alphabet where needed, including two additional digit cells.
+- Verify the full-screen date through the actual native centered drawer and installed VWF helper. Both style modes center the complete English caption at x=640, with the original date geometry intact; the earlier centering fix is retained.
+- Compact the missing reversed DEF/SKL pair on level-up and remove the shared Score Units suffix. Preserve native label order, numeric fields, font pitch and gameplay values.
+- Update the title footer to v0.5.12 with the existing retro-trans credit. Run 237 tests: 236 passed, one optional check skipped. Prepare a separate local testing ISO with all cumulative fixes; runtime confirmation remains pending user navigation.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,167,680 bytes; SHA-256 is `6aa696d9652603fa8f69c641acff92bf2ad536b8b80ac95f272cf370a64aba32`.
+
+## 0.5.11 - 2026-10-11
+
+- Center intermission buttons and shorten crowded captions to Training, Upgrades, Team Setup and D-Trader. Keep both selection states, native counters and control IDs; use compact Ep / Clear / turns and Ships footer labels, removing separate score and deployment unit suffixes.
+- Consolidate the fragmented Rengoku-hen / Link Bonus caption into Rengoku Link. Hide its old suffix widgets and center Options, Network and Library captions. Remove quotation marks from all six Library caption states, preserving their special renderer mode.
+- Connect all 143 native keyword descriptors and both description variants to the complete English Library prose. Preserve original lookup names, series, flags and stable IDs. Execute a guarded conversion path for owned prose instead of overflowing the native UTF-16 stack buffer; retain the original converter for other text and wrapped line copies.
+- Audit all 1,013 Library records, 5,838 rendered display fields, 2,026 description variants and 500 executable Library display occurrences: no untranslated display fields found. Verify all 286 native keyword description pointers, 572 consumer executions, a substring and fallback cases.
+- Translate four native scenario-chart header states and both chapter backgrounds. Add exact spaced prologue headings, quoted stage-title and episode-number bindings. Preserve animation records, atlas descriptors and pixels outside the declared lettering rectangles.
+- Update the title footer to v0.5.11 with the existing retro-trans credit and Z3 font. Run 234 tests: 233 passed, one optional check skipped. Save the five reported screenshots and final artifact evidence; in-game confirmation remains pending user navigation.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,167,680 bytes; SHA-256 is `91496c15987e8c24efa5b870041f8b7e2e89b05c224e054587eb94fccc383922`.
+
+## 0.5.10 - 2026-10-11
+
+- Translate the title to 3rd Super Robot Wars Z: Heavenly Prison Chapter, following Z3's metallic English wordmark and smaller Chapter subtitle. Retain Tengoku's red subtitle outline and native fiery Z.
+- Add the version and github.com/retro-trans credit to the title backgrounds, matching Z3's bottom-right placement, outlined white Rodin Bold lettering and font size. Tie the displayed version to the build version.
+- Pack both the whole subtitle and its three animated cells; preserve original UVs, animation records, unused atlas gaps, the prompt and unrelated pixels. Bind all edits to Tengoku member 229 and generated artwork hashes.
+- Inset the footer on the background with a native ten-percent zoom, preventing clipping throughout its original keyframes.
+- Run 228 tests (227 passed, one optional check skipped). Save artwork provenance, packed texture previews, the reported screenshot and final title/version readback evidence. Prepare a separate 0.5.10 testing image; in-game confirmation remains pending user navigation.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,102,144 bytes; SHA-256 is `c5dac335998eeb328fb5bf122b81af3d269bb187e8337294f6653e23166f9807`.
+
+## 0.5.9 - 2026-10-11
+
+- Follow Z3's compact battle-preview and map-popup labels: Atk., Ctr., Evd., Def., S.D., Rnd., EN, Will, MV, AT/DF and recovery captions. Fit Support, Action and Anim: ON/OFF in the bottom choices.
+- Replace five overflowing Spirit-status strings with eighteen two-letter Rodin Bold cells. Preserve native two-byte indices, the slash, 32-unit pitch and individual status-highlight positions.
+- Remove the separate Units suffix from battle-result Score; fit Fast before the quick-battle Cancel icon. Keep the native numeric values, controls and transformation mechanics.
+- Translate Debris Field through a source-bound map attribute draw key. Retain the verified 0.5.8 movement tables and compact terrain labels.
+- Verify 53 battle widget bindings, eight guarded font-metric changes, eighteen private converter entries and three exact draw keys. The combined build reads back 344 text widgets, the existing numeric-coordinate edit, sixteen layout helpers and 247 font cells/advances on each page.
+- Run 223 tests (222 passed, one optional check skipped). Preserve five original screenshots and save final-artifact evidence under `work/ui/`. Prepare a separate 0.5.9 testing image with twelve matched files; in-game confirmation remains pending user navigation.
+- Verify all 82 files through both ISO directory trees. Testing image size is 5,284,102,144 bytes; SHA-256 is `6418570e925c94d54d141b49660545ecd2c4eaf95d79c3c556799b7f941634ef`.
+
+## 0.5.8 - 2026-10-11
+
+- Translate and center the separately drawn new-save question and its first line. Center the gray Yes / No row and align its four native selection states.
+- Adapt Z3's compact Rodin Bold terrain/stat cells to independently verified Tengoku widgets. Preserve native pitch, terrain grades and numeric values; shorten crowded Unit, Pilot, Mech and Weapon Stats captions.
+- Translate two UTF-8 movement tables and three restricted-movement strings through twelve guarded private Unicode mappings. Test every combination of movement flags with the native converter instructions.
+- Add display-only spaces to constructed pilot full names without changing native name order or saved names. Shorten weapon requirements, effect/type labels and Name captions; replace the truncated Assi sprite with Asst within its original rectangle.
+- Run 219 tests (218 passed, one optional check skipped). Read back 1,622 save/name dictionary keys, six save-centering executions, 295 text-widget edits, all 16 layout helpers, and 228 glyph/advance cells on each matched font page.
+- Preserve the six reported screenshots and layout evidence under `work/ui/`. Prepare a separate testing ISO with 12 matched replacement files; in-game confirmation remains pending user navigation. Public release assets and emulator files are unchanged.
+- Verify all 82 ISO files through both directory trees. Testing image size is 5,284,102,144 bytes; SHA-256 is `6cbb61840e1200088507e5674b4aca247eec0772114c220625763d9b5e838134`.
+
+## 0.5.7 - 2026-10-11
+
+- Center CP932 and UTF-8 captions using the live font quad in both native font modes. Correct Spirit-list names, Spirit/Skills/Abilities tabs and save-destination choices; preserve unknown/native fallbacks and the existing Yes/No selectors.
+- Center each of the six map-menu captions independently, preserving blank lines, font size, pitch and selection flags. Add three transparent spacing cells while retaining SRW Z3's Rodin Bold glyph profile.
+- Shorten all eight settings-tab states to Settings 1 / Settings 2 and both Spirit-screen ability tabs to Abilities. Use Teams Defeated for the cumulative team statistic and move the live team count 64 pixels left into its background, allowing three digits.
+- Bind the translated prologue heading at the native formatter return before the Tactical Situation widget draws it; retain native format fragments, buffer and stage identities.
+- Guard target executable spans and widget fingerprints, verify FSSA byte isolation, and add instruction/geometry regression cases. Prepare a separate testing ISO; runtime confirmation remains pending user navigation.
+- Move both the separate type-15 team number and its text suffix together; preserve numeric style, values and adjacent kill/loss counters. Verify all 159 text-widget edits and the single numeric-element coordinate without unrelated FSSA changes.
+- Run 213 regression tests (212 passed, one optional check skipped), execute 36 caption-centering cases in both font modes and verify six independent map-menu line centers. Read back 214 glyph cells on each font page and all 214 advances; verify 28 opening hooks, 29 name-reader cases and all 16 installed layout helpers.
+- Verify all 82 ISO files through both directory trees, with 12 matched replacement files. Final testing ISO SHA-256 is `70b32536eac05b854eb4ae1212a7a5d96d9de5be7906df234ef46c7a29224c64`. Save final evidence in `work/ui/link_layout_0.5.7.json` and `work/ui/startup_0.5.7.json`; public release assets remain unchanged.
+
+## 0.5.6 - 2026-10-10
+
+- Adapt SRW Z3's link geometry fixes to independently verified Tengoku code: use the drawer's actual pen movement for dialogue/backlog link positions and selected backgrounds, and proportional font widths for linked speaker names. Match both scene and glossary identities; preserve link metadata, colors and navigation.
+- Translate both assembled prologue headings through exact draw keys, including `Prologue 1: At the End of the Time Prison`, while retaining native title fragments and formatting.
+- Fix the reported SR Point explanation overflow: the native splitter has 103-byte slots with only 100 bytes available for text. Preserve the full meaning in three safe lines.
+- Center UTF-8 command captions using the live font quad and English advances. Keep the CP932 startup-widget path and its existing anchors. Retain SRW Z3's Rodin Bold font.
+- Allocate aligned private link scratch, guard source consumers and verify byte isolation. Prepare a separate local testing build; in-game confirmation remains pending user navigation.
+- Run 208 regression tests (207 passed, one optional check skipped). Execute 14 name/command width cases and both assembled prologue keys against the final executable; verify all 15 installed layout helpers and preserve the five reported screenshots with approximate UI bounds in `work/ui/link_layout_0.5.6.json`.
+- Verify all 82 ISO files through both directory trees; final font readback checks 211 glyphs on each page and 211 advance bytes, plus 28 opening hooks and 29 name-reader cases. Save matched artifact evidence in `work/ui/startup_0.5.6.json`; testing ISO SHA-256 is `4dbb286f5b89b9416dc0e99202fbc6b86d564be7c70cbef6c57d2cf1e4c023c1`. Other mission text retains a pending byte-limit audit.
+
+## 0.5.5 - 2026-10-10
+
+- Match SRW Z3's Latin font: SCE-PS3-RD-B-LATIN.TTF (Rodin Bold), 22px cap height, baseline 26, 0.5px horizontal stem dilation, four-times supersampling and BOX downsampling. All 95 ASCII coverage cells and advances match the reference raster geometry exactly.
+- Rebuild both font pages and the proportional advance table from this shared profile. Keep Tengoku's verified font allocation and executable hooks; add font provenance to the build report.
+- Recalculate wrapping and No anchors for the bold advances. Preserve complete wording with 85% condensed glyphs for 27 UI descriptions, five opening narration lines and 15 source-bound dialogue records; the full Sphere list uses 80% width. Other text uses the reference's normal glyph geometry.
+- Add reference-font comparison tests and final-artifact atlas/advance readback. Prepare a separate 0.5.5 testing build; previous outputs and public release assets are preserved. In-game appearance remains pending user navigation.
+- Verify all 211 allocated glyphs on both built pages and all 211 advance bytes. Run 200 tests (199 passes, one skip), execute 28 opening hooks and 29 name-reader cases, and verify the testing ISO's 82 files through both directory trees. Evidence is saved in `work/ui/startup_0.5.5.json`; the installed RPCS3 font cache still matches 0.5.4 and needs refreshing before testing.
+
+## 0.5.4 - 2026-10-10
+
+- Fix the three startup link-data explanation variants: preserve every word and wrap to five measured VWF lines within the panel. Align the selected No label with its grey background label without changing selector state or input behavior.
+- Replace the overlapping naming-screen caption with `Squad:` and move it 16 pixels left, leaving space before the editable name.
+- Add all 28 opening narration rows from AIDDATAPACK member 19 to the draw dictionary. Preserve the original six pages, fixed records, timings and backgrounds; reviewed English fits each 900-unit line.
+- Translate default Hibiki/Kamishiro names at the verified Tengoku `$n/$f/$l/$F` display getters. Preserve custom names, saved buffers and name order; abbreviate the default surname to `K.` only when a long custom nickname would overflow the 41-byte full-name field.
+- Save the five user screenshots, source fingerprints and layout bindings. New tests execute the name-reader instructions, check register/CR preservation and read-only save buffers, guard source drift, and verify layout isolation and complete wrapping. Runtime confirmation of these fixes is pending user navigation; no public release is changed.
+- Build and verify all 12 matched files and the testing ISO (82 files in both trees). Run 197 regression tests: 196 passes, one skip. Execute all 28 opening keys and 29 name-reader cases against the final executable; save evidence in `work/ui/startup_0.5.4.json`.
+
+## 0.5.3 - 2026-10-10
+
+- Review the complete 2,499-ID UI expansion catalogue (4,197 source occurrences): menus, tutorial/settings text, skills, parts, native system dialogs, generated messages and the visible Lua team name. Preserve functional input grids and flag one malformed prototype row.
+- Add 2,309 source-aware draw keys and context-bind 139 split-label widgets plus two sortie-count fragments. Preserve RPW description pointers and original FSSA strings; verify relocated UI sections and untouched members.
+- Wrap 541 descriptions using measured VWF advances and conservative reference panel budgets; revise all 50 overflowing rows without losing effects, conditions or DLC flags. Match Shinka/Erosion terminology to target names.
+- Preserve tutorial color controls; allow the full Sphere explanation as relocated output while retaining the 4,096-byte source-key cap. Add guarded native UTF-8 and CP932 formatter patches with payload readback/isolation checks.
+- Build and verify all 12 local game files and a 0.5.3 testing ISO (82 files verified through both directory trees); 169 tests run with one skip and no failures. Runtime remains unverified; 23 generated-text occurrences still require assembly consumer bindings. Published 0.5.2 assets remain unchanged.
+
+## 2026-10-10 - Audit remaining UI against current Jigoku
+
+- Compare 82 current canonical reference groups with verified 0.5.2 EBOOT, RPW and UI archive outputs; save source fingerprints, occurrence locators and English reuse candidates without Japanese script dumps.
+- Confirm 463 member-0 dictionary gaps, 97/479 gaps in the independently parsed SB2T/UB2T tables, 151 skill and 391 part description gaps, 40 skipped format/fragment strings, one oversized Sphere explanation and 99 distinct excluded OS-dialog candidates. Counts overlap by rendering path.
+- Add a read-only audit tool and prioritized UI plan. Game inputs, published patch, build version and emulator state are unchanged.
+
 ## 2026-10-10 - Enable Retro Trans Automatic discovery
 
 - Publish v0.5.2 as a regular public GitHub release at the user's request; retain playtest limitations in the notes.

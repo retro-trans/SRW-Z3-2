@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.2'
+VERSION = '0.5.18'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -57,7 +57,7 @@ def plan(settings):
         chars = dbuild.characters([lb.expand(entry['en'], resolver)])
         tokens |= chars
         if layout.condensed(rid, entry):
-            tokens.update(layout.PREFIX + ch for ch in chars)
+            tokens.update(layout.prefix(rid) + ch for ch in chars)
     # Battle voice: same expanded-English rule, breaks are the literal two-character \n.
     from tools import srvc, voice_build
     voice_rows = voice_build.translations()
@@ -74,6 +74,21 @@ def plan(settings):
     # Executable UI text (docs/UI_EBOOT.md), drawn through the hook (docs/UI_HOOK.md).
     from tools import eboot_text
     tokens |= eboot_text.characters()
+    from tools import ui_catalog
+    tokens |= ui_catalog.characters()
+    tokens.update('HibikiKamishiroK.')
+    from tools.menu_layout import PADS
+    tokens.update(PADS)
+    from tools import status_layout
+    tokens.update(status_layout.TINY)
+    tokens.update(status_layout.MARKERS.values())
+    from tools import category_ui
+    for text in category_ui.terrain_rows().values():tokens.update(text)
+    tokens.update('Self SingleAreaAllTeamOwnOneAllyEnemyAlliesEnemiesFoeUnitTrainCQBRNGSKLDEFEVDHITEff.')
+    from tools import battle_layout
+    tokens.update(battle_layout.TINY)
+    for edit in battle_layout.plan()['edits']:tokens.update(edit['en'].replace('\n',''))
+    for text in list(battle_layout.HOOKS.values())+['Debris Field']:tokens.update(text)
     # RPW name tables (docs/UI_RPW.md): English letters; other symbols stay cp932.
     from tools import rpw_text
     rpw_names = rpw_text.load_names()
@@ -149,9 +164,40 @@ def plan(settings):
     exec_report['vwf_output_sha256'] = exec_report['output_sha256']
     from tools import ui_hook
     hook_entries, hook_skipped = eboot_text.hook_entries(elf, mapping, lambda raw: ui_hook.utf8_key(raw, elf))
-    executable, hook_report = ui_hook.apply(executable, hook_entries)
+    hook_entries, expanded_report = ui_catalog.hook_entries(elf,mapping,hook_entries)
+    from tools import operation_layout, link_layout
+    hook_entries += operation_layout.hook_entries(elf,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)}.values())
+    from tools import ui_description_layout
+    grouped_ui, translated_ui = ui_catalog.checked()
+    expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
+    from tools import ui_runtime
+    runtime_plan = ui_runtime.plan(elf,mapping)
+    from tools import runtime_names
+    names_plan = runtime_names.plan(elf,mapping)
+    from tools import library_runtime
+    library_runtime_plan=library_runtime.plan(elf,mapping,width_of)
+    executable, hook_report = ui_hook.apply(executable, hook_entries,
+        runtime_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+[(link_layout.STATE,link_layout.PAYLOAD)])
+    executable, runtime_report = ui_runtime.apply(executable,runtime_plan,hook_report['table']['payload_vas'])
+    executable, names_report = runtime_names.apply(executable,names_plan,hook_report['table']['payload_vas'])
+    executable, library_runtime_report=ui_runtime.apply(executable,library_runtime_plan,hook_report['table']['payload_vas'])
+    executable, library_converter_report=library_runtime.native_patch(executable,elf,mapping)
+    executable, library_conversion_report=library_runtime.apply_fastpath(executable,elf,library_runtime_plan,hook_report['table']['payload_vas'])
+    executable, link_report = link_layout.apply(executable,elf,
+        hook_report['table']['payload_vas'][link_layout.STATE],exec_report['table_va'],mapping,
+        status_layout.save_specs(mapping))
+    executable,status_report=status_layout.native_patch(executable,elf,mapping)
+    exec_report['status_layout']=status_report
+    executable,battle_report=battle_layout.native_patch(executable,elf,mapping)
+    exec_report['battle_layout']=battle_report
     exec_report['ui_hook'] = dict(hook_report if isinstance(hook_report, dict) else {'report': str(hook_report)},
                                   entries=len(hook_entries), skipped=dict(hook_skipped))
+    exec_report['expanded_ui'] = expanded_report
+    exec_report['runtime_ui'] = runtime_report
+    exec_report['runtime_names'] = names_report
+    exec_report['library_runtime']=dict(library_runtime_report,converter=library_converter_report,conversion=library_conversion_report)
+    exec_report['link_layout'] = link_report
     exec_report['output_sha256'] = sha256(executable)
     voice, voice_report = None, None
     if voice_rows:
@@ -167,19 +213,21 @@ def plan(settings):
     from tools import texture_art
     art = texture_art.plan(pages, settings)
     # Art in other archives: (output name, disc path, plan, module, compress). Raw members, as Jigoku shipped.
-    from tools import aid_art, cmn_art, op_art
+    from tools import aid_art, cmn_art, op_art, ui_layout_text
     extra_art = [('CMN.CPK', cmn_art.CMN, cmn_art.plan(settings), cmn_art, False),
                  ('OP.CPK', op_art.DISC, op_art.plan(settings), op_art, False),
-                 ('AIDDATAPACK.CPK', aid_art.ARCHIVE, aid_art.plan(settings), aid_art, False)]
+                 ('AIDDATAPACK.CPK', aid_art.ARCHIVE, ui_layout_text.plan(settings,mapping), ui_layout_text, False)]
     # EFFPS3: members the original stores compressed stay compressed (eff_plan['compress']).
     from tools import eff_art
-    eff_plan = eff_art.plan(settings)
+    eff_plan = eff_art.plan(settings, title_version=VERSION)
     extra_art.append(('EFFPS3.CPK', eff_art.ARCHIVE, eff_plan, eff_art, eff_plan['compress']))
     summary = {'schema': 3, 'version': VERSION, 'title_id': 'BLJS10299', 'encoding': 'vwf',
                'spirit_occurrences': len(edits), 'library_entries': {k: len(v) for k, v in members.items()},
                'dialogue_records': len(dialogue_rows), 'stage_members_rebuilt': len(stage_members),
                'dialogue_layout': {'condensed_records': sorted(set(dialogue_rows) & set(layout.CONDENSED)),
-                                   'horizontal_scale': layout.SCALE},
+                                   'horizontal_scale': layout.SCALE,
+                                   'tight_records': sorted(set(dialogue_rows)&layout.TIGHT_IDS),
+                                   'tight_horizontal_scale': layout.TIGHT_SCALE},
                'rpw_names': rpw_report,
                'mission_strings': len(mission), 'squad_names': len(squad),
                'mission_squad_members_rebuilt': mission_members,
@@ -192,7 +240,12 @@ def plan(settings):
                'title_cards_rendered': sorted(art['report'].get('title_cards', [])),
                'extra_art': {name: {k: v for k, v in plan_['report'].items() if not isinstance(v, (list, dict))}
                              for name, _d, plan_, _m, _c in extra_art},
+               'ui_context_text': next(plan_['report']['context_text'] for name,_d,plan_,_m,_c in extra_art if name=='AIDDATAPACK.CPK'),
                'runtime_verified': False, 'layout_verified': False}
+    from tools.latin_font import profile
+    summary['latin_font'] = profile()
+    summary['title_screen'] = eff_plan['report']['title_screen']
+    summary['scenario_chart'] = eff_plan['report']['scenario_chart']
     return dict(summary=summary, mapping=mapping, drawn=drawn, pages=pages, rpw=rpw, edits=edits,
                 executable=executable, font_path=font_path, rpw_path=rpw_path, members=members,
                 expected=expected, settings=settings, stage_members=stage_members,

@@ -69,8 +69,9 @@ class CondensedLayout(unittest.TestCase):
 
     def test_condensed_encoding_uses_matching_glyph_cells(self):
         from tools import dialogue_layout as layout
-        mapping = {'A': '81ae', '@condensed:A': '81af'}
-        self.assertEqual(db.encode('A$n', layout.mapping_for('604:t_6:4', mapping)), b'\x81\xaf$n')
+        mapping = {'A': '81ae', '@condensed:A': '81af', '@condensed-tight:A':'81b0'}
+        self.assertEqual(db.encode('A$n', layout.mapping_for('604:t_6:4', mapping)), b'\x81\xb0$n')
+        self.assertEqual(db.encode('A$n', layout.mapping_for('81:t_2:28', mapping)), b'\x81\xaf$n')
         self.assertEqual(db.encode('A$n', layout.mapping_for('other', mapping)), b'\x81\xae$n')
 
     def test_full_sphere_list_fits_without_losing_names(self):

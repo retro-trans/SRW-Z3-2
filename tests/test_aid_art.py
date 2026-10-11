@@ -85,7 +85,7 @@ class CatalogTests(unittest.TestCase):
         cells = data['cells']
         self.assertEqual({c['source'] for c in cells.values()}, set(aa.SOURCES))
         self.assertEqual(sum(1 for c in cells.values() if c['source'] == 'jigoku-0.6.24'), 26)
-        self.assertEqual(sum(1 for c in cells.values() if c['source'] == 'new'), 35)
+        self.assertEqual(sum(1 for c in cells.values() if c['source'] == 'new'), 36)
         for cid, cell in cells.items():
             if cell['source'] == 'new':
                 self.assertTrue(cell['en'].isascii(), cid)

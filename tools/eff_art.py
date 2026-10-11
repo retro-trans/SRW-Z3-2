@@ -952,7 +952,7 @@ def _render(entry, mid, blob):
     raise ValueError('no renderer for %s member %d' % (family, mid))
 
 
-def plan(settings=None, catalog=None, families=FAMILIES):
+def plan(settings=None, catalog=None, families=FAMILIES, title_version=None):
     """EFFPS3 replacement set.
 
     Returns {'members': {id: bytes}, 'sources', 'intended', 'edits',
@@ -979,6 +979,23 @@ def plan(settings=None, catalog=None, families=FAMILIES):
             members[mid], intended[mid], edits[mid] = data, pix, ed
             infos[mid] = _jsonable(info)
         report['entries'][e['id']] = {'family': e['family'], 'en': e['en'], 'members': infos}
+    if title_version is not None:
+        from tools import title_screen
+        mid=title_screen.MEMBER
+        if mid in members:raise ValueError('Title member rendered twice')
+        sources.update(source_members(settings,[mid],{mid:title_screen.SOURCE_SHA}))
+        data,pix,ed,info=title_screen.render(sources[mid],title_version)
+        members[mid],intended[mid],edits[mid]=data,pix,ed
+        report['title_screen']=info
+        from tools import chart_art
+        sources.update(source_members(settings,list(chart_art.SOURCES),chart_art.SOURCES))
+        report['scenario_chart']={}
+        for mid in chart_art.SOURCES:
+            if mid in members:raise ValueError('Chart member rendered twice')
+            data,pix,ed,info=chart_art.render(sources[mid],mid)
+            verify_member(sources[mid],data,pix,ed)
+            members[mid],intended[mid],edits[mid]=data,pix,ed
+            report['scenario_chart'][mid]=info
     report['members'] = {m: {'input_sha256': sha256(sources[m]), 'output_sha256': sha256(members[m]),
                              'script_edits': len(edits[m])} for m in sorted(members)}
     report['counts'] = {f: sum(1 for e in work if e['family'] == f) for f in families}

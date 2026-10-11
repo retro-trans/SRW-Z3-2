@@ -8,7 +8,11 @@ This repository is public as of 2026-10-10, at the user's request. Release
 0.5.2 is a regular GitHub release in Retro Trans's public Automatic catalog.
 It remains a playtest build. Repository administration does not create a game build.
 
-For a separately requested release:
+The user always tests public releases, as recorded in AGENTS.md. Deliver
+completed game fixes through a validated new public release. Local testing
+ISOs alone do not update their usual copy.
+
+For a release:
 
 1. Resolve the known dialogue overflow, promote reviewed translation inputs,
    build and test the intended output. Record the actual source commit,

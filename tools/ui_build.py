@@ -17,7 +17,7 @@ from tools.source_text import rpw_chunks
 from tools.ui_spirits import load_and_validate
 from tools.verify_archives import compare
 
-FACE = Path('E:/RPCS3/dev_flash/data/font/SCE-PS3-RD-R-LATIN.TTF')
+FACE = Path('E:/RPCS3/dev_flash/data/font/SCE-PS3-RD-B-LATIN.TTF')
 
 
 def pairs(text):
@@ -110,15 +110,27 @@ def raster(pair, face):
     return img.resize((32, 32), Image.Resampling.LANCZOS)
 
 
+def glyph_pixels(glyph):
+    """Native G8B8: high byte outline coverage, low byte letter coverage.
+
+    Lv/SP source cells have a two-texel outline outside their fill. Keep
+    those masks separate for the renderer's independent color treatment.
+    This texture is not RGBA4444.
+    """
+    import numpy as np
+    from PIL import ImageFilter
+    if glyph.mode!='L' or glyph.size!=(32,32):raise ValueError('Invalid glyph mask')
+    fill=np.asarray(glyph,dtype='uint16')
+    outline=np.asarray(glyph.filter(ImageFilter.MaxFilter(5)),dtype='uint16')
+    return (outline<<8)|fill
+
+
 def patch_font(raw, mapping, glyphs):
     import numpy as np
     a = atlas(raw).copy()
     for pair, code in mapping.items():
         x, y = cell_xy(code)
-        coverage = np.asarray(glyphs[pair], dtype='uint16')
-        # Source pages encode coverage in all four nibbles (RGBA4444).
-        values = ((coverage + 8)//17).clip(0, 15)*0x1111
-        a[y:y+32, x:x+32] = values
+        a[y:y+32, x:x+32] = glyph_pixels(glyphs[pair])
     return raw[:128] + a.tobytes()
 
 

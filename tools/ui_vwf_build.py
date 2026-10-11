@@ -17,15 +17,26 @@ VERSION = 'ui-0.1.1-vwf'
 
 def raster(token, face=FACE):
     from PIL import Image, ImageDraw, ImageFont
+    from tools.menu_layout import PADS
+    if token in PADS: return Image.new('L',(32,32)),PADS[token]
+    from tools.status_layout import TINY,MARKERS,raster_tiny
+    if token in TINY:return raster_tiny(TINY[token],face)
+    if token in MARKERS.values():return Image.new('L',(32,32)),32
+    from tools import battle_layout
+    if token in battle_layout.TINY:return battle_layout.raster_tiny(battle_layout.TINY[token],face)
     from tools import dialogue_layout as layout
-    if token.startswith(layout.PREFIX):
-        glyph, width = raster(token[len(layout.PREFIX):], face)
-        narrow = glyph.resize((round(32 * layout.SCALE), 32), Image.Resampling.LANCZOS)
-        cell = Image.new('L', (32, 32))
-        cell.paste(narrow, (0, 0))
-        return cell, layout.advance(width)
+    for prefix,scale in ((layout.PREFIX,layout.SCALE),(layout.TIGHT_PREFIX,layout.TIGHT_SCALE)):
+        if token.startswith(prefix):
+            glyph, width = raster(token[len(prefix):], face)
+            narrow = glyph.resize((round(32 * scale), 32), Image.Resampling.LANCZOS)
+            cell = Image.new('L', (32, 32))
+            cell.paste(narrow, (0, 0))
+            return cell, layout.advance(width,scale)
     badge = token.startswith('@badge:')
     text = token[7:] if badge else token
+    if not badge:
+        from tools.latin_font import letter
+        return letter(text,face)
     font = ImageFont.truetype(str(face),116)
     hb = font.getbbox('H',anchor='ls')
     scale = (12 if badge else 22)*4/(hb[3]-hb[1])

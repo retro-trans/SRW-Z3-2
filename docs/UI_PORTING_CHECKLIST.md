@@ -1,6 +1,14 @@
 # Tengoku UI discovery and replacement checklist
 
+The subsequent [0.5.3 expansion](UI_EXPANSION_0.5.3.md) translates the identified
+catalogue and extends its source bindings. Runtime checks and generated-text
+consumer work remain; no family is closed.
+
 ## Scope and starting state
+
+The current 0.5.2 comparison is in [UI_COVERAGE_2026-10-10.md](UI_COVERAGE_2026-10-10.md),
+with source-level evidence in `work/ui/coverage_2026-10-10.json`. It supersedes
+early discovery counts as a work plan, without closing any UI family.
 
 Use `work/ui/reference/jigoku_ui/README.md`, `catalogue.json` and
 `repair_map.json` as references. Initial target source discovery now exists in

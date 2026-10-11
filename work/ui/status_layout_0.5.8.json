@@ -1,0 +1,468 @@
+{
+  "schema": 1,
+  "version": "0.5.8",
+  "final_elf_sha256": "baf249386c92594dcfadedf0a6247815ea5177f0549dede80fd346436e231f3c",
+  "matched_files": 12,
+  "widgets": 138,
+  "status_dictionary_cases": 1622,
+  "save_centers": [
+    {
+      "text": "Save your current map progress.",
+      "quad": 25,
+      "left": 437.546875,
+      "width": 403.90625,
+      "center": 639.5,
+      "steps": 34
+    },
+    {
+      "text": "Save your current map progress.",
+      "quad": 28,
+      "left": 413.3125,
+      "width": 452.375,
+      "center": 639.5,
+      "steps": 34
+    },
+    {
+      "text": "Save your current map progress.",
+      "quad": 31,
+      "left": 389.078125,
+      "width": 500.84375,
+      "center": 639.5,
+      "steps": 34
+    },
+    {
+      "text": "Create a new save?",
+      "quad": 25,
+      "left": 520.75,
+      "width": 237.5,
+      "center": 639.5,
+      "steps": 36
+    },
+    {
+      "text": "Create a new save?",
+      "quad": 28,
+      "left": 506.5,
+      "width": 266.0,
+      "center": 639.5,
+      "steps": 36
+    },
+    {
+      "text": "Create a new save?",
+      "quad": 31,
+      "left": 492.25,
+      "width": 294.5,
+      "center": 639.5,
+      "steps": 36
+    }
+  ],
+  "compact_cells": [
+    {
+      "token": "",
+      "label": "Air",
+      "code": "84f7",
+      "advance": 32,
+      "ink_box": [
+        4,
+        9,
+        27,
+        20
+      ]
+    },
+    {
+      "token": "",
+      "label": "Grd",
+      "code": "84f8",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        21
+      ]
+    },
+    {
+      "token": "",
+      "label": "Wtr",
+      "code": "84f9",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        20
+      ]
+    },
+    {
+      "token": "",
+      "label": "Spc",
+      "code": "84fa",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        23
+      ]
+    },
+    {
+      "token": "",
+      "label": "Und",
+      "code": "84fb",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        21
+      ]
+    },
+    {
+      "token": "",
+      "label": "Only",
+      "code": "84fc",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        23
+      ]
+    },
+    {
+      "token": "",
+      "label": "CQB",
+      "code": "86cb",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        23
+      ]
+    },
+    {
+      "token": "",
+      "label": "RNG",
+      "code": "86cc",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        21
+      ]
+    },
+    {
+      "token": "",
+      "label": "SKL",
+      "code": "86cd",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        21
+      ]
+    },
+    {
+      "token": "",
+      "label": "DEF",
+      "code": "86ce",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        20
+      ]
+    },
+    {
+      "token": "",
+      "label": "EVD",
+      "code": "86cf",
+      "advance": 32,
+      "ink_box": [
+        2,
+        9,
+        30,
+        20
+      ]
+    },
+    {
+      "token": "",
+      "label": "HIT",
+      "code": "86d0",
+      "advance": 32,
+      "ink_box": [
+        4,
+        9,
+        27,
+        20
+      ]
+    },
+    {
+      "token": "@save-center:0",
+      "label": "",
+      "code": "849b",
+      "advance": 32,
+      "ink_box": null
+    },
+    {
+      "token": "@save-center:1",
+      "label": "",
+      "code": "849c",
+      "advance": 32,
+      "ink_box": null
+    }
+  ],
+  "movement_patch": {
+    "modified_file_ranges": [
+      [
+        8625152,
+        8625154
+      ],
+      [
+        8625154,
+        8625156
+      ],
+      [
+        8625156,
+        8625158
+      ],
+      [
+        8625158,
+        8625160
+      ],
+      [
+        8625160,
+        8625162
+      ],
+      [
+        8625198,
+        8625200
+      ],
+      [
+        8625200,
+        8625202
+      ],
+      [
+        8625202,
+        8625204
+      ],
+      [
+        8625204,
+        8625206
+      ],
+      [
+        8625206,
+        8625208
+      ],
+      [
+        8625208,
+        8625210
+      ],
+      [
+        8625210,
+        8625212
+      ],
+      [
+        9217304,
+        9217312
+      ],
+      [
+        9217312,
+        9217320
+      ],
+      [
+        9217320,
+        9217328
+      ],
+      [
+        9217328,
+        9217336
+      ],
+      [
+        9217912,
+        9217920
+      ],
+      [
+        9217920,
+        9217928
+      ],
+      [
+        9217928,
+        9217936
+      ],
+      [
+        9217936,
+        9217944
+      ],
+      [
+        9217256,
+        9217266
+      ],
+      [
+        9217272,
+        9217285
+      ],
+      [
+        9217288,
+        9217298
+      ]
+    ],
+    "movement_tables": [
+      9282840,
+      9283448
+    ],
+    "converter_private_cells": 12,
+    "restricted_movement_strings": 3,
+    "runtime_verified": false
+  },
+  "screenshots": [
+    {
+      "issue": "save-new",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-0d478949-3b3f-4e27-a8eb-b669e12bc23b.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.8-save-new.png",
+      "sha256": "f18429320aa7af020fda2f76d6075bea256c680c6d0fc1029b8f43641fd1acf5",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_region": {
+        "x": 208,
+        "y": 497,
+        "width": 2102,
+        "height": 436,
+        "approximate": true
+      },
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "unit-stats",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-c3acbd5b-e46b-4220-a58a-41398bf469d8.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.8-unit-stats.png",
+      "sha256": "78fd1622842d322c3c6247e31dc066d651f921f6545874114e3c5195b10f445d",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_region": {
+        "x": 504,
+        "y": 249,
+        "width": 1873,
+        "height": 271,
+        "approximate": true
+      },
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "pilot-stats",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-f04d40db-0ba4-4ec1-a094-db0933a6b806.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.8-pilot-stats.png",
+      "sha256": "71c0bff4f8729d106259ffa9737410cefdb82a39e7cab785e4b44dcddf67b9ce",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_region": {
+        "x": 883,
+        "y": 316,
+        "width": 1515,
+        "height": 601,
+        "approximate": true
+      },
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "mech-stats",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-a145682e-f22e-489b-af47-ccbd1ed1ce85.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.8-mech-stats.png",
+      "sha256": "9b4f0b089e29db9b9440e9d8dd285e01a0aef37a76a27563c29e18b66b81e8cb",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_region": {
+        "x": 124,
+        "y": 748,
+        "width": 2320,
+        "height": 507,
+        "approximate": true
+      },
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "weapon-costs",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-a40d67c0-391f-490c-a252-fbf5950c168c.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.8-weapon-costs.png",
+      "sha256": "a524fcccd2b62b820202b871492c7f1461a43d2c9df77c37298504fa926bf207",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_region": {
+        "x": 132,
+        "y": 223,
+        "width": 2260,
+        "height": 1031,
+        "approximate": true
+      },
+      "runtime_confirmation": false
+    },
+    {
+      "issue": "weapon-types",
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-e78714cc-e4a1-4ab7-b328-b577725e9206.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-0.5.8-weapon-types.png",
+      "sha256": "9d8823c57ce2e11f37e4af3f4462f16bb3e62d3b1cd0bd8b31c02fcd82b5b7f7",
+      "pixel_size": [
+        2560,
+        1369
+      ],
+      "observed_region": {
+        "x": 127,
+        "y": 223,
+        "width": 2292,
+        "height": 1038,
+        "approximate": true
+      },
+      "runtime_confirmation": false
+    }
+  ],
+  "all_legacy_layout_helpers_verified": 16,
+  "source_sha256": {
+    "tools/status_layout.py": "273bc4e389184f2df5ea398e8f926434d85ec9dbeb2af311de2b055c350bcbf1",
+    "tools/verify_status_layout.py": "b8ec21a4303c8446682dc363633ac7aededc9fa8203ba073ab269acac733f849",
+    "tests/test_status_layout.py": "8dca1b8d367f9dd85032d58eed235f092744b473a1ebb742efc161718aa2f0e4",
+    "work/translation/en/ui/status_layout.json": "b87244f55eb14bc0c6594355e8f3ddab47076de3d617c085537f8f6e4bb23c97",
+    "work/translation/en/ui/aiddata_art.json": "82745e87b49a22e9118dcb7cfd437d99b65bf3cd37ba74148b57ccb427470864"
+  },
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.8\\Tengoku-hen-English-0.5.8.iso",
+    "bytes": 5284102144,
+    "sectors": 2580128,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "6cbb61840e1200088507e5674b4aca247eec0772114c220625763d9b5e838134",
+    "version": "0.5.8",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.8",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "runtime_verified": false
+}

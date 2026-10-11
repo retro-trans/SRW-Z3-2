@@ -1,0 +1,57 @@
+{
+  "version": "0.5.18",
+  "url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.18",
+  "draft": false,
+  "prerelease": false,
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 1447,
+      "sha256": "e801a34578599dd355dce7de5e715059fb37a19ed944971e8f033ef75a9f3b5c"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 399,
+      "sha256": "097ecb709014af6352034964d67543f8832e0fa12ad72e9ffc779b6942470922"
+    },
+    {
+      "name": "SRW-Z3-2-PS3-English-0.5.18-from-0.5.2.xdelta",
+      "bytes": 29693297,
+      "sha256": "8079f5409e5d8c0a78f49c08ba25be6d74614d4807b56cbe2bb7fb70f5dcf6e5"
+    },
+    {
+      "name": "SRW-Z3-2-PS3-English-0.5.18-from-original.xdelta",
+      "bytes": 198248385,
+      "sha256": "bda2292c27708fba6c99029b82be19672efc9d19ec9066af94882f7166093f2b"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 539,
+      "sha256": "cf9c77f68c711313cd295dead9c228a517d63a3613394021576b48665defa557"
+    }
+  ],
+  "source_commit": "f620443075739b2e7c58af5e8044142f29d44b9c",
+  "downloaded_assets_match": true,
+  "retro_trans_release_validator": "PASS",
+  "runtime_visual_confirmation": false,
+  "retro_trans_release_record_reader": "PASS",
+  "catalog_blob_sha": "e162075b0ac1418fe59834ef0b16bfb2dbf34ac0",
+  "latest_release_discovery": "PASS",
+  "automatic_latest_routes": [
+    {
+      "source": "original",
+      "target": "0.5.18",
+      "steps": 1,
+      "patch": "SRW-Z3-2-PS3-English-0.5.18-from-original.xdelta",
+      "sha256": "bda2292c27708fba6c99029b82be19672efc9d19ec9066af94882f7166093f2b"
+    },
+    {
+      "source": "0.5.2",
+      "target": "0.5.18",
+      "steps": 1,
+      "patch": "SRW-Z3-2-PS3-English-0.5.18-from-0.5.2.xdelta",
+      "sha256": "8079f5409e5d8c0a78f49c08ba25be6d74614d4807b56cbe2bb7fb70f5dcf6e5"
+    }
+  ]
+}
+

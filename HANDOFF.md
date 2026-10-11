@@ -3,9 +3,9 @@
 ## Public release delivery and enemy Spirit separator — 0.5.18
 
 The user confirmed that every screenshot is from the public release. Public
-0.5.2 did not contain the accumulated local 0.5.3–0.5.17 fixes. Publish the
-validated new release and verify Retro Trans's public catalog route, rather
-than delivering only another local image. This preference is recorded in
+0.5.2 did not contain the accumulated local 0.5.3–0.5.17 fixes. Public
+0.5.18 now includes those fixes, with verified Retro Trans catalog routes
+from the original ISO and public 0.5.2. This preference is recorded in
 AGENTS.md. No emulator navigation is needed.
 
 The enemy Spirit rows at 0xa7084 and 0xa70c4 use a slash instead of Luck/Gain.
@@ -19,9 +19,13 @@ pending the user's public-release playtest.
 Build and full regression checks passed (250 tests, one optional skip). Final
 ISO: 5,284,429,824 bytes, SHA-256
 `1139b7c2dbe8d7ce0de50e73f5480e2f2f19aff06b053a6855281e3772e34db4`.
-Both filesystem trees passed all 82 file checks. Public packaging must include
-original and 0.5.2 upgrade routes; full image round trips and hosted/catalog
-verification remain required before calling this release published.
+Both filesystem trees passed all 82 file checks. Original and 0.5.2 upgrade
+patches passed full image round trips. All five hosted assets passed download,
+size, checksum and official Retro Trans 0.5.4 validation. The scoped catalog
+refresh succeeded in run 38111059033. Actual original and public 0.5.2 ISOs
+were recognized by full hash; Automatic Latest chooses 0.5.18 in one patch
+for each input. Evidence: `work/ui/public_release_0.5.18.json`.
+Release: https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.18.
 
 ## Stage, terrain, Spirit targets and stat columns — 0.5.17
 

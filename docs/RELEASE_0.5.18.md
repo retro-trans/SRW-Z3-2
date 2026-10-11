@@ -38,8 +38,11 @@ and size; keep checksum checks enabled. Game images are not distributed.
 
 All 82 disc files passed both filesystem-tree checks. The final executable's
 translation bindings, Spirit band geometry, name drawer, fonts and stat widths
-passed readback/execution checks. Each patch receives a complete ISO decode
-round trip and Retro Trans 0.5.4 release validation before publication.
+passed readback/execution checks. Both patches passed complete ISO decode
+round trips and Retro Trans 0.5.4 release validation. All five hosted assets
+were downloaded and verified against the local release checksums.
+The live Retro Trans catalog was refreshed and both actual source ISOs were
+recognized by full hash. Automatic Latest selects 0.5.18 in one patch for each.
 
 **RPCS3 only.** Physical PS3/Vita compatibility is not claimed. In-game visual
 confirmation of this exact build remains pending. Provisional wording and

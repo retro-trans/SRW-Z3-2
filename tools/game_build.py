@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.20'
+VERSION = '0.5.21'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -78,6 +78,8 @@ def plan(settings):
     tokens |= ui_catalog.characters()
     from tools import upgrade_messages
     tokens |= upgrade_messages.characters()
+    from tools import review21_layout
+    for edit in review21_layout.plan()['edits']:tokens.update(edit['en'].replace('\n',''))
     tokens.update('HibikiKamishiroK.')
     from tools.menu_layout import PADS
     tokens.update(PADS)

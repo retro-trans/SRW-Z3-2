@@ -9,7 +9,7 @@ def plan(version):
     validation=json.loads((assets/'VALIDATION.json').read_text(encoding='utf8'))
     image=json.loads((ROOT/'work/output/iso'/version/('Tengoku-hen-English-'+version+'.json')).read_text(encoding='utf8'))
     cfg=json.loads((folder/'release-local.json').read_text(encoding='utf8'))
-    proof=ROOT/'work/ui'/('upgrade_ui_verified_'+version+'.json')
+    proof=ROOT/'work/ui'/(('review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_')+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
     if manifest['version']!=version or manifest['source_commit']!=cfg['source_commit']:raise ValueError('Release provenance mismatch')
@@ -28,12 +28,19 @@ def plan(version):
     sums['SHA256SUMS.txt']=sha256_file(assets/'SHA256SUMS.txt')
     if set(sums)!={p.name for p in assets.iterdir()}or len(sums)!=5:raise ValueError('Release asset inventory differs')
     provenance=json.loads((ROOT/'work/output/builds'/version/'source_provenance.json').read_text(encoding='utf8'))
+    # Use the actual successful test log parsed by startup verification.
+    import re
+    log=ROOT/('work/output/scratch/startup-%s-tests.log'%version);raw=log.read_bytes()
+    text=raw.decode('utf-16' if raw[:2]in(b'\xff\xfe',b'\xfe\xff')else 'utf-8-sig')
+    match=re.search(r'Ran (\d+) tests[^\r\n]*\r?\n\s*OK(?: \(skipped=(\d+)\))?[ \t]*\r?(?:\n|$)',text)
+    if not match:raise ValueError('Regression log does not confirm success')
+    run,skip=int(match[1]),int(match[2]or 0)
     return dict(schema=1,version=version,publication='pending_explicit_user_consent',
         github_release_created=False,runtime_verified=False,source_commit=manifest['source_commit'],
         release_tool_version=provenance['release_tool_version'],release_tool_commit=provenance['release_tool_commit'],
         iso=image,manifest=manifest,validation=validation,
         assets=[dict(name=name,bytes=(assets/name).stat().st_size,sha256=digest)for name,digest in sorted(sums.items())],
-        regression_tests=dict(run=260,passed=258,skipped=2),final_readback_sha256=sha256_file(proof))
+        regression_tests=dict(run=run,passed=run-skip,skipped=skip),final_readback_sha256=sha256_file(proof))
 
 
 def main():

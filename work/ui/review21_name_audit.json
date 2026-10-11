@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "version": "0.5.21",
+  "english_fields_examined": 150174,
+  "files_changed": 5,
+  "replacements": {
+    "Heero Yui": "Heero Yuy",
+    "Crowe Bluste": "Crowe Bluest"
+  },
+  "changes": [
+    {
+      "file": "work/translation/en/library/pt_496.json",
+      "source_sha256": "83ca416022814829c448fc1490f20e98d6115fa0d671d1db3056947df1481927",
+      "changes": [
+        {
+          "field": "/names/クロウ・ブルースト/en",
+          "old": "Crowe Bluste",
+          "new": "Crowe Bluest"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/eboot.json",
+      "source_sha256": "f7730a67ef519ea0b0929bc2435b4db8d310656e46765e006c6dd7dc909712c9",
+      "changes": [
+        {
+          "field": "/strings/ヒイロ・ユイ/en",
+          "old": "Heero Yui",
+          "new": "Heero Yuy"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/rpw_names.json",
+      "source_sha256": "68fb597461893cad1da6fee38aa13facf8c5469faa0917a1654e6cf97ac39cb6",
+      "changes": [
+        {
+          "field": "/slots/pilot-nw:214:1/en",
+          "old": "Yui",
+          "new": "Yuy"
+        },
+        {
+          "field": "/slots/pilot-nw:215:1/en",
+          "old": "Yui",
+          "new": "Yuy"
+        },
+        {
+          "field": "/slots/pilot-nw:1022:1/en",
+          "old": "Bluste",
+          "new": "Bluest"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_terms.json",
+      "source_sha256": "bf3acbb137d28b9d44afcbc6afdb4036570b8187a40a549fd29eb03ae0d27c76",
+      "changes": [
+        {
+          "field": "/terms/72/en",
+          "old": "Heero Yui",
+          "new": "Heero Yuy"
+        },
+        {
+          "field": "/terms/351/en",
+          "old": "Crowe Bluste",
+          "new": "Crowe Bluest"
+        },
+        {
+          "field": "/terms/610/en",
+          "old": "Heero Yui",
+          "new": "Heero Yuy"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_settled.json",
+      "source_sha256": "caedd4083ca66d4c8a19336d61d8e9d8d6f0c65c6d3fb2e4b7a35bb5705af6dd",
+      "changes": [
+        {
+          "field": "/terms/16/en",
+          "old": "Heero Yui",
+          "new": "Heero Yuy"
+        }
+      ]
+    }
+  ],
+  "historical_reference_and_prior_exports_modified": false,
+  "unrelated_Yui_names_preserved": true
+}

@@ -116,7 +116,9 @@ def verify(version='0.5.4'):
     test_log = ROOT/('work/output/scratch/startup-%s-tests.log'%version)
     raw_log = test_log.read_bytes()
     log = raw_log.decode('utf-16' if raw_log[:2] in (b'\xff\xfe',b'\xfe\xff') else 'utf-8-sig')
-    match = re.search(r'Ran (\d+) tests.*?\n\s*OK(?: \(skipped=(\d+)\))?\s*$',log,re.S)
+    # unittest writes status to stderr; buffered test diagnostics on stdout
+    # can follow OK in a merged log. Require its complete success line.
+    match = re.search(r'Ran (\d+) tests[^\r\n]*\r?\n\s*OK(?: \(skipped=(\d+)\))?[ \t]*\r?(?:\n|$)',log)
     if not match:
         raise ValueError('Regression log does not confirm success')
     run,skip = int(match[1]),int(match[2] or 0)

@@ -5,6 +5,19 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.21 - 2026-10-12 (prepared; publication requires consent)
+
+- Correct Heero Yuy and Crowe Bluest throughout active token-backed text,
+  executable names and pilot surname pieces; preserve unrelated Yui names.
+- Center Raise Stats / Learn Skills across all four training tab states,
+  separate PP labels from Owned / Cost / Left, and restore normal-size stat
+  and compact terrain labels without moving live values or grades.
+- Fit all nine Z Crystal effects, including hidden Grade 5, before the
+  unchanged cost column; shorten its headings to Effect / Cost.
+- Carry all unpublished 0.5.19 and 0.5.20 fixes forward. Prepare original and
+  public 0.5.18 Retro Trans patches locally; publication requires explicit
+  consent for 0.5.21. Runtime visual confirmation remains pending.
+
 ## 0.5.20 - 2026-10-12 (prepared; publication requires consent)
 
 - Translate the complete source-table families behind the reported upgrade popups: 23 item-unlock conditions, all 24 D-Trader item announcements (including already-English part-name bytes), and all nine selectable Full Upgrade Bonus confirmation messages. Preserve condition/part IDs, menu choices, live data and game logic.

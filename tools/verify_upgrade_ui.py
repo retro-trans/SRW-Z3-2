@@ -25,12 +25,18 @@ def verify(version):
         return dict(id=by_key[key]['id'],steps=steps,english=B.decode(expected,mapping))
     lookups=[hit(r['key'])for r in entries]
     with CPK(folder/'RPW_DATA.CPK')as archive:rpw=archive.read(archive.files[0])
-    _,pool=R.pool_of(rpw);part_slots={s['record']:s for s in R.slots(rpw)if s['chunk']=='boost-p' and s['col']==1}
+    _,pool=R.pool_of(rpw)
+    # Source slots identify records; relocated VWF cells are not CP932 text.
+    original_rpw=R.load_rpw();old_js,_=R.pool_of(original_rpw);rpw_grow=len(rpw)-len(original_rpw)
+    part_slots={s['record']:s for s in R.slots(original_rpw)if s['chunk']=='boost-p' and s['col']==1}
     source=H.PREPARED.read_bytes();src_read=H._reader(source,H._headers(source)[2]);cases=[]
     rows,_=U.source_rows(source)
     for row in rows:
         if row['condition_en'] is None:continue
-        slot=part_slots[row['part_record']];raw=pool[slot['string']:pool.index(b'\0',slot['string'])]
+        slot=part_slots[row['part_record']]
+        at=slot['pointer_offset']+(rpw_grow if slot['pointer_offset']>=old_js['body_end'] else 0)
+        ptr=struct.unpack_from('<I',rpw,at)[0]
+        raw=pool[ptr:pool.index(b'\0',ptr)]
         if raw!=E.encode(row['item_en'],mapping):raise ValueError('Final RPW item name differs from composed lookup')
         ident=struct.unpack('>h',src_read(0x855c0c+row['index']*16+12,2))[0]
         lines,steps=O.report(elf,ident,raw)

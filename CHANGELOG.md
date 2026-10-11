@@ -22,6 +22,11 @@
   amounts. Both PP award paths retain per-pilot amounts and completion state;
   the resource rows retain their values and all row canaries remain intact.
 - The finished ISO passes all 82 file checks through both filesystem trees.
+- All 11 layout edits and five deployment command lookup variants pass final
+  readback. Labels fit their measured bounds with at least six pixels of space.
+- Both original-game and public 0.5.18 patches pass complete ISO decode round
+  trips and official Retro Trans 0.5.4 validation. All five package assets pass
+  checksum and provenance checks. GitHub publication awaits explicit consent.
 
 ## 0.5.23 - 2026-10-12 (prepared; publication requires consent)
 

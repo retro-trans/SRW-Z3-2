@@ -19,7 +19,7 @@ def main():
     iso = ROOT/'work/output/iso'/version/('Tengoku-hen-English-'+version+'.iso')
     build = json.loads((folder/'build.json').read_text(encoding='utf8'))
     image = json.loads(iso.with_suffix('.json').read_text(encoding='utf8'))
-    evidence_prefix=('review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_' if version=='0.5.20' else
+    evidence_prefix=('review22_verified_' if version=='0.5.22' else 'review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_' if version=='0.5.20' else
                      'review19_verified_' if version=='0.5.19' else 'enemy_ui_verified_')
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
@@ -45,21 +45,33 @@ def main():
     tool_commit = subprocess.check_output(['git','rev-parse','HEAD'],cwd=tool,text=True).strip()
     cfg = dict(game_id='srw-z3-tengoku-ps3',game_name='Super Robot Taisen Z3: Tengoku-hen (PS3)',
                platform='PS3',version=version,source_commit=a.source_commit,patches=patches)
-    label='Canonical names, training and Z Crystal layout' if version=='0.5.21' else 'Upgrade reports, bonus prompts and trophies' if version=='0.5.20' else 'Link, protagonist name and reward UI fixes'
+    label='Native label fonts, tutorial and parts layout' if version=='0.5.22' else 'Canonical names, training and Z Crystal layout' if version=='0.5.21' else 'Upgrade reports, bonus prompts and trophies' if version=='0.5.20' else 'Link, protagonist name and reward UI fixes'
     upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
 - Repair both two-color Custom Bonus award headers and the matching Ace Bonus
   header, keeping their native font, colors, icons and row pitch.
 - Translate all 35 trophy names/descriptions and the trophy-set title in both
   metadata variants. Preserve IDs, hidden flags, grades, triggers and all icons.
-''' if version in ('0.5.20','0.5.21') else ''
-    if version=='0.5.21':
+''' if version in ('0.5.20','0.5.21','0.5.22') else ''
+    if version in ('0.5.21','0.5.22'):
         upgrade_notes+='''- Correct Heero Yuy and Crowe Bluest in the glossary, Library, executable
   names, dialogue token expansions and pilot surname pieces; preserve Yui Ikari.
 - Center Raise Stats / Learn Skills in all four training tab states; separate
   Owned / Cost / Left from PP and restore readable six-stat / four-terrain labels.
 - Fit all nine Z Crystal effect names, including Grade 5, before the unchanged
   numeric cost column; shorten its headings to Effect / Cost.
+'''
+    if version=='0.5.22':
+        upgrade_notes+='''- Separate Z Crystal payment text from the live amount and align selected
+  Yes / No words with their neutral row in every confirmation state.
+- Fit all 23 tutorial selector titles into their two columns. Keep every
+  tutorial body in its original row, with measured English widths and controls.
+- Shorten Combat Record and Power Parts captions around unchanged numbers,
+  names, arrows and category choices. Match both emblem footer caption paths.
+- Use the game's original Latin fill and outline masks for the reported yellow
+  labels, retaining their native color, baseline and row pitch.
+- Translate the Power Parts formatter's separate Air / Ground / Water table;
+  preserve all eight movement masks, separators, and both comparison columns.
 '''
     notes = f'''# {version} — {label}
 

@@ -120,6 +120,11 @@ def glyph_pixels(glyph):
     import numpy as np
     from PIL import ImageFilter
     if glyph.mode!='L' or glyph.size!=(32,32):raise ValueError('Invalid glyph mask')
+    if 'native_g8b8' in glyph.info:
+        pixels=glyph.info['native_g8b8']
+        if pixels.shape!=(32,32) or pixels.dtype!=np.dtype('uint16'):
+            raise ValueError('Invalid original native glyph planes')
+        return pixels.copy()
     fill=np.asarray(glyph,dtype='uint16')
     outline=np.asarray(glyph.filter(ImageFilter.MaxFilter(5)),dtype='uint16')
     return (outline<<8)|fill

@@ -17,6 +17,8 @@ VERSION = 'ui-0.1.1-vwf'
 
 def raster(token, face=FACE):
     from PIL import Image, ImageDraw, ImageFont
+    from tools import native_labels
+    if token.startswith(native_labels.PREFIX):return native_labels.raster(token[len(native_labels.PREFIX):])
     from tools.menu_layout import PADS
     if token in PADS: return Image.new('L',(32,32)),PADS[token]
     from tools.status_layout import TINY,MARKERS,raster_tiny

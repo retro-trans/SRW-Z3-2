@@ -151,6 +151,9 @@ def characters():
         text = eboot_text.unshow(lb.expand(row['en'],res))
         from tools import ui_description_layout,opening_narration
         text,condensed = ui_description_layout.profile(text,grouped[rid])
+        from tools import tutorial_layout
+        text,tutorial_condensed=tutorial_layout.profile(text,grouped[rid])
+        condensed=condensed or tutorial_condensed
         if any(s['family']=='opening' for s in grouped[rid]):
             text,condensed = opening_narration.profile(text)
         for c in eboot_text.MARKUP.sub('',text):
@@ -185,10 +188,19 @@ def hook_entries(elf, mapping, base_entries):
         en = eboot_text.unshow(lb.expand(row['en'],res))
         from tools import ui_description_layout
         en,condensed = ui_description_layout.profile(en,grouped[rid])
+        from tools import tutorial_layout
+        en,tutorial_condensed=tutorial_layout.profile(en,grouped[rid])
+        condensed=condensed or tutorial_condensed
         if any(s['family']=='opening' for s in grouped[rid]):
             from tools.opening_narration import profile
             en,condensed = profile(en)
         active_mapping = mapping
+        # The emblem footer draws a neutral text prefix beneath its colored
+        # FSSA caption. Both paths must use the same native Latin masks.
+        if rid in ('0ba4c2f203085202ecb4','443fd8711641b2ab41e5'):
+            from tools.native_labels import PREFIX as LABEL_PREFIX
+            active_mapping=dict(mapping)
+            for c in set(en):active_mapping[c]=mapping[LABEL_PREFIX+c]
         if condensed:
             from tools.dialogue_layout import PREFIX
             active_mapping = dict(mapping)

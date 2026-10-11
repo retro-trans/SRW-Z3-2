@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.21'
+VERSION = '0.5.22'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -80,6 +80,10 @@ def plan(settings):
     tokens |= upgrade_messages.characters()
     from tools import review21_layout
     for edit in review21_layout.plan()['edits']:tokens.update(edit['en'].replace('\n',''))
+    from tools import review22_layout,native_labels
+    for edit in review22_layout.plan()['edits']:
+        chars=set(edit['en'].replace('\n',''));tokens.update(chars)
+        if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
     tokens.update('HibikiKamishiroK.')
     from tools.menu_layout import PADS
     tokens.update(PADS)
@@ -176,6 +180,8 @@ def plan(settings):
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
+    from tools import tutorial_layout
+    expanded_report['tutorial_layout']=tutorial_layout.report(grouped_ui,translated_ui,resolver)
     from tools import ui_runtime
     runtime_plan = ui_runtime.plan(elf,mapping)
     from tools import runtime_names
@@ -199,6 +205,9 @@ def plan(settings):
         status_layout.save_specs(mapping))
     executable,status_report=status_layout.native_patch(executable,elf,mapping)
     exec_report['status_layout']=status_report
+    from tools import parts_movement
+    executable,parts_report=parts_movement.apply(executable,elf)
+    exec_report['parts_movement']=parts_report
     executable,battle_report=battle_layout.native_patch(executable,elf,mapping)
     exec_report['battle_layout']=battle_report
     exec_report['ui_hook'] = dict(hook_report if isinstance(hook_report, dict) else {'report': str(hook_report)},

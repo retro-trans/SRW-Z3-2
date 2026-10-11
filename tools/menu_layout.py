@@ -17,6 +17,11 @@ COMMAND_LEFT = 1030.0
 
 def encode(edit,mapping):
     from tools.eboot_text import encode as plain
+    if edit.get('font_style')=='native-label':
+        from tools.native_labels import PREFIX
+        selected=dict(mapping)
+        for char in set(edit['en'])-{'\n'}:selected[char]=mapping[PREFIX+char]
+        return plain(edit['en'],selected)
     if 'line_center' not in edit: return plain(edit['en'],mapping)
     spec=edit['line_center']; out=[]
     if spec['quad']!=31 or spec['center_x']!=COMMAND_CENTER or spec['left_x']!=COMMAND_LEFT:

@@ -92,7 +92,8 @@ def encode(text, mapping):
 
 
 def decode(data, mapping):
-    inverse = {bytes.fromhex(code): ch for ch, code in mapping.items()}
+    from tools.native_labels import PREFIX
+    inverse = {bytes.fromhex(code): ch[len(PREFIX):] if ch.startswith(PREFIX) else ch for ch, code in mapping.items()}
     out, i = [], 0
     while i < len(data):
         if data[i] == 0x0a:

@@ -5,6 +5,29 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.22 - 2026-10-12 (prepared; publication requires consent)
+
+- Separate Z Crystal payment text from its live amount and align selected
+  Yes / No words with the neutral confirmation row in all native states.
+- Fit all 23 combat/team tutorial selector titles into their columns and
+  measure every fixed tutorial row. Condense long rows without adding line
+  breaks; shorten two exceptional rows after checking their source meaning.
+- Shorten Combat Record labels around live names, totals and arrows. Match
+  both emblem footer caption paths and remove the redundant Pilots suffix.
+- Replace the reported heavy yellow label letters with proportional copies
+  of the game's original Latin fill and outline masks; preserve native colors,
+  baseline, row pitch and separate numeric fields.
+- Fit Power Parts movement, range, effect, category and count captions.
+  Translate its separate Air / Ground / Water formatter table, preserving
+  all eight flag combinations, dashes and both comparison columns.
+- Carry all unpublished 0.5.19–0.5.21 fixes. Prepare original and public
+  0.5.18 Retro Trans patches; GitHub release creation/publication requires
+  explicit consent for 0.5.22. In-game visual confirmation remains pending.
+- Regression checks: 264 tests passed and two optional checks skipped.
+  Audit 244 fixed help rows, including 23 selector titles; verify all 82 ISO
+  files through both directory trees. The native font masks and all eight
+  parts movement combinations pass focused source/converter checks.
+
 ## 0.5.21 - 2026-10-12 (prepared; publication requires consent)
 
 - Correct Heero Yuy and Crowe Bluest throughout active token-backed text,

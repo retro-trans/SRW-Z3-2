@@ -17,6 +17,11 @@
 - Carry all unpublished 0.5.19 and 0.5.20 fixes forward. Prepare original and
   public 0.5.18 Retro Trans patches locally; publication requires explicit
   consent for 0.5.21. Runtime visual confirmation remains pending.
+- Final checks: 260 tests passed, two optional checks skipped; all 82 ISO
+  files verified through both directory trees. Read back all 38 new widgets,
+  nine crystal names and three pilot surname pieces; audit 116,553 rendered
+  text fields for obsolete full-name spellings. Earlier native upgrade,
+  mission-name, narration, font and trophy checks also pass.
 
 ## 0.5.20 - 2026-10-12 (prepared; publication requires consent)
 

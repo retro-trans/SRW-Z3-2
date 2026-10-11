@@ -43,6 +43,14 @@ tests successfully, with two optional skips. `tools.verify_review19` reads the
 final archives and executable, repeats the mission store execution checks and
 includes all prior cumulative checks against the final ISO manifest.
 
+Final readback passed all 34 captions and 15 mission-name execution cases,
+including eight custom/empty values passed unchanged. Evidence and the six
+public 0.5.18 report screenshots are saved in
+`work/ui/review19_verified_0.5.19.json` and `work/ui/screenshots/`.
+The matched ISO is 5,284,429,824 bytes; both directory trees verified all 82
+files. SHA-256:
+`dde16f0bf9abb363265b765c8dd1a8803809a7cb9272b8b94cf3d51a0a91b65f`.
+
 Live appearance in RPCS3 remains unconfirmed until the user tests the approved
 public release. The earlier malformed result team-name report (`1l,`) remains
 unresolved; this change does not claim to repair it.

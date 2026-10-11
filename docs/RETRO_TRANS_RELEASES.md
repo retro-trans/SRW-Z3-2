@@ -24,7 +24,11 @@ For a release:
    Use Tengoku BLJS10299 identities, never Jigoku BLJS10256 identities.
 4. Validate full patch decode round trips against the intended output and run
    the release validator. Confirm the package format is supported.
-5. Keep game images, extracted files, fonts and private source material out of
+5. Present the locally prepared notes and validated assets for the user's
+   explicit consent for this version before creating any GitHub release,
+   including a draft. Public-release testing and the one-time acceptance of
+   0.5.18 do not authorize another release.
+6. After consent, keep game images, extracted files, fonts and private source material out of
    hosted assets. Automatic discovery requires a public repository and a
    published release without GitHub's prerelease flag. Refresh the scoped
    Retro Trans catalog and verify recognition and the patch route. Keep

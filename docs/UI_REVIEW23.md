@@ -64,3 +64,12 @@ Prepare Retro Trans patches from original and public 0.5.18 inputs. Each
 must reconstruct the complete verified ISO and pass official release-tool
 validation. Creating or publishing a GitHub release requires explicit user
 consent for 0.5.23. In-game visual confirmation of this build remains pending.
+
+Both patch routes now pass full ISO reconstruction and official Retro Trans
+0.5.4 protocol validation. The final image is 5,288,230,912 bytes, SHA-256
+`3aa832cfc1aec36e33ebeb97f92f04cd712b38f86bdc3dd5d8683e1c4b0d5554`.
+All five release assets pass checksums. The 0.5.18 upgrade patch is
+26,752,706 bytes; the original-input patch is 203,901,427 bytes.
+Evidence: `work/ui/review23_verified_0.5.23.json` and
+`work/ui/local_release_0.5.23.json`. Regression: 267 passed, two optional
+tests skipped. No GitHub release has been created for 0.5.23.

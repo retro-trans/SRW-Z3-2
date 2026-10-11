@@ -24,6 +24,14 @@
   Prepare original/public 0.5.18 Retro Trans routes for review. Publication
   requires explicit consent for 0.5.23; in-game visual confirmation is pending.
 - Regression checks: 267 tests passed, with two optional tests skipped.
+- Final-file checks passed for 262 native mission-copy cases and drawer
+  lookups, all 110 mission members, and all 12 deployment edits. Both ISO
+  filesystem trees passed the full 82-file check. The expanded name audit
+  examined 116,553 English fields with zero old spellings.
+- Both original and public 0.5.18 Retro Trans patches passed complete ISO
+  reconstruction and official 0.5.4 protocol validation. All five release
+  assets passed checksum checks. GitHub release creation remains pending
+  explicit consent for 0.5.23.
 
 ## 0.5.22 - 2026-10-12 (prepared; publication requires consent)
 

@@ -51,6 +51,13 @@ The matched ISO is 5,284,429,824 bytes; both directory trees verified all 82
 files. SHA-256:
 `dde16f0bf9abb363265b765c8dd1a8803809a7cb9272b8b94cf3d51a0a91b65f`.
 
+Both original-ISO and exact public 0.5.18 upgrade patches passed complete
+decode round trips to that image. Retro Trans 0.5.4 validated all five local
+assets, including patch hashes, manifest and validation report. They are in
+`work/output/releases/0.5.19/artifacts/`; readiness evidence is
+`work/ui/local_release_0.5.19.json`. No GitHub release, including a draft,
+has been created. Publication remains pending explicit consent.
+
 Live appearance in RPCS3 remains unconfirmed until the user tests the approved
 public release. The earlier malformed result team-name report (`1l,`) remains
 unresolved; this change does not claim to repair it.

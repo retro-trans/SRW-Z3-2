@@ -45,8 +45,15 @@ and size; keep checksum checks enabled. Game images are not distributed.
 All 82 disc files passed both filesystem-tree checks. The final executable's
 translation bindings, mission name substitution stores, reward captions,
 domination atlas, Spirit band geometry, name drawer, fonts and stat widths
-passed readback/execution checks. Each patch receives a complete ISO decode
-round trip and Retro Trans 0.5.4 release validation before publication.
+passed readback/execution checks. Both patches passed complete ISO decode
+round trips and Retro Trans 0.5.4 release validation. All five local assets
+passed manifest, size and checksum checks. The full regression suite passed
+252 tests with two optional skips.
+
+Local assets: `work/output/releases/0.5.19/artifacts/`. The original patch is
+198,257,526 bytes; the public 0.5.18 upgrade patch is 21,191,035 bytes.
+Evidence: `work/ui/local_release_0.5.19.json`. No GitHub release has been
+created; publication is awaiting explicit consent for this version.
 
 **RPCS3 only.** Physical PS3/Vita compatibility is not claimed. In-game visual
 confirmation of this exact build remains pending. The separately reported

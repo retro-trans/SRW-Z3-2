@@ -13,6 +13,7 @@
 - Align the colored SR Point subject with the black earned sentence. Move the bonus-funds/Z-Chip prefix before the unchanged highlighted amount, removing duplicate literal numbers.
 - Translate the world-map domination caption to New Earth Empire Control. Preserve the complete digit row, decimal/percent symbols, bar and all animation records.
 - Retain prior translations and fixes; update the retro-trans title-screen footer to v0.5.19. Full regression suite: 252 passed, two optional checks skipped (full texture recompression and Capstone execution). Local archive/ISO and Retro Trans patch validation is recorded in the release evidence; in-game visual confirmation remains pending.
+- Verify all 82 files through both ISO directory trees, all 34 bound captions and 15 mission-name execution cases. Both original and public 0.5.18 upgrade patches passed complete ISO round trips; Retro Trans 0.5.4 validated all five local assets. Record readiness in `work/ui/local_release_0.5.19.json`. No GitHub release or draft has been created; explicit consent remains required.
 
 ## 0.5.18 - 2026-10-11
 

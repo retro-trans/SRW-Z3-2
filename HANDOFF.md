@@ -9,9 +9,16 @@ separate substitution consumer; tools/mission_names.py translates its four
 display-value pointers while preserving custom names and saved bytes.
 
 The build/footer version is 0.5.19. The full suite passed 252 tests, with two
-optional checks skipped. Prepare and validate both original-ISO and public
-0.5.18 upgrade patches. The user must explicitly consent before creating or
-publishing this GitHub release. In-game appearance remains unconfirmed.
+optional checks skipped. Both original-ISO and public 0.5.18 upgrade patches
+are prepared and passed complete ISO decode round trips. Retro Trans 0.5.4
+validated all five assets in work/output/releases/0.5.19/artifacts/.
+See work/ui/local_release_0.5.19.json and docs/RELEASE_0.5.19.md. The matched
+ISO is 5,284,429,824 bytes, SHA-256
+`dde16f0bf9abb363265b765c8dd1a8803809a7cb9272b8b94cf3d51a0a91b65f`.
+Build sources: `dbbc05c2e0a0926a836cc47205eb4ada86a4c4ef`.
+No GitHub release or draft has been created and no catalog refresh was run.
+The user must explicitly consent before creating or publishing this GitHub
+release. In-game appearance remains unconfirmed.
 
 ## Release consent and new result-screen report
 

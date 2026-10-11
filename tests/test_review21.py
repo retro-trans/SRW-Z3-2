@@ -10,6 +10,15 @@ class Review21Tests(unittest.TestCase):
         term,_=E.resolver().resolve('ユイ')
         self.assertEqual(term['en'],'Yui')
         _,pending=N.plan();self.assertFalse(pending)
+        # A future glossary seed must not restore older wiki spellings.
+        from tools.library_text import apply_settled
+        terms=[dict(jp=jp,kind=kind,token=token,en=old,status='official',targets=[])
+               for jp,kind,token,old in [('ヒイロ・ユイ','keyword','ヒイロ・ユイ#keyword','Heero Yui'),
+                                          ('ヒイロ・ユイ','pilot','ヒイロ・ユイ#pilot','Heero Yui'),
+                                          ('クロウ・ブルースト','pilot','クロウ・ブルースト','Crowe Bluste')]]
+        apply_settled(terms)
+        self.assertEqual([t['en']for t in terms[:3]],['Heero Yuy','Heero Yuy','Crowe Bluest'])
+        self.assertTrue(all(t['status']=='confirmed'for t in terms[:3]))
 
     def test_source_bound_widgets_and_four_digit_cost_clearance(self):
         plan=L.plan();self.assertEqual(plan,json.loads(L.DEST.read_text(encoding='utf8')))

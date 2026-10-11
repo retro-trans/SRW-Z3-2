@@ -85,5 +85,91 @@
     }
   ],
   "historical_reference_and_prior_exports_modified": false,
-  "unrelated_Yui_names_preserved": true
+  "unrelated_Yui_names_preserved": true,
+  "subsequent_passes": [
+    {
+      "schema": 1,
+      "version": "0.5.21",
+      "english_fields_examined": 150174,
+      "files_changed": 2,
+      "replacements": {
+        "Heero Yui": "Heero Yuy",
+        "Crowe Bluste": "Crowe Bluest"
+      },
+      "changes": [
+        {
+          "file": "work/glossary/library_terms.json",
+          "source_sha256": "9b9071d0d33cfea02755c67556df67f7d152f0588659898f0191be2245886e5f",
+          "changes": [
+            {
+              "field": "/terms/72/status",
+              "old": "official",
+              "new": "confirmed"
+            },
+            {
+              "field": "/terms/351/status",
+              "old": "official",
+              "new": "confirmed"
+            },
+            {
+              "field": "/terms/610/status",
+              "old": "official",
+              "new": "confirmed"
+            }
+          ]
+        },
+        {
+          "file": "work/glossary/library_settled.json",
+          "source_sha256": "cd2b97c26f763f89a7da056bb3fe5341f6ce05faa22bbc09c807411a3961cfab",
+          "changes": [
+            {
+              "field": "/terms/16/status",
+              "old": "official",
+              "new": "confirmed"
+            },
+            {
+              "field": "/terms/16/user_approved",
+              "old": null,
+              "new": true
+            },
+            {
+              "field": "/terms/16/override_approved",
+              "old": null,
+              "new": true
+            },
+            {
+              "field": "/terms/303",
+              "old": null,
+              "new": {
+                "jp": "ヒイロ・ユイ",
+                "kind": "pilot",
+                "token": "ヒイロ・ユイ#pilot",
+                "en": "Heero Yuy",
+                "status": "confirmed",
+                "source": "User 2026-10-12: canonical spelling Heero Yuy / Crowe Bluest; proofreading agents must not change these names.",
+                "user_approved": true,
+                "override_approved": true
+              }
+            },
+            {
+              "field": "/terms/304",
+              "old": null,
+              "new": {
+                "jp": "クロウ・ブルースト",
+                "kind": "pilot",
+                "token": "クロウ・ブルースト",
+                "en": "Crowe Bluest",
+                "status": "confirmed",
+                "source": "User 2026-10-12: canonical spelling Heero Yuy / Crowe Bluest; proofreading agents must not change these names.",
+                "user_approved": true,
+                "override_approved": true
+              }
+            }
+          ]
+        }
+      ],
+      "historical_reference_and_prior_exports_modified": false,
+      "unrelated_Yui_names_preserved": true
+    }
+  ]
 }

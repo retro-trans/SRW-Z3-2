@@ -16,6 +16,9 @@ name, and three source-bound pilot surname slots. Token-backed dialogue,
 Library and battle voice expand from the corrected glossary at build time.
 Historical source quotations and prior exports remain evidence of older work.
 The unrelated Evangelion character Yui remains unchanged.
+All three full-name entries are user-confirmed. The settled choices explicitly
+authorize these corrections, so a future glossary seed preserves them rather
+than restoring older reference spellings.
 
 `coverage()` checks rendered active dialogue, battle voice, Library prose and
 executable text for both old full-name spellings. The complete stage and Library

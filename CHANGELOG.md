@@ -6,6 +6,7 @@
 - Carry forward the native fallback repair that prevents blank captions drawing stray kanji over map names, and verify Daimon Police, Genion and the blank overlay through the installed centered renderer in both font modes.
 - Prepare a public release containing the accumulated 0.5.3–0.5.17 translation and layout fixes. The user always tests public releases; local testing images alone did not update the copy they were using.
 - Retain full dialogue, narration, stage, terrain, target and library translation work, Focus/Foc terminology and matching outlined fonts. Update the retro-trans title footer to v0.5.18.
+- Run 251 regression tests: 250 passed, one optional skip. Verify all 82 files through both ISO directory trees; ISO size 5,284,429,824 bytes, SHA-256 `1139b7c2dbe8d7ce0de50e73f5480e2f2f19aff06b053a6855281e3772e34db4`.
 
 ## 0.5.17 - 2026-10-11
 

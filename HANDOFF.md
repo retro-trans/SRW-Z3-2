@@ -16,6 +16,13 @@ five bands and executes Daimon Police, Genion and the empty overlay caption
 through the installed centered renderer in both modes. Live appearance remains
 pending the user's public-release playtest.
 
+Build and full regression checks passed (250 tests, one optional skip). Final
+ISO: 5,284,429,824 bytes, SHA-256
+`1139b7c2dbe8d7ce0de50e73f5480e2f2f19aff06b053a6855281e3772e34db4`.
+Both filesystem trees passed all 82 file checks. Public packaging must include
+original and 0.5.2 upgrade routes; full image round trips and hosted/catalog
+verification remain required before calling this release published.
+
 ## Stage, terrain, Spirit targets and stat columns — 0.5.17
 
 Current builder version is 0.5.17. See `docs/CATEGORY_UI_0.5.17.md`.

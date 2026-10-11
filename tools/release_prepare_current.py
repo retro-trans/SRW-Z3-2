@@ -19,7 +19,8 @@ def main():
     iso = ROOT/'work/output/iso'/version/('Tengoku-hen-English-'+version+'.iso')
     build = json.loads((folder/'build.json').read_text(encoding='utf8'))
     image = json.loads(iso.with_suffix('.json').read_text(encoding='utf8'))
-    evidence_prefix='review19_verified_' if version=='0.5.19' else 'enemy_ui_verified_'
+    evidence_prefix=('upgrade_ui_verified_' if version=='0.5.20' else
+                     'review19_verified_' if version=='0.5.19' else 'enemy_ui_verified_')
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
     if build['version'] != version or image['version'] != version or evidence['version'] != version:
@@ -44,7 +45,15 @@ def main():
     tool_commit = subprocess.check_output(['git','rev-parse','HEAD'],cwd=tool,text=True).strip()
     cfg = dict(game_id='srw-z3-tengoku-ps3',game_name='Super Robot Taisen Z3: Tengoku-hen (PS3)',
                platform='PS3',version=version,source_commit=a.source_commit,patches=patches)
-    notes = f'''# {version} — Link, protagonist name and reward UI fixes
+    label='Upgrade reports, bonus prompts and trophies' if version=='0.5.20' else 'Link, protagonist name and reward UI fixes'
+    upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
+  announcements, and all nine selectable Full Upgrade Bonus confirmations.
+- Repair both two-color Custom Bonus award headers and the matching Ace Bonus
+  header, keeping their native font, colors, icons and row pitch.
+- Translate all 35 trophy names/descriptions and the trophy-set title in both
+  metadata variants. Preserve IDs, hidden flags, grades, triggers and all icons.
+''' if version=='0.5.20' else ''
+    notes = f'''# {version} — {label}
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
 **BLJS10299**. Prepared locally; creating or publishing a GitHub release
@@ -70,6 +79,7 @@ and size; keep checksum checks enabled. Game images are not distributed.
 
 ## Included
 
+{upgrade_notes}
 - Shorter Link question and PP bonus labels, preserving counts and totals.
 - Default protagonist names translated in the independent mission-condition
   substitution routine; custom names, name order and saved bytes preserved.
@@ -91,7 +101,10 @@ and size; keep checksum checks enabled. Game images are not distributed.
 All 82 disc files passed both filesystem-tree checks. The final executable's
 translation bindings, mission name substitution stores, reward captions,
 domination atlas, Spirit band geometry, name drawer, fonts and stat widths
-passed readback/execution checks. Each patch receives a complete ISO decode
+passed readback/execution checks. The upgrade additions also pass 80 final
+lookup cases, 23 native report compositions and nine native bonus questions;
+the trophy pack passes complete text/structure/icon readback and SHA-1 checks.
+Each patch receives a complete ISO decode
 round trip and Retro Trans 0.5.4 release validation before publication.
 
 **RPCS3 only.** Physical PS3/Vita compatibility is not claimed. In-game visual

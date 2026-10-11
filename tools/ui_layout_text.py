@@ -185,6 +185,10 @@ def plan(settings,mapping):
     review19=json.loads(review19_layout.DEST.read_text(encoding='utf8'))
     if review19!=review19_layout.plan():raise ValueError('Review 19 layout plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],review19['edits'])
+    from tools import upgrade_layout
+    upgrade=json.loads(upgrade_layout.DEST.read_text(encoding='utf8'))
+    if upgrade!=upgrade_layout.plan():raise ValueError('Upgrade layout plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],upgrade['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

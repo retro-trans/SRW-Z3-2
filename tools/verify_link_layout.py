@@ -169,6 +169,11 @@ def verify(version):
         review=json.loads(review19_layout.DEST.read_text(encoding='utf8'))
         if review!=review19_layout.plan():raise ValueError('Review19 plan differs from current source')
         edits=status_layout.merge(edits,review['edits'])
+    if tuple(map(int,build['version'].split('.'))) >= (0,5,20):
+        from tools import upgrade_layout
+        upgrade=json.loads(upgrade_layout.DEST.read_text(encoding='utf8'))
+        if upgrade!=upgrade_layout.plan():raise ValueError('Upgrade layout plan differs from current source')
+        edits=status_layout.merge(edits,upgrade['edits'])
     ui_layout_text.verify_fssa(source,built,edits,mapping,menus['element_edits'])
     command_lines=[]
     for edit in menus['edits']:

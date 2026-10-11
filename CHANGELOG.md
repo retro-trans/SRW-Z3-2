@@ -5,6 +5,15 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.20 - 2026-10-12 (prepared; publication requires consent)
+
+- Translate the complete source-table families behind the reported upgrade popups: 23 item-unlock conditions, all 24 D-Trader item announcements (including already-English part-name bytes), and all nine selectable Full Upgrade Bonus confirmation messages. Preserve condition/part IDs, menu choices, live data and game logic.
+- Fix both layered Custom Bonus award headers and the matching Ace Bonus header. Compose the colored subject and black remainder once with measured origins, retaining native font, colors, icon position and row pitch.
+- Translate all 35 trophy names/descriptions and both trophy-set title fields in both metadata variants (144 text fields total). Rebuild and verify the TRP container checksum; preserve all trophy identities, types, hidden flags, configuration and icons. Compatibility remains RPCS3 only.
+- Proofread all 104 new wording fields; correct HP/EN upgrade wording to level 10 and use the bound Spirit glossary for Fury and Luck. Verify all assembled strings using the original native composers and real UTF-8 conversion.
+- Include the unpublished 0.5.19 corrections. Update the retro-trans title footer to v0.5.20; prepare original and public 0.5.18 upgrade routes locally. Publication still requires explicit consent for 0.5.20.
+- Run 260 regression tests: 258 passed and two optional checks skipped. Build and read back the complete matched archives/executable, including the trophy pack. Measure report text conservatively at a 31-pixel glyph size; use 5+ in the longest condition while retaining its threshold and simultaneous MAP-weapon requirement.
+
 ## 0.5.19 - 2026-10-12 (prepared; publication requires consent)
 
 - Shorten and align the Link question labels and choices across all six Clears/Chart layouts. Compact the Link Bonus PP header, completion labels and replay multiplication suffix; preserve all separate values.

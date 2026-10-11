@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.19'
+VERSION = '0.5.20'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -76,6 +76,8 @@ def plan(settings):
     tokens |= eboot_text.characters()
     from tools import ui_catalog
     tokens |= ui_catalog.characters()
+    from tools import upgrade_messages
+    tokens |= upgrade_messages.characters()
     tokens.update('HibikiKamishiroK.')
     from tools.menu_layout import PADS
     tokens.update(PADS)
@@ -167,7 +169,8 @@ def plan(settings):
     hook_entries, expanded_report = ui_catalog.hook_entries(elf,mapping,hook_entries)
     from tools import operation_layout, link_layout
     hook_entries += operation_layout.hook_entries(elf,mapping)
-    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)}.values())
+    upgrade_entries=upgrade_messages.hook_entries(elf,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -226,7 +229,11 @@ def plan(settings):
     from tools import eff_art
     eff_plan = eff_art.plan(settings, title_version=VERSION)
     extra_art.append(('EFFPS3.CPK', eff_art.ARCHIVE, eff_plan, eff_art, eff_plan['compress']))
+    from tools import trophy_text
+    trophy,trophy_report=trophy_text.build()
     summary = {'schema': 3, 'version': VERSION, 'title_id': 'BLJS10299', 'encoding': 'vwf',
+               'upgrade_messages':dict(conditions=23,item_announcements=24,bonus_choices=9,hook_keys=len(upgrade_entries)),
+               'trophies':trophy_report,
                'spirit_occurrences': len(edits), 'library_entries': {k: len(v) for k, v in members.items()},
                'dialogue_records': len(dialogue_rows), 'stage_members_rebuilt': len(stage_members),
                'dialogue_layout': {'condensed_records': sorted(set(dialogue_rows) & set(layout.CONDENSED)),
@@ -254,7 +261,7 @@ def plan(settings):
     return dict(summary=summary, mapping=mapping, drawn=drawn, pages=pages, rpw=rpw, edits=edits,
                 executable=executable, font_path=font_path, rpw_path=rpw_path, members=members,
                 expected=expected, settings=settings, stage_members=stage_members,
-                voice=voice, art=art, extra_art=extra_art)
+                voice=voice, art=art, extra_art=extra_art,trophy=trophy)
 
 
 def verify_library(p, output):
@@ -345,6 +352,10 @@ def build(p, output):
         extra_reports[name] = {'archive': compare(source, output / name, art_plan['members']),
                                'members_verified': module.verify_archive(output / name, art_plan)}
         disc_files[disc] = name
+    from tools import trophy_text
+    (output/'TROPHY.TRP').write_bytes(p['trophy'])
+    trophy_text.verify(trophy_text.source(),(output/'TROPHY.TRP').read_bytes(),trophy_text.plan())
+    disc_files[trophy_text.DISC]='TROPHY.TRP'
     outputs += sorted(disc_files.values())
     report = dict(p['summary'], mapping=p['mapping'], stage_archive=stage_report,
                   widths={t: w for t, (g, w) in p['drawn'].items()},

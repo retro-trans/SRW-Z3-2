@@ -22,6 +22,10 @@
   nine crystal names and three pilot surname pieces; audit 116,553 rendered
   text fields for obsolete full-name spellings. Earlier native upgrade,
   mission-name, narration, font and trophy checks also pass.
+- Both original and public 0.5.18 patches passed complete ISO reconstruction
+  and checksum checks. Retro Trans 0.5.4 validated all five delivery assets;
+  readiness is recorded in `work/ui/local_release_0.5.21.json`. No GitHub
+  release has been created; publication remains pending explicit consent.
 
 ## 0.5.20 - 2026-10-12 (prepared; publication requires consent)
 

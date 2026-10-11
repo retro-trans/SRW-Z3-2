@@ -27,6 +27,10 @@
   Audit 244 fixed help rows, including 23 selector titles; verify all 82 ISO
   files through both directory trees. The native font masks and all eight
   parts movement combinations pass focused source/converter checks.
+- Both original and public 0.5.18 patches passed complete ISO reconstruction
+  and checksum checks. Retro Trans 0.5.4 validated all five delivery assets;
+  readiness is recorded in `work/ui/local_release_0.5.22.json`. No GitHub
+  release has been created; publication remains pending explicit consent.
 
 ## 0.5.21 - 2026-10-12 (prepared; publication requires consent)
 

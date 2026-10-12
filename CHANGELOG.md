@@ -23,6 +23,12 @@
 - Carry all unpublished 0.5.19–0.5.25 fixes into original-game and public
   0.5.18 patch routes. Publishing 0.5.26 requires explicit consent.
 - Regression checks: 279 tests passed, with two optional tests skipped.
+- Final readback passes for all 3,424 report/skill lookup cases, all 99 native
+  report occurrences, all 5,624 weapon-name fields and four full-name cases.
+  Both filesystem trees verify all 82 ISO files. In-game confirmation is pending.
+- Both official Retro Trans 0.5.4 patch routes reproduce the same complete ISO;
+  all five release assets pass protocol and checksum validation. Publication
+  remains pending explicit consent for 0.5.26.
 
 ## 0.5.25 - 2026-10-12 (prepared; publication requires consent)
 

@@ -18,6 +18,15 @@
   including Save complete / Continue playing, for the independent drawing path.
 - Carry every unpublished 0.5.19–0.5.26 fix into original-game and public
   0.5.18 Retro Trans patch routes. Publication requires explicit consent.
+- Verify all 209 stage members containing the 800 runtime team-name records,
+  ten Library entries mentioning Zuul, three corrected battle-voice strings,
+  the shared Library Name widget and all five independent save-line lookups.
+  All 82 ISO files pass both filesystem-tree checks; in-game confirmation
+  remains pending.
+- Regression checks: 284 tests passed, with two optional tests skipped.
+- Validate original-game and public 0.5.18 patches through complete ISO
+  round trips with Retro Trans 0.5.4; verify all five release assets.
+  Record local readiness in `work/ui/local_release_0.5.27.json`.
 
 ## 0.5.26 - 2026-10-12 (prepared; publication requires consent)
 

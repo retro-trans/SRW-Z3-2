@@ -1,7 +1,6 @@
 """Source-bound layout profiles for exceptional dialogue records."""
 CONDENSED = {
     '604:t_6:4': '3a93a41e5e',
-    '81:t_1:64': '4e0167391c',
     '117:t_1:76': '8ff07ee44b',
     '599:t_014:12': '3c3d6556d0',
     '634:t_1:123': 'c043db3002',

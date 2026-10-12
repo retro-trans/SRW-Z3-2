@@ -120,7 +120,7 @@ Write `work/translation/en/dialogue/<slice>.json`, UTF-8, and nothing else:
   one is plain "space monster". Kappei's 姉ちゃん/兄ちゃん = "Sis X" / "Big Bro X".
 - Bare クォーター / ダナン = `$$クォーター$$` ("Quarter") / `$$ダナン$$` ("Danaan");
   the full names keep their full tokens. Kappei: おっちゃん = "Uncle X".
-- Turn A: アメリア = `$$アメリア$$` ("Amerria"), アメリア大陸 = "the $$アメリア$$ Continent".
+- Turn A: アメリア = `$$アメリア$$` ("Ameria", user-selected canonical spelling), アメリア大陸 = "the $$アメリア$$ Continent".
 - 月の女王 = "the Moon Queen" (Dianna).
 - Aquarion EVOL: 翅無し = "Wingless", 翅犬 = "winged dog", 無限拳 = "Infinity Punch".
 - ランカちゃん = "$$ランカ$$-chan" (Jigoku shipped English; affectionate nickname).

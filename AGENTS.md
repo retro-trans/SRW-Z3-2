@@ -20,3 +20,4 @@ incoming - outside files that need agent to look into
 - The user always tests the public release. Prepare fixes and validated Retro Trans patches for public delivery; a separate local testing ISO does not reach their normal testing workflow. Creating or publishing a GitHub release requires the user's explicit consent for that release. The user accepted 0.5.18 as a one-time exception; this does not authorize future releases.
 - Canonical spellings requested on 2026-10-12: Heero Yuy (both pilot and historical leader), Crowe Bluest. Proofreading must preserve these spellings. Yui Ikari remains Yui.
 - Additional canonical spellings requested on 2026-10-12: Sacks (not Sachs), Giltar (not Girtar). Apply them throughout active text and preserve them during proofreading.
+- Canonical location spelling requested on 2026-10-12: Ameria (not Amerria). Apply it throughout active text and preserve it during proofreading.

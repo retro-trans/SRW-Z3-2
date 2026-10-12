@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.24'
+VERSION = '0.5.25'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -93,6 +93,9 @@ def plan(settings):
     for edit in review24_layout.plan()['edits']:
         chars=set(edit['en'].replace('\n',''));tokens.update(chars)
         if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
+    from tools import review25_layout
+    for edit in review25_layout.plan()['edits']:
+        tokens.update(edit.get('en','').replace('\n',''))
     tokens.update('HibikiKamishiroK.')
     from tools.menu_layout import PADS
     tokens.update(PADS)

@@ -5,6 +5,23 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.25 - 2026-10-12 (prepared; publication requires consent)
+
+- Space and center all seven Gargantia fleet commander's room captions using
+  their final expanded font widths, preserving blank rows and source records.
+- Apply the user-selected Ameria spelling in the active glossary and location
+  captions; all dialogue tokens use that spelling. Preserve historical exports.
+- Separate Team Setup from Next and its live counter in both heading states.
+  Preserve the title font, two-digit count and movement fields.
+- Restore the normal dialogue font for Mao's Baal explanation. Reviewed
+  wording retains its meaning and keyword link within three complete rows.
+- Confirm that both reported Rescue Unit / Target Lock unlock screens, Team
+  Setup terrain labels and the complete Episode 11 SR condition are covered
+  by earlier unpublished fixes, carried into this build.
+- Prepare original-game and public 0.5.18 Retro Trans patches. Publication
+  requires explicit consent for 0.5.25; in-game confirmation remains pending.
+- Regression checks: 275 tests passed, with two optional tests skipped.
+
 ## 0.5.24 - 2026-10-12 (prepared; publication requires consent)
 
 - Translate assembled Clear Report Z-Chip and funds award rows, remove their

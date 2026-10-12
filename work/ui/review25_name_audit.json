@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "version": "0.5.25",
+  "fields_examined": 153574,
+  "replacements": {
+    "Amerria": "Ameria"
+  },
+  "changes": [
+    {
+      "file": "work/translation/en/ui/effps3_art.json",
+      "source_sha256": "a58c37b047e95d27beacf28da6f0f3cfacda8af4de48a2d5d511a2dbaded1aa6",
+      "changes": [
+        {
+          "field": "/entries/38/en",
+          "old": "Amerria Continent",
+          "new": "Ameria Continent"
+        },
+        {
+          "field": "/entries/39/en",
+          "old": "Amerria Continent, Central Base",
+          "new": "Ameria Continent, Central Base"
+        },
+        {
+          "field": "/entries/40/en",
+          "old": "Amerria Continent, Vicinity",
+          "new": "Ameria Continent, Vicinity"
+        },
+        {
+          "field": "/entries/44/en",
+          "old": "South Amerria Continent",
+          "new": "South Ameria Continent"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_terms.json",
+      "source_sha256": "fae854373f44bf8d6df8a7b699e892dbeee10529a272d5a819fafe67d1ae21e7",
+      "changes": [
+        {
+          "field": "/terms/1786/en",
+          "old": "Amerria",
+          "new": "Ameria"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_settled.json",
+      "source_sha256": "9617e9b813816618b423cd484637ef7461c7da9179206b0db5990d13121bd319",
+      "changes": [
+        {
+          "field": "/terms/74/en",
+          "old": "Amerria",
+          "new": "Ameria"
+        }
+      ]
+    }
+  ],
+  "historical_exports_modified": false
+}

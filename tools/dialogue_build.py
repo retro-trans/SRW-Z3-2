@@ -42,7 +42,8 @@ def render(entry, record, resolver, width_of):
     head = lb.expand(head, resolver) if '$$' in head else head
     caption = not head.strip('　 ') and '$' not in head
     if caption:
-        return head + '\n' + lb.expand(body, resolver)
+        from tools.review25_dialogue import centered
+        return centered(head + '\n' + lb.expand(body, resolver),record,width_of)
     from tools import dialogue_layout as layout
     if layout.condensed(record.get('id'), entry):
         normal_width = width_of

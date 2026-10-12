@@ -21,6 +21,15 @@
 - Prepare original-game and public 0.5.18 Retro Trans patches. Publication
   requires explicit consent for 0.5.25; in-game confirmation remains pending.
 - Regression checks: 275 tests passed, with two optional tests skipped.
+- Final readback passes for all seven captions, six full dialogue members,
+  both Team Setup states, and the reported unlock and NPC SR condition paths.
+  Mao's normal-font row widths are 948, 940 and 912 units against 960 allowed.
+- The expanded active-text audit covers 116,641 fields and finds 22 canonical
+  Ameria occurrences with no obsolete spelling. All 82 ISO files pass both
+  filesystem-tree checks.
+- Both original-game and public 0.5.18 patches pass complete ISO round trips.
+  Retro Trans 0.5.4 validates all five release assets, checksums and source
+  provenance. The local package is ready; publication still requires consent.
 
 ## 0.5.24 - 2026-10-12 (prepared; publication requires consent)
 

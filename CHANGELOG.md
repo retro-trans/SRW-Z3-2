@@ -16,6 +16,13 @@
   executable/RPW text with answer copies. Record omissions and uncertainty.
 - Carry all prepared 0.5.19–0.5.27 repairs into both original-game and public
   0.5.18 Retro Trans routes. Publication requires explicit consent.
+- Verify every native quote reference/state store and all 249 RPW quote cells,
+  along with carried fixes and all 82 disc files through both directory trees.
+  Regression suite: 287 passed, two optional checks skipped; four focused
+  native-quote/audit checks passed after the audit serialization repair.
+- Validate both Retro Trans 0.5.4 patch routes by complete ISO round trips;
+  both reproduce the same verified 0.5.28 image. Record the five checked
+  delivery assets locally. In-game appearance remains pending user testing.
 
 ## 0.5.27 - 2026-10-13 (prepared; publication requires consent)
 

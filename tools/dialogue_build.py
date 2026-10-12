@@ -59,7 +59,7 @@ def render(entry, record, resolver, width_of):
 
 def wrap_speech(speech, width_of):
     units = lambda s: sum(0 if c in LINK_MARKS else width_of(c) for c in s)
-    measure = lambda s: units(s.replace('$n', '')) + s.count('$n') * dlg.PROTAGONIST_UNITS
+    measure = lambda s: dlg.speech_units(s, lambda c: 0 if c in LINK_MARKS else width_of(c))
     lines, line = [], ''
     for word in speech.split(' '):
         lead = lb.FULLWIDTH if lines else 0

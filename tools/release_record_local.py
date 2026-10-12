@@ -11,6 +11,7 @@ def plan(version):
     cfg=json.loads((folder/'release-local.json').read_text(encoding='utf8'))
     proof=ROOT/'work/ui'/(('review25_verified_' if version=='0.5.25' else 'review24_verified_' if version=='0.5.24' else 'review23_verified_' if version=='0.5.23' else 'review22_verified_' if version=='0.5.22' else 'review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_')+version+'.json')
     if version=='0.5.26':proof=ROOT/'work/ui'/('review26_verified_'+version+'.json')
+    if version=='0.5.27':proof=ROOT/'work/ui'/('review27_verified_'+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
     if manifest['version']!=version or manifest['source_commit']!=cfg['source_commit']:raise ValueError('Release provenance mismatch')

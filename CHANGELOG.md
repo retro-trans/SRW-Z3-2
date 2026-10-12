@@ -5,6 +5,20 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.27 - 2026-10-13 (prepared; publication requires consent)
+
+- Confirm that the Library Full Name overlap is covered by the earlier shared
+  Name caption fix; retain the complete official mech name.
+- Apply the user's Zuul / Emperor Zuul spelling throughout active names,
+  glossary expansions, team labels and battle voice text. Preserve Gundam Zulu.
+- Reserve six native full-width cells for the runtime Z-BLUE name in all 800
+  dialogue records using it. Wrap earlier without rewriting dialogue, links,
+  controls or saved team names; all independent speech blocks fit three rows.
+- Bind all five distinct lines of the three map-save confirmation dialogs,
+  including Save complete / Continue playing, for the independent drawing path.
+- Carry every unpublished 0.5.19–0.5.26 fix into original-game and public
+  0.5.18 Retro Trans patch routes. Publication requires explicit consent.
+
 ## 0.5.26 - 2026-10-12 (prepared; publication requires consent)
 
 - Translate all 22 player-facing GIFT reports across 97 stage occurrences:

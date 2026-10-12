@@ -22,6 +22,7 @@ def main():
     evidence_prefix=('review25_verified_' if version=='0.5.25' else 'review24_verified_' if version=='0.5.24' else 'review23_verified_' if version=='0.5.23' else 'review22_verified_' if version=='0.5.22' else 'review21_verified_' if version=='0.5.21' else 'upgrade_ui_verified_' if version=='0.5.20' else
                      'review19_verified_' if version=='0.5.19' else 'enemy_ui_verified_')
     if version=='0.5.26':evidence_prefix='review26_verified_'
+    if version=='0.5.27':evidence_prefix='review27_verified_'
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
     if build['version'] != version or image['version'] != version or evidence['version'] != version:
@@ -48,14 +49,15 @@ def main():
                platform='PS3',version=version,source_commit=a.source_commit,patches=patches)
     label='Room caption spacing, Ameria, Team Setup and dialogue font' if version=='0.5.25' else 'Clear Reports, weapon upgrade and deployment menu layout' if version=='0.5.24' else 'Complete mission conditions, deployment and canonical names' if version=='0.5.23' else 'Native label fonts, tutorial and parts layout' if version=='0.5.22' else 'Canonical names, training and Z Crystal layout' if version=='0.5.21' else 'Upgrade reports, bonus prompts and trophies' if version=='0.5.20' else 'Link, protagonist name and reward UI fixes'
     if version=='0.5.26':label='Stage reports, skill levels, name spacing and weapon consistency'
+    if version=='0.5.27':label='Emperor Zuul, full-width team-name wrapping and map save prompts'
     upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
 - Repair both two-color Custom Bonus award headers and the matching Ace Bonus
   header, keeping their native font, colors, icons and row pitch.
 - Translate all 35 trophy names/descriptions and the trophy-set title in both
   metadata variants. Preserve IDs, hidden flags, grades, triggers and all icons.
-''' if version in ('0.5.20','0.5.21','0.5.22','0.5.23','0.5.24','0.5.25','0.5.26') else ''
-    if version in ('0.5.21','0.5.22','0.5.23','0.5.24','0.5.25','0.5.26'):
+''' if version in ('0.5.20','0.5.21','0.5.22','0.5.23','0.5.24','0.5.25','0.5.26','0.5.27') else ''
+    if version in ('0.5.21','0.5.22','0.5.23','0.5.24','0.5.25','0.5.26','0.5.27'):
         upgrade_notes+='''- Correct Heero Yuy and Crowe Bluest in the glossary, Library, executable
   names, dialogue token expansions and pilot surname pieces; preserve Yui Ikari.
 - Center Raise Stats / Learn Skills in all four training tab states; separate
@@ -63,7 +65,7 @@ def main():
 - Fit all nine Z Crystal effect names, including Grade 5, before the unchanged
   numeric cost column; shorten its headings to Effect / Cost.
 '''
-    if version in ('0.5.22','0.5.23','0.5.24','0.5.25','0.5.26'):
+    if version in ('0.5.22','0.5.23','0.5.24','0.5.25','0.5.26','0.5.27'):
         upgrade_notes+='''- Separate Z Crystal payment text from the live amount and align selected
   Yes / No words with their neutral row in every confirmation state.
 - Fit all 23 tutorial selector titles into their two columns. Keep every
@@ -75,7 +77,7 @@ def main():
 - Translate the Power Parts formatter's separate Air / Ground / Water table;
   preserve all eight movement masks, separators, and both comparison columns.
 '''
-    if version in ('0.5.23','0.5.24','0.5.25','0.5.26'):
+    if version in ('0.5.23','0.5.24','0.5.25','0.5.26','0.5.27'):
         upgrade_notes+='''- Relocate all 262 static mission conditions through ten-byte display keys,
   keeping complete English beyond the native UI's 128-byte intermediate field.
   Preserve the existing substitution route for all 25 live-name/counter conditions.
@@ -84,7 +86,7 @@ def main():
 - Fit deployment headers around the remaining count; translate all seven
   repeated movement templates and compact selection/movement captions.
 '''
-    if version in ('0.5.24','0.5.25','0.5.26'):
+    if version in ('0.5.24','0.5.25','0.5.26','0.5.27'):
         upgrade_notes+='''- Translate assembled Clear Report Z-Chip and funds rows, remove their
   numeric padding, and retain live amounts. Center the three per-pilot PP rows.
 - Separate Weapon and RANK in both upgrade list footers and shorten the
@@ -96,13 +98,13 @@ def main():
 checks; all 110 mission members pass complete archive readback. The 12
 deployment edits preserve numeric fields and movement-cell spacing. The
 expanded active-text audit confirms Sacks and Giltar without old spellings.
-''' if version in ('0.5.23','0.5.24','0.5.25') else ''
-    if version in ('0.5.24','0.5.25'):
+''' if version in ('0.5.23','0.5.24','0.5.25','0.5.26','0.5.27') else ''
+    if version in ('0.5.24','0.5.25','0.5.26','0.5.27'):
         review23_verification+='''Twenty native Clear Report executions cover zero, ordinary and large
 amounts, with row canaries and unchanged values. Eleven label edits and all
 deployment command lookup variants pass final readback and measured bounds.
 '''
-    if version in ('0.5.25','0.5.26'):
+    if version in ('0.5.25','0.5.26','0.5.27'):
         upgrade_notes+='''- Space and center all seven Gargantia fleet commander's room captions;
   preserve both blank rows and use their final expanded font widths.
 - Correct Ameria in the active glossary and location captions, including
@@ -117,7 +119,7 @@ normal-font row pass full stage-member readback and measured text bounds.
 Both Team Setup header states preserve font settings and live counter text.
 The expanded active-text audit rejects obsolete Amerria spellings.
 '''
-    if version=='0.5.26':
+    if version in ('0.5.26','0.5.27'):
         upgrade_notes+='''- Translate all 22 player-facing stage GIFT reports (97 occurrences), including
   Sub Order and D-Trader unlocks, item grants, AG bonuses and upgrade refunds.
 - Translate composed skill levels, including Newtype Lv 2, without changing
@@ -131,6 +133,19 @@ The expanded active-text audit rejects obsolete Amerria spellings.
         review23_verification+='''The complete stage-report and composed skill lookup sets pass final execution
 checks. All weapon-name pointers and widths pass archive readback. The default
 name separator passes instruction tests with custom-name and null guards.
+'''
+    if version=='0.5.27':
+        upgrade_notes+='''- Apply Zuul / Emperor Zuul throughout active names and expanded prose;
+  preserve the unrelated Gundam Geara Zulu and Rozen Zulu names.
+- Wrap all 800 dialogue records using the runtime team-name token with room
+  for the six full-width cells of Z-BLUE. Preserve wording, links and controls.
+- Translate all independent lines of the three map save confirmations,
+  including Save complete / Continue playing, preserving save and choice behavior.
+'''
+        review23_verification+='''All runtime team-name dialogue members pass complete final archive readback;
+all independent save-line keys pass final lookup execution. The shared Library
+Name caption and all Library fields mentioning Zuul pass exact final readback.
+The expanded active-text audit rejects obsolete Xul and Zul spellings.
 '''
     notes = f'''# {version} — {label}
 

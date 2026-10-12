@@ -1,0 +1,276 @@
+{
+  "schema": 1,
+  "version": "0.5.27",
+  "fields_examined": 160265,
+  "replacement": "Zuul",
+  "files_changed": 11,
+  "changes": [
+    {
+      "file": "work/translation/en/library/pt_000.json",
+      "source_sha256": "faa07cd3a76509b069fca3bc2c3ebc985f8ea49d3341e230681217db0957833f",
+      "changes": [
+        {
+          "field": "/names/ズール/en",
+          "old": "Xul",
+          "new": "Zuul"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/library/rt_000.json",
+      "source_sha256": "504881920ae7c34e9fdcd65d03e6ddca24b20495e3317fb620b3bbf3cb0d6a2e",
+      "changes": [
+        {
+          "field": "/names/ズール/en",
+          "old": "Xul",
+          "new": "Zuul"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/eboot.json",
+      "source_sha256": "bc6210f86ebad1c84dfb9dd3b3c2a6b0d8726d1630db3d933094c9e4329c06e1",
+      "changes": [
+        {
+          "field": "/strings/ズール/en",
+          "old": "Xul",
+          "new": "Zuul"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/rpw_names.json",
+      "source_sha256": "221371c0c755873b69e569a4a3ff96b222c8be0548c5a05c82ca3c46eef3b5bb",
+      "changes": [
+        {
+          "field": "/strings/pilot/ズール/en",
+          "old": "Xul",
+          "new": "Zuul"
+        },
+        {
+          "field": "/strings/robot/皇帝ズール/en",
+          "old": "Emperor Xul",
+          "new": "Emperor Zuul"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/squad_names.json",
+      "source_sha256": "9e2e0ba1f18011db409ae3df3b87689b0af2f5cd2b117b7c6501c0c65be7856d",
+      "changes": [
+        {
+          "field": "/strings/皇帝ズール/en",
+          "old": "Emperor Xul",
+          "new": "Emperor Zuul"
+        },
+        {
+          "field": "/strings/ズール/en",
+          "old": "Xul",
+          "new": "Zuul"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice/g163.json",
+      "source_sha256": "e83a1c58f95591f751ab69b7d49c537b547c32f8f142f772eae0f4caa62454c7",
+      "changes": [
+        {
+          "field": "/lines/163:3968/en",
+          "old": "「You're evil gods, just like Zul!」",
+          "new": "「You're evil gods, just like Zuul!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice/g312.json",
+      "source_sha256": "8b7501cb48034957ae9f477a19dcdbe0bc429ed7af0deee18edd3a32e35a627d",
+      "changes": [
+        {
+          "field": "/lines/312:652/en",
+          "old": "「In Zul's stead,\\nI grant you death!」",
+          "new": "「In Zuul's stead,\\nI grant you death!」"
+        },
+        {
+          "field": "/lines/312:3459/en",
+          "old": "「Well done, $$マーズ$$!\\nYou defeated Zul!」",
+          "new": "「Well done, $$マーズ$$!\\nYou defeated Zuul!」"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_terms.json",
+      "source_sha256": "302e374c22cb306d608b4913707c56e2f8264f9072f1a0ae86c120f5ae13c95c",
+      "changes": [
+        {
+          "field": "/terms/365/profile/position",
+          "old": "The six composite life forms that make up Emperor Xul's body; commanders of the Burning Star esper robots in the final arc.",
+          "new": "The six composite life forms that make up Emperor Zuul's body; commanders of the Burning Star esper robots in the final arc."
+        },
+        {
+          "field": "/terms/365/profile/personality",
+          "old": "Masked, expressionless and mysterious; loyal instruments of Xul who reappear after seeming to die (library pilot 46 DSCR).",
+          "new": "Masked, expressionless and mysterious; loyal instruments of Zuul who reappear after seeming to die (library pilot 46 DSCR)."
+        },
+        {
+          "field": "/terms/475/en",
+          "old": "Xul",
+          "new": "Zuul"
+        },
+        {
+          "field": "/terms/1333/en",
+          "old": "Emperor Xul",
+          "new": "Emperor Zuul"
+        },
+        {
+          "field": "/terms/1735/en",
+          "old": "Xul",
+          "new": "Zuul"
+        },
+        {
+          "field": "/terms/2653/profile/position",
+          "old": "Gestalt No. 1; forms the head of Emperor Xul's composite body.",
+          "new": "Gestalt No. 1; forms the head of Emperor Zuul's composite body."
+        },
+        {
+          "field": "/terms/2654/profile/position",
+          "old": "Gestalt No. 2; forms the torso of Emperor Xul's composite body.",
+          "new": "Gestalt No. 2; forms the torso of Emperor Zuul's composite body."
+        },
+        {
+          "field": "/terms/2655/profile/position",
+          "old": "Gestalt No. 3; forms Emperor Xul's right arm.",
+          "new": "Gestalt No. 3; forms Emperor Zuul's right arm."
+        },
+        {
+          "field": "/terms/2656/profile/position",
+          "old": "Gestalt No. 4; forms Emperor Xul's left arm.",
+          "new": "Gestalt No. 4; forms Emperor Zuul's left arm."
+        },
+        {
+          "field": "/terms/2657/profile/position",
+          "old": "Gestalt No. 6; forms a leg of Emperor Xul's composite body (right leg per Japanese Wikipedia, left per /m/ wiki).",
+          "new": "Gestalt No. 6; forms a leg of Emperor Zuul's composite body (right leg per Japanese Wikipedia, left per /m/ wiki)."
+        },
+        {
+          "field": "/terms/2658/profile/position",
+          "old": "Gestalt No. 5; forms a leg of Emperor Xul's composite body.",
+          "new": "Gestalt No. 5; forms a leg of Emperor Zuul's composite body."
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_settled.json",
+      "source_sha256": "3613d4106e5786ebf5753bebe4c162fd5e557db4a24e21ec31b845bb62c32b92",
+      "changes": [
+        {
+          "field": "/terms/21/en",
+          "old": "Xul",
+          "new": "Zuul"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_characters.json",
+      "source_sha256": "278aad14cea8bcfb7ec93dca08a23da67ba4c61ab8871b4ae7a1140908a4091b",
+      "changes": [
+        {
+          "field": "/characters/44/position",
+          "old": "Gishin psychic enforcer under Waal, sub-officer to Marg; later joined Crusher Team and stood against Xul.",
+          "new": "Gishin psychic enforcer under Waal, sub-officer to Marg; later joined Crusher Team and stood against Zuul."
+        },
+        {
+          "field": "/characters/44/personality",
+          "old": "Loyal to Xul at first and cold, then softened by Marg, Shizuka and her sister; brave, ends up in love with Takeru.",
+          "new": "Loyal to Zuul at first and cold, then softened by Marg, Shizuka and her sister; brave, ends up in love with Takeru."
+        },
+        {
+          "field": "/characters/46/position",
+          "old": "Six composite life forms that form Emperor Xul's body; the name Metal is given for the group leader.",
+          "new": "Six composite life forms that form Emperor Zuul's body; the name Metal is given for the group leader."
+        },
+        {
+          "field": "/characters/50/personality",
+          "old": "Gentle and brave, driven by revenge against Xul; sacrificed himself to protect Takeru.",
+          "new": "Gentle and brave, driven by revenge against Zuul; sacrificed himself to protect Takeru."
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/research/super_3.json",
+      "source_sha256": "0afe38ce4662170e12ffddf43f2ebc8ca1eea81393f1d12dce21b675f410736a",
+      "changes": [
+        {
+          "field": "/names/3/profile/position",
+          "old": "The six composite life forms that make up Emperor Xul's body; commanders of the Burning Star esper robots in the final arc.",
+          "new": "The six composite life forms that make up Emperor Zuul's body; commanders of the Burning Star esper robots in the final arc."
+        },
+        {
+          "field": "/names/3/profile/personality",
+          "old": "Masked, expressionless and mysterious; loyal instruments of Xul who reappear after seeming to die (library pilot 46 DSCR).",
+          "new": "Masked, expressionless and mysterious; loyal instruments of Zuul who reappear after seeming to die (library pilot 46 DSCR)."
+        },
+        {
+          "field": "/names/4/profile/position",
+          "old": "Gestalt No. 1; forms the head of Emperor Xul's composite body.",
+          "new": "Gestalt No. 1; forms the head of Emperor Zuul's composite body."
+        },
+        {
+          "field": "/names/5/profile/position",
+          "old": "Gestalt No. 2; forms the torso of Emperor Xul's composite body.",
+          "new": "Gestalt No. 2; forms the torso of Emperor Zuul's composite body."
+        },
+        {
+          "field": "/names/6/profile/position",
+          "old": "Gestalt No. 3; forms Emperor Xul's right arm.",
+          "new": "Gestalt No. 3; forms Emperor Zuul's right arm."
+        },
+        {
+          "field": "/names/7/profile/position",
+          "old": "Gestalt No. 4; forms Emperor Xul's left arm.",
+          "new": "Gestalt No. 4; forms Emperor Zuul's left arm."
+        },
+        {
+          "field": "/names/8/profile/position",
+          "old": "Gestalt No. 6; forms a leg of Emperor Xul's composite body (right leg per Japanese Wikipedia, left per /m/ wiki).",
+          "new": "Gestalt No. 6; forms a leg of Emperor Zuul's composite body (right leg per Japanese Wikipedia, left per /m/ wiki)."
+        },
+        {
+          "field": "/names/9/profile/position",
+          "old": "Gestalt No. 5; forms a leg of Emperor Xul's composite body.",
+          "new": "Gestalt No. 5; forms a leg of Emperor Zuul's composite body."
+        },
+        {
+          "field": "/names/11/en",
+          "old": "Xul",
+          "new": "Zuul"
+        },
+        {
+          "field": "/names/12/en",
+          "old": "Emperor Xul",
+          "new": "Emperor Zuul"
+        },
+        {
+          "field": "/characters/5/position",
+          "old": "Gishin psychic enforcer under Waal, sub-officer to Marg; later joined Crusher Team and stood against Xul.",
+          "new": "Gishin psychic enforcer under Waal, sub-officer to Marg; later joined Crusher Team and stood against Zuul."
+        },
+        {
+          "field": "/characters/5/personality",
+          "old": "Loyal to Xul at first and cold, then softened by Marg, Shizuka and her sister; brave, ends up in love with Takeru.",
+          "new": "Loyal to Zuul at first and cold, then softened by Marg, Shizuka and her sister; brave, ends up in love with Takeru."
+        },
+        {
+          "field": "/characters/7/position",
+          "old": "Six composite life forms that form Emperor Xul's body; the name Metal is given for the group leader.",
+          "new": "Six composite life forms that form Emperor Zuul's body; the name Metal is given for the group leader."
+        },
+        {
+          "field": "/characters/11/personality",
+          "old": "Gentle and brave, driven by revenge against Xul; sacrificed himself to protect Takeru.",
+          "new": "Gentle and brave, driven by revenge against Zuul; sacrificed himself to protect Takeru."
+        }
+      ]
+    }
+  ],
+  "historical_exports_modified": false
+}

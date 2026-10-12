@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.26'
+VERSION = '0.5.27'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -195,7 +195,9 @@ def plan(settings):
     upgrade_entries=upgrade_messages.hook_entries(elf,mapping)
     mission_entries=mission_display.hook_entries(elf,mission,mapping)
     review26_entries=review26_messages.hook_entries(elf,mapping)
-    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries}.values())
+    from tools import review27_messages
+    review27_entries=review27_messages.hook_entries(elf,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -266,6 +268,7 @@ def plan(settings):
     from tools import trophy_text
     trophy,trophy_report=trophy_text.build()
     summary = {'schema': 3, 'version': VERSION, 'title_id': 'BLJS10299', 'encoding': 'vwf',
+               'review27':dict(save_line_keys=len(review27_entries),runtime_team_units=dbuild.dlg.TEAM_UNITS),
                'review26_messages':dict(report_strings=24,report_occurrences=99,hook_keys=len(review26_entries)),
                'upgrade_messages':dict(conditions=23,item_announcements=24,bonus_choices=9,hook_keys=len(upgrade_entries)),
                'trophies':trophy_report,

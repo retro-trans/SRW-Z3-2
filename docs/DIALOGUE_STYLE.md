@@ -143,7 +143,7 @@ Write `work/translation/en/dialogue/<slice>.json`, UTF-8, and nothing else:
 - 超時空物理学 = "super-dimensional physics" (Orguss); 貧乏くじ同盟 = "Short Straw Alliance".
 - Bare ザンボット / ダイターン = `$$ザンボット$$` / `$$ダイターン$$` (no "3").
 - Company titles: 社長 = "President", 専務 = "Executive Director", 常務 = "Managing Director".
-- Xul's 分身 = "avatar"; 魔獣王子 = "Demon Beast Prince".
+- Zuul's 分身 = "avatar"; 魔獣王子 = "Demon Beast Prince". Preserve the user's canonical Zuul spelling.
 - 暗黒の軍団 = "army of darkness".
 - 真戦 = "the True War" (capitalised).
 - エルーナ様 = "Lady $$エルーナ$$" (she insists on the title; the honorific is the point).

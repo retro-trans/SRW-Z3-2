@@ -72,12 +72,25 @@ BOX_UNITS = 30 * 32
 MAX_SPEECH_LINES = 3
 PROTAGONIST_UNITS = 8 * 18        # $n budgeted as 8 average letters, as in Jigoku
 FULLWIDTH = 32
+TEAM_NAME = 'Ｚ－ＢＬＵＥ'
+TEAM_UNITS = len(TEAM_NAME) * FULLWIDTH
 
 # Record grammar ported from Jigoku tools/luarec.py (same Lua layout in Tengoku).
 BLOCK = re.compile(r'(?<!--)\[\[(.*?)\]\]', re.S)
 EVENT = re.compile(r'^(t_\d+)\s*=\s*\{(.*?)^\};', re.M | re.S)
 HEAD = re.compile(r'\{\s*(\w+)\s*,\s*(\d+)\s*,\s*(\w+)\s*,\s*(pid_\w+)\s*,\s*$', re.M)
 CODES = re.compile(r'(?<!\$)\$[nlFcf](?!\$)')
+WIDTH_CODES = re.compile(r'(?<!\$)\$[nc](?!\$)')
+
+
+def speech_units(text, width_of):
+    """Measure runtime names at their rendered width, preserving their tokens."""
+    units, start = 0, 0
+    for match in WIDTH_CODES.finditer(text):
+        units += sum(width_of(c) for c in text[start:match.start()])
+        units += TEAM_UNITS if match.group() == '$c' else PROTAGONIST_UNITS
+        start = match.end()
+    return units + sum(width_of(c) for c in text[start:])
 LINK = re.compile(r'《(.*?)》')
 
 
@@ -157,8 +170,8 @@ class Width:
 
     def text(self, s, rid=None):
         from tools import dialogue_layout as layout
-        return sum(layout.advance(self.adv[c]) if layout.condensed(rid) and c in self.adv
-                   else self.adv.get(c, FULLWIDTH) for c in s)
+        return speech_units(s, lambda c: layout.advance(self.adv[c]) if layout.condensed(rid) and c in self.adv
+                            else self.adv.get(c, FULLWIDTH))
 
     def expand(self, s):
         def sub(m):
@@ -168,11 +181,11 @@ class Width:
         return TOKEN.sub(sub, s)
 
     def wrap(self, speech, rid=None):
-        """Lines of the speech after wrapping; $n counts as PROTAGONIST_UNITS."""
+        """Lines of speech, including full-width runtime team-name space."""
         words = self.expand(speech).split(' ')
         lines, line, used = [], '', 0
         for word in words:
-            w = self.text(word.replace('$n', ''), rid) + word.count('$n') * PROTAGONIST_UNITS
+            w = self.text(word, rid)
             gap = self.text(' ', rid) if line else 0
             lead = FULLWIDTH if lines else 0          # continuation lines start with
             if line and used + gap + w > BOX_UNITS - lead:

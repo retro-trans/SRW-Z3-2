@@ -10,7 +10,7 @@ def corrected(text):return re.sub(r'\b(?:Xul|Zul)\b','Zuul',text)
 
 def plan():
     changes=[];outputs={};examined=0
-    paths=sorted({p for family in ('dialogue','library','ui','voice_text')
+    paths=sorted({p for family in ('dialogue','library','ui','voice_text','voice')
                   for p in (ROOT/'work/translation/en'/family).rglob('*.json')})
     paths += [ROOT/'work/glossary'/f for f in ('library_terms.json','library_settled.json','library_characters.json')]
     paths += sorted((ROOT/'work/glossary/research').glob('*.json'))
@@ -56,6 +56,15 @@ def main():
             if json.loads(text)!=data:raise ValueError('Compact glossary readback differs')
             path.write_bytes(text.encode('utf8'))
         else:write_json(path,data)
-    if outputs:write_json(DEST,report)
+    if outputs:
+        if DEST.exists():
+            prior=json.loads(DEST.read_text('utf8'))
+            if prior['version']!=report['version']:raise ValueError('Name audit version differs')
+            old={r['file']:r for r in prior['changes']}
+            for row in report['changes']:
+                if row['file']in old:old[row['file']]['changes']+=row['changes']
+                else:old[row['file']]=row
+            report['changes']=list(old.values());report['files_changed']=len(old)
+        write_json(DEST,report)
 
 if __name__=='__main__':main()

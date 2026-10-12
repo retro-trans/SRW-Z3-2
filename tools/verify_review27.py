@@ -11,8 +11,6 @@ SHOTS=(('library-name','77d95fd7-60d8-4653-8ff4-afbcffa45f32'),('Zuul','8fabc5aa
        ('team-width','c8dc21b4-1bd8-4477-ad65-c9bcfa51682e'),('save-question','77390955-6ae1-4dd5-b390-7fd365880631'))
 
 def verify(version):
-    from tools.verify_review26 import verify as previous
-    print('Checking all carried fixes...',flush=True);prior=previous(version)
     folder=ROOT/'work/output/builds'/version;build=json.loads((folder/'build.json').read_text('utf8'));mapping=build['mapping'];elf=(folder/'EBOOT.BIN').read_bytes()
     from tools.ui_vwf_build import raster
     @lru_cache(None)
@@ -33,11 +31,12 @@ def verify(version):
         nonlocal hits
         if not isinstance(text,str):return
         text=L.expand(text,res);counts[kind]=counts.get(kind,0)+1
-        if re.search(r'\b(?:Xul|Zul)\b',text):raise ValueError('Old spelling in expanded '+kind)
+        if re.search(r'\b(?:Xul|Zul)\b',text,re.I):raise ValueError('Old spelling in expanded '+kind)
         hits+=len(re.findall(r'\bZuul\b',text))
     for row in D.translations().values():check('dialogue',row['en'])
-    from tools.voice_build import translations
-    for row in translations().values():check('voice',row['en'])
+    from tools import voice_build as V
+    voices=V.translations()
+    for row in voices.values():check('voice',row['en'])
     for row in E.load()['strings'].values():check('executable',row['en'])
     library=T.load_library();entries,errors=T.load_translations()
     if errors:raise ValueError(errors)
@@ -56,6 +55,15 @@ def verify(version):
                     if actual[tag]!=L.encode(expected,mapping):raise ValueError('Final Zuul Library field differs')
                 checked.append(dict(archive=kind,member=tid,fields=list(payloads)))
     if not hits or not checked:raise ValueError('Zuul canonical text absent')
+    from tools import srvc
+    original_voice,original_elf=srvc.load_prepared();final_voice=(folder/'SRVC.BIN').read_bytes()
+    source_blocks=srvc.parse(original_voice,srvc.read_table(original_elf,len(original_voice)))
+    final_blocks=srvc.parse(final_voice,srvc.read_table(elf,len(final_voice)));voice_cases=[]
+    for sid in ('163:3968','312:652','312:3459'):
+        block,off=map(int,sid.split(':'));k=source_blocks[block].offs.index(off);target=final_blocks[block]
+        expected=V.encode(L.expand(voices[sid]['en'],res),mapping)
+        if srvc.string_at(final_voice,target.pool+target.offs[k])!=expected:raise ValueError('Final Zuul voice spelling differs')
+        voice_cases.append(dict(id=sid,english=L.expand(voices[sid]['en'],res)))
     # The earlier label fix must appear in the exact reported widget.
     from tools import battle_layout as B,ui_catalog as U
     original=B.source()
@@ -72,10 +80,12 @@ def verify(version):
         src=Path('C:/Users/Binh/AppData/Local/Temp')/('codex-clipboard-'+ident+'.png');dst=ROOT/'work/ui/screenshots'/('reported-0.5.18-review27-'+label+'.png')
         if not src.exists():src=dst
         shots.append(dict(issue=label,source=str(src),saved_path=str(dst),source_version='0.5.18',sha256=sha256_file(src),runtime_confirmation=False))
+    from tools.verify_review26 import verify as previous
+    print('Checking all carried fixes...',flush=True);prior=previous(version)
     return dict(schema=1,version=version,prior_verification=prior,iso_verification=prior['iso_verification'],
         library_caption=dict(original_widget=0x9cd64,english='Name',value_preserved=True),
         canonical_name=dict(english='Zuul',expanded_fields_examined=counts,canonical_occurrences=hits,library_members=checked),
-        runtime_team_dialogue=audit,dialogue_members=members,save_lookup_cases=save,screenshots=shots,runtime_verified=False,
+        runtime_team_dialogue=audit,dialogue_members=members,save_lookup_cases=save,voice_spelling_cases=voice_cases,screenshots=shots,runtime_verified=False,
         proofreading=dict(reviewer='review26_wording',reported_id=A.TARGET,source_rows_examined=19,english_rows_examined=19,meaning_changes=0))
 
 def main():

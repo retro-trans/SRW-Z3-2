@@ -36,4 +36,11 @@ class Review27(unittest.TestCase):
         self.assertEqual(N.corrected('Emperor Xul, Zul and Xul\'s avatar.'),"Emperor Zuul, Zuul and Zuul's avatar.")
         self.assertEqual(N.corrected('Geara Zulu / Rozen Zulu'),'Geara Zulu / Rozen Zulu')
 
+    def test_actual_voice_build_uses_canonical_spelling(self):
+        from tools.voice_build import translations
+        rows=translations()
+        for sid in ('163:3968','312:652','312:3459'):
+            self.assertIn('Zuul',rows[sid]['en'])
+            self.assertEqual(rows[sid]['en'],N.corrected(rows[sid]['en']))
+
 if __name__=='__main__':unittest.main()

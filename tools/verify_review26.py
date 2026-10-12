@@ -56,10 +56,11 @@ def verify(version):
     # Read every weapon pointer independently out of the final RPW pool.
     source=R.load_rpw();slots=R.slots(source);names=R.load_names();cap=R.caps(slots)
     with CPK(folder/'RPW_DATA.CPK')as arc:final=arc.read(arc.files[0])
-    js,pool=R.pool_of(final);weapons=[]
+    js,pool=R.pool_of(final);original_js,_=R.pool_of(source);grow=js['body_end']-original_js['body_end'];weapons=[]
     for s in slots:
         if s['chunk']!='weapon' or not R.needs_text(s['jp']):continue
-        pointer=struct.unpack_from('<I',final,s['pointer_offset'])[0];raw=pool[pointer:pool.index(b'\0',pointer)];en=R.text_for(s,names,cap[('weapon',s['col'])])
+        at=s['pointer_offset']+(grow if s['pointer_offset']>=original_js['body_end']else 0)
+        pointer=struct.unpack_from('<I',final,at)[0];raw=pool[pointer:pool.index(b'\0',pointer)];en=R.text_for(s,names,cap[('weapon',s['col'])])
         if L.decode(raw,mapping)!=en:raise ValueError('Final weapon table differs')
         if s['col']==3 and W.width(en)>W.WIDTH:raise ValueError('Final weapon name exceeds screen column')
         weapons.append(dict(id=s['id'],english=en,width_px=W.width(en)))

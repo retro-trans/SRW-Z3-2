@@ -1,5 +1,5 @@
 """Exercise the native map quote selector, state stores and source guards."""
-import unittest
+import json,unittest
 from tools import review28_quotes as Q,ui_hook as H,vwf
 
 
@@ -31,5 +31,8 @@ class DefeatQuotes(unittest.TestCase):
             self.assertLessEqual(row['composition_reserved_bytes'],256)
             self.assertLessEqual(max(row['row_widths']),960)
             self.assertLessEqual(len(row['row_widths']),3)
+
+    def test_saved_audit_matches_current_quote_plan(self):
+        self.assertEqual(json.loads(Q.DEST.read_text(encoding='utf8')),self.planned)
 
 if __name__=='__main__':unittest.main()

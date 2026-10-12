@@ -66,7 +66,7 @@ def plan(elf=None,width_of=width):
             encoded_bytes=encoded,composition_reserved_bytes=encoded+32))
     return dict(schema=1,version='0.5.28',table_va=TABLE,table_sha256=TABLE_SHA,
         rows=rows,distinct_quotes=len({r['payload_id']for r in rows}),
-        native_getter=GETTER,native_store=STORE,runtime_verified=False)
+        native_getter=list(GETTER),native_store=list(STORE),runtime_verified=False)
 
 
 def payloads(planned,mapping):

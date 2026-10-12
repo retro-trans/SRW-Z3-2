@@ -592,7 +592,7 @@ def name_cells(data, names, encode):
     over = {int(e.split()[2].rstrip(':')) for e in errors if e.startswith('boost-p record')}
     cells, skipped = [], 0
     for s in rows:
-        if not needs_text(s['jp']):
+        if not needs_text(s['jp']) and s['family']!='quote':
             continue
         en = text_for(s, names, cap[(s['chunk'], s['col'])])
         if not en:

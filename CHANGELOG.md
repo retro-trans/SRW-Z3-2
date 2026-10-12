@@ -5,6 +5,18 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.28 - 2026-10-13 (prepared; publication requires consent)
+
+- Translate all 249 map defeat-quote entries (178 distinct strings), including
+  Nigel's reported quote and all nonverbal entries. Bind the native static
+  quote selector to relocated English; preserve pilot codes, selection modes,
+  alias, sentinel, source strings and consumer code. Keep the RPW copy aligned.
+- Review all 176 verbal barks with speaker context. Apply 21 meaning fixes,
+  preserve interrupted clauses and nonfatal retreats, and synchronize active
+  executable/RPW text with answer copies. Record omissions and uncertainty.
+- Carry all prepared 0.5.19–0.5.27 repairs into both original-game and public
+  0.5.18 Retro Trans routes. Publication requires explicit consent.
+
 ## 0.5.27 - 2026-10-13 (prepared; publication requires consent)
 
 - Confirm that the Library Full Name overlap is covered by the earlier shared

@@ -1,62 +1,62 @@
 {
- "schema": 1,
- "rows": {
-  "quote:「それでいい。\\n　それでこそだよ」": {
-   "en": "「Good.\n That is just as it should be.」"
+  "schema": 1,
+  "rows": {
+    "quote:「それでいい。\\n　それでこそだよ」": {
+      "en": "「Good.\n That is just as it should be.」"
+    },
+    "quote:「私が…敗れるのか…」": {
+      "en": "「Am I... to be defeated...?」"
+    },
+    "quote:「ば、馬鹿な！\\n　こんな事はあってはならない事だ！」": {
+      "en": "「I-Impossible!\n Such a thing must not be!」"
+    },
+    "quote:「やるじゃん！\\n　次に会う時も楽しませてよね！」": {
+      "en": "「Not bad!\n Show me a good time next time too!」"
+    },
+    "quote:「ぬううっ！\\n　この雪辱…必ずいつか晴らす！」": {
+      "en": "「Nngh!\n Someday... I'll avenge this shame!」"
+    },
+    "quote:「…君は次に会った時、必ず死ぬ…。\\n　僕が必ず殺す…！」": {
+      "en": "「...Next time we meet, you're dead...\n I'll kill you myself...!」"
+    },
+    "quote:「いはやは、やりますなぁ…。\\n　ここは退散させていただきます」": {
+      "en": "「Dear me, you're quite good...\n Allow me to beat a retreat here.」"
+    },
+    "quote:「ぬううっ！\\n　この汚名を雪ぐ機会を必ずや…！」": {
+      "en": "「Nngh!\n I'll have my chance to redeem myself...!」"
+    },
+    "quote:「お前は…強い…。\\n　だが…！」": {
+      "en": "「You are... strong...\n But...!」"
+    },
+    "quote:「俺の闘いは…まだ終わらん…！」": {
+      "en": "「My fight... isn't over yet...!」"
+    },
+    "quote:「申し訳ありません！\\n　コード：ブルー、後退します！」": {
+      "en": "「My apologies!\n Code: Blue, falling back!」"
+    },
+    "quote:「すみません！\\n　コード：ホワイト、後退します！」": {
+      "en": "「I'm sorry!\n Code: White, falling back!」"
+    },
+    "quote:「隊長！　私達を…！」": {
+      "en": "「Captain! Please... save us...!」"
+    },
+    "quote:「む、無念！\\n　任務失敗とは…！」": {
+      "en": "「C-curses!\n To fail the mission...!」"
+    },
+    "quote:「俺は…最後の任務を果たせなかった…！」": {
+      "en": "「I... failed my final mission...!」"
+    },
+    "quote:「お、お許しください、姫！\\n　愛してますーっ！！」": {
+      "en": "「F-forgive me, Princess!\n I love youuuu!!」"
+    }
   },
-  "quote:「私が…敗れるのか…」": {
-   "en": "「Am I... to be defeated...?」"
-  },
-  "quote:「ば、馬鹿な！\\n　こんな事はあってはならない事だ！」": {
-   "en": "「I-Impossible!\n Such a thing must not be!」"
-  },
-  "quote:「やるじゃん！\\n　次に会う時も楽しませてよね！」": {
-   "en": "「Not bad!\n Show me a good time next time too!」"
-  },
-  "quote:「ぬううっ！\\n　この雪辱…必ずいつか晴らす！」": {
-   "en": "「Nngh!\n Someday... I'll avenge this shame!」"
-  },
-  "quote:「…君は次に会った時、必ず死ぬ…。\\n　僕が必ず殺す…！」": {
-   "en": "「...Next time we meet, you're dead...\n I'll kill you myself...!」"
-  },
-  "quote:「いはやは、やりますなぁ…。\\n　ここは退散させていただきます」": {
-   "en": "「Dear me, you're quite good...\n Allow me to beat a retreat here.」"
-  },
-  "quote:「ぬううっ！\\n　この汚名を雪ぐ機会を必ずや…！」": {
-   "en": "「Nngh!\n I swear I'll clear my name...!」"
-  },
-  "quote:「お前は…強い…。\\n　だが…！」": {
-   "en": "「You are... strong...\n But...!」"
-  },
-  "quote:「俺の闘いは…まだ終わらん…！」": {
-   "en": "「My fight... isn't over yet...!」"
-  },
-  "quote:「申し訳ありません！\\n　コード：ブルー、後退します！」": {
-   "en": "「My apologies!\n Code: Blue, falling back!」"
-  },
-  "quote:「すみません！\\n　コード：ホワイト、後退します！」": {
-   "en": "「I'm sorry!\n Code: White, falling back!」"
-  },
-  "quote:「隊長！　私達を…！」": {
-   "en": "「Captain! Please... save us...!」"
-  },
-  "quote:「む、無念！\\n　任務失敗とは…！」": {
-   "en": "「C-curses!\n To fail the mission...!」"
-  },
-  "quote:「俺は…最後の任務を果たせなかった…！」": {
-   "en": "「I... failed my final mission...!」"
-  },
-  "quote:「お、お許しください、姫！\\n　愛してますーっ！！」": {
-   "en": "「F-forgive me, Princess!\n I love youuuu!!」"
+  "report": {
+    "uncertain": [
+      "quote 244 (Code: White) 「隊長！　私達を…！」 trails off with no verb; rendered 'Please... save us...!' from her final-stage pleas to Advent (dlg_2099_13); the verb is inferred.",
+      "quote 227 (Advent) それでこそだよ read as approval of the player's strength: 'That is just as it should be.'",
+      "quote 237 (Sardias): the Japanese has いはやは (typo for いやはや), rendered 'Dear me'.",
+      "quote 248 (Firebug member) 姫 rendered 'Princess'; who the Firebug men mean is not confirmed."
+    ],
+    "notes": "Names written out from the glossary: Code: Blue, Code: White. Voices matched to voice groups g031/g032 (Advent), g177 (Doctrine), g065 (Elunaluna), g164 (Dabalan), g209 (Barbiel), g127 (Sardias), g092 (Girtar), g059 (Australis/Vildark), g117/g118 (Blue/White)."
   }
- },
- "report": {
-  "uncertain": [
-   "quote 244 (Code: White) 「隊長！　私達を…！」 trails off with no verb; rendered 'Please... save us...!' from her final-stage pleas to Advent (dlg_2099_13); the verb is inferred.",
-   "quote 227 (Advent) それでこそだよ read as approval of the player's strength: 'That is just as it should be.'",
-   "quote 237 (Sardias): the Japanese has いはやは (typo for いやはや), rendered 'Dear me'.",
-   "quote 248 (Firebug member) 姫 rendered 'Princess'; who the Firebug men mean is not confirmed."
-  ],
-  "notes": "Names written out from the glossary: Code: Blue, Code: White. Voices matched to voice groups g031/g032 (Advent), g177 (Doctrine), g065 (Elunaluna), g164 (Dabalan), g209 (Barbiel), g127 (Sardias), g092 (Girtar), g059 (Australis/Vildark), g117/g118 (Blue/White)."
- }
 }

@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.27'
+VERSION = '0.5.28'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -80,6 +80,10 @@ def plan(settings):
     tokens |= upgrade_messages.characters()
     from tools import review26_messages
     tokens |= review26_messages.characters()
+    from tools import review28_quotes
+    defeat_quotes_plan=review28_quotes.plan()
+    for row in defeat_quotes_plan['rows']:
+        tokens.update(c for c in row['english']if 32<=ord(c)<127)
     tokens.update(' Lv 0123456789')
     from tools import review21_layout
     for edit in review21_layout.plan()['edits']:tokens.update(edit['en'].replace('\n',''))
@@ -214,7 +218,10 @@ def plan(settings):
     from tools import library_runtime
     library_runtime_plan=library_runtime.plan(elf,mapping,width_of)
     executable, hook_report = ui_hook.apply(executable, hook_entries,
-        runtime_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+[(link_layout.STATE,link_layout.PAYLOAD)])
+        runtime_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+review28_quotes.payloads(defeat_quotes_plan,mapping)+[(link_layout.STATE,link_layout.PAYLOAD)])
+    executable,defeat_quotes_report=review28_quotes.apply(executable,defeat_quotes_plan,hook_report['table']['payload_vas'])
+    defeat_quotes_report['execution']=review28_quotes.verify(executable,defeat_quotes_plan,mapping)
+    exec_report['defeat_quotes']=defeat_quotes_report
     executable, runtime_report = ui_runtime.apply(executable,runtime_plan,hook_report['table']['payload_vas'])
     executable,report24_report=review24_report.apply(executable,elf,report24_plan,hook_report['table']['payload_vas'])
     runtime_report['clear_report']=report24_report

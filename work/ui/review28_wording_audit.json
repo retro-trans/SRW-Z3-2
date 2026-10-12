@@ -1,0 +1,548 @@
+{
+  "schema": 1,
+  "version": "0.5.28",
+  "meaning_edits": [
+    {
+      "slice": "r_quote_00",
+      "ordinal": 1,
+      "source_sha256": "e2180c7f257c78c390e9b05bc16a907b0c71357ac106e3d8151b7848fa142a8b",
+      "before": "「Oh, well...\n Seems I can't push it any further.」",
+      "after": "「Oh, well...\n It seems I can't push it any further.」",
+      "reason": "Restore the omitted English grammatical subject of 'seems'; the speaker cannot push further."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 11,
+      "source_sha256": "c0b068a4f0d2d2db27e34c6ebcae9f119ef727f172bf1b9b3b9dc4b3aa275d38",
+      "before": "「...Withdrawing.」",
+      "after": "「...I'm withdrawing.」",
+      "reason": "The source states the speaker's withdrawal; restore the first-person subject without changing the outcome."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 14,
+      "source_sha256": "506be13500e65fe110511281a4fd6b4fe20c74c74bc651353f99cddccfe86737",
+      "before": "「Ngh...!\n Forgive me. The rest is yours!」",
+      "after": "「Ngh...!\n Sorry, but I'm leaving the rest to you!」",
+      "reason": "Make the direction of the speaker's request explicit; the speaker entrusts the remaining fight to the listener."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 27,
+      "source_sha256": "482d71f7216a56911223b57a8528791b1957deadac61d9b76e28e0839679ce14",
+      "before": "「These guys are no ordinary pilots!\n Falling back!」",
+      "after": "「These guys are no ordinary pilots!\n I'm falling back!」",
+      "reason": "The speaker announces their own withdrawal; restore the omitted subject."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 28,
+      "source_sha256": "e1a313df5ce693c3e7a892e0efb8a1c49551dc56dfee7fcafc6ccbe62f4f0027",
+      "before": "「Unable to continue the mission.\n Withdrawing.」",
+      "after": "「Unable to continue the mission.\n I'm withdrawing.」",
+      "reason": "Keep the deliberately terse mission-status fragment; restore the subject of the following withdrawal statement."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 32,
+      "source_sha256": "4372989a57fe34eb5830c9e90a2dcc5496011552f361931bb42f5e9c425cee8d",
+      "before": "「Ngh...! I, of all men, fall here!!」",
+      "after": "「Ngh...! Me, of all people, in a place like this!!」",
+      "reason": "Preserve the source's interrupted expression of disbelief; remove the added finite claim 'fall' and preserve the location emphasis."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 43,
+      "source_sha256": "af3a7960e5bdf7714e5fae29b646825b757de7709dde64ce94f100df01ec2710",
+      "before": "「Falling back...!\n The rest is up to all of you...!」",
+      "after": "「I'm falling back...!\n The rest is up to all of you...!」",
+      "reason": "Restore the subject of the speaker's withdrawal; retain the explicit request to the allies."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 52,
+      "source_sha256": "ab550cfbbda3e5562238cee3b0382187f69834a9ea1311be01bc6f762751527e",
+      "before": "「Damn!\n This shames the Tri-Stars name...!」",
+      "after": "「Damn!\n This disgraces the Tri-Stars...!」",
+      "reason": "The outcome disgraces the team's reputation. Correct the unnatural possessive construction while preserving the canonical team name."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 53,
+      "source_sha256": "742acd5527369c361b99edcfc47574a584559ecf7004a00b1ea3f8018b829a11",
+      "before": "「I see...\n Such is my vessel's measure, then.」",
+      "after": "「I see...\n So this is my current capacity as a vessel.」",
+      "reason": "Restore the source's explicit present limitation. Corpus context identifies the speaker as a vessel for collective will; preserve that metaphor alongside personal capacity."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 64,
+      "source_sha256": "079140d4afb78ec42787a4522ec6e826a5295042b3171ad4250b9aefdcbfeba7",
+      "before": "「To make a mistake like this...!\n Falling back!」",
+      "after": "「To make a mistake like this...!\n I'm falling back!」",
+      "reason": "Keep the intentional first-line fragment and restore the subject of the withdrawal statement."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 66,
+      "source_sha256": "a766efda9fd6cca6d149cd2b671789c57685c1687ae812929818ab3a6c85450e",
+      "before": "「Embarrassing, but I'll pull back.」",
+      "after": "「I'm ashamed of myself, but I'll pull back for now.」",
+      "reason": "Restore the explicit self-directed disappointment and the source's limitation to the present situation."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 71,
+      "source_sha256": "155db6b9356a8996297f5fe449572409ff95828bb1b8b9f8430ba34cd539401f",
+      "before": "「Messed up...! Skull 2, retreating!」",
+      "after": "「I messed up...! Skull 2, retreating!」",
+      "reason": "Restore the speaker as the subject of the mistake; preserve the named radio withdrawal report."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 78,
+      "source_sha256": "0b83cccd489798956c61a64d05fb8cc6d4c77e769a9a075bd676ebba626aeb9c",
+      "before": "「Unable to continue mission.\n Falling back.」",
+      "after": "「Unable to continue mission.\n I'm falling back.」",
+      "reason": "Keep the intentional mission-status fragment and restore the subject of the subsequent withdrawal statement."
+    },
+    {
+      "slice": "r_quote_00",
+      "ordinal": 79,
+      "source_sha256": "b35edbbf5d6018c9f16e5e62d3819fabe05cfe88148532b01359589aa733fda1",
+      "before": "「Damn... Bailing out!\n I'm leaving the rest to you!!」",
+      "after": "「Damn... I'm bailing out!\n I'm leaving the rest to you!!」",
+      "reason": "Restore the subject of the bailout; preserve the direction of entrusting the remaining fight to the listener."
+    },
+    {
+      "slice": "r_quote_01",
+      "ordinal": 3,
+      "source_sha256": "474eabf08a25618c3f2c1b420fa184fb510ed75e673366c708ba848eb9dd8c84",
+      "before": "「Impossible...!\n We were meant to be the chosen ones!」",
+      "after": "「Impossible...!\n We were meant to be the chosen species!」",
+      "reason": "The speaker claims their species was chosen; 'chosen ones' loses that explicit species distinction."
+    },
+    {
+      "slice": "r_quote_01",
+      "ordinal": 14,
+      "source_sha256": "0db282b0a66cbb084759caad31bf5f6333afc504ef4eb2c8ee280c8d0307bed7",
+      "before": "「N-not good...!\n Ibuki, Aoyama! We're ejecting!」",
+      "after": "「N-not good...!\n Ibuki, Aoyama! Bail out!」",
+      "reason": "Akagi calls on the named crewmates to escape. Restore the emergency command rather than merely announcing a collective action."
+    },
+    {
+      "slice": "r_quote_01",
+      "ordinal": 36,
+      "source_sha256": "1688f457641620c03f3ac1c4fc8f768982a3dc9b13a13ba90041f23eeb6bb1fb",
+      "before": "「Falling back.」",
+      "after": "「I'm falling back.」",
+      "reason": "The speaker announces their own retreat. Restore the settled first-person subject and finite verb instead of carrying over the source's grammatical omission."
+    },
+    {
+      "slice": "r_quote_01",
+      "ordinal": 50,
+      "source_sha256": "e8eec29466b22c2f8fa0e758ca3ec43fe0becce3f8bf6b2d5355b6bdae9c871b",
+      "before": "「To think that I, of all people,\n would meet such an end...」",
+      "after": "「To think that I, of all people,\n would end up like this...」",
+      "reason": "The source expresses surprise at this outcome; 'meet such an end' can invent a fatal outcome. Preserve surprise without asserting death."
+    },
+    {
+      "slice": "r_quote_01",
+      "ordinal": 54,
+      "source_sha256": "dda7c103b14e413ea2a155a70ac7f614f0ce7181eb67daa85e17f5cfa700985d",
+      "before": "「No waaay!\n They got me!!」",
+      "after": "「No waaay!\n I got taken down!!」",
+      "reason": "The source reports the speaker's defeat without specifying an attacker. A passive avoids introducing an unsupported plural 'they'."
+    },
+    {
+      "slice": "r_quote_01",
+      "ordinal": 56,
+      "source_sha256": "8dd0f384048b41477ded924abf2104f431c6c9fc5a59de018ec92fcd59836147",
+      "before": "「Damn yoooou!\n I'll remember your scent!」",
+      "after": "「Damn yoooou!\n I've got your scent memorized!」",
+      "reason": "The scent has already been memorized. Restore the completed recognition instead of saying it will happen in the future."
+    },
+    {
+      "slice": "r_quote_02",
+      "ordinal": 7,
+      "source_sha256": "bf0b0577fa02d9368fd9911a5aedc09710763861e341820df4cc971c396160ac",
+      "before": "「Nngh!\n I swear I'll clear my name...!」",
+      "after": "「Nngh!\n I'll have my chance to redeem myself...!」",
+      "reason": "Restore the promised opportunity to redeem the disgrace of defeat. Clearing one's name can imply rebutting a false accusation, which the source does not establish."
+    }
+  ],
+  "reviews": [
+    {
+      "schema": 1,
+      "slice": "r_quote_00",
+      "rows_assigned": 80,
+      "rows_examined": 80,
+      "adjacent_quote_rows_examined": 4,
+      "total_quote_rows_examined": 84,
+      "additional_source_dialogue_terminology_rows_examined": 16,
+      "active_answer_differences": 46,
+      "edits": [
+        {
+          "ordinal": 1,
+          "before": "「Oh, well...\n Seems I can't push it any further.」",
+          "after": "「Oh, well...\n It seems I can't push it any further.」",
+          "reason": "Restore the omitted English grammatical subject of 'seems'; the speaker cannot push further."
+        },
+        {
+          "ordinal": 11,
+          "before": "「...Withdrawing.」",
+          "after": "「...I'm withdrawing.」",
+          "reason": "The source states the speaker's withdrawal; restore the first-person subject without changing the outcome."
+        },
+        {
+          "ordinal": 14,
+          "before": "「Ngh...!\n Forgive me. The rest is yours!」",
+          "after": "「Ngh...!\n Sorry, but I'm leaving the rest to you!」",
+          "reason": "Make the direction of the speaker's request explicit; the speaker entrusts the remaining fight to the listener."
+        },
+        {
+          "ordinal": 27,
+          "before": "「These guys are no ordinary pilots!\n Falling back!」",
+          "after": "「These guys are no ordinary pilots!\n I'm falling back!」",
+          "reason": "The speaker announces their own withdrawal; restore the omitted subject."
+        },
+        {
+          "ordinal": 28,
+          "before": "「Unable to continue the mission.\n Withdrawing.」",
+          "after": "「Unable to continue the mission.\n I'm withdrawing.」",
+          "reason": "Keep the deliberately terse mission-status fragment; restore the subject of the following withdrawal statement."
+        },
+        {
+          "ordinal": 32,
+          "before": "「Ngh...! I, of all men, fall here!!」",
+          "after": "「Ngh...! Me, of all people, in a place like this!!」",
+          "reason": "Preserve the source's interrupted expression of disbelief; remove the added finite claim 'fall' and preserve the location emphasis."
+        },
+        {
+          "ordinal": 43,
+          "before": "「Falling back...!\n The rest is up to all of you...!」",
+          "after": "「I'm falling back...!\n The rest is up to all of you...!」",
+          "reason": "Restore the subject of the speaker's withdrawal; retain the explicit request to the allies."
+        },
+        {
+          "ordinal": 52,
+          "before": "「Damn!\n This shames the Tri-Stars name...!」",
+          "after": "「Damn!\n This disgraces the Tri-Stars...!」",
+          "reason": "The outcome disgraces the team's reputation. Correct the unnatural possessive construction while preserving the canonical team name."
+        },
+        {
+          "ordinal": 53,
+          "before": "「I see...\n Such is my vessel's measure, then.」",
+          "after": "「I see...\n So this is my current capacity as a vessel.」",
+          "reason": "Restore the source's explicit present limitation. Corpus context identifies the speaker as a vessel for collective will; preserve that metaphor alongside personal capacity."
+        },
+        {
+          "ordinal": 64,
+          "before": "「To make a mistake like this...!\n Falling back!」",
+          "after": "「To make a mistake like this...!\n I'm falling back!」",
+          "reason": "Keep the intentional first-line fragment and restore the subject of the withdrawal statement."
+        },
+        {
+          "ordinal": 66,
+          "before": "「Embarrassing, but I'll pull back.」",
+          "after": "「I'm ashamed of myself, but I'll pull back for now.」",
+          "reason": "Restore the explicit self-directed disappointment and the source's limitation to the present situation."
+        },
+        {
+          "ordinal": 71,
+          "before": "「Messed up...! Skull 2, retreating!」",
+          "after": "「I messed up...! Skull 2, retreating!」",
+          "reason": "Restore the speaker as the subject of the mistake; preserve the named radio withdrawal report."
+        },
+        {
+          "ordinal": 78,
+          "before": "「Unable to continue mission.\n Falling back.」",
+          "after": "「Unable to continue mission.\n I'm falling back.」",
+          "reason": "Keep the intentional mission-status fragment and restore the subject of the subsequent withdrawal statement."
+        },
+        {
+          "ordinal": 79,
+          "before": "「Damn... Bailing out!\n I'm leaving the rest to you!!」",
+          "after": "「Damn... I'm bailing out!\n I'm leaving the rest to you!!」",
+          "reason": "Restore the subject of the bailout; preserve the direction of entrusting the remaining fight to the listener."
+        }
+      ],
+      "active_translations_modified": false,
+      "retained_fragments": [
+        {
+          "ordinals": [
+            3,
+            7,
+            32,
+            44,
+            51,
+            58,
+            64,
+            70,
+            74
+          ],
+          "reason": "Source deliberately interrupts or trails off; retain that fragment rather than invent its ending."
+        },
+        {
+          "ordinals": [
+            28,
+            30,
+            78
+          ],
+          "reason": "First line is a deliberate technical status report; retain its telegraphic nominal construction. Following withdrawal statements receive explicit subjects where needed."
+        },
+        {
+          "ordinals": [
+            12,
+            19,
+            40,
+            42,
+            55,
+            62,
+            63,
+            69,
+            70,
+            71,
+            72,
+            73,
+            75,
+            77
+          ],
+          "reason": "Named speaker, unit or call sign already identifies the subject of a terse radio withdrawal report; keep this report construction."
+        }
+      ],
+      "uncertainty": [
+        {
+          "ordinal": 53,
+          "resolution": "Capacity and vessel are both plausible dimensions of the source metaphor. Sixteen source dialogue terminology contexts support preserving vessel while restoring the explicit current limitation. No external canon claim is made."
+        },
+        {
+          "ordinal": 10,
+          "resolution": "Enemy referent is unspecified by this independent bark. Retain gender-neutral they; do not name an attacker."
+        },
+        {
+          "ordinal": 4,
+          "resolution": "Second-line inability could concern pilot/unit together. Direct address to Tetsujin supports existing you; leave it rather than invent a new referent."
+        }
+      ],
+      "canonical_names_preserved": [
+        "Heero Yuy",
+        "Crowe Bluest",
+        "Sacks",
+        "Giltar",
+        "Ameria",
+        "Zuul"
+      ],
+      "notes": [
+        "Nigel ordinal52: source expresses disgrace to the Tri-Stars reputation; proposed wording corrects the unnatural name construction.",
+        "Proposals use active table English as before, not stale answer wording.",
+        "No byte-budget shortening applied; parent performs final measurement."
+      ]
+    },
+    {
+      "schema": 1,
+      "slice": "r_quote_01",
+      "edits": [
+        {
+          "ordinal": 3,
+          "before": "「Impossible...!\n We were meant to be the chosen ones!」",
+          "after": "「Impossible...!\n We were meant to be the chosen species!」",
+          "reason": "The speaker claims their species was chosen; 'chosen ones' loses that explicit species distinction."
+        },
+        {
+          "ordinal": 14,
+          "before": "「N-not good...!\n Ibuki, Aoyama! We're ejecting!」",
+          "after": "「N-not good...!\n Ibuki, Aoyama! Bail out!」",
+          "reason": "Akagi calls on the named crewmates to escape. Restore the emergency command rather than merely announcing a collective action."
+        },
+        {
+          "ordinal": 36,
+          "before": "「Falling back.」",
+          "after": "「I'm falling back.」",
+          "reason": "The speaker announces their own retreat. Restore the settled first-person subject and finite verb instead of carrying over the source's grammatical omission."
+        },
+        {
+          "ordinal": 50,
+          "before": "「To think that I, of all people,\n would meet such an end...」",
+          "after": "「To think that I, of all people,\n would end up like this...」",
+          "reason": "The source expresses surprise at this outcome; 'meet such an end' can invent a fatal outcome. Preserve surprise without asserting death."
+        },
+        {
+          "ordinal": 54,
+          "before": "「No waaay!\n They got me!!」",
+          "after": "「No waaay!\n I got taken down!!」",
+          "reason": "The source reports the speaker's defeat without specifying an attacker. A passive avoids introducing an unsupported plural 'they'."
+        },
+        {
+          "ordinal": 56,
+          "before": "「Damn yoooou!\n I'll remember your scent!」",
+          "after": "「Damn yoooou!\n I've got your scent memorized!」",
+          "reason": "The scent has already been memorized. Restore the completed recognition instead of saying it will happen in the future."
+        }
+      ],
+      "report": {
+        "assigned_rows": 80,
+        "examined_assigned_rows": 80,
+        "examined_neighbor_rows": 4,
+        "examined_total_rows": 84,
+        "active_answer_differences": 0,
+        "context": "Independent shoot-down barks, not a continuous exchange. Speaker labels and adjacent entries inspected; no shared conversational outcomes inferred.",
+        "preserved_names": [
+          "Heero Yuy",
+          "Crowe Bluest",
+          "Sacks",
+          "Giltar",
+          "Ameria",
+          "Zuul"
+        ],
+        "source_omissions_retained": [
+          {
+            "ordinal": 7,
+            "note": "Evolution phrase deliberately trails off. Kept its fragment rather than supplying a completed outcome."
+          },
+          {
+            "ordinal": 13,
+            "note": "The body-and-hero phrase deliberately trails off. Kept the missing ending; no cause of damage invented."
+          },
+          {
+            "ordinal": 17,
+            "note": "Kept concise military radio-report fragments after the self-identification. The actor is the reporting speaker; not an imperative."
+          },
+          {
+            "ordinal": 21,
+            "note": "Kept self-identifying military report shorthand in the first line."
+          },
+          {
+            "ordinal": 33,
+            "note": "Kept the named-unit retreat report shorthand; no unidentified person or gender supplied."
+          },
+          {
+            "ordinal": 37,
+            "note": "Deliberately unfinished expression of shock at defeat here. Kept the omitted ending."
+          },
+          {
+            "ordinal": 38,
+            "note": "Kept the named-unit retreat report shorthand."
+          },
+          {
+            "ordinal": 42,
+            "note": "Kept the speaker-named retreat report shorthand."
+          },
+          {
+            "ordinal": 59,
+            "note": "Kept formal assessment/report fragments inside square brackets. The source speaker field names Ledo; this does not establish a different speaking entity."
+          },
+          {
+            "ordinal": 65,
+            "note": "The shocked location fragment intentionally lacks a stated outcome. Left it unfinished."
+          },
+          {
+            "ordinal": 67,
+            "note": "The formal self-description is interrupted mid-term. Kept the interrupted term rather than completing it."
+          },
+          {
+            "ordinal": 71,
+            "note": "Kept the named-unit retreat report shorthand after the apology."
+          }
+        ],
+        "uncertainty": [
+          {
+            "ordinal": 13,
+            "note": "The source applies a hero accolade to the speaker/body in an unfinished clause. Existing possessive wording is awkward but conveys that relationship; left unchanged rather than adding combat details."
+          },
+          {
+            "ordinals": [
+              17,
+              21,
+              33,
+              38,
+              42,
+              59,
+              71
+            ],
+            "note": "Radio/report shorthand is retained as a military speech register. Its grammatical omissions are explicitly flagged for the final reviewer."
+          },
+          {
+            "ordinals": [
+              70,
+              78
+            ],
+            "note": "The source uses humble retreat announcements; existing English uses polite permission forms. Kept these as idiomatic courteous withdrawal, without inventing an actual approval exchange."
+          }
+        ]
+      }
+    },
+    {
+      "schema": 1,
+      "slice": "r_quote_02",
+      "assigned_rows": 16,
+      "examined_rows": 37,
+      "assigned_source_record_count": 19,
+      "edits": [
+        {
+          "ordinal": 7,
+          "before": "「Nngh!\n I swear I'll clear my name...!」",
+          "after": "「Nngh!\n I'll have my chance to redeem myself...!」",
+          "reason": "Restore the promised opportunity to redeem the disgrace of defeat. Clearing one's name can imply rebutting a false accusation, which the source does not establish."
+        }
+      ],
+      "deliberate_omissions": [
+        {
+          "ordinal": 8,
+          "note": "The second line deliberately stops at But...; preserve its unfinished contrast."
+        },
+        {
+          "ordinal": 13,
+          "note": "To fail the mission... is an intentional exclamatory fragment, rather than an omitted ordinary subject."
+        },
+        {
+          "ordinal": 12,
+          "note": "The source deliberately trails off after referring to us, with the requested action unfinished. The existing English supplies save us; this is a documented contextual inference, not an explicit source verb."
+        }
+      ],
+      "uncertainty": [
+        {
+          "ordinal": 12,
+          "note": "Nearby final-stage dialogue includes White pleading with Advent to save her and show mercy. It supports a rescue plea, but does not prove the precise final verb in this independent bark. Keep unchanged pending parent judgment."
+        },
+        {
+          "ordinal": 0,
+          "note": "The demonstrative approval refers to the opponent's performance without specifying an event; retain its general wording."
+        },
+        {
+          "ordinal": 6,
+          "note": "The apparent source typo in the opening interjection is read as Dear me, consistent with the speaker's polite retreat. No change."
+        },
+        {
+          "ordinal": 15,
+          "note": "The bark addresses Princess but does not name the referent. Do not substitute a person's name."
+        }
+      ],
+      "notes": "Read BASE_RULES.md and docs/UI_RPW.md. Compared all 16 assigned brief entries with both active and answer English. Examined 14 neighboring quote records and 7 final-stage dialogue source rows. Independent barks are not treated as consecutive conversation. No canonical names changed. Translation files remain untouched."
+    }
+  ],
+  "files": [
+    {
+      "file": "work/translation/en/ui/rpw_names.json",
+      "source_sha256": "b85f8080585560b25ce4426e2e4497192c674bf937ac75494ba53167dbede28a"
+    },
+    {
+      "file": "work/translation/en/ui/eboot.json",
+      "source_sha256": "ff4b9bf113bb86442d9baba53350604b15ffc74cef4fc0fe0ba82e9e64ed85df"
+    },
+    {
+      "file": "work/translation/en/ui/rpw_new/r_quote_00.json",
+      "source_sha256": "ccada559cc389bf1c67fd46aa488240c6805f683b1385cf4811e139820c2902a"
+    },
+    {
+      "file": "work/translation/en/ui/rpw_new/r_quote_01.json",
+      "source_sha256": "726186d24416fb482c715c8f1f1e3d5566f36c961bc004e94340fe20f4f22db5"
+    },
+    {
+      "file": "work/translation/en/ui/rpw_new/r_quote_02.json",
+      "source_sha256": "05af53875a9237bcf92db106a680636b722a71534093ee95a198a0a6c8b2442f"
+    }
+  ],
+  "distinct_quotes": 178,
+  "source_scripts_changed": false
+}

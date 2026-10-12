@@ -66,7 +66,7 @@ def verify(version):
     for row in M.hook_entries(H.PREPARED.read_bytes(),mapping):
         p,steps=runner.run(row['key']+b'\0')
         if read(p,len(row['english'])+1)!=row['english']+b'\0':raise ValueError('Final individual save line untranslated')
-        save.append(dict(id=row['id'],english=L.decode(row['english'],mapping),steps=steps))
+        save.append(dict(id=row['id'],english=row['text'],steps=steps))
     shots=[]
     for label,ident in SHOTS:
         src=Path('C:/Users/Binh/AppData/Local/Temp')/('codex-clipboard-'+ident+'.png');dst=ROOT/'work/ui/screenshots'/('reported-0.5.18-review27-'+label+'.png')

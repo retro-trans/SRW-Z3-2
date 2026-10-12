@@ -29,7 +29,11 @@ def hook_entries(elf,mapping):
             whole=rows[occ['va']]['jp'].encode('utf8')+b'\0';at=occ['offset']
             if elf[at:at+len(whole)]!=whole:raise ValueError('Save message bytes changed')
         key=H.utf8_key(jp.encode('utf8'),elf);english=E.encode(row['en'],mapping)
-        entries.append(dict(id='review27:save:'+sha256(jp.encode('utf8'))[:12],key=key,english=english))
+        from tools import status_layout
+        if jp in status_layout.MARKERS:
+            if dict(status_layout.SAVE)[jp]!=row['en']:raise ValueError('Existing save centering text changed')
+            english=bytes.fromhex(mapping[status_layout.MARKERS[jp]])+english
+        entries.append(dict(id='review27:save:'+sha256(jp.encode('utf8'))[:12],key=key,english=english,text=row['en']))
     return entries
 
 def main():

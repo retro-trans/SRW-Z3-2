@@ -21,9 +21,14 @@ class Review27(unittest.TestCase):
     def test_all_save_lines_and_source_bindings(self):
         rows=M.plan();self.assertEqual(rows['line_occurrences'],6)
         self.assertEqual(rows['strings']['このままゲームを続けますか？']['en'],'Continue playing?')
-        from tools.library_build import characters
-        mapping={c:format(0xe040+n,'04x')for n,c in enumerate(sorted(set(''.join(r['en']for r in rows['strings'].values()))))}
+        from tools import status_layout as S
+        tokens={chr(c)for c in range(32,127)}|set(S.MARKERS.values())
+        mapping={c:format(0xe040+n,'04x')for n,c in enumerate(sorted(tokens))}
         elf=H.PREPARED.read_bytes();keys=M.hook_entries(elf,mapping);self.assertEqual(len(keys),5)
+        # Existing split-save lines retain their invisible native centering markers.
+        expected={r['key']:r['english']for r in S.hook_entries(elf,mapping)[:2]}
+        for row in keys:
+            if row['key']in expected:self.assertEqual(row['english'],expected[row['key']])
         changed=bytearray(elf);changed[0x882748]^=1
         with self.assertRaisesRegex(ValueError,'Save message bytes'):M.hook_entries(changed,mapping)
 

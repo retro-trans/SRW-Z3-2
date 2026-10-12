@@ -34,7 +34,8 @@ In-game visual confirmation remains pending; all earlier prepared fixes carry.
    misses that fragment. Cover both whole messages and individual lines for
    all three map save dialogs at 0x892668, 0x8926d8 and 0x892748. Five distinct
    lines cover six occurrences. Validate their source bytes and exact converter
-   keys, preserving save operations and Yes / No behavior. This does not alter
+   keys, preserving the earlier invisible centering markers on two save lines,
+   save operations and Yes / No behavior. This does not alter
    the separate OS save-data dialogs.
 
 Evidence: work/ui/review27_name_audit.json, review27_dialogue_audit.json,

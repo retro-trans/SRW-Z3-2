@@ -59,7 +59,7 @@ PILOT_COLS = {0: 'display', 1: 'family', 2: 'given'}
 # Family/given names and the long columns are only reported: Jigoku shipped
 # them at full English length without a fault.
 HARD = {('pilot-nw', 0): 30, ('sk-pri', 1): 26, ('sk-pri', 2): 26, ('sk-pri', 3): 26}
-CAPPED = {('robot', 2), ('weapon', 3)}
+CAPPED = {('robot', 2)}
 # Skills that never carry a level suffix may use the whole 32-byte slot minus the NUL (Jigoku's
 # overflow: 32 bytes + NUL broke, so 31 is the edge; 30 keeps the 2-byte cell grid).
 UNLEVELED_SKILLS = {'ギアスの呪縛'}      # unique, no PP costs, never shown with a level
@@ -333,6 +333,9 @@ def check(verbose=True):
             errors.append('%s: %d line breaks, the Japanese has %d' % (s['id'], en.count('\n'), s['jp'].count('\n')))
         if s['chunk'] == 'boost-p':
             part_names[s['record']] += cost(en) + 1
+        elif key == ('weapon',3):
+            from tools.review26_weapons import width,WIDTH
+            if width(en)>WIDTH:errors.append('%s: weapon list name exceeds %dpx' % (s['id'],WIDTH))
         elif cost(en) > limit_for(s, cap):
             if limited(key):
                 errors.append('%s %s: "%s" is %d bytes, limit %d' % (s['id'], s['jp'], en, cost(en), limit_for(s, cap)))

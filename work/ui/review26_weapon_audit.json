@@ -1,0 +1,4631 @@
+{
+  "schema": 1,
+  "version": "0.5.26",
+  "reference_source_sha256": "3dcdd9071da4af67c7dc6d595333482f69aded550ddcfdff52e1754d91eb39ed",
+  "reference_english_sha256": "764b9bed886cd9d33f5ea0ab8b8a487daad2ab9c0842a578d08b6d8842729eb8",
+  "full_names": 686,
+  "short_names": 606,
+  "shared_full": 440,
+  "shared_short": 373,
+  "full_name_exceptions": [
+    {
+      "source": "イナズマキック",
+      "english": "Lightning Kick",
+      "reference": "Inazuma Kick",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "無限拳",
+      "english": "Infinity Punch",
+      "reference": "Mugen Attack",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "無限芭蕉実拳",
+      "english": "Cluster Infinity Punch",
+      "reference": "Cluster Mugen Attack",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "無限芭蕉実拳（ＣＬＵＳＴＥＲ　ＭＵＧＥＮ　ＡＴＴＡＣＫ）",
+      "english": "Cluster Infinity Punch",
+      "reference": "CLUSTER MUGEN ATTACK",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "神来無限掌",
+      "english": "Divine Infinity Palm",
+      "reference": "Infinite Palm of the Buddha",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "超時空無限拳",
+      "english": "Super Dimension Infinity Punch",
+      "reference": "Super Dimension Mugen Attack",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "超時空無限拳（Ｓｕｐｅｒ　Ｄｉｍｅｎｓｉｏｎａｌ　ＭＵＧＥＮ　ＡＴＴＡＣＫ）",
+      "english": "Super Dimension Infinity Punch",
+      "reference": "Super Dimensional MUGEN ATTACK",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "超銀河ギガドリルブレイク",
+      "english": "Super Galaxy Giga Drill Break",
+      "reference": "Space Galaxy Giga Drill Break",
+      "status": "reviewed-meaning-exception"
+    }
+  ],
+  "changes": [
+    {
+      "source": "カリドゥス複相ビーム砲",
+      "old": "Callidus Cannon",
+      "new": "Callidus Beam Cannon",
+      "width_px": 340.03125
+    },
+    {
+      "source": "ガンマールグレイブ（射撃）",
+      "old": "Gunmarl Glaive (S)",
+      "new": "Gunmarl Glaive (Shot)",
+      "width_px": 337.125
+    },
+    {
+      "source": "ガンマール・コンビネーション",
+      "old": "Gunmarl Combo",
+      "new": "Gunmarl Combination",
+      "width_px": 330.34375
+    },
+    {
+      "source": "キングキタンギガドリルブレイク",
+      "old": "KK Giga Drill Brk.",
+      "new": "King Kittan Giga Drill Break",
+      "width_px": 419.46875
+    },
+    {
+      "source": "グレートノットパニッシャー",
+      "old": "G. Knot Punisher",
+      "new": "Great Knot Punisher",
+      "width_px": 310.0
+    },
+    {
+      "source": "ショルダーミサイルポッド",
+      "old": "Shoulder Msl. Pod",
+      "new": "Shoulder Missile Pod",
+      "width_px": 323.5625
+    },
+    {
+      "source": "スナイパーライフル（精密射撃）",
+      "old": "Sniper (Precision)",
+      "new": "Sniper Rifle (Precision)",
+      "width_px": 358.4375
+    },
+    {
+      "source": "スペースキングキタンビーム",
+      "old": "King Kittan Beam",
+      "new": "Space King Kittan Beam",
+      "width_px": 363.28125
+    },
+    {
+      "source": "ソリッドシューター連射",
+      "old": "Solid Shooter RF",
+      "new": "Solid Shooter Rapid Fire",
+      "width_px": 374.90625
+    },
+    {
+      "source": "チェンジ・真ポセイドン",
+      "old": "Change S. Poseidon",
+      "new": "Change Shin Poseidon",
+      "width_px": 343.90625
+    },
+    {
+      "source": "ツインバスターライフル最大出力",
+      "old": "Twin Buster Max",
+      "new": "Twin Buster Rifle Max Power",
+      "width_px": 432.0625
+    },
+    {
+      "source": "ドラゴンズハイヴ砲",
+      "old": "Dragon's Hive Gun",
+      "new": "Dragon's Hive Cannon",
+      "width_px": 341.0
+    },
+    {
+      "source": "ドロッパーズフォールディングガン",
+      "old": "Droppers Fold. Gun",
+      "new": "Droppers Folding Gun",
+      "width_px": 339.0625
+    },
+    {
+      "source": "ニーベルング・アナイレーション",
+      "old": "Nibelung Annih.",
+      "new": "Nibelung Annihilation",
+      "width_px": 333.25
+    },
+    {
+      "source": "ハイパー・ナックル・バスター",
+      "old": "H. Knuckle Buster",
+      "new": "Hyper Knuckle Buster",
+      "width_px": 333.25
+    },
+    {
+      "source": "ハイパー・メガ・ランチャー",
+      "old": "Hyper M. Launcher",
+      "new": "Hyper Mega Launcher",
+      "width_px": 335.1875
+    },
+    {
+      "source": "ハイパー・メガ粒子砲",
+      "old": "Hyper Mega Cannon",
+      "new": "Hyper Mega Particle Cannon",
+      "width_px": 434.96875
+    },
+    {
+      "source": "ビームシザース連続攻撃",
+      "old": "B. Scissors Combo",
+      "new": "Beam Scissors Combo",
+      "width_px": 336.15625
+    },
+    {
+      "source": "ピンポイントバリアパンチ",
+      "old": "Pinpoint B. Punch",
+      "new": "Pinpoint Barrier Punch",
+      "width_px": 349.71875
+    },
+    {
+      "source": "プラズマドリルハリケーン",
+      "old": "P. Drill Hurricane",
+      "new": "Plasma Drill Hurricane",
+      "width_px": 342.9375
+    },
+    {
+      "source": "ヘビィマシンガン改",
+      "old": "Heavy MG Kai",
+      "new": "Heavy Machinegun Kai",
+      "width_px": 345.84375
+    },
+    {
+      "source": "マジンガー軍団一斉攻撃",
+      "old": "Mazinger Barrage",
+      "new": "Mazinger Corps Barrage",
+      "width_px": 370.0625
+    },
+    {
+      "source": "メイン・メガ粒子砲",
+      "old": "Main Mega Cannon",
+      "new": "Main Mega Particle Cannon",
+      "width_px": 416.5625
+    },
+    {
+      "source": "メガキャノン最大出力",
+      "old": "Mega Cannon Max",
+      "new": "Mega Cannon Max Power",
+      "width_px": 379.75
+    },
+    {
+      "source": "メガ粒子砲",
+      "old": "Mega Part. Cannon",
+      "new": "Mega Particle Cannon",
+      "width_px": 334.21875
+    },
+    {
+      "source": "メガ粒子砲一斉射",
+      "old": "Mega Part. Salvo",
+      "new": "Mega Particle Salvo",
+      "width_px": 301.28125
+    },
+    {
+      "source": "ローリングバスターライフル",
+      "old": "Rolling B. Rifle",
+      "new": "Rolling Buster Rifle",
+      "width_px": 297.40625
+    },
+    {
+      "source": "ヴァリス・フルバーストモード",
+      "old": "Varis Full Burst",
+      "new": "Varis Full Burst Mode",
+      "width_px": 329.375
+    },
+    {
+      "source": "中口径速射インパクトキャノン",
+      "old": "55mm Impact Cannon",
+      "new": "Rapid-Fire Impact Cannon",
+      "width_px": 399.125
+    },
+    {
+      "source": "倍々増殖誘導弾",
+      "old": "Multiplying Msls.",
+      "new": "Multiplying Missiles",
+      "width_px": 305.15625
+    },
+    {
+      "source": "光破剣フォルメニア",
+      "old": "Formenia L. Blade",
+      "new": "Formenia Light Blade",
+      "width_px": 325.5
+    },
+    {
+      "source": "光粒子ブラスト",
+      "old": "LP Blast",
+      "new": "Light Particle Blast",
+      "width_px": 290.625
+    },
+    {
+      "source": "光粒子ブラスト・ワイド",
+      "old": "LP Blast Wide",
+      "new": "Light Particle Blast Wide",
+      "width_px": 373.9375
+    },
+    {
+      "source": "光粒子ブレード",
+      "old": "LP Blade",
+      "new": "Light Particle Blade",
+      "width_px": 300.3125
+    },
+    {
+      "source": "光粒子メーザー",
+      "old": "LP Maser",
+      "new": "Light Particle Maser",
+      "width_px": 307.09375
+    },
+    {
+      "source": "単分子カッター",
+      "old": "Mono Cutter",
+      "new": "Monomolecular Cutter",
+      "width_px": 341.0
+    },
+    {
+      "source": "単分子カッターライフル",
+      "old": "Mono Cutter Rifle",
+      "new": "Monomolecular Cutter Rifle",
+      "width_px": 420.4375
+    },
+    {
+      "source": "可能時空軸一斉射撃",
+      "old": "Spacetime Volley",
+      "new": "Possible Spacetime Volley",
+      "width_px": 402.03125
+    },
+    {
+      "source": "回転体当たり",
+      "old": "Spinning Ram",
+      "new": "Spinning Ram Attack",
+      "width_px": 315.8125
+    },
+    {
+      "source": "大型単分子カッター",
+      "old": "Large Mono Cutter",
+      "new": "Large Monomolecular Cutter",
+      "width_px": 436.90625
+    },
+    {
+      "source": "対空機銃",
+      "old": "Anti-Air MG",
+      "new": "Anti-Air Machine Gun",
+      "width_px": 329.375
+    },
+    {
+      "source": "小口径ビーム砲",
+      "old": "Small Beam Cannon",
+      "new": "Small-Bore Beam Cannon",
+      "width_px": 387.5
+    },
+    {
+      "source": "小型円盤一斉攻撃",
+      "old": "Saucer Barrage",
+      "new": "Small Saucer Barrage",
+      "width_px": 328.40625
+    },
+    {
+      "source": "必殺くろがね五人衆",
+      "old": "Kurogane Five Blow",
+      "new": "Kurogane Five Deathblow",
+      "width_px": 391.375
+    },
+    {
+      "source": "拡散構造相転移砲",
+      "old": "Spread PS Cannon",
+      "new": "Spread Phase-Shift Cannon",
+      "width_px": 421.40625
+    },
+    {
+      "source": "次元隧道弾",
+      "old": "Dim. Tunnel Shell",
+      "new": "Dimension Tunnel Shell",
+      "width_px": 361.34375
+    },
+    {
+      "source": "武装一斉攻撃",
+      "old": "All Wpns. Barrage",
+      "new": "All Weapons Barrage",
+      "width_px": 316.78125
+    },
+    {
+      "source": "無限芭蕉実拳",
+      "old": "Cluster Inf. Punch",
+      "new": "Cluster Infinity Punch",
+      "width_px": 333.25
+    },
+    {
+      "source": "生体重ビーム砲",
+      "old": "Bio H. Beam Cannon",
+      "new": "Bio Heavy Beam Cannon",
+      "width_px": 369.09375
+    },
+    {
+      "source": "真ゲッターチェンジアタック",
+      "old": "Shin Change Attack",
+      "new": "Shin Getter Change Attack",
+      "width_px": 403.96875
+    },
+    {
+      "source": "確率変動弾",
+      "old": "Prob. Shift Shell",
+      "new": "Probability Shift Shell",
+      "width_px": 335.1875
+    },
+    {
+      "source": "神来無限掌",
+      "old": "Divine Inf. Palm",
+      "new": "Divine Infinity Palm",
+      "width_px": 297.40625
+    },
+    {
+      "source": "空間断絶砲",
+      "old": "Space Sever Cannon",
+      "new": "Space Severing Cannon",
+      "width_px": 362.3125
+    },
+    {
+      "source": "突撃ラブハート",
+      "old": "TOTSUGEKI L. HEART",
+      "new": "TOTSUGEKI LOVE HEART",
+      "width_px": 384.59375
+    },
+    {
+      "source": "胸部メガ粒子砲",
+      "old": "Chest Mega Cannon",
+      "new": "Chest Mega Particle Cannon",
+      "width_px": 430.125
+    },
+    {
+      "source": "腕部分離攻撃",
+      "old": "Arm Sep. Attack",
+      "new": "Arm Separation Attack",
+      "width_px": 341.96875
+    },
+    {
+      "source": "超天元突破ダイグレン攻撃",
+      "old": "TT Dai-Gurren",
+      "new": "Tengen Toppa Dai-Gurren",
+      "width_px": 397.1875
+    },
+    {
+      "source": "輻射波動機構",
+      "old": "RW Surger",
+      "new": "Radiant Wave Surger",
+      "width_px": 317.75
+    },
+    {
+      "source": "輻射波動機構（ワイド）",
+      "old": "RW Surger (Wide)",
+      "new": "Radiant Wave Surger (Wide)",
+      "width_px": 426.25
+    },
+    {
+      "source": "輻射波動機構（光輪）",
+      "old": "RW Surger (Halo)",
+      "new": "Radiant Wave Surger (Halo)",
+      "width_px": 421.40625
+    },
+    {
+      "source": "鉄人フルパワー",
+      "old": "Tetsujin Full Pwr",
+      "new": "Tetsujin Full Power",
+      "width_px": 293.53125
+    },
+    {
+      "source": "電磁光線",
+      "old": "Electromag. Beam",
+      "new": "Electromagnetic Beam",
+      "width_px": 341.96875
+    },
+    {
+      "source": "高エネルギービームライフル",
+      "old": "HE Beam Rifle",
+      "new": "High-Energy Beam Rifle",
+      "width_px": 366.1875
+    },
+    {
+      "source": "高エネルギー長射程ビーム砲",
+      "old": "Long-Range Cannon",
+      "new": "Long-Range Beam Cannon",
+      "width_px": 403.96875
+    },
+    {
+      "source": "２５ｍｍビーム機関砲",
+      "old": "25mm Beam Cannon",
+      "new": "25mm Beam Autocannon",
+      "width_px": 377.8125
+    },
+    {
+      "source": "３連装ロケット・ランチャー",
+      "old": "3x Rocket Launcher",
+      "new": "Triple Rocket Launcher",
+      "width_px": 355.53125
+    },
+    {
+      "source": "３連装生体重量子ビーム砲",
+      "old": "3x Bio Q. Cannon",
+      "new": "Triple Bio Quantum Cannon",
+      "width_px": 418.5
+    },
+    {
+      "source": "４連装メガ粒子砲",
+      "old": "Quad Mega Particle",
+      "new": "Quad Mega Particle Cannon",
+      "width_px": 422.375
+    },
+    {
+      "source": "５７ｍｍ散弾砲ボクサー",
+      "old": "57mm Boxer",
+      "new": "57mm Shot Cannon Boxer",
+      "width_px": 394.28125
+    },
+    {
+      "source": "ＡＳ用対物狙撃銃",
+      "old": "AS Anti-Mat. Rifle",
+      "new": "AS Anti-Materiel Rifle",
+      "width_px": 332.28125
+    },
+    {
+      "source": "Ｇディメンション・リベレーター",
+      "old": "G-Dim. Liberator",
+      "new": "G-Dimension Liberator",
+      "width_px": 349.71875
+    },
+    {
+      "source": "ＧＮソードⅢ・ライフルモード",
+      "old": "GN Sword III Rifle",
+      "new": "GN Sword III Rifle Mode",
+      "width_px": 364.25
+    },
+    {
+      "source": "ＧＮソードⅤ・ライフルモード",
+      "old": "GN Sword V Rifle",
+      "new": "GN Sword V Rifle Mode",
+      "width_px": 353.59375
+    },
+    {
+      "source": "ＧＮソードライフル（斬撃）",
+      "old": "GN S.Rifle (Slash)",
+      "new": "GN Sword Rifle (Slash)",
+      "width_px": 347.78125
+    },
+    {
+      "source": "ＧＮライフルビットⅡ（乱れ撃ち）",
+      "old": "Rifle Bit II Scat.",
+      "new": "GN Rifle Bit II (Scatter)",
+      "width_px": 351.65625
+    }
+  ],
+  "comparison": [
+    {
+      "source": "“ゼーロス”２０ｍｍガトリング式機関砲",
+      "english": "'Zeros' 20mm Gatling Autocannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "“ブラックマンバ”短射程空対空ミサイル",
+      "english": "'Black Mamba' Short-Range Air-to-Air Missile",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "いがみ合う双子",
+      "english": "Quarreling Twins",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "かみつき",
+      "english": "Bite",
+      "reference": "Bite",
+      "status": "identical"
+    },
+    {
+      "source": "アイザイアン・ボーン・ボウ",
+      "english": "Isaian Bone Bow",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アクエリオンＬＯＶＥ",
+      "english": "Aquarion LOVE",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アクセルグレイヴ",
+      "english": "Accel Glaive",
+      "reference": "Accel Glaive",
+      "status": "identical"
+    },
+    {
+      "source": "アサルトナイフ",
+      "english": "Assault Knife",
+      "reference": "Assault Knife",
+      "status": "identical"
+    },
+    {
+      "source": "アサルトマニューバ",
+      "english": "Assault Maneuver",
+      "reference": "Assault Maneuver",
+      "status": "identical"
+    },
+    {
+      "source": "アサルトライフル",
+      "english": "Assault Rifle",
+      "reference": "Assault Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "アサルト・コンバット",
+      "english": "Assault Combat",
+      "reference": "Assault Combat",
+      "status": "identical"
+    },
+    {
+      "source": "アナレプシス・スラッシュ",
+      "english": "Analepsis Slash",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アブソリュートノヴァビースト",
+      "english": "Absolute Nova Beast",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アポイナ・ソード",
+      "english": "Apoina Sword",
+      "reference": "Apoina Sword",
+      "status": "identical"
+    },
+    {
+      "source": "アポイナ・ブレード",
+      "english": "Apoina Blade",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アポカリプス・ダイバー",
+      "english": "Apocalypse Diver",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アラクニド・バイト",
+      "english": "Arachnid Bite",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アロンダイト",
+      "english": "Arondight",
+      "reference": "Arondight",
+      "status": "identical"
+    },
+    {
+      "source": "アンゲルス・サルース",
+      "english": "Angelus Salus",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アーク・ライン",
+      "english": "Arc Line",
+      "reference": "Arc Line",
+      "status": "identical"
+    },
+    {
+      "source": "アームド・アーマーＢＳ",
+      "english": "Armed Armor BS",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アームド・アーマーＤＥ",
+      "english": "Armed Armor DE",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アームド・アーマーＶＮ",
+      "english": "Armed Armor VN",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "アームパンチ",
+      "english": "Arm Punch",
+      "reference": "Arm Punch",
+      "status": "identical"
+    },
+    {
+      "source": "アーム・ビーム・ガン",
+      "english": "Arm Beam Gun",
+      "reference": "Arm Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "イオン砲",
+      "english": "Ion Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "イナズマキック",
+      "english": "Lightning Kick",
+      "reference": "Inazuma Kick",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "イナズマダブルキック",
+      "english": "Lightning Double Kick",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "インコム",
+      "english": "Incom",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "インテグラル・ディスキャリバー",
+      "english": "Integral Discaliber",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "インパクトダガー",
+      "english": "Impact Dagger",
+      "reference": "Impact Dagger",
+      "status": "identical"
+    },
+    {
+      "source": "インパクト・カノン",
+      "english": "Impact Cannon",
+      "reference": "Impact Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "インベーダー一斉攻撃",
+      "english": "Invader Barrage",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "イービルガイザー",
+      "english": "Evil Geyser",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ウイング・カッター",
+      "english": "Wing Cutter",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ウェイブ・ライダー突撃",
+      "english": "Wave Rider Charge",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ウルズ・ストライク",
+      "english": "Urzu Strike",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ウルズ・ストライクＲ",
+      "english": "Urzu Strike R",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ウルトライナズマキック",
+      "english": "Ultra Inazuma Kick",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "エナジーウイング",
+      "english": "Energy Wing",
+      "reference": "Energy Wing",
+      "status": "identical"
+    },
+    {
+      "source": "エネルギーソード",
+      "english": "Energy Sword",
+      "reference": "Energy Sword",
+      "status": "identical"
+    },
+    {
+      "source": "エネルギー衝撃波",
+      "english": "Energy Shockwave",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "エリコン・コントラヴェスＧＥＣ－Ｂ　４０ｍｍアサルト・ライフル",
+      "english": "GEC-B 40mm Assault Rifle",
+      "reference": "GEC-B 40mm Assault Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "エンブラス・ジ・インフェルノ",
+      "english": "Embrace the Inferno",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "エヴァンゲリオン専用大口径２０９ｍｍ小銃　ＡＵ　Ａｓｓａｕｌｔ　Ｒｉｆｌｅ　Ｔｙｐｅ　ＭＭ－９９",
+      "english": "AU Assault Rifle MM-99",
+      "reference": "AU Assault Rifle MM-99",
+      "status": "identical"
+    },
+    {
+      "source": "エヴァンゲリオン専用放電式携行兵器サンダースピア　ＣＢ－０１２",
+      "english": "Thunder Spear CB-012",
+      "reference": "Thunder Spear CB-012",
+      "status": "identical"
+    },
+    {
+      "source": "エヴァンゲリオン専用超電磁洋弓銃　ＭＭ－１４４",
+      "english": "Super EM Crossbow MM-144",
+      "reference": "Super EM Crossbow MM-144",
+      "status": "identical"
+    },
+    {
+      "source": "エヴァンゲリオン専用近接戦闘用プログレッシブナイフ　ＰＫＮ－０１Ｃ",
+      "english": "Progressive Knife PKN-01C",
+      "reference": "Progressive Knife PKN-01C",
+      "status": "identical"
+    },
+    {
+      "source": "エヴァンゲリオン専用近接戦闘用次世代型プログレッシブナイフ　ＰＫＮ－０２．２Ｃ",
+      "english": "Progressive Knife PKN-02.2C",
+      "reference": "Progressive Knife PKN-02.2C",
+      "status": "identical"
+    },
+    {
+      "source": "オーガス・コンビネーション",
+      "english": "Orguss Combination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "オーガス・コンビネーション・スペシャル",
+      "english": "Orguss Combination Special",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "オーガス・コンビネーション・ＳＰ",
+      "english": "Orguss Combination SP",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "オールレンジ・アタック",
+      "english": "All Range Attack",
+      "reference": "All Range Attack",
+      "status": "identical"
+    },
+    {
+      "source": "カタパルトランチャー",
+      "english": "Catapult Launcher",
+      "reference": "Catapult Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "カマ",
+      "english": "Scythe",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "カリス・シュート",
+      "english": "Charis Shoot",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "カリドゥス複相ビーム砲",
+      "english": "Callidus Beam Cannon",
+      "reference": "Callidus Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ガトリングガン",
+      "english": "Gatling Gun",
+      "reference": "Gatling Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ガトリングガンポッド",
+      "english": "Gatling Gun Pod",
+      "reference": "Gatling Gun Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ガトリング・ガン",
+      "english": "Gatling Gun",
+      "reference": "Gatling Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ガトリング砲",
+      "english": "Gatling Cannon",
+      "reference": "Gatling Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ガンポッド",
+      "english": "Gun Pod",
+      "reference": "Gun Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ガンマールグレイブ",
+      "english": "Gunmarl Glaive",
+      "reference": "Gunmarl Glaive",
+      "status": "identical"
+    },
+    {
+      "source": "ガンマールグレイブ（射撃）",
+      "english": "Gunmarl Glaive (Shot)",
+      "reference": "Gunmarl Glaive (Shot)",
+      "status": "identical"
+    },
+    {
+      "source": "ガンマール・コンビネーション",
+      "english": "Gunmarl Combination",
+      "reference": "Gunmarl Combination",
+      "status": "identical"
+    },
+    {
+      "source": "ガンミサイル",
+      "english": "Gun Missile",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ガード・アタック",
+      "english": "Guard Attack",
+      "reference": "Guard Attack",
+      "status": "identical"
+    },
+    {
+      "source": "ガーバー・オーテック　ＡＫ／ＶＦ－Ｍ９　アサルトナイフ",
+      "english": "AK/VF-M9 Assault Knife",
+      "reference": "AK/VF-M9 Assault Knife",
+      "status": "identical"
+    },
+    {
+      "source": "キャノン砲",
+      "english": "Cannon",
+      "reference": "Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "キングキタンギガドリルブレイク",
+      "english": "King Kittan Giga Drill Break",
+      "reference": "King Kittan Giga Drill Break",
+      "status": "identical"
+    },
+    {
+      "source": "ギガドリルブレイク",
+      "english": "Giga Drill Break",
+      "reference": "Giga Drill Break",
+      "status": "identical"
+    },
+    {
+      "source": "ギガドリルマキシマム",
+      "english": "Giga Drill Maximum",
+      "reference": "Giga Drill Maximum",
+      "status": "identical"
+    },
+    {
+      "source": "ギーグ・ガン",
+      "english": "Geeg Gun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "クォーターカノン",
+      "english": "Quarter Cannon",
+      "reference": "Quarter Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "クラブクロー",
+      "english": "Crab Claw",
+      "reference": "Crab Claw",
+      "status": "identical"
+    },
+    {
+      "source": "クリムゾン・エッジ",
+      "english": "Crimson Edge",
+      "reference": "Crimson Edge",
+      "status": "identical"
+    },
+    {
+      "source": "クロム・バスター",
+      "english": "Chrome Buster",
+      "reference": "Chrome Buster",
+      "status": "identical"
+    },
+    {
+      "source": "クロー",
+      "english": "Claw",
+      "reference": "Claw",
+      "status": "identical"
+    },
+    {
+      "source": "クロー・アーム",
+      "english": "Claw Arm",
+      "reference": "Claw Arm",
+      "status": "identical"
+    },
+    {
+      "source": "グラサンカッター",
+      "english": "Sunglasses Cutter",
+      "reference": "Sunglasses Cutter",
+      "status": "identical"
+    },
+    {
+      "source": "グラップ・コンビネーション",
+      "english": "Grap Combination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "グリーフバニッシャー",
+      "english": "Grief Banisher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "グレネード",
+      "english": "Grenade",
+      "reference": "Grenade",
+      "status": "identical"
+    },
+    {
+      "source": "グレネードランチャー",
+      "english": "Grenade Launcher",
+      "reference": "Grenade Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "グレネード・ランチャー",
+      "english": "Grenade Launcher",
+      "reference": "Grenade Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "グレンブーメラン",
+      "english": "Gurren Boomerang",
+      "reference": "Gurren Boomerang",
+      "status": "identical"
+    },
+    {
+      "source": "グレンブーメラン超銀河大切断",
+      "english": "Gurren Boomerang Great Cut",
+      "reference": "Gurren Boomerang Great Cut",
+      "status": "identical"
+    },
+    {
+      "source": "グレートノットパニッシャー",
+      "english": "Great Knot Punisher",
+      "reference": "Great Knot Punisher",
+      "status": "identical"
+    },
+    {
+      "source": "ゲッタートマホーク",
+      "english": "Getter Tomahawk",
+      "reference": "Getter Tomahawk",
+      "status": "identical"
+    },
+    {
+      "source": "ゲッタービーム",
+      "english": "Getter Beam",
+      "reference": "Getter Beam",
+      "status": "identical"
+    },
+    {
+      "source": "コスモ・レーザー",
+      "english": "Cosmo Laser",
+      "reference": "Cosmo Laser",
+      "status": "identical"
+    },
+    {
+      "source": "コンビネーション・アサルト",
+      "english": "Combination Assault",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ゴッドファイヤー",
+      "english": "God Fire",
+      "reference": "God Fire",
+      "status": "identical"
+    },
+    {
+      "source": "ゴースト",
+      "english": "Ghost",
+      "reference": "Ghost",
+      "status": "identical"
+    },
+    {
+      "source": "サイコシャード",
+      "english": "Psycho-Shard",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "サスマタコレダー",
+      "english": "Sasumata Collider",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "サドン・インパクト",
+      "english": "Sudden Impact",
+      "reference": "Sudden Impact",
+      "status": "identical"
+    },
+    {
+      "source": "サンダースピア",
+      "english": "Thunder Spear",
+      "reference": "Thunder Spear",
+      "status": "identical"
+    },
+    {
+      "source": "サン・アタック",
+      "english": "Sun Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ザク・マシンガン",
+      "english": "Zaku Machine Gun",
+      "reference": "Zaku Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ザフトレッド・コンビネーションⅠ",
+      "english": "ZAFT Red Combination I",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ザフトレッド・コンビネーションⅡ",
+      "english": "ZAFT Red Combination II",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ザンボット・バスター",
+      "english": "Zambot Buster",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ザンボット・ムーン・アタック",
+      "english": "Zambot Moon Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ザ・グローリースター",
+      "english": "The Glory Star",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ザ・ヒート・クラッシャー",
+      "english": "The Heat Crusher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "シュツルム・ファウスト",
+      "english": "Sturm Faust",
+      "reference": "Sturm Faust",
+      "status": "identical"
+    },
+    {
+      "source": "シュトゥルムゲベール",
+      "english": "Sturmgewehr",
+      "reference": "Sturmgewehr",
+      "status": "identical"
+    },
+    {
+      "source": "シュトゥルムゲベール改",
+      "english": "Sturmgewehr Kai",
+      "reference": "Sturmgewehr Kai",
+      "status": "identical"
+    },
+    {
+      "source": "ショット・キャノン",
+      "english": "Shot Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ショット・スティンガー",
+      "english": "Shot Stinger",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ショルダーミサイルポッド",
+      "english": "Shoulder Missile Pod",
+      "reference": "Shoulder Missile Pod",
+      "status": "identical"
+    },
+    {
+      "source": "シールド・ファンネル",
+      "english": "Shield Funnel",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "シールド・ランチャー",
+      "english": "Shield Launcher",
+      "reference": "Shield Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "ジェノシック・ノヴァ",
+      "english": "Genocidic Nova",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ジオトロン・エレクトロニクスＧＲＡＷ－２　単分子カッター",
+      "english": "GRAW-2 Monomolecular Cutter",
+      "reference": "GRAW-2 Monomolecular Cutter",
+      "status": "identical"
+    },
+    {
+      "source": "ジオトロン・エレクトロニクスＧＲＡＷ－４　単分子カッター",
+      "english": "GRAW-4 Monomolecular Cutter",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ジャイアント・バズ",
+      "english": "Giant Bazooka",
+      "reference": "Giant Bazooka",
+      "status": "identical"
+    },
+    {
+      "source": "ジ・アンブレイカブル・フルクラム",
+      "english": "The Unbreakable Fulcrum",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ジ・エンド・オブ・デスペア",
+      "english": "The End of Despair",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ジ・オーバーライザー・アーク",
+      "english": "The Overriser Arc",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "スキャフォード・エッジ",
+      "english": "Scaffold Edge",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "スクランブル・エッジ",
+      "english": "Scramble Edge",
+      "reference": "Scramble Edge",
+      "status": "identical"
+    },
+    {
+      "source": "スタウロス・キャノン",
+      "english": "Stauros Cannon",
+      "reference": "Stauros Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "スタンロッド",
+      "english": "Stun Rod",
+      "reference": "Stun Rod",
+      "status": "identical"
+    },
+    {
+      "source": "ストナーサンシャイン",
+      "english": "Stoner Sunshine",
+      "reference": "Stoner Sunshine",
+      "status": "identical"
+    },
+    {
+      "source": "ストームブリンガー",
+      "english": "Stormbringer",
+      "reference": "Stormbringer",
+      "status": "identical"
+    },
+    {
+      "source": "スナイパーライフル",
+      "english": "Sniper Rifle",
+      "reference": "Sniper Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "スナイパーライフル（精密射撃）",
+      "english": "Sniper Rifle (Precision)",
+      "reference": "Sniper Rifle (Precision)",
+      "status": "identical"
+    },
+    {
+      "source": "スパイラルゲッタービーム",
+      "english": "Spiral Getter Beam",
+      "reference": "Spiral Getter Beam",
+      "status": "identical"
+    },
+    {
+      "source": "スペースキヤルランサー",
+      "english": "Space Kiyal Lancer",
+      "reference": "Space Kiyal Lancer",
+      "status": "identical"
+    },
+    {
+      "source": "スペースキングキタンビーム",
+      "english": "Space King Kittan Beam",
+      "reference": "Space King Kittan Beam",
+      "status": "identical"
+    },
+    {
+      "source": "スラッシュハーケン",
+      "english": "Slash Harken",
+      "reference": "Slash Harken",
+      "status": "identical"
+    },
+    {
+      "source": "スーパーイナズマキック",
+      "english": "Super Inazuma Kick",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "スーパードラグーン",
+      "english": "Super DRAGOON",
+      "reference": "Super DRAGOON",
+      "status": "identical"
+    },
+    {
+      "source": "スーパーファイナルゴッドマーズ",
+      "english": "Super Final Godmars",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "スーパーヴァリス",
+      "english": "Super Varis",
+      "reference": "Super Varis",
+      "status": "identical"
+    },
+    {
+      "source": "セブンソード・コンビネーション",
+      "english": "Seven Sword Combination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "セラヴィー分離攻撃",
+      "english": "Seravee Separation Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "セワード・アーセナル　１６５ｍｍ多目的破砕・榴弾砲“デモリッションガン”　ガン・ハウザーモード",
+      "english": "165mm 'Demolition Gun' Gun Howitzer Mode",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ゼロ・ビーム",
+      "english": "Zero Beam",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ゼーヤＢ３Ｍ　“グローム”ＨＡＥＴハンマー",
+      "english": "B3M 'Grom' HEAT Hammer",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ソリッドシューター",
+      "english": "Solid Shooter",
+      "reference": "Solid Shooter",
+      "status": "identical"
+    },
+    {
+      "source": "ソリッドシューター連射",
+      "english": "Solid Shooter Rapid Fire",
+      "reference": "Solid Shooter Rapid Fire",
+      "status": "identical"
+    },
+    {
+      "source": "ソーラー拳",
+      "english": "Solar Punch",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ソール・インペトゥス",
+      "english": "Sol Impetus",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ソール・ネオランビス",
+      "english": "Sol Neo Lambis",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "タキオンブリッツ・プレッシャー",
+      "english": "Tachyon Blitz Pressure",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "タロスの怒り",
+      "english": "Wrath of Talos",
+      "reference": "Wrath of Talos",
+      "status": "identical"
+    },
+    {
+      "source": "ダイターン・キャノン",
+      "english": "Daitarn Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダイターン・ザンバー",
+      "english": "Daitarn Zanber",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダイターン・ファン",
+      "english": "Daitarn Fan",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダイターン・ミサイル",
+      "english": "Daitarn Missile",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダガー・ナイフ",
+      "english": "Dagger Knife",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダブルガトリングガン",
+      "english": "Double Gatling Gun",
+      "reference": "Double Gatling Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ダブルトマホークブーメラン",
+      "english": "Double Tomahawk Boomerang",
+      "reference": "Double Tomahawk Boomerang",
+      "status": "identical"
+    },
+    {
+      "source": "ダブルバスターコレダー",
+      "english": "Double Buster Collider",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダブル・ヘビィマシンガン",
+      "english": "Double Heavy Machinegun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ダミー",
+      "english": "Dummy",
+      "reference": "Dummy",
+      "status": "identical"
+    },
+    {
+      "source": "ダンブレードシュート",
+      "english": "Dan Blade Shoot",
+      "reference": "Dan Blade Shoot",
+      "status": "identical"
+    },
+    {
+      "source": "チェンジ・真ポセイドン",
+      "english": "Change Shin Poseidon",
+      "reference": "Change Shin Poseidon",
+      "status": "identical"
+    },
+    {
+      "source": "チェンジ・真ライガー",
+      "english": "Change Shin Liger",
+      "reference": "Change Shin Liger",
+      "status": "identical"
+    },
+    {
+      "source": "ツインサテライトキャノン",
+      "english": "Twin Satellite Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ツインテール級射出",
+      "english": "Twintail-class Launch",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ツインバスターライフル",
+      "english": "Twin Buster Rifle",
+      "reference": "Twin Buster Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ツインバスターライフル最大出力",
+      "english": "Twin Buster Rifle Max Power",
+      "reference": "Twin Buster Rifle Max Power",
+      "status": "identical"
+    },
+    {
+      "source": "ツインバスターライフル最大出力連射",
+      "english": "Twin Buster Rifle Max Power Rapid Fire",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ツインビームトライデント",
+      "english": "Twin Beam Trident",
+      "reference": "Twin Beam Trident",
+      "status": "identical"
+    },
+    {
+      "source": "ツイン・ゴッドビースト",
+      "english": "Twin God Beast",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ツイン・ビーム・マグナム",
+      "english": "Twin Beam Magnum",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ディスキャリバー",
+      "english": "Discaliber",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "デフレクター・ビーム（拡散）",
+      "english": "Deflector Beam (Spread)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "デフレクター・ビーム（集中）",
+      "english": "Deflector Beam (Focus)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "デモリッションガン・ＧＨモード",
+      "english": "Demolition Gun GH Mode",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "トマホークブーメラン",
+      "english": "Tomahawk Boomerang",
+      "reference": "Tomahawk Boomerang",
+      "status": "identical"
+    },
+    {
+      "source": "トマホーク・コンビネーション",
+      "english": "Tomahawk Combination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "トライダー・カッター",
+      "english": "Trider Cutter",
+      "reference": "Trider Cutter",
+      "status": "identical"
+    },
+    {
+      "source": "トライダー・ジャベリン",
+      "english": "Trider Javelin",
+      "reference": "Trider Javelin",
+      "status": "identical"
+    },
+    {
+      "source": "トライダー・セイバー",
+      "english": "Trider Saber",
+      "reference": "Trider Saber",
+      "status": "identical"
+    },
+    {
+      "source": "トライダー・バード・アタック",
+      "english": "Trider Bird Attack",
+      "reference": "Trider Bird Attack",
+      "status": "identical"
+    },
+    {
+      "source": "トライダー・ビーム・キャノン",
+      "english": "Trider Beam Cannon",
+      "reference": "Trider Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "トライダー・ミサイル",
+      "english": "Trider Missile",
+      "reference": "Trider Missile",
+      "status": "identical"
+    },
+    {
+      "source": "トライパニッシャー",
+      "english": "Tri Punisher",
+      "reference": "Tri Punisher",
+      "status": "identical"
+    },
+    {
+      "source": "トラジック・カーネイジャー",
+      "english": "Tragic Carnager",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "トランザムライザーソード",
+      "english": "Trans-Am Raiser Sword",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "トランザム発動",
+      "english": "Trans-Am",
+      "reference": "Trans-Am",
+      "status": "identical"
+    },
+    {
+      "source": "トリプル・レーザー",
+      "english": "Triple Laser",
+      "reference": "Triple Laser",
+      "status": "identical"
+    },
+    {
+      "source": "ドラゴンズハイヴ砲",
+      "english": "Dragon's Hive Cannon",
+      "reference": "Dragon's Hive Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ドラゴンハング",
+      "english": "Dragon Fang",
+      "reference": "Dragon Fang",
+      "status": "identical"
+    },
+    {
+      "source": "ドリルアーム",
+      "english": "Drill Arm",
+      "reference": "Drill Arm",
+      "status": "identical"
+    },
+    {
+      "source": "ドリルハリケーン",
+      "english": "Drill Hurricane",
+      "reference": "Drill Hurricane",
+      "status": "identical"
+    },
+    {
+      "source": "ドリルミサイル",
+      "english": "Drill Missile",
+      "reference": "Drill Missile",
+      "status": "identical"
+    },
+    {
+      "source": "ドロッパーズフォールディングガン",
+      "english": "Droppers Folding Gun",
+      "reference": "Droppers Folding Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ナギナタ",
+      "english": "Naginata",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ナックル・バスター",
+      "english": "Knuckle Buster",
+      "reference": "Knuckle Buster",
+      "status": "identical"
+    },
+    {
+      "source": "ニトロハーケン",
+      "english": "Nitro Haken",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ニトロパイク",
+      "english": "Nitro Pike",
+      "reference": "Nitro Pike",
+      "status": "identical"
+    },
+    {
+      "source": "ニュー・ハイパー・バズーカ",
+      "english": "New Hyper Bazooka",
+      "reference": "New Hyper Bazooka",
+      "status": "identical"
+    },
+    {
+      "source": "ニーベルング・アナイレーション",
+      "english": "Nibelung Annihilation",
+      "reference": "Nibelung Annihilation",
+      "status": "identical"
+    },
+    {
+      "source": "ノキサス・ブロッサム",
+      "english": "Noxious Blossom",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハイパービームソード",
+      "english": "Hyper Beam Sword",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハイパー・ナックル・バスター",
+      "english": "Hyper Knuckle Buster",
+      "reference": "Hyper Knuckle Buster",
+      "status": "identical"
+    },
+    {
+      "source": "ハイパー・バズーカ",
+      "english": "Hyper Bazooka",
+      "reference": "Hyper Bazooka",
+      "status": "identical"
+    },
+    {
+      "source": "ハイパー・メガ・ランチャー",
+      "english": "Hyper Mega Launcher",
+      "reference": "Hyper Mega Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "ハイパー・メガ粒子砲",
+      "english": "Hyper Mega Particle Cannon",
+      "reference": "Hyper Mega Particle Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ハイ・ストレイターレット",
+      "english": "High Stray Turret",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハウンドペネトレイター",
+      "english": "Hound Penetrator",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハドロンショット",
+      "english": "Hadron Shot",
+      "reference": "Hadron Shot",
+      "status": "identical"
+    },
+    {
+      "source": "ハワード／Ｌ．Ａ．Ｉ　ＨＰＢ－０１Ａ　重量子ビームガンポッド",
+      "english": "HPB-01A Heavy Quantum Pod",
+      "reference": "HPB-01A Heavy Quantum Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ハワードＧＵ－１７Ａ　新型ガンポッド５８ｍｍ",
+      "english": "GU-17A 58mm Gun Pod",
+      "reference": "GU-17A 58mm Gun Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ハンディロケットガン",
+      "english": "Handy Rocket Gun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハンドガン",
+      "english": "Handgun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハンド・ガン",
+      "english": "Hand Gun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ハンマーパンチ",
+      "english": "Hammer Punch",
+      "reference": "Hammer Punch",
+      "status": "identical"
+    },
+    {
+      "source": "バスターキャノン",
+      "english": "Buster Cannon",
+      "reference": "Buster Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "バスターコレダー",
+      "english": "Buster Collider",
+      "reference": "Buster Collider",
+      "status": "identical"
+    },
+    {
+      "source": "バスタースマッシュ",
+      "english": "Buster Smash",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスターソード一文字斬り",
+      "english": "Buster Sword Straight Slash",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスタートマホーク",
+      "english": "Buster Tomahawk",
+      "reference": "Buster Tomahawk",
+      "status": "identical"
+    },
+    {
+      "source": "バスターハーケン",
+      "english": "Buster Haken",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスタービーム",
+      "english": "Buster Beam",
+      "reference": "Buster Beam",
+      "status": "identical"
+    },
+    {
+      "source": "バスターホームラン",
+      "english": "Buster Home Run",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスターミサイル",
+      "english": "Buster Missile",
+      "reference": "Buster Missile",
+      "status": "identical"
+    },
+    {
+      "source": "バスターメガテックＰＫ",
+      "english": "Buster Megatech PK",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスターライフル",
+      "english": "Buster Rifle",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスターラケット",
+      "english": "Buster Racket",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バスター雷王落とし",
+      "english": "Buster Jupiter II Drop",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バズーカ",
+      "english": "Bazooka",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バトルウイング",
+      "english": "Battle Wing",
+      "reference": "Battle Wing",
+      "status": "identical"
+    },
+    {
+      "source": "バニシング・スマッシャー",
+      "english": "Vanishing Smasher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バルカン",
+      "english": "Vulcan",
+      "reference": "Vulcan",
+      "status": "identical"
+    },
+    {
+      "source": "バルカン・ポッド",
+      "english": "Vulcan Pod",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バルカン砲",
+      "english": "Vulcan Cannon",
+      "reference": "Vulcan Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "バルムンク・エリミネーション",
+      "english": "Balmung Elimination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バンドック砲",
+      "english": "Bandock Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バーニングウォール",
+      "english": "Burning Wall",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "バーレイバー・サイズ",
+      "english": "Barlaver Scythe",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "パイルバンカー",
+      "english": "Pile Bunker",
+      "reference": "Pile Bunker",
+      "status": "identical"
+    },
+    {
+      "source": "パッションスタンピード・ハイアデス",
+      "english": "Passion Stampede Hyades",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "パテーマ・ショック",
+      "english": "Pathema Shock",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "パルシア・スマッシャー",
+      "english": "Parousia Smasher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "パルスビーム",
+      "english": "Pulse Beam",
+      "reference": "Pulse Beam",
+      "status": "identical"
+    },
+    {
+      "source": "パレットライフル",
+      "english": "Pallet Rifle",
+      "reference": "Pallet Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "パワーアーム",
+      "english": "Power Arm",
+      "reference": "Power Arm",
+      "status": "identical"
+    },
+    {
+      "source": "ヒューズ／ＧＥ　ＧＶ－１７Ｌ　ガンポッド",
+      "english": "GV-17L Gun Pod",
+      "reference": "GV-17L Gun Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ヒューズＶＧＭ－Ａ２（Ｍ）“ヴァーサイルⅡ”多目的ミサイル",
+      "english": "VGM-A2 'Versaile II' Missile",
+      "reference": "VGM-A2 'Versaile II' Missile",
+      "status": "identical"
+    },
+    {
+      "source": "ヒートショーテル",
+      "english": "Heat Shotel",
+      "reference": "Heat Shotel",
+      "status": "identical"
+    },
+    {
+      "source": "ヒートショーテル投げ",
+      "english": "Heat Shotel Throw",
+      "reference": "Heat Shotel Throw",
+      "status": "identical"
+    },
+    {
+      "source": "ヒートロッド",
+      "english": "Heat Rod",
+      "reference": "Heat Rod",
+      "status": "identical"
+    },
+    {
+      "source": "ヒート・サーベル",
+      "english": "Heat Saber",
+      "reference": "Heat Saber",
+      "status": "identical"
+    },
+    {
+      "source": "ビッグバンパンチ",
+      "english": "Big Bang Punch",
+      "reference": "Big Bang Punch",
+      "status": "identical"
+    },
+    {
+      "source": "ビフォーズ　ＢＭＬ－０２Ｓ　マイクロミサイルランチャー",
+      "english": "BML-02S Micro Missiles",
+      "reference": "BML-02S Micro Missiles",
+      "status": "identical"
+    },
+    {
+      "source": "ビフォーズ近接用超高機動ミサイルランチャーポッド",
+      "english": "Close-Range Missile Pod",
+      "reference": "Close-Range Missile Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ビフォーズＡＡ－５５／ＱＤ　５５ｍｍ中口径速射インパクトキャノン",
+      "english": "AA-55/QD 55mm Impact Cannon",
+      "reference": "AA-55/QD 55mm Impact Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ビフォーズＡＡ－７６／ＱＤ　対艦用インパクト・カノン",
+      "english": "AA-76/QD Impact Cannon",
+      "reference": "AA-76/QD Impact Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ビフォーズＭＢＬ－０２Ｓ　マイクロミサイルランチャー",
+      "english": "MBL-02S Micro Missiles",
+      "reference": "MBL-02S Micro Missiles",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム",
+      "english": "Beam",
+      "reference": "Beam",
+      "status": "identical"
+    },
+    {
+      "source": "ビームガン",
+      "english": "Beam Gun",
+      "reference": "Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ビームガンポッド",
+      "english": "Beam Gun Pod",
+      "reference": "Beam Gun Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ビームガンポッド（重量子反応砲）",
+      "english": "Beam Gun Pod (Heavy Quantum Reaction Cannon)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ビームサーベル",
+      "english": "Beam Saber",
+      "reference": "Beam Saber",
+      "status": "identical"
+    },
+    {
+      "source": "ビームシザース",
+      "english": "Beam Scissors",
+      "reference": "Beam Scissors",
+      "status": "identical"
+    },
+    {
+      "source": "ビームシザース連続攻撃",
+      "english": "Beam Scissors Combo",
+      "reference": "Beam Scissors Combo",
+      "status": "identical"
+    },
+    {
+      "source": "ビームライフル",
+      "english": "Beam Rifle",
+      "reference": "Beam Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・アサルト・ライフル",
+      "english": "Beam Assault Rifle",
+      "reference": "Beam Assault Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ガトリング",
+      "english": "Beam Gatling",
+      "reference": "Beam Gatling",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ガン",
+      "english": "Beam Gun",
+      "reference": "Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・キャノン",
+      "english": "Beam Cannon",
+      "reference": "Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・コンフューズ",
+      "english": "Beam Confuse",
+      "reference": "Beam Confuse",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・サーベル",
+      "english": "Beam Saber",
+      "reference": "Beam Saber",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・サーベル（ハイパー）",
+      "english": "Beam Saber (Hyper)",
+      "reference": "Beam Saber (Hyper)",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ショット・ライフル",
+      "english": "Beam Shot Rifle",
+      "reference": "Beam Shot Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ソード・アックス",
+      "english": "Beam Sword Axe",
+      "reference": "Beam Sword Axe",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・トマホーク",
+      "english": "Beam Tomahawk",
+      "reference": "Beam Tomahawk",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ドライブ・ユニット",
+      "english": "Beam Drive Unit",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ビーム・ホーク",
+      "english": "Beam Hawk",
+      "reference": "Beam Hawk",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・マグナム",
+      "english": "Beam Magnum",
+      "reference": "Beam Magnum",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・マグナム連続射撃",
+      "english": "Beam Magnum Rapid Fire",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ビーム・マシンガン",
+      "english": "Beam Machine Gun",
+      "reference": "Beam Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ライフル",
+      "english": "Beam Rifle",
+      "reference": "Beam Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム・ライフル（高出力）",
+      "english": "Beam Rifle (High Output)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ビーム機銃",
+      "english": "Beam Machine Gun",
+      "reference": "Beam Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ビーム砲",
+      "english": "Beam Cannon",
+      "reference": "Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ピニオンハルバード",
+      "english": "Pinion Halberd",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ピンポイントバリアパンチ",
+      "english": "Pinpoint Barrier Punch",
+      "reference": "Pinpoint Barrier Punch",
+      "status": "identical"
+    },
+    {
+      "source": "ファイナルゴッドマーズ",
+      "english": "Final Godmars",
+      "reference": "Final Godmars",
+      "status": "identical"
+    },
+    {
+      "source": "ファイナル・ステージ",
+      "english": "Final Stage",
+      "reference": "Final Stage",
+      "status": "identical"
+    },
+    {
+      "source": "ファイナル断空砲",
+      "english": "Final Dankuu Hou",
+      "reference": "Final Dankuu Hou",
+      "status": "identical"
+    },
+    {
+      "source": "ファンネル",
+      "english": "Funnel",
+      "reference": "Funnel",
+      "status": "identical"
+    },
+    {
+      "source": "ファンネル一斉攻撃",
+      "english": "Funnel Barrage",
+      "reference": "Funnel Barrage",
+      "status": "identical"
+    },
+    {
+      "source": "フィンガービーム",
+      "english": "Finger Beam",
+      "reference": "Finger Beam",
+      "status": "identical"
+    },
+    {
+      "source": "フィン・ファンネル",
+      "english": "Fin Funnel",
+      "reference": "Fin Funnel",
+      "status": "identical"
+    },
+    {
+      "source": "フォトン・トーピドー",
+      "english": "Photon Torpedo",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "フォーメーション・ソーラー",
+      "english": "Formation Solar",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "フォールディング・スマッシャー",
+      "english": "Folding Smasher",
+      "reference": "Folding Smasher",
+      "status": "identical"
+    },
+    {
+      "source": "フライホイール",
+      "english": "Flywheel",
+      "reference": "Flywheel",
+      "status": "identical"
+    },
+    {
+      "source": "フライングキック",
+      "english": "Flying Kick",
+      "reference": "Flying Kick",
+      "status": "identical"
+    },
+    {
+      "source": "フラッシュエッジ２",
+      "english": "Flash Edge 2",
+      "reference": "Flash Edge 2",
+      "status": "identical"
+    },
+    {
+      "source": "フルドリライズ",
+      "english": "Full Drillize",
+      "reference": "Full Drillize",
+      "status": "identical"
+    },
+    {
+      "source": "フル・オールレンジ・アタック",
+      "english": "Full All Range Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "フル・ボンバードメント",
+      "english": "Full Bombardment",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ブイ・ストレイターレット",
+      "english": "V Stray Turret",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ブラスター・アーツ・ノヴァ",
+      "english": "Blaster Arts Nova",
+      "reference": "Blaster Arts Nova",
+      "status": "identical"
+    },
+    {
+      "source": "ブラックオックス・アタック",
+      "english": "Black Ox Attack",
+      "reference": "Black Ox Attack",
+      "status": "identical"
+    },
+    {
+      "source": "ブラックゲッターストライク",
+      "english": "Black Getter Strike",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ブラックホール",
+      "english": "Black Hole",
+      "reference": "Black Hole",
+      "status": "identical"
+    },
+    {
+      "source": "ブリザード",
+      "english": "Blizzard",
+      "reference": "Blizzard",
+      "status": "identical"
+    },
+    {
+      "source": "ブレストファイヤー",
+      "english": "Breast Fire",
+      "reference": "Breast Fire",
+      "status": "identical"
+    },
+    {
+      "source": "ブレストランチャー",
+      "english": "Breast Launcher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ブロックラッシュ",
+      "english": "Block Rush",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ブンマー・スパナ",
+      "english": "Bunmer Spanner",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ブーストノヴァナックル",
+      "english": "Boost Nova Knuckle",
+      "reference": "Boost Nova Knuckle",
+      "status": "identical"
+    },
+    {
+      "source": "プネウマ・バレット",
+      "english": "Pneuma Bullet",
+      "reference": "Pneuma Bullet",
+      "status": "identical"
+    },
+    {
+      "source": "プラズマサーベル",
+      "english": "Plasma Saber",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "プラズマドリルハリケーン",
+      "english": "Plasma Drill Hurricane",
+      "reference": "Plasma Drill Hurricane",
+      "status": "identical"
+    },
+    {
+      "source": "プラズマランチャー",
+      "english": "Plasma Launcher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "プラズマ・ギミック",
+      "english": "Plasma Gimmick",
+      "reference": "Plasma Gimmick",
+      "status": "identical"
+    },
+    {
+      "source": "プログレッシブナイフ",
+      "english": "Progressive Knife",
+      "reference": "Progressive Knife",
+      "status": "identical"
+    },
+    {
+      "source": "プロトン・シェル",
+      "english": "Proton Shell",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "プロペラ・アーム",
+      "english": "Propeller Arm",
+      "reference": "Propeller Arm",
+      "status": "identical"
+    },
+    {
+      "source": "ヘビィマシンガン",
+      "english": "Heavy Machinegun",
+      "reference": "Heavy Machinegun",
+      "status": "identical"
+    },
+    {
+      "source": "ヘビィマシンガン改",
+      "english": "Heavy Machinegun Kai",
+      "reference": "Heavy Machinegun Kai",
+      "status": "identical"
+    },
+    {
+      "source": "ヘルヘイム",
+      "english": "Helheim",
+      "reference": "Helheim",
+      "status": "identical"
+    },
+    {
+      "source": "ベイオネット・スパイカー",
+      "english": "Bayonet Spiker",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ペイン・シャウター",
+      "english": "Pain Shouter",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ホモロギア・ショット",
+      "english": "Homologia Shot",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ホーミングミサイル",
+      "english": "Homing Missile",
+      "reference": "Homing Missile",
+      "status": "identical"
+    },
+    {
+      "source": "ホーミングレーザー",
+      "english": "Homing Laser",
+      "reference": "Homing Laser",
+      "status": "identical"
+    },
+    {
+      "source": "ホーミング・ミサイル",
+      "english": "Homing Missile",
+      "reference": "Homing Missile",
+      "status": "identical"
+    },
+    {
+      "source": "ボフォースＡＳＧ９６－ｂ　５７ｍｍ滑腔砲",
+      "english": "ASG96-b 57mm Smoothbore",
+      "reference": "ASG96-b 57mm Smoothbore",
+      "status": "identical"
+    },
+    {
+      "source": "ボン太くん一斉攻撃",
+      "english": "Bonta-kun Barrage",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "マイクロミサイル",
+      "english": "Micro Missile",
+      "reference": "Micro Missile",
+      "status": "identical"
+    },
+    {
+      "source": "マウラーＬＰＧ－３０／３Ｒ　３０ｍｍ空対空高回転三砲身ガトリングレーザーパルス・ガン",
+      "english": "LPG-30/3R Laser Pulse Gun",
+      "reference": "LPG-30/3R Laser Pulse Gun",
+      "status": "identical"
+    },
+    {
+      "source": "マウラーＲＯＶ－１２７Ｃ　１２．７ｍｍビーム機関砲",
+      "english": "ROV-127C Beam Autocannon",
+      "reference": "ROV-127C Beam Autocannon",
+      "status": "identical"
+    },
+    {
+      "source": "マウラーＲＯＶ－２５　２５ｍｍビーム機関砲",
+      "english": "ROV-25 25mm Beam Autocannon",
+      "reference": "ROV-25 25mm Beam Autocannon",
+      "status": "identical"
+    },
+    {
+      "source": "マクロスアタック",
+      "english": "Macross Attack",
+      "reference": "Macross Attack",
+      "status": "identical"
+    },
+    {
+      "source": "マクロスキャノン",
+      "english": "Macross Cannon",
+      "reference": "Macross Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "マシンガン",
+      "english": "Machine Gun",
+      "reference": "Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "マシンキャノン",
+      "english": "Machine Cannon",
+      "reference": "Machine Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "マジンガー軍団一斉攻撃",
+      "english": "Mazinger Corps Barrage",
+      "reference": "Mazinger Corps Barrage",
+      "status": "identical"
+    },
+    {
+      "source": "マーズフラッシュ",
+      "english": "Mars Flash",
+      "reference": "Mars Flash",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイル",
+      "english": "Missile",
+      "reference": "Missile",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイルガン",
+      "english": "Missile Gun",
+      "reference": "Missile Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイルストーム",
+      "english": "Missile Storm",
+      "reference": "Missile Storm",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイルデトネイター",
+      "english": "Missile Detonator",
+      "reference": "Missile Detonator",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイルポッド",
+      "english": "Missile Pod",
+      "reference": "Missile Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイルランチャー",
+      "english": "Missile Launcher",
+      "reference": "Missile Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイル・パーティー",
+      "english": "Missile Party",
+      "reference": "Missile Party",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイル・ランチャー",
+      "english": "Missile Launcher",
+      "reference": "Missile Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "ミサイル一斉射撃",
+      "english": "Missile Volley",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ミサイル一斉発射",
+      "english": "Missile Salvo",
+      "reference": "Missile Salvo",
+      "status": "identical"
+    },
+    {
+      "source": "ミドガルズオルム",
+      "english": "Midgardsormr",
+      "reference": "Midgardsormr",
+      "status": "identical"
+    },
+    {
+      "source": "メイン・メガ粒子砲",
+      "english": "Main Mega Particle Cannon",
+      "reference": "Main Mega Particle Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "メガキャノン",
+      "english": "Mega Cannon",
+      "reference": "Mega Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "メガキャノン最大出力",
+      "english": "Mega Cannon Max Power",
+      "reference": "Mega Cannon Max Power",
+      "status": "identical"
+    },
+    {
+      "source": "メガ・ガトリング・ガン",
+      "english": "Mega Gatling Gun",
+      "reference": "Mega Gatling Gun",
+      "status": "identical"
+    },
+    {
+      "source": "メガ・バズーカ・ランチャー",
+      "english": "Mega Bazooka Launcher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "メガ・ビーム・キャノン",
+      "english": "Mega Beam Cannon",
+      "reference": "Mega Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "メガ・ビーム・ランチャー",
+      "english": "Mega Beam Launcher",
+      "reference": "Mega Beam Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "メガ粒子砲",
+      "english": "Mega Particle Cannon",
+      "reference": "Mega Particle Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "メガ粒子砲一斉射",
+      "english": "Mega Particle Salvo",
+      "reference": "Mega Particle Salvo",
+      "status": "identical"
+    },
+    {
+      "source": "メタノイア・ショット",
+      "english": "Metanoia Shot",
+      "reference": "Metanoia Shot",
+      "status": "identical"
+    },
+    {
+      "source": "メーザーシュート",
+      "english": "Maser Chute",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "モビーディック・アンカー",
+      "english": "Moby Dick Anchor",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "モーゼルＲＥＢ－２２　レーザービームガン",
+      "english": "REB-22 Laser Beam Gun",
+      "reference": "REB-22 Laser Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ライアット・ジャレンチ",
+      "english": "Riot Jarenti",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ライセオン／新中州　対地対艦重ミサイルランチャー３連装",
+      "english": "Triple Heavy Missile Pod",
+      "reference": "Triple Heavy Missile Pod",
+      "status": "identical"
+    },
+    {
+      "source": "ライトニング・パルサー",
+      "english": "Lightning Pulsar",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ライフル",
+      "english": "Rifle",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ラスター・エッジ",
+      "english": "Luster Edge",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ラトレイア・シュート",
+      "english": "Latreia Shoot",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ラミントンＥＳ－２５Ａ　２５ｍｍ機銃",
+      "english": "ES-25A 25mm Machine Gun",
+      "reference": "ES-25A 25mm Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ラムダ・ストライク",
+      "english": "Lambda Strike",
+      "reference": "Lambda Strike",
+      "status": "identical"
+    },
+    {
+      "source": "リボルビング・ランチャー",
+      "english": "Revolving Launcher",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "リング光線",
+      "english": "Ring Beam",
+      "reference": "Ring Beam",
+      "status": "identical"
+    },
+    {
+      "source": "ルシファーマニューバ",
+      "english": "Lucifer Maneuver",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ルストハリケーン",
+      "english": "Rust Hurricane",
+      "reference": "Rust Hurricane",
+      "status": "identical"
+    },
+    {
+      "source": "レーザーパルス・ガン",
+      "english": "Laser Pulse Gun",
+      "reference": "Laser Pulse Gun",
+      "status": "identical"
+    },
+    {
+      "source": "レーザー砲",
+      "english": "Laser Cannon",
+      "reference": "Laser Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ロイヤル・オードナンスＭ１１０８　対戦車ダガー",
+      "english": "M1108 Anti-Tank Dagger",
+      "reference": "M1108 Anti-Tank Dagger",
+      "status": "identical"
+    },
+    {
+      "source": "ロギノフＢＫ－５４０　３７ｍｍライフル",
+      "english": "BK-540 37mm Rifle",
+      "reference": "BK-540 37mm Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ロケットパンチ",
+      "english": "Rocket Punch",
+      "reference": "Rocket Punch",
+      "status": "identical"
+    },
+    {
+      "source": "ロケットパンチ・コンビネーション",
+      "english": "Rocket Punch Combination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ロケットパンチ１００連発",
+      "english": "Rocket Punch 100-Shot Barrage",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ロケットランチャー",
+      "english": "Rocket Launcher",
+      "reference": "Rocket Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "ロング・ビーム・サーベル",
+      "english": "Long Beam Saber",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ロング・ライフル",
+      "english": "Long Rifle",
+      "reference": "Long Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ローリングアタック",
+      "english": "Rolling Attack",
+      "reference": "Rolling Attack",
+      "status": "identical"
+    },
+    {
+      "source": "ローリングバスターライフル",
+      "english": "Rolling Buster Rifle",
+      "reference": "Rolling Buster Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ヴァナルガンド",
+      "english": "Vanargand",
+      "reference": "Vanargand",
+      "status": "identical"
+    },
+    {
+      "source": "ヴァリス",
+      "english": "Varis",
+      "reference": "Varis",
+      "status": "identical"
+    },
+    {
+      "source": "ヴァリス・フルバーストモード",
+      "english": "Varis Full Burst Mode",
+      "reference": "Varis Full Burst Mode",
+      "status": "identical"
+    },
+    {
+      "source": "ヴァリス・フルパワー",
+      "english": "Varis Full Power",
+      "reference": "Varis Full Power",
+      "status": "identical"
+    },
+    {
+      "source": "ヴェノム・スパーク",
+      "english": "Venom Spark",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "一斉射撃",
+      "english": "Volley Fire",
+      "reference": "Volley Fire",
+      "status": "identical"
+    },
+    {
+      "source": "三位一体拳",
+      "english": "Trinity Attack",
+      "reference": "Trinity Attack",
+      "status": "identical"
+    },
+    {
+      "source": "三位一体拳（ＡＬＬ　ＴＯＧＥＴＨＥＲ　ＡＴＴＡＣＫ）",
+      "english": "ALL TOGETHER ATTACK",
+      "reference": "ALL TOGETHER ATTACK",
+      "status": "identical"
+    },
+    {
+      "source": "中口径速射インパクトキャノン",
+      "english": "Rapid-Fire Impact Cannon",
+      "reference": "Rapid-Fire Impact Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "乱舞",
+      "english": "Wild Dance",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "体当たり",
+      "english": "Ram Attack",
+      "reference": "Ram Attack",
+      "status": "identical"
+    },
+    {
+      "source": "侵食",
+      "english": "Erosion",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "倍々増殖誘導弾",
+      "english": "Multiplying Missiles",
+      "reference": "Multiplying Missiles",
+      "status": "identical"
+    },
+    {
+      "source": "倍々増殖誘導弾（ＢＹＥ－ＢＹＥ　ＭＩＳＳＩＬＥＳ）",
+      "english": "BYE-BYE MISSILES",
+      "reference": "BYE-BYE MISSILES",
+      "status": "identical"
+    },
+    {
+      "source": "偽りの黒羊",
+      "english": "Lying Black Sheep",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "傷だらけの獅子",
+      "english": "Wounded Lion",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "光の剣",
+      "english": "Sword of Light",
+      "reference": "Sword of Light",
+      "status": "identical"
+    },
+    {
+      "source": "光の矢",
+      "english": "Arrow of Light",
+      "reference": "Arrow of Light",
+      "status": "identical"
+    },
+    {
+      "source": "光子力ビーム",
+      "english": "Photon Beam",
+      "reference": "Photon Beam",
+      "status": "identical"
+    },
+    {
+      "source": "光弾",
+      "english": "Light Shot",
+      "reference": "Light Shot",
+      "status": "identical"
+    },
+    {
+      "source": "光球",
+      "english": "Light Sphere",
+      "reference": "Light Sphere",
+      "status": "identical"
+    },
+    {
+      "source": "光破剣フォルメニア",
+      "english": "Formenia Light Blade",
+      "reference": "Formenia Light Blade",
+      "status": "identical"
+    },
+    {
+      "source": "光粒子ブラスト",
+      "english": "Light Particle Blast",
+      "reference": "Light Particle Blast",
+      "status": "identical"
+    },
+    {
+      "source": "光粒子ブラスト・ワイド",
+      "english": "Light Particle Blast Wide",
+      "reference": "Light Particle Blast Wide",
+      "status": "identical"
+    },
+    {
+      "source": "光粒子ブレード",
+      "english": "Light Particle Blade",
+      "reference": "Light Particle Blade",
+      "status": "identical"
+    },
+    {
+      "source": "光粒子メーザー",
+      "english": "Light Particle Maser",
+      "reference": "Light Particle Maser",
+      "status": "identical"
+    },
+    {
+      "source": "光線",
+      "english": "Light Beam",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "全武装一斉射",
+      "english": "All Weapons Salvo",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "全艦一斉攻撃",
+      "english": "Full Fleet Barrage",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "兵隊",
+      "english": "Soldier",
+      "reference": "Soldier",
+      "status": "identical"
+    },
+    {
+      "source": "再世の光炎",
+      "english": "Blaze of Regeneration",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "冥逝孔",
+      "english": "Meiseikou",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "分離一斉攻撃",
+      "english": "Separation Barrage",
+      "reference": "Separation Barrage",
+      "status": "identical"
+    },
+    {
+      "source": "剣",
+      "english": "Sword",
+      "reference": "Sword",
+      "status": "identical"
+    },
+    {
+      "source": "剣ビーム",
+      "english": "Sword Beam",
+      "reference": "Sword Beam",
+      "status": "identical"
+    },
+    {
+      "source": "副砲",
+      "english": "Secondary Cannon",
+      "reference": "Secondary Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "勇者の怒り",
+      "english": "Wrath of the Hero",
+      "reference": "Wrath of the Hero",
+      "status": "identical"
+    },
+    {
+      "source": "単分子カッター",
+      "english": "Monomolecular Cutter",
+      "reference": "Monomolecular Cutter",
+      "status": "identical"
+    },
+    {
+      "source": "単分子カッターライフル",
+      "english": "Monomolecular Cutter Rifle",
+      "reference": "Monomolecular Cutter Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "単分子ハルバード",
+      "english": "Monomolecular Halberd",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "単装アクティブカノン",
+      "english": "Single Active Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "反応弾",
+      "english": "Reaction Missile",
+      "reference": "Reaction Missile",
+      "status": "identical"
+    },
+    {
+      "source": "可能時空軸一斉射撃",
+      "english": "Possible Spacetime Volley",
+      "reference": "Possible Spacetime Volley",
+      "status": "identical"
+    },
+    {
+      "source": "回転体当たり",
+      "english": "Spinning Ram Attack",
+      "reference": "Spinning Ram Attack",
+      "status": "identical"
+    },
+    {
+      "source": "壱発逆転拳",
+      "english": "One-Shot Reversal Fist",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "夢見る双魚",
+      "english": "Dreaming Fish",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "大出力型第２次試作自走４６０ｍｍ陽電子砲",
+      "english": "460mm Positron Cannon",
+      "reference": "460mm Positron Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "大型バジュラ射出",
+      "english": "Large Vajra Launch",
+      "reference": "Large Vajra Launch",
+      "status": "identical"
+    },
+    {
+      "source": "大型ファン",
+      "english": "Large Fan",
+      "reference": "Large Fan",
+      "status": "identical"
+    },
+    {
+      "source": "大型ミサイル",
+      "english": "Large Missile",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "大型単分子カッター",
+      "english": "Large Monomolecular Cutter",
+      "reference": "Large Monomolecular Cutter",
+      "status": "identical"
+    },
+    {
+      "source": "大雪山おろし",
+      "english": "Daisetsuzan Oroshi",
+      "reference": "Daisetsuzan Oroshi",
+      "status": "identical"
+    },
+    {
+      "source": "天より遣われし者",
+      "english": "One Sent from Heaven",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "太刀",
+      "english": "Tachi",
+      "reference": "Tachi",
+      "status": "identical"
+    },
+    {
+      "source": "太極・滅",
+      "english": "Taiji Metsu",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "太陽エネルギー解放",
+      "english": "Solar Energy Unleashed",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "太陽剣",
+      "english": "Solar Sword",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "奏聖葬送曲",
+      "english": "Trinity Requiem",
+      "reference": "Trinity Requiem",
+      "status": "identical"
+    },
+    {
+      "source": "奏聖葬送曲（ＴＲＩＮＩＴＹ　ＲＥＱＵＩＥＭ）",
+      "english": "TRINITY REQUIEM",
+      "reference": "TRINITY REQUIEM",
+      "status": "identical"
+    },
+    {
+      "source": "審判の鉄槌",
+      "english": "Hammer of Judgment",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "対戦車ダガー",
+      "english": "Anti-Tank Dagger",
+      "reference": "Anti-Tank Dagger",
+      "status": "identical"
+    },
+    {
+      "source": "対空対地機銃ターレット",
+      "english": "Anti-Air/Ground Turret",
+      "reference": "Anti-Air/Ground Turret",
+      "status": "identical"
+    },
+    {
+      "source": "対空機銃",
+      "english": "Anti-Air Machine Gun",
+      "reference": "Anti-Air Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "対空砲",
+      "english": "Anti-Air Cannon",
+      "reference": "Anti-Air Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "対艦ミサイル",
+      "english": "Anti-Ship Missile",
+      "reference": "Anti-Ship Missile",
+      "status": "identical"
+    },
+    {
+      "source": "専用ライフル",
+      "english": "Custom Rifle",
+      "reference": "Custom Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "小口径ビーム砲",
+      "english": "Small-Bore Beam Cannon",
+      "reference": "Small-Bore Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "小型バジュラ射出",
+      "english": "Small Vajra Launch",
+      "reference": "Small Vajra Launch",
+      "status": "identical"
+    },
+    {
+      "source": "小型円盤一斉攻撃",
+      "english": "Small Saucer Barrage",
+      "reference": "Small Saucer Barrage",
+      "status": "identical"
+    },
+    {
+      "source": "尸獄門",
+      "english": "Shigokumon",
+      "reference": "Shigokumon",
+      "status": "identical"
+    },
+    {
+      "source": "尽きぬ水瓶",
+      "english": "Inexhaustible Water Gourd",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "巡航ミサイル",
+      "english": "Cruise Missile",
+      "reference": "Cruise Missile",
+      "status": "identical"
+    },
+    {
+      "source": "幻影明滅拳",
+      "english": "Subliminal Punch",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "幻影明滅拳（ＳＵＢＬＩＭＩＮＡＬ　ＰＵＮＣＨ）",
+      "english": "SUBLIMINAL PUNCH",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "弓矢",
+      "english": "Bow and Arrow",
+      "reference": "Bow and Arrow",
+      "status": "identical"
+    },
+    {
+      "source": "強襲",
+      "english": "Assault",
+      "reference": "Assault",
+      "status": "identical"
+    },
+    {
+      "source": "弾丸アタック",
+      "english": "Bullet Attack",
+      "reference": "Bullet Attack",
+      "status": "identical"
+    },
+    {
+      "source": "必殺くろがね五人衆",
+      "english": "Kurogane Five Deathblow",
+      "reference": "Kurogane Five Deathblow",
+      "status": "identical"
+    },
+    {
+      "source": "怨嗟の魔蠍",
+      "english": "Resentful Scorpion",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "怪光線",
+      "english": "Mystery Beam",
+      "reference": "Mystery Beam",
+      "status": "identical"
+    },
+    {
+      "source": "悲しみの乙女",
+      "english": "Sorrowful Maiden",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "惑星投げ",
+      "english": "Planet Throw",
+      "reference": "Planet Throw",
+      "status": "identical"
+    },
+    {
+      "source": "愚者の墓標",
+      "english": "Tombstone of Fools",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "拡散ビーム",
+      "english": "Spread Beam",
+      "reference": "Spread Beam",
+      "status": "identical"
+    },
+    {
+      "source": "拡散構造相転移砲",
+      "english": "Spread Phase-Shift Cannon",
+      "reference": "Spread Phase-Shift Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "振動地雷",
+      "english": "Vibration Mine",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "揺れる天秤",
+      "english": "Swaying Scales",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "救済の光",
+      "english": "Salvation Light",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "散弾銃",
+      "english": "Shotgun",
+      "reference": "Shotgun",
+      "status": "identical"
+    },
+    {
+      "source": "断空剣",
+      "english": "Dankuuken",
+      "reference": "Dankuuken",
+      "status": "identical"
+    },
+    {
+      "source": "断空弾劾剣",
+      "english": "Dankuu Dangaiken",
+      "reference": "Dankuu Dangaiken",
+      "status": "identical"
+    },
+    {
+      "source": "断罪の黒炎",
+      "english": "Black Flame of Condemnation",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "暴走",
+      "english": "Berserk",
+      "reference": "Berserk",
+      "status": "identical"
+    },
+    {
+      "source": "月下狂詩曲",
+      "english": "Moonlight Rhapsody",
+      "reference": "Moonlight Rhapsody",
+      "status": "identical"
+    },
+    {
+      "source": "月下狂詩曲（ＭＯＯＮＬＩＧＨＴ　ＲＨＡＰＳＯＤＹ）",
+      "english": "MOONLIGHT RHAPSODY",
+      "reference": "MOONLIGHT RHAPSODY",
+      "status": "identical"
+    },
+    {
+      "source": "月下葬送曲",
+      "english": "Moonlight Requiem",
+      "reference": "Moonlight Requiem",
+      "status": "identical"
+    },
+    {
+      "source": "月下葬送曲（ＭＯＯＮＬＩＧＨＴ　ＲＥＱＵＩＥＭ）",
+      "english": "MOONLIGHT REQUIEM",
+      "reference": "MOONLIGHT REQUIEM",
+      "status": "identical"
+    },
+    {
+      "source": "月光蝶",
+      "english": "Moonlight Butterfly",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "有線サイコミュ式メガ・アーム砲",
+      "english": "Psycommu Mega Arm Cannon",
+      "reference": "Psycommu Mega Arm Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "格闘",
+      "english": "Melee",
+      "reference": "Melee",
+      "status": "identical"
+    },
+    {
+      "source": "槍",
+      "english": "Spear",
+      "reference": "Spear",
+      "status": "identical"
+    },
+    {
+      "source": "槍状弾",
+      "english": "Spear Shot",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "機銃",
+      "english": "Machine Gun",
+      "reference": "Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "機銃ターレット",
+      "english": "Machine Gun Turret",
+      "reference": "Machine Gun Turret",
+      "status": "identical"
+    },
+    {
+      "source": "機関砲",
+      "english": "Autocannon",
+      "reference": "Autocannon",
+      "status": "identical"
+    },
+    {
+      "source": "次元隧道弾",
+      "english": "Dimension Tunnel Shell",
+      "reference": "Dimension Tunnel Shell",
+      "status": "identical"
+    },
+    {
+      "source": "次元隧道弾（ＴＵＮＮＥＬ　ＢＵＬＬＥＴ）",
+      "english": "TUNNEL BULLET",
+      "reference": "TUNNEL BULLET",
+      "status": "identical"
+    },
+    {
+      "source": "欲深な金牛",
+      "english": "Covetous Golden Ox",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "武装一斉攻撃",
+      "english": "All Weapons Barrage",
+      "reference": "All Weapons Barrage",
+      "status": "identical"
+    },
+    {
+      "source": "死の光",
+      "english": "Light of Death",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "沈黙の巨蟹",
+      "english": "Taciturn Crab",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "火炎",
+      "english": "Flame",
+      "reference": "Flame",
+      "status": "identical"
+    },
+    {
+      "source": "灼熱ビーム",
+      "english": "Scorching Beam",
+      "reference": "Scorching Beam",
+      "status": "identical"
+    },
+    {
+      "source": "無敵コンビネーション",
+      "english": "Invincible Combination",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "無限交差拳",
+      "english": "Infinity Cross Punch",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "無限拳",
+      "english": "Infinity Punch",
+      "reference": "Mugen Attack",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "無限芭蕉実拳",
+      "english": "Cluster Infinity Punch",
+      "reference": "Cluster Mugen Attack",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "無限芭蕉実拳（ＣＬＵＳＴＥＲ　ＭＵＧＥＮ　ＡＴＴＡＣＫ）",
+      "english": "Cluster Infinity Punch",
+      "reference": "CLUSTER MUGEN ATTACK",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "生体ミサイル",
+      "english": "Bio Missile",
+      "reference": "Bio Missile",
+      "status": "identical"
+    },
+    {
+      "source": "生体重ビーム砲",
+      "english": "Bio Heavy Beam Cannon",
+      "reference": "Bio Heavy Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "相克・極",
+      "english": "Soukoku Kiwami",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "真ゲッターチェンジアタック",
+      "english": "Shin Getter Change Attack",
+      "reference": "Shin Getter Change Attack",
+      "status": "identical"
+    },
+    {
+      "source": "真シャインスパーク",
+      "english": "Shin Shine Spark",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "知りたがる山羊",
+      "english": "Truth-Seeking Goat",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "砲撃",
+      "english": "Bombardment",
+      "reference": "Bombardment",
+      "status": "identical"
+    },
+    {
+      "source": "破壊光線",
+      "english": "Destruction Beam",
+      "reference": "Destruction Beam",
+      "status": "identical"
+    },
+    {
+      "source": "破界の業火",
+      "english": "Hellfire of Destruction",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "確率変動弾",
+      "english": "Probability Shift Shell",
+      "reference": "Probability Shift Shell",
+      "status": "identical"
+    },
+    {
+      "source": "神来無限掌",
+      "english": "Divine Infinity Palm",
+      "reference": "Infinite Palm of the Buddha",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "神来無限掌（ＩＮＦＩＮＩＴＥ　ＰＡＬＭ　ＯＦ　ＴＨＥ　ＢＵＤＤＨＡ）",
+      "english": "INFINITE PALM OF THE BUDDHA",
+      "reference": "INFINITE PALM OF THE BUDDHA",
+      "status": "identical"
+    },
+    {
+      "source": "空対空ミサイル",
+      "english": "Air-to-Air Missile",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "空間断絶砲",
+      "english": "Space Severing Cannon",
+      "reference": "Space Severing Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "突撃",
+      "english": "Charge",
+      "reference": "Charge",
+      "status": "identical"
+    },
+    {
+      "source": "突撃ラブハート",
+      "english": "TOTSUGEKI LOVE HEART",
+      "reference": "TOTSUGEKI LOVE HEART",
+      "status": "identical"
+    },
+    {
+      "source": "突進",
+      "english": "Rush",
+      "reference": "Rush",
+      "status": "identical"
+    },
+    {
+      "source": "立ち上がる射手",
+      "english": "Standing Archer",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "統合戦術通信管制システム",
+      "english": "Integrated Tactical Comms System",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "総攻撃",
+      "english": "All-Out Attack",
+      "reference": "All-Out Attack",
+      "status": "identical"
+    },
+    {
+      "source": "胸部メガ粒子砲",
+      "english": "Chest Mega Particle Cannon",
+      "reference": "Chest Mega Particle Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "腕部分離攻撃",
+      "english": "Arm Separation Attack",
+      "reference": "Arm Separation Attack",
+      "status": "identical"
+    },
+    {
+      "source": "葬爪",
+      "english": "Funeral Claw",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "葬爪・絶",
+      "english": "Funeral Claw Zetsu",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "衝撃破",
+      "english": "Shockwave",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "角",
+      "english": "Horn",
+      "reference": "Horn",
+      "status": "identical"
+    },
+    {
+      "source": "触愛・天翔突",
+      "english": "Flying Love Attack",
+      "reference": "Flying Love Attack",
+      "status": "identical"
+    },
+    {
+      "source": "触愛・天翔突（ＦＬＹＩＮＧ　ＬＯＶＥ　ＡＴＴＡＣＫ）",
+      "english": "FLYING LOVE ATTACK",
+      "reference": "FLYING LOVE ATTACK",
+      "status": "identical"
+    },
+    {
+      "source": "触手",
+      "english": "Tentacle",
+      "reference": "Tentacle",
+      "status": "identical"
+    },
+    {
+      "source": "贖罪の恩寵",
+      "english": "Grace of Atonement",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "超天元突破ギガドリルブレイク",
+      "english": "Tengen Toppa Giga Drill Break",
+      "reference": "Tengen Toppa Giga Drill Break",
+      "status": "identical"
+    },
+    {
+      "source": "超天元突破ダイグレン攻撃",
+      "english": "Tengen Toppa Dai-Gurren",
+      "reference": "Tengen Toppa Dai-Gurren",
+      "status": "identical"
+    },
+    {
+      "source": "超天元突破大グレン団",
+      "english": "Dai-Gurren Brigade",
+      "reference": "Dai-Gurren Brigade",
+      "status": "identical"
+    },
+    {
+      "source": "超天死神光",
+      "english": "Super Heaven Reaper Light",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "超天死神雷",
+      "english": "Super Heaven Reaper Thunder",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "超時空無限拳",
+      "english": "Super Dimension Infinity Punch",
+      "reference": "Super Dimension Mugen Attack",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "超時空無限拳（Ｓｕｐｅｒ　Ｄｉｍｅｎｓｉｏｎａｌ　ＭＵＧＥＮ　ＡＴＴＡＣＫ）",
+      "english": "Super Dimension Infinity Punch",
+      "reference": "Super Dimensional MUGEN ATTACK",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "超次元転移砲",
+      "english": "Hyperdimensional Transfer Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "超精密狙撃",
+      "english": "Ultra-Precision Sniping",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "超銀河ギガドリルブレイク",
+      "english": "Super Galaxy Giga Drill Break",
+      "reference": "Space Galaxy Giga Drill Break",
+      "status": "reviewed-meaning-exception"
+    },
+    {
+      "source": "超長距離ライフル",
+      "english": "Ultra Long-Range Rifle",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "超電磁洋弓銃",
+      "english": "Super EM Crossbow",
+      "reference": "Super EM Crossbow",
+      "status": "identical"
+    },
+    {
+      "source": "輪廻の福音",
+      "english": "Gospel of Samsara",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "輻射波動機構",
+      "english": "Radiant Wave Surger",
+      "reference": "Radiant Wave Surger",
+      "status": "identical"
+    },
+    {
+      "source": "輻射波動機構（ワイド）",
+      "english": "Radiant Wave Surger (Wide)",
+      "reference": "Radiant Wave Surger (Wide)",
+      "status": "identical"
+    },
+    {
+      "source": "輻射波動機構（光輪）",
+      "english": "Radiant Wave Surger (Halo)",
+      "reference": "Radiant Wave Surger (Halo)",
+      "status": "identical"
+    },
+    {
+      "source": "速射バスターキャノン",
+      "english": "Rapid-Fire Buster Cannon",
+      "reference": "Rapid-Fire Buster Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "速射バスターキャノン　重量子反応砲モード",
+      "english": "Buster Cannon: Quantum Mode",
+      "reference": "Buster Cannon: Quantum Mode",
+      "status": "identical"
+    },
+    {
+      "source": "連続射撃",
+      "english": "Rapid Fire",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "連続攻撃",
+      "english": "Combo Attack",
+      "reference": "Combo Attack",
+      "status": "identical"
+    },
+    {
+      "source": "連続格闘",
+      "english": "Melee Combo",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "邪糾拳",
+      "english": "No Guard Attack",
+      "reference": "No Guard Attack",
+      "status": "identical"
+    },
+    {
+      "source": "邪糾拳（ＮＯ　ＧＵＡＲＤ　ＡＴＴＡＣＫ）",
+      "english": "NO GUARD ATTACK",
+      "reference": "NO GUARD ATTACK",
+      "status": "identical"
+    },
+    {
+      "source": "重力場異常",
+      "english": "Gravity Field Anomaly",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "重力攻撃",
+      "english": "Gravity Attack",
+      "reference": "Gravity Attack",
+      "status": "identical"
+    },
+    {
+      "source": "重量子ビームガンポッド",
+      "english": "Heavy Quantum Beam Gun Pod",
+      "reference": "Heavy Quantum Beam Gun Pod",
+      "status": "identical"
+    },
+    {
+      "source": "重量子ビームガンポッド・バースト",
+      "english": "Heavy Quantum Beam Gun Pod Burst",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "重量子ビームガンポッド・バーストモード",
+      "english": "Heavy Quantum Beam Gun Pod Burst Mode",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "鉄人フルパワー",
+      "english": "Tetsujin Full Power",
+      "reference": "Tetsujin Full Power",
+      "status": "identical"
+    },
+    {
+      "source": "鉄拳",
+      "english": "Iron Fist",
+      "reference": "Iron Fist",
+      "status": "identical"
+    },
+    {
+      "source": "鉄球",
+      "english": "Iron Ball",
+      "reference": "Iron Ball",
+      "status": "identical"
+    },
+    {
+      "source": "鎌",
+      "english": "Scythe",
+      "reference": "Scythe",
+      "status": "identical"
+    },
+    {
+      "source": "防御ユニット（近距離）",
+      "english": "Defense Unit (Close Range)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "防御ユニット（遠距離）",
+      "english": "Defense Unit (Long Range)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "陽電子砲",
+      "english": "Positron Cannon",
+      "reference": "Positron Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "電撃",
+      "english": "Electric Shock",
+      "reference": "Electric Shock",
+      "status": "identical"
+    },
+    {
+      "source": "電磁光線",
+      "english": "Electromagnetic Beam",
+      "reference": "Electromagnetic Beam",
+      "status": "identical"
+    },
+    {
+      "source": "霊鳴",
+      "english": "Reimei",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "頭部ゲッタービーム",
+      "english": "Head Getter Beam",
+      "reference": "Head Getter Beam",
+      "status": "identical"
+    },
+    {
+      "source": "骸怨",
+      "english": "Gaien",
+      "reference": "Gaien",
+      "status": "identical"
+    },
+    {
+      "source": "高エネルギービームライフル",
+      "english": "High-Energy Beam Rifle",
+      "reference": "High-Energy Beam Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "高エネルギービームライフル連射",
+      "english": "High-Energy Beam Rifle Rapid Fire",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "高エネルギー長射程ビーム砲",
+      "english": "Long-Range Beam Cannon",
+      "reference": "Long-Range Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "高機動攻撃",
+      "english": "High-Mobility Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "鬼光衝",
+      "english": "Kikoushou",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "（ドゥーズミーユ）",
+      "english": "(Douze-Mille)",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "１２．７ｍｍガトリングガン",
+      "english": "12.7mm Gatling Gun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "１２．７ｍｍチェーンガン",
+      "english": "12.7mm Chain Gun",
+      "reference": "12.7mm Chain Gun",
+      "status": "identical"
+    },
+    {
+      "source": "１４．５ｍｍ機関砲",
+      "english": "14.5mm Autocannon",
+      "reference": "14.5mm Autocannon",
+      "status": "identical"
+    },
+    {
+      "source": "１７．５ｍｍＣＩＷＳ",
+      "english": "17.5mm CIWS",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "２０ｍｍガトリング砲ゼーロス",
+      "english": "20mm Gatling Cannon Zeros",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "２５ｍｍビーム機関砲",
+      "english": "25mm Beam Autocannon",
+      "reference": "25mm Beam Autocannon",
+      "status": "identical"
+    },
+    {
+      "source": "２５ｍｍ機銃",
+      "english": "25mm Machine Gun",
+      "reference": "25mm Machine Gun",
+      "status": "identical"
+    },
+    {
+      "source": "３連装ガトリング式バスターキャノン",
+      "english": "Triple Gatling Buster Cannon",
+      "reference": "Triple Gatling Buster Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "３連装ビーム・ガン",
+      "english": "Triple Beam Gun",
+      "reference": "Triple Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "３連装ロケット・ランチャー",
+      "english": "Triple Rocket Launcher",
+      "reference": "Triple Rocket Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "３連装生体重量子ビーム砲",
+      "english": "Triple Bio Quantum Cannon",
+      "reference": "Triple Bio Quantum Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "３０ｍｍ機関砲",
+      "english": "30mm Autocannon",
+      "reference": "30mm Autocannon",
+      "status": "identical"
+    },
+    {
+      "source": "３１ミリ近接防御機関砲",
+      "english": "31mm CIWS",
+      "reference": "31mm CIWS",
+      "status": "identical"
+    },
+    {
+      "source": "３５ｍｍライフル",
+      "english": "35mm Rifle",
+      "reference": "35mm Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "３５ｍｍ重機関砲",
+      "english": "35mm Heavy Autocannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "３７ｍｍライフル",
+      "english": "37mm Rifle",
+      "reference": "37mm Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "４砲身型重量子砲",
+      "english": "4-Barrel Quantum Cannon",
+      "reference": "4-Barrel Quantum Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "４連装メガ粒子砲",
+      "english": "Quad Mega Particle Cannon",
+      "reference": "Quad Mega Particle Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "４０ｍｍアサルト・ライフル",
+      "english": "40mm Assault Rifle",
+      "reference": "40mm Assault Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "４０ｍｍ機関砲",
+      "english": "40mm Autocannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "５７ｍｍ散弾砲ボクサー",
+      "english": "57mm Shot Cannon Boxer",
+      "reference": "57mm Shot Cannon Boxer",
+      "status": "identical"
+    },
+    {
+      "source": "７６ｍｍ散弾砲ボクサー２",
+      "english": "76mm Shot Cannon Boxer 2",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "９０ｍｍ機関砲",
+      "english": "90mm Autocannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "？？？",
+      "english": "???",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＡＭ１１　１２．７ｍｍチェーンガン",
+      "english": "AM11 12.7mm Chain Gun",
+      "reference": "AM11 12.7mm Chain Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ＡＳマーシャルアーツ",
+      "english": "AS Martial Arts",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＡＳ用対物狙撃銃",
+      "english": "AS Anti-Materiel Rifle",
+      "reference": "AS Anti-Materiel Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "Ｄソリッドパニッシャー",
+      "english": "D Solid Punisher",
+      "reference": "D Solid Punisher",
+      "status": "identical"
+    },
+    {
+      "source": "ＤＥＣインパルスカノン",
+      "english": "DEC Impulse Cannon",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＤＹＮＡＭＩＴＥ　ＥＸＰＬＯＳＩＯＮ",
+      "english": "DYNAMITE EXPLOSION",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＥＬＳ一斉攻撃",
+      "english": "ELS Barrage",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＥＭダガー",
+      "english": "EM Dagger",
+      "reference": "EM Dagger",
+      "status": "identical"
+    },
+    {
+      "source": "ＥＭ－２２６　エヴァンゲリオン専用携帯型回転式多砲身４４０ｍｍ機関砲",
+      "english": "EM-226 440mm Gatling Gun",
+      "reference": "EM-226 440mm Gatling Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ＥＱＦＵ－３Ｘ　スーパードラグーン機動兵装ウイング",
+      "english": "EQFU-3X Super DRAGOON",
+      "reference": "EQFU-3X Super DRAGOON",
+      "status": "identical"
+    },
+    {
+      "source": "Ｇディメンション・リベレーター",
+      "english": "G-Dimension Liberator",
+      "reference": "G-Dimension Liberator",
+      "status": "identical"
+    },
+    {
+      "source": "Ｇファルコン連携攻撃",
+      "english": "G-Falcon Link Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "Ｇ・ＢＡＴＭ－０４　カタパルトランチャー",
+      "english": "G-BATM-04 Catapult Launcher",
+      "reference": "G-BATM-04 Catapult Launcher",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＡＴ－２２　ヘビィマシンガン",
+      "english": "GAT-22 Heavy Machinegun",
+      "reference": "GAT-22 Heavy Machinegun",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＡＴ－２２－Ｃ　ヘビィマシンガン改",
+      "english": "GAT-22-C Heavy Machinegun Kai",
+      "reference": "GAT-22-C Heavy Machinegun Kai",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＡＵ－１９／Ｓ　１２．７ｍｍガトリングガン",
+      "english": "GAU-19/S 12.7mm Gatling Gun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＧＥＣ－Ｂ　４０ｍｍアサルト・ライフル",
+      "english": "GEC-B 40mm Assault Rifle",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＧＮキャノン",
+      "english": "GN Cannon",
+      "reference": "GN Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮクロー",
+      "english": "GN Claw",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＧＮソードⅢ",
+      "english": "GN Sword III",
+      "reference": "GN Sword III",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮソードⅢ・ライフルモード",
+      "english": "GN Sword III Rifle Mode",
+      "reference": "GN Sword III Rifle Mode",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮソードⅤ",
+      "english": "GN Sword V",
+      "reference": "GN Sword V",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮソードⅤ・ライフルモード",
+      "english": "GN Sword V Rifle Mode",
+      "reference": "GN Sword V Rifle Mode",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮソードビット",
+      "english": "GN Sword Bit",
+      "reference": "GN Sword Bit",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮソードライフル",
+      "english": "GN Sword Rifle",
+      "reference": "GN Sword Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮソードライフル（斬撃）",
+      "english": "GN Sword Rifle (Slash)",
+      "reference": "GN Sword Rifle (Slash)",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮバズーカ",
+      "english": "GN Bazooka",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＧＮビッグキャノン",
+      "english": "GN Big Cannon",
+      "reference": "GN Big Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮビームガン",
+      "english": "GN Beam Gun",
+      "reference": "GN Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮビームサーベル",
+      "english": "GN Beam Saber",
+      "reference": "GN Beam Saber",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮビームライフル",
+      "english": "GN Beam Rifle",
+      "reference": "GN Beam Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮピストルビット",
+      "english": "GN Pistol Bit",
+      "reference": "GN Pistol Bit",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮミサイル",
+      "english": "GN Missile",
+      "reference": "GN Missile",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮライフルビットⅡ",
+      "english": "GN Rifle Bit II",
+      "reference": "GN Rifle Bit II",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＮライフルビットⅡ（乱れ撃ち）",
+      "english": "GN Rifle Bit II (Scatter)",
+      "reference": "GN Rifle Bit II (Scatter)",
+      "status": "identical"
+    },
+    {
+      "source": "ＧＳコンバット・アクション",
+      "english": "GS Combat Action",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＨＥＡＴハンマー",
+      "english": "HEAT Hammer",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＨＲＡＴ－３０　ハンディロケットガン",
+      "english": "HRAT-30 Handy Rocket Gun",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＩＡＩ“クリムゾン・エッジ”単分子カッター",
+      "english": "IAI 'Crimson Edge' Cutter",
+      "reference": "IAI 'Crimson Edge' Cutter",
+      "status": "identical"
+    },
+    {
+      "source": "ＩＳＣマニューバ",
+      "english": "ISC Maneuver",
+      "reference": "ISC Maneuver",
+      "status": "identical"
+    },
+    {
+      "source": "ＩＳＣマニューバ・オーバードライブ",
+      "english": "ISC Maneuver Overdrive",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "Ｍ２０００ＧＸ　高エネルギー長射程ビーム砲",
+      "english": "M2000GX Long-Range Beam Gun",
+      "reference": "M2000GX Long-Range Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＡ－ＢＡＲ７３／Ｓ　高エネルギービームライフル",
+      "english": "MA-BAR73/S Beam Rifle",
+      "reference": "MA-BAR73/S Beam Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＡ－Ｍ０２Ｇ　シュペールラケルタ",
+      "english": "MA-M02G Super Lacerta",
+      "reference": "MA-M02G Super Lacerta",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＡ－Ｍ２１ＫＦ　高エネルギービームライフル",
+      "english": "MA-M21KF Beam Rifle",
+      "reference": "MA-M21KF Beam Rifle",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＤＥビーム砲",
+      "english": "MDE Beam Cannon",
+      "reference": "MDE Beam Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＤＥ弾",
+      "english": "MDE Shell",
+      "reference": "MDE Shell",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＤＱミサイル",
+      "english": "MDQ Missile",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＭＧＸ－２２３５　カリドゥス複相ビーム砲",
+      "english": "MGX-2235 Callidus Cannon",
+      "reference": "MGX-2235 Callidus Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＭＩ－７１４　アロンダイトビームソード",
+      "english": "MMI-714 Arondight",
+      "reference": "MMI-714 Arondight",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＭＩ－ＧＡＵ２６　１７．５ｍｍＣＩＷＳ",
+      "english": "MMI-GAU26 17.5mm CIWS",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＭＭＩ－ＧＡＵ２７Ｄ　３１ミリ近接防御機関砲",
+      "english": "MMI-GAU27D 31mm CIWS",
+      "reference": "MMI-GAU27D 31mm CIWS",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＶＳ",
+      "english": "MVS",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＭＶＳ二刀流",
+      "english": "MVS Dual Wield",
+      "reference": "MVS Dual Wield",
+      "status": "identical"
+    },
+    {
+      "source": "ＭＹ　ＦＲＩＥＮＤＳ",
+      "english": "MY FRIENDS",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "Ｍｋ４８ＡＤＣＡＰ魚雷",
+      "english": "Mk48 ADCAP Torpedo",
+      "reference": "Mk48 ADCAP Torpedo",
+      "status": "identical"
+    },
+    {
+      "source": "ＮＴ－Ｄ覚醒攻撃",
+      "english": "NT-D Awakening Attack",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＮＴ－Ｄ連続攻撃",
+      "english": "NT-D Combo Attack",
+      "reference": "NT-D Combo Attack",
+      "status": "identical"
+    },
+    {
+      "source": "Ｏサンダー",
+      "english": "O Thunder",
+      "reference": "O Thunder",
+      "status": "identical"
+    },
+    {
+      "source": "ＯＴＯメララ“ボクサー”５７ｍｍ散弾砲",
+      "english": "OTO Melara 'Boxer' 57mm",
+      "reference": "OTO Melara 'Boxer' 57mm",
+      "status": "identical"
+    },
+    {
+      "source": "ＯＴＯメララ“ボクサー２”７６ｍｍ散弾砲",
+      "english": "OTO Melara 'Boxer 2' 76mm",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＰＬＡＮＥＴ　ＤＡＮＣＥ",
+      "english": "PLANET DANCE",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＰＯＷＥＲ　ＴＯ　ＴＨＥ　ＤＲＥＡＭ",
+      "english": "POWER TO THE DREAM",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＱＦ－４０００ゴースト",
+      "english": "QF-4000 Ghost",
+      "reference": "QF-4000 Ghost",
+      "status": "identical"
+    },
+    {
+      "source": "ＲＡＰＴＯＲショット",
+      "english": "RAPTOR Shot",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＲＱＭ６０Ｆ　フラッシュエッジ２ビームブーメラン",
+      "english": "RQM60F Flash Edge 2",
+      "reference": "RQM60F Flash Edge 2",
+      "status": "identical"
+    },
+    {
+      "source": "ＳＡＴ－０３　ソリッドシューター",
+      "english": "SAT-03 Solid Shooter",
+      "reference": "SAT-03 Solid Shooter",
+      "status": "identical"
+    },
+    {
+      "source": "ＳＰＩＧＯＴ－ＶＸＭ",
+      "english": "SPIGOT-VXM",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＳＳＬ－９Ｂドラグノフ・アンチ・マテリアル・スナイパーライフル",
+      "english": "SSL-9B Dragunov",
+      "reference": "SSL-9B Dragunov",
+      "status": "identical"
+    },
+    {
+      "source": "ＳＳＬ－９Ｂドラグノフ・アンチ・マテリアル・スナイパーライフル（精密射撃）",
+      "english": "SSL-9B Dragunov (Precision)",
+      "reference": "SSL-9B Dragunov (Precision)",
+      "status": "identical"
+    },
+    {
+      "source": "ＳｔＧ－３ｂ　シュトゥルムゲベール",
+      "english": "StG-3b Sturmgewehr",
+      "reference": "StG-3b Sturmgewehr",
+      "status": "identical"
+    },
+    {
+      "source": "ＳｔＧ－５Ａ　シュトゥルムゲベール改",
+      "english": "StG-5A Sturmgewehr Kai",
+      "reference": "StG-5A Sturmgewehr Kai",
+      "status": "identical"
+    },
+    {
+      "source": "ＴＲＹ　ＡＧＡＩＮ",
+      "english": "TRY AGAIN",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "ＴＷ１－ＭＤＥ／Ｍ２５　旋回式連装ビーム砲",
+      "english": "TW1-MDE/M25 Twin Beam Gun",
+      "reference": "TW1-MDE/M25 Twin Beam Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ＴＷ２－ＭＤＥ／Ｍ２５　隠頭式連装ＭＤＥビーム砲",
+      "english": "TW2-MDE/M25 Twin MDE Gun",
+      "reference": "TW2-MDE/M25 Twin MDE Gun",
+      "status": "identical"
+    },
+    {
+      "source": "ＶＸクラスター",
+      "english": "VX Cluster",
+      "reference": null,
+      "status": "unique-to-tengoku"
+    },
+    {
+      "source": "Ｗキャノン",
+      "english": "W Cannon",
+      "reference": "W Cannon",
+      "status": "identical"
+    },
+    {
+      "source": "Ｗブーメランスパイラル",
+      "english": "W Boomerang Spiral",
+      "reference": "W Boomerang Spiral",
+      "status": "identical"
+    },
+    {
+      "source": "Ｚカッター",
+      "english": "Z Cutter",
+      "reference": "Z Cutter",
+      "status": "identical"
+    }
+  ],
+  "runtime_verified": false
+}

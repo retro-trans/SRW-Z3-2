@@ -16,12 +16,14 @@ READERS = (
 FULL_SURNAME_RETURNS = (0x1fb484,0x1fb718)
 CONSUMER = (0x1fb2b8,0x1fb740)
 CONSUMER_SHA = '224acc7708834b6144d392f4a6154ce0cc2c0bfd9951c7ea2842c67f841d9584'
+SEPARATOR=(0x1fba2c,0x8062c3c4)
 
 
 def plan(elf,mapping):
     if sha256(elf)!=vwf.ELF_SHA256:
         raise ValueError('Name readers require the verified Tengoku baseline')
     payloads = [('name:'+en,eboot_text.encode(en,mapping)+b'\0') for en in ('Hibiki','Kamishiro','K.')]
+    payloads += [('name:separator',eboot_text.encode(' ',mapping)+b'\0')]
     return dict(payloads=payloads)
 
 
@@ -71,6 +73,21 @@ def stub(reader,addresses):
     return b''.join(struct.pack('>I',w) for w in words)
 
 
+def separator_stub(addresses):
+    """Use a space for the two translated defaults; preserve custom-name style."""
+    words=[SEPARATOR[1],0x7d800026];fix=[]
+    def emit(w):words.append(w)
+    def d(op,r,b,off):emit(op|r<<21|b<<16|(off&65535))
+    for off,jp in ((-0x3c68,'ヒビキ'),(-0x3c64,'カミシロ')):
+        d(0x80000000,9,2,off);d(0x2c000000,0,9,0);fix.append((len(words),0x41820000));emit(0)
+        for n,b in enumerate(jp.encode('cp932')+b'\0'):
+            d(0x88000000,0,9,n);d(0x2c000000,0,0,b);fix.append((len(words),0x40820000));emit(0)
+    va=addresses['name:separator'];d(0x3c000000,3,0,va>>16);emit(0x60630000|(va&65535))
+    end=len(words);emit(0x7d8ff120);emit(0x4e800020)
+    for n,op in fix:words[n]=op|((end-n)*4&65535)
+    return b''.join(struct.pack('>I',w)for w in words)
+
+
 def apply(elf,planned,addresses):
     phoff,_,phs,_ = ui_hook._headers(elf)
     first,second = phs[:2]
@@ -101,6 +118,13 @@ def apply(elf,planned,addresses):
         ranges += [(cursor,end),(offset,offset+4)]
         stubs.append(dict(site=site,stub_va=va,bytes=len(code),english=en))
         cursor = (end+15)&~15
+    site,original=SEPARATOR
+    if read(site,8)!=struct.pack('>II',original,0x4e800020):raise ValueError('Full-name separator getter changed')
+    code=separator_stub(addresses);end=cursor+len(code);va=cursor+first[3]
+    if end>second[2]or any(elf[cursor:end]):raise ValueError('Separator executable gap occupied')
+    out[cursor:end]=code;offset=site-first[3];struct.pack_into('>I',out,offset,ui_hook.branch(site,va))
+    ranges += [(cursor,end),(offset,offset+4)]
+    separator=dict(site=site,stub_va=va,bytes=len(code),custom_names_preserved=True)
     struct.pack_into('>QQ',out,phoff+32,end,end)
     ranges.append((phoff+32,phoff+48))
     restored = bytearray(out)
@@ -108,6 +132,6 @@ def apply(elf,planned,addresses):
         restored[a:b] = elf[a:b]
     if restored!=elf:
         raise ValueError('Runtime-name patch changed unrelated bytes')
-    return bytes(out),dict(readers=stubs,consumer_sha256=CONSUMER_SHA,
+    return bytes(out),dict(readers=stubs,separator=separator,consumer_sha256=CONSUMER_SHA,
         modified_file_ranges=ranges,save_buffers_modified=False,
         full_name_capacity=41,long_custom_nickname_surname='K.',runtime_verified=False)

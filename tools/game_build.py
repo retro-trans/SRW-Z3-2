@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.25'
+VERSION = '0.5.26'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -78,6 +78,9 @@ def plan(settings):
     tokens |= ui_catalog.characters()
     from tools import upgrade_messages
     tokens |= upgrade_messages.characters()
+    from tools import review26_messages
+    tokens |= review26_messages.characters()
+    tokens.update(' Lv 0123456789')
     from tools import review21_layout
     for edit in review21_layout.plan()['edits']:tokens.update(edit['en'].replace('\n',''))
     from tools import review22_layout,native_labels
@@ -191,7 +194,8 @@ def plan(settings):
     hook_entries += operation_layout.hook_entries(elf,mapping)
     upgrade_entries=upgrade_messages.hook_entries(elf,mapping)
     mission_entries=mission_display.hook_entries(elf,mission,mapping)
-    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries}.values())
+    review26_entries=review26_messages.hook_entries(elf,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -262,6 +266,7 @@ def plan(settings):
     from tools import trophy_text
     trophy,trophy_report=trophy_text.build()
     summary = {'schema': 3, 'version': VERSION, 'title_id': 'BLJS10299', 'encoding': 'vwf',
+               'review26_messages':dict(report_strings=24,report_occurrences=99,hook_keys=len(review26_entries)),
                'upgrade_messages':dict(conditions=23,item_announcements=24,bonus_choices=9,hook_keys=len(upgrade_entries)),
                'trophies':trophy_report,
                'spirit_occurrences': len(edits), 'library_entries': {k: len(v) for k, v in members.items()},

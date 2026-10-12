@@ -5,6 +5,25 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.26 - 2026-10-12 (prepared; publication requires consent)
+
+- Translate all 22 player-facing GIFT reports across 97 stage occurrences:
+  command unlocks, item/unit grants, AG bonuses, refunds and Lecture Plates.
+  Cover the two developer test notices separately; preserve reward parameters.
+- Replace the middle dot with an English space in the default Hibiki Kamishiro
+  full-name assembly. Preserve custom names, native consumer and savedata.
+- Translate assembled skill-level requirements, including Newtype Lv 2,
+  without changing the required skill or level.
+- Confirm the complete Episode 13 SR condition through the earlier static
+  mission-copy fix: defeat the other enemies and lower Shiseiten's HP to
+  99,999 or less within four turns.
+- Compare all 686 full weapon names and 606 list names with the sibling SRW Z3
+  project. Expand 75 fitting list names, including Radiant Wave Surger. Retain
+  seven width-bound abbreviations and eight reviewed full-name differences.
+- Carry all unpublished 0.5.19–0.5.25 fixes into original-game and public
+  0.5.18 patch routes. Publishing 0.5.26 requires explicit consent.
+- Regression checks: 279 tests passed, with two optional tests skipped.
+
 ## 0.5.25 - 2026-10-12 (prepared; publication requires consent)
 
 - Space and center all seven Gargantia fleet commander's room captions using

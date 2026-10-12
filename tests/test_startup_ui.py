@@ -68,7 +68,7 @@ class NameReaderTests(unittest.TestCase):
     def test_actual_patch_readback_isolation_and_guard_rejection(self):
         from tools import vwf
         source = (ROOT/'work/tengoku/prepared/EBOOT.elf').read_bytes()
-        mapping = {c:fw(c).hex() for c in 'HibikiKamishiroK.'}
+        mapping = {c:fw(c).hex() for c in 'HibikiKamishiroK. '}
         plan = runtime_names.plan(source,mapping)
         executable,_ = vwf.patch(source,{})
         hooked,report = ui_hook.hook(executable,[dict(id='test',key='隊'.encode('cp932'),english=fw('Team'))],

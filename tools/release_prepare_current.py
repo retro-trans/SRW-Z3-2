@@ -184,7 +184,9 @@ and size; keep checksum checks enabled. Game images are not distributed.
 - Patched {version} ISO: {image['bytes']:,} bytes;
   SHA-256 `{image['sha256']}`.
 
-## Included
+## What changed since last version
+
+Compared with public **{a.upgrade_from}**, the previous public release:
 
 {upgrade_notes}
 - Shorter Link question and PP bonus labels, preserving counts and totals.
@@ -193,15 +195,6 @@ and size; keep checksum checks enabled. Game images are not distributed.
 - Compact Library Name caption, aligned SR Point award layers and a single
   highlighted bonus amount with its separate English prefix.
 - English world-map domination caption; percentage digits and animation retained.
-- English UI, menu/help wrapping and alignment, full Library descriptions,
-  scenario chart, English title logo, retro-trans credit and version footer.
-- All 197 narration records, 104 ordinary stage title variants, 83 terrain
-  names, assembled Spirit targets and default-name mission conditions.
-- Focus/Foc terminology, native outlined fonts, readable stat/training labels,
-  compact Spirit indicators, and the enemy band's English slash between Fy and Di.
-- Native caption fallback repair for stray kanji over names/blank labels.
-- All 63,553 fresh dialogue records and {build['battle_voice']['voice_strings']:,}
-  battle-voice strings retained from the previous public release.
 
 ## Verification and compatibility
 

@@ -27,6 +27,9 @@
   asset sizes and SHA-256 digests against the validated local files; retain
   RPCS3 playtest limitations. Verify the successful scoped Retro Trans catalog
   refresh and both direct Automatic / Latest routes to 0.5.28.
+- Revise the public release notes to “What changed since last version,” using
+  public 0.5.18 as the baseline and removing unchanged features already shipped.
+  Apply the same format to release preparation guidance and the note template.
 
 ## 0.5.27 - 2026-10-13 (prepared; publication requires consent)
 

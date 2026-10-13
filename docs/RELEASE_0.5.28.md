@@ -22,7 +22,9 @@ and size; keep checksum checks enabled. Game images are not distributed.
 - Patched 0.5.28 ISO: 5,288,361,984 bytes;
   SHA-256 `25cde8ca3973a4ab7196380b8bd75dde582d45e61832a5fb08927a8008bb3a24`.
 
-## Included
+## What changed since last version
+
+Compared with public **0.5.18**, the previous public release:
 
 - Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
@@ -92,15 +94,6 @@ and size; keep checksum checks enabled. Game images are not distributed.
 - Compact Library Name caption, aligned SR Point award layers and a single
   highlighted bonus amount with its separate English prefix.
 - English world-map domination caption; percentage digits and animation retained.
-- English UI, menu/help wrapping and alignment, full Library descriptions,
-  scenario chart, English title logo, retro-trans credit and version footer.
-- All 197 narration records, 104 ordinary stage title variants, 83 terrain
-  names, assembled Spirit targets and default-name mission conditions.
-- Focus/Foc terminology, native outlined fonts, readable stat/training labels,
-  compact Spirit indicators, and the enemy band's English slash between Fy and Di.
-- Native caption fallback repair for stray kanji over names/blank labels.
-- All 63,553 fresh dialogue records and 48,143
-  battle-voice strings retained from the previous public release.
 
 ## Verification and compatibility
 

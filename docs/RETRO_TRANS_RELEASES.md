@@ -19,6 +19,10 @@ For a release:
    platform, input/output sizes and SHA-256 hashes.
 2. Use the existing `0.x.y` build sequence and update the changelog. Do not reset
    the sequence or assign a release version for repository administration.
+   Release notes use **What changed since last version** and name the previous
+   public release as the comparison point. List changes since that release;
+   omit features already shipped and unchanged. Prepared local builds are not
+   the previous public version.
 3. Check the current Retro Trans release contract and record the tool version.
    Prepare its required manifest, patches, checksums and validation report.
    Use Tengoku BLJS10299 identities, never Jigoku BLJS10256 identities.

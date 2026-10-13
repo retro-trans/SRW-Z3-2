@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.28 - 2026-10-13 (prepared; publication requires consent)
+## 0.5.28 - 2026-10-13
 
 - Translate all 249 map defeat-quote entries (178 distinct strings), including
   Nigel's reported quote and all nonverbal entries. Bind the native static
@@ -15,7 +15,7 @@
   preserve interrupted clauses and nonfatal retreats, and synchronize active
   executable/RPW text with answer copies. Record omissions and uncertainty.
 - Carry all prepared 0.5.19–0.5.27 repairs into both original-game and public
-  0.5.18 Retro Trans routes. Publication requires explicit consent.
+  0.5.18 Retro Trans routes.
 - Verify every native quote reference/state store and all 249 RPW quote cells,
   along with carried fixes and all 82 disc files through both directory trees.
   Regression suite: 287 passed, two optional checks skipped; four focused
@@ -23,6 +23,10 @@
 - Validate both Retro Trans 0.5.4 patch routes by complete ISO round trips;
   both reproduce the same verified 0.5.28 image. Record the five checked
   delivery assets locally. In-game appearance remains pending user testing.
+- Publish v0.5.28 with the user's explicit consent. Confirm all five hosted
+  asset sizes and SHA-256 digests against the validated local files; retain
+  RPCS3 playtest limitations. Verify the successful scoped Retro Trans catalog
+  refresh and both direct Automatic / Latest routes to 0.5.28.
 
 ## 0.5.27 - 2026-10-13 (prepared; publication requires consent)
 

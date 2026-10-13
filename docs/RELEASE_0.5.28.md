@@ -1,12 +1,12 @@
 # 0.5.28 — Complete map defeat quotes
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
-**BLJS10299**. Prepared locally; creating or publishing a GitHub release
-requires the user's explicit consent for this version.
+**BLJS10299**. [Public playtest release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.28);
+in-game visual confirmation remains pending.
 
 ## Apply
 
-Once published, in [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
+In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
 **Refresh catalog**, select either your original Japanese ISO or the exact
 public 0.5.18 ISO in **Automatic**, then select **Latest** (0.5.28).
 Choose a new output ISO. Both routes produce the same verified image.

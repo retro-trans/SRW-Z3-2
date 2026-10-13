@@ -109,10 +109,10 @@ Every new release must work with
 See [release preparation](docs/RETRO_TRANS_RELEASES.md). Versions use `0.x.y`;
 repository administration does not assign a build version.
 
-[Public release 0.5.18](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.18)
+[Public release 0.5.28](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.28)
 includes an original-to-English ISO patch and a direct upgrade from public
-**0.5.2**. Both patches passed complete ISO round trips and hosted checksum
+**0.5.18**. Both patches passed complete ISO round trips and hosted checksum
 verification. In Retro Trans, click **Refresh catalog**,
-select the matching original Japanese or public 0.5.2 ISO, and choose **Latest**.
+select the matching original Japanese or public 0.5.18 ISO, and choose **Latest**.
 Manual **Apply xdelta** is also available. This is a playtest release; in-game
 testing remains pending.

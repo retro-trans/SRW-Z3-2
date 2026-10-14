@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "version": "0.5.29",
+  "source": "https://www.akurasu.net/wiki/Super_Robot_Wars/Z3/Spirits",
+  "canonical_spirits": {
+    "闘志": "Fury",
+    "直撃": "Break"
+  },
+  "canonical_weapon": "Inazuma Kick",
+  "changes": [
+    {
+      "file": "work/translation/en/ui/eboot.json",
+      "source_sha256": "e9e3e307697ea9136b69036dc25e418755ecfa9313c3064324e874b0690bade1",
+      "edits": [
+        {
+          "field": "/strings/精神コマンド「闘志」の\n消費ＳＰが２０になる。/en",
+          "old": "Fighting Spirit SP cost\nbecomes 20.",
+          "new": "Fury SP cost\nbecomes 20."
+        },
+        {
+          "field": "/strings/気力１４０以上で、\n自軍フェイズ開始時に「闘志」が掛かる。/en",
+          "old": "At Focus 140+, gains Fighting Spirit\nat own phase start.",
+          "new": "At Focus 140+, gains Fury\nat own phase start."
+        },
+        {
+          "field": "/strings/マップ登場時、精神コマンド「閃き」「闘志」「突撃」の効果を得ます。/en",
+          "old": "Gains Alert, Fighting Spirit, and Assail on deployment.",
+          "new": "Gains Alert, Fury, and Assail on deployment."
+        },
+        {
+          "field": "/strings/気力１３０以上で、\n自軍フェイズ開始時に精神コマンド\n『必中』『直撃』が掛かる。/en",
+          "old": "At Focus 130+,\ngains the Strike and Fury Spirits\nat own phase start.",
+          "new": "At Focus 130+,\ngains the Strike and Break Spirits\nat own phase start."
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/expanded/menus.json",
+      "source_sha256": "3673e8d5cf51b6e3fc2ad61bb3d33720be9dd1eed9f3bdd0100f49260a5ec2ed",
+      "edits": [
+        {
+          "field": "/strings/692976a81313f2dcd57f/en",
+          "old": "Valor Soul Fighting Spirit Alert Persist Wall Focus Strike Accel Zeal Mercy Snipe Assail Fury Luck Gain Disrupt",
+          "new": "Valor Soul Fury Alert Persist Wall Focus Strike Accel Zeal Mercy Snipe Assail Break Luck Gain Disrupt"
+        },
+        {
+          "field": "/strings/6e85c60d99f01cc04265/en",
+          "old": "Valor Soul Fighting Spirit Alert Persist Wall Focus Strike Accel Zeal Mercy Snipe Assail Fury / Disrupt Clone",
+          "new": "Valor Soul Fury Alert Persist Wall Focus Strike Accel Zeal Mercy Snipe Assail Break / Disrupt Clone"
+        },
+        {
+          "field": "/strings/d8a9fc66933d022fac52/en",
+          "old": "Accel\nValor\n　\nSnipe\nFury\nAssail\nZeal",
+          "new": "Accel\nValor\n　\nSnipe\nBreak\nAssail\nZeal"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/rpw_names.json",
+      "source_sha256": "be12e145f0c8831e519c7be29baecb9d4b7df737ffa00bb85def68d8a3e6c143",
+      "edits": [
+        {
+          "field": "/strings/weapon/イナズマキック/en",
+          "old": "Lightning Kick",
+          "new": "Inazuma Kick"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/ui/spirit_commands.json",
+      "source_sha256": "a2abd9f65957005153f59576f26680b3b35865d52b3013530df8e90a2cce14a9",
+      "edits": [
+        {
+          "field": "rpw:0:spirit:3:abbreviation",
+          "old": "Fs",
+          "new": "Fy"
+        },
+        {
+          "field": "rpw:0:spirit:24:abbreviation",
+          "old": "Fu",
+          "new": "Br"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice/g010.json",
+      "source_sha256": "92a6f4170bd8da424bb7c8b3d7621049e7cb1213325aa30f94e34ea92017e5c5",
+      "edits": [
+        {
+          "field": "/lines/10:4196/en",
+          "old": "「Lightning Kick!」",
+          "new": "「Inazuma Kick!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice/g195.json",
+      "source_sha256": "2a362da2797507046bf27b9c8cf1e11c81952966cb479b8b9898a03add64252c",
+      "edits": [
+        {
+          "field": "/lines/195:5992/en",
+          "old": "「If it comes to this, I must\\nuse $$ノノ$$'s direct Lightning Kick...!」",
+          "new": "「If it comes to this, I must\\nuse $$ノノ$$'s direct Inazuma Kick...!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice/g196.json",
+      "source_sha256": "c03393a9a39772c188aad353dc9d7111fcfdd19a3c52b6a74a53497bad424d56",
+      "edits": [
+        {
+          "field": "/lines/196:8386/en",
+          "old": "「Lightning Kick!!」",
+          "new": "「Inazuma Kick!!」"
+        },
+        {
+          "field": "/lines/196:8423/en",
+          "old": "「Finisher! Lightning Kick!!」",
+          "new": "「Finisher! Inazuma Kick!!」"
+        },
+        {
+          "field": "/lines/196:11998/en",
+          "old": "「Lightning Kick, together with you!」",
+          "new": "「Inazuma Kick, together with you!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice/g274.json",
+      "source_sha256": "f9d30a257d40e86824f34f2e16000871e920d1750f5d613f1e33bef7e927f782",
+      "edits": [
+        {
+          "field": "/lines/274:7116/en",
+          "old": "「Go! Lightning Kick!!」",
+          "new": "「Go! Inazuma Kick!!」"
+        },
+        {
+          "field": "/lines/274:7402/en",
+          "old": "「Lightning Kick!!」",
+          "new": "「Inazuma Kick!!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice/g010.json",
+      "source_sha256": "b844ea11994f4042e4eb3f5994fde9e8a00b75e7ec600f968c0e80e776422afd",
+      "edits": [
+        {
+          "field": "/lines/10:4196/en",
+          "old": "「Lightning Kick!」",
+          "new": "「Inazuma Kick!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice/g195.json",
+      "source_sha256": "79e75bd660f1e2b653a061cd83399e5645e66f4310740c35513e11f3095654a7",
+      "edits": [
+        {
+          "field": "/lines/195:5992/en",
+          "old": "「If it comes to this, I must\\nuse $$ノノ$$'s direct Lightning Kick...!」",
+          "new": "「If it comes to this, I must\\nuse $$ノノ$$'s direct Inazuma Kick...!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice/g196.json",
+      "source_sha256": "121f5efe6d8c0fc18ad447e0647afdf0f7df42b5818f4dd22a555aa379493035",
+      "edits": [
+        {
+          "field": "/lines/196:8386/en",
+          "old": "「Lightning Kick!!」",
+          "new": "「Inazuma Kick!!」"
+        },
+        {
+          "field": "/lines/196:8423/en",
+          "old": "「Finisher! Lightning Kick!!」",
+          "new": "「Finisher! Inazuma Kick!!」"
+        },
+        {
+          "field": "/lines/196:11998/en",
+          "old": "「Lightning Kick, together with you!」",
+          "new": "「Inazuma Kick, together with you!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice/g274.json",
+      "source_sha256": "d982f96c88337ba2fbdfc6c9dae11855b3807084a386af8efc8794504a1e9fe1",
+      "edits": [
+        {
+          "field": "/lines/274:7116/en",
+          "old": "「Go! Lightning Kick!!」",
+          "new": "「Go! Inazuma Kick!!」"
+        },
+        {
+          "field": "/lines/274:7402/en",
+          "old": "「Lightning Kick!!」",
+          "new": "「Inazuma Kick!!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice_new/v_g010_02.json",
+      "source_sha256": "9c509e01d21af66b89c242e3269f4ad13dfb7e0ec374f179dd8a2650c08cc89c",
+      "edits": [
+        {
+          "field": "/rows/10:4196/en",
+          "old": "「Lightning Kick!」",
+          "new": "「Inazuma Kick!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice_new/v_g195_02.json",
+      "source_sha256": "7d8a294b9a61b66a2e7336f394f5b86b4a0b2655c1f054a2e8fab2b56f66cacd",
+      "edits": [
+        {
+          "field": "/rows/195:5992/en",
+          "old": "「If it comes to this, I must\\nuse $$ノノ$$'s direct Lightning Kick...!」",
+          "new": "「If it comes to this, I must\\nuse $$ノノ$$'s direct Inazuma Kick...!」"
+        }
+      ]
+    },
+    {
+      "file": "work/translation/en/voice_text/voice_new/v_g274_03.json",
+      "source_sha256": "c326ed79e3f2e0cfce7bd98ae86f59b439af5adb4dc7f74439f0c0449064ba85",
+      "edits": [
+        {
+          "field": "/rows/274:7116/en",
+          "old": "「Go! Lightning Kick!!」",
+          "new": "「Go! Inazuma Kick!!」"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/glossary.json",
+      "source_sha256": "b86ecd6f5a3a98f91013a21b2f3687ef257166b7e76a3bd3d7f430b1c6806ef8",
+      "edits": [
+        {
+          "field": "/terms/2/en",
+          "old": "Fighting Spirit",
+          "new": "Fury"
+        },
+        {
+          "field": "/terms/23/en",
+          "old": "Fury",
+          "new": "Break"
+        }
+      ]
+    },
+    {
+      "file": "work/glossary/library_terms.json",
+      "source_sha256": "6795b67545cf9fb6ffd5990372b629c189fe09e94508a9f496e76cc85956baf4",
+      "edits": [
+        {
+          "field": "/terms/2805/en",
+          "old": "Lightning Kick",
+          "new": "Inazuma Kick"
+        }
+      ]
+    }
+  ],
+  "runtime_verified": false
+}

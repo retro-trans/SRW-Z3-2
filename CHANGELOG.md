@@ -5,6 +5,23 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.29 - 2026-10-14 (prepared; publication requires consent)
+
+- Use Break for the defense-bypass Spirit command and Fury for the guaranteed
+  critical-hit command, matching the requested Z3 list. Update related
+  descriptions, badges, native flags and trophy text.
+- Use Inazuma Kick throughout active weapon names, glossary and battle captions.
+- Fix numbered victory/defeat conditions showing internal translation keys.
+  Cover all 262 static conditions in four prefix states, preserving numbered
+  slots, colors, native row bounds and gameplay logic. Check the actual native
+  composer before each translation lookup, including the Episode 23 examples.
+- Fit all 25 live-name/counter conditions to the native row and string limits;
+  test substitution followed by numbering with default and maximum-size values.
+  Shorten one long SR condition after source review, preserving every turn,
+  target and individual kill requirement.
+- Prepare original-game and public-0.5.28 Retro Trans routes; describe only
+  changes since public 0.5.28. In-game visual confirmation remains pending.
+
 ## 0.5.28 - 2026-10-13
 
 - Translate all 249 map defeat-quote entries (178 distinct strings), including

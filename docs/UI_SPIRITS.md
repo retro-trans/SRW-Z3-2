@@ -1,5 +1,11 @@
 # First UI translation batch: Spirit commands
 
+Current naming correction (2026-10-14): the user's Z3 convention is **Break**
+for 直撃 and **Fury** for 闘志, corroborated by the
+[Z3 Spirit list](https://www.akurasu.net/wiki/Super_Robot_Wars/Z3/Spirits).
+Compact flags are Br and Fy respectively. The earlier naming choices below
+are historical and are superseded for these two commands.
+
 Prepared and source-checked 2026-09-11. This batch translates the original
 Tengoku RPW Spirit table. It is now built and applied to a separate game copy;
 see `UI_VWF.md` for the current VWF build and completed game/cache activation, or

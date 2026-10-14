@@ -72,10 +72,9 @@ def verify(version):
         from tools.ui_vwf_build import raster
         return raster(c)[1]if c in mapping else 32
     from tools import mission_display as MD
-    conditions=[r for r in MD.hook_entries(H.PREPARED.read_bytes(),M.plan(width),mapping)if 'Within 4 turns' in L.decode(r['english'],mapping)and '99999' in L.decode(r['english'],mapping)]
+    conditions=[r for r in MD.rows(M.plan(width))if 'Within 4 turns' in r['en'] and '99999' in r['en']]
     if len(conditions)!=1:raise ValueError('Episode13 SR condition missing')
-    r=conditions[0];p,steps=runner.run(r['key']+b'\0')
-    if read(p,len(r['english'])+1)!=r['english']+b'\0':raise ValueError('Episode13 condition corrupted')
+    sr=MD.lookup_row(elf,runner,conditions[0],mapping)
     shots=[]
     for label,ident in SHOTS:
         src=Path('C:/Users/Binh/AppData/Local/Temp')/('codex-clipboard-'+ident+'.png');dst=ROOT/'work/ui/screenshots'/('reported-0.5.18-review26-'+label+'.png')
@@ -84,7 +83,7 @@ def verify(version):
     return dict(schema=1,version=version,prior_verification=prior,iso_verification=prior['iso_verification'],lookup_cases=lookups,
         stage_reports=dict(player_strings=22,player_occurrences=97,total_occurrences=sum(counts.values()),members=mids),weapon_cells=weapons,
         weapon_audit_sha256=sha256_file(W.DEST),expanded_weapon_names=len(audit['changes']),full_name_cases=namecases,
-        sr_condition=dict(english=L.decode(r['english'],mapping),steps=steps),screenshots=shots,runtime_verified=False,
+        sr_condition=dict(english=sr['english'],steps=sr['steps']),screenshots=shots,runtime_verified=False,
         proofreading=dict(reviewer='review26_wording',dialogue_rows_examined=31,gift_strings_examined=24,related_mission_conditions_examined=8,shared_full_weapons_examined=440))
 
 def main():

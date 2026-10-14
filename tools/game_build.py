@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.28'
+VERSION = '0.5.29'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -242,6 +242,9 @@ def plan(settings):
     exec_report['parts_movement']=parts_report
     executable,battle_report=battle_layout.native_patch(executable,elf,mapping)
     exec_report['battle_layout']=battle_report
+    exec_report['mission_composition']=dict(
+        static_cases=len(mission_display.composition_cases(executable,mission,mapping)),
+        live_cases=len(mission_display.live_cases(executable,mission,mapping)),runtime_verified=False)
     exec_report['ui_hook'] = dict(hook_report if isinstance(hook_report, dict) else {'report': str(hook_report)},
                                   entries=len(hook_entries), skipped=dict(hook_skipped))
     exec_report['expanded_ui'] = expanded_report

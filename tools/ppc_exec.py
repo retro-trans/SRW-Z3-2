@@ -61,6 +61,7 @@ def decode(w, pc=0):
     if op == 14: return ('addi', rt, ra, simm)
     if op == 15: return ('addis', rt, ra, simm)
     if op == 7: return ('mulli', rt, ra, simm)
+    if op == 8: return ('subfic', rt, ra, simm)
     if op == 24: return ('ori', ra, rt, uimm)
     if op == 25: return ('oris', ra, rt, uimm)
     if op == 26: return ('xori', ra, rt, uimm)
@@ -249,6 +250,9 @@ class Machine:
             _, t, a, s = ins; r[t] = ((r[a] if a else 0) + (s << 16)) & M64
         elif n == 'mulli':
             _, t, a, s = ins; r[t] = (sext(r[a], 64) * s) & M64
+        elif n == 'subfic':
+            _, t, a, s = ins
+            total=(~r[a]&M64)+(s&M64)+1;self.ca=total>>64;r[t]=total&M64
         elif n in ('ori', 'oris', 'xori', 'andi.', 'andis.'):
             _, a, s, u = ins
             if n == 'ori': r[a] = r[s] | u

@@ -1,0 +1,575 @@
+{
+  "schema": 1,
+  "version": "0.5.29",
+  "review": {
+    "schema": 1,
+    "reviewer": "review29_live_conditions",
+    "assigned_rows": 25,
+    "assigned_rows_examined": 25,
+    "distinct_source_rows_examined_including_siblings": 79,
+    "scope": "All mission conditions with native live name/counter placeholders, original source meaning, inventory roles and available sibling conditions. No active translations changed.",
+    "constraints": {
+      "native_condition_bytes_before_nul": 302,
+      "native_row_text_bytes_including_prefix": 101,
+      "native_row_prefix_bytes": 4,
+      "reserve_name_bytes": 40,
+      "reserve_counter_bytes": 20,
+      "authored_paragraph_boundaries_preserved": true
+    },
+    "proposals": {
+      "ebabbec861207263d79d94a9f0f79ccae19c7ba86f2eafee85e640a61e179eeb": {
+        "review_ordinal": 25,
+        "source_sha256": "ebabbec861207263d79d94a9f0f79ccae19c7ba86f2eafee85e640a61e179eeb",
+        "roles": [
+          "sr"
+        ],
+        "members": [
+          686
+        ],
+        "sibling_source_sha256": [
+          "8765da88aa1666f7c9a29a1c89afd22441e209133bc4fba5b1db29ebd1fff09d",
+          "0d4f45b33647ad381171b29bb593c60f0dd8778ef42b66938e196174c908341f",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "779a622fa50ebf050b16b5691642d676740e3fabf5cc15442c7affdc593c2181",
+          "bce0bad09692e249478ccd643c32ce9d0f925803026f8fd43159660115254dcb",
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e"
+        ],
+        "old_en": "Achieve victory condition 2 within 4 turns.\nAlong the way, shoot down 4 or more $$アンゲロイ・アルカ$$ units, and $$セツコ$$, $$ランド$$, $$クロウ$$ and ヒビキＡ must each shoot down 2 or more enemies.",
+        "new_en": "Meet victory condition 2 within 4 turns.\nAlso shoot down 4+ $$アンゲロイ・アルカ$$; $$セツコ$$, $$ランド$$, $$クロウ$$ and ヒビキＡ must each down 2+ enemies.",
+        "reasoning": "The existing meaning is accurate but its live composition exceeds the native 302-byte condition field. Shorten only this row: Achieve becomes Meet; 4 or more and 2 or more become 4+ and 2+; remove the redundant unit classifier after the mech name; use down for the second shootdown verb. Every requirement remains explicit.",
+        "context": "Member 686 lists victory condition 2 as moving Setsuko, Rand, Crowe and the live protagonist to their respective target points. Its ordinary five-turn deadline is tightened by this SR condition to four turns. Defeat conditions also name these pilots and Simon and trigger at turn 6.",
+        "requirements": [
+          "Achieve victory condition 2.",
+          "Deadline: within 4 turns.",
+          "Shoot down at least 4 Angeloi Arca units.",
+          "Setsuko, Rand, Crowe and the live protagonist must EACH shoot down at least 2 enemies."
+        ],
+        "numeric_source_sequence": [
+          2,
+          4,
+          4,
+          2
+        ],
+        "numeric_target_sequence": [
+          2,
+          4,
+          4,
+          2
+        ],
+        "placeholder_occurrence_counts_preserved": true,
+        "glossary_token_occurrence_counts_preserved": true,
+        "source_paragraph_breaks": 3,
+        "current_and_proposed_authored_paragraph_breaks": 1,
+        "old_reserved_composition_bytes_before_wrapping": 377,
+        "new_reserved_composition_bytes_before_wrapping": 291,
+        "builder_obligation": "Wrap rows with live expansion reserves; keep final string <=302 bytes and each row text plus native prefix <=101 bytes."
+      }
+    },
+    "unchanged": [
+      {
+        "review_ordinal": 1,
+        "source_sha256": "4302c52794c89b76e901d8bd97f7baee6decb5fb0696b1d2a5b6dbeb8a903caf",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          19,
+          43,
+          85,
+          204,
+          251,
+          292,
+          345,
+          363,
+          429,
+          435,
+          524
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "b98b8c07d6c8161a0e7b3851d0f2ce884fb926427ffe55cfbfb47b3adcbce658",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a",
+          "e426ba753fe7330d45a280163af1431b34343f93f506d44af6ab6a34d8861282",
+          "36596d8f230dec76fe8215331d71c9bbc3b6c23f8a6fa77c423523b23677b4c7"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 68
+      },
+      {
+        "review_ordinal": 2,
+        "source_sha256": "bd7b674fd6ae343df3c3e4b4a8f1c1eab5a9bc1975bf40596b3738accab99756",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          25
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "226f95d556609df3912c4070d3d4a5e81ff1f53c127739fe8b1f6e8cb9e8a284",
+          "2967057ce098dd43bd4060e1c19ca9dbf6a1520e8563493d217c49d7fa41bd8b"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 112
+      },
+      {
+        "review_ordinal": 3,
+        "source_sha256": "0f9eff1f70986da9bb0cdd06e38506d200de4c16c59e8f8153da3096e3fae48f",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          121
+        ],
+        "sibling_source_sha256": [
+          "7bed9adb2f1a6969ce3520fe29a7d7cb273243d30bec55a3146962eb6741d4b7",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "dee7f4184182c37e0fa0231dd2df4ddeb893b2f7174f1a802417ab8b4048888d",
+          "503fbb4910fd5f2e24913ae7f8be3f93e029baf8a755526a9886a72935c73543",
+          "4b7c0872c24043fec789d75590fe7f72e2f118792d3199273c415e86564e9777",
+          "1ae444ea5e3cf5bb55f8b3b1a065e306461d9e1fcb850c00aaaaa036df39255a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 106
+      },
+      {
+        "review_ordinal": 4,
+        "source_sha256": "439903e697077ed1878f31ccd5b3740fc3681decdf1456d5a7cb8a8629fb94b9",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          145
+        ],
+        "sibling_source_sha256": [
+          "1ae444ea5e3cf5bb55f8b3b1a065e306461d9e1fcb850c00aaaaa036df39255a",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "a75889a5984074dbff29b5179e29f366dadc817529180e777ce25e490755034f",
+          "4b7c0872c24043fec789d75590fe7f72e2f118792d3199273c415e86564e9777",
+          "cf229941c9a218822bb9cc02b5d7e04cc243a62f4afe35c7838aaa3e4b9f05e5",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 86
+      },
+      {
+        "review_ordinal": 5,
+        "source_sha256": "54df4af18ac8b82034a60a5527da07f0965353e5c2a2f3aa084ecc8bd6e98d39",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          169
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "e5b9c387959ed9ae898e21f6958354f3ac54972ec8f48f9e690e84160ea2bb2a",
+          "45deadf39269221c81dc6e124c747666a172bbeb36c8a3e254c3dd7fd60b6d87",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 100
+      },
+      {
+        "review_ordinal": 6,
+        "source_sha256": "9cd5dfa960636ae7c3c396b4d4b5f95d75d6f3c55bd730ce5ea52f52434ae214",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          198
+        ],
+        "sibling_source_sha256": [
+          "6b5fa5eb08ae70e1d9eb3dbb3877c6f8eb3283f98d7d95baa9e7cde2a57ea294",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "dee7f4184182c37e0fa0231dd2df4ddeb893b2f7174f1a802417ab8b4048888d",
+          "43880dd4eb9705fafe6b905694d6b41ec8ae1980987a5d35fdb71ea2f04ad092",
+          "c7ea35e3c0d72d63eb7feb508b4f5e1a0e9336dc9c22aea19acf4addb8f3bc1b",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 104
+      },
+      {
+        "review_ordinal": 7,
+        "source_sha256": "2426622bc1a4e97f98637e9203d43411141ee546bf7ab9dc128a504e5a775a04",
+        "roles": [
+          "victory"
+        ],
+        "members": [
+          263,
+          292
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "0891723712cc05b2377c868f25086fe736a6e71aeedc3ef8069055836a55d25b",
+          "4302c52794c89b76e901d8bd97f7baee6decb5fb0696b1d2a5b6dbeb8a903caf",
+          "76b3c4eceada795775915dfda09f10c58dd793add5d5c32f247c15a4f063668c"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 46
+      },
+      {
+        "review_ordinal": 8,
+        "source_sha256": "0891723712cc05b2377c868f25086fe736a6e71aeedc3ef8069055836a55d25b",
+        "roles": [
+          "sr"
+        ],
+        "members": [
+          263
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "2426622bc1a4e97f98637e9203d43411141ee546bf7ab9dc128a504e5a775a04"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 140
+      },
+      {
+        "review_ordinal": 9,
+        "source_sha256": "796f31d180014f3c49b51191e02bbbae90c60984d2b1f2cfe12bb4092bbf72fc",
+        "roles": [
+          "sr"
+        ],
+        "members": [
+          327
+        ],
+        "sibling_source_sha256": [
+          "223b804f94decd8c29ae256679400b02365b00acce90aef044f9ad247e30094b",
+          "24fc5bc96851dc6b5d90cdaa68fc9ba46b2081735f7675666ee98a298981236b",
+          "b1246ae494739b678ab803f5747333b04afa0fcacd517731673d543a652766e5",
+          "d68956220ffae71ea9713d83e1f6a7886be212d74d90a2081f66d001fc18f7cd",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 207
+      },
+      {
+        "review_ordinal": 10,
+        "source_sha256": "19230f903dc7342a2181de2a88c557a11aab5cda1a0969ba4a5b40aab4505dd0",
+        "roles": [
+          "victory"
+        ],
+        "members": [
+          345
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "4302c52794c89b76e901d8bd97f7baee6decb5fb0696b1d2a5b6dbeb8a903caf",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "cf229941c9a218822bb9cc02b5d7e04cc243a62f4afe35c7838aaa3e4b9f05e5",
+          "d6d6fda275b633597e07c45bff1d285545fede4549259ce606ec4fd4a2af35a5"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 46
+      },
+      {
+        "review_ordinal": 11,
+        "source_sha256": "012ea75622864d096430f117a91a8d0d28af091609bcc53768e7334b2c606434",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          351
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "f06e1b60aa4bd6562547377e2813b0df42282c218a480424639b50fafb34324c",
+          "1156e9363ff98b2d02523c0d828bc86c3c48154f3cb0e9e3be710147a2770074",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 84
+      },
+      {
+        "review_ordinal": 12,
+        "source_sha256": "178eceec514e22fd12c1082c27a0c8f4d072ed158bd0e90c300e3c5f288c694c",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          381
+        ],
+        "sibling_source_sha256": [
+          "8eac21498ce32051f53b1fddab76414b800ec85a5097cca69e1cd19ba7b469a6",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "15e33dbf777d3137b58004a80dd0afdd50bb68aba6fce0b4caf73a37f004f5f7",
+          "c5acdf9358a5a53ffdc693c9b807087282aab33db18318ce533fc26366bade84",
+          "36596d8f230dec76fe8215331d71c9bbc3b6c23f8a6fa77c423523b23677b4c7",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 88
+      },
+      {
+        "review_ordinal": 13,
+        "source_sha256": "f9d0bdbc8b94d4df1e437800a75aef9013befc3e93ff5125f7be5cf880884056",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          417
+        ],
+        "sibling_source_sha256": [
+          "36596d8f230dec76fe8215331d71c9bbc3b6c23f8a6fa77c423523b23677b4c7",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "e0c6475e6245fb53b3185b9929f5f1b00a105a18df33783b19f1f7028d5ea21a",
+          "15d083402886dac047c774eafb4fdf8e557ea42dfc65697cd79fd46141a50dbc",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 84
+      },
+      {
+        "review_ordinal": 14,
+        "source_sha256": "47020f63581ff5176795fef6f5378436d799bab2ada013ad196f06e5048e25ca",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          423
+        ],
+        "sibling_source_sha256": [
+          "0f8b602a27e524a4e9585ad2bf6cd6ddc41470fe296b2f528267dadf1e377886",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "adce9543b7f9d5bd7dbba0d4cff99c32700933672bcc2803057dda740fd58366",
+          "7c843610e255e3d35229ee5f5d8dbd88b293faa3c605328c88217cc66b122819",
+          "b82d66066c5311453b39121b0f6c943442c5b99de53f3cbea73d030b4fc25ff0"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 116
+      },
+      {
+        "review_ordinal": 15,
+        "source_sha256": "a2a9b92a4622f4d7fad9d74ba6a68f2a9f814f844ae583608d71cc9bc925869e",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          429
+        ],
+        "sibling_source_sha256": [
+          "1ae444ea5e3cf5bb55f8b3b1a065e306461d9e1fcb850c00aaaaa036df39255a",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "4302c52794c89b76e901d8bd97f7baee6decb5fb0696b1d2a5b6dbeb8a903caf",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "cf229941c9a218822bb9cc02b5d7e04cc243a62f4afe35c7838aaa3e4b9f05e5",
+          "fa860a58386ec8455408891a6b2ec11e5cd2a22097a90f8012fc6757838b2b3a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 90
+      },
+      {
+        "review_ordinal": 16,
+        "source_sha256": "a16f7f666c08765ad311026f9c505b0825734b3591f2d01fd876e78778c3f9a1",
+        "roles": [
+          "sr"
+        ],
+        "members": [
+          465
+        ],
+        "sibling_source_sha256": [
+          "40768fcd9981d8565bce3eec22bfc421a16e4f39331418b8297d9bd69d0cb015",
+          "bbd9f16b3d4349344f9e109f1f12f3cfe013b679610ca54a1688ff5af1167f07",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "48c78379d118ac65d171163071bf62ee0f94c3364dc06e75a4f7ed0963062346"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 124
+      },
+      {
+        "review_ordinal": 17,
+        "source_sha256": "b06b16acee749899735c7949c97599178a7eff393965fc0ea528fd4ae35f33e7",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          524,
+          548,
+          554
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "d66ff7012947115d41243114f160191aa554f65178f7984f79ddbcb0be3a6a38",
+          "4302c52794c89b76e901d8bd97f7baee6decb5fb0696b1d2a5b6dbeb8a903caf",
+          "62aa70c1dacda12b340c2cbdb401e6a3c8f5f64eae41b363e18fb9f0302b2998",
+          "a009f0577fea21370e074e85a30d62bf3be5d960be1684d3ee27cced74fc55d6"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 90
+      },
+      {
+        "review_ordinal": 18,
+        "source_sha256": "422963dbde42bf8bfded5a6f0f54c3f779ae472bc50f51d7f12c5cff3b8065bf",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          554
+        ],
+        "sibling_source_sha256": [
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "3fe3a9d5ff5031b4a1a9f594cb565c8f7ef7186527690676d3e3ef2f40304c71",
+          "ccab5ef67db1f41eb498b7b7a924b5c64744233bd8c65dca88832a4e828d5e38",
+          "adc96531b01ae1481ea9c8d029ff7c9bf0335751e13f92664f1e1948e67202bb",
+          "0a7471544ef1c082cc45204f165caceed612af14efd59e9f767dd676c40af5ac"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 108
+      },
+      {
+        "review_ordinal": 19,
+        "source_sha256": "d4cbfc0810a8986f22a79784a3078d491c3dcf46982f52feb7400dc149a8cc53",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          602
+        ],
+        "sibling_source_sha256": [
+          "bd7f970a3b59eeee3077f97cf34e7e4b2488a8c862aa83727092b7513d83fccb",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "ee2dcc0fa40588cc6d8347d73c466339e3b60f64f3fd921bfa537190cdf433a9",
+          "fa860a58386ec8455408891a6b2ec11e5cd2a22097a90f8012fc6757838b2b3a",
+          "4f23865e3898513d117ef2b0d6849acd93052b941954406b3a1e4295c7763751",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 110
+      },
+      {
+        "review_ordinal": 20,
+        "source_sha256": "4f23865e3898513d117ef2b0d6849acd93052b941954406b3a1e4295c7763751",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          602
+        ],
+        "sibling_source_sha256": [
+          "bd7f970a3b59eeee3077f97cf34e7e4b2488a8c862aa83727092b7513d83fccb",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "d4cbfc0810a8986f22a79784a3078d491c3dcf46982f52feb7400dc149a8cc53",
+          "ee2dcc0fa40588cc6d8347d73c466339e3b60f64f3fd921bfa537190cdf433a9",
+          "fa860a58386ec8455408891a6b2ec11e5cd2a22097a90f8012fc6757838b2b3a",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 88
+      },
+      {
+        "review_ordinal": 21,
+        "source_sha256": "9c6a652d400d42b7ba731dbc44447b73f148b364c6036a2afc4503d4db7805bd",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          602
+        ],
+        "sibling_source_sha256": [
+          "bd7f970a3b59eeee3077f97cf34e7e4b2488a8c862aa83727092b7513d83fccb",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "d4cbfc0810a8986f22a79784a3078d491c3dcf46982f52feb7400dc149a8cc53",
+          "ee2dcc0fa40588cc6d8347d73c466339e3b60f64f3fd921bfa537190cdf433a9",
+          "fa860a58386ec8455408891a6b2ec11e5cd2a22097a90f8012fc6757838b2b3a",
+          "4f23865e3898513d117ef2b0d6849acd93052b941954406b3a1e4295c7763751"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 110
+      },
+      {
+        "review_ordinal": 22,
+        "source_sha256": "eb9007364729740012bf69770ac1b015e94468208941192c35cb5a53669d161f",
+        "roles": [
+          "victory"
+        ],
+        "members": [
+          638
+        ],
+        "sibling_source_sha256": [
+          "c3aef1fe2793a7605e8659c924bd52d5348337e3324cada3077245e94a08ffdd",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "dee7f4184182c37e0fa0231dd2df4ddeb893b2f7174f1a802417ab8b4048888d",
+          "e12a850f8b385698a19085a0c9df78635f4f36d1351c2bb65112b358ab7702d1",
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e",
+          "868310e193d1af0b9a0a16b18d5826a5490fe3f9410defa30dc115829fc1db4a"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 44
+      },
+      {
+        "review_ordinal": 23,
+        "source_sha256": "0d4f45b33647ad381171b29bb593c60f0dd8778ef42b66938e196174c908341f",
+        "roles": [
+          "victory"
+        ],
+        "members": [
+          686
+        ],
+        "sibling_source_sha256": [
+          "8765da88aa1666f7c9a29a1c89afd22441e209133bc4fba5b1db29ebd1fff09d",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "779a622fa50ebf050b16b5691642d676740e3fabf5cc15442c7affdc593c2181",
+          "bce0bad09692e249478ccd643c32ce9d0f925803026f8fd43159660115254dcb",
+          "ebabbec861207263d79d94a9f0f79ccae19c7ba86f2eafee85e640a61e179eeb",
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 202
+      },
+      {
+        "review_ordinal": 24,
+        "source_sha256": "779a622fa50ebf050b16b5691642d676740e3fabf5cc15442c7affdc593c2181",
+        "roles": [
+          "defeat"
+        ],
+        "members": [
+          686
+        ],
+        "sibling_source_sha256": [
+          "8765da88aa1666f7c9a29a1c89afd22441e209133bc4fba5b1db29ebd1fff09d",
+          "0d4f45b33647ad381171b29bb593c60f0dd8778ef42b66938e196174c908341f",
+          "83ef84cb3d814c2f2435844942ece660eab170d145592f565eee0c69d274f6d5",
+          "bce0bad09692e249478ccd643c32ce9d0f925803026f8fd43159660115254dcb",
+          "ebabbec861207263d79d94a9f0f79ccae19c7ba86f2eafee85e640a61e179eeb",
+          "6283e61d54083c108e4539611bac25ca1ebd95b7577ea3ff2e2a0bc38c6eae4e"
+        ],
+        "decision": "Retain existing English: all participants, alternatives, thresholds and deadlines match the source.",
+        "reserved_composition_bytes_before_wrapping": 130
+      }
+    ],
+    "retained_ambiguities": [
+      "Live protagonist names and numerical counters remain native placeholders. Their final values and spelling are player or stage state; no gender or value is inferred.",
+      "The term down in the shortened SR condition means a unit shootdown, not necessarily a pilot death.",
+      "The same four-turn deadline governs victory condition 2 and its accompanying shootdown requirements. No additional ordering between the Angeloi Arca count and individual pilot counts is introduced."
+    ],
+    "retained_source_omissions": [
+      "No newly retained subject or verb omissions. Imperative victory/SR condition phrasing addresses the player. Existing complete passive defeat conditions retain the named pilots as their subjects."
+    ]
+  },
+  "changes": [
+    {
+      "source_sha256": "ebabbec861207263d79d94a9f0f79ccae19c7ba86f2eafee85e640a61e179eeb",
+      "old": "Achieve victory condition 2 within 4 turns.\nAlong the way, shoot down 4 or more $$アンゲロイ・アルカ$$ units, and $$セツコ$$, $$ランド$$, $$クロウ$$ and ヒビキＡ must each shoot down 2 or more enemies.",
+      "new": "Meet victory condition 2 within 4 turns.\nAlso shoot down 4+ $$アンゲロイ・アルカ$$; $$セツコ$$, $$ランド$$, $$クロウ$$ and ヒビキＡ must each down 2+ enemies.",
+      "worst_bytes": 289,
+      "rows": 4
+    }
+  ],
+  "input_sha256": "54f39a8d1623148274eeb86762012e9b3baea6b8f425d7fb7035efa07c437696",
+  "runtime_verified": false
+}

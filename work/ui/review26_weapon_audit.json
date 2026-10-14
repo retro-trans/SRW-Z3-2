@@ -9,12 +9,6 @@
   "shared_short": 373,
   "full_name_exceptions": [
     {
-      "source": "イナズマキック",
-      "english": "Lightning Kick",
-      "reference": "Inazuma Kick",
-      "status": "reviewed-meaning-exception"
-    },
-    {
       "source": "無限拳",
       "english": "Infinity Punch",
       "reference": "Mugen Attack",
@@ -668,9 +662,9 @@
     },
     {
       "source": "イナズマキック",
-      "english": "Lightning Kick",
+      "english": "Inazuma Kick",
       "reference": "Inazuma Kick",
-      "status": "reviewed-meaning-exception"
+      "status": "identical"
     },
     {
       "source": "イナズマダブルキック",
@@ -4627,5 +4621,10 @@
       "status": "identical"
     }
   ],
-  "runtime_verified": false
+  "runtime_verified": false,
+  "canonical_revision": {
+    "version": "0.5.29",
+    "term": "Inazuma Kick",
+    "date": "2026-10-14"
+  }
 }

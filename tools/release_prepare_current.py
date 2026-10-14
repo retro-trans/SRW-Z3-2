@@ -11,7 +11,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source-commit', required=True)
     p.add_argument('--version', default=VERSION)
-    p.add_argument('--upgrade-from', default='0.5.18')
+    p.add_argument('--upgrade-from', default='0.5.28' if VERSION=='0.5.29' else '0.5.18')
     p.add_argument('--apply', action='store_true')
     a = p.parse_args(); version = a.version
     if version != VERSION:raise ValueError('Only the current verified build can be released')
@@ -24,6 +24,7 @@ def main():
     if version=='0.5.26':evidence_prefix='review26_verified_'
     if version=='0.5.27':evidence_prefix='review27_verified_'
     if version=='0.5.28':evidence_prefix='review28_verified_'
+    if version=='0.5.29':evidence_prefix='review29_verified_'
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
     if build['version'] != version or image['version'] != version or evidence['version'] != version:
@@ -52,6 +53,7 @@ def main():
     if version=='0.5.26':label='Stage reports, skill levels, name spacing and weapon consistency'
     if version=='0.5.27':label='Emperor Zuul, full-width team-name wrapping and map save prompts'
     if version=='0.5.28':label='Complete map defeat quotes'
+    if version=='0.5.29':label='Break / Fury, Inazuma Kick and numbered mission conditions'
     upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
 - Repair both two-color Custom Bonus award headers and the matching Ace Bonus
@@ -160,6 +162,33 @@ execution/readback checks. The real selector preserves pilot codes, its alias,
 unknown-code behavior and sentinel. Every quote fits its native composition
 buffer and speech panel. Original quote strings and consumer code are retained.
 '''
+    baseline_changes='''- Shorter Link question and PP bonus labels, preserving counts and totals.
+- Default protagonist names translated in the independent mission-condition
+  substitution routine; custom names, name order and saved bytes preserved.
+- Compact Library Name caption, aligned SR Point award layers and a single
+  highlighted bonus amount with its separate English prefix.
+- English world-map domination caption; percentage digits and animation retained.
+''' if a.upgrade_from=='0.5.18' else ''
+    if version=='0.5.29':
+        upgrade_notes='''- Correct the two Spirit names to the requested Z3 convention: Break ignores
+  defensive abilities; Fury guarantees critical hits. Update their compact
+  indicators, bonus descriptions and related trophy text.
+- Use Inazuma Kick in weapon names, glossary references and battle captions.
+- Fix victory and defeat conditions showing internal keys such as 条件１７１.
+  Cover all 262 static conditions in all three numbered slots and the
+  unnumbered state, across every chapter. Preserve colors and gameplay logic.
+- Fit numbered condition text with room for the number and continuation indent.
+- Prevent live-name/counter condition truncation with native byte limits and
+  room for expanded values. Keep every requirement in the shortened long SR
+  condition, including each named pilot's individual shootdown quota.
+'''
+        review23_verification='''All 1,048 native condition compositions pass the real drawer lookup after
+numbering, with row canaries intact. Another 200 cases execute live substitution
+then numbering with default and maximum-size values. All 129 Spirit fields, every full/list
+Inazuma Kick weapon occurrence and its battle captions pass final readback.
+The earlier death-quote, mission, name and UI repairs remain covered by the
+carried checks. No in-game visual verification is claimed.
+'''
     notes = f'''# {version} — {label}
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
@@ -189,12 +218,7 @@ and size; keep checksum checks enabled. Game images are not distributed.
 Compared with public **{a.upgrade_from}**, the previous public release:
 
 {upgrade_notes}
-- Shorter Link question and PP bonus labels, preserving counts and totals.
-- Default protagonist names translated in the independent mission-condition
-  substitution routine; custom names, name order and saved bytes preserved.
-- Compact Library Name caption, aligned SR Point award layers and a single
-  highlighted bonus amount with its separate English prefix.
-- English world-map domination caption; percentage digits and animation retained.
+{baseline_changes}
 
 ## Verification and compatibility
 

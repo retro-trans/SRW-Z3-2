@@ -6,7 +6,7 @@
       "ui.spirit_commands"
     ],
     "note": "Partial target glossary. Only the reviewed Spirit command name fields are bound. No character, stage or voice identities are implied.",
-    "naming_basis": "Inherited user-selected Spirit Commands naming convention; statuses are proposed, not claims of official localization.",
+    "naming_basis": "Selected project names; Break (直撃) and Fury (闘志) follow the user's 2026-10-14 Z3 naming correction. Statuses do not claim official localization.",
     "source_reference": "work/ui/reference/jigoku_ui/translations/spirits.json",
     "source_reference_sha256": "f66a2d288b517252c9a6d76473b2ee354fd68dc736d790059a493a49ca830fe6",
     "binary_integration_verified": false
@@ -52,7 +52,7 @@
     },
     {
       "jp": "闘志",
-      "en": "Fighting Spirit",
+      "en": "Fury",
       "kind": "spirit",
       "token": "闘志#spirit",
       "status": "proposed",
@@ -451,7 +451,7 @@
     },
     {
       "jp": "直撃",
-      "en": "Fury",
+      "en": "Break",
       "kind": "spirit",
       "token": "直撃#spirit",
       "status": "proposed",

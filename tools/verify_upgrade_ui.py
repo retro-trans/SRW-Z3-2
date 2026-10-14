@@ -71,7 +71,7 @@ def verify(version):
         native_bonus_question_cases=choices,award_lines=planned['lines'],trophies=build['trophies'],
         screenshots=shots,prior_verification=prior,iso_verification=prior['iso_verification'],runtime_verified=False,
         proofreading=dict(fields_examined=104,fields_in_scope=104,reviewer='upgrade20_wording',
-            corrections=['HP and EN to level 10','Spirit names Fury and Luck from bound glossary'],
+            corrections=['HP and EN to level 10','Spirit names Break and Luck from bound glossary'],
             inference='Simultaneous Spirit use expressed as concurrent effects; no trigger change.'))
 
 

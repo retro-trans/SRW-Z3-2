@@ -17,11 +17,11 @@ class Review23Tests(unittest.TestCase):
         cases=D.copy_cases(H.PREPARED.read_bytes(),rendered,self.mapping)
         self.assertEqual(len(cases),262)
         self.assertTrue(any(c['relocated_english_bytes']>128 for c in cases))
-        self.assertEqual(max(c['key_bytes']for c in cases),10)
+        self.assertLessEqual(max(c['key_bytes']for c in cases),128)
         native=D.stage_text(rendered)
         for jp,en in rendered.items():
             if any(p in jp for p in M.PLACEHOLDERS):self.assertEqual(native[jp],en)
-        self.assertEqual(len(D.hook_entries(H.PREPARED.read_bytes(),rendered,self.mapping)),262)
+        self.assertGreaterEqual(len(D.hook_entries(H.PREPARED.read_bytes(),rendered,self.mapping)),1048)
         bad=bytearray(H.PREPARED.read_bytes());bad[0x18c2dc-0x10000]^=1
         with self.assertRaises(ValueError):D.hook_entries(bytes(bad),rendered,self.mapping)
 

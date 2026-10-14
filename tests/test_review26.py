@@ -29,7 +29,9 @@ class Review26Tests(unittest.TestCase):
 
     def test_complete_weapon_comparison_and_pixel_bound(self):
         data,names=W.plan();self.assertEqual(data['full_names'],686);self.assertEqual(data['short_names'],606);self.assertEqual(data['shared_full'],440)
-        self.assertEqual(len(data['full_name_exceptions']),8)
+        self.assertEqual(len(data['full_name_exceptions']),7)
+        kick=next(r for r in data['comparison']if r['source']=='イナズマキック')
+        self.assertEqual((kick['english'],kick['reference'],kick['status']),('Inazuma Kick','Inazuma Kick','identical'))
         self.assertEqual(names['strings']['weapon_short']['輻射波動機構']['en'],'Radiant Wave Surger')
         slots=R.slots(R.load_rpw());caps=R.caps(slots)
         for s in slots:

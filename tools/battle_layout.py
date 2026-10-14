@@ -7,7 +7,7 @@ from tools import ui_catalog,ui_hook,eboot_text,vwf,status_layout
 DEST=ROOT/'work/translation/en/ui/battle_layout.json'
 # Z3's one-cell flag geometry, with this game's settled Spirit abbreviations.
 TINY={chr(0xe005+i):word for i,word in enumerate(
-    ('Va','So','Ft','Al','Pe','Wa','Fo','St','Ac','Ze','Me','Sn','As','Fy','Lu','Ga','Di','An'))}
+    ('Va','So','Fy','Al','Pe','Wa','Fo','St','Ac','Ze','Me','Sn','As','Br','Lu','Ga','Di','An'))}
 SEPARATOR = chr(0xe01e)
 TINY[SEPARATOR] = '/'
 FLAGS=dict(zip('熱魂闘閃不鉄集必加覚手狙突直幸努乱分',TINY))

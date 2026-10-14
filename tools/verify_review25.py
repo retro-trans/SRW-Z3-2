@@ -79,12 +79,11 @@ def verify(version):
     unlocks=[row for row in upgrade['native_report_cases']if row['index']in (6,20)]
     if len(unlocks)!=2:raise ValueError('Reported unlock paths not executed')
     from tools import mission_text as M,mission_display as MD
-    mission=M.plan(width);reported=[row for row in MD.hook_entries(H.PREPARED.read_bytes(),mission,mapping)
-        if b''!=row['english'] and "NPCs Lal'C, Nono, Tycho and"in L.decode(row['english'],mapping)]
+    mission=M.plan(width);reported=[row for row in MD.rows(mission)
+        if "NPCs Lal'C, Nono, Tycho and"in row['en'].replace('\n',' ')]
     if len(reported)!=1:raise ValueError('Reported NPC SR condition missing')
     elf=(folder/'EBOOT.BIN').read_bytes();info=build['executable']['ui_hook'];read=H._reader(elf,H._headers(elf)[2]);runner=H._Runner(elf,int(info['stub_va'],16),info['stub_bytes'])
-    row=reported[0];ptr,steps=runner.run(row['key']+b'\0')
-    if read(ptr,len(row['english'])+1)!=row['english']+b'\0':raise ValueError('Final NPC SR condition corrupt')
+    sr=MD.lookup_row(elf,runner,reported[0],mapping)
     shots=[]
     for label,ident in SHOTS:
         src=Path('C:/Users/Binh/AppData/Local/Temp')/('codex-clipboard-'+ident+'.png');dst=ROOT/'work/ui/screenshots'/('reported-0.5.18-review25-'+label+'.png')
@@ -92,7 +91,7 @@ def verify(version):
         shots.append(dict(issue=label,source=str(src),saved_path=str(dst),source_version='0.5.18',sha256=sha256_file(src),runtime_confirmation=False))
     return dict(schema=1,version=version,prior_verification=prior,iso_verification=prior['iso_verification'],caption_cases=captions,
         normal_font_record=dict(id=R.MAO_ID,row_widths=spans,keyword_link_preserved=True),dialogue_members=members,layout=layout,
-        name_coverage=name_coverage(),reported_native_unlocks=unlocks,reported_sr_condition=dict(text=L.decode(row['english'],mapping),lookup_steps=steps),
+        name_coverage=name_coverage(),reported_native_unlocks=unlocks,reported_sr_condition=dict(text=sr['english'],lookup_steps=sr['steps']),
         screenshots=shots,runtime_verified=False,proofreading=dict(reviewer='review25_wording',source_dialogue_rows_examined=47,mission_conditions_examined=6))
 
 def main():

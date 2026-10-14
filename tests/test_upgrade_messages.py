@@ -63,7 +63,7 @@ class UpgradeMessageTests(unittest.TestCase):
         final,report=T.build();original=T.source();data=T.plan()
         self.assertTrue(T.verify(original,final,data));self.assertEqual(report['translated_fields'],144)
         self.assertEqual(len(data['trophies']),35)
-        self.assertIn('Fury, Gain and Luck',data['trophies'][28]['detail'])
+        self.assertIn('Break, Gain and Luck',data['trophies'][28]['detail'])
         self.assertNotIn('Fortune',json.dumps(data))
         bad=bytearray(final);bad[-1]^=1
         with self.assertRaisesRegex(ValueError,'checksum'):T.unpack(bytes(bad))

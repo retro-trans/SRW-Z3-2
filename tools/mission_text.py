@@ -289,8 +289,40 @@ def plan(width_of):
     out = {}
     for jp, e in data['strings'].items():
         if e.get('en'):
-            out[jp] = wrap(lb.expand(e['en'], res), width_of)
+            english=lb.expand(e['en'],res)
+            out[jp] = wrap_live(english,width_of) if any(p in jp for p in PLACEHOLDERS) else wrap(english,width_of)
     return out
+
+def live_budget(text,width_of):
+    """Reserve native 40-byte name fields and ten full-width counter digits."""
+    size=units=i=0
+    while i<len(text):
+        token=next((p for p in PLACEHOLDERS if text.startswith(p,i)),None)
+        if token:
+            amount=20 if token.startswith('ローカル')else 40
+            size+=amount;units+=amount//2*32;i+=len(token)
+        else:
+            c=text[i];size+=1 if c=='\n' else (2 if ord(c)<128 else len(c.encode('cp932')))
+            units+=0 if c=='\n' else width_of(c);i+=1
+    return size,units
+
+def wrap_live(text,width_of):
+    lines=[]
+    for paragraph in text.split('\n'):
+        line=''
+        for word in paragraph.split(' '):
+            trial=line+' '+word if line else word
+            size,units=live_budget(trial,width_of)
+            if line and (size>96 or units>LINE_UNITS-64):
+                lines.append(line);line=word
+            else:line=trial
+        lines.append(line)
+    result='\n'.join(lines)
+    if live_budget(result,width_of)[0]>302:
+        raise ValueError('Live mission exceeds the native 302-byte field')
+    if any(live_budget(line,width_of)[0]>96 or live_budget(line,width_of)[1]>LINE_UNITS-64 for line in lines):
+        raise ValueError('Live mission exceeds the native numbered row')
+    return result
 
 
 def characters(texts):

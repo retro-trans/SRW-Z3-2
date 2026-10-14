@@ -32,8 +32,8 @@ class BattleLayout(unittest.TestCase):
             self.assertTrue(all(c in bl.TINY for c in row['en']))
             labels=[bl.TINY[c] for c in row['en']]
             if '／' in raw.decode('cp932'):
-                self.assertEqual(labels[13:17],['Fy','/','Di','An'])
-            else:self.assertEqual(labels[13:17],['Fy','Lu','Ga','Di'])
+                self.assertEqual(labels[13:17],['Br','/','Di','An'])
+            else:self.assertEqual(labels[13:17],['Br','Lu','Ga','Di'])
         for token in bl.TINY:
             ink,width=raster(token);box=ink.getbbox()
             self.assertEqual(width,32)

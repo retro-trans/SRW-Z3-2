@@ -19,7 +19,9 @@ def source_rows(elf):
         if read(va,3)!=chr(0xff10+n).encode('cp932')+b'\0':raise ValueError('Learning level digit changed')
     source=R.load_rpw();chunk=next(c for c in T.rpw_chunks(source)if c['name']=='sk-pri');names=R.load_names();rows=[]
     for slot in R.slots(source):
-        if slot['family']!='skill'or slot['col']!=1 or not R.needs_text(slot['jp']):continue
+        # The native getter returns the 52-byte record; the composer loads
+        # its name pointer at +8 (RPW column 2), including Element variants.
+        if slot['family']!='skill'or slot['col']!=2 or not R.needs_text(slot['jp']):continue
         raw=source[chunk['body_offset']+slot['record']*52:chunk['body_offset']+(slot['record']+1)*52]
         en=R.text_for(slot,names)
         if not en:raise ValueError('Untranslated skill base')

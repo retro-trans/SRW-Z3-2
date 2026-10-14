@@ -12,6 +12,9 @@ Japanese and relocated English name routes have complete draw-time keys.
 The oracle executes the native branching/string assembly with bounded getter
 and libc adapters. Gameplay skill IDs, PP prices and learning decisions stay
 unchanged. Static failure/eligibility messages were already translated.
+The getter returns the original 52-byte RPW record; the question composer loads
+the name at +8, column 2. That display field differs from the full-name field
+for two Element abilities. The complete family uses the actual display field.
 The meaning review preserves the distinction between purchased +N and intrinsic
 Lv B + purchased N. No computed effective level or cap behavior is invented.
 

@@ -5,12 +5,14 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.30 - 2026-10-14 (prepared; publication requires consent)
+## 0.5.30 - 2026-10-15 (prepared; publication requires consent)
 
 - Carry the completed 0.5.29 Spirit, Inazuma Kick and mission-condition repairs
   into the next candidate; public 0.5.28 remains the release baseline.
 - Translate all native skill-learning, level-raise and overwrite questions,
   covering all 81 named skill records and both source/translated name routes.
+  Bind the actual name field used by the native composer, including the two
+  Element abilities whose full and display names differ.
 - Translate every four-cell movement mask and its numbered forms; preserve
   terrain flag order, disabled dashes and live movement numbers.
 - Separate D-Trader labels and owned-item suffix from their fixed value fields.

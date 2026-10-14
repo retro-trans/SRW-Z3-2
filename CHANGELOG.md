@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.33 - 2026-10-15 (preparing; publication requires consent)
+## 0.5.33 - 2026-10-15 (prepared; publication requires consent)
 
 - Carry all prepared 0.5.29–0.5.32 fixes from public 0.5.28.
 - Translate the complete player-facing GIFT report category through the actual
@@ -19,6 +19,14 @@
   fixed R1 icon gap. Preserve all navigation and fast-forward controls.
 - Prepare validated original-game and exact-public-0.5.28 Retro Trans patches.
   Publication of 0.5.33 requires explicit consent; runtime confirmation is pending.
+- Pass 311 regression checks (two optional checks skipped), all 22 native reward
+  paragraph-copy cases, all 36 report draw/centering keys and final Arm Rakers
+  archive readback. Pass all carried checks, including 539 scene/news origin
+  cases, 210 SR panels, both Back Log guide variants and all save paragraphs.
+- Verify all 82 disc files through both directory trees. Validate both Retro
+  Trans 0.5.4 routes by complete ISO decode round trips; both reproduce SHA-256
+  `6994227fe27fd4e28a96d1ba89965469b1f7aeffffdbe71b808e91200e955683`.
+  Record all five delivery assets. No GitHub release was created or published.
 
 ## 0.5.32 - 2026-10-15 (built; carried into 0.5.33)
 

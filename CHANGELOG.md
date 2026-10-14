@@ -20,9 +20,19 @@
 - Capitalize Earth Sphere in four dialogue rows and twelve encyclopedia fields.
 - Fit battleship selection, ship name, movement, pilot and remaining-unit
   captions around their neighboring columns and unchanged live count.
+- Pass 301 regression checks (two optional checks skipped) and seven focused
+  checks after the final name-field correction. Verify all 6,191 new draw keys,
+  402 native skill questions, all 16 native movement masks and all nine captions.
+  Read back the corrected dialogue/encyclopedia fields and all carried fixes;
+  check all 82 disc files through both directory trees.
 - Prepare original-game and public-0.5.28 Retro Trans delivery routes, with
   release notes headed “What changed since last version.” Publication requires
   explicit consent for 0.5.30; in-game visual confirmation remains pending.
+- Validate both Retro Trans 0.5.4 routes by complete ISO decode round trips.
+  Both reproduce SHA-256
+  `57294ceeeb4b7d31250e88ef7c10c5b20bc7a3a30f553ed8d8a1cfd469d140e5`.
+  Verify and record all five delivery assets locally; no GitHub release was
+  created. Preserve superseded local build/package evidence separately.
 
 ## 0.5.29 - 2026-10-14 (local candidate; carried into 0.5.30)
 

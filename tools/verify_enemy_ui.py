@@ -90,7 +90,7 @@ def verify(version):
         if final[at+grow+4:at+grow+32] != original[at+4:at+32]:
             raise ValueError('Final Spirit band changed geometry or flags')
         labels = [B.TINY[ch] for ch in expected]
-        if '／' in src['text'] and labels[13:17] != ['Fy', '/', 'Di', 'An']:
+        if '／' in src['text'] and labels[13:17] != ['Br', '/', 'Di', 'An']:
             raise ValueError('Enemy separator differs')
         bands.append(dict(widget_offset=at, labels=labels, bytes=len(raw),
                           enemy_separator='／' in src['text']))

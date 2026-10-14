@@ -55,3 +55,13 @@ Carry all 0.5.29/30 repairs into 0.5.31. Prepare original-game and exact public
 0.5.28 patches through the official Retro Trans 0.5.4 release API. Both require
 complete ISO decode round trips. Release notes describe changes since public
 0.5.28. Creating or publishing 0.5.31 requires the user's explicit consent.
+
+Final verification passed all 210 panel cases, 180 compiled SR literal
+occurrences, ten reported native phase/color cases and the carried checks.
+The regression suite passed 305 checks, with two optional checks skipped.
+All 82 disc files passed both filesystem trees. Both official Retro Trans
+patch routes decoded to the same 5,289,213,952-byte image, SHA-256
+`302890a89ce18481f741c2aab776573c590382ec4eecb9ca6c76e3fc6111c388`.
+All five assets are recorded in `work/ui/local_release_0.5.31.json`.
+Public 0.5.28 remains the latest published release; no 0.5.31 GitHub release
+or draft was created.

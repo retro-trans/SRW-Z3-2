@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.31 - 2026-10-15 (preparing; publication requires consent)
+## 0.5.31 - 2026-10-15 (prepared; publication requires consent)
 
 - Carry all prepared 0.5.29–0.5.30 fixes forward from public 0.5.28.
 - Confirm the complete Episode 20 SR requirement: defeat all enemies within
@@ -23,6 +23,14 @@
 - Prepare original-game and public-0.5.28 Retro Trans delivery routes, with
   changes measured from the previous public version. Publication of 0.5.31
   requires explicit consent; in-game visual confirmation remains pending.
+- Pass 305 regression checks (two optional checks skipped), all 210 complete
+  native SR panel cases, all 180 compiled SR literal occurrences and all ten
+  reported native phase/color cases. Pass all carried checks and verify all
+  82 disc files through both directory trees.
+- Validate both Retro Trans 0.5.4 routes by complete ISO decode round trips.
+  Both reproduce SHA-256
+  `302890a89ce18481f741c2aab776573c590382ec4eecb9ca6c76e3fc6111c388`.
+  Record all five local delivery assets; no GitHub release was created.
 
 ## 0.5.30 - 2026-10-15 (prepared; carried into 0.5.31)
 

@@ -63,10 +63,17 @@ def verify(version):
     if json.loads(A.DEST.read_text(encoding='utf8'))!=layout:raise ValueError('Deployment source bindings stale')
     with CPK(folder/'AIDDATAPACK.CPK')as c:final=c.read(next(e for e in c.files if e['id']==0))
     grow=len(final)-len(source);widgets={a:r for r in U.fssa_strings(final,decode=lambda raw:L.decode(raw,mapping))for a in r['widget_offsets']}
+    latest={}
+    if tuple(map(int,version.split('.'))) >= (0,5,32):
+        from tools import review32_layout
+        latest={e['widget_offset']:e for e in review32_layout.plan()['edits']}
     for e in layout['edits']:
         at=e['widget_offset'];to=at+grow
+        e=latest.get(at,e)
         if widgets[to]['raw']!=F.encode(e,mapping):raise ValueError('Deployment caption differs')
-        if final[to+4:to+32]!=source[at+4:at+32]:raise ValueError('Deployment value/flag geometry changed')
+        expected=bytearray(source[at+4:at+32])
+        if 'x'in e:struct.pack_into('>f',expected,0,e['x'])
+        if final[to+4:to+32]!=expected:raise ValueError('Deployment value/flag geometry changed')
     shots=[]
     for label,ident in SHOTS:
         src=Path('C:/Users/Binh/AppData/Local/Temp')/('codex-clipboard-'+ident+'.png')

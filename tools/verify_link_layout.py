@@ -54,6 +54,10 @@ def verify(version):
     if layout.get('save_center'):
         from tools.status_layout import save_origin
         expected['drawer origin']=lambda va:save_origin(va,state,layout['save_center'])
+    if layout.get('content_center'):
+        from tools import review32_content as content
+        expected['content units']=lambda va:content.units(va,table)
+        expected['drawer origin']=lambda va:content.origin(va,state,layout['content_units_va'],layout['content_center'],layout.get('save_center') or [])
     for key,row in rows.items():
         if read(row['va'],row['bytes'])!=expected[key](row['va']): raise ValueError('Final helper mismatch: '+key)
     for site in ll.GUARDS:
@@ -204,6 +208,11 @@ def verify(version):
         review30=json.loads(review30_layout.DEST.read_text(encoding='utf8'))
         if review30!=review30_layout.plan():raise ValueError('Review30 layout plan differs from current source')
         edits=status_layout.merge(edits,review30['edits'])
+    if tuple(map(int,version.split('.')))>=(0,5,32):
+        from tools import review32_layout
+        review32=json.loads(review32_layout.DEST.read_text(encoding='utf8'))
+        if review32!=review32_layout.plan():raise ValueError('Review32 layout plan differs from current source')
+        edits=status_layout.merge(edits,review32['edits'])
     ui_layout_text.verify_fssa(source,built,edits,mapping,menus['element_edits'])
     command_lines=[]
     for edit in menus['edits']:

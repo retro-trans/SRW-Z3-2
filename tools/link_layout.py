@@ -245,7 +245,14 @@ def apply(elf,original,state,table,mapping=None,save_center=None):
     look=add('exact lookup',lookup_code)
     wrapper=add('display lookup',lambda va:lookup_wrapper(va,look))
     measure=add('VWF units',lambda va:units(va,table))
-    if save_center:
+    from tools import review32_content as content
+    content_specs = ([dict(code=int(mapping[token],16),two_lines=token==content.HEADLINE_MARK)
+                      for token in (content.CAPTION_MARK,content.HEADLINE_MARK)]
+                     if mapping and content.MARKERS <= set(mapping) else [])
+    content_measure = add('content units',lambda va:content.units(va,table)) if content_specs else None
+    if content_specs:
+        add('drawer origin',lambda va:content.origin(va,state,content_measure,content_specs,save_center or []),0x141a8)
+    elif save_center:
         from tools.status_layout import save_origin
         add('drawer origin',lambda va:save_origin(va,state,save_center),0x141a8)
     else:add('drawer origin',lambda va:drawer_pen(va,state),0x141a8)
@@ -279,6 +286,7 @@ def apply(elf,original,state,table,mapping=None,save_center=None):
     for lo,hi in spans: restored[lo:hi]=elf[lo:hi]
     if restored!=elf: raise ValueError('Layout isolation failure')
     return bytes(out),dict(code=code_rows,state_va=state,width_table_va=table,
+        content_center=content_specs,content_units_va=content_measure,
         centering_selection_codes=selection_codes,
         save_center=save_center,
         source_spans=[dict(start=lo,end=hi,sha256=sha256(native(lo,hi-lo))) for lo,hi in SPANS],

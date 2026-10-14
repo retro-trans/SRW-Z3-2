@@ -17,6 +17,9 @@ COMMAND_LEFT = 1030.0
 
 def encode(edit,mapping):
     from tools.eboot_text import encode as plain
+    if 'icon_column' in edit:
+        from tools.review32_layout import guide_encoded
+        return guide_encoded(edit,mapping)
     if edit.get('font_style')=='native-label':
         from tools.native_labels import PREFIX
         selected=dict(mapping)

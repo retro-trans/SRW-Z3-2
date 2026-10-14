@@ -83,6 +83,9 @@ def characters(texts):
 
 def encode(text, mapping):
     """Mapped cells for Latin text, raw ASCII for control codes, cp932 otherwise; CRLF lines."""
+    from tools.review32_content import caption_encoded
+    centered = caption_encoded(text, mapping)
+    if centered is not None: return centered
     out, pos = bytearray(), 0
     for m in dlg.CODES.finditer(text):
         out += lb.encode(text[pos:m.start()], mapping)

@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.31'
+VERSION = '0.5.32'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -74,6 +74,12 @@ def plan(settings):
     # Executable UI text (docs/UI_EBOOT.md), drawn through the hook (docs/UI_HOOK.md).
     from tools import eboot_text
     tokens |= eboot_text.characters()
+    from tools import review32_content,review32_layout
+    tokens |= review32_content.characters()
+    from tools import native_labels
+    for edit in review32_layout.plan()['edits']:
+        tokens.update(c for c in edit['en'] if c != '\n')
+        if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in edit['en'] if c != '\n')
     from tools import ui_catalog
     tokens |= ui_catalog.characters()
     from tools import upgrade_messages
@@ -207,7 +213,8 @@ def plan(settings):
     from tools import review27_messages
     review27_entries=review27_messages.hook_entries(elf,mapping)
     review30_entries=review30_messages.hook_entries(elf,mapping)+review30_movement.hook_entries(elf,mapping)
-    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries+review30_entries}.values())
+    review32_entries=review32_content.hook_entries(elf,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries+review30_entries+review32_entries}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -223,8 +230,10 @@ def plan(settings):
     names_plan['payloads'] += mission_names.payloads(mapping)
     from tools import library_runtime
     library_runtime_plan=library_runtime.plan(elf,mapping,width_of)
+    from tools import review32_save
+    save32_plan=review32_save.plan(elf,mapping);save32_plan['mapping']=mapping
     executable, hook_report = ui_hook.apply(executable, hook_entries,
-        runtime_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+review28_quotes.payloads(defeat_quotes_plan,mapping)+[(link_layout.STATE,link_layout.PAYLOAD)])
+        runtime_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+save32_plan['payloads']+review28_quotes.payloads(defeat_quotes_plan,mapping)+[(link_layout.STATE,link_layout.PAYLOAD)])
     executable,defeat_quotes_report=review28_quotes.apply(executable,defeat_quotes_plan,hook_report['table']['payload_vas'])
     defeat_quotes_report['execution']=review28_quotes.verify(executable,defeat_quotes_plan,mapping)
     exec_report['defeat_quotes']=defeat_quotes_report
@@ -237,6 +246,8 @@ def plan(settings):
     names_report['mission_execution_cases']=mission_names.verify(executable,mapping,hook_report['table']['payload_vas'])
     executable, library_runtime_report=ui_runtime.apply(executable,library_runtime_plan,hook_report['table']['payload_vas'])
     executable, library_converter_report=library_runtime.native_patch(executable,elf,mapping)
+    executable,save32_report=review32_save.apply(executable,elf,save32_plan,hook_report['table']['payload_vas'])
+    exec_report['save_questions']=save32_report
     executable, library_conversion_report=library_runtime.apply_fastpath(executable,elf,library_runtime_plan,hook_report['table']['payload_vas'])
     executable, link_report = link_layout.apply(executable,elf,
         hook_report['table']['payload_vas'][link_layout.STATE],exec_report['table_va'],mapping,

@@ -5,7 +5,27 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.31 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.32 - 2026-10-15 (preparing; publication requires consent)
+
+- Carry all prepared 0.5.29–0.5.31 fixes forward from public 0.5.28.
+- Center all 517 decorated location captions from their displayed widths,
+  including the Jindai High School old-building classroom caption in Back Log.
+  Normalize location separators and preserve the source blank rows and words.
+- Fit eleven long/combined news headlines into two centered lines. Split the
+  Wrath Babylon headline at its colon, preserving every word. Use the existing
+  condensed alphabet for four combined headlines that need it.
+- Shorten Sub Order labels around its three fixed counters; suppress duplicate
+  pilot-word fragments. Fit Sub Order and Back Log hints around the original
+  controller icons. Separate Team Setup's MV labels from its movement brackets.
+- Relocate all three native save questions before paragraph copying, keeping
+  both English lines and the original save/choice operations. Preserve original
+  Japanese strings and bind only their three display pointers.
+- Exercise the real marked-text origin helper and native question constructor;
+  check complete text, caller registers, font geometry and numeric fields.
+- Prepare original-game and public-0.5.28 Retro Trans patches. Publication of
+  0.5.32 requires explicit consent; in-game visual confirmation remains pending.
+
+## 0.5.31 - 2026-10-15 (prepared; carried into 0.5.32)
 
 - Carry all prepared 0.5.29–0.5.30 fixes forward from public 0.5.28.
 - Confirm the complete Episode 20 SR requirement: defeat all enemies within

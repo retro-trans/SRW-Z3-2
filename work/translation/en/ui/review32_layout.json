@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "version": "0.5.32",
+  "source_member_sha256": "2432b3425ef264a10a311a6707f7963acd1cbe802868b07b702a51d9c62e8ad0",
+  "edits": [
+    {
+      "widget_offset": 615364,
+      "source_sha256": "408bab7c02723669cbaedd56c152072c4c80b1eb8e64add38f3f4c2df8fb93e5",
+      "source_widget_sha256": "199a6018bef2186bea4b2ec5e4bf0c402ea3027dee4e67dce14e28f725bb326d",
+      "en": "Undeployed:\nCapacity:",
+      "notes": "Clear both fixed numeric fields and retain the native row pitch.",
+      "font_style": "native-label"
+    },
+    {
+      "widget_offset": 615396,
+      "source_sha256": "7bb2cd66fd168b683b079d3150b6545c1bf458452013598789a6ad1bb173d048",
+      "source_widget_sha256": "fae57873eb5084499300550e640952cc9ea2af7d18bab9df23250e743c173f34",
+      "en": "L:",
+      "notes": "Left/remaining abbreviation between the capacity and remaining numeric fields.",
+      "font_style": "native-label",
+      "x": -0.60234375
+    },
+    {
+      "widget_offset": 615428,
+      "source_sha256": "fa660006ba9f4a457264a87675e2f82a62874a98882d5b6593b27ae85035306f",
+      "source_widget_sha256": "5fc5e8c7c5e7a2fe9178238cab53746e371560a80f2ba5664ef071cca4ab9440",
+      "en": "",
+      "notes": "Suppress a separately drawn Japanese pilot-word fragment; the complete label is in the main row."
+    },
+    {
+      "widget_offset": 615460,
+      "source_sha256": "c562c6a7d0933556ba02df472ad3b2986f93c91f1d9633c5324512f2cc0826b1",
+      "source_widget_sha256": "6934a9a958c23ddd58ed17c0196c50b21a366e52287e396f8dfc77c44aff4bb2",
+      "en": "",
+      "notes": "Suppress a separately drawn Japanese pilot-word fragment; the complete label is in the main row."
+    },
+    {
+      "widget_offset": 614180,
+      "source_sha256": "63dcd47d6b0d0c71fdcd2b0f614fda4b0e84ec63b27adf06b8e53073f611ab5e",
+      "source_widget_sha256": "880e9b9dd2aa150d254c2972d8341937982eceadc56f88e1dfb43802050186f0",
+      "en": ": Fill Slots",
+      "notes": "Fit the guide after Square + R1 without moving either icon."
+    },
+    {
+      "widget_offset": 614244,
+      "source_sha256": "62be565ba5572458f880a0567aa7deb0cef9e740bbe9864af6c59831c9f94193",
+      "source_widget_sha256": "b1bd5316e44010de295f1a731b58e5d584fd3226ee91be086e73ef47374dfaac",
+      "en": ": Switch Mode",
+      "notes": "Fit the guide after Start inside the grey panel."
+    },
+    {
+      "widget_offset": 572164,
+      "source_sha256": "e0790d9c4d5ee7081bc6941ba05ab433af8ecb174664656dd8fc2262ac519f32",
+      "source_widget_sha256": "e80e4a6ad166207fa37841dff61f74ebd2dc91e00a3a9dc3241fdc32eb538c43",
+      "en": ": Prev Line\n: Next Line",
+      "notes": "Keep the two rows clear of the quote-guide column."
+    },
+    {
+      "widget_offset": 631204,
+      "source_sha256": "e0790d9c4d5ee7081bc6941ba05ab433af8ecb174664656dd8fc2262ac519f32",
+      "source_widget_sha256": "4ce6110763f7887ec04bde34ff00be67ecd811a1749809c6c2af0025b9f4aa7c",
+      "en": ": Prev Line\n: Next Line",
+      "notes": "Keep the two rows clear of the quote-guide column."
+    },
+    {
+      "widget_offset": 572196,
+      "source_sha256": "4b1c7f985a41aaf0939d1bf8913d6fb4f1a3277147bc8d8b83ea06a295baf943",
+      "source_widget_sha256": "3a2400db23e41eda8de73ed8b6adb3eda6d6849b48a30b0fd85b1a34c3acdd78",
+      "en": ": Prev Quote (+        : Fast)\n: Next Quote (+        : Fast)",
+      "notes": "Preserve the R1 icon gap in both quote rows.",
+      "icon_column": {
+        "left": 647.5,
+        "suffix": 906.5,
+        "quad": 28,
+        "prefixes": [
+          ": Prev Quote (+",
+          ": Next Quote (+"
+        ],
+        "suffix_text": ": Fast)"
+      }
+    },
+    {
+      "widget_offset": 631236,
+      "source_sha256": "4b1c7f985a41aaf0939d1bf8913d6fb4f1a3277147bc8d8b83ea06a295baf943",
+      "source_widget_sha256": "fa1757380aefc40d7ccb554682236e4258ee4a3f48971f1749e40e520111ec1c",
+      "en": ": Prev Quote (+        : Fast)\n: Next Quote (+        : Fast)",
+      "notes": "Preserve the R1 icon gap in both quote rows.",
+      "icon_column": {
+        "left": 647.5,
+        "suffix": 906.5,
+        "quad": 28,
+        "prefixes": [
+          ": Prev Quote (+",
+          ": Next Quote (+"
+        ],
+        "suffix_text": ": Fast)"
+      }
+    },
+    {
+      "widget_offset": 674788,
+      "source_sha256": "a9ceec300f777c1725d3a68885f541544855a2771e406d326a4130ab2dc61ee7",
+      "source_widget_sha256": "7a2d0e598c9e3ac3ae60e2382177c05bdfcf009e9b27c01ab44443c318640bf2",
+      "en": "MV\nMV",
+      "notes": "Clear the separately drawn movement brackets in both footer rows.",
+      "font_style": "native-label",
+      "x": -0.28203125
+    }
+  ],
+  "bounds": [
+    {
+      "label": "pilot label",
+      "pixels": 171.875,
+      "available": 190
+    },
+    {
+      "label": "capacity label",
+      "pixels": 132.8125,
+      "available": 140
+    },
+    {
+      "label": "remaining label",
+      "pixels": 26.5625,
+      "available": 28
+    },
+    {
+      "label": "mode guide",
+      "pixels": 174.21875,
+      "available": 275
+    },
+    {
+      "label": "line guide",
+      "pixels": 148.75,
+      "available": 235
+    },
+    {
+      "label": "quote guide",
+      "pixels": 119.0,
+      "available": 200
+    },
+    {
+      "label": "movement bracket gap",
+      "pixels": 7.1875,
+      "available": 45
+    }
+  ],
+  "numeric_fields_changed": false,
+  "runtime_verified": false
+}

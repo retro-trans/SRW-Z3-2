@@ -22,7 +22,7 @@ def verify(version):
         if read(pointer,len(row['english'])+1)!=row['english']+b'\0':raise ValueError('Final news headline differs')
     source=B.source()
     with CPK(folder/'AIDDATAPACK.CPK')as arc:final=arc.read(next(r for r in arc.files if r['id']==0))
-    grow=len(final)-len(source);widgets={at:r for r in U.fssa_strings(final)for at in r['widget_offsets']}
+    grow=len(final)-len(source);widgets={at:r for r in U.fssa_strings(final,lambda raw:raw.hex())for at in r['widget_offsets']}
     from tools.menu_layout import encode
     for row in A.plan()['edits']:
         at=row['widget_offset'];to=at+grow

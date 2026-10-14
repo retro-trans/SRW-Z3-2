@@ -534,7 +534,7 @@
       "source": "fresh:m_02"
     },
     "巨大円盤を１度の「攻撃（攻撃／マキシマムブレイク／反撃）」で撃墜。\n援護攻撃を組み合わせても可。なお、「歌」も「攻撃」と見なされる。\n巨大円盤の攻撃を防御／回避した行動は、「攻撃」と見なされない。": {
-      "en": "Shoot down the $$巨大円盤$$ with a single \"attack\" (Attack / Maximum Break / Counter).\nSupport Attacks may be combined with it. \"Songs\" also count as \"attacks\".\nDefending against or evading the $$巨大円盤$$'s attack does not count as an \"attack\".",
+      "en": "Shoot down the $$巨大円盤$$ in one attack (Attack/Maximum Break/Counter).\nSupport Attacks may join it. Songs count as attacks.\nGuarding or evading its attack does not count as an attack.",
       "source": "fresh:m_02"
     },
     "レジスタンス全機の撤退。\nレジスタンスの機体はＨＰ３００以下で撤退する。": {
@@ -878,7 +878,7 @@
       "source": "fresh:m_03"
     },
     "どちらかの使徒を１度の「攻撃（攻撃／マキシマムブレイク／反撃）」で撃墜。\n援護攻撃を組み合わせても可。なお、「歌」も「攻撃」と見なされる。\n使徒からの攻撃を防御／回避した行動は、「攻撃」と見なされない。": {
-      "en": "Shoot down either Angel with a single \"attack\" (Attack/Maximum Break/Counter).\nCombining it with Support Attacks is allowed. A \"song\" also counts as an \"attack\".\nDefending against or evading an Angel's attack does not count as an \"attack\".",
+      "en": "Shoot down either Angel in one attack (Attack/Maximum Break/Counter).\nSupport Attacks may join it. Songs count as attacks.\nGuarding or evading an Angel's attack does not count as an attack.",
       "source": "fresh:m_03"
     },
     "ノリコ、またはラルクの撃墜。": {
@@ -906,7 +906,7 @@
       "source": "fresh:m_03"
     },
     "３ターン以内のいずれかの同一ターンに以下の３つの条件全てを満たす。\n１．タクティカルコンボＭＡＸ達成。\n２．そのターンで敵を２０機以上、撃墜する。\n３．ジェミニアを撃墜する。": {
-      "en": "Within 3 turns, meet all 3 of the following conditions in the same turn.\n1. Reach Tactical Combo MAX.\n2. Shoot down 20 or more enemies that turn.\n3. Shoot down $$ジェミニア#robot$$.",
+      "en": "Within 3 turns, meet all 3 conditions in the same turn.\n1. Reach Tactical Combo MAX.\n2. Shoot down 20 or more enemies that turn.\n3. Shoot down $$ジェミニア#robot$$.",
       "source": "fresh:m_03"
     },
     "バンシィ・ノルンがＥＬＳに撃墜、または侵食される。": {
@@ -914,7 +914,7 @@
       "source": "fresh:m_03"
     },
     "３ターン以内のいずれかの同一ターンに以下の３つの条件全てを満たす。\n１．タクティカルコンボＭＡＸ達成。\n２．そのターンで敵を２０機以上、撃墜する。\n３．ジェミニアを撃墜する（ＥＬＳに撃墜、侵食された場合は無効）。": {
-      "en": "Within 3 turns, meet all 3 of the following conditions in the same turn.\n1. Reach Tactical Combo MAX.\n2. Shoot down 20 or more enemies that turn.\n3. Shoot down $$ジェミニア#robot$$ (void if it is shot down or eroded by the $$ＥＬＳ#keyword$$).",
+      "en": "Within 3 turns, meet all 3 conditions in the same turn.\n1. Reach Tactical Combo MAX.\n2. Shoot down 20 or more enemies that turn.\n3. Shoot down $$ジェミニア#robot$$ (void if $$ＥＬＳ#keyword$$ shoot it down or erode it).",
       "source": "fresh:m_03"
     },
     "３ターン以内に全てのシャウラスを撃墜して、\n最後にアン・アーレスを撃墜する。": {
@@ -950,7 +950,7 @@
       "source": "fresh:m_03"
     },
     "６ターン以内に敵を全滅させ、さらにクリアまでに以下の条件の全てを満たす。\n１．タクティカルコンボＭＡＸ達成。\n２．いずれかの味方パイロットが敵を５機以上、撃墜。\n３．いずれかのターンに敵を１６機以上、撃墜する。": {
-      "en": "Wipe out all enemies within 6 turns, and before clearing the map, also meet all of the following conditions.\n1. Reach Tactical Combo MAX.\n2. Have any one allied pilot shoot down 5 or more enemies.\n3. Shoot down 16 or more enemies in a single turn.",
+      "en": "Defeat all enemies within 6 turns; before clearing, also:\n1. Reach Tactical Combo MAX.\n2. One allied pilot must shoot down 5 or more enemies.\n3. Shoot down 16 or more enemies in one turn.",
       "source": "fresh:m_03"
     },
     "プレイアデス・タウラ、尸逝天、アン・アーレスの撃墜。\nハイアデス、鬼宿、アンタレスをそれぞれ６チーム壊滅させると\n対応するスフィア・リアクターがマップに登場する。": {
@@ -1146,7 +1146,7 @@
       "source": "fresh:m_04"
     },
     "４ターン以内に敵を全滅させる。\n（この項目に記入してある条件を満たすと、ＳＲポイントが獲得できます。\n　ＳＲポイントを獲得するとボーナス資金１００００をもらえますが、\n　一定値以上のポイントを獲得するとゲームの難易度が高くなります）": {
-      "en": "Defeat all enemies within 4 turns.\n(Meeting the condition written here earns an SR Point.\nEach SR Point earned gives you 10000 bonus funds,\nbut earning more than a certain number of points raises the game's difficulty.)",
+      "en": "Defeat all enemies within 4 turns.\n(Meeting the condition written here earns an SR Point.\nEach SR Point earned gives you 10000 bonus funds,\nbut reaching a set SR Point total increases the game's difficulty.)",
       "source": "fresh:m_04"
     }
   }

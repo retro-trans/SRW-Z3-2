@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.30'
+VERSION = '0.5.31'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -251,6 +251,8 @@ def plan(settings):
     exec_report['mission_composition']=dict(
         static_cases=len(mission_display.composition_cases(executable,mission,mapping)),
         live_cases=len(mission_display.live_cases(executable,mission,mapping)),runtime_verified=False)
+    from tools import mission_panel
+    exec_report['mission_composition']['sr_panel_cases'] = len(mission_panel.sr_cases(executable, mission, mapping))
     exec_report['ui_hook'] = dict(hook_report if isinstance(hook_report, dict) else {'report': str(hook_report)},
                                   entries=len(hook_entries), skipped=dict(hook_skipped))
     exec_report['expanded_ui'] = expanded_report

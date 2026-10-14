@@ -11,7 +11,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source-commit', required=True)
     p.add_argument('--version', default=VERSION)
-    p.add_argument('--upgrade-from', default='0.5.28' if VERSION in ('0.5.29','0.5.30') else '0.5.18')
+    p.add_argument('--upgrade-from', default='0.5.28' if VERSION in ('0.5.29','0.5.30','0.5.31') else '0.5.18')
     p.add_argument('--apply', action='store_true')
     a = p.parse_args(); version = a.version
     if version != VERSION:raise ValueError('Only the current verified build can be released')
@@ -26,6 +26,7 @@ def main():
     if version=='0.5.28':evidence_prefix='review28_verified_'
     if version=='0.5.29':evidence_prefix='review29_verified_'
     if version=='0.5.30':evidence_prefix='review30_verified_'
+    if version=='0.5.31':evidence_prefix='review31_verified_'
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
     if build['version'] != version or image['version'] != version or evidence['version'] != version:
@@ -56,6 +57,7 @@ def main():
     if version=='0.5.28':label='Complete map defeat quotes'
     if version=='0.5.29':label='Break / Fury, Inazuma Kick and numbered mission conditions'
     if version=='0.5.30':label='Skill questions, D-Trader and battleship layout, Spirit and mission fixes'
+    if version=='0.5.31':label='Complete SR conditions, skill questions and UI repairs'
     upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
 - Repair both two-color Custom Bonus award headers and the matching Ace Bonus
@@ -171,7 +173,7 @@ buffer and speech panel. Original quote strings and consumer code are retained.
   highlighted bonus amount with its separate English prefix.
 - English world-map domination caption; percentage digits and animation retained.
 ''' if a.upgrade_from=='0.5.18' else ''
-    if version in ('0.5.29','0.5.30'):
+    if version in ('0.5.29','0.5.30','0.5.31'):
         upgrade_notes='''- Correct the two Spirit names to the requested Z3 convention: Break ignores
   defensive abilities; Fury guarantees critical hits. Update their compact
   indicators, bonus descriptions and related trophy text.
@@ -191,7 +193,7 @@ Inazuma Kick weapon occurrence and its battle captions pass final readback.
 The earlier death-quote, mission, name and UI repairs remain covered by the
 carried checks. No in-game visual verification is claimed.
 '''
-    if version=='0.5.30':
+    if version in ('0.5.30','0.5.31'):
         upgrade_notes+='''- Translate the full skill-confirmation category: learning, level increases
   and overwriting an existing skill. Cover every skill name, not only E-Save.
 - Translate every movement terrain combination, including numbered masks.
@@ -206,6 +208,18 @@ carried checks. No in-game visual verification is claimed.
 composer is exercised for every skill and both source/translated name routes.
 All nine changed widgets pass final text/coordinate readback and column bounds.
 The four corrected dialogue rows and twelve encyclopedia fields pass archive readback.
+'''
+    if version=='0.5.31':
+        upgrade_notes+='''- Restore the complete Episode 20 and 21 SR conditions: no allied battleship
+  damage within three turns; one allied pilot shoots down at least six enemies
+  before clearing the map. Use separate native rows for every displayed line.
+- Fit six additional SR explanations into the actual four-row slot. Keep all
+  targets, turn limits, shootdown quotas, attack exceptions and ELS exclusions.
+'''
+        review23_verification+='''All 101 distinct SR conditions pass 210 executions of the complete native
+four-row panel, with both color states and default/maximum live values. The
+reported phases and all compiled SR literals pass final archive/drawer readback.
+All six former row overruns are reproduced by the regression test and repaired.
 '''
     notes = f'''# {version} — {label}
 

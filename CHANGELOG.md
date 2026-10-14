@@ -5,7 +5,26 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.30 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.31 - 2026-10-15 (preparing; publication requires consent)
+
+- Carry all prepared 0.5.29–0.5.30 fixes forward from public 0.5.28.
+- Confirm the complete Episode 20 SR requirement: defeat all enemies within
+  three turns without any allied battleship taking damage. Episode 21 requires
+  one allied pilot to shoot down at least six enemies before clearing the map.
+  Their English translations were correct; preserve both full native rows.
+- Audit all 101 distinct SR conditions in the actual panel assembler. Its SR
+  slot has four 103-byte rows; reproduce six five/six-row overruns in 0.5.30.
+- Fit those six explanations into four normal-font rows after source meaning
+  review. Preserve attack/support/song exceptions, every shootdown quota and
+  deadline, ELS invalidation and SR Point bonus/difficulty rules.
+- Add full native-panel and final-drawer verification for all SR conditions,
+  both color states and default/maximum live names and counters. Preserve
+  phase IDs, native code, state fields and gameplay rules.
+- Prepare original-game and public-0.5.28 Retro Trans delivery routes, with
+  changes measured from the previous public version. Publication of 0.5.31
+  requires explicit consent; in-game visual confirmation remains pending.
+
+## 0.5.30 - 2026-10-15 (prepared; carried into 0.5.31)
 
 - Carry the completed 0.5.29 Spirit, Inazuma Kick and mission-condition repairs
   into the next candidate; public 0.5.28 remains the release baseline.

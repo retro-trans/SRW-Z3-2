@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "version": "0.5.31",
+  "assigned_conditions": 6,
+  "source_rows_examined": 29,
+  "meaning_reviewer": "review29_live_conditions",
+  "changes": [
+    {
+      "member": 375,
+      "source_sha256": "2e842c709c6ec6409a3746eaf360778c4b86abdd215757d20a0539554293a1f5",
+      "previous_english_sha256": "d06dd4da5b5d3f511769db6da36196a4bac9bb1f8fcfa9b2f9b08f1891e923a6",
+      "english": "Shoot down the Giant Saucer in one attack (Attack/Maximum Break/Counter).\nSupport Attacks may join it. Songs count as attacks.\nGuarding or evading its attack does not count as an attack.",
+      "rows": 4,
+      "lines": [
+        "Shoot down the Giant Saucer in one attack (Attack/Maximum",
+        "Break/Counter).",
+        "Support Attacks may join it. Songs count as attacks.",
+        "Guarding or evading its attack does not count as an attack."
+      ],
+      "maximum_line_units": 951
+    },
+    {
+      "member": 554,
+      "source_sha256": "b8053eef6cae48f466a846c5e5a8f77d7ce852856551b0c8c30d17e9c1474242",
+      "previous_english_sha256": "9dff746a83205a8e10f3de5163acf7a2f2204676bf814e086a8aa2a0e0499968",
+      "english": "Shoot down either Angel in one attack (Attack/Maximum Break/Counter).\nSupport Attacks may join it. Songs count as attacks.\nGuarding or evading an Angel's attack does not count as an attack.",
+      "rows": 4,
+      "lines": [
+        "Shoot down either Angel in one attack (Attack/Maximum",
+        "Break/Counter).",
+        "Support Attacks may join it. Songs count as attacks.",
+        "Guarding or evading an Angel's attack does not count as an attack."
+      ],
+      "maximum_line_units": 1054
+    },
+    {
+      "member": 590,
+      "source_sha256": "a087a60ed6200b3c5caf01032acdcd5d961200d4bc9c5b2e7f015fbf10277f29",
+      "previous_english_sha256": "0b291ffce0e2a6502179d1ef873bd87959ae68f4e81a3a540ea7daff942d3ea9",
+      "english": "Within 3 turns, meet all 3 conditions in the same turn.\n1. Reach Tactical Combo MAX.\n2. Shoot down 20 or more enemies that turn.\n3. Shoot down Geminia.",
+      "rows": 4,
+      "lines": [
+        "Within 3 turns, meet all 3 conditions in the same turn.",
+        "1. Reach Tactical Combo MAX.",
+        "2. Shoot down 20 or more enemies that turn.",
+        "3. Shoot down Geminia."
+      ],
+      "maximum_line_units": 847
+    },
+    {
+      "member": 590,
+      "source_sha256": "be692ba6340b58c775e041dcd26be70cc9bef0080099d2ad11475780ffde4b20",
+      "previous_english_sha256": "cb07cc6a16a35184bc0faf160c583c47ff2292d5d55dae1bcfac8eedbd112a93",
+      "english": "Within 3 turns, meet all 3 conditions in the same turn.\n1. Reach Tactical Combo MAX.\n2. Shoot down 20 or more enemies that turn.\n3. Shoot down Geminia (void if ELS shoot it down or erode it).",
+      "rows": 4,
+      "lines": [
+        "Within 3 turns, meet all 3 conditions in the same turn.",
+        "1. Reach Tactical Combo MAX.",
+        "2. Shoot down 20 or more enemies that turn.",
+        "3. Shoot down Geminia (void if ELS shoot it down or erode it)."
+      ],
+      "maximum_line_units": 975
+    },
+    {
+      "member": 608,
+      "source_sha256": "7a6dfe82cb5f6c259f27f2b5bf50081b0341e44adf7269fa64ab439b4024b691",
+      "previous_english_sha256": "f0d4932b3c41ce52cc7497ebec49eaeccc1d63e676a41742f53e44c83df96087",
+      "english": "Defeat all enemies within 6 turns; before clearing, also:\n1. Reach Tactical Combo MAX.\n2. One allied pilot must shoot down 5 or more enemies.\n3. Shoot down 16 or more enemies in one turn.",
+      "rows": 4,
+      "lines": [
+        "Defeat all enemies within 6 turns; before clearing, also:",
+        "1. Reach Tactical Combo MAX.",
+        "2. One allied pilot must shoot down 5 or more enemies.",
+        "3. Shoot down 16 or more enemies in one turn."
+      ],
+      "maximum_line_units": 880
+    },
+    {
+      "member": 855,
+      "source_sha256": "8fb7779aa1be96dff1da31030eec633881c85ea11bb8176752b5d25ab597d1c1",
+      "previous_english_sha256": "b5a95d7cd261f861f0caaeafe5a5a8686972d65ddb124232c10ea2b85b727c9e",
+      "english": "Defeat all enemies within 4 turns.\n(Meeting the condition written here earns an SR Point.\nEach SR Point earned gives you 10000 bonus funds,\nbut reaching a set SR Point total increases the game's difficulty.)",
+      "rows": 4,
+      "lines": [
+        "Defeat all enemies within 4 turns.",
+        "(Meeting the condition written here earns an SR Point.",
+        "Each SR Point earned gives you 10000 bonus funds,",
+        "but reaching a set SR Point total increases the game's difficulty.)"
+      ],
+      "maximum_line_units": 1026
+    }
+  ],
+  "runtime_verified": false,
+  "reported_conditions": {
+    "assigned_conditions": 2,
+    "source_rows_examined": 9,
+    "meaning_changes": 0,
+    "episode20": "Defeat all enemies within 3 turns without any allied battleship taking damage.",
+    "episode21": "One allied pilot must shoot down at least 6 enemies before clearing the map."
+  }
+}

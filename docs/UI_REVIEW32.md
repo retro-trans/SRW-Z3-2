@@ -25,7 +25,7 @@ The maximum-line-width helper is restricted to marked content. Keep the
 existing general width helper, selection anchors and save markers. Preserve
 all scratch GPRs, CR, LR and temporary floating registers. Share the marker
 handler to fit the original checked executable gap; no segment permissions
-or executable addresses are changed.
+or original code/data addresses are changed.
 
 ## Sub Order and guides
 

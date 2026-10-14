@@ -38,6 +38,10 @@ def verify(version):
     prior=previous(version);folder=ROOT/'work/output/builds'/version;build=json.loads((folder/'build.json').read_text('utf8'));mapping=build['mapping']
     elf=(folder/'EBOOT.BIN').read_bytes();read=H._reader(elf,H._headers(elf)[2]);info=build['executable']['ui_hook'];runner=H._Runner(elf,int(info['stub_va'],16),info['stub_bytes'])
     entries=G.hook_entries(H.PREPARED.read_bytes(),mapping);lookups=[]
+    if tuple(map(int,version.split('.'))) >= (0,5,33):
+        from tools import review33_reports
+        latest={r['key']:r for r in review33_reports.hook_entries(H.PREPARED.read_bytes(),mapping)}
+        entries=[latest.get(r['key'],r)for r in entries]
     for row in entries:
         pointer,steps=runner.run(row['key']+b'\0')
         if read(pointer,len(row['english'])+1)!=row['english']+b'\0':raise ValueError('Final report/level lookup differs: '+row['id'])

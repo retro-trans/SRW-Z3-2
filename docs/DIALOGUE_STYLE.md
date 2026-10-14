@@ -96,6 +96,8 @@ Write `work/translation/en/dialogue/<slice>.json`, UTF-8, and nothing else:
   proposing a new one.
 - 先輩 is dropped like other honorifics (plain name, not "Senior X").
 - ナースさん as a plain word = "Nurse"; Lambda Driver is the token `$$ラムダ・ドライバ$$`.
+- Arm Raker / Arm Rakers is the glossary's proper cockpit-control term. Use
+  `$$アームレイカー$$` without the lowercase override; preserve capitalization.
 - Evangelion short forms are plain English matching the library's official
   names: 初号機/零号機/２号機 = Unit-01/Unit-00/Unit-02, ＥＶＡ/エヴァ = EVA,
   使徒 = Angel, ダミープラグ = Dummy Plug; Rei Ayanami = `$$レイ#pt394$$`;

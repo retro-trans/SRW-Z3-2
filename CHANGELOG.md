@@ -5,7 +5,22 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.32 - 2026-10-15 (preparing; publication requires consent)
+## 0.5.33 - 2026-10-15 (preparing; publication requires consent)
+
+- Carry all prepared 0.5.29–0.5.32 fixes from public 0.5.28.
+- Translate the complete player-facing GIFT report category through the actual
+  independently copied rows: 22 notices, 97 occurrences and 36 whole/line keys.
+  Cover all AG bonus amounts, part/unit awards, upgrade refunds and unlocks.
+  Center every report from its English glyph widths; preserve reward values,
+  table IDs, native paragraph copies and stage logic.
+- Remove the lowercase override from the active Arm Rakers reference, matching
+  the glossary. Protect the spelling in the dialogue proofreading rules.
+- Carry the Previous Quote repair for both Back Log variants, including its
+  fixed R1 icon gap. Preserve all navigation and fast-forward controls.
+- Prepare validated original-game and exact-public-0.5.28 Retro Trans patches.
+  Publication of 0.5.33 requires explicit consent; runtime confirmation is pending.
+
+## 0.5.32 - 2026-10-15 (built; carried into 0.5.33)
 
 - Carry all prepared 0.5.29–0.5.31 fixes forward from public 0.5.28.
 - Center all 517 decorated location captions from their displayed widths,

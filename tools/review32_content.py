@@ -164,7 +164,7 @@ def origin(va, state, measure, specs, legacy):
     return a.code()
 
 
-def origin_cases(elf, mapping, report):
+def origin_cases(elf, mapping, report, only_rows=None):
     """Execute the installed marker origin helper with real caption/headline bytes."""
     import struct
     from tools import ppc_exec as P, dialogue_build as D
@@ -177,6 +177,7 @@ def origin_cases(elf, mapping, report):
             rows.append((rid,raw,sum(map(W.advance,lines[index])),False))
     for row,entry in zip(headlines(),hook_entries(H.PREPARED.read_bytes(),mapping)):
         rows.append((row['va'],entry['english'],max(row['spans']),True))
+    if only_rows is not None:rows=only_rows
     mem=P.Memory()
     for i,seg in enumerate(H._headers(elf)[2][:2]):mem.map(seg[3],elf[seg[2]:seg[2]+seg[5]],writable=i==1)
     mem.map(0x40000000,bytes(0x4000));mem.map(0x41000000,bytes(0x1000));mem.map(0x42000000,bytes(0x1000))

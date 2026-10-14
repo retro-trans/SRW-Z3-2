@@ -38,7 +38,11 @@ def main():
     def archive(report):
         for shot in report.get('screenshots',[]):
             src=Path(shot['source']);dst=Path(shot['saved_path']);dst.parent.mkdir(parents=True,exist_ok=True)
-            if dst.exists()and sha256_file(dst)!=shot['sha256']:raise ValueError('Screenshot differs')
+            if sha256_file(src)!=shot['sha256']:raise ValueError('Screenshot source changed')
+            if dst.exists()and sha256_file(dst)!=shot['sha256']:
+                dst=dst.with_name(dst.stem+'-'+shot['sha256'][:12]+dst.suffix)
+                shot['saved_path']=str(dst)
+                if dst.exists()and sha256_file(dst)!=shot['sha256']:raise ValueError('Screenshot digest collision')
             if src!=dst:shutil.copyfile(src,dst)
         if 'prior_verification'in report:archive(report['prior_verification'])
     archive(data);write_json(ROOT/'work/ui'/('review33_verified_'+a.version+'.json'),data)

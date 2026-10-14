@@ -209,6 +209,10 @@ def plan(settings,mapping):
     review25=json.loads(review25_layout.DEST.read_text(encoding='utf8'))
     if review25!=review25_layout.plan():raise ValueError('Review 25 layout plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],review25['edits'])
+    from tools import review30_layout
+    review30=json.loads(review30_layout.DEST.read_text(encoding='utf8'))
+    if review30!=review30_layout.plan():raise ValueError('Review 30 layout plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],review30['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

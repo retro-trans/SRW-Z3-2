@@ -1,0 +1,512 @@
+{
+  "schema": 1,
+  "version": "0.5.30",
+  "skill_records": [
+    {
+      "record": 1,
+      "en": "Support Atk",
+      "flags": 3,
+      "source_record_sha256": "e2a8e459bddf1c2d7b62a344946ff2174393c4b31fe752b5511ab519b67b7f4d"
+    },
+    {
+      "record": 2,
+      "en": "Re-Attack",
+      "flags": 1,
+      "source_record_sha256": "c89d7ac4f58e56eb166c2b837aecff70d34da03343d29914f4a3a963d3790de5"
+    },
+    {
+      "record": 3,
+      "en": "Assist Atk",
+      "flags": 1,
+      "source_record_sha256": "e312a14dff431549faad91ac5f9529129eaa252d610d6414b6f76d8877351e8c"
+    },
+    {
+      "record": 4,
+      "en": "Support Def",
+      "flags": 3,
+      "source_record_sha256": "f80ff7ecbf92cd4e550c83f7bb63253526d319241b3505dec4f92f2abe05f8c8"
+    },
+    {
+      "record": 5,
+      "en": "SP Up",
+      "flags": 3,
+      "source_record_sha256": "e0055e2de89337cc3c7be7edf7f1d03989e3c35407d93b70198897fb3add8fd2"
+    },
+    {
+      "record": 6,
+      "en": "Instinct",
+      "flags": 1,
+      "source_record_sha256": "b404cc6aa58c1dfa70221672c4dc772cd8b1b95072c8c100faf327863ba4600c"
+    },
+    {
+      "record": 7,
+      "en": "Fighting Sp",
+      "flags": 1,
+      "source_record_sha256": "99d0822f3052540ca1773b8dba69a4020cab848dfb5e36895553f6888298a002"
+    },
+    {
+      "record": 8,
+      "en": "Foc+ Evade",
+      "flags": 1,
+      "source_record_sha256": "b03db1af7ca5fd9b21785914195c8a55a0dcfc894b3cb4792c584172a7940e7e"
+    },
+    {
+      "record": 9,
+      "en": "Foc+ Hit",
+      "flags": 1,
+      "source_record_sha256": "0c788588b1dffc35e0ab33b3e4cf51932db38526ba38af34859b316750c7bd5c"
+    },
+    {
+      "record": 10,
+      "en": "Foc+ Dmg",
+      "flags": 1,
+      "source_record_sha256": "d2c842154f47f75f242324b717aebe119d16ddef27402654bea2f0ae0b840a78"
+    },
+    {
+      "record": 11,
+      "en": "Foc+ KO",
+      "flags": 1,
+      "source_record_sha256": "5f4d23a600285497abd617326aa0b58304d54a751d6d2043ade002d5ea333409"
+    },
+    {
+      "record": 12,
+      "en": "Limit Break",
+      "flags": 1,
+      "source_record_sha256": "6ea4830f1fc1db112ad1776b55a83fc8295c514104f5643e2ddbb886722c58f2"
+    },
+    {
+      "record": 13,
+      "en": "Potential",
+      "flags": 3,
+      "source_record_sha256": "7c7c00ec605ab2637809ca434b70e9ec5ae0ec8d6b0442c424855d443d8bc159"
+    },
+    {
+      "record": 14,
+      "en": "Counter",
+      "flags": 3,
+      "source_record_sha256": "cb58292e1d5ff210bcce35718fdef4ea8ceaaabdbe51268fcfdcb339ba387427"
+    },
+    {
+      "record": 15,
+      "en": "E-Save",
+      "flags": 1,
+      "source_record_sha256": "2985edf48b13c322134db857128c0a149070149acd5b1dcc1a87e7eda28917c1"
+    },
+    {
+      "record": 16,
+      "en": "B-Save",
+      "flags": 1,
+      "source_record_sha256": "bbfa275171d9d519d42f743aa002ca50649eac43374728ff6320dfde9b431d69"
+    },
+    {
+      "record": 17,
+      "en": "Prevail",
+      "flags": 1,
+      "source_record_sha256": "10af37d92f43194f77c7ec3d12bbf2e3889906c117d41f0e831f439f33a3f336"
+    },
+    {
+      "record": 18,
+      "en": "Guard",
+      "flags": 1,
+      "source_record_sha256": "9c6e1a6d6a48834a71440b0e727f19b0f61bdc4e1064c985fd7343ddaa7de1e7"
+    },
+    {
+      "record": 19,
+      "en": "Multi-Tgt",
+      "flags": 1,
+      "source_record_sha256": "588c8ca395faa1297e80586f010de646b0871a5fe54277d3c0cfc3129b4e0cdb"
+    },
+    {
+      "record": 20,
+      "en": "Ignore Size",
+      "flags": 3,
+      "source_record_sha256": "42c651a4ab6389b4e8161039b4be12e3fa0cf839614eac2346a44edcd5b523a7"
+    },
+    {
+      "record": 21,
+      "en": "Mind Resist",
+      "flags": 1,
+      "source_record_sha256": "b02c514b1751d249b96d7cf5c43d648bc8359f26412ff93c4082d9301a5561a4"
+    },
+    {
+      "record": 22,
+      "en": "Hit & Away",
+      "flags": 1,
+      "source_record_sha256": "45a7210360da448a871a89049d07ced811b71097b1cc732aabbe8023379af9f7"
+    },
+    {
+      "record": 23,
+      "en": "Dash",
+      "flags": 1,
+      "source_record_sha256": "c37d0908af43985a7712e101cf32acc6611e2f31666c936f06867294c190bcb9"
+    },
+    {
+      "record": 24,
+      "en": "Repair",
+      "flags": 1,
+      "source_record_sha256": "c5df9af1cfa067ff27d3ca0a063dae5a44d9a38e434a8d54f52665576c3354da"
+    },
+    {
+      "record": 25,
+      "en": "Resupply",
+      "flags": 1,
+      "source_record_sha256": "1f79ff744c8ae5cf44cabb7802f45d880dd7cb583755eb398fefb678649174db"
+    },
+    {
+      "record": 26,
+      "en": "Part Supply",
+      "flags": 1,
+      "source_record_sha256": "7103f9b29f6da9f0ec36a23d9596d202b6e851760fc3ba3b457dbda099d1904e"
+    },
+    {
+      "record": 27,
+      "en": "SP Regen",
+      "flags": 0,
+      "source_record_sha256": "c65f5445cb98fa23d4f9d75ba9b8139dbad17e83c6c3b8f965df7ee3b34988d6"
+    },
+    {
+      "record": 28,
+      "en": "Foc Bonus",
+      "flags": 0,
+      "source_record_sha256": "07390d22aa41b0fd38e4c504db0b447d9b48781a99e9861eafd00b05b7a1d0b5"
+    },
+    {
+      "record": 29,
+      "en": "Extreme",
+      "flags": 0,
+      "source_record_sha256": "a4ad16e78f74193e22f76a3afb7415b3767907b09cf2a0415971d9a3a9ee4502"
+    },
+    {
+      "record": 30,
+      "en": "Double Act",
+      "flags": 0,
+      "source_record_sha256": "5e31bd1b435384df6a8933b63e4ca48f5219892c08fab91a04e5a49841a61299"
+    },
+    {
+      "record": 31,
+      "en": "Lucky",
+      "flags": 0,
+      "source_record_sha256": "51436ae6a95e95c800fd57d89fbc889ded65da40c56605bd82a36bb70c009f2a"
+    },
+    {
+      "record": 32,
+      "en": "Genius",
+      "flags": 0,
+      "source_record_sha256": "bf22aa16a2bb1ba08e679ef656b0f378bda88f29780993559f64a5a1d1faecdb"
+    },
+    {
+      "record": 33,
+      "en": "Commander",
+      "flags": 2,
+      "source_record_sha256": "e04328ea698c58cbe0e0652ed319a58253c9de359ab374b72ce52675ff844549"
+    },
+    {
+      "record": 34,
+      "en": "Tactic Cmd",
+      "flags": 0,
+      "source_record_sha256": "49c20d681058a8b88038c0746e7bec097d548b6caef06d0ef2e65c73524533b2"
+    },
+    {
+      "record": 35,
+      "en": "President",
+      "flags": 0,
+      "source_record_sha256": "db60d0cd8920a2da8d579282bc5c42aa9096169bbdb16f531e9820c1ca149969"
+    },
+    {
+      "record": 36,
+      "en": "Salaryman",
+      "flags": 0,
+      "source_record_sha256": "b1aa21c9b8af78a23d7a76795db5f57aec5f3c4f68d4955198f87aa58882f307"
+    },
+    {
+      "record": 37,
+      "en": "Combat Prog",
+      "flags": 0,
+      "source_record_sha256": "11d46ddde42023c71d5b7ba25c5efc7f30416ad87181a538926d0bb56f9d0bdc"
+    },
+    {
+      "record": 38,
+      "en": "Newtype",
+      "flags": 2,
+      "source_record_sha256": "6fae8e7f77d313db4809ea5034218a1bf51c8bb519eaf366ea88bde641aec6ab"
+    },
+    {
+      "record": 39,
+      "en": "Enhanced",
+      "flags": 2,
+      "source_record_sha256": "19ebcf8f57f2d6e966bbe1ba8a31910a285ed5e1b9732b024818c6a39f0881a9"
+    },
+    {
+      "record": 40,
+      "en": "SEED",
+      "flags": 0,
+      "source_record_sha256": "0d41f74de77aa6ec19b1a7fed46e1fddafb51ec0a5227b819665f4039caac8f2"
+    },
+    {
+      "record": 41,
+      "en": "Innovator",
+      "flags": 0,
+      "source_record_sha256": "33cff0353e446c76620aab3e66e7fa9436505c93050b1610c1db98e5fd7fe076"
+    },
+    {
+      "record": 42,
+      "en": "Curse of Geass",
+      "flags": 0,
+      "source_record_sha256": "04bc66c9930898a978cf3a5cfddcec7857cec141f3c110fe73756265b3662a46"
+    },
+    {
+      "record": 43,
+      "en": "ESP",
+      "flags": 2,
+      "source_record_sha256": "37f033391775b5ddaddc3018aeee184b5f3c758d562a279c518ba20dbca48f38"
+    },
+    {
+      "record": 44,
+      "en": "Super ESP",
+      "flags": 0,
+      "source_record_sha256": "94765d1bd45a967c0c54ee12d9a7341f64a2bc4e07f4a034f9eb677fbd2cbd4e"
+    },
+    {
+      "record": 45,
+      "en": "Spiral Pow",
+      "flags": 2,
+      "source_record_sha256": "7ef268a99dfbb6d6858ebd94c28cae32936f2f2102ffacafa25e3766c429d49d"
+    },
+    {
+      "record": 46,
+      "en": "Spiral MAX",
+      "flags": 0,
+      "source_record_sha256": "a8bfdf7f72fb131a79c29625fd480bc84d7a5fa4ac9aeddcf66e450d806ca458"
+    },
+    {
+      "record": 47,
+      "en": "Aggr. Beast",
+      "flags": 0,
+      "source_record_sha256": "9328dc3e07703802ca547ce3fa1a7decc1ef93048f8d316a83b1fcb9b693c14d"
+    },
+    {
+      "record": 48,
+      "en": "Negotiator",
+      "flags": 0,
+      "source_record_sha256": "2ac2c27362a5a7e65a13519ca0ec43f0176d2be810acf947473e29cfc51a73fe"
+    },
+    {
+      "record": 49,
+      "en": "Precise Atk",
+      "flags": 0,
+      "source_record_sha256": "d1a1e4f57c9a6b7f12ebbf1ec81ae6487606cc6fe34386b2a92e33416173c621"
+    },
+    {
+      "record": 50,
+      "en": "Survivor",
+      "flags": 0,
+      "source_record_sha256": "22a059a8046c50a3c8ec305cdee8b57bd5ef78b6f0e804c721a5a0323da3c445"
+    },
+    {
+      "record": 51,
+      "en": "Grav Fld 2",
+      "flags": 0,
+      "source_record_sha256": "34a18ca0df676f7892920933af067ab0a04af68056fed35d5e2532ed365e990f"
+    },
+    {
+      "record": 52,
+      "en": "Linking",
+      "flags": 0,
+      "source_record_sha256": "1ae6d590529a362d8c698175ee91dbca11807a46a2d380cce7d820d5edab8c9e"
+    },
+    {
+      "record": 53,
+      "en": "Impact",
+      "flags": 0,
+      "source_record_sha256": "8bcdeedf281f76174ff248c9b4fe18f0167e3465c93a2250ea1378054733219c"
+    },
+    {
+      "record": 54,
+      "en": "Inverted 2",
+      "flags": 0,
+      "source_record_sha256": "39ec750ce9ce4644c7f25884acd4f8716e242b8b9414fc099f732c3b7a753e73"
+    },
+    {
+      "record": 55,
+      "en": "Severing",
+      "flags": 0,
+      "source_record_sha256": "e9cc3852470d388bcae739185b1277470bfd65770ebb289669e28652ca0a10dc"
+    },
+    {
+      "record": 56,
+      "en": "Spirit Song",
+      "flags": 0,
+      "source_record_sha256": "d189aa344e1271bb6cdc637cd3680c8a2a885f8d62e7e81012d3fb3074937bc0"
+    },
+    {
+      "record": 57,
+      "en": "Despair Sen",
+      "flags": 0,
+      "source_record_sha256": "75938306788410090a10b4c1d11d292b6456d0a845dd1a9335f2deaa1d4e11e8"
+    },
+    {
+      "record": 58,
+      "en": "Digging",
+      "flags": 0,
+      "source_record_sha256": "ae6af79458dd0a5a1bc3b4391a2d621996589732bb75a2020a49dee9f5a5688a"
+    },
+    {
+      "record": 59,
+      "en": "Space Fill",
+      "flags": 0,
+      "source_record_sha256": "945c8db060810f448976db6511f8affb0ae0eb651aaac3e858127d4aa5e067ec"
+    },
+    {
+      "record": 60,
+      "en": "Corrosion",
+      "flags": 0,
+      "source_record_sha256": "13e49dedb75a38f4b8078cd7e49431132e8edc854a6f68bd31e8781464192f12"
+    },
+    {
+      "record": 61,
+      "en": "Opt. Camo",
+      "flags": 0,
+      "source_record_sha256": "56ac25c0edddc8bbe3e4cacf913c77358f9ca644d61abe89efc8a2fd3cfbdeb0"
+    },
+    {
+      "record": 62,
+      "en": "Fragile",
+      "flags": 0,
+      "source_record_sha256": "c04211f888b0976da87458b5e9daae5f10ca650f4fc8a92aadb8546dc05eb70d"
+    },
+    {
+      "record": 63,
+      "en": "Teleport",
+      "flags": 0,
+      "source_record_sha256": "29dcee937ab0983f4226349c6655b7b4c477747e40bf212797003765ac666299"
+    },
+    {
+      "record": 64,
+      "en": "Half Cut",
+      "flags": 1,
+      "source_record_sha256": "9023806d757030adbf9fe35afb8895a24fef64f22e753626b3fbcb8c565f74a9"
+    },
+    {
+      "record": 65,
+      "en": "Triple Act",
+      "flags": 0,
+      "source_record_sha256": "fb518d7529b61f2abe8c1fc806c8926aeb849024ff551c90c0ba036632cfa796"
+    },
+    {
+      "record": 66,
+      "en": "Telekinesis",
+      "flags": 2,
+      "source_record_sha256": "8d3a3cc9f6ffe6bbecb817d1c434ca6b6d1b4c46b48cfef12bf434ab8a91f9e1"
+    },
+    {
+      "record": 67,
+      "en": "Battle Mode",
+      "flags": 0,
+      "source_record_sha256": "ab400f98546b9de0da64b74dbb1735b76b4b35525ca1f586c8dbbdbb2525a4c7"
+    },
+    {
+      "record": 68,
+      "en": "Telepathy",
+      "flags": 0,
+      "source_record_sha256": "df1f0faa02d1b57ac11475534d689415c55168b3621de174d8241f8d583f380c"
+    },
+    {
+      "record": 69,
+      "en": "Remote Op.",
+      "flags": 0,
+      "source_record_sha256": "d4feb310e8be1ae8a1c6532fecd1ebcf39efc0d74b3debfcd4f8f68497676e9c"
+    },
+    {
+      "record": 70,
+      "en": "Decisive Mode",
+      "flags": 0,
+      "source_record_sha256": "5f46ecb1849db2a491934c67b270e6fe6b70ddd02938cc2e908b604944489d9c"
+    },
+    {
+      "record": 71,
+      "en": "Vibro Sword",
+      "flags": 0,
+      "source_record_sha256": "26c86f02ab1e65b703d5c33176692b01d915d6a697b2056d4e9418b3cf0e9659"
+    },
+    {
+      "record": 72,
+      "en": "Psychokinesis",
+      "flags": 0,
+      "source_record_sha256": "64ec7a325e450181e1f23d93224bb5055309dbe8d6aecfc76c85ebd02006d07f"
+    },
+    {
+      "record": 73,
+      "en": "Mat. Transfer",
+      "flags": 0,
+      "source_record_sha256": "1bcf99c1f3f858d632a4bed8b15ade70d0054043ca59e76b8cd684d73cb1f9c4"
+    },
+    {
+      "record": 74,
+      "en": "Wild Heart",
+      "flags": 0,
+      "source_record_sha256": "b5ccebbd514aecf01b181d6c4fb3780009296e4cd4c7530c019dcbec1ef12dc5"
+    },
+    {
+      "record": 75,
+      "en": "Pressure",
+      "flags": 2,
+      "source_record_sha256": "f299f2aea20a6531e016b938542922ac3b7821ca2a9bcd7c586f75eec64da068"
+    },
+    {
+      "record": 76,
+      "en": "Survivability",
+      "flags": 0,
+      "source_record_sha256": "103c9934cdba0c4cc1e9b3170c9124dc7e3a11e12fc089eba70f208a826bfcb8"
+    },
+    {
+      "record": 77,
+      "en": "Rebel Heart",
+      "flags": 0,
+      "source_record_sha256": "c23c4325458a914fa090f16bfa11e1d841e95191379b78a2ab739f185af0663f"
+    },
+    {
+      "record": 78,
+      "en": "Positioning",
+      "flags": 1,
+      "source_record_sha256": "757bdd7949250226ec69aecedee32fa9f31b196c7166c962eeca20b06ef23688"
+    },
+    {
+      "record": 79,
+      "en": "Single Attack",
+      "flags": 1,
+      "source_record_sha256": "b221297c08b36e53c5b79649ff91c4b0406aab7802712e029b30894efa0daf54"
+    },
+    {
+      "record": 80,
+      "en": "Terrain Use",
+      "flags": 1,
+      "source_record_sha256": "824a6c1c39a58f98ddf0298de307c664a55575fd48be655b1342e1821eb0a5f6"
+    },
+    {
+      "record": 81,
+      "en": "Tac. Standby",
+      "flags": 1,
+      "source_record_sha256": "06566a5ad64e5abeeda6d74e13a1aefee579831475a376e58c8c23862be61a8d"
+    }
+  ],
+  "composer_va": 3248184,
+  "composer_bytes": 1096,
+  "composer_sha256": "a2e2f24632168c2d18b90f8c075612cdbc3741130f878c793de6320c76da07b2",
+  "fragments": {
+    "0xa088d8": "afcdd00069e08685daa360b05f995309e262af793cf01af58dc574e5a55333eb",
+    "0xa088dc": "2258408e897ca0b297f047f10647f8114aaef1764dafea59d3e548debf5a4099",
+    "0xa088e0": "eebf02ef0fa3c695807a103fcceb7dff864fc961f2607515432b606571150bc1",
+    "0xa088e4": "d0edaf211ee6544401c869991b49dcc58798e43461b8fa31191a067f8ddde2b5",
+    "0xa088f4": "724b016e6c525203c32fa9e8f9cbd65f65d2325e74be13b417116ad89fd613d9",
+    "0xa08910": "17c0a5d25f795679362c0b5d063b60b94976c232fb7f1f1efa9c4302ed094399",
+    "0xa08928": "77028028a3c2f1327b977462138099d8e803dab92c9dde6e24f05546d1b9b19d"
+  },
+  "categories": [
+    "learn",
+    "learn-plus-one",
+    "raise-level",
+    "raise-innate-plus-learned",
+    "overwrite"
+  ],
+  "runtime_verified": false
+}

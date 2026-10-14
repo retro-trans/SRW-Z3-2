@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "version": "0.5.30",
+  "reviewer": "review30_skill_meaning",
+  "skill_records_examined": 81,
+  "native_fragments_examined": 7,
+  "source_composer": "0x319038-0x319480",
+  "source_getters": ["0x389874", "0x3898c0"],
+  "decisions": [
+    "Translate the plain and +1 new-acquisition forms as Learn the named skill.",
+    "Preserve purchased +N separately from intrinsic Lv B plus purchased N.",
+    "Do not compute a total effective level or invent behavior beyond the native level cap.",
+    "The overwritten skill named on the second line is lost; it is distinct from the newly acquired skill."
+  ],
+  "accepted_forms": [
+    "Learn \"name\".",
+    "Learn \"name +1\".",
+    "Raise \"name\" to +N.",
+    "Raise \"name\" to Lv B + N.",
+    "Overwrite \"name\"; this skill will be lost."
+  ],
+  "runtime_verified": false
+}

@@ -23,3 +23,4 @@ incoming - outside files that need agent to look into
 - Canonical location spelling requested on 2026-10-12: Ameria (not Amerria). Apply it throughout active text and preserve it during proofreading.
 - Canonical Godmars name requested on 2026-10-13: Zuul (Emperor Zuul), not Xul or Zul. Apply it throughout active text and preserve it during proofreading.
 - Canonical terms requested on 2026-10-14: the Z3 Spirit command 直撃 is Break, and 闘志 is Fury. Use Inazuma Kick, not Lightning Kick, throughout active weapon names and references. Preserve these choices during proofreading.
+- Canonical location capitalization requested on 2026-10-14: Earth Sphere. Preserve this proper location name during proofreading; generic uses of sphere remain lowercase.

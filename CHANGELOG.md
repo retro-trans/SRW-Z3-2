@@ -5,7 +5,24 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.29 - 2026-10-14 (prepared; publication requires consent)
+## 0.5.30 - 2026-10-14 (prepared; publication requires consent)
+
+- Carry the completed 0.5.29 Spirit, Inazuma Kick and mission-condition repairs
+  into the next candidate; public 0.5.28 remains the release baseline.
+- Translate all native skill-learning, level-raise and overwrite questions,
+  covering all 81 named skill records and both source/translated name routes.
+- Translate every four-cell movement mask and its numbered forms; preserve
+  terrain flag order, disabled dashes and live movement numbers.
+- Separate D-Trader labels and owned-item suffix from their fixed value fields.
+  Shorten the unit card's movement caption to Move. Keep original label fonts.
+- Capitalize Earth Sphere in four dialogue rows and twelve encyclopedia fields.
+- Fit battleship selection, ship name, movement, pilot and remaining-unit
+  captions around their neighboring columns and unchanged live count.
+- Prepare original-game and public-0.5.28 Retro Trans delivery routes, with
+  release notes headed “What changed since last version.” Publication requires
+  explicit consent for 0.5.30; in-game visual confirmation remains pending.
+
+## 0.5.29 - 2026-10-14 (local candidate; carried into 0.5.30)
 
 - Use Break for the defense-bypass Spirit command and Fury for the guaranteed
   critical-hit command, matching the requested Z3 list. Update related
@@ -19,8 +36,10 @@
   test substitution followed by numbering with default and maximum-size values.
   Shorten one long SR condition after source review, preserving every turn,
   target and individual kill requirement.
-- Prepare original-game and public-0.5.28 Retro Trans routes; describe only
-  changes since public 0.5.28. In-game visual confirmation remains pending.
+- Complete the local build, all 82 disc-file checks and final native/readback
+  verification. Regression suite: 294 passed, two optional checks skipped.
+  Preserve this candidate ISO; carry its fixes into the 0.5.30 delivery assets.
+  In-game visual confirmation remains pending.
 
 ## 0.5.28 - 2026-10-13
 

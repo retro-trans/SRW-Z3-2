@@ -29,8 +29,8 @@ complete builder and the incremental 0.5.37 builder use this same patch.
 The complete active corpus contains 63,553 dialogue entries. The compiled
 byte audit finds 204 entries over the old storage limit and 125 rows over the
 old copy limit. The longest encoded entry is 413 bytes and the longest row
-is 156 bytes; both fit with room for native substitutions. No dialogue is
-shortened, rewritten or rewrapped for this fix.
+is 156 bytes. Native substitutions retain their existing handling. No
+dialogue is shortened, rewritten or rewrapped for this fix.
 
 Instruction-level checks run both real allocation constructors, insert all
 204 long entries plus Leonard's report, and execute 185 ring shifts for each
@@ -52,3 +52,24 @@ screenshot are recorded by `python -m tools.verify_review37 --apply`.
 Public delivery uses both official Retro Trans routes from the original game
 and public 0.5.28. Creating or publishing a GitHub release requires explicit
 consent for 0.5.37 under AGENTS.md.
+
+## Final checks
+
+The full current regression run contains 322 tests: 320 passed and two
+optional Capstone checks skipped. Final native readback passes both
+constructors, 370 ring shifts, every affected long entry and row, the original
+failure reproduction, link metadata, duplicate suppression and resets.
+The packaged Leonard dialogue exactly matches the complete dialogue fixture.
+
+All 82 ISO files passed both filesystem-tree checks. The resulting
+5,289,541,632-byte image has SHA-256
+`345da8e95b2d974e9622ae1921aab0a1086a4fd566d4db078f490a2797f12892`.
+Final evidence is `work/ui/review37_verified_0.5.37.json`.
+
+Both official Retro Trans 0.5.4 patch routes, from the original game and exact
+public 0.5.28, passed complete ISO decode round trips to that same hash. The
+five delivery files and their checksums are recorded in
+`work/ui/local_release_0.5.37.json`. Release notes in `docs/RELEASE_0.5.37.md`
+use **What changed since last version** and compare with public 0.5.28.
+The source commit is `74a3857d1cff319ef54459be26bdba25365be5a1`.
+No GitHub release or draft was created or published.

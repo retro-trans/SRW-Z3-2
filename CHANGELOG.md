@@ -22,7 +22,13 @@
 - Carry all previous fixes from verified 0.5.36. Game changes are limited to
   114 guarded backlog instruction constants and the version's title stamp;
   dialogue, fonts, stage wrapper and unrelated archive members stay intact.
-  Public delivery and in-game visual confirmation remain pending.
+- Pass 320 current regression checks (two optional skips), final native
+  backlog readback and all 82 files in both ISO trees. The image hash is
+  `345da8e95b2d974e9622ae1921aab0a1086a4fd566d4db078f490a2797f12892`.
+- Validate both original-game and public-0.5.28 Retro Trans 0.5.4 routes with
+  complete ISO decode round trips to that same hash. Record all five delivery
+  assets in `work/ui/local_release_0.5.37.json`. Creating/publishing a GitHub
+  release awaits explicit consent; in-game visual confirmation is pending.
 
 ## 0.5.36 - 2026-10-15 (prepared; carried into 0.5.37)
 

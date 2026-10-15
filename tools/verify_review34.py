@@ -13,7 +13,15 @@ def members_equal(old,new,changed):
         if set(left)!=set(right):raise ValueError('Archive member inventory changed')
         for mid,row in left.items():
             if mid in changed:continue
-            x,y=a.read(row),b.read(right[mid])
+            target=right[mid]
+            if any(row[k]!=target[k]for k in ('name','dir','extract')):raise ValueError('Carried archive metadata changed')
+            packed_a=a.buf[row['offset']:row['offset']+row['size']]
+            packed_b=b.buf[target['offset']:target['offset']+target['size']]
+            # Identical stored bytes and decoded length prove identical decoded
+            # content without repeatedly expanding hundreds of unchanged images.
+            if packed_a==packed_b:
+                cases.append(dict(member=mid,stored_sha256=sha256(packed_b),decoded_bytes=row['extract'],stored_bytes_equal=True));continue
+            x,y=a.read(row),b.read(target)
             if x!=y:raise ValueError('Carried archive member changed: '+str(mid))
             cases.append(dict(member=mid,sha256=sha256(y)))
     return cases

@@ -5,7 +5,22 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.38 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.39 - 2026-10-15 (prepared; publication requires consent)
+
+- Make both map-menu side selector states display `Allies / Enemies`.
+  Replace the differing Allies/Enemy and Ally/Enemies fragments with the
+  same plural words and one separator. Give all four widgets matching
+  26px metrics and fixed measured origins, preserving native colors,
+  selection flags and behavior. The 204.75px label leaves 7.625px per side
+  within its 220px button.
+- Pass 12 focused UI/font checks and compiled isolation across all 4,803
+  widgets. Carry the fully verified 0.5.38 executable, fonts and dialogue,
+  with its 324 passing regression checks and two optional skips.
+- Pass final selector/archive readback and all 82 files in both ISO trees.
+  The verified image hash is
+  `3fd2ac67d375cb0d1d6f72ab517a0e92feadb34978c96d01af16b4aa8d50964c`.
+
+## 0.5.38 - 2026-10-15 (prepared; carried into 0.5.39)
 
 - Remove the globally added border from all 260 ordinary glyph cells on
   both font pages. Preserve their current letter shapes, baselines,

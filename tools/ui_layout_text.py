@@ -225,6 +225,10 @@ def plan(settings,mapping):
     fonts=json.loads(review38_fonts.DEST.read_text(encoding='utf8'))
     if fonts!=review38_fonts.plan():raise ValueError('Font selection plan is stale')
     catalog['edits']=review38_fonts.merge(catalog['edits'],fonts['edits'])
+    from tools import review39_selector
+    selector=json.loads(review39_selector.DEST.read_text(encoding='utf8'))
+    if selector!=review39_selector.plan():raise ValueError('Map selector plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],selector['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

@@ -8,6 +8,9 @@ from tools.common import ROOT, write_json
 
 def main():
     from tools.game_build import VERSION
+    if VERSION=='0.5.41':
+        from tools.release_prepare41 import main as prepare_popups
+        return prepare_popups()
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source-commit', required=True)
     p.add_argument('--version', default=VERSION)

@@ -5,6 +5,28 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.41 - 2026-10-15 (prepared; publication requires consent)
+
+- Confirm the actual popup source by read-only inspection of public 0.5.40:
+  all 143 runtime records and 572 fields match the still-Japanese
+  `MTV_ALL_KEYWORD_DEF.CPK`. Earlier Library/executable audits missed this
+  third copy and did not establish linked-popup translation coverage.
+- Translate all 143 entries and both description variants (286 fields) in
+  the actual popup archive, including Messenger, Meganoid, Avalon and NERV.
+  Expand its masked CP932 pool, update containing lengths, and preserve
+  lookup names, series, IDs, flags, order and provenance trailer.
+- Deploy the additional corrected archive in full builds and the ISO.
+  Retain all public 0.5.40 game assets except the title-version stamp.
+- Pass sixteen focused popup/archive, Library, font and selection checks.
+  The source-binding audit confirms the old bug; corrected-build visual
+  testing and publication consent remain pending.
+- Verify the corrected archive in the final ISO inventory and all 82 files
+  through both filesystem trees. Image SHA-256:
+  `34c53111145196f8c8a86cf660fca989bab209758822b08e6e5a0da1bea37686`.
+- Correct the older keyword audit to distinguish the executable/Library
+  copies from the actual popup archive, reproducing the 0.5.40 omission
+  and checking the deployed English data in 0.5.41.
+
 ## 0.5.40 - 2026-10-15 (published)
 
 - Reformat the published notes to follow SRW-Z3 release 0.9.2: add a clear

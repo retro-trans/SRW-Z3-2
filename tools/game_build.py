@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.40'
+VERSION = '0.5.41'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -302,6 +302,9 @@ def plan(settings):
     from tools import eff_art
     eff_plan = eff_art.plan(settings, title_version=VERSION)
     extra_art.append(('EFFPS3.CPK', eff_art.ARCHIVE, eff_plan, eff_art, eff_plan['compress']))
+    from tools import keyword_popup
+    extra_art.append(('MTV_ALL_KEYWORD_DEF.CPK', keyword_popup.DISC,
+                      keyword_popup.plan(settings,mapping),keyword_popup,True))
     from tools import trophy_text
     trophy,trophy_report=trophy_text.build()
     summary = {'schema': 3, 'version': VERSION, 'title_id': 'BLJS10299', 'encoding': 'vwf',

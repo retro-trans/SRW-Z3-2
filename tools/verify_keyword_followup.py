@@ -109,11 +109,21 @@ def verify(version):
         if not src.exists():
             src = dst
         shots.append(dict(issue=label, source=str(src), saved_path=str(dst), sha256=sha256_file(src)))
+    # These two older copies do not prove the linked popup is translated.
+    # The actual consumer loads the independent MTV archive, added in 0.5.41.
+    from tools import keyword_popup
+    popup_path=folder/'MTV_ALL_KEYWORD_DEF.CPK'
+    popup_report=None
+    if popup_path.exists():
+        popup_report=keyword_popup.verify_archive(popup_path,keyword_popup.plan(None,mapping))
+        if build['disc_files'].get(keyword_popup.DISC)!=popup_path.name:
+            raise ValueError('Actual popup archive is not deployed')
     return dict(schema=1, version=version, game_assets_changed=False, asset_sha256=hashes,
                 keywords=143, description_variants=286, untranslated_descriptions=0,
                 archive_display_fields=archive_fields, native_conversion=conversion,
                 reported_keywords=reported, layout=layout, screenshots=shots,
-                verifier_sha256=sha256_file(Path(__file__)), runtime_verified=False)
+                verifier_sha256=sha256_file(Path(__file__)), runtime_verified=False,
+                actual_popup_archive=popup_report,actual_popup_archive_english=popup_report is not None)
 
 
 def main():
@@ -123,8 +133,12 @@ def main():
     args = p.parse_args()
     data = verify(args.version)
     for row in data['reported_keywords']:
-        print(row['name'], 'already English in both native popup variants and Library archive')
-    print('143 keywords, 286 descriptions, 572 native consumers and nine repaired captions passed.')
+        print(row['name'], 'English in the executable dictionary and Library archive')
+    print('143 dictionary keywords, 286 descriptions, 572 converter cases and nine captions passed.')
+    if data['actual_popup_archive_english']:
+        print('Actual linked-popup archive: all 143 entries and 286 descriptions verified.')
+    else:
+        print('Actual linked-popup archive is NOT corrected in this historical build; display coverage is not established.')
     if not args.apply:
         print('DRY RUN: no game assets, evidence or screenshots written.')
         return

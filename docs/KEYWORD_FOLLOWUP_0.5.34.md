@@ -1,5 +1,12 @@
 # Keyword follow-up — 2026-10-15
 
+**Correction discovered for 0.5.41:** the checks below cover the executable
+dictionary and Library archive, but omitted `MTV_ALL_KEYWORD_DEF.CPK`, which
+the linked-term popup actually loads. A read-only audit of public 0.5.40
+matched all 143 live popup records and 572 fields to that unchanged Japanese
+archive. These older checks did not establish popup translation coverage.
+See `docs/KEYWORD_POPUPS_0.5.41.md` for the corrected source and verification.
+
 The reported messenger, Avalon and NERV descriptions are already translated
 in prepared **0.5.34**. Readback checks both description variants in the native
 linked-term table and the separate Library archive. The Avalon text preserves

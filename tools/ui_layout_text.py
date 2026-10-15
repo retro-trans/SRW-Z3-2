@@ -252,6 +252,10 @@ def plan(settings,mapping):
     by_row={e['table_row_id']:e for e in catalog['table_fragments']}
     by_row.update({e['table_row_id']:e for e in map_panel['table_fragments']})
     catalog['table_fragments']=list(by_row.values())
+    from tools import review44_text
+    rewards=json.loads(review44_text.DEST.read_text(encoding='utf8'))
+    if rewards!=review44_text.plan():raise ValueError('Reward/deployment plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],rewards['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:
@@ -262,7 +266,7 @@ def plan(settings,mapping):
         raise ValueError('Screenshot-bound menu UI source changed')
     if sha256(original)!=status['source_member_sha256']:
         raise ValueError('Screenshot-bound status UI source changed')
-    catalog['element_edits']=menu['element_edits']
+    catalog['element_edits']=menu['element_edits']+rewards['element_edits']
     data, report = fssa_patch(original,catalog['edits'],mapping,catalog['element_edits'])
     art['members'][0] = data
     art['sources'][0] = original

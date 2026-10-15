@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.43'
+VERSION = '0.5.44'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -76,8 +76,8 @@ def plan(settings):
     tokens |= eboot_text.characters()
     from tools import review32_content,review32_layout
     tokens |= review32_content.characters()
-    from tools import review42_layout,review43_text,native_labels
-    for module in (review42_layout,review43_text):
+    from tools import review42_layout,review43_text,review44_text,native_labels
+    for module in (review42_layout,review43_text,review44_text):
         for edit in module.plan()['edits']:
             chars=set(edit['en'].replace('\n','').replace('\u3000',''));tokens.update(chars)
             if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)

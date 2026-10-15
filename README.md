@@ -11,9 +11,9 @@ game files and Japanese script dumps remain local.
 
 ## Current status
 
-Public testing currently uses **0.5.40**. The prepared **0.5.43** candidate
+Public testing currently uses **0.5.40**. The prepared **0.5.44** candidate
 includes the accumulated keyword-popup, deployment and news corrections,
-plus the [latest phase/map-panel fixes](docs/MAP_UI_0.5.43.md).
+plus the phase/map-panel fixes and [latest reward/menu corrections](docs/REWARD_MENUS_0.5.44.md).
 It remains unpublished pending explicit consent for this release.
 
 Fresh dialogue drafts cover **63,553 records in 857 slices across 12 batches**,

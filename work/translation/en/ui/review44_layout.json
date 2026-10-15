@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "version": "0.5.44",
+  "source_member_sha256": "2432b3425ef264a10a311a6707f7963acd1cbe802868b07b702a51d9c62e8ad0",
+  "edits": [
+    {
+      "widget_offset": 615812,
+      "en": "PP each:",
+      "source_sha256": "3e9b243cfc622151a2d7f41cfe6af4a7bc83209a5140e6ca9146aa2939c27f51",
+      "source_widget_sha256": "6343b4ded021142751bd68e4b1586cf15bbfac8f85aab80f004f99b50c4cf2af",
+      "x": -0.25546875,
+      "mode": 0,
+      "notes": "Unit-first per-pilot reward label; separate native value, preserve color, font and row height."
+    },
+    {
+      "widget_offset": 615876,
+      "en": "Kills each:",
+      "source_sha256": "a2c35e00153a665cf1bd6cd0d653242739aedc9289c7602be71fd42800a55ecc",
+      "source_widget_sha256": "0320c8a7328e6c823cc338c62bf8ea7b4e9da00698dcbaf141d771b06452447b",
+      "x": -0.25546875,
+      "mode": 0,
+      "notes": "Unit-first per-pilot reward label; separate native value, preserve color, font and row height."
+    },
+    {
+      "widget_offset": 615940,
+      "en": "EXP each:",
+      "source_sha256": "a978d1ba49e1e736e5fb3f53c3825a7298316a45a2212150b29c6254c0e00b78",
+      "source_widget_sha256": "7bf8813c5f44c7938da8426c3185fe513543100bf9fa658400ef86d40f9bf483",
+      "x": -0.25546875,
+      "mode": 0,
+      "notes": "Unit-first per-pilot reward label; separate native value, preserve color, font and row height."
+    },
+    {
+      "widget_offset": 620964,
+      "en": "　Select Team",
+      "source_sha256": "47e4063655272ca71cf7d88e52dcaffffc12c62facfbe5a19694047e8c726261",
+      "source_widget_sha256": "a481d78ba84a86644f7fb5e6e68b8a2278919202e68e3be0ad2d40f9b978a83b",
+      "blank_bullet": true,
+      "notes": "Replace the menu bullet with 32 units of measurable invisible padding; retain indentation and selection states."
+    },
+    {
+      "widget_offset": 620996,
+      "en": "　Select Team",
+      "source_sha256": "47e4063655272ca71cf7d88e52dcaffffc12c62facfbe5a19694047e8c726261",
+      "source_widget_sha256": "c38a682ce8837273a614ecebd5b06e584851e85b58ea4fe19315c1132570b758",
+      "blank_bullet": true,
+      "notes": "Replace the menu bullet with 32 units of measurable invisible padding; retain indentation and selection states."
+    },
+    {
+      "widget_offset": 702628,
+      "en": "\n　Prep Menu\n　Objectives\n　Map Deploy\n　Quick Save",
+      "source_sha256": "7d699e806511348b659fec01e6ce43741e0c50eb338353cbfb1d6581fefeff83",
+      "source_widget_sha256": "f8771befc619578f6fe0f84de008166be2c371f275d3e91742a345ebac3a9a86",
+      "blank_bullet": true,
+      "notes": "Retain all five row positions and native indentation; replace bullet glyphs with measurable blank cells."
+    },
+    {
+      "widget_offset": 702660,
+      "en": "\nPilot Training\nPilot Swap\nMech/Wpn Upg\nPower Parts\nSwap Parts\nSearch",
+      "source_sha256": "acffcbdfd0ff56d797101b8b44c2f4bf25ea16f1da7f35a3148059b18008ea4c",
+      "source_widget_sha256": "9bf8bb351edcf8095c6f9bb0e259e92f2016f258647b864f10c82b9fd8a8cf8d",
+      "notes": "Preload all submenu lines; shorten the upgrade caption in its existing native row."
+    }
+  ],
+  "element_edits": [
+    {
+      "element_offset": 747652,
+      "source_element_sha256": "4d19d8a948b6c766794c1f658102d52478955c7ea6652c32bde703ade56937f7",
+      "x": 0.21875,
+      "notes": "Move only the number endpoint; preserve the value, alignment style and animation."
+    },
+    {
+      "element_offset": 747688,
+      "source_element_sha256": "4a5e5961cc81602af7727fd9be4529fbae4d1ac1d245f7e26323d4af45f5f865",
+      "x": 0.21875,
+      "notes": "Move only the number endpoint; preserve the value, alignment style and animation."
+    },
+    {
+      "element_offset": 747736,
+      "source_element_sha256": "1c413c9631e6da10dbfc40bf3303cf3335cf27f91c150c8598c7ee82a7945767",
+      "x": 0.21875,
+      "notes": "Move only the number endpoint; preserve the value, alignment style and animation."
+    }
+  ],
+  "bounds": [
+    {
+      "widget_offset": 615812,
+      "label": "PP each:",
+      "left": 476.5,
+      "right": 598.125,
+      "number_left": 631,
+      "minimum_gap": 32.875,
+      "number_endpoint": 780,
+      "numeric_style_offset": 716308,
+      "numeric_style_sha256": "53af162271b42a22c753cd46a04d8af4a612ba74bd53812f1625aab43ccadf69"
+    },
+    {
+      "widget_offset": 615876,
+      "label": "Kills each:",
+      "left": 476.5,
+      "right": 621.75,
+      "number_left": 631,
+      "minimum_gap": 9.25,
+      "number_endpoint": 780,
+      "numeric_style_offset": 716288,
+      "numeric_style_sha256": "6f5b46b4c6fd6f154602c82ba21c408029d989f9a4343c65aca67c9d21c1b3aa"
+    },
+    {
+      "widget_offset": 615940,
+      "label": "EXP each:",
+      "left": 476.5,
+      "right": 615.625,
+      "number_left": 631,
+      "minimum_gap": 15.375,
+      "number_endpoint": 780,
+      "numeric_style_offset": 716328,
+      "numeric_style_sha256": "15556ef8bbc1202ed764672fd3637fda4cb5b722d17b1a3609a294926daab863"
+    },
+    {
+      "widget_offset": 702660,
+      "label": "Pilot Training",
+      "left": 299.50000762939453,
+      "right": 485.87500762939453,
+      "button_right": 518
+    },
+    {
+      "widget_offset": 702660,
+      "label": "Pilot Swap",
+      "left": 299.50000762939453,
+      "right": 443.87500762939453,
+      "button_right": 518
+    },
+    {
+      "widget_offset": 702660,
+      "label": "Mech/Wpn Upg",
+      "left": 299.50000762939453,
+      "right": 508.62500762939453,
+      "button_right": 518
+    },
+    {
+      "widget_offset": 702660,
+      "label": "Power Parts",
+      "left": 299.50000762939453,
+      "right": 464.87500762939453,
+      "button_right": 518
+    },
+    {
+      "widget_offset": 702660,
+      "label": "Swap Parts",
+      "left": 299.50000762939453,
+      "right": 451.75000762939453,
+      "button_right": 518
+    },
+    {
+      "widget_offset": 702660,
+      "label": "Search",
+      "left": 299.50000762939453,
+      "right": 395.75000762939453,
+      "button_right": 518
+    }
+  ],
+  "reward_catalog": {
+    "2e81f68610c82c567824": "PP each:",
+    "07ac4f9a377a056576a3": "Kills each:",
+    "33090075af7631ea8683": "EXP each:"
+  },
+  "runtime_verified": false
+}

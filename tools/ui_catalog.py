@@ -219,6 +219,9 @@ def hook_entries(elf, mapping, base_entries):
                 if ui_hook.extent(key+b'\0') != len(key):
                     raise ValueError('source is not one drawer string')
                 english = eboot_text.encode(en,active_mapping,utf8_source=source['encoding']=='utf-8')
+                from tools import review44_text
+                if rid in review44_text.HELP and en.startswith('　'):
+                    english=review44_text.caption_encoded(en,active_mapping)
                 problems = ui_hook.check_english(key,english,allow_escapes=True)
                 if problems:
                     raise ValueError('; '.join(problems))

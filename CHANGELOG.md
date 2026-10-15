@@ -5,6 +5,32 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.44 - 2026-10-16 (prepared; publication requires consent)
+
+- Use **Colony Laser** in the active glossary, all thirteen dialogue
+  references and ten affected Library records. Preserve both capitals in
+  scene headings and running speech; keep historical research archival.
+- Separate Sub Order reward labels and values with `EXP each:`, `PP each:`
+  and `Kills each:`. Move the three right-aligned numeric endpoints together,
+  retaining values, native styles, colors and animations. All thirty-three
+  native digit-boundary checks, including eight-digit rewards, clear the labels.
+- Fit `Mech/Wpn Upg` inside the deployment submenu's existing button.
+- Replace retained Japanese bullet prefixes in deployment commands with
+  invisible padding. Preserve their advance and both selection states.
+  No font artwork, glyph allocation or ordinary lettering changes.
+- Use measurable blank padding for those prefixes, avoiding the native
+  fullwidth-cell centering fallback. Twenty renderer cases confirm matching
+  origins for all five labels in selected and preloaded paths.
+- Confirm that the full-build catalogue reproduces all fourteen corrected
+  runtime outputs, including the measured blank prefixes.
+- Include all previously prepared 0.5.41–0.5.43 fixes. Public upgrades still
+  start from 0.5.40; creating a GitHub release requires new explicit consent.
+- Pass all four focused checks and the final 348-test regression run:
+  346 passed, with two optional skips. Read back all 82 ISO files through
+  both filesystem trees. Image SHA-256:
+  `80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd`.
+  Publication and corrected-build visual confirmation remain pending.
+
 ## 0.5.43 - 2026-10-15 (prepared; publication requires consent)
 
 - Center the complete end-phase warning with its live team count using actual

@@ -1,6 +1,14 @@
 # Tengoku-hen handoff
 
-## Current candidate — 0.5.43
+## Current candidate — 0.5.44
+
+The latest three screenshots are addressed in `docs/REWARD_MENUS_0.5.44.md`:
+Colony Laser capitalization, separate Sub Order reward values, and deployment
+command prefixes/upgrade-caption fitting. Use `tools/review44_build.py` and
+`tools/verify_review44.py`. Public delivery still requires explicit consent
+for this version. The prepared candidate inherits the preceding fixes.
+
+## Previous prepared candidate — 0.5.43
 
 The latest four screenshot corrections are described in
 `docs/MAP_UI_0.5.43.md`: mixed-count end-phase centering, Aboard/terrain

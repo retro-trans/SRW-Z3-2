@@ -34,3 +34,21 @@ patches must reproduce the final verified ISO through complete Retro Trans
 decode round trips before publication. Public 0.5.28 remains the upgrade base.
 Creating or publishing 0.5.34 requires explicit consent; runtime confirmation
 is pending.
+
+## Final delivery checks
+
+317 regression tests ran: 315 passed and two optional checks were skipped.
+The final startup member matches the reviewed render. All other TPACK members,
+all EFF members except the version-stamped title, and all unchanged game files
+match 0.5.33. The final SDAT independently decrypts to the same stage CPK hash,
+`3a7447846443f51496b78cfe15028bb6adba178fc2eb4b174be040620e01be0b`.
+Identical stored member bytes, names and decoded lengths prove identical
+content without redundant decompression; differing encodings are compared
+after decompression.
+
+All 82 disc files pass both filesystem trees. Both official Retro Trans 0.5.4
+routes pass full ISO decode round trips to the same 5,289,541,632-byte image,
+SHA-256 `24cd2da75317d8fc71610c8016b8994b5383f4ee9af95610a8179a9e617a24f6`.
+Readiness and checksums are saved in `work/ui/local_release_0.5.34.json`;
+final image, archive and carried-native evidence bindings are in
+`work/ui/review34_verified_0.5.34.json`. No release has been published.

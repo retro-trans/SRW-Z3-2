@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.34 - 2026-10-15 (preparing; publication requires consent)
+## 0.5.34 - 2026-10-15 (prepared; publication requires consent)
 
 - Carry all prepared 0.5.29–0.5.33 fixes forward from public 0.5.28.
 - Translate the complete startup bitmap notice family: the warning and all
@@ -18,6 +18,16 @@
   original-game and public-0.5.28 Retro Trans delivery routes.
 - In-game visual confirmation remains pending. Creating or publishing a GitHub
   release of 0.5.34 requires explicit user consent for this version.
+- Pass 315 regression checks (two optional checks skipped). Read back all three
+  English startup images; verify the complete warning, all 20 translated rows,
+  preserved logos/English credits, alpha, frames and GTF descriptors.
+- Match unchanged game files and every other archive member to the verified
+  0.5.33 candidate. Independently decrypt the rebuilt stage wrapper and confirm
+  identical story/mission bytes. Retain all earlier native execution evidence.
+- Verify all 82 ISO files through both directory trees. Validate both Retro
+  Trans 0.5.4 routes with complete ISO decode round trips to SHA-256
+  `24cd2da75317d8fc71610c8016b8994b5383f4ee9af95610a8179a9e617a24f6`.
+  Record all five delivery assets; no GitHub release was created or published.
 
 ## 0.5.33 - 2026-10-15 (prepared; carried into 0.5.34)
 

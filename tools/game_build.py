@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.34'
+VERSION = '0.5.35'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -216,7 +216,9 @@ def plan(settings):
     review32_entries=review32_content.hook_entries(elf,mapping)
     from tools import review33_reports
     review33_entries=review33_reports.hook_entries(elf,mapping)
-    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries+review30_entries+review32_entries+review33_entries}.values())
+    from tools import review35_news
+    review35_entries=review35_news.hook_entries(elf,mapping)
+    hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries+review30_entries+review32_entries+review33_entries+review35_entries}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)

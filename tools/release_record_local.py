@@ -19,12 +19,13 @@ def plan(version):
     if version=='0.5.32':proof=ROOT/'work/ui'/('review32_verified_'+version+'.json')
     if version=='0.5.33':proof=ROOT/'work/ui'/('review33_verified_'+version+'.json')
     if version=='0.5.34':proof=ROOT/'work/ui'/('review34_verified_'+version+'.json')
+    if version=='0.5.35':proof=ROOT/'work/ui'/('review35_verified_'+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
     if manifest['version']!=version or manifest['source_commit']!=cfg['source_commit']:raise ValueError('Release provenance mismatch')
     if len(manifest['patches'])!=2 or len(validation['patches'])!=2:raise ValueError('Expected two release patch routes')
     source_versions={p['source_version']for p in manifest['patches']}
-    previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34') else '0.5.18'
+    previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35') else '0.5.18'
     if source_versions!={'original',previous_public}:raise ValueError('Upgrade source must be the current public release')
     for patch,report in zip(manifest['patches'],validation['patches']):
         if (patch['target_bytes'],patch['target_sha256'])!=(image['bytes'],image['sha256']):raise ValueError('Patch target differs from final ISO')

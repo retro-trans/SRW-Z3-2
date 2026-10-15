@@ -5,7 +5,19 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.34 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.35 - 2026-10-15 (in preparation; publication requires consent)
+
+- Fix combined war-front updates that remained Japanese after the native
+  128-byte paragraph copies. Bind all 13 independently drawn rows across six
+  multi-paragraph messages, including the final three-line worldwide report.
+- Retain all wording, route occurrences, captured-base counts and native row
+  spacing. Center each translated row using its actual font widths, with the
+  existing condensed alphabet where needed. Leave stage logic unchanged.
+- Reproduce all 13 misses in 0.5.34 and verify every one of the 22 messages
+  through native paragraph copying and translation lookup; check 26 origins
+  at both tested font sizes. Carry all previous fixes into 0.5.35.
+
+## 0.5.34 - 2026-10-15 (prepared; carried into 0.5.35)
 
 - Recheck the follow-up messenger, Avalon and NERV screenshots against the
   prepared assets. Both linked-popup variants and the Library archive already

@@ -11,7 +11,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source-commit', required=True)
     p.add_argument('--version', default=VERSION)
-    p.add_argument('--upgrade-from', default='0.5.28' if VERSION in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34') else '0.5.18')
+    p.add_argument('--upgrade-from', default='0.5.28' if VERSION in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35') else '0.5.18')
     p.add_argument('--apply', action='store_true')
     a = p.parse_args(); version = a.version
     if version != VERSION:raise ValueError('Only the current verified build can be released')
@@ -30,6 +30,7 @@ def main():
     if version=='0.5.32':evidence_prefix='review32_verified_'
     if version=='0.5.33':evidence_prefix='review33_verified_'
     if version=='0.5.34':evidence_prefix='review34_verified_'
+    if version=='0.5.35':evidence_prefix='review35_verified_'
     evidence = json.loads((ROOT/'work/ui'/(evidence_prefix+version+'.json')).read_text(encoding='utf8'))
     settings = json.loads((ROOT/'config/tengoku.json').read_text(encoding='utf8'))
     if build['version'] != version or image['version'] != version or evidence['version'] != version:
@@ -64,6 +65,7 @@ def main():
     if version=='0.5.32':label='Centered captions, two-line news, Sub Order and save questions'
     if version=='0.5.33':label='Reward report lines, Arm Rakers and Back Log guides'
     if version=='0.5.34':label='English startup warning and copyright credits, with UI repairs'
+    if version=='0.5.35':label='Translated combined war-front updates, with startup and UI repairs'
     upgrade_notes='''- Translate all 23 assembled item-unlock conditions, all 24 D-Trader item
   announcements, and all nine selectable Full Upgrade Bonus confirmations.
 - Repair both two-color Custom Bonus award headers and the matching Ace Bonus
@@ -179,7 +181,7 @@ buffer and speech panel. Original quote strings and consumer code are retained.
   highlighted bonus amount with its separate English prefix.
 - English world-map domination caption; percentage digits and animation retained.
 ''' if a.upgrade_from=='0.5.18' else ''
-    if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34'):
+    if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35'):
         upgrade_notes='''- Correct the two Spirit names to the requested Z3 convention: Break ignores
   defensive abilities; Fury guarantees critical hits. Update their compact
   indicators, bonus descriptions and related trophy text.
@@ -199,7 +201,7 @@ Inazuma Kick weapon occurrence and its battle captions pass final readback.
 The earlier death-quote, mission, name and UI repairs remain covered by the
 carried checks. No in-game visual verification is claimed.
 '''
-    if version in ('0.5.30','0.5.31','0.5.32','0.5.33','0.5.34'):
+    if version in ('0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35'):
         upgrade_notes+='''- Translate the full skill-confirmation category: learning, level increases
   and overwriting an existing skill. Cover every skill name, not only E-Save.
 - Translate every movement terrain combination, including numbered masks.
@@ -215,7 +217,7 @@ composer is exercised for every skill and both source/translated name routes.
 All nine changed widgets pass final text/coordinate readback and column bounds.
 The four corrected dialogue rows and twelve encyclopedia fields pass archive readback.
 '''
-    if version in ('0.5.31','0.5.32','0.5.33','0.5.34'):
+    if version in ('0.5.31','0.5.32','0.5.33','0.5.34','0.5.35'):
         upgrade_notes+='''- Restore the complete Episode 20 and 21 SR conditions: no allied battleship
   damage within three turns; one allied pilot shoots down at least six enemies
   before clearing the map. Use separate native rows for every displayed line.
@@ -227,7 +229,7 @@ four-row panel, with both color states and default/maximum live values. The
 reported phases and all compiled SR literals pass final archive/drawer readback.
 All six former row overruns are reproduced by the regression test and repaired.
 '''
-    if version in ('0.5.32','0.5.33','0.5.34'):
+    if version in ('0.5.32','0.5.33','0.5.34','0.5.35'):
         upgrade_notes+='''- Center all 517 location captions by their displayed English width, including
   Jindai High School / Old Building / Empty Classroom and Back Log views.
 - Fit all eleven long or combined news headlines into two centered lines;
@@ -243,7 +245,7 @@ and caller state. All changed guides pass final archive/bounds checks. Native
 save paragraph copying and both converter models preserve every English line.
 The complete movement-mask translations remain covered by the carried checks.
 '''
-    if version in ('0.5.33','0.5.34'):
+    if version in ('0.5.33','0.5.34','0.5.35'):
         upgrade_notes+='''- Translate every separately drawn reward-report line, including all AG
   bonus amounts, awards, upgrade refunds and unlock notices. Center the English
   lines without changing rewards or stage logic.
@@ -254,15 +256,28 @@ The complete movement-mask translations remain covered by the carried checks.
 copying and final translation lookup; all 36 whole/line keys pass native centering.
 The corrected Arm Rakers dialogue passes compiled archive readback.
 '''
-    if version=='0.5.34':
+    if version in ('0.5.34','0.5.35'):
         upgrade_notes+='''- Translate the full startup warning and all 20 Japanese copyright credit
   rows across both pages. Preserve every rights holder, year and production
   relationship, the existing English credits, logo screens and warning frame.
 '''
+    if version=='0.5.34':
         review23_verification+='''All three startup screens pass final texture/pixel readback and bounds checks.
 Unchanged game files and every other texture/archive member match the verified
 0.5.33 data byte for byte. Independently decrypt the rebuilt stage wrapper and
 confirm identical script content. Only startup art and the title stamp change.
+'''
+    if version=='0.5.35':
+        upgrade_notes+='''- Translate combined war-front updates after the game splits them into
+  independently drawn lines: all 13 rows across six messages, including the
+  East Asia / eastern North America and Midway / southern Europe updates.
+  Center each English row and retain the final three-line worldwide report,
+  all route occurrences and the captured-base counts.
+'''
+        review23_verification+='''All 22 war-front messages pass actual native 128-byte paragraph copying and
+final translation lookup. All 13 previously missed rows pass native centering
+at both tested font sizes (26 origin cases). The startup/font archive remains
+byte-identical to verified 0.5.34; its three English startup screens are retained.
 '''
     notes = f'''# {version} — {label}
 

@@ -56,5 +56,9 @@ Trans-Am checks. Both ISO filesystem trees verify all 82 files. Image SHA-256:
 Both official Retro Trans 0.5.4 complete-image round trips passed and all
 five assets are validated. The original-image patch is 204,181,888 bytes;
 the public 0.5.40 upgrade is 21,351,721 bytes. Readiness is recorded in
-`work/ui/local_release_0.5.44.json`. Publication and in-game visual testing
-remain pending.
+`work/ui/local_release_0.5.44.json`. The user explicitly authorized publication
+on 2026-10-16. [v0.5.44](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44)
+is published as latest stable. The scoped Retro Trans catalog refresh succeeded;
+both Automatic Latest patch routes are verified. Public delivery evidence is
+recorded in `work/ui/public_release_0.5.44.json`. In-game visual testing remains
+pending.

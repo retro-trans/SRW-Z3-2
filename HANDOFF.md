@@ -1,12 +1,12 @@
 # Tengoku-hen handoff
 
-## Current candidate — 0.5.44
+## Current public release — 0.5.44
 
 The latest three screenshots are addressed in `docs/REWARD_MENUS_0.5.44.md`:
 Colony Laser capitalization, separate Sub Order reward values, and deployment
 command prefixes/upgrade-caption fitting. Use `tools/review44_build.py` and
-`tools/verify_review44.py`. Public delivery still requires explicit consent
-for this version. The prepared candidate inherits the preceding fixes.
+`tools/verify_review44.py`. The user explicitly authorized publication on
+2026-10-16. The public release includes the preceding prepared fixes.
 
 Readback is recorded in `work/ui/review44_verified_0.5.44.json` and delivery
 readiness in `work/ui/local_release_0.5.44.json`. The final run has 348 tests:
@@ -14,9 +14,12 @@ readiness in `work/ui/local_release_0.5.44.json`. The final run has 348 tests:
 twenty selected/preloaded caption cases. Both official Retro Trans 0.5.4
 complete-image round trips pass and all five assets are validated. The
 original-image patch is 204,181,888 bytes; the 0.5.40 upgrade is 21,351,721
-bytes. No GitHub release or draft is created; visual playtesting is pending.
+bytes. Published as latest stable [v0.5.44](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44).
+The scoped Retro Trans catalog refresh succeeded; both Automatic Latest routes
+are verified. See `work/ui/public_release_0.5.44.json` for hosted delivery
+evidence. In-game visual playtesting remains pending.
 
-## Previous prepared candidate — 0.5.43
+## Previous prepared candidate — 0.5.43 (historical)
 
 The latest four screenshot corrections are described in
 `docs/MAP_UI_0.5.43.md`: mixed-count end-phase centering, Aboard/terrain

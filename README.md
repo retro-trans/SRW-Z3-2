@@ -11,10 +11,11 @@ game files and Japanese script dumps remain local.
 
 ## Current status
 
-Public testing currently uses **0.5.40**. The prepared **0.5.44** candidate
+Public testing currently uses [**0.5.44**](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44). It
 includes the accumulated keyword-popup, deployment and news corrections,
 plus the phase/map-panel fixes and [latest reward/menu corrections](docs/REWARD_MENUS_0.5.44.md).
-It remains unpublished pending explicit consent for this release.
+Retro Trans supports automatic updates from the original Japanese ISO or the
+exact English 0.5.40 image. Refresh its catalog to select the latest release.
 
 Fresh dialogue drafts cover **63,553 records in 857 slices across 12 batches**,
 including alternate routes, endings, ace talks and previews.

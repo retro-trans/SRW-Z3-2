@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.44 - 2026-10-16 (prepared; publication requires consent)
+## 0.5.44 - 2026-10-16
 
 - Use **Colony Laser** in the active glossary, all thirteen dialogue
   references and ten affected Library records. Preserve both capitals in
@@ -23,17 +23,21 @@
   origins for all five labels in selected and preloaded paths.
 - Confirm that the full-build catalogue reproduces all fourteen corrected
   runtime outputs, including the measured blank prefixes.
-- Include all previously prepared 0.5.41–0.5.43 fixes. Public upgrades still
-  start from 0.5.40; creating a GitHub release requires new explicit consent.
+- Include all previously prepared 0.5.41–0.5.43 fixes. Public upgrades
+  start from the exact 0.5.40 image.
 - Pass all four focused checks and the final 348-test regression run:
   346 passed, with two optional skips. Read back all 82 ISO files through
   both filesystem trees. Image SHA-256:
   `80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd`.
-  Publication and corrected-build visual confirmation remain pending.
+  Corrected-build in-game visual confirmation remains pending.
 - Pass both official Retro Trans 0.5.4 complete-image patch round trips and
   validate all five delivery assets. The original-image patch is 204,181,888
   bytes; the public 0.5.40 upgrade is 21,351,721 bytes. Both reconstruct the
-  same verified 0.5.44 image. No GitHub release or draft has been created.
+  same verified 0.5.44 image.
+- Publish [v0.5.44](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44)
+  as the latest stable release after the user's explicit `publish` instruction.
+  Verify all five public download checksums and both Retro Trans Automatic
+  Latest routes after the scoped catalog refresh succeeded.
 
 ## 0.5.43 - 2026-10-15 (prepared; publication requires consent)
 

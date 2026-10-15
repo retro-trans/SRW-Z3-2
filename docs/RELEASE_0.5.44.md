@@ -11,8 +11,7 @@ keyword-popup, deployment, news and map-panel fixes after public 0.5.40.
 In [Retro Trans](https://github.com/retro-trans/retro-trans-tools), open
 **Automatic**, choose **Refresh catalog**, select your original Japanese ISO
 or the exact English **0.5.40** ISO, and choose **Latest (0.5.44)**. Write a
-new output image and keep your source. These instructions apply once the
-prepared release is published and its catalog refresh is verified.
+new output image and keep your source.
 
 Manual patching also works through **Apply xdelta**,
 [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) or
@@ -42,8 +41,7 @@ Both patches passed complete ISO reconstruction checks and reproduced the
 exact target hash above. Official Retro Trans **0.5.4** validation passed for
 all five delivery assets. Downloads are **204.2 MB** from original or
 **21.4 MB** from 0.5.40. `SHA256SUMS.txt` verifies the downloads;
-`VALIDATION.json` records both successful round trips. Publication and live
-catalog verification remain pending.
+`VALIDATION.json` records both successful round trips.
 
 ### What changed since 0.5.40
 

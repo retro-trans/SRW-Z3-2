@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "version": "0.5.44",
+  "user_consent": {
+    "request": "publish",
+    "date": "2026-10-16"
+  },
+  "github_release": {
+    "id": 414096830,
+    "url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44",
+    "tag": "v0.5.44",
+    "published_at": "2026-10-15T17:46:22Z",
+    "draft": false,
+    "prerelease": false,
+    "latest": true,
+    "assets": [
+      {
+        "name": "BUILD-MANIFEST.json",
+        "bytes": 1449,
+        "digest": "sha256:803c9c00cc8cbabba77ae3257b8fcb0fd5e9595a05b25860891c1eaafd293144"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 400,
+        "digest": "sha256:0fa9d768d166c07d019f437832e569e67a638e138dd3059e04bad11811c9a232"
+      },
+      {
+        "name": "SRW-Z3-2-PS3-English-0.5.44-from-0.5.40.xdelta",
+        "bytes": 21351721,
+        "digest": "sha256:d0dcb00c1dd30af1bb30180c2e221d128234e718218fbe74c78d7f4793bf9c2a"
+      },
+      {
+        "name": "SRW-Z3-2-PS3-English-0.5.44-from-original.xdelta",
+        "bytes": 204181888,
+        "digest": "sha256:4084714f3b273208dd8dc163c211a85bd868adb47a14aa70d8c3d4ce172bceeb"
+      },
+      {
+        "name": "VALIDATION.json",
+        "bytes": 540,
+        "digest": "sha256:28f7abce975a94f6b0838ee98d88d62a10f8d5bdd67a8b4a3cd356447b4cfa97"
+      }
+    ]
+  },
+  "hosted_checksums_verified": true,
+  "public_download_bytes_verified": true,
+  "source_commit": "13c822deb9d5853fd974aa2680ea9c2c5220cbf1",
+  "release_tag_commit": "0c31e2ec96c80e86953a8a7ba1796f637a71c5b2",
+  "catalog_workflow": {
+    "id": 38780113944,
+    "url": "https://github.com/retro-trans/retro-trans-tools/actions/runs/38780113944",
+    "conclusion": "success"
+  },
+  "catalog_routes": [
+    {
+      "source_version": "original",
+      "target_version": "0.5.44",
+      "patch": "SRW-Z3-2-PS3-English-0.5.44-from-original.xdelta",
+      "patch_sha256": "4084714f3b273208dd8dc163c211a85bd868adb47a14aa70d8c3d4ce172bceeb",
+      "source_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+      "target_sha256": "80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd",
+      "release_url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44"
+    },
+    {
+      "source_version": "0.5.40",
+      "target_version": "0.5.44",
+      "patch": "SRW-Z3-2-PS3-English-0.5.44-from-0.5.40.xdelta",
+      "patch_sha256": "d0dcb00c1dd30af1bb30180c2e221d128234e718218fbe74c78d7f4793bf9c2a",
+      "source_sha256": "f80b9be177a4040b92488b745c9594906b2794ffa746787334a0eed974066fe4",
+      "target_sha256": "80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd",
+      "release_url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44"
+    }
+  ],
+  "catalog_data_sha256": "809039bb862f91e4f059cfa2a86d2e9c6d2be04c8fce5c598e9a99269c9d6170",
+  "release_notes_format": {
+    "reference": "https://github.com/retro-trans/SRW-Z3/releases/tag/v0.9.2",
+    "title": "0.5.44 — Translation and interface corrections",
+    "file": "docs/RELEASE_0.5.44.md",
+    "body_sha256": "dd79ca98a433d631aa893f4a1d511579db697483f3d90591b15cabd0e37ec60d",
+    "github_updated_at": "2026-10-15T17:46:22Z",
+    "hosted_body_verified": true,
+    "assets_unchanged_verified": true
+  },
+  "runtime_verified": false
+}

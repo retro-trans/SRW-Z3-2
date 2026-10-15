@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "version": "0.5.44",
-  "publication": "pending_explicit_user_consent",
-  "github_release_created": false,
+  "publication": "published",
+  "github_release_created": true,
   "runtime_verified": false,
   "source_commit": "13c822deb9d5853fd974aa2680ea9c2c5220cbf1",
   "release_tool_version": "0.5.4",
@@ -130,5 +130,10 @@
     "skipped": 0,
     "log_sha256": "e8789da3c28c408a66fcd6e09a6096204b89bee4739ba83cb290d5fdc7189e47"
   },
-  "full_regression_log_sha256": "00f18319f0b04620bff7b75423ee643a2881a7c5422240f710715decd3cf86ce"
+  "full_regression_log_sha256": "00f18319f0b04620bff7b75423ee643a2881a7c5422240f710715decd3cf86ce",
+  "public_verification": "work/ui/public_release_0.5.44.json",
+  "user_consent": {
+    "request": "publish",
+    "date": "2026-10-16"
+  }
 }

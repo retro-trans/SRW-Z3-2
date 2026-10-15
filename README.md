@@ -11,6 +11,11 @@ game files and Japanese script dumps remain local.
 
 ## Current status
 
+Public testing currently uses **0.5.40**. The prepared **0.5.43** candidate
+includes the accumulated keyword-popup, deployment and news corrections,
+plus the [latest phase/map-panel fixes](docs/MAP_UI_0.5.43.md).
+It remains unpublished pending explicit consent for this release.
+
 Fresh dialogue drafts cover **63,553 records in 857 slices across 12 batches**,
 including alternate routes, endings, ace talks and previews.
 See [the completion report](docs/FRESH_RETRANSLATION_COMPLETION.md).
@@ -57,7 +62,7 @@ The [0.5.13 enemy-fleet narration](docs/FLEET_NARRATION_0.5.13.md) translates
 the two missing descent-to-Earth captions with their original row timing.
 The [0.5.14 Focus and font changes](docs/FOCUS_STYLE_0.5.14.md) use Focus/Foc
 for the Ki stat and restore the native outline masks used by Lv/SP labels.
-The current **0.5.18** build fixes the enemy Spirit band's slash separator and
+The historical **0.5.18** build fixes the enemy Spirit band's slash separator and
 includes the accumulated UI fixes in a new public release. The user tests
 public releases, so separate local testing builds are insufficient delivery.
 The [0.5.17 category and stat fixes](docs/CATEGORY_UI_0.5.17.md) connect

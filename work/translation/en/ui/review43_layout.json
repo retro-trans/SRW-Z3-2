@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "version": "0.5.43",
+  "source_member_sha256": "2432b3425ef264a10a311a6707f7963acd1cbe802868b07b702a51d9c62e8ad0",
+  "edits": [
+    {
+      "widget_offset": 565572,
+      "en": "Aboard:",
+      "source_sha256": "ca144672339b27c56dd44c535577f387d92697295a4ecf189cd08dc4f4570b8a",
+      "source_widget_sha256": "6afd3a92394490a7bf0a83f6585fccd52311ce44bc6e4a63e23446f2590f12ac",
+      "font_style": "native-label",
+      "notes": "One Aboard caption; retain the separately drawn live team count and native state."
+    },
+    {
+      "widget_offset": 565604,
+      "en": "",
+      "source_sha256": "bd1871e9bd984b42c5c124aa64f556a078f6edac86f3097d865ecc10b2bf8b42",
+      "source_widget_sha256": "afd1896bbbeb05843768d720e4385dbad95d7c2e42c4267f6adba001c78a1ab3",
+      "font_style": "native-label",
+      "notes": "One Aboard caption; retain the separately drawn live team count and native state."
+    },
+    {
+      "widget_offset": 565636,
+      "en": "",
+      "source_sha256": "9c9436fd55fd53389f7d867f1d5cc5bba8d1d32e56c75d80e07040997531f7c2",
+      "source_widget_sha256": "e6a7212410a672da75db219afde92663e6251967ce86e107b7042d016e73c8ed",
+      "font_style": "native-label",
+      "notes": "One Aboard caption; retain the separately drawn live team count and native state."
+    }
+  ],
+  "table_fragments": [
+    {
+      "source_id": "7d3c44d2bef19de1a36c",
+      "table_row_id": 3,
+      "source_sha256": "f494ea319aaab65b435b5163b1fc78a25ec7c5542c15c926f0fec84efd93d8b6",
+      "en": "There are ",
+      "notes": "Center the complete composed sentence, including its native live count, by actual glyph widths.",
+      "center_marker": true
+    },
+    {
+      "table_row_id": 91,
+      "en": "",
+      "source_sha256": "a8c9ffb59542881955879d32caebf93aca66fe1d089558ac1fd76dc7ff0e315e",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 92,
+      "en": "",
+      "source_sha256": "4c54ba9c6a65677ac3263a85b639bb917f319c7fe6ffab3c4c825a2e4520dc36",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 93,
+      "en": "",
+      "source_sha256": "b380d66dd299eb5c294863ab5748ea57cb314b2cf9dd1382f298e2324af51e76",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 94,
+      "en": "",
+      "source_sha256": "592940b5bbdc2c919b03eba20e5e91a1630b67c6fbae406d3e742dafa4dd82ba",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 95,
+      "en": "",
+      "source_sha256": "f7e9eff463c7dfb6c151f473cbcfd641f1fbd23f23578ca40196f8ec384e109f",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 96,
+      "en": "",
+      "source_sha256": "2f49fa44c3ee8dbc1c8ba2eebacf99efaeea5e668c09d07eee0f512a63f673e3",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 97,
+      "en": "",
+      "source_sha256": "0d264e271e15079eb2167672ed4787fc2597f4ef5b502c997d2de7d2e41515c1",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 98,
+      "en": "",
+      "source_sha256": "2e51925b134c827ee78df4fd15ed1696bed3b9b0072641aa7e81e72aadf840b9",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 117,
+      "en": "",
+      "source_sha256": "a8c9ffb59542881955879d32caebf93aca66fe1d089558ac1fd76dc7ff0e315e",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 118,
+      "en": "",
+      "source_sha256": "4c54ba9c6a65677ac3263a85b639bb917f319c7fe6ffab3c4c825a2e4520dc36",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 119,
+      "en": "",
+      "source_sha256": "b3ef57028f624bd036ab3c24057a6d840ceb200c95d38def153dc8f14c992bd7",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    },
+    {
+      "table_row_id": 120,
+      "en": "",
+      "source_sha256": "deb2cdead434b58e5448c8eafcbb7330d3eee18d0158bb69b4b301e48db3c9ca",
+      "notes": "Translate component cells before the game composes movement/rating text; preserve one native cell per terrain."
+    }
+  ],
+  "aboard_bounds": {
+    "left": 704.4999980926514,
+    "right": 802.8124980926514,
+    "count_left": 835
+  },
+  "runtime_verified": false
+}

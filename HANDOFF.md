@@ -1,5 +1,21 @@
 # Tengoku-hen handoff
 
+## Current candidate — 0.5.43
+
+The latest four screenshot corrections are described in
+`docs/MAP_UI_0.5.43.md`: mixed-count end-phase centering, Aboard/terrain
+components, `A Tenshi` and the compact `Trans-Am` command. The candidate
+inherits the prepared 0.5.41/0.5.42 changes. Public testing still uses 0.5.40;
+the upgrade patch must target that public image. Each release requires fresh
+explicit consent before any GitHub release or draft is created.
+
+The incremental builder is `tools/review43_build.py`; its final readback is
+`tools/verify_review43.py`. Fonts, advances, widget geometry and states stay
+unchanged. Only the reported stage article is changed in member 598.
+See `work/ui/review43_verified_0.5.43.json` and
+`work/ui/local_release_0.5.43.json` for final verification/readiness when
+recorded. The following entries are historical.
+
 ## Six public screenshot reports — 0.5.19 preparation
 
 See docs/UI_REVIEW_0.5.19.md. Shortened Link labels/replay suffixes, the shared

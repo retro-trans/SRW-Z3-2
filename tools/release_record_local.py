@@ -27,15 +27,16 @@ def plan(version):
     if version=='0.5.40':proof=ROOT/'work/ui'/('review40_verified_'+version+'.json')
     if version=='0.5.41':proof=ROOT/'work/ui'/('review41_verified_'+version+'.json')
     if version=='0.5.42':proof=ROOT/'work/ui'/('review42_verified_'+version+'.json')
+    if version=='0.5.43':proof=ROOT/'work/ui'/('review43_verified_'+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
     if manifest['version']!=version or manifest['source_commit']!=cfg['source_commit']:raise ValueError('Release provenance mismatch')
     if len(manifest['patches'])!=2 or len(validation['patches'])!=2:raise ValueError('Expected two release patch routes')
     source_versions={p['source_version']for p in manifest['patches']}
     previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35','0.5.36','0.5.37','0.5.38','0.5.39','0.5.40') else '0.5.18'
-    if version in ('0.5.41','0.5.42'):previous_public='0.5.40'
+    if version in ('0.5.41','0.5.42','0.5.43'):previous_public='0.5.40'
     if source_versions!={'original',previous_public}:raise ValueError('Upgrade source must be the current public release')
-    if version=='0.5.42':
+    if version in ('0.5.42','0.5.43'):
         public=json.loads((ROOT/'work/output/iso/0.5.40/Tengoku-hen-English-0.5.40.json').read_text('utf8'))
         source_hashes={'original':image['source_iso_sha256'],'0.5.40':public['sha256']}
         if any(p['source_sha256']!=source_hashes[p['source_version']]for p in manifest['patches']):
@@ -60,11 +61,11 @@ def plan(version):
     if not match:raise ValueError('Regression log does not confirm success')
     run,skip=int(match[1]),int(match[2]or 0)
     focused={}
-    if version=='0.5.42':
-        focused_log=ROOT/'work/output/scratch/review42-focused-tests.log'
+    if version in ('0.5.42','0.5.43'):
+        focused_log=ROOT/('work/output/scratch/review'+version.split('.')[-1]+'-focused-tests.log')
         focused_text=focused_log.read_text(encoding='utf-8-sig')
         if not re.search(r'Ran 4 tests[^\r\n]*\r?\n\s*OK[ \t]*\r?(?:\n|$)',focused_text):
-            raise ValueError('Four current native-selector/deployment checks must pass without skips')
+            raise ValueError('Four current focused checks must pass without skips')
         focused=dict(focused_regression_tests=dict(run=4,passed=4,skipped=0,log_sha256=sha256_file(focused_log)),
                      full_regression_log_sha256=sha256_file(log))
     return dict(schema=1,version=version,publication='pending_explicit_user_consent',

@@ -5,6 +5,26 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.43 - 2026-10-15 (prepared; publication requires consent)
+
+- Center the complete end-phase warning with its live team count using actual
+  glyph widths. Keep the Yes/No choices and their selected state unchanged.
+- Replace overlapping Aboard/Team label fragments with `Aboard:`; preserve
+  the live count. Translate twelve movement and terrain component entries
+  before native composition, retaining the compact terrain cell pitch.
+- Correct Syam's `An Tenshi` to `A Tenshi` in the active and compiled script.
+- Shorten the command to `Trans-Am` while retaining `Activate Trans-Am?`
+  as its separate confirmation question. Reuse the existing font and text pool.
+- Carry the unpublished 0.5.41/0.5.42 keyword-popup, deployment, Psyco Waves
+  and war-front fixes. Preserve all font shapes and advances.
+- Pass the four focused checks: fourteen native phase origins, four native
+  command-caption states/sizes, both command/question lookups, terrain cell
+  composition and article isolation. All 4,803 widget states/geometry remain.
+- Read back the deployed components, changed stage record, carried news,
+  unchanged assets and all 82 ISO files through both filesystem trees.
+  Image SHA-256: `aef256e93637155bda9a8d3b760c53cb7ae3993bc8ac3e3dd2282b5ee64d2ea9`.
+  Visual playtesting and publication consent remain pending.
+
 ## 0.5.42 - 2026-10-15 (prepared; publication requires consent)
 
 - Translate seven missed movement-type blocks (45 terrain rows), including

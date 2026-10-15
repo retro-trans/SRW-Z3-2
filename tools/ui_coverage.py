@@ -92,7 +92,7 @@ def exact_offsets(blob, raw):
         pos += 1
 
 
-def ui_string_table(blob):
+def ui_string_table(blob, decode=None):
     """Read Tengoku's actual DIXT offsets into its TDXT NUL string pool."""
     if blob[:4] not in (b'SB2T', b'UB2T') or blob[16:20] != b'DIXT':
         raise ValueError('Unknown UI string-table wrapper')
@@ -115,7 +115,7 @@ def ui_string_table(blob):
             raise ValueError('UI table pointer is not a string start')
         raw = pool[pos:pool.index(b'\0', pos)]
         rows.append(dict(id=rid, pointer_offset=pointer_at, string_offset=pool_at + pos,
-                         raw=raw, text=raw.decode(encoding), encoding=encoding))
+                         raw=raw, text=decode(raw) if decode else raw.decode(encoding), encoding=encoding))
     return rows
 
 

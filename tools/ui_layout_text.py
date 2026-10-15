@@ -122,6 +122,14 @@ def verify_fssa(source,out,edits,mapping,element_edits=()):
         raise ValueError('FSSA bytes changed outside appended text, headers and bound pointers/coordinates')
 
 
+def table_encode(edit, mapping):
+    prefix=b''
+    if edit.get('center_marker'):
+        from tools.review32_content import CAPTION_MARK
+        prefix=bytes.fromhex(mapping[CAPTION_MARK])
+    return prefix+eboot_text.encode(edit['en'],mapping)
+
+
 def table_patch(source, edits, mapping):
     rows = ui_string_table(source)
     text_at = 32+struct.unpack_from('>I',source,24)[0]
@@ -137,7 +145,7 @@ def table_patch(source, edits, mapping):
         if sha256(row['raw'])!=edit['source_sha256']:
             raise ValueError('SB2T fragment fingerprint changed')
         pos = len(out)-pool_at
-        out += eboot_text.encode(edit['en'],mapping)+b'\0'
+        out += table_encode(edit,mapping)+b'\0'
         struct.pack_into('>I',out,row['pointer_offset'],pos)
     struct.pack_into('>I',out,text_at+8,len(out)-pool_at)
     restored = bytearray(out[:len(source)])
@@ -146,7 +154,7 @@ def table_patch(source, edits, mapping):
         row = rows[edit['table_row_id']]
         ptr = struct.unpack_from('>I',out,row['pointer_offset'])[0]
         raw = out[pool_at+ptr:out.index(0,pool_at+ptr)]
-        if raw != eboot_text.encode(edit['en'],mapping):
+        if raw != table_encode(edit,mapping):
             raise ValueError('SB2T English readback failed')
         restored[row['pointer_offset']:row['pointer_offset']+4]=source[row['pointer_offset']:row['pointer_offset']+4]
     if restored!=source:
@@ -237,6 +245,13 @@ def plan(settings,mapping):
     deployment=json.loads(review42_layout.DEST.read_text(encoding='utf8'))
     if deployment!=review42_layout.plan():raise ValueError('Deployment layout plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],deployment['edits'])
+    from tools import review43_text
+    map_panel=json.loads(review43_text.DEST.read_text(encoding='utf8'))
+    if map_panel!=review43_text.plan():raise ValueError('Phase/map-panel plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],map_panel['edits'])
+    by_row={e['table_row_id']:e for e in catalog['table_fragments']}
+    by_row.update({e['table_row_id']:e for e in map_panel['table_fragments']})
+    catalog['table_fragments']=list(by_row.values())
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

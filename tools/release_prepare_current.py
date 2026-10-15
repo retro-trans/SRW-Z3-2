@@ -8,6 +8,9 @@ from tools.common import ROOT, write_json
 
 def main():
     from tools.game_build import VERSION
+    if VERSION=='0.5.43':
+        from tools.release_prepare43 import main as prepare_map_fixes
+        return prepare_map_fixes()
     if VERSION=='0.5.42':
         from tools.release_prepare42 import main as prepare_deployment
         return prepare_deployment()

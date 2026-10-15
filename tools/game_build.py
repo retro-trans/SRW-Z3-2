@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.36'
+VERSION = '0.5.37'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -286,6 +286,10 @@ def plan(settings):
                                                       lambda t: voice_build.encode(t, mapping))
         voice_report['voice_strings'] = len(voice_rows)
         exec_report['output_sha256'] = sha256(executable)   # VWF patch + hook + rewritten SRVC block table
+    from tools import backlog_storage
+    executable, backlog_report = backlog_storage.apply(executable)
+    exec_report['backlog_storage'] = backlog_report
+    exec_report['output_sha256'] = sha256(executable)
     # Texture art (docs/TEXTURES.md): title cards and map badges, never the font pages.
     from tools import texture_art
     art = texture_art.plan(pages, settings)

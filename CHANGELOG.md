@@ -5,7 +5,26 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.36 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.37 - 2026-10-15 (prepared; publication requires consent)
+
+- Fix Back Log corruption caused by its separate 308-byte entry copy cutting
+  an encoded font cell in half. Expand inline text to 1,076 bytes across both
+  constructors, the writer, ring compaction and all reset paths. Keep all
+  event identities and six keyword-link slots intact.
+- Expand the separate Back Log row copy from 128 to 255 bytes, with a larger
+  stack frame and matching saved-register/local offsets. Preserve complete
+  English lines and the caller's registers.
+- Audit all 63,553 dialogue entries: 204 exceed the old entry limit and 125
+  rows exceed the old drawing limit. Reproduce the reported Leonard entry's
+  split font cell in the old writer, then exercise every affected entry/row
+  through native instruction paths, including both constructors, scrolling,
+  duplicate suppression, link metadata, canaries and reset behavior.
+- Carry all previous fixes from verified 0.5.36. Game changes are limited to
+  114 guarded backlog instruction constants and the version's title stamp;
+  dialogue, fonts, stage wrapper and unrelated archive members stay intact.
+  Public delivery and in-game visual confirmation remain pending.
+
+## 0.5.36 - 2026-10-15 (prepared; carried into 0.5.37)
 
 - Confirm the newly reported Episode 41 Angel SR overflow is already fixed
   in this candidate. Read back the compiled condition and execute both native

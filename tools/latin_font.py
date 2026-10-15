@@ -51,5 +51,6 @@ def profile():
     from tools.common import sha256_file
     return dict(face=FACE.name,face_sha256=sha256_file(FACE),cap=CAP,baseline=BASE,
         supersampling=SS,horizontal_dilation=DILATE,space_advance=9,advance_padding=1,
-        downsampling='BOX',texture='G8B8: outline high byte, fill low byte',outline_radius=2,
+        downsampling='BOX',texture='G8B8: coverage high byte, fill low byte',outline_radius=0,
+        outlined_labels='Separate @native-label alphabet copies original fill and border masks',
         reference='SRW Z3/tools/digraph.py + tools/ttfglyph.py')

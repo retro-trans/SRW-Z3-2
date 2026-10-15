@@ -7,14 +7,20 @@ from tools.focus_terminology import wording
 
 
 class FocusStyleTests(unittest.TestCase):
-    def test_native_two_channel_masks_keep_fill_and_outline_distinct(self):
+    def test_ordinary_lettering_preserves_fill_without_an_added_border(self):
         for c in 'FocLvSP':
             fill,advance=raster(c);pixels=glyph_pixels(fill)
             self.assertTrue(np.array_equal(pixels&255,np.asarray(fill)))
-            self.assertTrue(np.all((pixels>>8)>=(pixels&255)))
-            self.assertTrue(np.any(((pixels>>8)>0)&((pixels&255)==0)))
+            self.assertTrue(np.array_equal(pixels>>8,pixels&255))
             self.assertEqual(raster(c)[1],advance)
         self.assertFalse(glyph_pixels(Image.new('L',(32,32))).any())
+
+    def test_explicit_native_labels_retain_both_original_planes(self):
+        from tools.native_labels import raster as native
+        for c in 'TeamMechKillsFoc':
+            image,_=native(c);pixels=glyph_pixels(image)
+            self.assertTrue(np.array_equal(pixels,image.info['native_g8b8']))
+            self.assertTrue(np.any(((pixels>>8)>0)&((pixels&255)==0)))
 
     def test_stat_replacement_preserves_non_stat_will_and_spirit_focus(self):
         self.assertEqual(wording('気力','Morale'),'Foc')

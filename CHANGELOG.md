@@ -5,7 +5,22 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.37 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.38 - 2026-10-15 (prepared; publication requires consent)
+
+- Remove the globally added border from all 260 ordinary glyph cells on
+  both font pages. Preserve their current letter shapes, baselines,
+  antialiasing, advances and codepoints, including condensed dialogue.
+- Keep the separate 41-character native-label alphabet with the original
+  fill and border masks. Select it for Team, Mech and Kills across 19
+  unit-list headings, preserving all positions, colors and states.
+- Preserve native PP / Next-Lv, all unrelated font cells, and the complete
+  0.5.37 executable, backlog fix and stage dialogue. Save a font-mask
+  comparison preview and record the user's confirmed font preference.
+- Pass final font/archive readback and all 82 files in both ISO trees.
+  The verified image hash is
+  `b7b1fd39e8b4f4f0c2f67725a0eb6ff7fc03995d0e245f578bcd17e3a5609785`.
+
+## 0.5.37 - 2026-10-15 (prepared; carried into 0.5.38)
 
 - Fix Back Log corruption caused by its separate 308-byte entry copy cutting
   an encoded font cell in half. Expand inline text to 1,076 bytes across both

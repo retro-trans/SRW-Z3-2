@@ -113,12 +113,11 @@ def raster(pair, face):
 def glyph_pixels(glyph):
     """Native G8B8: high byte outline coverage, low byte letter coverage.
 
-    Lv/SP source cells have a two-texel outline outside their fill. Keep
-    those masks separate for the renderer's independent color treatment.
-    This texture is not RGBA4444.
+    Ordinary generated lettering has no added border: repeat the fill in
+    the coverage plane so its ink remains visible. Explicit native-label
+    glyphs carry their original, separate fill/border planes unchanged.
     """
     import numpy as np
-    from PIL import ImageFilter
     if glyph.mode!='L' or glyph.size!=(32,32):raise ValueError('Invalid glyph mask')
     if 'native_g8b8' in glyph.info:
         pixels=glyph.info['native_g8b8']
@@ -126,8 +125,7 @@ def glyph_pixels(glyph):
             raise ValueError('Invalid original native glyph planes')
         return pixels.copy()
     fill=np.asarray(glyph,dtype='uint16')
-    outline=np.asarray(glyph.filter(ImageFilter.MaxFilter(5)),dtype='uint16')
-    return (outline<<8)|fill
+    return (fill<<8)|fill
 
 
 def patch_font(raw, mapping, glyphs):

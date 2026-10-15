@@ -5,7 +5,25 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.39 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.40 - 2026-10-15 (prepared; publication requires consent)
+
+- Store Spirit and Skills in English in both Search tab states before
+  native text positioning, matching the working Abilities treatment.
+  Preserve all native coordinates, font metrics, center flags, colors and
+  selection fields; leave both Abilities states unchanged.
+- Limit UI changes to four text pointers/strings. Carry the 0.5.39 side
+  selector fix and the 0.5.38 font changes, executable and dialogue.
+- Pass eleven focused UI/font checks, preserving the earlier 12 selector/UI
+  checks and 324 full regression passes (two optional skips) by matching
+  certified parent asset hashes.
+- Execute 12 native caption-rendering cases for both Spirit and Skills
+  states plus Abilities. Check the real drawer's text, centered origins,
+  vertical coordinates and caller-state preservation in both native modes.
+- Pass final archive readback and all 82 files in both ISO trees. The
+  verified image hash is
+  `f80b9be177a4040b92488b745c9594906b2794ffa746787334a0eed974066fe4`.
+
+## 0.5.39 - 2026-10-15 (prepared; carried into 0.5.40)
 
 - Make both map-menu side selector states display `Allies / Enemies`.
   Replace the differing Allies/Enemy and Ally/Enemies fragments with the

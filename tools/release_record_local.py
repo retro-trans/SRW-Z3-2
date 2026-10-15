@@ -24,12 +24,13 @@ def plan(version):
     if version=='0.5.37':proof=ROOT/'work/ui'/('review37_verified_'+version+'.json')
     if version=='0.5.38':proof=ROOT/'work/ui'/('review38_verified_'+version+'.json')
     if version=='0.5.39':proof=ROOT/'work/ui'/('review39_verified_'+version+'.json')
+    if version=='0.5.40':proof=ROOT/'work/ui'/('review40_verified_'+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
     if manifest['version']!=version or manifest['source_commit']!=cfg['source_commit']:raise ValueError('Release provenance mismatch')
     if len(manifest['patches'])!=2 or len(validation['patches'])!=2:raise ValueError('Expected two release patch routes')
     source_versions={p['source_version']for p in manifest['patches']}
-    previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35','0.5.36','0.5.37','0.5.38','0.5.39') else '0.5.18'
+    previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35','0.5.36','0.5.37','0.5.38','0.5.39','0.5.40') else '0.5.18'
     if source_versions!={'original',previous_public}:raise ValueError('Upgrade source must be the current public release')
     for patch,report in zip(manifest['patches'],validation['patches']):
         if (patch['target_bytes'],patch['target_sha256'])!=(image['bytes'],image['sha256']):raise ValueError('Patch target differs from final ISO')
@@ -59,7 +60,10 @@ def plan(version):
         **(dict(carried_regression_tests=dict(evidence['carried_verification']['regression_tests'],source_version='0.5.35'))
            if version=='0.5.36' else
            dict(carried_regression_tests=dict(evidence['carried_verification']['regression_tests'],source_version='0.5.38'))
-           if version=='0.5.39' else {}))
+           if version=='0.5.39' else
+           dict(carried_regression_tests=evidence['carried_verification']['full_regression_tests'],
+                carried_ui_checks=dict(evidence['carried_verification']['regression_tests'],source_version='0.5.39'))
+           if version=='0.5.40' else {}))
 
 
 def main():

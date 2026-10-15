@@ -229,6 +229,10 @@ def plan(settings,mapping):
     selector=json.loads(review39_selector.DEST.read_text(encoding='utf8'))
     if selector!=review39_selector.plan():raise ValueError('Map selector plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],selector['edits'])
+    from tools import review40_tabs
+    tabs=json.loads(review40_tabs.DEST.read_text(encoding='utf8'))
+    if tabs!=review40_tabs.plan():raise ValueError('Search tab plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],tabs['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

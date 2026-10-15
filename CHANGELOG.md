@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.36 - 2026-10-15 (in preparation; publication requires consent)
+## 0.5.36 - 2026-10-15 (prepared; publication requires consent)
 
 - Move the Funds caption left in all three intermission footer layouts,
   reserving the full eight-digit 99,999,999 range with a conservative glyph
@@ -17,6 +17,15 @@
 - Carry the fully verified 0.5.35 executable, fonts, stage wrapper and all
   unrelated archive members unchanged; only three UI x coordinates and the
   title stamp require rebuilding.
+- Pass six current layout regression checks, all 12 native amount cases and
+  both final headline centering cases. Carry the parent's 317 passing full
+  regression checks (two optional skips) by matching unchanged binary hashes;
+  those full checks were not rerun for this coordinate-only change.
+- Verify all 82 ISO files through both directory trees. Validate both original
+  and public-0.5.28 Retro Trans 0.5.4 routes with full ISO decode round trips to
+  `ba9f823799e3d392d5215ec70765ddcd79a037fb7fa4c487187432c992af1d63`.
+  Record all five assets. In-game visual confirmation remains pending; no
+  GitHub release was created or published.
 
 ## 0.5.35 - 2026-10-15 (prepared; carried into 0.5.36)
 

@@ -42,3 +42,21 @@ Apply only after inspecting the plans. Final evidence uses
 `python -m tools.verify_review36 --apply`. In-game visual confirmation remains
 pending; public delivery requires validated Retro Trans patches and explicit
 consent before creating or publishing a GitHub release for 0.5.36.
+
+## Prepared delivery
+
+Six focused regression checks passed on the current source. Final readback
+passed all 12 native amount cases and both headline origin cases, and proved
+the three-coordinate UI isolation. Exact file/member hashes carry 0.5.35's
+full native evidence and 317 passing regression checks (two optional skips);
+that full suite was not rerun for this coordinate-only change.
+
+All 82 ISO files passed both filesystem-tree checks. Both official Retro
+Trans 0.5.4 routes, from the original game and exact public 0.5.28, decoded
+to the same 5,289,541,632-byte ISO, SHA-256
+`ba9f823799e3d392d5215ec70765ddcd79a037fb7fa4c487187432c992af1d63`.
+All five delivery files are recorded in `work/ui/local_release_0.5.36.json`;
+final evidence is `work/ui/review36_verified_0.5.36.json`. The two supplied
+screenshots are preserved as `work/ui/screenshots/reported-review36-*.png`.
+Release notes compare with public 0.5.28 in `docs/RELEASE_0.5.36.md`.
+Publication remains pending explicit consent.

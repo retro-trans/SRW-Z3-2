@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.35 - 2026-10-15 (in preparation; publication requires consent)
+## 0.5.35 - 2026-10-15 (prepared; publication requires consent)
 
 - Fix combined war-front updates that remained Japanese after the native
   128-byte paragraph copies. Bind all 13 independently drawn rows across six
@@ -16,6 +16,17 @@
 - Reproduce all 13 misses in 0.5.34 and verify every one of the 22 messages
   through native paragraph copying and translation lookup; check 26 origins
   at both tested font sizes. Carry all previous fixes into 0.5.35.
+- Pass 317 regression checks (two optional checks skipped) and complete final
+  native/asset readback, including all 22 news messages across 38 scenario
+  occurrences. Preserve the scenario table and native copying instructions.
+- Retain the exact verified startup/font archive from 0.5.34; independently
+  decrypt the shipped stage wrapper and confirm unchanged script content.
+  Verify all 82 ISO files through both directory trees.
+- Validate both original-game and public-0.5.28 Retro Trans 0.5.4 patch routes
+  with complete ISO decode round trips to SHA-256
+  `93ad9ea9c3a6c6e720874bf443d6f2990164b0bcb48058d4861b2f0ac3798b25`.
+  Record all five delivery assets. In-game visual confirmation remains pending;
+  no GitHub release was created or published.
 
 ## 0.5.34 - 2026-10-15 (prepared; carried into 0.5.35)
 

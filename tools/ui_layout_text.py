@@ -233,6 +233,10 @@ def plan(settings,mapping):
     tabs=json.loads(review40_tabs.DEST.read_text(encoding='utf8'))
     if tabs!=review40_tabs.plan():raise ValueError('Search tab plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],tabs['edits'])
+    from tools import review42_layout
+    deployment=json.loads(review42_layout.DEST.read_text(encoding='utf8'))
+    if deployment!=review42_layout.plan():raise ValueError('Deployment layout plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],deployment['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

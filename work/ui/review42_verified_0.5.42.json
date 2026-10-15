@@ -1,0 +1,1299 @@
+{
+  "schema": 1,
+  "version": "0.5.42",
+  "previous_public_version": "0.5.40",
+  "news": {
+    "paragraphs": 22,
+    "scenario_occurrences": 38,
+    "native_copy_cases": [
+      {
+        "source_va": "0x8a0768",
+        "scenario_pointer": 10624776,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0768",
+        "scenario_pointer": 10624828,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a07c0",
+        "scenario_pointer": 10624880,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0890",
+        "scenario_pointer": 10625556,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0890",
+        "scenario_pointer": 10625764,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a08d0",
+        "scenario_pointer": 10625608,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a08d0",
+        "scenario_pointer": 10625816,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0918",
+        "scenario_pointer": 10625660,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0918",
+        "scenario_pointer": 10625868,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0960",
+        "scenario_pointer": 10625712,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0960",
+        "scenario_pointer": 10625920,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0a08",
+        "scenario_pointer": 10626024,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0a78",
+        "scenario_pointer": 10626336,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0ad0",
+        "scenario_pointer": 10626388,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0c38",
+        "scenario_pointer": 10627376,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0cb0",
+        "scenario_pointer": 10627792,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0d98",
+        "scenario_pointer": 10628676,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0d98",
+        "scenario_pointer": 10628988,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0d98",
+        "scenario_pointer": 10629248,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0e18",
+        "scenario_pointer": 10628728,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0e18",
+        "scenario_pointer": 10629040,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0e18",
+        "scenario_pointer": 10629300,
+        "rows": 1,
+        "native_selector_steps": 9,
+        "native_steps": 27
+      },
+      {
+        "source_va": "0x8a0e60",
+        "scenario_pointer": 10628780,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0e60",
+        "scenario_pointer": 10629092,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0e60",
+        "scenario_pointer": 10629352,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0f08",
+        "scenario_pointer": 10628936,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0f08",
+        "scenario_pointer": 10629196,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0f08",
+        "scenario_pointer": 10629456,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0f70",
+        "scenario_pointer": 10629144,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a0f70",
+        "scenario_pointer": 10629404,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1018",
+        "scenario_pointer": 10629508,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1078",
+        "scenario_pointer": 10629612,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1078",
+        "scenario_pointer": 10629716,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1078",
+        "scenario_pointer": 10629768,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1110",
+        "scenario_pointer": 10629820,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1180",
+        "scenario_pointer": 10629872,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1218",
+        "scenario_pointer": 10629924,
+        "rows": 2,
+        "native_selector_steps": 9,
+        "native_steps": 49
+      },
+      {
+        "source_va": "0x8a1280",
+        "scenario_pointer": 10629976,
+        "rows": 3,
+        "native_selector_steps": 9,
+        "native_steps": 71
+      }
+    ],
+    "origin_cases": [
+      {
+        "id": "review42:news:0x8a0768:0",
+        "quad": 28,
+        "span_units": 902,
+        "left": 245.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1435
+      },
+      {
+        "id": "review42:news:0x8a0768:0",
+        "quad": 40,
+        "span_units": 902,
+        "left": 76.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1435
+      },
+      {
+        "id": "review42:news:0x8a07c0:0",
+        "quad": 28,
+        "span_units": 808,
+        "left": 286.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1291
+      },
+      {
+        "id": "review42:news:0x8a07c0:0",
+        "quad": 40,
+        "span_units": 808,
+        "left": 135.0,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1291
+      },
+      {
+        "id": "review42:news:0x8a0890:0",
+        "quad": 28,
+        "span_units": 827,
+        "left": 278.1875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a0890:0",
+        "quad": 40,
+        "span_units": 827,
+        "left": 123.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a08d0:0",
+        "quad": 28,
+        "span_units": 755,
+        "left": 309.6875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1171
+      },
+      {
+        "id": "review42:news:0x8a08d0:0",
+        "quad": 40,
+        "span_units": 755,
+        "left": 168.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1171
+      },
+      {
+        "id": "review42:news:0x8a0918:0",
+        "quad": 28,
+        "span_units": 676,
+        "left": 344.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1075
+      },
+      {
+        "id": "review42:news:0x8a0918:0",
+        "quad": 40,
+        "span_units": 676,
+        "left": 217.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1075
+      },
+      {
+        "id": "review42:news:0x8a0960:0",
+        "quad": 28,
+        "span_units": 487,
+        "left": 426.9375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 811
+      },
+      {
+        "id": "review42:news:0x8a0960:0",
+        "quad": 40,
+        "span_units": 487,
+        "left": 335.625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 811
+      },
+      {
+        "id": "review42:news:0x8a0960:1",
+        "quad": 28,
+        "span_units": 783,
+        "left": 297.4375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1267
+      },
+      {
+        "id": "review42:news:0x8a0960:1",
+        "quad": 40,
+        "span_units": 783,
+        "left": 150.625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1267
+      },
+      {
+        "id": "review42:news:0x8a0a08:0",
+        "quad": 28,
+        "span_units": 619,
+        "left": 369.1875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1003
+      },
+      {
+        "id": "review42:news:0x8a0a08:0",
+        "quad": 40,
+        "span_units": 619,
+        "left": 253.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1003
+      },
+      {
+        "id": "review42:news:0x8a0a78:0",
+        "quad": 28,
+        "span_units": 748,
+        "left": 312.75,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1195
+      },
+      {
+        "id": "review42:news:0x8a0a78:0",
+        "quad": 40,
+        "span_units": 748,
+        "left": 172.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1195
+      },
+      {
+        "id": "review42:news:0x8a0f70:0",
+        "quad": 28,
+        "span_units": 299,
+        "left": 509.1875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 547
+      },
+      {
+        "id": "review42:news:0x8a0f70:0",
+        "quad": 40,
+        "span_units": 299,
+        "left": 453.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 547
+      },
+      {
+        "id": "review42:news:0x8a0ad0:1",
+        "quad": 28,
+        "span_units": 744,
+        "left": 314.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1219
+      },
+      {
+        "id": "review42:news:0x8a0ad0:1",
+        "quad": 40,
+        "span_units": 744,
+        "left": 175.0,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1219
+      },
+      {
+        "id": "review42:news:0x8a0c38:0",
+        "quad": 28,
+        "span_units": 842,
+        "left": 271.625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1387
+      },
+      {
+        "id": "review42:news:0x8a0c38:0",
+        "quad": 40,
+        "span_units": 842,
+        "left": 113.75,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1387
+      },
+      {
+        "id": "review42:news:0x8a0cb0:0",
+        "quad": 28,
+        "span_units": 837,
+        "left": 273.8125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a0cb0:0",
+        "quad": 40,
+        "span_units": 837,
+        "left": 116.875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a0d98:0",
+        "quad": 28,
+        "span_units": 739,
+        "left": 316.6875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1363
+      },
+      {
+        "id": "review42:news:0x8a0d98:0",
+        "quad": 40,
+        "span_units": 739,
+        "left": 178.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1363
+      },
+      {
+        "id": "review42:news:0x8a0d98:1",
+        "quad": 28,
+        "span_units": 828,
+        "left": 277.75,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1507
+      },
+      {
+        "id": "review42:news:0x8a0d98:1",
+        "quad": 40,
+        "span_units": 828,
+        "left": 122.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1507
+      },
+      {
+        "id": "review42:news:0x8a0e18:0",
+        "quad": 28,
+        "span_units": 906,
+        "left": 243.625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1387
+      },
+      {
+        "id": "review42:news:0x8a0e18:0",
+        "quad": 40,
+        "span_units": 906,
+        "left": 73.75,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1387
+      },
+      {
+        "id": "review42:news:0x8a0e60:0",
+        "quad": 28,
+        "span_units": 725,
+        "left": 322.8125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1339
+      },
+      {
+        "id": "review42:news:0x8a0e60:0",
+        "quad": 40,
+        "span_units": 725,
+        "left": 186.875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1339
+      },
+      {
+        "id": "review42:news:0x8a0e60:1",
+        "quad": 28,
+        "span_units": 846,
+        "left": 269.875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1507
+      },
+      {
+        "id": "review42:news:0x8a0e60:1",
+        "quad": 40,
+        "span_units": 846,
+        "left": 111.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1507
+      },
+      {
+        "id": "review42:news:0x8a0f08:0",
+        "quad": 28,
+        "span_units": 343,
+        "left": 489.9375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 595
+      },
+      {
+        "id": "review42:news:0x8a0f08:0",
+        "quad": 40,
+        "span_units": 343,
+        "left": 425.625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 595
+      },
+      {
+        "id": "review42:news:0x8a1018:1",
+        "quad": 28,
+        "span_units": 614,
+        "left": 371.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 955
+      },
+      {
+        "id": "review42:news:0x8a1018:1",
+        "quad": 40,
+        "span_units": 614,
+        "left": 256.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 955
+      },
+      {
+        "id": "review42:news:0x8a0f70:0",
+        "quad": 28,
+        "span_units": 299,
+        "left": 509.1875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 547
+      },
+      {
+        "id": "review42:news:0x8a0f70:0",
+        "quad": 40,
+        "span_units": 299,
+        "left": 453.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 547
+      },
+      {
+        "id": "review42:news:0x8a0f70:1",
+        "quad": 28,
+        "span_units": 870,
+        "left": 259.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a0f70:1",
+        "quad": 40,
+        "span_units": 870,
+        "left": 96.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a1018:0",
+        "quad": 28,
+        "span_units": 365,
+        "left": 480.3125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 619
+      },
+      {
+        "id": "review42:news:0x8a1018:0",
+        "quad": 40,
+        "span_units": 365,
+        "left": 411.875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 619
+      },
+      {
+        "id": "review42:news:0x8a1018:1",
+        "quad": 28,
+        "span_units": 614,
+        "left": 371.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 955
+      },
+      {
+        "id": "review42:news:0x8a1018:1",
+        "quad": 40,
+        "span_units": 614,
+        "left": 256.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 955
+      },
+      {
+        "id": "review42:news:0x8a1078:0",
+        "quad": 28,
+        "span_units": 374,
+        "left": 476.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 619
+      },
+      {
+        "id": "review42:news:0x8a1078:0",
+        "quad": 40,
+        "span_units": 374,
+        "left": 406.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 619
+      },
+      {
+        "id": "review42:news:0x8a1078:1",
+        "quad": 28,
+        "span_units": 790,
+        "left": 294.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1219
+      },
+      {
+        "id": "review42:news:0x8a1078:1",
+        "quad": 40,
+        "span_units": 790,
+        "left": 146.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1219
+      },
+      {
+        "id": "review42:news:0x8a1110:0",
+        "quad": 28,
+        "span_units": 813,
+        "left": 284.3125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1459
+      },
+      {
+        "id": "review42:news:0x8a1110:0",
+        "quad": 40,
+        "span_units": 813,
+        "left": 131.875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1459
+      },
+      {
+        "id": "review42:news:0x8a1110:1",
+        "quad": 28,
+        "span_units": 687,
+        "left": 339.4375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a1110:1",
+        "quad": 40,
+        "span_units": 687,
+        "left": 210.625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1315
+      },
+      {
+        "id": "review42:news:0x8a1180:0",
+        "quad": 28,
+        "span_units": 771,
+        "left": 302.6875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1411
+      },
+      {
+        "id": "review42:news:0x8a1180:0",
+        "quad": 40,
+        "span_units": 771,
+        "left": 158.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1411
+      },
+      {
+        "id": "review42:news:0x8a1180:1",
+        "quad": 28,
+        "span_units": 868,
+        "left": 260.25,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1579
+      },
+      {
+        "id": "review42:news:0x8a1180:1",
+        "quad": 40,
+        "span_units": 868,
+        "left": 97.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1579
+      },
+      {
+        "id": "review42:news:0x8a1218:0",
+        "quad": 28,
+        "span_units": 277,
+        "left": 518.8125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 499
+      },
+      {
+        "id": "review42:news:0x8a1218:0",
+        "quad": 40,
+        "span_units": 277,
+        "left": 466.875,
+        "center": 640,
+        "two_lines": false,
+        "steps": 499
+      },
+      {
+        "id": "review42:news:0x8a1218:1",
+        "quad": 28,
+        "span_units": 914,
+        "left": 240.125,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1387
+      },
+      {
+        "id": "review42:news:0x8a1218:1",
+        "quad": 40,
+        "span_units": 914,
+        "left": 68.75,
+        "center": 640,
+        "two_lines": false,
+        "steps": 1387
+      },
+      {
+        "id": "review42:news:0x8a1280:0",
+        "quad": 28,
+        "span_units": 592,
+        "left": 381.0,
+        "center": 640,
+        "two_lines": false,
+        "steps": 931
+      },
+      {
+        "id": "review42:news:0x8a1280:0",
+        "quad": 40,
+        "span_units": 592,
+        "left": 270.0,
+        "center": 640,
+        "two_lines": false,
+        "steps": 931
+      },
+      {
+        "id": "review42:news:0x8a1280:1",
+        "quad": 28,
+        "span_units": 444,
+        "left": 445.75,
+        "center": 640,
+        "two_lines": false,
+        "steps": 715
+      },
+      {
+        "id": "review42:news:0x8a1280:1",
+        "quad": 40,
+        "span_units": 444,
+        "left": 362.5,
+        "center": 640,
+        "two_lines": false,
+        "steps": 715
+      },
+      {
+        "id": "review42:news:0x8a1280:2",
+        "quad": 28,
+        "span_units": 401,
+        "left": 464.5625,
+        "center": 640,
+        "two_lines": false,
+        "steps": 667
+      },
+      {
+        "id": "review42:news:0x8a1280:2",
+        "quad": 40,
+        "span_units": 401,
+        "left": 389.375,
+        "center": 640,
+        "two_lines": false,
+        "steps": 667
+      }
+    ],
+    "draw_keys": 33,
+    "runtime_verified": false
+  },
+  "deployment": {
+    "schema": 1,
+    "version": "0.5.42",
+    "source_member_sha256": "2432b3425ef264a10a311a6707f7963acd1cbe802868b07b702a51d9c62e8ad0",
+    "edits": [
+      {
+        "widget_offset": 649348,
+        "en": "Left:",
+        "source_sha256": "dc3c843b87294d089ff0ee55957947e746c1365e0b6ff5c30085f14dff442626",
+        "source_widget_sha256": "5f47663c5fc341b179874d0e062bfe805faf9f71193057e71b9b20d325a6a40c",
+        "notes": "Deploy Teams already supplies the noun. Clear the separate live count without moving it.",
+        "font_style": "native-label",
+        "x": -0.46796875
+      },
+      {
+        "widget_offset": 663620,
+        "en": "Left:",
+        "source_sha256": "dc3c843b87294d089ff0ee55957947e746c1365e0b6ff5c30085f14dff442626",
+        "source_widget_sha256": "212e0ba1e561d3f068d1098707e1c34065c2ab286de9aa1278567bd6e13bcbf2",
+        "notes": "Deploy Teams already supplies the noun. Clear the separate live count without moving it.",
+        "font_style": "native-label",
+        "x": -0.46796875
+      },
+      {
+        "widget_offset": 651332,
+        "en": "Sel.",
+        "source_sha256": "348b5f5c847b93f675b2b812f9d9faa6d1ca0e76c0bd702c21c957feccc72cf5",
+        "source_widget_sha256": "3c55d2d6c4f4831f03289f09a7b65bd8ecf11c184ee9fb8d880f4a8857853120",
+        "notes": "Short selection heading clears the separately positioned Team heading.",
+        "font_style": "native-label"
+      },
+      {
+        "widget_offset": 668100,
+        "en": "Sel.",
+        "source_sha256": "348b5f5c847b93f675b2b812f9d9faa6d1ca0e76c0bd702c21c957feccc72cf5",
+        "source_widget_sha256": "b79c119ef4f4010be3ea46457c8756bff9ad794dd36b1160f77e7b06f23f32ed",
+        "notes": "Short selection heading clears the separately positioned Team heading.",
+        "font_style": "native-label"
+      },
+      {
+        "widget_offset": 650916,
+        "en": "MV",
+        "source_sha256": "832505c844e27acd44056575a2522eb998d370349d0be9590c3b4eb2c932067c",
+        "source_widget_sha256": "373bafa2305729f9e7457905f76c9534134a7b27cd24feccf8a003e148c60d0c",
+        "notes": "Short movement label clears the existing bracket and value.",
+        "font_style": "native-label"
+      },
+      {
+        "widget_offset": 665988,
+        "en": "MV",
+        "source_sha256": "832505c844e27acd44056575a2522eb998d370349d0be9590c3b4eb2c932067c",
+        "source_widget_sha256": "8ea56bc553c6b2d230c551d3241414cd233277f4cea948414b7cffe4f6eb9a6d",
+        "notes": "Short movement label clears the existing bracket and value.",
+        "font_style": "native-label"
+      },
+      {
+        "widget_offset": 669252,
+        "en": "\n\n\n\n\n\n\n\n\n",
+        "source_sha256": "86f8d46a288cb74df0b0b6ee3734612cd460ec77fc8db9e6ab3b35965a760d5d",
+        "source_widget_sha256": "86282769d51eb6a854d0163c09fc017d8303ce761b7ff68a288dc81f3b6008b7",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      },
+      {
+        "widget_offset": 669668,
+        "en": "\n\n\n\n\n\n\n\n\n",
+        "source_sha256": "86f8d46a288cb74df0b0b6ee3734612cd460ec77fc8db9e6ab3b35965a760d5d",
+        "source_widget_sha256": "daac2382a8d68309b13bb0e5a4036333f300364567a17fb68a7938b3946fbfee",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      },
+      {
+        "widget_offset": 670756,
+        "en": "\n\n\n\n\n\n\n\n\n",
+        "source_sha256": "86f8d46a288cb74df0b0b6ee3734612cd460ec77fc8db9e6ab3b35965a760d5d",
+        "source_widget_sha256": "67e7f0d279fc5a51948562607b6ece530c930d2e0cb76f9d6a3402922119891c",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      },
+      {
+        "widget_offset": 672964,
+        "en": "\n\n\n\n\n\n\n\n\n",
+        "source_sha256": "86f8d46a288cb74df0b0b6ee3734612cd460ec77fc8db9e6ab3b35965a760d5d",
+        "source_widget_sha256": "c4d4e63c2f17eac6e0c4bd246001596f85c0e9db53341f201e8c42d44d91b82e",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      },
+      {
+        "widget_offset": 674852,
+        "en": "\n",
+        "source_sha256": "a3ed71b23e2b73ac6271e32fe3620d24f7299ea02f4589b59e76cef969b6903e",
+        "source_widget_sha256": "3196c1114e2c9b4a4d3ea05028b036769c4159b1e3a3f8a8315b478390f3f960",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      },
+      {
+        "widget_offset": 706564,
+        "en": "　　　　\n\n",
+        "source_sha256": "0043e22dd13278fa15ba8445820c853212af1d9a9a75a1b93d977891f2eff23c",
+        "source_widget_sha256": "501e7965c137b69305ece29ff94b1d193fa91b0815e7e480333474c4f2081c2a",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      },
+      {
+        "widget_offset": 706660,
+        "en": "　　　　\n　\n",
+        "source_sha256": "65c41bf420831f5518f90779a4db06fff77fbc75a02e7e34172ed59391ecda34",
+        "source_widget_sha256": "c559d6d1193ccf3a4d60fcece89f6c98b92f11054b11c1dd6befa8a1985f2636",
+        "notes": "Translate every terrain cell, retaining rows, blank padding, pitch and per-cell active/dim state."
+      }
+    ],
+    "bounds": [
+      {
+        "widget_offset": 649348,
+        "left": 340.5,
+        "right": 408.46875,
+        "limit": 425
+      },
+      {
+        "widget_offset": 663620,
+        "left": 340.5,
+        "right": 408.46875,
+        "limit": 425
+      },
+      {
+        "widget_offset": 651332,
+        "left": 24.50000762939453,
+        "right": 76.84375762939453,
+        "limit": 110
+      },
+      {
+        "widget_offset": 668100,
+        "left": 16.500015258789062,
+        "right": 68.84376525878906,
+        "limit": 110
+      },
+      {
+        "widget_offset": 650916,
+        "left": 361.5,
+        "right": 402.75,
+        "limit": 410
+      },
+      {
+        "widget_offset": 665988,
+        "left": 361.5,
+        "right": 402.75,
+        "limit": 410
+      }
+    ],
+    "terrain_blocks": 7,
+    "terrain_rows": 45,
+    "numeric_fields_changed": false,
+    "runtime_verified": false
+  },
+  "psyco_waves": [
+    {
+      "id": "563:t_003:6",
+      "english": "Kamille\n「What we call Psyco Waves in our world?」"
+    },
+    {
+      "id": "563:t_003:14",
+      "english": "Amuro\n「Neither Psyco Waves nor quantum brainwaves are special\n　powers exclusive to Newtypes or Innovators. Everyone has\n　them, though they're weak.」"
+    },
+    {
+      "id": "599:t_022:3",
+      "english": "Haman\n「It's a system that cancels the Psyco Waves controlling the\n　psycommu by hitting them with stronger waves!」"
+    },
+    {
+      "id": "599:t_024:3",
+      "english": "Haman\n「It's a system that cancels the Psyco Waves controlling the\n　psycommu by hitting them with stronger waves!」"
+    },
+    {
+      "id": "628:t_1:147",
+      "english": "$n\n「It's the ELS...! They're mimicking humans and attacking\n　people with quantum brainwaves or Psyco Waves!」"
+    },
+    {
+      "id": "628:t_1:162",
+      "english": "Cecile\n「Humans who emit Psyco Waves, such as Innovators and\n　Newtypes... The so-called humanity of a new era.」"
+    },
+    {
+      "id": "634:t_1:111",
+      "english": "Ian\n「They could certainly meet the requirement for the quantity\n　of Psyco Waves, but...」"
+    },
+    {
+      "id": "634:t_1:134",
+      "english": "Amuro\n「But humans can understand one another by using words to\n　the fullest, without Psyco Waves. So it's probably not\n　entirely wrong.」"
+    }
+  ],
+  "keyword_popup": {
+    "keywords": 143,
+    "description_variants": 286,
+    "source_member_sha256": "cfc57ccc74aba889caf0c037395e705abac6cd70c1732953d15e8b1100694e20",
+    "final_member_sha256": "fa45ccd20aa5e2b013fea452a4cf16e5d0e267dcda1b31d360c915c667171190",
+    "source_member_bytes": 94964,
+    "final_member_bytes": 329196,
+    "original_lookup_fields_preserved": true,
+    "original_pool_and_trailer_preserved": true,
+    "runtime_verified": false
+  },
+  "search_tab_cases": [
+    {
+      "widget_offset": 618276,
+      "en": "Spirit",
+      "quad": 31,
+      "mode": 0,
+      "left": 317.359375,
+      "width": 84.28125,
+      "center": 359.50000762939453,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618276,
+      "en": "Spirit",
+      "quad": 31,
+      "mode": 1,
+      "left": 317.359375,
+      "width": 84.28125,
+      "center": 359.50000762939453,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618756,
+      "en": "Spirit",
+      "quad": 28,
+      "mode": 0,
+      "left": 321.4375,
+      "width": 76.125,
+      "center": 359.50000762939453,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618756,
+      "en": "Spirit",
+      "quad": 28,
+      "mode": 1,
+      "left": 321.4375,
+      "width": 76.125,
+      "center": 359.50000762939453,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618308,
+      "en": "Skills",
+      "quad": 31,
+      "mode": 0,
+      "left": 597.84375,
+      "width": 83.3125,
+      "center": 639.4999999925494,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618308,
+      "en": "Skills",
+      "quad": 31,
+      "mode": 1,
+      "left": 597.84375,
+      "width": 83.3125,
+      "center": 639.4999999925494,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618788,
+      "en": "Skills",
+      "quad": 28,
+      "mode": 0,
+      "left": 601.875,
+      "width": 75.25,
+      "center": 639.4999999925494,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618788,
+      "en": "Skills",
+      "quad": 28,
+      "mode": 1,
+      "left": 601.875,
+      "width": 75.25,
+      "center": 639.4999999925494,
+      "native_steps": 401
+    },
+    {
+      "widget_offset": 618340,
+      "en": "Abilities",
+      "quad": 31,
+      "mode": 0,
+      "left": 856.53125,
+      "width": 125.9375,
+      "center": 919.5000076293945,
+      "native_steps": 518
+    },
+    {
+      "widget_offset": 618340,
+      "en": "Abilities",
+      "quad": 31,
+      "mode": 1,
+      "left": 856.53125,
+      "width": 125.9375,
+      "center": 919.5000076293945,
+      "native_steps": 518
+    },
+    {
+      "widget_offset": 618820,
+      "en": "Abilities",
+      "quad": 28,
+      "mode": 0,
+      "left": 862.625,
+      "width": 113.75,
+      "center": 919.5000076293945,
+      "native_steps": 518
+    },
+    {
+      "widget_offset": 618820,
+      "en": "Abilities",
+      "quad": 28,
+      "mode": 1,
+      "left": 862.625,
+      "width": 113.75,
+      "center": 919.5000076293945,
+      "native_steps": 518
+    }
+  ],
+  "archive_isolation": {
+    "AIDDATAPACK.CPK": {
+      "unchanged_members": 53,
+      "proof_sha256": "d7be7f901d8e4ba0333192601c20de120a5eb334c02ddd04ff1b819e3bff73e4"
+    },
+    "EFFPS3.CPK": {
+      "unchanged_members": 488,
+      "proof_sha256": "c4dd68e6421aa565628c0b8e2da90e869849eb121b596aa5b3806b9aeb7631a2"
+    },
+    "STGZ3OF2.cpk": {
+      "unchanged_members": 872,
+      "proof_sha256": "a5611d706aab647e89b0de66b16d00c7e5f6954f6d2173935addb65c71cd34f0"
+    }
+  },
+  "unchanged_widget_geometry_and_styles": 4803,
+  "font_codes_advances_and_archive_unchanged": true,
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.42\\Tengoku-hen-English-0.5.42.iso",
+    "bytes": 5289607168,
+    "sectors": 2582816,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "1d081d3d00f033ec907fd342bcca0143570aa097d9c0a78bc3206b4ed01639f9",
+    "version": "0.5.42",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.42",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTV_ALL_KEYWORD_DEF.CPK": "MTV_ALL_KEYWORD_DEF.CPK",
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP": "TROPHY.TRP"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "screenshots": [
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-bff0c740-bd6a-4cef-a9b1-930052ccb507.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review42-deployment.png",
+      "sha256": "2f96218e032df6893427fc266970ee550b5b2fd720b10d66fdc74e518d5fe266",
+      "runtime_confirmation": false
+    },
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-6e38f109-e63d-4530-a8dc-5aea74a874a6.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review42-Psyco-Waves.png",
+      "sha256": "267e76a3b55f69354027b0f6bb03db13b30c0246f7b10e8b8c94cc5045444f98",
+      "runtime_confirmation": false
+    },
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-61a4753b-2cb0-4916-ae18-e6c6b44f15b8.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review42-northern-Europe.png",
+      "sha256": "4f1e528db045470d80cfb29d038edca51ca64ac5ffb983ea506cdf62788a6bf9",
+      "runtime_confirmation": false
+    },
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-f626ed27-b98b-4fc5-b43c-4ae95370af5d.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review42-South-America-Pacific.png",
+      "sha256": "9ffa6a8a70389bc9639fa34e19e9f481e847bee8da09988da4d2ae5c620dfd0a",
+      "runtime_confirmation": false
+    }
+  ],
+  "runtime_verified": false
+}

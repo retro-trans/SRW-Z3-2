@@ -5,6 +5,30 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.42 - 2026-10-15 (prepared; publication requires consent)
+
+- Translate seven missed movement-type blocks (45 terrain rows), including
+  the deployment list's ten-row columns. Retain the native cell pitch,
+  line breaks, padded rows and active/dim state fields.
+- Use source-bound `Left:`, `Sel.` and `MV` labels to clear deployment
+  counters, the Team heading and the movement bracket/value.
+- Apply the user's exact **Psyco Waves** spelling to both active glossary
+  aliases and remove lowercase modifiers from four dialogue rows. All eight
+  active references use the same term; historical drafts remain archival.
+- Relocate all 22 war-front report paragraphs at their 38 scenario bindings
+  before native row splitting. Use measured rows and English draw keys;
+  split the Northern Europe headline into two independently centered lines,
+  and deliver the South America/Pacific Rim update as English rows.
+- Include the actual keyword-popup archive correction prepared in 0.5.41.
+- Pass all four focused checks and final compiled readback: 38 native
+  scenario selections/copies and 70 row origins, 45 terrain rows, all eight
+  Psyco Waves references, both Search tab states and 286 popup descriptions.
+  Confirm all 4,803 widget identities/styles and unrelated archive members;
+  the font archive, glyph allocation and advances match public 0.5.40.
+- Verify all 82 ISO files through both filesystem trees. Image SHA-256:
+  `1d081d3d00f033ec907fd342bcca0143570aa097d9c0a78bc3206b4ed01639f9`.
+  In-game visual testing and publication consent remain pending.
+
 ## 0.5.41 - 2026-10-15 (prepared; publication requires consent)
 
 - Confirm the actual popup source by read-only inspection of public 0.5.40:

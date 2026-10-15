@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.41'
+VERSION = '0.5.42'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -76,6 +76,13 @@ def plan(settings):
     tokens |= eboot_text.characters()
     from tools import review32_content,review32_layout
     tokens |= review32_content.characters()
+    from tools import review42_layout,native_labels
+    for edit in review42_layout.plan()['edits']:
+        chars=set(edit['en'].replace('\n','').replace('\u3000',''));tokens.update(chars)
+        if edit.get('font_style')=='native-label':tokens.update(native_labels.PREFIX+c for c in chars)
+    from tools import review38_fonts
+    for edit in review38_fonts.plan()['edits']:
+        tokens.update(native_labels.PREFIX+c for c in edit['en'])
     from tools import native_labels
     for edit in review32_layout.plan()['edits']:
         tokens.update(c for c in edit['en'] if c != '\n')
@@ -216,9 +223,10 @@ def plan(settings):
     review32_entries=review32_content.hook_entries(elf,mapping)
     from tools import review33_reports
     review33_entries=review33_reports.hook_entries(elf,mapping)
-    from tools import review35_news
+    from tools import review35_news,review42_news
     review35_entries=review35_news.hook_entries(elf,mapping)
     hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries+review30_entries+review32_entries+review33_entries+review35_entries}.values())
+    hook_entries=list({e['key']:e for e in hook_entries+review42_news.hook_entries(elf,mapping)}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -226,6 +234,7 @@ def plan(settings):
     expanded_report['tutorial_layout']=tutorial_layout.report(grouped_ui,translated_ui,resolver)
     from tools import ui_runtime
     runtime_plan = ui_runtime.plan(elf,mapping)
+    news42_plan=review42_news.runtime_plan(mapping)
     from tools import review24_report
     report24_plan=review24_report.plan(elf,mapping)
     from tools import runtime_names
@@ -237,11 +246,13 @@ def plan(settings):
     from tools import review32_save
     save32_plan=review32_save.plan(elf,mapping);save32_plan['mapping']=mapping
     executable, hook_report = ui_hook.apply(executable, hook_entries,
-        runtime_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+save32_plan['payloads']+review28_quotes.payloads(defeat_quotes_plan,mapping)+[(link_layout.STATE,link_layout.PAYLOAD)])
+        runtime_plan['payloads']+news42_plan['payloads']+report24_plan['payloads']+names_plan['payloads']+library_runtime_plan['payloads']+save32_plan['payloads']+review28_quotes.payloads(defeat_quotes_plan,mapping)+[(link_layout.STATE,link_layout.PAYLOAD)])
     executable,defeat_quotes_report=review28_quotes.apply(executable,defeat_quotes_plan,hook_report['table']['payload_vas'])
     defeat_quotes_report['execution']=review28_quotes.verify(executable,defeat_quotes_plan,mapping)
     exec_report['defeat_quotes']=defeat_quotes_report
     executable, runtime_report = ui_runtime.apply(executable,runtime_plan,hook_report['table']['payload_vas'])
+    executable,news42_report=ui_runtime.apply(executable,news42_plan,hook_report['table']['payload_vas'])
+    exec_report['news_paragraphs']=news42_report
     executable,report24_report=review24_report.apply(executable,elf,report24_plan,hook_report['table']['payload_vas'])
     runtime_report['clear_report']=report24_report
     executable, names_report = runtime_names.apply(executable,names_plan,hook_report['table']['payload_vas'])

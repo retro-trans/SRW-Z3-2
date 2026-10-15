@@ -1,5 +1,9 @@
 # Dialogue translation style
 
+Preserve the user's canonical term **Psyco Waves**, with this spelling and
+capitalization, for both corresponding glossary aliases. Do not add a lowercase
+modifier or restore the older hyphenated spelling during proofreading.
+
 For translators of Tengoku stage dialogue. Read `BASE_RULES.md` in full (the
 dialogue section applies to you), then your brief in
 `work/tengoku/dialogue_briefs/<slice>.md`. Names: search the glossary sheet

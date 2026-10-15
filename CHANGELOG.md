@@ -26,6 +26,10 @@
 - Correct the older keyword audit to distinguish the executable/Library
   copies from the actual popup archive, reproducing the 0.5.40 omission
   and checking the deployed English data in 0.5.41.
+- Pass both official Retro Trans 0.5.4 complete ISO patch round trips,
+  from original and public 0.5.40, and verify all five protocol assets.
+  Record the validated local release; the direct 0.5.40 patch is 126,825
+  bytes. Publication awaits explicit consent for 0.5.41.
 
 ## 0.5.40 - 2026-10-15 (published)
 

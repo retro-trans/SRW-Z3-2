@@ -53,6 +53,11 @@ regression evidence. The live audit proves the old bug and the correct
 source; it does **not** establish live visual verification of the new build.
 The new image still needs a fresh boot and popup/navigation testing.
 
+Both official Retro Trans 0.5.4 patch routes passed complete ISO decode
+round trips: original to 0.5.41 and public 0.5.40 to 0.5.41. All five
+delivery assets pass protocol/checksum verification. The corrected image
+SHA-256 is `34c53111145196f8c8a86cf660fca989bab209758822b08e6e5a0da1bea37686`.
+
 This is a new build with immutable new Retro Trans patches. Public 0.5.40
 assets are not replaced. Publication of 0.5.41 needs the user's explicit
 consent after local patch validation.

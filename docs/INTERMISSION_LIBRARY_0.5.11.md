@@ -1,5 +1,11 @@
 # Intermission, Library and scenario chart — 0.5.11
 
+**Historical coverage correction (0.5.41):** the executable dictionary and
+Library archive checks recorded here did not cover the linked popup's actual
+`MTV_ALL_KEYWORD_DEF.CPK` data. Live inspection of 0.5.40 established that
+separate source; see `docs/KEYWORD_POPUPS_0.5.41.md`. The older converter tests
+below are valid for the tested consumers but did not verify this popup route.
+
 The five reported screenshots are addressed in the local RPCS3 testing build.
 The Z3 Rodin Bold font and advance table are retained. The title version is
 updated to v0.5.11 with the existing retro-trans credit. Live layout and

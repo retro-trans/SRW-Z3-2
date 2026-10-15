@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.40 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.40 - 2026-10-15 (published)
 
 - Store Spirit and Skills in English in both Search tab states before
   native text positioning, matching the working Abilities treatment.
@@ -25,8 +25,13 @@
 - Validate both complete ISO patch round trips with official Retro Trans
   0.5.4, from the original game and public 0.5.28. Verify the manifest,
   validation report and checksums for all five delivery assets; record
-  local release readiness. Publication consent and in-game visual
-  confirmation remain pending.
+  local release readiness. In-game visual confirmation remains pending.
+- Publish the approved release with both patches and all three protocol
+  files. Verify all five hosted SHA-256 digests and mark 0.5.40 as Latest.
+  Refresh the scoped Retro Trans catalog successfully and confirm Automatic
+  selects 0.5.40 directly from both the original game and public 0.5.28.
+  Record the release, consent and catalog-route evidence in
+  `work/ui/public_release_0.5.40.json`.
 
 ## 0.5.39 - 2026-10-15 (prepared; carried into 0.5.40)
 

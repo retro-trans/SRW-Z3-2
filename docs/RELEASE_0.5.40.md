@@ -1,172 +1,159 @@
-# 0.5.40 — Stable Search tabs, consistent side selector and separate font styles
+English translation patch for **Super Robot Taisen Z3: Tengoku-hen** on PS3
+(**BLJS10299**, Japanese retail). This is an **RPCS3 playtest release**.
 
-English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
-**BLJS10299**. RPCS3 playtest release.
+This update addresses the mission-condition, menu, font and Back Log problems
+reported during playtesting, together with missing translations in several
+message categories.
 
-## Apply
+### Apply
 
-In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
-**Refresh catalog**, select either your original Japanese ISO or the exact
-public 0.5.28 ISO in **Automatic**, then select **Latest** (0.5.40).
-Choose a new output ISO. Both routes produce the same verified image.
+Start [Retro Trans](https://github.com/retro-trans/retro-trans-tools), open
+**Automatic** and select **Refresh catalog**. Select your original Japanese ISO
+or the exact English **0.5.28** ISO, choose **Latest (0.5.40)** and write to a
+new output file. Keep your source image. Older supported public versions can
+use the catalog's upgrade chain.
 
-For manual patching, use **Apply xdelta** with the asset whose `from` version
-matches your input. `BUILD-MANIFEST.json` records each exact input/output hash
-and size; keep checksum checks enabled. Game images are not distributed.
+For manual patching, use Retro Trans's **Apply xdelta** tab,
+[DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) or
+[xdelta3](https://github.com/jmacd/xdelta):
 
-- Original Japanese ISO: 4,888,199,168 bytes;
-  SHA-256 `803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99`.
-- Public 0.5.28 ISO: 5,288,361,984 bytes;
-  SHA-256 `25cde8ca3973a4ab7196380b8bd75dde582d45e61832a5fb08927a8008bb3a24`.
-- Patched 0.5.40 ISO: 5,289,541,632 bytes;
-  SHA-256 `f80b9be177a4040b92488b745c9594906b2794ffa746787334a0eed974066fe4`.
+| Your source image | Patch |
+| --- | --- |
+| Original Japanese PS3 release, BLJS10299 | `SRW-Z3-2-PS3-English-0.5.40-from-original.xdelta` |
+| Exact English 0.5.28 | `SRW-Z3-2-PS3-English-0.5.40-from-0.5.28.xdelta` |
 
-## What changed since last version
+```text
+xdelta3 -d -s "original-japanese.iso" "SRW-Z3-2-PS3-English-0.5.40-from-original.xdelta" "Tengoku-hen-English-0.5.40.iso"
+```
 
-Compared with public **0.5.28**, the previous public release:
+Match the patch to its listed input. If validation fails, check the input
+identity in `BUILD-MANIFEST.json` and leave checksum verification enabled.
+Extracted folders, repacked images, other game editions and locally prepared
+0.5.29–0.5.39 builds are not inputs for the 0.5.28 upgrade patch.
 
-- Correct the two Spirit names to the requested Z3 convention: Break ignores
-  defensive abilities; Fury guarantees critical hits. Update their compact
-  indicators, bonus descriptions and related trophy text.
-- Use Inazuma Kick in weapon names, glossary references and battle captions.
-- Fix victory and defeat conditions showing internal keys such as 条件１７１.
-  Cover all 262 static conditions in all three numbered slots and the
-  unnumbered state, across every chapter. Preserve colors and gameplay logic.
-- Fit numbered condition text with room for the number and continuation indent.
-- Prevent live-name/counter condition truncation with native byte limits and
-  room for expanded values. Keep every requirement in the shortened long SR
-  condition, including each named pilot's individual shootdown quota.
-- Translate the full skill-confirmation category: learning, level increases
-  and overwriting an existing skill. Cover every skill name, not only E-Save.
-- Translate every movement terrain combination, including numbered masks.
-  Separate D-Trader's Move label from its live movement value.
-- Fit D-Trader's part-stat labels, terrain heading and owned-item suffix around
-  their fixed value fields, keeping the game's original label font.
-- Normalize Earth Sphere capitalization throughout dialogue and encyclopedia text.
-- Separate battleship selection, ship name, movement, pilot and remaining-unit
-  headings from their neighboring columns and live count.
-- Restore the complete Episode 20 and 21 SR conditions: no allied battleship
-  damage within three turns; one allied pilot shoots down at least six enemies
-  before clearing the map. Use separate native rows for every displayed line.
-- Fit six additional SR explanations into the actual four-row slot. Keep all
-  targets, turn limits, shootdown quotas, attack exceptions and ELS exclusions.
-- Center all 517 location captions by their displayed English width, including
-  Jindai High School / Old Building / Empty Classroom and Back Log views.
-- Fit all eleven long or combined news headlines into two centered lines;
-  preserve the complete Wrath Babylon assault-failure wording.
-- Separate Sub Order labels from all three pilot counters and remove duplicate
-  pilot-word fragments. Fit its guides and both Back Log guide variants around
-  the controller icons. Clear Team Setup's movement brackets with MV labels.
-- Translate all three native save questions before paragraph copying, including
-  Save complete / Continue playing. Preserve save operations and Yes / No.
-- Translate every separately drawn reward-report line, including all AG
-  bonus amounts, awards, upgrade refunds and unlock notices. Center the English
-  lines without changing rewards or stage logic.
-- Correct Arm Rakers capitalization against the glossary. Clear Previous Quote
-  and its R1 icon in both Back Log guide variants.
-- Translate the full startup warning and all 20 Japanese copyright credit
-  rows across both pages. Preserve every rights holder, year and production
-  relationship, the existing English credits, logo screens and warning frame.
-- Translate combined war-front updates after the game splits them into
-  independently drawn lines: all 13 rows across six messages, including the
-  East Asia / eastern North America and Midway / southern Europe updates.
-  Center each English row and retain the final three-line worldwide report,
-  all route occurrences and the captured-base counts.
-- Separate Funds from the full eight-digit amount in all three intermission
-  footer layouts. Preserve letter spacing, colors, the numeric field and the
-  99,999,999 cap. Retain the centered two-line Central Asia disruption update.
-- Fix Back Log corruption when a complete translated entry exceeds its
-  native byte buffer. Preserve the full dialogue, including Leonard's reported
-  line, and enlarge the separate row buffer for longer English lines.
-- Remove the added border from dialogue, narration, names and ordinary
-  translated text, preserving the current letter shapes and spacing.
-- Keep selected yellow labels in a separate alphabet copied from the game's
-  original font, with its thinner native border. Apply that style to Team,
-  Mech and Kills across the unit-list pages; preserve original PP / Next-Lv.
-- Display Allies / Enemies consistently in both map-menu selection states.
-  Use the same plural wording, separator, size and positions, with the native
-  blue/red colors and selection behavior.
-- Keep Spirit and Skills centered when changing Search tabs by storing
-  English in both states before native positioning, like the working Abilities
-  tab. Preserve native highlighting, colors and geometry; leave Abilities alone.
+- Original Japanese ISO: **4,888,199,168 bytes**, SHA-256
+  `803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99`.
+- English 0.5.28 ISO: **5,288,361,984 bytes**, SHA-256
+  `25cde8ca3973a4ab7196380b8bd75dde582d45e61832a5fb08927a8008bb3a24`.
+- Patched 0.5.40 ISO: **5,289,541,632 bytes**, SHA-256
+  `f80b9be177a4040b92488b745c9594906b2794ffa746787334a0eed974066fe4`.
 
+`BUILD-MANIFEST.json` lists the input, output and patch identities.
+`SHA256SUMS.txt` covers the protocol downloads; `VALIDATION.json` records
+successful complete-image patch round trips. Both patches reproduced the
+same target ISO. Downloads are **204.4 MB** from original or **24.0 MB** from
+0.5.28. Hosted asset digests and both live Automatic catalog routes were
+verified; patch building and catalog checks used Retro Trans **0.5.4**.
 
+### What changed since 0.5.28
 
-## Verification and compatibility
+- **Spirit names and terminology:** uses Break for the command that bypasses
+  defensive abilities, Fury for guaranteed critical hits, and Inazuma Kick
+  throughout the affected weapon text and references. Corrects Arm Rakers
+  capitalization and standardizes Earth Sphere in dialogue and encyclopedia text.
+- **Mission conditions:** fixes internal condition IDs appearing instead of
+  English text, including numbered and live-name/counter variants. Restores the
+  complete Episode 20 and 21 SR requirements and fits six other long SR
+  explanations into their panels, retaining quotas, deadlines and exceptions.
+- **Missing message categories:** translates skill-learning, level-increase and
+  overwrite questions; every movement-terrain combination; all three save
+  questions; and the full reward-report category, including AG bonuses,
+  upgrade refunds and unlock notices.
+- **Location and news captions:** centers all 517 location captions, including
+  their Back Log display. Splits eleven long or combined news headlines into
+  two centered lines. Connects the separately drawn war-front reports,
+  preserving their full wording and captured-base counts.
+- **Menu layout:** separates D-Trader labels from their values, battleship
+  headings from their columns, Sub Order labels from pilot counters and Back
+  Log guides from controller icons. Uses compact Team Setup movement labels.
+  Keeps Funds clear of the full eight-digit amount in all three intermission
+  footer layouts.
+- **Back Log:** expands the entry and row buffers to prevent truncated font
+  codes from producing stray kanji. Preserves complete dialogue and fixes the
+  Previous Quote guide overlap.
+- **Font styles:** removes the added outline from dialogue, narration, names
+  and ordinary text while retaining their current letter shapes and spacing.
+  Selected yellow labels use a separate alphabet copied from the original
+  font, with its thinner border. Original PP and Next-Lv lettering is retained.
+- **Selection consistency:** displays Allies / Enemies identically in both
+  map-menu states. Centers Spirit and Skills before either Search tab state
+  is drawn, matching the existing Abilities treatment.
+- **Startup screens:** translates the warning and twenty Japanese copyright
+  credit rows across both pages, preserving rights holders, years and the
+  existing English credits.
 
-All 82 disc files passed both filesystem-tree checks. The final executable's
-translation bindings, mission name substitution stores, reward captions,
-domination atlas, Spirit band geometry, name drawer, fonts and stat widths
-passed readback/execution checks. The upgrade additions also pass 80 final
-lookup cases, 23 native report compositions and nine native bonus questions;
-the trophy pack passes complete text/structure/icon readback and SHA-1 checks.
-Both patches passed complete ISO decode round trips and Retro Trans 0.5.4
-release validation. Both routes produce the exact verified output hash above.
-All 1,048 native condition compositions pass the real drawer lookup after
-numbering, with row canaries intact. Another 200 cases execute live substitution
-then numbering with default and maximum-size values. All 129 Spirit fields, every full/list
-Inazuma Kick weapon occurrence and its battle captions pass final readback.
-The earlier death-quote, mission, name and UI repairs remain covered by the
-carried checks. No in-game visual verification is claimed.
-Every new skill/movement draw key passes final lookup; the native learning
-composer is exercised for every skill and both source/translated name routes.
-All nine changed widgets pass final text/coordinate readback and column bounds.
-The four corrected dialogue rows and twelve encyclopedia fields pass archive readback.
-All 101 distinct SR conditions pass 210 executions of the complete native
-four-row panel, with both color states and default/maximum live values. The
-reported phases and all compiled SR literals pass final archive/drawer readback.
-All six former row overruns are reproduced by the regression test and repaired.
-539 executions verify the caption/news origin helper, full text, font widths
-and caller state. All changed guides pass final archive/bounds checks. Native
-save paragraph copying and both converter models preserve every English line.
-The complete movement-mask translations remain covered by the carried checks.
-All 22 player-facing reports (97 source occurrences) pass native paragraph
-copying and final translation lookup; all 36 whole/line keys pass native centering.
-The corrected Arm Rakers dialogue passes compiled archive readback.
-All 22 war-front messages pass actual native 128-byte paragraph copying and
-final translation lookup. All 13 previously missed rows pass native centering
-at both tested font sizes (26 origin cases). All three English startup screens
-from verified 0.5.34 are retained.
-All 63,553 dialogue entries fit the expanded backlog budgets. Both native
-constructors, all 204 formerly over-budget entries, 370 ring shifts, link IDs,
-duplicate suppression and resets pass instruction-level checks. All 125 longer
-backlog rows and boundary cases pass complete native row copying with stack
-canaries and caller restoration. The original split font cell is reproduced.
-The backlog fix changes 114 guarded instruction constants relative to 0.5.36.
-All other executable bytes and all stage dialogue retain their prior fixes.
-In-game confirmation remains pending.
-Both font pages retain all 301 glyph fills and advances: 260 ordinary cells
-have no added border, while 41 native-label cells retain their exact original
-fill and border masks. All 19 selected unit-list headers use the separate
-alphabet. The font-style changes retain widget geometry, colors and state;
-all other widget strings remain identical. Original PP / Next-Lv glyphs,
-all unrelated texture members, executable and stage files retain the verified
-0.5.37 content. The comparison preview uses actual font masks; emulator visual
-confirmation remains pending.
-The four selector widgets pass compiled text/style readback and isolation
-across all 4,803 widgets. Both choices display the same complete label with
-one separator, at 26px and a measured 204.75px width in the 220px button.
-The selector-specific changes are limited to four widgets. Fonts, executable,
-dialogue and unrelated archive members retain their verified fixes.
-All four Search tab widgets contain English before native text measurement.
-Both Abilities states and every geometry/style byte across all 4,803 widgets
-remain identical to 0.5.39; all other widget text remains identical as well.
-The Search fix changes only four text pointers/strings and the version stamp.
-Fonts, executable and stage dialogue remain byte-identical to the certified
-parent. Twelve instruction-level caption cases reach the real glyph drawer
-and preserve the expected centers, text, Y coordinates and caller registers
-for both tab states plus the Abilities control. In-game visual confirmation
-remains pending.
+The earlier dialogue, battle-caption, name, Library and UI work is retained.
+The version identifies a new build; it does not indicate a translation
+completion percentage.
 
+All **82 disc files** passed checks in both filesystem trees. The current
+eleven focused checks passed, alongside twelve native tab-positioning cases.
+Matching parent-asset hashes retain the earlier twelve selector/UI checks and
+full regression result of **324 passes and two optional skips**. Additional
+native checks cover condition composition, complete Back Log entries, caption
+centering and the separate font styles. These checks do not replace gameplay
+confirmation of this exact build.
 
-**RPCS3 only.** Physical PS3/Vita compatibility is not claimed. In-game visual
-confirmation of this exact build remains pending. The separately reported
-malformed result-screen team name remains unresolved. Provisional wording and
-battle-caption limitations remain recorded in the project reports.
+### RPCS3 compatibility
 
-Fresh-boot the new image and load an in-game save; emulator save states can
-retain older code. Follow the prior release's installation-cache update notes
-if RPCS3 continues to load old installed fonts/text. Preserve savedata.
+**RPCS3 only.** This Tengoku build does not claim physical PS3 or Vita support.
+The PS3/Vita compatibility statements for Jigoku-hen do not apply to it.
 
-Build sources: `41d15b841f7ef7f592468977b45b60b99c6d47c6`. Release tool: Retro Trans **0.5.4**,
-commit `8edfb2e1c0d0c74df67107d80803177cc5939079`. See CHANGELOG.md for individual fixes.
+Close RPCS3 and back up your installation before updating. If present, move
+only the `dev_hdd0/game/BLJS10299_DATA` installation-cache folder to a backup
+outside `dev_hdd0/game`, allowing the game to reinstall matching fonts and
+battle text. Preserve savedata and other games. Boot the new image from the
+start and load an in-game save; an emulator save state can retain old resources.
+
+Earlier public versions supplied the screenshots behind these repairs. The
+new fixes still need live testing, especially selection transitions, Back Log
+scrolling, long SR conditions and caption placement. Reports should include
+the build number and a screenshot.
+
+### What's included
+
+English story dialogue covering **63,553 records**, including alternate routes,
+endings, ace talks and previews, together with battle captions, pilot/mech/weapon
+text, glossary and Library entries, and translated menu, skill, Spirit and
+mission-condition text.
+
+Coverage checks do not establish that every screen is translated or fully
+proofread. The reported malformed result-screen team name remains unresolved.
+Provisional wording, name readings and battle-caption layout limits remain
+documented in the project reports. No Vita package is included.
+
+### How it was translated
+
+AI-assisted drafts were checked against the project glossary, edited and
+revised using playtesting reports. Research and community references inform
+names and terminology. Corrections and contextual proofreading are welcome.
+
+### Acknowledgements
+
+Thanks to the playtesters who supplied screenshots, reported missing text and
+checked the public builds, and to the community references supporting the
+terminology research.
+
+### Source code
+
+Use the matching `.xdelta` release asset to patch your game. GitHub's automatic
+source archives contain project sources and documentation, not a patched ISO.
+Game dumps, extracted assets and Japanese script dumps are not included;
+source-dependent tools require locally supplied game data.
+
+The manifest records build-source commit
+`41d15b841f7ef7f592468977b45b60b99c6d47c6`. The release tag also includes later
+release documentation. The build used Retro Trans **0.5.4**, commit
+`8edfb2e1c0d0c74df67107d80803177cc5939079`.
+
+### Contribute
+
+Send bug reports, proofreading corrections and playtesting feedback through
+the [issue tracker](https://github.com/retro-trans/SRW-Z3-2/issues) or the
+project community:
+
+**[discord.gg/MssepShjmB](https://discord.gg/MssepShjmB)**
+
+---
+
+Only patches and release metadata are distributed. Supply your own game image.

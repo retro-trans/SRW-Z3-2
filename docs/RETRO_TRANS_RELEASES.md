@@ -23,6 +23,13 @@ For a release:
    public release as the comparison point. List changes since that release;
    omit features already shipped and unchanged. Prepared local builds are not
    the previous public version.
+   Follow the reader-facing format of SRW-Z3's latest release (0.9.2 when
+   adopted): introduction, Apply with a source/patch table and exact hashes,
+   grouped changes since the previous public version, compatibility, coverage,
+   translation process, acknowledgements, source-code guidance and contribution
+   links. `docs/RELEASE_0.5.40.md` applies that format to Tengoku. Keep all game
+   IDs, asset names, compatibility claims, test results and credits specific
+   to this project; do not copy Jigoku's Vita or physical-PS3 claims.
 3. Check the current Retro Trans release contract and record the tool version.
    Prepare its required manifest, patches, checksums and validation report.
    Use Tengoku BLJS10299 identities, never Jigoku BLJS10256 identities.

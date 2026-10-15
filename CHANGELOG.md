@@ -7,6 +7,11 @@
 
 ## 0.5.40 - 2026-10-15 (published)
 
+- Reformat the published notes to follow SRW-Z3 release 0.9.2: add a clear
+  source/patch table, grouped changes, compatibility and coverage sections,
+  translation-process notes, acknowledgements and contribution guidance.
+  Preserve Tengoku's exact hashes, assets and RPCS3-only limitations. No game
+  files, release assets, catalog identities or version tags are changed.
 - Store Spirit and Skills in English in both Search tab states before
   native text positioning, matching the working Abilities treatment.
   Preserve all native coordinates, font metrics, center flags, colors and

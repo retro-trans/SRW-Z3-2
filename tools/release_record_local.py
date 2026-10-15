@@ -20,12 +20,13 @@ def plan(version):
     if version=='0.5.33':proof=ROOT/'work/ui'/('review33_verified_'+version+'.json')
     if version=='0.5.34':proof=ROOT/'work/ui'/('review34_verified_'+version+'.json')
     if version=='0.5.35':proof=ROOT/'work/ui'/('review35_verified_'+version+'.json')
+    if version=='0.5.36':proof=ROOT/'work/ui'/('review36_verified_'+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
     if manifest['version']!=version or manifest['source_commit']!=cfg['source_commit']:raise ValueError('Release provenance mismatch')
     if len(manifest['patches'])!=2 or len(validation['patches'])!=2:raise ValueError('Expected two release patch routes')
     source_versions={p['source_version']for p in manifest['patches']}
-    previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35') else '0.5.18'
+    previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35','0.5.36') else '0.5.18'
     if source_versions!={'original',previous_public}:raise ValueError('Upgrade source must be the current public release')
     for patch,report in zip(manifest['patches'],validation['patches']):
         if (patch['target_bytes'],patch['target_sha256'])!=(image['bytes'],image['sha256']):raise ValueError('Patch target differs from final ISO')
@@ -51,7 +52,9 @@ def plan(version):
         release_tool_version=provenance['release_tool_version'],release_tool_commit=provenance['release_tool_commit'],
         iso=image,manifest=manifest,validation=validation,
         assets=[dict(name=name,bytes=(assets/name).stat().st_size,sha256=digest)for name,digest in sorted(sums.items())],
-        regression_tests=dict(run=run,passed=run-skip,skipped=skip),final_readback_sha256=sha256_file(proof))
+        regression_tests=dict(run=run,passed=run-skip,skipped=skip),final_readback_sha256=sha256_file(proof),
+        **(dict(carried_regression_tests=dict(evidence['carried_verification']['regression_tests'],source_version='0.5.35'))
+           if version=='0.5.36' else {}))
 
 
 def main():

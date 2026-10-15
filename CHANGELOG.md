@@ -5,7 +5,20 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.35 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.36 - 2026-10-15 (in preparation; publication requires consent)
+
+- Move the Funds caption left in all three intermission footer layouts,
+  reserving the full eight-digit 99,999,999 range with a conservative glyph
+  and outline allowance. Preserve its existing wording, font, colors, row
+  pitch, numeric endpoint and neighboring counters.
+- Check the original cap getter, digit counter and alignment arithmetic for
+  zero, every digit boundary, the reported amount, the maximum and oversized
+  inputs. Retain the centered two-line Central Asia disruption headline.
+- Carry the fully verified 0.5.35 executable, fonts, stage wrapper and all
+  unrelated archive members unchanged; only three UI x coordinates and the
+  title stamp require rebuilding.
+
+## 0.5.35 - 2026-10-15 (prepared; carried into 0.5.36)
 
 - Fix combined war-front updates that remained Japanese after the native
   128-byte paragraph copies. Bind all 13 independently drawn rows across six

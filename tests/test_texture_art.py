@@ -123,7 +123,8 @@ class RealPlanTests(unittest.TestCase):
             if key != '6':
                 card['en'] = None
         art = ta.plan({1: None, 3: None}, catalog=catalog, badges={'schema': 1, 'badges': {}})
-        self.assertEqual(sorted(art['members']), [2, 6])
+        self.assertEqual(sorted(art['members']), [0, 2, 6])
+        self.assertEqual(art['report']['startup_notices']['translated_screens'], [0, 3, 4])
         self.assertFalse(set(art['members']) & ta.FONT_MEMBERS)
         self.assertEqual([t['texture'] for t in art['report']['badges']['todo']], [4, 5])
         self.assertIn(7, art['report']['title_cards_pending'])

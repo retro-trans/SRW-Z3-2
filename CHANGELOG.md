@@ -5,7 +5,21 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.33 - 2026-10-15 (prepared; publication requires consent)
+## 0.5.34 - 2026-10-15 (preparing; publication requires consent)
+
+- Carry all prepared 0.5.29–0.5.33 fixes forward from public 0.5.28.
+- Translate the complete startup bitmap notice family: the warning and all
+  20 Japanese copyright rows across two pages. Preserve every credited owner,
+  copyright year, production relationship and three already-English rows.
+- Preserve the original logo screens, warning frame, screen dimensions, alpha,
+  GTF descriptors and all pixels outside the translated text rectangles.
+- Read back the three final English screens and check all other game files and
+  archive members against the fully verified 0.5.33 candidate. Prepare both
+  original-game and public-0.5.28 Retro Trans delivery routes.
+- In-game visual confirmation remains pending. Creating or publishing a GitHub
+  release of 0.5.34 requires explicit user consent for this version.
+
+## 0.5.33 - 2026-10-15 (prepared; carried into 0.5.34)
 
 - Carry all prepared 0.5.29–0.5.32 fixes from public 0.5.28.
 - Translate the complete player-facing GIFT report category through the actual

@@ -495,6 +495,9 @@ def plan(pages_replacements, settings=None, catalog=None, badges=None, style=Non
         report['title_cards'][m] = info
     report['title_cards_pending'] = sorted(set(cards) - set(ready))
     report['title_cards_missing_from_catalog'] = sorted(set(TITLE_MEMBERS) - {ENGLISH_CARD} - set(cards))
+    from tools import review34_startup
+    sources[0]=source_members(settings,[0],{0:review34_startup.SOURCE_SHA})[0]
+    members[0],intended[0],report['startup_notices']=review34_startup.render(sources[0],review34_startup.checked())
     for mid in members:
         verify_member(sources[mid], members[mid], intended[mid])
     overlap = set(members) & (FONT_MEMBERS | fonts)

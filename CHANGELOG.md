@@ -30,6 +30,10 @@
   both filesystem trees. Image SHA-256:
   `80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd`.
   Publication and corrected-build visual confirmation remain pending.
+- Pass both official Retro Trans 0.5.4 complete-image patch round trips and
+  validate all five delivery assets. The original-image patch is 204,181,888
+  bytes; the public 0.5.40 upgrade is 21,351,721 bytes. Both reconstruct the
+  same verified 0.5.44 image. No GitHub release or draft has been created.
 
 ## 0.5.43 - 2026-10-15 (prepared; publication requires consent)
 

@@ -8,6 +8,14 @@ command prefixes/upgrade-caption fitting. Use `tools/review44_build.py` and
 `tools/verify_review44.py`. Public delivery still requires explicit consent
 for this version. The prepared candidate inherits the preceding fixes.
 
+Readback is recorded in `work/ui/review44_verified_0.5.44.json` and delivery
+readiness in `work/ui/local_release_0.5.44.json`. The final run has 348 tests:
+346 passed, two optional skips. All four focused checks pass, including
+twenty selected/preloaded caption cases. Both official Retro Trans 0.5.4
+complete-image round trips pass and all five assets are validated. The
+original-image patch is 204,181,888 bytes; the 0.5.40 upgrade is 21,351,721
+bytes. No GitHub release or draft is created; visual playtesting is pending.
+
 ## Previous prepared candidate — 0.5.43
 
 The latest four screenshot corrections are described in

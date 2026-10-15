@@ -52,3 +52,9 @@ Compiled readback verifies all thirteen dialogue references, ten Library
 records, fourteen lookups, thirty-three reward cases and the earlier phase/
 Trans-Am checks. Both ISO filesystem trees verify all 82 files. Image SHA-256:
 `80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd`.
+
+Both official Retro Trans 0.5.4 complete-image round trips passed and all
+five assets are validated. The original-image patch is 204,181,888 bytes;
+the public 0.5.40 upgrade is 21,351,721 bytes. Readiness is recorded in
+`work/ui/local_release_0.5.44.json`. Publication and in-game visual testing
+remain pending.

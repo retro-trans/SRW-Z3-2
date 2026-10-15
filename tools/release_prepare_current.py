@@ -261,7 +261,8 @@ The corrected Arm Rakers dialogue passes compiled archive readback.
 '''
         review23_verification+='''All three startup screens pass final texture/pixel readback and bounds checks.
 Unchanged game files and every other texture/archive member match the verified
-0.5.33 data byte for byte; only the startup art and title version stamp differ.
+0.5.33 data byte for byte. Independently decrypt the rebuilt stage wrapper and
+confirm identical script content. Only startup art and the title stamp change.
 '''
     notes = f'''# {version} — {label}
 

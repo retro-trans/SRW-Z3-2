@@ -1,7 +1,7 @@
 """Read startup art from the final archive and bind unchanged code to 0.5.33 proof."""
-import argparse,json,shutil
+import argparse,json,shutil,subprocess,tempfile
 from pathlib import Path
-from tools.common import ROOT,sha256,sha256_file,write_json
+from tools.common import ROOT,sha256,sha256_file,write_json,contained
 from tools.cpk import CPK
 from tools import review34_startup as S,gtf,texture_art as A,title_screen as T,eff_art as E
 SHOTS=(('copyright-1','6e55b9da-35eb-4867-9cb5-e0a10a6c3279'),('copyright-2','4c225cce-1409-4f9b-90bf-459c09371696'),('warning','ff01182b-3e87-41de-9dc8-b5ebf0d775a9'))
@@ -27,9 +27,22 @@ def verify(version):
     if set(build['outputs'])!=set(prior['outputs']):raise ValueError('Build output inventory changed')
     for name,digest in build['outputs'].items():
         if sha256_file(folder/name)!=digest:raise ValueError('Final build file changed: '+name)
-        if name not in ('TPACKPS3.CPK','EFFPS3.CPK'):
+        if name not in ('TPACKPS3.CPK','EFFPS3.CPK','STGZ3OF2.SDAT'):
             if digest!=prior['outputs'][name] or sha256_file(base/name)!=digest:raise ValueError('Carried game file changed: '+name)
             unchanged.append(dict(name=name,sha256=digest))
+    # make_npdata gives a fresh encryption wrapper to identical stage content.
+    # Independently decrypt the final shipped bytes, rather than trusting its sidecar.
+    from tools.pipeline import config
+    stage_sha=prior['stage_archive']['cpk_sha256']
+    if sha256_file(base/'STGZ3OF2.cpk')!=stage_sha or sha256_file(folder/'STGZ3OF2.cpk')!=stage_sha:
+        raise ValueError('Carried stage script content changed')
+    with tempfile.TemporaryDirectory(prefix='review34-stage-',dir=ROOT/'work/output/scratch')as temp:
+        contained(ROOT/'work/output/scratch',temp)
+        decoded=Path(temp)/'stage.cpk'
+        tool=config(ROOT/'config/tengoku.json')['offline_sdat_tool']
+        result=subprocess.run([str(tool),'-d',str(folder/'STGZ3OF2.SDAT'),str(decoded),'0'],capture_output=True)
+        if result.returncode or not decoded.exists()or sha256_file(decoded)!=stage_sha:
+            raise ValueError('Final stage encryption does not preserve the verified scripts')
     kept_tpack=members_equal(base/'TPACKPS3.CPK',folder/'TPACKPS3.CPK',{0})
     kept_eff=members_equal(base/'EFFPS3.CPK',folder/'EFFPS3.CPK',{T.MEMBER})
     expected,pixels,report=S.render(S.source(),S.checked())
@@ -52,6 +65,7 @@ def verify(version):
         shots.append(dict(issue=label,source=str(src),saved_path=str(dst),sha256=sha256_file(src),runtime_confirmation=False))
     return dict(schema=1,version=version,iso_verification=image,startup=report,title=title_info,
         carried_verification=dict(version='0.5.33',path=str(proof),sha256=sha256_file(proof),unchanged_files=unchanged,
+                                  decoded_stage_sha256=stage_sha,stage_decryption_verified=True,
                                   tpack_members=kept_tpack,eff_members=kept_eff),screenshots=shots,runtime_verified=False)
 
 def main():

@@ -19,6 +19,10 @@
 - Pass final selector/archive readback and all 82 files in both ISO trees.
   The verified image hash is
   `3fd2ac67d375cb0d1d6f72ab517a0e92feadb34978c96d01af16b4aa8d50964c`.
+- Validate both original-game and public-0.5.28 Retro Trans 0.5.4 patch
+  routes through complete ISO decode round trips and protocol checksums.
+  Record the five delivery assets in `work/ui/local_release_0.5.39.json`.
+  Publication requires consent; emulator visual confirmation is pending.
 
 ## 0.5.38 - 2026-10-15 (prepared; carried into 0.5.39)
 

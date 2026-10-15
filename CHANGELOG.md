@@ -7,6 +7,11 @@
 
 ## 0.5.36 - 2026-10-15 (prepared; publication requires consent)
 
+- Confirm the newly reported Episode 41 Angel SR overflow is already fixed
+  in this candidate. Read back the compiled condition and execute both native
+  color states through the final drawer: four complete rows fit, including
+  Support Attacks, songs and the guarding/evading exception. Preserve the
+  report and focused evidence without changing game assets.
 - Move the Funds caption left in all three intermission footer layouts,
   reserving the full eight-digit 99,999,999 range with a conservative glyph
   and outline allowance. Preserve its existing wording, font, colors, row

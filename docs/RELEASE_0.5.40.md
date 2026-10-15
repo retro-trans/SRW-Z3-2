@@ -1,12 +1,11 @@
 # 0.5.40 — Stable Search tabs, consistent side selector and separate font styles
 
 English patch for **Super Robot Taisen Z3: Tengoku-hen**, Japanese PS3 edition
-**BLJS10299**. Prepared locally; creating or publishing a GitHub release
-requires the user's explicit consent for this version.
+**BLJS10299**. RPCS3 playtest release.
 
 ## Apply
 
-Once published, in [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
+In [Retro Trans Tools](https://github.com/retro-trans/retro-trans-tools), choose
 **Refresh catalog**, select either your original Japanese ISO or the exact
 public 0.5.28 ISO in **Automatic**, then select **Latest** (0.5.40).
 Choose a new output ISO. Both routes produce the same verified image.
@@ -101,8 +100,8 @@ domination atlas, Spirit band geometry, name drawer, fonts and stat widths
 passed readback/execution checks. The upgrade additions also pass 80 final
 lookup cases, 23 native report compositions and nine native bonus questions;
 the trophy pack passes complete text/structure/icon readback and SHA-1 checks.
-Each patch receives a complete ISO decode
-round trip and Retro Trans 0.5.4 release validation before publication.
+Both patches passed complete ISO decode round trips and Retro Trans 0.5.4
+release validation. Both routes produce the exact verified output hash above.
 All 1,048 native condition compositions pass the real drawer lookup after
 numbering, with row canaries intact. Another 200 cases execute live substitution
 then numbering with default and maximum-size values. All 129 Spirit fields, every full/list

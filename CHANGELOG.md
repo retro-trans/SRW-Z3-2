@@ -25,6 +25,13 @@
   Image SHA-256: `aef256e93637155bda9a8d3b760c53cb7ae3993bc8ac3e3dd2282b5ee64d2ea9`.
   Visual playtesting and publication consent remain pending.
 
+- Complete the full regression run: 344 tests, 342 passed and two optional
+  skips. All four current focused tests also pass without skips.
+- Pass both official Retro Trans 0.5.4 complete ISO patch round trips and
+  validate all five delivery assets. The original-image patch is 204,181,528
+  bytes; the public 0.5.40 upgrade is 21,351,215 bytes. Both reconstruct the
+  same verified 0.5.43 image. No GitHub release has been created.
+
 ## 0.5.42 - 2026-10-15 (prepared; publication requires consent)
 
 - Translate seven missed movement-type blocks (45 terrain rows), including

@@ -14,7 +14,12 @@ The incremental builder is `tools/review43_build.py`; its final readback is
 unchanged. Only the reported stage article is changed in member 598.
 See `work/ui/review43_verified_0.5.43.json` and
 `work/ui/local_release_0.5.43.json` for final verification/readiness when
-recorded. The following entries are historical.
+recorded. Both are now recorded: 344 regression tests ran (342 passed, two
+optional skips), four focused tests passed without skips, and both official
+Retro Trans 0.5.4 complete ISO patch round trips passed. All five delivery
+assets are validated. The original-image patch is 204,181,528 bytes; the
+0.5.40 upgrade is 21,351,215 bytes. Publication and in-game visual testing
+remain pending. The following entries are historical.
 
 ## Six public screenshot reports — 0.5.19 preparation
 

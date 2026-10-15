@@ -41,3 +41,15 @@ The parent is prepared 0.5.42; the public upgrade route remains 0.5.40.
 Original and public-upgrade Retro Trans patches must both reconstruct the
 same verified complete ISO before publication. Each new release still
 requires explicit user consent; no GitHub release is created by these tools.
+
+The full regression run passed 342 of 344 tests, with two optional checks
+skipped. All four focused checks pass without skips. Compiled verification
+is recorded in `work/ui/review43_verified_0.5.43.json`; both patch round trips
+are recorded separately by the official release SDK.
+
+Both official Retro Trans 0.5.4 complete-image round trips passed. All five
+assets are recorded in `work/ui/local_release_0.5.43.json`. The original-image
+patch is 204,181,528 bytes and the public 0.5.40 upgrade is 21,351,215 bytes.
+Both reconstruct SHA-256
+`aef256e93637155bda9a8d3b760c53cb7ae3993bc8ac3e3dd2282b5ee64d2ea9`.
+Publication and in-game visual confirmation remain pending.

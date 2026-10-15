@@ -7,6 +7,11 @@
 
 ## 0.5.34 - 2026-10-15 (prepared; publication requires consent)
 
+- Recheck the follow-up messenger, Avalon and NERV screenshots against the
+  prepared assets. Both linked-popup variants and the Library archive already
+  contain English for all 143 keywords. Pass 572 native description-consumer
+  cases and read back all nine repaired D-Trader/deployment captions. Preserve
+  the four new screenshots and audit evidence; game bytes and version unchanged.
 - Carry all prepared 0.5.29–0.5.33 fixes forward from public 0.5.28.
 - Translate the complete startup bitmap notice family: the warning and all
   20 Japanese copyright rows across two pages. Preserve every credited owner,

@@ -33,6 +33,17 @@ def plan(commit):
     prior_source=json.loads((ROOT/'work/output/builds/0.5.41/source_provenance.json').read_text('utf8'))
     notes=notes.replace(prior['sha256'],image['sha256']).replace(f"{prior['bytes']:,}",f"{image['bytes']:,}")
     notes=notes.replace(prior_source['source_commit'],commit)
+    # The archived notes were finalized after 0.5.41 validation. Its patch
+    # sizes and successful-roundtrip prose are not evidence for this build.
+    validation_start=notes.index('Both patches passed complete ISO decode round trips')
+    validation_end=notes.index('### What changed since 0.5.40',validation_start)
+    notes=notes[:validation_start]+'''The two routes must reconstruct the same complete ISO. `SHA256SUMS.txt`
+verifies downloads and `VALIDATION.json` records complete patch round trips.
+Preparation uses official Retro Trans **0.5.4**; successful validation of both
+routes is required before publication. Publication and live catalog
+verification remain pending.
+
+'''+notes[validation_end:]
     old_intro='This update fixes the linked-keyword description window still displaying\nJapanese in 0.5.40, including Messenger and Meganoid.'
     intro='''This update translates missed deployment terrain rows, separates crowded
 deployment labels, corrects Psyco Waves, and fits/translates war-front reports.

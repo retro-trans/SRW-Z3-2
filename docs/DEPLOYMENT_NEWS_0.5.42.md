@@ -65,6 +65,11 @@ all active references, then the compiled scenario pointers, draw lookup and
 installed centering helper. The full build includes the 0.5.41 fix for all 143
 linked-keyword entries and both description variants.
 
+The full regression run completes 340 tests: 338 pass and two optional tests
+are skipped. The four focused checks pass without skips. Compiled readback
+confirms 4,803 widget identities/styles and all unrelated members in the UI,
+effect and stage archives. The font archive is identical to public 0.5.40.
+
 In-game visual testing remains pending; offline verification is not a claim
 that these screens have been observed in RPCS3. Public delivery requires an
 original-image patch and an upgrade from public 0.5.40, both validated with

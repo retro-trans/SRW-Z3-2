@@ -35,6 +35,11 @@ def plan(version):
     previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35','0.5.36','0.5.37','0.5.38','0.5.39','0.5.40') else '0.5.18'
     if version in ('0.5.41','0.5.42'):previous_public='0.5.40'
     if source_versions!={'original',previous_public}:raise ValueError('Upgrade source must be the current public release')
+    if version=='0.5.42':
+        public=json.loads((ROOT/'work/output/iso/0.5.40/Tengoku-hen-English-0.5.40.json').read_text('utf8'))
+        source_hashes={'original':image['source_iso_sha256'],'0.5.40':public['sha256']}
+        if any(p['source_sha256']!=source_hashes[p['source_version']]for p in manifest['patches']):
+            raise ValueError('Patch input hash differs from the original/public release')
     for patch,report in zip(manifest['patches'],validation['patches']):
         if (patch['target_bytes'],patch['target_sha256'])!=(image['bytes'],image['sha256']):raise ValueError('Patch target differs from final ISO')
         if report['patch']!=patch['patch']or report['roundtrip_verified']is not True or report['target_sha256']!=image['sha256']:
@@ -54,12 +59,21 @@ def plan(version):
     match=re.search(r'Ran (\d+) tests[^\r\n]*\r?\n\s*OK(?: \(skipped=(\d+)\))?[ \t]*\r?(?:\n|$)',text)
     if not match:raise ValueError('Regression log does not confirm success')
     run,skip=int(match[1]),int(match[2]or 0)
+    focused={}
+    if version=='0.5.42':
+        focused_log=ROOT/'work/output/scratch/review42-focused-tests.log'
+        focused_text=focused_log.read_text(encoding='utf-8-sig')
+        if not re.search(r'Ran 4 tests[^\r\n]*\r?\n\s*OK[ \t]*\r?(?:\n|$)',focused_text):
+            raise ValueError('Four current native-selector/deployment checks must pass without skips')
+        focused=dict(focused_regression_tests=dict(run=4,passed=4,skipped=0,log_sha256=sha256_file(focused_log)),
+                     full_regression_log_sha256=sha256_file(log))
     return dict(schema=1,version=version,publication='pending_explicit_user_consent',
         github_release_created=False,runtime_verified=False,source_commit=manifest['source_commit'],
         release_tool_version=provenance['release_tool_version'],release_tool_commit=provenance['release_tool_commit'],
         iso=image,manifest=manifest,validation=validation,
         assets=[dict(name=name,bytes=(assets/name).stat().st_size,sha256=digest)for name,digest in sorted(sums.items())],
         regression_tests=dict(run=run,passed=run-skip,skipped=skip),final_readback_sha256=sha256_file(proof),
+        **focused,
         **(dict(carried_regression_tests=dict(evidence['carried_verification']['regression_tests'],source_version='0.5.35'))
            if version=='0.5.36' else
            dict(carried_regression_tests=dict(evidence['carried_verification']['regression_tests'],source_version='0.5.38'))

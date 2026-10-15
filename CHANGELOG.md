@@ -28,6 +28,13 @@
 - Verify all 82 ISO files through both filesystem trees. Image SHA-256:
   `1d081d3d00f033ec907fd342bcca0143570aa097d9c0a78bc3206b4ed01639f9`.
   In-game visual testing and publication consent remain pending.
+- Complete the full regression run: 340 tests, 338 passed and two optional
+  skips. The four focused deployment/news/terminology checks also pass
+  without skips, including execution of the native scenario selector.
+- Pass both official Retro Trans 0.5.4 complete ISO patch round trips and
+  validate all five delivery assets. The original-image patch is
+  204,181,594 bytes; the public 0.5.40 upgrade is 21,348,127 bytes. Both
+  reconstruct the same verified image. Publication remains unapproved.
 
 ## 0.5.41 - 2026-10-15 (prepared; publication requires consent)
 

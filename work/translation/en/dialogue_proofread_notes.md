@@ -126,7 +126,7 @@
 - Glossary: 尽きぬ水瓶 = "Inexhaustible Water Gourd" (status confirmed) — spelling "Inexhaustible"? verify source before changing.
 - dlg_2086_06 605:t_017:4: D.O.M.E. referred to as 'it' (glossary male; D.O.M.E. rule says being = #pilot) — check pronoun.
 - 様 handling inconsistent: AG's 様 = Mr./Miss in several slices (2066_02, 2087_03) but dropped in others (2079_12, 2063_03); Sardias's 様 = 'Lord/Lady' in 2087_03 vs dropped in 2087_01. Settle one rule and sweep.
-- dlg_2087_05: Chaos Kapel / Eliphas / Count Purin proposed, all UNVERIFIED spellings.
+- dlg_2087_05: Chaos Caper confirmed by the user on 2026-10-16; preserve during proofreading. Eliphas / Count Purin remain proposed, UNVERIFIED spellings.
 - dlg_2090_00 634:t_1:56: あいつの歌 = 'His song' read as Setsuna's — probably Basara? verify.
 - dlg_2091_06: Doctrine's titles Ambriel the Overriser / Verchiel the Heat / Zuriel the Unbreakable — spellings UNVERIFIED.
 - dlg_2091_07: Megumi Lacnald / Meiall — romanizations UNVERIFIED.

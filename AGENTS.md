@@ -16,6 +16,7 @@ incoming - outside files that need agent to look into
 - Consider using https://github.com/nationalsecurityagency/ghidra if applicable
 
 ** REMEMBER **
+- Canonical mech spelling requested on 2026-10-16: Chaos Caper, not Chaos Kapel. Preserve it in dialogue and during proofreading.
 - Canonical capitalization requested on 2026-10-15: Colony Laser, including scene headings and running speech. Preserve both capitals during proofreading.
 - Canonical term requested on 2026-10-15: Psyco Waves (exact spelling and capitalization), including both glossary aliases. Preserve it in running speech and proofreading.
 - Font preference confirmed on 2026-10-15: keep the current letter shapes and spacing for dialogue, narration and ordinary text, but remove their added outline. Selected yellow UI labels use a separate alphabet copied from the original font, retaining its thinner native border; never apply that border globally.

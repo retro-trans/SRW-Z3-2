@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Correct **Chaos Kapel** to the user-requested **Chaos Caper** in the active
+  glossary and its seed entry; mark the spelling confirmed. Both linked
+  dialogue references compile with the corrected name and fit their line
+  limits. Controls, links and other records remain unchanged. Recorded in
+  `work/ui/chaos_caper_correction.json`; pending inclusion in the next build.
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 

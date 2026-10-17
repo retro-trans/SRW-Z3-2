@@ -12,8 +12,9 @@
 - Give every generic Yes/No state explicit English with matching grey and selected-word origins, retaining native colors and selection behavior.
 - Fit the map command as `Sphere Act`; leave the explanatory ability descriptions intact.
 - Carry all prepared 0.5.45 and 0.5.46 changes. The two purchase screenshots are identical. In-game visual confirmation remains pending.
-- Pass 353 regression tests with one optional check skipped. Preserve font artwork, allocation and advances. Verify all 82 ISO files in both filesystem trees. Image SHA-256: `7d8c0842d2a7f4602c160cf268c359fa62b4ed7e4da9b2d630213a80c4cf5359`. Retro Trans patch preparation and validation follow the final readback; publication remains pending explicit consent.
+- Pass 353 regression tests with one optional check skipped. Preserve font artwork, allocation and advances. Verify all 82 ISO files in both filesystem trees. Image SHA-256: `7d8c0842d2a7f4602c160cf268c359fa62b4ed7e4da9b2d630213a80c4cf5359`.
 - Read back 156 installed purchase lookups, 156 native constructor cases, 316 native caption centers, 24 choice origins, all 4,803 widgets, three affected dialogue records, three changed Library keyword entries and six native name lookups. Actual keyword-popup data and 572 native keyword consumers pass, as do the twelve carried no-pilot/live-name cases.
+- Build and validate both complete-image Retro Trans 0.5.4 patch routes: original Japanese ISO (204,182,093-byte patch) and exact public 0.5.44 (21,388,535-byte patch). Both reconstruct the verified target hash. Seal all five assets in `work/ui/local_release_0.5.47.json`. No GitHub release or draft has been created; publication requires explicit consent and in-game visual confirmation remains pending.
 
 ## 0.5.46 - 2026-10-17 (prepared; publication requires consent)
 

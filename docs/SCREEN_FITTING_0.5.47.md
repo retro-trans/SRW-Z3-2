@@ -77,5 +77,11 @@ regression suite passes 353 tests, with one optional check skipped. Both ISO
 trees verify all 82 files. Target SHA-256:
 `7d8c0842d2a7f4602c160cf268c359fa62b4ed7e4da9b2d630213a80c4cf5359`.
 
+Official Retro Trans 0.5.4 validated both full-image patch routes. The original
+route is 204,182,093 bytes and the exact public 0.5.44 route is 21,388,535 bytes.
+Both reconstructed images match the target hash above. All five delivery assets
+are sealed in `work/ui/local_release_0.5.47.json`; no release or draft was
+created on GitHub.
+
 In-game visual confirmation remains pending. Native execution and archive
 readback do not establish a completed RPCS3 visual playtest.

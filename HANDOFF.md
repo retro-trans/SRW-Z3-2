@@ -14,6 +14,15 @@ Use `tools/review45_text.py`, `tools/review45_build.py` and
 identical to public 0.5.44. The narration uses its existing narrower alphabet
 without changing words or timing. In-game visual verification remains pending.
 
+Both official Retro Trans 0.5.4 complete-image round trips passed. The original
+patch is 204,175,412 bytes and the exact-public-0.5.44 upgrade is 21,049,982
+bytes. All five assets are validated under `work/output/releases/0.5.45/artifacts/`.
+Readback is in `work/ui/review45_verified_0.5.45.json`; release notes are
+`docs/RELEASE_0.5.45.md`. No GitHub release or draft has been created.
+The final 348-test run passed 347 tests, with one skip. The Back Log row-count
+expectation is updated for the split palace caption (132 bytes becomes 70/66).
+Delivery readiness is recorded in `work/ui/local_release_0.5.45.json`.
+
 ## Current public release — 0.5.44
 
 The latest three screenshots are addressed in `docs/REWARD_MENUS_0.5.44.md`:

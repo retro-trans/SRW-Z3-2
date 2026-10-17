@@ -43,3 +43,15 @@ authorized by the screenshot reports alone.
 
 The candidate image verifies all 82 files through both ISO filesystem trees.
 SHA-256: `bc1edfb8c1a38a9190834b5ea0bbc1887cf4c6fa1ca8e404e54fa250d22d8c7e`.
+
+Both official Retro Trans 0.5.4 complete-image patch round trips passed.
+All five delivery assets are validated. The original-image patch is
+204,175,412 bytes; the public-0.5.44 upgrade is 21,049,982 bytes. Both
+reconstruct the same verified image. Publication remains pending explicit
+consent for 0.5.45.
+
+The final regression run completed 348 tests: 347 passed, one skipped.
+Its Back Log corpus now has 124 rows over the old 128-byte limit, rather than
+125: the reported palace caption's former 132-byte row is now 70- and 66-byte
+rows. The native ring, row-copy, link and reset checks pass with that updated
+inventory. Final delivery readiness is `work/ui/local_release_0.5.45.json`.

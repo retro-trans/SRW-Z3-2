@@ -25,6 +25,12 @@
   geometry, part stats and all font archives/codes/advances. Verify all 82 ISO
   files through both filesystem trees; image SHA-256:
   `bc1edfb8c1a38a9190834b5ea0bbc1887cf4c6fa1ca8e404e54fa250d22d8c7e`.
+- Pass both official Retro Trans 0.5.4 complete-image patch round trips and
+  validate all five assets. Original-image patch: 204,175,412 bytes; exact
+  public-0.5.44 upgrade: 21,049,982 bytes. No GitHub release or draft created.
+- Complete the final 348-test regression run: 347 passed, one skipped.
+  Update the oversized Back Log row inventory from 125 to 124 because the
+  palace caption now fits two short rows; all native storage checks pass.
 
 ## 0.5.44 - 2026-10-16
 

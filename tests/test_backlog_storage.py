@@ -24,13 +24,15 @@ class BacklogStorage(unittest.TestCase):
     def test_both_constructors_ring_shifts_links_and_resets_preserve_every_long_entry(self):
         proof = A.verify(self.final)
         self.assertEqual(proof['corpus']['dialogue_entries'], 63553)
-        self.assertEqual(proof['corpus']['entries_over_old_limit'], 204)
+        # Heralds adds one entry (724:t_1:41, 309 bytes) beyond the old 308-byte budget.
+        self.assertEqual(proof['corpus']['entries_over_old_limit'], 205)
+        self.assertEqual(len(dict(self.data['entries'])['724:t_1:41']), 309)
         # The palace caption is now two short lines; its former single line
         # no longer belongs to the oversized-row corpus.
         self.assertEqual(proof['corpus']['rows_over_old_limit'], 124)
         self.assertFalse(any(rid == '628:t_1:3' for rid, _, _ in self.data['rows']))
         for ring in proof['native_ring_cases']:
-            self.assertEqual(ring['ring_shifts'], 185)
+            self.assertEqual(ring['ring_shifts'], 186)  # one additional Herald entry enters the 20-slot ring
             self.assertEqual(ring['reset_entries'], 20)
             self.assertTrue(ring['duplicate_suppressed'])
 

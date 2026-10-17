@@ -260,6 +260,10 @@ def plan(settings,mapping):
     commands=json.loads(review45_text.DEST.read_text(encoding='utf8'))
     if commands!=review45_text.plan():raise ValueError('D-Command fitting plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],commands['edits'])
+    from tools import review46_text
+    screenshot46=json.loads(review46_text.DEST.read_text(encoding='utf8'))
+    if screenshot46!=review46_text.plan():raise ValueError('Review46 screenshot layout plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],screenshot46['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.45'
+VERSION = '0.5.46'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -301,6 +301,12 @@ def plan(settings):
     from tools import backlog_storage
     executable, backlog_report = backlog_storage.apply(executable)
     exec_report['backlog_storage'] = backlog_report
+    exec_report['output_sha256'] = sha256(executable)
+    from tools import review46_fallback
+    executable, fallback46 = review46_fallback.apply(executable, exec_report['ui_hook']['table'])
+    fallback46['execution'] = review46_fallback.native_cases(executable)
+    exec_report['no_pilot_fallback'] = fallback46
+    for key in ('used_bytes','headroom_bytes'):exec_report['ui_hook']['table'][key]=fallback46[key]
     exec_report['output_sha256'] = sha256(executable)
     # Texture art (docs/TEXTURES.md): title cards and map badges, never the font pages.
     from tools import texture_art

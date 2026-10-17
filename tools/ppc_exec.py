@@ -65,6 +65,7 @@ def decode(w, pc=0):
     if op == 24: return ('ori', ra, rt, uimm)
     if op == 25: return ('oris', ra, rt, uimm)
     if op == 26: return ('xori', ra, rt, uimm)
+    if op == 27: return ('xoris', ra, rt, uimm)
     if op == 28: return ('andi.', ra, rt, uimm)
     if op == 29: return ('andis.', ra, rt, uimm)
     if op in (10, 11):
@@ -253,11 +254,12 @@ class Machine:
         elif n == 'subfic':
             _, t, a, s = ins
             total=(~r[a]&M64)+(s&M64)+1;self.ca=total>>64;r[t]=total&M64
-        elif n in ('ori', 'oris', 'xori', 'andi.', 'andis.'):
+        elif n in ('ori', 'oris', 'xori', 'xoris', 'andi.', 'andis.'):
             _, a, s, u = ins
             if n == 'ori': r[a] = r[s] | u
             elif n == 'oris': r[a] = r[s] | (u << 16)
             elif n == 'xori': r[a] = r[s] ^ u
+            elif n == 'xoris': r[a] = r[s] ^ (u << 16)
             elif n == 'andi.': r[a] = r[s] & u; self.rc(r[a])
             else: r[a] = r[s] & (u << 16); self.rc(r[a])
         elif n in ('cmpi', 'cmp', 'cmpli', 'cmpl'):

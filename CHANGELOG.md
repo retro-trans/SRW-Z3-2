@@ -5,6 +5,22 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.46 - 2026-10-17 (in preparation; publication requires consent)
+
+- Use Herald / Heralds for the 御使い faction, with singular articles and plural references reviewed. Preserve Evangelion Angels, Aquarion Shadow Angels, the pilot Angel and Tenshi.
+- Correct the no-pilot name fallback encoding, preserving live pilot names and all unit stats.
+- Fit conversion-part captions with `Emerg. Deploy Booster`, `Light Config.` and `Assault Config.` in both lists and selected-name boxes.
+- Shorten fundraising headings to `Funds` and fit its remaining-pilot caption around the native count.
+- Fit the Unit Stats indicator as `Ability Active`.
+- Carry all prepared 0.5.45 fixes and Chaos Caper. In-game visual confirmation is pending.
+- Pass 349 regression tests with one optional check skipped. Read back all 424
+  affected dialogue records, 21 installed UI lookups, all 4,803 widgets, 12
+  native no-pilot/live-name cases and 572 native keyword consumer cases.
+  The 48 carried command-state cases and three palace-caption origins pass.
+- Preserve the font archive, both font pages, font codes and letter advances.
+  Verify all 82 ISO files through both filesystem trees. Image SHA-256:
+  `fc812465c5f6974fda191ae702f29bddd384c7dfa0b4e0d1be2c96210df49036`.
+
 ## 0.5.45 - 2026-10-17 (prepared; publication requires consent)
 
 - Replace retained bullet glyphs in all six D-Command captions with existing

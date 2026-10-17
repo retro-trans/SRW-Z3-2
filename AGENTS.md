@@ -16,6 +16,7 @@ incoming - outside files that need agent to look into
 - Consider using https://github.com/nationalsecurityagency/ghidra if applicable
 
 ** REMEMBER **
+- Canonical faction terminology requested on 2026-10-17: 御使い is Herald (singular), Heralds (plural). Preserve Evangelion Angels, Aquarion Shadow Angels / 天翅, the pilot Angel and Tenshi as distinct terms.
 - Canonical mech spelling requested on 2026-10-16: Chaos Caper, not Chaos Kapel. Preserve it in dialogue and during proofreading.
 - Canonical capitalization requested on 2026-10-15: Colony Laser, including scene headings and running speech. Preserve both capitals during proofreading.
 - Canonical term requested on 2026-10-15: Psyco Waves (exact spelling and capitalization), including both glossary aliases. Preserve it in running speech and proofreading.

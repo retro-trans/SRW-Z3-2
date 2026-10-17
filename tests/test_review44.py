@@ -1,4 +1,5 @@
-import json,unittest
+import json,unittest,subprocess
+from unittest.mock import patch
 from tools.common import ROOT
 from tools import review44_text as R,review44_build as B,ui_layout_text as U,ui_hook as H,eboot_text as E
 
@@ -15,7 +16,21 @@ class RewardAndDeploymentCorrections(unittest.TestCase):
             self.assertIn('Colony Laser',row['english']);self.assertNotIn('colony laser',row['english'])
         captions=[r for r in rows if 'Control Room'in r['english']]
         self.assertEqual(len(captions),3)
-        changes,audit=B.libraries(self.parent)
+        # This historical capitalization build must use its recorded source,
+        # rather than replaying later Herald edits against the 0.5.43 fixture.
+        commit=json.loads((ROOT/'work/output/builds/0.5.44/source_provenance.json').read_text('utf8'))['source_commit']
+        def source(path):
+            return json.loads(subprocess.check_output(['git','show',commit+':'+path],cwd=ROOT))
+        terms=source('work/glossary/library_terms.json')['terms']
+        paths=subprocess.check_output(['git','ls-tree','-r','--name-only',commit,'work/translation/en/library'],cwd=ROOT,text=True).splitlines()
+        entries={kind:{}for kind in ('keyword','pilot','robot')}
+        for path in paths:
+            if not path.endswith('.json'):continue
+            data=source(path);kind=data['kind']
+            for key,value in data['entries'].items():entries[kind][key]=(path.rsplit('/',1)[-1],value)
+        render=B.L.plan
+        with patch.object(B.L,'plan',side_effect=lambda library,_entries,_terms:render(library,entries,terms)):
+            changes,audit=B.libraries(self.parent)
         self.assertEqual(set(changes),{'MTZKN_PT.CPK'});self.assertEqual(len(audit),10)
 
     def test_rewards_keep_native_values_and_clear_every_digit_boundary(self):

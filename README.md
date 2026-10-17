@@ -17,6 +17,10 @@ plus the phase/map-panel fixes and [latest reward/menu corrections](docs/REWARD_
 Retro Trans supports automatic updates from the original Japanese ISO or the
 exact English 0.5.40 image. Refresh its catalog to select the latest release.
 
+The prepared **0.5.45** candidate addresses four additional text-fitting
+reports and includes Chaos Caper. See [the corrections](docs/SCREEN_FITTING_0.5.45.md).
+Its public release requires separate explicit consent.
+
 Fresh dialogue drafts cover **63,553 records in 857 slices across 12 batches**,
 including alternate routes, endings, ace talks and previews.
 See [the completion report](docs/FRESH_RETRANSLATION_COMPLETION.md).

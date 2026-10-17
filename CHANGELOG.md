@@ -2,13 +2,29 @@
 
 ## Unreleased
 
-- Correct **Chaos Kapel** to the user-requested **Chaos Caper** in the active
-  glossary and its seed entry; mark the spelling confirmed. Both linked
-  dialogue references compile with the corrected name and fit their line
-  limits. Controls, links and other records remain unchanged. Recorded in
-  `work/ui/chaos_caper_correction.json`; pending inclusion in the next build.
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
+
+## 0.5.45 - 2026-10-17 (prepared; publication requires consent)
+
+- Replace retained bullet glyphs in all six D-Command captions with existing
+  invisible padding, preserving selected, preloaded and disabled geometry.
+- Fit Keep Combo's complete effect into the two native help rows.
+- Display the full Wrath Babylon Imperial Palace / Spirit Quanta Absorption
+  System caption on two centered lines, clear of the portrait.
+- Use `Hyperdim. Target Lock` so the part name clears inventory counts;
+  preserve all stats and effects.
+- Retain the reported narration's complete wording and timing while selecting
+  the existing narrower alphabet for that source-bound row.
+- Include **Chaos Caper** in both dialogue references, with its confirmed
+  active glossary/seed spelling preserved during proofreading.
+- Document measured bounds and verification in `docs/SCREEN_FITTING_0.5.45.md`.
+  In-game visual confirmation and release publication remain pending.
+- Pass ten installed UI lookups, 48 selected/preloaded command origins and
+  three native palace-caption origins. Preserve all 4,803 widget states and
+  geometry, part stats and all font archives/codes/advances. Verify all 82 ISO
+  files through both filesystem trees; image SHA-256:
+  `bc1edfb8c1a38a9190834b5ea0bbc1887cf4c6fa1ca8e404e54fa250d22d8c7e`.
 
 ## 0.5.44 - 2026-10-16
 

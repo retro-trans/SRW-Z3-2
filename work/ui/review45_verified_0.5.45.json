@@ -1,0 +1,925 @@
+{
+  "schema": 1,
+  "version": "0.5.45",
+  "previous_public_version": "0.5.44",
+  "dialogue": [
+    {
+      "id": "611:t_016:2",
+      "english": "Rand\n「And is that Chaos Caper over there?!」"
+    },
+    {
+      "id": "628:t_1:3",
+      "english": "　\n　　\n～ Wrath Babylon Imperial Palace /\nSpirit Quanta Absorption System ～"
+    },
+    {
+      "id": "688:t_3:67",
+      "english": "The Edel\n「Ziene's Chaos Caper was to reproduce the power of the\n　Truth-Seeking Goat Sphere that Asakim showed me...」"
+    }
+  ],
+  "command_lookups": [
+    {
+      "id": "b6c0f0d117e01112db0f",
+      "key_hex": "8145834183628370815b83748342815b838b8368",
+      "english": "　Upper Field",
+      "encoded_hex": "81ae81ae81ae84c584c386d486ec86ec86e186ee81ae84f786e586e186e886e000",
+      "slot": 16065024,
+      "old_va": 17849653,
+      "steps": 399
+    },
+    {
+      "id": "1018d2c50157a31e5790",
+      "key_hex": "814583658393835683878393826c82608277",
+      "english": "　Tension MAX",
+      "encoded_hex": "81ae81ae81ae84c584c386d386e186ea86ef86e586eb86ea81ae86cc84f286d700",
+      "slot": 15829200,
+      "old_va": 17849678,
+      "steps": 366
+    },
+    {
+      "id": "52253a6819f2dae028a2",
+      "key_hex": "8145834c815b837683528393837b",
+      "english": "　Keep Combo",
+      "encoded_hex": "81ae81ae81ae84c584c384fc86e186e186ec81ae84f486eb86e986de86eb00",
+      "slot": 15994032,
+      "old_va": 17849703,
+      "steps": 311
+    },
+    {
+      "id": "60b7d8788669b8045aa6",
+      "key_hex": "814583668342838183938356838783938352815b838b",
+      "english": "　Dimension Call",
+      "encoded_hex": "81ae81ae81ae84c584c384f586e586e986e186ea86ef86e586eb86ea81ae84f486dd86e886e800",
+      "slot": 15796240,
+      "old_va": 17849726,
+      "steps": 432
+    },
+    {
+      "id": "6233d9f88bdafb366cb4",
+      "key_hex": "8145838a83948340834383948360838383938358",
+      "english": "　Revive Chance",
+      "encoded_hex": "81ae81ae81ae84c584c386d186e186f286e586f286e181ae84f486e486dd86ea86df86e100",
+      "slot": 16137552,
+      "old_va": 17849757,
+      "steps": 399
+    },
+    {
+      "id": "db906cf4382c7491480c",
+      "key_hex": "81458374838b837e8389834e838b",
+      "english": "　Full Miracle",
+      "encoded_hex": "81ae81ae81ae84c584c384f786f186e886e881ae86cc86e586ee86dd86df86e886e100",
+      "slot": 16648416,
+      "old_va": 17849786,
+      "steps": 300
+    },
+    {
+      "id": "ae8e934ffc4b1d6081d2",
+      "key_hex": "8e6797708374834683438359928682cd814192ca8fed82c882e78d558c828e9e82c9934782f08c8292c482c582ab82c882a28fea8d8782c989ba82aa82e9",
+      "english": "For this phase, the Combo Gauge will not drop",
+      "encoded_hex": "84f786eb86ee81ae86f086e486e586ef81ae86ec86e486dd86ef86e181c181ae86f086e486e181ae84f486eb86e986de86eb81ae84f886dd86f186e386e181ae86f386e586e886e881ae86ea86eb86f081ae86e086ee86eb86ec00",
+      "slot": 16766048,
+      "old_va": 17851420,
+      "steps": 1092
+    },
+    {
+      "id": "23db5c6025b607a2f246",
+      "key_hex": "83528393837b8351815b835782aa934782f08c8292c482c582ab82c882a28fea8d8782c582e089ba82aa82e882dc82b982f18142",
+      "english": "if an attack fails to destroy an enemy.",
+      "encoded_hex": "86e586e281ae86dd86ea81ae86dd86f086f086dd86df86e781ae86e286dd86e586e886ef81ae86f086eb81ae86e086e186ef86f086ee86eb86f581ae86dd86ea81ae86e186ea86e186e986f581c300",
+      "slot": 16337376,
+      "old_va": 17851491,
+      "steps": 927
+    },
+    {
+      "id": "3d21025a378db270e22d",
+      "key_hex": "8145834183628370815b83748342815b838b83680a814583658393835683878393826c826082770a8145834c815b837683528393837b0a814583668342838183938356838783938352815b838b0a8145838a839483408343839483608383839383580a81458374838b837e8389834e838b0a",
+      "english": "　Upper Field\n　Tension MAX\n　Keep Combo\n　Dimension Call\n　Revive Chance\n　Full Miracle\n",
+      "encoded_hex": "81ae81ae81ae84c584c386d486ec86ec86e186ee81ae84f786e586e186e886e00a81ae81ae81ae84c584c386d386e186ea86ef86e586eb86ea81ae86cc84f286d70a81ae81ae81ae84c584c384fc86e186e186ec81ae84f486eb86e986de86eb0a81ae81ae81ae84c584c384f586e586e986e186ea86ef86e586eb86ea81ae84f486dd86e886e80a81ae81ae81ae84c584c386d186e186f286e586f286e181ae84f486e486dd86ea86df86e10a81ae81ae81ae84c584c384f786f186e886e881ae86cc86e586ee86dd86df86e886e10a00",
+      "slot": 16256256,
+      "old_va": 17862568,
+      "steps": 1953
+    },
+    {
+      "id": "684670dcfb9171831342",
+      "key_hex": "8376838d83578346834e83679084906982cc91e582ab82c897cd82c682c882c182bd8141",
+      "english": "To honor the great contribution to the project's progress",
+      "encoded_hex": "83fc849683bd846d849684958496849983bd849b846d846a83bd846c8499846a8466849b83bd846884968495849b8499846e8467849c849b846e8496849583bd849b849683bd849b846d846a83bd849784998496846f846a8468849b83d8849a83bd849784998496846c8499846a849a849a00",
+      "slot": 15760512,
+      "old_va": 17950516,
+      "steps": 663
+    }
+  ],
+  "command_origins": [
+    {
+      "english": "　Upper Field",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 545.0625,
+      "width": 189.875,
+      "center": 640,
+      "steps": 826
+    },
+    {
+      "english": "　Upper Field",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 545.0625,
+      "width": 189.875,
+      "center": 640,
+      "steps": 826
+    },
+    {
+      "english": "　Upper Field",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 545.0625,
+      "width": 189.875,
+      "center": 640,
+      "steps": 802
+    },
+    {
+      "english": "　Upper Field",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 545.0625,
+      "width": 189.875,
+      "center": 640,
+      "steps": 802
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 536.75,
+      "width": 206.5,
+      "center": 640,
+      "steps": 793
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 536.75,
+      "width": 206.5,
+      "center": 640,
+      "steps": 793
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 536.75,
+      "width": 206.5,
+      "center": 640,
+      "steps": 791
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 536.75,
+      "width": 206.5,
+      "center": 640,
+      "steps": 791
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 539.375,
+      "width": 201.25,
+      "center": 640,
+      "steps": 718
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 539.375,
+      "width": 201.25,
+      "center": 640,
+      "steps": 718
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 539.375,
+      "width": 201.25,
+      "center": 640,
+      "steps": 752
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 539.375,
+      "width": 201.25,
+      "center": 640,
+      "steps": 752
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 522.75,
+      "width": 234.5,
+      "center": 640,
+      "steps": 919
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 522.75,
+      "width": 234.5,
+      "center": 640,
+      "steps": 919
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 522.75,
+      "width": 234.5,
+      "center": 640,
+      "steps": 908
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 522.75,
+      "width": 234.5,
+      "center": 640,
+      "steps": 908
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 525.375,
+      "width": 229.25,
+      "center": 640,
+      "steps": 866
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 525.375,
+      "width": 229.25,
+      "center": 640,
+      "steps": 866
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 525.375,
+      "width": 229.25,
+      "center": 640,
+      "steps": 869
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 525.375,
+      "width": 229.25,
+      "center": 640,
+      "steps": 869
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 544.625,
+      "width": 190.75,
+      "center": 640,
+      "steps": 747
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 544.625,
+      "width": 190.75,
+      "center": 640,
+      "steps": 747
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 544.625,
+      "width": 190.75,
+      "center": 640,
+      "steps": 830
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 544.625,
+      "width": 190.75,
+      "center": 640,
+      "steps": 830
+    },
+    {
+      "english": "　Upper Field",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 534.890625,
+      "width": 210.21875,
+      "center": 640,
+      "steps": 826
+    },
+    {
+      "english": "　Upper Field",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 534.890625,
+      "width": 210.21875,
+      "center": 640,
+      "steps": 826
+    },
+    {
+      "english": "　Upper Field",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 534.890625,
+      "width": 210.21875,
+      "center": 640,
+      "steps": 802
+    },
+    {
+      "english": "　Upper Field",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 534.890625,
+      "width": 210.21875,
+      "center": 640,
+      "steps": 802
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 525.6875,
+      "width": 228.625,
+      "center": 640,
+      "steps": 793
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 525.6875,
+      "width": 228.625,
+      "center": 640,
+      "steps": 793
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 525.6875,
+      "width": 228.625,
+      "center": 640,
+      "steps": 791
+    },
+    {
+      "english": "　Tension MAX",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 525.6875,
+      "width": 228.625,
+      "center": 640,
+      "steps": 791
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 528.59375,
+      "width": 222.8125,
+      "center": 640,
+      "steps": 718
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 528.59375,
+      "width": 222.8125,
+      "center": 640,
+      "steps": 718
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 528.59375,
+      "width": 222.8125,
+      "center": 640,
+      "steps": 752
+    },
+    {
+      "english": "　Keep Combo",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 528.59375,
+      "width": 222.8125,
+      "center": 640,
+      "steps": 752
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 510.1875,
+      "width": 259.625,
+      "center": 640,
+      "steps": 919
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 510.1875,
+      "width": 259.625,
+      "center": 640,
+      "steps": 919
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 510.1875,
+      "width": 259.625,
+      "center": 640,
+      "steps": 908
+    },
+    {
+      "english": "　Dimension Call",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 510.1875,
+      "width": 259.625,
+      "center": 640,
+      "steps": 908
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 513.09375,
+      "width": 253.8125,
+      "center": 640,
+      "steps": 866
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 513.09375,
+      "width": 253.8125,
+      "center": 640,
+      "steps": 866
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 513.09375,
+      "width": 253.8125,
+      "center": 640,
+      "steps": 869
+    },
+    {
+      "english": "　Revive Chance",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 513.09375,
+      "width": 253.8125,
+      "center": 640,
+      "steps": 869
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "selected-key",
+      "mode": 0,
+      "left": 534.40625,
+      "width": 211.1875,
+      "center": 640,
+      "steps": 747
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "selected-key",
+      "mode": 1,
+      "left": 534.40625,
+      "width": 211.1875,
+      "center": 640,
+      "steps": 747
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "preloaded",
+      "mode": 0,
+      "left": 534.40625,
+      "width": 211.1875,
+      "center": 640,
+      "steps": 830
+    },
+    {
+      "english": "　Full Miracle",
+      "path": "preloaded",
+      "mode": 1,
+      "left": 534.40625,
+      "width": 211.1875,
+      "center": 640,
+      "steps": 830
+    }
+  ],
+  "palace_origins": [
+    {
+      "id": "628:t_1:3",
+      "quad": 28,
+      "span_units": 556,
+      "left": 396.75,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1712
+    },
+    {
+      "id": "628:t_1:3",
+      "quad": 31,
+      "span_units": 556,
+      "left": 370.6875,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1712
+    },
+    {
+      "id": "628:t_1:3",
+      "quad": 40,
+      "span_units": 556,
+      "left": 292.5,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1712
+    }
+  ],
+  "widgets_preserved": 4803,
+  "part": {
+    "english": "Hyperdim. Target Lock",
+    "left": 735,
+    "right": 1048.25,
+    "count_left": 1120
+  },
+  "part_stats_preserved": true,
+  "narration": {
+    "english": "To honor the great contribution to the project's progress",
+    "condensed": true,
+    "left": 224,
+    "right": 1176.5,
+    "words_preserved": true,
+    "timing_preserved": true
+  },
+  "archive_isolation": {
+    "AIDDATAPACK.CPK": {
+      "unchanged_members": 53
+    },
+    "RPW_DATA.CPK": {
+      "unchanged_members": 0
+    },
+    "EFFPS3.CPK": {
+      "unchanged_members": 488
+    },
+    "STGZ3OF2.cpk": {
+      "unchanged_members": 873
+    }
+  },
+  "carried_reward_cases": [
+    {
+      "label": "PP each:",
+      "value": 0,
+      "digits": 1,
+      "conservative_left": 750.0,
+      "gap": 151.875,
+      "steps": 22
+    },
+    {
+      "label": "PP each:",
+      "value": 9,
+      "digits": 1,
+      "conservative_left": 750.0,
+      "gap": 151.875,
+      "steps": 29
+    },
+    {
+      "label": "PP each:",
+      "value": 99,
+      "digits": 2,
+      "conservative_left": 733.0,
+      "gap": 134.875,
+      "steps": 36
+    },
+    {
+      "label": "PP each:",
+      "value": 500,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 117.875,
+      "steps": 43
+    },
+    {
+      "label": "PP each:",
+      "value": 750,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 117.875,
+      "steps": 43
+    },
+    {
+      "label": "PP each:",
+      "value": 999,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 117.875,
+      "steps": 43
+    },
+    {
+      "label": "PP each:",
+      "value": 9999,
+      "digits": 4,
+      "conservative_left": 699.0,
+      "gap": 100.875,
+      "steps": 50
+    },
+    {
+      "label": "PP each:",
+      "value": 99999,
+      "digits": 5,
+      "conservative_left": 682.0,
+      "gap": 83.875,
+      "steps": 57
+    },
+    {
+      "label": "PP each:",
+      "value": 999999,
+      "digits": 6,
+      "conservative_left": 665.0,
+      "gap": 66.875,
+      "steps": 64
+    },
+    {
+      "label": "PP each:",
+      "value": 9999999,
+      "digits": 7,
+      "conservative_left": 648.0,
+      "gap": 49.875,
+      "steps": 71
+    },
+    {
+      "label": "PP each:",
+      "value": 99999999,
+      "digits": 8,
+      "conservative_left": 631.0,
+      "gap": 32.875,
+      "steps": 78
+    },
+    {
+      "label": "Kills each:",
+      "value": 0,
+      "digits": 1,
+      "conservative_left": 750.0,
+      "gap": 128.25,
+      "steps": 22
+    },
+    {
+      "label": "Kills each:",
+      "value": 9,
+      "digits": 1,
+      "conservative_left": 750.0,
+      "gap": 128.25,
+      "steps": 29
+    },
+    {
+      "label": "Kills each:",
+      "value": 99,
+      "digits": 2,
+      "conservative_left": 733.0,
+      "gap": 111.25,
+      "steps": 36
+    },
+    {
+      "label": "Kills each:",
+      "value": 500,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 94.25,
+      "steps": 43
+    },
+    {
+      "label": "Kills each:",
+      "value": 750,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 94.25,
+      "steps": 43
+    },
+    {
+      "label": "Kills each:",
+      "value": 999,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 94.25,
+      "steps": 43
+    },
+    {
+      "label": "Kills each:",
+      "value": 9999,
+      "digits": 4,
+      "conservative_left": 699.0,
+      "gap": 77.25,
+      "steps": 50
+    },
+    {
+      "label": "Kills each:",
+      "value": 99999,
+      "digits": 5,
+      "conservative_left": 682.0,
+      "gap": 60.25,
+      "steps": 57
+    },
+    {
+      "label": "Kills each:",
+      "value": 999999,
+      "digits": 6,
+      "conservative_left": 665.0,
+      "gap": 43.25,
+      "steps": 64
+    },
+    {
+      "label": "Kills each:",
+      "value": 9999999,
+      "digits": 7,
+      "conservative_left": 648.0,
+      "gap": 26.25,
+      "steps": 71
+    },
+    {
+      "label": "Kills each:",
+      "value": 99999999,
+      "digits": 8,
+      "conservative_left": 631.0,
+      "gap": 9.25,
+      "steps": 78
+    },
+    {
+      "label": "EXP each:",
+      "value": 0,
+      "digits": 1,
+      "conservative_left": 750.0,
+      "gap": 134.375,
+      "steps": 22
+    },
+    {
+      "label": "EXP each:",
+      "value": 9,
+      "digits": 1,
+      "conservative_left": 750.0,
+      "gap": 134.375,
+      "steps": 29
+    },
+    {
+      "label": "EXP each:",
+      "value": 99,
+      "digits": 2,
+      "conservative_left": 733.0,
+      "gap": 117.375,
+      "steps": 36
+    },
+    {
+      "label": "EXP each:",
+      "value": 500,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 100.375,
+      "steps": 43
+    },
+    {
+      "label": "EXP each:",
+      "value": 750,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 100.375,
+      "steps": 43
+    },
+    {
+      "label": "EXP each:",
+      "value": 999,
+      "digits": 3,
+      "conservative_left": 716.0,
+      "gap": 100.375,
+      "steps": 43
+    },
+    {
+      "label": "EXP each:",
+      "value": 9999,
+      "digits": 4,
+      "conservative_left": 699.0,
+      "gap": 83.375,
+      "steps": 50
+    },
+    {
+      "label": "EXP each:",
+      "value": 99999,
+      "digits": 5,
+      "conservative_left": 682.0,
+      "gap": 66.375,
+      "steps": 57
+    },
+    {
+      "label": "EXP each:",
+      "value": 999999,
+      "digits": 6,
+      "conservative_left": 665.0,
+      "gap": 49.375,
+      "steps": 64
+    },
+    {
+      "label": "EXP each:",
+      "value": 9999999,
+      "digits": 7,
+      "conservative_left": 648.0,
+      "gap": 32.375,
+      "steps": 71
+    },
+    {
+      "label": "EXP each:",
+      "value": 99999999,
+      "digits": 8,
+      "conservative_left": 631.0,
+      "gap": 15.375,
+      "steps": 78
+    }
+  ],
+  "parent_proof_sha256": "01034c3b44a1d6bf2d706d57a03f014fe1c305b05ff43ec592a93b3a58c5fbf4",
+  "font_codes_advances_and_archive_unchanged": true,
+  "runtime_verified": false,
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.45\\Tengoku-hen-English-0.5.45.iso",
+    "bytes": 5289607168,
+    "sectors": 2582816,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "bc1edfb8c1a38a9190834b5ea0bbc1887cf4c6fa1ca8e404e54fa250d22d8c7e",
+    "version": "0.5.45",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.45",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTV_ALL_KEYWORD_DEF.CPK": "MTV_ALL_KEYWORD_DEF.CPK",
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP": "TROPHY.TRP"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "screenshots": [
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-564723e3-6b52-45c6-8e7b-b9d1e3ab8739.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review45-D-Command.png",
+      "sha256": "5e14fd690708883b8f96aa811527c6239d61ae3723a7f0f3234e369b56d3d323"
+    },
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-82224a29-b9aa-4419-a68e-0115cb246e82.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review45-palace.png",
+      "sha256": "80764c270f7e2c451630e7abb5c3dea563a3277494d9d68106af474c8a0c9bd5"
+    },
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-59537ca5-1d1c-46b8-ae49-7595b061e239.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review45-part.png",
+      "sha256": "c4e7bcfe97a05f27a6c00b8ea7303efb9c459866080db2a48da1649160ccc331"
+    },
+    {
+      "source": "C:\\Users\\Binh\\AppData\\Local\\Temp\\codex-clipboard-05615a0d-4c43-4823-af8f-20df4e52def2.png",
+      "saved_path": "E:\\Projects\\SRW Z3 2\\work\\ui\\screenshots\\reported-review45-narration.png",
+      "sha256": "c5742b8e410b76f7cf044ffd36f2c084c08fc88922b7c106c679e62a0d4df19f"
+    }
+  ]
+}

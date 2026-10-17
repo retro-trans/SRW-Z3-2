@@ -256,6 +256,10 @@ def plan(settings,mapping):
     rewards=json.loads(review44_text.DEST.read_text(encoding='utf8'))
     if rewards!=review44_text.plan():raise ValueError('Reward/deployment plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],rewards['edits'])
+    from tools import review45_text
+    commands=json.loads(review45_text.DEST.read_text(encoding='utf8'))
+    if commands!=review45_text.plan():raise ValueError('D-Command fitting plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],commands['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

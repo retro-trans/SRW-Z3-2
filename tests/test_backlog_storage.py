@@ -25,7 +25,10 @@ class BacklogStorage(unittest.TestCase):
         proof = A.verify(self.final)
         self.assertEqual(proof['corpus']['dialogue_entries'], 63553)
         self.assertEqual(proof['corpus']['entries_over_old_limit'], 204)
-        self.assertEqual(proof['corpus']['rows_over_old_limit'], 125)
+        # The palace caption is now two short lines; its former single line
+        # no longer belongs to the oversized-row corpus.
+        self.assertEqual(proof['corpus']['rows_over_old_limit'], 124)
+        self.assertFalse(any(rid == '628:t_1:3' for rid, _, _ in self.data['rows']))
         for ring in proof['native_ring_cases']:
             self.assertEqual(ring['ring_shifts'], 185)
             self.assertEqual(ring['reset_entries'], 20)

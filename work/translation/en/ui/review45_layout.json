@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "version": "0.5.45",
+  "source_member_sha256": "2432b3425ef264a10a311a6707f7963acd1cbe802868b07b702a51d9c62e8ad0",
+  "edits": [
+    {
+      "widget_offset": 578660,
+      "en": "　Upper Field\n　Tension MAX\n　Keep Combo\n　Dimension Call\n　Revive Chance\n　Full Miracle\n",
+      "blank_bullet": true,
+      "source_sha256": "a3ba9871c2b93a9adcdeb0f22f67dafbdcaa2596dbfc5d4632bc8ca94dd30b55",
+      "source_widget_sha256": "9b54fd7011e63521d322a8d2984cb0864059bf57cf933f65cb2c1b6e654ce2a0",
+      "notes": "Use the existing measurable 32-unit invisible prefix; preserve six rows, selection and disabled state."
+    }
+  ],
+  "help_captions": {
+    "b6c0f0d117e01112db0f": [
+      "・Upper Field",
+      "　Upper Field"
+    ],
+    "1018d2c50157a31e5790": [
+      "・Tension MAX",
+      "　Tension MAX"
+    ],
+    "52253a6819f2dae028a2": [
+      "・Keep Combo",
+      "　Keep Combo"
+    ],
+    "60b7d8788669b8045aa6": [
+      "・Dimension Call",
+      "　Dimension Call"
+    ],
+    "6233d9f88bdafb366cb4": [
+      "・Revive Chance",
+      "　Revive Chance"
+    ],
+    "db906cf4382c7491480c": [
+      "・Full Miracle",
+      "　Full Miracle"
+    ]
+  },
+  "footer": {
+    "ae8e934ffc4b1d6081d2": [
+      "During this phase, the Combo Gauge,",
+      "For this phase, the Combo Gauge will not drop"
+    ],
+    "23db5c6025b607a2f246": [
+      "which normally falls if an attack fails to destroy an enemy, will not fall even if you fail to destroy one.",
+      "if an attack fails to destroy an enemy."
+    ]
+  },
+  "bounds": [
+    {
+      "text": "Upper Field",
+      "width": 189.875,
+      "available_pixels": 320
+    },
+    {
+      "text": "Tension MAX",
+      "width": 206.5,
+      "available_pixels": 320
+    },
+    {
+      "text": "Keep Combo",
+      "width": 201.25,
+      "available_pixels": 320
+    },
+    {
+      "text": "Dimension Call",
+      "width": 234.5,
+      "available_pixels": 320
+    },
+    {
+      "text": "Revive Chance",
+      "width": 229.25,
+      "available_pixels": 320
+    },
+    {
+      "text": "Full Miracle",
+      "width": 190.75,
+      "available_pixels": 320
+    },
+    {
+      "id": "ae8e934ffc4b1d6081d2",
+      "text": "For this phase, the Combo Gauge will not drop",
+      "width": 639.625,
+      "available_pixels": 900
+    },
+    {
+      "id": "23db5c6025b607a2f246",
+      "text": "if an attack fails to destroy an enemy.",
+      "width": 516.25,
+      "available_pixels": 900
+    }
+  ],
+  "part": {
+    "english": "Hyperdim. Target Lock",
+    "left": 735,
+    "right": 1048.25,
+    "count_left": 1120
+  },
+  "narration": {
+    "id": "684670dcfb9171831342",
+    "english": "To honor the great contribution to the project's progress",
+    "limit_units": 800
+  },
+  "runtime_verified": false
+}

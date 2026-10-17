@@ -1,5 +1,19 @@
 # Tengoku-hen handoff
 
+## Current candidate — 0.5.45
+
+Four screenshots are addressed in `docs/SCREEN_FITTING_0.5.45.md`: D-Command
+bullet prefixes/help overflow, the palace location caption, the long Target
+Lock part name, and the clipped timed narration row. Include the preceding
+Chaos Caper correction in both dialogue references. Public testing remains
+on 0.5.44; prepare original and exact-0.5.44 Retro Trans routes. A new release
+or draft requires explicit user consent for 0.5.45.
+
+Use `tools/review45_text.py`, `tools/review45_build.py` and
+`tools/verify_review45.py`. Font archives, glyph allocation and advances remain
+identical to public 0.5.44. The narration uses its existing narrower alphabet
+without changing words or timing. In-game visual verification remains pending.
+
 ## Current public release — 0.5.44
 
 The latest three screenshots are addressed in `docs/REWARD_MENUS_0.5.44.md`:

@@ -72,7 +72,7 @@ def numeric_cases(elf):
     return cases
 
 
-def caption_cases(elf,b,hook):
+def caption_cases(elf,b,hook,expected_count=20,quad=31):
     """Selected native keys and preloaded English must reach the same origin."""
     from tools import ppc_exec as P
     from tools.ui_description_layout import advance
@@ -86,16 +86,16 @@ def caption_cases(elf,b,hook):
         for path,raw in (('selected-key',key),('preloaded',encoded)):
             for mode in (0,1):
                 mem.write(0x42000000,raw+b'\0');mem.write(0x41000000,bytes(0x2000))
-                for at in (0x54,0x5c):mem.write(0x41000000+at,struct.pack('>f',31))
+                for at in (0x54,0x5c):mem.write(0x41000000+at,struct.pack('>f',quad))
                 mem.write(0x410000ac,struct.pack('>H',mode));vm=P.Machine(mem)
                 vm.r=[0x770000+r for r in range(32)];vm.r[1]=0x40003f00;vm.r[2]=H.TOC;vm.r[3]=0x42000000;vm.r[7]=1;vm.r[8]=0
                 vm.f[1]=640;vm.f[2]=360;vm.f[3]=1.;vm.lr=0x152000
                 before=(vm.r[1],vm.r[2],vm.r[27:32],vm.lr);vm.pc=0x149bc;vm.run({0x14158},limit=50000)
-                expected=640-span*31/64
+                expected=640-span*quad/64
                 if abs(vm.f[1]-expected)>.0001:raise ValueError('Deployment caption origin differs: '+path+' '+text)
                 if (vm.f[2],vm.f[3])!=(360,1.)or(vm.r[1],vm.r[2],vm.r[27:32],vm.lr)!=before:raise ValueError('Caption changes caller state')
-                cases.append(dict(english=text,path=path,mode=mode,left=vm.f[1],width=span*31/32,center=640,steps=vm.steps))
-    if len(cases)!=20:raise ValueError('Deployment caption-state inventory changed')
+                cases.append(dict(english=text,path=path,mode=mode,left=vm.f[1],width=span*quad/32,center=640,steps=vm.steps))
+    if len(cases)!=expected_count:raise ValueError('Deployment caption-state inventory changed')
     return cases
 
 

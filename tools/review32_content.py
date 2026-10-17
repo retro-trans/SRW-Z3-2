@@ -14,6 +14,17 @@ def caption(text):
     if head.strip('　 ') or '$' in head:
         return None
     lines = body.split('\n')
+    occupied = [i for i, line in enumerate(lines) if line.strip('　 ')]
+    if (len(occupied) == 2 and occupied[1] == occupied[0]+1
+            and lines[occupied[0]].strip('　 ').startswith('～')
+            and lines[occupied[1]].strip('　 ').endswith('～')):
+        clean = [' '.join(lines[i].strip('　 ').split()) for i in occupied]
+        spans = [sum(map(W.advance, line)) for line in clean]
+        if any('$' in line for line in clean) or max(spans)>700:
+            raise ValueError('Two-line scene caption exceeds the portrait-safe profile')
+        for i, line, span in zip(occupied, clean, spans):
+            lines[i] = ' '*round((max(spans)-span)/2/W.advance(' '))+line
+        return [head]+lines, occupied[0]+1
     decorated = [i for i, line in enumerate(lines)
                  if line.strip('　 ').startswith('～') and line.strip('　 ').endswith('～')]
     if len(decorated) != 1 or any(line.strip('　 ') for i, line in enumerate(lines) if i not in decorated):
@@ -173,8 +184,9 @@ def origin_cases(elf, mapping, report, only_rows=None, quads=None):
         if entry['en'].partition('\n')[0].strip('　 '):continue
         expanded=L.expand(entry['en'],resolver); profile=caption(expanded)
         if profile:
-            lines,index=profile; raw=bytes.fromhex(mapping[CAPTION_MARK])+L.encode(lines[index],mapping)
-            rows.append((rid,raw,sum(map(W.advance,lines[index])),False))
+            lines,index=profile; text='\n'.join(lines[index:])
+            raw=bytes.fromhex(mapping[CAPTION_MARK])+L.encode(text,mapping)
+            rows.append((rid,raw,max(sum(map(W.advance,line)) for line in lines[index:]),False))
     for row,entry in zip(headlines(),hook_entries(H.PREPARED.read_bytes(),mapping)):
         rows.append((row['va'],entry['english'],max(row['spans']),True))
     if only_rows is not None:rows=only_rows

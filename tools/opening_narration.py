@@ -36,8 +36,12 @@ def profile(text):
     from tools.ui_description_layout import advance,condensed_advance
     if '\n' in text or '\\n' in text:
         raise ValueError('Opening narration must fit its single timed line')
-    if sum(map(advance,text))<=900:
+    # This timed row starts at x224 with a 40-pixel glyph quad. The former
+    # 900-unit allowance put its right edge at x1349; retain every word and
+    # use the already allocated condensed alphabet for this source-bound row.
+    limit = 800 if text == "To honor the great contribution to the project's progress" else 900
+    if sum(map(advance,text))<=limit:
         return text,False
-    if sum(map(condensed_advance,text))>900:
+    if sum(map(condensed_advance,text))>limit:
         raise ValueError('Opening narration must fit its single timed line')
     return text,True

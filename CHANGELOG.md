@@ -5,7 +5,7 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
-## 0.5.46 - 2026-10-17 (in preparation; publication requires consent)
+## 0.5.46 - 2026-10-17 (prepared; publication requires consent)
 
 - Use Herald / Heralds for the 御使い faction, with singular articles and plural references reviewed. Preserve Evangelion Angels, Aquarion Shadow Angels, the pilot Angel and Tenshi.
 - Correct the no-pilot name fallback encoding, preserving live pilot names and all unit stats.
@@ -20,6 +20,11 @@
 - Preserve the font archive, both font pages, font codes and letter advances.
   Verify all 82 ISO files through both filesystem trees. Image SHA-256:
   `fc812465c5f6974fda191ae702f29bddd384c7dfa0b4e0d1be2c96210df49036`.
+- Build and validate both complete-image Retro Trans 0.5.4 patch routes:
+  original Japanese ISO (204,177,498-byte patch) and exact public 0.5.44
+  (21,379,015-byte patch). Both reconstruct the verified target hash.
+  Seal all five delivery assets and record `work/ui/local_release_0.5.46.json`.
+  No GitHub release or draft has been created; live visual QA remains pending.
 
 ## 0.5.45 - 2026-10-17 (prepared; publication requires consent)
 

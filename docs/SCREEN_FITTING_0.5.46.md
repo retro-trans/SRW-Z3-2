@@ -44,3 +44,14 @@ ring preserves it with all other long entries. The historical 0.5.44 Library
 capitalization regression loads that build's recorded source commit, so it
 continues to isolate capitalization instead of mixing later Herald edits
 into the old fixture. No historical game data or snapshots are rewritten.
+
+Final delivery verification passed: 349 regression tests, one optional skip,
+21 installed UI lookups, 12 no-pilot/live-name cases, 572 native keyword
+consumer cases, 48 carried D-Command origins and three palace-caption origins.
+Readback covers 47 changed stage members, 37 changed Library entries, both
+actual keyword-popup variants and all 4,803 widget identities/styles.
+Both original and public-0.5.44 Retro Trans patches reconstruct the complete
+5,289,607,168-byte ISO with SHA-256
+`fc812465c5f6974fda191ae702f29bddd384c7dfa0b4e0d1be2c96210df49036`.
+Five delivery assets are sealed in the local readiness record. No GitHub
+release has been created. Runtime visual confirmation remains pending.

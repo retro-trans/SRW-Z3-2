@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.46'
+VERSION = '0.5.47'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -228,6 +228,9 @@ def plan(settings):
     review35_entries=review35_news.hook_entries(elf,mapping)
     hook_entries = list({e['key']:e for e in hook_entries+status_layout.hook_entries(elf,mapping)+battle_layout.hook_entries(elf,mapping)+category_ui.hook_entries(elf,mapping)+upgrade_entries+mission_entries+review26_entries+review27_entries+review30_entries+review32_entries+review33_entries+review35_entries}.values())
     hook_entries=list({e['key']:e for e in hook_entries+review42_news.hook_entries(elf,mapping)}.values())
+    from tools import review47_messages
+    purchase47=review47_messages.hook_entries(elf,mapping)
+    hook_entries=list({e['key']:e for e in hook_entries+purchase47}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -356,6 +359,7 @@ def plan(settings):
     summary['latin_font'] = profile()
     summary['title_screen'] = eff_plan['report']['title_screen']
     summary['scenario_chart'] = eff_plan['report']['scenario_chart']
+    summary['purchase_questions']=dict(review47_messages.report(elf),hook_keys=len(purchase47))
     return dict(summary=summary, mapping=mapping, drawn=drawn, pages=pages, rpw=rpw, edits=edits,
                 executable=executable, font_path=font_path, rpw_path=rpw_path, members=members,
                 expected=expected, settings=settings, stage_members=stage_members,

@@ -16,6 +16,7 @@ incoming - outside files that need agent to look into
 - Consider using https://github.com/nationalsecurityagency/ghidra if applicable
 
 ** REMEMBER **
+- Canonical character spellings requested on 2026-10-17: Lowen (not Leben), Schlan (not Schran), including full names and linked dialogue/Library references. Preserve these spellings during proofreading.
 - Canonical faction terminology requested on 2026-10-17: 御使い is Herald (singular), Heralds (plural). Preserve Evangelion Angels, Aquarion Shadow Angels / 天翅, the pilot Angel and Tenshi as distinct terms.
 - Canonical mech spelling requested on 2026-10-16: Chaos Caper, not Chaos Kapel. Preserve it in dialogue and during proofreading.
 - Canonical capitalization requested on 2026-10-15: Colony Laser, including scene headings and running speech. Preserve both capitals during proofreading.

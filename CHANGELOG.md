@@ -5,6 +5,16 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.47 - 2026-10-17 (prepared; publication requires consent)
+
+- Use Lowen and Schlan, including full-name aliases, linked dialogue and Library references.
+- Translate the assembled D-Trader purchase sentence for all Power Part names, including names already translated by the RPW getter. Preserve the confirmation question and purchase behavior.
+- Give every generic Yes/No state explicit English with matching grey and selected-word origins, retaining native colors and selection behavior.
+- Fit the map command as `Sphere Act`; leave the explanatory ability descriptions intact.
+- Carry all prepared 0.5.45 and 0.5.46 changes. The two purchase screenshots are identical. In-game visual confirmation remains pending.
+- Pass 353 regression tests with one optional check skipped. Preserve font artwork, allocation and advances. Verify all 82 ISO files in both filesystem trees. Image SHA-256: `7d8c0842d2a7f4602c160cf268c359fa62b4ed7e4da9b2d630213a80c4cf5359`. Retro Trans patch preparation and validation follow the final readback; publication remains pending explicit consent.
+- Read back 156 installed purchase lookups, 156 native constructor cases, 316 native caption centers, 24 choice origins, all 4,803 widgets, three affected dialogue records, three changed Library keyword entries and six native name lookups. Actual keyword-popup data and 572 native keyword consumers pass, as do the twelve carried no-pilot/live-name cases.
+
 ## 0.5.46 - 2026-10-17 (prepared; publication requires consent)
 
 - Use Herald / Heralds for the 御使い faction, with singular articles and plural references reviewed. Preserve Evangelion Angels, Aquarion Shadow Angels, the pilot Angel and Tenshi.

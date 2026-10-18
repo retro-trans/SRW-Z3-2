@@ -13,6 +13,8 @@
 - Audit all 129 Tengoku titles across 163 titled stage records, the broader 342-title catalog (682 records), 128 translated title-card textures, the existing English card and the separate final-stage texture. No catalog title remains untranslated. In-game visual confirmation remains pending.
 - Carry all prepared 0.5.45–0.5.47 corrections and preserve font artwork, character allocation and letter advances. Public delivery and verification are recorded separately below when complete.
 - Pass 357 regression tests with one optional check skipped (358 run). Read back 1,542 name/title keys, 326 native stage-prefix cases, 1,464 native caption origins and all 4,803 widgets. Preserve all 19,576 prior lookup pointers and English payloads.
+- Verify all 82 image files in both filesystem trees. Image SHA-256: `2bcf561802d5d1fd29d13b8b75df6824010a5537a0bb2821ab7812232b6df184`. Live RPCS3 visual confirmation remains pending.
+- Build and validate both complete-image Retro Trans 0.5.4 patch routes: original Japanese ISO (204,201,400-byte patch) and exact public 0.5.44 (21,403,650-byte patch). Both reconstruct the verified target hash. Seal all five assets in `work/ui/local_release_0.5.48.json`. No GitHub release or draft has been created; publication requires explicit consent.
 
 ## 0.5.47 - 2026-10-17 (prepared; publication requires consent)
 

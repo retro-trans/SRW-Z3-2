@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "version": "0.5.48",
+  "publication": "pending_explicit_user_consent",
+  "github_release_created": false,
+  "runtime_verified": false,
+  "source_commit": "fff19b319dc35a6ec4b7e69e28fdeef5d98f0299",
+  "release_tool_version": "0.5.4",
+  "release_tool_commit": "8edfb2e1c0d0c74df67107d80803177cc5939079",
+  "iso": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.48\\Tengoku-hen-English-0.5.48.iso",
+    "bytes": 5289607168,
+    "sectors": 2582816,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "2bcf561802d5d1fd29d13b8b75df6824010a5537a0bb2821ab7812232b6df184",
+    "version": "0.5.48",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.48",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTV_ALL_KEYWORD_DEF.CPK": "MTV_ALL_KEYWORD_DEF.CPK",
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP": "TROPHY.TRP"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "manifest": {
+    "game_id": "srw-z3-tengoku-ps3",
+    "game_name": "Super Robot Taisen Z3: Tengoku-hen (PS3)",
+    "platform": "PS3",
+    "version": "0.5.48",
+    "source_commit": "fff19b319dc35a6ec4b7e69e28fdeef5d98f0299",
+    "schema_version": 1,
+    "patches": [
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.48-from-original.xdelta",
+        "edition": "jp-bljs10299",
+        "language": "en",
+        "source_version": "original",
+        "source_format": "iso",
+        "target_format": "iso",
+        "source_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+        "source_bytes": 4888199168,
+        "target_sha256": "2bcf561802d5d1fd29d13b8b75df6824010a5537a0bb2821ab7812232b6df184",
+        "target_bytes": 5289607168,
+        "patch_sha256": "35a5db0493dcc3dd615ad8224b294758a6c6ce5f07c35fe3c1fae5445dac78ef",
+        "patch_bytes": 204201400
+      },
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.48-from-0.5.44.xdelta",
+        "edition": "jp-bljs10299",
+        "language": "en",
+        "source_version": "0.5.44",
+        "source_format": "iso",
+        "target_format": "iso",
+        "source_sha256": "80d6b7f92ae584ecd78994bc1ab7c83abef0d3a302ee826d2b770cd61101c9dd",
+        "source_bytes": 5289607168,
+        "target_sha256": "2bcf561802d5d1fd29d13b8b75df6824010a5537a0bb2821ab7812232b6df184",
+        "target_bytes": 5289607168,
+        "patch_sha256": "a9d1ea9da22ebfb131596b9b5d3c37a30d95306a247d802cf37b8bf86d0e1058",
+        "patch_bytes": 21403650
+      }
+    ]
+  },
+  "validation": {
+    "schema_version": 1,
+    "manifest_sha256": "229d6de3abdf92664df432570689651016e9f5032fd0f566fc2dec2c2dcd7943",
+    "patches": [
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.48-from-original.xdelta",
+        "roundtrip_verified": true,
+        "target_sha256": "2bcf561802d5d1fd29d13b8b75df6824010a5537a0bb2821ab7812232b6df184"
+      },
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.48-from-0.5.44.xdelta",
+        "roundtrip_verified": true,
+        "target_sha256": "2bcf561802d5d1fd29d13b8b75df6824010a5537a0bb2821ab7812232b6df184"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 1449,
+      "sha256": "229d6de3abdf92664df432570689651016e9f5032fd0f566fc2dec2c2dcd7943"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 400,
+      "sha256": "a263eaaa5db4d0bcb8eecf500ed5eb609549c7a3adafccf3ce79f011b71924ae"
+    },
+    {
+      "name": "SRW-Z3-2-PS3-English-0.5.48-from-0.5.44.xdelta",
+      "bytes": 21403650,
+      "sha256": "a9d1ea9da22ebfb131596b9b5d3c37a30d95306a247d802cf37b8bf86d0e1058"
+    },
+    {
+      "name": "SRW-Z3-2-PS3-English-0.5.48-from-original.xdelta",
+      "bytes": 204201400,
+      "sha256": "35a5db0493dcc3dd615ad8224b294758a6c6ce5f07c35fe3c1fae5445dac78ef"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 540,
+      "sha256": "814dfe94a0efb8f8705f20c8809f9afbe2caef82b12381b7f2b0553f60a8bf85"
+    }
+  ],
+  "regression_tests": {
+    "run": 358,
+    "passed": 357,
+    "skipped": 1
+  },
+  "final_readback_sha256": "c8cb4c2a4f1c54b6845910d7075cc37dd1b72168fb599048167b0fce71b795de"
+}

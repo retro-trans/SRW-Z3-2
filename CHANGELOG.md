@@ -5,6 +5,15 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.48 - 2026-10-18 (prepared; publication requires consent)
+
+- Replace the native separator in translated pilot full names with a space, including `Asakim Dowin`. Bind complete default names from the active name table; preserve custom names and punctuation elsewhere.
+- Align the weapon requirement warning's orange emphasis with the same word in its complete English sentence, retaining native colors and row geometry.
+- Translate composed headings for every titled Tengoku stage record, including both prologues and all four final-stage variants. The reported heading is `Final Episode: World Without End`.
+- Audit all 129 Tengoku titles across 163 titled stage records, the broader 342-title catalog (682 records), 128 translated title-card textures, the existing English card and the separate final-stage texture. No catalog title remains untranslated. In-game visual confirmation remains pending.
+- Carry all prepared 0.5.45–0.5.47 corrections and preserve font artwork, character allocation and letter advances. Public delivery and verification are recorded separately below when complete.
+- Pass 357 regression tests with one optional check skipped (358 run). Read back 1,542 name/title keys, 326 native stage-prefix cases, 1,464 native caption origins and all 4,803 widgets. Preserve all 19,576 prior lookup pointers and English payloads.
+
 ## 0.5.47 - 2026-10-17 (prepared; publication requires consent)
 
 - Use Lowen and Schlan, including full-name aliases, linked dialogue and Library references.

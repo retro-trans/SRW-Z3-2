@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.47'
+VERSION = '0.5.48'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -231,6 +231,8 @@ def plan(settings):
     from tools import review47_messages
     purchase47=review47_messages.hook_entries(elf,mapping)
     hook_entries=list({e['key']:e for e in hook_entries+purchase47}.values())
+    from tools import review48_content
+    hook_entries=list({e['key']:e for e in hook_entries+review48_content.hook_entries(elf,mapping)}.values())
     from tools import ui_description_layout
     grouped_ui, translated_ui = ui_catalog.checked()
     expanded_report['description_layout'] = ui_description_layout.report(grouped_ui,translated_ui,resolver)
@@ -360,6 +362,7 @@ def plan(settings):
     summary['title_screen'] = eff_plan['report']['title_screen']
     summary['scenario_chart'] = eff_plan['report']['scenario_chart']
     summary['purchase_questions']=dict(review47_messages.report(elf),hook_keys=len(purchase47))
+    summary['stage_heading_coverage']=review48_content.report()
     return dict(summary=summary, mapping=mapping, drawn=drawn, pages=pages, rpw=rpw, edits=edits,
                 executable=executable, font_path=font_path, rpw_path=rpw_path, members=members,
                 expected=expected, settings=settings, stage_members=stage_members,

@@ -31,6 +31,7 @@ def plan(version):
     if version=='0.5.44':proof=ROOT/'work/ui'/('review44_verified_'+version+'.json')
     if version=='0.5.46':proof=ROOT/'work/ui'/('review46_verified_'+version+'.json')
     if version=='0.5.47':proof=ROOT/'work/ui'/('review47_verified_'+version+'.json')
+    if version=='0.5.48':proof=ROOT/'work/ui'/('review48_verified_'+version+'.json')
     if version=='0.5.45':proof=ROOT/'work/ui'/('review45_verified_'+version+'.json')
     evidence=json.loads(proof.read_text(encoding='utf8'))
     if evidence['iso_verification']!=image:raise ValueError('Release/readback ISO mismatch')
@@ -39,14 +40,14 @@ def plan(version):
     source_versions={p['source_version']for p in manifest['patches']}
     previous_public='0.5.28' if version in ('0.5.29','0.5.30','0.5.31','0.5.32','0.5.33','0.5.34','0.5.35','0.5.36','0.5.37','0.5.38','0.5.39','0.5.40') else '0.5.18'
     if version in ('0.5.41','0.5.42','0.5.43','0.5.44'):previous_public='0.5.40'
-    if version in ('0.5.45','0.5.46','0.5.47'):previous_public='0.5.44'
+    if version in ('0.5.45','0.5.46','0.5.47','0.5.48'):previous_public='0.5.44'
     if source_versions!={'original',previous_public}:raise ValueError('Upgrade source must be the current public release')
     if version in ('0.5.42','0.5.43','0.5.44'):
         public=json.loads((ROOT/'work/output/iso/0.5.40/Tengoku-hen-English-0.5.40.json').read_text('utf8'))
         source_hashes={'original':image['source_iso_sha256'],'0.5.40':public['sha256']}
         if any(p['source_sha256']!=source_hashes[p['source_version']]for p in manifest['patches']):
             raise ValueError('Patch input hash differs from the original/public release')
-    if version in ('0.5.45','0.5.46','0.5.47'):
+    if version in ('0.5.45','0.5.46','0.5.47','0.5.48'):
         public=json.loads((ROOT/'work/output/iso/0.5.44/Tengoku-hen-English-0.5.44.json').read_text('utf8'))
         source_hashes={'original':image['source_iso_sha256'],'0.5.44':public['sha256']}
         if any(p['source_sha256']!=source_hashes[p['source_version']] for p in manifest['patches']):

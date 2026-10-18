@@ -268,6 +268,10 @@ def plan(settings,mapping):
     screenshot47=json.loads(review47_text.DEST.read_text(encoding='utf8'))
     if screenshot47!=review47_text.plan():raise ValueError('Review47 screenshot layout plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],screenshot47['edits'])
+    from tools import review48_text
+    screenshot48=json.loads(review48_text.DEST.read_text(encoding='utf8'))
+    if screenshot48!=review48_text.plan():raise ValueError('Review48 screenshot layout plan is stale')
+    catalog['edits']=status_layout.merge(catalog['edits'],screenshot48['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

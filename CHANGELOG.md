@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- 2026-10-21: record a reported CFW PS3 launch failure on a file named 0.5.44 (`80010017`), plus a separate manager error referencing `.iso.ntfs[PS3ISO]` under `/dev_hdd0/tmp/mmtmp/`. Inspect both 0.5.44 and prepared 0.5.48 EBOOTs: both are plain ELF, matching the documented RPCS3-only packaging limitation. A console SELF wrapper is still missing; the photos do not establish this as the only cause. Preserve the two photos and evidence in `incoming/2026-10-21-cfw-boot-report/report.json`. Exact firmware, manager, image checksum and unpatched-game control test remain unconfirmed. No build assets changed.
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 

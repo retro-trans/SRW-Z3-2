@@ -21,6 +21,11 @@ The prepared **0.5.45** candidate addresses four additional text-fitting
 reports and includes Chaos Caper. See [the corrections](docs/SCREEN_FITTING_0.5.45.md).
 Its public release requires separate explicit consent.
 
+The **0.5.51** candidate translates the complete DLC menu text category and
+fixes its label overlaps, summary width and native confirmation text. It
+carries 0.5.50 and works with DLC 0.5.49. See [DLC menu corrections](docs/DLC_MENU_0.5.51.md).
+Publication requires separate explicit consent.
+
 The **0.5.50** test candidate centers all 197 timed narration lines, including
 the reported DLC scene. It preserves wording, font choices and timing and
 carries the 0.5.48 corrections. See [narration alignment](docs/NARRATION_ALIGNMENT_0.5.50.md).

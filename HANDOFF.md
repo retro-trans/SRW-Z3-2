@@ -1,6 +1,32 @@
 # Tengoku-hen handoff
 
-## Current base-game candidate — 0.5.50
+## Current base-game candidate — 0.5.51
+
+The DLC menu correction uses `tools/review51_text.py`, `review51_native.py`,
+`review51_build.py` and `verify_review51.py`. All 74 source-bound category
+records were reviewed: 35 summaries, 29 prompt fragments, nine menu states and one rules notice.
+There are 63 new row lookups, all 40 native-dialog titles and 60 reward names.
+Five pack description labels are separately audited and verified in English.
+The full native constructor check exercises 70 launch/claim combinations.
+See `docs/DLC_MENU_0.5.51.md` and `docs/RELEASE_0.5.51.md`.
+
+Build carries 0.5.50, all original text payloads and unchanged font bytes.
+Only EBOOT, UI member 0 and version artwork change. New native adapters use
+an empty LOAD as read/execute memory; data grows 64 KiB. No writable/executable
+memory or mission-table edits. Native system strings stay real UTF-8.
+
+Use the requested local installer only after final image proof and RPCS3 is
+closed. The user confirmed RPCS3 is closed for this update. No release
+creation/publication is authorized. Full delivery evidence is recorded when
+complete; do not claim live visual verification from native checks.
+
+The full regression passed: 372 tests run, 370 passed, two optional independent
+checks skipped. Log: `work/output/scratch/startup-0.5.51-tests.log`.
+The final image at `work/output/iso/0.5.51/Tengoku-hen-English-0.5.51.iso`
+verifies all 82 files through both filesystem trees. SHA-256:
+`ece8ec2f3ba945329d13bbf8170703f55b9896622990a04a99437698765fb0f9`.
+
+## Previous base-game candidate — 0.5.50
 
 The reported DLC narration is a shared AID timed-caption page (member 30).
 Use `tools/narration_alignment.py`, `tools/review50_build.py` and

@@ -60,6 +60,9 @@ def fssa_patch(source, edits, mapping, element_edits=()):
             if edit['mode'] != source[at+23]&~0x40:
                 raise ValueError('Only native count-centering may be cleared')
             out[at+grow+23]=edit['mode']
+        if 'font_quad' in edit:
+            if not 16<=edit['font_quad']<=source[at+19]:raise ValueError('Invalid reduced widget glyph quad')
+            out[at+grow+19]=edit['font_quad']
     element_start,element_end=struct.unpack_from('>II',source,0x50)
     for edit in element_edits:
         at=edit['element_offset']
@@ -113,6 +116,9 @@ def verify_fssa(source,out,edits,mapping,element_edits=()):
         if 'mode' in edit:
             if out[at+grow+23]!=edit['mode']:raise ValueError('FSSA mode readback failed')
             restored[at+23]=source[at+23]
+        if 'font_quad' in edit:
+            if out[at+grow+19]!=edit['font_quad']:raise ValueError('Widget glyph quad readback failed')
+            restored[at+19]=source[at+19]
     for edit in element_edits:
         at=edit['element_offset']
         if out[at+grow:at+grow+4]!=struct.pack('>f',edit['x']):
@@ -272,6 +278,9 @@ def plan(settings,mapping):
     screenshot48=json.loads(review48_text.DEST.read_text(encoding='utf8'))
     if screenshot48!=review48_text.plan():raise ValueError('Review48 screenshot layout plan is stale')
     catalog['edits']=status_layout.merge(catalog['edits'],screenshot48['edits'])
+    from tools import review51_text
+    review51_text.checked()
+    catalog['edits']=status_layout.merge(catalog['edits'],review51_text.layout()['edits'])
     art = aid_art.plan(settings)
     original = member(art['source_path'])
     if sha256(original)!=catalog['source_member_sha256']:

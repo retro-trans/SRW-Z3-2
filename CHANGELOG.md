@@ -6,6 +6,15 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.51 - 2026-11-06 (prepared; publication requires consent)
+
+- Translate and bind the complete 74-entry bonus-scenario menu category: 35 summaries, 29 prompt/fragment records, nine menu states and one rules notice. Include connection, entitlement and purchase messages found during the wider scan. Add 63 distinct split-row lookups; preserve complete wording and restore one synopsis clause to its original row. Center each rules row using the installed scene marker.
+- Separate the overlapping episode/status and synopsis/reward columns with shorter labels. Fit complete summary rows with a 27-pixel quad and the existing condensed alphabet where necessary; preserve font assets, row pitch, vertical positions and colors.
+- Relocate native UTF-8 prompts and add DLC-only adapters for all 40 menu titles and 60 reward names. Audit the five pack-description labels separately. Preserve original mission tables, amounts, control/format operands and choice behavior. Keep all old lookup payloads intact and use a separate read/execute LOAD for adapter code. See `docs/DLC_MENU_0.5.51.md`.
+- Carry 0.5.50 narration alignment and DLC 0.5.49 unchanged. Prepare image, native execution, regression and Retro Trans validation before recording delivery complete. No GitHub release is authorized.
+- Pass the full 372-test regression: 370 passed, two optional independent checks skipped. Execute all 70 launch/claim combinations, all five pack-title conversions, 29 native prompt consumers, nine menu states and the four rules-row copies/origins. Confirm unknown title/part inputs retain their original paths.
+- Verify all 82 ISO files through both filesystem trees. The complete 0.5.51 image is 5,289,738,240 bytes; SHA-256 `ece8ec2f3ba945329d13bbf8170703f55b9896622990a04a99437698765fb0f9`. Keep in-game visual confirmation separate from native execution and file verification.
+
 ## 0.5.50 - 2026-11-06 (prepared; publication requires consent)
 
 - Center all 197 timed narration rows using measured English glyph widths, including the DLC page beginning “Before the overwhelming military might of the New Earth Empire.” Preserve all wording, fonts, vertical positions and timing; remove only obsolete decorative padding from the encoded captions.

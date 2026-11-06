@@ -27,7 +27,7 @@ from tools.library_text import GLOSSARY, load_library, load_translations, check
 from tools.source_text import library_fields
 from tools.dialogue import stage_members as dlg_stage_members
 
-VERSION = '0.5.50'
+VERSION = '0.5.51'
 LIBRARY = {kind: lc.MTDATA + 'MTZKN_%s.CPK' % code for kind, (code, _) in lc.KINDS.items()}
 
 
@@ -312,6 +312,9 @@ def plan(settings):
     fallback46['execution'] = review46_fallback.native_cases(executable)
     exec_report['no_pilot_fallback'] = fallback46
     for key in ('used_bytes','headroom_bytes'):exec_report['ui_hook']['table'][key]=fallback46[key]
+    from tools import review51_build
+    executable,dlc_menu_report=review51_build.executable(executable,dict(mapping=mapping,executable=exec_report))
+    for key in ('entries','used_bytes','ext_size','headroom_bytes'):exec_report['ui_hook']['table'][key]=dlc_menu_report[key]
     exec_report['output_sha256'] = sha256(executable)
     # Texture art (docs/TEXTURES.md): title cards and map badges, never the font pages.
     from tools import texture_art
@@ -363,6 +366,7 @@ def plan(settings):
     summary['scenario_chart'] = eff_plan['report']['scenario_chart']
     summary['purchase_questions']=dict(review47_messages.report(elf),hook_keys=len(purchase47))
     summary['stage_heading_coverage']=review48_content.report()
+    summary['dlc_menu']=dlc_menu_report
     return dict(summary=summary, mapping=mapping, drawn=drawn, pages=pages, rpw=rpw, edits=edits,
                 executable=executable, font_path=font_path, rpw_path=rpw_path, members=members,
                 expected=expected, settings=settings, stage_members=stage_members,

@@ -31,10 +31,14 @@ def plan(emulator,user,base_version='0.5.48'):
    shared[name]=dict(source=path,target=installed/name,sha256=digest,kind='metadata')
  if len(build['packages'])!=32:raise ValueError('Expected all 32 DLCs')
  files.extend(shared.values())
- if base_version not in ('0.5.48','0.5.50'):raise ValueError('Unsupported verified base version')
+ if base_version not in ('0.5.48','0.5.50','0.5.51'):raise ValueError('Unsupported verified base version')
  base=ROOT/f'work/output/iso/{base_version}/Tengoku-hen-English-{base_version}.iso'
  base_ready=ROOT/f'work/ui/local_release_{base_version}.json'
  if base_ready.exists():expected_image=json.loads(base_ready.read_text('utf8'))['iso']
+ elif base_version=='0.5.51':
+  candidate=json.loads((ROOT/'work/ui/review51_verified_0.5.51.json').read_text('utf8'))
+  if candidate['category_entries']!=74 or len(candidate['native_confirmation_cases'])!=70 or not candidate['fonts_and_narration_unchanged']:raise ValueError('Local DLC menu candidate is not verified')
+  expected_image=candidate['iso_verification']
  elif base_version=='0.5.50':
   candidate=json.loads((ROOT/'work/ui/review50_verified_0.5.50.json').read_text('utf8'))
   if candidate['source_rows']!=197 or len(candidate['native_caption_origins'])!=394 or not candidate['font_codes_artwork_and_advances_unchanged']:raise ValueError('Local narration candidate is not verified')

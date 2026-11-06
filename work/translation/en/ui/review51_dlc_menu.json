@@ -1,0 +1,390 @@
+{
+  "schema": 1,
+  "version": "0.5.51",
+  "rows": {
+    "0x893bd8": {
+      "en": "Undecided",
+      "source_sha256": "4b20dcc35ade8ab572ea65a041d40772e43d8b20601dc2e090501d20f2412ded",
+      "kind": "state"
+    },
+    "0x893be0": {
+      "en": "Buy",
+      "source_sha256": "a78fd552405817d7ed46474ea987856a31af3b5554936b72767b7b76ea0d3420",
+      "kind": "state"
+    },
+    "0x893be8": {
+      "en": "Download",
+      "source_sha256": "b85d7a94ae5775cf4becd9a65f79e5844d45d854bb92a29c88db65d609e6ff91",
+      "kind": "state"
+    },
+    "0x893c00": {
+      "en": "Delete",
+      "source_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "kind": "state"
+    },
+    "0x893c08": {
+      "en": "Condition Not Met",
+      "source_sha256": "5af26624a3073275ceff2bc226ed6fc4ee1c8964bdbae160d4230c3f6ad9719f",
+      "kind": "state"
+    },
+    "0x893c18": {
+      "en": "First Playthrough",
+      "source_sha256": "187d75ad49cc7673041192fabfd1fdfc77fd1d604862e353671bffd917ff1d55",
+      "kind": "state"
+    },
+    "0x893c28": {
+      "en": "Second Playthrough",
+      "source_sha256": "4129cee752e9bb412d0adf0fba8dfb97a47708e909600a29beaddc361809f03a",
+      "kind": "state"
+    },
+    "0x893c40": {
+      "en": "Bonus",
+      "source_sha256": "c45772aacc1f8bfbb8ee7ef3a2ec64ce44b78cd7268df2d487acec04510f38d3",
+      "kind": "state"
+    },
+    "0x893c50": {
+      "en": "For Fun",
+      "source_sha256": "f38937c13eccc6cc65818efb12a9d7a263df65bb728513116abd717e802038d4",
+      "kind": "state"
+    },
+    "0x893cb0": {
+      "en": "Connecting to PSN to retrieve purchased ticket information.",
+      "source_sha256": "4b0cb66849525b279b305b8bc10ca14600c916df5e8e23de6c7b1d1f80dd0f3a",
+      "kind": "prompt"
+    },
+    "0x893d08": {
+      "en": "Retrieving information on downloaded bonus scenarios.",
+      "source_sha256": "99cf79632521814665a1c8d94d126efc9d4c491fc5c277b31c0078833c2420c3",
+      "kind": "prompt"
+    },
+    "0x893d60": {
+      "en": "Connecting to the network",
+      "source_sha256": "0971868283e07b4cec3c9bc844c66f26b50bc21fdf5d9ea72a103d6a69dcfb0e",
+      "kind": "prompt"
+    },
+    "0x893d90": {
+      "en": "Retrieving ticket information",
+      "source_sha256": "46ea4b22265275f21e51d4a4e7210e323e3eaedd10b86e95cabe9c09e46cf790",
+      "kind": "prompt"
+    },
+    "0x893dc0": {
+      "en": "Checking access rights",
+      "source_sha256": "979a56228e0f85b06288ec14a6713353b4ec2993a6d51811ce7ee6cba31062f4",
+      "kind": "prompt"
+    },
+    "0x893e00": {
+      "en": "This menu requires an existing bonus scenario or access to PlayStation Store.",
+      "source_sha256": "d4e8b4b58c9aacec49c7bbbc4b2ed706faa1862029345113088ea69a45b6dfd5",
+      "kind": "prompt"
+    },
+    "0x893e90": {
+      "en": "』\nScenario Clear Bonus\n",
+      "source_sha256": "30c59f10b1e11131369ac33e601187e36aeaa44f189214c3a1bb49993597492b",
+      "kind": "prompt"
+    },
+    "0x893eb8": {
+      "en": "Funds: ",
+      "source_sha256": "9049a2f23e567c17657bc544e892a87ea453f171f92d362a0950fbdd30abc45a",
+      "kind": "prompt"
+    },
+    "0x893ed0": {
+      "en": "Z-Chips: ",
+      "source_sha256": "2a472997e3acc6a19747ece52248f546d28f45f28358fe7109fd057127c175a5",
+      "kind": "prompt"
+    },
+    "0x893ee8": {
+      "en": "Power Parts: ",
+      "source_sha256": "ebb6eca64a24bb104485db383da31cf7ac68f55fd9a815c5ac01304ea8a42a49",
+      "kind": "prompt"
+    },
+    "0x893f00": {
+      "en": "             ",
+      "source_sha256": "f7494ab0c691a527c7ad625819243f3dc1f645a389fb89be340dc2ec73fbc605",
+      "kind": "prompt"
+    },
+    "0x893f18": {
+      "en": "-----\n",
+      "source_sha256": "0ba8f4a7030d68caf4c2c7ae95272abd10ff9fc1973312c3b7879ec290f351f4",
+      "kind": "prompt"
+    },
+    "0x893f30": {
+      "en": "Connect to PlayStation Store to buy this scenario?\n",
+      "source_sha256": "16551b14cc5cc65a0f6f582b1056a8a56aa4e3a8008ae6a3edb769963c9fd4ed",
+      "kind": "prompt"
+    },
+    "0x893f88": {
+      "en": "This scenario has not been downloaded.\nOpen your Download List to download it?\n",
+      "source_sha256": "bf40c177b43040d6e32fdfd81dfdc2d5b3a10943815d84d0ec806ae829fe0a75",
+      "kind": "prompt"
+    },
+    "0x894018": {
+      "en": "This user does not have\naccess to this downloadable content.",
+      "source_sha256": "90728dd1d44c53d3577a1cd306da978097e3542c3956c24cf8d87cef3da904a6",
+      "kind": "prompt"
+    },
+    "0x894090": {
+      "en": "Scenario requirements not met.\nYou must clear Episode %d to play this scenario.",
+      "source_sha256": "71ad32b00d1a956b55f314a93470216f6573ae0060f66abb60d8a9d1554eaf0e",
+      "kind": "prompt"
+    },
+    "0x894120": {
+      "en": "Start this scenario?",
+      "source_sha256": "d720b27df583e6c68e9746b4602c89ce00fec0611246b5bd0efd95953efa805f",
+      "kind": "prompt"
+    },
+    "0x894150": {
+      "en": "Claim this bonus?",
+      "source_sha256": "a94d6c35f8eefb1199f4519680b87a443760ef4efb3bebcf554a4b7865a596b2",
+      "kind": "prompt"
+    },
+    "0x894180": {
+      "en": "Connect to PlayStation Store to buy this scenario pack?\n",
+      "source_sha256": "51c02f1d38562cbcf4c33a1d109afbe783a23103aae4ff71263f1facca23f807",
+      "kind": "prompt"
+    },
+    "0x8941e0": {
+      "en": "Select a product to buy.",
+      "source_sha256": "126c07f97b11683765ca70eb224f83b144d07b5d62eb8c932a74fbad6eb185cc",
+      "kind": "prompt"
+    },
+    "0x894228": {
+      "en": "Bonus Scenario \"%s\"",
+      "source_sha256": "c0bbaf03635bd8d4848ac42af626b14de679182a4009d0e49e295ad7ea7e58d0",
+      "kind": "prompt"
+    },
+    "0x894250": {
+      "en": "%s:  Includes \"%s\"",
+      "source_sha256": "ee2c239252ecfed38c5e0b11671ca974fffc4b824f61351f45c9bacbbcf01f60",
+      "kind": "prompt"
+    },
+    "0x894268": {
+      "en": "%s: Includes \"%s\"",
+      "source_sha256": "ab5dd4bd8edae17af0dfc2c643029799ce81b41b37b3b025ecdfebdfe71717e3",
+      "kind": "prompt"
+    },
+    "0x894280": {
+      "en": "1 Bonus Scenario - Single Item\n",
+      "source_sha256": "ac09c1c56be1062638abf0b76882b0af75e2d331ebbee96bfeeb155f7b7dab17",
+      "kind": "prompt"
+    },
+    "0x8942b0": {
+      "en": "6 bonus scenarios + 1 gift scenario (you already own %s of these).",
+      "source_sha256": "b184c36d88b26b22db845e1efe341a45c639ef85c601c02d6054a2f4d3de5532",
+      "kind": "prompt"
+    },
+    "0x894330": {
+      "en": "6 Bonus Scenarios + 1 Gift Scenario\n",
+      "source_sha256": "1066b49fb6a32875000a34290713cb46beb99e639fd30b11bf9d47e6da4b995c",
+      "kind": "prompt"
+    },
+    "0x894380": {
+      "en": "All 24 bonus scenarios + 5 gift scenarios (you already own %s of these).",
+      "source_sha256": "06d24bf9f5561649f625bb2f33f972706af85e1fe96357318e0e841ffb0ce2cd",
+      "kind": "prompt"
+    },
+    "0x894408": {
+      "en": "All 24 Bonus Scenarios + 5 Gift Scenarios\n",
+      "source_sha256": "39f2fea50e255f82b806717938baf18c74ea73f9e99056e5b5e221f726a35251",
+      "kind": "prompt"
+    },
+    "0x894470": {
+      "en": "Could not retrieve purchased ticket information.\nYou cannot download bonus scenarios you have bought.\nReopen this screen to retrieve your ticket information.\n",
+      "source_sha256": "f5c833f553558cc2c6a5841748ebeac82c4d069b4aa108cf01e6aa66b3f88cdc",
+      "kind": "prompt"
+    },
+    "0x896040": {
+      "en": "Units and pilots in Bonus Scenarios do not\nreflect main-story upgrades, levels, etc.\nTag Tension does not rise in Bonus Scenarios,\nbut tag teams start with Tag Tension at MAX.",
+      "source_sha256": "8e34f3b0c1fedf80dbd6de300c33bb76219036d1f7a8f12ea485ec7ab7e5acaf",
+      "kind": "rules"
+    },
+    "0x9efc38": {
+      "en": "The protagonist and Suzune infiltrate a New Earth Empire-held town to liberate it.\nBut mid-mission, under intense stress, Suzune...",
+      "source_sha256": "e8bb39edd3075f12d107b45e9c12b1be431f30245d67fc49fc146d2a53f8b602",
+      "kind": "synopsis"
+    },
+    "0x9efcc8": {
+      "en": "Kouji's little brother Shiro asks Shotaro and Watta to find a kitten.\nIn the shadows, villains biding their time are about to make a move.",
+      "source_sha256": "d854018f293721ce93bc5cebdc90647a45fd3ad4ed5b867d4fd622029104fff5",
+      "kind": "synopsis"
+    },
+    "0x9efd50": {
+      "en": "Late in the Time Prison War, Riddhe, aware of his destiny, chafes at Banagher.\nBefore his showdown with Char, Amuro trains the two and the young Newtypes.",
+      "source_sha256": "ecf97f79cc56fb0f877b5713e38491a3c0f09cef3166aca5780875a1959aefea",
+      "kind": "synopsis"
+    },
+    "0x9efe00": {
+      "en": "Sousuke, back at school at last, angers Kaname with his usual blunder.\nAs evil closes in on the now-alone Kaname, a strange animal (?) swoops in.",
+      "source_sha256": "1a603f6fd3f4c8e455da535f81baaff9db5dc2c5af257119ba74d151e8ad89b9",
+      "kind": "synopsis"
+    },
+    "0x9efe98": {
+      "en": "Wufei fights on in the resistance against the New Earth Empire's invasion.\nWhen he, bearing the people's pride, is cornered, kindred spirits appear.",
+      "source_sha256": "4cc1cdc67e0c3255a8a1ebee58de79c04fcb16f77ef9266be57cd831eff5743c",
+      "kind": "synopsis"
+    },
+    "0x9eff28": {
+      "en": "Kappei, bothered by Nono's words \"classic super robot pilot,\"\nseeks the answer and gets advice from Takeru and Noriko.",
+      "source_sha256": "63bda5c6789683b6107abb02bf379c674e7221b60a14046e017958f525f6a085",
+      "kind": "synopsis"
+    },
+    "0x9effc0": {
+      "en": "Zero intercepts a large New Earth Empire force bearing down on New Japan.\nAnd that man flies over Tokyo, now a battlefield, with his fiery sound.",
+      "source_sha256": "0060648cc704ae2f447b559f275d18b35ecb2bb049c46ba90de0be766c148d35",
+      "kind": "synopsis"
+    },
+    "0x9f0050": {
+      "en": "Enjoying a modest feast before the big battle, the group\nburns with rage at Giltar for attacking the resistance's food convoy.",
+      "source_sha256": "cf548f9ccdfc64e15ad9170612a85db4f87ca72977d700452eb037ab3ecea89c",
+      "kind": "synopsis"
+    },
+    "0x9f00c8": {
+      "en": "The resistance, beset by the Empire, cling to rumors of \"Beast\" and \"Wind.\"\nTo live up to their hopes, Team D and Team Dai-Gurren fight hard.",
+      "source_sha256": "75cda5b92be20e7707bb01cafb2bad51bbe6cf22de177ab5cc782a1e325eb925",
+      "kind": "synopsis"
+    },
+    "0x9f0158": {
+      "en": "Right after the Executor Incident in the UCW, still-distant Shinn and Kira\nand Kamille, worried about them both, run into a new Zeon.",
+      "source_sha256": "3704a2b558d084444465e632241aaa148c1542b65beb7848fa81b0b9bd774205",
+      "kind": "synopsis"
+    },
+    "0x9f01f0": {
+      "en": "After the Time Prison War, Chirico, without Fyana, has lost all purpose.\nOne day, in the Battling he keeps up out of habit, he meets Kei again.",
+      "source_sha256": "43577d82e8484ced2ad7e189c7985b77d52911423daa8979135230ec3d6a887b",
+      "kind": "synopsis"
+    },
+    "0x9f0288": {
+      "en": "To throw the Terminal Base under Sardias's command into chaos,\ncrew who normally stay off the front lines fight with their own skills.",
+      "source_sha256": "6444abc60d1c922acd0e72a0e61961f69e946b69752d7c11445bcdfc1eb8da3c",
+      "kind": "synopsis"
+    },
+    "0x9f0320": {
+      "en": "The Getter Team trains the Elements, who are shaken and dispirited.\nAkagi invites the emotionally scarred Shinji and the others to join.",
+      "source_sha256": "59e604aea6ceb3cdf13dacf9ff5047e3e63f68a98daa0ef1d69a8c92222ca5bf",
+      "kind": "synopsis"
+    },
+    "0x9f03a8": {
+      "en": "An accident befalls Ledo after his return to the Gargantia Fleet.\nIn a tight spot, how will Ledo and Chamber face the oncoming Sidereal?",
+      "source_sha256": "3c942b210e6e8791c9a128003211f61928f61b07473a7420ccc5b35178952053",
+      "kind": "synopsis"
+    },
+    "0x9f0440": {
+      "en": "Recalling the days after the Executor Incident, Loran and Garrod\ntell of their battle with mysterious mobile suits from the Mountain Cycle.",
+      "source_sha256": "96f3048ee37d57658b2250032bc795dbef8303d613a17671af90ee9fe06e6516",
+      "kind": "synopsis"
+    },
+    "0x9f04d0": {
+      "en": "Buster Machines have hearts and answer their pilots' feelings...\nTycho tells of vying with Nono for the Quatre-Vingt-Dix pilot's seat.",
+      "source_sha256": "70126cf77741b2e437144e9f63cfa4f371d713c5ae915f73f1feaad56401e35a",
+      "kind": "synopsis"
+    },
+    "0x9f0568": {
+      "en": "A chance incident pits S.M.S. against Mithril's SRT in a standoff.\nEach staking its own pride and honor, they take on the terrorists.",
+      "source_sha256": "fe4b796d24b67f9077e3bcb4ca4e75456591b5d3cf14e37de043b7971cfb4b23",
+      "kind": "synopsis"
+    },
+    "0x9f0600": {
+      "en": "Graham's group shields a civilian shuttle chased by the New Earth Empire.\nAboard it, they meet someone with deep ties to Setsuna.",
+      "source_sha256": "6af9359ad675d04e25b6631a06ca2edb946502bbdc3682bf27d55d1e80f24530",
+      "kind": "synopsis"
+    },
+    "0x9f0688": {
+      "en": "Roger and Banjo link the words \"a future of despair\" to Paradigm City.\nWith Apollo, they pursue the strange book \"Metropolis\" to learn the truth.",
+      "source_sha256": "f328f17422b1d411952fd8b3d6b47cb46fb67c49eb77fb78f8c34f35497a0b1c",
+      "kind": "synopsis"
+    },
+    "0x9f0720": {
+      "en": "To settle grudges from the Time Prison War, the women's pride collides.\nOnce again on a merciless field, Miss Combat... Miss Con for short, begins!",
+      "source_sha256": "54cf7f81af4dea83afe49f5a92a22b27195f87259357327297b731aaa8582d73",
+      "kind": "synopsis"
+    },
+    "0x9f07d0": {
+      "en": "A special simulation stage prepared by AG ahead of further battles.\nCan the group defeat the mighty old foes closing in across the land?",
+      "source_sha256": "777855e5f7ad38b92d95e165b90af02ed32e583d7da7b5227df246d3783fb0ac",
+      "kind": "synopsis"
+    },
+    "0x9f0880": {
+      "en": "A special simulation stage prepared by AG ahead of further battles.\nCan the group defeat the mighty old foes closing in across space?",
+      "source_sha256": "36c6ec0097efbc14e1fee8a42bf22afae5dfca5a028e521ab76b6f7c8e43ce97",
+      "kind": "synopsis"
+    },
+    "0x9f0920": {
+      "en": "Heading to Mars, Crowe's group encounters the Firebug remnants.\nBefore Marilyn Catto's grave, Firebug's final battle begins.",
+      "source_sha256": "1b6ed5fadcc75b6a2494655b44092362684e012c50c41c33803c5de750dfd2fc",
+      "kind": "synopsis"
+    },
+    "0x9f09c0": {
+      "en": "A super-special simulation stage prepared by AG before the final battle.\nCan the group defeat the mighty old foes who wield Dimensional Power?",
+      "source_sha256": "57d57666a24a6db47e8aea8e0666d6ccd2ccca1a660da626726b83211664d47d",
+      "kind": "synopsis"
+    },
+    "0x9f0a58": {
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 1.\nNow... what could be inside?",
+      "source_sha256": "3577539103f3c05492a34a93956437df495f1f1a10e6005f461d0514fa7c3318",
+      "kind": "synopsis"
+    },
+    "0x9f0ad0": {
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 2.\nNow... what could be inside?",
+      "source_sha256": "938b6f84c878d08a7a562c8201e1abd41beb46f1d86bd510505f55d28d1ba3da",
+      "kind": "synopsis"
+    },
+    "0x9f0b48": {
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 3.\nNow... what could be inside?",
+      "source_sha256": "028a78b3490f9707d5091d8a3977ba3aeecb1de3d5b57873553732f01e4fa6c2",
+      "kind": "synopsis"
+    },
+    "0x9f0bc0": {
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 4.\nNow... what could be inside?",
+      "source_sha256": "d335d7ede5c11014977efef38c8f0b869452071c640dcc94dc2aea696079c472",
+      "kind": "synopsis"
+    },
+    "0x9f0c40": {
+      "en": "A thank-you gift for players who purchased the Bonus Scenario Full Pack.\nNow... what could be inside?",
+      "source_sha256": "4cd4b3e4b0cb9b42fd62e67abad88871a5bf020522004213e895d990da13f888",
+      "kind": "synopsis"
+    },
+    "0x9f0cc0": {
+      "en": "A happy present from beyond the dimensions has arrived from AG.\nNow... what could be inside?",
+      "source_sha256": "42f23bf49cd4b9ac3234f5732023c80c6f09bfccc7fc9581e3d6e4d7aafb7fee",
+      "kind": "synopsis"
+    },
+    "0x9f0d28": {
+      "en": "A lucky present from beyond the dimensions has arrived from AG.\nNow... what could be inside?",
+      "source_sha256": "bf78c14c699a35ebd093abadd14b0d4c204409e713e0d0cf709f52b6218487c7",
+      "kind": "synopsis"
+    },
+    "0x9f0d90": {
+      "en": "A super present from beyond the dimensions has arrived from AG.\nNow... what could be inside?",
+      "source_sha256": "7aa8617f7c24509db168606a6734e6f4e637e246829a59dd89e85634f0f78fe2",
+      "kind": "synopsis"
+    },
+    "0x9f0df8": {
+      "en": "A wonderful present from beyond the dimensions has arrived from AG.\nNow... what could be inside?",
+      "source_sha256": "da8ec6cc15d63537179f7b5b00059f1201aeeed7c53a1747fd83dabd04a96889",
+      "kind": "synopsis"
+    },
+    "0x9f0e60": {
+      "en": "A premium present from beyond the dimensions has arrived from AG.\nNow... what could be inside?",
+      "source_sha256": "4c86757082fd5cbf57b1a308f63011a8f7675733acb6737846ac2f76f9ded2af",
+      "kind": "synopsis"
+    },
+    "0x9f0eb8": {
+      "en": "A present from beyond the dimensions has arrived from AG.\nNow... what could be inside?",
+      "source_sha256": "eee5e04009e6f1d23cd2c2052a3d31f3989f5b6743e1f5f07b39aba44d11f222",
+      "kind": "synopsis"
+    }
+  },
+  "meaning_review": {
+    "examined": 74,
+    "in_scope": 74,
+    "linguistic_entries": 72,
+    "synopses": 35,
+    "prompts": 29,
+    "menu_states": 9,
+    "rules": 1,
+    "corrections": [
+      "Restore the first synopsis purpose clause to its original first row."
+    ],
+    "new_terms": 0,
+    "uncertainties": []
+  }
+}

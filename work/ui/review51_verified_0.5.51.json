@@ -1,0 +1,1342 @@
+{
+  "schema": 1,
+  "version": "0.5.51",
+  "parent_version": "0.5.50",
+  "category_entries": 74,
+  "synopses": 35,
+  "prompts": 29,
+  "menu_states": 9,
+  "rules_notices": 1,
+  "draw_keys": 63,
+  "draw_bounds": [
+    {
+      "va": "0x896040",
+      "row": 0,
+      "en": "Units and pilots in Bonus Scenarios do not",
+      "condensed": false,
+      "width": 587.125,
+      "quad": 28,
+      "left": 346.4375
+    },
+    {
+      "va": "0x896040",
+      "row": 1,
+      "en": "reflect main-story upgrades, levels, etc.",
+      "condensed": false,
+      "width": 553.875,
+      "quad": 28,
+      "left": 363.0625
+    },
+    {
+      "va": "0x896040",
+      "row": 2,
+      "en": "Tag Tension does not rise in Bonus Scenarios,",
+      "condensed": false,
+      "width": 638.75,
+      "quad": 28,
+      "left": 320.625
+    },
+    {
+      "va": "0x896040",
+      "row": 3,
+      "en": "but tag teams start with Tag Tension at MAX.",
+      "condensed": false,
+      "width": 611.625,
+      "quad": 28,
+      "left": 334.1875
+    },
+    {
+      "va": "0x9efc38",
+      "row": 0,
+      "en": "The protagonist and Suzune infiltrate a New Earth Empire-held town to liberate it.",
+      "condensed": true,
+      "width": 918.84375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efc38",
+      "row": 1,
+      "en": "But mid-mission, under intense stress, Suzune...",
+      "condensed": false,
+      "width": 649.6875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efcc8",
+      "row": 0,
+      "en": "Kouji's little brother Shiro asks Shotaro and Watta to find a kitten.",
+      "condensed": false,
+      "width": 878.34375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efcc8",
+      "row": 1,
+      "en": "In the shadows, villains biding their time are about to make a move.",
+      "condensed": false,
+      "width": 893.53125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efd50",
+      "row": 0,
+      "en": "Late in the Time Prison War, Riddhe, aware of his destiny, chafes at Banagher.",
+      "condensed": true,
+      "width": 877.5,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efd50",
+      "row": 1,
+      "en": "Before his showdown with Char, Amuro trains the two and the young Newtypes.",
+      "condensed": true,
+      "width": 891.84375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efe00",
+      "row": 0,
+      "en": "Sousuke, back at school at last, angers Kaname with his usual blunder.",
+      "condensed": false,
+      "width": 941.625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efe00",
+      "row": 1,
+      "en": "As evil closes in on the now-alone Kaname, a strange animal (?) swoops in.",
+      "condensed": true,
+      "width": 842.0625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efe98",
+      "row": 0,
+      "en": "Wufei fights on in the resistance against the New Earth Empire's invasion.",
+      "condensed": true,
+      "width": 827.71875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9efe98",
+      "row": 1,
+      "en": "When he, bearing the people's pride, is cornered, kindred spirits appear.",
+      "condensed": true,
+      "width": 820.96875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9eff28",
+      "row": 0,
+      "en": "Kappei, bothered by Nono's words \"classic super robot pilot,\"",
+      "condensed": false,
+      "width": 826.875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9eff28",
+      "row": 1,
+      "en": "seeks the answer and gets advice from Takeru and Noriko.",
+      "condensed": false,
+      "width": 774.5625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9effc0",
+      "row": 0,
+      "en": "Zero intercepts a large New Earth Empire force bearing down on New Japan.",
+      "condensed": true,
+      "width": 858.9375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9effc0",
+      "row": 1,
+      "en": "And that man flies over Tokyo, now a battlefield, with his fiery sound.",
+      "condensed": false,
+      "width": 919.6875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0050",
+      "row": 0,
+      "en": "Enjoying a modest feast before the big battle, the group",
+      "condensed": false,
+      "width": 745.03125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0050",
+      "row": 1,
+      "en": "burns with rage at Giltar for attacking the resistance's food convoy.",
+      "condensed": false,
+      "width": 900.28125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f00c8",
+      "row": 0,
+      "en": "The resistance, beset by the Empire, cling to rumors of \"Beast\" and \"Wind.\"",
+      "condensed": true,
+      "width": 852.1875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f00c8",
+      "row": 1,
+      "en": "To live up to their hopes, Team D and Team Dai-Gurren fight hard.",
+      "condensed": false,
+      "width": 877.5,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0158",
+      "row": 0,
+      "en": "Right after the Executor Incident in the UCW, still-distant Shinn and Kira",
+      "condensed": true,
+      "width": 814.21875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0158",
+      "row": 1,
+      "en": "and Kamille, worried about them both, run into a new Zeon.",
+      "condensed": false,
+      "width": 788.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f01f0",
+      "row": 0,
+      "en": "After the Time Prison War, Chirico, without Fyana, has lost all purpose.",
+      "condensed": false,
+      "width": 943.3125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f01f0",
+      "row": 1,
+      "en": "One day, in the Battling he keeps up out of habit, he meets Kei again.",
+      "condensed": false,
+      "width": 918.84375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0288",
+      "row": 0,
+      "en": "To throw the Terminal Base under Sardias's command into chaos,",
+      "condensed": false,
+      "width": 868.21875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0288",
+      "row": 1,
+      "en": "crew who normally stay off the front lines fight with their own skills.",
+      "condensed": false,
+      "width": 902.8125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0320",
+      "row": 0,
+      "en": "The Getter Team trains the Elements, who are shaken and dispirited.",
+      "condensed": false,
+      "width": 908.71875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0320",
+      "row": 1,
+      "en": "Akagi invites the emotionally scarred Shinji and the others to join.",
+      "condensed": false,
+      "width": 880.03125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f03a8",
+      "row": 0,
+      "en": "An accident befalls Ledo after his return to the Gargantia Fleet.",
+      "condensed": false,
+      "width": 843.75,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f03a8",
+      "row": 1,
+      "en": "In a tight spot, how will Ledo and Chamber face the oncoming Sidereal?",
+      "condensed": false,
+      "width": 953.4375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0440",
+      "row": 0,
+      "en": "Recalling the days after the Executor Incident, Loran and Garrod",
+      "condensed": false,
+      "width": 858.9375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0440",
+      "row": 1,
+      "en": "tell of their battle with mysterious mobile suits from the Mountain Cycle.",
+      "condensed": true,
+      "width": 810.84375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f04d0",
+      "row": 0,
+      "en": "Buster Machines have hearts and answer their pilots' feelings...",
+      "condensed": false,
+      "width": 847.96875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f04d0",
+      "row": 1,
+      "en": "Tycho tells of vying with Nono for the Quatre-Vingt-Dix pilot's seat.",
+      "condensed": false,
+      "width": 898.59375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0568",
+      "row": 0,
+      "en": "A chance incident pits S.M.S. against Mithril's SRT in a standoff.",
+      "condensed": false,
+      "width": 856.40625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0568",
+      "row": 1,
+      "en": "Each staking its own pride and honor, they take on the terrorists.",
+      "condensed": false,
+      "width": 866.53125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0600",
+      "row": 0,
+      "en": "Graham's group shields a civilian shuttle chased by the New Earth Empire.",
+      "condensed": true,
+      "width": 832.78125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0600",
+      "row": 1,
+      "en": "Aboard it, they meet someone with deep ties to Setsuna.",
+      "condensed": false,
+      "width": 749.25,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0688",
+      "row": 0,
+      "en": "Roger and Banjo link the words \"a future of despair\" to Paradigm City.",
+      "condensed": false,
+      "width": 932.34375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0688",
+      "row": 1,
+      "en": "With Apollo, they pursue the strange book \"Metropolis\" to learn the truth.",
+      "condensed": true,
+      "width": 832.78125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0720",
+      "row": 0,
+      "en": "To settle grudges from the Time Prison War, the women's pride collides.",
+      "condensed": false,
+      "width": 958.5,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0720",
+      "row": 1,
+      "en": "Once again on a merciless field, Miss Combat... Miss Con for short, begins!",
+      "condensed": true,
+      "width": 842.0625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f07d0",
+      "row": 0,
+      "en": "A special simulation stage prepared by AG ahead of further battles.",
+      "condensed": false,
+      "width": 893.53125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f07d0",
+      "row": 1,
+      "en": "Can the group defeat the mighty old foes closing in across the land?",
+      "condensed": false,
+      "width": 909.5625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0880",
+      "row": 0,
+      "en": "A special simulation stage prepared by AG ahead of further battles.",
+      "condensed": false,
+      "width": 893.53125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0880",
+      "row": 1,
+      "en": "Can the group defeat the mighty old foes closing in across space?",
+      "condensed": false,
+      "width": 879.1875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0920",
+      "row": 0,
+      "en": "Heading to Mars, Crowe's group encounters the Firebug remnants.",
+      "condensed": false,
+      "width": 890.15625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0920",
+      "row": 1,
+      "en": "Before Marilyn Catto's grave, Firebug's final battle begins.",
+      "condensed": false,
+      "width": 782.15625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f09c0",
+      "row": 0,
+      "en": "A super-special simulation stage prepared by AG before the final battle.",
+      "condensed": false,
+      "width": 956.8125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f09c0",
+      "row": 1,
+      "en": "Can the group defeat the mighty old foes who wield Dimensional Power?",
+      "condensed": true,
+      "width": 814.21875,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0a58",
+      "row": 0,
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 1.",
+      "condensed": false,
+      "width": 898.59375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0a58",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0ad0",
+      "row": 0,
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 2.",
+      "condensed": false,
+      "width": 898.59375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0ad0",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0b48",
+      "row": 0,
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 3.",
+      "condensed": false,
+      "width": 898.59375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0b48",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0bc0",
+      "row": 0,
+      "en": "A thank-you gift for players who purchased Bonus Scenario Pack 4.",
+      "condensed": false,
+      "width": 898.59375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0bc0",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0c40",
+      "row": 0,
+      "en": "A thank-you gift for players who purchased the Bonus Scenario Full Pack.",
+      "condensed": true,
+      "width": 831.09375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0c40",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0cc0",
+      "row": 0,
+      "en": "A happy present from beyond the dimensions has arrived from AG.",
+      "condensed": false,
+      "width": 883.40625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0cc0",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0d28",
+      "row": 0,
+      "en": "A lucky present from beyond the dimensions has arrived from AG.",
+      "condensed": false,
+      "width": 873.28125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0d28",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0d90",
+      "row": 0,
+      "en": "A super present from beyond the dimensions has arrived from AG.",
+      "condensed": false,
+      "width": 878.34375,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0d90",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0df8",
+      "row": 0,
+      "en": "A wonderful present from beyond the dimensions has arrived from AG.",
+      "condensed": false,
+      "width": 936.5625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0df8",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0e60",
+      "row": 0,
+      "en": "A premium present from beyond the dimensions has arrived from AG.",
+      "condensed": false,
+      "width": 918.0,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0e60",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0eb8",
+      "row": 0,
+      "en": "A present from beyond the dimensions has arrived from AG.",
+      "condensed": false,
+      "width": 794.8125,
+      "quad": 27,
+      "left": 244
+    },
+    {
+      "va": "0x9f0eb8",
+      "row": 1,
+      "en": "Now... what could be inside?",
+      "condensed": false,
+      "width": 383.90625,
+      "quad": 27,
+      "left": 244
+    }
+  ],
+  "centered_rules_origins": [
+    {
+      "id": "review51:0x896040:0",
+      "quad": 28,
+      "span_units": 671,
+      "left": 346.4375,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1099
+    },
+    {
+      "id": "review51:0x896040:1",
+      "quad": 28,
+      "span_units": 633,
+      "left": 363.0625,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1075
+    },
+    {
+      "id": "review51:0x896040:2",
+      "quad": 28,
+      "span_units": 730,
+      "left": 320.625,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1171
+    },
+    {
+      "id": "review51:0x896040:3",
+      "quad": 28,
+      "span_units": 699,
+      "left": 334.1875,
+      "center": 640,
+      "two_lines": false,
+      "steps": 1147
+    }
+  ],
+  "native_rules_rows": 4,
+  "native_rules_steps": 498,
+  "menu_state_lookups": [
+    {
+      "va": "0x893bd8",
+      "en": "Undecided",
+      "steps": 135
+    },
+    {
+      "va": "0x893be0",
+      "en": "Buy",
+      "steps": 157
+    },
+    {
+      "va": "0x893be8",
+      "en": "Download",
+      "steps": 267
+    },
+    {
+      "va": "0x893c00",
+      "en": "Delete",
+      "steps": 135
+    },
+    {
+      "va": "0x893c08",
+      "en": "Condition Not Met",
+      "steps": 201
+    },
+    {
+      "va": "0x893c18",
+      "en": "First Playthrough",
+      "steps": 234
+    },
+    {
+      "va": "0x893c28",
+      "en": "Second Playthrough",
+      "steps": 267
+    },
+    {
+      "va": "0x893c40",
+      "en": "Bonus",
+      "steps": 201
+    },
+    {
+      "va": "0x893c50",
+      "en": "For Fun",
+      "steps": 135
+    }
+  ],
+  "native_utf8_prompts_verified": 29,
+  "native_confirmation_cases": [
+    {
+      "index": 0,
+      "claim": false,
+      "en": "『Suzune Blows Off Steam』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Cartridge\n             Flight Module\nStart this scenario?",
+      "bytes": 146,
+      "steps": 594
+    },
+    {
+      "index": 0,
+      "claim": true,
+      "en": "『Suzune Blows Off Steam』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Cartridge\n             Flight Module\nClaim this bonus?",
+      "bytes": 143,
+      "steps": 594
+    },
+    {
+      "index": 1,
+      "claim": false,
+      "en": "『Move Out, Boy Detectives』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Ikue's Snack\n             Adrenaline Ampule\nStart this scenario?",
+      "bytes": 155,
+      "steps": 640
+    },
+    {
+      "index": 1,
+      "claim": true,
+      "en": "『Move Out, Boy Detectives』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Ikue's Snack\n             Adrenaline Ampule\nClaim this bonus?",
+      "bytes": 152,
+      "steps": 640
+    },
+    {
+      "index": 2,
+      "claim": false,
+      "en": "『Door to a New Era』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Magnetic Coating\n             Hi-Spec Radar\nStart this scenario?",
+      "bytes": 148,
+      "steps": 482
+    },
+    {
+      "index": 2,
+      "claim": true,
+      "en": "『Door to a New Era』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Magnetic Coating\n             Hi-Spec Radar\nClaim this bonus?",
+      "bytes": 145,
+      "steps": 482
+    },
+    {
+      "index": 3,
+      "claim": false,
+      "en": "『Fumoffu Awakens』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Propellant Tank\n             Auxiliary ISC\nStart this scenario?",
+      "bytes": 145,
+      "steps": 544
+    },
+    {
+      "index": 3,
+      "claim": true,
+      "en": "『Fumoffu Awakens』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Propellant Tank\n             Auxiliary ISC\nClaim this bonus?",
+      "bytes": 142,
+      "steps": 544
+    },
+    {
+      "index": 4,
+      "claim": false,
+      "en": "『My Justice』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Repair Kit\n             A-Adapter\nStart this scenario?",
+      "bytes": 131,
+      "steps": 620
+    },
+    {
+      "index": 4,
+      "claim": true,
+      "en": "『My Justice』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Repair Kit\n             A-Adapter\nClaim this bonus?",
+      "bytes": 128,
+      "steps": 620
+    },
+    {
+      "index": 5,
+      "claim": false,
+      "en": "『Love, Courage, and Power』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Precision Sight Lens\n             Psychic Reactor\nStart this scenario?",
+      "bytes": 161,
+      "steps": 582
+    },
+    {
+      "index": 5,
+      "claim": true,
+      "en": "『Love, Courage, and Power』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Precision Sight Lens\n             Psychic Reactor\nClaim this bonus?",
+      "bytes": 158,
+      "steps": 582
+    },
+    {
+      "index": 6,
+      "claim": false,
+      "en": "『Fiery Live in Tokyo』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Booster\n             Fire Bomber's Disc\nStart this scenario?",
+      "bytes": 146,
+      "steps": 578
+    },
+    {
+      "index": 6,
+      "claim": true,
+      "en": "『Fiery Live in Tokyo』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Booster\n             Fire Bomber's Disc\nClaim this bonus?",
+      "bytes": 143,
+      "steps": 578
+    },
+    {
+      "index": 7,
+      "claim": false,
+      "en": "『No Fight, No Food』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Wakame Bread\n             Palladium Reactor\nStart this scenario?",
+      "bytes": 148,
+      "steps": 598
+    },
+    {
+      "index": 7,
+      "claim": true,
+      "en": "『No Fight, No Food』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Wakame Bread\n             Palladium Reactor\nClaim this bonus?",
+      "bytes": 145,
+      "steps": 598
+    },
+    {
+      "index": 8,
+      "claim": false,
+      "en": "『The Beast and the Wind』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Sniper Kit\n             Reflex Connector\nStart this scenario?",
+      "bytes": 150,
+      "steps": 516
+    },
+    {
+      "index": 8,
+      "claim": true,
+      "en": "『The Beast and the Wind』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Sniper Kit\n             Reflex Connector\nClaim this bonus?",
+      "bytes": 147,
+      "steps": 516
+    },
+    {
+      "index": 9,
+      "claim": false,
+      "en": "『Memories of the Multiverse War』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Chobham Armor\n             Mega Booster\nStart this scenario?",
+      "bytes": 157,
+      "steps": 512
+    },
+    {
+      "index": 9,
+      "claim": true,
+      "en": "『Memories of the Multiverse War』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Chobham Armor\n             Mega Booster\nClaim this bonus?",
+      "bytes": 154,
+      "steps": 512
+    },
+    {
+      "index": 10,
+      "claim": false,
+      "en": "『The Battling』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Quent Sensor\n             Inertial Control System\nStart this scenario?",
+      "bytes": 149,
+      "steps": 512
+    },
+    {
+      "index": 10,
+      "claim": true,
+      "en": "『The Battling』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Quent Sensor\n             Inertial Control System\nClaim this bonus?",
+      "bytes": 146,
+      "steps": 512
+    },
+    {
+      "index": 11,
+      "claim": false,
+      "en": "『The Unsung Hard Worker』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Land Module\n             Rescue Unit\nStart this scenario?",
+      "bytes": 146,
+      "steps": 604
+    },
+    {
+      "index": 11,
+      "claim": true,
+      "en": "『The Unsung Hard Worker』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Land Module\n             Rescue Unit\nClaim this bonus?",
+      "bytes": 143,
+      "steps": 604
+    },
+    {
+      "index": 12,
+      "claim": false,
+      "en": "『Love, Spirit, Encounters』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Hybrid Armor\n             Auto-Defenser\nStart this scenario?",
+      "bytes": 151,
+      "steps": 558
+    },
+    {
+      "index": 12,
+      "claim": true,
+      "en": "『Love, Spirit, Encounters』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Hybrid Armor\n             Auto-Defenser\nClaim this bonus?",
+      "bytes": 148,
+      "steps": 558
+    },
+    {
+      "index": 13,
+      "claim": false,
+      "en": "『Vacation on Gargantia』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Screw Module\n             S-Adapter\nStart this scenario?",
+      "bytes": 144,
+      "steps": 648
+    },
+    {
+      "index": 13,
+      "claim": true,
+      "en": "『Vacation on Gargantia』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Screw Module\n             S-Adapter\nClaim this bonus?",
+      "bytes": 141,
+      "steps": 648
+    },
+    {
+      "index": 14,
+      "claim": false,
+      "en": "『Darkness of the Mountain Cycle』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Barrier Field\n             Micro D-Quake\nStart this scenario?",
+      "bytes": 158,
+      "steps": 578
+    },
+    {
+      "index": 14,
+      "claim": true,
+      "en": "『Darkness of the Mountain Cycle』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Barrier Field\n             Micro D-Quake\nClaim this bonus?",
+      "bytes": 155,
+      "steps": 578
+    },
+    {
+      "index": 15,
+      "claim": false,
+      "en": "『Heart of a Buster Machine』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Andromeda-yaki\n             Crest of Rebirth\nStart this scenario?",
+      "bytes": 157,
+      "steps": 664
+    },
+    {
+      "index": 15,
+      "claim": true,
+      "en": "『Heart of a Buster Machine』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Andromeda-yaki\n             Crest of Rebirth\nClaim this bonus?",
+      "bytes": 154,
+      "steps": 664
+    },
+    {
+      "index": 16,
+      "claim": false,
+      "en": "『Showdown with the Mercenaries』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Ranka's Disc\n             DEC Magazine\nStart this scenario?",
+      "bytes": 156,
+      "steps": 666
+    },
+    {
+      "index": 16,
+      "claim": true,
+      "en": "『Showdown with the Mercenaries』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Ranka's Disc\n             DEC Magazine\nClaim this bonus?",
+      "bytes": 153,
+      "steps": 666
+    },
+    {
+      "index": 17,
+      "claim": false,
+      "en": "『The Future on Their Backs』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Auxiliary GN Drive\n             Haro\nStart this scenario?",
+      "bytes": 149,
+      "steps": 568
+    },
+    {
+      "index": 17,
+      "claim": true,
+      "en": "『The Future on Their Backs』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Auxiliary GN Drive\n             Haro\nClaim this bonus?",
+      "bytes": 146,
+      "steps": 568
+    },
+    {
+      "index": 18,
+      "claim": false,
+      "en": "『Chase the Metropolis』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Nyan-Nyan's Famous Tuna Bun\n             Worldbreaker Crest\nStart this scenario?",
+      "bytes": 167,
+      "steps": 676
+    },
+    {
+      "index": 18,
+      "claim": true,
+      "en": "『Chase the Metropolis』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Nyan-Nyan's Famous Tuna Bun\n             Worldbreaker Crest\nClaim this bonus?",
+      "bytes": 164,
+      "steps": 676
+    },
+    {
+      "index": 19,
+      "claim": false,
+      "en": "『How Beautiful Is Strength II』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Sheryl's Disc\n             Damage Avenger\nStart this scenario?",
+      "bytes": 157,
+      "steps": 668
+    },
+    {
+      "index": 19,
+      "claim": true,
+      "en": "『How Beautiful Is Strength II』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Sheryl's Disc\n             Damage Avenger\nClaim this bonus?",
+      "bytes": 154,
+      "steps": 668
+    },
+    {
+      "index": 20,
+      "claim": false,
+      "en": "『Boss on the Ground』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Chogokin Z\n             SOL Quartz\nStart this scenario?",
+      "bytes": 141,
+      "steps": 606
+    },
+    {
+      "index": 20,
+      "claim": true,
+      "en": "『Boss on the Ground』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Chogokin Z\n             SOL Quartz\nClaim this bonus?",
+      "bytes": 138,
+      "steps": 606
+    },
+    {
+      "index": 21,
+      "claim": false,
+      "en": "『Boss in Space』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Tension Riser\n             DMJ Collection\nStart this scenario?",
+      "bytes": 143,
+      "steps": 740
+    },
+    {
+      "index": 21,
+      "claim": true,
+      "en": "『Boss in Space』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Tension Riser\n             DMJ Collection\nClaim this bonus?",
+      "bytes": 140,
+      "steps": 740
+    },
+    {
+      "index": 22,
+      "claim": false,
+      "en": "『A Tomorrow for the Holy Kingdom』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Insaraum's Treasure\n             Firebug Member ID\nStart this scenario?",
+      "bytes": 169,
+      "steps": 754
+    },
+    {
+      "index": 22,
+      "claim": true,
+      "en": "『A Tomorrow for the Holy Kingdom』\nScenario Clear Bonus\nFunds: 75000\nZ-Chips: 250\nPower Parts: Insaraum's Treasure\n             Firebug Member ID\nClaim this bonus?",
+      "bytes": 166,
+      "steps": 754
+    },
+    {
+      "index": 23,
+      "claim": false,
+      "en": "『Super Ultimate Battle』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Super Repair Kit\n             Revive Cell\nStart this scenario?",
+      "bytes": 151,
+      "steps": 676
+    },
+    {
+      "index": 23,
+      "claim": true,
+      "en": "『Super Ultimate Battle』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Super Repair Kit\n             Revive Cell\nClaim this bonus?",
+      "bytes": 148,
+      "steps": 676
+    },
+    {
+      "index": 24,
+      "claim": false,
+      "en": "『Pack 1 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: DEC Charger\nStart this scenario?",
+      "bytes": 122,
+      "steps": 514
+    },
+    {
+      "index": 24,
+      "claim": true,
+      "en": "『Pack 1 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: DEC Charger\nClaim this bonus?",
+      "bytes": 119,
+      "steps": 514
+    },
+    {
+      "index": 25,
+      "claim": false,
+      "en": "『Pack 2 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: Commander Terminal\nStart this scenario?",
+      "bytes": 129,
+      "steps": 588
+    },
+    {
+      "index": 25,
+      "claim": true,
+      "en": "『Pack 2 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: Commander Terminal\nClaim this bonus?",
+      "bytes": 126,
+      "steps": 588
+    },
+    {
+      "index": 26,
+      "claim": false,
+      "en": "『Pack 3 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: SOL Armor\nStart this scenario?",
+      "bytes": 120,
+      "steps": 526
+    },
+    {
+      "index": 26,
+      "claim": true,
+      "en": "『Pack 3 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: SOL Armor\nClaim this bonus?",
+      "bytes": 117,
+      "steps": 526
+    },
+    {
+      "index": 27,
+      "claim": false,
+      "en": "『Pack 4 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: SP Getter\nStart this scenario?",
+      "bytes": 120,
+      "steps": 592
+    },
+    {
+      "index": 27,
+      "claim": true,
+      "en": "『Pack 4 Purchase Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 200\nPower Parts: SP Getter\nClaim this bonus?",
+      "bytes": 117,
+      "steps": 592
+    },
+    {
+      "index": 28,
+      "claim": false,
+      "en": "『Full Pack Purchase Present』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Micro ZONE\n             Gain Meter\nStart this scenario?",
+      "bytes": 149,
+      "steps": 762
+    },
+    {
+      "index": 28,
+      "claim": true,
+      "en": "『Full Pack Purchase Present』\nScenario Clear Bonus\nFunds: 100000\nZ-Chips: 300\nPower Parts: Micro ZONE\n             Gain Meter\nClaim this bonus?",
+      "bytes": 146,
+      "steps": 762
+    },
+    {
+      "index": 29,
+      "claim": false,
+      "en": "『Happy Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: DG Fang\nStart this scenario?",
+      "bytes": 108,
+      "steps": 608
+    },
+    {
+      "index": 29,
+      "claim": true,
+      "en": "『Happy Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: DG Fang\nClaim this bonus?",
+      "bytes": 105,
+      "steps": 608
+    },
+    {
+      "index": 30,
+      "claim": false,
+      "en": "『Lucky Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Thruster Module\nStart this scenario?",
+      "bytes": 116,
+      "steps": 562
+    },
+    {
+      "index": 30,
+      "claim": true,
+      "en": "『Lucky Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Thruster Module\nClaim this bonus?",
+      "bytes": 113,
+      "steps": 562
+    },
+    {
+      "index": 31,
+      "claim": false,
+      "en": "『Super Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Assault Booster\nStart this scenario?",
+      "bytes": 116,
+      "steps": 554
+    },
+    {
+      "index": 31,
+      "claim": true,
+      "en": "『Super Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Assault Booster\nClaim this bonus?",
+      "bytes": 113,
+      "steps": 554
+    },
+    {
+      "index": 32,
+      "claim": false,
+      "en": "『Wonderful Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Sacred Armor\nStart this scenario?",
+      "bytes": 117,
+      "steps": 556
+    },
+    {
+      "index": 32,
+      "claim": true,
+      "en": "『Wonderful Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: Sacred Armor\nClaim this bonus?",
+      "bytes": 114,
+      "steps": 556
+    },
+    {
+      "index": 33,
+      "claim": false,
+      "en": "『Premium Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: PMC Sight\n             PMC Motor\nStart this scenario?",
+      "bytes": 135,
+      "steps": 698
+    },
+    {
+      "index": 33,
+      "claim": true,
+      "en": "『Premium Present』\nScenario Clear Bonus\nFunds: 50000\nZ-Chips: 100\nPower Parts: PMC Sight\n             PMC Motor\nClaim this bonus?",
+      "bytes": 132,
+      "steps": 698
+    },
+    {
+      "index": 34,
+      "claim": false,
+      "en": "『---』\nScenario Clear Bonus\nFunds: 30000\nZ-Chips: 100\nStart this scenario?",
+      "bytes": 77,
+      "steps": 432
+    },
+    {
+      "index": 34,
+      "claim": true,
+      "en": "『---』\nScenario Clear Bonus\nFunds: 30000\nZ-Chips: 100\nClaim this bonus?",
+      "bytes": 74,
+      "steps": 432
+    }
+  ],
+  "native_titles": 40,
+  "native_reward_names": 60,
+  "native_pack_title_and_description_cases": [
+    {
+      "index": 35,
+      "en": "Bonus Scenario Pack 1",
+      "steps": 465
+    },
+    {
+      "index": 36,
+      "en": "Bonus Scenario Pack 2",
+      "steps": 465
+    },
+    {
+      "index": 37,
+      "en": "Bonus Scenario Pack 3",
+      "steps": 465
+    },
+    {
+      "index": 38,
+      "en": "Bonus Scenario Pack 4",
+      "steps": 465
+    },
+    {
+      "index": 39,
+      "en": "Bonus Scenario Full Pack",
+      "steps": 498
+    }
+  ],
+  "unrelated_dictionary_entries_preserved": 20440,
+  "fonts_and_narration_unchanged": true,
+  "no_writable_executable_load": true,
+  "new_rx_load": {
+    "va": 25165824,
+    "bytes": 2340
+  },
+  "unknown_title_and_reward_fallbacks_preserved": true,
+  "build_sha256": "3cc825e31f02523af072f0c33209a9ba68d2c5721cab22c17804e1a6a67d24fa",
+  "runtime_verified": false,
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.51\\Tengoku-hen-English-0.5.51.iso",
+    "bytes": 5289738240,
+    "sectors": 2582880,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "ece8ec2f3ba945329d13bbf8170703f55b9896622990a04a99437698765fb0f9",
+    "version": "0.5.51",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.51",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTV_ALL_KEYWORD_DEF.CPK": "MTV_ALL_KEYWORD_DEF.CPK",
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP": "TROPHY.TRP"
+    },
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "rpcs3_only": true,
+    "runtime_verified": false
+  },
+  "reported_screenshots": [
+    {
+      "path": "work/ui/screenshots/reported-0.5.51-dlc-1.png",
+      "sha256": "c4404f46ac2958f646f60ecd192ebf36d024731d4f67f96ffd5b15bd1d09c63c"
+    },
+    {
+      "path": "work/ui/screenshots/reported-0.5.51-dlc-2.png",
+      "sha256": "b22ac73552a4e23f34e5a8d8622b79dd542c7a0f95094181ff56473f31b1ac32"
+    },
+    {
+      "path": "work/ui/screenshots/reported-0.5.51-dlc-3.png",
+      "sha256": "1b0cacce3f802d1c57aee5702c02dba07633c57cfaf8f2e98de9f57c8c441f36"
+    }
+  ]
+}

@@ -15,16 +15,25 @@ Only EBOOT, UI member 0 and version artwork change. New native adapters use
 an empty LOAD as read/execute memory; data grows 64 KiB. No writable/executable
 memory or mission-table edits. Native system strings stay real UTF-8.
 
-Use the requested local installer only after final image proof and RPCS3 is
-closed. The user confirmed RPCS3 is closed for this update. No release
-creation/publication is authorized. Full delivery evidence is recorded when
-complete; do not claim live visual verification from native checks.
+The user confirmed RPCS3 was closed. The requested local installer registered
+the verified 0.5.51 image and read back all 69 installed files. Only
+`E:/RPCS3/config/games.yml` changed; its prior value is backed up under
+`work/output/dlc-install/0.5.49-20261106T111216Z/before/`. DLC, licenses and
+saves are unchanged. The user has been told they can reopen RPCS3 for testing.
+No release creation/publication is authorized. Do not claim live visual verification
+from native checks.
 
 The full regression passed: 372 tests run, 370 passed, two optional independent
 checks skipped. Log: `work/output/scratch/startup-0.5.51-tests.log`.
 The final image at `work/output/iso/0.5.51/Tengoku-hen-English-0.5.51.iso`
 verifies all 82 files through both filesystem trees. SHA-256:
 `ece8ec2f3ba945329d13bbf8170703f55b9896622990a04a99437698765fb0f9`.
+
+Delivery is sealed in `work/ui/local_release_0.5.51.json`: both official
+Retro Trans 0.5.4 complete-image round trips pass, from original and public
+0.5.44. Five assets are in `work/output/releases/0.5.51/artifacts/`.
+Source commit: `f157b772d46a139858f1f2ea61b89e2e07aa2707`. No release or
+draft was created. The registered image is ready for user retesting.
 
 ## Previous base-game candidate — 0.5.50
 

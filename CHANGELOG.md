@@ -6,6 +6,15 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.50 - 2026-11-06 (prepared; publication requires consent)
+
+- Center all 197 timed narration rows using measured English glyph widths, including the DLC page beginning “Before the overwhelming military might of the New Earth Empire.” Preserve all wording, fonts, vertical positions and timing; remove only obsolete decorative padding from the encoded captions.
+- Reuse the installed scene-centering marker and renderer code. Relocate 189 narration payloads into verified reserved dictionary space; preserve all 20,251 unrelated lookup pointers and payloads, the complete narration archive, dialogue and DLC 0.5.49. Update title-version artwork separately. See `docs/NARRATION_ALIGNMENT_0.5.50.md`.
+- Verify 197 final narration bindings and 394 native origin cases at two glyph sizes. Five focused tests pass; all 82 ISO files verify through both filesystem trees. The computer-use capture helper could not initialize, so live visual confirmation remains pending. No GitHub release or draft is authorized.
+- At the user's request, register the verified 0.5.50 image in local RPCS3 after the user closed it. Back up the previous 0.5.48 registration in `work/output/dlc-install/0.5.49-20261106T091902Z/before/`. Verify all 69 installed files; only the registration changes. DLC 0.5.49, supplied licenses and saves remain unchanged.
+- Make the historical weapon comparison test accept previously reviewed differences that the sibling project has since resolved, while rejecting new disagreements and preserving the reviewed English names. No weapon text changes.
+- Pass the full 369-test regression run: 367 passed and two optional independent checks skipped. Preserve the initial failed comparison log separately; the corrected comparison also passes its four focused tests.
+
 ## 0.5.49 - 2026-11-06 (DLC; prepared; publication requires consent)
 
 - At the user's explicit request, install all 32 translated DLCs and supplied licenses into local RPCS3 for testing. Verify all 69 installed files, including four shared metadata files and the game registration. Replace the missing 0.5.40 ISO registration with the verified English 0.5.48 image; preserve the old registration in `work/output/dlc-install/0.5.49-20261106T081420Z/before/`. No saves changed and no release was published. The local installer previews its actions, backs up overwritten files and rolls back completed writes if installation fails.

@@ -21,6 +21,10 @@ The prepared **0.5.45** candidate addresses four additional text-fitting
 reports and includes Chaos Caper. See [the corrections](docs/SCREEN_FITTING_0.5.45.md).
 Its public release requires separate explicit consent.
 
+The **0.5.50** test candidate centers all 197 timed narration lines, including
+the reported DLC scene. It preserves wording, font choices and timing and
+carries the 0.5.48 corrections. See [narration alignment](docs/NARRATION_ALIGNMENT_0.5.50.md).
+
 The separate **0.5.49 DLC** candidate translates all 32 supplied packages,
 including 4,666 dialogue/narration records, their titles, mission conditions
 and team names. See [DLC coverage and installation](docs/DLC_0.5.49.md).

@@ -1,5 +1,36 @@
 # Tengoku-hen handoff
 
+## Current base-game candidate — 0.5.50
+
+The reported DLC narration is a shared AID timed-caption page (member 30).
+Use `tools/narration_alignment.py`, `tools/review50_build.py` and
+`tools/verify_review50.py`. All 197 timed captions now use the already installed
+scene-centering marker. The renderer measures ordinary/condensed glyphs and
+centers each line at x640, with no wording, font or timing changes. All 189
+narration keys are relocated in reserved dictionary space; all 20,251 unrelated
+lookup pointers/payloads and all narration members are preserved.
+
+Version 0.5.50 carries the certified 0.5.48 base. DLC 0.5.49 stays unchanged
+and compatible. Verification has 394 native origin cases plus final ISO
+readback. Public delivery uses original and exact-0.5.44 complete-image routes
+through `tools/release_prepare50.py`; it can reconstruct a cleaned-up public
+0.5.44 input from its cached, checksum-verified original-image patch.
+
+The user explicitly requested local installation for testing and closed RPCS3
+for this update. `tools.dlc_install --base-version 0.5.50 --apply` has registered
+the verified image. All 69 installed files verify; only the game registration
+changed. Its previous value is backed up under
+`work/output/dlc-install/0.5.49-20261106T091902Z/before/`. All licenses
+and saves are preserved. The Windows UI capture helper failed
+to initialize, so don't claim live visual confirmation. No GitHub release is
+authorized; local testing is a user-requested exception to the public workflow.
+See `docs/NARRATION_ALIGNMENT_0.5.50.md`.
+
+Full regression: 369 tests run, 367 passed, two optional independent checks
+skipped. Log: `work/output/scratch/startup-0.5.50-tests.log`. The historical
+weapon audit now allows the sibling project to adopt reviewed English names;
+it still rejects new disagreements. No weapon data changed.
+
 ## Current DLC candidate — 0.5.49
 
 All 32 user-supplied Tengoku DLC packages are translated: 4,666 dialogue and
@@ -29,7 +60,7 @@ signatures or remove the requirement for the user's legitimate license.
 Do not claim CFW support: the known base EBOOT packaging limitation remains.
 Gameplay verification is pending. No GitHub draft or release is authorized.
 
-## Current base-game candidate — 0.5.48
+## Previous base-game candidate — 0.5.48
 
 Prepared 0.5.48 carries the earlier 0.5.45–0.5.47 corrections and fixes pilot
 separators, the weapon warning and all composed stage headings. Its full-image

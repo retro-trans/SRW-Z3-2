@@ -5,7 +5,7 @@ from pathlib import Path
 from tools import dlc,dlc_build as B,dlc_text as T,dlc_edat as ED
 from tools.common import ROOT,contained,sha256,sha256_file,write_json
 
-def plan(emulator,user):
+def plan(emulator,user,base_version='0.5.48'):
  emulator=Path(emulator).resolve()
  if not (emulator/'rpcs3.exe').is_file()or not re.fullmatch(r'\d{8}',user):raise ValueError('Invalid RPCS3 installation/user')
  if (emulator/'config/vfs.yml').exists():raise ValueError('Custom VFS needs review before installing')
@@ -31,9 +31,16 @@ def plan(emulator,user):
    shared[name]=dict(source=path,target=installed/name,sha256=digest,kind='metadata')
  if len(build['packages'])!=32:raise ValueError('Expected all 32 DLCs')
  files.extend(shared.values())
- base=ROOT/'work/output/iso/0.5.48/Tengoku-hen-English-0.5.48.iso'
- seal=json.loads((ROOT/'work/ui/local_release_0.5.48.json').read_text('utf8'))
- if sha256_file(base)!=seal['iso']['sha256']:raise ValueError('English base image differs from verified 0.5.48')
+ if base_version not in ('0.5.48','0.5.50'):raise ValueError('Unsupported verified base version')
+ base=ROOT/f'work/output/iso/{base_version}/Tengoku-hen-English-{base_version}.iso'
+ base_ready=ROOT/f'work/ui/local_release_{base_version}.json'
+ if base_ready.exists():expected_image=json.loads(base_ready.read_text('utf8'))['iso']
+ elif base_version=='0.5.50':
+  candidate=json.loads((ROOT/'work/ui/review50_verified_0.5.50.json').read_text('utf8'))
+  if candidate['source_rows']!=197 or len(candidate['native_caption_origins'])!=394 or not candidate['font_codes_artwork_and_advances_unchanged']:raise ValueError('Local narration candidate is not verified')
+  expected_image=candidate['iso_verification']
+ else:raise ValueError('No verified base image evidence')
+ if sha256_file(base)!=expected_image['sha256']:raise ValueError('English base image differs from verified '+base_version)
  registry=emulator/'config/games.yml';old=registry.read_bytes();text=old.decode('utf-8-sig');entry='BLJS10299: '+base.as_posix()
  if re.search(r'(?m)^BLJS10299:',text):text=re.sub(r'(?m)^BLJS10299:[^\r\n]*',lambda m:entry,text)
  else:text+=(''if text.endswith('\n')else'\n')+entry+'\n'
@@ -84,8 +91,8 @@ def install(data):
  return folder
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--emulator',default='E:/RPCS3');parser.add_argument('--user',default='00000001');parser.add_argument('--apply',action='store_true');args=parser.parse_args()
- data=plan(args.emulator,args.user)
+ parser=argparse.ArgumentParser();parser.add_argument('--emulator',default='E:/RPCS3');parser.add_argument('--user',default='00000001');parser.add_argument('--base-version',default='0.5.48');parser.add_argument('--apply',action='store_true');args=parser.parse_args()
+ data=plan(args.emulator,args.user,args.base_version)
  print('RPCS3:',data['emulator']);print('Install 32 English DLCs, 32 supplied licenses and 4 shared metadata files.')
  print('Game entry:',data['base_iso']);print('Files to change:',sum(r['change']for r in data['files']))
  print('Sample DLC:',next(r['target']for r in data['files']if r['kind']=='dlc'))

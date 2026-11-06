@@ -219,6 +219,9 @@ def hook_entries(elf, mapping, base_entries):
                 if ui_hook.extent(key+b'\0') != len(key):
                     raise ValueError('source is not one drawer string')
                 english = eboot_text.encode(en,active_mapping,utf8_source=source['encoding']=='utf-8')
+                if source['family']=='opening':
+                    from tools.narration_alignment import encode as centered_narration
+                    english=centered_narration(en,active_mapping)
                 from tools import review44_text
                 from tools import review45_text
                 if rid in (review44_text.HELP.keys() | review45_text.CAPTION_IDS) and en.startswith('　'):

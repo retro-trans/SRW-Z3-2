@@ -29,6 +29,14 @@ narration inventory, unchanged timing and unrelated lookups. Full regression,
 ISO readback and complete-image Retro Trans evidence are recorded in
 `work/ui/review50_verified_0.5.50.json` and `work/ui/local_release_0.5.50.json`.
 
+The full regression completed with 367 passes and two optional skips across
+369 tests. Both official Retro Trans 0.5.4 routes reproduce the complete
+verified image, SHA-256
+`7d4cba195a9f628e47e3bb8f7c79127e3c79e09380f4e8951f275a05b58d5120`.
+RPCS3 now registers that image; the previous registration is backed up under
+`work/output/dlc-install/0.5.49-20261106T091902Z/before/`. No saves or DLC
+payloads changed during this installation.
+
 This is a base-game correction, compatible with the already installed DLC
 0.5.49. Public delivery supports the original Japanese image and exact public
 0.5.44. A local test installation was requested; no GitHub release is authorized.

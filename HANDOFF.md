@@ -31,6 +31,13 @@ skipped. Log: `work/output/scratch/startup-0.5.50-tests.log`. The historical
 weapon audit now allows the sibling project to adopt reviewed English names;
 it still rejects new disagreements. No weapon data changed.
 
+Delivery is sealed in `work/ui/local_release_0.5.50.json`: both official
+Retro Trans 0.5.4 complete-image round trips pass, from original and public
+0.5.44. Five assets are in `work/output/releases/0.5.50/artifacts/`.
+Target SHA-256: `7d4cba195a9f628e47e3bb8f7c79127e3c79e09380f4e8951f275a05b58d5120`.
+Source commit: `74b53e4a789cee2042b6cb3711c61e432a132026`. No release was
+created or published. The registered local image is ready for user retesting.
+
 ## Current DLC candidate — 0.5.49
 
 All 32 user-supplied Tengoku DLC packages are translated: 4,666 dialogue and

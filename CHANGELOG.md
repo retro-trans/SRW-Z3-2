@@ -14,6 +14,7 @@
 - At the user's request, register the verified 0.5.50 image in local RPCS3 after the user closed it. Back up the previous 0.5.48 registration in `work/output/dlc-install/0.5.49-20261106T091902Z/before/`. Verify all 69 installed files; only the registration changes. DLC 0.5.49, supplied licenses and saves remain unchanged.
 - Make the historical weapon comparison test accept previously reviewed differences that the sibling project has since resolved, while rejecting new disagreements and preserving the reviewed English names. No weapon text changes.
 - Pass the full 369-test regression run: 367 passed and two optional independent checks skipped. Preserve the initial failed comparison log separately; the corrected comparison also passes its four focused tests.
+- Build and validate both official Retro Trans 0.5.4 complete-image routes, from the original Japanese ISO and exact public English 0.5.44. Both round trips reproduce SHA-256 `7d4cba195a9f628e47e3bb8f7c79127e3c79e09380f4e8951f275a05b58d5120`. Seal the five delivery assets in `work/ui/local_release_0.5.50.json`; publication remains pending explicit consent.
 
 ## 0.5.49 - 2026-11-06 (DLC; prepared; publication requires consent)
 

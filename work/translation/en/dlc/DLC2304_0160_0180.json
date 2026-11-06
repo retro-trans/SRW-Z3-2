@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "source_brief": "work/tengoku_dlc/briefs/DLC2304_0160_0180.json",
+  "rows": {
+    "DLC2304:4:t_100:1": {
+      "sha": "30fbed5b4a",
+      "en": "$$ボン太くん#pilot$$\n「Fumomofu, fumofu! Fumoffu~!」"
+    },
+    "DLC2304:4:t_100:2": {
+      "sha": "9169f4c795",
+      "en": "$$かなめ$$\n「$$ボン太くん#pilot$$... He's working so hard to protect me...」"
+    },
+    "DLC2304:4:t_100:3": {
+      "sha": "93230327b9",
+      "en": "$$かなめ$$\n「You can do it, $$ボン太くん#pilot$$! Keep going!!」"
+    },
+    "DLC2304:4:t_100:4": {
+      "sha": "fc668fb40b",
+      "en": "$$ボン太くん#pilot$$\n「Fumoffu!!」"
+    },
+    "DLC2304:4:t_101:0": {
+      "sha": "a0c4cb680f",
+      "en": "$$スズネ$$\n「...But why is $$ボン太くん#pilot$$ here...?」"
+    },
+    "DLC2304:4:t_101:1": {
+      "sha": "3d9c27c334",
+      "en": "$n\n「There's a complicated story behind that...」"
+    },
+    "DLC2304:4:t_101:2": {
+      "sha": "b04cb93d74",
+      "en": "$n\n（Do your best, $$宗介$$. Let's make sure we protect $$千鳥$$.）"
+    },
+    "DLC2304:4:t_102:0": {
+      "sha": "70fa8c1b11",
+      "en": "$$アルト$$\n「So those things swarming around Bonta... kun are the unmanned units I've heard about...」"
+    },
+    "DLC2304:4:t_102:1": {
+      "sha": "4e3f157201",
+      "en": "$$アルト$$\n（Thank heaven that system was completed... Otherwise, we'd have been made to get inside those things...）"
+    },
+    "DLC2304:4:t_103:0": {
+      "sha": "ed80e90d7c",
+      "en": "$$ミシェル$$\n「Good work as always, $$宗介$$. Still, it's almost touching... Guarding her as $$ボン太くん#pilot$$...」"
+    },
+    "DLC2304:4:t_103:1": {
+      "sha": "f507f63295",
+      "en": "$$ミシェル$$\n「Well... maybe half of it is just his hobby...」"
+    },
+    "DLC2304:4:t_104:0": {
+      "sha": "e9b93d58b9",
+      "en": "$$ルカ$$\n「The mass-production $$ボン太くん#robot$$ system... It seems to be working well.」"
+    },
+    "DLC2304:4:t_104:1": {
+      "sha": "225502f7fe",
+      "en": "$$ルカ$$\n「Let's go, $$シモン#uav$$, $$ヨハネ$$, $$ペテロ$$! We can't let the $$ボン太くん#robot$$ army show us up!」"
+    },
+    "DLC2304:4:t_105:0": {
+      "sha": "8846831730",
+      "en": "$$クラン$$\n「So many $$ボン太くん#robot$$...!」"
+    },
+    "DLC2304:4:t_105:1": {
+      "sha": "6ab0693b51",
+      "en": "$$クラン$$\n「Let's do thiiiis! When this battle's over, we're having a fluffy cuddle party!!」"
+    },
+    "DLC2304:4:t_106:0": {
+      "sha": "f7f27fce30",
+      "en": "$$マオ$$\n「As if $$サイデリアル$$ running wild wasn't enough, now these troublemakers are on the move too...!」"
+    },
+    "DLC2304:4:t_106:1": {
+      "sha": "cd5ccebe65",
+      "en": "$$マオ$$\n「We're busy dealing with the Empire! You lot can get off the stage right now!」"
+    },
+    "DLC2304:4:t_107:0": {
+      "sha": "0803cc0684",
+      "en": "$$クルツ$$\n「These champions of justice are here to punish perverts who chase high school girls!」"
+    },
+    "DLC2304:4:t_107:1": {
+      "sha": "5a33e68b87",
+      "en": "$$クルツ$$\n「Don't think you're getting home in one piece!」"
+    },
+    "DLC2304:4:t_999:0": {
+      "sha": "c55adac948",
+      "en": "$n\n「Ah!」"
+    }
+  },
+  "review": {
+    "rows_in_slice": 20,
+    "rows_examined": 28,
+    "context": "Kaname cheers Bonta-kun while allies discuss the unmanned mass-production suits. Luca challenges them with his own drones; Klan wants to cuddle them after combat, and Mao and Kurz confront the kidnappers.",
+    "decisions": [
+      "Simon is Luca's UAV, so the UAV-specific token is used.",
+      "Alto's fragmented Bonta...kun address preserves his awkward participation in Sousuke's disguise.",
+      "Klan's fluffy-party line describes cuddling the mascots, not a tactical action."
+    ],
+    "uncertainties": []
+  }
+}

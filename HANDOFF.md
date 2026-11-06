@@ -1,6 +1,39 @@
 # Tengoku-hen handoff
 
-## Current candidate — 0.5.45
+## Current DLC candidate — 0.5.49
+
+All 32 user-supplied Tengoku DLC packages are translated: 4,666 dialogue and
+narration records in 78 context-reviewed slices, 32 titles, 16 distinct mission
+conditions and 146 distinct team names. The originals are under
+`work/dlc/Z3.2-Tengoku-hen`; private decoded sources, licenses and briefs stay
+under ignored `work/tengoku_dlc`. English authoring is in
+`work/translation/en/dlc/` and `dlc_ui.json`. Never commit or publish the source
+packages, license material or rebuilt full DLC files.
+
+Use `tools/dlc_build.py`, `tools/dlc_verify.py` and `tools/dlc_release.py`.
+Version 0.5.49 is a separate DLC delivery, not a replacement base ISO.
+The verified base versions are 0.5.44 and 0.5.48, whose font bytes and mappings
+match. The final readback and delivery seals are
+`work/ui/dlc_verified_0.5.49.json` and
+`work/ui/local_dlc_release_0.5.49.json` when complete. Public delivery contains
+32 EDAT patches and 32 optional installation-title patches, all through the
+official Retro Trans SDK. See `docs/DLC_0.5.49.md` for installation and coverage.
+
+The EDAT codec preserves original NPD identity and license type and verifies
+header, block and metadata authentication. It does not preserve Sony retail
+signatures or remove the requirement for the user's legitimate license.
+Do not claim CFW support: the known base EBOOT packaging limitation remains.
+Gameplay verification is pending. No GitHub draft or release is authorized.
+
+## Current base-game candidate — 0.5.48
+
+Prepared 0.5.48 carries the earlier 0.5.45–0.5.47 corrections and fixes pilot
+separators, the weapon warning and all composed stage headings. Its full-image
+Retro Trans routes and readback are sealed in `work/ui/local_release_0.5.48.json`.
+See `docs/SCREEN_FITTING_0.5.48.md`. Publication still requires explicit consent;
+the base build version stays 0.5.48 while the DLC is prepared separately.
+
+## Previous candidate — 0.5.45 (historical)
 
 Four screenshots are addressed in `docs/SCREEN_FITTING_0.5.45.md`: D-Command
 bullet prefixes/help overflow, the palace location caption, the long Target

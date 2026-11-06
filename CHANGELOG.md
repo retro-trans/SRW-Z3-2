@@ -6,6 +6,14 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.49 - 2026-11-06 (DLC; prepared; publication requires consent)
+
+- Translate all 32 supplied Tengoku-hen DLC packages: 24 bonus missions and eight reward packs, covering DLC2301–DLC2331 and DLC2334. Author all 4,666 dialogue/narration records in 78 consecutive context-reviewed slices, all 32 titles, 16 distinct mission-condition strings and 146 distinct team names.
+- Expand glossary tokens before measuring and encoding. Add source-scoped DLC terminology research, preserve canonical names, runtime placeholders and positional links. Mark proposed English terminology explicitly. Preserve all six triads in AG's long speech with the existing 85% alphabet; leave the ordinary font unchanged.
+- Rebuild licensed EDAT v4 containers with their original NPD identity, content IDs and license type. Verify header, block and metadata authentication, every archive member and program bytes outside approved text spans. Preserve all original source ZIPs, internal asset labels and mission logic. Retail Sony signatures and console compatibility are not claimed; live RPCS3 gameplay verification is pending.
+- Prepare separate DLC delivery for the verified font/text hooks in English base-game 0.5.44 and 0.5.48. Keep base-game images and installed games unchanged. Include optional English system-title patches for the shared NPJB00692 installation folder. See `docs/DLC_0.5.49.md`; Retro Trans delivery and final test evidence are recorded when sealed. No GitHub release or draft has been created.
+- Keep new DLC research compatible with the shared Library glossary schema. Pin the historical font regression dependency to Pillow 12.3.0 in an isolated local folder: Pillow 13 changes some coverage pixels. Preserve the sealed game fonts byte for byte.
+
 ## 0.5.48 - 2026-10-18 (prepared; publication requires consent)
 
 - Replace the native separator in translated pilot full names with a space, including `Asakim Dowin`. Bind complete default names from the active name table; preserve custom names and punctuation elsewhere.

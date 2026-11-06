@@ -21,6 +21,11 @@ The prepared **0.5.45** candidate addresses four additional text-fitting
 reports and includes Chaos Caper. See [the corrections](docs/SCREEN_FITTING_0.5.45.md).
 Its public release requires separate explicit consent.
 
+The separate **0.5.49 DLC** candidate translates all 32 supplied packages,
+including 4,666 dialogue/narration records, their titles, mission conditions
+and team names. See [DLC coverage and installation](docs/DLC_0.5.49.md).
+Publication requires explicit consent; gameplay verification remains pending.
+
 Fresh dialogue drafts cover **63,553 records in 857 slices across 12 batches**,
 including alternate routes, endings, ace talks and previews.
 See [the completion report](docs/FRESH_RETRANSLATION_COMPLETION.md).

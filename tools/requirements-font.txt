@@ -1,0 +1,3 @@
+# Matches the sealed font raster used by English 0.5.44 and 0.5.48.
+# Pillow 13 changes some coverage values; never reraster sealed fonts with it.
+Pillow==12.3.0

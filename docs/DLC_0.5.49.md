@@ -70,11 +70,12 @@ checked against the source-bound translation plan. Source ZIP hashes remain
 unchanged. All 32 original and translated EDATs pass header, block and metadata
 authentication checks with the locally supplied license material.
 
-The official Retro Trans 0.5.4 release SDK builds and round-trip verifies all
+The official Retro Trans 0.5.4 release SDK built and round-trip verified all
 64 routes: 32 EDAT patches and 32 optional system-title patches. Offline catalog
-checks require each original to identify uniquely and select its correct
-one-step route. Final test counts and asset hashes are recorded in
-`work/ui/local_dlc_release_0.5.49.json` when delivery is sealed.
+checks confirmed that each original identifies uniquely and selects its correct
+one-step route. The full regression suite ran 366 tests: 364 passed and two
+optional checks were skipped. Asset hashes and delivery evidence are recorded
+in `work/ui/local_dlc_release_0.5.49.json`.
 
 These checks do not substitute for playing the scenarios. Please report the
 DLC ID, event or screenshot, English base-game version and emulator version

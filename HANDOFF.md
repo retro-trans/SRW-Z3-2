@@ -15,9 +15,13 @@ Version 0.5.49 is a separate DLC delivery, not a replacement base ISO.
 The verified base versions are 0.5.44 and 0.5.48, whose font bytes and mappings
 match. The final readback and delivery seals are
 `work/ui/dlc_verified_0.5.49.json` and
-`work/ui/local_dlc_release_0.5.49.json` when complete. Public delivery contains
+`work/ui/local_dlc_release_0.5.49.json`. Public delivery contains
 32 EDAT patches and 32 optional installation-title patches, all through the
 official Retro Trans SDK. See `docs/DLC_0.5.49.md` for installation and coverage.
+
+All 64 complete-file SDK round trips and all 64 offline Automatic routes pass.
+The final regression run has 366 tests: 364 passed, two optional skips. Use
+Pillow 12.3.0 in the isolated font-test environment; keep the sealed game fonts.
 
 The EDAT codec preserves original NPD identity and license type and verifies
 header, block and metadata authentication. It does not preserve Sony retail

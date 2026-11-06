@@ -13,7 +13,9 @@ class KeywordPopupTests(unittest.TestCase):
         cls.original=cls.plan['original'];cls.final=cls.plan['members'][0]
 
     def test_public40_missed_the_actual_popup_archive(self):
-        image=json.loads((ROOT/'work/output/iso/0.5.40/Tengoku-hen-English-0.5.40.json').read_text(encoding='utf8'))
+        # The tracked release seal retains the exact historical replacement list
+        # even after local, multi-gigabyte ISO worksets have been cleaned up.
+        image=json.loads((ROOT/'work/ui/local_release_0.5.40.json').read_text(encoding='utf8'))['iso']
         self.assertNotIn(K.DISC,image['replaced'])
         rows={r['id']:r for r in K.parse(self.original)['rows']}
         for tid in (27,35,37,97):

@@ -1,0 +1,371 @@
+{
+  "schema": 1,
+  "version": "0.5.49",
+  "publication": "pending_explicit_user_consent",
+  "github_release_created": false,
+  "source_commit": "e6352e269e6f528deddd9f74d53c57c391184ac6",
+  "release_tool_version": "0.5.4",
+  "release_tool_commit": "8edfb2e1c0d0c74df67107d80803177cc5939079",
+  "patches": 64,
+  "automatic_routes_verified": 64,
+  "counts": {
+    "titles": 32,
+    "members": 216,
+    "dialogue": 4666,
+    "internal_long_strings_preserved": 357,
+    "packages": 32,
+    "distinct_conditions": 16,
+    "distinct_names": 146
+  },
+  "final_readback_sha256": "e122c6d408ed03e370596b9a5cbea98fe9e0f2eb38df56586f8bcadebf3b4879",
+  "regression_tests": {
+    "run": 366,
+    "passed": 364,
+    "skipped": 2,
+    "log_sha256": "2d60c4e3dcbf0250a733f67db3ceb35afe99af3f06c02aca353204a441910e21"
+  },
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 42555,
+      "sha256": "183045a6aab015f016fe151bc2352f1a9d8cc3becc3be02df016a0055d8a43b8"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 7370,
+      "sha256": "d2476436ab4626c7ba9311ad1ae513a13d847dbb304cb332df9300b31b84a087"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2301-English-0.5.49.xdelta",
+      "bytes": 19519,
+      "sha256": "66be0013c23d27b7162fe930ed1452c69ce205f527bcc8b0c7e2e414c9001435"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2301-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2302-English-0.5.49.xdelta",
+      "bytes": 26639,
+      "sha256": "6921415cb4a80ee4b96a92935a93056b7a55daaca8213695d95d3d9cc0c12f39"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2302-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2303-English-0.5.49.xdelta",
+      "bytes": 24191,
+      "sha256": "9f52a0606939d61457f2cf18cbc009316b4ef522c60017c42f2ceed4aea1257a"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2303-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2304-English-0.5.49.xdelta",
+      "bytes": 23439,
+      "sha256": "938bc5e98ae84434d9e1fa7d110f322ab43d3be57e082edcc1a9d7802544c7a6"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2304-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2305-English-0.5.49.xdelta",
+      "bytes": 22159,
+      "sha256": "c1b8d8baca700577e84c4070283feee6bf03350231170660a8ad5caf0b5e85c8"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2305-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2306-English-0.5.49.xdelta",
+      "bytes": 24895,
+      "sha256": "c489f5de5cac9f8c5461df1686bf9b4e0b8d7f2f0029f92adf272dc8b83aa021"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2306-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2307-English-0.5.49.xdelta",
+      "bytes": 27039,
+      "sha256": "65e99aa4828ed16e3685a1264f8f9caa929cde64d3bda38fdf8c82aeba303b15"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2307-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2308-English-0.5.49.xdelta",
+      "bytes": 26655,
+      "sha256": "3cb5208c85a563cded10ce5af8726102c30b89222ea4960f8f4f5c9cec8cced1"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2308-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2309-English-0.5.49.xdelta",
+      "bytes": 26383,
+      "sha256": "905cf2d84c7bdbe26875b2e1b7fb269b341c3f8e4c2d9100a459b3eaac62f013"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2309-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2310-English-0.5.49.xdelta",
+      "bytes": 23791,
+      "sha256": "c2f64e063eda41dd9c19afce07da58b0e9868530129d5803fb932eaa9d54b4e8"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2310-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2311-English-0.5.49.xdelta",
+      "bytes": 23231,
+      "sha256": "3814832f9c09253ffc5c2b539f0c8503d7732defa5899142fa9a36eef0273635"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2311-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2312-English-0.5.49.xdelta",
+      "bytes": 26703,
+      "sha256": "61887b48f8365ff324c146edb7779ea1939f94172cf647c7e211893b51405bca"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2312-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2313-English-0.5.49.xdelta",
+      "bytes": 28687,
+      "sha256": "88b5d19ed6ff3a883853b3e87b5326f683957ee94fcc7ddc3594f68797694289"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2313-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2314-English-0.5.49.xdelta",
+      "bytes": 22753,
+      "sha256": "c13786ea9933a6468dc0b548e65d81f92f7bf8f43977abccdff5a214b3eb45f0"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2314-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2315-English-0.5.49.xdelta",
+      "bytes": 21823,
+      "sha256": "f454328b55106c9ede331b01ca256e0d0f4238450f92cb41ca0b77224a957789"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2315-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2316-English-0.5.49.xdelta",
+      "bytes": 26959,
+      "sha256": "32c3f22024996b9d007ef789feb47cce4e7b3c8559cc82ac34f8fe7dfe0c6633"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2316-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2317-English-0.5.49.xdelta",
+      "bytes": 29087,
+      "sha256": "ef669137270c6960b244ae4a660b3af07d763f1acbf8501c2e17def797d218ff"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2317-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2318-English-0.5.49.xdelta",
+      "bytes": 23617,
+      "sha256": "e18ec0f9b138ad2dd4c0544e622d24966ff98e32dfb7c860e10ac3fbc6970424"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2318-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2319-English-0.5.49.xdelta",
+      "bytes": 24794,
+      "sha256": "6f105398b288dd6a18682fefd469c099c8c70994df9f937b580ce086d6fb3cdd"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2319-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2320-English-0.5.49.xdelta",
+      "bytes": 34874,
+      "sha256": "fb2c8be939a1311d71eafa59294b3a0297eac003654e7a064748dda888b4cf66"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2320-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2321-English-0.5.49.xdelta",
+      "bytes": 19791,
+      "sha256": "4b40466dfdac56271f9d38a1268ec019912f5c889aaa671a7535177fabee172b"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2321-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2322-English-0.5.49.xdelta",
+      "bytes": 20255,
+      "sha256": "e7e5c0922e9be4fc89ebc6cd79c65d06bd4905fc3a0e8d5400af03127a55198a"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2322-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2323-English-0.5.49.xdelta",
+      "bytes": 26495,
+      "sha256": "e5dde49a55e145024242377b745f50e07594b590727802f37deaf34c053daf71"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2323-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2324-English-0.5.49.xdelta",
+      "bytes": 22255,
+      "sha256": "f22400aa28061eb7761be24f2a08f9a50f826c93576604527ff0eb1a4020ebfc"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2324-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2325-English-0.5.49.xdelta",
+      "bytes": 9663,
+      "sha256": "d7eb5c9faa4b569cbbcc12247c331e775e9d50dc911fe902ff6909cdcaa3240f"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2325-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2326-English-0.5.49.xdelta",
+      "bytes": 9647,
+      "sha256": "1574213cdde5002ee23206ccc4e0377724a1b7b9f089014fc859350116c6d9bb"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2326-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2327-English-0.5.49.xdelta",
+      "bytes": 9663,
+      "sha256": "8542e0bd93edd67b27349309c497565699519e67d74dbe67e2376c0323cebc20"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2327-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2328-English-0.5.49.xdelta",
+      "bytes": 9647,
+      "sha256": "daa9d825538444a3db517012bd5e499b0f4dde5ef1d9f4448952bc3bc05dd208"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2328-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2329-English-0.5.49.xdelta",
+      "bytes": 9663,
+      "sha256": "b9d238f13fa904ff1de41e19c45471b6ec18af6a8531300d1761d1f92c12a63f"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2329-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2330-English-0.5.49.xdelta",
+      "bytes": 9678,
+      "sha256": "0d06bc8e4f492fabd195262da926ec8ff9687355eb7ae491185b2e483d339349"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2330-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2331-English-0.5.49.xdelta",
+      "bytes": 9679,
+      "sha256": "de58dd25309457873b43ed55ee06cc3063f8bf033038b70cd6df08945b4c5c78"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2331-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2334-English-0.5.49.xdelta",
+      "bytes": 9631,
+      "sha256": "bb552f08c699bb57cdbe94c74bf300900b274c1e4f93ef07a38c3f4fcffd923e"
+    },
+    {
+      "name": "SRW-Z3-2-DLC2334-System-Title-English-0.5.49.xdelta",
+      "bytes": 158,
+      "sha256": "61b76f03e9ee381a5153a831b3900cd74e92fbf5394ab1e6252a9c71e4139a3d"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 12966,
+      "sha256": "ef2bd6f97be9e3fdec06bbf781d1e0bcc26ed8b730e307d6009a06b8932a480d"
+    }
+  ],
+  "runtime_verified": false,
+  "console_compatibility_verified": false,
+  "bundle": {
+    "path": "work/output/releases/0.5.49/Tengoku-hen-DLC-English-0.5.49-patches.zip",
+    "bytes": 702760,
+    "sha256": "c19d1590ce517691f601f1c7122c280531b74b3d565b2f3c969e134ce7067a51"
+  }
+}

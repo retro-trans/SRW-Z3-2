@@ -13,6 +13,8 @@
 - Rebuild licensed EDAT v4 containers with their original NPD identity, content IDs and license type. Verify header, block and metadata authentication, every archive member and program bytes outside approved text spans. Preserve all original source ZIPs, internal asset labels and mission logic. Retail Sony signatures and console compatibility are not claimed; live RPCS3 gameplay verification is pending.
 - Prepare separate DLC delivery for the verified font/text hooks in English base-game 0.5.44 and 0.5.48. Keep base-game images and installed games unchanged. Include optional English system-title patches for the shared NPJB00692 installation folder. See `docs/DLC_0.5.49.md`; Retro Trans delivery and final test evidence are recorded when sealed. No GitHub release or draft has been created.
 - Keep new DLC research compatible with the shared Library glossary schema. Pin the historical font regression dependency to Pillow 12.3.0 in an isolated local folder: Pillow 13 changes some coverage pixels. Preserve the sealed game fonts byte for byte.
+- Pass the final 366-test regression run: 364 passed, two optional checks skipped. Read the historical 0.5.40 popup test's replacement list from its tracked release seal rather than a disposable local ISO workset.
+- Complete final readback of all 216 DLC archive members and all 4,666 translated records; preserve 357 internal long-string asset labels. Build all 64 official Retro Trans 0.5.4 patch routes with complete-file round trips and verify all 64 offline Automatic routes. Delivery evidence is in `work/ui/dlc_verified_0.5.49.json` and `work/ui/local_dlc_release_0.5.49.json`; publication and gameplay tests remain pending.
 
 ## 0.5.48 - 2026-10-18 (prepared; publication requires consent)
 

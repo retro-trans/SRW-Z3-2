@@ -26,6 +26,9 @@ reads all 82 files through both trees. The title ID remains BLJS10299.
 
 ## Tester instructions
 
+Expected image: `Tengoku-hen-English-0.5.52-CFW-test.iso`, 5,289,738,240 bytes.
+SHA-256: `e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd`.
+
 1. Apply the matching Retro Trans patch to your original Japanese ISO or exact
    public English 0.5.44 ISO. Verify the resulting checksum against the release's
    BUILD-MANIFEST.json. Keep the known-working original image.

@@ -23,7 +23,14 @@ See `docs/CFW_TEST_0.5.52.md` and `docs/RELEASE_0.5.52.md`.
 The final image is `work/output/iso/0.5.52/Tengoku-hen-English-0.5.52-CFW-test.iso`,
 5,289,738,240 bytes; SHA-256 `e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd`.
 All 82 files verify through both directory trees. Seven focused tests pass;
-full regression and Retro Trans delivery evidence are recorded when complete.
+the full regression has 379 tests run, 377 passed and two optional skips.
+Log: `work/output/scratch/startup-0.5.52-tests.log`.
+Both official Retro Trans 0.5.4 complete-image round trips pass, from original
+and public 0.5.44. All five delivery assets are sealed in
+`work/ui/local_release_0.5.52.json`, under `work/output/releases/0.5.52/artifacts/`.
+Source commit: `7e2d34d46396c75fe665d72be7aa826426ab80a9`. No release or draft
+was created. The concrete image, patches, checksums and tester instructions
+are ready; fresh approval is still required for a 0.5.52 GitHub release.
 File proof: `work/ui/cfw_verified_0.5.52.json`. The installed RPCS3 registration
 still points to 0.5.51; no local installation was requested for this hardware test.
 Do not claim hardware boot before the physical tester reports it.

@@ -11,8 +11,10 @@
 
 - At the user's request, prepare a console-wrapper test for the tester on Evilnat 4.93 / Cobra 8.5, whose original Japanese image boots on the same setup. Wrap the complete sealed 0.5.51 program with pinned PSL1GHT fself and retain the original Tengoku disc application identity and capabilities. Preserve every embedded ELF byte, all program mappings and the existing three nonempty LOADs. This is not a retail signature or a confirmed hardware fix.
 - Change only the EBOOT container and title-version artwork. Preserve all other disc assets, fonts, translated DLC 0.5.49, installed games and saves. Add independent SELF/container checks and corruption regressions. Document the exact filename, checksum, mounting and title-screen results required from hardware testing in `docs/CFW_TEST_0.5.52.md`.
-- Prepare complete-image Retro Trans delivery from the original Japanese ISO and public 0.5.44. Final image, regression and patch verification are recorded below when complete. No GitHub release or draft is authorized by the build request.
+- Prepare complete-image Retro Trans delivery from the original Japanese ISO and public 0.5.44. No GitHub release or draft is authorized by the build request.
 - Pass seven focused wrapper/carry-forward tests and all 82 disc files through both directory trees. The 5,289,738,240-byte ISO has SHA-256 `e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd`. Store full wrapper and image evidence in `work/ui/cfw_verified_0.5.52.json`; no hardware or live emulator boot is claimed.
+- Pass the full 379-test regression: 377 passed, two optional independent checks skipped. Log: `work/output/scratch/startup-0.5.52-tests.log`. Keep the existing RPCS3 installation and all sealed 0.5.51 artifacts unchanged.
+- Build and verify both official Retro Trans 0.5.4 complete-image round trips. The original-image patch is 204,214,254 bytes; the public 0.5.44 upgrade is 21,412,113 bytes. Both reconstruct the verified 0.5.52 image and preserve their inputs. Seal the five delivery assets in `work/ui/local_release_0.5.52.json`. Publication and physical-console boot remain pending; no release or draft was created.
 
 ## 0.5.51 - 2026-11-06 (prepared; publication requires consent)
 

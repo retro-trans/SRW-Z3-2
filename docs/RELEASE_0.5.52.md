@@ -23,4 +23,10 @@ cover the full executable payload, container metadata, all disc files in both
 directory trees and complete-image patch reconstruction. Final results are
 recorded in `work/ui/local_release_0.5.52.json`.
 
+The full regression has 379 tests: 377 passed, with two optional independent
+checks skipped. All 82 disc files verify through both directory trees.
+Both official Retro Trans 0.5.4 complete-image round trips passed and reproduce
+the same verified target checksum. The original-image patch is 204,214,254
+bytes; the public 0.5.44 upgrade is 21,412,113 bytes.
+
 Prepared locally. A GitHub release or draft requires explicit consent.

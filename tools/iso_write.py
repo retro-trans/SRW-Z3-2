@@ -10,8 +10,9 @@ whole-disc plaintext region (the image is already decrypted). Nothing trusts
 the writer's own offsets: the finished image is re-parsed and every file is
 hashed through each tree against the expected contents.
 
-RPCS3 only: the EBOOT is a plain ELF. A real console would need a fake-SELF
-wrapper, which Tengoku has not tested.
+The default CLI uses the plain-ELF RPCS3 build. tools.cfw_package separately
+uses these disc functions for a fake-SELF hardware-test candidate; that does
+not establish physical-console boot compatibility.
 """
 import argparse
 import json

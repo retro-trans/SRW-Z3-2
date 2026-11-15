@@ -2,9 +2,17 @@
 
 ## Unreleased
 
+- 2026-11-14: record the tester's follow-up: Evilnat 4.93 with Cobra 8.5, and the unpatched Japanese game boots on the same setup. Update the hardware report and remaining unknowns. This strengthens investigation of translated-image packaging; it does not establish a unique cause or a successful fix. No build assets changed.
 - 2026-10-21: record a reported CFW PS3 launch failure on a file named 0.5.44 (`80010017`), plus a separate manager error referencing `.iso.ntfs[PS3ISO]` under `/dev_hdd0/tmp/mmtmp/`. Inspect both 0.5.44 and prepared 0.5.48 EBOOTs: both are plain ELF, matching the documented RPCS3-only packaging limitation. A console SELF wrapper is still missing; the photos do not establish this as the only cause. Preserve the two photos and evidence in `incoming/2026-10-21-cfw-boot-report/report.json`. Exact firmware, manager, image checksum and unpatched-game control test remain unconfirmed. No build assets changed.
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
+
+## 0.5.52 - 2026-11-15 (experimental CFW test; prepared locally)
+
+- At the user's request, prepare a console-wrapper test for the tester on Evilnat 4.93 / Cobra 8.5, whose original Japanese image boots on the same setup. Wrap the complete sealed 0.5.51 program with pinned PSL1GHT fself and retain the original Tengoku disc application identity and capabilities. Preserve every embedded ELF byte, all program mappings and the existing three nonempty LOADs. This is not a retail signature or a confirmed hardware fix.
+- Change only the EBOOT container and title-version artwork. Preserve all other disc assets, fonts, translated DLC 0.5.49, installed games and saves. Add independent SELF/container checks and corruption regressions. Document the exact filename, checksum, mounting and title-screen results required from hardware testing in `docs/CFW_TEST_0.5.52.md`.
+- Prepare complete-image Retro Trans delivery from the original Japanese ISO and public 0.5.44. Final image, regression and patch verification are recorded below when complete. No GitHub release or draft is authorized by the build request.
+- Pass seven focused wrapper/carry-forward tests and all 82 disc files through both directory trees. The 5,289,738,240-byte ISO has SHA-256 `e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd`. Store full wrapper and image evidence in `work/ui/cfw_verified_0.5.52.json`; no hardware or live emulator boot is claimed.
 
 ## 0.5.51 - 2026-11-06 (prepared; publication requires consent)
 

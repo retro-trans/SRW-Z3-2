@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "version": "0.5.52",
+  "parent_version": "0.5.51",
+  "build_sha256": "3c5f6d8db559393d39b9e33e15055671e80054bbe8e88ceb9f9759238698b9f3",
+  "self_checks": {
+    "format": "CFW fake SELF; not retail-signed",
+    "payload_byte_identical": true,
+    "payload_sha256": "fe5279157bbebcc23d3e9676488ed05ef9c5a6ec62cdede0fbb6a2a035b2dae9",
+    "program_segments": 8,
+    "active_loads": 3,
+    "original_application_and_capabilities": true,
+    "all_segment_mappings_verified": true,
+    "no_writable_executable_load": true,
+    "hardware_verified": false
+  },
+  "parent_native_proof_sha256": "dfc73d1c0d5a8d255209a974367495c7112fd849d8b3c35d4401b23f60660929",
+  "parent_regression_tests": {
+    "run": 372,
+    "passed": 370,
+    "skipped": 2,
+    "log_sha256": "5035ff1da9800b4df8be63b48ab58593fbee90161037646e8fccc525fe60cb34"
+  },
+  "changed_outputs": [
+    "EBOOT.BIN",
+    "EFFPS3.CPK"
+  ],
+  "archive_isolation": {
+    "members": 489,
+    "replaced": 1,
+    "untouched_members_verified": 488,
+    "replaced_compressed": 0,
+    "output_bytes": 274114908,
+    "source_sha256": "ed246e5bdb069aa25c93e0209ae5d02e8ae61cde8b9b9e76ffdea17822a0d4e5",
+    "output_sha256": "cc07019b7c2e055660ab8241dea0e3550d49e3e7091f0d199724eadcdff1b31c",
+    "byte_identical": false,
+    "independent_itoc_check": true
+  },
+  "other_game_files_and_fonts_unchanged": true,
+  "hardware_verified": false,
+  "runtime_verified": false,
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.52\\Tengoku-hen-English-0.5.52-CFW-test.iso",
+    "bytes": 5289738240,
+    "sectors": 2582880,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd",
+    "version": "0.5.52",
+    "build": "E:\\Projects\\SRW Z3 2\\work\\output\\builds\\0.5.52",
+    "source_iso_sha256": "803df496be059d43a6045bd06e31a7def0d96f721ef8147e0d6efff81d125b99",
+    "replaced": {
+      "/PS3_GAME/USRDIR/EBOOT.BIN": "EBOOT.BIN",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/RPW_DATA.CPK": "RPW_DATA.CPK",
+      "/PS3_GAME/USRDIR/DATA/TABATA/TPACKPS3.CPK": "TPACKPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_KW.CPK": "MTZKN_KW.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_PT.CPK": "MTZKN_PT.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTZKN_RT.CPK": "MTZKN_RT.CPK",
+      "/PS3_GAME/USRDIR/DATA/STAGE/STGZ3OF2.SDAT": "STGZ3OF2.SDAT",
+      "/PS3_GAME/USRDIR/DATA/BTLC/SRVC.BIN": "SRVC.BIN",
+      "/PS3_GAME/USRDIR/DATA/BTLC/CMN.CPK": "CMN.CPK",
+      "/PS3_GAME/USRDIR/DATA/BTLC/OP.CPK": "OP.CPK",
+      "/PS3_GAME/USRDIR/DATA/AIDDATA/AIDDATAPACK.CPK": "AIDDATAPACK.CPK",
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK": "EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/COMMONDATA/MTDATA/MTV_ALL_KEYWORD_DEF.CPK": "MTV_ALL_KEYWORD_DEF.CPK",
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP": "TROPHY.TRP"
+    },
+    "cfw_test_candidate": true,
+    "rpcs3_only": false,
+    "hardware_verified": false,
+    "runtime_verified": false
+  }
+}

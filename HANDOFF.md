@@ -1,6 +1,34 @@
 # Tengoku-hen handoff
 
-## Current base-game candidate — 0.5.51
+## Hardware report follow-up — 2026-11-14
+
+The user relayed that the tester runs Evilnat 4.93 with Cobra 8.5 and the
+unpatched Japanese game boots on the same setup. Record this as tester-reported,
+not locally verified. See `incoming/2026-10-21-cfw-boot-report/report.json`.
+The inspected translated EBOOTs remain plain ELF, with no validated Tengoku
+console SELF wrapper. Manager/version, patched-image checksum and exact manager
+operation remain unknown. Investigate patched-image packaging; do not claim
+the error code proves a unique cause or that a console fix has been tested.
+
+## Current hardware-test candidate — 0.5.52
+
+The user authorized preparing the SELF wrapper test. Use `tools/cfw_package.py`,
+`tools/cfw_self.py` and `tools/release_prepare52.py`. The 0.5.51 embedded program
+is preserved byte for byte, including all memory addresses and three nonempty
+LOADs. Only the executable container and title-version artwork change. Pin the
+local PSL1GHT fself binary to `b3bc066b39b69adff7fd59c849b14bb8754c4c306c549aa1ecd791b953799554`.
+Original disc identity and capabilities are retained; this is a CFW fake SELF,
+not a retail signature. No installation or publication is authorized here.
+See `docs/CFW_TEST_0.5.52.md` and `docs/RELEASE_0.5.52.md`.
+The final image is `work/output/iso/0.5.52/Tengoku-hen-English-0.5.52-CFW-test.iso`,
+5,289,738,240 bytes; SHA-256 `e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd`.
+All 82 files verify through both directory trees. Seven focused tests pass;
+full regression and Retro Trans delivery evidence are recorded when complete.
+File proof: `work/ui/cfw_verified_0.5.52.json`. The installed RPCS3 registration
+still points to 0.5.51; no local installation was requested for this hardware test.
+Do not claim hardware boot before the physical tester reports it.
+
+## Current translation base — 0.5.51
 
 The DLC menu correction uses `tools/review51_text.py`, `review51_native.py`,
 `review51_build.py` and `verify_review51.py`. All 74 source-bound category

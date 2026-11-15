@@ -109,8 +109,11 @@ python -m tools.library_text check                 # translations must pass
 
 ## Limits
 
-- **RPCS3 only.** The EBOOT is a plain ELF; a console needs a fake-SELF wrapper
-  (Jigoku's `platforms/ps3/cfw_package.py`), untested for Tengoku.
+- **Default path is RPCS3 only.** The standard build EBOOT is a plain ELF.
+  The separate [0.5.52 CFW candidate](CFW_TEST_0.5.52.md) uses
+  `tools/cfw_package.py` to preserve that program inside a disc fake-SELF.
+  Physical-console startup remains unverified; do not infer hardware support
+  from successful file verification or RPCS3 execution.
 - **Runtime unverified.** The Library archives and native linked-term descriptions
   pass complete final-byte readback. Both owned prose consumers and their native
   conversion fallback execute in the harness. Live pagination, long-name widths

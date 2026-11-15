@@ -26,6 +26,11 @@ fixes its label overlaps, summary width and native confirmation text. It
 carries 0.5.50 and works with DLC 0.5.49. See [DLC menu corrections](docs/DLC_MENU_0.5.51.md).
 Publication requires separate explicit consent.
 
+The **0.5.52 CFW test** candidate wraps the unchanged 0.5.51 program for
+console startup testing. Physical PS3 compatibility remains unverified;
+see [the tester instructions](docs/CFW_TEST_0.5.52.md). It is prepared locally
+and requires separate explicit consent before any release or draft is created.
+
 The **0.5.50** test candidate centers all 197 timed narration lines, including
 the reported DLC scene. It preserves wording, font choices and timing and
 carries the 0.5.48 corrections. See [narration alignment](docs/NARRATION_ALIGNMENT_0.5.50.md).

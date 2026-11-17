@@ -152,7 +152,7 @@ Send bug reports, proofreading corrections and playtesting feedback through
 the [issue tracker](https://github.com/retro-trans/SRW-Z3-2/issues) or the
 project community:
 
-**[discord.gg/MssepShjmB](https://discord.gg/MssepShjmB)**
+**[discord.gg/nZBZfTDfCP](https://discord.gg/nZBZfTDfCP)**
 
 ---
 

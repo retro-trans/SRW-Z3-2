@@ -125,7 +125,7 @@ require locally supplied game data. Build-source commit: `9e22e9fd1dd1aa5f1b5cf4
 ### Contribute
 
 Report issues through the [issue tracker](https://github.com/retro-trans/SRW-Z3-2/issues)
-or **[discord.gg/MssepShjmB](https://discord.gg/MssepShjmB)**.
+or **[discord.gg/nZBZfTDfCP](https://discord.gg/nZBZfTDfCP)**.
 
 ---
 

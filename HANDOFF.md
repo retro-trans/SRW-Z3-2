@@ -1,5 +1,41 @@
 # Tengoku-hen handoff
 
+## Active task — Vita port (2026-11-19)
+
+The user added original `SRW Z3 Tengoku.pkg` and matching `work.bin` at repo
+root and requested BOTH physical Vita and Vita3K. PCSG00494; PKG SHA-256
+`009833f3ecb46da08e50ad9d3cfc9772a2d74499f29960a6645d88235e78e7b0`.
+Keep all license values private. `tools/vita_source.py` and
+`tools/vita/offline_pfs_main.cpp` are the source intake; original extraction
+is `work/vita/app/PCSG00494`, decrypted target `work/vita/decrypted_PCSG00494`.
+`tools/vita_elf.py` prepares a private plain-SELF/segment baseline after the
+source audit. Pure SELF/font-format helpers are adapted under `tools/vita/`.
+See `docs/VITA_PORT.md`. First Vita 0.1.0 native component build is sealed at
+`work/output/vita/builds/0.1.0/build.json` (18 components, 11 independently
+verified CPKs). It reuses sealed PS3 0.5.51 English; original Vita code and
+graphics formats are independently bound. ARM candidate v2 includes the native
+368-block voice table and passes 44,638 execution checks. This does not prove
+gameplay. Final startup plan is `startup_v3`, which supersedes only TPACK member
+0 from `tpack_art_v2`; the older startup previews showed residual lettering.
+
+Patch preparation: `tools/vita_release.py`; expected Vita3K delivery is
+`work/output/vita/releases/0.1.0/SRW-Z3-Tengoku-v0.1.0-Vita-PKG-patches.zip`.
+`tools/vita_integration.py --apply` PASSED: real Retro Trans reconstruction and
+isolated native installation verified all 141 files. Inspect
+`work/output/vita/packages/0.1.0/integration.json`. ZIP SHA is
+`b356f9d13769f2478225925497374da8692feb4d132d50535c9be545bc11c786`;
+local PKG SHA is `f529bfd591baa80784a0afb70b83c8e7a9950f4faf47eadba5f699ace5a7bc86`.
+The real user emulator installation was not changed; live gameplay is untested.
+Broad tests: 388 run, 386 passed, one skipped, one historical PS3 font test
+failed under default Pillow 13. It reproduces without Vita imports and passes
+with pinned Pillow 12.3. Use `tools/vita_regression.py` for deterministic font
+checks (20 passed); details in the port notes. Do not alter sealed historical fonts.
+Physical rePatch needs the original PCSG00494 v01.00 console self_auth.bin;
+the user was asked for its local path and has not yet supplied it. Never guess
+capabilities or reuse Jigoku's auth. Only sanitized authority/capability fields
+may be packaged; all secret regions must be zero. Do not modify PS3 builds.
+Creating/publishing any GitHub release or draft needs fresh explicit consent.
+
 ## Hardware report follow-up — 2026-11-14
 
 The user relayed that the tester runs Evilnat 4.93 with Cobra 8.5 and the

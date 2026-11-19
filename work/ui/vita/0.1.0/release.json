@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "title_id": "PCSG00494",
+  "version": "0.1.0",
+  "parent_ps3": "0.5.51",
+  "patch_zip": {
+    "name": "SRW-Z3-Tengoku-v0.1.0-Vita-PKG-patches.zip",
+    "bytes": 26172180,
+    "sha256": "b356f9d13769f2478225925497374da8692feb4d132d50535c9be545bc11c786"
+  },
+  "private_vita3k_pkg": {
+    "bytes": 2940151216,
+    "sha256": "f529bfd591baa80784a0afb70b83c8e7a9950f4faf47eadba5f699ace5a7bc86"
+  },
+  "native_installer_files": 141,
+  "delta_roundtrips": 18,
+  "archives_independently_verified": 11,
+  "native_execution_cases": 44638,
+  "layout": {
+    "logical_canvas": [
+      1280,
+      720
+    ],
+    "framebuffer": [
+      960,
+      544
+    ],
+    "caption_center_x": 640,
+    "font_atlas": [
+      4096,
+      1120
+    ],
+    "font_cell": [
+      32,
+      32
+    ],
+    "allocated_cells": 301,
+    "edited_widgets": 604,
+    "edited_elements": 4,
+    "edited_table_rows": 14
+  },
+  "hardware_ready": false,
+  "missing_hardware_input": "Original PCSG00494 v01.00 self_auth.bin console dump",
+  "gameplay_tested": false,
+  "vita_dlc_tested": false,
+  "trophy_translation_included": false,
+  "user_emulator_installation_changed": false,
+  "github_published": false,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true
+}

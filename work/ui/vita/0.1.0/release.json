@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "title_id": "PCSG00494",
   "version": "0.1.0",
   "parent_ps3": "0.5.51",
@@ -39,13 +39,32 @@
     "edited_elements": 4,
     "edited_table_rows": 14
   },
-  "hardware_ready": false,
-  "missing_hardware_input": "Original PCSG00494 v01.00 self_auth.bin console dump",
+  "hardware_ready": true,
+  "missing_hardware_input": null,
   "gameplay_tested": false,
   "vita_dlc_tested": false,
   "trophy_translation_included": false,
   "user_emulator_installation_changed": false,
   "github_published": false,
   "original_pkg_unchanged": true,
-  "license_unchanged": true
+  "license_unchanged": true,
+  "hardware_ready_means": "Prepared for testing; physical gameplay unverified",
+  "console_auth_dump_required": false,
+  "physical_gameplay_tested": false,
+  "hardware_patch": {
+    "name": "SRW-Z3-Tengoku-v0.1.0-Vita-rePatch-patches.zip",
+    "bytes": 24206554,
+    "sha256": "f13c07d09b283a49b120e7037e51f63f9308801486312dd51b46bdc94f20c6cb"
+  },
+  "hardware_copy_zip": {
+    "name": "Tengoku-hen-English-0.1.0-physical-Vita.zip",
+    "bytes": 171589354,
+    "sha256": "d59562819e4c1f58f7faf6db8d4c286a73276f429a24d790e82e5320d38161cd"
+  },
+  "hardware_components": 13,
+  "hardware_auth_files": 1,
+  "retro_trans_pkg_work_bin_route_verified": true,
+  "original_boot_parameters_preserved": true,
+  "auth_source": "Original SELF decrypted with supplied work.bin",
+  "sanitized_auth_sha256": "a28ed743f23a027ad39bd058848445ffe04c3ef3c3306d9351049b43142af20a"
 }

@@ -76,7 +76,8 @@ def reference_keys(reference, revision):
     return selected
 
 
-def decode_segments(data, license_key, reference):
+def decode_metadata(data, license_key, reference):
+    """Private in-memory metadata. Never log its key vault or optional seeds."""
     info = parse(data)
     require(info['ai'][2] == 8, 'Only APP executables are supported')
     require(len(license_key) == 16, 'Invalid license key length')
@@ -95,6 +96,12 @@ def decode_segments(data, license_key, reference):
     mh = unpack('<Q6I', plain, 0)
     sections, nkeys = mh[2], mh[3]
     require(0 < sections <= 64 and 0 < nkeys <= 128, 'Invalid metadata counts')
+    return info, plain, mh
+
+
+def decode_segments(data, license_key, reference):
+    info, plain, mh = decode_metadata(data, license_key, reference)
+    sections, nkeys = mh[2], mh[3]
     vault = take(plain, 32 + sections * 48, nkeys * 16)
     by_index = {}
     for i in range(sections):

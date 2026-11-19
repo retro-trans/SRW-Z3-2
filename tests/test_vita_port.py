@@ -4,6 +4,7 @@ import unittest
 from tools.vita import gxt
 from tools import vita_ui as U
 from tools.vita.repatch_auth import sanitize
+from tools.vita_auth import optional_auth
 import numpy as np
 
 
@@ -83,6 +84,32 @@ class VitaAuth(unittest.TestCase):
 
     def test_wrong_game_authority_rejected(self):
         with self.assertRaisesRegex(ValueError,'matching'):sanitize(bytes(range(144)),123)
+
+    def metadata(self,order=(1,2,3)):
+        raw=bytearray(32+48+32)
+        for i,typ in enumerate(order):
+            size={1:48,2:272,3:48}[typ]
+            raw+=struct.pack('<IIQ',typ,size,int(i<len(order)-1))
+            raw+=bytes([{1:0x11,2:0xe7,3:0x33}[typ]])*(size-16)
+        return bytes(raw),(0xf00,5,1,2,0x170,0,0)
+
+    def test_only_documented_optional_fields_are_exported(self):
+        data,header=self.metadata();out,types=optional_auth(data,header,123,0x100,0x1000)
+        self.assertEqual(types,[1,2,3]);self.assertEqual(out[16:48],bytes([0x11])*32)
+        self.assertEqual(out[48:80],bytes([0x33])*32);self.assertEqual(out[80:],bytes(64))
+        self.assertNotIn(bytes([0xe7])*16,out)
+
+    def test_metadata_order_does_not_change_permissions(self):
+        a,h=self.metadata();b,k=self.metadata((3,1,2))
+        self.assertEqual(optional_auth(a,h,123,0x100,0x1000)[0],optional_auth(b,k,123,0x100,0x1000)[0])
+
+    def test_bad_optional_chain_is_rejected(self):
+        data,header=self.metadata();data=bytearray(data);struct.pack_into('<Q',data,112+8,0)
+        with self.assertRaisesRegex(ValueError,'header'):optional_auth(data,header,123,0x100,0x1000)
+
+    def test_optional_records_cannot_overlap_signature(self):
+        data,header=self.metadata();header=(0x110,*header[1:])
+        with self.assertRaisesRegex(ValueError,'bounds'):optional_auth(data,header,123,0x100,0x1000)
 
 
 if __name__=='__main__':unittest.main()

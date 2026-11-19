@@ -30,10 +30,26 @@ Broad tests: 388 run, 386 passed, one skipped, one historical PS3 font test
 failed under default Pillow 13. It reproduces without Vita imports and passes
 with pinned Pillow 12.3. Use `tools/vita_regression.py` for deterministic font
 checks (20 passed); details in the port notes. Do not alter sealed historical fonts.
-Physical rePatch needs the original PCSG00494 v01.00 console self_auth.bin;
-the user was asked for its local path and has not yet supplied it. Never guess
-capabilities or reuse Jigoku's auth. Only sanitized authority/capability fields
-may be packaged; all secret regions must be zero. Do not modify PS3 builds.
+The user then said to use work.bin. That WORKS: the earlier console-dump
+requirement was too strict. `tools/vita_auth.py` extracts the original SELF's
+optional type 1 capabilities and type 3 attributes, matching upstream reF00D
+f3271bcd010950193cfb6e0331cae89bdb5e96e9. Type 2 seed data is never exported.
+All secret regions are zero. Independent Jigoku extraction matches its
+existing auth profile, used only as an oracle. Tengoku auth SHA:
+`a28ed743f23a027ad39bd058848445ffe04c3ef3c3306d9351049b43142af20a`.
+Derived auth/proof are ignored under `work/vita/derived_auth/`. Original native
+boot parameters match the translated SELF byte for byte. The decoder refactor
+still produces the exact original plain SELF SHA (1afa15e3...).
+
+`tools/vita_release.py --auth work/vita/derived_auth/self_auth.bin --apply`
+added the 13-component physical rePatch patch ZIP and HARDWARE_AUDIT.json.
+`tools/vita_hardware_check.py --apply` PASSED the actual original PKG + work.bin
+→ Retro Trans overlay route: all 13 components plus sanitized auth verified,
+including stream hashes from the copy-ready ZIP under
+`work/output/vita/hardware/0.1.0/`. Inspect integration.json. User device/saves
+were untouched. The public-delivery patch ZIP is 24,206,554 bytes.
+Physical gameplay is still untested. No more console dump request is needed.
+Do not change the existing Vita3K game files or PS3 builds.
 Creating/publishing any GitHub release or draft needs fresh explicit consent.
 
 ## Hardware report follow-up — 2026-11-14

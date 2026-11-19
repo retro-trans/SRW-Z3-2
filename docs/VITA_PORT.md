@@ -95,25 +95,47 @@ and license locally. The custom rebuilt PKG is a Vita3K target, not a package
 to install on physical hardware. No original game files or licenses belong in
 the GitHub release assets.
 
-## Physical Vita requirement
+## Physical Vita permissions from work.bin
 
-The executable-changing physical overlay still requires a console-dumped
-`self_auth.bin` from the original PCSG00494 version 01.00 installation. The
-user has been asked for its local path. PKG/work.bin alone have not established
-the required capability/attribute fields. Do not guess them or reuse another
-game's dump. The physical output remains pending until this input is supplied.
+The user's follow-up requested using the supplied work.bin. The earlier
+console-dump requirement was too strict: the original encrypted SELF already
+contains the required permissions in its decrypted optional-header table.
+`tools/vita_auth.py` uses the original PCSG00494 SELF and matching work.bin to
+extract them locally. No separate console dump is needed for this delivery.
 
-[FAGDec's upstream documentation](https://github.com/TeamFAPS/PSVita-RE-tools)
-describes dumping the base game's executable authentication data.
-[rePatch's auth hook](https://github.com/dots-tb/rePatch-reDux0/blob/master/repatch.c)
-checks the authority and copies its capability/attribute fields. Our sanitizer
-retains only the authority and bytes 0x10–0x4f; padding and all secret/license
-regions are zeroed. A raw dump is never packaged.
+The format and copy semantics are verified against
+[reF00D's loader implementation](https://github.com/dots-tb/reF00D/blob/f3271bcd010950193cfb6e0331cae89bdb5e96e9/src/ref00d_kprx_auth.c#L383-L410)
+and its
+[metadata types](https://github.com/dots-tb/reF00D/blob/f3271bcd010950193cfb6e0331cae89bdb5e96e9/src/ref00d_kprx_auth.h).
+Optional type 1 supplies 32 capability bytes and type 3 supplies 32 attribute
+bytes. Type 2 is a separate seed header and is never exported. Header extents,
+sizes, chain flags, uniqueness and signature boundary are checked strictly.
+The original SELF's public authority ID supplies the first eight auth bytes.
 
-When a matching dump is available, `tools/vita_release.py --auth <local-path>`
-can prepare the separate `retro-trans-vita-repatch-v1` delivery. It omits the
-unchanged original modules supplied by the installed game. Neither a ready
-hardware overlay nor a successful physical gameplay test is claimed yet.
+Only the authority/capability/attribute fields are written to the sanitized
+144-byte rePatch auth file; padding and all secret/license regions remain
+zero. The result has SHA-256
+`a28ed743f23a027ad39bd058848445ffe04c3ef3c3306d9351049b43142af20a`.
+As an independent check, extraction from the existing Jigoku source exactly
+matches its separately prepared rePatch profile. That comparison is an oracle;
+no Jigoku permissions are used to construct the Tengoku output. The Tengoku
+executable's original boot-parameter header is also preserved byte for byte.
+
+Run `tools/vita_auth.py`, then `--apply`, followed by
+`tools/vita_release.py --auth work/vita/derived_auth/self_auth.bin` and its
+`--apply` invocation. This adds a separate `retro-trans-vita-repatch-v1` ZIP
+without changing the existing Vita3K package or game components. It omits the
+five original modules supplied by the installed game. The profile includes
+the sanitized permissions, so end users supply just their original PKG and
+matching work.bin to Retro Trans.
+
+`tools/vita_hardware_check.py` exercises that actual PKG/work.bin route, checks
+all 13 reconstructed components plus auth, and makes a private copy-ready ZIP.
+This route PASSED, including hashes streamed from the copy-ready ZIP. The
+Retro Trans hardware patch ZIP is 24,206,554 bytes. Original inputs and user
+devices were unchanged. Thirteen focused auth/native tests passed, and the
+metadata decoder still reproduces the exact previously verified plain SELF.
+No physical console gameplay verification is claimed.
 
 No installation into the user's actual Vita3K setup or physical Vita has been
 performed. No GitHub release or draft is authorized. Once validation is complete,

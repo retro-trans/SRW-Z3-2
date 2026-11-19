@@ -3,6 +3,7 @@ import argparse
 import json
 from pathlib import Path
 import subprocess
+import struct
 import sys
 import tempfile
 import zipfile
@@ -37,6 +38,25 @@ def complete_hardware(auth_path,apply=False):
     wanted=next(r['target'] for r in profile['files'] if r['path']=='eboot.bin')
     V.need(B.describe(eboot)==wanted,'Sealed executable changed')
     auth=sanitize(Path(auth_path).read_bytes(),S.parse(eboot.read_bytes())['ai'][0])
+    original=V.PLAIN/'eboot.bin'
+    V.need(B.describe(original)==next(r['source'] for r in profile['files'] if r['path']=='eboot.bin'),
+           'Original executable changed')
+    def boot_parameters(data):
+        fields=struct.unpack_from('<12Q',data,32);at,total=fields[9:11];end=at+total;found=[]
+        while at<end:
+            typ,size,more=struct.unpack_from('<IIQ',data,at)
+            V.need(size>=16 and at+size<=end,'Invalid boot parameter bounds')
+            if typ==6:found.append(data[at:at+size])
+            at+=size
+        V.need(len(found)==1,'Missing unique native boot parameters');return found[0]
+    V.need(boot_parameters(original.read_bytes())==boot_parameters(eboot.read_bytes()),
+           'Original executable boot parameters differ')
+    auth_proof=None;proof_path=Path(auth_path).parent/'proof.json'
+    if proof_path.is_file():
+        candidate=json.loads(proof_path.read_text('utf8'))
+        V.need(candidate['title_id']==V.TITLE and candidate['sanitized_auth_sha256']==sha256(auth) and
+               candidate['source_self_sha256']==sha256_file(original),'Derived permissions proof differs')
+        auth_proof=candidate
     files=[r for r in profile['files'] if not r['path'].startswith('sce_module/')]
     hp=dict(schema=hardware.SCHEMA,title_id=V.TITLE,app_version='01.00',name='SRW Z3 Tengoku-hen - physical Vita',
         build=B.VERSION,minimum_app_version='0.5.19',package=dict(profile['package'],content_id=profile['content_id']),
@@ -45,12 +65,13 @@ def complete_hardware(auth_path,apply=False):
     for row in files:V.need(B.describe(OUTPUT/row['patch']['name'])=={k:row['patch'][k] for k in ('bytes','sha256')},'Patch changed')
     manifest=OUTPUT/hardware.MANIFEST;path=OUTPUT/f'SRW-Z3-Tengoku-v{B.VERSION}-Vita-rePatch-patches.zip'
     V.need(not manifest.exists() and not path.exists(),'Preserve existing hardware candidate')
-    print('Matching console auth validated; prepare',len(files),'physical-Vita component patches.',flush=True)
+    print('Matching original permissions validated; prepare',len(files),'physical-Vita component patches.',flush=True)
     if not apply:print('DRY RUN: no hardware release written.');return
     write_json(manifest,hp);seal_zip(path,hardware.MANIFEST,hp,[OUTPUT/r['patch']['name'] for r in files])
     with hardware.archive_description(path) as (readback,_,__):V.need(readback==hp,'Hardware archive readback differs')
     write_json(OUTPUT/'HARDWARE_AUDIT.json',dict(title_id=V.TITLE,version=B.VERSION,auth_sanitized=True,
         raw_auth_included=False,retro_trans_archive_verified=True,gameplay_tested=False,
+        original_boot_parameters_preserved=True,auth_source_proof=auth_proof,
         artifacts={p.name:B.describe(p) for p in (manifest,path)}))
 
 

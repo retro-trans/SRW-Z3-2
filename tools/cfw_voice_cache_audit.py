@@ -54,6 +54,7 @@ def audit():
         if old[before.base:before.offs_at] != new[after.base:after.offs_at]:
             raise ValueError('Voice selection/cue fields changed: '+str(before.i))
     invalid = [i for i in range(368) if nt[i] >= len(old) or old[nt[i]] != 3]
+    reverse_invalid = [i for i in range(368) if new[ot[i]] != 3]
     text = {b.i for b in ob if b.n6}
     past_eof = [i for i in range(368) if nt[i+1] > len(old)]
     # Native install-list record: source path, installed subfolder, filename, flag.
@@ -76,10 +77,15 @@ def audit():
         observed_rpcS3_cache_path='dev_hdd0/game/BLJS10299_DATA/USRDIR/INSCO/DATA0046.DAT',
         original_cache=dict(bytes=len(old),sha256=sha256(old)),
         required_cache=dict(bytes=len(new),sha256=sha256(new)),
+        required_disc_executable=dict(bytes=len(wrapped),sha256=sha256(wrapped),
+            payload_sha256=sha256(elf),mounted_disc_path='/dev_bdvd/PS3_GAME/USRDIR/EBOOT.BIN'),
         original_cache_with_new_table=dict(invalid_header_banks=len(invalid),total_banks=368,
             invalid_text_banks=len(text.intersection(invalid)),total_text_banks=len(text),
             read_windows_past_original_eof=len(past_eof)),
-        suspected_cause='Old installed voice data used with the new executable table',
+        original_executable_with_translated_cache=dict(invalid_header_banks=len(reverse_invalid),
+            total_banks=368,invalid_text_banks=len(text.intersection(reverse_invalid)),total_text_banks=len(text)),
+        failure_modes_under_investigation=['Old installed data with translated executable',
+            'Original executable table with translated installed data'],
         remote_cache_mismatch_confirmed=False, hardware_audio_recovery_confirmed=False,
         firmware_saves_trophies_and_game_files_modified=False)
 

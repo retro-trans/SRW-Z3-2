@@ -7,6 +7,11 @@ the broader battle symptom comes from the tester's follow-up. The earlier
 trophy-installation screen is no longer the reported blocker. This is not
 full gameplay validation.
 
+Later the user reported the installed DATA0046.DAT is exactly **4,946,624
+bytes**. That matches the required length and does not support the original-size
+cache hypothesis. Its hash and the executable actually selected on the console
+remain unconfirmed. **Do not refresh/move the cache based on size alone.**
+
 ## What the read-only checks establish
 
 The final 0.5.53 disc contains the correct paired executable and SRVC.BIN.
@@ -21,7 +26,14 @@ Using the original Japanese file with the translated table gives invalid
 version headers at 359 of 368 bank starts, including 279 of 283 text banks;
 109 read windows extend past the old file's end. This demonstrates a concrete
 failure mode consistent with the report. The console's cache has not yet been
-read, so the mismatch remains a hypothesis until its size/hash is checked.
+read. Its reported size now matches, but a mismatch remains a hypothesis until
+the actual file hash and executable identity are checked.
+
+The reverse mismatch also matters: the original executable table used with the
+correct-sized translated data gives 363/368 invalid bank headers, including
+280/283 text banks. Therefore a matching file size cannot rule out an
+executable/data mismatch. An installed update executable is one possibility to
+check, not a confirmed finding on this console.
 
 | Installed DATA0046.DAT | Bytes | SHA-256 |
 | --- | ---: | --- |
@@ -29,6 +41,24 @@ read, so the mismatch remains a hypothesis until its size/hash is checked.
 | Required by 0.5.52 / 0.5.53 | 4,946,624 | `bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d` |
 
 ## Tester check and recoverable refresh
+
+Current next checks, after the matching-size report:
+
+- Obtain the SHA-256 of DATA0046.DAT, or copy that file for a read-only hash
+  comparison. Expected hash: `bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d`.
+- Check whether `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN` exists. Leave it
+  unchanged; if present, record its size/hash and corresponding PARAM.SFO
+  version before deciding whether it affects the launch.
+- The expected mounted-disc EBOOT.BIN is 19,337,892 bytes, SHA-256
+  `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
+  A differing container hash needs inspection; it does not alone prove a
+  different program because a manager could have altered only its wrapper.
+
+RPCS3's [disc boot/update selection](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/System.cpp)
+checks for a title-specific installed update EBOOT. This supports checking for
+an override; it is not proof of the file or launch behavior on this tester's
+console. The earlier cache-refresh procedure below is conditional on confirming
+an actual stale cache, and is not the next action for the matching-size report.
 
 1. Close the game. Locate its installed game-data cache. The observed Tengoku
    path in RPCS3 is `/dev_hdd0/game/BLJS10299_DATA/USRDIR/INSCO/DATA0046.DAT`;

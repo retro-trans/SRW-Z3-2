@@ -45,6 +45,12 @@
     "bytes": 4946624,
     "sha256": "bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d"
   },
+  "required_disc_executable": {
+    "bytes": 19337892,
+    "sha256": "93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9",
+    "payload_sha256": "fe5279157bbebcc23d3e9676488ed05ef9c5a6ec62cdede0fbb6a2a035b2dae9",
+    "mounted_disc_path": "/dev_bdvd/PS3_GAME/USRDIR/EBOOT.BIN"
+  },
   "original_cache_with_new_table": {
     "invalid_header_banks": 359,
     "total_banks": 368,
@@ -52,7 +58,16 @@
     "total_text_banks": 283,
     "read_windows_past_original_eof": 109
   },
-  "suspected_cause": "Old installed voice data used with the new executable table",
+  "original_executable_with_translated_cache": {
+    "invalid_header_banks": 363,
+    "total_banks": 368,
+    "invalid_text_banks": 280,
+    "total_text_banks": 283
+  },
+  "failure_modes_under_investigation": [
+    "Old installed data with translated executable",
+    "Original executable table with translated installed data"
+  ],
   "remote_cache_mismatch_confirmed": false,
   "hardware_audio_recovery_confirmed": false,
   "firmware_saves_trophies_and_game_files_modified": false

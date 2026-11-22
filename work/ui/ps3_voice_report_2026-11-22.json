@@ -13,12 +13,15 @@
   "screenshot": "incoming/2026-11-22-ps3-no-voice/opening.png",
   "screenshot_sha256": "4fe44dd91e50b71a566e5f251c56eb3cc3946389a95afca1e336c0e2bd50ad3b",
   "tested_iso_sha256": null,
-  "remote_installed_voice_file_size": null,
+  "remote_installed_voice_file_size": 4946624,
+  "remote_installed_voice_file_size_reported_exactly": true,
+  "remote_voice_file_size_matches_expected": true,
   "remote_installed_voice_file_sha256": null,
   "remote_cache_mismatch_confirmed": false,
-  "suspected_cause": "Installed Japanese SRVC data paired with translated executable offsets",
+  "suspected_cause": "Voice data/executable identity mismatch remains under investigation; reported size does not support the original-size Japanese cache hypothesis",
   "read_only_audit": "work/ui/ps3_voice_audit_2026-11-22.json",
-  "next_check": "Compare the console's INSCO/DATA0046.DAT against required 4946624 bytes and recorded SHA-256 before a recoverable cache refresh.",
+  "next_check": "Leave files unchanged. Compare the actual DATA0046.DAT SHA-256 and check for /dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN; correct file size alone is insufficient to establish the pair in use.",
+  "installed_update_executable_exists": null,
   "audio_recovery_confirmed": false,
   "new_patch_required_established": false
 }

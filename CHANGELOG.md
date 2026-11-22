@@ -10,6 +10,14 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.53 - 2026-11-22 (single-file CFW trophy control; prepared locally)
+
+- Record the tester-confirmed 0.5.52 hang at the “Installing trophy data” screen, showing 100%. The tester may use webMAN; exact manager/version and duration remain unknown. This establishes reported progress beyond the earlier launch error, not successful title-screen/gameplay verification.
+- Prepare a one-file control restoring the complete original `TROPHY.TRP`, including both original SFM metadata documents and their comments. Preserve the wrapped executable and all other 81 disc files exactly. Keep the title artwork at 0.5.52 deliberately; identify this diagnostic by its 0.5.53 ISO filename and checksum.
+- Preserve installed trophy progress, saves, game registrations and firmware. Do not bypass trophy APIs or assume that a container checksum proves physical-console SFM acceptance. The two translated metadata files omit 352-byte original comments; this is an isolated candidate difference, not a confirmed cause.
+- Prepare a Retro Trans complete-image route from exact 0.5.52 to this control. Focused CFW/trophy/native-message/ISO checks and final patch evidence are recorded when complete. No release or draft is authorized. See `docs/CFW_TROPHY_TEST_0.5.53.md`.
+- Pass all 21 focused CFW, trophy, native-message and ISO-reader checks. Verify all 82 disc files in both directory trees. The 5,293,670,400-byte target has SHA-256 `274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be`. Carry the unchanged program's prior 379-test evidence separately; do not claim a fresh full-suite or hardware run.
+
 ## 0.5.52 - 2026-11-15 (experimental CFW test; prepared locally)
 
 - At the user's request, prepare a console-wrapper test for the tester on Evilnat 4.93 / Cobra 8.5, whose original Japanese image boots on the same setup. Wrap the complete sealed 0.5.51 program with pinned PSL1GHT fself and retain the original Tengoku disc application identity and capabilities. Preserve every embedded ELF byte, all program mappings and the existing three nonempty LOADs. This is not a retail signature or a confirmed hardware fix.

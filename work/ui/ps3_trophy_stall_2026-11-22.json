@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "date": "2026-11-22",
+  "platform": "Physical PS3; tester report relayed by user",
+  "version": "0.5.52",
+  "version_confirmed_by_user": true,
+  "reported_firmware": "Evilnat 4.93 / Cobra 8.5",
+  "manager": "Possibly webMAN; user uncertain",
+  "manager_version": null,
+  "duration_at_100_percent": null,
+  "screen_translation": "Installing trophy data.",
+  "screen_percent": 100,
+  "reported_behavior": "Stays at this screen",
+  "reaches_trophy_installation": true,
+  "title_screen_success": false,
+  "cause_confirmed": false,
+  "screenshot": "incoming/2026-11-22-ps3-trophy-stall/trophy-install-100.png",
+  "screenshot_sha256": "e26e31860b54eeadd6e5f61e1854fc52c67814878d073cdf94f63293664221b9",
+  "tested_iso_sha256": null,
+  "findings": [
+    "The tester confirms 0.5.52 and shows trophy installation, beyond the previous launch rejection.",
+    "The sealed image includes a translated TROPHY.TRP. Its two localized SFM documents differ from the original and omit the original comments.",
+    "The original and translated TRP packages both pass their container SHA-1 checks. This is not proof of physical-console SFM authentication.",
+    "A 0.5.53 single-file control restores the complete original trophy package while retaining the same wrapped executable and other 81 game files.",
+    "No installed trophy database, save data, firmware or game registration is deleted or changed by local preparation."
+  ],
+  "next_test": "Apply the 0.5.52-to-0.5.53 original-trophies control and report whether installation completes and the title screen appears.",
+  "hardware_control_result": "pending"
+}

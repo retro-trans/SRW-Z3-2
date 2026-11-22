@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "version": "0.5.53",
+  "build_sha256": "41189bb92df469c4f56b3d1247493bba036c3a3fc75a6856c2aebc64061e5b28",
+  "parent_delivery_sha256": "815ad888e29d8232f3c4bcf34f3777fcf5a5f2a82c958cca6c13f2127fdf373b",
+  "changed_game_files": [
+    "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP"
+  ],
+  "unchanged_game_files": 81,
+  "executable_byte_identical": true,
+  "original_trophy_package_restored": true,
+  "original_trophy_ids_icons_and_metadata_restored": true,
+  "title_artwork_version": "0.5.52",
+  "audit": {
+    "original_sha256": "0da66f959beb04ef0a1e60bb9838bdf55c7003f4b4342383e812061af7f46e52",
+    "translated_sha256": "2521580590639e78a5e8f0d9705a7cd3f8dbc3158d740748bac076b1364e805c",
+    "original_bytes": 3811024,
+    "translated_bytes": 3807881,
+    "changed_members": [
+      "TROP.SFM",
+      "TROP_00.SFM"
+    ],
+    "comments": [
+      {
+        "name": "TROP.SFM",
+        "original_comment_bytes": [
+          352
+        ],
+        "original_comment_sha256": [
+          "0fdda71aaa15a19bfeb113782a024614294e4ebbe2eac83fe3b64a4463ccdb86"
+        ],
+        "translated_comment_count": 0
+      },
+      {
+        "name": "TROP_00.SFM",
+        "original_comment_bytes": [
+          352
+        ],
+        "original_comment_sha256": [
+          "0fdda71aaa15a19bfeb113782a024614294e4ebbe2eac83fe3b64a4463ccdb86"
+        ],
+        "translated_comment_count": 0
+      }
+    ],
+    "original_member_count": 40,
+    "original_trophy_count": 35,
+    "both_container_sha1_checks_pass": true,
+    "physical_signature_validation_not_proven": true
+  },
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.53\\Tengoku-hen-English-0.5.53-original-trophies-CFW-test.iso",
+    "bytes": 5293670400,
+    "sectors": 2584800,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be",
+    "version": "0.5.53",
+    "parent_version": "0.5.52",
+    "source_iso_sha256": "e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd",
+    "changed_game_files": [
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP"
+    ],
+    "title_artwork_version": "0.5.52",
+    "cfw_test_candidate": true,
+    "hardware_verified": false,
+    "runtime_verified": false
+  },
+  "parent_tests": {
+    "run": 379,
+    "passed": 377,
+    "skipped": 2,
+    "log_sha256": "5362948941f95d81a5e41435def4a276668c4ab23038cc51f3f4984162a8ce5c"
+  },
+  "hardware_verified": false,
+  "runtime_verified": false
+}

@@ -1,5 +1,33 @@
 # Tengoku-hen handoff
 
+## Current PS3 diagnostic — 0.5.53 trophy installation
+
+The tester confirms 0.5.52 but reports a persistent 100% “Installing trophy
+data” screen. The manager may be webMAN; exact name/version and wait duration
+are unknown. This is reported execution beyond the previous launch error,
+not title-screen or gameplay success. Evidence is in
+`work/ui/ps3_trophy_stall_2026-11-22.json`; its photo remains under ignored
+`incoming/2026-11-22-ps3-trophy-stall/`.
+
+Use `tools/cfw_trophy_control.py` and `tools/release_prepare53.py`. The 0.5.53
+control restores only the original disc trophy package. All other 81 logical
+files and the wrapped executable remain byte-identical to 0.5.52. The title
+artwork deliberately still shows 0.5.52: distinguish the control by its ISO
+filename/checksum. No installed trophy database, saves, registration or firmware
+is changed. Do not advise deleting trophy progress as a speculative fix.
+
+Original/translated trophy packages pass SHA-1; only the two localized SFM
+documents differ, each omitting a 352-byte original comment. This is a candidate
+difference; no hardware signature-validation failure has been proven. The
+diagnostic route takes exact 0.5.52, not original Japanese/0.5.44. All 21
+focused checks pass; all 82 files verify through both directory trees. Target
+ISO: `work/output/iso/0.5.53/Tengoku-hen-English-0.5.53-original-trophies-CFW-test.iso`,
+5,293,670,400 bytes; SHA-256 `274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be`.
+File evidence: `work/ui/cfw_trophy_verified_0.5.53.json`; focused test log:
+`work/output/scratch/cfw-trophy-0.5.53-tests.log`. Delivery evidence is recorded
+when complete. Physical retest and release
+consent remain pending. See `docs/CFW_TROPHY_TEST_0.5.53.md`.
+
 ## Active task — Vita port (2026-11-19)
 
 The user added original `SRW Z3 Tengoku.pkg` and matching `work.bin` at repo

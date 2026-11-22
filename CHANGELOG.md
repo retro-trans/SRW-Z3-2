@@ -18,6 +18,7 @@
 - Prepare a Retro Trans complete-image route from exact 0.5.52 to this control. No release or draft is authorized. See `docs/CFW_TROPHY_TEST_0.5.53.md`.
 - Pass all 21 focused CFW, trophy, native-message and ISO-reader checks. Verify all 82 disc files in both directory trees. The 5,293,670,400-byte target has SHA-256 `274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be`. Carry the unchanged program's prior 379-test evidence separately; do not claim a fresh full-suite or hardware run.
 - Pass the official Retro Trans 0.5.4 complete-image round trip from exact 0.5.52. The 3,619,858-byte xdelta reconstructs the verified target and preserves both inputs. Seal all four delivery assets in `work/ui/local_release_0.5.53.json`; physical retesting and publication remain pending.
+- Hardware follow-up: the user confirms 0.5.53 reaches the opening and reports battle voices missing, captions all ellipses and music/effects working. Read back the paired on-disc SRVC/executable and all four unchanged SOUND archives; retain all 78,302 cue references. Reproduce 359 invalid bank headers and 109 out-of-file reads when the original 3,499,808-byte Japanese cache is used with the new table requiring 4,946,624 bytes. Pass all 16 SRVC checks. Document a read-only size/hash check and recoverable installed-cache refresh in `docs/PS3_VOICE_CACHE.md`; the tester's actual cache and audio recovery remain unconfirmed. No binary, installed data, save, trophy or firmware changes are made.
 
 ## 0.5.52 - 2026-11-15 (experimental CFW test; prepared locally)
 

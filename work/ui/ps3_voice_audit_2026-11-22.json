@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "date": "2026-11-22",
+  "version": "0.5.53",
+  "scope": "on-disc audio and native voice-bank pairing; remote console cache not inspected",
+  "source_report": "work/ui/ps3_voice_report_2026-11-22.json",
+  "image_verification_sha256": "0a38497badfb4d005113346769c775d5e5bc73366efb8a09e8cd67a4494cb397",
+  "audio_archives": [
+    {
+      "path": "/PS3_GAME/USRDIR/DATA/SOUND/BGMZ3TENPS3.AWB",
+      "bytes": 251505056,
+      "sha256": "0f1ca9d6181aa04b0d65160d0305831230492fe3b337b388ba34727249f69164",
+      "byte_identical_to_original": true
+    },
+    {
+      "path": "/PS3_GAME/USRDIR/DATA/SOUND/SEZ3TENPS3.CPK",
+      "bytes": 100090704,
+      "sha256": "21b7e63420264d217d4ee7910b64070f58bb4d2016011b9f6f054651b8707f33",
+      "byte_identical_to_original": true
+    },
+    {
+      "path": "/PS3_GAME/USRDIR/DATA/SOUND/SOUNDACFZ3TENPS3.ACF",
+      "bytes": 3904,
+      "sha256": "3383d5cae0bac179ca1b175239634602e35233db7933b1227fd6d087eb31370d",
+      "byte_identical_to_original": true
+    },
+    {
+      "path": "/PS3_GAME/USRDIR/DATA/SOUND/TALKZ3TENPS3.CPK",
+      "bytes": 872459864,
+      "sha256": "beaa7c4a4458d07699ed1e1376d64fdb7419530c4beb5d4483e8383cb10eb8ec",
+      "byte_identical_to_original": true
+    }
+  ],
+  "paired_voice_banks": 368,
+  "voice_cue_references_preserved": 78302,
+  "selection_rules_headers_and_cues_byte_identical": true,
+  "native_installed_subfolder": "/INSCO/",
+  "native_installed_filename": "DATA0046.DAT",
+  "observed_rpcS3_cache_path": "dev_hdd0/game/BLJS10299_DATA/USRDIR/INSCO/DATA0046.DAT",
+  "original_cache": {
+    "bytes": 3499808,
+    "sha256": "8736ee4a52cf931e909b95f3a007ce6ee8d9db258f0ce44b73bd89ce36263ffc"
+  },
+  "required_cache": {
+    "bytes": 4946624,
+    "sha256": "bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d"
+  },
+  "original_cache_with_new_table": {
+    "invalid_header_banks": 359,
+    "total_banks": 368,
+    "invalid_text_banks": 279,
+    "total_text_banks": 283,
+    "read_windows_past_original_eof": 109
+  },
+  "suspected_cause": "Old installed voice data used with the new executable table",
+  "remote_cache_mismatch_confirmed": false,
+  "hardware_audio_recovery_confirmed": false,
+  "firmware_saves_trophies_and_game_files_modified": false
+}

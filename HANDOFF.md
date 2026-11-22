@@ -1,8 +1,23 @@
 # Tengoku-hen handoff
 
-## Current PS3 diagnostic — 0.5.53 trophy installation
+## Current PS3 hardware follow-up — 0.5.53 voice cache
 
-The tester confirms 0.5.52 but reports a persistent 100% “Installing trophy
+Follow-up: the tester confirms 0.5.53 now reaches the opening and reports
+missing battle speech, all-ellipsis battle captions and working music/effects.
+See `work/ui/ps3_voice_report_2026-11-22.json` and `docs/PS3_VOICE_CACHE.md`.
+The on-disc executable/SRVC pairing is correct; all four SOUND archives match
+the original and all 78,302 cue references are preserved. An old Japanese
+DATA0046.DAT under the new offset table has 359/368 invalid headers and 109
+read windows past EOF. Required cache: 4,946,624 bytes, SHA-256
+`bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d`;
+original cache: 3,499,808 bytes. The actual console cache has not been checked.
+Sixteen SRVC checks pass; no new game build or cache change was performed.
+Ask for the actual file size/hash, then use the documented recoverable cache
+refresh only if the old installed data is confirmed. Preserve saves/trophies/DLC.
+
+### Earlier trophy control
+
+The tester confirmed 0.5.52 but reported a persistent 100% “Installing trophy
 data” screen. The manager may be webMAN; exact name/version and wait duration
 are unknown. This is reported execution beyond the previous launch error,
 not title-screen or gameplay success. Evidence is in

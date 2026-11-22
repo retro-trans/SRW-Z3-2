@@ -24,8 +24,11 @@ focused checks pass; all 82 files verify through both directory trees. Target
 ISO: `work/output/iso/0.5.53/Tengoku-hen-English-0.5.53-original-trophies-CFW-test.iso`,
 5,293,670,400 bytes; SHA-256 `274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be`.
 File evidence: `work/ui/cfw_trophy_verified_0.5.53.json`; focused test log:
-`work/output/scratch/cfw-trophy-0.5.53-tests.log`. Delivery evidence is recorded
-when complete. Physical retest and release
+`work/output/scratch/cfw-trophy-0.5.53-tests.log`. The official Retro Trans 0.5.4
+complete-image round trip passes. Four assets, including the 3,619,858-byte
+0.5.52-to-0.5.53 xdelta, are sealed in `work/ui/local_release_0.5.53.json` under
+`work/output/releases/0.5.53/artifacts/`. Source commit is recorded in that seal.
+Physical retest and release
 consent remain pending. See `docs/CFW_TROPHY_TEST_0.5.53.md`.
 
 ## Active task — Vita port (2026-11-19)

@@ -15,8 +15,9 @@
 - Record the tester-confirmed 0.5.52 hang at the “Installing trophy data” screen, showing 100%. The tester may use webMAN; exact manager/version and duration remain unknown. This establishes reported progress beyond the earlier launch error, not successful title-screen/gameplay verification.
 - Prepare a one-file control restoring the complete original `TROPHY.TRP`, including both original SFM metadata documents and their comments. Preserve the wrapped executable and all other 81 disc files exactly. Keep the title artwork at 0.5.52 deliberately; identify this diagnostic by its 0.5.53 ISO filename and checksum.
 - Preserve installed trophy progress, saves, game registrations and firmware. Do not bypass trophy APIs or assume that a container checksum proves physical-console SFM acceptance. The two translated metadata files omit 352-byte original comments; this is an isolated candidate difference, not a confirmed cause.
-- Prepare a Retro Trans complete-image route from exact 0.5.52 to this control. Focused CFW/trophy/native-message/ISO checks and final patch evidence are recorded when complete. No release or draft is authorized. See `docs/CFW_TROPHY_TEST_0.5.53.md`.
+- Prepare a Retro Trans complete-image route from exact 0.5.52 to this control. No release or draft is authorized. See `docs/CFW_TROPHY_TEST_0.5.53.md`.
 - Pass all 21 focused CFW, trophy, native-message and ISO-reader checks. Verify all 82 disc files in both directory trees. The 5,293,670,400-byte target has SHA-256 `274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be`. Carry the unchanged program's prior 379-test evidence separately; do not claim a fresh full-suite or hardware run.
+- Pass the official Retro Trans 0.5.4 complete-image round trip from exact 0.5.52. The 3,619,858-byte xdelta reconstructs the verified target and preserves both inputs. Seal all four delivery assets in `work/ui/local_release_0.5.53.json`; physical retesting and publication remain pending.
 
 ## 0.5.52 - 2026-11-15 (experimental CFW test; prepared locally)
 

@@ -15,8 +15,9 @@ filename/checksum**. No installed trophy progress, saves or firmware are reset.
 
 All 21 focused checks pass, and all 82 disc files verify through both directory
 trees. The unchanged program inherits the prior 0.5.52 regression evidence.
-Official Retro Trans round-trip results are recorded in
-`work/ui/local_release_0.5.53.json` when sealed. Hardware retesting remains
+The official Retro Trans 0.5.4 complete-image round trip passes; the patch is
+3,619,858 bytes. Evidence is sealed in `work/ui/local_release_0.5.53.json`.
+Hardware retesting remains
 pending. See [the tester instructions](CFW_TROPHY_TEST_0.5.53.md).
 
 Prepared locally; no GitHub release or draft is authorized.

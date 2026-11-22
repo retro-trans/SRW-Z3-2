@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "version": "0.5.53",
+  "publication": "pending_explicit_user_consent",
+  "github_release_created": false,
+  "hardware_verified": false,
+  "runtime_verified": false,
+  "diagnostic": "restore original trophy package; preserve other 81 game files",
+  "source_commit": "449ae7870dde1aac2f69dad6803ec09ebf483689",
+  "iso": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.53\\Tengoku-hen-English-0.5.53-original-trophies-CFW-test.iso",
+    "bytes": 5293670400,
+    "sectors": 2584800,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be",
+    "version": "0.5.53",
+    "parent_version": "0.5.52",
+    "source_iso_sha256": "e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd",
+    "changed_game_files": [
+      "/PS3_GAME/TROPDIR/NPWR07804_00/TROPHY.TRP"
+    ],
+    "title_artwork_version": "0.5.52",
+    "cfw_test_candidate": true,
+    "hardware_verified": false,
+    "runtime_verified": false
+  },
+  "manifest": {
+    "game_id": "srw-z3-tengoku-ps3",
+    "game_name": "Super Robot Taisen Z3: Tengoku-hen (PS3)",
+    "platform": "PS3",
+    "version": "0.5.53",
+    "source_commit": "449ae7870dde1aac2f69dad6803ec09ebf483689",
+    "schema_version": 1,
+    "patches": [
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.53-original-trophies-from-0.5.52.xdelta",
+        "edition": "jp-bljs10299",
+        "language": "en",
+        "source_version": "0.5.52",
+        "source_format": "iso",
+        "target_format": "iso",
+        "source_sha256": "e3c01ec31f186ddc22e8e53c89c9bf90d0a2352c9dafea83e02b47988ad2ecfd",
+        "source_bytes": 5289738240,
+        "target_sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be",
+        "target_bytes": 5293670400,
+        "patch_sha256": "38bb530ae769c08f2c621488bb4f434dcb0590bef81910484960febc1b6347e3",
+        "patch_bytes": 3619858
+      }
+    ]
+  },
+  "validation": {
+    "schema_version": 1,
+    "manifest_sha256": "e18a3031c0976456a81227fa84df29e5fe62576b3a30351ba624548d46080b61",
+    "patches": [
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.53-original-trophies-from-0.5.52.xdelta",
+        "roundtrip_verified": true,
+        "target_sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be"
+      }
+    ]
+  },
+  "focused_tests": {
+    "run": 21,
+    "passed": 21,
+    "skipped": 0,
+    "scope": "CFW, trophies, native upgrade messages and ISO reader",
+    "log_sha256": "cb877dde3315f14450206499cc4efb96f6eaa5d525c2a53d3e7db3f4c0bbdb11"
+  },
+  "inherited_parent_regression": {
+    "run": 379,
+    "passed": 377,
+    "skipped": 2,
+    "log_sha256": "5362948941f95d81a5e41435def4a276668c4ab23038cc51f3f4984162a8ce5c"
+  },
+  "final_readback_sha256": "0a38497badfb4d005113346769c775d5e5bc73366efb8a09e8cd67a4494cb397",
+  "release_tool_version": "0.5.4",
+  "release_tool_commit": "8edfb2e1c0d0c74df67107d80803177cc5939079",
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 862,
+      "sha256": "e18a3031c0976456a81227fa84df29e5fe62576b3a30351ba624548d46080b61"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 302,
+      "sha256": "75db7e1dcc68541be6c872b078bcdf7820305237b1e5bc3b68f1607a73c8c5bb"
+    },
+    {
+      "name": "SRW-Z3-2-PS3-English-0.5.53-original-trophies-from-0.5.52.xdelta",
+      "bytes": 3619858,
+      "sha256": "38bb530ae769c08f2c621488bb4f434dcb0590bef81910484960febc1b6347e3"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 354,
+      "sha256": "7cf1e279974d4b0255a893757159325f8815aeabc057cc027bfd4dbafa1710d1"
+    }
+  ]
+}

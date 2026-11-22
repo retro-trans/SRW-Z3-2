@@ -6,12 +6,45 @@ No game, console cache, emulator registration or saved data is modified.
 import argparse
 import hashlib
 import json
+import struct
 from tools.common import ROOT, sha256, sha256_file, write_json
 from tools import srvc as S, cfw_self as C, cfw_package as B
 from tools import cfw_trophy_control as T
 from tools.isoread import ISO9660
 
 REPORT = ROOT/'work/ui/ps3_voice_audit_2026-11-22.json'
+
+
+def install_log(data, elf):
+    """Bind observed 272-byte records to the native install list; no writes."""
+    if len(data)<8 or (len(data)-8)%272:
+        raise ValueError('Unrecognized installation-log geometry')
+    records=[]
+    for at in range(8,len(data),272):
+        raw=data[at:at+272]
+        paths=[]
+        for field in (raw[:128],raw[128:256]):
+            end=field.find(b'\0')
+            if end<1 or any(field[end:]):
+                raise ValueError('Invalid installation-log path/padding')
+            paths.append(field[:end].decode('ascii'))
+        records.append(dict(source=paths[0],installed_relative=paths[1],
+            trailing_u64_hex=[hex(v) for v in struct.unpack_from('>QQ',raw,256)]))
+    anchor=[i for i,r in enumerate(records) if r['source']==S.PATH_STRING.decode()]
+    if len(anchor)!=1:
+        raise ValueError('Installation log lacks a unique SRVC entry')
+    base=0xa1b2b4-anchor[0]*16
+    def text(va):
+        at=S.va_to_offset(elf,va)
+        return elf[at:elf.index(b'\0',at)].decode('ascii')
+    for i,row in enumerate(records):
+        source,directory,name,_=struct.unpack_from('>4I',elf,S.va_to_offset(elf,base+i*16))
+        if (row['source'],row['installed_relative']) != (text(source),text(directory)+text(name)):
+            raise ValueError('Log entry differs from native install mapping: '+str(i))
+    return dict(bytes=len(data),sha256=sha256(data),header_hex=data[:8].hex(),
+        header_semantics_unverified=True,records=len(records),native_mappings_verified=len(records),
+        source_and_destination_records=records,active_executable_identity_proven=False,
+        installed_audio_payload_integrity_proven=False)
 
 
 def audit():
@@ -58,7 +91,6 @@ def audit():
     text = {b.i for b in ob if b.n6}
     past_eof = [i for i in range(368) if nt[i+1] > len(old)]
     # Native install-list record: source path, installed subfolder, filename, flag.
-    import struct
     at = S.va_to_offset(oldelf, 0xa1b2b4)
     pointers = struct.unpack_from('>4I',oldelf,at)
     strings = []
@@ -67,8 +99,8 @@ def audit():
         strings.append(oldelf[off:oldelf.index(b'\0',off)].decode('ascii'))
     if strings != [S.PATH_STRING.decode(), '/INSCO/', 'DATA0046.DAT'] or pointers[3] != 1:
         raise ValueError('Native voice install mapping differs')
-    return dict(schema=1,date='2026-11-22',version='0.5.53',
-        scope='on-disc audio and native voice-bank pairing; remote console cache not inspected',
+    report = dict(schema=1,date='2026-11-22',version='0.5.53',
+        scope='on-disc audio and native voice-bank pairing; supplied console files inspected when present',
         source_report='work/ui/ps3_voice_report_2026-11-22.json',
         image_verification_sha256=sha256_file(T.PROOF), audio_archives=banks,
         paired_voice_banks=368, voice_cue_references_preserved=sum(b.n6 for b in ob),
@@ -88,6 +120,18 @@ def audit():
             'Original executable table with translated installed data'],
         remote_cache_mismatch_confirmed=False, hardware_audio_recovery_confirmed=False,
         firmware_saves_trophies_and_game_files_modified=False)
+    cache=ROOT/'incoming/DATA0046.DAT'
+    log=ROOT/'incoming/UPDATE.LOG'
+    if cache.is_file():
+        supplied=cache.read_bytes()
+        report['supplied_installed_voice_data']=dict(path=cache.relative_to(ROOT).as_posix(),
+            bytes=len(supplied),sha256=sha256(supplied),byte_identical_to_verified_build=supplied==new)
+        if supplied==new:
+            report['supplied_cache_stale_or_corrupt']=False
+    if log.is_file():
+        report['supplied_installation_log']=install_log(log.read_bytes(),elf)
+        report['supplied_installation_log']['path']=log.relative_to(ROOT).as_posix()
+    return report
 
 
 def main():
@@ -98,6 +142,10 @@ def main():
     print('Original audio archives:',len(report['audio_archives']),'; cue references unchanged:',report['voice_cue_references_preserved'])
     print('Required installed DATA0046.DAT:',report['required_cache'])
     print('Old-cache/new-table simulation:',report['original_cache_with_new_table'])
+    if 'supplied_installed_voice_data' in report:
+        print('Supplied cache:',report['supplied_installed_voice_data'])
+    if 'supplied_installation_log' in report:
+        print('Installation-log mappings verified:',report['supplied_installation_log']['native_mappings_verified'])
     if args.apply:
         write_json(REPORT,report)
     else:

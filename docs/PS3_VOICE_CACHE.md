@@ -7,14 +7,22 @@ the broader battle symptom comes from the tester's follow-up. The earlier
 trophy-installation screen is no longer the reported blocker. This is not
 full gameplay validation.
 
-Later the user reported the installed DATA0046.DAT is exactly **4,946,624
-bytes**. That matches the required length and does not support the original-size
-cache hypothesis. Its hash and the executable actually selected on the console
-remain unconfirmed. **Do not refresh/move the cache based on size alone.**
+The supplied `incoming/DATA0046.DAT` is **4,946,624 bytes** and byte-for-byte
+identical to the verified English build, including its SHA-256 below.
+**Do not refresh or move this correct cache.** The executable actually selected
+on the console remains unconfirmed.
 The user subsequently reported no EBOOT.BIN under the requested installed-game
 USRDIR, only INSCO and UPDATE.LOG. That location does not support the update
-override hypothesis. The next evidence is the actual INSCO/DATA0046.DAT and
-UPDATE.LOG, copied for read-only comparison; leave the console files unchanged.
+override hypothesis. The supplied `incoming/UPDATE.LOG` has 38 source/destination
+records; all match the native install table. Its header and trailing fields have
+unverified semantics. It does not establish the active executable or validate
+installed audio payloads. Leave the console files unchanged.
+
+The log maps `/app_home/DATA/SOUND/TALKZ3TENPS3.CPK` to
+`/INSCO/DATA0133.DAT`. The expected audio archive is 872,459,864 bytes, SHA-256
+`beaa7c4a4458d07699ed1e1376d64fdb7419530c4beb5d4483e8383cb10eb8ec`.
+UPDATE.LOG itself is 10,344 bytes, SHA-256
+`0e0fe4542e2d8a33176407647ed762bc11cc63153666cdd4029b0fde0e7751c9`.
 
 ## What the read-only checks establish
 
@@ -29,9 +37,8 @@ The installed copy must agree with the executable's resized bank-offset table.
 Using the original Japanese file with the translated table gives invalid
 version headers at 359 of 368 bank starts, including 279 of 283 text banks;
 109 read windows extend past the old file's end. This demonstrates a concrete
-failure mode consistent with the report. The console's cache has not yet been
-read. Its reported size now matches, but a mismatch remains a hypothesis until
-the actual file hash and executable identity are checked.
+failure mode consistent with the report, but the supplied file rules out this
+old-cache explanation for that copy. The running executable still needs checking.
 
 The reverse mismatch also matters: the original executable table used with the
 correct-sized translated data gives 363/368 invalid bank headers, including
@@ -44,12 +51,12 @@ check, not a confirmed finding on this console.
 | Original Japanese copy | 3,499,808 | `8736ee4a52cf931e909b95f3a007ce6ee8d9db258f0ce44b73bd89ce36263ffc` |
 | Required by 0.5.52 / 0.5.53 | 4,946,624 | `bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d` |
 
-## Tester check and recoverable refresh
+## Current tester checks
 
-Current next checks, after the matching-size report:
+Current next checks, after the byte-identical cache result:
 
-- Obtain the SHA-256 of DATA0046.DAT, or copy that file for a read-only hash
-  comparison. Expected hash: `bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d`.
+- Copy `/dev_bdvd/PS3_GAME/USRDIR/EBOOT.BIN` while the tester's 0.5.53 image
+  is mounted, for read-only program and offset-table inspection.
 - The user reports `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN` does not exist,
   with only INSCO and UPDATE.LOG in that directory. Preserve that result;
   do not change a different directory looking for an override.
@@ -57,12 +64,22 @@ Current next checks, after the matching-size report:
   `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
   A differing container hash needs inspection; it does not alone prove a
   different program because a manager could have altered only its wrapper.
+- Confirm whether battle speech worked before patching the Japanese game and
+  check the current Voice Volume value. Do not switch to an original executable
+  against translated installed data as a control; that creates a known mismatch.
+- If the executable matches, compare the size/hash of installed DATA0133.DAT
+  against the voice archive above; uploading the large archive is not needed
+  for an initial identity check.
 
 RPCS3's [disc boot/update selection](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/System.cpp)
 checks for a title-specific installed update EBOOT. This supports checking for
 an override; it is not proof of the file or launch behavior on this tester's
-console. The earlier cache-refresh procedure below is conditional on confirming
-an actual stale cache, and is not the next action for the matching-size report.
+console. It does not supersede the reported absence of that installed EBOOT.
+
+## Historical procedure for a confirmed stale cache only
+
+This procedure does not apply to the correct supplied DATA0046.DAT. Use it only
+if a different installed copy is independently confirmed to be stale.
 
 1. Close the game. Locate its installed game-data cache. The observed Tengoku
    path in RPCS3 is `/dev_hdd0/game/BLJS10299_DATA/USRDIR/INSCO/DATA0046.DAT`;

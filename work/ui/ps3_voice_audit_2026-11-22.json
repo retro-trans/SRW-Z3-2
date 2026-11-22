@@ -2,7 +2,7 @@
   "schema": 1,
   "date": "2026-11-22",
   "version": "0.5.53",
-  "scope": "on-disc audio and native voice-bank pairing; remote console cache not inspected",
+  "scope": "on-disc audio and native voice-bank pairing; supplied console files inspected when present",
   "source_report": "work/ui/ps3_voice_report_2026-11-22.json",
   "image_verification_sha256": "0a38497badfb4d005113346769c775d5e5bc73366efb8a09e8cd67a4494cb397",
   "audio_archives": [
@@ -70,5 +70,329 @@
   ],
   "remote_cache_mismatch_confirmed": false,
   "hardware_audio_recovery_confirmed": false,
-  "firmware_saves_trophies_and_game_files_modified": false
+  "firmware_saves_trophies_and_game_files_modified": false,
+  "supplied_installed_voice_data": {
+    "path": "incoming/DATA0046.DAT",
+    "bytes": 4946624,
+    "sha256": "bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d",
+    "byte_identical_to_verified_build": true
+  },
+  "supplied_cache_stale_or_corrupt": false,
+  "supplied_installation_log": {
+    "bytes": 10344,
+    "sha256": "0e0fe4542e2d8a33176407647ed762bc11cc63153666cdd4029b0fde0e7751c9",
+    "header_hex": "0000002700000000",
+    "header_semantics_unverified": true,
+    "records": 38,
+    "native_mappings_verified": 38,
+    "source_and_destination_records": [
+      {
+        "source": "/app_home/PACKAGE_DATA/ICON3.PNG",
+        "installed_relative": "/ICON0.PNG",
+        "trailing_u64_hex": [
+          "0x54811fd0",
+          "0x6b026abf"
+        ]
+      },
+      {
+        "source": "/app_home/PACKAGE_DATA/PIC1.PNG",
+        "installed_relative": "/PIC1.PNG",
+        "trailing_u64_hex": [
+          "0x54811fd0",
+          "0x6b026abf"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/SOUND/BGMZ3TENPS3.AWB",
+        "installed_relative": "/INSCO/DATA0130.DAT",
+        "trailing_u64_hex": [
+          "0x54d09de3",
+          "0x6b026adb"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/SOUND/SEZ3TENPS3.CPK",
+        "installed_relative": "/INSCO/DATA0131.DAT",
+        "trailing_u64_hex": [
+          "0x54c0c2ea",
+          "0x6b026ae6"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/SOUND/SOUNDACFZ3TENPS3.ACF",
+        "installed_relative": "/INSCO/DATA0132.DAT",
+        "trailing_u64_hex": [
+          "0x5481213f",
+          "0x6b026ae6"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/SOUND/TALKZ3TENPS3.CPK",
+        "installed_relative": "/INSCO/DATA0133.DAT",
+        "trailing_u64_hex": [
+          "0x54d5d027",
+          "0x6b026b4b"
+        ]
+      },
+      {
+        "source": "/app_home/COMMONDATA/KURODATA/LUACPK.CPK",
+        "installed_relative": "/INSCO/DATA0000.DAT",
+        "trailing_u64_hex": [
+          "0x6b025514",
+          "0x6b026b4b"
+        ]
+      },
+      {
+        "source": "/app_home/COMMONDATA/MTDATA/MTV_ALL_KEYWORD_DEF.CPK",
+        "installed_relative": "/INSCO/DATA0010.DAT",
+        "trailing_u64_hex": [
+          "0x54d09e5c",
+          "0x6b026b4c"
+        ]
+      },
+      {
+        "source": "/app_home/COMMONDATA/MTDATA/MTZKN_KW.CPK",
+        "installed_relative": "/INSCO/DATA0011.DAT",
+        "trailing_u64_hex": [
+          "0x54d09e56",
+          "0x6b026b4c"
+        ]
+      },
+      {
+        "source": "/app_home/COMMONDATA/MTDATA/MTZKN_PT.CPK",
+        "installed_relative": "/INSCO/DATA0012.DAT",
+        "trailing_u64_hex": [
+          "0x6b025514",
+          "0x6b026b4c"
+        ]
+      },
+      {
+        "source": "/app_home/COMMONDATA/MTDATA/MTZKN_RT.CPK",
+        "installed_relative": "/INSCO/DATA0013.DAT",
+        "trailing_u64_hex": [
+          "0x6b025514",
+          "0x6b026b4c"
+        ]
+      },
+      {
+        "source": "/app_home/COMMONDATA/MTDATA/RPW_DATA.CPK",
+        "installed_relative": "/INSCO/DATA0014.DAT",
+        "trailing_u64_hex": [
+          "0x6b025514",
+          "0x6b026b4c"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/AIDDATA/AIDDATAPACK.CPK",
+        "installed_relative": "/INSCO/DATA0020.DAT",
+        "trailing_u64_hex": [
+          "0x6b025516",
+          "0x6b026b4f"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/ANIME/EFFPS3.CPK",
+        "installed_relative": "/INSCO/DATA0030.DAT",
+        "trailing_u64_hex": [
+          "0x54c1f848",
+          "0x6b026b6e"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/BAR.CPK",
+        "installed_relative": "/INSCO/DATA0040.DAT",
+        "trailing_u64_hex": [
+          "0x54c756ed",
+          "0x6b026b6f"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/BG.CPK",
+        "installed_relative": "/INSCO/DATA0041.DAT",
+        "trailing_u64_hex": [
+          "0x54d5d00b",
+          "0x6b026b80"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/CMN.CPK",
+        "installed_relative": "/INSCO/DATA0042.DAT",
+        "trailing_u64_hex": [
+          "0x54d5d00b",
+          "0x6b026b81"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/OP.CPK",
+        "installed_relative": "/INSCO/DATA0043.DAT",
+        "trailing_u64_hex": [
+          "0x54cca45d",
+          "0x6b026b82"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/PCI.CPK",
+        "installed_relative": "/INSCO/DATA0044.DAT",
+        "trailing_u64_hex": [
+          "0x54c756f0",
+          "0x6b026b8c"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/RB.CPK",
+        "installed_relative": "/INSCO/DATA0045.DAT",
+        "trailing_u64_hex": [
+          "0x54d489ed",
+          "0x6b026b9e"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/SRVC.BIN",
+        "installed_relative": "/INSCO/DATA0046.DAT",
+        "trailing_u64_hex": [
+          "0x54db06c5",
+          "0x6b026b9f"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/WCI.CPK",
+        "installed_relative": "/INSCO/DATA0047.DAT",
+        "trailing_u64_hex": [
+          "0x54c9eb3f",
+          "0x6b026ba6"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/WP.CPK",
+        "installed_relative": "/INSCO/DATA0048.DAT",
+        "trailing_u64_hex": [
+          "0x54d5d008",
+          "0x6b026c5c"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/BTLC/XP.CPK",
+        "installed_relative": "/INSCO/DATA0049.DAT",
+        "trailing_u64_hex": [
+          "0x54cb704f",
+          "0x6b026c5c"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/FACE/FACE.CPK",
+        "installed_relative": "/INSCO/DATA0060.DAT",
+        "trailing_u64_hex": [
+          "0x54d09def",
+          "0x6b026c6c"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/HIYAMA/HTDATAPACK.CPK",
+        "installed_relative": "/INSCO/DATA0070.DAT",
+        "trailing_u64_hex": [
+          "0x54ab727f",
+          "0x6b026c6d"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/HIYAMA/KANJI-FIX.BN",
+        "installed_relative": "/INSCO/DATA0071.DAT",
+        "trailing_u64_hex": [
+          "0x548120f2",
+          "0x6b026c6d"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/KURODATA/D_CACHE.CPK",
+        "installed_relative": "/INSCO/DATA0090.DAT",
+        "trailing_u64_hex": [
+          "0x54dad31f",
+          "0x6b026c6e"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/KURODATA/KDATAPS3.CPK",
+        "installed_relative": "/INSCO/DATA0091.DAT",
+        "trailing_u64_hex": [
+          "0x54db06c5",
+          "0x6b026c6e"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/MOVIE/SRWZ3ED_1227.USM",
+        "installed_relative": "/INSCO/DATA0100.DAT",
+        "trailing_u64_hex": [
+          "0x54c3661e",
+          "0x6b026c7c"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/MOVIE/Z3T_ALL_150119.USM",
+        "installed_relative": "/INSCO/DATA0101.DAT",
+        "trailing_u64_hex": [
+          "0x54c3661e",
+          "0x6b026c9a"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/MTDATA/Z3OF1_PS3_BGFILE.CPK",
+        "installed_relative": "/INSCO/DATA0110.DAT",
+        "trailing_u64_hex": [
+          "0x54c9be6d",
+          "0x6b026cb5"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/ROBOPIX/ROBOTPIX.CPK",
+        "installed_relative": "/INSCO/DATA0120.DAT",
+        "trailing_u64_hex": [
+          "0x54c1f83f",
+          "0x6b026cbc"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/TABATA/SMP_VIDEO_YUV2RGB_CONV.CGELF",
+        "installed_relative": "/INSCO/DATA0140.DAT",
+        "trailing_u64_hex": [
+          "0x5481217a",
+          "0x6b026cbc"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/TABATA/TPACKPS3.CPK",
+        "installed_relative": "/INSCO/DATA0141.DAT",
+        "trailing_u64_hex": [
+          "0x54c7571d",
+          "0x6b026cbf"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/STAGE/STGZ3OF2.SDAT",
+        "installed_relative": "/INSCO/DATA0150.DAT",
+        "trailing_u64_hex": [
+          "0x6b025516",
+          "0x6b026cc0"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/MAPETC/MAPZ3TENPS3.CPK",
+        "installed_relative": "/INSCO/DATA0160.DAT",
+        "trailing_u64_hex": [
+          "0x54c9eb79",
+          "0x6b026cd8"
+        ]
+      },
+      {
+        "source": "/app_home/DATA/MAPETC/PIECEZ3TENPS3.CPK",
+        "installed_relative": "/INSCO/DATA0161.DAT",
+        "trailing_u64_hex": [
+          "0x54d9fcf5",
+          "0x6b026cd8"
+        ]
+      }
+    ],
+    "active_executable_identity_proven": false,
+    "installed_audio_payload_integrity_proven": false,
+    "path": "incoming/UPDATE.LOG"
+  }
 }

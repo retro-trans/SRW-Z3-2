@@ -10,19 +10,26 @@ the original and all 78,302 cue references are preserved. An old Japanese
 DATA0046.DAT under the new offset table has 359/368 invalid headers and 109
 read windows past EOF. Required cache: 4,946,624 bytes, SHA-256
 `bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d`;
-original cache: 3,499,808 bytes. The user now reports the console DATA0046.DAT
-is exactly 4,946,624 bytes. That matches the required length; do not refresh/move
-the cache on size alone. Its hash and the executable actually used remain unknown.
+original cache: 3,499,808 bytes. Supplied `incoming/DATA0046.DAT` is byte-for-byte
+identical to the required English data. Do not refresh or move this correct cache.
+The executable actually used remains unknown.
 The user reports no `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN`, only INSCO
 and UPDATE.LOG. That location does not support an update-EBOOT explanation.
-Obtain the actual INSCO/DATA0046.DAT and UPDATE.LOG for read-only inspection.
+Supplied `incoming/UPDATE.LOG` contains 38 source/destination pairs matching the
+native install table. Header/trailing-field semantics remain unverified; the log
+does not prove active executable identity or audio payload integrity. TALK CPK
+maps to `/INSCO/DATA0133.DAT`, expected 872,459,864 bytes, SHA-256
+`beaa7c4a4458d07699ed1e1376d64fdb7419530c4beb5d4483e8383cb10eb8ec`.
 The reverse
 mismatch (original table + translated data) has 363/368 invalid headers and
 280/283 invalid text banks. Expected disc SELF: 19,337,892 bytes, SHA-256
 `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
 Sixteen SRVC checks pass; no new game build or cache change was performed.
-Ask for the actual voice file/hash and install log, then use a cache
-refresh only if the old installed data is confirmed. Preserve saves/trophies/DLC.
+Next obtain `/dev_bdvd/PS3_GAME/USRDIR/EBOOT.BIN` while the tester's 0.5.53
+image is mounted. Inspect the embedded program/table even if its wrapper hash
+differs. Ask the historical original-game speech baseline and current Voice
+Volume value. If executable identity matches, check DATA0133.DAT size/hash.
+Preserve saves/trophies/DLC and the correct supplied cache.
 
 ### Earlier trophy control
 

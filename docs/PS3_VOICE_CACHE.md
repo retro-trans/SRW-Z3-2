@@ -11,6 +11,10 @@ Later the user reported the installed DATA0046.DAT is exactly **4,946,624
 bytes**. That matches the required length and does not support the original-size
 cache hypothesis. Its hash and the executable actually selected on the console
 remain unconfirmed. **Do not refresh/move the cache based on size alone.**
+The user subsequently reported no EBOOT.BIN under the requested installed-game
+USRDIR, only INSCO and UPDATE.LOG. That location does not support the update
+override hypothesis. The next evidence is the actual INSCO/DATA0046.DAT and
+UPDATE.LOG, copied for read-only comparison; leave the console files unchanged.
 
 ## What the read-only checks establish
 
@@ -46,9 +50,9 @@ Current next checks, after the matching-size report:
 
 - Obtain the SHA-256 of DATA0046.DAT, or copy that file for a read-only hash
   comparison. Expected hash: `bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d`.
-- Check whether `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN` exists. Leave it
-  unchanged; if present, record its size/hash and corresponding PARAM.SFO
-  version before deciding whether it affects the launch.
+- The user reports `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN` does not exist,
+  with only INSCO and UPDATE.LOG in that directory. Preserve that result;
+  do not change a different directory looking for an override.
 - The expected mounted-disc EBOOT.BIN is 19,337,892 bytes, SHA-256
   `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
   A differing container hash needs inspection; it does not alone prove a

@@ -13,12 +13,15 @@ read windows past EOF. Required cache: 4,946,624 bytes, SHA-256
 original cache: 3,499,808 bytes. The user now reports the console DATA0046.DAT
 is exactly 4,946,624 bytes. That matches the required length; do not refresh/move
 the cache on size alone. Its hash and the executable actually used remain unknown.
-Check `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN` without changing it. The reverse
+The user reports no `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN`, only INSCO
+and UPDATE.LOG. That location does not support an update-EBOOT explanation.
+Obtain the actual INSCO/DATA0046.DAT and UPDATE.LOG for read-only inspection.
+The reverse
 mismatch (original table + translated data) has 363/368 invalid headers and
 280/283 invalid text banks. Expected disc SELF: 19,337,892 bytes, SHA-256
 `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
 Sixteen SRVC checks pass; no new game build or cache change was performed.
-Ask for the actual file hash and any installed update executable, then use a cache
+Ask for the actual voice file/hash and install log, then use a cache
 refresh only if the old installed data is confirmed. Preserve saves/trophies/DLC.
 
 ### Earlier trophy control

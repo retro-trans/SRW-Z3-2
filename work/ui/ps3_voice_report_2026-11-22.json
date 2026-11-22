@@ -20,8 +20,10 @@
   "remote_cache_mismatch_confirmed": false,
   "suspected_cause": "Voice data/executable identity mismatch remains under investigation; reported size does not support the original-size Japanese cache hypothesis",
   "read_only_audit": "work/ui/ps3_voice_audit_2026-11-22.json",
-  "next_check": "Leave files unchanged. Compare the actual DATA0046.DAT SHA-256 and check for /dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN; correct file size alone is insufficient to establish the pair in use.",
-  "installed_update_executable_exists": null,
+  "next_check": "Obtain the actual INSCO/DATA0046.DAT and UPDATE.LOG for read-only inspection. Keep installed files unchanged; the reported correct size does not establish the voice file's contents.",
+  "installed_update_executable_exists": false,
+  "installed_update_executable_check_source": "User reports no EBOOT.BIN at /dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN",
+  "reported_usrdir_contents": ["INSCO", "UPDATE.LOG"],
   "audio_recovery_confirmed": false,
   "new_patch_required_established": false
 }

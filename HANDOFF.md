@@ -25,10 +25,16 @@ mismatch (original table + translated data) has 363/368 invalid headers and
 280/283 invalid text banks. Expected disc SELF: 19,337,892 bytes, SHA-256
 `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
 Sixteen SRVC checks pass; no new game build or cache change was performed.
-Next obtain `/dev_bdvd/PS3_GAME/USRDIR/EBOOT.BIN` while the tester's 0.5.53
-image is mounted. Inspect the embedded program/table even if its wrapper hash
-differs. Ask the historical original-game speech baseline and current Voice
-Volume value. If executable identity matches, check DATA0133.DAT size/hash.
+2026-11-23: the user confirms installed DATA0133.DAT is exactly 872,459,864
+bytes; its content hash remains unknown. Defer mounted-disc EBOOT collection
+after the user noted that the local ISO EBOOT was already available/verified.
+Do not imply local verification proves the tester's mounted image identity.
+The packaged native PPC start-read/parser now executes successfully for all
+368 bank windows and array/pool pointers, including the 76,048-byte maximum
+(only one bank exceeds 64 KiB). Streaming/allocation/selection/audio playback
+are not emulated by this bounded check; no hardware failure cause is confirmed.
+Next confirm the historical original-game speech baseline and current Voice
+Volume value; compare DATA0133.DAT content hash when available.
 Preserve saves/trophies/DLC and the correct supplied cache.
 
 ### Earlier trophy control

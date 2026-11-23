@@ -15,6 +15,67 @@ from tools.isoread import ISO9660
 REPORT = ROOT/'work/ui/ps3_voice_audit_2026-11-22.json'
 
 
+def native_bank_readback(elf, data):
+    """Execute packaged PPC read/parse code; streaming and audio are not emulated."""
+    from tools import ppc_exec as P
+    table=S.read_table(elf,len(data))
+    memory=P.Memory()
+    for off,va,size in S.segments(elf):
+        memory.map(va,elf[off:off+size],False)
+    buffer,context,stack,stop=0x10000000,0x20000000,0x30000000,0x40000000
+    largest=max(b-a for a,b in zip(table,table[1:]))
+    memory.map(buffer,bytes(largest))
+    memory.map(context,bytes(0x100))
+    memory.map(stack,bytes(0x2000))
+    def machine(pc):
+        m=P.Machine(memory)
+        m.pc=pc
+        m.r[1],m.r[2],m.r[3]=stack+0x1000,S.TOC_BASE,context
+        m.lr=stop
+        return m
+    for bank,(base,end) in enumerate(zip(table,table[1:])):
+        raw=data[base:end]
+        memory.write(context,bytes(0x100))
+        memory.write(context+0x28,struct.pack('>IH',S.TABLE_VA,bank))
+        requests=[]
+        def read(m):
+            requests.append((m.r[4],m.r[5]))
+            path=m.mem.read(m.r[3],len(S.PATH_STRING)+1)
+            if path != S.PATH_STRING+b'\0' or m.r[6] != context:
+                raise ValueError('Native voice-read path/context differs')
+            m.r[3],m.pc=0,m.lr
+        m=machine(S.START_READ_VA)
+        m.hooks[0x22a84]=read
+        m.run({stop},limit=200)
+        if requests != [(base,end-base)]:
+            raise ValueError('Native voice-read range differs: '+str(bank))
+        memory.write(buffer,raw)
+        memory.write(context,bytes(0x100))
+        m=machine(S.PARSER_VA)
+        m.r[4]=buffer
+        m.run({stop},limit=200)
+        n1,n2,n3=raw[1:4]
+        n4,n6=struct.unpack_from('<HH',raw,4)
+        a=buffer+8
+        b=a+n1*4
+        c=b+n4*8
+        d=c+n2*8
+        cue=d+n3*4
+        offsets=cue+n6*8
+        pool=offsets+n6*4
+        expected=(buffer,a,b if n4 else 0,c if n2 else 0,d if n3 else 0,
+                  cue if n6 else 0,offsets if n6 else 0,pool if n6 else 0)
+        if struct.unpack('>8I',memory.read(context,32)) != expected:
+            raise ValueError('Native parser pointers differ: '+str(bank))
+        if memory.read(buffer,len(raw)) != raw:
+            raise ValueError('Native parser altered a valid bank: '+str(bank))
+    return dict(read_requests_verified=len(table)-1,parser_banks_verified=len(table)-1,
+        largest_read_window=largest,executed_packaged_ppc_instructions=True,
+        read_entry_va=hex(S.START_READ_VA),parser_entry_va=hex(S.PARSER_VA),
+        mocked_streaming_boundary_va='0x22a84',
+        physical_streaming_allocation_selection_and_audio_playback_verified=False)
+
+
 def install_log(data, elf):
     """Bind observed 272-byte records to the native install list; no writes."""
     if len(data)<8 or (len(data)-8)%272:
@@ -103,6 +164,7 @@ def audit():
         scope='on-disc audio and native voice-bank pairing; supplied console files inspected when present',
         source_report='work/ui/ps3_voice_report_2026-11-22.json',
         image_verification_sha256=sha256_file(T.PROOF), audio_archives=banks,
+        native_bank_readback=native_bank_readback(elf,new),
         paired_voice_banks=368, voice_cue_references_preserved=sum(b.n6 for b in ob),
         selection_rules_headers_and_cues_byte_identical=True,
         native_installed_subfolder='/INSCO/',native_installed_filename='DATA0046.DAT',
@@ -146,6 +208,7 @@ def main():
         print('Supplied cache:',report['supplied_installed_voice_data'])
     if 'supplied_installation_log' in report:
         print('Installation-log mappings verified:',report['supplied_installation_log']['native_mappings_verified'])
+    print('Native PPC voice read/parser check:',report['native_bank_readback'])
     if args.apply:
         write_json(REPORT,report)
     else:

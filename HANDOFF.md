@@ -33,8 +33,15 @@ The packaged native PPC start-read/parser now executes successfully for all
 368 bank windows and array/pool pointers, including the 76,048-byte maximum
 (only one bank exceeds 64 KiB). Streaming/allocation/selection/audio playback
 are not emulated by this bounded check; no hardware failure cause is confirmed.
-Next confirm the historical original-game speech baseline and current Voice
-Volume value; compare DATA0133.DAT content hash when available.
+2026-11-24: user supplied DATA0133.DAT SHA-256
+`BEAA7C4A4458D07699ED1E1376D64FDB7419530C4BEB5D4483E8383CB10EB8EC`.
+Normalized hash exactly matches the verified original voice archive. Record
+this as a user-reported console hash, not a direct remote file read. Both voice
+file identities now match; no additional audio upload or reinstall is needed.
+The user cannot check the mounted EBOOT SHA-256 currently; leave that check
+pending. Historical original-game speech baseline and current Voice Volume
+remain unanswered. Runtime I/O/allocation/selection cause is not confirmed;
+do not invent a patch or claim the native parser check reproduces the hardware.
 Preserve saves/trophies/DLC and the correct supplied cache.
 
 ### Earlier trophy control

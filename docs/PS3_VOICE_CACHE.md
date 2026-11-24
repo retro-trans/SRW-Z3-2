@@ -25,11 +25,18 @@ UPDATE.LOG itself is 10,344 bytes, SHA-256
 `0e0fe4542e2d8a33176407647ed762bc11cc63153666cdd4029b0fde0e7751c9`.
 
 On 2026-11-23, the user confirmed installed DATA0133.DAT is exactly
-**872,459,864 bytes**, matching the expected voice archive length. Its hash
-has not been supplied, so content identity remains unverified. After the user
+**872,459,864 bytes**, matching the expected voice archive length. On
+2026-11-24 the user supplied its SHA-256; normalized to lowercase, it exactly
+matches the verified original voice archive above. This is a user-reported
+console hash, not a file read directly from the console by this tool.
+No further audio upload, replacement or reinstall is justified by these checks.
+After the user
 pointed out that the local disc EBOOT was already available and checked, defer
 collecting a duplicate from the tester. The local executable is verified;
 the console's actual mounted-image identity is still a separate unknown.
+After both voice-file identities matched, a mounted EBOOT hash-only comparison
+was requested. The user replied that it cannot be checked currently; leave it
+pending rather than treating the local EBOOT as proof of the console's copy.
 
 ## What the read-only checks establish
 
@@ -72,9 +79,9 @@ Current next checks, after the byte-identical cache result:
 - Confirm whether battle speech worked before patching the Japanese game and
   check the current Voice Volume value. Do not switch to an original executable
   against translated installed data as a control; that creates a known mismatch.
-- Installed DATA0133.DAT already has the expected length. Compare its SHA-256
-  against the voice archive above when available; the size does not prove
-  its contents match. No reinstall/reset follows from the reported size.
+- Installed DATA0133.DAT now has both the expected reported length and SHA-256.
+  Preserve it and the byte-identical DATA0046.DAT; no further audio-file upload
+  or reinstall is part of the current investigation.
 - The user reports `/dev_hdd0/game/BLJS10299/USRDIR/EBOOT.BIN` does not exist,
   with only INSCO and UPDATE.LOG in that directory. Preserve that result;
   do not change a different directory looking for an override.
@@ -82,8 +89,9 @@ Current next checks, after the byte-identical cache result:
   `93e0ad06074f485c27fcc2c9689134bf897f9dabdad56c14acd41a69c27af3d9`.
   A differing container hash needs inspection; it does not alone prove a
   different program because a manager could have altered only its wrapper.
-- A mounted-disc EBOOT copy can still resolve remote image identity if later
-  evidence requires it; collection is deferred, not a current prerequisite.
+- A mounted-disc EBOOT SHA-256 can resolve remote executable identity. The user
+  cannot obtain it currently; this check remains pending. If a future hash
+  differs, inspect its program/table before drawing conclusions from the wrapper.
 
 RPCS3's [disc boot/update selection](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/System.cpp)
 checks for a title-specific installed update EBOOT. This supports checking for

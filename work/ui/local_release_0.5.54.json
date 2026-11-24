@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "version": "0.5.54",
+  "publication": "pending_explicit_user_consent",
+  "github_release_created": false,
+  "hardware_verified": false,
+  "runtime_verified": false,
+  "diagnostic": "observe loaded bank and replace only fallback battle captions with measured values",
+  "source_commit": "141a35a94729cd31b935e9a76f4631e4e5df7a47",
+  "iso": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.54\\Tengoku-hen-English-0.5.54-voice-diagnostic.iso",
+    "bytes": 5587206144,
+    "sectors": 2728128,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "3467f9f0af7e35b86bbe1e215e9b24fde469b5d53582eaa4baff5e5d21b799b3",
+    "version": "0.5.54",
+    "parent_version": "0.5.53",
+    "source_iso_sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be",
+    "changed_game_files": [
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/EBOOT.BIN"
+    ],
+    "hardware_verified": false,
+    "runtime_verified": false
+  },
+  "manifest": {
+    "game_id": "srw-z3-tengoku-ps3",
+    "game_name": "Super Robot Taisen Z3: Tengoku-hen (PS3)",
+    "platform": "PS3",
+    "version": "0.5.54",
+    "source_commit": "141a35a94729cd31b935e9a76f4631e4e5df7a47",
+    "schema_version": 1,
+    "patches": [
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.54-voice-diagnostic-from-0.5.53.xdelta",
+        "edition": "jp-bljs10299",
+        "language": "en",
+        "source_version": "0.5.53",
+        "source_format": "iso",
+        "target_format": "iso",
+        "source_sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be",
+        "source_bytes": 5293670400,
+        "target_sha256": "3467f9f0af7e35b86bbe1e215e9b24fde469b5d53582eaa4baff5e5d21b799b3",
+        "target_bytes": 5587206144,
+        "patch_sha256": "014afad433f795f9c2fede6ba54e21fc85e107b6394e65b65761285d822c2216",
+        "patch_bytes": 139575552
+      }
+    ]
+  },
+  "validation": {
+    "schema_version": 1,
+    "manifest_sha256": "7df8941f74e5d00e55cad247f647b0d8d0b0cbaa41c52bdcf7a399f1dc515988",
+    "patches": [
+      {
+        "patch": "SRW-Z3-2-PS3-English-0.5.54-voice-diagnostic-from-0.5.53.xdelta",
+        "roundtrip_verified": true,
+        "target_sha256": "3467f9f0af7e35b86bbe1e215e9b24fde469b5d53582eaa4baff5e5d21b799b3"
+      }
+    ]
+  },
+  "focused_tests": {
+    "run": 25,
+    "passed": 25,
+    "skipped": 0,
+    "log_sha256": "0e82a038442e5e0581fdb7e68d5bde79877b41c66289e360d7c862c690a3092d"
+  },
+  "inherited_parent_regression": {
+    "run": 379,
+    "passed": 377,
+    "skipped": 2,
+    "log_sha256": "5362948941f95d81a5e41435def4a276668c4ab23038cc51f3f4984162a8ce5c"
+  },
+  "final_readback_sha256": "bc99aa502c439772d41b24beebf69b7811650f9fc520739ada6a16c39e61ee70",
+  "release_tool_version": "0.5.4",
+  "release_tool_commit": "8edfb2e1c0d0c74df67107d80803177cc5939079",
+  "assets": [
+    {
+      "name": "BUILD-MANIFEST.json",
+      "bytes": 863,
+      "sha256": "7df8941f74e5d00e55cad247f647b0d8d0b0cbaa41c52bdcf7a399f1dc515988"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 301,
+      "sha256": "c32d85486d8bc4070c1a21173887f421fac887d210f04e0b579d30a5860a5a42"
+    },
+    {
+      "name": "SRW-Z3-2-PS3-English-0.5.54-voice-diagnostic-from-0.5.53.xdelta",
+      "bytes": 139575552,
+      "sha256": "014afad433f795f9c2fede6ba54e21fc85e107b6394e65b65761285d822c2216"
+    },
+    {
+      "name": "VALIDATION.json",
+      "bytes": 353,
+      "sha256": "a4676b0b7894247da6fd269e3fdcdb7681989885b4f6377cf62b6adb0d1f2451"
+    }
+  ]
+}

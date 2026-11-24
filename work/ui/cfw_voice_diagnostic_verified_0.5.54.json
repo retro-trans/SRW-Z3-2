@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "version": "0.5.54",
+  "parent_version": "0.5.53",
+  "build_sha256": "7141e46e5fc1862fb210c5fb5697892801972e9327f6c28effefa152e46fa9ae",
+  "parent_delivery_sha256": "b09a78e0e680dd81820809dfd23152a67fef5db1538d04afdb33d7854cebb72c",
+  "diagnostic": {
+    "version": "0.5.54",
+    "parent_elf_sha256": "fe5279157bbebcc23d3e9676488ed05ef9c5a6ec62cdede0fbb6a2a035b2dae9",
+    "output_elf_sha256": "bf5e0b7529e62240cc1e70ffb8829622c18f89bce1894eb7ac699745050231d2",
+    "state_va": 19277728,
+    "state_bytes": 768,
+    "text_va": 19277984,
+    "text_utf8_bytes": 131,
+    "caption_capacity": 134,
+    "poll_stub_va": 25168176,
+    "poll_stub_bytes": 268,
+    "fallback_stub_va": 25168448,
+    "fallback_stub_bytes": 1292,
+    "hook_sites": {
+      "0x139084": "0x1800930",
+      "0x12e700": "0x1800a40"
+    },
+    "modified_ranges": [
+      [
+        19212192,
+        19212960
+      ],
+      [
+        176,
+        232
+      ],
+      [
+        1216644,
+        1216648
+      ],
+      [
+        1173248,
+        1173252
+      ]
+    ],
+    "appended_code_bytes": 1576,
+    "private_alphabet_reused": true,
+    "data_load_layout_and_font_unchanged": true,
+    "selection_and_audio_calls_unchanged": true,
+    "hardware_verified": false
+  },
+  "native_execution": {
+    "poll_cases": 379,
+    "actor_and_unknown_cases": [
+      {
+        "channel": 0,
+        "actor": 0,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 0,
+        "actor": 1,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 1,
+        "actor": 0,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 1,
+        "actor": 1,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 2,
+        "actor": 0,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 2,
+        "actor": 1,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 3,
+        "actor": 0,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "channel": 3,
+        "actor": 1,
+        "text": "0.5.54 B003 H86 N0000\\nO003520 S032E0 F1C1234",
+        "utf8_bytes": 131
+      },
+      {
+        "null": false,
+        "cached": false,
+        "text": "0.5.54 BFFF H03 N1234\\nOFFFFFF SFFFFF F1C0000",
+        "utf8_bytes": 131
+      },
+      {
+        "null": true,
+        "cached": false,
+        "text": "0.5.54 BFFF HFF NFFFF\\nOFFFFFF SFFFFF F1C0000",
+        "utf8_bytes": 131
+      }
+    ],
+    "integration": [
+      {
+        "fallback_flag": 0,
+        "voice_play_calls": [
+          7
+        ],
+        "caption_bytes": 22,
+        "native_caption_builder_verified": true
+      },
+      {
+        "fallback_flag": 1,
+        "voice_play_calls": [],
+        "caption_bytes": 130,
+        "native_caption_builder_verified": true
+      }
+    ],
+    "native_converter_models_verified": 4,
+    "all_gprs_cr_lr_ctr_xer_and_fprs_preserved": true,
+    "original_poll_store_replayed": true,
+    "selection_context_unchanged": true,
+    "fonts_unicode_table_and_data_load_layout_unchanged": true,
+    "hardware_verified": false
+  },
+  "self_checks": {
+    "format": "CFW fake SELF; not retail-signed",
+    "payload_byte_identical": true,
+    "payload_sha256": "bf5e0b7529e62240cc1e70ffb8829622c18f89bce1894eb7ac699745050231d2",
+    "program_segments": 8,
+    "active_loads": 3,
+    "original_application_and_capabilities": true,
+    "all_segment_mappings_verified": true,
+    "no_writable_executable_load": true,
+    "hardware_verified": false
+  },
+  "title_archive_isolation": {
+    "members": 489,
+    "replaced": 1,
+    "untouched_members_verified": 488,
+    "replaced_compressed": 0,
+    "output_bytes": 274114908,
+    "source_sha256": "cc07019b7c2e055660ab8241dea0e3550d49e3e7091f0d199724eadcdff1b31c",
+    "output_sha256": "3b3f8fd58fa1ced03b25efe1096baf82ee9f07a0affa22f140f734795880087a",
+    "byte_identical": false,
+    "independent_itoc_check": true
+  },
+  "preview": {
+    "path": "work/ui/0.5.54/voice-diagnostic-sample.png",
+    "row_widths": [
+      392,
+      441
+    ],
+    "simulated_readout_from_unchanged_game_font": true
+  },
+  "changed_game_files": [
+    "/PS3_GAME/USRDIR/EBOOT.BIN",
+    "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK"
+  ],
+  "unchanged_game_files": 80,
+  "original_trophies_preserved": true,
+  "fonts_and_audio_unchanged": true,
+  "hardware_verified": false,
+  "runtime_verified": false,
+  "iso_verification": {
+    "image": "E:\\Projects\\SRW Z3 2\\work\\output\\iso\\0.5.54\\Tengoku-hen-English-0.5.54-voice-diagnostic.iso",
+    "bytes": 5587206144,
+    "sectors": 2728128,
+    "files_verified_each_tree": 82,
+    "udf": "absent",
+    "plaintext_regions": 1,
+    "sha256": "3467f9f0af7e35b86bbe1e215e9b24fde469b5d53582eaa4baff5e5d21b799b3",
+    "version": "0.5.54",
+    "parent_version": "0.5.53",
+    "source_iso_sha256": "274cd6220c3851f41d11b3dfbf5bed5251157c9fe614f777150017049d6bf3be",
+    "changed_game_files": [
+      "/PS3_GAME/USRDIR/DATA/ANIME/EFFPS3.CPK",
+      "/PS3_GAME/USRDIR/EBOOT.BIN"
+    ],
+    "hardware_verified": false,
+    "runtime_verified": false
+  },
+  "independent_ppc_disassembly": {
+    "decoder": "Capstone 4.0.2",
+    "poll_instructions": 67,
+    "fallback_instructions": 323,
+    "all_words_decoded": true,
+    "bounded_branches": true,
+    "no_function_calls_or_syscalls": true,
+    "executable_payload_sha256": "bf5e0b7529e62240cc1e70ffb8829622c18f89bce1894eb7ac699745050231d2"
+  }
+}

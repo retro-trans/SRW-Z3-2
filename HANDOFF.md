@@ -10,9 +10,22 @@ caption with a versioned bank/header/count/offset/size/flag/cue readout. Ordinar
 quotes, selection and audio calls are preserved. The code uses the existing
 private alphabet/font and reserved lookup padding. Twenty-five focused tests
 pass, including 379 observer cases and native caption/converter execution.
-The build is prepared under `work/output/builds/0.5.54`; final ISO/Retro Trans
-round-trip verification and delivery sealing are in progress. The sample PNG
-was visually inspected and is a simulated native-font readout, not hardware.
+The build is sealed under `work/output/builds/0.5.54`. All 82 ISO files pass
+both filesystem trees; target SHA-256 is
+`3467f9f0af7e35b86bbe1e215e9b24fde469b5d53582eaa4baff5e5d21b799b3`.
+Official Retro Trans 0.5.4 reconstructs the exact complete image from 0.5.53;
+both input images stay unchanged. Delivery is
+`work/output/releases/0.5.54/artifacts/SRW-Z3-2-PS3-English-0.5.54-voice-diagnostic-from-0.5.53.xdelta`
+(139,575,552 bytes, SHA-256
+`014afad433f795f9c2fede6ba54e21fc85e107b6394e65b65761285d822c2216`).
+Source commit: `141a35a94729cd31b935e9a76f4631e4e5df7a47`.
+Proof `work/ui/cfw_voice_diagnostic_verified_0.5.54.json` and delivery seal
+`work/ui/local_release_0.5.54.json` are final; preserve them. The independent
+decoder also accepts all 390 injected PPC instructions with bounded branches
+and no calls/syscalls. The sample PNG was visually inspected and is a simulated
+native-font readout, not hardware. Installed EFF artwork may be cached at
+INSCO/DATA0030.DAT: the actual quote's 0.5.54 marker proves activation; a title
+footer alone does not. No hardware test or recovery is claimed yet.
 No emulator registration, installed cache, saves, audio or trophy files changed.
 
 ## Current PS3 hardware follow-up — 0.5.53 voice cache

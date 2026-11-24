@@ -41,6 +41,58 @@
     "mocked_streaming_boundary_va": "0x22a84",
     "physical_streaming_allocation_selection_and_audio_playback_verified": false
   },
+  "native_coupled_quote_voice_controls": {
+    "cases": [
+      {
+        "control": "paired_English_table_and_data",
+        "bank": 3,
+        "line": 0,
+        "read_offset": 13600,
+        "read_length": 13024,
+        "loaded_header_hex": "034a1800d600d600",
+        "native_parsed_line_count": 214,
+        "prepared_entry_flag": 0,
+        "voice_play_calls": [
+          41167
+        ],
+        "ellipsis_caption": false,
+        "expected_caption_verified": true
+      },
+      {
+        "control": "original_table_with_English_data",
+        "bank": 3,
+        "line": 0,
+        "read_offset": 9920,
+        "read_length": 9312,
+        "loaded_header_hex": "86e186f286e181ae",
+        "native_parsed_line_count": 0,
+        "prepared_entry_flag": 1,
+        "voice_play_calls": [],
+        "ellipsis_caption": true,
+        "expected_caption_verified": true
+      }
+    ],
+    "original_control_code_byte_identical": true,
+    "native_entry_builder_va": "0x12eb28",
+    "native_playback_selector_va": "0x12e4bc",
+    "fallback_flag_branch_va": "0x12e594",
+    "fallback_caption_load_va": "0x12e700",
+    "fallback_caption_source_va": "0x84ecc0",
+    "mocked_boundaries": [
+      "stream completion",
+      "upstream rule choice",
+      "speaker lookup",
+      "audio engine",
+      "C string helpers"
+    ],
+    "seeded_default_entry": {
+      "cue_id": 0,
+      "fallback_flag": 1
+    },
+    "actual_hardware_loaded_header_and_entry_flag_unknown": true,
+    "physical_console_failure_reproduced": false,
+    "demonstrates_both_symptoms_from_one_mismatched_bank": true
+  },
   "paired_voice_banks": 368,
   "voice_cue_references_preserved": 78302,
   "selection_rules_headers_and_cues_byte_identical": true,

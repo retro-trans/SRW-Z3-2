@@ -10,6 +10,7 @@ import struct
 from tools.common import ROOT, sha256, sha256_file, write_json
 from tools import srvc as S, cfw_self as C, cfw_package as B
 from tools import cfw_trophy_control as T
+from tools import cfw_voice_selection_audit as V
 from tools.isoread import ISO9660
 
 REPORT = ROOT/'work/ui/ps3_voice_audit_2026-11-22.json'
@@ -165,6 +166,7 @@ def audit():
         source_report='work/ui/ps3_voice_report_2026-11-22.json',
         image_verification_sha256=sha256_file(T.PROOF), audio_archives=banks,
         native_bank_readback=native_bank_readback(elf,new),
+        native_coupled_quote_voice_controls=V.readback(elf,new,oldelf),
         paired_voice_banks=368, voice_cue_references_preserved=sum(b.n6 for b in ob),
         selection_rules_headers_and_cues_byte_identical=True,
         native_installed_subfolder='/INSCO/',native_installed_filename='DATA0046.DAT',
@@ -209,6 +211,7 @@ def main():
     if 'supplied_installation_log' in report:
         print('Installation-log mappings verified:',report['supplied_installation_log']['native_mappings_verified'])
     print('Native PPC voice read/parser check:',report['native_bank_readback'])
+    print('Native coupled quote/voice controls:',report['native_coupled_quote_voice_controls'])
     if args.apply:
         write_json(REPORT,report)
     else:

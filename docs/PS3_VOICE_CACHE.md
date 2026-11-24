@@ -76,9 +76,10 @@ check, not a confirmed finding on this console.
 
 Current next checks, after the byte-identical cache result:
 
-- Confirm whether battle speech worked before patching the Japanese game and
-  check the current Voice Volume value. Do not switch to an original executable
-  against translated installed data as a control; that creates a known mismatch.
+- Treat missing speech and all-ellipsis battle captions as one combined report.
+  Voice Volume is not an established explanation for both. The next useful
+  runtime evidence is the selected bank id, table offset/read length, read
+  status, loaded header, parsed line count and prepared fallback flag/cue.
 - Installed DATA0133.DAT now has both the expected reported length and SHA-256.
   Preserve it and the byte-identical DATA0046.DAT; no further audio-file upload
   or reinstall is part of the current investigation.
@@ -92,6 +93,45 @@ Current next checks, after the byte-identical cache result:
 - A mounted-disc EBOOT SHA-256 can resolve remote executable identity. The user
   cannot obtain it currently; this check remains pending. If a future hash
   differs, inspect its program/table before drawing conclusions from the wrapper.
+- Historical unpatched-game battle speech remains unconfirmed. Do not switch
+  to an original executable against translated installed data as a control;
+  that creates a known mismatch. Settings are secondary context, not a substitute
+  for investigating the coupled caption/voice failure.
+
+## Native control reproducing both symptoms
+
+On 2026-11-24, the user reiterated that every battle quote is also an ellipsis.
+The previous reply overemphasized Voice Volume; the primary target is the
+shared bank/quote-selection path. `tools/cfw_voice_selection_audit.py` executes
+the packaged PPC read chain, parser, entry builder and playback selector in
+interpreter memory. These control code ranges are byte-identical to the original.
+
+For bank 3, the paired English table reads offset 13,600, length 13,024. The
+native parser obtains 214 lines; the controlled rule selection produces entry
+flag zero, the expected translated quote and one voice-play call (cue 41,167).
+Replacing only the table in interpreter memory with the original offsets makes
+the same code read offset 9,920, length 9,312 from the same English file. Its
+loaded header starts `86e186f286e181ae`, not version 3. The native parser clears
+the line count, and the entry builder prepares a flagged fallback entry using
+the control's seeded default template (cue zero, fallback flag one). That
+template state is a controlled input, not a captured value from the tester.
+
+The relevant original code path is:
+
+- 0x139118..0x139148: an invalid version clears the bank counts.
+- 0x12ebb4..0x12ec60: zero lines select the default entry; 0x12ecb8 copies
+  its fallback flag.
+- 0x12e58c..0x12e594: a nonzero entry flag selects 0x12e6f0, bypassing
+  the voice-play call at 0x12e7c4.
+- 0x12e700: load the built-in UTF-8 ellipsis caption (source VA 0x84ecc0)
+  and copy it through the native caption routine. The control verifies exactly
+  that caption and zero voice-play calls.
+
+This demonstrates a concrete shared failure mode, not the tester's root cause.
+The audio engine, streaming completion, C string helpers, speaker lookup and
+upstream rule choice are modeled boundaries. The console's actual loaded bank
+header and prepared flag remain unknown. Both installed voice files match; do
+not infer corruption or change the correct files from this local negative control.
 
 RPCS3's [disc boot/update selection](https://github.com/RPCS3/rpcs3/blob/master/rpcs3/Emu/System.cpp)
 checks for a title-specific installed update EBOOT. This supports checking for
@@ -134,6 +174,8 @@ installed-cache files. All 16 SRVC parser/rebuilder checks also pass.
   `work/ui/ps3_voice_audit_2026-11-22.json`.
 - Actual PPC start-read/parser execution for all 368 banks is included in the
   same audit under `native_bank_readback`.
+- Paired and mismatched native caption/voice controls are included under
+  `native_coupled_quote_voice_controls`.
 - Focused tests: `work/output/scratch/ps3-voice-cache-2026-11-22-tests.log`.
 
 The native game data establishes the install filename. RPCS3's

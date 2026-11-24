@@ -4,6 +4,18 @@
 
 Follow-up: the tester confirms 0.5.53 now reaches the opening and reports
 missing battle speech, all-ellipsis battle captions and working music/effects.
+2026-11-24 correction: investigate the coupled caption/voice failure; do not
+lead with Voice Volume as its explanation. Native controls now reproduce both
+symptoms from one mismatched bank read. Bank 3 with the paired table yields
+214 lines, a translated caption and voice call 41167; original offsets with
+the same English data yield an invalid header, zero lines, fallback flag 1,
+the built-in UTF-8 ellipsis and no voice-play call. Code is unchanged from the
+original; this is a local controlled failure, not the tester's captured state.
+See `native_coupled_quote_voice_controls` in the audit and the new
+`tools/cfw_voice_selection_audit.py`. Model boundaries include upstream rule
+choice, speaker lookup, streaming completion, C string helpers and audio engine.
+Next runtime evidence: bank id, offset/read length/status, loaded header,
+parsed line count and prepared entry flag/cue. No extra data-file upload/reset.
 See `work/ui/ps3_voice_report_2026-11-22.json` and `docs/PS3_VOICE_CACHE.md`.
 The on-disc executable/SRVC pairing is correct; all four SOUND archives match
 the original and all 78,302 cue references are preserved. An old Japanese

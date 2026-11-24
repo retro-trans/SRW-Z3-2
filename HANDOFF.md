@@ -1,5 +1,20 @@
 # Tengoku-hen handoff
 
+## Prepared PS3 diagnostic — 0.5.54
+
+The user asked what comes next. Prepare the runtime diagnostic and exact
+0.5.53-to-0.5.54 Retro Trans delta; do not publish a GitHub release without
+fresh explicit consent. See `docs/PS3_VOICE_DIAGNOSTIC_0.5.54.md`.
+Two hooks observe completed SRVC buffers and replace only the existing fallback
+caption with a versioned bank/header/count/offset/size/flag/cue readout. Ordinary
+quotes, selection and audio calls are preserved. The code uses the existing
+private alphabet/font and reserved lookup padding. Twenty-five focused tests
+pass, including 379 observer cases and native caption/converter execution.
+The build is prepared under `work/output/builds/0.5.54`; final ISO/Retro Trans
+round-trip verification and delivery sealing are in progress. The sample PNG
+was visually inspected and is a simulated native-font readout, not hardware.
+No emulator registration, installed cache, saves, audio or trophy files changed.
+
 ## Current PS3 hardware follow-up — 0.5.53 voice cache
 
 Follow-up: the tester confirms 0.5.53 now reaches the opening and reports

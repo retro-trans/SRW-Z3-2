@@ -10,6 +10,11 @@
 - Record the user's release policy: prepare fixes locally, but create or publish a GitHub release only with explicit consent for that release. Acceptance of 0.5.18 is a one-time exception.
 - Reported on public 0.5.18: the result screen's team-name field displays malformed text resembling `1l,`. The exact runtime cause and intended team name remain unverified.
 
+## 0.5.54 - 2026-11-24 (PS3 quote/voice diagnostic; prepared locally)
+
+- Add two bounded native observers for the combined all-ellipsis battle-quote and missing-speech report. Associate completed voice-bank buffers with their actual bank/offset/length and show the post-parser header/line count plus selected fallback flag/cue inside the existing fallback quote box. Stamp the title and readout as 0.5.54. This gathers runtime evidence; no hardware cause or audio fix is claimed.
+- Preserve native register/flag state, selection context, ordinary quotes and voice-play calls. Reuse the current font/private alphabet and 768 bytes of lookup headroom, with 1,576 bytes of added RX code. Keep the 134-byte caption limit, all voice files, original trophies and data LOAD layout. Pass 379 observer cases, eight side/actor cases, unknown/null-buffer checks, both native caption paths, four converter-model checks and the 25-test focused regression run. No console/emulator installation or GitHub publication is performed.
+
 ## 0.5.53 - 2026-11-22 (single-file CFW trophy control; prepared locally)
 
 - 2026-11-24: refocus on the user's combined report of all-ellipsis battle captions and absent speech; Voice Volume alone is not an established explanation. Execute the unchanged native PPC read/parser/entry/playback chain with paired and mismatched table controls. The paired bank yields 214 lines, its translated caption and one voice-play call; original offsets over the same English data yield zero lines, a flagged fallback entry, the built-in ellipsis and no voice-play call. Record modeled boundaries and leave the actual hardware cause unconfirmed. No game or release assets changed.

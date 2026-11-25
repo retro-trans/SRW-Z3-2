@@ -1,5 +1,10 @@
 # Changelog
 
+## Combined release addition — 2026-11-25
+
+- At the user's explicit request, add the unchanged validated PS3 0.5.51 RPCS3 build to the existing Vita/Vita3K 0.1.4 release. Supply the original-Japanese and public-0.5.44 xdelta routes, separate PS3 manifest/validation/checksums and installation guide. Preserve all published Vita bytes and distinguish the two platform versions.
+- Verify the five sealed PS3 delivery assets and original/source/output image identities against their recorded round-trip proofs. Retain the PS3 native/ISO and 372-test evidence; no new gameplay or physical-PS3 compatibility claim. PS3 uses Retro Trans Apply xdelta; Vita's existing automatic routes remain intact.
+
 ## Vita 0.1.4 — 2026-11-25
 
 - First public Vita release, with separate Retro Trans component-patch ZIPs for physical Vita rePatch and Vita3K PKG reconstruction. Keep PS3 0.5.44 as the latest PS3 release.

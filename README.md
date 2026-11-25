@@ -11,6 +11,12 @@ game files and Japanese script dumps remain local.
 
 ## Current status
 
+The [combined download release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4)
+also includes **PS3 0.5.51 for RPCS3**, from the exact original Japanese ISO
+or public English 0.5.44. Use Retro Trans **Apply xdelta** with those PS3
+downloads. See [PS3 installation](docs/PS3_INSTALL_0.5.51.md). Each platform
+keeps its own build number; physical PS3 support is not claimed for 0.5.51.
+
 **Vita / Vita3K:** [0.1.4](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4)
 provides separate small Retro Trans patch ZIPs for physical Vita rePatch and
 Vita3K PKG reconstruction from the original Japanese PKG and matching license.
@@ -19,20 +25,20 @@ installation and all 141 file hashes. A full playthrough remains unverified.
 See [installation instructions](docs/VITA_INSTALL.md) and
 [port evidence](docs/VITA_PORT.md). Vita DLC is not included.
 
-Public testing currently uses [**0.5.44**](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44). It
+The earlier PS3 public release [**0.5.44**](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44). It
 includes the accumulated keyword-popup, deployment and news corrections,
 plus the phase/map-panel fixes and [latest reward/menu corrections](docs/REWARD_MENUS_0.5.44.md).
-Retro Trans supports automatic updates from the original Japanese ISO or the
-exact English 0.5.40 image. Refresh its catalog to select the latest release.
+Its existing Automatic routes remain available. For the newly added PS3
+0.5.51, use Apply xdelta with the downloads and instructions above.
 
 The prepared **0.5.45** candidate addresses four additional text-fitting
 reports and includes Chaos Caper. See [the corrections](docs/SCREEN_FITTING_0.5.45.md).
 Its public release requires separate explicit consent.
 
-The **0.5.51** candidate translates the complete DLC menu text category and
+The included PS3 **0.5.51** build translates the complete DLC menu text category and
 fixes its label overlaps, summary width and native confirmation text. It
 carries 0.5.50 and works with DLC 0.5.49. See [DLC menu corrections](docs/DLC_MENU_0.5.51.md).
-Publication requires separate explicit consent.
+It is included in the combined release at the user's explicit request.
 
 The **0.5.52 CFW test** candidate wraps the unchanged 0.5.51 program for
 console startup testing. Physical PS3 compatibility remains unverified;

@@ -7,7 +7,7 @@
   "hardware_ready_means": "Physical first-battle correction confirmed by user; complete story unverified",
   "physical_gameplay_tested": true,
   "physical_retest_pending": false,
-  "github_published": false,
+  "github_published": true,
   "captured_failure": {
     "callback": "EventCheck_ActionEnd",
     "line": 174,
@@ -84,5 +84,10 @@
   "vita3k_native_installer_files": 141,
   "vita3k_0_1_4_gameplay_tested": false,
   "publication_authorized_date": "2026-11-25",
-  "release_url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4"
+  "release_url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4",
+  "public_automatic_modes_verified": [
+    "pkg",
+    "repatch"
+  ],
+  "release_source_commit": "6c9f44dc459d2917500ddde47b976bf19e4cc055"
 }

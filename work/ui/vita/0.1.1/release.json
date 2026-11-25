@@ -1,0 +1,99 @@
+{
+  "schema": 2,
+  "title_id": "PCSG00494",
+  "version": "0.1.1",
+  "parent_ps3": "0.5.51",
+  "patch_zip": {
+    "name": "SRW-Z3-Tengoku-v0.1.1-Vita-PKG-patches.zip",
+    "bytes": 24054524,
+    "sha256": "bb7f5cfdeda6e0178c1c843785e2f32b02ee826b68a7a0581ba80cdd42ce7609"
+  },
+  "private_vita3k_pkg": {
+    "bytes": 2944201104,
+    "sha256": "41e45f99f023f138ad22906bd4e46f48348e655a1f46967d6df7c1660c1d4019"
+  },
+  "native_installer_files": 141,
+  "delta_roundtrips": 18,
+  "archives_independently_verified": 11,
+  "native_execution_cases": 44638,
+  "layout": {
+    "logical_canvas": [
+      1280,
+      720
+    ],
+    "framebuffer": [
+      960,
+      544
+    ],
+    "caption_center_x": 640,
+    "font_atlas": [
+      4096,
+      1120
+    ],
+    "font_cell": [
+      32,
+      32
+    ],
+    "allocated_cells": 301,
+    "edited_widgets": 604,
+    "edited_elements": 4,
+    "edited_table_rows": 14
+  },
+  "hardware_ready": true,
+  "missing_hardware_input": null,
+  "hardware_validation_pending": false,
+  "console_auth_dump_required": false,
+  "gameplay_tested": false,
+  "vita_dlc_tested": false,
+  "trophy_translation_included": false,
+  "user_emulator_installation_changed": false,
+  "github_published": false,
+  "original_pkg_unchanged": true,
+  "license_unchanged": true,
+  "runtime_smoke_tested": true,
+  "runtime_evidence": {
+    "path": "work/ui/vita/0.1.1/runtime.json",
+    "sha256": "47a21452634ddb91976afd4daab385a2a8dba2e515895930915508e4920c7672"
+  },
+  "user_confirmed_working": true,
+  "gameplay_test_scope": [
+    "Post-intro transition and map observed on final 0.1.1",
+    "User confirmed final Vita3K build works",
+    "Minimal storage correction separately passed full intro, English title/menu and battle demonstrations"
+  ],
+  "full_playthrough_tested": false,
+  "hardware_ready_means": "Prepared for testing; physical gameplay unverified",
+  "physical_gameplay_tested": false,
+  "hardware_patch": {
+    "name": "SRW-Z3-Tengoku-v0.1.1-Vita-rePatch-patches.zip",
+    "bytes": 22088898,
+    "sha256": "71de4c0e2fba5cd0a66337ae08ca69dc0e89cfb1e9a101281cfac77b36a474f2"
+  },
+  "hardware_copy_zip": {
+    "name": "Tengoku-hen-English-0.1.1-physical-Vita.zip",
+    "bytes": 175636170,
+    "sha256": "a6fa01955d33adda9b648fe4e95fdbbd54eabb94707e426ed3a2905ee1407d24"
+  },
+  "hardware_components": 13,
+  "hardware_auth_files": 1,
+  "retro_trans_pkg_work_bin_route_verified": true,
+  "original_boot_parameters_preserved": true,
+  "auth_source": "Original SELF decrypted with supplied work.bin",
+  "sanitized_auth_sha256": "a28ed743f23a027ad39bd058848445ffe04c3ef3c3306d9351049b43142af20a",
+  "direct_pkg_xdelta": {
+    "name": "SRW-Z3-Tengoku-v0.1.1-Vita3K-from-original-PKG.xdelta",
+    "bytes": 2944202756,
+    "sha256": "8da2d09eb1c1e471718880d8005e9f6e4abb6a0a3272ab770dbd500534a99e30",
+    "path": "work/output/vita/direct-xdelta/0.1.1/SRW-Z3-Tengoku-v0.1.1-Vita3K-from-original-PKG.xdelta",
+    "source": {
+      "bytes": 2926199744,
+      "sha256": "009833f3ecb46da08e50ad9d3cfc9772a2d74499f29960a6645d88235e78e7b0"
+    },
+    "target": {
+      "bytes": 2944201104,
+      "sha256": "41e45f99f023f138ad22906bd4e46f48348e655a1f46967d6df7c1660c1d4019"
+    },
+    "roundtrip_verified": true,
+    "retro_trans_route": "Apply xdelta"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "version": "0.1.3",
+  "title_id": "PCSG00494",
+  "purpose": "Correct diagnostic text encoding for the physical Vita first-battle failure",
+  "base_version": "0.1.1",
+  "physical_tested": true,
+  "visual_capture_available": true,
+  "prior_physical_photo": "incoming/vita-first-battle-20261121/diagnostic-0.1.2-tester.png",
+  "prior_visible_text": "Vita diagnostic 0.",
+  "prior_transparent_suffix_reproduced": true,
+  "logical_canvas": [
+    1280,
+    720
+  ],
+  "error_label": {
+    "x": 32,
+    "y": 10,
+    "font_pixels": 24,
+    "max_line_cells": 50,
+    "buffer_bytes": 256,
+    "max_message_bytes": 254
+  },
+  "native_execution_cases": 28,
+  "native_conversion_and_draw_cases": 3,
+  "native_utf8_converter_executed": true,
+  "native_glyph_loop_executed": true,
+  "graphics_submission_stubbed": true,
+  "draw_samples": [
+    {
+      "utf8_message": "Vita diagnostic 0.１.3\nEventCheck_BtlAfter\n[string \"stage\"]:１１: attempt to call global 'SC_TE\nST１' (a nil value)",
+      "native_bytes_hex": "827582898294828181408284828982818287828e828f82938294828982838140824f81448250814482520a826482968285828e82948262828882858283828b815182618294828c826082868294828582920a816d8293829482928289828e82878140818d82938294828182878285818d816e814682508250814681408281829482948285828d8290829481408294828f814082838281828c828c81408287828c828f82828281828c8140818c827282628151827382640a827282738250818c8140816982818140828e8289828c814082968281828c82958285816a",
+      "glyph_count": 108,
+      "lines": 4,
+      "all_opaque_and_onscreen": true
+    },
+    {
+      "utf8_message": "Vita diagnostic 0.１.3\nEventCheck_BtlAfter\nnot enough memory",
+      "native_bytes_hex": "827582898294828181408284828982818287828e828f82938294828982838140824f81448250814482520a826482968285828e82948262828882858283828b815182618294828c826082868294828582920a828e828f829481408285828e828f8295828782888140828d8285828d828f82928299",
+      "glyph_count": 57,
+      "lines": 3,
+      "all_opaque_and_onscreen": true
+    },
+    {
+      "utf8_message": "Vita diagnostic 0.１.3\nEventCheck_BtlAfter\nlong １ error long １ error long １ error long １\nerror long １ error long １ error long １ error\nlong １ error long １ error long １ error long １\nerror long １ error long １ error long １ error\n",
+      "native_bytes_hex": "827582898294828181408284828982818287828e828f82938294828982838140824f81448250814482520a826482968285828e82948262828882858283828b815182618294828c826082868294828582920a828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082500a828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82920a828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082500a828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82928140828c828f828e8287814082508140828582928292828f82920a",
+      "glyph_count": 218,
+      "lines": 6,
+      "all_opaque_and_onscreen": true
+    }
+  ],
+  "executable_sha256": "608b91186f06d3aa9813c978f70760599236f4d24613c7fd97c88019cbff88a7",
+  "artifacts": {
+    "SRW-Z3-Tengoku-v0.1.3-Vita-rePatch-DIAGNOSTIC-patches.zip": {
+      "bytes": 22089210,
+      "sha256": "dbd138d326305bc3aef6f7785efa20185fcc26c91092dabe78475319558f20d4"
+    },
+    "Tengoku-hen-0.1.3-physical-Vita-DIAGNOSTIC-update.zip": {
+      "bytes": 3966222,
+      "sha256": "4f9e619b09aa3d48f8a9d56ab769af63a29a2099e66e500b86bcf18f7da59b8e"
+    },
+    "VITA-PCSG00494-0.1.3-diagnostic-eboot.xdelta": {
+      "bytes": 3881668,
+      "sha256": "128db2abedf06bf092a346efe93a6d2b59ae92f47470d180ee6d6c8c03853697"
+    },
+    "VITA-REPATCH.json": {
+      "bytes": 7560,
+      "sha256": "e0b967dd4027040cc6b1e73b83ffffe20c622562a9f5ed55555da9e2b24b5098"
+    },
+    "eboot.bin": {
+      "bytes": 17328080,
+      "sha256": "608b91186f06d3aa9813c978f70760599236f4d24613c7fd97c88019cbff88a7"
+    }
+  },
+  "retro_trans_original_pkg_work_bin_route_verified": true,
+  "overlay_components_verified": 13,
+  "auth_files_verified": 1,
+  "physical_test_scope": "Diagnostic display and captured failure only; gameplay failed",
+  "hardware_report": {
+    "path": "work/ui/vita/0.1.3/hardware-test.json",
+    "sha256": "20557d74ef794a936ffee135aaf928d7785275714cfca6beb1938075d5900a77"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "date": "2026-11-21",
+  "platform": "physical Vita",
+  "diagnostic_version": "0.1.3",
+  "diagnostic_display_worked": true,
+  "gameplay_passed": false,
+  "callback": "EventCheck_ActionEnd",
+  "chunk": "stage",
+  "line": 174,
+  "error": "attempt to perform arithmetic on global 'LOCAL_FLAG' (a nil value)",
+  "screenshot": {
+    "path": "work/ui/vita/0.1.3/hardware-lua-failure.png",
+    "sha256": "8bcfd1a63f540bf4c73512b4a57728b2ce45810bb3bbc2eab4e6b33fadb02fcf"
+  }
+}

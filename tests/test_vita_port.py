@@ -1,11 +1,41 @@
 """Native-format safety checks independent of game screenshots."""
 import struct
 import unittest
+import tempfile
+from pathlib import Path
 from tools.vita import gxt
 from tools import vita_ui as U
 from tools.vita.repatch_auth import sanitize
 from tools.vita_auth import optional_auth
+from tools import vita_storage
+from tools.cpkpatch import build as build_cpk
+from tools.verify_archives import compare as compare_cpk
+from tests.test_cpk import fixture as cpk_fixture
 import numpy as np
+
+
+class VitaStorage(unittest.TestCase):
+    def test_mixed_native_modes_survive_translated_rebuild(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);base=root/'fixture.cpk';base.write_bytes(cpk_fixture())
+            source=root/'native.cpk'
+            build_cpk(base,source,{1:b'raw texture'*900,2:b'compressed text'*900},compress={2},workers=1)
+            changed={1:b'English texture'*900,2:b'English text'*900}
+            target=root/'english.cpk'
+            build_cpk(source,target,changed,compress=vita_storage.compression_ids(source,changed),workers=1)
+            compare_cpk(source,target,changed)
+            self.assertEqual(vita_storage.verify(source,target),dict(members=2,compressed=1,uncompressed=1,
+                              original_compression_modes_preserved=True))
+
+    def test_decoded_equality_does_not_accept_recompressed_direct_load(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);source=root/'native.cpk';source.write_bytes(cpk_fixture())
+            target=root/'wrong.cpk';changed={1:b'compressible texture'*900}
+            build_cpk(source,target,changed,compress=True,workers=1)
+            # This was the insufficient 0.1.0 check: it passes for the bad storage mode.
+            compare_cpk(source,target,changed)
+            with self.assertRaisesRegex(ValueError,'compression mode changed'):
+                vita_storage.verify(source,target)
 
 
 def widget_source(endian):

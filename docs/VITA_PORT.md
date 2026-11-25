@@ -1,4 +1,35 @@
-# Tengoku-hen Vita 0.1.0
+# Tengoku-hen Vita port — 0.1.4
+
+**2026-11-25 release status:** the user confirmed that the physical Vita
+0.1.4 first-battle correction works and authorized publication for both Vita
+and Vita3K. The 0.1.4 Vita3K PKG passed isolated native installation and all
+141 file hashes; fresh 0.1.4 emulator gameplay is not claimed. Neither result
+establishes a full story playthrough. The release uses the exact sealed game
+components from the successful hardware delivery.
+
+The 0.1.3 physical diagnostic identified
+`EventCheck_ActionEnd`, stage line 174, doing arithmetic on missing
+`LOCAL_FLAG`. The native definition is zero. Version 0.1.4 binds immutable
+native constants into 287 stage scripts and the shared battle helper, using
+the 6,481 verified original values. The exact missing-global failure is
+reproduced and corrected in Lua 5.1, with 4,617 modeled event-check cases
+matching the intact original. Why shared initialization differs on that
+device is still unconfirmed. The first-battle retest now succeeds on hardware.
+The separate 0.1.4 Vita3K package includes the same correction.
+
+The native shared loader copies fixed byte counts for nine Lua files. The
+modified common helper keeps its original 9,993-byte extent with 541 trailing
+spaces, so cached lengths remain correct without changing EBOOT's data table.
+Script strings/comments, original numeric/string types and archive storage
+modes are preserved. The unpublished unpadded candidate was rejected and
+retained privately for analysis. Hardware delivery uses fourteen game files
+plus the original sanitized auth. Error reporting remains active.
+
+The 0.1.2 hardware photo exposed a diagnostic rendering bug: literal ASCII
+`1` changes text color in the native converter. Version 0.1.3 escaped that
+digit, and the following hardware photo captured the underlying Lua error. See
+[installation and diagnostic instructions](VITA_INSTALL.md). The original
+port/build evidence below is historical; current test scope is stated above.
 
 The requested targets are physical Vita and Vita3K. This port has its own
 0.1.0 version and does not change the PS3 0.5.51/0.5.52 outputs or installation.
@@ -142,3 +173,44 @@ performed. No GitHub release or draft is authorized. Once validation is complete
 request explicit consent for the concrete release, with the target-specific
 limitations stated. Live gameplay and Vita DLC compatibility remain untested;
 the supplied package is the base game, not a set of Vita DLC packages.
+
+## Vita 0.1.1: post-movie black screen
+
+The physical-Vita tester reported that the original Japanese game works and
+the English overlay stops after the intro. An isolated Vita3K 4377
+(`685b80a6`) installation with local firmware reproduced the English 0.1.0
+failure. The original Japanese control passed the movie and reached character
+setup. Replacing only the executable or restoring the original AID UI archive
+did not resolve the translated build's failure.
+
+Vita3K's native thread inspector showed PC `0x81324458`, LR `0x810042ef`,
+and the main thread repeatedly sleeping in the game's synchronous file-load
+error path. Its request named `app0:/data/anime/effvita.cpk`, with member
+`0xe5` (229). This member was originally stored uncompressed; 0.1.0 had
+compressed its translated payload. Keeping the same English payload raw let
+loading advance to the equivalent failure on member `0xe8` (232). Keeping
+both raw passed the full movie, English title/menu and battle demonstrations.
+Manual keyboard input opened the title menu. Automated taps were unreliable,
+so this does not establish a complete interactive story playthrough.
+
+Decoded-file equality was therefore an insufficient validation criterion.
+`tools/vita_storage.py` now selects compression from the native source and
+independently rejects any changed compression mode. The 0.1.1 build checks
+all 2,573 members in eleven modified CPKs. It restores the two effect assets
+and preserves the storage choices of 43 small Library records as well. The
+Thumb executable, font glyphs, spacing and dialogue payloads are unchanged;
+the title artwork identifies the new version. A regression explicitly shows
+that a decoded-payload-correct archive can still fail the native storage check.
+The focused CPK/native run completed 30 tests: 29 passed, one optional check
+skipped.
+
+The final component build is under `work/output/vita/builds/0.1.1/`.
+The exact final installation passed all 141 file hashes, reached the map in
+Vita3K and was confirmed working by the user on 2026-11-20. The reconstructed
+Vita3K PKG passed native installation verification. The separate original-PKG
+and work.bin route reconstructed all 13 physical overlay components and the
+sanitized auth file; the copy-ready ZIP's payload hashes were checked too.
+Retro Trans patch ZIPs, reconstructed package checks, hardware-overlay checks
+and runtime observations are recorded separately in the versioned output and
+`work/ui/vita/0.1.1/` review evidence. Physical-console retesting remains
+required. No GitHub release or draft is authorized for this version.

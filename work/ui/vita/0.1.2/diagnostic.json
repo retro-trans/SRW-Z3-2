@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "version": "0.1.2",
+  "title_id": "PCSG00494",
+  "purpose": "Physical-Vita Lua failure diagnostic, not a fix",
+  "base_version": "0.1.1",
+  "physical_tested": false,
+  "visual_capture_available": false,
+  "logical_canvas": [
+    1280,
+    720
+  ],
+  "error_label": {
+    "x": 32,
+    "y": 10,
+    "font_pixels": 24,
+    "max_line_cells": 50,
+    "buffer_bytes": 256,
+    "max_message_bytes": 254,
+    "contents": [
+      "diagnostic version",
+      "native event callback",
+      "Lua error"
+    ],
+    "native_paint_callers": [
+      "0x811033ce",
+      "0x81103400"
+    ]
+  },
+  "native_execution_cases": 28,
+  "executable_sha256": "157126309de692d95176f033c220a07236a620912f828a85b06c891e8cfd2559",
+  "artifacts": {
+    "SRW-Z3-Tengoku-v0.1.2-Vita-rePatch-DIAGNOSTIC-patches.zip": {
+      "bytes": 22089209,
+      "sha256": "8298694c32ce14316aba41bdfd07f907bfd59794c6a91fafb08a543739f34169"
+    },
+    "Tengoku-hen-0.1.2-physical-Vita-DIAGNOSTIC-update.zip": {
+      "bytes": 3966151,
+      "sha256": "806356bb98eab4e734fa83ae73cb17f6c532766ed75ee5004deff79772b02382"
+    },
+    "VITA-PCSG00494-0.1.2-diagnostic-eboot.xdelta": {
+      "bytes": 3881667,
+      "sha256": "4b6fa69b106388b603caae2de004ef70fa976ca8e5dff333ae803ae2d4238b7f"
+    },
+    "VITA-REPATCH.json": {
+      "bytes": 7560,
+      "sha256": "e7aef7873af0e0ac1ffc6a117aff0a9452cd06be39853f53a87c879aea862b8d"
+    },
+    "eboot.bin": {
+      "bytes": 17328080,
+      "sha256": "157126309de692d95176f033c220a07236a620912f828a85b06c891e8cfd2559"
+    }
+  },
+  "retro_trans_original_pkg_work_bin_route_verified": true,
+  "overlay_components_verified": 13,
+  "auth_files_verified": 1
+}

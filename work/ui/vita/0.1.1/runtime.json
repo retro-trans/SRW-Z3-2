@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "title_id": "PCSG00494",
+  "version": "0.1.1",
+  "date": "2026-11-20",
+  "emulator": "Vita3K 0.2.1 4377-685b80a6",
+  "backend": "Vulkan",
+  "verified_game_files": 141,
+  "build_files": {
+    "CommonData/MtData/MtV_all_keyword_def.cpk": {
+      "bytes": 108508,
+      "sha256": "a9ebe0bbb7a1bc235c1ddee873fe80a91890a563423190be7c15f573a78c800d"
+    },
+    "CommonData/MtData/MtZkn_KW.cpk": {
+      "bytes": 142060,
+      "sha256": "5db65a2ad5b1fbe7c57dc82a5fdfac67eceb6b8063b81ad5416423feb4b653ec"
+    },
+    "CommonData/MtData/MtZkn_Pt.cpk": {
+      "bytes": 624508,
+      "sha256": "6c41e5cae17e32b2af1932b118349b3230478110a30e5c9c18c54269780081d7"
+    },
+    "CommonData/MtData/MtZkn_Rt.cpk": {
+      "bytes": 335768,
+      "sha256": "8bce11b9ca6fc8f2a5f908a60337f74dc87f8f71d768869b3a0ff6ecd87b358a"
+    },
+    "CommonData/MtData/rpw_data.cpk": {
+      "bytes": 220356,
+      "sha256": "837f2cfc0dc07e7a54f09dd2cb8161b2c12cd98c33461c7d070e73fab960d0fb"
+    },
+    "DATA/AIDDATA/AIDDataPack.cpk": {
+      "bytes": 2670784,
+      "sha256": "69ff4db5d58bb67ac9fc44d95af29166caaa8e101c379c4f9da7df7fd70a887f"
+    },
+    "DATA/anime/effvita.cpk": {
+      "bytes": 132757504,
+      "sha256": "d383bd691c6cc042c9f045790432aae260bf4ac22d468092c3cd582ddc5d8c87"
+    },
+    "DATA/BTLC/CMN.cpk": {
+      "bytes": 301604,
+      "sha256": "c1a1a22d2f9979b837ed0de52c8c9fb62069267bac79469e7d3c597e28207601"
+    },
+    "DATA/BTLC/OP.cpk": {
+      "bytes": 453436,
+      "sha256": "53bc35077678dd3c5b4bb8318e56f3bf68334224e964ac08fb014b725cb6b81c"
+    },
+    "DATA/BTLC/SRVC.BIN": {
+      "bytes": 4946624,
+      "sha256": "bf6c6947a393a2ef140bf33a263df05ff6bc626e3ce0033dda574ad93893c48d"
+    },
+    "DATA/STAGE/STGZ3OF2.cpk": {
+      "bytes": 5366068,
+      "sha256": "b0410ab44ef303f64c1abe8319b667c21a5b557dec9cf6c128a791686c65bf8e"
+    },
+    "DATA/tabata/TPACKVITA.cpk": {
+      "bytes": 10375656,
+      "sha256": "c013654d00c4905bcd26051c52e6abefe6046b92d95ed889b501b9559320a40c"
+    },
+    "eboot.bin": {
+      "bytes": 17328080,
+      "sha256": "bf5a9b1aa45d400b0750a32169046a8929395f71fdb446be84d0e55dd4afe3f0"
+    },
+    "sce_module/libc.suprx": {
+      "bytes": 404664,
+      "sha256": "ee64cc275f6f58bba5986c8094c06c29a399625868c47029e2ae6e95ee0bb5c7"
+    },
+    "sce_module/libface.suprx": {
+      "bytes": 112984,
+      "sha256": "3d775552b70d14315497e816a355798e0e49113838d37a4b5297f89048665c6b"
+    },
+    "sce_module/libfios2.suprx": {
+      "bytes": 240840,
+      "sha256": "d9a1f76f0ef51b125ec222399be45ff203f88b2cabdf2a4334cd2487c718ba9f"
+    },
+    "sce_module/libsmart.suprx": {
+      "bytes": 2257128,
+      "sha256": "0a35daadeeeec58706d2377c1ba3ec0ac6a7c72d09ebac3e93b3ce622de26ff3"
+    },
+    "sce_module/libult.suprx": {
+      "bytes": 118096,
+      "sha256": "6090487bd4ef0aea6d299c37fc266ffe1baf272a8cb20224104179a0aa9df4b0"
+    }
+  },
+  "post_intro_map_observed": true,
+  "user_confirmed_working": true,
+  "user_confirmation": "it works",
+  "scope": [
+    "Post-intro transition and map observed on final 0.1.1",
+    "User confirmed final Vita3K build works",
+    "Minimal storage correction separately passed full intro, English title/menu and battle demonstrations"
+  ],
+  "full_playthrough_tested": false,
+  "physical_gameplay_tested": false,
+  "screenshots": [
+    {
+      "path": "work/ui/vita/0.1.1/map-0.1.1.png",
+      "sha256": "bdc901147015a139c83f1e154440009d0f17fd72e2dcb65c4ffb11ad22cd14f4"
+    }
+  ],
+  "native_compression_modes_verified": 2573,
+  "regressions": {
+    "run": 30,
+    "passed": 29,
+    "skipped": 1
+  },
+  "github_published": false
+}

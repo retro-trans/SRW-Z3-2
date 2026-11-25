@@ -1,7 +1,7 @@
 # Super Robot Taisen Z3: Tengoku-hen — translation project
 
-Development repository for the PS3 English translation of **Dai-3-Ji
-Super Robot Taisen Z: Tengoku-hen** (BLJS10299).
+Development repository for the PS3 and Vita English translation of **Dai-3-Ji
+Super Robot Taisen Z: Tengoku-hen** (BLJS10299 / PCSG00494).
 
 The repository follows the source-only approach of
 [SRW-Z3](https://github.com/retro-trans/SRW-Z3), retaining this project's existing
@@ -10,6 +10,14 @@ and validation evidence. Supply your own game dump; disc images, extracted
 game files and Japanese script dumps remain local.
 
 ## Current status
+
+**Vita / Vita3K:** [0.1.4](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4)
+provides separate small Retro Trans patch ZIPs for physical Vita rePatch and
+Vita3K PKG reconstruction from the original Japanese PKG and matching license.
+The physical first-battle fix is user-confirmed; the Vita3K PKG passed native
+installation and all 141 file hashes. A full playthrough remains unverified.
+See [installation instructions](docs/VITA_INSTALL.md) and
+[port evidence](docs/VITA_PORT.md). Vita DLC is not included.
 
 Public testing currently uses [**0.5.44**](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44). It
 includes the accumulated keyword-popup, deployment and news corrections,

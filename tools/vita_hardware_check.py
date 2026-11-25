@@ -4,10 +4,10 @@ from tools.common import ROOT,sha256,write_json
 from tools import vita_source as V,vita_build as B,vita_release as R,vita_auth as A
 from retro_trans import vita_repatch as hardware
 
-PARENT=ROOT/'work/output/vita/hardware/0.1.0'
+PARENT=ROOT/'work/output/vita/hardware'/B.VERSION
 OUTPUT=PARENT/'verified-overlay'
-PATCH=R.OUTPUT/'SRW-Z3-Tengoku-v0.1.0-Vita-rePatch-patches.zip'
-ZIP=PARENT/'Tengoku-hen-English-0.1.0-physical-Vita.zip'
+PATCH=R.OUTPUT/f'SRW-Z3-Tengoku-v{B.VERSION}-Vita-rePatch-patches.zip'
+ZIP=PARENT/f'Tengoku-hen-English-{B.VERSION}-physical-Vita.zip'
 
 
 def run(apply=False):

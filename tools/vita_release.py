@@ -64,15 +64,25 @@ def complete_hardware(auth_path,apply=False):
     hardware.validate(hp)
     for row in files:V.need(B.describe(OUTPUT/row['patch']['name'])=={k:row['patch'][k] for k in ('bytes','sha256')},'Patch changed')
     manifest=OUTPUT/hardware.MANIFEST;path=OUTPUT/f'SRW-Z3-Tengoku-v{B.VERSION}-Vita-rePatch-patches.zip'
-    V.need(not manifest.exists() and not path.exists(),'Preserve existing hardware candidate')
-    print('Matching original permissions validated; prepare',len(files),'physical-Vita component patches.',flush=True)
+    V.need(manifest.exists()==path.exists(),'Incomplete existing hardware candidate')
+    existing=path.exists()
+    if existing:
+        V.need(hardware.read_description(manifest.read_bytes())==hp,'Existing hardware manifest differs')
+        with hardware.archive_description(path) as (readback,_,__):
+            V.need(readback==hp,'Existing hardware archive differs')
+    print('Matching original permissions validated;', 'audit existing' if existing else 'prepare',
+          len(files),'physical-Vita component patches.',flush=True)
     if not apply:print('DRY RUN: no hardware release written.');return
-    write_json(manifest,hp);seal_zip(path,hardware.MANIFEST,hp,[OUTPUT/r['patch']['name'] for r in files])
+    if not existing:
+        write_json(manifest,hp);seal_zip(path,hardware.MANIFEST,hp,[OUTPUT/r['patch']['name'] for r in files])
     with hardware.archive_description(path) as (readback,_,__):V.need(readback==hp,'Hardware archive readback differs')
-    write_json(OUTPUT/'HARDWARE_AUDIT.json',dict(title_id=V.TITLE,version=B.VERSION,auth_sanitized=True,
+    audit=dict(title_id=V.TITLE,version=B.VERSION,auth_sanitized=True,
         raw_auth_included=False,retro_trans_archive_verified=True,gameplay_tested=False,
         original_boot_parameters_preserved=True,auth_source_proof=auth_proof,
-        artifacts={p.name:B.describe(p) for p in (manifest,path)}))
+        artifacts={p.name:B.describe(p) for p in (manifest,path)})
+    audit_path=OUTPUT/'HARDWARE_AUDIT.json'
+    if audit_path.exists():V.need(json.loads(audit_path.read_text('utf8'))==audit,'Existing hardware audit differs')
+    else:write_json(audit_path,audit)
 
 
 def run(apply=False,auth_path=None):
@@ -119,6 +129,7 @@ def run(apply=False,auth_path=None):
         hp_zip=OUTPUT/f'SRW-Z3-Tengoku-v{B.VERSION}-Vita-rePatch-patches.zip'
         selected={r['patch']['name'] for r in physical}
         seal_zip(hp_zip,hardware.MANIFEST,hp,[p for p in patches if p.name in selected])
+        complete_hardware(auth_path,True)
     else:
         write_json(B.OUTPUT/'hardware-pending.json',dict(title_id=V.TITLE,version=B.VERSION,components=physical,
             missing='Original PCSG00494 v01.00 console self_auth.bin; do not install these components alone',

@@ -1,0 +1,88 @@
+{
+  "schema": 2,
+  "title_id": "PCSG00494",
+  "version": "0.1.4",
+  "prepared_date": "2026-11-21",
+  "hardware_ready": true,
+  "hardware_ready_means": "Physical first-battle correction confirmed by user; complete story unverified",
+  "physical_gameplay_tested": true,
+  "physical_retest_pending": false,
+  "github_published": false,
+  "captured_failure": {
+    "callback": "EventCheck_ActionEnd",
+    "line": 174,
+    "missing_global": "LOCAL_FLAG",
+    "native_value": 0,
+    "report_sha256": "20557d74ef794a936ffee135aaf928d7785275714cfca6beb1938075d5900a77"
+  },
+  "correction": "Bind original immutable native constants directly into stage code and shared battle helpers",
+  "initialization_cause_confirmed": false,
+  "source_bound_lua_checks": {
+    "schema": 1,
+    "lua_version": "5.1.5",
+    "source_sha256": "2640fc56a795f29d28ef15e13c34a47e223960b0240e8cb0a82d9b0738695333",
+    "binding_plan_sha256": "40350b692187c7831ad3883cb2eb775fb8f0053bfec805904bdedb2ac01712ce",
+    "native_constants_verified": 6481,
+    "physical_error_reproduced": true,
+    "first_stage_missing_globals_corrected": true,
+    "engine_calls_are_test_doubles": true,
+    "console_gameplay_tested": false,
+    "summary": "constants=6481 compiled=288 equivalent=4617 unmodeled=3",
+    "changed_script_pairs": 288
+  },
+  "stage_scripts_bound": 287,
+  "shared_helpers_bound": 1,
+  "references_bound": 23177,
+  "unit_suite": {
+    "tests": 33,
+    "passed": 32,
+    "optional_skipped": 1
+  },
+  "native_archives_verified": 12,
+  "native_storage_members_verified": 2582,
+  "native_shared_cache": {
+    "data_offset": 401284,
+    "member_bytes": [
+      9993,
+      719478,
+      8589,
+      4959,
+      15522,
+      115615,
+      21525,
+      18303,
+      7885
+    ],
+    "padding_bytes": {
+      "0": 541
+    },
+    "all_original_lengths_preserved": true
+  },
+  "delta_roundtrips": 19,
+  "hardware_components": 14,
+  "hardware_auth_files": 1,
+  "retro_trans_original_pkg_work_bin_route_verified": true,
+  "original_inputs_unchanged": true,
+  "copy_zip": {
+    "path": "work/output/vita/hardware/0.1.4/Tengoku-hen-English-0.1.4-physical-Vita.zip",
+    "bytes": 175738111,
+    "sha256": "f03de93f2de546200469d08b8838456476a66d0ff2533a7f158c2eb5e90dd855"
+  },
+  "retro_trans_patch": {
+    "path": "work/output/vita/releases/0.1.4/SRW-Z3-Tengoku-v0.1.4-Vita-rePatch-patches.zip",
+    "bytes": 22297091,
+    "sha256": "6573a29ddfb288f483c6fa741fcf816ee388f4084d4cecb1849612c0fe76a179"
+  },
+  "vita3k_candidate_pkg_install_verified": true,
+  "existing_vita3k_0_1_1_pkg_unchanged": true,
+  "physical_confirmation": {
+    "date": "2026-11-25",
+    "source": "user report in this chat",
+    "scope": "reported first-battle correction works",
+    "full_playthrough": false
+  },
+  "vita3k_native_installer_files": 141,
+  "vita3k_0_1_4_gameplay_tested": false,
+  "publication_authorized_date": "2026-11-25",
+  "release_url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4"
+}

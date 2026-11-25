@@ -25,15 +25,15 @@ installation and all 141 file hashes. A full playthrough remains unverified.
 See [installation instructions](docs/VITA_INSTALL.md) and
 [port evidence](docs/VITA_PORT.md). Vita DLC is not included.
 
-The earlier PS3 public release [**0.5.44**](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44). It
+The earlier PS3 public release [**0.5.44**](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.5.44)
 includes the accumulated keyword-popup, deployment and news corrections,
 plus the phase/map-panel fixes and [latest reward/menu corrections](docs/REWARD_MENUS_0.5.44.md).
 Its existing Automatic routes remain available. For the newly added PS3
 0.5.51, use Apply xdelta with the downloads and instructions above.
 
-The prepared **0.5.45** candidate addresses four additional text-fitting
-reports and includes Chaos Caper. See [the corrections](docs/SCREEN_FITTING_0.5.45.md).
-Its public release requires separate explicit consent.
+The **0.5.45** corrections address four additional text-fitting reports and
+include Chaos Caper. They are carried in 0.5.51; see
+[the corrections](docs/SCREEN_FITTING_0.5.45.md).
 
 The included PS3 **0.5.51** build translates the complete DLC menu text category and
 fixes its label overlaps, summary width and native confirmation text. It

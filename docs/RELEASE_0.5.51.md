@@ -19,5 +19,9 @@ regression and patch round-trip evidence is recorded in
 `work/ui/local_release_0.5.51.json`. Live gameplay confirmation remains
 separate. See [the implementation notes](DLC_MENU_0.5.51.md).
 
-Prepared locally; creating or publishing a release requires explicit consent.
-The known RPCS3-oriented executable packaging remains unchanged.
+Published at the user's explicit request in the
+[combined PS3/Vita release](https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4)
+on 2026-11-25. The known RPCS3-oriented executable packaging remains unchanged.
+Use Retro Trans **Apply xdelta** with either PS3 download; see
+[installation instructions](PS3_INSTALL_0.5.51.md). The combined release keeps
+PS3 0.5.51 and Vita 0.1.4 as distinct build versions.

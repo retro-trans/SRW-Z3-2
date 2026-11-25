@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-25",
+  "release_url": "https://github.com/retro-trans/SRW-Z3-2/releases/tag/v0.1.4",
+  "tag": "v0.1.4",
+  "name": "PS3 0.5.51 / Vita 0.1.4 \u2014 English translation",
+  "github_published": true,
+  "versions": {
+    "ps3": "0.5.51",
+    "vita": "0.1.4",
+    "vita3k": "0.1.4"
+  },
+  "ps3_target": "RPCS3",
+  "ps3_physical_compatibility_claimed": false,
+  "ps3_source_commit": "f157b772d46a139858f1f2ea61b89e2e07aa2707",
+  "vita_source_commit": "6c9f44dc459d2917500ddde47b976bf19e4cc055",
+  "public_assets_verified": 14,
+  "original_vita_assets_unchanged": true,
+  "ps3_patches_roundtrip_verified": true,
+  "ps3_source_and_output_image_hashes_rechecked": true,
+  "retro_trans_ps3_route": "Apply xdelta",
+  "vita_automatic_entries_unchanged": true,
+  "public_artifacts": {
+    "SRW-Z3-Tengoku-v0.1.4-Vita-PKG-patches.zip": {
+      "bytes": 24262717,
+      "sha256": "64ac439338d6b4418ef1d06e382a7b0fa767700e2d78967d245aa84f0d52ef16"
+    },
+    "SRW-Z3-Tengoku-v0.1.4-Vita-rePatch-patches.zip": {
+      "bytes": 22297091,
+      "sha256": "6573a29ddfb288f483c6fa741fcf816ee388f4084d4cecb1849612c0fe76a179"
+    },
+    "VITA-PKG.json": {
+      "bytes": 32859,
+      "sha256": "83932045c3979232f269ef19860d207284a727bee39458bb501a1f585c8b7574"
+    },
+    "VITA-REPATCH.json": {
+      "bytes": 8048,
+      "sha256": "602675c6c3930b36e11c89c955272793d6c2ac5c49c222ec902d3efd749fafc2"
+    },
+    "README-VITA.txt": {
+      "bytes": 3888,
+      "sha256": "e65ddc9175a9d169a5ea0967b1dce5be457f1343c8e89b394596f9c35a5df7e0"
+    },
+    "VALIDATION.json": {
+      "bytes": 3497,
+      "sha256": "41cc08198be46f7f9b6e0d1f038477948e1e921cb5bac5739f0c3f4e64baf82b"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 556,
+      "sha256": "bac9d4336955436d975d9a661889d4a38ff00fc16724793a083a3b37a3a0435a"
+    },
+    "SRW-Z3-2-PS3-English-0.5.51-from-original.xdelta": {
+      "bytes": 204213828,
+      "sha256": "7a17aaeafb73ea37cf1594c4012c0166ddd35b560186631acb885b1b61fc92c3"
+    },
+    "SRW-Z3-2-PS3-English-0.5.51-from-0.5.44.xdelta": {
+      "bytes": 21411793,
+      "sha256": "63f6fe0487763235afb0d5f08ac9690f844896078c1ed896993ce02136e25d4f"
+    },
+    "PS3-BUILD-MANIFEST.json": {
+      "bytes": 1613,
+      "sha256": "3fea497d0dd208d5249459a93c0fcf1da3c8e7393da8d5a6eccd023a5053f26b"
+    },
+    "PS3-VALIDATION.json": {
+      "bytes": 556,
+      "sha256": "4e2f3d0817188a7353ad67ad74176f4a30361d3683738214ed1f97c5ac0ae5c8"
+    },
+    "README-PS3.txt": {
+      "bytes": 3421,
+      "sha256": "744541042945be4f8446de99e2527b711c530acf693bb5db9ef4c5c0b3a69c49"
+    },
+    "PS3-SHA256SUMS.txt": {
+      "bytes": 490,
+      "sha256": "6e1932f4e0a4840ae76e5c5689197017519381f07bb1aae1868bc3b1be726392"
+    },
+    "SHA256SUMS-ALL.txt": {
+      "bytes": 1214,
+      "sha256": "27c1db70d65f1c5ee674b93e2a5bc4e4ef9da0c4e36513dbc7c00b64d0a0d954"
+    }
+  }
+}
